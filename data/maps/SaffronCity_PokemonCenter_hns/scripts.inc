@@ -23,25 +23,13 @@ SaffronCity_PokemonCenter_EventScript_Youngster::
 	end
 
 SaffronCity_PokemonCenter1F_Text_Teacher:
-	.string "What are JOHTO's POKéMON CENTERS\n"
-	.string "like?\p"
-	.string "…Oh, I see. So they're not much\n"
-	.string "different from the ones in KANTO.\p"
-	.string "I can go to JOHTO without\n"
-	.string "worrying, then!$"
+	.string "ジョウトの　ポケモンセンターって\nどんな　かんじ？\p‥へえ　カントーと\nあまり　かわらないのね\pじゃあ　あんしん　して\nジョウトに　いけるわ！$"
 
 SaffronCity_PokemonCenter1F_Text_Fisher:
-	.string "I just happened to come through\n"
-	.string "ROCK TUNNEL.\p"
-	.string "There was some commotion at the\n"
-	.string "POWER PLANT.$"
+	.string "イワヤマトンネルを\nとおって　きたんだが\pはつでんしょで　なにか\nさわぎが　あったぞ$"
 
 SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart:
-	.string "There's an odd cave in CERULEAN.\p"
-	.string "As a pro HIKER, I should explore it,\n"
-	.string "but that place scares even me.$"
+	.string "ハナダに　へんな　どうくつが\nあるんだ\pプロの　やまおとこ　として\nしらべるべき　だが\lあそこは　おれでも　こわい$"
 
 SaffronCity_PokemonCenter1F_Text_Youngster:
-	.string "SILPH CO.'s HEAD OFFICE and the\n"
-	.string "MAGNET TRAIN STATION--they're the\l"
-	.string "places to see in SAFFRON.$"
+	.string "シルフカンパニーの　ほんしゃと\nリニアの　えき‥\lヤマブキの　みどころだよ$"

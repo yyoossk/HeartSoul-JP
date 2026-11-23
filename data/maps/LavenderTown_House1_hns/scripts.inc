@@ -24,13 +24,10 @@ LavenderTown_House1_EventScript_Marowak::
 LavenderTown_House1_Text_Girl:
 	.string "しんじられる？\pポケモンの　せわに\nあきちゃう　ひとが\lいるのよ\pおじいちゃんは　そんな\nかわいそうな　ポケモンを\lひきとって　せわを\lしているの$"
 LavenderTown_House1_Text_Guy:
-	.string "MR. FUJI does live here but he's\n"
-	.string "away now. He should be at the\l"
-	.string "SOUL HOUSE.$"
+	.string "フジろうじんは　ここに\nすんでるけど　いまは\lたましいのいえに　いるはずだ$"
 LavenderTown_House1_Text_Marowak:
 	.string ".............................$"
 
 LavenderTown_House1_Text_Marowak2:
-	.string "The MAROWAK is quiet, though it\n"
-	.string "appears quite happy.$"
+	.string "ガラガラは　おとなしいけど\nしあわせ　そうだ$"
 

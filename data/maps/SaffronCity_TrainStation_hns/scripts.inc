@@ -290,56 +290,36 @@ SaffronStation_Movement_SlideLeft:
 	step_end
 
 SaffronMagnetTrainStation_Text_OfficerTrainHasntComeIn:
-    .string "The train hasn't come in…\p"
-    .string "I know! I'll carry the passengers\n"
-    .string "on my back!\p"
-    .string "That won't work.$"
+	.string "でんしゃが　こない‥\pそうだ！　おきゃくさんを\nせおって　はこぼう！\pむりだな$"
 
 SaffronMagnetTrainStation_Text_OfficerComingAboard:
-    .string "We'll soon depart for GOLDENROD.\p"
-    .string "Are you coming aboard?$"
+	.string "まもなく　コガネゆき\nしゅっぱつ　です\pごじょうしゃ\nなさいますか？$"
 
 SaffronMagnetTrainStation_Text_OfficerRightThisWay:
-    .string "May I see your rail PASS, please?\p"
-    .string "OK. Right this way, please.$"
+	.string "リニアパスを　はいけん\nします\pはい　どうぞ　こちらへ$"
 
 SaffronMagnetTrainStation_Text_OfficerNoRailPass:
-    .string "Sorry. You don't have a rail PASS.$"
+	.string "もうしわけ　ありません\nリニアパスを　おもちで　ないですね$"
 
 SaffronMagnetTrainStation_Text_OfficerHopeToSeeYouAgain:
-    .string "We hope to see you again!$"
+	.string "また　ごりよう　ください！$"
 
 SaffronMagnetTrainStation_Text_OfficerArrivedInSaffron:
-    .string "We have arrived in SAFFRON.\p"
-    .string "We hope to see you again.$"
+	.string "ヤマブキに　とうちゃく\nしました\pまた　ごりよう\nください$"
 
 @=============================================================================================================================
 
 SaffronMagnetTrainStation_Text_Officer_TrainNotOperating:
-	.string "I'm sorry, but the MAGNET TRAIN\n"
-	.string "isn't operating now.$"
+	.string "もうしわけ　ありませんが\nリニアは　いま\lうんきゅう　しております$"
 
 SaffronMagnetTrainStation_Text_GymGuide:
-	.string "The MAGNET TRAIN is a super-modern\n"
-	.string "rail liner that uses electricity\p"
-	.string "and magnets to attain incredible\n"
-	.string "speed.\p"
-	.string "However, if there isn't any\n"
-	.string "electricity…$"
+	.string "リニアは　でんきと　じしゃくで\nものすごい　スピードを\pだす　さいしんしきの\nれっしゃ　なんだ\pでも　でんきが\nなければ‥$"
 
 SaffronMagnetTrainStation_Text_GymGuide_ReturnedPart:
-	.string "Whew…\p"
-	.string "How many times have I gone back\n"
-	.string "and forth between KANTO and JOHTO?$"
+	.string "ふう‥\pカントーと　ジョウトを\nなんかい　いったり\lきたり　したかな？$"
 
 SaffronMagnetTrainStation_Text_Teacher:
-	.string "Before the MAGNET TRAIN STATION\n"
-	.string "was built, there was a house there.\p"
-	.string "A little girl named COPYCAT used\n"
-	.string "to live there.$"
+	.string "リニアの　えきが　できる　まえ\nここには　いえが　あったの\pものまねむすめ　という\nおんなのこが　すんでいたわ$"
 
 SaffronMagnetTrainStation_Text_Lass:
-	.string "Hi. Do you have a rail PASS?\n"
-	.string "I have one.\p"
-	.string "All the people in SAFFRON who ride\n"
-	.string "the MAGNET TRAIN have PASSES.$"
+	.string "こんにちは　リニアパス\nもってる？　わたしは\lもってるわ\pリニアに　のる　ヤマブキの\nひとは　みんな　パスを\lもってるのよ$"

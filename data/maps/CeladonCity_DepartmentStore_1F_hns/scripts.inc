@@ -19,25 +19,13 @@ CeladonDept1_EventScript_Directory::
     end
 
 CeladonDeptStore_Text_1FReceptionist:
-    .string "Hello! Welcome to CELADON DEPT.\n"
-    .string "STORE!\p"
-    .string "The directory is on the wall.$"
+	.string "こんにちは！\nタマムシデパートへ　ようこそ！\pあんないばんは　かべに\nございます$"
 
 CeladonDeptStore_Text_1FGentleman:
-    .string "This DEPT.STORE is part of the same\n"
-    .string "chain as the one in GOLDENROD CITY.\p"
-    .string "They were both renovated at the same\n"
-    .string "time.$"
+	.string "この　デパートは　コガネシティの\nデパートと　おなじ\lチェーンなんだ\pどちらも　おなじ　ときに\nかいそう　されたんだよ$"
 
 CeladonDeptStore_Text_1FTeacher:
-    .string "This is my first time here.\p"
-    .string "It's so big…\p"
-    .string "I'm afraid I'll get lost.$"
+	.string "ここに　くるのは\nはじめて\pひろくて‥\pまいごに　なりそう$"
 
 CeladonDeptStore_Text_1FDirectory:
-    .string "1F: SERVICE COUNTER\p"
-    .string "2F: TRAINER'S MARKET\p"
-    .string "3F: TM SHOP\p"
-    .string "4F: WISEMAN GIFTS\p"
-    .string "5F: DRUG STORE\p"
-    .string "6F: ROOFTOP SQUARE$"
+	.string "1F　サービスカウンター\p2F　トレーナーズマーケット\p3F　わざマシンショップ\p4F　ギフトショップ\p5F　くすりやさん\p6F　おくじょう　ひろば$"

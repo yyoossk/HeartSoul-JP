@@ -53,80 +53,38 @@ LavenderTown_RadioStation_EventScript_Library::
 	end
 
 LavenderTown_RadioStation_Text_Receptionist:
-	.string "Welcome! Feel free to look around\n"
-	.string "anywhere on this floor.$"
+	.string "いらっしゃいませ！　この　かいは\nじゆうに　ごらん　ください$"
 
 LavenderTown_RadioStation_Text_Officer:
-	.string "Sorry, but you can only tour the\n"
-	.string "ground floor.\p"
-	.string "Ever since JOHTO's RADIO TOWER\n"
-	.string "was taken over by a criminal gang,\l"
-	.string "we have had to step up our\l"
-	.string "security.$"
+	.string "すみませんが　けんがく\nできるのは　1かい　だけです\pジョウトの　ラジオとうが　はんざい\nグループに　のっとられて　から\lけいびを　きょうか　して\lいるんです$"
 
 LavenderTown_RadioStation_Text_SuperNerd1:
-	.string "Many people are hard at work here\n"
-	.string "in the RADIO TOWER.\p"
-	.string "They must be doing their best to\n"
-	.string "put on good shows.$"
+	.string "この　ラジオとうでは　たくさんの\nひとが　はたらいて　いる\pいい　ばんぐみを　つくるために\nがんばってるんだろうな$"
 
 LavenderTown_RadioStation_Text_Gentleman:
-	.string "Oh, no, no, no!\p"
-	.string "We've been off the air ever since\n"
-	.string "the POWER PLANT shut down.\p"
-	.string "All my efforts to start this\n"
-	.string "station would be wasted if I can't\l"
-	.string "broadcast.\p"
-	.string "I'll be ruined!$"
+	.string "ああ　だめだ　だめだ！\pはつでんしょが　とまってから\nほうそうが　できないんだ\pほうそう　できなければ\nこの　きょくを　つくった\lくろうが　みずの　あわだ\pもう　おしまいだ！$"
 
 LavenderTown_RadioStation_Text_Gentleman_ReturnedMachinePart:
-	.string "Ah! So you're the {PLAYER} who\n"
-	.string "solved the POWER PLANT's problem?\p"
-	.string "Thanks to you, I never lost my\n"
-	.string "job.\p"
-	.string "I tell you, you're a real\n"
-	.string "lifesaver!\p"
-	.string "Please take this as my thanks.$"
+	.string "おお！　きみが　はつでんしょの\nもんだいを　かいけつ　した\l{PLAYER}くん　だね？\pおかげで　しごとを\nうしなわずに　すんだよ\pきみは　いのちの\nおんじんだ！\pおれいに　これを\nうけとって　くれ$"
 
 LavendertownRadioStation_Text_Upgraded_Radio:
-	.string "{PLAYER} obtained the\n"
-	.string "RADIO UPGRADE!$"
+	.string "{PLAYER}は\nかくちょうカードを　もらった！$"
 
 LavenderTown_RadioStation_Text_Gentleman_GotExpnCard:
-	.string "With that thing, you can tune into\n"
-	.string "the radio programs here in KANTO.\p"
-	.string "Gahahahaha!$"
+	.string "それが　あれば　カントーの\nラジオばんぐみも　きけるぞ\pがはははは！$"
 
 LavenderTown_RadioStation_Text_SuperNerd2:
-	.string "Hey there!\p"
-	.string "I am the super MUSIC DIRECTOR!\p"
-	.string "Huh? Your RADIO can't tune into\n" @POKéGEAR
-	.string "my music programs. How unfortunate!\p"
-	.string "If you get an EXPN CARD upgrade,\n"
-	.string "you can tune in. You'd better get\l"
-	.string "one!$"
+	.string "やあ！\pぼくは　スーパー\nおんがく　ディレクター！\p"
 
 LavenderTown_RadioStation_Text_SuperNerd2_GotExpnCard:
-	.string "Hey there!\p"
-	.string "I am the super MUSIC DIRECTOR!\p"
-	.string "I'm responsible for the gorgeous\n"
-	.string "melodies that go out over the air.\p"
-	.string "Don't be square. Grab your music\n"
-	.string "off the air!$"
+	.string "やあ！\pぼくは　スーパー\nおんがく　ディレクター！\pでんぱに　のる　すてきな\nメロディーは　ぼくの　しごと\pかたい　こと　いわずに\nおんがくを　きいてよ！$"
 
 LavenderTown_RadioStation_Text_Directory:
-	.string "1F RECEPTION 2F SALES\p"
-	.string "3F PERSONNEL 4F PRODUCTION\p"
-	.string "5F DIRECTOR'S OFFICE$"
+	.string "1F　うけつけ　2F　えいぎょうぶ\p3F　じんじぶ　4F　せいさくぶ\p5F　きょくちょうしつ$"
 
 LavenderTown_RadioStation_Text_PokeFluteSign:
-	.string "Perk Up POKéMON with Mellow\n"
-	.string "Sounds of the POKé FLUTE on\l"
-	.string "CHANNEL 20$"
+	.string "ポケモンの　ふえの　しらべで\nポケモンも　げんきに！\lチャンネル20$"
 
 LavenderTown_RadioStation_Text_ReferenceLibrary:
-	.string "Wow! A full rack of POKéMON CDs\n"
-	.string "and videos.\p"
-	.string "This must be the reference\n"
-	.string "library.$"
+	.string "うわあ！　ポケモンの　CDや\nビデオが　ぎっしりだ\pここは　しりょうしつ\nらしい$"
 

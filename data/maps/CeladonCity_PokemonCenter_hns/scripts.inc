@@ -19,37 +19,16 @@ CeladonCity_PokemonCenter_EventScript_Eusine::
 	end
 
 CeladonCity_PokemonCenter1F_Text_CooltrainerF:
-	.string "ERIKA is a master of grass\n"
-	.string "POKéMON.\p"
-	.string "She'll make you pay if you don't\n"
-	.string "watch yourself.$"
+	.string "エリカさんは　くさポケモンの\nたつじん\pゆだん　すると\nいたい　めに　あうわよ$"
 
 CeladonCity_PokemonCenter1F_Text_Pharmacist:
-	.string "TEAM ROCKET's hideout is in the\n"
-	.string "basement of the GAME CORNER.\p"
-	.string "Oh, wait. That was three years\n"
-	.string "ago.$"
+	.string "ロケットだんの　アジトは\nゲームコーナーの　ちかに\lあるんだ\pおっと　それは　3ねんまえの\nはなし　だった$"
 
 Celadon_Text_Eusine1:
-	.string "EUSINE: Hi!\p"
-	.string "I'm back visiting my hometown.\p"
-	.string "It's been quite a while.$"
+	.string "ミナキ『やあ！\pふるさとに　かえって\nきたんだ\pずいぶん　ひさしぶりだよ$"
 
 Celadon_Text_EusineLeaves:
-	.string "{PLAYER}, have you heard?\p"
-	.string "There have been fresh rumors of a\n"
-	.string "rainbow-colored POKéMON\n"
-	.string "appearing at TIN TOWER.\p"
-	.string "I've just had my party healed,\n"
-	.string "so now I'm headed to ECRUTEAK.\p"
-	.string "I'll be seeing you, {PLAYER}!$"
+	.string "{PLAYER}くん　きいたかい？\pスズのとうに　にじいろの\nポケモンが　あらわれたと\lいう　うわさが　あるんだ\pポケモンも　かいふく　したし\nいまから　エンジュへ　いくよ\pまたね　{PLAYER}くん！$"
 
 Celadon_Text_NoBeasts:
-	.string "Oh, by the way, {PLAYER}.\p"
-	.string "Have you caught the legendary\n"
-	.string "POKéMON RAIKOU and ENTEI?\p"
-	.string "<……><……><……>\p"
-	.string "Okay…\p"
-	.string "If you catch even one, I hope\n"
-	.string "that you'll inform me.\p"
-	.string "I'm counting on you, {PLAYER}!$"
+	.string "そうそう　{PLAYER}くん\pでんせつの　ポケモン　ライコウと\nエンテイは　つかまえたかい？\p‥‥‥‥‥‥\pそうか‥\pもし　1ぴきでも　つかまえたら\nおしえて　ほしいな\pたのんだよ　{PLAYER}くん！$"

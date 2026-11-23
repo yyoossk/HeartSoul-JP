@@ -15,20 +15,10 @@ CeladonCity_Apartments_2F_EventScript_Sign::
 	end
 
 CeladonMansion2F_Text_Computer:
-	.string "{PLAYER} turned on the PC.\p"
-	.string "…\p"
-	.string "Someone was in the middle of\n"
-	.string "composing an e-mail.\p"
-	.string "…I hope you'll come visit KANTO.\p"
-	.string "I think you'll be surprised at\n"
-	.string "how much things have changed here.\p"
-	.string "You'll also see many POKéMON that\n"
-	.string "aren't native to JOHTO.\p"
-	.string "To the PRODUCER\p"
-	.string "…$"
+	.string "{PLAYER}は　パソコンの\nスイッチを　いれた\p‥\pだれかが　メールを\nかいている　とちゅう　だった\p‥ぜひ　カントーへ\nあそびに　きてください\pずいぶん　かわったので\nおどろくと　おもいます\pジョウトに　いない\nポケモンも　たくさん　みられます\pプロデューサーへ\p‥$"
 
 CeladonMansion2F_Text_DevOfficeSign:
-	.string "HEART & SOUL DEVELOPMENT OFFICE$"
+	.string "ハートアンドソウル\nかいはつしつ$"
 
 CeladonMansion2F_EventScript_LilDill::
 	msgbox CeladonMansion2F_Text_LilDill, MSGBOX_NPC
@@ -55,48 +45,19 @@ CeladonMansion2F_EventScript_DaniRainbow::
     end
 
 CeladonMansion2F_Text_LilDill:
-	.string "Hi all, Patch 15--\p"
-	.string "Sorry, I mean...\p"
-	.string "Hi there, I'm the GAME DIRECTOR!\p"
-	.string "I built the maps, the tilesets, the\n"
-	.string "the scripts, and much more.\p"
-	.string "But I couldn't have done it without\n"
-	.string "the other devs and the playtesters.\p"
-	.string "Thank you for playing! I hope you've\n"
-	.string "enjoyed POKéMON HEART & SOUL.$"
+	.string "みなさん　こんにちは\nパッチ15‥\pじゃなくて‥\pやあ　ぼくが\nゲームディレクター！\pマップや　タイルセット\nスクリプトなどを　つくったよ\pでも　ほかの　かいはつしゃや\nテストプレイヤーが　いなければ\lできなかった\pあそんで　くれて　ありがとう！\nハートアンドソウルを\lたのしんで　くれたかな？$"
 
 CeladonMansion2F_Text_InfiniteBacon:
-	.string "We're working to rebuild this game\n"
-	.string "in pokeemerald expansion!$"
+	.string "この　ゲームを　ポケエメラルド\nエクスパンションで\lつくりなおして　いるんだ！$"
 
 CeladonMansion2F_Text_TixoRebel:
-	.string "Have you heard of THE EGGENING?\n"
-	.string "It was a bug from the playtest\l"
-	.string "that randomly changed POKéMON into\l"
-	.string "EGGs!\p"
-	.string "I developed the fix for it!$"
+	.string "タマゴかじけんって\nしってる？\pテストプレイで　みつかった\nバグで　ポケモンが　ランダムに\lタマゴに　なっちゃったんだ！\pその　しゅうせいは\nぼくが　したんだよ！$"
 
 CeladonMansion2F_Text_Phant:
-	.string "I love DEMAKES!\p"
-	.string "Have you played SWORD AND SHIELD\n"
-	.string "ULTIMATE PLUS - ENGLISH?\l"
-	.string "I translated it!\p"
-	.string "For my next DEMAKE, I think I'll\n"
-	.string "do ALOLA!$"
+	.string "デメイクが　だいすき！\pソード　シールド　アルティメット\nプラスの　えいごばん\lあそんだ？　ぼくが\lほんやく　したんだ！\pつぎの　デメイクは\nアローラに　しようかな！$"
 
 CeladonMansion2F_Text_Exclsior:
-	.string "I implemented the unique surfing\n"
-	.string "surfing sprites for each POKéMON!\p"
-	.string "Since the project is OPEN SOURCE,\n"
-	.string "you can add your own features too!$"
+	.string "ポケモンごとの　なみのりの\nグラフィックは　ぼくが\lいれたんだ！\pオープンソースの　プロジェクト\nだから　きみも　きのうを\lついか　できるよ！$"
 
 CeladonMansion2F_Text_DaniRaibow:
-	.string "Hi!\p"
-	.string "I am pretty good at finding problems,\n"
-	.string "and can fix little ones.\p"
-    .string "Wanna hear a joke?\p"
-    .string "Lance tried to teach DRAGONITE the\n"
-    .string "move DRAGON BREATH.\p"
-    .string "However, DRAGONITE was moving too\n"
-    .string "fast from EXTREMESPEED; it couldn't\l"
-    .string "catch it!$"
+	.string "やあ！\pもんだいを　みつけるのが\nとくいで　ちいさな　ものなら\lなおせるよ\pジョーク　ききたい？\pワタルが　カイリューに\nりゅうのいぶきを　おしえようと\lした\pでも　カイリューは\nしんそくで　はやすぎて\lうけとれなかった！$"

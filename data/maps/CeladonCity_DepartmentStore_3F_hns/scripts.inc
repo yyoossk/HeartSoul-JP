@@ -43,26 +43,17 @@ CeladonDept3_EventScript_Directory::
 	end
 
 CeladonDeptStore3F_Text_Youngster:
-	.string "I can't decide which POKéMON I\n"
-	.string "should use this TM on…$"
+	.string "この　わざマシン　どの\nポケモンに　つかおうかな‥$"
 
 CeladonDeptStore3F_Text_GameboyKid1:
-	.string "Uh-oh! I traded my POKéMON without\n"
-	.string "removing the UPGRADE from it.$"
+	.string "しまった！　アップグレードを\nもたせた　まま　ポケモンを\lこうかん　しちゃった$"
 
 CeladonDeptStore3F_Text_GameboyKid2:
-	.string "Yeah! I'm finally getting a\n"
-	.string "PORYGON!\p"
-	.string "I'm no good at the slots, so I\n"
-	.string "could never get enough coins…\p"
-	.string "…Huh?\p"
-	.string "The traded PORYGON turned into a\n"
-	.string "different POKéMON!$"
+	.string "やった！　やっと\nポリゴンが　てに　はいる！\pスロットが　へただから\nコインが　たまらなくて‥\p‥あれ？\pこうかん　した　ポリゴンが\nべつの　ポケモンに\lなっちゃった！$"
 
 CeladonDeptStore3F_Text_SuperNerd:
-	.string "The TM SHOP sells some rare moves.$"
+	.string "わざマシンショップには\nめずらしい　わざも　あるよ$"
 
 CeladonDeptStore3F_Text_Directory:
-	.string "3F: TM SHOP\p"
-	.string "Make Your POKéMON Stronger!$"
+	.string "3F　わざマシンショップ\pポケモンを　つよく　しよう！$"
 

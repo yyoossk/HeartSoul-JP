@@ -54,47 +54,35 @@ CeladonCity_House1_EventScript_Sign::
 	end
 
 CeladonCity_House1_Text_ChefEatathon:
-	.string "Hi!\p"
-	.string "We're holding an eatathon contest.\p"
-	.string "We can't serve you right now.\n"
-	.string "Sorry.$"
+	.string "いらっしゃい！\pいま　おおぐい　たいかいを\nやって　いるんだ\pわるいけど　いまは\nだせないんだ$"
 
 CeladonCity_House1_Text_Fisher1Snarfle:
-	.string "…Snarfle, chew…$"
+	.string "‥がつがつ　もぐもぐ‥$"
 
 CeladonCity_House1_Text_Fisher1Concentration:
-	.string "Don't talk to me!\p"
-	.string "You'll break my concentration!$"
+	.string "はなしかけるな！\pしゅうちゅうが\nきれる！$"
 
 CeladonCity_House1_Text_Fisher2GulpChew:
-	.string "…Gulp… Chew…$"
+	.string "‥ごくん‥　もぐもぐ‥$"
 
 CeladonCity_House1_Text_Fisher2Quantity:
-	.string "I take quantity over quality!\p"
-	.string "I'm happy when I'm full!$"
+	.string "しつ　より　りょうだ！\pおなか　いっぱいなら\nしあわせ！$"
 
 CeladonCity_House1_Text_Fisher3MunchMunch:
-	.string "Munch, munch…$"
+	.string "むしゃ　むしゃ‥$"
 
 CeladonCity_House1_Text_Fisher3GoldenrodIsBest:
-	.string "The food is good here, but\n"
-	.string "GOLDENROD has the best food\l"
-	.string "anywhere.$"
+	.string "ここの　りょうりも　うまいが\nいちばん　うまいのは\lコガネだな$"
 
 CeladonCity_House1_Text_TeacherCrunchCrunch:
-	.string "Crunch… Crunch…$"
+	.string "ぽりぽり‥　ぽりぽり‥$"
 
 CeladonCity_House1_Text_TeacherNoCoinCase:
-	.string "Nobody here will give you a COIN\n"
-	.string "CASE. You should look in JOHTO.$"
+	.string "ここでは　だれも　コインケースは\nくれないわよ\lジョウトで　さがしてね$"
 
 CeladonCity_House1_Text_TeacherKeepEating:
-	.string "Crunch… Crunch…\p"
-	.string "I can keep eating!\p"
-	.string "More, CHEF!$"
+	.string "ぽりぽり‥　ぽりぽり‥\pまだ　たべられる！\pおかわり！$"
 
 CeladonCity_House1_Text_EatathonContestPoster:
-	.string "Eatathon Contest! No time limit!\p"
-	.string "A battle without end! The biggest\n"
-	.string "muncher gets it all for free!$"
+	.string "おおぐい　たいかい！\nじかん　むせいげん！\pおわりなき　たたかい！\nいちばん　たべた　ひとは\lただ！$"
 

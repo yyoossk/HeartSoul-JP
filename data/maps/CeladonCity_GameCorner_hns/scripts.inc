@@ -86,47 +86,28 @@ CeladonGameCorner_EventScript_Woman::
 	end
 
 CeladonGameCorner_Text_PokefanM:
-	.string "The slot machines are all state\n"
-	.string "of the art.$"
+	.string "スロットは　ぜんぶ\nさいしんしき　だよ$"
 
 CeladonGameCorner_Text_Teacher:
-	.string "It's this machine I want.\p"
-	.string "It cleaned me out yesterday, so it\n"
-	.string "should pay out today.$"
+	.string "ほしいのは　この　だいよ\pきのう　ぼろまけ　したから\nきょうは　でるはず$"
 
 CeladonGameCorner_Text_FishingGuru:
-	.string "I think this slot machine will pay\n"
-	.string "out…\p"
-	.string "The odds vary among machines.$"
+	.string "この　スロットは　でる\nきが　する‥\pだいに　よって　でかたが\nちがうんだ$"
 
 CeladonGameCorner_Text_Fisher1:
-	.string "Gahahaha!\p"
-	.string "The coins just keep coming in!\p"
-	.string "Hm? What, kid? You want to play?\p"
-	.string "I'll share my luck with you!$"
+	.string "がはははは！\pコインが　どんどん\nでてくるぞ！\pん？　なんだ　ぼうず？\nあそびたいのか？\pおれの　うんを　わけて\nやろう！$"
 
 CeladonGameCorner_Text_Fisher2:
-	.string "Gahahaha!\p"
-	.string "It makes me feel good to do nice\n"
-	.string "things for other people!$"
+	.string "がはははは！\pひとに　いい　ことを　すると\nきもちが　いいな！$"
 
 CeladonGameCorner_Text_GymGuide:
-	.string "Hey! CHAMP in making!\p"
-	.string "Are you playing the slots too?\p"
-	.string "I'm trying to get enough coins for\n"
-	.string "a prize POKéMON.\p"
-	.string "But I don't have enough coins yet…$"
+	.string "よう！　みらいの　チャンピオン！\pきみも　スロットかい？\pけいひんの　ポケモンが\nほしくて　コインを\lためてるんだ\pでも　まだ　たりなくて‥$"
 
 CeladonGameCorner_Text_PokefanF:
-	.string "Roulette…\p"
-	.string "I prefer it over the slots because\n"
-	.string "it's easier to figure the odds.\p"
-	.string "But the payout is much lower.$"
+	.string "ルーレット‥\pスロットより　かくりつが\nよみやすいから　すきなの\pでも　はいとうが\nずっと　すくないのよね$"
 
 CeladonGameCorner_Text_Gramps:
-	.string "Hmmm… The odds are surely\n"
-	.string "better putting it all on blue,\l"
-	.string "but… what to do?$"
+	.string "うーむ‥　あおに　ぜんぶ\nかけた　ほうが　かくりつは\lいいが‥　どうしたものか$"
 
 CeladonGameCorner_Text_Woman:
-	.string "I can't stop winning!$"
+	.string "かちが　とまらない！$"

@@ -28,43 +28,14 @@ CeladonCity_Apartments_RoofHouse_EventScript_BlackBeltAfter::
 	end
 
 CeladonMansionRoofHouse_Text_PharmacistIntro:
-	.string "Let me recount a terrifying tale…$"
+	.string "こわい　はなしを\nしてあげよう‥$"
 
 CeladonMansionRoofHouse_Text_PharmacistNotNight:
-	.string "Then again, it's not as scary\n"
-	.string "while it's still light outside.\p"
-	.string "Come back after sunset, OK?$"
+	.string "いや　そとが　あかるい\nうちは　こわく　ないな\pひが　くれたら\nまた　おいで$"
 
 CeladonMansionRoofHouse_Text_PharmacistStory:
-	.string "Once upon a time, there was a\n"
-	.string "little boy who was given a new\l"
-	.string "BICYCLE…\p"
-	.string "He wanted to try it right away…\p"
-	.string "He was having so much fun that\n"
-	.string "he didn't notice the sun had set…\p"
-	.string "While riding home in the pitch-\n"
-	.string "black night, the bike suddenly\l"
-	.string "slowed!\p"
-	.string "The pedals became heavy!\p"
-	.string "When he stopped pedaling, the\n"
-	.string "bike began slipping backwards!\p"
-	.string "It was as if the bike were cursed\n"
-	.string "and trying to drag him into\l"
-	.string "oblivion!\p"
-	.string "…\p"
-	.string "…\p"
-	.string "SHRIEEEEK!\p"
-	.string "The boy had been riding uphill on\n"
-	.string "CYCLING ROAD!\p"
-	.string "…\n"
-	.string "Ba-dum ba-dum!\p"
-	.string "For listening so patiently, you\n"
-	.string "may take this--TM82!$"
+	.string "むかし　むかし　あたらしい\nじてんしゃを　かって\lもらった　おとこのこが\lいた‥\pすぐに　のって\nみたく　なった‥\pあんまり　たのしくて\nひが　くれたのにも\lきづかなかった‥\pまっくらな　よみちを\nかえって　いると　きゅうに\lじてんしゃが　おそく　なった！\pペダルが　おもく\nなったんだ！\pこぐのを　やめると　じてんしゃが\nうしろへ　さがりはじめた！\pまるで　のろわれた　じてんしゃが\nやみの　なかへ　ひきずりこもうと\lして　いるようだった！\p‥\p‥\pぎゃああああ！\pおとこのこは　サイクリングロードの\nのぼりざかを　はしって\lいたのさ！\p‥\nどきっ　どきっ！\pしんぼう　づよく　きいて　くれた\nおれいに　わざマシン82を\lあげよう！$"
 
 CeladonMansionRoofHouse_Text_PharmacistCurse:
-	.string "TM82 is SLEEP TALK.\p"
-	.string "It will allow your POKéMON to use\n"
-	.string "a random move while asleep.\p"
-	.string "But good luck sleeping after that\n"
-	.string "terrifying tale!$"
+	.string "わざマシン82は\nねごと\pポケモンが　ねむって　いる\nあいだ　ランダムに\lわざを　だすんだ\pでも　あの　こわい　はなしの\nあとで　ねむれる　かな？$"
 
