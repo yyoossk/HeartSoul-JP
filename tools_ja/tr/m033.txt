@@ -1,0 +1,197 @@
+## data/maps/BattleFrontier_BattlePikeThreePathRoom_hns/scripts.inc
+@@BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1_hns
+いまは　1ばんめの\nへや　です‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3_hns
+いまは　3ばんめの\nへや　です‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5_hns
+いまは　5ばんめの\nへや　です‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7_hns
+いまは　7ばんめの\nへや　です‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9_hns
+いまは　9ばんめの\nへや　です‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1_hns1_hns
+いまは　11ばんめの\nへや　です‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1_hns3_hns
+いまは　13ばんめの\nへや　です‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge_hns
+ちょうせんを\nつづけますか？
+@@BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit_hns
+ちょうせんを　レポート　して\nいったん　ゲームを\lおわりますか？
+@@BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge_hns
+みちえらびバトルの\nちょうせんを　リタイア\lしますか？
+@@BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume_hns
+おまち　して　おりました‥\pちょうせんを　さいかい　する\nまえに　レポートを\lかきます‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge_hns
+みちえらびバトルを\nおたのしみ　ください‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData_hns
+レポートを　かいて　います‥\nしばらく　おまちを‥
+@@BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack_hns
+みちが　ふさがって　いる！\nもう　もどれない‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose_hns
+しつれい　ですが‥\pみちを　えらぶのに\nまよって　おられますか？
+@@BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence_hns
+そうですか‥\nさしでがましい　ことを‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath_hns
+ふむ‥　みぎの　みちから\nなにかを　かんじます‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath_hns
+ふむ‥　まんなかの　みちから\nなにかを　かんじます‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath_hns
+ふむ‥　ひだりの　みちから\nなにかを　かんじます‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon_hns
+ポケモンの　においが\nただよって　くる　ようです‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople_hns
+トレーナー‥？\nひとの　けはいを\lかんじます‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering_hns
+なにか　きこえた\nような‥\lささやき　ごえ　かも‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga_hns
+なぜか　なつかしい\nかんじが　します‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent_hns
+もうしあげにくい　ですが‥\pおそろしい　ことが\nあなたに　ふりかかろう\lと　して　います‥\pじゅうぶん　ちゅうい　して\nさいあくに　そなえて\lください‥
+@@BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence_hns
+どの　みちからも\nおそろしい　けはいを\lかんじます‥
+## data/maps/BattleFrontier_BattlePikeRoomNormal_hns/scripts.inc
+@@BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth_hns
+ようこそ‥\nあなたの　うんは\lすばらしい‥\pポケモンを\nかいふく　しましょう‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge_hns
+のこりの　みちえらびバトルも\nおたのしみ　ください‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon_hns
+あら　ついてるわね\nいま　きぶんが　いいの\pポケモンを　1ぴき\nかいふく　して　あげる
+@@BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell_hns
+がんばって\nさようなら
+@@BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons_hns
+すみません‥\pしょうぶ　しませんか？\nかったら　ポケモンを\lかいふく　します
+@@BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe_hns
+よろしい‥\nでは　まいりましょうか？
+@@BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou_hns
+そうですか‥\nいくじが　ないのですね‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised_hns
+おみごと‥\pやくそく　どおり　ポケモンを\nかいふく　しましょう
+@@BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell_hns2_hns
+がんばって\nさようなら
+@@BattleFrontier_BattlePikeRoomNormal_Text_WatchOut_hns
+あら　まあ！\pあぶない！
+@@BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop_hns
+こら　こら！\nキルリア　やめなさい！
+@@BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop_hns
+こら　こら！\nサマヨール　やめなさい！
+@@BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic_hns
+キルリアの　どくどく！
+@@BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis_hns
+キルリアの　さいみんじゅつ！
+@@BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave_hns
+キルリアの　でんじは！
+@@BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp_hns
+キルリアの　おにび！
+@@BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp_hns
+サマヨールの　おにび！
+@@BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam_hns
+サマヨールの　れいとうビーム！
+@@BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough_hns
+ちょっと！\nもう　いいでしょう！
+@@BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia_hns
+ごめんなさい‥\pうちの　キルリアは\nおくびょうな　せいかくで‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops_hns
+ごめんなさい‥\pうちの　サマヨールは\nおくびょうな　せいかくで‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled_hns
+ひとに　おどろくと　いきなり\nこうげき　して　しまうの‥\pあなたも　ポケモンも\nだいじょうぶ？
+@@BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine_hns
+ほんとうに　ごめんなさい‥\nポケモンが　ぶじだと\lいいのですが
+@@BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer_hns
+ようこそ‥\pここでは　すこし　つよい\nトレーナーと　たたかって\lもらいます‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth_hns
+すばらしい‥\pしょうりを　たたえ\nポケモンを　かいふく\lしましょう‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge_hns2_hns
+のこりの　みちえらびバトルも\nおたのしみ　ください‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen_hns
+わたしは　アザミ‥\nここでは　わたしが\lルール‥\lチューブクイーン　だから‥\pしってる　だろうけど\nさきへ　すすむには\lわたしを　たおすこと‥\p‥むだばなしは　しない\nはやく　きな‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck_hns
+あんたの　うん‥\nここで　つかいはたして\lないと　いいね‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass_hns
+アザミ『‥　‥　‥　‥　‥　‥\nフロンティアパスを\lみせな‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol_hns
+フロンティアパスに\nラックシンボルが\lきざまれた！
+@@BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear_hns
+‥それだけ‥\nさっさと　きえな‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain_hns
+アザミ『‥また　あんたか‥\p‥　‥　‥　‥　‥　‥\p‥はなを　ふみつけ\nあらしを　こえて\lここまで　きた‥\pおなじ　あいてに　まけ\nつづける　つもりは　ない‥\p‥　‥　‥　‥　‥　‥\nいいよ‥　やるよ‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn_hns
+さあ！\nきな！
+@@BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass_hns
+アザミ『‥　‥　‥　‥　‥　‥\p‥フロンティアパス‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine_hns
+ラックシンボルが\nきんいろに　かがやいた！
+@@BattleFrontier_BattlePikeRoomNormal_Text_IWontForget_hns
+‥あんたの　ことは\nわすれない‥\l‥ずっと‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal_hns
+ようこそ‥\pうふふ‥\nうんが　ない　ようね‥\pこの　へやを　えらばなければ\nポケモンを　かいふく\lできたのに‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne_hns
+ようこそ‥\pこの　へやを　えらんだ　ので\nポケモンを　1ぴき\lかいふく　しましょう‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo_hns
+ようこそ‥\pこの　へやを　えらんだ　ので\nポケモンを　2ひき\lかいふく　しましょう‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons_hns
+ようこそ‥\pうふふ‥\nうんに　かんしゃ　なさい‥\pこの　へやを　えらんだ　ので\nポケモンを　ぜんぶ\lかいふく　しましょう‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster_hns
+あるじを　および\nします‥
+@@BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons_hns
+あら　ついてるわね！\nいま　きぶんが　いいの\pポケモンを　2ひき\nかいふく　して　あげる！
+## data/maps/BattleFrontier_BattlePikeRoomFinal_hns/scripts.inc
+@@BattleFrontier_BattlePikeRoomFinal_Text_CongratsThisWayPlease_hns
+おめでとう　ございます‥\nこちらへ　どうぞ‥
+## data/maps/BattleFrontier_RankingHall_hns/scripts.inc
+@@BattleFrontier_RankingHall_Text_ExplainRankingHall_hns
+ここは　ランキングホール\pバトルフロンティアで　すばらしい\nきろくを　のこした　トレーナーを\lたたえる　ばしょ　です
+@@BattleFrontier_RankingHall_Text_DomePikeFactoryRecords_hns
+バトルドーム　チューブ\nファクトリーの　きろく
+@@BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords_hns
+バトルパレス　アリーナ\nピラミッドの　きろく
+@@BattleFrontier_RankingHall_Text_IsYourNameOnThisList_hns
+やあ　この　リストに\nきみの　なまえは　ある？
+@@BattleFrontier_RankingHall_Text_WowThatsSuper_hns
+わあ　すごい！\nぼくも　がんばらなきゃ！
+@@BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName_hns
+そうなんだ？\pともだちの　なまえが　あったら\nもっと　がんばる　きに\lなるよね！
+@@BattleFrontier_RankingHall_Text_MyNamesNotUpThere_hns
+うーん‥\nぼくの　なまえは　ない‥\pまあ　まだ　ちょうせん\nして　ないから\lとうぜん　だけど
+## data/maps/BattleFrontier_Lounge1_hns/scripts.inc
+@@BattleFrontier_Lounge1_Text_PokemonBreederIntro_hns
+わしは　70ねん　ポケモンを\nそだてて　きた！\lでんせつの　ポケモンブリーダーと\lあがめられて　おる！\pわしほど　ベテランに　なれば\nポケモンの　のうりょくは\lひとめで　わかる\pおぬしも　トレーナー　なら\nじぶんの　ポケモンの　のうりょくを\lしりたい　じゃろう？\pどれ！\nポケモンを　みせて　みい！
+@@BattleFrontier_Lounge1_Text_AverageAbility_hns
+‥ふむ‥\pこやつは　ぜんたいてきに\nへいきんてきな　のうりょくじゃ
+@@BattleFrontier_Lounge1_Text_BetterThanAverageAbility_hns
+‥ふむ‥\pこやつは　ぜんたいてきに\nへいきん　いじょうの\lのうりょくじゃ
+@@BattleFrontier_Lounge1_Text_ImpressiveAbility_hns
+‥ふむ‥\pこやつは　ぜんたいてきに\nかなり　すぐれた\lのうりょくじゃ！
+@@BattleFrontier_Lounge1_Text_OutstandingAbility_hns
+‥ふむ‥\pこやつは　ぜんたいてきに\nすばらしく　ずばぬけた\lのうりょくじゃ！
+@@BattleFrontier_Lounge1_Text_BestAspectHP_hns
+ちなみに　いちばん　いいのは\nHP　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectAtk_hns
+ちなみに　いちばん　いいのは\nこうげき　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectDef_hns
+ちなみに　いちばん　いいのは\nぼうぎょ　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectSpAtk_hns
+ちなみに　いちばん　いいのは\nとくこう　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectSpDef_hns
+ちなみに　いちばん　いいのは\nとくぼう　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectSpeed_hns
+ちなみに　いちばん　いいのは\nすばやさ　じゃな‥
+@@BattleFrontier_Lounge1_Text_StatRelativelyGood_hns
+その　のうりょくは　わりと\nいい‥　ふむ‥\lわしは　そう　みるぞ
+@@BattleFrontier_Lounge1_Text_StatImpressive_hns
+その　のうりょくは　かなり\nすぐれて　おる‥　ふむ‥\lわしは　そう　みるぞ
+@@BattleFrontier_Lounge1_Text_StatOutstanding_hns
+その　のうりょくは\nずばぬけて　おる！　ふむ‥\lわしは　そう　みるぞ
+@@BattleFrontier_Lounge1_Text_StatFlawless_hns
+かんぺきじゃ！　もうしぶん\nない！　ふむ‥\lわしは　そう　みるぞ
+@@BattleFrontier_Lounge1_Text_NoTimeForMyAdvice_hns
+なに？\nわしの　はなしを　きく\lひまは　ない　じゃと？\pとしよりの　けいけんには\nいつでも　まなぶ　ものじゃ！
+@@BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending_hns
+なんじゃ　こんどは？\pわしは　いそがしいんじゃ！\nまた　こんどに　せい！
+@@BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon_hns
+おお　わかいの！　ポケモンの\nのうりょくが　きになるか？\pどれ　どれ！\nポケモンを　みせて　みい！
+@@BattleFrontier_Lounge1_Text_EvenICantTell_hns
+わしでも　うまれて　おらん\nポケモンの　ことは\lわからんわい！\pポケモンを　みせい！\nみたいのは　ポケモンじゃ！
+@@BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding_hns
+わたしの　ポケモン\nずばぬけてるって！\lだいじに　そだてて\lよかった！
+@@BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt_hns
+わたしの　ポケモン\nずばぬけてるって！\lでも　とくべつな　ことは\lなにも　してないのに‥

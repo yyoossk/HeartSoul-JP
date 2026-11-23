@@ -274,166 +274,89 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain_hns::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike_hns:
-	.string "Where the luck of TRAINERS\n"
-	.string "is put to the test…\p"
-	.string "Welcome to the BATTLE PIKE…\p"
-	.string "I am your guide to the BATTLE PIKE…$"
+	.string "トレーナーの　うんが\nためされる　ばしょ‥\pバトルチューブへ\nようこそ‥\pわたしは　バトルチューブの\nあんないがかり　です‥$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge_hns:
-	.string "Would you like to take the Battle\n"
-	.string "Choice challenge?$"
+	.string "みちえらびバトルに\nちょうせん　しますか？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike_hns:
-	.string "Here we conduct an event we call\n"
-	.string "the Battle Choice.\p"
-	.string "The Battle Choice rules are very\n"
-	.string "simple…\p"
-	.string "Choose one of three paths and make\n"
-	.string "your way to the goal room at the end\l"
-	.string "of the BATTLE PIKE. It's that simple.\p"
-	.string "However, what happens on the chosen\n"
-	.string "path depends entirely on the luck\l"
-	.string "of the challenger…\p"
-	.string "If you reach the goal, you will be\n"
-	.string "rewarded with Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please have a word with\l"
-	.string "our staff in the big rooms on the way.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "ここでは　みちえらびバトルを\nおこなって　います\pルールは　とても\nかんたん‥\p3つの　みちから　ひとつを\nえらび　バトルチューブの\lおくの　ゴールを　めざす\lそれ　だけ　です\pただし　えらんだ　みちで\nなにが　おこるかは\lちょうせんしゃの　うん\lしだい‥\pゴールに　つけば\nバトルポイントが\lもらえます\pちゅうだん　する　ときは\nとちゅうの　ひろい　へやの\lかかりいんに　こえを\lかけて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou_hns:
-	.string "We look forward to seeing you\n"
-	.string "on another occasion…$"
+	.string "また　の　おこしを\nおまち　して　おります‥$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode_hns:
-	.string "You have the choice of two courses,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which will you challenge?$"
+	.string "レベル50と　オープンレベルの\n2つの　コースが　あります\lどちらに　ちょうせん\lしますか？$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50_hns:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "POKéMON for the Battle Choice event.\p"
-	.string "You must have three different POKéMON\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "もうしわけ　ありませんが‥\pさんか　できる　ポケモンが\n3びき　いません\pレベル50　いかの　ちがう\nポケモンが　3びき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsEnd_hns:
-	.string "Please come see me when\n"
-	.string "you are ready…$"
+	.string "じゅんびが　できたら\nまた　おこし　ください‥$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen_hns:
-	.string "I beg your pardon, but…\p"
-	.string "You do not have three eligible\n"
-	.string "POKéMON for the Battle Choice event.\p"
-	.string "You must have three different\n"
-	.string "POKéMON to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "もうしわけ　ありませんが‥\pさんか　できる　ポケモンが\n3びき　いません\pちがう　ポケモンが\n3びき　ひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons_hns:
-	.string "Please choose the three POKéMON\n"
-	.string "you wish to enter in the challenge…$"
+	.string "ちょうせん　させる　ポケモンを\n3びき　えらんで　ください‥$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge_hns:
-	.string "Before starting your Battle Choice\n"
-	.string "challenge, I must save the game.\l"
-	.string "Is that acceptable?$"
+	.string "ちょうせんを　はじめる　まえに\nレポートを　かきます\lよろしいですか？$"
 
 BattleFrontier_BattlePikeLobby_Text_StepThisWay_hns:
-	.string "Please step this way…$"
+	.string "こちらへ　どうぞ‥$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults_hns:
-	.string "Your challenge has ended…\p"
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "ちょうせんは　おわりました‥\pけっかを　きろく　します\nおまち　ください‥$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance_hns:
-	.string "You have completed the challenge…\p"
-	.string "I must say… You seem to possess luck\n"
-	.string "in abundance…$"
+	.string "ちょうせん　かんりょう\nです‥\pあなたは‥　うんに\nめぐまれて　いる\lようですね‥$"
 
 BattleFrontier_BattlePikeLobby_Text_ShallRecordResults_hns:
-	.string "I shall record your results.\n"
-	.string "Please wait…$"
+	.string "けっかを　きろく　します\nおまち　ください‥$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints_hns2_hns:
-	.string "To commemorate your completion of\n"
-	.string "the Battle Choice challenge, we award\l"
-	.string "you these Battle Point(s)…$"
+	.string "みちえらびバトル　かんりょうを\nきねんして　バトルポイントを\lさしあげます‥$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit_hns:
-	.string "You appear to have reached the limit\n"
-	.string "for Battle Points…\p"
-	.string "Please exchange some Battle Points\n"
-	.string "for prizes, then return…$"
+	.string "バトルポイントが　じょうげんに\nたっして　いる　ようです‥\pしょうひんと　こうかん\nしてから　また\lおこし　ください‥$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting_hns:
-	.string "I beg your pardon, but…\p"
-	.string "You failed to save before you quit\n"
-	.string "your challenge the last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. I am sorry…$"
+	.string "もうしわけ　ありませんが‥\pまえかい　レポートを　かかずに\nちょうせんを　やめましたね\pその　ため　これまでの\nちょうせんは　しっかく\lと　なります‥$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen_hns:
-	.string "Congratulations…\p"
-	.string "You have snatched victory from the\n"
-	.string "PIKE QUEEN and cleared the event…$"
+	.string "おめでとう　ございます‥\pチューブクイーンから\nしょうりを　うばい\lクリア　しました‥$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints_hns:
-	.string "In recognition of your amazing luck,\n"
-	.string "we award you these Battle Point(s)…$"
+	.string "その　おどろくべき　うんを\nたたえ　バトルポイントを\lさしあげます‥$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal_hns:
-	.string "Arrgh! I blew my chance!\n"
-	.string "I was one room away from the goal!\p"
-	.string "In this place, you'd better watch out\n"
-	.string "for poison, freezing, and so on.$"
+	.string "くそっ！　チャンスを\nのがした！　ゴールまで\lあと　ひとへや　だったのに！\pここでは　どくや　こおり\nなどに　きを　つけろよ$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer_hns:
-	.string "I've completed the challenge 10 times\n"
-	.string "now, but I've never had to battle\l"
-	.string "a TRAINER once.$"
+	.string "10かい　クリア　したけど\nいちども　トレーナーと\lたたかって　ないんだ$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere_hns:
-	.string "Listen! Listen!\p"
-	.string "Don't you think that the special\n"
-	.string "abilities of POKéMON will be useful\l"
-	.string "here?$"
+	.string "ねえ　ねえ！\pここでは　ポケモンの\nとくせいが　やくに　たつと\lおもわない？$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose_hns:
-	.string "What is this weird place?\n"
-	.string "I can't figure it out at all!\p"
-	.string "I've taken the challenge a bunch\n"
-	.string "of times, but all I ever do is run into\l"
-	.string "TRAINERS whichever path I choose.$"
+	.string "ここ　なんなんだ？\nぜんぜん　わからない！\pなんども　ちょうせん　したけど\nどの　みちを　えらんでも\lトレーナーに　あうんだ$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed_hns:
-	.string "The Battle Choice's rules are listed.$"
+	.string "みちえらびバトルの\nルールが　かいてある$"
 
 BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading_hns:
-	.string "Which heading do you want to read?$"
+	.string "どの　こうもくを\nよみますか？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules_hns:
-	.string "The BAG and POKéNAV may not be used\n"
-	.string "during a Battle Choice challenge.$"
+	.string "みちえらびバトル　ちゅうは\nバッグと　ポケナビは\lつかえません$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules_hns:
-	.string "During a Battle Choice challenge,\n"
-	.string "any BERRY or HERB held by POKéMON\l"
-	.string "will be effective only once.$"
+	.string "みちえらびバトル　ちゅうは\nポケモンに　もたせた　きのみや\lハーブは　1かいしか\lききません$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules_hns:
-	.string "During a Battle Choice challenge,\n"
-	.string "the sequence of POKéMON cannot be\l"
-	.string "changed.\p"
-	.string "The sequence must be set before\n"
-	.string "starting your challenge.$"
+	.string "みちえらびバトル　ちゅうは\nポケモンの　じゅんばんを\lかえられません\pちょうせんの　まえに\nきめて　おいて　ください$"
 

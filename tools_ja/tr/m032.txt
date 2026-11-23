@@ -1,0 +1,164 @@
+## data/maps/BattleFrontier_BattleFactoryPreBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType_hns
+あいての　トレーナーは\nノーマルタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType_hns
+あいての　トレーナーは\nほのおタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType_hns
+あいての　トレーナーは\nみずタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType_hns
+あいての　トレーナーは\nでんきタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType_hns
+あいての　トレーナーは\nくさタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType_hns
+あいての　トレーナーは\nこおりタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType_hns
+あいての　トレーナーは\nかくとうタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType_hns
+あいての　トレーナーは\nどくタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType_hns
+あいての　トレーナーは\nじめんタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType_hns
+あいての　トレーナーは\nひこうタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType_hns
+あいての　トレーナーは\nエスパータイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType_hns
+あいての　トレーナーは\nむしタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType_hns
+あいての　トレーナーは\nいわタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType_hns
+あいての　トレーナーは\nゴーストタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType_hns
+あいての　トレーナーは\nドラゴンタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType_hns
+あいての　トレーナーは\nあくタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType_hns
+あいての　トレーナーは\nフェアリータイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType_hns
+あいての　トレーナーは\nはがねタイプが　とくい　らしいです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge_hns
+こうかんバトルの\nちょうせんを　リタイア\lしますか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent_hns
+つぎの　あいてに　ついて\nすこし　しらべて　みました
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite_hns
+あいての　トレーナーには\nとくに　すきな　タイプは\lない　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady_hns
+すきな　たたかいかたは\nじっくり　ねばる　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance_hns
+すきな　たたかいかたは\nたえしのぶ　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk_hns
+すきな　たたかいかたは\nいちかばちか　の　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow_hns
+すきな　たたかいかたは\nながれ　しだい　の　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation_hns
+すきな　たたかいかたは\nじゅんびを　かためる　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe_hns
+すきな　たたかいかたは　まず\nあいてを　よわらせる　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible_hns
+すきな　たたかいかたは\nりんきおうへん　の　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict_hns
+すきな　たたかいかたは\nよそく　できない　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained_hns
+すきな　たたかいかたは\nじゆうほんぽう　の　ようです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon_hns
+しょうぶの　まえに\nポケモンを　こうかん\lしますか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete_hns
+ありがとう　ございます！\nポケモンの　こうかんが\lおわりました
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay_hns
+こちらへ　どうぞ！
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait_hns
+レポートを　かいて　います\nおまち　ください
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle_hns
+さいごの　しょうぶを\nフロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments_hns
+すみません！　すみません！\nすこし　おまち　いただけ\lますか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo_hns
+‥はい？　なんですって？！\n‥うわっ！\lわかりました！　すぐに！
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow_hns
+あ‥\nおまたせ　しました！\pこの　しせつの　ボス\nファクトリーヘッドから\lでんごん　です\pやるぞ！　いますぐ\nこい！　とのことです
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead_hns
+ファクトリーヘッドが\nおよび　です\lかくごは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead_hns
+もうしわけ　ありませんが\nファクトリーヘッドに　ついては\lなにも　おしえられません
+## data/maps/BattleFrontier_BattleFactoryBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn_hns
+おい　おい！\nさっさと　こい！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead_hns
+よう　おれは　ダツラ！\nここを　まかされてるから\lファクトリーヘッド　ってわけだ！\pおまえの　こうかんバトルの\nデータを　みたぜ\pすじは　いいが　まだ\nあたまが　かたいな！\pいいか？　ちしきってのは\nほんを　よんだり　つくえに\lむかう　だけじゃ　ない\pそれ　だけ　じゃあ‥\nなんの　やくにも\lたたねえ！\pこころと　からだで\nけいけん　するんだ\lわかるか？\pおまえと　おなじ\nじょうけんで　あいて\lしてやる\pおれも　レンタルポケモンを\nつかうぜ！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn_hns
+ちしきを　ぜんぶ\nしぼりだして　かかって\lこい！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass_hns
+ダツラ『やるじゃねえか！\nフロンティアパスを\lみせな
+@@BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol_hns
+フロンティアパスに\nナレッジシンボルが\lきざまれた！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred_hns
+へっ‥\nなかなか　かしこいな‥\pつぎは　ほんきで　いくぜ\nてかげん　なしだ\lわかったな？\pべんきょう\nつづけろよ！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime_hns
+ダツラ『よう　よう！\nげんきか？\lべんきょう　してるか？\p‥お？\pまえより　いい　かおに\nなったな\pこりゃ　たのしく　なりそうだ！\nわくわく　してきたぜ！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn_hns
+よし！\nかかって　こい！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass_hns
+ダツラ『なんだと‥\nおれの　てに　おえねえ！\pちぇっ！\nフロンティアパスを　みせな！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine_hns
+ナレッジシンボルが\nきんいろに　かがやいた！
+@@BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou_hns
+ちっ　まったく！\pおまえに　まけるのは\nこれで　さいごだ！\pまた　やろうぜ？
+## data/maps/BattleFrontier_BattlePikeLobby_hns/scripts.inc
+@@BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike_hns
+トレーナーの　うんが\nためされる　ばしょ‥\pバトルチューブへ\nようこそ‥\pわたしは　バトルチューブの\nあんないがかり　です‥
+@@BattleFrontier_BattlePikeLobby_Text_TakeChallenge_hns
+みちえらびバトルに\nちょうせん　しますか？
+@@BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike_hns
+ここでは　みちえらびバトルを\nおこなって　います\pルールは　とても\nかんたん‥\p3つの　みちから　ひとつを\nえらび　バトルチューブの\lおくの　ゴールを　めざす\lそれ　だけ　です\pただし　えらんだ　みちで\nなにが　おこるかは\lちょうせんしゃの　うん\lしだい‥\pゴールに　つけば\nバトルポイントが\lもらえます\pちゅうだん　する　ときは\nとちゅうの　ひろい　へやの\lかかりいんに　こえを\lかけて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou_hns
+また　の　おこしを\nおまち　して　おります‥
+@@BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode_hns
+レベル50と　オープンレベルの\n2つの　コースが　あります\lどちらに　ちょうせん\lしますか？
+@@BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50_hns
+もうしわけ　ありませんが‥\pさんか　できる　ポケモンが\n3びき　いません\pレベル50　いかの　ちがう\nポケモンが　3びき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsEnd_hns
+じゅんびが　できたら\nまた　おこし　ください‥
+@@BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen_hns
+もうしわけ　ありませんが‥\pさんか　できる　ポケモンが\n3びき　いません\pちがう　ポケモンが\n3びき　ひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons_hns
+ちょうせん　させる　ポケモンを\n3びき　えらんで　ください‥
+@@BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge_hns
+ちょうせんを　はじめる　まえに\nレポートを　かきます\lよろしいですか？
+@@BattleFrontier_BattlePikeLobby_Text_StepThisWay_hns
+こちらへ　どうぞ‥
+@@BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults_hns
+ちょうせんは　おわりました‥\pけっかを　きろく　します\nおまち　ください‥
+@@BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance_hns
+ちょうせん　かんりょう\nです‥\pあなたは‥　うんに\nめぐまれて　いる\lようですね‥
+@@BattleFrontier_BattlePikeLobby_Text_ShallRecordResults_hns
+けっかを　きろく　します\nおまち　ください‥
+@@BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints_hns2_hns
+みちえらびバトル　かんりょうを\nきねんして　バトルポイントを\lさしあげます‥
+@@BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit_hns
+バトルポイントが　じょうげんに\nたっして　いる　ようです‥\pしょうひんと　こうかん\nしてから　また\lおこし　ください‥
+@@BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting_hns
+もうしわけ　ありませんが‥\pまえかい　レポートを　かかずに\nちょうせんを　やめましたね\pその　ため　これまでの\nちょうせんは　しっかく\lと　なります‥
+@@BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen_hns
+おめでとう　ございます‥\pチューブクイーンから\nしょうりを　うばい\lクリア　しました‥
+@@BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints_hns
+その　おどろくべき　うんを\nたたえ　バトルポイントを\lさしあげます‥
+@@BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal_hns
+くそっ！　チャンスを\nのがした！　ゴールまで\lあと　ひとへや　だったのに！\pここでは　どくや　こおり\nなどに　きを　つけろよ
+@@BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer_hns
+10かい　クリア　したけど\nいちども　トレーナーと\lたたかって　ないんだ
+@@BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere_hns
+ねえ　ねえ！\pここでは　ポケモンの\nとくせいが　やくに　たつと\lおもわない？
+@@BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose_hns
+ここ　なんなんだ？\nぜんぜん　わからない！\pなんども　ちょうせん　したけど\nどの　みちを　えらんでも\lトレーナーに　あうんだ
+@@BattleFrontier_BattlePikeLobby_Text_RulesAreListed_hns
+みちえらびバトルの\nルールが　かいてある
+@@BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading_hns
+どの　こうもくを\nよみますか？
+@@BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules_hns
+みちえらびバトル　ちゅうは\nバッグと　ポケナビは\lつかえません
+@@BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules_hns
+みちえらびバトル　ちゅうは\nポケモンに　もたせた　きのみや\lハーブは　1かいしか\lききません
+@@BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules_hns
+みちえらびバトル　ちゅうは\nポケモンの　じゅんばんを\lかえられません\pちょうせんの　まえに\nきめて　おいて　ください
+## data/maps/BattleFrontier_BattlePikeCorridor_hns/scripts.inc
+@@BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun_hns
+みちえらびバトルの\nちょうせんが\lはじまりました‥
