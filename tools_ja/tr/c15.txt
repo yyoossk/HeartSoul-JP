@@ -1,0 +1,113 @@
+## data/text/apprentice.inc
+@@gText_ApprenticeWhichMove0
+うわーん！　あっ　{PLAYER}さん！\nぐすん‥　ひっく‥\pこまって　るんです！\n{STR_VAR_1}の　わざが\lきめられなくて‥\pおねがい　{PLAYER}さん\nきめて　もらえませんか？\p{STR_VAR_1}には　{STR_VAR_2}と\n{STR_VAR_3}　どっちの　わざが\lいい　ですか？
+@@gText_ApprenticeMoveThanks0
+{STR_VAR_1}？\nうわーん！\pあっ！　ごめんなさい\n{PLAYER}さん！　わざを　きめて\lもらえて　うれしくて‥\pぐすん‥\nほんとうに　ありがとう！
+@@gText_ApprenticeWhichMove1
+やった！　{PLAYER}さん！\nまた　アドバイスが\lほしいんだ！\p{STR_VAR_1}に　かっこいい\nわざを　おぼえさせたいんだ\p{STR_VAR_2}か　{STR_VAR_3}が\nいいなって　おもってて\lどっちが　おすすめ？
+@@gText_ApprenticeMoveThanks1
+{STR_VAR_1}が　いい？\nそうかも！　よし　それにする！\pまた　ここで　あったら\nほかの　ことも　おしえてね\lせんせい！
+@@gText_ApprenticeWhichMove2
+{PLAYER}さん　こんにちは！\n{STR_VAR_1}の　わざの　ことで\lなやんで　いるんです\p{STR_VAR_2}と　{STR_VAR_3}\nなんですけど\p{STR_VAR_1}には　どっちが\nつよくて　いい　ですか？
+@@gText_ApprenticeMoveThanks2
+{STR_VAR_1}　ですね？\nわかりました！\pさっそく　ポケモンに\n{STR_VAR_1}を　おぼえさせます！\pまた　あいましょう！
+@@gText_ApprenticeWhichMove3
+ああ　{PLAYER}さん‥\nぼく　ほんとうに　だめなんです！\pポケモンを　そだてる　ことに\nしたけど　おぼえさせる　わざも\lきめられなくて‥\p{PLAYER}さんには　どうでも\nいい　ことだと　わかって\lます\pでも　ぼくには　だいじな\nこと　なんです‥\pおねがい　{PLAYER}さん\n{STR_VAR_1}の　わざを\lえらんで　くれませんか？\p{STR_VAR_2}と　{STR_VAR_3}から\nえらぶ　だけでも‥
+@@gText_ApprenticeMoveThanks3
+わかりました！\pでも　ぼくの　ために\n{STR_VAR_1}を　おぼえて\lくれるかな‥\lいや！　がんばります！\pありがとう！
+@@gText_ApprenticeWhichMove4
+あっ　{PLAYER}{KUN}！\nちょうど　あいたいと\lおもってたの！\p{STR_VAR_1}に　あう　わざは\nなにかなって\pきめられないから　かわりに\nきめて　くれない？\pたとえば‥　{STR_VAR_2}と\n{STR_VAR_3}　なんて　どう？\lどっちが　いい？
+@@gText_ApprenticeMoveThanks4
+{STR_VAR_1}？　いいわね！\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！
+@@gText_ApprenticeWhichMove5
+どうして　こんなに　いそがしい\nんだ？　おっ　{PLAYER}{KUN}　じゃ\lないか！　どう？\pけさ　おきてから　ジョギングと\nすいえいと　りょうりを\lしたんだ！\pどれだけ　いそがしいか\nわかる　だろ？\p{STR_VAR_1}が　おぼえる\nわざも　きめられないんだ！\p{STR_VAR_2}は　よさそう　だろ？\nでも　{STR_VAR_3}も　わるくない\p{PLAYER}{KUN}　いい　アドバイスを\nくれよ！　どっちの　わざが\lいい？
+@@gText_ApprenticeMoveThanks5
+よし　わかった\nスケジュールを　あけて\lその　わざを　おぼえさせるよ\pいい　ししょうに　あえて\nよかった　ありがとう！\lまたね！
+@@gText_ApprenticeWhichMove6
+あっ！　ラッキー！\nまた　あえたね　{PLAYER}！\lきょうも　あたまを\lかして　ほしいの\pドラムロール　おねがい！\nしつもんは‥\p{STR_VAR_1}に　いちばん　あう\nわざは　{STR_VAR_2}と\l{STR_VAR_3}　どっち？
+@@gText_ApprenticeMoveThanks6
+ああー！\n{STR_VAR_1}　だって！\lかっこいい　こたえ\lありがとう！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！
+@@gText_ApprenticeWhichMove7
+あら　{PLAYER}さま\nおかわり　ありませんか？\pまた　ごそうだん\nさせて　ください\lだいじな　{STR_VAR_1}の\lこと　なのです\pかわいい　{STR_VAR_1}に\nふさわしい　わざは\l{STR_VAR_2}と　{STR_VAR_3}\lどちらでしょう？
+@@gText_ApprenticeMoveThanks7
+{STR_VAR_1}　ですね！\nさっそく　おぼえさせます！\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！
+@@gText_ApprenticeWhichMove8
+きゃっ！　{PLAYER}さん！　また\nあえた！　う　うれしい！\pこまった　ときは　いつも\n{PLAYER}さんが　いて\lくれる！\pきょうは　わざを\nすすめて　ほしいんです！\p{STR_VAR_1}の　わざを\nえらんで　ください！\p{STR_VAR_2}と　{STR_VAR_3}\nどっちが　いい　ですか？
+@@gText_ApprenticeMoveThanks8
+わあ！　ありがとう！\n{STR_VAR_1}　ですね！\lよく　わかりました！\pまた　いつか　いろいろ\nおしえて　くださいね
+@@gText_ApprenticeWhichMove9
+オラ　{PLAYER}{KUN}　ブエノ！\nきょうも　ありがたい\lアドバイスを　たのむぜ！\p{STR_VAR_1}に　いちばんの\nわざは　なんだ？\pあっさり　かてる\nような　やつが　いい！\p{STR_VAR_2}か？\nそれとも　{STR_VAR_3}か？
+@@gText_ApprenticeMoveThanks9
+なるほど　{STR_VAR_1}だな！\nシー　ブエノ！\lおぼえさせるぜ　ドドーン　とな！\pいつも　ありがとな！\nアディオス！
+@@gText_ApprenticeWhichMove10
+{PLAYER}{KUN}　とんでもない\nことに　なったよ！\pぼくの　ポケモンが！\nわざを　6つも　おぼえた！\pもちろん　うそ　だよ！\nわはは！\pでも　これは　ほんと\nポケモンの　わざを　えらぶのが\lにがて　なんだ\pだから　どの　わざを\nおぼえさせるか　きめて\lくれない？\p{STR_VAR_2}と　{STR_VAR_3}\n{STR_VAR_1}に　あうのは\lどっち？
+@@gText_ApprenticeMoveThanks10
+そっか　{STR_VAR_1}を\nえらんだんだね？\lじゃあ　べつの　わざに\lしよう！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！
+@@gText_ApprenticeWhichMove11
+ヨー　ヨー！\nそれが　オレらの　あいさつ　さ！\pラップを　かます　ふなのり！\nいつも　ノリノリ\lわけは　きくなよ！\pきょうは　わざの　しつもん\nきみの　いけんを　ききたい\lもん！\p{STR_VAR_2}と　{STR_VAR_3}\n{STR_VAR_1}が　ノリノリに\lなるのは　どっちの　わざ？
+@@gText_ApprenticeMoveThanks11
+{STR_VAR_1}　だって？　ヘイ　ヘイ！\nさっそく　おぼえさせるぜ\lイエイ！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！
+@@gText_ApprenticeWhichMove12
+おっ　イエー　{PLAYER}\nじゃないか！\pどうする？　アドバイス\nもらう？　もちろん！\lもう　はなしかけてる　しな！\p{PLAYER}　おどろいた？\nアドバイスが　ほしいんだ\lわかるだろ？\pきこえてる？\nきこえてるよな！\pオレの　{STR_VAR_1}　なにを\nつかえば　いい？\l{STR_VAR_2}か　{STR_VAR_3}\lきみなら　どっちを　えらぶ？
+@@gText_ApprenticeMoveThanks12
+{STR_VAR_1}が　いちばん　なら\nきみの　いう　とおりに\lするぜ！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！
+@@gText_ApprenticeWhichMove13
+げほっ！　ごほっ！　あ　{PLAYER}{KUN}‥\nひどい　かぜを　ひいちゃって‥\pポケモンの　わざを\nえらびたいけど\lそれどころじゃ　なくて‥\pそういう　わけで\nきめて　ほしいの\p{PLAYER}{KUN}　{STR_VAR_1}に\n{STR_VAR_2}と　{STR_VAR_3}\lどっちが　いい？
+@@gText_ApprenticeMoveThanks13
+うん　{STR_VAR_1}ね　ごほっ！\nよく　なったら\lおぼえさせるわ\pこれからも　たよらせてね
+@@gText_ApprenticeWhichMove14
+えっと‥　あの‥\n{PLAYER}{KUN}‥？\pそんなに　みないで\nください　あせっちゃう‥\lア　アドバイスが　ほしいんです\pほ　ほんとうに　はずかしい\nけど　ポケモンに　おぼえ\lさせる　わざが　きめられ\lなくて\p{STR_VAR_1}の　わざ　なんです\n{STR_VAR_2}と　{STR_VAR_3}なら\lどっちが　いい　ですか？
+@@gText_ApprenticeMoveThanks14
+あ‥　はい！\n{STR_VAR_1}に　して　みます\pちゃんと　おぼえさせられる\nかな‥　どきどき　する‥\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します
+@@gText_ApprenticeWhichMove15
+ん？　{PLAYER}{KUN}の\nようだが‥\lほんとうに　ほんもの　かね？\pもしや　はやりの\nものまねし　では？\pいや　ほんものなら　いいんだ\nおこらないで　くれたまえ！\pところで　きみの　アドバイスが\nほしいのだが\p{STR_VAR_1}の　ことだ\p{STR_VAR_2}と　{STR_VAR_3}\nどちらの　わざが　よいかね？
+@@gText_ApprenticeMoveThanks15
+{STR_VAR_1}？\nまちがい　ないね？\pなるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pわたしの　ポケモンにも\nおぼえられると　いいのだが\pまた　あおう！
+@@gText_ApprenticePickWinSpeech0
+あ‥　{PLAYER}さん？\n{PLAYER}さん　だ！\lあっ！　ぐすん‥　きいて　ください！\pぼく‥　バトルすると\nきんちょう　して　かっても\lないちゃうんです‥\pかった　ときに　かっこいい\nことが　いえたら　いいのに‥\pおねがい　{PLAYER}さん！\nなかないで　すむ　ように\lかった　ときの　かっこいい\lセリフを　おしえて　ください！
+@@gText_ApprenticeWinSpeechThanks0
+{STR_VAR_1}\pすごい！　かっこいい！　うおお！\nほんとうに　かっこいい！\pあっ‥　ごめんなさい‥\nうれしくて　なみだが‥\pぐすん‥　{PLAYER}さん！\nいままで　ほんとうに\lありがとう！\p{PLAYER}さんの　ために\nせいいっぱい　バトル\lします！\p{PLAYER}さん‥\nこんどは‥　バトル\lしましょう！
+@@gText_ApprenticePickWinSpeech1
+やった！　{PLAYER}さん　だ！\nききたい　ことが\lあったんだ！\pバトルに　かった　とき\nかっこいい　ことを\lいいたいんだ\pおすすめの　かっこいい\nセリフって　ある？
+@@gText_ApprenticeWinSpeechThanks1
+{STR_VAR_1}\pわあ！　かっこいい！\nよし　それを　いう！\pいままで　いろいろ　おしえて\nくれて　ありがとう！\lこれからは　どこに　いっても\lがんばるよ！\pこんど　あう　ときは\nバトル　だね！
+@@gText_ApprenticePickWinSpeech2
+{PLAYER}さん　こんにちは！\pわたしと　ポケモンは\nじゅんび　ばんたん\lひとつ　のぞいて\pかった　ときに　さけぶ\nことばが　あれば　いいなと\lおもうんです\pなにか　いい　ことばを\nかんがえて　くれませんか？
+@@gText_ApprenticeWinSpeechThanks2
+{STR_VAR_1}\p‥かっこいい！\nそれ　つかいます！\pこれから　あちこちで\nバトル　して　きます\pいつか　{PLAYER}さんとも\nバトル　できるかも\pこんどは　バトルの　ばで\nあいましょう！
+@@gText_ApprenticePickWinSpeech3
+こんにちは　{PLAYER}さん‥\nごめんなさい　ぼく\lほんとうに　だめで‥\pかっても‥\nかっても　なにも　とくべつな\lことが　いえないんです‥\p{PLAYER}さんには　どうでも\nいい　ことだと　わかって\lます\pでも　ぼくには　だいじな\nこと　なんです‥\pおねがい　{PLAYER}さん\nバトルに　かったら\lなんて　いえば　いい？
+@@gText_ApprenticeWinSpeechThanks3
+{STR_VAR_1}\pすてき　です‥\pあの‥　ぼくなんかが\nそんな　こと　いって\lいいのかな？\pいや！　がんばります！\p{PLAYER}さん　ずっと　つきあって\nくれて　ほんとうに\lありがとう‥\pこれからは　せいいっぱい\nがんばると　やくそく\lします\pぼくの　ことなんか　すぐ\nわすれちゃう　だろうけど\lまた　どこかで\lあいましょう！
+@@gText_ApprenticePickWinSpeech4
+あ　{PLAYER}{KUN}\nきいて　ほしい　ことが\lあるの\pわたし　いつも　やさしい\nいいかたや　ていねいな\lはなしかたが　できなくて‥\pバトルに　かつと　いばってる\nように　みえちゃうと\lおもうの\pきらわれたく　ないから\nまけた　ひとに　なにか\lいい　ことを　いいたいの\pでも　いい　ことばが\nおもいつかない！\lかんがえて　くれない？
+@@gText_ApprenticeWinSpeechThanks4
+{STR_VAR_1}\pわるくないわ！\nうん　それで　いく！\pおしえて　もらった　ことを\nあたまと　こころに　いれて\lたびに　でるわ\pずっと　おしつけがましくて\nごめんね！\pこんどは　バトル　しよう？\nまたね！
+@@gText_ApprenticePickWinSpeech5
+ああ　いそがしくて\nたまらない！\lおっ　{PLAYER}{KUN}　さがしてたんだ\pあいかわらず　げんき？\nぼくは　ぜんぜん\lかわらないよ\pランニングに　かくとうに\nちずづくり　どうして\lこんなに　いそがしいんだ？\pでも　いそがしくても\nかった　あと　だまって\lさるのは　しつれい　だろ\pかって　たちさる　ときに\nかっこよさを　きわだたせる\lセリフは　なにが　いい？\l{PLAYER}{KUN}　たすけて！
+@@gText_ApprenticeWinSpeechThanks5
+{STR_VAR_1}\pよし　わかった\nそれくらい　いう　じかんは\lあるよ！\pほんとうに　きみみたいな\nししょうに　あえて\lよかった\pなんとか　じかんを　つくって\nバトルに　うちこむよ\pいろいろ　ありがとう\n{PLAYER}{KUN}！　いつか\lバトル　しような！
+@@gText_ApprenticePickWinSpeech6
+また　ラッキー！\n{PLAYER}！　あえて　うれしい！\lいつもの　ように\lアドバイス　ちょうだい！\pドラムロール　おねがい！\nさいごの　しつもんは‥\pバトルに　かって\nかっこよく　しめるには\lなんて　いえば　いい？
+@@gText_ApprenticeWinSpeechThanks6
+{STR_VAR_1}\pそ‥　それ　すてき！\nどうどうと　して\lかっこいい！　もらった！\p‥ねえ　わたし　けっこう\nいい　かんじに　なって\lきたよね？\pだから　これからは\nほかの　トレーナーに\lちょうせん　しようと　おもうの\p{PLAYER}の　アドバイス\nほんとうに　たすかった\pいつか　わたしたち\nバトル　する　ときが\lくるかもね！\pいろいろ　ありがとう！
+@@gText_ApprenticePickWinSpeech7
+あら　{PLAYER}さま\nおあい　できて　ほんとうに\lよかった！\pポケモンの　ことでは\nもう　しんぱいは\lなくなりました\pしんぱい　なのは\nわたくし　じしん‥\pバトルに　かった　トレーナーが\nなにか　ひとこと　いうのを\lごぞんじ　ですよね？\pわたくしも　ぜひ\nそう　したいのです！\pバトルに　かったら\nなんと　いえば　よいで\lしょうか？
+@@gText_ApprenticeWinSpeechThanks7
+{STR_VAR_1}\pああ！　その　おことば！\nこころが　あらわれ\lうまれかわった　きぶん　です！\pさっそく　つかわなくては！\pそれでは　わたくしは\nこれで　しつれい　します\l{PLAYER}さま‥\pこれから　たくさんの　かたと\nバトル　しますが　おしえは\lけっして　わすれません\pいつか　また‥\nごきげんよう！
+@@gText_ApprenticePickWinSpeech8
+きゃっ！　{PLAYER}さん\nはっけん！\lあ　あえて　うれしい！\pあっ　そうだ！　どうしても\nききたい　ことが\lあったんです！\pすこし　まえ　バトルに\nかったんです　それは\lもう　ゆめみたいで！\pでも　うれしすぎて\nむねが　いっぱいで　なにも\lいえなかったんです！\pだから　{PLAYER}さん　おねがい\nかった　ときの　きめぜりふを\lかんがえて　ください！
+@@gText_ApprenticeWinSpeechThanks8
+{STR_VAR_1}\pうわーん！\nわたしが　それを　いうの？！\lう　うれしすぎて　くらくら！\pあ　あ　ありがとう！\nもう　おもいのこす\lことは　ありません！\pこれから　たびに　でて\nいろんな　ひとと\lバトル　します\pぜんぶ　{PLAYER}さんの\nおかげ　です　ほんとうに\lありがとう！\pもう　いかなきゃ　だけど\nいつか　バトルで\lあいましょう！
+@@gText_ApprenticePickWinSpeech9
+オラ　ブエノ！\n{PLAYER}{KUN}！\pそろそろ　あちこち　まわって\nバトル　したく　なって\lきたぜ\pでも　その　まえに　もう\nいちど　アドバイスを\lたのむ！\pバトルに　かったら\nまけた　トレーナーに\lなんて　いばれば　いい？
+@@gText_ApprenticeWinSpeechThanks9
+{STR_VAR_1}\pなるほど　いいね！\nシー　ブエノ！\lいって　みるぜ　ビシッ　とな！\pさて　おわかれの\nじかんだ！　いろいろ\lありがとな！\pいつか　バトル　しようぜ？\nアディオス！
+@@gText_ApprenticePickWinSpeech10
+{PLAYER}{KUN}　たいへん　なんだ！\pバトルに　かつと　すくなくとも\n1じかんは　じまん\lしちゃうんだ！\pもちろん　うそ　だよ！\nわはは！\pでも　これは　ほんと\nおしゃべりが　にがて\lなんだ\pだから　バトルに　かった\nあと　なんて　いえば　いいか\lきめて　くれない？　ししょう
+@@gText_ApprenticeWinSpeechThanks10
+{STR_VAR_1}\pそう　いえば　いいんだね？\nじゃあ　それは　いわない\lように　しよう！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pいままで　おしえて　くれて\nありがとう　ししょう！\pトレーナーって　なにか\nやっと　わかって　きたよ\pこれから　どんな　トレーナー\nにも　かって　みせる\pいつか　ししょうにも\nね！\pいじょう！\nさらば　ししょう！
+@@gText_ApprenticePickWinSpeech11
+ヨー　ヨー！\nそれが　オレらの　あいさつ　さ！\pラップを　かます　ふなのり！\nこれが　さいごの　しつもん\lなかないで　くれよ！\pセリフの　しつもん\nきみの　いけんを　ききたい\lもん！\pしょうぶに　かったら\nかっこよく　なんて\lいえば　いい？
+@@gText_ApprenticeWinSpeechThanks11
+{STR_VAR_1}\pかんぺき！　それを　つかう\nきみに　まかせて　せいかい\lだったぜ！\pさて　そろそろ　オレも\nすだつ　ときが　きた\lみたいだ！\pおしえて　くれて　ありがとう\nバトルの　たびに　でるぜ！\pボン　ボヤージュ！\nそれが　オレからの\lおくりものさ！
