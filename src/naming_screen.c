@@ -46,7 +46,7 @@ enum {
 };
 
 #define KBROW_COUNT 4
-#define KBCOL_COUNT 12
+#define KBCOL_COUNT 16
 
 enum {
     GFXTAG_BACK_BUTTON,
@@ -297,22 +297,22 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 // The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
-        __("アイウエオカキクケコヤユ"),
-        __("サシスセソタチツテトヨワ"),
-        __("ナニヌネノハヒフヘホヲン"),
-        __("マミムメモラリルレロー”")
+        __("アイウエオナニヌネノヤユヨ！？　"),
+        __("カキクケコハヒフヘホワヲンÖÜ　"),
+        __("サシスセソマミムメモャュョッー　"),
+        __("タチツテトラリルレロァィゥェォ　")
     },
     [KEYBOARD_LETTERS_UPPER] = {
-        __("あいうえおかきくけこやゆ"),
-        __("さしすせそたちつてとよわ"),
-        __("なにぬねのはひふへほをん"),
-        __("まみむめもらりるれろー”")
+        __("あいうえおなにぬねのやゆよ！？　"),
+        __("かきくけこはひふへほわをんÖÜ　"),
+        __("さしすせそまみむめもゃゅょっー　"),
+        __("たちつてとらりるれろぁぃぅぇぉ　")
     },
     [KEYBOARD_SYMBOLS] = {
-        __("ABCDEFGHIJKL"),
-        __("MNOPQRSTUVWX"),
-        __("YZ0123456789"),
-        __("！？♂♀・…「」ー/.　")
+        __("ABCDEFGHIJKLMNO　"),
+        __("PQRSTUVWXYZ・…ー.　"),
+        __("0123456789！？♂♀/　"),
+        __("「」『』×:　　　　　　　　　　")
     }
 };
 
@@ -322,13 +322,14 @@ static const u8 sPageColumnCounts[KBPAGE_COUNT] = {
     [KEYBOARD_SYMBOLS]       = KBCOL_COUNT
 };
 static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
-    [KEYBOARD_LETTERS_LOWER] = {0, 11, 22, 33, 44, 58, 69, 80, 91, 102, 116, 127},
-    [KEYBOARD_LETTERS_UPPER] = {0, 11, 22, 33, 44, 58, 69, 80, 91, 102, 116, 127},
-    [KEYBOARD_SYMBOLS]       = {0, 11, 22, 33, 44, 58, 69, 80, 91, 102, 116, 127}
+    [KEYBOARD_LETTERS_LOWER] = {0, 8, 16, 24, 32, 46, 54, 62, 70, 78, 92, 100, 108, 116, 124, 133},
+    [KEYBOARD_LETTERS_UPPER] = {0, 8, 16, 24, 32, 46, 54, 62, 70, 78, 92, 100, 108, 116, 124, 133},
+    [KEYBOARD_SYMBOLS]       = {0, 8, 16, 24, 32, 46, 54, 62, 70, 78, 92, 100, 108, 116, 124, 133}
 };
 
 // Japanese kana variant key (dakuten / handakuten / small kana cycling)
-#define CHAR_KANA_VARIANT_KEY 0xB2
+#define CHAR_DAKUTEN_KEY    0xF2 // drawn as ゛ in the Japanese font
+#define CHAR_HANDAKUTEN_KEY 0xF3 // drawn as ゜ in the Japanese font
 static const u8 sKanaVariantCycles[][4] = {
     {0x01, 0x2F, 0x00, 0x00},
     {0x02, 0x30, 0x00, 0x00},
@@ -387,6 +388,47 @@ static const u8 sKanaVariantCycles[][4] = {
     {0x75, 0x85, 0x00, 0x00},
     {0x76, 0x86, 0x00, 0x00}
 };
+
+static const u8 sDakutenPairs[][2] = {{0x06, 0x37}, {0x07, 0x38}, {0x08, 0x39}, {0x09, 0x3A}, {0x0A, 0x3B}, {0x0B, 0x3C}, {0x0C, 0x3D}, {0x0D, 0x3E}, {0x0E, 0x3F}, {0x0F, 0x40}, {0x10, 0x41}, {0x11, 0x42}, {0x12, 0x43}, {0x13, 0x44}, {0x14, 0x45}, {0x1A, 0x46}, {0x1B, 0x47}, {0x1C, 0x48}, {0x1D, 0x49}, {0x1E, 0x4A}, {0x56, 0x87}, {0x57, 0x88}, {0x58, 0x89}, {0x59, 0x8A}, {0x5A, 0x8B}, {0x5B, 0x8C}, {0x5C, 0x8D}, {0x5D, 0x8E}, {0x5E, 0x8F}, {0x5F, 0x90}, {0x60, 0x91}, {0x61, 0x92}, {0x62, 0x93}, {0x63, 0x94}, {0x64, 0x95}, {0x6A, 0x96}, {0x6B, 0x97}, {0x6C, 0x98}, {0x6D, 0x99}, {0x6E, 0x9A}, {0x53, 0xF1}};
+static const u8 sHandakutenPairs[][2] = {{0x1A, 0x4B}, {0x1B, 0x4C}, {0x1C, 0x4D}, {0x1D, 0x4E}, {0x1E, 0x4F}, {0x6A, 0x9B}, {0x6B, 0x9C}, {0x6C, 0x9D}, {0x6D, 0x9E}, {0x6E, 0x9F}, {0x46, 0x4B}, {0x47, 0x4C}, {0x48, 0x4D}, {0x49, 0x4E}, {0x4A, 0x4F}, {0x96, 0x9B}, {0x97, 0x9C}, {0x98, 0x9D}, {0x99, 0x9E}, {0x9A, 0x9F}};
+
+static u8 ApplyMarkPairs(u8 c, const u8 (*pairs)[2], u32 n)
+{
+    u32 i;
+    for (i = 0; i < n; i++)
+    {
+        if (pairs[i][0] == c)
+            return pairs[i][1];
+        if (pairs[i][1] == c)
+            return pairs[i][0] == 0 ? c : pairs[i][0];
+    }
+    return c;
+}
+
+static u8 GetDakuten(u8 c)
+{
+    u8 r = ApplyMarkPairs(c, sDakutenPairs, ARRAY_COUNT(sDakutenPairs));
+    if (r == c) // ぱ -> ば
+    {
+        u32 i;
+        for (i = 0; i < ARRAY_COUNT(sHandakutenPairs); i++)
+            if (sHandakutenPairs[i][1] == c && i < 10)
+                return ApplyMarkPairs(sHandakutenPairs[i][0], sDakutenPairs, ARRAY_COUNT(sDakutenPairs));
+    }
+    return r;
+}
+
+static u8 GetHandakuten(u8 c)
+{
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(sHandakutenPairs); i++)
+        if (sHandakutenPairs[i][0] == c)
+            return sHandakutenPairs[i][1];
+    for (i = 0; i < 10; i++)
+        if (sHandakutenPairs[i][1] == c)
+            return sHandakutenPairs[i][0];
+    return c;
+}
 
 static u8 GetKanaVariant(u8 c)
 {
@@ -474,6 +516,7 @@ static u8 GetInputEvent(void);
 static void SetInputState(u8);
 static void DrawTextEntryBox(void);
 static u8 GetTextEntryPosition(void);
+static u8 GetPreviousTextCaretPosition(void);
 static void DeleteTextCharacter(void);
 static bool8 AddTextCharacter(void);
 static void BufferCharacter(u8);
@@ -495,7 +538,7 @@ static void VBlankCB_NamingScreen(void);
 static void NamingScreen_ShowBgs(void);
 static bool8 IsWideLetter(u8);
 
-static const u8 sText_MoveOkBack[] = _("{DPAD_NONE}いどう　{A_BUTTON}けってい　{B_BUTTON}もどる");
+static const u8 sText_MoveOkBack[] = _("{DPAD_NONE}いどう {R_BUTTON}ÖÜこもじ {A_BUTTON}けってい {B_BUTTON}もどる");
 
 void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGender, u32 monPersonality, bool8 isShiny, MainCallback returnCallback)
 {
@@ -1701,6 +1744,19 @@ static bool8 HandleKeyboardEvent(void)
         MoveCursorToOKButton();
         return FALSE;
     }
+    else if (input == INPUT_LR_BUTTON)
+    {
+        // ゛゜/small kana: cycle the last entered character
+        u8 index = GetPreviousTextCaretPosition();
+        if (sNamingScreen->textBuffer[index] != EOS)
+        {
+            sNamingScreen->textBuffer[index] = GetKanaVariant(sNamingScreen->textBuffer[index]);
+            DrawTextEntry();
+            CopyBgTilemapBufferToVram(3);
+            PlaySE(SE_SELECT);
+        }
+        return FALSE;
+    }
     else
     {
         return sKeyboardKeyHandlers[keyRole](input);
@@ -1842,6 +1898,8 @@ static void Input_Enabled(struct Task *task)
         task->tKeyboardEvent = INPUT_SELECT;
     else if (JOY_NEW(START_BUTTON))
         task->tKeyboardEvent = INPUT_START;
+    else if (JOY_NEW(R_BUTTON))
+        task->tKeyboardEvent = INPUT_LR_BUTTON;
     else
         HandleDpadMovement(task);
 }
@@ -2086,11 +2144,12 @@ static bool8 AddTextCharacter(void)
     s16 y;
 
     GetCursorPos(&x, &y);
-    if (GetCharAtKeyboardPos(x, y) == CHAR_KANA_VARIANT_KEY && CurrentPageToKeyboardId() != KEYBOARD_SYMBOLS)
+    if (GetCharAtKeyboardPos(x, y) == CHAR_DAKUTEN_KEY || GetCharAtKeyboardPos(x, y) == CHAR_HANDAKUTEN_KEY)
     {
         u8 index = GetPreviousTextCaretPosition();
-        if (sNamingScreen->textBuffer[index] != EOS)
-            sNamingScreen->textBuffer[index] = GetKanaVariant(sNamingScreen->textBuffer[index]);
+        u8 ch = sNamingScreen->textBuffer[index];
+        if (ch != EOS)
+            sNamingScreen->textBuffer[index] = (GetCharAtKeyboardPos(x, y) == CHAR_DAKUTEN_KEY) ? GetDakuten(ch) : GetHandakuten(ch);
         DrawTextEntry();
         CopyBgTilemapBufferToVram(3);
         PlaySE(SE_SELECT);
