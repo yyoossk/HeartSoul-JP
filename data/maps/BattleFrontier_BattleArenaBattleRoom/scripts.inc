@@ -492,26 +492,23 @@ BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
 	.string "Step forward, please!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
-	.string "REFEREE: Set KO Tourney!\n"
-	.string "Begin!$"
+	.string "しんぱん『セットKOトーナメント！\nはじめ！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer:
-	.string "REFEREE: The winner is {PLAYER}!$"
+	.string "しんぱん『しょうしゃ　{PLAYER}！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
-	.string "REFEREE: The winner is {STR_VAR_1}!$"
+	.string "しんぱん『しょうしゃ　{STR_VAR_1}！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
 	.string "Your POKéMON will be restored to\n"
 	.string "full health.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
-	.string "Next up, your second opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　2にんめの　あいて　です！\nじゅんびは　よろしい　ですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent:
-	.string "Next up, your third opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　3にんめの　あいて　です！\nじゅんびは　よろしい　ですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent:
 	.string "Next up, your fourth opponent!\n"
@@ -530,16 +527,13 @@ BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
 	.string "Are you ready to move on?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
-	.string "Would you like to save the game and\n"
-	.string "shut down now?$"
+	.string "レポートを　かいて\nゲームを　おわりますか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
-	.string "Would you like to retire from your\n"
-	.string "Set KO Tourney challenge?$"
+	.string "セットKOトーナメントの\nちょうせんを　やめますか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
-	.string "I am saving your game data.\n"
-	.string "Please wait.$"
+	.string "レポートを　かいて　います\nしょうしょう　おまちください$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
 	.string "Would you like to record your last\n"

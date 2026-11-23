@@ -1,0 +1,1393 @@
+## data/event_scripts.s
+@@gText_PokemartSign
+「べんりな　どうぐ　そろってます！」\nフレンドリィショップ
+@@gText_PokemonCenterSign
+「つかれた　なかまを　げんきに！」\nポケモンセンター
+@@gText_SorryWirelessClubAdjustments
+もうしわけ　ございません\nポケモンつうしんクラブは\lただいま　ちょうせいちゅう　です
+## data/scripts/cable_club_frlg.inc
+@@Text_WirelessClubUndergoingAdjustments
+もうしわけ　ございません\nポケモンつうしんクラブは\lただいま　ちょうせいちゅう　です
+@@CableClub_Text_AskAboutLinking_Frlg
+こんにちは　{PLAYER}！\pポケモンセンター　2かいの\nかかりいん　テイラです\pつうしんの　ことで\nなにか　ききたい\lことが　ありますか？
+@@CableClub_Text_CantDoubleBattleWithXPlayers_Frlg
+ダブルバトルは\n{STR_VAR_1}にんでは\lあそべません
+@@CableClub_Text_CantSingleBattleWithXPlayers_Frlg
+シングルバトルは\n{STR_VAR_1}にんでは\lあそべません
+@@CableClub_Text_CantTradeEnigmaBerry_Frlg
+{STR_VAR_1}を　もった\nポケモンは　こうかん\lできません
+@@CableClub_Text_ChooseGroupLeaderOfFour_Frlg
+4にんの　うち　だれが\nリーダーに　なるか\lきめて　ください\pほかの　ひとは\n「グループに　はいる」を\lえらんで　ください
+@@CableClub_Text_ChooseGroupLeaderOfTwo_Frlg
+ふたりの　うち　どちらが\nリーダーに　なるか\lきめて　ください\pもう　ひとりは\n「グループに　はいる」を\lえらんで　ください
+@@CableClub_Text_ChooseGroupLeader_Frlg
+だれが　リーダーに\nなるか　きめて\lください\pほかの　ひとは\n「グループに　はいる」を\lえらんで　ください
+@@CableClub_Text_DirectYouToYourRoom_Frlg
+それでは　おへやへ\nごあんない　します
+@@CableClub_Text_EnjoyUnionRoom_Frlg
+ユニオンルームを\nおたのしみ　ください
+@@CableClub_Text_ExplainBattleModes_Frlg
+バトルモードは　3つ\nあります\pシングルバトルは\nポケモンを　1ぴき\lいじょう　もつ\lふたりの　トレーナーで\lたたかいます\pそれぞれ　1ぴきずつ\nバトルに　だします\pダブルバトルは\nポケモンを　2ひき\lいじょう　もつ\lふたりの　トレーナーで\lたたかいます\pそれぞれ　2ひきずつ\nバトルに　だします\pマルチバトルは\nポケモンを　1ぴき\lいじょう　もつ\l4にんの　トレーナーで\lたたかいます\pそれぞれ　1ぴきずつ\nバトルに　だします
+@@CableClub_Text_ExplainWirelessClub_Frlg
+ポケモンつうしんクラブに\nついて　ごせつめい\lします\pこの　さいじょうかいには\nへやが　2つ　あります\pまず　ひだりの　へやは\nユニオンルーム　です\pユニオンルームに　はいった\nまわりの　トレーナーと\lつうしん　できます\pおしゃべりや　たいせん\nこうかんなどが　できます\pつぎに　みぎの　へやは\nダイレクトコーナー　です\pこの　へやでは\nともだちと　ポケモンの\lこうかんや　たいせんが\lできます\pユニオンルームや\nダイレクトコーナーで\lともだちが　みつからない\lことも　あります\pその　ときは　ともだちに\nちかづいて　ください\pワイヤレスアダプタが\nなくても　GBA\lつうしんケーブルで\lつうしん　できます\pその　ばあいは\nダイレクトコーナーへ\lおすすみ　ください\pワイヤレスつうしん\nシステムを\lおたのしみ　ください
+@@CableClub_Text_HopeYouEnjoyWirelessSystem_Frlg
+ワイヤレスつうしん\nシステムを\lおたのしみ　ください
+@@CableClub_Text_IncorrectNumberOfParticipants_Frlg
+さんかしゃの　にんずうが\nちがいます
+@@CableClub_Text_LinkErrorPleaseReset_Frlg
+つうしんエラーです‥\nリセットして\lもう　いちど\lおためし　ください
+@@CableClub_Text_NeedBerryForBerryCrush_Frlg
+きのみクラッシュを\nつかうには　きのみが\l1こ　いじょう\lひつよう　です
+@@CableClub_Text_NeedFourPlayers_Frlg
+この　バトルモードは\n4にん　ひつよう　です
+@@CableClub_Text_NeedTwoMonsForDoubleBattle_Frlg
+ダブルバトルには\nポケモンが　2ひき\lいじょう　ひつよう　です
+@@CableClub_Text_NeedTwoMonsForUnionRoom_Frlg
+ユニオンルームに　はいるには\nポケモンが　2ひき\lいじょう　ひつよう　です
+@@CableClub_Text_NeedTwoMonsToTrade_Frlg
+こうかん　するには\nポケモンが　2ひき\lいじょう　ひつよう　です
+@@CableClub_Text_NoEnigmaBerryInUnionRoom_Frlg
+{STR_VAR_1}を　もった\nポケモンは　ユニオンルームに\lはいれません
+@@CableClub_Text_NotSetUpForFarAwayRegion_Frlg
+もうしわけ　ございません\pとおくの　ちほうの\nトレーナーとの　こうかんは\lまだ　できません‥
+@@CableClub_Text_OtherTrainerNotReady_Frlg
+あいての　トレーナーの\nじゅんびが　できて　いません
+@@CableClub_Text_PlayWhichBattleMode_Frlg
+どの　バトルモードで\nあそびますか？
+@@CableClub_Text_PlayersMadeDifferentSelections_Frlg
+つうしん　あいてと\nえらんだ　ものが\lちがう　ようです
+@@CableClub_Text_PleaseConfirmNumberAndRestart_Frlg
+にんずうを　たしかめて\nもう　いちど\lはじめて　ください
+@@CableClub_Text_PleaseEnter_Frlg
+どうぞ　おはいり　ください
+@@CableClub_Text_PleaseVisitAgain_Frlg
+また　おこし　ください
+@@CableClub_Text_PleaseWaitBCancel_Frlg
+おまち　ください\n‥　‥　Bボタン『やめる
+@@CableClub_Text_SomeoneIsNotReadyToLink_Frlg
+つうしんの　じゅんびが\nできて　いない　ひとが\lいます\pみんなの　じゅんびが\nできてから　また\lきて　ください
+@@CableClub_Text_TradePokemon_Frlg
+ポケモンを\nこうかん　しますか？
+@@CableClub_Text_UnionRoomAdapterNotConnected_Frlg
+こちらは　ポケモンつうしんクラブ\nユニオンルーム　です\pざんねんながら\nワイヤレスアダプタが\lただしく　つながって\lいません\pまた　おこし　ください
+@@CableClub_Text_UnionRoomInfo_Frlg
+ユニオンルームの\nトレーナーは　まわりで\lおなじく　へやに　はいった\lプレイヤー　です\pあいさつ　など\nいろいろな　ことが\lできます\pレベル30までの\nポケモン　2ひきで\l1たい1の　たいせんが\lできます\p2から5にんで　おしゃべり\nする　ことも　できます\pまた　こうかん　する\nポケモンを　とうろく\lできます\pへやに　はいりますか？
+@@CableClub_Text_UseBerryCrush_Frlg
+きのみクラッシュを\nつかいますか？
+@@CableClub_Text_WelcomeUnionRoomEnter_Frlg
+ポケモンつうしんクラブ\nユニオンルームへ\lようこそ\pここでは　しらない\nひとを　ふくめた\lほかの　トレーナーと\lちょくせつ　つうしん\lできます\pへやに　はいりますか？
+@@CableClub_Text_WelcomeWhichCableClubService_Frlg
+ポケモンケーブルクラブへ\nようこそ\pどの　サービスを\nごりよう　ですか？
+@@CableClub_Text_WelcomeWhichDirectCornerRoom_Frlg
+ポケモンつうしんクラブ\nダイレクトコーナーへ\lようこそ\pここでは　ともだちと\nちょくせつ　つうしん\lできます\pどの　へやに\nはいりますか？
+@@CableClub_Text_YouHaveAMonThatCantBeTaken_Frlg
+つれて　いけない\nポケモンが　います
+## data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent
+つぎは　2にんめの　あいて　です！\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent
+つぎは　3にんめの　あいて　です！\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge
+セットKOトーナメントの\nちょうせんを　やめますか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait
+レポートを　かいて　います\nしょうしょう　おまちください
+@@BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin
+しんぱん『セットKOトーナメント！\nはじめ！
+@@BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent
+しんぱん『しょうしゃ　{STR_VAR_1}！
+@@BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer
+しんぱん『しょうしゃ　{PLAYER}！
+## data/maps/BattleFrontier_BattleArenaLobby/scripts.inc
+@@BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2
+また　の　ちょうせんを\nおまちして　おります！
+@@BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack
+しんぱんの　はんていで\nまけちゃった‥\pまもる　わざばかりで\nこうげき　しないのは\lよくなかったなあ‥
+@@BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon
+アリーナキャプテンから\nしょうりを　うばい　7にん\lれんしょうを　はたしました！\pすばらしい　ちょうせんを\nたたえます！
+@@BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins
+7にんの　トレーナーに\nれんしょう　されました\lおめでとう　ございます！
+@@BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown
+ちょうせんしゃさま！\pまえかいは　レポートを　かかずに\nゲームを　おえられ　ましたね？\pざんねん　ですが\nそのため　ちょうせんは\lしっかくと　なりました\pもちろん　あらたに\nちょうせん　する　ことは\lできます
+@@BattleFrontier_BattleArenaLobby_Text_GuideYouToArena
+それでは　バトルアリーナへ\nごあんない　いたします
+@@BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked
+はんていで　かったぞ！\pあいての　ポケモンに\nこうげきを　あてつづけたのが\lよかったんだ！
+@@BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame
+おまち　して　おりました\pバトルアリーナへ　ごあんない\nする　まえに　レポートを\lかきます　しょうしょう　おまちを
+@@BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw
+しあいは　ひきわけ　だった\pじかんぎれに　なった　とき\nおたがいの　ポケモンの\lのこりHPが　おなじ　くらい\lだったんだ
+@@BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant
+バトルアリーナでは\nポケモンの　じゅんばんが\lとても　だいじ　なの\pたとえば　1ぴきめが　ある\nタイプに　よわいなら\l2ひきめには　その　タイプに\lこうかばつぐんの　わざを\lもたせて　おくの\pそうすれば　いい\nチームが　できると　おもうわ
+@@BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints
+ちょうせんしゃさま\nその　ふくつの　せいしんを\lたたえ　バトルポイントを\lおうけとり　ください
+@@BattleFrontier_BattleArenaLobby_Text_RecordAchievement
+きろくを　のこします\nレポートを　かくので\lしょうしょう　おまちください
+@@BattleFrontier_BattleArenaLobby_Text_RecordLastMatch
+さいごの　バトルアリーナの\nしあいを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave
+ごさんか　ありがとう\nございました！\pレポートを　かくので\nしょうしょう　おまちください
+@@BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena
+トレーナーの　とうしが\nためされる　ばしょ！\pバトルアリーナへ　ようこそ！\pセットKOトーナメントの\nうけつけ　です！
+## data/maps/BattleFrontier_BattleDomeLobby/scripts.inc
+@@BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints
+その　さくせん‥　じつに\nうつくしい　ものでした‥\lたたえて　バトルポイントを\lさしあげます！
+@@BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker
+おめでとう　ございます！\pドームスーパースターを　やぶり\nバトルトーナメント　ゆうしょう\lです！
+@@BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney
+バトルトーナメント　ゆうしょう\nおめでとう　ございます！
+@@BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting
+すみません！\pまえかいは　レポートを　かかずに\nちょうせんを　やめましたね\pそのため　これまでの\nちょうせんは　しっかくと\lなりました　ごめんなさい！
+@@BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules
+トーナメントの　しあいで\nポケモンが　どうじに　ひんしに\lなったら　しんぱんが　しあいを\lふりかえり　しょうしゃを　きめます
+@@BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules
+トーナメントの　くみあわせは\nトレーナーが　もつ　ポケモンの\lつよさで　きまります\pつよい　トレーナーどうしが\nいきなり　あたらない　ように\lなって　いるのです
+@@BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree
+トーナメントひょうは\nひかえしつで　かかりいんに\lはなしかけると　みられます\pトーナメントひょうでは\nいろいろな　じょうほうが\lみられます\pまえの　トーナメントの　けっか\nトレーナーの　もつ　ポケモン\lトレーナーの　たたかいかた\lなどです
+@@BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain
+また　おこし　ください
+@@BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough
+みた？\nまえの　バトルトーナメント\pゆうしょうした　{STR_VAR_1}\nすごく　つよかったよ\pパソコンの　よこの　モニターで\nけっかを　みて　ごらん
+@@BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully
+この　ポケモンを　ひかえに\nしてれば　かてたのに‥\pたたかう　ポケモンを　えらぶ\nまえに　あいての　ポケモンを\lよく　みて　おかないとね
+@@BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge2
+バトルドームへ　ごあんない\nする　まえに　レポートを\lかきます　よろしい　ですか？
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50
+まえの　レベル50　ダブル\nトーナメントの　けっか　です
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen
+まえの　オープンレベル　ダブル\nトーナメントの　けっか　です
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50
+まえの　レベル50　シングル\nトーナメントの　けっか　です
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen
+まえの　オープンレベル　シングル\nトーナメントの　けっか　です
+@@BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading
+どの　こうもくを　よみますか？
+@@BattleFrontier_BattleDomeLobby_Text_RecordLastMatch
+さいごの　バトルドームの\nしあいを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved
+きろくを　のこします\nしょうしょう　おまちください
+@@BattleFrontier_BattleDomeLobby_Text_RulesAreListed
+バトルトーナメントの\nルールが　かいて　あります
+@@BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome
+それでは　バトルドームへ\nごあんない　いたします
+@@BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying
+ありがとう　ございました！
+@@BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound
+1かいせんで　ゆうしょう\nこうほと　あたっちゃってさ\pもちろん　ぼろまけ‥
+@@BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle
+トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pダブルバトル　トーナメントの\nうけつけ　です
+@@BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle
+トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pシングルバトル　トーナメントの\nうけつけ　です
+@@BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou
+おまち　して　おりました！
+@@BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation
+バトルドームで　れんぞく\nゆうしょう　すると　スターとして\lゆうめいに　なるの\pその　ひょうばんを　きいて\nつよい　トレーナーが\lあつまって　くるのよ\pゆうしょうし　つづけられる\nトレーナーこそ　ほんとうの\lスーパースター　なのよ
+@@BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier
+バトルフロンティア‥\nこんな　ばしょを\lずっと　ゆめみて　いたんだ
+## data/maps/BattleFrontier_BattleTowerLobby/scripts.inc
+@@BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting
+すみません！\pまえかいは　レポートを　かかずに\nちょうせんを　やめましたね\pそのため　これまでの\nちょうせんは　しっかくと\lなりました　ごめんなさい！
+@@BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading
+どの　こうもくを　よみますか？
+@@BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved
+きろくを　のこします\nしょうしょう　おまちください
+@@BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer
+いよいよ　50にんめの\nトレーナー　です\pここから　7れんしょう\nする　たびに　ポケモンに\lきねんの　リボンが\lおくられます\pがんばって　ください！
+@@BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints
+その　かぎりない　さいのうを\nたたえ　バトルポイントを\lさしあげます
+@@BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins
+バトルタワーに　はいったら\nまけるか　7れんしょう\lするまで　でられません\pじゅうぶん　じしんが　ある\nか　たしかめて　おいた\lほうが　いいですよ
+@@BattleFrontier_BattleTowerLobby_Text_ChangedYourMind
+え？　きが　かわったの？\nきまぐれな　ひと　ですね
+@@BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven
+おめでとう　ございます！\n7にん　ぜんいんに\lかちました！\p
+@@BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden
+おめでとう　ございます！\nタワータイクーンを　やぶり\l7にんに　かちました！
+@@BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower
+すみません　ちょっと\nいいですか？\pバトルタワーの　しあいを\nはじめる　ときや　かった\lとき　まけた　ときの\lきもちを　おしえて　ください
+@@BattleFrontier_BattleTowerLobby_Text_DontThinkMuchAboutIt
+あら　あまり　かんがえない\nほう　なの？\lクールな　ひと　ですね
+@@BattleFrontier_BattleTowerLobby_Text_ExplainMonRules
+はいる　バトルルームに\nよって　つれて　いく\lポケモンの　かずが　ちがいます\pシングルバトルは\n3びき　です\pダブルバトルは　4ひき\nマルチは　どちらも　2ひき\lです
+@@BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules
+つうしんマルチバトルは\nともだちと　ふたりで\lちょうせん　する　モードです\pワイヤレスアダプタか\nGBA　つうしんケーブルで\lつないで　ください\pうけつけで　ポケモンを\n2ひき　えらんで　ください\pともだちと　ちがう\nポケモンで　なければ\lなりません\pほかの　モードと　ちがい\nとちゅうで　ちゅうだん\lできません
+@@BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules
+バトルサロンは　マルチ\nバトルルームの　パートナーを\lさがす　ばしょ　です\pほかの　トレーナーの　ポケモンと\nわざを　みて　いちばん\lいい　パートナーを\lえらんで　ください\p7れんしょう　したら\nあたらしい　パートナーを\lえらべます
+@@BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules
+バトルタワーでは　4しゅるいの\nバトルが　おこなわれます\lシングル　ダブル　マルチ\lつうしんマルチ　です\pそれぞれ　べつの\nバトルルームが　あります\pちょうせん　したい\nバトルの　かかりいんに\lはなしかけて　ください
+@@BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin
+では　しあいを　はじめる\nときの　きもちは？
+@@BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveLost
+しあいに　まけた　ときの\nきもちを　きかせて　ください
+@@BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveWon
+しあいに　かった　ときは\nどんな　きもち　ですか？
+@@BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons
+7にんの　つよい　トレーナーに\nれんしょう　した　きねんに\lリボンを　どうぞ\p{PLAYER}は\nリボンを　もらった！
+@@BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge
+また　の　ちょうせんを\nおまちして　おります！
+@@BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved
+バトルルームに　はいる\nまえに　レポートを　かきます\lしょうしょう　おまちください
+@@BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons
+{PLAYER}は　ちょうせんした\nポケモンに　リボンを　つけた
+@@BattleFrontier_BattleTowerLobby_Text_RecordLastMatch
+さいごの　バトルタワーの\nしあいを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_RulesAreListed
+バトルタワーの　ルールが\nかいて　あります
+@@BattleFrontier_BattleTowerLobby_Text_ThankYouForPlaying
+ありがとう　ございました！\p
+@@BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel
+なるほど　そう　かんじるのね\nとても　ユニーク　です\pありがとう！
+@@BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pシングル　バトルルームの\nうけつけ　です
+@@BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pダブル　バトルルームの\nうけつけ　です
+@@BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pつうしんマルチ\nバトルルームの　うけつけ　です
+@@BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pマルチ　バトルルームの\nうけつけ　です
+@@BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou
+おまち　して　おりました！\p
+@@BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded
+れんしょうの　かずは\nきろく　されるんだ\pみっともない　まけかたは\nしたくないな！
+## data/maps/BattleFrontier_BattlePikeLobby/scripts.inc
+@@BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading
+どの　こうもくを　よみますか？
+@@BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints
+その　すばらしい　うんを\nたたえ　バトルポイントを\lさしあげます‥
+@@BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults
+ちょうせんが　おわりました‥\pけっかを　きろく　します\nしょうしょう　おまちください‥
+@@BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules
+バトルチューブの　ちょうせん\nちゅう　ポケモンに　もたせた\lきのみや　ハーブは\l1かいしか　ききません
+@@BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules
+バトルチューブの　ちょうせん\nちゅうは　ポケモンの\lじゅんばんを　かえられません\pじゅんばんは　ちょうせんを\nはじめる　まえに　きめて\lください
+@@BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules
+バトルチューブの　ちょうせん\nちゅうは　バッグと　ポケギアは\lつかえません
+@@BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting
+まことに　もうしわけ　ありませんが‥\pまえかいは　レポートを　かかずに\nちょうせんを　やめましたね\pそのため　これまでの\nちょうせんは　しっかくと\lなりました‥
+@@BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou
+また　の　おこしを\nおまちして　おります‥
+@@BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer
+もう　10かいも　クリア\nしたけど　1かいも　トレーナーと\lたたかった　ことが　ないんだ
+@@BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal
+くそっ！　チャンスを　のがした！\nゴールまで　あと　ひとへや\lだったのに！\pここでは　どくや　こおり\nなんかに　きを　つけた\lほうが　いいよ
+@@BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance
+ちょうせんを　クリア\nされました‥\pあなたは　ゆたかな　うんを\nおもちの　ようですね‥
+@@BattleFrontier_BattlePikeLobby_Text_RulesAreListed
+バトルチューブの　ルールが\nかいて　あります
+@@BattleFrontier_BattlePikeLobby_Text_ShallRecordResults
+けっかを　きろく　します\nしょうしょう　おまちください‥
+@@BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen
+おめでとう　ございます‥\pチューブクイーンを　やぶり\nクリア　されました‥
+@@BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere
+ねえねえ！\pここでは　ポケモンの\nとくせいが　やくに　たつと\lおもわない？
+@@BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike
+トレーナーの　うんが\nためされる　ばしょ‥\pバトルチューブへ　ようこそ‥\pバトルチューブの\nうけつけ　です‥
+## data/maps/BattleFrontier_BattlePyramidLobby/scripts.inc
+@@BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading
+どの　こうもくを　よみますか？
+@@BattleFrontier_BattlePyramidLobby_Text_Aah
+‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥\p‥　‥　‥　‥　‥　‥\nああっ！
+@@BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep
+もうしわけ　ありませんが\nバトルバッグに　どうぐが\lはいりきりません\pバトルバッグと　ポケモンに\nのこす　どうぐを\lえらんで　ください
+@@BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot
+わたしの　うらないを　しんじるか\nどうかは　あなた　しだい‥\pみらいは　いつでも\nかえられます‥\lぶじを　いのって　います‥
+@@BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag
+たいへんです　たんけんしゃさま！\pまえかいは　レポートを　かかずに\nちょうせんを　おえられ　ました\pそのため　ちょうせんは\nしっかくと　なりました\pおあずかり　していた\nバッグを　おかえし　します\p{PLAYER}は　バッグを\nかえして　もらった
+@@BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag
+ざんねん　でしたね‥\pおあずかり　していた\nバッグを　おかえし　します\p{PLAYER}は　バッグを\nかえして　もらった
+@@BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag
+{PLAYER}は　バッグと\nバトルバッグを　こうかんした
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules
+ピラミッドの　なかでは\nバトルバッグを　バッグとして\lつかいます\pバトルバッグは　レベル50と\nオープンレベル　それぞれに\l1つずつ　あります\pどちらも　10しゅるいの\nどうぐを　99こまで\lいれられます\pちょうせんに　しっぱいすると\nバトルバッグの　なかみは\lなくなります
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules
+ピラミッドの　めいろは\nはいる　たびに　かわります\pめいろは　くらいので\nしんちょうに　すすんで\lください\pやせいの　ポケモンや\nトレーナーを　たおすと\lまわりが　あかるく　なります
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules
+ピラミッドを　せいは　すると\nなかに　でてくる\lやせいの　ポケモンが\lかわります\pどんな　ポケモンが　でるか\nしらべて　まなんで\lください
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules
+ピラミッドの　なかでは\nトレーナーが　まちかまえて\lいます\pフロアごとに　さいだい\n8にんの　トレーナーが\lいます\pトレーナーを　たおすと\nぼうけんに　やくだつ\lヒントが　もらえます
+@@BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints
+わかき　たんけんしゃよ！\nその　ゆうきを　たたえ\lバトルポイントを　さしあげます！
+@@BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag
+{PLAYER}さま　ポケモンに\nもたせた　どうぐは　すべて\lバトルバッグに　うつします
+@@BattleFrontier_BattlePyramidLobby_Text_HintBug
+むしタイプの　ポケモンが\nみえます‥\p‥そして　いろいろな\nこうげきに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintBurn
+まっかな　ほのおが\nみえます‥\p‥そして　やけどに\nくるしむ　あなたの\lポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintDark
+あくタイプの　ポケモンが\nみえます‥\p‥そして　あくタイプの\nわざに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintExplosion
+じぶんを　きけんに　さらす\nわざの　あらしが\lみえます‥\p‥そして　それに　たおれる\nあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintFighting
+かくとうタイプの　ポケモンが\nみえます‥\p‥そして　かくとうわざで\nうちのめされる\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon
+そらを　とぶ　ポケモンが\nみえます‥\p‥そして　ものすごく\nつよい　わざに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintGhost
+ゴーストタイプの　ポケモンが\nみえます‥\p‥そして　ゴーストタイプの\nわざに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintIce
+こおりタイプの　ポケモンが\nみえます‥\p‥そして　こおりつく\nちからと　たたかう\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintLevitate
+そらたかく　うかぶ\nポケモンが　みえます‥\p‥そして　じめんわざが\nきかずに　くやしがる\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintNormal
+ノーマルタイプの　ポケモンが\nみえます‥\p‥そして　ものすごく\nつよい　わざに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintPPWaste
+はらせない　いかりの\nすさまじい　ちからを\lかんじます‥\pこれは　のろい‥\p‥そして　PPを　すわれて\nわるあがき　するしか\lない　あなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintParalysis
+ひばなの　あめが\nみえます‥\p‥その　なかで　まひに\nくるしむ　あなたの\lポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintPoison
+どくが　みえます‥\p‥そして　どくに\nくるしむ　あなたの\lポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintPsychic
+エスパータイプの　ポケモンが\nみえます‥\p‥そして　エスパーわざに\nくるしむ　あなたの\lポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintRock
+いわタイプの　ポケモンが\nみえます‥\p‥そして　いわわざに\nくるしむ　あなたの\lポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintSteel
+はがねタイプの　ポケモンが\nみえます‥\p‥そして　ものすごく\nつよい　わざに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve
+いしの　ちからで\nしんかした　ものたちが\lみえます‥\pほのお　みず　でんきも\nかんじます‥\p‥そして　その　みっつの\nちからに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility
+あしもとから　わきあがる\nすさまじい　ちからを\lかんじます‥\p‥そして　その　ちからから\nにげられない\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintWater
+みずタイプの　ポケモンが\nみえます‥\p‥そして　みずタイプの\nわざに　くるしむ\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintWeather
+あまごい‥　にほんばれ‥\nすなあらし‥　あられ‥\pてんきで　つよく　なる\nポケモンが　みえます‥\p‥そして　いろいろな　わざに\nまどわされる\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem
+どうぐを　もった　ポケモンが\nまだ　1ぴき　います
+@@BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge
+つぎの　ちょうせんを\nおまちして　おります！
+@@BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems
+うわあああああああ！\pどうぐを　たくさん　もってたのに\nまけて　ぜんぶ　なくした！\pうわあああああああ！
+@@BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake
+あ　ちょっと　もんだいが\pどうぐを　もった　ポケモンが\n1ぴき　います\pもうしわけ　ありませんが\nピラミッドで　てに　いれた\lどうぐは　もちだせません
+@@BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep
+バトルバッグと　ポケモンに\nのこす　どうぐを\lえらんで　ください
+@@BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag
+かわりに　まえに　つかった\nバトルバッグを\lおうけとり　ください
+@@BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag
+かわりに　この　バトルバッグを\nおうけとり　ください
+@@BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait
+けっかを　きろく　します\nしょうしょう　おまちください
+@@BattleFrontier_BattlePyramidLobby_Text_RulesAreListed
+バトルクエストの　ルールが\nかいて　あります
+@@BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid
+よろしい　それでは\nバトルピラミッドへ\lごあんない　します
+@@BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel
+この　ゆかの　パネルに\nのると　ピラミッドの\lうえの　フロアへ　いけます\pぶじに　すすめる　ことを\nいのって　います！
+@@BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait
+ようこそ‥\pピラミッドで　まちうける\nわざわいを　おしえて\lさしあげましょう‥
+@@BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning
+しってた？\pはしって　いると　トレーナーに\nきづかれて　しょうぶを\lしかけられる　ことが　あるんだ\pだから　トレーナーを\nさけたいなら　めを　あわさず\lそっと　とおりすぎるんだよ
+@@BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept
+つかった　バトルバッグは\nつぎの　ちょうせんまで\lおあずかり　します\p{PLAYER}は　バトルバッグを\nわたして　バッグを\lかえして　もらった
+@@BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping
+{PLAYER}さま　たんけんの\nあいだ　バッグを\lおあずかり　します
+@@BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid
+トレーナーの　ゆうきが\nためされる　ばしょ！\pバトルピラミッドへ　ようこそ！\pバトルクエストの\nうけつけ　です
+@@BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid
+おかえりなさい！\pピラミッドを　せいは　されましたね！\nすばらしい！
+@@BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing
+おかえりなさい！\nとんでもない　ことを\lなしとげ　ましたね！\pピラミッドキングを　やぶり\nバトルピラミッドを\lせいは　されました！
+## data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc
+@@BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints
+その　ゆたかな　ちしきと\nするどい　ちせいを　たたえ\lバトルポイントを　さしあげます
+@@BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints
+ここの　かかりいんが\nつぎの　あいてに　ついて\lヒントを　くれるだろ？\pおれは　いい　おとな　だけど\nあの　ヒントが　よく\lわからないんだよな
+@@BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead
+ファクトリーヘッドを　やぶり\n7れんしょう　おめでとう\lございます！
+@@BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins
+おめでとう　ございます！\nレンタルバトルで\l7れんしょう　です！
+@@BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting
+もうしわけ　ありませんが\nまえかいは　レポートを　かかずに\lやめられ　ましたね\pそのため　ちょうせんは\nしっかくと　なりました
+@@BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave
+あなたの　ポケモンと\nレンタルポケモンを\lこうかん　します\pバトルの　データを　かくので\nしょうしょう　おまちください
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules
+レンタルバトルでは　ポケモンを\n3びき　だけ　つかえます\pレンタルでも　こうかんでも\nおなじ　ポケモンを　2ひき\lいじょう　チームに\lいれる　ことは　できません
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules
+オープンレベルでは\nレンタルポケモンも　あいての\lポケモンも　すべて\lレベル100　です
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules
+ポケモンを　こうかん　する\nときの　ポイントは　2つ\pまず　こうかん　する　とき\nもらう　ポケモンの\lのうりょくは　みられません\pつぎに　チームの　ポケモンは\nレンタルした　じゅんに\lならびます\pこの　じゅんばんは\nこうかん　しても\lかわりません
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules
+バトルに　かつ　たびに\nたおした　あいての　ポケモンと\lこうかん　できます\p7にんめの　トレーナーとは\nこうかん　できません
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules
+こうかん　できるのは\nたおした　ばかりの\lトレーナーだけ　です\pその　トレーナーが\nつかった　ポケモン　だけと\lこうかん　できます
+@@BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit
+また　の　おこしを\nおまちして　おります
+@@BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves
+やあ！\nそこの　きみ！\pここは　そだてた　ポケモンが\nいらないから　かんたんだと\lおもってない？\pそう　かんたんには\nかてないよ\pポケモンと　わざを　よく\nしらないと　かちつづけるのは\lむずかしいぞ
+@@BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons
+ぜんぜん　うまく\nいかないなあ\pバトルちゅうに　あいての\nポケモンが　いいか　どうか\lよく　みないと　だめだね
+@@BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch
+さいごの　バトルファクトリーの\nしあいを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults
+ごさんか　ありがとう\nございました！\pレンタルポケモンと　ひきかえに\nあなたの　ポケモンを\lおかえし　します\pけっかを　かくので\nしょうしょう　おまちください
+@@BattleFrontier_BattleFactoryLobby_Text_StepThisWay
+こちらへ　どうぞ
+@@BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon
+よわい　ポケモンと\nこうかん　しちゃった‥\lいいと　おもったのに‥\pこてんぱんに　やられたよ‥
+@@BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume
+おまち　して　おりました！\pちょうせんを　さいかい　する\nまえに　レポートを　かきます
+@@BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle
+トレーナーの　ちせいが\nためされる　ばしょ！\pバトルファクトリーへ　ようこそ！\pレンタルバトル　ダブルの\nうけつけ　です
+@@BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle
+トレーナーの　ちせいが\nためされる　ばしょ！\pバトルファクトリーへ　ようこそ！\pレンタルバトル　シングルの\nうけつけ　です
+## data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection
+まず　あなたの　ポケモンを\nおあずかり　します\pそれから　こちらの　ポケモンを\nおえらび　ください
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons
+おつかれさま　でした！\nポケモンを　かいふく　します！
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon
+バトルの　まえに\nポケモンを　こうかん　しますか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent
+つぎは　2せんめ　です！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent
+つぎは　3せんめ　です！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge
+レンタルバトルの\nちょうせんを　やめますか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay
+こちらへ　どうぞ！
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait
+レポートを　かいて　います\nしょうしょう　おまちください
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete
+ありがとう　ございました！\nポケモンの　こうかんが\lおわりました
+## data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.inc
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser
+パレスガーディアン　ウコンの\nおなーりー！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven
+そして‥\pかちつづけた　あなたには\nわれらが　あるじ\lパレスガーディアンに\lいどむ　しかくが　あります‥
+@@BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass
+やれやれ　もうすこし\nおちついて　いられたら‥\pがあっ！　ほれ！\nはやく　フロンティアパスを\lだしなさい！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah
+‥　‥　‥かあっ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons
+みごとじゃ‥\nポケモンを　かいふく　しよう
+@@BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass
+やれやれ　えらそうな　ふりを\nつづけられたら　いいのじゃが‥\pほれ！\nフロンティアパスを　みせなさい！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent
+つぎは　2にんめの　あいて\nかくごは　よろしいか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent
+つぎは　3にんめの　あいて\nかくごは　よろしいか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent
+つぎは　4にんめの　あいて\nかくごは　よろしいか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent
+つぎは　5にんめの　あいて\nかくごは　よろしいか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent
+つぎは　6にんめの　あいて\nかくごは　よろしいか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent
+つぎは　7にんめの　あいて\nかくごは　よろしいか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons
+ポケモンとの　きずな！\nここで　しめして　みせよ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven
+パレスガーディアンを\nおよびする　よろしいか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol
+フロンティアパスに\nスピリッツシンボルが\lきざまれた！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch
+さいごの　しあいを\nフロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SavingData
+レポートを　かいて　いる\nしばし　またれよ‥
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime
+ウコン『おぬしの　ポケモンの　め\nじつに　すみきって　おる\pつぎに　あえる　ときを\nたのしみに　まって　おるぞ
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain
+ウコン『がっはっは！\pなんども　あいに　くるが　よい！\nわしと　なかまが　まって　おる！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro
+ウコン『わしの　からだは\nいつも　ポケモンと　ともに！\pわしの　こころは\nいつも　ポケモンと　ひとつ！\pわかき　トレーナーよ！\nおぬしは　ポケモンを\lしんじて　おるか？\pこころの　そこから\nしんじられるか？\pしんらいの　きずなが　もろければ\nわしの　なかまには　かてんぞ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle
+ウコン『がっはっは！\pはったりには　のらなんだか！\nためして　わるかったのう！\pほれ！\nあれを　もって　まいれ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack
+ウコン『がっはっは！\nまた　かちあがって　きたか？\pよほど　ポケモンと　つよい\nきずなを　きずいた　ようじゃな\pよかろう！\pこんどは　はったりも\nてかげんも　せん！\lほんきで　いくぞ！\pよいか？\nかくご　いたせ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable
+ウコン『みごとな　ものじゃ！\nほんきを　だした　わしの\lなかまでも　かなわなんだ\pおぬしたちの　きずな\nじつに　あっぱれ！\pほれ！\nあれを　もって　まいれ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine
+スピリッツシンボルが\nきんいろに　かがやいた！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge
+ちょうせんを　やめますか？
+## data/maps/BattleFrontier_BattlePalaceCorridor/scripts.inc
+@@BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature
+ポケモンの　せいかくで\nうごきが　かわる　ことが\lわかって　きましたか？
+@@BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons
+ああ‥　あなたと　ポケモンの\nあいだに　つよい　こころの\lきずなが　みえます‥
+@@BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes
+ポケモンに　いやな　ことを\nさせるより　すきな　ことや\lとくいな　ことを　させましょう\pポケモンの　たちばに　なって\nどんな　わざを　つかいたいか\lかんがえて　みるのです
+@@BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered
+ポケモンの　せいかくとは\nふしぎな　もの‥\pおいつめられると　まったく\nちがう　うごきを　する\lポケモンも　いるのです
+@@BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame
+ひとも　ポケモンも\nおなじ　こと‥\pせいかくに　よって\nとくいな　ことも　あれば\lにがてな　ことも　ある
+## data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc
+@@BattlePyramid_Text_EightItemsRemaining1
+どうぐを　さがして　いるの？\pまだ　8こ　おちて　いるよ
+@@BattlePyramid_Text_EightItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\n8こ　おちて　いるよ
+@@BattlePyramid_Text_EightItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　まだ\nどうぐが　8こ　ある　はずだ
+@@BattlePyramid_Text_EightItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n8こ　ある　みたい
+@@BattlePyramid_Text_EightItemsRemaining5
+ピラミッドの　この　フロアには\nどうぐが　8こ　あるらしい‥
+@@BattlePyramid_Text_EightItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n8こ　ある　はずよ
+@@BattlePyramid_Text_ExitHintDown1
+この　フロアの　でぐちは\n{DOWN_ARROW}の　ほうこう　だよ
+@@BattlePyramid_Text_ExitHintDown2
+この　フロアの　でぐちは\n{DOWN_ARROW}の　ほう　だ
+@@BattlePyramid_Text_ExitHintDown3
+でぐちは\nあっち　{DOWN_ARROW}　の　ほうさ
+@@BattlePyramid_Text_ExitHintDown4
+この　フロアの　でぐちは\n{DOWN_ARROW}の　ほうこうの　どこかに　ある
+@@BattlePyramid_Text_ExitHintDown5
+でぐち？\nあっち　{DOWN_ARROW}　だよ
+@@BattlePyramid_Text_ExitHintDown6
+でぐちは　たしか\n{DOWN_ARROW}の　ほうこう　だったわ
+@@BattlePyramid_Text_ExitHintLeft1
+この　フロアの　でぐちは\n{LEFT_ARROW}の　ほうこう　だよ
+@@BattlePyramid_Text_ExitHintLeft2
+この　フロアの　でぐちは\n{LEFT_ARROW}の　ほう　だ
+@@BattlePyramid_Text_ExitHintLeft3
+でぐちは\nあっち　{LEFT_ARROW}　の　ほうさ
+@@BattlePyramid_Text_ExitHintLeft4
+この　フロアの　でぐちは\n{LEFT_ARROW}の　ほうこうの　どこかに　ある
+@@BattlePyramid_Text_ExitHintLeft5
+でぐち？\nあっち　{LEFT_ARROW}　だよ
+@@BattlePyramid_Text_ExitHintLeft6
+でぐちは　たしか\n{LEFT_ARROW}の　ほうこう　だったわ
+@@BattlePyramid_Text_ExitHintRight1
+この　フロアの　でぐちは\n{RIGHT_ARROW}の　ほうこう　だよ
+@@BattlePyramid_Text_ExitHintRight2
+この　フロアの　でぐちは\n{RIGHT_ARROW}の　ほう　だ
+@@BattlePyramid_Text_ExitHintRight3
+でぐちは\nあっち　{RIGHT_ARROW}　の　ほうさ
+@@BattlePyramid_Text_ExitHintRight4
+この　フロアの　でぐちは\n{RIGHT_ARROW}の　ほうこうの　どこかに　ある
+@@BattlePyramid_Text_ExitHintRight5
+でぐち？\nあっち　{RIGHT_ARROW}　だよ
+@@BattlePyramid_Text_ExitHintRight6
+でぐちは　たしか\n{RIGHT_ARROW}の　ほうこう　だったわ
+@@BattlePyramid_Text_ExitHintUp1
+この　フロアの　でぐちは\n{UP_ARROW}の　ほうこう　だよ
+@@BattlePyramid_Text_ExitHintUp2
+この　フロアの　でぐちは\n{UP_ARROW}の　ほう　だ
+@@BattlePyramid_Text_ExitHintUp3
+でぐちは\nあっち　{UP_ARROW}　の　ほうさ
+@@BattlePyramid_Text_ExitHintUp4
+この　フロアの　でぐちは\n{UP_ARROW}の　ほうこうの　どこかに　ある
+@@BattlePyramid_Text_ExitHintUp5
+でぐち？\nあっち　{UP_ARROW}　だよ
+@@BattlePyramid_Text_ExitHintUp6
+でぐちは　たしか\n{UP_ARROW}の　ほうこう　だったわ
+@@BattlePyramid_Text_FiveItemsRemaining1
+どうぐを　さがして　いるの？\pまだ　5こ　おちて　いるよ
+@@BattlePyramid_Text_FiveItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\nあと　5こ　おちて　いるよ
+@@BattlePyramid_Text_FiveItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　まだ\nどうぐが　5こ　ある　はずだ
+@@BattlePyramid_Text_FiveItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n5こ　ある　みたい
+@@BattlePyramid_Text_FiveItemsRemaining5
+ピラミッドの　この　フロアには\nどうぐが　5こ　あるらしい‥
+@@BattlePyramid_Text_FiveItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n5こ　ある　はずよ
+@@BattlePyramid_Text_FiveTrainersRemaining1
+きみ　ほんとに　すごいね！\pでも　ぼくの　ほかに　まだ\nつよい　トレーナーが　5にん　いる！
+@@BattlePyramid_Text_FiveTrainersRemaining2
+くやしい！\pでも　トレーナーは　あと\n5にん　いる！\lだれかが　きみを　たおすよ！
+@@BattlePyramid_Text_FiveTrainersRemaining3
+なかなか　やるね！\pでも　この　フロアには　あと\n5にん　トレーナーが　いる\lみんなに　かてるかな？
+@@BattlePyramid_Text_FiveTrainersRemaining4
+この　フロアに　のこった\n5にんの　トレーナーにも\lかてる　かもね
+@@BattlePyramid_Text_FiveTrainersRemaining5
+きみなら　のこりの\n5にんの　つわものにも\lかてる　かも　しれない
+@@BattlePyramid_Text_FiveTrainersRemaining6
+のこりの　5にんの\nトレーナーにも　かてるかな？
+@@BattlePyramid_Text_FourItemsRemaining1
+どうぐを　さがして　いるの？\pまだ　4こ　おちて　いるよ
+@@BattlePyramid_Text_FourItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\nあと　4こ　おちて　いるよ
+@@BattlePyramid_Text_FourItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　まだ\nどうぐが　4こ　ある　はずだ
+@@BattlePyramid_Text_FourItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n4こ　ある　みたい
+@@BattlePyramid_Text_FourItemsRemaining5
+ピラミッドの　この　フロアには\nどうぐが　4こ　あるらしい‥
+@@BattlePyramid_Text_FourItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n4こ　ある　はずよ
+@@BattlePyramid_Text_FourTrainersRemaining1
+きみ　ほんとに　すごいね！\pでも　ぼくの　ほかに　まだ\nつよい　トレーナーが　4にん　いる！
+@@BattlePyramid_Text_FourTrainersRemaining2
+くやしい！\pでも　トレーナーは　あと\n4にん　いる！\lだれかが　きみを　たおすよ！
+@@BattlePyramid_Text_FourTrainersRemaining3
+なかなか　やるね！\pでも　この　フロアには　あと\n4にん　トレーナーが　いる\lみんなに　かてるかな？
+@@BattlePyramid_Text_FourTrainersRemaining4
+この　フロアに　のこった\n4にんの　トレーナーにも\lかてる　かもね
+@@BattlePyramid_Text_FourTrainersRemaining5
+きみなら　のこりの\n4にんの　つわものにも\lかてる　かも　しれない
+@@BattlePyramid_Text_FourTrainersRemaining6
+のこりの　4にんの\nトレーナーにも　かてるかな？
+@@BattlePyramid_Text_OneItemRemaining1
+どうぐを　さがして　いるの？\pまだ　1こ　おちて　いるよ
+@@BattlePyramid_Text_OneItemRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\n1こ　だけ　おちて　いるよ
+@@BattlePyramid_Text_OneItemRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　どうぐが\nあと　1こ　だけ　ある　はずだ
+@@BattlePyramid_Text_OneItemRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n1こ　だけ　ある　みたい
+@@BattlePyramid_Text_OneItemRemaining5
+ピラミッドの　この　フロアには\nどうぐが　1こ　あるらしい‥
+@@BattlePyramid_Text_OneItemRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n1こ　ある　はずよ
+@@BattlePyramid_Text_OneTrainersRemaining1
+きみ　ほんとに　すごいね！\pでも　ぼくの　ほかに　まだ\nつよい　トレーナーが　1にん　いる！
+@@BattlePyramid_Text_OneTrainersRemaining2
+くやしい！\pでも　トレーナーは　あと\n1にん　いる！\lきっと　きみを　たおすよ！
+@@BattlePyramid_Text_OneTrainersRemaining3
+なかなか　やるね！\pでも　この　フロアには　あと\n1にん　トレーナーが　いる\lかてるかな？
+@@BattlePyramid_Text_OneTrainersRemaining4
+この　フロアに　のこった\n1にんにも　かてば　ぜんしょうだね
+@@BattlePyramid_Text_OneTrainersRemaining5
+きみなら　のこりの\n1にんの　つわものにも\lかてる　かも　しれない
+@@BattlePyramid_Text_OneTrainersRemaining6
+のこった　さいごの\nトレーナーにも　かてるかな？
+@@BattlePyramid_Text_SevenItemsRemaining1
+どうぐを　さがして　いるの？\pまだ　7こ　おちて　いるよ
+@@BattlePyramid_Text_SevenItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\nあと　7こ　おちて　いるよ
+@@BattlePyramid_Text_SevenItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　まだ\nどうぐが　7こ　ある　はずだ
+@@BattlePyramid_Text_SevenItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n7こ　ある　みたい
+@@BattlePyramid_Text_SevenItemsRemaining5
+ピラミッドの　この　フロアには\nどうぐが　7こ　あるらしい‥
+@@BattlePyramid_Text_SevenItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n7こ　ある　はずよ
+@@BattlePyramid_Text_SevenTrainersRemaining1
+きみ　ほんとに　すごいね！\pでも　ぼくの　ほかに　まだ\nつよい　トレーナーが　7にん　いる！
+@@BattlePyramid_Text_SevenTrainersRemaining2
+くやしい！\pでも　トレーナーは　あと\n7にん　いる！\lだれかが　きみを　たおすよ！
+@@BattlePyramid_Text_SevenTrainersRemaining3
+なかなか　やるね！\pでも　この　フロアには　あと\n7にん　トレーナーが　いる\lみんなに　かてるかな？
+@@BattlePyramid_Text_SevenTrainersRemaining4
+この　フロアに　のこった\n7にんの　トレーナーにも\lかてる　かもね
+@@BattlePyramid_Text_SevenTrainersRemaining5
+きみなら　のこりの\n7にんの　つわものにも\lかてる　かも　しれない
+@@BattlePyramid_Text_SevenTrainersRemaining6
+のこりの　7にんの\nトレーナーにも　かてるかな？
+@@BattlePyramid_Text_SixItemsRemaining1
+どうぐを　さがして　いるの？\pまだ　6こ　おちて　いるよ
+@@BattlePyramid_Text_SixItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\nあと　6こ　おちて　いるよ
+@@BattlePyramid_Text_SixItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　まだ\nどうぐが　6こ　ある　はずだ
+@@BattlePyramid_Text_SixItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n6こ　ある　みたい
+@@BattlePyramid_Text_SixItemsRemaining5
+ピラミッドの　この　フロアには\nどうぐが　6こ　あるらしい‥
+@@BattlePyramid_Text_SixItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n6こ　ある　はずよ
+@@BattlePyramid_Text_SixTrainersRemaining1
+きみ　ほんとに　すごいね！\pでも　ぼくの　ほかに　まだ\nつよい　トレーナーが　6にん　いる！
+@@BattlePyramid_Text_SixTrainersRemaining2
+くやしい！\pでも　トレーナーは　あと\n6にん　いる！\lだれかが　きみを　たおすよ！
+@@BattlePyramid_Text_SixTrainersRemaining3
+なかなか　やるね！\pでも　この　フロアには　あと\n6にん　トレーナーが　いる\lみんなに　かてるかな？
+@@BattlePyramid_Text_SixTrainersRemaining4
+この　フロアに　のこった\n6にんの　トレーナーにも\lかてる　かもね
+@@BattlePyramid_Text_SixTrainersRemaining5
+きみなら　のこりの\n6にんの　つわものにも\lかてる　かも　しれない
+@@BattlePyramid_Text_SixTrainersRemaining6
+のこりの　6にんの\nトレーナーにも　かてるかな？
+@@BattlePyramid_Text_ThreeItemsRemaining1
+どうぐを　さがして　いるの？\pまだ　3こ　おちて　いるよ
+@@BattlePyramid_Text_ThreeItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\nあと　3こ　おちて　いるよ
+@@BattlePyramid_Text_ThreeItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　まだ\nどうぐが　3こ　ある　はずだ
+@@BattlePyramid_Text_ThreeItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n3こ　ある　みたい
+@@BattlePyramid_Text_ThreeItemsRemaining5
+ピラミッドの　この　フロアには\nどうぐが　3こ　あるらしい‥
+@@BattlePyramid_Text_ThreeItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n3こ　ある　はずよ
+@@BattlePyramid_Text_ThreeTrainersRemaining1
+きみ　ほんとに　すごいね！\pでも　ぼくの　ほかに　まだ\nつよい　トレーナーが　3にん　いる！
+@@BattlePyramid_Text_ThreeTrainersRemaining2
+くやしい！\pでも　トレーナーは　あと\n3にん　いる！\lだれかが　きみを　たおすよ！
+@@BattlePyramid_Text_ThreeTrainersRemaining3
+なかなか　やるね！\pでも　この　フロアには　あと\n3にん　トレーナーが　いる\lみんなに　かてるかな？
+@@BattlePyramid_Text_ThreeTrainersRemaining4
+この　フロアに　のこった\n3にんの　トレーナーにも\lかてる　かもね
+@@BattlePyramid_Text_ThreeTrainersRemaining5
+きみなら　のこりの\n3にんの　つわものにも\lかてる　かも　しれない
+@@BattlePyramid_Text_ThreeTrainersRemaining6
+のこりの　3にんの\nトレーナーにも　かてるかな？
+@@BattlePyramid_Text_TwoItemsRemaining1
+どうぐを　さがして　いるの？\pまだ　2こ　おちて　いるよ
+@@BattlePyramid_Text_TwoItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　どうぐが\nあと　2こ　おちて　いるよ
+@@BattlePyramid_Text_TwoItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　まだ\nどうぐが　2こ　ある　はずだ
+@@BattlePyramid_Text_TwoItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんに　どうぐが　あと\n2こ　ある　みたい
+@@BattlePyramid_Text_TwoItemsRemaining5
+ピラミッドの　この　フロアには\nどうぐが　2こ　あるらしい‥
+@@BattlePyramid_Text_TwoItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　あと\n2こ　ある　はずよ
+@@BattlePyramid_Text_TwoTrainersRemaining1
+きみ　ほんとに　すごいね！\pでも　ぼくの　ほかに　まだ\nつよい　トレーナーが　2にん　いる！
+@@BattlePyramid_Text_TwoTrainersRemaining2
+くやしい！\pでも　トレーナーは　あと\n2にん　いる！\lだれかが　きみを　たおすよ！
+@@BattlePyramid_Text_TwoTrainersRemaining3
+なかなか　やるね！\pでも　この　フロアには　あと\n2にん　トレーナーが　いる\lふたりとも　かてるかな？
+@@BattlePyramid_Text_TwoTrainersRemaining4
+この　フロアに　のこった\n2にんの　トレーナーにも\lかてる　かもね
+@@BattlePyramid_Text_TwoTrainersRemaining5
+きみなら　のこりの\n2にんの　つわものにも\lかてる　かも　しれない
+@@BattlePyramid_Text_TwoTrainersRemaining6
+のこりの　2にんの\nトレーナーにも　かてるかな？
+@@BattlePyramid_Text_ZeroItemsRemaining1
+どうぐを　さがして　いるの？\pもう　なにも\nおちて　いないよ！
+@@BattlePyramid_Text_ZeroItemsRemaining2
+きみの　かちだから\nちょっと　ひみつを　おしえる！\pこの　あたりには　もう\nなにも　おちて　いないよ
+@@BattlePyramid_Text_ZeroItemsRemaining3
+どうぐは　たりてるかい？\pこの　フロアには　もう\nどうぐは　ない　はずだ\lきを　つけてな！
+@@BattlePyramid_Text_ZeroItemsRemaining4
+つよいから　ヒントを\nあげる！\pじめんには　もう\nどうぐは　ない　みたい
+@@BattlePyramid_Text_ZeroItemsRemaining5
+ピラミッドの　この　フロアには\nもう　どうぐは　ないらしい‥
+@@BattlePyramid_Text_ZeroItemsRemaining6
+どうぐは　ひろった？\pこの　フロアには　もう\nどうぐは　ない　はずよ
+@@BattlePyramid_Text_ZeroTrainersRemaining1
+きみ　ほんとに　すごいね！\pもう　きみに　かてる\nひとは　いないよ！
+@@BattlePyramid_Text_ZeroTrainersRemaining2
+くやしい！\pもう　きみと　たたかえる\nトレーナーは　いないよ！
+@@BattlePyramid_Text_ZeroTrainersRemaining3
+なかなか　やるね！\pこの　フロアの　トレーナーを\nぜんいん　たおしたね
+@@BattlePyramid_Text_ZeroTrainersRemaining4
+もう　きみに　かてる　ひとは\nひとりも　いない‥
+@@BattlePyramid_Text_ZeroTrainersRemaining5
+きみの　うでは\nもうしぶん　ない\pもう　きみに　かてそうな\nトレーナーは　いないよ
+@@BattlePyramid_Text_ZeroTrainersRemaining6
+もう　きみの　あいてに\nなる　トレーナーは　いない‥
+@@gText_BattlePyramidConfirmRest
+バトルピラミッドの　ちょうせんを\nきろく　して　ちゅうだん\lします　よろしい　ですか？
+@@gText_BattlePyramidConfirmRetire
+ピラミッドの　ちょうせんを\nほんとうに　やめますか？
+## data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc
+@@BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine
+アビリティシンボルが\nきんいろに　かがやいた！
+@@BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease
+リラ『ふふ　おめでとう‥\nフロンティアパスを　どうぞ‥
+@@BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized
+リラ『ふふふ　おみごと‥\pフロンティアパスを　どうぞ‥\nあなたの　さいのうを\lみとめます
+@@BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack
+リラ『ほんとうに　また\nあいに　きて　くれたのね‥\p‥　‥　‥　‥　‥　‥\pれんしょう　して　わたしに\nあいに　きた　あなたには‥\lてかげんは　いらないわね‥\pずっと　まって　いたの‥\pなにも　かんがえずに　バトル\nできる　ときを‥
+@@BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel
+はじめまして‥\nわたしは　リラ\pタワータイクーンとして\nバトルタワーを　まかされて\lいます‥\pあなたの　うわさは\nいくつか　きいて　いました‥\pしょうじき　どれも\nみりょくてきな　はなしでは\lなかったけれど‥\pあなたに　あいに　きた\nりゆうは‥　ひとつ　だけ‥
+@@BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent
+あなたの　さいのうを\nすべて　みせて‥
+@@BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe
+はじめましょうか
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent
+つぎは　2にんめの　あいて　です\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent
+つぎは　3にんめの　あいて　です\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent
+つぎは　4にんめの　あいて　です\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent
+つぎは　5にんめの　あいて　です\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent
+つぎは　6にんめの　あいて　です\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent
+つぎは　7にんめの　あいて　です\nじゅんびは　よろしい　ですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden
+つぎは　タワータイクーン　です\nかくごは　よろしい　ですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol
+フロンティアパスに\nアビリティシンボルが\lきざまれた！
+@@BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay
+しつれい　します‥\pわたしたちの　リーダー\nタワータイクーンが　あなたと\lたたかう　ために　こちらへ\lむかって　います\pまもなく　とうちゃく\nする　はず　です
+@@BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime
+‥　‥　‥　‥　‥　‥\pあなたは　ポケモンの\nバトルの　さいのうに\lじしんが　あるのね？\pこれからも　たたかって\nかちつづけて　ください\pまって　います\nまた　あう　ひまで‥
+@@BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain
+たのしかった‥\pこんなに　たのしい\nポケモンバトルは\lはじめて‥\pまた　あなたと\nたたかいたい‥
+## data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc
+@@gText_LinkStandby3
+つうしん　たいきちゅう‥
+@@gText_YourPartnerHasRetired
+パートナーが\nリタイア　しました\pバトルルームの　ちょうせんは\nちゅうし　されます
+## data/maps/BattleFrontier_Lounge1/scripts.inc
+@@BattleFrontier_Lounge1_Text_AverageAbility
+‥ふむ‥\pこの　ポケモンは\nぜんたいてきに　へいきんてきな\lのうりょく　じゃな
+@@BattleFrontier_Lounge1_Text_BestAspectAtk
+ちなみに　いちばん　いいのは\nこうげき　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectDef
+ちなみに　いちばん　いいのは\nぼうぎょ　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectHP
+ちなみに　いちばん　いいのは\nHP　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectSpAtk
+ちなみに　いちばん　いいのは\nとくこう　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectSpDef
+ちなみに　いちばん　いいのは\nとくぼう　じゃな‥
+@@BattleFrontier_Lounge1_Text_BestAspectSpeed
+ちなみに　いちばん　いいのは\nすばやさ　じゃな‥
+@@BattleFrontier_Lounge1_Text_BetterThanAverageAbility
+‥ふむ‥\pこの　ポケモンは\nぜんたいてきに　へいきん\lいじょうの　のうりょく　じゃな
+@@BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt
+ぼくの　ポケモン　すぐれてるって！\nとくべつな　そだてかた　なんて\lしてないのに‥
+@@BattleFrontier_Lounge1_Text_EvenICantTell
+わしは　たつじん　じゃが\nタマゴの　ことは　わからん！\pポケモンを　みせて　くれ！\nみたいのは　ポケモン　じゃ！
+@@BattleFrontier_Lounge1_Text_ImpressiveAbility
+‥ふむ‥\pこの　ポケモンは\nぜんたいてきに　なかなかの\lのうりょく　じゃな！
+@@BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon
+おお　わかいの！　ポケモンの\nのうりょくが　きに　なるか？\pほれ　ほれ！\nポケモンを　みせて　ごらん！
+@@BattleFrontier_Lounge1_Text_NoTimeForMyAdvice
+なに？\nわしの　アドバイスを\lきく　ひまは　ないと？\pとしよりの　けいけんからは\nいつでも　まなぶ\lものじゃぞ！
+@@BattleFrontier_Lounge1_Text_OutstandingAbility
+‥ふむ‥\pこの　ポケモンは\nぜんたいてきに　すばらしい\lのうりょく　じゃな！
+@@BattleFrontier_Lounge1_Text_PokemonBreederIntro
+わしは　70ねんも\nポケモンを　そだててきた！\lでんせつの　トップブリーダー\lと　あがめられる　おとこじゃ！\pわしくらい　けいけんを\nつめば　ポケモンの\lのうりょくは　ひとめで\lわかる\pおぬしも　トレーナーなら\nじぶんの　ポケモンの\lのうりょくが　きに　なるじゃろ\pほれ！\nポケモンを　みせて　ごらん！
+@@BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding
+ぼくの　ポケモン　すぐれてるって！\nだいじに　そだてて\lよかった！
+@@BattleFrontier_Lounge1_Text_StatFlawless
+かんぺきじゃ！\nもうしぶん　ない！\l‥ふむ‥　わしは　そう　みる
+@@BattleFrontier_Lounge1_Text_StatImpressive
+その　のうりょくは\nなかなか　すばらしい\l‥ふむ‥　わしは　そう　みる
+@@BattleFrontier_Lounge1_Text_StatOutstanding
+その　のうりょくは\nすぐれて　おる！\l‥ふむ‥　わしは　そう　みる
+@@BattleFrontier_Lounge1_Text_StatRelativelyGood
+その　のうりょくは\nまあまあ　いい\l‥ふむ‥　わしは　そう　みる
+## data/maps/BattleFrontier_Lounge2/scripts.inc
+@@BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion
+なんて　すごい　せっとくりょく！\nさすが　ししょう！
+@@BattleFrontier_Lounge2_Text_AmazingPowersOfObservation
+なんて　すごい　かんさつりょく！\nさすが　ししょう！
+@@BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons
+アリーナキャプテンの\nほんきと　たたかった\lことは　ある？\pほんきで　たたかう　ときは\nこんな　ポケモンを\lつかう　らしいよ\pあくタイプの　げっこう\nポケモン　ゴーストと　どくの\lシャドー　ポケモン　くさと\lかくとうの　キノコ　ポケモン
+@@BattleFrontier_Lounge2_Text_ArenaTycoonIsThere
+これは　しらないだろ！\pスコットが　フロンティアブレーン\nと　よぶ　トップトレーナーの\lひとりが　そこに　いるんだ\pアリーナキャプテンと　よばれる\nかわいい　トレーナーが\lしきって　いるのさ
+@@BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons
+アリーナキャプテンと\nたたかった　ことは　ある？\pあいての　ちからを　みる\nときは　こんな　ポケモンを\lつかう　らしいよ\pむしと　かくとうの\nひとつのツノ　ポケモン\lあくタイプの　げっこう\lポケモン　むしと　ゴーストの\lぬけがら　ポケモン
+@@BattleFrontier_Lounge2_Text_BattleTowerIsHottest
+ええと‥\pいま　いちばん　あついのは\nバトルタワーの\l{STR_VAR_1}　らしいよ
+@@BattleFrontier_Lounge2_Text_DomeAceGoldMons
+ドームスーパースターの\nほんきと　たたかった\lことは　ある？\pせんりゃくを　みせる　ときは\nこの　3びきを　つかうよ\pドラゴンと　ひこうの\nむげん　ポケモン　みずと\lじめんの　ぬまうお　ポケモン\lはがねと　エスパーの\lてつあし　ポケモン
+@@BattleFrontier_Lounge2_Text_DomeAceIsThere
+これは　しらないだろ！\pスコットが　フロンティアブレーン\nと　よぶ　トップトレーナーの\lひとりが　そこに　いるんだ\pドームスーパースターと　よばれる\nはでな　トレーナーが\lしきって　いるのさ
+@@BattleFrontier_Lounge2_Text_DomeAceSilverMons
+ドームスーパースターと\nたたかった　ことは　ある？\pあいてを　かるく　みてる\nときは　この　3びきを\lつかうよ\pドラゴンと　ひこうの\nドラゴン　ポケモン　みずと\lじめんの　ぬまうお　ポケモン\lほのおと　ひこうの\lかえん　ポケモン
+@@BattleFrontier_Lounge2_Text_DoubleBattleAdvice1
+ダブルバトルが　できる\nばしょは　いくつか　あるけど\pバトルタワーの　ダブル\nバトルルームは　きほん\lなんだよね！\pバトルフロンティアの\nダブルバトルを　まなぶ\lなら　ここだよ
+@@BattleFrontier_Lounge2_Text_DoubleBattleAdvice2
+ここの　バトルは\nきを　つけてね\pダブルバトル　せんようの\nさくせんを　もつ\lトレーナーも　いるらしいよ
+@@BattleFrontier_Lounge2_Text_DoubleBattleAdvice3
+ここの　ダブルバトルに\nなれて　じしんが　ついたら\lほかの　ダブルバトルの\lしせつにも　ちょうせん\lして　みると　いいよ
+@@BattleFrontier_Lounge2_Text_FacilityIsHottest
+ええと‥\pいま　いちばん　あつい\nばしょは\l{STR_VAR_1}　らしいよ
+@@BattleFrontier_Lounge2_Text_FactoryHeadGoldMons
+ファクトリーヘッドの\nほんきと　たたかった\lことは　ある？\pほんきの　ときでも\nレンタルポケモンを\l3びき　もらうだけ\pきみと　ほとんど　おなじ\nじょうけんで　たたかうんだ
+@@BattleFrontier_Lounge2_Text_FactoryHeadIsThere
+これは　しらないだろ！\pスコットが　フロンティアブレーン\nと　よぶ　トップトレーナーの\lひとりが　そこに　いるんだ\pファクトリーヘッドと　よばれる\nかわった　トレーナーが\lしきって　いるのさ
+@@BattleFrontier_Lounge2_Text_FactoryHeadSilverMons
+ファクトリーヘッドとは\nもう　たたかった？\pええと‥　たたかう　ときは\nレンタルポケモンを\l3びき　もらうだけ\pきみと　ほぼ　おなじ\nじょうけんで　たたかうんだ
+@@BattleFrontier_Lounge2_Text_FrontierManiacIntro
+やあ！　バトルフロンティアの\nニュースなら　おれが　1ばん！\pフロンティアマニアって\nよんでくれ\pいちおう　きくけど\nきみ　トレーナー　だよね？\pバトルフロンティアの\nさいしん　ニュースを\lよろこんで　おしえるよ
+@@BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice
+ともだちと　いっしょなら\nつうしんマルチ\lバトルルームへ　いこう\pつよい　ともだちと　なら\nてごわい　あいてが\lでて　くるよ！
+@@BattleFrontier_Lounge2_Text_MultiBattleAdvice
+バトルサロンには\nいろんな　トレーナーが\lあつまるんだ\pともだちや　なかまに\nあえるかも！\lよく　みて　ごらん！
+@@BattleFrontier_Lounge2_Text_NewsGatheringPower
+なんて　すごい　じょうほう\nしゅうしゅうりょく！\lさすが　ししょう！
+@@BattleFrontier_Lounge2_Text_PalaceMavenGoldMons
+パレスガーディアンの\nほんきと　たたかった\lことは　ある？\pぜんりょくで　たたかう\nときは　こんな　ポケモンを\lつかう　らしいよ\pほのおタイプの　でんせつ\nポケモン　ノーマルタイプの\lなまけもの　ポケモン\lみずタイプの　オーロラ\lポケモン
+@@BattleFrontier_Lounge2_Text_PalaceMavenIsThere
+これは　しらないだろ！\pスコットが　フロンティアブレーン\nと　よぶ　トップトレーナーの\lひとりが　そこに　いるんだ\pパレスガーディアンと　よばれる\nあやしい　トレーナーが\lしきって　いるのさ
+@@BattleFrontier_Lounge2_Text_PalaceMavenSilverMons
+パレスガーディアンと\nたたかった　ことは　ある？\pあいての　こころを\nためす　ときは　こんな\lポケモンを　つかう　らしいよ\pどくと　ひこうの　こうもり\nポケモン　ノーマルタイプの\lなまけもの　ポケモン\lみずと　こおりの\lのりもの　ポケモン
+@@BattleFrontier_Lounge2_Text_PikeQueenGoldMons
+チューブクイーンの\nほんきと　たたかった\lことは　ある？\pほんきで　おこると\nこの　3びきを　つかう\lらしいよ\pどくタイプの　キバへび\nポケモン　はがねと　じめんの\lてつへび　ポケモン　みずと\lひこうの　きょうあく　ポケモン
+@@BattleFrontier_Lounge2_Text_PikeQueenIsThere
+これは　しらないだろ！\pスコットが　フロンティアブレーン\nと　よぶ　トップトレーナーの\lひとりが　そこに　いるんだ\pチューブクイーンと　よばれる\nこわい　トレーナーが\lしきって　いるのさ
+@@BattleFrontier_Lounge2_Text_PikeQueenSilverMons
+チューブクイーンと\nたたかった　ことは　ある？\pきげんが　いい　ときは\nこの　3びきを　つかう\lらしいよ\pどくタイプの　キバへび\nポケモン　むしと　いわの\lはっこう　ポケモン　みずタイプの\lやさしい　ポケモン
+@@BattleFrontier_Lounge2_Text_PyramidKingGoldMons
+ピラミッドキングの　ほんきと\nたたかった　ことは　ある？\pあつい　ちからが　みなぎると\nこんな　ポケモンを\lつかう　らしいよ\pこおりと　ひこうの　れいとう\nポケモン　でんきと　ひこうの\lでんげき　ポケモン　ほのおと\lひこうの　かえん　ポケモン
+@@BattleFrontier_Lounge2_Text_PyramidKingIsThere
+これは　しらないだろ！\pスコットが　フロンティアブレーン\nと　よぶ　トップトレーナーの\lひとりが　そこに　いるんだ\pピラミッドキングと　よばれる\nあつい　トレーナーが\lしきって　いるのさ
+@@BattleFrontier_Lounge2_Text_PyramidKingSilverMons
+ピラミッドキングと\nたたかった　ことは　ある？\pあいての　ちからを\nためす　ときは　こんな\lポケモンを　つかう　らしいよ\pいわタイプの　いわやま\nポケモン　こおりタイプの\lひょうざん　ポケモン\lはがねタイプの　てつ　ポケモン
+@@BattleFrontier_Lounge2_Text_SalonMaidenGoldMons
+タワータイクーンの\nほんきと　たたかった\lことは　ある？\pぜんりょくの　ときは\nこんな　ポケモンを\lつかう　らしいよ\pドラゴンと　エスパーの\nむげん　ポケモン　でんきタイプの\lいかずち　ポケモン　ノーマルの\lいねむり　ポケモン
+@@BattleFrontier_Lounge2_Text_SalonMaidenIsThere
+これは　しらないだろ！\pスコットが　フロンティアブレーン\nと　よぶ　トップトレーナーの\lひとりが　そこに　いるんだ\pタワータイクーンと　よばれる\nなぞの　トレーナーが\lしきって　いるのさ
+@@BattleFrontier_Lounge2_Text_SalonMaidenSilverMons
+タワータイクーンと\nたたかった　ことは　ある？\pあいてを　はかる　ときは\nこんな　ポケモンを\lつかう　らしいよ\pエスパータイプの　ねんりき\nポケモン　ほのおタイプの\lかざん　ポケモン　ノーマルの\lいねむり　ポケモン
+@@BattleFrontier_Lounge2_Text_SwingByForTheLatestWord
+やあ！　さいしんの　ニュースを\nききに　きたのかい？\lしかたないなあ！
+@@BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe
+‥ここ　どこ？\nこわいよ‥
+## data/maps/BattleFrontier_Lounge3/scripts.inc
+@@BattleFrontier_Lounge3_Text_BackedWrongTrainer
+また　かける　トレーナーを\nまちがえた！\pみんなと　おなじように\nふつうに　バトル　した\lほうが　いいかな‥
+@@BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere
+‥なんの　ようだ？\pいま　いそがしいの\nわからないか？\lあとに　して　くれないか？
+@@BattleFrontier_Lounge3_Text_ChallengeBattleArena
+さがして　いるのは\nバトルアリーナの\lセットKOトーナメントに\lでる　トレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble
+さがして　いるのは\nバトルドームの　ダブル\lトーナメントに　でる\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle
+さがして　いるのは\nバトルドームの　シングル\lトーナメントに　でる\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble
+さがして　いるのは\nバトルファクトリーの\lレンタルバトル　ダブルに\lでる　トレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle
+さがして　いるのは\nバトルファクトリーの\lレンタルバトル　シングルに\lでる　トレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble
+さがして　いるのは\nバトルパレスの　ダブル\lバトルホールに　いどむ\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle
+さがして　いるのは\nバトルパレスの　シングル\lバトルホールに　いどむ\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePike
+さがして　いるのは\nバトルチューブに　でる\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePyramid
+わたしが　さがして　いるのは\nバトルピラミッドの\lバトルクエストに　でる\lトレーナー　です\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけませんね
+@@BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble
+さがして　いるのは\nバトルタワーの　ダブル\lバトルルームに　いどむ\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti
+さがして　いるのは\nバトルタワーの　マルチ\lバトルルームに　いどむ\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle
+さがして　いるのは\nバトルタワーの　シングル\lバトルルームに　いどむ\lトレーナーだ\pでも　いまの　ところ\nかちそうな　トレーナーは\lみかけないね
+@@BattleFrontier_Lounge3_Text_GetToBattleArena
+すぐに　バトルアリーナの\nセットKOトーナメントへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleDomeDouble
+すぐに　バトルドームの\nダブルトーナメントへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleDomeSingle
+すぐに　バトルドームの\nシングルトーナメントへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble
+すぐに　バトルファクトリーの\nレンタルバトル　ダブルへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleFactorySingle
+すぐに　バトルファクトリーの\nレンタルバトル　シングルへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble
+すぐに　バトルパレスの\nダブルバトルホールへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle
+すぐに　バトルパレスの\nシングルバトルホールへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePike
+すぐに　バトルチューブへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePyramid
+すぐに　バトルピラミッドの\nバトルクエストへ　いって　くれ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleTowerDouble
+すぐに　バトルタワーの\nダブルバトルルームへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleTowerMulti
+すぐに　バトルタワーの\nマルチバトルルームへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleTowerSingle
+すぐに　バトルタワーの\nシングルバトルルームへ！\pぜったいに　かたないと\nいけない！　チャンスを\lのがすな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints
+おお　やった！\nよう　チャンピオン！\pきみなら　やると\nおもってたよ！\lふたりとも　おおかちだ！\pバトルポイントを　かえすよ\nもちろん　おれから\lおまけ　つきでね！
+@@BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe
+きみにも　ちゃんと\nとくを　させるよ\lどうだい？\lおれの　かわりに\lでて　くれないか？
+@@BattleFrontier_Lounge3_Text_HowMuchCanYouSpot
+いいね　いいね！\nで　いくら　かして\lくれる？
+@@BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne
+うふふ！\nかつ　ひとは　みれば\lわかるのさ！
+@@BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints
+ああ　きみか‥\nおしかったね‥\pわるいけど　バトルポイントは\nかえせないんだ‥\pつぎは　もっと　がんばろう\nって　ことで！
+@@BattleFrontier_Lounge3_Text_NotInterested
+きょうみ　ない？！\nもっと　ゆうきを　だして\lかけて　みなよ！
+@@BattleFrontier_Lounge3_Text_ObtainedBattlePoints
+{PLAYER}は　バトルポイントを\n{STR_VAR_1}ポイント　もらった
+@@BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges
+あの　トレーナーたち‥\nなにを　してるんだ？\lちょうせん　すれば　いいのに
+@@BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints
+よし　かんぺきだ\nそれで‥　バトルポイントを\lすこし　かして　くれない？\pあとで　ちゃんと\nおれいは　するからさ
+@@BattleFrontier_Lounge3_Text_ThanksOffYouGo
+へへっ！　ありがとう！\nさあ　いって　こい！
+@@BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge
+また　ちょうせん　する\nきに　なったら\lおれを　おもいだしてくれ！
+@@BattleFrontier_Lounge3_Text_TrainerGoodButRattled
+あの　トレーナー‥\pつよいけど　すぐ　あせるから\nバトルドームでは\lかちのこれないな‥
+@@BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints
+だめ　だめ　だめ！\nバトルポイントが\lたりないじゃないか！\pふざけて　みんなの\nじかんを　むだに\lしないで　くれよ！
+@@BattleFrontier_Lounge3_Text_YouLookToughExplainGambling
+‥ん？\nきみ　つよそうな\lトレーナーだね\pへへ‥\nちょっと　はなしが\lあるんだけど\pおれたちは　ここで\nバトルフロンティアを\lつかった　ちょっとした\lゲームを　してるんだ\pルールは　かんたん\pまず　バトルフロンティアの\nしせつを　ひとつ　えらぶ\pそれから　その　しせつに\nちょうせん　する\lトレーナーを　それぞれ\lえらんで　バトルポイントを\lかけるんだ\pいちばん　いい　きろくを\nだした　トレーナーに\lかけた　やつが　ポイントを\lぜんぶ　もらえる\pかんたん　だろ？\nそれでさ‥
+## data/maps/BattleFrontier_Lounge4/scripts.inc
+@@BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere
+ここで　レストランを\nひらいたら　ぜったい\lもうかるな
+@@BattleFrontier_Lounge4_Text_NeedBreatherAfterBattles
+ふう‥\pはげしい　バトルの　あとは\nひといき　いれないと‥\pでも　いまも　さくせんや\nコンボを　かんがえるのは\lやめないよ
+@@BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring
+きょうは　つよい\nトレーナーの　インタビューを\lやるのかな？
+## data/maps/BattleFrontier_Lounge5/scripts.inc
+@@BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot
+しってるよ！\pあの　おんなのこ\nあかい　いえで\lよく　あそんでるの！
+@@BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound
+あの　おんなのこ\nなんだか　ふかい　ことを\lいってる　きが　するわ
+@@BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon
+かわいらしい！\nあの　おじょうちゃん\lポケモンの　きもちが\lわかるん　ですって！
+@@BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow
+ふむふむ‥\pこの　こ　たたかうのが\nすきだって！\lいたいいたいでも\lたたかうって！
+@@BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow
+ふむふむ‥\pこの　こ　たたかうのが\nすきだって！\lでも　いたいいたいが\lふえたら　じぶんを\lだいじに　するって！
+@@BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow
+ふむふむ‥\pこの　こ　たたかうのが\nすきだって！\lでも　いたいいたいが\lふえたら　ずるく　なるって！
+@@BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow
+ふむふむ‥\pこの　こ　じぶんを\nだいじに　するって！\lでも　いたいいたいが\lふえたら　やりかえすって！
+@@BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow
+ふむふむ‥\pこの　こ　じぶんを\nだいじに　するって！\lいたいいたいでも　そう\lじゃなくても　じぶんを\lだいじに　するって！
+@@BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow
+ふむふむ‥\pこの　こ　じぶんを\nだいじに　するって！\lでも　いたいいたいが\lふえたら　ずるく　なるって！
+@@BattleFrontier_Lounge5_Text_NatureGirlEgg
+へんなの！　タマゴは\nねてるよ！\lおはなし　できないよ！
+@@BattleFrontier_Lounge5_Text_NatureGirlGreeting
+えへへ！\nポケモンの　きもちが\lわかるんだよ！\pおねがい！\nポケモン　みせて！
+@@BattleFrontier_Lounge5_Text_NatureGirlNoneShown
+ぶー！\nけち！
+@@BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow
+ふむふむ‥\pこの　こ　ずるいのが\nすきだって！\lでも　いたいいたいが\lふえたら　やりかえすって！
+@@BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow
+ふむふむ‥\pこの　こ　ずるいのが\nすきだって！\lでも　いたいいたいが\lふえたら　じぶんを\lだいじに　するって！
+@@BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow
+ふむふむ‥\pこの　こ　ずるいのが\nすきだって！\lいたいいたいでも\lずるく　するって！
+## data/maps/BattleFrontier_Lounge6/scripts.inc
+@@BattleFrontier_Lounge6_Text_DontTradeForAnythingButMon
+ごめんなさい！\n{STR_VAR_1}　いがいとは\lこうかん　しないの
+@@BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt
+まあ　かわいい！\nありがとう！\lだいじに　するわ！\pわたしの　{STR_VAR_2}も\nだいじに　してね！
+@@BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined
+うふふ！\nエネコって　おもってたより\lずっと　かわいい！\lうれしいわ！
+@@BattleFrontier_Lounge6_Text_WellThatsFineToo
+あら　だめ？\nそれでも　いいのよ\lまた　あそびに　きてね
+@@BattleFrontier_Lounge6_Text_WouldYouLikeToTrade
+わたしの　ポケモンは\n{STR_VAR_2}　しってる？\lとても　かわいくて\lいい　こなの\pこの　こなら　じしんを\nもって　こうかん　できるわ！\p{STR_VAR_1}と　わたしの\n{STR_VAR_2}を\lこうかん　しない？
+## data/maps/BattleFrontier_Lounge7/scripts.inc
+@@BattleFrontier_Lounge7_Text_BodySlamDesc
+からだで　のしかかる\nまひ　させる\nことが　ある
+@@BattleFrontier_Lounge7_Text_CounterDesc
+うけた　ぶつりわざを\nばいの　ちからで\nやりかえす
+@@BattleFrontier_Lounge7_Text_DefenseCurlDesc
+まるくなり　すきを\nかくして　ぼうぎょを\nあげる
+@@BattleFrontier_Lounge7_Text_DreamEaterDesc
+ねむっている　あいて\nから　ダメージの\nはんぶん　すいとる
+@@BattleFrontier_Lounge7_Text_EndureDesc
+1ターン　どんな\nこうげきも　HP1で\nもちこたえる
+@@BattleFrontier_Lounge7_Text_FirePunchDesc
+ほのおの　パンチ\nやけどに　させる\nことが　ある
+@@BattleFrontier_Lounge7_Text_HaventGotEnoughPoints
+なんだ‥\nバトルポイントが\lたりないじゃないか！
+@@BattleFrontier_Lounge7_Text_IcePunchDesc
+れいきの　パンチ\nこおらせる\nことが　ある
+@@BattleFrontier_Lounge7_Text_IcyWindDesc
+つめたい　かぜで\nあいての　すばやさを\nさげる
+@@BattleFrontier_Lounge7_Text_IllTakeBattlePoints
+どうだ　おれの　うでは？\nバトルポイントは\lいただいて　いくよ！
+@@BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful
+わしが　ちいさな\nたんパンこぞう　だった　ころ\lあの　ふたりは　つよくて\lうつくしかった\pトレーナーの　あこがれ\nだったんじゃ\pいまでも　うでは\nおとろえて　おらん\pそれどころか　ポケモンの\nわざは　さらに\lみがかれて　おる\pじゃが‥　なぜか\nこう　おもって　しまう‥\pときは　ざんこく　じゃのう‥
+@@BattleFrontier_Lounge7_Text_LeftTutorIntro
+ぶはははは！\pいまは　そう　みえない\nだろうけど　むかしは\lつよい　トレーナー　だったのよ\pこのへんで　いちばん\nつよい　おとなのおねえさん\lって　いわれてたの！\p‥　‥　‥　‥　‥　‥\pなに？\nしんじて　ないわね\pあそこの　ほらふき\nおんなとは　ちがうのよ\lほんとうに　うでが\lあるんだから！\pしょうこを　みせて　あげる\nポケモンに　とくべつで\lかわいい　わざを\lおしえて　あげるわ\pでも　ただじゃ　ないわよ\nバトルポイントを\lちょっと　いただくわ
+@@BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack
+ぶはははは！\pとくべつで　かわいい\nわざを　おぼえに\lきたのね？
+@@BattleFrontier_Lounge7_Text_MegaKickDesc
+ものすごい\nちからで\nけりとばす
+@@BattleFrontier_Lounge7_Text_MegaPunchDesc
+ものすごい\nちからで\nなぐりつける
+@@BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints
+{STR_VAR_1}　ね？\nバトルポイント\l{STR_VAR_2}ポイントよ　いい？
+@@BattleFrontier_Lounge7_Text_MudSlapDesc
+かおに　どろを\nかけて　めいちゅう\nりつを　さげる
+@@BattleFrontier_Lounge7_Text_PsychUpDesc
+あいての　のうりょく\nへんかを　じぶんにも\nうつしとる
+@@BattleFrontier_Lounge7_Text_RightTutorIntro
+いひひひ！\pいまは　そう　みえない\nだろうけど　むかしは\lすごい　トレーナー　だったのよ\pこのへんで　いちばん\nまけしらずの　スイマーって\lいわれてたの！\p‥　‥　‥　‥　‥　‥\pどうしたの？\nしんじて　ないわね\pあそこの　おどけた\nおんなとは　ちがうのよ\lほんとうに　けいけんが\lあるんだから！\pしょうこを　みせて　あげる\nポケモンに　つよくて\lきれいな　わざを\lおしえて　あげるわ\pでも　ただじゃ　ないわよ\nバトルポイントを\lちょっと　いただくわ
+@@BattleFrontier_Lounge7_Text_RightTutorWelcomeBack
+いひひひ！\pつよくて　きれいな\nわざを　おぼえに\lきたのね？
+@@BattleFrontier_Lounge7_Text_RockSlideDesc
+おおきな　いわを\nなげつける　ひるませ\nる　ことが　ある
+@@BattleFrontier_Lounge7_Text_SeismicTossDesc
+じぶんの　レベルと\nおなじ　ダメージを\nあたえる
+@@BattleFrontier_Lounge7_Text_SnoreDesc
+ねむって　いる\nときだけ　だせる\nおおきな　いびき
+@@BattleFrontier_Lounge7_Text_SoftboiledDesc
+さいだいHPの\nはんぶんまで\nかいふく　する
+@@BattleFrontier_Lounge7_Text_SwiftDesc
+ほしがたの　こうせん\nを　とばす\nかならず　あたる
+@@BattleFrontier_Lounge7_Text_SwordsDanceDesc
+たたかいの　まいで\nこうげきを\nぐーんと　あげる
+@@BattleFrontier_Lounge7_Text_TeachMoveToWhichMon
+はいはい　じゃあ　わざを\nおしえる　ポケモンを\lえらんで
+@@BattleFrontier_Lounge7_Text_TeachWhichMove
+はいはい　こっちを　みて！\nどの　わざを　おしえる？
+@@BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong
+あの　ふたり　わるくち\nばかり　いってるから\lなかが　わるいと　おもう\lだろう\pでも　ほんとうに　そうなら\nこんな　ところに　ふたりで\lいないと　おもわんか？
+@@BattleFrontier_Lounge7_Text_ThunderPunchDesc
+でんきを　おびた\nパンチ　まひ　させる\nことが　ある
+@@BattleFrontier_Lounge7_Text_ThunderWaveDesc
+よわい　でんきで\nあいてを　まひ\nさせる
+## data/maps/BattleFrontier_Lounge8/scripts.inc
+@@BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains
+フロンティアブレーンを\nしってる？\pバトルフロンティアの　7つの\nしせつを　まかされた　7にんの\lとくべつな　トレーナーを\lスコットが　そう　よんでるの
+@@BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling
+バトルタワーで　おねえさんに\nバトルの　さいのうが\lあるって　いわれたの！\pわたし　ポケモンコンテストの\nほうが　すきなのに！\pでも　コンテストは\nにがて　なの！\pさいのうと　すきな　ことって\nおなじ　じゃ　ないのね
+@@BattleFrontier_Lounge8_Text_WhatATrainerNeeds
+トレーナーに　ひつような　もの‥\pちしき‥\nせんりゃく‥\lうん‥\lこんじょう‥\lこころ‥\lゆうき‥\lそして　のうりょく‥\pおれは　ぜんぶ　そろってる！\nどの　しせつでも　むてきだ！\pえ？　ポケモン？\nなに　それ？
+## data/maps/BattleFrontier_Mart/scripts.inc
+@@BattleFrontier_Mart_Text_ChaperonGrandson
+まごの　つきそいで\nきたんですよ\pでも　せっかく　だから\nおみやげを　かって\lいこうと　おもって
+@@BattleFrontier_Mart_Text_FacilitiesDontAllowItems
+バトルフロンティアの\nしせつの　おおくは　バトルで\lどうぐが　つかえないんだ\pその　ルールの　せいで\nもっと　きびしく\lなってるよ！
+@@BattleFrontier_Mart_Text_ProteinMakeNiceGift
+あなた　これ　どう　かしら？\nいい　おみやげに\lならない？\pえーと‥　タウ‥リ‥ン？\nおいしそうな　なまえね
+## data/maps/BattleFrontier_OutsideEast/scripts.inc
+@@BattleFrontier_OutsideEast_Text_BattleArenaSign
+ここは　バトルアリーナ！\nさいきょうの　チームよ\lあつまれ！
+@@BattleFrontier_OutsideEast_Text_BattlePalaceSign
+ここは　バトルパレス！\nポケモンの　バトルから\lめを　はなすな！
+@@BattleFrontier_OutsideEast_Text_BattlePyramidSign
+ここは　バトルピラミッド！\nバトルクエストを　すすめ！
+@@BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial
+わあ！\nおっきい！\pバトルタワーって　とくべつな\nかんじ　ほかと　ちがうね
+@@BattleFrontier_OutsideEast_Text_BattleTowerSign
+ここは　バトルタワー！\nさいきょうの　トレーナーとして\lれんしょうを　つづけろ！
+@@BattleFrontier_OutsideEast_Text_BelieveInYouBuddy
+ジグ！\nしんじてるぞ　あいぼう！\pかったら　ジグの　すきな\nおいしい　ものを\lなんでも　つくって　やるぞ！
+@@BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon
+ぼく　ポケモンは\nパパより　つよいよ
+@@BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou
+あなたが　いれば\nなんでも　できる
+@@BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier
+ぼくの　おおきな　ゆめは\nバトルフロンティアと\lポケモンリーグを\lせいは　する　こと\pそして　ゆめが　かなったら‥\pぼ‥　ぼく　となりの　ミミちゃんに\nともだちに　なってって\lいうんだ！
+@@BattleFrontier_OutsideEast_Text_DidScottBringYouHere
+あんたも　スコットに\nつれて　こられたの？\lあの　ひと　なんなの？\pつよい　トレーナーを\nみぬく　めは　ほんもの\lみたい　だけど‥\pあの　ひとが　じっさいに\nバトル　してるのは\lみた　ことが　ないわ
+@@BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll
+やった！\nやっと　バトルポイントが\lたまった！\pまた　おおきな　ぬいぐるみと\nこうかん　しよう！
+@@BattleFrontier_OutsideEast_Text_ExchangeCornerSign
+バトルポイント\nこうかんサービス　カウンター\lバトルポイントを　こうかん！
+@@BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles
+じてんしゃも　はやいけど\nバトルも　はやいよ\pあっと　いうまに\nかっちゃうんだ！
+@@BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers
+バトルフロンティアは\nつよい　トレーナー　だけの\lものじゃ　ない\pとくべつな　ちからを\nもつ　ひとも　おおぜい\lまねかれて　いる　らしい\pあの　スコットと　いう　おとこ‥\pもっと　おおきな　もくてきの\nために　ここを\lつくったの　かもな‥
+@@BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy
+いけ　かわいい　わが　こよ！\nパパの　ために\lたくさん　かって　こい！\pおまえは　ママに　そっくり\nだから　きっと\lかちまくれるぞ！
+@@BattleFrontier_OutsideEast_Text_GotWipedOut
+くそ！　くそー！\nいちども　まけた\lことが　なかったのに！\pぼろぼろに　やられて\nしまった！\pおまけに　さいのうが\nないって？！　くそー！
+@@BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena
+ここまで　くるのは\nたいへん　だったけど\lバトルアリーナに　すごい\lびじんが　いるって　きいてさ\pかわりに　なにが\nいたと　おもう？\pあせくさくて　むさくるしい\nかくとうかの　むれ　だよ！
+@@BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid
+しってるかい？\nバトルピラミッドの　でんせつ\pじしん　あふれる　トレーナーが\nおうごんの　いただきを　めざす\lとき　おとこの　なかの　おとこが\lあらわれる　という‥\pしらない？\nそりゃ　そうだ！\lいま　おれが　つくったからな！\pどういう　いみかって？\nそれは　いえないな！
+@@BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere
+おお　そうか！\nここが　ランキングホールか！\pスーパーチャンピオンとして\nれきしに　のこって\lここに　なまえを\lきざみたいな
+@@BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle
+ちょいと　すまんが\nめは　いいかね？\pこの　さきに　へんな　きが\nあってな　つかれた\lわしの　めには\lゆれて　みえるんじゃ
+@@BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere
+ちょいと　すまんが\nきおくりょくは　いいかね？\pこの　さきに　むかし\nへんな　きが　あった\lきが　するんじゃ
+@@BattleFrontier_OutsideEast_Text_OnceBeatGymLeader
+いまは　そう　みえない\nかも　しれんが　むかしは\lジムリーダーに　かった\lことも　あるんじゃ\pもう　いちど　えいこうを\nめざして　みるかのう
+@@BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody
+おせっかいって　いわれる\nけど　しかたないのよ\pぼうしが　まがってる！\nあら　ゴミが　おちてる！\lあっ　もう　ゆうごはんの\lじかんだわ！\pバトルパレスで　みてる\nだけなんて　がまん\lできる　かしら‥
+@@BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome
+ああ　ダーリン\nあなたって　すてき！\pああ　もう　まちきれないわ！\pいますぐ　マルチ\nバトルルームへ　いきましょ！\pバトルサロンで　いっしょに\nなれば　ふたりの　あいの\lちからで　みんなに\lかてるわ！\pわたしたちの　まえでは\nダーリン　みんな\lドミノの　ように\lたおれていくわ！
+@@BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam
+1しゅうかん　ねないで\nさいきょうの　チームを\lつくったんだ！\pまける　きが　しない\nじょうだん　ぬきで\lバトルアリーナに\lのりこむぞ！
+@@BattleFrontier_OutsideEast_Text_PyramidTooHarsh
+バトルピラミッドは　きびしすぎる！\nてっぺんまで　いけないよ！\pこう　なったら　そとがわを\nのぼって　みようかな‥
+@@BattleFrontier_OutsideEast_Text_RankingHallSign
+バトルフロンティア\nランキングホール\lあたらしい　きろくを\lめざせ！
+@@BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere
+ときどき　すごく\nえらそうな　おじいさんが\lあそこに　はいって　いくの\pすごい　ポケモンを\nつれてるの\lでも　やさしそうな　ひとよ
+@@BattleFrontier_OutsideEast_Text_StickyMonWithLongTail
+み‥\nみたんだ！\pこの　さきに　しっぽの\nながい　ねばねばした\lポケモンが　いたんだ！\pいわの　したに　かくれて\nずっと　こっちを\lみてたんだ！
+@@BattleFrontier_OutsideEast_Text_ThriveInDarkness
+わたしは　くらやみで\nいきる‥　そう‥\lわたしに　ふさわしいのは\lバトルピラミッド　だけ‥\pくらやみの　なかを\nぜつぼうと　ともに\lさまよう　のは\lいかが　かな？
+@@BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower
+こいつ　バトルタワーで\nとんでもなく　つよい\lトレーナーに　あたっちゃって\pいまは　この　ありさま‥\pバトルタワーに　いく\nときは　きを　つけた\lほうが　いいよ
+@@BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant
+ジグザグマは\nぼーっと　している‥
+## data/maps/BattleFrontier_OutsideWest/scripts.inc
+@@BattleFrontier_OutsideWest_Text_BattleDomeSign
+ここは　バトルドーム！\nむてきの　スーパースターへの\lみち！
+@@BattleFrontier_OutsideWest_Text_BattleFactorySign
+ここは　バトルファクトリー！\nさいきょうの　ポケモンを\lさがせ！
+@@BattleFrontier_OutsideWest_Text_BattlePikeSign
+ここは　バトルチューブ！\n3つの　みちから　ひとつを\lえらべ！
+@@BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends
+ともだちの　なかでは\nいちばん　なのに\lここでは‥\lぜんぜん　だめ　だった！
+@@BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons
+えっと‥\nきっと　だいじょうぶ\pたぶん‥\pでも　あの　おおきくて\nこわい　ひと　おぼえてる？\p「ポケモンを　かして　やる！」\nって　いってたよね
+@@BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling
+ここで　バトルより\nつりを　えらぶのは\lたぶん　わたしだけ\lでしょうね\pえ？　ここでは　なにも\nつれない？\pそれは　ざんねん‥
+@@BattleFrontier_OutsideWest_Text_DomeAceIsMine
+ちょっと　しずかに　して！\nうるさいわね！\pにわかファンは\nジムリーダーでも\lおうえん　してなさい！\pドームスーパースターは\nわたしの　もの！\lわたしだけの　アイドル！
+@@BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering
+なんですってー？！\nふん！\pそれは　たまたま　あなたの\nとなりに　すわってた\lから　でしょ！\pドームスーパースターが\nこっちを　みたのは　わたしの\lおうえんが　おおきかった\lから　よ！
+@@BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers
+あそこで　いいあらそってる\nひとたち‥\pしんじられない　だろうけど\nむかしは　トレーナーで\lしかも　つよかったのよ\pすごく　つよくて\nゆうめい　だったの\pでも　トーナメントで\nある　トレーナーに\lこてんぱんに　やられてね\pあまりにも　みごとに\nまけたから　その\lトレーナーに　ほれこんで\lしまったの\pいまでは　その　トレーナーの\nファンで　まいにち\lバトルドームへ\lおうえんに　いってるの
+@@BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier
+やっと　バトルフロンティアに\nついたわ！\pこの　ルックスと　じつりょく\nなら　ちゅうもくの\lまとに　なるはず！
+@@BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere
+ついたら　すぐ\nちょうせん　したかった\pでも　とちゅうで\nふなよい　しちゃって‥\lうっぷ‥
+@@BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol
+きょうは　シンボルを\nもらうまで　なにが\lあっても　たたかいつづけるぞ
+@@BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet
+はあ？　なに\nいってるの？\lそんなの　たいした\lことないわよ！\pわたしが　このまえ\nおうえん　したら\lめと　めが　あって\lひばなが　ちったのよ！
+@@BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors
+じゃんけん　しよう！\nじゃんけん　ぽん！\p‥　‥　‥　‥　‥　‥
+@@BattleFrontier_OutsideWest_Text_LilycoveItIs
+では　ミナモシティ　ですね！
+@@BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge
+ああ‥\nまけちゃった\pきょうは　ついて\nないみたい\lバトルチューブは\lあしたに　しよう
+@@BattleFrontier_OutsideWest_Text_MayISeeYourTicket
+こんにちは　フェリーに\nごじょうせん　ですか？\lチケットを　はいけん\lします
+@@BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike
+ぼりぼり‥\pまえに　バトルチューブで\nおねえさんに　あったんだ\pすごく　こわい　めつき\nだった\pぼりぼり‥\p「たべるの　やめなさい！」\nって　おこられて\lぶたれたんだ\pほんとうに　ぞっと\nする　ような\lこわい　けいけん　だった\pぼりぼり‥
+@@BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier
+バトルフロンティアの\nどこかで　しっぽが\lとても　ながい　ポケモンを\lみた　ひとが　いるって\pきっと　かわいいに\nちがいないわ‥\pちょうせんは　あとで　いいわ\nその　すてきな　いきものを\lさがしに　いかなくちゃ！
+@@BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard
+{PLAYER}は　チケットを\nもって　いない‥\pまことに　もうしわけ\nございません\pフェリーに　のるには\nチケットが　ひつよう　です
+@@BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo
+ちょっと　まえまで\nここには　なにも\lなかったんだ\pでも　いまは　どう！\nすごい！\lかあちゃんを　つれて　こよう
+@@BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere
+ここには　だれでも\nこられる　わけじゃ\lないのよ\pつよいと　みとめられた\nトレーナー　だけが\lつれて　こられるの\pだから　バトルフロンティアを\nしらない　トレーナーも\lおおいのよ
+@@BattleFrontier_OutsideWest_Text_PleaseBoardFerry
+フェリーに　のって\nしゅっぱつを　おまち\lください
+@@BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime
+また　ごりよう\nください！
+@@BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper
+サビパーが　こわくて\nバトルチューブに\lはいれないよ‥\pで　でも　せっかく　ここまで\nきたんだから　ぜんぶ\lせいは　するぞ！\l‥ぶるぶる‥
+@@BattleFrontier_OutsideWest_Text_SlateportItIs
+では　カイナシティ　ですね！
+@@BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople
+もぐもぐ‥\pこの　ひろば　つよい\nひとで　いっぱい\lみたい\pもぐもぐ‥
+@@BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons
+ねえ　にいちゃん‥\pポケモンを　もって\nなくても　ちょうせん\lできるのかな？
+@@BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo
+では　どちらへ\nいかれますか？
+@@BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo
+{PLAYER}は　チケットを\nみせた\pけっこう　です！\nそれで　だいじょうぶ！\pどちらへ　いかれますか？
+@@BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons
+あれは　バトルファクトリー\nつよい　ポケモンを\lかりられるんだ\pでも　ふしぎに　おもうんだ\nあの　レンタルポケモンは\lだれが　そだててるんだろう？
+@@BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge
+やった！　かった！\nバトルチューブに\lちょうせん　する！
+@@BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe
+ほう　ここが\nバトルドームか？\lジェントルマンには\lまけないわよ！\pでも　いりぐちは\nどこ　かしら？
+@@BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome
+おや？　バトルドームに\nちょうせん　するのかい？\pうんを　いのって　いるよ\nおたがい　かちあがって\lちょうせんで　あおう
+## data/maps/BattleFrontier_PokemonCenter_1F/scripts.inc
+@@BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge
+うふふ‥　この　こ\nだけで　ぜんぶの\lちょうせんを　するの！
+@@BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon
+ここで　みた　ことの\nない　ポケモンを\lつかってる　ひとが　いたの\pトレーナーズスクールでは\nならわなかったわ\pああ　いう　ポケモンは\nどこで　つかまえられる\lのかしら
+@@BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena
+よし！　つぎは\nバトルアリーナ！\lあずかりシステムから\lぴったりの　ポケモンを\lだして　おかなきゃ
+@@BattleFrontier_PokemonCenter_1F_Text_Skitty
+エネコ『ミャ　ミャーオ！
+## data/maps/BattleFrontier_RankingHall/scripts.inc
+@@BattleFrontier_RankingHall_Text_DomePikeFactoryRecords
+バトルドーム　バトルチューブ\nバトルファクトリーの　きろく
+@@BattleFrontier_RankingHall_Text_ExplainRankingHall
+ここは　ランキングホール\pバトルフロンティアで\nすばらしい　きろくを\lのこした　トレーナーを\lたたえる　ばしょ　です
+@@BattleFrontier_RankingHall_Text_IsYourNameOnThisList
+やあ　きみの　なまえは\nこの　リストに　ある？
+@@BattleFrontier_RankingHall_Text_MyNamesNotUpThere
+うーん‥\nぼくの　なまえは　ないなあ‥\pまあ　まだ　いちども\nちょうせん　してないから\lとうぜん　だけど
+@@BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords
+バトルパレス　バトルアリーナ\nバトルピラミッドの　きろく
+@@BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName
+あら　そうなの？\pともだちの　なまえが\nここに　あったら\lもっと　がんばる\lきに　なるわよね！
+@@BattleFrontier_RankingHall_Text_WowThatsSuper
+わあ　すごい！\nわたしも　もっと\lがんばらなきゃ！
+## data/maps/BattleFrontier_ReceptionGate/scripts.inc
+@@BattleFrontier_ReceptionGate_Text_BattleArenaInfo
+バトルアリーナは\nバトルフロンティアの\lまんなか　みぎに\lある　どうじょう\lみたいな　たてもの\pバトルアリーナでは\nセットKOトーナメントが\lおこなわれて　いる
+@@BattleFrontier_ReceptionGate_Text_BattleDomeInfo
+バトルドームは　おおきな\nタマゴの　かたちを　した\lたてもの\pここでは　バトルトーナメントが\nおこなわれて　いる\pバトルトーナメントには\nシングルと　ダブルの\l2つの　コースが　ある
+@@BattleFrontier_ReceptionGate_Text_BattleFactoryInfo
+バトルファクトリーは\nいちばん　ちかくに　ある\lおおきな　たてもの\pここでは　レンタルバトルが\nおこなわれて　いる\pレンタルバトルには\nシングルと　ダブルの\l2つの　コースが　ある
+@@BattleFrontier_ReceptionGate_Text_BattlePalaceInfo
+バトルパレスは\nバトルフロンティアの\lみぎがわの　あかい\lたてもの\pシングルと　ダブルの\n2しゅるいの\lバトルホールが　ある
+@@BattleFrontier_ReceptionGate_Text_BattlePikeInfo
+バトルチューブは\nバトルフロンティアの\lまんなか　ひだりに\lある　ポケモンの\lかたちを　した　たてもの\pここでは　バトルチューブの\nちょうせんが　おこなわれて\lいる
+@@BattleFrontier_ReceptionGate_Text_BattlePointsInfo
+バトルポイントは\nバトルフロンティアで\lすぐれた　たたかいを\lした　トレーナーに\lおくられる　ごほうび\pバトルポイントは\nこうかんサービス\lカウンターで　しょうひんと\lこうかん　できる
+@@BattleFrontier_ReceptionGate_Text_BattlePyramidInfo
+バトルピラミッドは\nきょだいな　ピラミッド\pそこでは　バトルクエストと\nいう　しあいが\lおこなわれて　いる
+@@BattleFrontier_ReceptionGate_Text_BattleTowerInfo
+バトルフロンティアの\nシンボルと　される\lきょだいな　とう\pとうには　シングル　ダブル\nマルチ　つうしんマルチの\l4しゅるいの\lバトルルームが　ある
+@@BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier
+バトルフロンティアを\nおもうぞんぶん\lおたのしみ　ください！
+@@BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo
+こうかんサービス\nカウンターは\lバトルタワーの　ちかく\pバトルフロンティアで\nかせいだ　バトルポイントを\lすてきな　しょうひんと\lこうかん　できます
+@@BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay
+はじめて　ですか？\nこちらへ　どうぞ！
+@@BattleFrontier_ReceptionGate_Text_HoldItemsInfo
+バトルフロンティアの\nしせつに　ちょうせん　する\lとき　ポケモンに　おなじ\lどうぐは　もたせられません\pちょうせん　する　ポケモンが\nみんな　ちがう　どうぐを\lもって　いるか\lたしかめて　ください
+@@BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame
+？？？『やあ　{PLAYER}{KUN}\nじゃないか！\lきて　くれたんだね！
+@@BattleFrontier_ReceptionGate_Text_IssueFrontierPass
+はじめての　かたには\nフロンティアパスを\lおわたし　しています\pバトルフロンティアの\nすべての　しせつで\lつかえます\pどうぞ！
+@@BattleFrontier_ReceptionGate_Text_LearnAboutWhat
+なにに　ついて\nききますか？
+@@BattleFrontier_ReceptionGate_Text_LearnAboutWhich1
+どれに　ついて\nききますか？
+@@BattleFrontier_ReceptionGate_Text_LearnAboutWhich2
+どれに　ついて\nききますか？
+@@BattleFrontier_ReceptionGate_Text_Level50Info
+レベル50コースは\nレベル50までの\lポケモンが　さんか\lできます\pただし　あいての\nトレーナーの　ポケモンは\lみんな　レベル50　です\pこの　コースは\nバトルフロンティアの\lにゅうもんコース　です\pまずは　この　コースに\nちょうせん　して\lみて　ください
+@@BattleFrontier_ReceptionGate_Text_LevelModeInfo
+バトルフロンティアの\nしせつの　ちょうせんには\lレベル50と　オープンレベルの\l2つの　コースが　あります
+@@BattleFrontier_ReceptionGate_Text_MonEntryInfo
+ほとんどの　ポケモンが\nすべての　しせつに\lちょうせん　できます\pただし　タマゴと　いちぶの\nポケモンは　さんか\lできません\pちょうせんに　ひつような\nポケモンの　かずは\lしせつに　よって\lちがいます\pただし　どの　しせつでも\nおなじ　ポケモンを\l2ひき　いじょう　いれる\lことは　できません
+@@BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass
+{PLAYER}は\nフロンティアパスを　もらった
+@@BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay
+あんないにん『あっ！\nスコットさん！\lこんにちは！
+@@BattleFrontier_ReceptionGate_Text_OpenLevelInfo
+オープンレベルコースは\nポケモンの　レベルに\lせいげんが　ありません\pあいての　レベルは\nあなたの　ポケモンに\lあわせて　かわります\pただし　あいての\nポケモンは　みんな\lレベル60いじょう　です
+@@BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass
+{PLAYER}は　トレーナーカードを\nフロンティアパスに　いれた
+@@BattleFrontier_ReceptionGate_Text_RankingHallInfo
+ランキングホールは\nバトルタワーの　ちかく\pバトルフロンティアの\nちょうせんで　トレーナーが\lのこした　すばらしい\lきろくが　みられます
+@@BattleFrontier_ReceptionGate_Text_RecordedBattleInfo
+フロンティアパスには\nバトルを　1つ\lきろく　できます\pともだちとの　バトルを\nきろく　できます\pまた　バトルチューブと\nバトルピラミッドを　のぞく\lバトルフロンティアの\lしあいも　きろく　できます\pバトルの　おわりに\nきろく　するか\lえらべます
+@@BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere
+スコット『ここで　あえて\nほんとうに　うれしいよ！\pゆっくり　あちこち\nみて　まわって　くれ\pもちろん　バトルの\nほんとうの　すばらしさも\lあじわって　ほしい\pぼくの　へやも　ここに\nあるから　ひまが　あったら\lあそびに　きてね
+@@BattleFrontier_ReceptionGate_Text_SymbolsInfo
+バトルフロンティアには\n7つの　しせつが　あります\pちからを　みとめられた\nトレーナーには　それぞれの\lしせつから　シンボルが\lおくられます\pシンボルを　もらうには\nれんしょう　したり\lなんども　ゆうしょう\lしたり　する　ひつようが\lあります\pかんたんでは　ありませんが\nがんばって　ください！
+@@BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier
+ポケモンバトルの　さいぜんせん！\nバトルフロンティアへ\lようこそ！
+@@BattleFrontier_ReceptionGate_Text_YourGuideToFacilities
+バトルフロンティアの\nしせつを　ごあんない\lします
+@@BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass
+フロンティアパスに\nついて　ごあんない\lします
+@@BattleFrontier_ReceptionGate_Text_YourGuideToRules
+バトルフロンティアの\nしせつに　きょうつうの\lきほんルールを\lごあんない　します
+## data/maps/BattleFrontier_ScottsHouse/scripts.inc
+@@BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow
+スコット『おお！　きいたよ！\nバトルタワーを　せいは\lしたんだって？\l100にん　いじょう\lれんしょう　したって？\pとんでもなく　すごいよ！\nこれを　うけとって　くれ！
+@@BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow
+スコット『おお　きいたよ！\nバトルタワーで　かつやく\lしたんだって？\l50にん　いじょう\lれんしょう　したって？\pすばらしい！\nこれを　うけとって　ほしい！
+@@BattleFrontier_ScottsHouse_Text_BerryPocketStuffed
+きのみポケットが\nいっぱいの　ようだね
+@@BattleFrontier_ScottsHouse_Text_ComeBackForThisLater
+おっと　もちものが\nおおすぎるなら\lあとで　とりに　きて
+@@BattleFrontier_ScottsHouse_Text_ExpectingGreatThings
+きたい　してるよ！
+@@BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings
+これからも　きみの\nかつやくを　きたい\lしてるよ！
+@@BattleFrontier_ScottsHouse_Text_ExplainBattlePoints
+スコット『バトルポイントは\nフロンティアパスで\lかくにん　できるよ\pバトルフロンティアで\nかつやく　するほど\lバトルポイントが\lたまって　いく\pどうぐと　こうかん\nしたり　すきな　ように\lつかって　くれ
+@@BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing
+でも　それは　もう\nすぎた　こと\lきに　しないで！\pきみには　ここで\nこころゆくまで　バトルを\lたのしんで　ほしい\p{PLAYER}{KUN}　たびの　とちゅうで\nなんども　であった\lきねんに　これを\lうけとって　くれ
+@@BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain
+スコット『フロンティアブレーンに\nあった　かい？\pそれより　シンボルは\nもらえた　かい？\pフロンティアブレーンは\nぼくが　えらんだ\lさいきょうの　トレーナー\lたち　なんだ\pでも　きみの　つよさには\nかれらも　きっと\lおどろくよ！
+@@BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal
+ふりかえれば\nとても　ながい\lたび　だったよ‥\pつよい　トレーナーを\nさがして　ひとりで\lたびに　でたんだ\pこれを　かたちに　する\nまでの　くろうと　じかんは\lだれにも　わからないだろう
+@@BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier
+スコット『きみは\nバトル　だけじゃ\lないよね？\pたしか　ずかんも\nつくって　いたよね\pじつは　ね\pバトルフロンティアの\nどこかで　やせいの\lポケモンに　あえる\lかもよ‥\lふふふ！
+@@BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints
+{PLAYER}は　バトルポイントを\n{STR_VAR_1}ポイント　もらった
+@@BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere
+ぼくには　いい\nトレーナーを　みぬく\lめが　あるんだ\pきみを　ここに　つれて\nきて　ほんとうに\lよかった！
+@@BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier
+スコット『やあ　ようこそ！\nへへ‥　せまくて\lごめんね\pさて　{PLAYER}{KUN}\nあらためて\lバトルフロンティアへ\lようこそ\pここは　ぼくの　ゆめ\nなんだ　なんねんも\lかかって　ようやく\lかたちに　なったよ
+@@BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers
+スコット『トレーナーは\nひとり　ひとり　ちがう\lそれぞれの　じんせいを\lいきて　いる\pでも　バトルの　ときは\nだれで　あろうと\lかんけい　ない\pみんな　おなじ　なんだ！\pぼくは　みんなが\nびょうどうな　バトルの\lじゅんすいさが\lだいすき　なんだ\pだから　ぼくは　バトルに\nしんけんな　トレーナーを\lさがしに　あちこち\lいって　ここに\lまねいて　いるんだ
+@@BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols
+スコット『バトルフロンティアを\nたのしんで　くれてる？\p‥ちょっと　まって‥\nえっ　しんじられない！\pその　フロンティアパス！\nきんの　シンボルが\lぜんぶ　そろってる！\pすごいなんて　もんじゃ\nない！　やっぱり　きみは\lとんでもないよ！\p‥　‥　‥　‥　‥　‥\p{PLAYER}　これを\nうけとって　くれ！\pきみなら　この　おくりものの\nかちが　わかる　はずだ！
+@@BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols
+スコット『バトルフロンティアを\nたのしんで　くれてる？\p‥ちょっと　まって‥\nおお！\pその　フロンティアパス！\nぎんの　シンボルが\lぜんぶ　そろってる！\pすごいよ！\nやっぱり　きみは\lつよいね！\pふだんは　こんな　こと\nしないけど　とくべつだ！\pこれを　うけとって　ほしい\nきみなら　うまく\lつかって　くれる　はずだ
+## data/maps/SootopolisCity_Gym_1F/scripts.inc
+@@SootopolisCity_Gym_1F_Text_JuanDefeat
+あっはっは　みごとだ！\nよろしい　きみの　かちだ\pきみからは　すべてを\nのりこえる　わざの\lかがやきを　かんじる\pだが　わたしや\nミクリに　くらべると\lゆうがさが　たりないね\pわたしの　いしょうを\nかして　あげようか？\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥\pはっはっは　じょうだんだよ！\pいしょうの　かわりに\nこの　レインバッジを\lさしあげよう！

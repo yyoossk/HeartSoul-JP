@@ -494,9 +494,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
 	.string "Do your best!$"
 
 gText_LinkStandby3::
-	.string "Link standby…$"
+	.string "つうしん　たいきちゅう‥$"
 
 gText_YourPartnerHasRetired::
-	.string "Your partner has retired.\p"
-	.string "Your BATTLE ROOM challenge\n"
-	.string "will be canceled.$"
+	.string "パートナーが\nリタイア　しました\pバトルルームの　ちょうせんは\nちゅうし　されます$"

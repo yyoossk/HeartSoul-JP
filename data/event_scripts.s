@@ -1451,12 +1451,10 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“Selected items for your convenience!”\n"
-	.string "POKéMON MART$"
+	.string "「べんりな　どうぐ　そろってます！」\nフレンドリィショップ$"
 
 gText_PokemonCenterSign::
-	.string "“Rejuvenate your tired partners!”\n"
-	.string "POKéMON CENTER$"
+	.string "「つかれた　なかまを　げんきに！」\nポケモンセンター$"
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "{STR_VAR_1} might like this program.\n"
@@ -1570,9 +1568,7 @@ gText_BigHoleInTheWall::
 	.string "There is a big hole in the wall.$"
 
 gText_SorryWirelessClubAdjustments::
-	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
-	.string "undergoing adjustments now.$"
+	.string "もうしわけ　ございません\nポケモンつうしんクラブは\lただいま　ちょうせいちゅう　です$"
 
 gText_UndergoingAdjustments::
 	.string "It appears to be undergoing\n"

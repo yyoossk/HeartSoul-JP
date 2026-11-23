@@ -120,30 +120,17 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
 	step_end
 
 BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
-	.string "People and POKéMON, they are but\n"
-	.string "the same…\p"
-	.string "Their individual nature makes them\n"
-	.string "good at certain things, and not good\l"
-	.string "at others.$"
+	.string "ひとも　ポケモンも\nおなじ　こと‥\pせいかくに　よって\nとくいな　ことも　あれば\lにがてな　ことも　ある$"
 
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
-	.string "Rather than trying to make a POKéMON\n"
-	.string "do what it dislikes, try to let it do\l"
-	.string "what it likes and is good at doing.\p"
-	.string "Put yourself in the POKéMON's position\n"
-	.string "and consider what moves it would like.$"
+	.string "ポケモンに　いやな　ことを\nさせるより　すきな　ことや\lとくいな　ことを　させましょう\pポケモンの　たちばに　なって\nどんな　わざを　つかいたいか\lかんがえて　みるのです$"
 
 BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
-	.string "A POKéMON's nature is a remarkable\n"
-	.string "thing…\p"
-	.string "Some POKéMON behave in a completely\n"
-	.string "different way when they are cornered.$"
+	.string "ポケモンの　せいかくとは\nふしぎな　もの‥\pおいつめられると　まったく\nちがう　うごきを　する\lポケモンも　いるのです$"
 
 BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature:
-	.string "Are you beginning to understand how\n"
-	.string "a POKéMON's nature makes it behave?$"
+	.string "ポケモンの　せいかくで\nうごきが　かわる　ことが\lわかって　きましたか？$"
 
 BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
-	.string "Ah… I see a strong, heartfelt bond\n"
-	.string "between you and your POKéMON…$"
+	.string "ああ‥　あなたと　ポケモンの\nあいだに　つよい　こころの\lきずなが　みえます‥$"
 

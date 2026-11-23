@@ -438,18 +438,14 @@ BattleFrontier_BattleDomeLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the SINGLE BATTLE\n"
-	.string "Tournament.$"
+	.string "トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pシングルバトル　トーナメントの\nうけつけ　です$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
 	.string "Would you like to challenge\n"
 	.string "the SINGLE BATTLE Tournament?$"
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
-	.string "We hope to see you again.$"
+	.string "また　おこし　ください$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
 	.string "The SINGLE BATTLE Tournament\n"
@@ -505,19 +501,13 @@ BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
 	.string "EGGS{STR_VAR_1}.$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome:
-	.string "I will now show you to\n"
-	.string "the BATTLE DOME.$"
+	.string "それでは　バトルドームへ\nごあんない　いたします$"
 
 BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting:
-	.string "Excuse me!\p"
-	.string "You didn't save before you quit your\n"
-	.string "challenge last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. Sorry!$"
+	.string "すみません！\pまえかいは　レポートを　かかずに\nちょうせんを　やめましたね\pそのため　これまでの\nちょうせんは　しっかくと\lなりました　ごめんなさい！$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney:
-	.string "Congratulations for winning\n"
-	.string "your Battle Tournament!$"
+	.string "バトルトーナメント　ゆうしょう\nおめでとう　ございます！$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
@@ -535,25 +525,19 @@ BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
 	.string "see me.$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "ありがとう　ございました！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved:
-	.string "Your record will be saved.\n"
-	.string "Please wait.$"
+	.string "きろくを　のこします\nしょうしょう　おまちください$"
 
 BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou:
-	.string "We've been waiting for you!$"
+	.string "おまち　して　おりました！$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge2:
-	.string "Before I show you to the BATTLE DOME,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "バトルドームへ　ごあんない\nする　まえに　レポートを\lかきます　よろしい　ですか？$"
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the DOUBLE BATTLE\n"
-	.string "Tournament.$"
+	.string "トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pダブルバトル　トーナメントの\nうけつけ　です$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
 	.string "Would you like to challenge\n"
@@ -581,32 +565,22 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 	.string "you will be disqualified.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 SINGLE BATTLE Tournament.$"
+	.string "まえの　レベル50　シングル\nトーナメントの　けっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 DOUBLE BATTLE Tournament.$"
+	.string "まえの　レベル50　ダブル\nトーナメントの　けっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level SINGLE BATTLE Tournament.$"
+	.string "まえの　オープンレベル　シングル\nトーナメントの　けっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level DOUBLE BATTLE Tournament.$"
+	.string "まえの　オープンレベル　ダブル\nトーナメントの　けっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
-	.string "Did you see it?\n"
-	.string "The last Battle Tournament?\p"
-	.string "The winner, {STR_VAR_1}, was seriously\n"
-	.string "tough.\p"
-	.string "You should check out the results\n"
-	.string "on the monitor beside the PC.$"
+	.string "みた？\nまえの　バトルトーナメント\pゆうしょうした　{STR_VAR_1}\nすごく　つよかったよ\pパソコンの　よこの　モニターで\nけっかを　みて　ごらん$"
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
-	.string "The BATTLE FRONTIER…\n"
-	.string "I've long dreamed about a place like it.$"
+	.string "バトルフロンティア‥\nこんな　ばしょを\lずっと　ゆめみて　いたんだ$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_BattleDomeSign2:
@@ -619,68 +593,34 @@ BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
 	.string "Under Construction!$"
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
-	.string "When a TRAINER chains tournament\n"
-	.string "wins at the BATTLE DOME, he or she\l"
-	.string "gains a reputation as a star.\p"
-	.string "Tough TRAINERS are drawn by that\n"
-	.string "reputation to the BATTLE DOME.\p"
-	.string "A true superstar is a TRAINER who\n"
-	.string "can keep winning tournaments.$"
+	.string "バトルドームで　れんぞく\nゆうしょう　すると　スターとして\lゆうめいに　なるの\pその　ひょうばんを　きいて\nつよい　トレーナーが\lあつまって　くるのよ\pゆうしょうし　つづけられる\nトレーナーこそ　ほんとうの\lスーパースター　なのよ$"
 
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound:
-	.string "I ran into one of the tournament\n"
-	.string "favorites in the very first round.\p"
-	.string "Of course I got trashed…$"
+	.string "1かいせんで　ゆうしょう\nこうほと　あたっちゃってさ\pもちろん　ぼろまけ‥$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
-	.string "I would've won if I'd kept this POKéMON\n"
-	.string "held in reserve.\p"
-	.string "You need to check your opponent's\n"
-	.string "POKéMON carefully before choosing\l"
-	.string "your battling POKéMON.$"
+	.string "この　ポケモンを　ひかえに\nしてれば　かてたのに‥\pたたかう　ポケモンを　えらぶ\nまえに　あいての　ポケモンを\lよく　みて　おかないとね$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
-	.string "Congratulations!\p"
-	.string "You defeated the DOME ACE and won\n"
-	.string "the Battle Tournament!$"
+	.string "おめでとう　ございます！\pドームスーパースターを　やぶり\nバトルトーナメント　ゆうしょう\lです！$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-	.string "In recognition of your strategy--\n"
-	.string "a thing of beauty it was, too--\l"
-	.string "we award you these Battle Point(s)!$"
+	.string "その　さくせん‥　じつに\nうつくしい　ものでした‥\lたたえて　バトルポイントを\lさしあげます！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
-	.string "Would you like to record your\n"
-	.string "last BATTLE DOME match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "さいごの　バトルドームの\nしあいを　フロンティアパスに\lきろく　しますか？$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
-	.string "The Battle Tournament rules\n"
-	.string "are listed.$"
+	.string "バトルトーナメントの\nルールが　かいて　あります$"
 
 BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "どの　こうもくを　よみますか？$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
-	.string "The tournament matchups are drawn up\n"
-	.string "based on the toughness of POKéMON\l"
-	.string "held by TRAINERS.\p"
-	.string "The matchups avoid having tough\n"
-	.string "TRAINERS face each other right away.$"
+	.string "トーナメントの　くみあわせは\nトレーナーが　もつ　ポケモンの\lつよさで　きまります\pつよい　トレーナーどうしが\nいきなり　あたらない　ように\lなって　いるのです$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
-	.string "The tournament chart, or as we call it,\n"
-	.string "the “Tree,” is available for viewing\l"
-	.string "in the Waiting Room from any guide.\p"
-	.string "The Tournament Tree will provide\n"
-	.string "several kinds of data.\p"
-	.string "The data on view includes the previous\n"
-	.string "tournament's results, the POKéMON held\l"
-	.string "by TRAINERS, and the battle styles of\l"
-	.string "TRAINERS.$"
+	.string "トーナメントひょうは\nひかえしつで　かかりいんに\lはなしかけると　みられます\pトーナメントひょうでは\nいろいろな　じょうほうが\lみられます\pまえの　トーナメントの　けっか\nトレーナーの　もつ　ポケモン\lトレーナーの　たたかいかた\lなどです$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
-	.string "If battling POKéMON faint at the same\n"
-	.string "time--a double KO--in a tournament\l"
-	.string "match, the REFEREES will review\l"
-	.string "the match and declare the winner.$"
+	.string "トーナメントの　しあいで\nポケモンが　どうじに　ひんしに\lなったら　しんぱんが　しあいを\lふりかえり　しょうしゃを　きめます$"

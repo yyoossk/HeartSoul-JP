@@ -938,16 +938,10 @@ BattleFrontier_BattleTowerLobby_Text_DirectYouToBattleRoom:
 	.string "I'll direct you to your BATTLE ROOM now.$"
 
 BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting:
-	.string "Excuse me!\p"
-	.string "You didn't save before you quit your\n"
-	.string "challenge last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. Sorry!$"
+	.string "すみません！\pまえかいは　レポートを　かかずに\nちょうせんを　やめましたね\pそのため　これまでの\nちょうせんは　しっかくと\lなりました　ごめんなさい！$"
 
 BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven:
-	.string "Congratulations!\n"
-	.string "You've beaten all seven TRAINERS!\p"
-	.string "$"
+	.string "おめでとう　ございます！\n7にん　ぜんいんに\lかちました！\p$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_EarnedFabulousPrize:
@@ -965,82 +959,52 @@ BattleFrontier_BattleTowerLobby_Text_BagFullMakeRoom:
 	.string "see me.$"
 
 BattleFrontier_BattleTowerLobby_Text_ThankYouForPlaying:
-	.string "Thank you for playing!\p"
-	.string "$"
+	.string "ありがとう　ございました！\p$"
 
 BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved:
-	.string "Your record will be saved.\n"
-	.string "Please wait.$"
+	.string "きろくを　のこします\nしょうしょう　おまちください$"
 
 BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou:
-	.string "We've been waiting for you!\p"
-	.string "$"
+	.string "おまち　して　おりました！\p$"
 
 BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved:
-	.string "Before entering a BATTLE ROOM, your\n"
-	.string "progress will be saved. Please wait.$"
+	.string "バトルルームに　はいる\nまえに　レポートを　かきます\lしょうしょう　おまちください$"
 
 BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
-	.string "You're finally about to face the\n"
-	.string "50th TRAINER.\p"
-	.string "From here on, every time you beat seven\n"
-	.string "TRAINERS in a row, your POKéMON will\l"
-	.string "receive a commemorative RIBBON.\p"
-	.string "Good luck!$"
+	.string "いよいよ　50にんめの\nトレーナー　です\pここから　7れんしょう\nする　たびに　ポケモンに\lきねんの　リボンが\lおくられます\pがんばって　ください！$"
 
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
-	.string "Here are some RIBBONS for beating\n"
-	.string "seven tough TRAINERS in a row.\p"
-	.string "{PLAYER} received some RIBBONS!$"
+	.string "7にんの　つよい　トレーナーに\nれんしょう　した　きねんに\lリボンを　どうぞ\p{PLAYER}は\nリボンを　もらった！$"
 
 BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons:
-	.string "{PLAYER} put the RIBBONS on\n"
-	.string "the challenger POKéMON.$"
+	.string "{PLAYER}は　ちょうせんした\nポケモンに　リボンを　つけた$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
-	.string "Excuse me, do you have a moment?\p"
-	.string "Can you describe your feelings when\n"
-	.string "you're about to begin a BATTLE TOWER\l"
-	.string "match, or when you've either won or\l"
-	.string "lost a match?$"
+	.string "すみません　ちょっと\nいいですか？\pバトルタワーの　しあいを\nはじめる　ときや　かった\lとき　まけた　ときの\lきもちを　おしえて　ください$"
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin:
-	.string "Okay, what are your feelings when\n"
-	.string "you're about to begin a match?$"
+	.string "では　しあいを　はじめる\nときの　きもちは？$"
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveWon:
-	.string "What do you feel when you've won\n"
-	.string "a match?$"
+	.string "しあいに　かった　ときは\nどんな　きもち　ですか？$"
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveLost:
-	.string "Can I hear about your feelings when\n"
-	.string "you have lost a match?$"
+	.string "しあいに　まけた　ときの\nきもちを　きかせて　ください$"
 
 BattleFrontier_BattleTowerLobby_Text_DontThinkMuchAboutIt:
-	.string "Oh, so you don't think much about it?\n"
-	.string "You're one cool customer.$"
+	.string "あら　あまり　かんがえない\nほう　なの？\lクールな　ひと　ですね$"
 
 BattleFrontier_BattleTowerLobby_Text_ChangedYourMind:
-	.string "Hunh? You changed your mind?\n"
-	.string "I guess you're fickle.$"
+	.string "え？　きが　かわったの？\nきまぐれな　ひと　ですね$"
 
 BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel:
-	.string "Okay, so that's how you feel?\n"
-	.string "That's quite original.\p"
-	.string "Thanks!$"
+	.string "なるほど　そう　かんじるのね\nとても　ユニーク　です\pありがとう！$"
 
 BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded:
-	.string "The number of matches you win in a row\n"
-	.string "is recorded.\p"
-	.string "I'd better not get beaten in\n"
-	.string "an embarrassing way!$"
+	.string "れんしょうの　かずは\nきろく　されるんだ\pみっともない　まけかたは\nしたくないな！$"
 
 BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins:
-	.string "Once you've entered the BATTLE TOWER,\n"
-	.string "you can't leave until you either lose\l"
-	.string "or you beat seven TRAINERS in a row.\p"
-	.string "You'd best be certain that you're up\n"
-	.string "to the challenge.$"
+	.string "バトルタワーに　はいったら\nまけるか　7れんしょう\lするまで　でられません\pじゅうぶん　じしんが　ある\nか　たしかめて　おいた\lほうが　いいですよ$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction:
@@ -1061,8 +1025,7 @@ BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction:
 	.string "is completed.$"
 
 BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge:
-	.string "We look forward to seeing you on\n"
-	.string "another challenge!$"
+	.string "また　の　ちょうせんを\nおまちして　おります！$"
 
 BattleFrontier_BattleTowerLobby_Text_WhichLevelMode:
 	.string "The BATTLE ROOM offers two levels\n"
@@ -1083,8 +1046,7 @@ BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom:
 	.string "{STR_VAR_1} BATTLE ROOM.$"
 
 BattleFrontier_BattleTowerLobby_Text_RecordLastMatch:
-	.string "Shall I record your last BATTLE TOWER\n"
-	.string "match on your FRONTIER PASS?$"
+	.string "さいごの　バトルタワーの\nしあいを　フロンティアパスに\lきろく　しますか？$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50:
@@ -1164,11 +1126,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
 	.string "EGGS{STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
-	.string "Where the talents of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE TOWER!\p"
-	.string "I am your guide to the SINGLE\n"
-	.string "BATTLE ROOMS.$"
+	.string "トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pシングル　バトルルームの\nうけつけ　です$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge:
 	.string "Would you like to take the SINGLE\n"
@@ -1194,11 +1152,7 @@ BattleFrontier_BattleTowerLobby_Text_SelectThreeMons:
 	.string "that are to be entered.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle:
-	.string "Where the talents of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE TOWER!\p"
-	.string "I am your guide to the DOUBLE\n"
-	.string "BATTLE ROOMS.$"
+	.string "トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pダブル　バトルルームの\nうけつけ　です$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge:
 	.string "Would you like to take the DOUBLE\n"
@@ -1224,11 +1178,7 @@ BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons:
 	.string "that are to be entered.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle:
-	.string "Where the talents of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE TOWER!\p"
-	.string "I am your guide to the MULTI\n"
-	.string "BATTLE ROOMS.$"
+	.string "トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pマルチ　バトルルームの\nうけつけ　です$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge:
 	.string "Would you like to take the MULTI\n"
@@ -1262,11 +1212,7 @@ BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons:
 	.string "that are to be entered.$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle:
-	.string "Where the talents of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE TOWER!\p"
-	.string "I am your guide to the LINK MULTI\n"
-	.string "BATTLE ROOMS.$"
+	.string "トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pつうしんマルチ\nバトルルームの　うけつけ　です$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge:
 	.string "Would you like to take the LINK MULTI\n"
@@ -1345,61 +1291,28 @@ BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn:
 	.string "showing you in. Please wait.$"
 
 BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden:
-	.string "Congratulations!\n"
-	.string "You have defeated the SALON MAIDEN\l"
-	.string "and swept seven TRAINERS!$"
+	.string "おめでとう　ございます！\nタワータイクーンを　やぶり\l7にんに　かちました！$"
 
 BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints:
-	.string "In recognition of your infinite talent,\n"
-	.string "we award you these Battle Point(s).$"
+	.string "その　かぎりない　さいのうを\nたたえ　バトルポイントを\lさしあげます$"
 
 BattleFrontier_Text_ObtainedXBattlePoints:
 	.string "{PLAYER}は　{STR_VAR_1}バトルポイントを　もらった！$"
 
 BattleFrontier_BattleTowerLobby_Text_RulesAreListed:
-	.string "The BATTLE TOWER rules are listed.$"
+	.string "バトルタワーの　ルールが\nかいて　あります$"
 
 BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "どの　こうもくを　よみますか？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
-	.string "The BATTLE TOWER is a facility where\n"
-	.string "four types of battles are waged--\l"
-	.string "SINGLE BATTLE, DOUBLE BATTLE, MULTI\l"
-	.string "BATTLE, and LINK MULTI BATTLE.\p"
-	.string "For each of these types, there are\n"
-	.string "separate BATTLE ROOMS.\p"
-	.string "Please speak with a guide offering\n"
-	.string "the type of battle you wish to enter.$"
+	.string "バトルタワーでは　4しゅるいの\nバトルが　おこなわれます\lシングル　ダブル　マルチ\lつうしんマルチ　です\pそれぞれ　べつの\nバトルルームが　あります\pちょうせん　したい\nバトルの　かかりいんに\lはなしかけて　ください$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMonRules:
-	.string "Depending on the BATTLE ROOM you are\n"
-	.string "entering, you will be required to take\l"
-	.string "a certain number of POKéMON.\p"
-	.string "The SINGLE BATTLE mode requires\n"
-	.string "three POKéMON.\p"
-	.string "The DOUBLE BATTLE mode requires four,\n"
-	.string "and the MULTI modes both require two.$"
+	.string "はいる　バトルルームに\nよって　つれて　いく\lポケモンの　かずが　ちがいます\pシングルバトルは\n3びき　です\pダブルバトルは　4ひき\nマルチは　どちらも　2ひき\lです$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules:
-	.string "The BATTLE SALON is where you must\n"
-	.string "find a partner to form a tag team for\l"
-	.string "the MULTI BATTLE ROOM challenge.\p"
-	.string "Choose the best partner for you by\n"
-	.string "examining other TRAINERS'\l"
-	.string "POKéMON and their moves.\p"
-	.string "You may choose a new tag partner\n"
-	.string "after winning seven straight matches.$"
+	.string "バトルサロンは　マルチ\nバトルルームの　パートナーを\lさがす　ばしょ　です\pほかの　トレーナーの　ポケモンと\nわざを　みて　いちばん\lいい　パートナーを\lえらんで　ください\p7れんしょう　したら\nあたらしい　パートナーを\lえらべます$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
-	.string "The LINK MULTI BATTLE Mode is for two\n"
-	.string "friends to mount a challenge together.\p"
-	.string "You and your friend must be linked with\n"
-	.string "Wireless Adapters or a GBA Game Link\l"
-	.string "cable.\p"
-	.string "You must choose two POKéMON at\n"
-	.string "the registration counter.\p"
-	.string "These POKéMON must be different\n"
-	.string "from those of your friend.\p"
-	.string "You may not interrupt this challenge\n"
-	.string "in the middle, unlike other modes.$"
+	.string "つうしんマルチバトルは\nともだちと　ふたりで\lちょうせん　する　モードです\pワイヤレスアダプタか\nGBA　つうしんケーブルで\lつないで　ください\pうけつけで　ポケモンを\n2ひき　えらんで　ください\pともだちと　ちがう\nポケモンで　なければ\lなりません\pほかの　モードと　ちがい\nとちゅうで　ちゅうだん\lできません$"
