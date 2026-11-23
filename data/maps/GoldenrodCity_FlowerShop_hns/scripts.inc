@@ -20,8 +20,7 @@ GoldenrodCity_FlowerShop_EventScript_MintClerkNotReady::
 	end
 
 GoldenrodCity_FlowerShop_Text_MintClerkNotReady:
-	.string "We are currently out of stock.\p"
-	.string "Please come back later.$"
+	.string "ただいま　しなぎれ　です\pまた　あとで\nおこし　ください$"
 
 	.align 2
 GoldenrodCity_FlowerShop_Mints:
@@ -109,53 +108,25 @@ GoldenrodCity_FlowerShop_EventScript_Floria3::
 	end
 
 GoldenrodCity_FlowerShop_Text_Floria:
-	.string "When I told my sis about the jiggly\n"
-	.string "tree, she said it's dangerous.\p"
-	.string "If I beat WHITNEY, I wonder if\n"
-	.string "she'll lend me her water bottle…$"
+	.string "くねくね　うごく　きの　ことを\nおねえちゃんに　はなしたら\lあぶないって　いわれたの\pアカネさんに　かったら\nじょうろ　かして　くれるかな‥$"
 
 GoldenrodCity_FlowerShop_Text_Owner1:
-.string "Apparently, there is an odd tree\n"
-.string "on ROUTE 36.\p"
-.string "They say it dances when you water\n"
-.string "it...\p"
-.string "Oh, of course not!\p"
-.string "This is a flower shop, so we do\n"
-.string "have watering cans...\p"
-.string "But I cannot let you have one!\n"
-.string "It's too dangerous!\p"
-.string "Well, maybe if you manage to\n"
-.string "defeat gym leader WHITNEY, it\l"
-.string "might be okay.$"
+	.string "36ばんどうろに　へんな\nきが　あるらしいの\pみずを　かけると\nおどりだすんだって‥\pあら　もちろん　だめよ！\pうちは　はなやさん　だから\nじょうろは　あるけど‥\pでも　かして　あげられないわ！\nあぶなすぎるもの！\pまあ　ジムリーダーの　アカネさんに\nかてたら　だいじょうぶ\lかもしれない　けど$"
 
 GoldenrodCity_FlowerShop_Text_Owner2:
-.string "Apparently, there is an odd tree\n"
-.string "on ROUTE 36.\p"
-.string "They say it dances when you water\n"
-.string "it...\p"
-.string "Oh, that's a PLAINBADGE from\n"
-.string "the GOLDENROD GYM!\p"
-.string "Did you defeat WHITNEY?!\p"
-.string "Well, then there's nothing to worry\n"
-.string "about, is there?\p"
-.string "I'll let you use this SQUIRTBOTTLE\n"
-.string "for a while then.\l"
-.string "...\p"
-.string "Oh, never mind. Keep it!$"
+	.string "36ばんどうろに　へんな\nきが　あるらしいの\pみずを　かけると\nおどりだすんだって‥\pあら　それ　コガネジムの\nレギュラーバッジ！\pアカネさんに　かったの！？\pそれなら　しんぱい\nないわね？\pしばらく　この　ゼニガメじょうろを\nかして　あげる\l‥\pやっぱり　あげるわ！$"
 
 GoldenrodCity_FlowerShop_Text_Owner3:
-.string "The odd tree is on ROUTE 36.\n"
-.string "Please be careful!$"
+	.string "へんな　きは　36ばんどうろよ\nきを　つけてね！$"
 
 GoldenrodCity_FlowerShop_Text_Owner4:
-    .string "Lalala lalalala. Have plenty of\n"
-    .string "water, my lovely!$"
+	.string "ららら　らららら\nたっぷり　おみず　のんでね！$"
 
 GoldenrodCity_FlowerShop_Text_FloriaYouBeatWhitney:
-    .string "Wow, you beat WHITNEY? Cool!$"
+	.string "わあ　アカネさんに　かったの？\nすごい！$"
 
 GoldenrodCity_FlowerShop_Text_FloriaItWasAMon:
-    .string "So it really was a POKéMON!$"
+	.string "やっぱり　ポケモン\nだったのね！$"
 
 
 GoldenrodCity_FlowerShop_EventScript_RandomBerryGirl::

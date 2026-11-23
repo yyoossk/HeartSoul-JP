@@ -60,71 +60,43 @@ GoldenrodCity_BillsHouse_EventScript_Bill_Refused::
 	end
 
 BillHouse_Text_TakeThisEevee:
-    .string "BILL: Hi, {PLAYER}! Do us a favor and\n"
-    .string "take this EEVEE.\p"
-    .string "It was left in our care while\n"
-    .string "I was away working on my system.\p"
-    .string "Someone has to take care of it,\n"
-    .string "but I don't like being outside.\p"
-    .string "Can I count on you to play with it,\n"
-    .string "{PLAYER}?$"
+	.string "マサキ『おお　{PLAYER}！　ひとつ\nたのみが　あるんや　この\lイーブイ　もらって　くれへん？\pわいが　システムの　しごとで\nるすの　あいだ　あずかってたんや\pだれかが　せわ　せなあかんけど\nわい　そとに　でるの\lすきや　ないねん\p{PLAYER}　こいつと　あそんで\nやって　くれるか？$"
 
 BillHouse_Text_CountingOnYou:
-    .string "BILL: I knew you'd come through!\p"
-    .string "Way to go! You're the real deal!\p"
-    .string "OK, I'm counting on you.\p"
-    .string "Take good care of it!$"
+	.string "マサキ『そう　いうと　おもてたわ！\pさすがや！　ほんまもんやな！\pほな　たのんだで\pだいじに　したってな！$"
 
 BillHouse_Text_ReceivedEevee:
-    .string "{PLAYER} received EEVEE!$"
+	.string "{PLAYER}は\nイーブイを　もらった！$"
 
 BillHouse_Text_EeveeMayEvolve:
-    .string "BILL: PROF.ELM claims EEVEE may\n"
-    .string "evolve in new and unknown ways.$"
+	.string "マサキ『ウツギはかせが　いうには\nイーブイは　まだ　しられて　へん\lしんかを　するかも　しれんらしい$"
 
 BillHouse_Text_PartyFull:
-    .string "Whoa, wait. You can't carry any\n"
-    .string "more POKéMON.$"
+	.string "おっと　まち　もう\nポケモン　もたれへんで$"
 
 BillHouse_Text_NoEevee:
-    .string "Oh… Now what to do?$"
+	.string "そうか‥　どないしよ？$"
 
 BillHouse_Text_PopWontWork:
-    .string "BILL: My pop, he won't work. All he\n"
-    .string "does is goof off all day long.\p"
-    .string "He's getting to be a real headache…$"
+	.string "マサキ『うちの　おやじ\nぜんぜん　はたらかへんねん\lいちにちじゅう　あそんでばっかり\pほんま　あたま　いたいわ‥$"
 
 BillHouse_Text_MomBeforeEcruteak:
-    .string "Oh, you collect POKéMON? My son\n"
-    .string "BILL is an expert.\p"
-    .string "He just got called to the POKéMON\n"
-    .string "CENTER in ECRUTEAK CITY.\p"
-    .string "My husband went off to the GAME\n"
-    .string "CORNER without being called…$"
+	.string "あら　ポケモンを　あつめてるの？\nむすこの　マサキは　くわしいわよ\pちょうど　エンジュシティの\nポケモンセンターに\lよばれて　いったのよ\pうちの　ひとは　よばれても\nいないのに　ゲームコーナーへ‥$"
 
 BillHouse_Text_MomAfterEcruteak:
-    .string "My husband was once known as a\n"
-    .string "POKéMANIAC.\p"
-    .string "BILL must have taken after his\n"
-    .string "father.$"
+	.string "うちの　ひと　むかしは\nポケモンマニアで　ゆうめい\lだったのよ\pマサキは　ちちおやに\nにたのね$"
 
 BillHouse_Text_SisterUsefulNumber:
-    .string "Are you a TRAINER?\p"
-    .string "I've got a useful phone number\n"
-    .string "for you.$"
+	.string "あなた　トレーナー？\pやくに　たつ　でんわばんごうを\nおしえて　あげる$"
 
 BillHouse_Text_RecordedBillsNumber:
-    .string "{PLAYER} recorded BILL's number.$"
+	.string "{PLAYER}は　マサキの\nでんわばんごうを　とうろく　した$"
 
 BillHouse_Text_SisterRefusedNumber:
-    .string "My brother made the PC POKéMON\n"
-    .string "storage system.\p"
-    .string "I was going to give you BILL's\n"
-    .string "number…$"
+	.string "あにが　パソコンで　ポケモンを\nあずける　システムを　つくったの\pマサキの　ばんごうを\nおしえようと　したのに‥$"
 
 BillHouse_Text_SisterPhoneFull:
-    .string "You can't record any more numbers.$"
+	.string "もう　ばんごうを\nとうろく　できないわね$"
 
 BillHouse_Text_SisterStorageSystem:
-    .string "My big brother BILL made the PC\n"
-    .string "POKéMON storage system.$"
+	.string "おにいちゃんの　マサキが　パソコンで\nポケモンを　あずける　システムを\lつくったの$"

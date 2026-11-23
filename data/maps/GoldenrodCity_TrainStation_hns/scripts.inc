@@ -296,28 +296,19 @@ GoldenrodCity_TrainStation_Movement_SlideRight:
 	step_end
 
 GoldenrodMagnetTrainStation_Text_OfficerTrainHasntComeIn:
-    .string "The train hasn't come in…\p"
-    .string "I know! I'll carry the passengers\n"
-    .string "on my back!\p"
-    .string "That won't work.$"
+	.string "でんしゃが　こない‥\pそうだ！　おきゃくさんを\nせおって　はこぼう！\pむりだな$"
 
 GoldenrodMagnetTrainStation_Text_OfficerRightThisWay:
-    .string "May I see your rail PASS, please?\p"
-    .string "OK. Right this way, please.$"
+	.string "リニアパスを　はいけん\nします\pはい　どうぞ　こちらへ$"
 
 GoldenrodMagnetTrainStation_Text_OfficerNoRailPass:
-    .string "Sorry. You don't have a rail PASS.$"
+	.string "もうしわけ　ありません\nリニアパスを　おもちで　ないですね$"
 
 GoldenrodMagnetTrainStation_Text_GentlemanPresident:
-    .string "I'm the PRESIDENT.\p"
-    .string "My dream was to build a train that\n"
-    .string "is faster than any POKéMON.\p"
-    .string "It really brings JOHTO much closer\n"
-    .string "to KANTO.$"
+	.string "わたしが　しゃちょうだ\pどんな　ポケモンより　はやい\nでんしゃを　つくるのが\lゆめ　だったんだ\pジョウトと　カントーが\nぐっと　ちかく　なったよ$"
 
 GoldenrodCity_TrainStation_Text_Boy:
-	.string "You brought the MAGNET TRAIN PASS,\n"
-	.string "right?$"
+	.string "リニアパス　もってきたよね？$"
 
 GoldenrodCity_TrainStation_Text_Psychic:
-	.string "I thought you had it!$"
+	.string "きみが　もってると\nおもったのに！$"

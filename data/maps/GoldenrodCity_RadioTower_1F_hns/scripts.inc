@@ -46,19 +46,10 @@ RadioTower1F_EventScript_Whitney::
 	end
 
 RadioTower1F_Text_Whitney1::
-	.string "WHITNEY: Hi!\p"
-	.string "My name is WHITNEY!\p"
-	.string "I heard about the QUIZ to win a\n"
-	.string "RADIO CARD, so I came here to get\l"
-	.string "one...\p"
-	.string "But this QUIZ is so hard!$"
+	.string "アカネ『はーい！\pうち　アカネ！\pクイズで　ラジオカードが\nもらえるって　きいて\lきたんやけど‥\pこの　クイズ　めっちゃ\nむずかしいねん！$"
 
 RadioTower1F_Text_Whitney2::
-	.string "WHITNEY: Wow, you did it!\p"
-	.string "I thought the answer to the third\n"
-	.string "question was surely apricorns!\l"
-	.string "Oops!\p"
-	.string "It's time to go back to the GYM!$"
+	.string "アカネ『すごい　やったやん！\pみっつめの　こたえ　ぜったい\nぼんぐりや　おもてたわ！\lあちゃー！\pそろそろ　ジムに\nもどらな！$"
 
 RadioTower1F_EventScript_Reception::
 	lock
@@ -164,61 +155,37 @@ GoldenrodCity_RadioTower_1F_EventScript_Sign::
 	end
 
 RadioTower1F_Text_ReceptionistWelcome:
-    .string "Welcome!$"
+	.string "いらっしゃいませ！$"
 
 RadioTower1F_Text_ReceptionistNoTours:
-    .string "Hello. I'm sorry, but we're not\n"
-    .string "offering any tours today.$"
+	.string "こんにちは　もうしわけ\nありませんが　きょうは\lけんがくは　して　おりません$"
 
 RadioTower1F_Text_RadioCardWomanOfferQuiz:
-    .string "We have a special QUIZ campaign on\n"
-    .string "right now.\p"
-    .string "Answer five questions correctly to\n"
-    .string "win a POKéGEAR RADIO CARD.\p"
-    .string "You and your POKéMON can use it to\n"
-    .string "play music anytime, anywhere.\p"
-    .string "Would you like to take the QUIZ?$"
+	.string "ただいま　とくべつ　クイズ\nキャンペーンを　おこなって　います\p5もん　せいかい　すると\nポケギアの　ラジオカードが\lもらえます\pいつでも　どこでも\nおんがくが　きけますよ\pクイズに　ちょうせん\nしますか？$"
 
 RadioTower1F_Text_QuizQuestion1:
-    .string "Question 1:\p"
-    .string "Is there a POKéMON that appears only\n"
-    .string "in the daytime?$"
+	.string "だい1もん\pひるま　だけ　あらわれる\nポケモンは　いる？$"
 
 RadioTower1F_Text_QuizQuestion2:
-    .string "Correct!\n"
-    .string "Question 2:\p"
-    .string "Is this statement correct?\p"
-    .string "You can't buy a BERRY at a MART.$"
+	.string "せいかい！\nだい2もん\pつぎの　ことは　ただしい？\pショップでは　きのみは　かえない$"
 
 RadioTower1F_Text_QuizQuestion3:
-    .string "Bull's-eye!\n"
-    .string "Question 3:\p"
-    .string "KURT, the POKéBALL creator, uses\n"
-	.string "apricorns as ingredients?$"
+	.string "だいせいかい！\nだい3もん\pボールしょくにんの　ガンテツは\nぼんぐりを　ざいりょうに　つかう？$"
 
 RadioTower1F_Text_QuizQuestion4:
-    .string "So far so good!\n"
-    .string "Question 4:\p"
-    .string "Is FALKNER the VIOLET GYM LEADER\n"
-    .string "who uses bird POKéMON?$"
+	.string "ここまで　ぜんもん　せいかい！\nだい4もん\pキキョウジムの　リーダー\nハヤトは　とりポケモンつかい？$"
 
 RadioTower1F_Text_QuizQuestion5:
-    .string "Wow! Right again!\n"
-    .string "Here's the final question:\p"
-    .string "Do GOLDENROD GAME CORNER's slots\n"
-    .string "have CHARMANDER on their reels?$"
+	.string "すごい！　また　せいかい！\nさいごの　もんだい\pコガネの　ゲームコーナーの\nスロットに　ヒトカゲは　いる？$"
 
 RadioTower1F_Text_QuizWin:
-    .string "Bingo! You got it!\n"
-    .string "Congratulations!\p"
-    .string "Here's your prize, a RADIO CARD!$"
+	.string "ピンポーン！　せいかい！\nおめでとう　ございます！\pしょうひんの　ラジオカードです！$"
 
 RadioTower1F_Text_PokegearRadio:
-    .string "{PLAYER}'s POKéGEAR can now double as\n"
-    .string "a RADIO!$"
+	.string "{PLAYER}の　ポケギアで\nラジオが　きけるように　なった！$"
 
 RadioTower1F_Text_TuneIn:
-    .string "Please tune in to our RADIO shows.$"
+	.string "わたしたちの　ラジオばんぐみも\nきいて　くださいね$"
 
 RadioTower1F_Text_WrongAnswer:
     .string "Oh, dear.\n"

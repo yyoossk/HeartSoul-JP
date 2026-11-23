@@ -182,27 +182,19 @@ GoldenrodCity_DepartmentStoreBasement_Movement_Boulder3:
 
 
 GoldenrodDeptStore_Text_BlackBeltMove:
-	.string "MACHOKE, help us move that boulder!$"
+	.string "ゴーリキー　その　いわを\nうごかすのを　てつだえ！$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt1:
-    .string "Hey, kid! You're holding us up!\p"
-    .string "Our policy is to work behind the\n"
-    .string "scenes where no one can see us!$"
+	.string "おい　ぼうず！　しごとの\nじゃまだ！\pおれたちは　ひとめに　つかない\nうらかたが　モットーなんだ！$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt2:
-    .string "I lose my passion for work if\n"
-    .string "someone's watching.\p"
-    .string "Come on, kid, scoot!$"
+	.string "ひとに　みられると\nやるきが　なくなるんだ\pほら　ぼうず　あっちへ\nいった　いった！$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt3:
-    .string "Oohah! Oohah!\p"
-    .string "What do you need kid?\l"
-    .string "I'm working here!$"
+	.string "うっはっ！　うっはっ！\pなんの　ようだ　ぼうず？\lしごと　ちゅうだぞ！$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt3After:
-    .string "Oohah! Oohah!\p"
-    .string "The stuff on the ground's junk.\p"
-    .string "Take it if you want it!$"
+	.string "うっはっ！　うっはっ！\pゆかの　ものは\nがらくただ\pほしけりゃ　もっていけ！$"
 
 GoldenrodDeptStore_Text_B1FMachoke:
-    .string "MACHOKE: Maaacho!$"
+	.string "ゴーリキー『ゴーリッ！$"

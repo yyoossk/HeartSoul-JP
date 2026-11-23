@@ -270,10 +270,10 @@ KurtsHouse_Text_KurtHonoredToMakeBalls:
 	.string "ガンテツ『おお　{PLAYER}！\pいどでの　はたらき\nほんとうの　ヒーローの\lようじゃったぞ！\pきにいった！\pおまえさんの　ような\nトレーナーに　ボールを\lつくれるとは　こうえいじゃ\pいまは　これしか　ないが\nうけとって　くれ$"
 
 KurtsHouse_Text_KurtBallsFromApricorns:
-	.string "ガンテツ『わしは　ぼんぐりから\nボールを　つくるんじゃ\pきから　あつめて\nもってきて　くれ\pボールに　して　やるぞ$"
+	.string "ガンテツ『わしは　きのみから\nボールを　つくるんじゃ\pきから　あつめて\nもってきて　くれ\pボールに　して　やるぞ$"
 
 KurtsHouse_Text_KurtAskYouHaveAnApricorn:
-	.string "ガンテツ『ぼんぐりを\nもってきたのか？\pよし！　ボールに\nして　やろう$"
+	.string "ガンテツ『きのみを\nもってきたのか？\pよし！　ボールに\nして　やろう$"
 
 KurtsHouse_Text_KurtThatsALetdown:
 	.string "ガンテツ『{STR_VAR_1}が\nないでは　ないか！$"

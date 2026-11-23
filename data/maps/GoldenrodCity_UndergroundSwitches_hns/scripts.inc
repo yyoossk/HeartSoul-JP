@@ -54,9 +54,7 @@ GoldenrodCity_UndergroundSwitches_EventScript_AntiSoftLock_TP::
 	end
 
 GoldenrodCity_UndergroundSwitches_EventScript_AntiSoftLock_Text::
-	.string "You may be stuck.\p"
-	.string "Go back to the entrance\n"
-	.string "and reset switches?$"
+	.string "でられなく　なって\nいるかも　しれません\pいりぐちに　もどって\nスイッチを　もとに　もどしますか？$"
 
 @ 3->2->1
 
@@ -522,130 +520,85 @@ GoldenrodCity_UndergroundSwitches_EventScript_Item_SmokeBall::
 	end
 
 GoldenrodUnderground_Text_SilverBefore:
-    .string "Hold it!\p"
-    .string "I saw you, so I tailed you.\p"
-    .string "I don't need you underfoot while I\n"
-    .string "take care of TEAM ROCKET.\p"
-    .string "…Wait a second. You beat me before,\n"
-    .string "didn't you?\p"
-    .string "That was just a fluke.\p"
-    .string "I've been training my team and now\n"
-    .string "I will repay my debts!$"
+	.string "まて！\pおまえを　みかけたから\nつけて　きたんだ\pロケットだんを　かたづける\nあいだ　うろちょろ　されちゃ\lめざわりだ\p‥まてよ　おまえ　まえに\nおれに　かったよな？\pあれは　まぐれだ\pチームを　きたえ　なおして\nきた　かりを　かえして　やる！$"
 
 GoldenrodUnderground_Text_SilverWin:
-    .string "…Why… Why do I lose?\p"
-    .string "I've assembled the toughest POKéMON.\p"
-    .string "I didn't ease up on the gas.\p"
-    .string "So why do I lose?$"
+	.string "‥なぜだ‥　なぜ\nまけるんだ？\pいちばん　つよい\nポケモンを　あつめた\pてかげんも　していない\pなのに　なぜ　まける？$"
 
 GoldenrodUnderground_Text_SilverAfter:
-    .string "…I don't understand…\p"
-    .string "Is what that LANCE guy said true?\p"
-    .string "That I don't treat POKéMON properly?\p"
-    .string "Love…\p"
-    .string "Trust…\p"
-    .string "Are they really what I lack?\p"
-    .string "Are they keeping me from winning?\p"
-    .string "I… I just don't understand.\p"
-    .string "But it's not going to end here.\p"
-    .string "Not now. Not because of this.\p"
-    .string "I won't give up my dream of becoming\n"
-    .string "the world's best POKéMON trainer!$"
+	.string "‥わからない‥\pあの　ワタルって　やつの\nいった　ことは　ほんとうなのか？\pおれが　ポケモンを　だいじに\nしていない　だと？\pあいじょう‥\pしんらい‥\pそれが　おれに\nたりない　ものなのか？\pそれが　かてない\nりゆう　なのか？\pおれには‥　わからない\pだが　これで\nおわりじゃない\pいまは‥　こんな　ことで\nおわらない\pせかいで　いちばんの\nポケモントレーナーに　なる\lゆめは　あきらめない！$"
 
 GoldenrodUnderground_Text_SilverLoss:
-    .string "Humph. This is my real power, wimp.\p"
-    .string "I'll make TEAM ROCKET history.\p"
-    .string "And I'm going to grind that LANCE\n"
-    .string "under my heels.$"
+	.string "ふん　これが　おれの\nほんとうの　ちからだ　よわむし\pロケットだんは　おれが\nつぶして　やる\pそして　あの　ワタルも\nふみつぶして　やる$"
 
 GoldenrodUnderground_Text_GruntM11Seen:
-    .string "Open one shutter, another closes.\p"
-    .string "Bet you can't get where you want!$"
+	.string "シャッターを　あければ\nべつの　シャッターが　しまる\pおもう　ところへは\nいけないだろうな！$"
 
 GoldenrodUnderground_Text_GruntM11Beaten:
-    .string "Drat! I was sunk by indecision!$"
+	.string "くそっ！　まよって\nいるうちに　やられた！$"
 
 GoldenrodUnderground_Text_GruntM11After:
-    .string "I'm confused too… The switch on the\n"
-    .string "end is the one to press first, but…$"
+	.string "おれも　わからなく　なってきた‥\nはしの　スイッチを　さいしょに\lおすんだけど‥$"
 
 GoldenrodUnderground_Text_GruntM25Seen:
-    .string "Kwahaha!\p"
-    .string "Confounded by the shutters, are we?\p"
-    .string "I'll let you in on a secret if you\n"
-    .string "can beat me!$"
+	.string "くはは！\pシャッターに　まよって\nいるな？\pおれに　かったら\nひみつを　おしえて　やる！$"
 
 GoldenrodUnderground_Text_GruntM25Beaten:
-    .string "Uwww… I blew it.$"
+	.string "うう‥　しくじった$"
 
 GoldenrodUnderground_Text_GruntM25After:
-    .string "All right. A hint!\p"
-    .string "Change the order of switching.\p"
-    .string "That'll change the ways the shutters\n"
-    .string "open and close.$"
+	.string "よし　ヒントだ！\pスイッチを　おす　じゅんばんを\nかえて　みろ\pシャッターの　あきかたが\nかわるぞ$"
 
 GoldenrodUnderground_Text_BurglarDuncanSeen:
-    .string "Fork over your goodies!$"
+	.string "おたからを　よこしな！$"
 
 GoldenrodUnderground_Text_BurglarDuncanBeaten:
-    .string "Mercy!$"
+	.string "かんべん　してくれ！$"
 
 GoldenrodUnderground_Text_BurglarDuncanAfter:
-    .string "Steal and sell! That's basic in\n"
-    .string "crime, kid!$"
+	.string "ぬすんで　うる！　それが\nわるの　きほんだぜ　ぼうず！$"
 
 GoldenrodUnderground_Text_BurglarEddieSeen:
-    .string "They ditched this project before they\n"
-    .string "finished.\p"
-    .string "I'm searching for leftover loot.$"
+	.string "この　こうじは　かんせい\nまえに　なげだされたんだ\pのこった　おたからを\nさがしてる　ところさ$"
 
 GoldenrodUnderground_Text_BurglarEddieBeaten:
-    .string "Over the top!$"
+	.string "やりすぎだ！$"
 
 GoldenrodUnderground_Text_BurglarEddieAfter:
-    .string "UNDERGROUND WAREHOUSE?\p"
-    .string "What do you want to go there for?\p"
-    .string "There's nothing down there.$"
+	.string "ちかそうこ？\pそんな　ところに\nなにしに　いくんだ？\pなにも　ないぜ$"
 
 GoldenrodUnderground_Text_GruntM13Seen:
-    .string "I don't care if you're lost.\p"
-    .string "You show up here, you're nothing but\n"
-    .string "a victim!$"
+	.string "まいごだろうと　かんけいない\pここに　きた　からには\nおまえは　えじきだ！$"
 
 GoldenrodUnderground_Text_GruntM13Beaten:
-    .string "Urk! Yeah, think you're cool, huh?$"
+	.string "うぐっ！　かっこつけ\nやがって！$"
 
 GoldenrodUnderground_Text_GruntM13After:
-    .string "You must have ice in your veins to\n"
-    .string "diss TEAM ROCKET.$"
+	.string "ロケットだんに　さからうとは\nそうとう　きもが　すわってるな$"
 
 GoldenrodUnderground_Text_GruntF3Seen:
-    .string "Are you lost? No, you can't be.\p"
-    .string "You don't have that scared look.\p"
-    .string "I'll give you something to be\n"
-    .string "scared about!$"
+	.string "まいご？　いいえ\nちがうわね\pおびえた　かおを\nしていないもの\pこわがる　ことを\nおしえて　あげるわ！$"
 
 GoldenrodUnderground_Text_GruntF3Beaten:
-    .string "How could you?$"
+	.string "よくも　やったわね？$"
 
 GoldenrodUnderground_Text_GruntF3After:
-    .string "Go wherever you'd like! Get lost!\n"
-    .string "See if I care!$"
+	.string "すきな　ところへ　いけば！\nかってに　しなさい！$"
 
 GoldenrodUnderground_Text_Switch1:
-    .string "SWITCH 1 activated.$"
+	.string "スイッチ1を　いれた$"
 
 GoldenrodUnderground_Text_Switch2:
-    .string "SWITCH 2 activated.$"
+	.string "スイッチ2を　いれた$"
 
 GoldenrodUnderground_Text_Switch3:
-    .string "SWITCH 3 activated.$"
+	.string "スイッチ3を　いれた$"
 
 GoldenrodUnderground_Text_Switch1Off:
-    .string "SWITCH 1 deactivated.$"
+	.string "スイッチ1を　きった$"
 
 GoldenrodUnderground_Text_Switch2Off:
-    .string "SWITCH 2 deactivated.$"
+	.string "スイッチ2を　きった$"
 
 GoldenrodUnderground_Text_Switch3Off:
-    .string "SWITCH 3 deactivated.$"
+	.string "スイッチ3を　きった$"

@@ -111,17 +111,10 @@ GoldenrodCity_UndergroundTunnel_Movement_Kimono_Leave2:
 
 
 GoldenrodCity_UndergroundTunnel_Text_Kimono1:
-	.string "Team Rocket members in black suits\n"
-	.string "have been running around...\p"
-	.string "I was wondering what was going on.\n"
-	.string "So, you took on Team Rocket?\l"
-	.string "You are impressive!\p"
-	.string "You may be able to face the\n"
-	.string "legendary POKé...$"
+	.string "くろい　ふくの　ロケットだんが\nうろうろ　していましたが‥\pなにごとかと　おもいました\nあなたが　ロケットだんと\lたたかったのですね？\lみごとです！\pあなたなら　でんせつの\nポケ‥　にも　たちむかえる\lかもしれません$"
 
 GoldenrodCity_UndergroundTunnel_Text_Kimono2:
-	.string "Hahaha! Never mind.\n"
-	.string "I must go now.$"
+	.string "ほほほ！　なんでも\nありません　わたくしは\lもう　いかなくては$"
 
 GoldenrodUnderground_EventScript_Eric::
 	trainerbattle_single TRAINER_ERIC_HNS, GoldenrodUnderground_Text_SupernerdEricSeen, GoldenrodUnderground_Text_SupernerdEricBeaten
@@ -321,127 +314,96 @@ GoldenrodCity_UndergroundTunnel_EventScript_Item_Antidote::
 
 
 GoldenrodUnderground_Text_YoungerBrotherOffer:
-    .string "Welcome to the POKéMON SALON!\p"
-    .string "I'm the younger and less expensive\n"
-    .string "of the two HAIRCUT BROTHERS.\p"
-    .string "I'll spiff up your POKéMON for just\n"
-    .string "¥300.\p"
-    .string "So? How about it?$"
+	.string "ポケモンサロンへ　ようこそ！\pおれは　カットきょうだいの\nおとうとの　ほう　やすい　ほうだ\pたったの　300円で　ポケモンを\nかっこよく　して　やるぜ\pどうだい？$"
 
 GoldenrodUnderground_Text_YoungerBrotherAskWhich:
-    .string "OK, which POKéMON should I do?$"
+	.string "よし　どの　ポケモンに\nする？$"
 
 GoldenrodUnderground_Text_YoungerBrotherLookCool:
-    .string "OK! I'll make it look cool!$"
+	.string "よし！　かっこよく\nして　やるぜ！$"
 
 GoldenrodUnderground_Text_YoungerBrotherAllDone:
-    .string "There we go! All done!$"
+	.string "ほら！　できあがり！$"
 
 GoldenrodUnderground_Text_YoungerBrotherDisappointed:
-    .string "No? How disappointing!$"
+	.string "いらない？　ざんねんだな！$"
 
 GoldenrodUnderground_Text_YoungerBrotherShortOnFunds:
-    .string "You're a little short on funds.$"
+	.string "おかねが　ちょっと\nたりない　みたいだな$"
 
 GoldenrodUnderground_Text_YoungerBrotherOnePerDay:
-    .string "I can do only one haircut a day.\p"
-    .string "Sorry, but I'm all done for today.$"
+	.string "カットは　1にち　1かい\nまで　なんだ\pわるいが　きょうは\nもう　おしまいだ$"
 
 
 
 GoldenrodUnderground_Text_OlderBrotherOffer:
-    .string "Welcome!\p"
-    .string "I run the POKéMON SALON!\p"
-    .string "I'm the older and better of the two\n"
-    .string "HAIRCUT BROTHERS.\p"
-    .string "I can make your POKéMON beautiful\n"
-    .string "for just ¥500.\p"
-    .string "Would you like me to do that?$"
+	.string "いらっしゃい！\pポケモンサロンを　やってる\nものだ！\pおれは　カットきょうだいの\nあにの　ほう　うでの　いい　ほうだ\pたったの　500円で　ポケモンを\nうつくしく　して　やろう\pどうだい？$"
 
 GoldenrodUnderground_Text_OlderBrotherAskWhich:
-    .string "Which POKéMON should I work on?$"
+	.string "どの　ポケモンに　する？$"
 
 GoldenrodUnderground_Text_OlderBrotherWatchItBeautiful:
-    .string "OK! Watch it become beautiful!$"
+	.string "よし！　うつくしく　なるのを\nみていてくれ！$"
 
 GoldenrodUnderground_Text_OlderBrotherAllDone:
-    .string "There! All done!$"
+	.string "はい！　できあがり！$"
 
 GoldenrodUnderground_Text_OlderBrotherThatsAShame:
-    .string "Is that right? That's a shame!$"
+	.string "そうかい？　ざんねんだ！$"
 
 GoldenrodUnderground_Text_OlderBrotherNeedMoreMoney:
-    .string "You'll need more money than that.$"
+	.string "それじゃ　おかねが\nたりないな$"
 
 GoldenrodUnderground_Text_OlderBrotherOnePerDay:
-    .string "I do only one haircut a day.\n"
-    .string "I'm done for today.$"
+	.string "カットは　1にち　1かいだけ\nきょうは　もう　おしまいだ$"
 
 GoldenrodUnderground_Text_SupernerdEricSeen:
-    .string "I got booted out of the GAME CORNER.\p"
-    .string "I was trying to cheat using my\n"
-    .string "POKéMON…$"
+	.string "ゲームコーナーを\nおいだされちゃったよ\pポケモンを　つかって\nずるを　しようと　したら‥$"
 
 GoldenrodUnderground_Text_SupernerdEricBeaten:
-    .string "…Grumble…$"
+	.string "‥ぶつぶつ‥$"
 
 GoldenrodUnderground_Text_SupernerdEricAfterBattle:
-    .string "I guess I have to do things fair and\n"
-    .string "square…$"
+	.string "せいせいどうどう\nやるしか　ないか‥$"
 
 GoldenrodUnderground_Text_SupernerdTeruSeen:
-    .string "Do you consider type alignments in\n"
-    .string "battle?\p"
-    .string "If you know your type advantages,\n"
-    .string "you'll do better in battle.$"
+	.string "しょうぶで　タイプの　あいしょうを\nかんがえてる？\pタイプの　ゆうりを　しってれば\nしょうぶは　うまく　いくよ$"
 
 GoldenrodUnderground_Text_SupernerdTeruBeaten:
-    .string "Ow, ow, ow!$"
+	.string "いてて　いてて！$"
 
 GoldenrodUnderground_Text_SupernerdTeruAfterBattle:
-    .string "I know my POKéMON type alignments.\p"
-    .string "But I only use one type of POKéMON.$"
+	.string "タイプの　あいしょうは\nしってるんだ\pでも　ぼくは　ひとつの　タイプの\nポケモンしか　つかわないんだ$"
 
 GoldenrodUnderground_Text_PokemaniacIssacSeen:
-    .string "My POKéMON just got a haircut!\p"
-    .string "I'll show you how strong it is!$"
+	.string "ぼくの　ポケモン\nカット　したばかり　なんだ！\pどれだけ　つよいか\nみせて　あげる！$"
 
 GoldenrodUnderground_Text_PokemaniacIssacBeaten:
-    .string "Aiyeeee!$"
+	.string "あいえーっ！$"
 
 GoldenrodUnderground_Text_PokemaniacIssacAfterBattle:
-    .string "Your POKéMON will like you more if\n"
-    .string "you give them haircuts.$"
+	.string "カット　して　あげると\nポケモンが　なついて　くれるよ$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldSeen:
-    .string "I think you have some rare POKéMON\n"
-    .string "with you.\p"
-    .string "Let me see them!$"
+	.string "めずらしい　ポケモンを\nもってる　みたいだね\pみせて　よ！$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldBeaten:
-    .string "Gaah! I lost! That makes me mad!$"
+	.string "ぐああ！　まけた！\nむかつく！$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle:
-	.string "When I was walking near the BIKE\n"
-	.string "SHOP last night, I felt like I was\l"
-	.string "being watched from the rooftops...$"
+	.string "ゆうべ　じてんしゃやの\nちかくを　あるいてたら\lやねの　うえから　みられてる\lような　きが　したんだ‥$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattleOld:
-    .string "Are you making a POKéDEX? Here's a\n"
-    .string "hot tip.\p"
-    .string "The HIKER on ROUTE 33, ANTHONY, is a\n"
-    .string "good guy.\p"
-    .string "He'll phone you if he sees any rare\n"
-    .string "POKéMON.$"
+	.string "ずかんを　つくってるの？\nいい　こと　おしえて　あげる\p33ばんどうろの　やまおとこ\nアンソニーは　いい　ひとだよ\pめずらしい　ポケモンを　みたら\nでんわ　してくれるよ$"
 
 GoldenrodUnderground_Text_DoorsLocked:
-    .string "The door's locked…$"
+	.string "とびらに　かぎが\nかかっている‥$"
 
 GoldenrodUnderground_Text_DoorIsOpen:
-    .string "The door is open.$"
+	.string "とびらは　あいている$"
 
 GoldenrodUnderground_Text_KeyOpenedDoor:
-    .string "The BASEMENT KEY opened the door.$"
+	.string "ちかの　かぎで\nとびらが　あいた$"
 
 GoldenrodUnderground_Text_NoEntry:
-    .string "NO ENTRY BEYOND THIS POINT$"
+	.string "これより　さき\nたちいり　きんし$"

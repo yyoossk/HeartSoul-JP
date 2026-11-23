@@ -490,32 +490,31 @@ GoldenrodCity_GameCorner_PrizeRoom_EventScript_CancelTMSelect::
 	end
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM44:
-	.string "REST{CLEAR_TO 0x58}2,000 C.$"
+	.string "ねむる{CLEAR_TO 0x58}2000まい$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM90:
-	.string "SUBSTITUTE{CLEAR_TO 0x58}2,000 C.$"
+	.string "みがわり{CLEAR_TO 0x58}2000まい$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM75:
-	.string "SWORDS DANCE{CLEAR_TO 0x58}3,000 C.$"
+	.string "つるぎのまい{CLEAR_TO 0x58}3000まい$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM13:
-	.string "ICE BEAM{CLEAR_TO 0x58}4,000 C.$"
+	.string "れいとうビーム{CLEAR_TO 0x58}4000まい$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM24:
-	.string "THUNDERBOLT{CLEAR_TO 0x58}4,000 C.$"
+	.string "10まんボルト{CLEAR_TO 0x58}4000まい$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM35:
-	.string "FLAMETHROWER{CLEAR_TO 0x58}4,000 C.$"
+	.string "かえんほうしゃ{CLEAR_TO 0x58}4000まい$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_Cancel:
-	.string "EXIT$"
+	.string "やめる$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_SoYourChoiceIsTM:
-	.string "So your choice is\n"
-	.string "the {STR_VAR_1} {STR_VAR_2}?$"
+	.string "{STR_VAR_1}の\n{STR_VAR_2}で　よろしいですか？$"
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_YouAlreadyHaveThis:
-	.string "You already have that item.$"
+	.string "その　どうぐは　もう\nおもちですね$"
 
 GoldenrodCity_GameCorner_EventScript_PokefanM::
 	lock
@@ -582,81 +581,64 @@ GoldenrodCity_GameCorner_EventScript_Pharmacist::
 	end
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_YouWantPrize:
-	.string "{STR_VAR_1} is what you want?$"
+	.string "{STR_VAR_1}で　よろしいですか？$"
 
 GoldenrodCity_GameCorner_Text_PlayerObtainedTheMon:
-	.string "{PLAYER} got {STR_VAR_1}!$"
+	.string "{PLAYER}は\n{STR_VAR_1}を　てにいれた！$"
 
 GoldenrodGamecorner_Text_GiveNicknameToThisMon:
-	.string "Nickname {STR_VAR_1}?$"
+	.string "{STR_VAR_1}に　ニックネームを　つける？$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorIntro:
-    .string "Welcome!\p"
-    .string "We exchange your game coins for\n"
-    .string "fabulous prizes!$"
+	.string "いらっしゃいませ！\pコインを　すてきな　けいひんと\nこうかん　いたします！$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorWhichPrize:
-    .string "Which prize would you like?$"
+	.string "どの　けいひんに\nなさいますか？$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorHereYouGo:
-    .string "Here you go!$"
+	.string "はい　どうぞ！$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNeedMoreCoins:
-    .string "Sorry! You need more coins.$"
+	.string "もうしわけ　ありません！\nコインが　たりません$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNoMoreRoom:
-    .string "Sorry. You can't carry any more.$"
+	.string "もうしわけ　ありません\nもう　もてないようです$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorQuit:
-    .string "OK. Please save your coins and come\n"
-    .string "again!$"
+	.string "わかりました　コインを　ためて\nまた　おこし　ください！$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNoCoinCase:
-    .string "Oh? You don't have a COIN CASE.$"
+	.string "あら？　コインケースを\nおもちで　ないですね$"
 
 GoldenrodCity_GameCorner_Text_Pharmacist:
-    .string "I always play this slot machine.\n"
-    .string "It pays out more than others,\l"
-    .string "I think.$"
+	.string "いつも　この　スロットで\nあそんでるんだ　ほかより\lよく　でる　きが　するんだ$"
 
 GoldenrodCity_GameCorner_Text_Woman:
-    .string "I can't stop winning!$"
+	.string "かちが　とまらない！$"
 
 GoldenrodCity_GameCorner_Text_PokefanM1:
-    .string "I just love this new slot machine.\p"
-    .string "It's more of a challenge than the\n"
-    .string "ones in CELADON.$"
+	.string "この　あたらしい　スロットが\nだいすきでね\pタマムシの　スロットより\nてごたえが　あるんだ$"
 
 GoldenrodCity_GameCorner_Text_CooltrainerM:
-    .string "Life is a gamble. I'm going to pull\n"
-    .string "till I drop!$"
+	.string "じんせいは　ギャンブルさ\nたおれるまで　まわすぞ！$"
 
 GoldenrodCity_GameCorner_Text_PokefanF:
-    .string "Roulette…\p"
-    .string "I prefer it over the slots because\n"
-    .string "it's easier to figure the odds.\p"
-    .string "But the payout is much lower.$"
+	.string "ルーレット‥\pスロットより　かくりつが\nよみやすいから　すきなの\pでも　はいとうが\nずっと　すくないのよね$"
 
 GoldenrodCity_GameCorner_Text_CooltrainerF:
-    .string "I won't quit until I win!$"
+	.string "かつまで　やめないわ！$"
 
 GoldenrodCity_GameCorner_Text_Gentleman:
-    .string "I taught ICE BEAM to my POKéMON.\p"
-    .string "It was hard to get enough coins for\n"
-    .string "it, but it was worth it.$"
+	.string "ポケモンに　れいとうビームを\nおしえたんだ\pコインを　あつめるのは\nたいへん　だったが\lその　かちは　あったよ$"
 
 GoldenrodCity_GameCorner_Text_PokefanM2:
-    .string "I couldn't win at the slots, and I\n"
-    .string "blew it on roulette.\p"
-    .string "I got so furious, I tossed out my\n"
-    .string "COIN CASE in the UNDERGROUND.$"
+	.string "スロットで　かてず\nルーレットでも　すっちまった\pあたまに　きて　ちかつうろに\nコインケースを\lすてちまったよ$"
 
 GoldenrodCity_GameCorner_Text_MoveTutorInside:
-    .string "Wahahah! The coins keep rolling in!$"
+	.string "わははは！　コインが\nどんどん　たまるぞ！$"
 
 GoldenrodCity_GameCorner_Text_LeftTheirDrink:
-    .string "Someone left their drink.\p"
-    .string "It smells sweet.$"
+	.string "だれかが　のみものを\nわすれて　いった\pあまい　においが　する$"
 
 @ ========================================
 @ VOLTORB FLIP GAME IMPLEMENTATION
@@ -799,100 +781,68 @@ GoldenrodCity_GameCorner_EventScript_VFAttendant2::
 
 @ Voltorb Flip Menu Option Strings
 GoldenrodCity_GameCorner_Text_VF_OptPlay:
-	.string "PLAY$"
+	.string "あそぶ$"
 
 GoldenrodCity_GameCorner_Text_VF_OptGameInfo:
-	.string "GAME INFO$"
+	.string "せつめい$"
 
 GoldenrodCity_GameCorner_Text_VF_OptQuit:
-	.string "QUIT$"
+	.string "やめる$"
 
 GoldenrodCity_GameCorner_Text_VF_OptHowToPlay:
-	.string "HOW TO PLAY$"
+	.string "あそびかた$"
 
 GoldenrodCity_GameCorner_Text_VF_OptHint:
-	.string "HINT$"
+	.string "ヒント$"
 
 GoldenrodCity_GameCorner_Text_VF_OptAboutNotes:
-	.string "ABOUT NOTES$"
+	.string "メモに　ついて$"
 
 GoldenrodCity_GameCorner_Text_VF_OptReturn:
-	.string "RETURN$"
+	.string "もどる$"
 
 @ Voltorb Flip Dialogue Strings
 GoldenrodCity_GameCorner_Text_VF_Welcome:
-	.string "Welcome to VOLTORB FLIP!\p$"
+	.string "ビリリダマ　フリップへ　ようこそ！\p$"
 
 GoldenrodCity_GameCorner_Text_VF_PlayLevel:
-	.string "Play VOLTORB Flip Lv. {STR_VAR_1}?$"
+	.string "ビリリダマ　フリップ　レベル{STR_VAR_1}で\nあそびますか？$"
 
 GoldenrodCity_GameCorner_Text_VF_GameClear:
-	.string "Game clear!\p"
-	.string "You've found all the hidden\n"
-	.string "x2 and x3 cards!$"
+	.string "ゲームクリア！\pかくれた　×2と　×3の\nカードを　ぜんぶ　みつけた！$"
 
 GoldenrodCity_GameCorner_Text_VF_ReceivedCoins:
-	.string "You have received\n"
-	.string "{STR_VAR_1} Coin(s)!$"
+	.string "コインを　{STR_VAR_1}まい\nてにいれた！$"
 
 GoldenrodCity_GameCorner_Text_VF_Advanced:
-	.string "Advanced to Game Lv. {STR_VAR_1}!$"
+	.string "ゲームレベル{STR_VAR_1}に　あがった！$"
 
 GoldenrodCity_GameCorner_Text_VF_OhNo:
-	.string "Oh no! You get 0 Coins!$"
+	.string "ざんねん！　コインは　0まい！$"
 
 GoldenrodCity_GameCorner_Text_VF_Dropped:
-	.string "Dropped to Game Lv. {STR_VAR_1}.$"
+	.string "ゲームレベル{STR_VAR_1}に　さがった$"
 
 GoldenrodCity_GameCorner_Text_VF_CoinCap:
-	.string "You've gathered 9,999 COINS.\n"
-	.string "You cannot gather any more.$"
+	.string "コインが　9999まいに　なった\nもう　これいじょう　ためられない$"
 
 GoldenrodCity_GameCorner_Text_VF_WhichInfo:
-	.string "Which set of info?$"
+	.string "どの　せつめいを　みる？$"
 
 GoldenrodCity_GameCorner_Text_VF_HowToPlay:
-	.string "VOLTORB FLIP is a game in which you flip\n"
-	.string "cards to find numbers hidden beneath.\p"
-	.string "The cards hide the numbers 1 through 3,\n"
-	.string "and VOLTORB as well.\p"
-	.string "The first number you flip gives\n"
-	.string "you that many Coins.\p"
-	.string "Each new number multiplies your total.\n"
-	.string "A 2 by x2 and a 3 by x3.\p"
-	.string "But if you flip a VOLTORB, it's game over.\n"
-	.string "You lose all Coins collected that round!\p"
-	.string "QUIT the game at any time to keep\n"
-	.string "the Coins you've found so far.\p"
-	.string "Find all hidden x2 and x3 cards to clear\n"
-	.string "the game and advance to the next level!$"
+	.string "ビリリダマ　フリップは　カードを\nめくって　すうじを　さがす　ゲーム\pカードには　1から3の　すうじと\nビリリダマが　かくれている\pさいしょに　めくった　すうじの\nぶんだけ　コインが　もらえる\pつぎからは　めくった　すうじを\nかけていく　2なら×2　3なら×3\pでも　ビリリダマを　めくったら\nゲームオーバー　その　かいの\lコインは　ぜんぶ　なくなる！\pいつでも　やめれば　それまでの\nコインは　もらえるよ\p×2と　×3の　カードを　ぜんぶ\nみつけると　クリアで\lつぎの　レベルへ　すすめる！$"
 
 GoldenrodCity_GameCorner_Text_VF_HintText:
-	.string "The numbers on the sides of the board\n"
-	.string "are hints about the numbers…\p"
-	.string "hidden in that row or column.\p"
-	.string "The larger the number, the more high-\n"
-	.string "value cards are in that row or column.\p"
-	.string "The VOLTORB count tells you how\n"
-	.string "many VOLTORBs lurk there.\p"
-	.string "Use both totals to figure out\n"
-	.string "which cards are safe to flip!$"
+	.string "ばんの　はしの　すうじは\nその　れつや　ぎょうに\pかくれている　すうじの\nヒントだよ\pすうじが　おおきいほど\nたかい　カードが　おおい\pビリリダマの　かずは　その\nれつに　いくつ　ひそんで　いるか\pふたつの　ごうけいから\nあんぜんな　カードを　さがそう！$"
 
 GoldenrodCity_GameCorner_Text_VF_AboutNotes:
-	.string "Use the notes mode ({L_BUTTON} & {R_BUTTON}) to mark\n"
-	.string "cards with numbers 1-3 or a VOLTORB.\p"
-	.string "Mark a card you think you know,\n"
-	.string "then flip it when you're sure.\p"
-	.string "Apply a note again to remove it.$"
+	.string "メモモード　{L_BUTTON}{R_BUTTON}で　カードに\n1から3か　ビリリダマの　しるしを\lつけられる\pわかった　カードに　しるしを\nつけて　たしかに　なったら\lめくろう\pもう　いちど　つけると\nしるしは　きえるよ$"
 
 GoldenrodCity_GameCorner_Text_VF_NeedCoinCase:
-	.string "Oh? You don't have a COIN CASE.$"
+	.string "あら？　コインケースを\nおもちで　ないですね$"
 
 GoldenrodCity_GameCorner_Text_VFAttendant1:
-	.string "You want to play VOLTORB FLIP?\p"
-	.string "You need to be on the other\n"
-	.string "side of the table.$"
+	.string "ビリリダマ　フリップで　あそぶ？\pテーブルの　むこうがわに\nまわってね$"
 
 GoldenrodCity_GameCorner_Text_VFAttendant2:
-	.string "Try the other side of\n"
-	.string "the table, pal.$"
+	.string "テーブルの　むこうがわだよ$"
