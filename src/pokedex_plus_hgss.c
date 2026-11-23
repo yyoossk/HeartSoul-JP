@@ -6797,13 +6797,13 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                     StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}なつきど"));
                     break;
                 case IF_ATK_GT_DEF:
-                    StringAppend(gStringVar4, COMPOUND_STRING("こう　>　ぼう"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("こうげきが　うえ"));
                     break;
                 case IF_ATK_EQ_DEF:
-                    StringAppend(gStringVar4, COMPOUND_STRING("こう　=　ぼう"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("こうげきと　ぼうぎょが　おなじ"));
                     break;
                 case IF_ATK_LT_DEF:
-                    StringAppend(gStringVar4, COMPOUND_STRING("こう　<　ぼう"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("ぼうぎょが　うえ"));
                     break;
                 case IF_TIME:
                     switch (evolutions[i].params[j].arg1)
@@ -6847,7 +6847,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                              && arg < 10 && arg >= 0)
                             arg = 1;
                     ConvertIntToDecimalStringN(gStringVar2, arg * 10, STR_CONV_MODE_LEFT_ALIGN, 3);
-                    StringAppend(gStringVar4, COMPOUND_STRING("ランダム　%"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("ランダム"));
                     StringAppend(gStringVar4, gStringVar2);
                     break;
                 case IF_MIN_BEAUTY:

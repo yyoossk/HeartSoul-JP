@@ -165,7 +165,7 @@ static const struct WindowTemplate sWindowTemplate_StartClock = {
     .bg = 0,
     .tilemapLeft = 1,
     .tilemapTop = 1,
-    .width = 6,
+    .width = 8,
     .height = 2,
     .paletteNum = 15,
     .baseBlock = 0x30
@@ -526,11 +526,11 @@ static void ShowTimeWindow(void)
     ptr = ConvertIntToDecimalStringN(gStringVar4, convertedHours, STR_CONV_MODE_LEFT_ALIGN, 3);
     *ptr = 0xF0;
     ConvertIntToDecimalStringN(ptr + 1, gLocalTime.minutes, STR_CONV_MODE_LEADING_ZEROS, 2);
-    AddTextPrinterParameterized(sStartClockWindowId, FONT_NORMAL, gStringVar4,
+    AddTextPrinterParameterized(sStartClockWindowId, FONT_NORMAL, suffix,
         0, 1, 0xFF, NULL);
 
-    AddTextPrinterParameterized(sStartClockWindowId, FONT_NORMAL, suffix,
-        GetStringWidth(FONT_NORMAL, gStringVar4, 0) + 3, 1, 0xFF, NULL);
+    AddTextPrinterParameterized(sStartClockWindowId, FONT_NORMAL, gStringVar4,
+        GetStringWidth(FONT_NORMAL, suffix, 0) + 4, 1, 0xFF, NULL);
 
     CopyWindowToVram(sStartClockWindowId, COPYWIN_GFX);
 }

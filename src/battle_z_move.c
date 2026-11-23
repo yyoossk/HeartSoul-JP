@@ -95,9 +95,9 @@ static const struct SignatureZMove sSignatureZMoves[] =
 };
 
 static const u8 sText_ResetStats[] = _("さがった　のうりょくを　もとに");
-static const u8 sText_StatsPlus[] = _("+　すべての　のうりょく");
-static const u8 sText_StatsPlus2[] = _("++　すべての　のうりょく");
-static const u8 sText_CritHitsPlus[] = _("+　きゅうしょ　 アップ");
+static const u8 sText_StatsPlus[] = _("すべての　のうりょく　アップ");
+static const u8 sText_StatsPlus2[] = _("+すべての　のうりょく　アップ");
+static const u8 sText_CritHitsPlus[] = _("きゅうしょに　あたりやすい");
 static const u8 sText_FollowMe[] = _("このゆびとまれ");
 static const u8 sText_RecoverHP[] = _("HPを　かいふく");
 static const u8 sText_HealAllyHP[] = _("こうたいした　ポケモンを　かいふく");

@@ -217,7 +217,7 @@ static const u8 *const sChoices_MonoStereo[] = {
 static const u8 *const sChoices_ButtonMode[] = {
     COMPOUND_STRING("ノーマル"),
     COMPOUND_STRING("LR"),
-    COMPOUND_STRING("L=A"),
+    COMPOUND_STRING("LでA"),
 };
 
 static const u8 *const sChoices_TextSpeed[] = {
@@ -340,7 +340,7 @@ static const u8 *const sDesc_BallPrompt[] = {
 };
 static const u8 *const sDesc_RunType[] = {
     COMPOUND_STRING("バトルから　すばやく\nにげられません"),
-    COMPOUND_STRING("{L_BUTTON}+{R_BUTTON}を　おしたまま　{A_BUTTON}で\nバトルの　まえに　にげます"),
+    COMPOUND_STRING("{L_BUTTON}と{R_BUTTON}を　おしたまま　{A_BUTTON}で\nバトルの　まえに　にげます"),
     COMPOUND_STRING("バトルが　はじまったら　{B_BUTTON}で\nカーソルが　にげるに　うごく"),
     COMPOUND_STRING("{B_BUTTON}で　バトルの　まえに\nにげます"),
 };
@@ -699,7 +699,7 @@ static void DrawFrameTypeChoice(u8 selection, int y, bool8 active)
     text[i] = EOS;
 
     DrawRightSideChoiceText(COMPOUND_STRING("タイプ"), 104, y + 1, FALSE, active);
-    DrawRightSideChoiceText(text, 128, y + 1, TRUE, active);
+    DrawRightSideChoiceText(text, 136, y + 1, TRUE, active);
 }
 
 // =============================================================================

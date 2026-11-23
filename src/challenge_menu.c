@@ -371,7 +371,7 @@ static const u8 *const sDesc_ModernMoves[] = {
     COMPOUND_STRING("だい7せだいの　おぼえる　わざと\nタマゴわざ　すこし　かえて　います"),
 };
 static const u8 *const sDesc_Synchronize[] = {
-    COMPOUND_STRING("シンクロは　だい3せだいと　おなじ\nせいかくが　にる　かくりつ　50%"),
+    COMPOUND_STRING("シンクロは　だい3せだいと　おなじ\nせいかくが　にる　かくりつ　50パーセント"),
     COMPOUND_STRING("シンクロは　だい8せだい　いこう\nせいかくが　かならず　にる"),
 };
 static const u8 *const sDesc_Sturdy[] = {
@@ -407,12 +407,12 @@ static const u8 *const sDesc_Split[] = {
     COMPOUND_STRING("ぶつりと　とくしゅは\nわざごとに　きまる"),
 };
 static const u8 *const sChoices_Gen3Gen7[] = {
-    COMPOUND_STRING("だい3せだい"),
-    COMPOUND_STRING("だい7せだい"),
+    COMPOUND_STRING("3せだい"),
+    COMPOUND_STRING("7せだい"),
 };
 static const u8 *const sChoices_Gen3Gen1[] = {
-    COMPOUND_STRING("だい3せだい"),
-    COMPOUND_STRING("だい1せだい"),
+    COMPOUND_STRING("3せだい"),
+    COMPOUND_STRING("1せだい"),
 };
 static const u8 *const sDesc_GenOneRecharge[] = {
     COMPOUND_STRING("はかいこうせんなどは　つかったあと\nかならず　はんどうで　うごけない"),
@@ -1423,8 +1423,8 @@ static int GetMiddleX(const u8 *txt1, const u8 *txt2, const u8 *txt3)
     int widthLeft = GetStringWidth(FONT_NORMAL, txt1, 0);
     int widthMid = GetStringWidth(FONT_NORMAL, txt2, 0);
     int widthRight = GetStringWidth(FONT_NORMAL, txt3, 0);
-    widthMid -= (198 - 104);
-    return (widthLeft - widthMid - widthRight) / 2 + 104;
+    widthMid -= (198 - 88);
+    return (widthLeft - widthMid - widthRight) / 2 + 88;
 }
 
 static void DrawChoices_Two(const u8 *const *strings, int selection, int y, bool8 active, int leftX)
@@ -1437,7 +1437,7 @@ static void DrawChoices_Three(const u8 *const *strings, int selection, int y, bo
 {
     static const u8 orders[][2] = { {0, 1}, {1, 2}, {1, 2} };
     const u8 *order = orders[selection];
-    DrawRightSideChoiceText(strings[order[0]], 104, y + 1, selection == order[0], active);
+    DrawRightSideChoiceText(strings[order[0]], 88, y + 1, selection == order[0], active);
     DrawRightSideChoiceText(strings[order[1]], GetStringRightAlignXOffset(FONT_NORMAL, strings[order[1]], 198), y + 1, selection == order[1], active);
 }
 
@@ -1446,7 +1446,7 @@ static void DrawChoices_Four(const u8 *const *strings, int selection, int y, boo
     static const u8 orders[][3] = { {0, 1, 2}, {0, 1, 2}, {1, 2, 3}, {1, 2, 3} };
     const u8 *order = orders[selection];
     int xMid = GetMiddleX(strings[order[0]], strings[order[1]], strings[order[2]]);
-    DrawRightSideChoiceText(strings[order[0]], 104, y + 1, selection == order[0], active);
+    DrawRightSideChoiceText(strings[order[0]], 88, y + 1, selection == order[0], active);
     DrawRightSideChoiceText(strings[order[1]], xMid, y + 1, selection == order[1], active);
     DrawRightSideChoiceText(strings[order[2]], GetStringRightAlignXOffset(FONT_NORMAL, strings[order[2]], 198), y + 1, selection == order[2], active);
 }
@@ -1456,7 +1456,7 @@ static void DrawChoices_Five(const u8 *const *strings, int selection, int y, boo
     static const u8 orders[][3] = { {0, 1, 2}, {0, 1, 2}, {1, 2, 3}, {2, 3, 4}, {2, 3, 4} };
     const u8 *order = orders[selection];
     int xMid = GetMiddleX(strings[order[0]], strings[order[1]], strings[order[2]]);
-    DrawRightSideChoiceText(strings[order[0]], 104, y + 1, selection == order[0], active);
+    DrawRightSideChoiceText(strings[order[0]], 88, y + 1, selection == order[0], active);
     DrawRightSideChoiceText(strings[order[1]], xMid, y + 1, selection == order[1], active);
     DrawRightSideChoiceText(strings[order[2]], GetStringRightAlignXOffset(FONT_NORMAL, strings[order[2]], 198), y + 1, selection == order[2], active);
 }
@@ -1466,7 +1466,7 @@ static void DrawChoices_Six(const u8 *const *strings, int selection, int y, bool
     static const u8 orders[][3] = { {0, 1, 2}, {0, 1, 2}, {1, 2, 3}, {2, 3, 4}, {3, 4, 5}, {3, 4, 5} };
     const u8 *order = orders[selection];
     int xMid = GetMiddleX(strings[order[0]], strings[order[1]], strings[order[2]]);
-    DrawRightSideChoiceText(strings[order[0]], 104, y + 1, selection == order[0], active);
+    DrawRightSideChoiceText(strings[order[0]], 88, y + 1, selection == order[0], active);
     DrawRightSideChoiceText(strings[order[1]], xMid, y + 1, selection == order[1], active);
     DrawRightSideChoiceText(strings[order[2]], GetStringRightAlignXOffset(FONT_NORMAL, strings[order[2]], 198), y + 1, selection == order[2], active);
 }
@@ -1532,7 +1532,7 @@ static void ChallengeMenu_ItemPrintFunc(u8 windowId, u32 itemId, u8 y)
     {
     case 2:
     {
-        int leftX = (sMenu->currentTab == TAB_MODE && itemId == ITEM_MODE_GAMEMODE) ? 74 : 104;
+        int leftX = (sMenu->currentTab == TAB_MODE && itemId == ITEM_MODE_GAMEMODE) ? 74 : 88;
         DrawChoices_Two(items[itemId].choiceNames, sel, y, active, leftX);
         break;
     }
