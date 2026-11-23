@@ -969,88 +969,46 @@ LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase_hns::
 	end
 
 LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase_hns:
-	.string "Yippee!\p"
-	.string "The lady at the reception counter\n"
-	.string "gave me a case for {POKEBLOCK}S!$"
+	.string "やったー！\pうけつけの　おねえさんが\n{POKEBLOCK}ケースを　くれた！$"
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries_hns:
-	.string "Make {POKEBLOCK}S and put them in there.\p"
-	.string "When you make a {POKEBLOCK}, everyone\n"
-	.string "has to put in a different BERRY.$"
+	.string "{POKEBLOCK}を　つくって　いれるの\p{POKEBLOCK}を　つくる　ときは\nみんな　ちがう　きのみを\lいれなきゃ　だめなのよ$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint_hns:
-	.string "Congratulations!\p"
-	.string "I did a painting of your POKéMON to\n"
-	.string "commemorate its victory…\p"
-	.string "Well, your POKéMON's appeals were\n"
-	.string "so fantastic, it spurred me into\l"
-	.string "painting better than I usually do.\l"
-	.string "Look, see?$"
+	.string "おめでとう！\pゆうしょう　きねんに\nきみの　ポケモンの　えを\lかいたんだ‥\pきみの　ポケモンの　アピールが\nすばらしくて　いつもより\lうまく　かけたよ\lほら　みて！$"
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum_hns:
-	.string "What do you think? I'm confident in\n"
-	.string "what I've done, but do you like it?\p"
-	.string "A work of this caliber, it wouldn't look\n"
-	.string "out of place in an art museum.\p"
-	.string "Huh? An art museum really is looking\n"
-	.string "for paintings?\p"
-	.string "Do you think I should take this there?$"
+	.string "どう　かな？　じしん　あるけど\nきに　いって　くれた？\pこれ　くらいの　さくひんなら\nびじゅつかんに　かざっても\lおかしくないよ\pえ？　びじゅつかんが\nえを　さがしてるの？\pこれ　もって　いった\nほうが　いいかな？$"
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum_hns:
-	.string "What, really? Then, sure, I will take\n"
-	.string "this painting there right now.\p"
-	.string "I'll give it a proper title, too.\p"
-	.string "I hope they'll like it and consider\n"
-	.string "exhibiting this.\p"
-	.string "Please check if they did accept this.\n"
-	.string "Thank you!$"
+	.string "ほんと？　じゃあ　いますぐ\nこの　えを　もって　いくよ\pちゃんと　だいめいも\nつけるね\pかざって　もらえると\nいいな\pかざられたか　たしかめてね\nありがとう！$"
 
 LilycoveCity_ContestLobby_Text_TakeMementoOfPainting_hns:
-	.string "Oh, that's right!\p"
-	.string "As a memento of me painting your\n"
-	.string "POKéMON, please take this.$"
+	.string "あ　そうだ！\pきみの　ポケモンを　かいた\nきねんに　これを　うけとって$"
 
 LilycoveCity_ContestLobby_Text_ReceivedARibbon_hns:
-	.string "{PLAYER} received a RIBBON.$"
+	.string "{PLAYER}は\nリボンを　もらった！$"
 
 LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon_hns:
-	.string "{PLAYER} put the RIBBON on\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}は　{STR_VAR_1}に\nリボンを　つけた$"
 
 LilycoveCity_ContestLobby_Text_OkaySeeYou_hns:
-	.string "Okay, see you!$"
+	.string "じゃあ　またね！$"
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum_hns:
-	.string "Oh… Then, I guess I'll just take\n"
-	.string "this home with me…\p"
-	.string "But, you know, I would like to take\n"
-	.string "this to the art museum… Okay?$"
+	.string "そう‥　じゃあ　いえに\nもって　かえろうかな‥\pでも　ほんとうは　びじゅつかんに\nもって　いきたいんだけど‥\lいい？$"
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs_hns:
-	.string "Oh, fine, that's the way it is.\n"
-	.string "I will hang this in my own house.\p"
-	.string "I'll just have to try harder next time.\n"
-	.string "Well, be seeing you.$"
+	.string "わかった　しかたないね\nじぶんの　いえに　かざるよ\pつぎは　もっと　がんばるね\nじゃあ　また$"
 
 LilycoveCity_ContestLobby_Text_MasterRankHereICome_hns:
-	.string "Hoo, boy… Master Rank CONTESTS,\n"
-	.string "here I come.\p"
-	.string "The world will know that my dearest\n"
-	.string "POKéMON is the cutest being in all\l"
-	.string "existence. The time has come!\l"
-	.string "Uheheheh.$"
+	.string "ふう‥　マスターランクの\nコンテスト　いざ　しゅつじん\pわたしの　ポケモンが　この\nよで　いちばん　かわいいと\lせかいが　しる　ときが\lきたのよ！　うへへへ$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere_hns:
-	.string "You can see a whole variety of\n"
-	.string "POKéMON here.\p"
-	.string "That's why I make this place a regular\n"
-	.string "part of my daily stroll.$"
+	.string "ここでは　いろんな\nポケモンが　みられる\pだから　まいにちの\nさんぽで　かならず\lここに　よるんだ$"
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes_hns:
-	.string "Wow, coming out to a CONTEST is\n"
-	.string "a feast for these eyes!\p"
-	.string "Would you look at all the POKéMON\n"
-	.string "that just scream to be painted?$"
+	.string "コンテストに　くると\nめの　ほようだ！\pえに　かきたく　なる\nポケモンが　いっぱい　だよ！$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme_hns:
 	.string "The TOUGHNESS CONTEST is like\n"

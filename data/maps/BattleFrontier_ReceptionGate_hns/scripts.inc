@@ -354,101 +354,41 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo_hns:
 	.string "ランキングホールは\nバトルタワーの　ちかくに\lあります\pバトルフロンティアの\nいろいろな　ちょうせんで\lトレーナーが　のこした\lすばらしい　きろくが\lみられます$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo_hns:
-	.string "The EXCHANGE SERVICE CORNER is near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "The Battle Points you have earned in\n"
-	.string "the BATTLE FRONTIER may be exchanged\l"
-	.string "for fabulous prizes there.$"
+	.string "こうかんサービスカウンターは\nバトルタワーの　ちかくに\lあります\pバトルフロンティアで\nかせいだ　バトルポイントを\lすてきな　しょうひんと\lこうかん　できます$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules_hns:
-	.string "I'm your guide to the basic rules that\n"
-	.string "are common to all the challenges\l"
-	.string "offered by the facilities in the BATTLE\l"
-	.string "FRONTIER.$"
+	.string "わたしは　バトルフロンティアの\nすべての　しせつに　きょうつうの\lルールを　ごあんない　します$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat_hns:
-	.string "What would you like to learn about?$"
+	.string "なにに　ついて\nききたい　ですか？$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo_hns:
-	.string "All the challenges at the BATTLE\n"
-	.string "FRONTIER's facilities come in\l"
-	.string "two courses--Level 50 and Open Level.$"
+	.string "バトルフロンティアの\nちょうせんには　レベル50と\lオープンレベルの\l2コースが　あります$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info_hns:
-	.string "The Level 50 course is open to POKéMON\n"
-	.string "up to and including Level 50.\p"
-	.string "Please keep in mind, however, that\n"
-	.string "no TRAINER you face will have any\l"
-	.string "POKéMON below Level 50.\p"
-	.string "This course is the entry level for\n"
-	.string "battles at the BATTLE FRONTIER.\p"
-	.string "To begin, we hope you will challenge\n"
-	.string "this course.$"
+	.string "レベル50コースは\nレベル50　いかの　ポケモンが\lさんか　できます\pただし　あいての　トレーナーの\nポケモンは　すべて\lレベル50　です\pバトルフロンティアの\nにゅうもん　コース　です\pまずは　この　コースに\nちょうせん　してみてください$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo_hns:
-	.string "The Open Level course places no limit\n"
-	.string "on the levels of POKéMON entering\l"
-	.string "challenges.\p"
-	.string "The levels of your opponents will\n"
-	.string "be adjusted to match the levels of\l"
-	.string "your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 60.$"
+	.string "オープンレベルコースは\nポケモンの　レベルに\lせいげんが　ありません\pあいての　レベルは\nあなたの　ポケモンに\lあわせて　かわります\pただし　あいての　ポケモンは\nすべて　レベル60　いじょう\lです$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo_hns:
-	.string "Virtually any kind of POKéMON may take\n"
-	.string "on the challenges at all facilities.\p"
-	.string "EGGS and certain kinds of POKéMON,\n"
-	.string "however, are not permitted.\p"
-	.string "The numbers of POKéMON required for\n"
-	.string "challenges will depend on the facility.\p"
-	.string "At all facilities, however, two or more\n"
-	.string "of the same kind of POKéMON are not\l"
-	.string "permitted.$"
+	.string "ほとんどの　ポケモンが\nすべての　しせつに\lちょうせん　できます\pただし　タマゴや　いちぶの\nポケモンは　さんか　できません\pひつような　ポケモンの　かずは\nしせつに　よって　ちがいます\pどの　しせつでも　おなじ\nしゅるいの　ポケモンを\l2ひき　いじょう　だせません$"
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo_hns:
-	.string "When entering a challenge at a BATTLE\n"
-	.string "FRONTIER facility, POKéMON may not\l"
-	.string "be holding the same kind of item.\p"
-	.string "Please make sure that all POKéMON\n"
-	.string "entering a challenge are holding\l"
-	.string "different items.$"
+	.string "バトルフロンティアの\nちょうせんでは　ポケモンに\lおなじ　どうぐを\lもたせる　ことは　できません\pさんか　する　ポケモンには\nそれぞれ　ちがう　どうぐを\lもたせて　ください$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass_hns:
-	.string "I'm your guide to the FRONTIER PASS.$"
+	.string "わたしは　フロンティアパスに\nついて　ごあんない　します$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1_hns:
-	.string "Which would you like to learn about?$"
+	.string "どれに　ついて\nききたい　ですか？$"
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo_hns:
-	.string "There are seven facilities at\n"
-	.string "the BATTLE FRONTIER.\p"
-	.string "TRAINERS who gain recognition for\n"
-	.string "their abilities may be rewarded with\l"
-	.string "symbols from each of the facilities.\p"
-	.string "To earn a symbol, TRAINERS may need\n"
-	.string "to defeat other TRAINERS in a row,\l"
-	.string "and may need to win events repeatedly.\p"
-	.string "It's certainly not easy to win symbols.\n"
-	.string "I wish you the best of luck!$"
+	.string "バトルフロンティアには\n7つの　しせつが　あります\pじつりょくを　みとめられた\nトレーナーは　それぞれの\lしせつから　シンボルを\lもらえる　ことが　あります\pシンボルを　もらうには\nれんしょうや　くりかえしの\lゆうしょうが　ひつよう　です\pかんたんでは　ありませんが\nがんばって　ください！$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo_hns:
-	.string "It is possible to record one battle\n"
-	.string "on your FRONTIER PASS.\p"
-	.string "You may record a battle you had with\n"
-	.string "a friend or friends.\p"
-	.string "Or you may record a battle conducted\n"
-	.string "at the BATTLE FRONTIER excluding\l"
-	.string "matches at the BATTLE PIKE or\l"
-	.string "the BATTLE PYRAMID.\p"
-	.string "You may choose to record your match\n"
-	.string "at the end of a battle.$"
+	.string "フロンティアパスには\nバトルを　1つ\lきろく　できます\pともだちとの　バトルを\nきろく　できます\pまた　バトルチューブと\nバトルピラミッド　いがいの\lバトルフロンティアの\lバトルも　きろく　できます\pバトルの　あとで\nきろく　するか　えらべます$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo_hns:
-	.string "Battle Points are rewards given to\n"
-	.string "TRAINERS who battled outstandingly\l"
-	.string "at the BATTLE FRONTIER.\p"
-	.string "You may trade in your Battle Points\n"
-	.string "for prizes at the EXCHANGE SERVICE\l"
-	.string "CORNER.$"
+	.string "バトルポイントは\nバトルフロンティアで\lかつやく　した　トレーナーに\lおくられる　ごほうび　です\pこうかんサービスカウンターで\nしょうひんと　こうかん\lできます$"
 

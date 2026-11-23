@@ -1,0 +1,152 @@
+## data/maps/BattleFrontier_ReceptionGate_hns/scripts.inc
+@@BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo_hns
+こうかんサービスカウンターは\nバトルタワーの　ちかくに\lあります\pバトルフロンティアで\nかせいだ　バトルポイントを\lすてきな　しょうひんと\lこうかん　できます
+@@BattleFrontier_ReceptionGate_Text_YourGuideToRules_hns
+わたしは　バトルフロンティアの\nすべての　しせつに　きょうつうの\lルールを　ごあんない　します
+@@BattleFrontier_ReceptionGate_Text_LearnAboutWhat_hns
+なにに　ついて\nききたい　ですか？
+@@BattleFrontier_ReceptionGate_Text_LevelModeInfo_hns
+バトルフロンティアの\nちょうせんには　レベル50と\lオープンレベルの\l2コースが　あります
+@@BattleFrontier_ReceptionGate_Text_Level50Info_hns
+レベル50コースは\nレベル50　いかの　ポケモンが\lさんか　できます\pただし　あいての　トレーナーの\nポケモンは　すべて\lレベル50　です\pバトルフロンティアの\nにゅうもん　コース　です\pまずは　この　コースに\nちょうせん　してみてください
+@@BattleFrontier_ReceptionGate_Text_OpenLevelInfo_hns
+オープンレベルコースは\nポケモンの　レベルに\lせいげんが　ありません\pあいての　レベルは\nあなたの　ポケモンに\lあわせて　かわります\pただし　あいての　ポケモンは\nすべて　レベル60　いじょう\lです
+@@BattleFrontier_ReceptionGate_Text_MonEntryInfo_hns
+ほとんどの　ポケモンが\nすべての　しせつに\lちょうせん　できます\pただし　タマゴや　いちぶの\nポケモンは　さんか　できません\pひつような　ポケモンの　かずは\nしせつに　よって　ちがいます\pどの　しせつでも　おなじ\nしゅるいの　ポケモンを\l2ひき　いじょう　だせません
+@@BattleFrontier_ReceptionGate_Text_HoldItemsInfo_hns
+バトルフロンティアの\nちょうせんでは　ポケモンに\lおなじ　どうぐを\lもたせる　ことは　できません\pさんか　する　ポケモンには\nそれぞれ　ちがう　どうぐを\lもたせて　ください
+@@BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass_hns
+わたしは　フロンティアパスに\nついて　ごあんない　します
+@@BattleFrontier_ReceptionGate_Text_LearnAboutWhich1_hns
+どれに　ついて\nききたい　ですか？
+@@BattleFrontier_ReceptionGate_Text_SymbolsInfo_hns
+バトルフロンティアには\n7つの　しせつが　あります\pじつりょくを　みとめられた\nトレーナーは　それぞれの\lしせつから　シンボルを\lもらえる　ことが　あります\pシンボルを　もらうには\nれんしょうや　くりかえしの\lゆうしょうが　ひつよう　です\pかんたんでは　ありませんが\nがんばって　ください！
+@@BattleFrontier_ReceptionGate_Text_RecordedBattleInfo_hns
+フロンティアパスには\nバトルを　1つ\lきろく　できます\pともだちとの　バトルを\nきろく　できます\pまた　バトルチューブと\nバトルピラミッド　いがいの\lバトルフロンティアの\lバトルも　きろく　できます\pバトルの　あとで\nきろく　するか　えらべます
+@@BattleFrontier_ReceptionGate_Text_BattlePointsInfo_hns
+バトルポイントは\nバトルフロンティアで\lかつやく　した　トレーナーに\lおくられる　ごほうび　です\pこうかんサービスカウンターで\nしょうひんと　こうかん\lできます
+## data/maps/BattleFrontier_Lounge8_hns/scripts.inc
+@@BattleFrontier_Lounge8_Text_WhatATrainerNeeds_hns
+トレーナーに　ひつような　もの‥\pちしき‥\nさくせん‥\lうん‥\lこんじょう‥\lきあい‥\lゆうき‥\lそして　じつりょく‥\pおれは　ぜんぶ　そろってる！\nどの　しせつでも　むてきだ！\pえ？　ポケモン？\nなに　それ？
+@@BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains_hns
+フロンティアブレーンって\nしってる？\pバトルフロンティアの\n7つの　しせつを　まかされた\lとくべつな　7にんの\lトレーナーを　エニシダさんが\lそう　よんでるんだ
+@@BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling_hns
+バトルタワーで　おねえさんに\nバトルの　さいのうが\lあるって　いわれたの！\pでも　わたしは　コンテストの\nほうが　すき！\pなのに　コンテストは\nぜんぜん　だめ！\pさいのうと　すきな　ことって\nちがうのね
+## data/maps/BattleFrontier_PokemonCenter_1F_hns/scripts.inc
+@@BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon_hns
+さっき　ここで　みたこと　ない\nポケモンを　つかってる\lひとが　いた\pトレーナーズスクールでも\nならわなかった　ポケモンだ\pああいう　ポケモンは\nどこで　つかまえられるん\lだろう
+@@BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena_hns
+よし！　つぎは　バトルアリーナ！\nパソコンから　ぴったりの\lポケモンを　つれて　こなきゃ
+@@BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge_hns
+うふふ‥　この　こと\nいっしょに　ぜんぶの\lちょうせんを　クリア　するの！
+@@BattleFrontier_PokemonCenter_1F_Text_Skitty_hns
+エネコ『みゃー　みゃーあ！
+## data/maps/BattleFrontier_Mart_hns/scripts.inc
+@@BattleFrontier_Mart_Text_ChaperonGrandson_hns
+まごの　つきそいで\nきたんですよ\pでも　せっかく　きたから\nおみやげを　かおうと\lおもってね
+@@BattleFrontier_Mart_Text_ProteinMakeNiceGift_hns
+あなた　これ　どうかしら？\nおみやげに　いいと　おもわない？\pえーと‥　タウ‥リン？\nおいしそうな　なまえね
+@@BattleFrontier_Mart_Text_FacilitiesDontAllowItems_hns
+バトルフロンティアの\nしせつの　おおくは　バトル\lちゅうに　どうぐを\lつかえないんだ\pただでさえ　きびしいのに\nもっと　きびしく　なるよ！
+## data/maps/LilycoveCity_ContestHall_hns/scripts.inc
+@@LilycoveCity_ContestHall_Text_TodayWonSmartnessContest_hns
+この　ポケモンは　まえに\nここの　うつくしさコンテストで\lゆうしょう　したのよ\pそれが　なんと　きょうは\nかしこさコンテストでも\lゆうしょう　させたの！\pじぶんの　さいのうが\nこわい　くらいだわ‥
+@@LilycoveCity_ContestHall_Text_EnteredBunchOfContests_hns
+コンテストに　たくさん　でて\nだんだん　わかって　きたよ\pかっこよさコンテストなら\nかっこいい　わざが\lアピールに　なる\pでも　かしこい　わざや\nかわいい　わざは\lあまり　うけないんだ
+@@LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks_hns
+さっき　ゆうしょう　した\nおにいさん　いろんな\l{POKEBLOCK}を　もってたよ\pあんなに　もってたら\nかてる　のかな？
+@@LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous_hns
+うわあ　ここ　でっかいな！\pこの　きんちょうかん‥\nいなかの　コンテストかいじょう\lとは　ちがうね
+@@LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal_hns
+しかい『かしこい　ポケモンと\nトレーナーの　みなさん\lじゅんびは　いいですか！\pせいいっぱい　がんばって！\nアピール　かいし！
+@@LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest_hns
+しんさいん『コンテストは\nたのしんで　いますか？\pともだち　3にんと　くれば\nみんなで　コンテストに\lでられますよ！
+@@LilycoveCity_ContestHall_Text_EnteredWrongContest_hns
+あいたたた‥\nコンテストを　まちがえた\pこの　たくましい　ポケモンを\nかしこさコンテストに\lだしちゃった‥\pさあ　かしこそうな\nいわくだきで　みんなを\lうならせろ！
+@@LilycoveCity_ContestHall_Text_RaisedMonToBeSmart_hns
+わしは　ながい　ねんげつと\nありったけの　ちえを　かけて\lこの　ポケモンを\lかしこく　そだてた\pわかぞうの　ポケモンに\nかんたんには　まけんぞ\pばあさんや　みて　おるか？
+@@LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext_hns
+きた　きた！\pつぎに　かしこい　わざを\nきめれば　かんきゃくの\lもりあがりは　さいこうちょうだ！
+@@LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife_hns
+ああ　そんな！\pわたしの　ズバットちゃんの\nきゅうけつが　かわいくて\lなんども　つかったのに！\pここの　ひとたち　ぜんぜん\nわかって　くれないの！
+@@LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa_hns
+きゃー！\nおじいちゃん　すてき！
+@@LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves_hns
+おなじ　しゅるいの　ポケモンでも\nトレーナーに　よって\lアピールの　わざが\lみんな　ちがうんだね\pバトルの　スタイルが\nひとに　よって　ちがうのと\lおなじだね
+@@LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers_hns
+トレーナーより　ポケモンの\nほうが　ずっと　かしこそうに\lみえるな
+@@LilycoveCity_ContestHall_Text_StillLoveSmartnessContests_hns
+なんだかんだ　いっても\nやっぱり　かしこさコンテストが\lすきだな\pあの　ちてきな　みどりいろ‥\nなんて‥　なんて‥\lかっこいいんだ
+@@LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest_hns
+しかい『きみも　うつくしさ\nコンテストに　でるの？\lがんばってね！
+@@LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty_hns
+しんさいん『ああ　どの　ポケモンも\nなんと　うつくしい！\pおもわず　さいてんを\nわすれる　ところでした！
+@@LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty_hns
+こんなに　うつくしい\nポケモンは　ほかに　いないわ\pみんなの　めは　わたしの\nうつくしさに　くぎづけよ
+@@LilycoveCity_ContestHall_Text_OverdidGrooming_hns
+うわーん！\pコンテストの　ために\nポケモンを　ていねいに\lブラッシング　したのに‥\pやりすぎちゃって‥\nけが　ボサボサに\lなっちゃった‥\pどう　しよう？
+@@LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam_hns
+この　オーロラビームは\nまぶしすぎて　しんさいんにも\lみえない　くらいだ\pあれ　まてよ‥\nそれじゃ　いみ　ないじゃん！
+@@LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe_hns
+この　きれいな　ポケモン\nわかい　ころの　わたしに\lそっくり\pそう　いったら　しゅじんが\nのんでた　コーヒーを\lふきだしたの\pなにか　おかしな　こと\nいったかしら？
+@@LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy_hns
+うつくしさコンテストで\nかつと　やっぱり\lいつもより　うれしいのよね
+@@LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon_hns
+わっはっはっは！\pみて　ごらん　きれいな\nポケモンが　いっぱいだ！\lこういう　はなやかなのが\lだいすき　なんだ！
+@@LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone_hns
+うつくしさ　だけで\nかてるとは　かぎらない\pわたしの　ポケモン　みたいに\nつやつやに　ていれ\lしなくちゃね
+@@LilycoveCity_ContestHall_Text_InTheMiddleOfContest_hns
+しかい『あれれ！　こんにちは！\nいまは　コンテストちゅう　です！\pうけつけで　エントリー\nしてから　でて　きてね！
+@@LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals_hns
+しんさいん『なんと　かわいい\nアピール　でしょう！\pまあ！　なんて　かわいい\nみずあそびの　アピール！
+@@LilycoveCity_ContestHall_Text_MyAzurillWasDistracted_hns
+ああ‥　わたしの　ルリリが\nほかの　ポケモンに\lきを　とられちゃった
+@@LilycoveCity_ContestHall_Text_NeverWonBattleButContest_hns
+わたしの　ポケモンは　バトルで\nかった　ことは　ないけど\lコンテストなら　まかせて！
+@@LilycoveCity_ContestHall_Text_PetalDanceIsMarvel_hns
+わたしの　ポケモンの\nはなびらのまいは\lゆうがさの　きわみ\pだれにも　じゃまは\nさせませんわ
+@@LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter_hns
+みんなの　ポケモン\nとても　かわいいわね\pでも　わたしの　ポケモンが\nかわいい　アピールを\lしたら‥\pぜったい　だれよりも\nかわいいに　きまってるわ
+@@LilycoveCity_ContestHall_Text_MyChildIsInContest_hns
+うちの　こが　この\nコンテストに　でてるんです
+@@LilycoveCity_ContestHall_Text_ComeOnDear_hns
+がんばって！　いけー！\nあなたの　ポケモンが\lいちばんよ！
+@@LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest_hns
+あそこの　おんなのこが\nいちばん　かわいいと　おもう\pえ？　ポケモンの　みためを\nしんさ　してるの？
+@@LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn_hns
+かわいい　ポケモンを\nたくさん　みてたら\lじぶんも　ほしく　なった！\pつかまえに　いこう！
+@@LilycoveCity_ContestHall_Text_BeautyContestStage_hns
+うつくしさコンテスト　ステージ\nうつくしい　ポケモンに　みとれよう！
+@@LilycoveCity_ContestHall_Text_CuteContestStage_hns
+かわいさコンテスト　ステージ\nかわいい　ポケモンに　めろめろ！
+@@LilycoveCity_ContestHall_Text_SmartContestStage_hns
+かしこさコンテスト　ステージ\nかしこい　ポケモンに　かんしん！
+## data/maps/LilycoveCity_ContestLobby_hns/scripts.inc
+@@LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase_hns
+やったー！\pうけつけの　おねえさんが\n{POKEBLOCK}ケースを　くれた！
+@@LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries_hns
+{POKEBLOCK}を　つくって　いれるの\p{POKEBLOCK}を　つくる　ときは\nみんな　ちがう　きのみを\lいれなきゃ　だめなのよ
+@@LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint_hns
+おめでとう！\pゆうしょう　きねんに\nきみの　ポケモンの　えを\lかいたんだ‥\pきみの　ポケモンの　アピールが\nすばらしくて　いつもより\lうまく　かけたよ\lほら　みて！
+@@LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum_hns
+どう　かな？　じしん　あるけど\nきに　いって　くれた？\pこれ　くらいの　さくひんなら\nびじゅつかんに　かざっても\lおかしくないよ\pえ？　びじゅつかんが\nえを　さがしてるの？\pこれ　もって　いった\nほうが　いいかな？
+@@LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum_hns
+ほんと？　じゃあ　いますぐ\nこの　えを　もって　いくよ\pちゃんと　だいめいも\nつけるね\pかざって　もらえると\nいいな\pかざられたか　たしかめてね\nありがとう！
+@@LilycoveCity_ContestLobby_Text_TakeMementoOfPainting_hns
+あ　そうだ！\pきみの　ポケモンを　かいた\nきねんに　これを　うけとって
+@@LilycoveCity_ContestLobby_Text_ReceivedARibbon_hns
+{PLAYER}は\nリボンを　もらった！
+@@LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon_hns
+{PLAYER}は　{STR_VAR_1}に\nリボンを　つけた
+@@LilycoveCity_ContestLobby_Text_OkaySeeYou_hns
+じゃあ　またね！
+@@LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum_hns
+そう‥　じゃあ　いえに\nもって　かえろうかな‥\pでも　ほんとうは　びじゅつかんに\nもって　いきたいんだけど‥\lいい？
+@@LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs_hns
+わかった　しかたないね\nじぶんの　いえに　かざるよ\pつぎは　もっと　がんばるね\nじゃあ　また
+@@LilycoveCity_ContestLobby_Text_MasterRankHereICome_hns
+ふう‥　マスターランクの\nコンテスト　いざ　しゅつじん\pわたしの　ポケモンが　この\nよで　いちばん　かわいいと\lせかいが　しる　ときが\lきたのよ！　うへへへ
+@@LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere_hns
+ここでは　いろんな\nポケモンが　みられる\pだから　まいにちの\nさんぽで　かならず\lここに　よるんだ
+@@LilycoveCity_ContestLobby_Text_ContestFeastForEyes_hns
+コンテストに　くると\nめの　ほようだ！\pえに　かきたく　なる\nポケモンが　いっぱい　だよ！
