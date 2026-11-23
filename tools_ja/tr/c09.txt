@@ -1,0 +1,153 @@
+## data/text/tv.inc
+@@gTVTrainerFanClubText01
+ファン『かっこいい\nボールの　なげかた！
+@@gTVTrainerFanClubText02
+ファン『かわいい　はしりかた！
+@@gTVTrainerFanClubText03
+ファン『ピンチの　ときに\nつよく　なる　ところ！
+@@gTVTrainerFanClubText04
+ファン『ポケモンの\nちしきの　ふかさ！
+@@gTVTrainerFanClubText05
+ファン『どんな　ポケモンにも\nやさしい　ところ！
+@@gTVTrainerFanClubText06
+ファン『すごい　じてんしゃの\nテクニック！
+@@gTVTrainerFanClubText07
+ファン『かっこいい\nかいものの　しかた！
+@@gTVTrainerFanClubText08
+ファン『すてきな\nニックネームの　つけかた！
+@@gTVTrainerFanClubText09
+ファン『おしゃれな\nひみつきちの　かざりかた！
+@@gTVTrainerFanClubText10
+ファン『だいたんな\nわざマシンの　つかいかた！
+@@gTVTrainerFanClubText11
+しかい『ごらんの　とおり\n{STR_VAR_1}は　あつい！\lあつすぎて　さわれない！\p{STR_VAR_1}の　ファンには\nとくべつな　あいことばが\lあるんだ！\pしかい『{STR_VAR_1}と　いったら\nこう　こたえる‥\pファン『{STR_VAR_2}！\pファン『{STR_VAR_3}！\pファン『{STR_VAR_2}！\pファン『{STR_VAR_3}！\pしかい『そう！\n『{STR_VAR_1}』と　いわれたら\p『{STR_VAR_2}\n{STR_VAR_3}！』と　かえす！\pこの　ひびき　たまらない！\nみんなが　{STR_VAR_1}の\lファンに　なるのも　わかる！\pよし　テレビの　まえの\nきみも　いっしょに！\pしかい『{STR_VAR_1}と　いったら\nこう　こたえる‥\pファン『{STR_VAR_2}！\pファン『{STR_VAR_3}！\pファン『{STR_VAR_2}！\pファン『{STR_VAR_3}！\pしかい『{STR_VAR_1}の　ファンの\nみんな　ありがとう！\lきょうは　ここまで！　またね！\pしかい『{STR_VAR_1}と　いったら\nこう　こたえる‥\pファン『{STR_VAR_2}！\pファン『{STR_VAR_3}！
+@@TVSpotTheCuties_Text_Intro
+かわいい　ポケモン　はっけん！\nリボンの　ポケモン　たち！\pみなさん　こんにちは！\pリボンを　つけた　ポケモンって\nほんとうに　すてき　ですよね！\pきょうは　まちを　さんぽ\nして　いて　みつけた\lかわいい　ポケモンを\lごしょうかい　します\pきょうの　かわいい　ポケモンは\n{STR_VAR_1}の　{STR_VAR_2}　です
+@@TVSpotTheCuties_Text_RibbonsLow
+{STR_VAR_2}が　つけている\nリボンの　かずは\l{STR_VAR_3}こ\p{STR_VAR_1}が　どれだけ\nこの　ポケモンを\lかわいがって　いるか\lわかりますね
+@@TVSpotTheCuties_Text_RibbonsMid
+{STR_VAR_2}は　なんと\nリボンを　{STR_VAR_3}こも\lつけて　います！\p{STR_VAR_1}の　ポケモンへの\nあいじょうが　よく\lあらわれて　います！
+@@TVSpotTheCuties_Text_RibbonsHigh
+{STR_VAR_2}は　なんと\nリボンを　{STR_VAR_3}こも\lつけて　います！\p{STR_VAR_1}の　コレクターと\nしての　ねっしんさが\lわかりますね！
+@@TVSpotTheCuties_Text_RibbonIntro
+{STR_VAR_2}の　たくさんの\nリボンを　よく　みて\lみましょう
+@@TVSpotTheCuties_Text_RibbonChampion
+とくに　チャンピオンリボンが\nすてき　です\p{STR_VAR_2}が　でんどういり\nした　ときに　もらった\lものです\p{STR_VAR_2}の　ゆうかんさを\nひきたてて　います\p{STR_VAR_2}と　チャンピオンリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonCool
+とくに　かっこよさリボンが\nすてき　です\p{STR_VAR_2}が　かっこよさ\nコンテストで　ゆうしょう\lして　もらった　ものです\p{STR_VAR_2}の　かっこよさを\nひきたてて　います\p{STR_VAR_2}と　かっこよさリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonBeauty
+とくに　うつくしさリボンが\nすてき　です\p{STR_VAR_2}が　うつくしさ\nコンテストで　ゆうしょう\lして　もらった　ものです\p{STR_VAR_2}の　うつくしさを\nひきたてて　います\p{STR_VAR_2}と　うつくしさリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonCute
+とくに　かわいさリボンが\nすてき　です\p{STR_VAR_2}が　かわいさ\nコンテストで　ゆうしょう\lして　もらった　ものです\p{STR_VAR_2}の　かわいさを\nひきたてて　います\p{STR_VAR_2}と　かわいさリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonSmart
+とくに　かしこさリボンが\nすてき　です\p{STR_VAR_2}が　かしこさ\nコンテストで　ゆうしょう\lして　もらった　ものです\p{STR_VAR_2}の　かしこさを\nひきたてて　います\p{STR_VAR_2}と　かしこさリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonTough
+とくに　たくましさリボンが\nすてき　です\p{STR_VAR_2}が　たくましさ\nコンテストで　ゆうしょう\lして　もらった　ものです\p{STR_VAR_2}の　たくましさを\nひきたてて　います\p{STR_VAR_2}と　たくましさリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonWinning
+とくに　ウイニングリボンが\nすてき　です\p{STR_VAR_2}が　バトルタワーで\nかつやく　して　もらった\lものです\p{STR_VAR_2}の　つよさを\nひきたてて　います\p{STR_VAR_2}と　ウイニングリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonVictory
+とくに　ビクトリーリボンが\nすてき　です\p{STR_VAR_2}が　バトルタワーで\nかつやく　して　もらった\lものです\p{STR_VAR_2}の　すさまじい\nつよさを　ひきたてて　います\p{STR_VAR_2}と　ビクトリーリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonArtist
+とくに　ブロマイドリボンが\nすてき　です\p{STR_VAR_2}が　がかの　モデルに\nなって　もらった　ものです\p{STR_VAR_2}の　スターの　みりょくを\nひきたてて　います\p{STR_VAR_2}と　ブロマイドリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_RibbonEffort
+とくに　がんばリボンが\nすてき　です\p{STR_VAR_2}が　とくに　がんばった\nあかしに　もらった　ものです\p{STR_VAR_2}の　ねばりづよさを\nひきたてて　います\p{STR_VAR_2}と　がんばリボン！\nこうかは　ばつぐんだ！
+@@TVSpotTheCuties_Text_Outro
+‥はあ‥\pリボンと　ポケモン‥\nなんて　すてきな\lくみあわせ　なの！\pうっとり　しちゃう　まえに\nさようなら！
+@@gTVPokemonNewsBattleFrontierText00
+こんにちは！\nポケモンニュースの　じかんです\pバトルフロンティアから\nうれしい　ニュースが\lとどきました
+@@gTVPokemonNewsBattleFrontierText01
+トレーナーの　{STR_VAR_1}が\nバトルタワーの　シングル\lバトルルームで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText02
+トレーナーの　{STR_VAR_1}が\nバトルタワーの　ダブル\lバトルルームで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText03
+トレーナーの　{STR_VAR_1}が\nバトルタワーの　マルチ\lバトルルームで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText04
+トレーナーの　{STR_VAR_1}が\nバトルタワーの　つうしんマルチ\lバトルルームで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText05
+トレーナーの　{STR_VAR_1}が\nバトルドームの　シングル\lトーナメントで　{STR_VAR_2}れんぱの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText06
+トレーナーの　{STR_VAR_1}が\nバトルドームの　ダブル\lトーナメントで　{STR_VAR_2}れんぱの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText07
+トレーナーの　{STR_VAR_1}が\nバトルファクトリーの　シングル\lこうかんバトルで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText08
+トレーナーの　{STR_VAR_1}が\nバトルファクトリーの　ダブル\lこうかんバトルで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText09
+トレーナーの　{STR_VAR_1}が\nバトルチューブの　みちえらび\lバトルで　{STR_VAR_2}へや　とっぱの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText10
+トレーナーの　{STR_VAR_1}が\nバトルアリーナの　3たいけつ\lトーナメントで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText11
+トレーナーの　{STR_VAR_1}が\nバトルパレスの　シングル\lバトルホールで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText12
+トレーナーの　{STR_VAR_1}が\nバトルパレスの　ダブル\lバトルホールで　{STR_VAR_2}れんしょうの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText13
+トレーナーの　{STR_VAR_1}が\nバトルピラミッドの　バトル\lクエストで　{STR_VAR_2}かい　とっぱの\lしんきろくを　たてました\p{STR_VAR_1}に　かんぱい！
+@@gTVPokemonNewsBattleFrontierText14
+そして　3びきの　ポケモン\n{STR_VAR_1}　{STR_VAR_2}\l{STR_VAR_3}にも！\pきろくてきな　かつやく\nおめでとう！
+@@gTVPokemonNewsBattleFrontierText15
+そして　2ひきの　ポケモン\n{STR_VAR_1}と　{STR_VAR_2}にも！\pきろくてきな　かつやく\nおめでとう！
+@@gTVPokemonNewsBattleFrontierText16
+そして　4ひきの　ポケモン\n{STR_VAR_1}！\p{STR_VAR_2}！\p{STR_VAR_3}！
+@@gTVPokemonNewsBattleFrontierText17
+そして　{STR_VAR_1}！\pきろくてきな　かつやく\nおめでとう！
+@@gTVPokemonNewsBattleFrontierText18
+{STR_VAR_1}と　なかまの\nポケモンの　さらなる\lきろくに　きたい\lしましょう！\pいじょう　ポケモンニュース\nでした！
+@@gTVWhatsNo1InHoennTodayText00
+きょうの　ホウエン\nナンバーワンは？\lさあ　あの　じかん　です！\pみなさん　こんにちは！\nなにごとも　がんばって\lいますか？\pきょう　いちばん　がんばった\nトレーナーを　みて\lみましょう！\pきょうの　ナンバーワン\nトレーナーは　{STR_VAR_1}！
+@@gTVWhatsNo1InHoennTodayText01
+{STR_VAR_1}は　1にちで\nゲームコーナーの　スロットを\l{STR_VAR_2}かい　まわしました\pあそびながら　{STR_VAR_1}は\n『わたしには　リールが\lうごかない‥』と\lつぶやいて　いたとか\lおもしろい　ですね
+@@gTVWhatsNo1InHoennTodayText02
+{STR_VAR_1}は　1にちで\nゲームコーナーの　ルーレットを\l{STR_VAR_2}かい　あそびました\pあそびながら　{STR_VAR_1}は\n『たまに　まかせる！』と\lさけんで　いたとか\pトレーナーの　めは　しんけん\nそのもの　でした
+@@gTVWhatsNo1InHoennTodayText03
+{STR_VAR_1}は　1にちで\nやせいの　ポケモンと\l{STR_VAR_2}かい　たたかいました！\p{STR_VAR_1}の　ポケモンは\nくらべものに　ならないほど\lつよく　なった　ようです\pいつでも　どこでも\nたたかう　きまんまん！
+@@gTVWhatsNo1InHoennTodayText04
+{STR_VAR_1}は　たった　1にちで\nきのみブレンダーを\l{STR_VAR_2}かい　まわしました！\pさいごには　{STR_VAR_1}も\nめが　まわった　ようです\pまるで　パッチールの　ように\nふらふら　して　いました！
+@@gTVWhatsNo1InHoennTodayText05
+{STR_VAR_1}は　たった　1にちで\nきのみを　{STR_VAR_2}こ\lうえました！\pおかげで　{STR_VAR_1}の\nふくは　どろだらけ\pうえた　ところには\nかぞえきれない　ほどの\lはなが　さきました\pその　はなは　ひとの　こころを\nいやす　そうです
+@@gTVWhatsNo1InHoennTodayText06
+{STR_VAR_1}は　たった　1にちで\nきのみを　{STR_VAR_2}こ\lとりました！\p{STR_VAR_1}の　バッグは\nきのみで　いっぱいに　なり\lあるくのも　たいへん\lだった　そうです！
+@@gTVWhatsNo1InHoennTodayText07
+{STR_VAR_1}は　たった　1にちで\nバトルポイントを\l{STR_VAR_2}ポイント　かせぎました！\pその　あと　{STR_VAR_1}は\nかっこいい　どうぐと\lすてきな　もようがえグッズ\lの　どちらと　こうかん\lするか　なやんで　いました\pなやみながらも　にこにこ\nして　いた　そうです
+@@gTVWhatsNo1InHoennTodayText08
+いやあ　すごい　ですね！\p{STR_VAR_1}！\nきょうの　ナンバーワン\lトレーナーは　あなた　です！\pみなさんも　{STR_VAR_1}を\nみならって！　まいにち\lナンバーワンに　なれますよ！
+@@TVSecretBaseSecrets_Text_Intro
+ひみつきちの　ひみつ！\pトレーナーは　ひみつきちで\nなにを　して　いるのか？\pきょうは　{STR_VAR_1}の\nひみつきちを　ちょうさ！\pおや？　{STR_VAR_2}が\nあそびに　きた　ようです\pのぞいて　みましょう！\p{STR_VAR_2}は　なにを　する\nのでしょう？
+@@TVSecretBaseSecrets_Text_WhatWillPlayerDoNext1
+{STR_VAR_2}は　つぎに\nなにを　するのでしょう？
+@@TVSecretBaseSecrets_Text_WhatWillPlayerDoNext2
+さて　{STR_VAR_2}は\nなにを　するのでしょう？
+@@TVSecretBaseSecrets_Text_TookXStepsBeforeLeaving
+けっきょく　{STR_VAR_2}は\n{STR_VAR_1}の　ひみつきちで\l{STR_VAR_3}ほ　あるいて\lかえって　いきました
+@@TVSecretBaseSecrets_Text_BaseFailedToInterestPlayer
+うーん‥\p{STR_VAR_1}の　ひみつきちは\n{STR_VAR_2}の　きょうみを\lひかなかった　ようです‥
+@@TVSecretBaseSecrets_Text_PlayerEnjoyedBase
+{STR_VAR_2}は　{STR_VAR_1}の\nひみつきちを　おもいきり\lたのしんだ　ようです
+@@TVSecretBaseSecrets_Text_PlayerHugeFanOfBase
+{STR_VAR_2}は　{STR_VAR_1}の\nひみつきちの　だいファンに\lなった　ようです
+@@TVSecretBaseSecrets_Text_Outro
+みなさんも　{STR_VAR_1}の\nひみつきちを　のぞいて\lみては？\pつぎも　また　べつの\nひみつきちを　たずねます！\lごらんいただき　ありがとう！
+@@TVSecretBaseSecrets_Text_StoppedMoving1
+ほうもんしゃが　とまった！\pまったく　うごきません！\p{STR_VAR_1}の　ひみつきちは\nそんなに　つまらない\lのでしょうか？
+@@TVSecretBaseSecrets_Text_StoppedMoving2
+ほうもんしゃが　とまった！\pまったく　うごきません！\pつかれた　のでしょうか？\nくたびれて　しまった？
+@@TVSecretBaseSecrets_Text_UsedChair
+ほうもんしゃが　いすに\nすわった！\pあの　うれしそうな　かお！\pよほど　すわりごこちの\nいい　いす　なのでしょう！
+@@TVSecretBaseSecrets_Text_UsedBalloon
+ほうもんしゃが　ふうせんに\nとつげき！\pわれた！\nなんと　われました！\pとつぜんの　おとに\nおどろいて　います！
+@@TVSecretBaseSecrets_Text_UsedTent
+ほうもんしゃが　テントに\nはいった！\pはしりまわって　います！\pなんと　はしゃいで\nいます！\pテントの　ひろさに\nおどろいて　いる　ようです！
+@@TVSecretBaseSecrets_Text_UsedPlant
+ほうもんしゃが　はちうえを\nみて　います！\pいがいと　おとなっぽい\nしゅみ　ですね！
+@@TVSecretBaseSecrets_Text_UsedGoldShield
+ほうもんしゃが　きんの\nたてを　みて　います！\pめを　かがやかせて\nいます！
+@@TVSecretBaseSecrets_Text_UsedSilverShield
+ほうもんしゃが　ぎんの\nたてを　みて　います！\pめを　まるく　して\nいます！
+@@TVSecretBaseSecrets_Text_UsedGlassOrnament
+ほうもんしゃが　ガラスの\nおきものを　みて　います！\pああっ！\pさわって　います！\pゆびの　あとが\nついて　しまう‥
+@@TVSecretBaseSecrets_Text_UsedTV
+ほうもんしゃが　テレビを\nみて　います！\pテレビが　だいすき\nみたいですね！
+@@TVSecretBaseSecrets_Text_UsedMudBall
+ほうもんしゃが　どろだんごを\nふみつけた！\pうれしそうな　かお　です！
+@@TVSecretBaseSecrets_Text_UsedBag
+‥おや？\pほうもんしゃが　じぶんの\nバッグに　てを　いれて\lなにか　さがして　います！\p{STR_VAR_2}を　1こ\nとりだしました！\p{STR_VAR_2}を　かかげて\nにっこり！\pまるで　テレビCMの\nようです！
+@@TVSecretBaseSecrets_Text_UsedCushion
+ほうもんしゃが　クッションを\nつかんで‥
