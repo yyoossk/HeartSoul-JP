@@ -1,0 +1,123 @@
+## data/text/apprentice.inc
+@@gText_ApprenticeMonFirstThanks1
+{STR_VAR_1}か　そうだね\nよし　そうする！\pおしえて　くれて\nありがとう！
+@@gText_ApprenticeWhichMonFirst2
+{PLAYER}さん　こんにちは！\pバトルでは　どの　ポケモンを\nさいしょに　だすかが\lとても　だいじだと\lおもうんです\pわたしの　ポケモンで\nさいしょに　だすなら\lどれが　いいですか？
+@@gText_ApprenticeMonFirstThanks2
+{STR_VAR_1}を　さいしょに？\nわかりました！\pまた　あいましょう！
+@@gText_ApprenticeWhichMonFirst3
+こんにちは　{PLAYER}さん‥\nまた　しつもんで　おじゃま\lして　すみません\pじしんが　なくて　{PLAYER}さんが\nいないと　どう　したら\lいいか　わからなくて\pなやむ　だけ　むだ　かも\nしれないけど　どうしても\lきめられなくて‥\pバトルで　さいしょに\nだすのは　どの　ポケモンが\lいい　ですか？
+@@gText_ApprenticeMonFirstThanks3
+{STR_VAR_1}　ですね？\nわかりました！\pこんなに　なんども　しつもんに\nこたえて　くれる　なんて\lしんじられない！\pはなして　くれる　だけで\nうれしいです‥\lありがとう　ございます！
+@@gText_ApprenticeWhichMonFirst4
+あっ　{PLAYER}{KUN}！　わたしよ！\nちょっと　こまってたから\lあえて　よかった\pポケモンの　ならべかたが\nきめられないの\lきめて　くれない？\pあ　ぜんぶ　いま\nきめなくても　いいわ\pさいしょの　1ぴき\nだけ　きめて　くれる？
+@@gText_ApprenticeMonFirstThanks4
+{STR_VAR_1}？　いいわね！\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！
+@@gText_ApprenticeWhichMonFirst5
+やあ　せんせい　{PLAYER}{KUN}！\nきょうも　いそがしいよ！\pサイクリングと　かいものと\nはなうた　しなきゃ\pチームの　ならべかたを\nきめる　じかんも　なくてさ\pぼくの　チームを　みて\nくれない？　どれを\lさいしょに　だそう？
+@@gText_ApprenticeMonFirstThanks5
+よし　わかった\n{STR_VAR_1}を　せんとうに\lする　くらいの　じかんは\lあるよ！\pおっと　かのじょが\nまってる！　ありがとう！\lまたね！
+@@gText_ApprenticeWhichMonFirst6
+やっほー！　{PLAYER}！\nいつも　つよそうに\lあるいてるね！\pねえ　また　おねがいが\nあるの！　いつもの　あれ！\pドラムロール　おねがい！\nしつもんは　チームの\lこと！\pバトルで　さいしょに\nだすのは　どの　ポケモン？
+@@gText_ApprenticeMonFirstThanks6
+ふむふむ！\n{STR_VAR_1}　だって！\lかっこいい　こたえ\lありがとう！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！
+@@gText_ApprenticeWhichMonFirst7
+はなしを　して　いただいて\nありがとう　ございます\l{PLAYER}さま\pごこういに　あまえて\nしまいますが　ごそうだん\lしても　よろしいですか？\pわたくしの　チームの\nじゅんばんを　きめて\lいただきたいのです\pどの　ポケモンを　さいしょに\nするか　きめて　いただけると\lうれしいです
+@@gText_ApprenticeMonFirstThanks7
+{STR_VAR_1}　ですね！\nさっそく　さいしょに\lいたします！\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！
+@@gText_ApprenticeWhichMonFirst8
+きゃっ！　{PLAYER}さん！\nま　また　あえて\lうれしい！\pわたしの　ポケモン　ずっと\nつよく　なったんです！\pでも　いつも　かてる\nわけじゃ　なくて　さいしょの\lポケモン　しだい　みたい\p{PLAYER}さん　おねがい\nたすけて　ください！\pどの　ポケモンを　さいしょに\nだすか　きめて　ください！
+@@gText_ApprenticeMonFirstThanks8
+はあ‥　しあわせで\nむねが　いっぱい‥\p{PLAYER}さんに　きめて\nもらえる　なんて　ゆめ\lみたい\pでも　よく　わかりました！\n{STR_VAR_1}を　さいしょに\lします！\pまた　いつか　いろいろ\nおしえて　くださいね
+@@gText_ApprenticeWhichMonFirst9
+よう　よう！\nししょう　{PLAYER}{KUN}！\lきょうも　ありがたい\lアドバイスを　たのむぜ！\pポケモン　3びきの　チームを\nくんだ　ここまでは　いい\pでも　チームの　じゅんばんが\nまだ　きまって　ないんだ\pそこで　{PLAYER}{KUN}の　でばんだ！\nどの　ポケモンを\lさいしょに　する？\pえんりょ　するなよ\nずばっと　いって　くれ！
+@@gText_ApprenticeMonFirstThanks9
+なるほど　{STR_VAR_1}が\nせんとうか！\lオーケー　オーケー！\lならべかえるぜ　ズバッ　とな！\pいつも　ありがとな！\nアディオス！
+@@gText_ApprenticeWhichMonFirst10
+{PLAYER}{KUN}　きいて！\nたいへん　なんだ！\pぼくの　ポケモン　3びき\nいっぺんに　バトルに\lでちゃうんだ！\pもちろん　そんなの\nむり　だけど！　わはは！\pでも　これは　ほんと\nポケモンの　ならべかたを\lかんがえるのが　にがて\lなんだ\pだから　どの　ポケモンを\nさいしょに　するか\lきめて　くれない？　ししょう
+@@gText_ApprenticeMonFirstThanks10
+そっか　{STR_VAR_1}を\nえらんだんだね？\lそれ　いがいを　さいしょに\lしよう！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！
+@@gText_ApprenticeWhichMonFirst11
+ヨー　ヨー！\nそれが　オレらの　あいさつ　さ！\pラップを　かます　ふなのり！\nイカした　しつもん\lもって　きたぜ！\pチームの　じゅんばんの　しつもん\nきみの　いけんを　ききたい\lもん！\pこの　なかで　どれを\nさいしょに　だせば\lいいんだい？
+@@gText_ApprenticeMonFirstThanks11
+オーケー　わかった　まかせとけ！\nならべかえるぜ　それで\lきまり！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！
+@@gText_ApprenticeWhichMonFirst12
+やっほー　{PLAYER}！\nげんき　かい？\pどうする？　きいて　みる？\nそう　ききたい　ことが\lあるんだ！\lきこえてる？\lきこえてるよな！\pきめて　くれ　オレの\nポケモン　どれが　いちばんに\lバトルに　でるか！
+@@gText_ApprenticeMonFirstThanks12
+{STR_VAR_1}？　イエス！\nそれで　いこう　もんだい\lなし！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！
+@@gText_ApprenticeWhichMonFirst13
+‥うう‥　いたた‥　{PLAYER}{KUN}‥\nきゅうに　おなかが\lいたく　なって‥\p‥すこし　よく　なってきた‥\pポケモンの　ならべかたを\nかんがえすぎて　ぐあいが\lわるく　なった　みたい\pそういう　わけで\nきめて　ほしいの\p{PLAYER}{KUN}　どの　ポケモンを\nさいしょに　すれば　いい？\lかてる　ように　ね
+@@gText_ApprenticeMonFirstThanks13
+うん　わかった\n{STR_VAR_1}を　さいしょね\pばんごはんを　たべたら\nそう　ならべかえるわ\pこれからも　たよらせてね
+@@gText_ApprenticeWhichMonFirst14
+えっと‥　あの‥\n{PLAYER}{KUN}？\pそんなに　みないで\nください　あせっちゃう\pあの‥\nアドバイスが　ほしいんです\pいうのも　はずかしい　けど\nポケモン　3びきの　チームを\lえらんだんです　でも\lじゅんばんが　きめられなくて\pせめて　それらしく　みえる\nように　さいしょに　だすのは\lどれが　いい　ですか？
+@@gText_ApprenticeMonFirstThanks14
+あ‥　はい！\n{STR_VAR_1}を　せんとうに\lします\pあせらずに\nがんばれると　いいな\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します
+@@gText_ApprenticeWhichMonFirst15
+ん？　{PLAYER}{KUN}の\nようだが‥　ほんとうかね？\lもしや　そっくりさん　では？\pいや　いや　きに　しないで\nくれたまえ　ほんもの　なら\lしつれいを　わすれて　くれ\pきみの　すばらしい\nアドバイスが　ほしい\pこれが　わたしの　チームだ\nバトルで　どれを　さいしょに\lだすべきか　おしえて　ほしい
+@@gText_ApprenticeMonFirstThanks15
+{STR_VAR_1}‥\nからかって　いるのでは\lないね？\pなるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pこんな　わたし　だが\nがんばる　とも\pまた　あおう！
+@@gText_ApprenticeWhichMon0
+ぐすん‥\nあっ　{PLAYER}さん！\pちょうど　よかった！\nどうしても　きめられない\lことが　あって‥\pどの　ポケモンを　つかえば\nいいか　きめられないんです\p{STR_VAR_1}と　{STR_VAR_2}で\nまよって　いて‥\p{PLAYER}さん　ぼくでも\nかてそうなのは　どっち\lですか？
+@@gText_ApprenticeMonThanks0
+ぐすん‥　わ　わかりました！\nあっ！　ごめんなさい！\lうれしくて　ないちゃった‥\pがんばって　{STR_VAR_1}を\nつかまえます！\pほんとうに　ありがとう！
+@@gText_ApprenticeWhichMon1
+やった！　{PLAYER}さん　だ！\nいい　ところに　きてくれた！\lまた　アドバイスが　ほしいんだ！\pえっと　{STR_VAR_1}と\n{STR_VAR_2}　どっちを\lつかうか　まよってて‥\p{PLAYER}さんは　どっちを\nそだてたら　いいと　おもう？
+@@gText_ApprenticeMonThanks1
+そっか　{STR_VAR_1}の\nほうが　いいんだね！\lよし　そうする！\pおしえて　くれて\nありがとう！
+@@gText_ApprenticeWhichMon2
+{PLAYER}さん　こんにちは！\nききたい　ことが　あるんです\p{STR_VAR_1}と　{STR_VAR_2}の\nどちらを　そだてるか\lまよって　いて\pどっちの　ポケモンが\nつよく　なると\lおもいますか？
+@@gText_ApprenticeMonThanks2
+{STR_VAR_1}　ですね？\nわかりました！\pさっそく　つよい\n{STR_VAR_1}を　つかまえに\lいきます！\pまた　あいましょう！
+@@gText_ApprenticeWhichMon3
+こんにちは　{PLAYER}さん‥\pあの　ぼくの　ことなんか\nもう　わすれてますよね‥\p‥でも　アドバイスを\nもらえれば　それで　いいんです‥\pそだてる　ポケモンを\nきめられなくて‥\p{STR_VAR_1}と　{STR_VAR_2}まで\nしぼったけど　そこで\lとまっちゃって‥\p{PLAYER}さん　めんどう　かも\nしれないけど　きめて\lください
+@@gText_ApprenticeMonThanks3
+でも　やせいの　{STR_VAR_1}が\nぼくなんかに　きづいて\lくれるかな？\pやって　みます！\pつかまえられるかな‥\nいや！　がんばります！\pありがとう！
+@@gText_ApprenticeWhichMon4
+あっ　{PLAYER}{KUN}！　あえて\nよかった！　さがしに\lいこうと　おもってたの！\pつかう　ポケモンを\nきめて　くれない？\pたとえば‥\n{STR_VAR_1}と　{STR_VAR_2}\lなんて　どう？\pどっちが　いいと\nおもう？
+@@gText_ApprenticeMonThanks4
+{STR_VAR_1}？　いいわね！\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！
+@@gText_ApprenticeWhichMon5
+{PLAYER}{KUN}　じゃないか！　どう？\nぼくは　あいかわらず\lいそがしいよ！\pポケモンも　がんばりたい\nけど　どの　ポケモンを\lつかうか　きまらなくて\p{STR_VAR_1}って　つよそう\nだろ？　でも　{STR_VAR_2}も\lすてがたい\p{PLAYER}{KUN}　いい　アドバイスを\nくれよ！　ぼくには　どっちが\lいい？
+@@gText_ApprenticeMonThanks5
+よし　わかった\nなんとか　じかんを　つくって\lおすすめの　{STR_VAR_1}を\lつかまえるよ\pいい　ししょうに　あえて\nよかった　ありがとう！\lまたね！
+@@gText_ApprenticeWhichMon6
+あっ！\nやった　{PLAYER}　だ！\pあなたに　あった　こと\nすぐ　ともだちに\lじまん　しちゃった！\pきょうも　あたまを\nかして　ほしいの\lかんたんな　しつもん！\pドラムロール　おねがい！\nしつもんは‥\pポケモンを　そだてる　なら\n{STR_VAR_1}と　{STR_VAR_2}\lどっちが　いい？
+@@gText_ApprenticeMonThanks6
+ああー！\n{STR_VAR_1}　だって！\lかっこいい　こたえ\lありがとう！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！
+@@gText_ApprenticeWhichMon7
+あら　{PLAYER}さま　ですか？\nまた　おあい　できて\lうれしいです！\pでしに　なって　から\nじしんが　ついて\lまいりました\pじぶんの　ポケモンを\nそだてる　じゅんびが\lできた　ように　おもいます！\p{PLAYER}さま　そだてる\nポケモンを　えらんで\lいただけますか？\p{STR_VAR_1}と　{STR_VAR_2}‥\nわたくしには　どちらが\lあって　いるでしょう？
+@@gText_ApprenticeMonThanks7
+{STR_VAR_1}　ですね！\nさっそく　さがします！\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！
+@@gText_ApprenticeWhichMon8
+きゃっ！　{PLAYER}さん！\nまた　あえた！\lう　うれしい！\pあっ　そうだ！\nこの　チャンスは\lのがせない！\p{PLAYER}さん　おおきな\nおねがいが　あるんです！\lポケモンを　えらんで　ください！\p{STR_VAR_1}と　{STR_VAR_2}\nどっちが　いいか\lきめて　ください！
+@@gText_ApprenticeMonThanks8
+わあ！　きめて　くれた！\n{STR_VAR_1}を　いっしょうけんめい\lそだてます\pまた　いつか　いろいろ\nおしえて　くださいね
+@@gText_ApprenticeWhichMon9
+よう　よう！\nししょう　{PLAYER}{KUN}！\pまた　ありがたい　アドバイスが\nほしくて　さがしてたんだ！\pオレに　あうのは\n{STR_VAR_1}と　{STR_VAR_2}\lどっちだ？\pえんりょ　するなよ\nずばっと　いって　くれ！
+@@gText_ApprenticeMonThanks9
+なるほど　{STR_VAR_1}だな！\nオーケー　オーケー！\lボールに　いれて　くるぜ\lギュッ　とな！\pいつも　ありがとな！\nアディオス！
+@@gText_ApprenticeWhichMon10
+{PLAYER}{KUN}　きいて！　ビッグ\nニュース！　まぼろしの\lポケモンを　つかまえた！\pもちろん　うそ　だよ！\nわはは！\pでも　これは　ほんと\nポケモンを　つかまえるのが\lにがて　なんだ\pだから　どの　ポケモンを\nつかまえるか　きめて\lくれない？　ししょう\pどっちが　いい？\n{STR_VAR_1}か　{STR_VAR_2}か
+@@gText_ApprenticeMonThanks10
+そっか　{STR_VAR_1}を\nえらんだんだね？\lじゃあ　もう　かたほうを\lつかまえよう！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！
+@@gText_ApprenticeWhichMon11
+ヨー　ヨー！\nそれが　オレらの　あいさつ　さ！\pラップを　かます　ふなのり！\nまさか　わすれちゃ\lいないよな？\pきょうは　ポケモンの　しつもん\nきみの　いけんを　ききたい\lもん！\p{STR_VAR_1}と　{STR_VAR_2}\nえらぶなら　つかまえるのは\lどっちが　いいんだい？
+@@gText_ApprenticeMonThanks11
+{STR_VAR_1}　だって？　ヘイ　ヘイ！\nさっそく　つかまえに\lいくぜ　イエイ！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！
+@@gText_ApprenticeWhichMon12
+おっ　{PLAYER}　じゃないか！\pどうする？　アドバイス\nもらう？　もちろん！\lもう　はなしかけてる　しな！\pひさしぶり　だから\nうちとけよう　アドバイスも\lほしいんだ！\lきこえてる？\lきこえてるよな！\pオレの　ポケモン　どれを\nつかおう？　{STR_VAR_1}か\l{STR_VAR_2}か　どっちを\lえらぶ？
+@@gText_ApprenticeMonThanks12
+{STR_VAR_1}が　いちばん　なら\nきみの　いう　とおりに\lするぜ！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！
+@@gText_ApprenticeWhichMon13
+あ　{PLAYER}{KUN}‥\nひどい　ずつうが　するの‥\pそだてる　ポケモンの　ことを\nかんがえすぎた　みたい\pそういう　わけで\nきめて　ほしいの\p{PLAYER}{KUN}　{STR_VAR_1}と\n{STR_VAR_2}から　えらぶ\lなら　どっちが　いい？
+@@gText_ApprenticeMonThanks13
+うん　{STR_VAR_1}ね　わかった\nよく　なったら　さがしに\lいくわ\pこれからも　たよらせてね
+@@gText_ApprenticeWhichMon14
+えっと‥　あの‥\n{PLAYER}{KUN}‥？\pそんなに　みないで\nください　あせっちゃう‥\lア　アドバイスが　ほしいんです\pほ　ほんとうに　はずかしい\nけど　つかう　ポケモンが\lきめられなくて\p{STR_VAR_1}と　{STR_VAR_2}なら\nどっちが　いい　ですか？
+@@gText_ApprenticeMonThanks14
+あ‥　はい！\n{STR_VAR_1}で　がんばります\pあせらずに\nがんばれると　いいな\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します
+@@gText_ApprenticeWhichMon15
+ん？　{PLAYER}{KUN}の\nようだが‥\lほんとうに　ほんもの　かね？\pいや　ほんものなら　いいんだ\nところで　きみの　アドバイスが\lほしいのだが\pわたしが　つかう\nポケモンの　ことだ\p{STR_VAR_1}と　{STR_VAR_2}なら\nわたしに　ふさわしいのは\lどちらかね？
+@@gText_ApprenticeMonThanks15
+{STR_VAR_1}？\nたしか　かね？\pなるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pわたしにも　うまく\nあつかえると　いいのだが\pまた　あおう！
