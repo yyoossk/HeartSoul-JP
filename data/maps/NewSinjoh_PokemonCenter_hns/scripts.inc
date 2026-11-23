@@ -39,29 +39,16 @@ NewSinjoh_PokemonCenter_hns_Map::
 	end
 
 NewSinjoh_PokemonCenter_Text_Skiier:
-	.string "The snow makes it hard to navigate\n"
-	.string "this place.\p"
-	.string "It all looks the same.\p"
-	.string "So this map is a big help!\p"
-	.string "What a beautiful region!$"
+	.string "ゆきで　みちが\nわかりにくいの\pどこも　おなじに\nみえるのよ\pだから　この　ちずは\nとても　たすかるわ！\pなんて　きれいな\nちほう　かしら！$"
 
 NewSinjoh_Text_Artist:
-	.string "I've found great inspiration in\n"
-	.string "this hidden town!\p"
-	.string "Don't you think the landscape\n"
-    .string "is breathtaking?$"
+	.string "この　かくれざとで\nすごい　インスピレーションを\lえたよ！\pこの　けしき　いきを　のむ\nほど　だと　おもわない？$"
 
 Text_ItemGiveaway:
-	.string "I see!\n"
-	.string "You must be an artist as well!\p"
-	.string "I happen to have an extra something\n"
-	.string "that'll help you notice the tiny\l"
-    .string "details of life!$"
+	.string "そうか！\nきみも　げいじゅつか\lなんだね！\pせいかつの　こまかな　ところに\nきづける　ものが　ちょうど\lひとつ　あまってるんだ！$"
 
 NewSinjoh_Text_Artist_No:
-    .string "You aren't one of those anti-tourist\n"
-    .string "types are you?\n"
-	.string "Beauty is meant to be shared.$"
+	.string "まさか　かんこうきゃく\nぎらいの　ひと？\lうつくしさは　わかちあう\lものだよ$"
 
 NewSinjoh_EventScript_ZoomLens_No::
 	msgbox NewSinjoh_Text_Artist_No, MSGBOX_DEFAULT
@@ -74,19 +61,15 @@ NewSinjoh_EventScript_ZoomLens_Gotten::
 	end
 
 Text_WasGiven_ZoomLensAlready:
-	.string "I hope you enjoy that lens!$"
+	.string "その　レンズ\nたのしんで　ね！$"
 
 NewSinjoh_EventScript_FemAce::
 	msgbox NewSinjoh_Text_FemAce, MSGBOX_NPC
 	end
 
 NewSinjoh_Text_FemAce:
-	.string "We don't have many modern\n"
-	.string "commodities in NEW SINJOH.\p"
-	.string "But at least we have this\n"
-	.string "POKéMON CENTER.$"
+	.string "ニューシンジョウには\nさいしんの　ものは\lあまり　ないの\pでも　ポケモンセンターは\nあるから　たすかるわ$"
 
 
 NewSinjoh_PokemonCenter_hns_Text_0:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "SINJOH map.$"
+	.string "{PLAYER}は　シンジョウの\nちずを　よく　みた$"

@@ -34,8 +34,7 @@ NewSinjoh_HauntedHouse_EventScript_TooEarly::
     end
 
 NewSinjoh_HauntedHouse_Text_TooEarlyNoReaction:
-    .string "You sense an odd presence...\p"
-    .string "But there is no reaction.$"
+	.string "ふしぎな　けはいを\nかんじる‥\pしかし　なにも\nおこらない$"
 
 NewSinjoh_HauntedHouse_EventScript_StartScary::
     msgbox NewSinjoh_HauntedHouse_Text_StartScary, MSGBOX_AUTOCLOSE
@@ -134,8 +133,7 @@ NewSinjoh_House3_Movement_CameraPanRight:
     step_end
 
 NewSinjoh_HauntedHouse_Text_StartScary:
-    .string "You sense an odd presence...\p"
-    .string "Are you being watched?$"
+	.string "ふしぎな　けはいを\nかんじる‥\pだれかに　みられて\nいる‥？$"
 
 NewSinjoh_HauntedHouse_EventScript_Log1::
     msgbox NewSinjoh_HauntedHouse_Text_Log1, MSGBOX_SIGN
@@ -150,51 +148,11 @@ NewSinjoh_HauntedHouse_EventScript_Log3::
     end
 
 NewSinjoh_HauntedHouse_Text_Log1:
-  	.string "Research Log 9:  September 20, 1975\p"
-	.string "The days are getting shorter now\n"
-	.string "and the wind is becoming harsh.\p"
-    .string "The villagers were quite welcoming.\p"
-    .string "They are allowing me to stay here\n"
-    .string "in this cabin for the winter.\p"
-	.string "It seems a family used to live here.\n"
-	.string "I often think about my family.\p"
-	.string "Maybe I will have the courage to\n"
-    .string "return to them in the spring.$"
+	.string "けんきゅうにっし　9\n1975ねん　9がつ20にち\pひが　みじかく　なり\nかぜも　つよく　なってきた\pむらの　ひとは　あたたかく\nむかえて　くれた\pふゆの　あいだ　この　こやに\nとめて　くれる　そうだ\pむかし　かぞくが　すんでいた\nらしい　わたしも　よく\lかぞくの　ことを　おもう\pはるに　なれば　かえる\nゆうきが　でるかも\lしれない$"
 
 NewSinjoh_HauntedHouse_Text_Log2:
-    .string "Research Log 10: October 20, 1975\p"
-    .string "My thoughts have turned dark.\p"
-    .string "Perhaps it is the changing of the\n"
-    .string "seasons.\p"
-    .string "The villagers continue to treat me\n"
-    .string "as one of their own.\p"
-    .string "But the guilt I carry prevents me from\n"
-    .string "returning the sentiment.\p"
-    .string "I rarely leave the cabin now.\p"
-    .string "And when I think of my family...\n"
-    .string "Their faces have changed...\l"
-    .string "I only see the faces of the POKéMON\l"
-    .string "that were lost at the ruins...\p"
-    .string "Sometimes I think the POKéMON are\n"
-    .string "here with me. I see them in\l"
-    .string "reflections, I feel their gaze.\p"
-    .string "Things will be better in the spring.$"
+	.string "けんきゅうにっし　10\n1975ねん　10がつ20にち\pかんがえが　くらく\nなって　きた\pきせつの　かわりめの\nせいかも　しれない\pむらの　ひとは　いまも\nなかまの　ように　せっして\lくれる\pだが　つみの　いしきが\nそれに　こたえさせて\lくれない\pもう　ほとんど　こやから\nでない\pかぞくを　おもいだすと‥\nかおが　かわって　いる‥\lいせきで　うしなった\lポケモンの　かお　ばかりが‥\pときどき　ポケモンが　ここに\nいる　きが　する\lかがみに　うつり\lしせんを　かんじる\pはるに　なれば\nよく　なるだろう$"
 
 NewSinjoh_HauntedHouse_Text_Log3:
-    .string "Research Log 10: November 1, 1975\p"
-    .string "I am not alone here.\n"
-    .string "Maybe I never was.\p"
-    .string "The POKéMON are with me...\p"
-    .string "They are angry with me, I think.\p"
-    .string "Objects are thrown, doors slam.\p"
-    .string "Heavy boxes block the front door.\p"
-    .string "But truthfully, I could leave\n"
-    .string "if I wanted to.\p"
-    .string "There is nothing else for me now.\p"
-    .string "I've written of a family before,\n"
-    .string "but the POKéMON are the only family\l"
-    .string "I can remember...\p"
-    .string "I am running out of food, but my\n"
-    .string "guilt outpaces my hunger.\p"
-    .string "I think I will stay here a while...$"
+	.string "けんきゅうにっし　10\n1975ねん　11がつ1にち\pわたしは　ひとりでは　ない\nいや　ずっと　そうだったのかも\pポケモンが　ここに　いる‥\pおこって　いる\nのだと　おもう\pものが　なげられ\nとびらが　しまる\pおもい　はこが\nげんかんを　ふさいでいる\pだが　ほんとうは　でようと\nおもえば　でられる\pもう　わたしには\nなにも　ない\pかぞくの　ことを　かいたが\nおぼえて　いる　かぞくは\lポケモン　だけだ‥\pたべものが　つきかけて\nいるが　つみの　いしきが\lくうふくに　まさる\pしばらく　ここに\nいようと　おもう‥$"
   

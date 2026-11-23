@@ -220,28 +220,21 @@ NewSinjoh_EventScript_SpringsSageAfter::
 NewSinjoh_Text_SpringsSage:
 	.string "あたらしい　ひとびとが　きてから\nむらは　わかれ　あらそいが\lたえぬ\pどちらの　たちばで　あれ\nつりあいが　みだれて\lいるのは　あきらかじゃ\pじもとの　ものにも\nかんこうきゃくにも\lやさしく　して　おくれ$"
 NewSinjoh_Text_SpringsSageAfter:
-	.string "Things have been better since\n"
-	.string "the legendary POKéMON were quelled.\p"
-	.string "Balance has returned to SINJOH.$"
+	.string "でんせつの　ポケモンが\nしずまって　から\lよく　なった\pシンジョウに　つりあいが\nもどったのじゃ$"
 
 NewSinjoh_EventScript_Sage2::
 	msgbox NewSinjoh_Text_Sage2, MSGBOX_NPC
 	end
 
 NewSinjoh_Text_Sage2:
-	.string "Times change, but the STANTLER\n"
-	.string "still gather. For that, we can\l"
-	.string "be thankful.$"
+	.string "ときは　かわれど　オドシシは\nいまも　あつまる\lありがたい　ことじゃ$"
 
 NewSinjoh_EventScript_Daughter::
 	msgbox NewSinjoh_Text_Daughter, MSGBOX_NPC
 	end
 
 NewSinjoh_Text_Daughter:
-    .string "Wheeeeee!!\p"
-    .string "Look, Mommy!\n"
-    .string "No hands!\p"
-	.string "Just like the snowboarders!$"
+	.string "わーーーい！！\pみて　ママ！\nてばなし！\pスノーボーダー\nみたいでしょ！$"
 
 NewSinjoh_EventScript_Mother::
 	lock
@@ -253,32 +246,28 @@ NewSinjoh_EventScript_Mother::
 	end
 
 NewSinjoh_Text_Mother:
-    .string "Look at my adorable baby go!\p"
-    .string "This rink has been here\n"
-	.string "for generations, but the children\l"
-	.string "never used it until the newcomers\l"
-	.string "arrived.$"
+	.string "うちの　こ　かわいい\nでしょ！\pこの　リンクは　むかしから\nあるけど　こどもたちが　つかい\lだしたのは　あたらしい　ひとが\lきてから　なのよ$"
 
 NewSinjoh_EventScript_Welcome_Sign::
 	msgbox NewSinjoh_Text_Welcome_Sign, MSGBOX_SIGN
 	end
 
 NewSinjoh_Text_Welcome_Sign:
-	.string "NEW SINJOH$"
+	.string "ニューシンジョウ$"
 
 NewSinjoh_EventScript_Resturant_Sign::
 	msgbox NewSinjoh_Text_Resturant_Sign, MSGBOX_SIGN
 	end
 
 NewSinjoh_Text_Resturant_Sign:
-	.string "FAMILY CAFE$"
+	.string "ファミリーカフェ$"
 
 NewSinjoh_EventScript_Cave_Sign::
 	msgbox NewSinjoh_Text_Cave_Sign, MSGBOX_SIGN
 	end
 
 NewSinjoh_Text_Cave_Sign:
-	.string "HOT SPRINGS CAVE$"
+	.string "おんせんの　どうくつ$"
 
 NewSinjoh_EventScript_Hiker::
 	goto_if_ge VAR_SINJOH_STORYLINE, 13, NewSinjoh_EventScript_HikerAfter
@@ -289,14 +278,9 @@ NewSinjoh_EventScript_HikerAfter::
 	end
 
 NewSinjoh_Text_Hiker:
-	.string "Business is booming!\n"
-	.string "But prices have gone up since\l"
-	.string "the city folk became interested\l"
-	.string "in our little town.$"
+	.string "しょうばいは　だいはんじょう！\nでも　まちの　ひとが　この\lむらに　きょうみを　もって\lから　ものの　ねだんが\lあがって　しまった$"
 NewSinjoh_Text_HikerAfter:
-	.string "Business is booming!\p"
-	.string "And with how much that silver haried\n"
-	.string "guy tips, prices have come down!$"
+	.string "しょうばいは　だいはんじょう！\pそれに　あの　ぎんいろの　かみの\nひとが　チップを　はずむ　から\lねだんも　さがったよ！$"
 
 NewSinjoh_EventScript_OldLady4::
 	goto_if_ge VAR_SINJOH_STORYLINE, 13, NewSinjoh_EventScript_OldLady4After
@@ -307,9 +291,9 @@ NewSinjoh_EventScript_OldLady4After::
 	end
 
 NewSinjoh_Text_OldLady4:
-	.string "I only sell to locals!$"
+	.string "じもとの　ひとに\nしか　うらないよ！$"
 NewSinjoh_Text_OldLady4After:
-	.string "I STILL only sell to locals!$"
+	.string "いまでも　じもとの\nひとに　しか　うらないよ！$"
 
 NewSinjoh_EventScript_Item_DuskBall::
 	finditem ITEM_DUSK_BALL

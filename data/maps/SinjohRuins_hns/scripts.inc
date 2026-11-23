@@ -154,21 +154,10 @@ SinjohRuins_StairsScene::
     end
 
 SinjohRuins_Text_StevenGotoStairs1:
-    .string "STEVEN: This could only mean one thing.$"
+	.string "ダイゴ『つまり　こういう\nことか$"
 
 SinjohRuins_Text_StevenGotoStairs2:
-    .string "{PLAYER}. We were able to decipher\n"
-    .string "the rest of the glyphs...\p"
-    .string "If the translation is right, \n"
-    .string "the POKéMON at the top of that\l"
-    .string "staircase is the most powerful\l"
-    .string "being in the universe.\p"
-    .string "And it is my duty as former\n"
-    .string "CHAMPION of the HOENN LEAGUE\l"
-    .string "to make sure you are strong\l"
-    .string "enough to face it.\p"
-    .string "Meet me at that landing\n"
-    .string "when you are ready.$"
+	.string "{PLAYER}くん　のこりの\nもじも　かいどく　できたよ‥\pやくが　ただしければ\nあの　かいだんの　うえの\lポケモンは　うちゅうで\lもっとも　つよい　そんざいだ\pそして　ホウエンリーグの\nもと　チャンピオン　として\lきみが　たちむかえる　ほど\lつよいか　たしかめるのが\lぼくの　つとめだ\pじゅんびが　できたら\nあの　おどりばに\lきて　くれ$"
 
 SinjohRuins_Movement_StevenGoesToStairs:
     walk_up
@@ -321,35 +310,22 @@ SinjohRuins_EventScript_StevenBattle::
     return
 
 SinjohRuins_Text_HealParty::
-    .string "STEVEN: Let me heal your POKéMON\n"
-    .string "before you go.$"
+	.string "ダイゴ『いく　まえに\nポケモンを　かいふく\lして　あげよう$"
 
 SinjohRuins_Text_StevenAfterPlate:
-    .string "STEVEN: Good luck, {PLAYER}\p"
-    .string "Go on, I'm right behind you.$"
+	.string "ダイゴ『がんばって\n{PLAYER}くん\pさあ　いって\nぼくも　すぐ　あとから　いく$"
 
 SinjohRuins_Text_StevenAfterBattle:
-	.string "STEVEN: To think, another trainer \n"
-	.string "would defeat me like this.\p"
-    .string "Incredible.\p"
-	.string "Take this, it's the final plate.$"
+	.string "ダイゴ『ほかの　トレーナーに\nこんな　ふうに　まけるとは\pおどろいたよ\pこれを　うけとって\nさいごの　プレートだ$"
 
 SinjohRuins_Text_StevenReadytoBattle:
-    .string "STEVEN: {PLAYER}.\p"
-    .string "Ever since I first saw the\n"
-    .string "determination in your eyes,\l"
-    .string "I felt it would lead to this.\p"
-    .string "I will test the bond between you\n"
-    .string "and your POKéMON.\p"
-    .string "Are you ready?$"
+	.string "ダイゴ『{PLAYER}くん\pきみの　めに　けついを\nみた　ときから　こうなると\lかんじて　いたよ\pきみと　ポケモンの\nきずなを　ためさせて\lもらう\pじゅんびは　いいかい？$"
 
 SinjohRuins_Text_ChallengeSteven:
-	.string "Okay, {PLAYER}{KUN}, if you're going to mount\n"
-	.string "a serious challenge, expect the worst!$"
+	.string "よし　{PLAYER}{KUN}　ほんきで\nいどむ　なら　かくご　したまえ！$"
 
 SinjohRuins_Text_StevenDefeat:
-	.string "You...\n"
-	.string "You are ready.$"
+	.string "きみは‥\nじゅんびが　できている$"
 
 SinjohRuins_EventScript_Steven::
     msgbox SinjohRuins_Text_StevenAfterPlate, MSGBOX_NPC
@@ -360,5 +336,5 @@ SinjohRuins_EventScript_Sign::
     end
 
 SinjohRuins_Text_Sign:
-    .string "SINJOH RUINS$"
+	.string "シンジョウいせき$"
 
