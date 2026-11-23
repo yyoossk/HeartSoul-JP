@@ -1,215 +1,98 @@
 gText_ApprenticeChallenge0::
-	.string "Um, I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "Snivel… This tension is getting to me…$"
+	.string "あの　{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　です　ぐすん‥\lきんちょう　しちゃう‥$"
 
 gText_ApprenticeChallenge1::
-	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "Here we come!$"
+	.string "{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　だ！　いくぞ！$"
 
 gText_ApprenticeChallenge2::
-	.string "I'm the no. {STR_VAR_2} apprentice of {STR_VAR_1}!\n"
-	.string "Accept my challenge!$"
+	.string "{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし！　しょうぶ　だ！$"
 
 gText_ApprenticeChallenge3::
-	.string "Um… I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice…\n"
-	.string "Do you think someone like me can win?$"
+	.string "あの‥　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし　です‥\lぼくなんかが　かてる　かな？$"
 
 gText_ApprenticeChallenge4::
-	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "I'll let you challenge me!$"
+	.string "{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし！　あいて　して　やるよ！$"
 
 gText_ApprenticeChallenge5::
-	.string "I'm horribly busy, but I also happen\n"
-	.string "to be {STR_VAR_1}'s no. {STR_VAR_2} apprentice.$"
+	.string "いそがしいけど　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でしでも\lあるのよ$"
 
 gText_ApprenticeChallenge6::
-	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "Glad to meet you!$"
+	.string "{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　です　よろしく！$"
 
 gText_ApprenticeChallenge7::
-	.string "I serve as {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "May I begin?$"
+	.string "{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでしを　つとめて　おります\lはじめても　よろしいですか？$"
 
 gText_ApprenticeChallenge8::
-	.string "Eek! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "I'll do my best!$"
+	.string "きゃっ！　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし　です！\lがんばります！$"
 
 gText_ApprenticeChallenge9::
-	.string "Yeehaw! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "Put 'em up!$"
+	.string "いやっほう！　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でしだ！\lかかって　こい！$"
 
 gText_ApprenticeChallenge10::
-	.string "I'm {STR_VAR_1}'s 1,000th apprentice!\n"
-	.string "Actually, I'm no. {STR_VAR_2}! Here goes!$"
+	.string "{STR_VAR_1}の　1000ばんめの　でし！\nじつは　{STR_VAR_2}ばんめ！　いくよ！$"
 
 gText_ApprenticeChallenge11::
-	.string "Yeah, I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "Let's get rockin' and a-rollin'!$"
+	.string "そう　{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　さ！　ノリノリで\lいこうぜ！$"
 
 gText_ApprenticeChallenge12::
-	.string "Yippee-yahoo! I'm what you call\n"
-	.string "{STR_VAR_1}'s no. {STR_VAR_2} apprentice!$"
+	.string "やっほー！　わたしこそ\n{STR_VAR_1}の　{STR_VAR_2}ばんめの\lでし！$"
 
 gText_ApprenticeChallenge13::
-	.string "Cough! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "Good to meet you! Cough!$"
+	.string "ごほっ！　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし　です\lよろしく！　ごほっ！$"
 
 gText_ApprenticeChallenge14::
-	.string "This is nerve-racking…\n"
-	.string "I'm the no. {STR_VAR_2} apprentice of {STR_VAR_1}.$"
+	.string "どきどき　する‥\n{STR_VAR_1}の　{STR_VAR_2}ばんめの\lでし　です$"
 
 gText_ApprenticeChallenge15::
-	.string "I am {STR_VAR_1}'s no. {STR_VAR_2} apprentice,\n"
-	.string "and that's no lie.$"
+	.string "わたしは　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし\lうそじゃ　ないわ$"
 
 gText_ApprenticePleaseTeach0::
-	.string "Are you… {PLAYER}?\n"
-	.string "Oh! Sniff…sob…\p"
-	.string "Oh! S-sorry…\n"
-	.string "I'm so nervous, I can't help crying…\p"
-	.string "I'm {STR_VAR_1}, and I really look up\n"
-	.string "to you, {PLAYER}.\p"
-	.string "I… I had this dream of one day meeting\n"
-	.string "you and asking you about POKéMON.\p"
-	.string "Please, please, {PLAYER}!\n"
-	.string "Please teach me about POKéMON!$"
+	.string "あなたは‥　{PLAYER}さん？\nあっ！　ぐすっ‥　ひっく‥\pあっ！　ご　ごめんなさい‥\nきんちょう　して　なみだが\lとまらなくて‥\pぼく　{STR_VAR_1}って　いいます\n{PLAYER}さんに　あこがれて\lいるんです\pいつか　{PLAYER}さんに　あって\nポケモンの　ことを\lきくのが　ゆめ　でした\pおねがい　します　{PLAYER}さん！\nポケモンの　ことを\lおしえて　ください！$"
 
 gText_ApprenticeRejectTeaching0::
-	.string "Oh… B-but…\n"
-	.string "Snivel… Waaaaaaah!\p"
-	.string "Please!\n"
-	.string "I'm begging you, please!$"
+	.string "そ‥　そんな‥\nぐすん‥　うわーん！\pおねがい　します！\nこの　とおり　です！$"
 
 gText_ApprenticeWhichLevelMode0::
-	.string "Oh, really? You will?\n"
-	.string "Awesome! Wicked! Awoooh!\p"
-	.string "Oh… I'm sorry…\n"
-	.string "I'm so happy, I'm crying…\p"
-	.string "Um… Then please tell me!\n"
-	.string "It's about the BATTLE TOWER.\p"
-	.string "Which would be better for me: Level 50\n"
-	.string "or the Open Level?$"
+	.string "ほんと？　いいの？\nやった！　すごい！　うおお！\pあっ‥　ごめんなさい‥\nうれしくて　なみだが‥\pえっと‥　じゃあ　おしえて\nください！\lバトルタワーの　ことです\pぼくには　レベル50と\nオープンレベル　どっちが\lいい　ですか？$"
 
 gText_ApprenticeLevelModeThanks0::
-	.string "{STR_VAR_1}?\n"
-	.string "Waaaaah!\p"
-	.string "Oh! I'm so sorry!\n"
-	.string "You've made me happy by choosing\l"
-	.string "the level for me, and it's made me cry…\p"
-	.string "Snivel…\n"
-	.string "Thank you so much!\l"
-	.string "Please talk with me again!$"
+	.string "{STR_VAR_1}　ですね？\nうわーん！\pあっ！　ごめんなさい！\nレベルを　えらんで　もらえて\lうれしくて　ないちゃった‥\pぐすん‥\nほんとうに　ありがとう！\lまた　はなして　ください！$"
 
 gText_ApprenticePleaseTeach1::
-	.string "Wowee! You're {PLAYER}, aren't you?\n"
-	.string "You're awesomely strong, aren't you?\p"
-	.string "I'm {STR_VAR_1}!\n"
-	.string "I just became a TRAINER!\p"
-	.string "Please, {PLAYER}!\n"
-	.string "Can you be my teacher and tell me\l"
-	.string "lots about being a TRAINER?$"
+	.string "わあ！　{PLAYER}さん　だよね？\nめちゃくちゃ　つよいん\lでしょ？\pぼく　{STR_VAR_1}！\nトレーナーに　なった\lばかり　なんだ！\pおねがい　{PLAYER}さん！\nせんせいに　なって\lトレーナーの　こと\lいろいろ　おしえて！$"
 
 gText_ApprenticeRejectTeaching1::
-	.string "Aww, why?\n"
-	.string "Oh, please? Pretty please?\l"
-	.string "Please be my teacher, please!$"
+	.string "えー　なんで？\nおねがい！　ねえ　おねがい！\lせんせいに　なって！$"
 
 gText_ApprenticeWhichLevelMode1::
-	.string "Yay! Great!\p"
-	.string "The first thing I wanted to ask you is\n"
-	.string "about the BATTLE TOWER!\p"
-	.string "The Level 50 and Open Level Rooms…\n"
-	.string "Which would be perfect for me?$"
+	.string "やった！　うれしい！\pまず　ききたいのは\nバトルタワーの　こと！\pレベル50と　オープンレベルの\nへや‥　ぼくには\lどっちが　ぴったり？$"
 
 gText_ApprenticeLevelModeThanks1::
-	.string "{STR_VAR_1}, huh? That's true!\n"
-	.string "I'll do my best there!\p"
-	.string "If we meet here again, please teach\n"
-	.string "me something else, teacher!$"
+	.string "{STR_VAR_1}か！　そうだね！\nそこで　がんばるよ！\pまた　ここで　あったら\nほかの　ことも　おしえてね\lせんせい！$"
 
 gText_ApprenticePleaseTeach2::
-	.string "Um… Are you {PLAYER}?\n"
-	.string "My name is {STR_VAR_1}.\p"
-	.string "I want to become a POKéMON TRAINER,\n"
-	.string "but I don't know what to do…\p"
-	.string "So I thought maybe I could ask you for\n"
-	.string "advice because you're so famous.\p"
-	.string "{PLAYER}, could you give me advice?$"
+	.string "あの‥　{PLAYER}さん　ですか？\nわたし　{STR_VAR_1}と　いいます\pポケモントレーナーに　なりたい\nけど　どうしたら　いいか\lわからなくて‥\pゆうめいな　あなたなら\nアドバイス　して　もらえるかと\lおもって\p{PLAYER}さん　アドバイスを\nもらえませんか？$"
 
 gText_ApprenticeRejectTeaching2::
-	.string "Oh, but…\p"
-	.string "I sincerely want to become a POKéMON\n"
-	.string "TRAINER!\p"
-	.string "Please, can you answer my questions?$"
+	.string "で　でも‥\pわたし　ほんきで　ポケモン\nトレーナーに　なりたいんです！\pおねがい　しつもんに\nこたえて　もらえませんか？$"
 
 gText_ApprenticeWhichLevelMode2::
-	.string "Thank you!\n"
-	.string "Here's my first question right away!\p"
-	.string "The BATTLE TOWER has two levels,\n"
-	.string "Level 50 and Open Level, right?\p"
-	.string "Which level do you think is more\n"
-	.string "suitable for me?$"
+	.string "ありがとう　ございます！\nさっそく　さいしょの\lしつもん　です！\pバトルタワーには　レベル50と\nオープンレベルの　ふたつが\lあります　よね？\pわたしには　どっちが\nむいて　いると　おもいますか？$"
 
 gText_ApprenticeLevelModeThanks2::
-	.string "Oh, the {STR_VAR_1} challenge?\n"
-	.string "Understood!\p"
-	.string "If I have another question, I'll come\n"
-	.string "back here for your advice!$"
+	.string "{STR_VAR_1}に　ちょうせん　ですね？\nわかりました！\pまた　しつもんが　あったら\nここに　アドバイスを\lもらいに　きます！$"
 
 gText_ApprenticePleaseTeach3::
-	.string "Oh? Huh? You're…\n"
-	.string "No, that can't be true.\p"
-	.string "There isn't any way that someone\n"
-	.string "like me could meet {PLAYER}.\p"
-	.string "…You really are {PLAYER}?\n"
-	.string "I can't believe I'm talking to you!\p"
-	.string "When something this good happens,\n"
-	.string "only terrible things will happen to me\l"
-	.string "now, I just know it…\p"
-	.string "…I'm sorry…\n"
-	.string "I'm… {STR_VAR_1}…\p"
-	.string "There isn't anything special about\n"
-	.string "me that I can be proud of…\p"
-	.string "I shouldn't even say anything about\n"
-	.string "myself because you'll forget…\p"
-	.string "I had this dream that if I ever met\n"
-	.string "you, {PLAYER}, that maybe I could ask\l"
-	.string "you for advice as a TRAINER.\p"
-	.string "But I don't think you would agree\n"
-	.string "to that.\p"
-	.string "…Or will you be so kind as to give\n"
-	.string "me advice?$"
+	.string "え？　あれ？　あなたは‥\nいや　そんな　はずない\pぼくなんかが　{PLAYER}さんに\nあえる　わけが　ない\p‥ほんとうに　{PLAYER}さん？\nしんじられない！\pこんなに　いい　ことが　あると\nこの　あと　きっと　わるい\lことが　おきる‥\p‥ごめんなさい‥\nぼく‥　{STR_VAR_1}です‥\pぼくには　じまん　できる\nところなんて　なにも\lないんです‥\pじぶんの　ことを　はなしても\nどうせ　わすれられちゃう‥\pもし　{PLAYER}さんに　あえたら\nトレーナーとして　アドバイスを\lもらえたらって　ゆめみて\lいました\pでも　ひきうけて　もらえるとは\nおもえないし‥\p‥それとも　アドバイス\nして　もらえますか？$"
 
 gText_ApprenticeRejectTeaching3::
-	.string "I knew it…\p"
-	.string "It had to happen because I'm such\n"
-	.string "a really boring nobody…\p"
-	.string "But I thought just maybe…\n"
-	.string "You won't reconsider, will you?\p"
-	.string "But I can't give up just like that.\n"
-	.string "I'll ask you while I'm still lucky!\p"
-	.string "Please, will you be so kind as to give\n"
-	.string "me advice?$"
+	.string "やっぱり‥\pぼくみたいな　つまらない\nやつ　だから　しかたない‥\pでも　もしかしたらって‥\nかんがえなおして　もらえません\lよね？\pでも　ここで　あきらめたくない\nついてる　うちに　おねがい\lします！\pどうか　アドバイスを\nもらえませんか？$"
 
 gText_ApprenticeWhichLevelMode3::
-	.string "Really? I can't believe it!\n"
-	.string "I can't believe you'll advise me!\l"
-	.string "I… I'm so happy…\p"
-	.string "What I want to ask you is really\n"
-	.string "trivial, but I can't decide…\p"
-	.string "At the BATTLE TOWER, they let you\n"
-	.string "choose Level 50 or Open Level.\p"
-	.string "Which course do you think even I may\n"
-	.string "have a chance at?$"
+	.string "ほんとうに？　しんじられない！\nアドバイス　して　もらえるなんて！\lう　うれしい‥\pききたい　ことは　ほんとうに\nつまらない　ことなんですが\lきめられなくて‥\pバトルタワーでは　レベル50か\nオープンレベルを　えらべます\pぼくでも　かてそうなのは\nどっちだと　おもいますか？$"
 
 gText_ApprenticeLevelModeThanks3::
-	.string "{STR_VAR_1}? Okay!\n"
-	.string "But do you really think someone like\l"
-	.string "me would have a chance?\p"
-	.string "I'll do my best, even though I don't\n"
-	.string "think it will work.\p"
-	.string "Thank you very much for spending\n"
-	.string "time with someone like me.$"
+	.string "{STR_VAR_1}？　わかりました！\nでも　ほんとうに　ぼくなんかに\lチャンスが　あるのかな？\pむりだと　おもうけど\nがんばって　みます\pぼくなんかの　ために　じかんを\nとって　くれて　ほんとうに\lありがとう　ございました$"
 
 gText_ApprenticePleaseTeach4::
 	.string "Oh! You're {PLAYER}{KUN}, aren't you?\p"

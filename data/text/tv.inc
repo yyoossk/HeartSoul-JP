@@ -1113,301 +1113,109 @@ gTVPokemonBattleUpdateText07::
 	.string "{STR_VAR_2}の　チームの\n{STR_VAR_3}は　いいところが\lなく　いたかった　ですね\p{STR_VAR_1}　チームの\nしょうり　おめでとう！\pまけた　{STR_VAR_2}の\nチームは　つぎの\lかつやくに　きたい\lしましょう！\pいじょう　ポケモンバトル\nそくほう　でした！$"
 
 GabbyAndTy_Text_GabbyPreFirstBattle:
-	.string "GABBY: Oh! We've just spotted a tough-\n"
-	.string "looking TRAINER here of all places!\p"
-	.string "Okay, roll camera!\n"
-	.string "Let's get this interview.$"
+	.string "マリ『あっ！　こんな　ところに\nつよそうな　トレーナー\lはっけん！\pダイ　カメラ　まわして！\nインタビュー　するよ！$"
 
 GabbyAndTy_Text_GabbyIntro:
-	.string "GABBY: Oh! You're {PLAYER}! Hi!\n"
-	.string "Do you remember us from last time?\p"
-	.string "Can you show us how much stronger\n"
-	.string "you've become? Okay, cue interview!$"
+	.string "マリ『あっ！　{PLAYER}くん！\nこんにちは！　まえに　あったの\lおぼえてる？\pどれだけ　つよく　なったか\nみせて　くれる？\lじゃあ　インタビュー　スタート！$"
 
 GabbyAndTy_Text_GabbyDefeatFirstTime:
-	.string "GABBY: My eyes didn't lie!\n"
-	.string "I did discover an astonishing TRAINER!$"
+	.string "マリ『わたしの　めに\nくるいは　なかった！\lすごい　トレーナーを\lはっけん　しちゃった！$"
 
 GabbyAndTy_Text_WhoAreYouInterview:
-	.string "GABBY: Awesome! Awesome!\n"
-	.string "Who are you?!\p"
-	.string "I knew we were onto something wild\n"
-	.string "when we spotted you!\p"
-	.string "Oh, please let me explain. We travel\n"
-	.string "around everywhere interviewing all\l"
-	.string "sorts of TRAINERS.\p"
-	.string "So, would you give us a bit of your time\n"
-	.string "for an interview?$"
+	.string "マリ『すごい！　すごい！\nあなた　だれ？！\pみつけた　ときから　なにか\nありそうだと　おもってたの！\pあ　せつめい　するね　わたしたち\nあちこち　まわって　いろんな\lトレーナーに　インタビュー\lしてるの\pちょっと　だけ　インタビューに\nつきあって　くれない？$"
 
 GabbyAndTy_Text_QuoteFromLastInterview:
-	.string "GABBY: “{STR_VAR_1}!”\p"
-	.string "Remember? That's the quote you gave\n"
-	.string "us as the battle clincher last time.\p"
-	.string "I never, ever forget stuff like that!$"
+	.string "マリ『『{STR_VAR_1}！』\pおぼえてる？　まえの　バトルで\nあなたが　しめくくりに\lいった　ことば\pそういう　ことは\nぜったい　わすれないの！$"
 
 GabbyAndTy_Text_YouStompedUsInterviewAgain:
-	.string "The last time we battled, you stomped\n"
-	.string "us before we could brace ourselves…\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "まえの　バトルでは　かまえる\nまもなく　やられちゃった‥\pそれで　どう？\nまた　インタビュー\lさせて　くれる？$"
 
 GabbyAndTy_Text_YouThrewABallAtUsInterviewAgain:
-	.string "The last time we battled, didn't you\n"
-	.string "throw a POKé BALL at us?\p"
-	.string "We were shocked! So we told everyone,\n"
-	.string "just everyone, about it!\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "まえの　バトルで　わたしたちに\nボールを　なげなかった？\pびっくり　したから\nみんなに　はなしちゃった！\pそれで　どう？\nまた　インタビュー\lさせて　くれる？$"
 
 GabbyAndTy_Text_CleverItemSkillsInterviewAgain:
-	.string "The last time we battled, your item\n"
-	.string "skills cleverly did us in.\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "まえの　バトルでは　どうぐの\nうまい　つかいかたに\lやられちゃった\pそれで　どう？\nまた　インタビュー\lさせて　くれる？$"
 
 GabbyAndTy_Text_WeLookedRespectableInterviewAgain:
-	.string "The last time we battled, we managed\n"
-	.string "to look respectable.\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "まえの　バトルでは\nけっこう　いい　しょうぶが\lできたよね\pそれで　どう？\nまた　インタビュー\lさせて　くれる？$"
 
 GabbyAndTy_Text_InterviewAgain:
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "それで　どう？\nまた　インタビュー\lさせて　くれる？$"
 
 GabbyAndTy_Text_DescribeYourFeelings:
-	.string "You will?\n"
-	.string "Thank you!\p"
-	.string "Okay, I need you to describe your\n"
-	.string "feelings about our battle, but it\l"
-	.string "has to be short and sweet. Go!$"
+	.string "いいの？\nありがとう！\pじゃあ　バトルの　かんそうを\nみじかく　ひとことで\lおねがい！　どうぞ！$"
 
 GabbyAndTy_Text_PerfectWellBeSeeingYou:
-	.string "GABBY: Mmm, yeah!\n"
-	.string "That's the perfect clincher!\p"
-	.string "I get the feeling that this will make\n"
-	.string "a great TV show.\p"
-	.string "There's a chance that they'll air this\n"
-	.string "on TV, so make sure to look for us!\p"
-	.string "Okay!\n"
-	.string "We'll be seeing you!$"
+	.string "マリ『うんうん　いいね！\nさいこうの　しめくくり！\pいい　ばんぐみに\nなりそうな　きが　する！\pテレビで　ながれる　かも\nしれないから　みのがさないでね！\pじゃあ！\nまた　あおうね！$"
 
 GabbyAndTy_Text_DontGiveUpKeepingEyeOut:
-	.string "GABBY: Oh…\p"
-	.string "Okay, but don't give up!\n"
-	.string "We'll be keeping an eye out for you!$"
+	.string "マリ『そっか‥\pでも　あきらめないよ！\nずっと　ちゅうもく　してるから！$"
 
 GabbyAndTy_Text_KeepingAnEyeOutForYou:
-	.string "GABBY: We'll be keeping an eye out\n"
-	.string "for you!$"
+	.string "マリ『ずっと　ちゅうもく\nしてるからね！$"
 
 GabbyAndTy_Text_GabbyNotEnoughMons:
-	.string "GABBY: Is there a strong TRAINER\n"
-	.string "anywhere with a lot of POKéMON?$"
+	.string "マリ『ポケモンを　たくさん　もった\nつよい　トレーナー\lどこかに　いないかな？$"
 
 GabbyAndTy_Text_GiveUsAnInterviewThisTime:
-	.string "GABBY: Wow, you are something!\p"
-	.string "You've gotten a lot stronger--a lot--\n"
-	.string "since we last battled.\p"
-	.string "We were right about you when we\n"
-	.string "spotted you as a hot TRAINER.\p"
-	.string "So, anyway, what do you think?\n"
-	.string "Are you willing to give us an interview\l"
-	.string "this time?$"
+	.string "マリ『わあ　すごい！\pまえに　たたかった　ときより\nずっと　ずっと　つよく\lなってる！\pやっぱり　すごい　トレーナー\nだって　わたしたちの　めは\lただしかった！\pそれで　どう？\nこんどは　インタビュー\lさせて　くれる？$"
 
 GabbyAndTy_Text_GabbyDefeat:
-	.string "GABBY: That was an intense battle!\n"
-	.string "Did you get all that on camera?$"
+	.string "マリ『はげしい　バトル　だった！\nダイ　ちゃんと　とれた？$"
 
 GabbyAndTy_Text_TyPreFirstBattle:
-	.string "TY: Hey, lookie here! A tough-looking\n"
-	.string "TRAINER here, of all places!\l"
-	.string "Camera's rolling!$"
+	.string "ダイ『おっ　みてみろ！\nこんな　ところに　つよそうな\lトレーナーだ！\lカメラ　まわってるぜ！$"
 
 GabbyAndTy_Text_TyIntro:
-	.string "TY: Hey, lookie here!\n"
-	.string "I remember you!\p"
-	.string "I'll get this battle all on this\n"
-	.string "here camera!$"
+	.string "ダイ『おっ　みてみろ！\nおまえ　おぼえてるぞ！\pこの　バトルは\nこの　カメラで　ぜんぶ\lとって　やるぜ！$"
 
 GabbyAndTy_Text_TyPostBattle:
-	.string "TY: You're a natural!\n"
-	.string "Got me some prime footage right here!$"
+	.string "ダイ『てんさい　だな！\nさいこうの　えが\lとれたぜ！$"
 
 GabbyAndTy_Text_TyNotEnoughMons:
-	.string "TY: Do you only have the one POKéMON\n"
-	.string "and that's it?\p"
-	.string "If you had more POKéMON, it'd make for\n"
-	.string "better footage, but…$"
+	.string "ダイ『ポケモン　1ぴき\nだけ　なのか？\pもっと　いれば　いい　えが\nとれるんだけど‥$"
 
 GabbyAndTy_Text_TyDefeatFirstTime:
-	.string "TY: Yep, we sure spotted a hot TRAINER.\n"
-	.string "This is a huge scoop for us!$"
+	.string "ダイ『ああ　すごい　トレーナーを\nみつけたぜ\lこりゃ　おおスクープだ！$"
 
 GabbyAndTy_Text_TyDefeat:
-	.string "TY: Yep, I got it all.\n"
-	.string "That whole battle's on camera.$"
+	.string "ダイ『ああ　ばっちり　とれた\nバトルは　ぜんぶ\lカメラに　はいってるぜ$"
 
 gTVInSearchOfTrainersText00::
-	.string "IN SEARCH OF TRAINERS…\p"
-	.string "GABBY: Hi! Today I'm visiting an area\n"
-	.string "near {STR_VAR_1}.\p"
-	.string "We're trying to spot some up-and-\n"
-	.string "coming new talent in the field.\p"
-	.string "Today, we turned our lens on the\n"
-	.string "TRAINER {PLAYER}.\p"
-	.string "There's something about this TRAINER\n"
-	.string "that piqued our interest.$"
+	.string "トレーナーを　さがせ‥\pマリ『こんにちは！　きょうは\n{STR_VAR_1}の　ちかくに\lきて　います\pこれから　かつやく　しそうな\nトレーナーを　さがして\lいます\pきょうは　トレーナーの\n{PLAYER}に　ちゅうもく\pこの　トレーナーには\nなにか　ひかれる\lものが　あるんです$"
 
 gTVInSearchOfTrainersText01::
-	.string "We've battled {PLAYER} before, but we\n"
-	.string "can attest that the TRAINER has most\l"
-	.string "definitely improved from before.\p"
-	.string "I knew we were onto someone special\n"
-	.string "when we spotted this TRAINER!$"
+	.string "{PLAYER}とは　まえにも　たたかった\nことが　ありますが\lまえより　たしかに\lつよく　なって　います\pみつけた　ときから　とくべつな\nトレーナーだと　おもってました！$"
 
 gTVInSearchOfTrainersText02::
-	.string "The best way to determine how strong\n"
-	.string "a TRAINER is…\p"
-	.string "Well, the fastest way is to battle.\n"
-	.string "And so we began our investigation!\p"
-	.string "… …\p"
-	.string "That's how we ended up in battle\n"
-	.string "with {PLAYER}.\p"
-	.string "In a dominating performance, we were\n"
-	.string "flattened, rolled up, and tossed aside!\p"
-	.string "{PLAYER} is ruthlessly strong…\p"
-	.string "Here's our impressions after having\n"
-	.string "battled our featured TRAINER.$"
+	.string "トレーナーの　つよさを\nしる　いちばんの　ほうほう‥\pそれは　たたかう　こと！\nさっそく　ちょうさ　かいし！\p‥　‥\pそうして　{PLAYER}と\nたたかう　ことに\lなったんです\pけっかは　かんぱい！\nこてんぱんに　されました！\p{PLAYER}は　ようしゃなく\nつよい‥\pたたかった　あとの\nかんそうを　どうぞ$"
 
 gTVInSearchOfTrainersText03::
-	.string "The combination of {STR_VAR_1} and\n"
-	.string "{STR_VAR_3} was divine!\p"
-	.string "The sight of them--{STR_VAR_1} and\n"
-	.string "{STR_VAR_3}--selflessly supporting\l"
-	.string "each other in the thick of battle…\p"
-	.string "It was a marvelous sight to behold!\p"
-	.string "{STR_VAR_2} was the move the TRAINER\n"
-	.string "used last in our battle.\p"
-	.string "The move {STR_VAR_2} is {STR_VAR_1}\n"
-	.string "and {STR_VAR_3}'s sign of friendship!$"
+	.string "{STR_VAR_1}と　{STR_VAR_3}の\nコンビは　さいこう　でした！\pバトルの　さなかに\n{STR_VAR_1}と　{STR_VAR_3}が\lささえあう　すがた‥\pほんとうに　すばらしい\nながめ　でした！\pトレーナーが　さいごに\nつかった　わざは　{STR_VAR_2}\p{STR_VAR_2}は　{STR_VAR_1}と\n{STR_VAR_3}の　ゆうじょうの\lあかし　です！$"
 
 gTVInSearchOfTrainersText04::
-	.string "…I lost confidence in myself as\n"
-	.string "a result of our encounter.\p"
-	.string "We were beaten before we could launch\n"
-	.string "a single attack.\l"
-	.string "Ohhh… Snivel…\p"
-	.string "In spite of that, {PLAYER}'s battles\n"
-	.string "are worth seeing.\p"
-	.string "I recommend confident TRAINERS to\n"
-	.string "challenge {PLAYER}.$"
+	.string "‥この　であいで\nじしんを　なくしました\pこうげき　する　まもなく\nやられて　しまいました\lううう‥　ぐすん‥\pそれでも　{PLAYER}の　バトルは\nみる　かちが　あります\pじしんの　ある　トレーナーは\n{PLAYER}に　ちょうせん\lして　みて　ください$"
 
 gTVInSearchOfTrainersText05::
-	.string "There's only one thing to be said.\n"
-	.string "Don't you dare throw a POKé BALL during\l"
-	.string "a TRAINER battle!\p"
-	.string "{PLAYER} is certainly strong, but has\n"
-	.string "no clue about the basic rules.\p"
-	.string "To our TV audience, I have a request.\p"
-	.string "If you see {PLAYER}, please caution\n"
-	.string "the TRAINER!$"
+	.string "いいたい　ことは　ひとつ\nトレーナーとの　バトルで\lボールを　なげちゃ　だめ！\p{PLAYER}は　たしかに　つよいけど\nきほんの　ルールを\lわかって　いません\pしちょうしゃの　みなさん\nおねがい　です\p{PLAYER}を　みかけたら\nちゅうい　して　あげて！$"
 
 gTVInSearchOfTrainersText06::
-	.string "{PLAYER} is adept at reading the\n"
-	.string "opponent's actions.\p"
-	.string "The timing of item usage was remarkably\n"
-	.string "effective!$"
+	.string "{PLAYER}は　あいての\nうごきを　よむのが\lうまい　です\pどうぐを　つかう　タイミングが\nとても　こうかてき　でした！$"
 
 gTVInSearchOfTrainersText07::
-	.string "Honestly speaking, I thought that\n"
-	.string "I might even be pretty good.\p"
-	.string "While we did end up losing, we did have\n"
-	.string "a hotly contested battle.\p"
-	.string "But if you're struggling against me,\n"
-	.string "you have a ways to go, {PLAYER}!$"
+	.string "しょうじき　わたしも\nけっこう　やると\lおもって　いました\pまけは　しましたが\nいい　しょうぶ　でした\pでも　わたしに　くろう\nする　ようじゃ　まだまだ\lだよ　{PLAYER}！$"
 
 gTVInSearchOfTrainersText08::
-	.string "After our battle, we asked {PLAYER} for\n"
-	.string "a succinct summary.\p"
-	.string "The TRAINER replied, “{STR_VAR_1}.”\p"
-	.string "{PLAYER}'s POKéMON {STR_VAR_2} and\n"
-	.string "{STR_VAR_3}…\l"
-	.string "And “{STR_VAR_1}”…\p"
-	.string "Mmm! That's deep! There's deep\n"
-	.string "significance behind that quote!\p"
-	.string "It's no surprise--a good TRAINER has\n"
-	.string "good things to say.\p"
-	.string "That's all for today!\n"
-	.string "See you again on our next broadcast!$"
+	.string "バトルの　あと　{PLAYER}に\nひとことで　まとめて\lもらいました\pこたえは　『{STR_VAR_1}』\p{PLAYER}の　ポケモン　{STR_VAR_2}と\n{STR_VAR_3}‥\lそして　『{STR_VAR_1}』‥\pうーん！　ふかい！\nふかい　いみが　ありますね！\pやっぱり　いい　トレーナーは\nいい　ことを　いいます\pきょうは　ここまで！\nまた　つぎの　ほうそうで！$"
 
 ContestLadyShow_Text_Intro::
-	.string "“POKéMON CONTEST LIVE UPDATES!”\p"
-	.string "MC: Sorry to interrupt the regular\n"
-	.string "programming, and thanks for joining us!\p"
-	.string "We bring you this live from\n"
-	.string "the scene of a just-completed\l"
-	.string "{STR_VAR_1}!\p"
-	.string "Spectators: ?!!!!\p"
-	.string "MC: Oh! It looks like the CONTEST\n"
-	.string "participants are headed this way!\p"
-	.string "I'll try to get an impromptu interview\n"
-	.string "for you folks at home!\p"
-	.string "Spectators: ?!!!!\n"
-	.string "?!!!!$"
+	.string "ポケモンコンテスト\nなまちゅうけい！\pしかい『ばんぐみの　とちゅう\nですが　ここで\lなまちゅうけい　です！\pおわった　ばかりの\n{STR_VAR_1}の　げんばから\lおとどけ　します！\pかんきゃく『？！！！！\pしかい『あっ！　コンテストの\nさんかしゃが　こちらに\lきます！\pさっそく　インタビュー\nして　みましょう！\pかんきゃく『？！！！！\n？！！！！$"
 
 ContestLadyShow_Text_Won::
-	.string "MC: Excuse me!\n"
-	.string "Thanks for joining us on live TV!\p"
-	.string "May I congratulate you on your win?\p"
-	.string "What was the key factor in today's\n"
-	.string "stunning victory?\p"
-	.string "BEAUTY: We gave it our best effort\n"
-	.string "today, my {STR_VAR_2} and I!\p"
-	.string "But I'm sure we wouldn't have made it\n"
-	.string "if it weren't for all the help we\l"
-	.string "received leading up to the CONTEST!\p"
-	.string "MC: Do you have a special someone\n"
-	.string "with whom you'd like to share your joy?\l"
-	.string "Let's hear it live!\p"
-	.string "BEAUTY: Hey, out there!\p"
-	.string "{STR_VAR_3}! Are you watching?\n"
-	.string "We did it!\l"
-	.string "Thank you!$"
+	.string "しかい『すみません！\nなまほうそう　です！\pゆうしょう　おめでとう\nございます！\pきょうの　しょうりの\nけっては　なんですか？\pおねえさん『わたしと　{STR_VAR_2}\nせいいっぱい　がんばりました！\pでも　コンテストまでに\nたくさんの　ひとに\lたすけて　もらわなかったら\lかてなかったと　おもいます！\pしかい『この　よろこびを\nつたえたい　ひとは　いますか？\lどうぞ！\pおねえさん『みてる？\p{STR_VAR_3}！　みてる？\nやったよ！\lありがとう！$"
 
 ContestLadyShow_Text_Lost::
-	.string "MC: Excuse me!\n"
-	.string "Thanks for joining us on live TV!\p"
-	.string "You must be disappointed by that turn\n"
-	.string "of events. Do you have any comments?\p"
-	.string "BEAUTY: It's heartbreaking…\n"
-	.string "My {STR_VAR_2} and I, we did our best…\p"
-	.string "But I feel like I've let down everyone\n"
-	.string "who has supported us through this.\p"
-	.string "MC: I hate to say it, but the POKéMON's\n"
-	.string "coloration is a little wanting.\p"
-	.string "BEAUTY: {STR_VAR_3}, I'm so sorry…\n"
-	.string "I'll do better next time, I swear…\l"
-	.string "…Sniff… Waaaaah!\p"
-	.string "Spectators: See that?\n"
-	.string "The poor girl!\p"
-	.string "MC: Uh… Uh-oh…\p"
-	.string "Uh… That's all the time we have today!\n"
-	.string "Thanks for tuning in!$"
+	.string "しかい『すみません！\nなまほうそう　です！\pざんねんな　けっかでしたね\nなにか　ひとこと\lありますか？\pおねえさん『かなしい　です‥\nわたしと　{STR_VAR_2}\lがんばったのに‥\pおうえん　して　くれた\nみんなを　がっかり\lさせちゃった‥\pしかい『いいにくい　ですが\nポケモンの　つやが\lすこし　たりない　ですね\pおねえさん『{STR_VAR_3}\nごめんね‥　つぎは\lがんばるから‥\l‥ぐすん‥　うわーん！\pかんきゃく『みた？\nかわいそう！\pしかい『あ‥　あの‥\pえ‥　きょうは　ここまで！\nごらんいただき\lありがとう　ございました！$"
 
 ContestLadyShow_Text_LostBadly::
-	.string "MC: Excuse me!\n"
-	.string "Thanks for joining us on live TV!\p"
-	.string "How did your CONTEST appearance go?\p"
-	.string "BEAUTY: Nothing went right…\n"
-	.string "For some reason, my {STR_VAR_2}\l"
-	.string "couldn't attract any popularity.\p"
-	.string "MC: I hate to say it, but the POKéMON's\n"
-	.string "coloration is a little wanting.\p"
-	.string "BEAUTY: … … … … … …\n"
-	.string "…Sniff… Waaaaah!\p"
-	.string "Spectators: See that?\n"
-	.string "The poor girl!\p"
-	.string "MC: Uh… Uh-oh…\p"
-	.string "Uh… That's all the time we have today!\n"
-	.string "Thanks for tuning in!$"
+	.string "しかい『すみません！\nなまほうそう　です！\pコンテストは　どう\nでしたか？\pおねえさん『ぜんぜん　だめ‥\nなぜか　わたしの　{STR_VAR_2}\lにんきが　でなかったの\pしかい『いいにくい　ですが\nポケモンの　つやが\lすこし　たりない　ですね\pおねえさん『‥　‥　‥　‥　‥　‥\n‥ぐすん‥　うわーん！\pかんきゃく『みた？\nかわいそう！\pしかい『あ‥　あの‥\pえ‥　きょうは　ここまで！\nごらんいただき\lありがとう　ございました！$"

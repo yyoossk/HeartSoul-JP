@@ -1,0 +1,138 @@
+## data/text/tv.inc
+@@GabbyAndTy_Text_GabbyPreFirstBattle
+マリ『あっ！　こんな　ところに\nつよそうな　トレーナー\lはっけん！\pダイ　カメラ　まわして！\nインタビュー　するよ！
+@@GabbyAndTy_Text_GabbyIntro
+マリ『あっ！　{PLAYER}くん！\nこんにちは！　まえに　あったの\lおぼえてる？\pどれだけ　つよく　なったか\nみせて　くれる？\lじゃあ　インタビュー　スタート！
+@@GabbyAndTy_Text_GabbyDefeatFirstTime
+マリ『わたしの　めに\nくるいは　なかった！\lすごい　トレーナーを\lはっけん　しちゃった！
+@@GabbyAndTy_Text_WhoAreYouInterview
+マリ『すごい！　すごい！\nあなた　だれ？！\pみつけた　ときから　なにか\nありそうだと　おもってたの！\pあ　せつめい　するね　わたしたち\nあちこち　まわって　いろんな\lトレーナーに　インタビュー\lしてるの\pちょっと　だけ　インタビューに\nつきあって　くれない？
+@@GabbyAndTy_Text_QuoteFromLastInterview
+マリ『『{STR_VAR_1}！』\pおぼえてる？　まえの　バトルで\nあなたが　しめくくりに\lいった　ことば\pそういう　ことは\nぜったい　わすれないの！
+@@GabbyAndTy_Text_YouStompedUsInterviewAgain
+まえの　バトルでは　かまえる\nまもなく　やられちゃった‥\pそれで　どう？\nまた　インタビュー\lさせて　くれる？
+@@GabbyAndTy_Text_YouThrewABallAtUsInterviewAgain
+まえの　バトルで　わたしたちに\nボールを　なげなかった？\pびっくり　したから\nみんなに　はなしちゃった！\pそれで　どう？\nまた　インタビュー\lさせて　くれる？
+@@GabbyAndTy_Text_CleverItemSkillsInterviewAgain
+まえの　バトルでは　どうぐの\nうまい　つかいかたに\lやられちゃった\pそれで　どう？\nまた　インタビュー\lさせて　くれる？
+@@GabbyAndTy_Text_WeLookedRespectableInterviewAgain
+まえの　バトルでは\nけっこう　いい　しょうぶが\lできたよね\pそれで　どう？\nまた　インタビュー\lさせて　くれる？
+@@GabbyAndTy_Text_InterviewAgain
+それで　どう？\nまた　インタビュー\lさせて　くれる？
+@@GabbyAndTy_Text_DescribeYourFeelings
+いいの？\nありがとう！\pじゃあ　バトルの　かんそうを\nみじかく　ひとことで\lおねがい！　どうぞ！
+@@GabbyAndTy_Text_PerfectWellBeSeeingYou
+マリ『うんうん　いいね！\nさいこうの　しめくくり！\pいい　ばんぐみに\nなりそうな　きが　する！\pテレビで　ながれる　かも\nしれないから　みのがさないでね！\pじゃあ！\nまた　あおうね！
+@@GabbyAndTy_Text_DontGiveUpKeepingEyeOut
+マリ『そっか‥\pでも　あきらめないよ！\nずっと　ちゅうもく　してるから！
+@@GabbyAndTy_Text_KeepingAnEyeOutForYou
+マリ『ずっと　ちゅうもく\nしてるからね！
+@@GabbyAndTy_Text_GabbyNotEnoughMons
+マリ『ポケモンを　たくさん　もった\nつよい　トレーナー\lどこかに　いないかな？
+@@GabbyAndTy_Text_GiveUsAnInterviewThisTime
+マリ『わあ　すごい！\pまえに　たたかった　ときより\nずっと　ずっと　つよく\lなってる！\pやっぱり　すごい　トレーナー\nだって　わたしたちの　めは\lただしかった！\pそれで　どう？\nこんどは　インタビュー\lさせて　くれる？
+@@GabbyAndTy_Text_GabbyDefeat
+マリ『はげしい　バトル　だった！\nダイ　ちゃんと　とれた？
+@@GabbyAndTy_Text_TyPreFirstBattle
+ダイ『おっ　みてみろ！\nこんな　ところに　つよそうな\lトレーナーだ！\lカメラ　まわってるぜ！
+@@GabbyAndTy_Text_TyIntro
+ダイ『おっ　みてみろ！\nおまえ　おぼえてるぞ！\pこの　バトルは\nこの　カメラで　ぜんぶ\lとって　やるぜ！
+@@GabbyAndTy_Text_TyPostBattle
+ダイ『てんさい　だな！\nさいこうの　えが\lとれたぜ！
+@@GabbyAndTy_Text_TyNotEnoughMons
+ダイ『ポケモン　1ぴき\nだけ　なのか？\pもっと　いれば　いい　えが\nとれるんだけど‥
+@@GabbyAndTy_Text_TyDefeatFirstTime
+ダイ『ああ　すごい　トレーナーを\nみつけたぜ\lこりゃ　おおスクープだ！
+@@GabbyAndTy_Text_TyDefeat
+ダイ『ああ　ばっちり　とれた\nバトルは　ぜんぶ\lカメラに　はいってるぜ
+@@gTVInSearchOfTrainersText00
+トレーナーを　さがせ‥\pマリ『こんにちは！　きょうは\n{STR_VAR_1}の　ちかくに\lきて　います\pこれから　かつやく　しそうな\nトレーナーを　さがして\lいます\pきょうは　トレーナーの\n{PLAYER}に　ちゅうもく\pこの　トレーナーには\nなにか　ひかれる\lものが　あるんです
+@@gTVInSearchOfTrainersText01
+{PLAYER}とは　まえにも　たたかった\nことが　ありますが\lまえより　たしかに\lつよく　なって　います\pみつけた　ときから　とくべつな\nトレーナーだと　おもってました！
+@@gTVInSearchOfTrainersText02
+トレーナーの　つよさを\nしる　いちばんの　ほうほう‥\pそれは　たたかう　こと！\nさっそく　ちょうさ　かいし！\p‥　‥\pそうして　{PLAYER}と\nたたかう　ことに\lなったんです\pけっかは　かんぱい！\nこてんぱんに　されました！\p{PLAYER}は　ようしゃなく\nつよい‥\pたたかった　あとの\nかんそうを　どうぞ
+@@gTVInSearchOfTrainersText03
+{STR_VAR_1}と　{STR_VAR_3}の\nコンビは　さいこう　でした！\pバトルの　さなかに\n{STR_VAR_1}と　{STR_VAR_3}が\lささえあう　すがた‥\pほんとうに　すばらしい\nながめ　でした！\pトレーナーが　さいごに\nつかった　わざは　{STR_VAR_2}\p{STR_VAR_2}は　{STR_VAR_1}と\n{STR_VAR_3}の　ゆうじょうの\lあかし　です！
+@@gTVInSearchOfTrainersText04
+‥この　であいで\nじしんを　なくしました\pこうげき　する　まもなく\nやられて　しまいました\lううう‥　ぐすん‥\pそれでも　{PLAYER}の　バトルは\nみる　かちが　あります\pじしんの　ある　トレーナーは\n{PLAYER}に　ちょうせん\lして　みて　ください
+@@gTVInSearchOfTrainersText05
+いいたい　ことは　ひとつ\nトレーナーとの　バトルで\lボールを　なげちゃ　だめ！\p{PLAYER}は　たしかに　つよいけど\nきほんの　ルールを\lわかって　いません\pしちょうしゃの　みなさん\nおねがい　です\p{PLAYER}を　みかけたら\nちゅうい　して　あげて！
+@@gTVInSearchOfTrainersText06
+{PLAYER}は　あいての\nうごきを　よむのが\lうまい　です\pどうぐを　つかう　タイミングが\nとても　こうかてき　でした！
+@@gTVInSearchOfTrainersText07
+しょうじき　わたしも\nけっこう　やると\lおもって　いました\pまけは　しましたが\nいい　しょうぶ　でした\pでも　わたしに　くろう\nする　ようじゃ　まだまだ\lだよ　{PLAYER}！
+@@gTVInSearchOfTrainersText08
+バトルの　あと　{PLAYER}に\nひとことで　まとめて\lもらいました\pこたえは　『{STR_VAR_1}』\p{PLAYER}の　ポケモン　{STR_VAR_2}と\n{STR_VAR_3}‥\lそして　『{STR_VAR_1}』‥\pうーん！　ふかい！\nふかい　いみが　ありますね！\pやっぱり　いい　トレーナーは\nいい　ことを　いいます\pきょうは　ここまで！\nまた　つぎの　ほうそうで！
+@@ContestLadyShow_Text_Intro
+ポケモンコンテスト\nなまちゅうけい！\pしかい『ばんぐみの　とちゅう\nですが　ここで\lなまちゅうけい　です！\pおわった　ばかりの\n{STR_VAR_1}の　げんばから\lおとどけ　します！\pかんきゃく『？！！！！\pしかい『あっ！　コンテストの\nさんかしゃが　こちらに\lきます！\pさっそく　インタビュー\nして　みましょう！\pかんきゃく『？！！！！\n？！！！！
+@@ContestLadyShow_Text_Won
+しかい『すみません！\nなまほうそう　です！\pゆうしょう　おめでとう\nございます！\pきょうの　しょうりの\nけっては　なんですか？\pおねえさん『わたしと　{STR_VAR_2}\nせいいっぱい　がんばりました！\pでも　コンテストまでに\nたくさんの　ひとに\lたすけて　もらわなかったら\lかてなかったと　おもいます！\pしかい『この　よろこびを\nつたえたい　ひとは　いますか？\lどうぞ！\pおねえさん『みてる？\p{STR_VAR_3}！　みてる？\nやったよ！\lありがとう！
+@@ContestLadyShow_Text_Lost
+しかい『すみません！\nなまほうそう　です！\pざんねんな　けっかでしたね\nなにか　ひとこと\lありますか？\pおねえさん『かなしい　です‥\nわたしと　{STR_VAR_2}\lがんばったのに‥\pおうえん　して　くれた\nみんなを　がっかり\lさせちゃった‥\pしかい『いいにくい　ですが\nポケモンの　つやが\lすこし　たりない　ですね\pおねえさん『{STR_VAR_3}\nごめんね‥　つぎは\lがんばるから‥\l‥ぐすん‥　うわーん！\pかんきゃく『みた？\nかわいそう！\pしかい『あ‥　あの‥\pえ‥　きょうは　ここまで！\nごらんいただき\lありがとう　ございました！
+@@ContestLadyShow_Text_LostBadly
+しかい『すみません！\nなまほうそう　です！\pコンテストは　どう\nでしたか？\pおねえさん『ぜんぜん　だめ‥\nなぜか　わたしの　{STR_VAR_2}\lにんきが　でなかったの\pしかい『いいにくい　ですが\nポケモンの　つやが\lすこし　たりない　ですね\pおねえさん『‥　‥　‥　‥　‥　‥\n‥ぐすん‥　うわーん！\pかんきゃく『みた？\nかわいそう！\pしかい『あ‥　あの‥\pえ‥　きょうは　ここまで！\nごらんいただき\lありがとう　ございました！
+## data/text/apprentice.inc
+@@gText_ApprenticeChallenge0
+あの　{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　です　ぐすん‥\lきんちょう　しちゃう‥
+@@gText_ApprenticeChallenge1
+{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　だ！　いくぞ！
+@@gText_ApprenticeChallenge2
+{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし！　しょうぶ　だ！
+@@gText_ApprenticeChallenge3
+あの‥　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし　です‥\lぼくなんかが　かてる　かな？
+@@gText_ApprenticeChallenge4
+{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし！　あいて　して　やるよ！
+@@gText_ApprenticeChallenge5
+いそがしいけど　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でしでも\lあるのよ
+@@gText_ApprenticeChallenge6
+{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　です　よろしく！
+@@gText_ApprenticeChallenge7
+{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでしを　つとめて　おります\lはじめても　よろしいですか？
+@@gText_ApprenticeChallenge8
+きゃっ！　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし　です！\lがんばります！
+@@gText_ApprenticeChallenge9
+いやっほう！　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でしだ！\lかかって　こい！
+@@gText_ApprenticeChallenge10
+{STR_VAR_1}の　1000ばんめの　でし！\nじつは　{STR_VAR_2}ばんめ！　いくよ！
+@@gText_ApprenticeChallenge11
+そう　{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　さ！　ノリノリで\lいこうぜ！
+@@gText_ApprenticeChallenge12
+やっほー！　わたしこそ\n{STR_VAR_1}の　{STR_VAR_2}ばんめの\lでし！
+@@gText_ApprenticeChallenge13
+ごほっ！　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし　です\lよろしく！　ごほっ！
+@@gText_ApprenticeChallenge14
+どきどき　する‥\n{STR_VAR_1}の　{STR_VAR_2}ばんめの\lでし　です
+@@gText_ApprenticeChallenge15
+わたしは　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし\lうそじゃ　ないわ
+@@gText_ApprenticePleaseTeach0
+あなたは‥　{PLAYER}さん？\nあっ！　ぐすっ‥　ひっく‥\pあっ！　ご　ごめんなさい‥\nきんちょう　して　なみだが\lとまらなくて‥\pぼく　{STR_VAR_1}って　いいます\n{PLAYER}さんに　あこがれて\lいるんです\pいつか　{PLAYER}さんに　あって\nポケモンの　ことを\lきくのが　ゆめ　でした\pおねがい　します　{PLAYER}さん！\nポケモンの　ことを\lおしえて　ください！
+@@gText_ApprenticeRejectTeaching0
+そ‥　そんな‥\nぐすん‥　うわーん！\pおねがい　します！\nこの　とおり　です！
+@@gText_ApprenticeWhichLevelMode0
+ほんと？　いいの？\nやった！　すごい！　うおお！\pあっ‥　ごめんなさい‥\nうれしくて　なみだが‥\pえっと‥　じゃあ　おしえて\nください！\lバトルタワーの　ことです\pぼくには　レベル50と\nオープンレベル　どっちが\lいい　ですか？
+@@gText_ApprenticeLevelModeThanks0
+{STR_VAR_1}　ですね？\nうわーん！\pあっ！　ごめんなさい！\nレベルを　えらんで　もらえて\lうれしくて　ないちゃった‥\pぐすん‥\nほんとうに　ありがとう！\lまた　はなして　ください！
+@@gText_ApprenticePleaseTeach1
+わあ！　{PLAYER}さん　だよね？\nめちゃくちゃ　つよいん\lでしょ？\pぼく　{STR_VAR_1}！\nトレーナーに　なった\lばかり　なんだ！\pおねがい　{PLAYER}さん！\nせんせいに　なって\lトレーナーの　こと\lいろいろ　おしえて！
+@@gText_ApprenticeRejectTeaching1
+えー　なんで？\nおねがい！　ねえ　おねがい！\lせんせいに　なって！
+@@gText_ApprenticeWhichLevelMode1
+やった！　うれしい！\pまず　ききたいのは\nバトルタワーの　こと！\pレベル50と　オープンレベルの\nへや‥　ぼくには\lどっちが　ぴったり？
+@@gText_ApprenticeLevelModeThanks1
+{STR_VAR_1}か！　そうだね！\nそこで　がんばるよ！\pまた　ここで　あったら\nほかの　ことも　おしえてね\lせんせい！
+@@gText_ApprenticePleaseTeach2
+あの‥　{PLAYER}さん　ですか？\nわたし　{STR_VAR_1}と　いいます\pポケモントレーナーに　なりたい\nけど　どうしたら　いいか\lわからなくて‥\pゆうめいな　あなたなら\nアドバイス　して　もらえるかと\lおもって\p{PLAYER}さん　アドバイスを\nもらえませんか？
+@@gText_ApprenticeRejectTeaching2
+で　でも‥\pわたし　ほんきで　ポケモン\nトレーナーに　なりたいんです！\pおねがい　しつもんに\nこたえて　もらえませんか？
+@@gText_ApprenticeWhichLevelMode2
+ありがとう　ございます！\nさっそく　さいしょの\lしつもん　です！\pバトルタワーには　レベル50と\nオープンレベルの　ふたつが\lあります　よね？\pわたしには　どっちが\nむいて　いると　おもいますか？
+@@gText_ApprenticeLevelModeThanks2
+{STR_VAR_1}に　ちょうせん　ですね？\nわかりました！\pまた　しつもんが　あったら\nここに　アドバイスを\lもらいに　きます！
+@@gText_ApprenticePleaseTeach3
+え？　あれ？　あなたは‥\nいや　そんな　はずない\pぼくなんかが　{PLAYER}さんに\nあえる　わけが　ない\p‥ほんとうに　{PLAYER}さん？\nしんじられない！\pこんなに　いい　ことが　あると\nこの　あと　きっと　わるい\lことが　おきる‥\p‥ごめんなさい‥\nぼく‥　{STR_VAR_1}です‥\pぼくには　じまん　できる\nところなんて　なにも\lないんです‥\pじぶんの　ことを　はなしても\nどうせ　わすれられちゃう‥\pもし　{PLAYER}さんに　あえたら\nトレーナーとして　アドバイスを\lもらえたらって　ゆめみて\lいました\pでも　ひきうけて　もらえるとは\nおもえないし‥\p‥それとも　アドバイス\nして　もらえますか？
+@@gText_ApprenticeRejectTeaching3
+やっぱり‥\pぼくみたいな　つまらない\nやつ　だから　しかたない‥\pでも　もしかしたらって‥\nかんがえなおして　もらえません\lよね？\pでも　ここで　あきらめたくない\nついてる　うちに　おねがい\lします！\pどうか　アドバイスを\nもらえませんか？
+@@gText_ApprenticeWhichLevelMode3
+ほんとうに？　しんじられない！\nアドバイス　して　もらえるなんて！\lう　うれしい‥\pききたい　ことは　ほんとうに\nつまらない　ことなんですが\lきめられなくて‥\pバトルタワーでは　レベル50か\nオープンレベルを　えらべます\pぼくでも　かてそうなのは\nどっちだと　おもいますか？
+@@gText_ApprenticeLevelModeThanks3
+{STR_VAR_1}？　わかりました！\nでも　ほんとうに　ぼくなんかに\lチャンスが　あるのかな？\pむりだと　おもうけど\nがんばって　みます\pぼくなんかの　ために　じかんを\nとって　くれて　ほんとうに\lありがとう　ございました
