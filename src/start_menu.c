@@ -499,8 +499,8 @@ static void ShowPyramidFloorWindow(void)
 
 #define CLOCK_WINDOW_WIDTH 48
 
-static const u8 sText_AM[] = _("AM");
-static const u8 sText_PM[] = _("PM");
+static const u8 sText_AM[] = _("ごぜん");
+static const u8 sText_PM[] = _("ごご");
 
 static void ShowTimeWindow(void)
 {

@@ -1,0 +1,6 @@
+@@0
+{STR_VAR_1}は\n{STR_VAR_2}を　たべた
+@@1
+{STR_VAR_1}は\n{STR_VAR_2}を　よろこんで　たべた
+@@2
+{STR_VAR_1}は\n{STR_VAR_2}を　いやいや　たべた

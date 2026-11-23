@@ -1,0 +1,10 @@
+@@0
+{DPAD_UPDOWN}あさ
+@@1
+{DPAD_UPDOWN}ひる
+@@2
+{DPAD_UPDOWN}ゆうがた
+@@3
+{DPAD_UPDOWN}よる
+@@4
+ぶんぷ　ふめい

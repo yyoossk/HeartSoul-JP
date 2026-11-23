@@ -1,0 +1,10 @@
+@@0
+{START_BUTTON}おもいだす
+@@1
+{START_BUTTON}レベルわざ
+@@2
+{START_BUTTON}タマゴわざ
+@@3
+{START_BUTTON}わざマシン
+@@4
+{START_BUTTON}おしえわざ

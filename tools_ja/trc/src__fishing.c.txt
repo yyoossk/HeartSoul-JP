@@ -1,0 +1,8 @@
+@@0
+おっ！　ひいてる！
+@@1
+ポケモンが　かかった！{PAUSE_UNTIL_PRESS}
+@@2
+…　つれないなあ{PAUSE_UNTIL_PRESS}
+@@3
+にげられて　しまった…{PAUSE_UNTIL_PRESS}
