@@ -1689,7 +1689,9 @@ static void MoveSelectionDisplayPpNumber(enum BattlerId battler)
 
     SetPpNumbersPaletteInMoveSelection(battler);
     moveInfo = (struct ChooseMoveStruct *)(&gBattleResources->bufferA[battler][4]);
-    txtPtr = ConvertIntToDecimalStringN(gDisplayedStringBattle, moveInfo->currentPp[gMoveSelectionCursor[battler]], STR_CONV_MODE_RIGHT_ALIGN, 2);
+    gDisplayedStringBattle[0] = EXT_CTRL_CODE_BEGIN;
+    gDisplayedStringBattle[1] = EXT_CTRL_CODE_ENG;
+    txtPtr = ConvertIntToDecimalStringN(gDisplayedStringBattle + 2, moveInfo->currentPp[gMoveSelectionCursor[battler]], STR_CONV_MODE_RIGHT_ALIGN, 2);
     *(txtPtr)++ = CHAR_SLASH;
     ConvertIntToDecimalStringN(txtPtr, moveInfo->maxPp[gMoveSelectionCursor[battler]], STR_CONV_MODE_RIGHT_ALIGN, 2);
 

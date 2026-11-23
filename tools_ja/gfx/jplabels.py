@@ -163,3 +163,16 @@ if __name__=='__main__':
         spr64(ts,128,'みつけた',0xf,0x4)
         spr64(ts,192,'つかまえた',0xf,0x4)
     print('dex ok')
+    # ---- battle "MOVE INFO" buttons ----
+    B=R+'graphics/battle_interface/'
+    for f,(y0,y1) in {'move_info_window_start':(13,23),'move_info_window_l':(11,21),'move_info_window_r':(11,21)}.items():
+        im=Image.open(B+f+'.png'); px=im.load()
+        for y in range(y0,y1+1):
+            for x in range(4,28): px[x,y]=(px[x,y]&0xF0)|0xd
+        rows=squeeze(strip('せつめい'),24)
+        ty=y0+(y1-y0+1-8)//2; tx=4+(24-len(rows[0]))//2
+        for y in range(8):
+            for x,v in enumerate(rows[y]):
+                if v==1: px[tx+x,ty+y]=(px[tx+x,ty+y]&0xF0)|0x5
+        im.save(B+f+'.png')
+    print('btn ok')

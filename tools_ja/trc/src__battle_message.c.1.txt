@@ -37,7 +37,7 @@
 @@19
 あっ！　やせいの　{B_OPPONENT_MON1_NAME}が　とびだしてきた！\p
 @@20
-やせいの　{B_OPPONENT_MON1_NAME}が　あらわれた！\nにげる？　{L_BUTTON}+{R_BUTTON}+{A_BUTTON}\p
+やせいの　{B_OPPONENT_MON1_NAME}が　あらわれた！\nにげる？　{L_BUTTON}{R_BUTTON}{A_BUTTON}\p
 @@21
 やせいの　{B_OPPONENT_MON1_NAME}が　あらわれた！\nにげる？　{B_BUTTON}を　おしてね\p
 @@22
@@ -127,17 +127,17 @@
 @@64
 あいての　
 @@66
-あいての
+あいての　
 @@67
-みかたの
+みかたの　
 @@68
-あいての
+あいての　
 @@69
-みかたの
+みかたの　
 @@70
-あいての
+あいての　
 @@71
-みかたの
+みかたの　
 @@72
 {B_ATK_NAME_WITH_PREFIX}の　{B_BUFF3}！
 @@78
