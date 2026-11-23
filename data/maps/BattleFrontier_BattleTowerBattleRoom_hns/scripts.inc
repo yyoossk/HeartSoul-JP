@@ -482,63 +482,32 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden_hns:
 	.string "サロンメイデンとの\nしょうぶです\lかくごは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel_hns:
-	.string "Greetings…\n"
-	.string "My name is ANABEL.\p"
-	.string "I am the SALON MAIDEN, and I am in\n"
-	.string "charge of running the BATTLE TOWER…\p"
-	.string "I have heard several rumors\n"
-	.string "about you…\p"
-	.string "In all honesty, what I have heard does\n"
-	.string "not seem attractive in any way…\p"
-	.string "The reason I've come to see you…\n"
-	.string "Well, there is but one reason…$"
+	.string "こんにちは‥\nわたしは　リラ\pバトルタワーを　まかされている\nサロンメイデンです‥\pあなたの　うわさは\nいくつか　きいて　います‥\pしょうじき　いって\nあまり　みりょくてきには\lきこえません　でしたが‥\pわたしが　あいに　きた\nりゆうは‥　ひとつ\lだけです‥$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent_hns:
-	.string "Let me see your talent in\n"
-	.string "its entirety…$"
+	.string "あなたの　さいのうを\nすべて　みせて　ください‥$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized_hns:
-	.string "ANABEL: Fufufu, nicely done…\p"
-	.string "Your FRONTIER PASS, please…\n"
-	.string "Your talent shall be recognized.$"
+	.string "リラ『ふふふ　おみごと‥\pフロンティアパスを‥\nあなたの　さいのうを\lみとめます$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol_hns:
-	.string "The Ability Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "フロンティアパスに\nアビリティシンボルが\lきざまれた！$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime_hns:
-	.string "… … … … … …\p"
-	.string "You have confidence in your POKéMON\n"
-	.string "battling talent, don't you?\p"
-	.string "I urge you to keep battling and\n"
-	.string "keep on winning.\p"
-	.string "I will be waiting for you.\n"
-	.string "Until the next time we meet…$"
+	.string "‥　‥　‥　‥　‥　‥\pポケモンバトルの　さいのうに\nじしんが　あるのですね？\pこれからも　たたかい\nかちつづけて　ください\pまって　います\nまた　あう　ひまで‥$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack_hns:
-	.string "ANABEL: You really did come back to\n"
-	.string "see me…\p"
-	.string "… … … … … …\p"
-	.string "You've won straight matches to see me…\n"
-	.string "I won't have to hold back against you…\p"
-	.string "It's been too long now…\p"
-	.string "Too long since I've been able to battle\n"
-	.string "without thinking about anything…$"
+	.string "リラ『ほんとうに　また\nあいに　きて　くれたのですね‥\p‥　‥　‥　‥　‥　‥\pかちつづけて　わたしに\nあいに　きた‥\lもう　てかげんは\lいりませんね‥\pずっと　ずっと‥\pなにも　かんがえずに\nたたかえる　ときを\lまって　いました‥$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe_hns:
-	.string "Let's begin, shall we?$"
+	.string "はじめましょうか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease_hns:
-	.string "ANABEL: Fufu, congratulations…\n"
-	.string "Your FRONTIER PASS, please…$"
+	.string "リラ『ふふ　おめでとう‥\nフロンティアパスを‥$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine_hns:
-	.string "The Ability Symbol took on\n"
-	.string "a golden shine!$"
+	.string "アビリティシンボルが\nきんいろに　かがやいた！$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain_hns:
-	.string "That was fun…\p"
-	.string "I have never had a POKéMON battle\n"
-	.string "so enjoyable before…\p"
-	.string "I wish I could battle with you again…$"
+	.string "たのしかった‥\pこんなに　たのしい\nポケモンバトルは\lはじめて　です‥\pまた　あなたと\nたたかいたい‥$"
 

@@ -232,206 +232,97 @@ BattleFrontier_OutsideEast_EventScript_Camper_hns::
 	end
 
 BattleFrontier_OutsideEast_Text_BattleTowerSign_hns:
-	.string "This is the BATTLE TOWER!\n"
-	.string "Keep the win streak as the toughest\l"
-	.string "TRAINER!$"
+	.string "ここは　バトルタワー！\nさいきょうの　トレーナーとして\lれんしょうを　つづけろ！$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign_hns:
-	.string "This is the BATTLE PALACE!\n"
-	.string "Keep your eyes on POKéMON battles!$"
+	.string "ここは　バトルパレス！\nポケモンの　たたかいを\lみまもれ！$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign_hns:
-	.string "This is the BATTLE ARENA!\n"
-	.string "Let the toughest teams gather!$"
+	.string "ここは　バトルアリーナ！\nさいきょうの　チームよ\lあつまれ！$"
 
 BattleFrontier_OutsideEast_Text_BattlePyramidSign_hns:
-	.string "This is the BATTLE PYRAMID!\n"
-	.string "Advance through the Battle Quest!$"
+	.string "ここは　バトルピラミッド！\nバトルクエストを\lすすめ！$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign_hns:
-	.string "BATTLE FRONTIER RANKING HALL\n"
-	.string "Set your sights on new records!$"
+	.string "バトルフロンティア\nランキングホール\lあたらしい　きろくを　めざせ！$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign_hns:
-	.string "BATTLE POINT EXCHANGE SERVICE CORNER\n"
-	.string "Exchange your Battle Points!$"
+	.string "バトルポイント\nこうかんサービスコーナー\lバトルポイントを　こうかんしよう！$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial_hns:
-	.string "Wow!\n"
-	.string "It's huge!\p"
-	.string "The BATTLE TOWER feels special.\n"
-	.string "It's different from the others.$"
+	.string "うわあ！\nおおきい！\pバトルタワーは　とくべつな\nかんじ　ほかとは　ちがうね$"
 
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier_hns:
-	.string "My grand ambition is to conquer both\n"
-	.string "the BATTLE FRONTIER and the POKéMON\l"
-	.string "LEAGUE.\p"
-	.string "And if my dream comes true…\p"
-	.string "I… I'm going to ask MIMI next door\n"
-	.string "if she will be friends with me!$"
+	.string "ぼくの　おおきな　ゆめは\nバトルフロンティアと\lポケモンリーグを　せいは\lする　こと\pもし　ゆめが　かなったら‥\pと　となりの　ミミちゃんに\nともだちに　なって　って\lいうんだ！$"
 
 BattleFrontier_OutsideEast_Text_PyramidTooHarsh_hns:
-	.string "The BATTLE PYRAMID's too harsh!\n"
-	.string "I just can't make it to the top!\p"
-	.string "Since I'm out of options, maybe I can\n"
-	.string "climb the outside…$"
+	.string "バトルピラミッドは\nきびしすぎる！\lてっぺんまで　いけない！\pこうなったら　そとがわを\nのぼろう　かな‥$"
 
 BattleFrontier_OutsideEast_Text_ThriveInDarkness_hns:
-	.string "I thrive in darkness…\n"
-	.string "Yes… What is worthy of me?\l"
-	.string "None other than the BATTLE PYRAMID…\p"
-	.string "What say you to wandering in darkness\n"
-	.string "and in utter and total desperation?$"
+	.string "わたしは　やみの　なかで\nいきる　もの‥\lそう‥　わたしに　ふさわしいのは\lバトルピラミッド　のみ‥\pくらやみを　さまよい\nぜつぼうに　ひたるのは\lいかが　かな？$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam_hns:
-	.string "I didn't sleep for a week, but then\n"
-	.string "I put together the ultimate team!\p"
-	.string "I can't see myself losing, no joke.\n"
-	.string "We're storming the BATTLE ARENA!$"
+	.string "いっしゅうかん　ねないで\nさいきょうの　チームを\lつくったぞ！\pまける　きが　しない　まじで\nバトルアリーナに\lのりこむぞ！$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere_hns:
-	.string "Did SCOTT bring you here, too?\n"
-	.string "What is it with that guy?\p"
-	.string "It sounds like he really does know\n"
-	.string "how to spot talented TRAINERS, but…\p"
-	.string "I've never seen him battling in person\n"
-	.string "ever.$"
+	.string "きみも　エニシダさんに\nつれて　こられたの？\lあの　ひと　なんなんだろう？\pさいのうの　ある　トレーナーを\nみぬく　めは　ほんもの\lらしいけど‥\pあの　ひとが　たたかってる\nところは　みた　ことが\lないんだ$"
 
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy_hns:
-	.string "ZIGG!\n"
-	.string "I believe in you, little buddy!\p"
-	.string "I'll make my little ZIGG any favorite\n"
-	.string "tasty treats you like if you win!$"
+	.string "ジグ！\nきみを　しんじてるよ！\pかったら　すきな　おやつ\nなんでも　つくって\lあげるからね！$"
 
 BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant_hns:
-	.string "ZIGZAGOON looks vacant…$"
+	.string "ジグザグマは　ぼんやり\nしている‥$"
 
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody_hns:
-	.string "People call me a busybody,\n"
-	.string "but I can't help it.\p"
-	.string "Your hat's on crooked!\n"
-	.string "Oh, no, trash on the ground!\l"
-	.string "Oops, it's almost dinnertime!\p"
-	.string "I don't know if I can stand to just\n"
-	.string "watch at the BATTLE PALACE…$"
+	.string "おせっかい　って　いわれるけど\nしかたないのよ\pぼうしが　まがってるわ！\nあら　ゴミが　おちてる！\lあら　もうすぐ　ゆうごはん！\pバトルパレスで　みてる\nだけ　なんて　がまん\lできるかしら‥$"
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader_hns:
-	.string "I may not look that impressive now,\n"
-	.string "but I once beat a GYM LEADER.\p"
-	.string "Who knows, maybe I should give it\n"
-	.string "another shot at glory.$"
+	.string "いまは　そう　みえない\nかも　しれないが　むかしは\lジムリーダーに　かったんだ\pもう　いちど　えいこうを\nめざすのも　いいかもな$"
 
 BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles_hns:
-	.string "I'm fast on my BIKE, and that goes for\n"
-	.string "the way I battle, too.\p"
-	.string "I win matches in the blink of\n"
-	.string "an eye!$"
+	.string "じてんしゃも　はやいけど\nしょうぶも　はやいのさ\pあっというまに\nかってしまうぞ！$"
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon_hns:
-	.string "I'm better than my daddy\n"
-	.string "at POKéMON.$"
+	.string "ポケモンなら　パパより\nわたしの　ほうが　つよいの$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy_hns:
-	.string "Go on, my baby sweetie!\n"
-	.string "Go rack up some wins for Daddy!\p"
-	.string "You're just like your mother,\n"
-	.string "so you'll be dominating!$"
+	.string "いけ　かわいい　むすめよ！\nパパの　ために　かちまくれ！\pママに　にてるから\nきっと　むてきだぞ！$"
 
 BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena_hns:
-	.string "It wasn't easy getting here,\n"
-	.string "but I'd heard about this knockout\l"
-	.string "pretty girl at the BATTLE ARENA.\p"
-	.string "Instead of her, do you know what\n"
-	.string "I found?\p"
-	.string "A whole teeming mob of sweaty,\n"
-	.string "stinky, and primitive martial artists!$"
+	.string "ここまで　くるのは\nたいへん　だったが\lバトルアリーナに　すごい\lびじんが　いると　きいてね\pかわりに　なにが\nいたと　おもう？\pあせくさくて　むさくるしい\nかくとうかの　むれだよ！$"
 
 BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere_hns:
-	.string "I sometimes see this really important-\n"
-	.string "looking old man going in there.\p"
-	.string "He has these really awesome POKéMON.\n"
-	.string "He seems really nice, though.$"
+	.string "ときどき　とても　えらそうな\nおじいさんが　はいって\lいくのを　みるんだ\pすごい　ポケモンを\nつれてるよ\lでも　やさしそうな　ひとだよ$"
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid_hns:
-	.string "Do you know it?\n"
-	.string "The legend of the BATTLE PYRAMID?\p"
-	.string "When there comes a confident TRAINER\n"
-	.string "reaching for the golden pinnacle,\l"
-	.string "there shall appear a man among men.\p"
-	.string "Don't know that legend?\n"
-	.string "Well, of course not!\l"
-	.string "I just made it up!\p"
-	.string "What's it supposed to mean?\n"
-	.string "That, my friend, I can't say!$"
+	.string "しってるかい？\nバトルピラミッドの　でんせつを\pじしんに　みちた　トレーナーが\nおうごんの　いただきに　とどく\lとき　おとこの　なかの\lおとこが　あらわれる\pしらない？\nそりゃ　そうさ！\lいま　つくったんだから！\pどういう　いみかって？\nそれは　いえないな！$"
 
 BattleFrontier_OutsideEast_Text_GotWipedOut_hns:
-	.string "Man! Oh man!\n"
-	.string "I've never lost once before!\p"
-	.string "But I got wiped out with no saving\n"
-	.string "grace at all!\p"
-	.string "And then I'm told I don't have any\n"
-	.string "talent?! Man!$"
+	.string "くそっ！　くそっ！\nいちども　まけた　ことが\lなかったのに！\pても　あしも　でずに\nやられた！\pしかも　さいのうが　ない\nだって？！　くそっ！$"
 
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower_hns:
-	.string "This guy ran into a horribly tough\n"
-	.string "TRAINER while he was on the BATTLE\l"
-	.string "TOWER challenge.\p"
-	.string "Now look at him…\p"
-	.string "You need to be cautious if you ever\n"
-	.string "decide to go to the BATTLE TOWER.$"
+	.string "こいつ　バトルタワーで\nとんでもなく　つよい\lトレーナーに　あったんだ\pみて　ごらん‥\pバトルタワーに　いくなら\nきを　つけた　ほうが\lいいよ$"
 
 BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll_hns:
-	.string "Yes!\n"
-	.string "I've finally got enough Battle Points!\p"
-	.string "I guess I'll trade for another giant\n"
-	.string "plush DOLL!$"
+	.string "やった！\nついに　バトルポイントが\lたまった！\pまた　おおきな　ぬいぐるみと\nこうかん　しようかな！$"
 
 BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere_hns:
-	.string "Oh, yeah, okay!\n"
-	.string "So this is the RANKING HALL!\p"
-	.string "I'd like to go down in history as\n"
-	.string "a super champ and have my name\l"
-	.string "recorded here for posterity.$"
+	.string "おお　そうか！\nここが　ランキングホールか！\pスーパーチャンピオンとして\nなまえを　ここに　のこして\lれきしに　なりたいな$"
 
 BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou_hns:
-	.string "With you by my side, I can do anything.$"
+	.string "きみが　いれば\nなんだって　できるよ$"
 
 BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome_hns:
-	.string "Ooh, darling, you are so wonderful!\p"
-	.string "Ooh, I just can't wait anymore!\p"
-	.string "Let's go to a MULTI BATTLE ROOM\n"
-	.string "right this instant!\p"
-	.string "If we get together in the BATTLE SALON,\n"
-	.string "the power of our love will overcome\l"
-	.string "everyone we meet.\p"
-	.string "Why, before us, darling, everything\n"
-	.string "will topple like dominoes!$"
+	.string "ああ　ダーリン　すてき！\pもう　まちきれない！\pいますぐ　マルチバトル\nルームへ　いきましょう！\pバトルサロンで　くめば\nわたしたちの　あいの　ちからで\lだれにも　まけないわ\pダーリン　わたしたちの\nまえでは　みんな　ドミノ\lみたいに　たおれるのよ！$"
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers_hns:
-	.string "The BATTLE FRONTIER isn't exclusively\n"
-	.string "for tough TRAINERS.\p"
-	.string "Many people with special abilities\n"
-	.string "have been invited, it seems.\p"
-	.string "That man SCOTT…\p"
-	.string "He may have built this place to serve\n"
-	.string "a bigger objective…$"
+	.string "バトルフロンティアは　つよい\nトレーナー　だけの　ものでは\lない\pとくべつな　ちからを　もつ\nひとが　たくさん　まねかれて\lいる　ようだ\pあの　エニシダと　いう　おとこ‥\pもっと　おおきな　もくてきが\nあって　ここを　つくったの\lかも　しれん‥$"
 
 BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle_hns:
-	.string "Excuse me, young one.\n"
-	.string "Have you good eyesight?\p"
-	.string "There is an odd tree past here, and to\n"
-	.string "my tired eyes it seems to wiggle.$"
+	.string "もし　そこの　かた\nめは　いいかね？\pこの　さきに　へんな　きが\nあって　わしの　めには\lゆれて　みえるのじゃ$"
 
 BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere_hns:
-	.string "Excuse me, young one.\n"
-	.string "Have you a good memory?\p"
-	.string "I have this feeling there once was\n"
-	.string "an odd tree past here.$"
+	.string "もし　そこの　かた\nものおぼえは　いいかね？\pこの　さきに　むかし　へんな\nきが　あった　ような\lきが　するのじゃ$"
 
 BattleFrontier_OutsideEast_Text_StickyMonWithLongTail_hns:
-	.string "I…\n"
-	.string "I saw it!\p"
-	.string "There was a sticky sort of a POKéMON\n"
-	.string "with a long tail up ahead!\p"
-	.string "It was hiding under a boulder, and\n"
-	.string "it kept staring at me!$"
+	.string "み‥\nみた！\pこの　さきに　しっぽの　ながい\nべたべた　した　ポケモンが\lいたんだ！\pおおきな　いわの　したに\nかくれて　こっちを\lじっと　みてた！$"
