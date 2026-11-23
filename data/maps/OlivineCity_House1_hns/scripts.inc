@@ -27,21 +27,16 @@ OlivineCity_House1_EventScript_TradeCompleted::
 	end
 
 OlivineCity_House1_Text_YouWillTradeWontYou:
-	.string "I collect POKéMON!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "ポケモン　あつめてるの！\n{STR_VAR_1}　もってない？\pぼくの　{STR_VAR_2}と\nこうかん　しない？$"
 
 OlivineCity_House1_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "やったー！\n{STR_VAR_1}　ゲット！\p{STR_VAR_2}\nげんきでね！$"
 
 OlivineCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "えー　ちがうよ\nそれ　{STR_VAR_1}じゃ　ないもん$"
 
 OlivineCity_House1_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
+	.string "こうかん　しないの？\nざんねん‥$"
 
 OlivineCity_House1_Text_After:
-	.string "Hi, how's my old VOLTORB doing?$"
+	.string "ねえ　まえの\nビリリダマ　げんき？$"

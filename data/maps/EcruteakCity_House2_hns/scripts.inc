@@ -2,29 +2,16 @@ EcruteakCity_House2_hns_MapScripts::
 	.byte 0
 
 Ecruteak_Text_ItemfinderAdventure:
-	.string "Ah. You're on an adventure with\n"
-	.string "your POKéMON?\p"
-	.string "Well, what's an adventure without\n"
-	.string "treasure hunting?\p"
-	.string "Am I right, or am I right?$"
+	.string "ほう　ポケモンと\nぼうけん　ちゅう　かね？\pぼうけんと　いえば\nたからさがし　だろう？\pそうだろう？\nそうだろう？$"
 
 Ecruteak_Text_ItemfinderTrueSpirit:
-	.string "Good! You understand the true\n"
-	.string "spirit of adventure.\p"
-	.string "I like that! Take this with you.$"
+	.string "よし！　ぼうけんの\nこころを　わかってるな\pきにいった！\nこれを　もって　いきなさい$"
 
 Ecruteak_Text_ItemfinderExplanation:
-	.string "There are many items lying about\n"
-	.string "that aren't obvious.\p"
-	.string "Use DOWSING MACHINE to check if there\n"
-	.string "is an item on the ground near you.\p"
-	.string "It doesn't show the exact spot,\n"
-	.string "so you'll have to look yourself.\p"
-	.string "Oh yeah--I heard there are items\n"
-	.string "in ECRUTEAK's BURNED TOWER.$"
+	.string "めに　みえない　どうぐが\nあちこちに　おちて　いる\pダウジングマシンで　ちかくに\nどうぐが　あるか　しらべられる\pばしょ　までは　わからないから\nじぶんで　さがすんだ\pそうそう　エンジュの　やけたとうに\nどうぐが　あるらしいぞ$"
 
 Ecruteak_Text_ItemfinderToEachHisOwn:
-	.string "Oh… To each his own, I suppose…$"
+	.string "そうか‥　ひとそれぞれ\nだな‥$"
 
 EcruteakCity_House2_EventScript_ItemFinderMan::
 	lock
@@ -69,30 +56,13 @@ EcruteakCity_House2_EventScript_Book3::
 	end
 
 Ecruteak_Text_ItemFinderMan::
-	.string "ECRUTEAK is a very old city.\n"
-	.string "Many generations passed down\l"
-	.string "their history in books like these.$"
+	.string "エンジュは　とても　ふるい　まち\nいくつもの　せだいが　こういう\lほんで　れきしを　つたえて　きた$"
 
 Ecruteak_Text_HistoryBook:
-	.string "HISTORY OF ECRUTEAK\p"
-	.string "Want to read it?$"
+	.string "エンジュの　れきし\pよみますか？$"
 
 Ecruteak_Text_TwoTowers:
-	.string "In ECRUTEAK, there were two towers.\p"
-	.string "Each tower was the roost of\n"
-	.string "powerful flying POKéMON.\p"
-	.string "But one of the towers burned to\n"
-	.string "the ground.\p"
-	.string "The two POKéMON haven't been seen\n"
-	.string "since…\p"
-	.string "Keep reading?$"
+	.string "エンジュには　ふたつの\nとうが　あった\pそれぞれの　とうには\nつよい　とりポケモンが\lすんで　いた\pしかし　かたほうの　とうは\nもえて　しまった\pそれいらい　2ひきの　ポケモンは\nすがたを　みせていない‥\pつづきを　よむ？$"
 
 Ecruteak_Text_ThreeMon:
-	.string "ECRUTEAK was also home to three\n"
-	.string "POKéMON that raced around the town.\p"
-	.string "They were said to have been born\n"
-	.string "of water, lightning and fire.\p"
-	.string "But they could not contain their\n"
-	.string "excessive power.\p"
-	.string "So they say the three ran like the\n"
-	.string "wind off into the grassland.$"
+	.string "エンジュには　まちを　かけまわる\n3びきの　ポケモンも　いた\pみず　かみなり　ほのおから\nうまれたと　いわれている\pしかし　あふれる　ちからを\nおさえきれず\pかぜの　ように　そうげんへ\nかけさって　いったという$"

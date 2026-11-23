@@ -18,14 +18,7 @@ OlivineCity_EventScript_Lass::
 	end
 
 OlivineCity_Text_MartCooltrainerF:
-	.string "Do your POKéMON already know\n"
-	.string "the move for carrying people\l"
-	.string "across water?$"
+	.string "あなたの　ポケモン　ひとを\nのせて　みずを　わたる\lわざを　もう　おぼえてる？$"
 
 OlivineCity_Text_MartLass:
-	.string "My BUTTERFREE came from my\n"
-	.string "boyfriend overseas.\p"
-	.string "It carried some MAIL from him.\p"
-	.string "Want to know what it says?\p"
-	.string "Let's see... Nope! It's a\n"
-	.string "secret!$"
+	.string "わたしの　バタフリーは\nうみの　むこうの　かれから\lきたの\pかれからの　メールを\nもって　きたのよ\pなんて　かいてあるか\nしりたい？\pえーと‥　ないしょ！$"

@@ -63,30 +63,13 @@ OlivineCity_PortInside_Movement_OakLeave:
 	step_end
 
 OlivineCity_PortInside_Text_Nationaldex1:
-	.string "PROF.OAK: Hello!\n"
-	.string "You are starting to have the\l"
-	.string "attitude of a CHAMPION, {PLAYER}!\p"
-	.string "It's time for your POKéDEX to\n"
-	.string "match who you are.\p"
-	.string "Let me see your POKéDEX for a\n"
-	.string "second.\p"
-	.string "I'll upgrade your POKéDEX with the\n"
-	.string "NATIONAL MODE.$"
+	.string "オーキド『やあ！\n{PLAYER}　チャンピオンの\lふうかくが　でてきたな！\pずかんも　いまの　きみに\nふさわしく　せねばな\pちょっと　ずかんを\nかして　おくれ\pぜんこくモードを\nつけて　あげよう$"
 OlivineCity_PortInside_Text_Nationaldex2:
-	.string "{PLAYER}'s POKéDEX was upgraded\n"
-	.string "with the NATIONAL MODE!$"
+	.string "{PLAYER}の　ずかんに\nぜんこくモードが　ついた！$"
 OlivineCity_PortInside_Text_Nationaldex3:
-	.string "PROF.OAK: It won't be easy to\n"
-	.string "complete the NATIONAL POKéDEX...\p"
-	.string "However, I'm sure you will make\n"
-	.string "honest attempt on our behalf!$"
+	.string "オーキド『ぜんこくずかんを\nかんせい　させるのは\lかんたんでは　ないが‥\pきみなら　きっと　ほんきで\nとりくんで　くれると\lしんじて　おるぞ！$"
 OlivineCity_PortInside_Text_Nationaldex4:
-	.string "Oh, time flies!\p"
-	.string "I have a radio show to record at\n"
-	.string "GOLDENROD RADIO TOWER.\p"
-	.string "You must be heading for KANTO.\p"
-	.string "If you come near PALLET TOWN, do\n"
-	.string "drop by my POKéMON RESEARCH LAB!$"
+	.string "おっと　もう　こんな　じかんか！\pコガネの　ラジオとうで\nばんぐみの　しゅうろくが\lあるんじゃ\pきみは　カントーへ\nいくのじゃろう？\pマサラタウンに　きたら\nわしの　けんきゅうじょにも\lよって　おくれ！$"
 
 OlivinePort_EventScript_CooltrainerF::
 	msgbox OlivinePort_Text_CooltrainerF, MSGBOX_NPC
@@ -254,62 +237,43 @@ OlivinePort_Movement_BoatLeave:
 	step_end
 
 OlivinePort_Text_NoPass:
-    .string "{PLAYER} tried to show the\n"
-    .string "{STR_VAR_1}…\p"
-    .string "…But no {STR_VAR_1}!\p"
-    .string "Sorry!\n"
-    .string "You may board only if you have an\l"
-    .string "{STR_VAR_1}.$"
+	.string "{PLAYER}は　{STR_VAR_1}を\nみせようと　した‥\p‥しかし　{STR_VAR_1}が\nない！\pもうしわけ　ありません\n{STR_VAR_1}を　おもちの\lかたしか　のれません$"
 
 OlivinePort_Text_SailorGetOnBoard:
-    .string "We're departing soon.\n"
-    .string "Please get on board.$"
+	.string "まもなく　しゅっこう　です\nごじょうせん　ください$"
 
 OlivinePort_Text_CantBoard:
-    .string "Sorry. You can't board now.$"
+	.string "もうしわけ　ありません\nいまは　のれません$"
 
 OlivinePort_Text_WhereSail:
-    .string "Where would you like to sail?$"
+	.string "どちらへ　いかれますか？$"
 
 OlivinePort_Text_AskBoard:
-    .string "Welcome to FAST SHIP S.S.AQUA.\p"
-    .string "Will you be boarding today?$"
+	.string "こうそくせん　アクアごうへ\nようこそ\pきょう　ごじょうせん\nですか？$"
 
 OlivinePort_Text_AskTicket:
-    .string "May I see your S.S.TICKET?$"
+	.string "ふねの　チケットを\nはいけん　します$"
 
 OlivinePort_Text_ComeAgain:
-    .string "We hope to see you again!$"
+	.string "また　おこし　ください！$"
 
 OlivinePort_Text_FlashTicket:
-    .string "{PLAYER} flashed the S.S.TICKET.\p"
-    .string "That's it. Thank you!$"
+	.string "{PLAYER}は　ふねの　チケットを\nみせた\pはい　たしかに！\nありがとう　ございます！$"
 
 OlivinePort_Text_NoTicket:
-    .string "{PLAYER} tried to show the\n"
-    .string "S.S.TICKET…\p"
-    .string "…But no TICKET!\p"
-    .string "Sorry!\n"
-    .string "You may board only\l"
-    .string "if you have an S.S.TICKET.$"
+	.string "{PLAYER}は　ふねの　チケットを\nみせようと　した‥\p‥しかし　チケットが\nない！\pもうしわけ　ありません\nふねの　チケットを　おもちの\lかたしか　のれません$"
 
 OlivinePort_Text_FishingGuru1:
-    .string "SHELLDER are easy to catch here.\p"
-    .string "They're kind of rare elsewhere.$"
+	.string "ここでは　シェルダーが\nかんたんに　つれる\pほかでは　けっこう\nめずらしいんだ$"
 
 OlivinePort_Text_FishingGuru2:
-    .string "How many RODS do you have?\p"
-    .string "Different RODS catch different\n"
-    .string "POKéMON.$"
+	.string "つりざおは　いくつ\nもってる？\pつりざおで　つれる\nポケモンが　ちがうぞ$"
 
 OlivinePort_Text_Youngster:
-    .string "S.S.AQUA uses jets to skim\n"
-    .string "over the waves!$"
+	.string "アクアごうは　ジェットで\nなみの　うえを\lすべるように　はしるんだ！$"
 
 OlivinePort_Text_CooltrainerF:
-    .string "There are lots of POKéMON in KANTO.\p"
-    .string "I wish I could go…$"
+	.string "カントーには　ポケモンが\nたくさん　いるの\pいって　みたいな‥$"
 
 OlivinePort_Text_SailorBeforeHOF:
-    .string "We don't want you to fall into the\n"
-    .string "sea, so you're not allowed in.$"
+	.string "うみに　おちたら　あぶない\nですから　はいれません$"

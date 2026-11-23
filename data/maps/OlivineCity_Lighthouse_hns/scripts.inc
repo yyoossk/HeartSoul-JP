@@ -38,15 +38,10 @@ OlivineLighthouse_EventScript_1FPokefanF::
 	end
 
 OlivineLighthouse_Text_1FSailor:
-	.string "People train at this LIGHTHOUSE.\p"
-	.string "It's not easy to climb with all\n"
-	.string "the trainers waiting inside.$"
+	.string "この　とうだいでは\nトレーナーが　しゅぎょう\lしている\pなかで　まちかまえて　いるから\nのぼるのは　たいへんだぞ$"
 
 OlivineLighthouse_Text_1FPokefanF:
-	.string "In the past, POKéMON used to light\n"
-	.string "the sea around OLIVINE at night.\p"
-	.string "The LIGHTHOUSE was built in honor\n"
-	.string "of those noble POKéMON.$"
+	.string "むかしは　ポケモンが　よるの\nアサギの　うみを　てらして\lいたの\pとうだいは　その　けだかい\nポケモンを　たたえて\lたてられたのよ$"
 
 @2nd floor==============================================================================================================================
 
@@ -76,46 +71,34 @@ OlivineLighthouse_EventScript_GentlemanAlfred::
     end
 
 OlivineLighthouse_Text_SailorHueySeen:
-	.string "Men of the sea are always\n"
-	.string "spoiling for a good fight!$"
+	.string "うみの　おとこは　いつでも\nしょうぶに　うえてるぜ！$"
 
 OlivineLighthouse_Text_SailorHueyBeaten:
-	.string "Urf!\n"
-	.string "I lose!$"
+	.string "うぐっ！\nまけた！$"
 
 OlivineLighthouse_Text_SailorHueyAfter:
-	.string "What power! How would you like\n"
-	.string "to sail the seas with me?$"
+	.string "すごい　ちからだ！\nおれと　うみに　でないか？$"
 
 OlivineLighthouse_Text_HueyRegister:
-	.string "What power! How would you like\n"
-	.string "to sail the seas with me?$"
+	.string "すごい　ちからだ！\nおれと　うみに　でないか？$"
 
 OlivineLighthouse_Text_HueyRematchIntro:
-	.string "Men of the sea are always\n"
-	.string "spoiling for a good fight!$"
+	.string "うみの　おとこは　いつでも\nしょうぶに　うえてるぜ！$"
 
 OlivineLighthouse_Text_HueyRematchDefeat:
-	.string "Urf!\n"
-	.string "I lose!$"
+	.string "うぐっ！\nまけた！$"
 
 OlivineLighthouse_Text_HueyPostRematch:
-	.string "What power! How would you like\n"
-	.string "to sail the seas with me?$"
+	.string "すごい　ちからだ！\nおれと　うみに　でないか？$"
 
 OlivineLighthouse_Text_GentlemanAlfredSeen:
-	.string "Hm? This is no place\n"
-	.string "for playing.$"
+	.string "む？　ここは　あそび\nばでは　ないぞ$"
 
 OlivineLighthouse_Text_GentlemanAlfredBeaten:
-	.string "Ah! I can see that you're\n"
-	.string "serious.$"
+	.string "おお！　ほんきの\nようだな$"
 
 OlivineLighthouse_Text_GentlemanAlfredAfter:
-	.string "Up top is a POKéMON that keeps\n"
-	.string "the LIGHTHOUSE lit.\p"
-	.string "But I hear that it's sick now,\n"
-	.string "and can't be cured normally.$"
+	.string "うえには　とうだいを\nてらす　ポケモンが　いる\pだが　いまは　びょうきで\nふつうの　ほうほうでは\lなおらない　らしい$"
 
 @3rd floor==============================================================================================================================
 
@@ -136,41 +119,31 @@ OlivineLighthouse_EventScript_GentlemanPreston::
 
 
 OlivineLighthouse_Text_BirdKeeperTheoSeen:
-	.string "Why are you here? Are you just\n"
-	.string "going to gawk? I suggest you leave!$"
+	.string "なにしに　きた？\nけんぶつ　なら\lかえって　くれ！$"
 
 OlivineLighthouse_Text_BirdKeeperTheoBeaten:
-	.string "You really are concerned about\n"
-	.string "the sick POKéMON…$"
+	.string "きみも　びょうきの　ポケモンを\nしんぱい　してるんだね‥$"
 
 OlivineLighthouse_Text_BirdKeeperTheoAfter:
-	.string "How the heck do you go up?\p"
-	.string "I want to visit the sick POKéMON,\n"
-	.string "but I can't get up there…$"
+	.string "どうやって　のぼるんだ？\pびょうきの　ポケモンに\nあいたいのに　のぼれない‥$"
 
 OlivineLighthouse_Text_SailorTerrellSeen:
-	.string "Sailors are both kind and strong.\n"
-	.string "How about you?$"
+	.string "ふなのりは　やさしくて\nつよい　きみは　どうだ？$"
 
 OlivineLighthouse_Text_SailorTerrellBeaten:
-	.string "You are both kind and strong…$"
+	.string "きみは　やさしくて\nつよい‥$"
 
 OlivineLighthouse_Text_SailorTerrellAfter:
-	.string "Every time I return to OLIVINE,\n"
-	.string "I visit the GYM.\p"
-	.string "The GYM LEADER’s POKéMON type\n"
-	.string "changed without me noticing.$"
+	.string "アサギに　もどる　たびに\nジムに　よるんだ\pいつのまにか　ジムリーダーの\nポケモンの　タイプが\lかわってたよ$"
 
 OlivineLighthouse_Text_GentlemanPrestonSeen:
-	.string "I travel the world to train my\n"
-	.string "POKéMON. I wish to battle you.$"
+	.string "せかいを　たびして　ポケモンを\nきたえて　いる\lきみと　たたかいたい$"
 
 OlivineLighthouse_Text_GentlemanPrestonBeaten:
-	.string "…sigh… I must train some more…$"
+	.string "‥はあ‥　もっと\nきたえねば‥$"
 
 OlivineLighthouse_Text_GentlemanPrestonAfter:
-	.string "JASMINE used to use ROCK-type\n"
-	.string "POKéMON like ONIX.$"
+	.string "ミカンは　むかし　イワークの\nような　いわタイプの\lポケモンを　つかって　いた$"
 
 @4th floor==============================================================================================================================
 
@@ -186,30 +159,22 @@ OlivineLighthouse_EventScript_LassConnie::
 
 
 OlivineLighthouse_Text_SailorKentSeen:
-	.string "JASMINE must be worried sick about\n"
-	.string "the POKéMON here.\p"
-	.string "She won't even smile these days.$"
+	.string "ミカンさんは　ここの　ポケモンが\nしんぱいで　たまらないんだ\pさいきんは　わらいも\nしない$"
 
 OlivineLighthouse_Text_SailorKentBeaten:
-	.string "I can't manage a smile either…$"
+	.string "おれも　わらえないよ‥$"
 
 OlivineLighthouse_Text_SailorKentAfter:
-	.string "Speaking of sick, I've heard there's\n"
-	.string "a good PHARMACY in CIANWOOD.$"
+	.string "びょうき　と　いえば\nタンバに　いい\lくすりやが　あるらしい$"
 
 OlivineLighthouse_Text_LassConnieSeen:
-	.string "JASMINE is this city's GYM LEADER.\p"
-	.string "I mean to bring her back with me.\p"
-	.string "Nobody had better get in my way!$"
+	.string "ミカンさんは　この　まちの\nジムリーダー\pわたしが　つれもどすの\pじゃまは　させないわ！$"
 
 OlivineLighthouse_Text_LassConnieBeaten:
-	.string "Aaack! My POKéMON!$"
+	.string "きゃあ！\nわたしの　ポケモン！$"
 
 OlivineLighthouse_Text_LassConnieAfter:
-	.string "Right. Anybody would be worried if\n"
-	.string "his or her own POKéMON were hurt.\p"
-	.string "I'll pray for the POKéMON here, so\n"
-	.string "JASMINE can come back to the GYM.$"
+	.string "そうよね　じぶんの　ポケモンが\nけがを　したら\lだれだって　しんぱいよね\pミカンさんが　ジムに　もどれる\nように　ここの　ポケモンの\lために　いのるわ$"
 
 @5th floor==============================================================================================================================
 
@@ -224,12 +189,10 @@ OlivineLighthouse_EventScript_BirdKeeperDenis::
     end
 
 OlivineLighthouse_Text_SailorErnestSeen:
-	.string "I wanted to battle JASMINE, but she's\n"
-	.string "not up to it now.\p"
-	.string "So, how about you?$"
+	.string "ミカンさんと　たたかい\nたかったけど　いまは\lそれどころ　じゃない\pじゃあ　きみは　どうだ？$"
 
 OlivineLighthouse_Text_SailorErnestBeaten:
-	.string "Whoa, whoa. You're overwhelming!$"
+	.string "うわわ！\nかなわない！$"
 
 OlivineLighthouse_Text_SailorErnestAfter:
 	.string "A GYM LEADER isn't just about being\n"

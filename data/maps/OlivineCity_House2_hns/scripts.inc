@@ -18,11 +18,7 @@ OlivineCity_EventScript_PunisherBoy::
 	end
 
 OlivineCity_Text_PunishmentBro:
-	.string "Along the way to CIANWOOD,\n"
-	.string "there are four deserted islands.\p"
-	.string "Bad kids are taken to those\n"
-	.string "islands as punishment!$"
+	.string "タンバへ　いく　とちゅうに\nむじんとうが　4つ　あるんだ\pわるい　こは　おしおきで\nそこへ　つれて　いかれるぞ！$"
 
 OlivineCity_Text_PunishmentBoy:
-	.string "Whenever I get in trouble,\n"
-	.string "big bro always scares me.$"
+	.string "わるい　ことを　すると\nいつも　にいちゃんが\lおどかすんだ$"
