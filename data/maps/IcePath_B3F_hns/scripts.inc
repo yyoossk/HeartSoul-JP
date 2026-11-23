@@ -147,19 +147,19 @@ IcePath_B3F_Movement_StuckSwinubJump:
 	step_end
 
 IcePath_B3F_Text_Swinub:
-	.string "SWINUB: Swiiiiii!$"
+	.string "ウリムー『ウリィー！$"
 IcePath_B3F_Text_SwinubBerry:
-	.string "Give the SWINUB a BERRY?$"
+	.string "ウリムーに　きのみを\nあげますか？$"
 IcePath_B3F_Text_SwinubAteBerry:
-	.string "SWINUB enjoyed the ASPEAR BERRY!$"
+	.string "ウリムーは　ナナシのみを\nおいしそうに　たべた！$"
 IcePath_B3F_Text_SwinubTurnedAway:
-	.string "SWINUB doesn't like it!$"
+	.string "ウリムーは　きに\nいらない　ようだ！$"
 
 IcePath_B3F_Text_Delibird:
-	.string "DELIBIRD: SKWAAAAA!$"
+	.string "デリバード『デリーーッ！$"
 IcePath_B3F_Text_DelibirdBerry:
-	.string "Give the DELIBIRD a BERRY?$"
+	.string "デリバードに　きのみを\nあげますか？$"
 IcePath_B3F_Text_DelibirdAteBerry:
-	.string "DELIBIRD enjoyed the ASPEAR BERRY!$"
+	.string "デリバードは　ナナシのみを\nおいしそうに　たべた！$"
 IcePath_B3F_Text_DelibirdTurnedAway:
-	.string "DELIBIRD doesn't like it!$"
+	.string "デリバードは　きに\nいらない　ようだ！$"

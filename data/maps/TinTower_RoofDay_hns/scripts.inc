@@ -286,12 +286,7 @@ TinTower_RoofDay_EventScript_KuniAfter::
 	end
 
 TinTower_RoofDay_Text_Kimono_AfterNotCaught:
-	.string "You have not only made HO-OH\n"
-	.string "appear, but you have also defeated\l"
-	.string "it...\p"
-	.string "There is nothing more for us to\n"
-	.string "say. Take care of yourself in your\l"
-	.string "journey...$"
+	.string "ホウオウを　よびだした\nだけで　なく　たおして\lしまわれるとは‥\pもう　わたくしたちが\nいう　ことは　ありません\lたびの　ごぶじを‥$"
 
 TinTower_RoofDay_Text_Kimono_AfterCaught:
 	.string "You have not only made HO-OH\n"

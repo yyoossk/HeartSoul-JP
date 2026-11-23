@@ -44,10 +44,7 @@ LakeOfRage_EventScript_Pryce::
     end
 
 LakeOfRage_Text_Pryce:
-    .string "{PLAYER}.\p"
-	.string "Even here, the cold keeps me sharp.\p"
-	.string "If you wish to battle again, come\n"
-	.string "to the FIGHTING DOJO.$"
+	.string "{PLAYER}\pここでも　さむさが　わしの\nこころを　ひきしめる\pまた　たたかいたければ\nかくとうどうじょうへ　くるがよい$"
 
 LakeOfRage_EventScript_Gramps::
 	goto_if_ge VAR_MAHOGANY_TOWN_STATE, 14, LakeOfRage_EventScript_Gramps2
@@ -239,124 +236,81 @@ LakeOfRage_Movement_DragoniteLeave:
 	step_end
 
 LakeOfRage_Text_Dragonite:
-	.string "DRAGONITE: Gyafooha!$"
+	.string "カイリュー『ギャオーッ！$"
 
 LakeOfRage_Text_LanceForcedToEvolve:
-    .string "This lake is full of GYARADOS\n"
-    .string "but nothing else…\p"
-    .string "So the MAGIKARP are being forced\n"
-    .string "to evolve…$"
+	.string "この　みずうみには\nギャラドス　しか　いない‥\pコイキングが　むりやり\nしんか　させられて　いる‥$"
 
 LakeOfRage_Text_LanceIntro1:
-    .string "Did you come here because of\n"
-    .string "the rumors?\p"
-    .string "You're {PLAYER}? I'm LANCE, a\n"
-    .string "trainer like you.$"
+	.string "きみも　うわさを　ききつけて\nきたのか？\pきみが　{PLAYER}くん？　わたしは\nワタル　きみと　おなじ\lトレーナーだ$"
 
 LakeOfRage_Text_LanceIntro2:
-    .string "This man here informed me of\n"
-    .string "some rumors.\p"
-    .string "So we came to investigate…$"
+	.string "この　ひとから　うわさを\nきいたんだ\pそれで　しらべに\nきたのだが‥$"
 
 LakeOfRage_Text_LanceIntro3:
-    .string "I saw the way you battled\n"
-    .string "earlier, {PLAYER}.\p"
-    .string "I can tell that you're a trainer\n"
-    .string "with considerable skill.\p"
-    .string "If you don't mind, could you help\n"
-    .string "us investigate?$"
+	.string "{PLAYER}くん　さっきの\nたたかいかた　みせて\lもらったよ\pかなりの　うでの\nトレーナー　だね\pよければ　ちょうさを\nてつだって　くれないか？$"
 
 LakeOfRage_Text_LanceRadioSignal:
-    .string "LANCE: Excellent!\p"
-    .string "It seems that the LAKE's MAGIKARP\n"
-    .string "are being forced to evolve.\p"
-    .string "A mysterious radio broadcast\n"
-    .string "coming from MAHOGANY is the cause.\p"
-    .string "We'll be waiting for you,\n"
-    .string "{PLAYER}.$"
+	.string "ワタル『ありがとう！\pみずうみの　コイキングは\nむりやり　しんか　させられて\lいる　ようだ\pチョウジから　でている\nなぞの　でんぱが\lげんいんだ\pまって　いるよ\n{PLAYER}くん$"
 
 LakeOfRage_Text_LanceRefused:
-    .string "Oh… Well, if you change your mind,\n"
-    .string "please help us.$"
+	.string "そうか‥　きが　かわったら\nてつだって　くれ$"
 
 LakeOfRage_Text_LanceAskHelp:
-    .string "LANCE: Hm? Are you going to help\n"
-    .string "us?$"
+	.string "ワタル『ん？　てつだって\nくれるのかい？$"
 
 LakeOfRage_Text_GyaradosCry:
-    .string "GYARADOS: Gyashaa!$"
+	.string "ギャラドス『ギャオース！$"
 
 LakeOfRage_Text_Gramps:
-    .string "The GYARADOS are angry!\p"
-    .string "It's a bad omen!$"
+	.string "ギャラドスが\nいかって　おる！\pふきつな　まえぶれじゃ！$"
 
 LakeOfRage_Text_GrampsCleared:
-    .string "Hahah! The MAGIKARP are biting!$"
+	.string "わはは！　コイキングが\nつれるぞ！$"
 
 LakeOfRage_Text_SuperNerd:
-    .string "I heard this lake was made by\n"
-    .string "rampaging GYARADOS.\p"
-    .string "I wonder if there is any\n"
-    .string "connection to their mass outbreak\l"
-    .string "now?$"
+	.string "この　みずうみは　あばれる\nギャラドスが　つくったと\lきいたよ\pいまの　たいりょう\nはっせいと　かんけい\lあるのかな？$"
 
 LakeOfRage_Text_CooltrainerF:
-    .string "Did my eyes deceive me? I saw a\n"
-    .string "red GYARADOS in the LAKE…\p"
-    .string "But I thought GYARADOS were\n"
-    .string "usually blue?$"
+	.string "めの　さっかく？\nみずうみで　あかい\lギャラドスを　みたの‥\pギャラドスって　ふつうは\nあおい　はず　でしょ？$"
 
 
 LakeOfRage_Text_FisherAndreSeen:
-    .string "Let me battle with the POKéMON I\n"
-    .string "just caught!$"
+	.string "つった　ばかりの\nポケモンで　しょうぶだ！$"
 
 LakeOfRage_Text_FisherAndreBeaten:
-    .string "I might be an expert angler, but\n"
-    .string "I stink as a POKéMON trainer…$"
+	.string "つりは　めいじんでも\nトレーナーと　しては\lへたっぴ‥$"
 
 LakeOfRage_Text_FisherAndreAfter:
-    .string "I won't lose as an angler! I catch\n"
-    .string "POKéMON all day.$"
+	.string "つりでは　まけないぞ！\nいちにちじゅう　つってるからな$"
 
 
 LakeOfRage_Text_FisherRaymondSeen:
-    .string "No matter what I do, all I catch\n"
-    .string "are the same POKéMON…$"
+	.string "なにを　やっても　おなじ\nポケモンしか　つれない‥$"
 
 LakeOfRage_Text_FisherRaymondBeaten:
-    .string "My line's all tangled up…$"
+	.string "いとが　からまった‥$"
 
 LakeOfRage_Text_FisherRaymondAfter:
-    .string "Why can't I catch any good\n"
-    .string "POKéMON?$"
+	.string "なんで　いい　ポケモンが\nつれないんだ？$"
 
 LakeOfRage_Text_CooltrainermAaronSeen:
-    .string "If a trainer spots another trainer,\n"
-    .string "he has to make a challenge.\p"
-    .string "That is our destiny.$"
+	.string "トレーナーは　めが　あったら\nしょうぶ　しなければ\lならない\pそれが　さだめだ$"
 
 LakeOfRage_Text_CooltrainermAaronBeaten:
-    .string "Whew… Good battle.$"
+	.string "ふう‥\nいい　しょうぶだった$"
 
 LakeOfRage_Text_CooltrainermAaronAfter:
-    .string "POKéMON and their trainer become\n"
-    .string "powerful through constant battling.$"
+	.string "ポケモンも　トレーナーも\nたたかいを　かさねて\lつよく　なるんだ$"
 
 LakeOfRage_Text_CooltrainerfLoisSeen:
-    .string "What happened to the red\n"
-    .string "GYARADOS?\p"
-    .string "It's gone?\p"
-    .string "Oh, darn. I came here for\n"
-    .string "nothing?\p"
-    .string "I know--let's battle!$"
+	.string "あかい　ギャラドスは\nどうしたの？\pいなく　なった？\pもう！　むだあし\nだったの？\pそうだ　しょうぶ\nしましょう！$"
 
 LakeOfRage_Text_CooltrainerfLoisBeaten:
-    .string "Good going!$"
+	.string "やるわね！$"
 
 LakeOfRage_Text_CooltrainerfLoisAfter:
-    .string "Come to think of it, I've seen a\n"
-    .string "pink BUTTERFREE.$"
+	.string "そういえば　ピンクの\nバタフリーを　みたわ$"
 
 
 
@@ -405,26 +359,19 @@ LakeOfRage_EventScript_WesleyCompleted::
 	end
 
 LakeOfRage_Text_MeetWesley:
-    .string "WESLEY: Well, how do you do?\p"
-    .string "I'm a member of the WEEKDAY family!\n"
-	.string "Can you guess my favorite day?$"
+	.string "スイ『やあ　はじめまして\pぼくは　しゅうの　きょうだいの\nひとり！　すきな　ようびが\lわかるかな？$"
 
 LakeOfRage_Text_WesleyGivesGift:
-    .string "Pleased to meet you. Please take a\n"
-    .string "souvenir.$"
+	.string "よろしく　おみやげを\nどうぞ$"
 
 LakeOfRage_Text_WesleyGaveGift:
-    .string "WESLEY: BLACK BELT beefs up the\n"
-    .string "power of fighting moves.$"
+	.string "スイ『くろおびは　かくとうわざの\nいりょくを　あげるんだ$"
 
 LakeOfRage_Text_WesleyWednesday:
-    .string "WESLEY: Since you found me, you\n"
-    .string "must have met my brothers and\l"
-    .string "sisters.\p"
-    .string "Or did you just get lucky?$"
+	.string "スイ『ぼくを　みつけた\nなら　ほかの　きょうだいにも\lあったんだね\pそれとも　ただの\nぐうぜん　かな？$"
 
 LakeOfRage_Text_WesleyNotWednesday:
-    .string "WESLEY: Not exactly...$"
+	.string "スイ『ちょっと　ちがうな‥$"
 
 LakeOfRage_EventScript_Sign1::
 	msgbox LakeOfRage_Text_Sign, MSGBOX_SIGN
@@ -435,8 +382,7 @@ LakeOfRage_EventScript_Sign2::
 	end
 
 LakeOfRage_Text_Sign:
-    .string "LAKE OF RAGE,\n"
-    .string "also known as GYARADOS LAKE.$"
+	.string "いかりのみずうみ\nまたの　なを　ギャラドスこ$"
 
 LakeOfRage_Text_FishingGuruSign:
-    .string "FISHING GURU'S HOUSE$"
+	.string "つりの　めいじんの　いえ$"

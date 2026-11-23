@@ -677,65 +677,37 @@ IlexForest_Text_Signpost:
 	.string "ウバメのもりは　きが　しげって\nそらも　みえない\pおとしものに\nきを　つけてください$"
 
 IlexForest_Text_Shrine:
-	.string "ILEX FOREST SHRINE…\p"
-	.string "It's in honor of the forest's\n"
-	.string "protector…$"
+	.string "ウバメのもりの　ほこら‥\pもりの　かみさまを\nまつって　いる‥$"
 
 IlexForest_Text_ShrineCelebiEvent:
-	.string "ILEX FOREST SHRINE…\p"
-	.string "It's in honor of the forest's\n"
-	.string "protector…\p"
-	.string "Oh? What is this?\p"
-	.string "It's a hole.\n"
-	.string "It looks like the GS BALL would fit\l"
-	.string "inside it.\p"
-	.string "Want to put the GS BALL here?$"
+	.string "ウバメのもりの　ほこら‥\pもりの　かみさまを\nまつって　いる‥\pおや？　これは　なんだろう？\pあなが　ある\nGSボールが　ぴったり\lはいりそうだ\pGSボールを　おいて　みますか？$"
 
 IlexForest_Text_InsertGSBall:
-	.string "{PLAYER} put in the GS BALL.$"
+	.string "{PLAYER}は　GSボールを\nおいた$"
 
 IlexForest_Text_KurtCaughtCelebi:
-	.string "Whew, wasn't that something!\p"
-	.string "{PLAYER}, that was fantastic. Thanks!\p"
-	.string "The legends about that SHRINE were\n"
-	.string "real after all.\p"
-	.string "I feel inspired by what I just saw.\p"
-	.string "It motivates me to make better BALLS!\p"
-	.string "I'm going!$"
+	.string "ふう　すごかったのう！\p{PLAYER}　みごと\nだったぞ　ありがとう！\pやはり　ほこらの　いいつたえは\nほんとう　だったんじゃ\pいい　もの　みせて\nもらった\pもっと　いい　ボールを\nつくる　きに　なったわい！\pわしは　いくぞ！$"
 
 IlexForest_Text_BugCatcherWayneSeen:
-	.string "Don't sneak up on me like that!\p"
-	.string "You frightened a POKéMON away!$"
+	.string "こっそり　ちかよるなよ！\pポケモンが　にげちゃった\nじゃないか！$"
 
 IlexForest_Text_BugCatcherWayneBeaten:
-	.string "I hadn't seen that POKéMON before…$"
+	.string "はじめて　みる\nポケモン　だったのに‥$"
 
 IlexForest_Text_BugCatcherWayneAfter:
-	.string "A POKéMON I've never seen before\n"
-	.string "fell out of the tree when I used\l"
-	.string "HEADBUTT.\p"
-	.string "I ought to use HEADBUTT in other\n"
-	.string "places too.$"
+	.string "ずつきを　したら　みた　ことの\nない　ポケモンが　きから\lおちて　きたんだ\pほかの　ところでも\nずつきを　して　みよう$"
 
 IlexForest_Text_Kimono_Girl1:
-	.string "KIMONO GIRL, KIMONO GIRL, lost and\n"
-	.string "all alone. Poor girl lost in the\l"
-	.string "dark ILEX FOREST.$"
+	.string "まいこはん　まいこはん\nひとりぼっち\lくらい　ウバメのもりで\lまいごの　まいこはん$"
 
 IlexForest_Text_Kimono_Girl2:
-	.string "You remember me from VIOLET CITY?\n"
-	.string "You must be imagining.\p"
-	.string "Anyway, will you show me how to\n"
-	.string "get out of this forest?$"
+	.string "キキョウシティで　あった？\nきの　せい　でしょう\pそれより　この　もりの\nでぐちを　おしえて\lくださる？$"
 
 IlexForest_Text_Kimono_Girl3:
-	.string "Me oh my... You are lost yourself,\n"
-	.string "aren't you?$"
+	.string "あらあら‥　あなたも\nまよって　いるのでは\lありませんか？$"
 
 IlexForest_Text_Kimono_Girl4:
-	.string "Wow! Are you going to show me how\n"
-	.string "to get out?\p"
-	.string "You are such a smart POKéMON!$"
+	.string "まあ！　でぐちへ\nあんない　して　くださるの？\pなんて　かしこい\nポケモン　でしょう！$"
 
 IlexForest_Text_Kimono_Girl5:
-	.string "See you.$"
+	.string "では　ごきげんよう$"

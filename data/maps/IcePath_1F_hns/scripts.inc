@@ -88,38 +88,19 @@ IcePath_Movement_KimonoLeave:
 	step_end
 
 IcePath_1F_Text_Leave:
-	.string "KIMONO GIRL: .....................$"
+	.string "まいこはん『‥‥‥‥‥‥‥$"
 
 IcePath_1F_Text_Stuck1:
-    .string "Me oh my... Is that you, {PLAYER}?\n"
-    .string "Fancy meeting you here!\p"
-    .string "To tell the truth... my sandals are\n"
-    .string "frozen on the ice, and I am stuck.\p"
-    .string "In other words, my flip-flops are\n"
-    .string "quick-frozen to the ground.\p"
-    .string "Tee hee.\p"
-    .string "Well, it's no laughing matter.\p"
-    .string "Would you come around and push\n"
-    .string "my back?$"
+	.string "あらあら‥　{PLAYER}さん？\nこんな　ところで　あうなんて！\pじつは‥　ぞうりが　こおりに\nはりついて　うごけないの\pつまり　ぞうりが　じめんと\nいっしょに　こおって\lしまったのです\pうふふ\pわらいごとでは\nありませんね\pうしろに　まわって\nせなかを　おして\lくださる？$"
 
 IcePath_1F_Text_Stuck2:
-    .string "Me oh my... Is that you, {PLAYER}?\n"
-    .string "Fancy meeting you here!\p"
-    .string "To tell the truth... my sandals are\n"
-    .string "frozen on the ice, and I am stuck.\p"
-    .string "In other words, my flip-flops are\n"
-    .string "quick-frozen with the ground.\p"
-    .string "Tee hee.\p"
-    .string "Well, it's no laughing matter.\n"
-    .string "Would you push my back?$"
+	.string "あらあら‥　{PLAYER}さん？\nこんな　ところで　あうなんて！\pじつは‥　ぞうりが　こおりに\nはりついて　うごけないの\pつまり　ぞうりが　じめんと\nいっしょに　こおって\lしまったのです\pうふふ\pわらいごとでは\nありませんね\lせなかを　おして　くださる？$"
 
 IcePath_1F_Text_Shove:
-    .string "....SHOVE!....$"
+	.string "‥‥えいっ！‥‥$"
 
 IcePath_1F_Text_Cruel:
-    .string "Don't be so cruel.\n"
-    .string "You will push my back, won't you?$"
+	.string "いじわる　しないで\nおして　くださるわよね？$"
 
 IcePath_1F_Text_Thanks:
-    .string "You really are kind.\n"
-    .string "Thank you so much!$"
+	.string "ほんとうに　おやさしい\nありがとう　ございます！$"
