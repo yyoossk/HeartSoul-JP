@@ -200,50 +200,50 @@ static const u16 sTextPal[] = INCBIN_U16("graphics/interface/option_menu_text_cu
 // =============================================================================
 
 static const u8 *const sChoices_OnOff[] = {
-    COMPOUND_STRING("ON"),
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("オン"),
+    COMPOUND_STRING("オフ"),
 };
 
 static const u8 *const sChoices_ShiftSet[] = {
-    COMPOUND_STRING("SHIFT"),
-    COMPOUND_STRING("SET"),
+    COMPOUND_STRING("いれかえ"),
+    COMPOUND_STRING("かちぬき"),
 };
 
 static const u8 *const sChoices_MonoStereo[] = {
-    COMPOUND_STRING("MONO"),
-    COMPOUND_STRING("STEREO"),
+    COMPOUND_STRING("モノラル"),
+    COMPOUND_STRING("ステレオ"),
 };
 
 static const u8 *const sChoices_ButtonMode[] = {
-    COMPOUND_STRING("NORMAL"),
+    COMPOUND_STRING("ノーマル"),
     COMPOUND_STRING("LR"),
     COMPOUND_STRING("L=A"),
 };
 
 static const u8 *const sChoices_TextSpeed[] = {
-    COMPOUND_STRING("SLOW"),
-    COMPOUND_STRING("MID"),
-    COMPOUND_STRING("FAST"),
-    COMPOUND_STRING("FASTER"),
+    COMPOUND_STRING("おそい"),
+    COMPOUND_STRING("ふつう"),
+    COMPOUND_STRING("はやい"),
+    COMPOUND_STRING("さいそく"),
 };
 
 static const u8 *const sChoices_MetricImperial[] = {
-    COMPOUND_STRING("METRIC"),
-    COMPOUND_STRING("IMPERIAL"),
+    COMPOUND_STRING("メートル"),
+    COMPOUND_STRING("ヤード"),
 };
 
 static const u8 *const sChoices_OldModern[] = {
-    COMPOUND_STRING("OLD"),
-    COMPOUND_STRING("MODERN"),
+    COMPOUND_STRING("むかし"),
+    COMPOUND_STRING("いま"),
 };
 
 static const u8 *const sChoices_Gen3Gen4[] = {
-    COMPOUND_STRING("GEN 3"),
-    COMPOUND_STRING("GEN 4"),
+    COMPOUND_STRING("だい3せだい"),
+    COMPOUND_STRING("だい4せだい"),
 };
 
 static const u8 *const sChoices_RunType[] = {
-    COMPOUND_STRING("NO"),
+    COMPOUND_STRING("なし"),
     COMPOUND_STRING("L+R+A"),
     COMPOUND_STRING("B{RIGHT_ARROW}A"),
     COMPOUND_STRING("B"),
@@ -263,7 +263,7 @@ static const u8 sText_TopBar_Right[] = _("{R_BUTTON}");
 // Descriptions
 // =============================================================================
 
-static const u8 sText_Desc_TextSpeed[] = _("Choose one of the four text-display\nspeeds.");
+static const u8 sText_Desc_TextSpeed[] = _("はなしの　はやさを\n4つから　えらびます");
 static const u8 *const sDesc_TextSpeed[] = {
     sText_Desc_TextSpeed,
     sText_Desc_TextSpeed,
@@ -271,98 +271,98 @@ static const u8 *const sDesc_TextSpeed[] = {
     sText_Desc_TextSpeed,
 };
 static const u8 *const sDesc_BattleScene[] = {
-    COMPOUND_STRING("Show the {PKMN} animations\nand attack animations."),
-    COMPOUND_STRING("Skip the {PKMN} animations\nand attack animations."),
+    COMPOUND_STRING("ポケモンと　わざの\nアニメーションを　みせます"),
+    COMPOUND_STRING("ポケモンと　わざの\nアニメーションを　とばします"),
 };
 static const u8 *const sDesc_BattleStyle[] = {
-    COMPOUND_STRING("Get the option to switch your\n{PKMN} after the enemies faints."),
-    COMPOUND_STRING("No free switch after fainting the\nenemies {PKMN}."),
+    COMPOUND_STRING("あいてを　たおしたあと\nポケモンを　いれかえられます"),
+    COMPOUND_STRING("あいてを　たおしても\nいれかえは　できません"),
 };
 static const u8 *const sDesc_ButtonMode[] = {
-    COMPOUND_STRING("All buttons work as normal."),
-    COMPOUND_STRING("On some screens the L and R buttons\nact as left and right."),
-    COMPOUND_STRING("The L button acts as another A\nbutton for one-handed play."),
+    COMPOUND_STRING("すべての　ボタンが\nふつうに　はたらきます"),
+    COMPOUND_STRING("いちぶの　がめんで　LとRが\nひだりと　みぎに　なります"),
+    COMPOUND_STRING("Lボタンが　Aボタンの\nかわりに　なります"),
 };
 static const u8 *const sDesc_Follower[] = {
-    COMPOUND_STRING("Let the first {PKMN} in your\nparty follow you."),
-    COMPOUND_STRING("Walk alone."),
+    COMPOUND_STRING("てもちの　せんとうの\nポケモンが　ついてきます"),
+    COMPOUND_STRING("ひとりで　あるきます"),
 };
 static const u8 *const sDesc_LargeFollower[] = {
-    COMPOUND_STRING("Enable large {PKMN} followers.\nCan cause graphical issues."),
-    COMPOUND_STRING("Disable large {PKMN} followers.\nRecommended."),
+    COMPOUND_STRING("おおきな　ポケモンも　ついてくる\nがめんが　みだれる　ことあり"),
+    COMPOUND_STRING("おおきな　ポケモンは\nついてきません　おすすめ"),
 };
 static const u8 *const sDesc_Autorun[] = {
-    COMPOUND_STRING("Run without pressing B."),
-    COMPOUND_STRING("Press and hold B to run."),
+    COMPOUND_STRING("Bを　おさなくても\nはしります"),
+    COMPOUND_STRING("Bを　おしている　あいだ\nはしります"),
 };
 static const u8 *const sDesc_AutorunSurf[] = {
-    COMPOUND_STRING("Surf faster without pressing B."),
-    COMPOUND_STRING("Press and hold B to surf faster."),
+    COMPOUND_STRING("Bを　おさなくても\nはやく　なみのりします"),
+    COMPOUND_STRING("Bを　おしている　あいだ\nはやく　なみのりします"),
 };
 static const u8 *const sDesc_Fishing[] = {
-    COMPOUND_STRING("Automatically reel while fishing."),
-    COMPOUND_STRING("Manually reel while fishing.\nFish like you always fished!"),
+    COMPOUND_STRING("つりで　じどうで\nひきあげます"),
+    COMPOUND_STRING("つりで　じぶんで\nひきあげます"),
 };
 static const u8 *const sDesc_FasterJoy[] = {
-    COMPOUND_STRING("NURSE JOY heals you faster."),
-    COMPOUND_STRING("NURSE JOY heals you with the\nusual animation."),
+    COMPOUND_STRING("ジョーイさんが\nはやく　かいふく　します"),
+    COMPOUND_STRING("ジョーイさんが　いつもどおりに\nかいふく　します"),
 };
 static const u8 *const sDesc_UnitType[] = {
-    COMPOUND_STRING("Display BERRY and {PKMN} weight\nand size in kilograms and meters."),
-    COMPOUND_STRING("Display BERRY and {PKMN} weight\nand size in pounds and inches."),
+    COMPOUND_STRING("きのみと　ポケモンの　おもさなどを\nkgと　mで　しめす"),
+    COMPOUND_STRING("きのみと　ポケモンの　おもさなどを\nポンドと　インチで　しめす"),
 };
 static const u8 *const sDesc_MatchCall[] = {
-    COMPOUND_STRING("TRAINERs will be able to call you,\noffering rematches and info."),
-    COMPOUND_STRING("You will not receive calls.\nSpecial events will still occur."),
+    COMPOUND_STRING("トレーナーから　でんわが\nかかって　きます"),
+    COMPOUND_STRING("でんわは　かかって　きません\nイベントは　おこります"),
 };
 static const u8 *const sDesc_FrameType[] = {
-    COMPOUND_STRING("Choose the frame surrounding the\nwindows."),
+    COMPOUND_STRING("まどの　わくを\nえらびます"),
 };
 static const u8 *const sDesc_FastIntro[] = {
-    COMPOUND_STRING("Skip the sliding animation\nand enter battles faster."),
-    COMPOUND_STRING("Battles load at the usual speed."),
+    COMPOUND_STRING("バトルの　はじめの\nえんしゅつを　とばします"),
+    COMPOUND_STRING("バトルを　ふつうの\nはやさで　はじめます"),
 };
 static const u8 *const sDesc_FastBattles[] = {
-    COMPOUND_STRING("Skips all delays in battles, which\nmakes them faster."),
-    COMPOUND_STRING("Manual delay skipping. You can\npress A or B to skip delays."),
+    COMPOUND_STRING("バトルの　まちじかんを\nすべて　とばします"),
+    COMPOUND_STRING("AかBで　まちじかんを\nとばせます"),
 };
 static const u8 *const sDesc_NewBackgrounds[] = {
-    COMPOUND_STRING("Original battle terrain backgrounds."),
-    COMPOUND_STRING("Modernized battle terrain\nbackgrounds, from HnS."),
+    COMPOUND_STRING("もとの　バトルはいけい\nです"),
+    COMPOUND_STRING("HnSの　あたらしい\nバトルはいけい　です"),
 };
 static const u8 *const sDesc_NewBattleUI[] = {
-    COMPOUND_STRING("Original GEN III Battle UI."),
-    COMPOUND_STRING("Modernized GEN IV Battle UI."),
+    COMPOUND_STRING("だい3せだいの\nバトルがめん　です"),
+    COMPOUND_STRING("だい4せだいの\nバトルがめん　です"),
 };
 static const u8 *const sDesc_BallPrompt[] = {
-    COMPOUND_STRING("Press {R_BUTTON} in battle to use Pokeballs.\nHold {L_BUTTON}/{R_BUTTON} to swap {PKMN}BALLS."),
-    COMPOUND_STRING("Disables the prompt to use\n{PKMN}BALLS quickly."),
+    COMPOUND_STRING("バトルで　{R_BUTTON}を　おすと　ボールを\nなげます　{L_BUTTON}{R_BUTTON}で　ボールを　かえる"),
+    COMPOUND_STRING("ボールを　すばやく　なげる\nひょうじを　だしません"),
 };
 static const u8 *const sDesc_RunType[] = {
-    COMPOUND_STRING("No quick running from battles."),
-    COMPOUND_STRING("Hold {L_BUTTON}+{R_BUTTON}, then {A_BUTTON} to run from\nbattles before they start."),
-    COMPOUND_STRING("Press {B_BUTTON} to move the cursor to the RUN\noption after the battle started."),
-    COMPOUND_STRING("Press {B_BUTTON} to run from battles before\nthey start."),
+    COMPOUND_STRING("バトルから　すばやく\nにげられません"),
+    COMPOUND_STRING("{L_BUTTON}+{R_BUTTON}を　おしたまま　{A_BUTTON}で\nバトルの　まえに　にげます"),
+    COMPOUND_STRING("バトルが　はじまったら　{B_BUTTON}で\nカーソルが　にげるに　うごく"),
+    COMPOUND_STRING("{B_BUTTON}で　バトルの　まえに\nにげます"),
 };
 static const u8 *const sDesc_LRRun[] = {
-    COMPOUND_STRING("Enables a prompt to show that you\ncan run away from battles."),
-    COMPOUND_STRING("Disables said prompt to flee.\nButton combo still works."),
+    COMPOUND_STRING("バトルから　にげられる\nことを　ひょうじ　します"),
+    COMPOUND_STRING("にげる　ひょうじを　けします\nボタンそうさは　つかえます"),
 };
 static const u8 *const sDesc_Sound[] = {
-    COMPOUND_STRING("Sound is the same in all speakers.\nRecommended for original hardware."),
-    COMPOUND_STRING("Play the left and right audio channel\nseparately. Great with headphones."),
+    COMPOUND_STRING("すべての　スピーカーから\nおなじ　おとが　でます"),
+    COMPOUND_STRING("ひだりと　みぎの　おとを\nわけて　ながします"),
 };
 static const u8 *const sDesc_Music[] = {
-    COMPOUND_STRING("Enables music playback.\nChange maps to take effect."),
-    COMPOUND_STRING("Disables music playback.\nChange maps to take effect."),
+    COMPOUND_STRING("おんがくを　ながします\nマップを　かえると　かわります"),
+    COMPOUND_STRING("おんがくを　とめます\nマップを　かえると　かわります"),
 };
 static const u8 *const sDesc_BikeMusic[] = {
-    COMPOUND_STRING("Enables BIKE music."),
-    COMPOUND_STRING("Disables BIKE music."),
+    COMPOUND_STRING("じてんしゃの　おんがくを\nながします"),
+    COMPOUND_STRING("じてんしゃの　おんがくを\nながしません"),
 };
 static const u8 *const sDesc_SurfMusic[] = {
-    COMPOUND_STRING("Enables SURF music."),
-    COMPOUND_STRING("Disables SURF music."),
+    COMPOUND_STRING("なみのりの　おんがくを\nながします"),
+    COMPOUND_STRING("なみのりの　おんがくを\nながしません"),
 };
 
 // =============================================================================
@@ -371,79 +371,79 @@ static const u8 *const sDesc_SurfMusic[] = {
 
 static const struct OptionMenuItem sTabItems_Main[] = {
     [ITEM_MAIN_TEXTSPEED] = {
-        .name         = COMPOUND_STRING("TEXT SPEED"),
+        .name         = COMPOUND_STRING("メッセージ"),
         .descriptions = sDesc_TextSpeed,
         .numChoices   = 4,
         .choiceNames  = sChoices_TextSpeed,
     },
     [ITEM_MAIN_BATTLESCENE] = {
-        .name         = COMPOUND_STRING("BATTLE SCENE"),
+        .name         = COMPOUND_STRING("せんとうアニメ"),
         .descriptions = sDesc_BattleScene,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_BATTLESTYLE] = {
-        .name         = COMPOUND_STRING("BATTLE STYLE"),
+        .name         = COMPOUND_STRING("しあいのルール"),
         .descriptions = sDesc_BattleStyle,
         .numChoices   = 2,
         .choiceNames  = sChoices_ShiftSet,
     },
     [ITEM_MAIN_BUTTONMODE] = {
-        .name         = COMPOUND_STRING("BUTTON MODE"),
+        .name         = COMPOUND_STRING("ボタンせってい"),
         .descriptions = sDesc_ButtonMode,
         .numChoices   = 3,
         .choiceNames  = sChoices_ButtonMode,
     },
     [ITEM_MAIN_FOLLOWER] = {
-        .name         = COMPOUND_STRING("FOLLOWER"),
+        .name         = COMPOUND_STRING("つれあるき"),
         .descriptions = sDesc_Follower,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_LARGE_FOLLOWER] = {
-        .name         = COMPOUND_STRING("BIG FOLLOWERS"),
+        .name         = COMPOUND_STRING("おおきいポケモン"),
         .descriptions = sDesc_LargeFollower,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_AUTORUN] = {
-        .name         = COMPOUND_STRING("AUTORUN"),
+        .name         = COMPOUND_STRING("オートダッシュ"),
         .descriptions = sDesc_Autorun,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_AUTORUN_SURF] = {
-        .name         = COMPOUND_STRING("AUTORUN (SURF)"),
+        .name         = COMPOUND_STRING("オートなみのり"),
         .descriptions = sDesc_AutorunSurf,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_FISHING] = {
-        .name         = COMPOUND_STRING("EASIER FISHING"),
+        .name         = COMPOUND_STRING("かんたんつり"),
         .descriptions = sDesc_Fishing,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_FASTER_JOY] = {
-        .name         = COMPOUND_STRING("FASTER JOY"),
+        .name         = COMPOUND_STRING("はやいかいふく"),
         .descriptions = sDesc_FasterJoy,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_UNIT_TYPE] = {
-        .name         = COMPOUND_STRING("UNIT SYSTEM"),
+        .name         = COMPOUND_STRING("たんい"),
         .descriptions = sDesc_UnitType,
         .numChoices   = 2,
         .choiceNames  = sChoices_MetricImperial,
     },
     [ITEM_MAIN_MATCHCALL] = {
-        .name         = COMPOUND_STRING("MATCH CALLS"),
+        .name         = COMPOUND_STRING("でんわ"),
         .descriptions = sDesc_MatchCall,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_FRAMETYPE] = {
-        .name         = COMPOUND_STRING("FRAME"),
+        .name         = COMPOUND_STRING("ウインドウ"),
         .descriptions = sDesc_FrameType,
         .numChoices   = FRAME_TYPE_SPECIAL,
         .choiceNames  = NULL,
@@ -452,43 +452,43 @@ static const struct OptionMenuItem sTabItems_Main[] = {
 
 static const struct OptionMenuItem sTabItems_Battle[] = {
     [ITEM_BATTLE_FAST_INTRO] = {
-        .name         = COMPOUND_STRING("FAST INTRO"),
+        .name         = COMPOUND_STRING("オープニング"),
         .descriptions = sDesc_FastIntro,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_BATTLE_FAST_BATTLES] = {
-        .name         = COMPOUND_STRING("FAST BATTLES"),
+        .name         = COMPOUND_STRING("はやいバトル"),
         .descriptions = sDesc_FastBattles,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_BATTLE_NEW_BACKGROUNDS] = {
-        .name         = COMPOUND_STRING("BATTLE TERRAIN"),
+        .name         = COMPOUND_STRING("バトルはいけい"),
         .descriptions = sDesc_NewBackgrounds,
         .numChoices   = 2,
         .choiceNames  = sChoices_OldModern,
     },
     [ITEM_BATTLE_NEW_BATTLEUI] = {
-        .name         = COMPOUND_STRING("BATTLE UI"),
+        .name         = COMPOUND_STRING("バトルがめん"),
         .descriptions = sDesc_NewBattleUI,
         .numChoices   = 2,
         .choiceNames  = sChoices_Gen3Gen4,
     },
     [ITEM_BATTLE_BALL_PROMPT] = {
-        .name         = COMPOUND_STRING("BALL PROMPT"),
+        .name         = COMPOUND_STRING("ボールひょうじ"),
         .descriptions = sDesc_BallPrompt,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_BATTLE_RUN_TYPE] = {
-        .name         = COMPOUND_STRING("QUICK RUN"),
+        .name         = COMPOUND_STRING("すばやくにげる"),
         .descriptions = sDesc_RunType,
         .numChoices   = 4,
         .choiceNames  = sChoices_RunType,
     },
     [ITEM_BATTLE_LR_RUN] = {
-        .name         = COMPOUND_STRING("RUN PROMPT"),
+        .name         = COMPOUND_STRING("にげるひょうじ"),
         .descriptions = sDesc_LRRun,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
@@ -497,25 +497,25 @@ static const struct OptionMenuItem sTabItems_Battle[] = {
 
 static const struct OptionMenuItem sTabItems_Sound[] = {
     [ITEM_SOUND_SOUND] = {
-        .name         = COMPOUND_STRING("SOUND"),
+        .name         = COMPOUND_STRING("サウンド"),
         .descriptions = sDesc_Sound,
         .numChoices   = 2,
         .choiceNames  = sChoices_MonoStereo,
     },
     [ITEM_SOUND_MUSIC] = {
-        .name         = COMPOUND_STRING("MUSIC"),
+        .name         = COMPOUND_STRING("おんがく"),
         .descriptions = sDesc_Music,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_SOUND_BIKE_MUSIC] = {
-        .name         = COMPOUND_STRING("BIKE MUSIC"),
+        .name         = COMPOUND_STRING("じてんしゃBGM"),
         .descriptions = sDesc_BikeMusic,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_SOUND_SURF_MUSIC] = {
-        .name         = COMPOUND_STRING("SURF MUSIC"),
+        .name         = COMPOUND_STRING("なみのりBGM"),
         .descriptions = sDesc_SurfMusic,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
@@ -534,9 +534,9 @@ struct TabDef
 };
 
 static const struct TabDef sTabs[TAB_COUNT] = {
-    [TAB_MAIN]   = { COMPOUND_STRING("OPTIONS"),        sTabItems_Main,   ITEM_MAIN_COUNT },
-    [TAB_BATTLE] = { COMPOUND_STRING("BATTLE OPTIONS"), sTabItems_Battle, ITEM_BATTLE_COUNT },
-    [TAB_SOUND]  = { COMPOUND_STRING("SOUND"),          sTabItems_Sound,  ITEM_SOUND_COUNT },
+    [TAB_MAIN]   = { COMPOUND_STRING("せってい"),        sTabItems_Main,   ITEM_MAIN_COUNT },
+    [TAB_BATTLE] = { COMPOUND_STRING("バトルせってい"), sTabItems_Battle, ITEM_BATTLE_COUNT },
+    [TAB_SOUND]  = { COMPOUND_STRING("サウンド"),          sTabItems_Sound,  ITEM_SOUND_COUNT },
 };
 
 // =============================================================================
@@ -698,7 +698,7 @@ static void DrawFrameTypeChoice(u8 selection, int y, bool8 active)
     }
     text[i] = EOS;
 
-    DrawRightSideChoiceText(COMPOUND_STRING("TYPE"), 104, y + 1, FALSE, active);
+    DrawRightSideChoiceText(COMPOUND_STRING("タイプ"), 104, y + 1, FALSE, active);
     DrawRightSideChoiceText(text, 128, y + 1, TRUE, active);
 }
 
