@@ -478,22 +478,12 @@ static void GenerateOPTSegment(struct Pokenav_Radio *radio)
 
         // "may be seen around Route 29."
         dst = radio->lineBuffers[buf];
-        StringCopy(dst, sRadioText_OPT_SeenAround);
-        {
-            u8 *end = dst + StringLength(dst);
-            *end++ = CHAR_SPACE;
-            *end = EOS;
-        }
         {
             u8 mapNameBuf[24];
             GetMapName(mapNameBuf, header->regionMapSectionId, 0);
-            StringAppend(dst, mapNameBuf);
+            StringCopy(dst, mapNameBuf);
         }
-        {
-            u8 *end = dst + StringLength(dst);
-            *end++ = CHAR_PERIOD;
-            *end = EOS;
-        }
+        StringAppend(dst, sRadioText_OPT_SeenAround);
         radio->lines[n++] = radio->lineBuffers[buf++];
 
         // "MARY: Bayleef's"
