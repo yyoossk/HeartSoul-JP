@@ -12,31 +12,22 @@ SSAqua_RoomSW_EventScript_Clyde::
 	end
 
 SSAqua_RoomSW_Text_BeautyCassieSeen:
-    .string "I'm trying to forget my woes.\n"
-    .string "Let's battle!$"
+	.string "かなしみを　わすれたいの\nしょうぶ　しましょう！$"
 
 SSAqua_RoomSW_Text_BeautyCassieBeaten:
-    .string "My heart weeps…$"
+	.string "こころが　ないてる‥$"
 
 SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
-    .string "A voyage is best for getting over\n"
-    .string "a broken heart.\p"
-    .string "But a FAST SHIP trip is too short\n"
-    .string "for grieving.$"
+	.string "しつれんには　ふなたびが\nいちばん\pでも　こうそくせんじゃ\nかなしむには　みじかすぎる$"
 
 SSAqua_RoomSW_Text_GuitaristClydeSeen:
-    .string "I'm going to audition my songs\n"
-    .string "at GOLDENROD's RADIO STATION.$"
+	.string "コガネの　ラジオとうで\nじさくの　うたの\lオーディションを　うけるんだ$"
 
 SSAqua_RoomSW_Text_GuitaristClydeBeaten:
-    .string "Yowza! Total distortion!$"
+	.string "うおっ！\nおとが　われた！$"
 
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
-    .string "I was going to make my debut at\n"
-    .string "the BATTLE TOWER…\p"
-    .string "I should go back to VERMILION and\n"
-    .string "redo my training…$"
+	.string "バトルタワーで　デビュー\nする　つもり　だったのに‥\pクチバに　もどって\nしゅぎょう　しなおしだ‥$"
 
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattle:
-    .string "Speaking of the RADIO STATION,\n"
-    .string "what's this week's lucky number?$"
+	.string "ラジオとう　と　いえば\nこんしゅうの　ラッキー\lナンバーは　なんだっけ？$"

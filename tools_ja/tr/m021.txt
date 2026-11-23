@@ -1,0 +1,387 @@
+## data/maps/SinjohRuins_House1_hns/scripts.inc
+@@SinjohRuins_Lab_Text_StevenCall6Plates
+ダイゴ『{PLAYER}くん\pさがしものは　どうだい？\pまた　ゆれが　あったよ\nこんどは　ふたつめの\lちかしつが　ひらいた\pまた　おきても　いいように\nちしつがくしゃに　きかいを\lよういして　もらって　いる\pほるほど‥\nなぞが　ふえて　いく
+@@SinjohRuins_Lab_Text_StevenCall9Plates
+ダイゴ『{PLAYER}くん\pいせきで　また\nゆれが　あった\pデータから　おもしろい\nことが　わかった\pじしんでは　なかったんだ\pちかに　たまった　なにかの\nエネルギーが　うちがわから\lいわを　わったんだ\pいったい　なにが‥\nしょうじき　わからない
+@@SinjohRuins_Lab_Text_StevenCall12Plates
+ダイゴ『{PLAYER}くん\pまた　ゆれだ　また\nちかしつが　ひらいた\pタイミングの　きまりが\nまだ　わからない\pねえ　{PLAYER}くん‥\nきみが　なにか　して\lいる　わけじゃ　ないよね？\pいや　そんな　はずは　ないか
+@@SinjohRuins_Lab_Text_StevenCall15Plates
+ダイゴ『{PLAYER}くん\pいま　また　プレートを\nみつけたかい？\p‥‥‥‥‥‥‥‥‥\pやっぱり\pこの　いせきに　ねむる\nでんせつの　ポケモンは\lきみに　こたえて　いるんだ\pまるで　みつけて　ほしい\nみたいに\pぼくの　よかんは　よく　あたる\nきみを　うたがうべきじゃ\lなかったね
+@@SinjohRuins_Lab_Text_StevenCall16Plates
+ダイゴ『{PLAYER}くん\pもう　すぐだ\nそう　かんじる\p‥‥‥‥‥‥‥‥‥\pきみも　じぶんの　めで\nたしかめに　きて　くれ
+## data/maps/TrainerHill_Courtyard_hns/scripts.inc
+@@BattleTowerOutsideYoungsterText
+うわあ　トレーナーヒルって\nおおきい！\pなかには　いろんな\nポケモンが　いるんだろうな！
+@@BattleTowerOutsideBeautyText
+バトルテントでは　ポケモンを\n3びき　しか　つかえないの\pどの　3びきに　するか\nきめるのが　むずかしいわ‥
+@@BattleTowerOutsideSailorText
+へへへ　しごとを\nぬけだして　きた\pかつまで　やめられない！\pぜんぶ　かつんだ\nかたねば！
+@@BattleTowerOutsideSignText
+{UP_ARROW}　トレーナーヒル　いりぐち\pのぼれ！　あつき\nトレーナーたちよ！\p{RIGHT_ARROW}　バトルテント
+@@BattleTower_Battle_Tent_Text_Factory
+バトルテント　ファクトリー\nさいきょうの　ポケモンを\lさがせ！
+@@BattleTower_Battle_Tent_Text_Palace
+バトルテント　パレス\nたたかいを　めで　たのしめ！
+@@BattleTower_Battle_Tent_Text_Arena
+バトルテント　アリーナ\nさいきょうの　チームよ\lあつまれ！
+@@BattleTowerOutsideText_Closed
+トレーナーヒルは　ただいま\nしゅうりの　ため　おやすみ\lです
+@@TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan_Text
+やあ！　ミラクルこうかんなら\nいまは　どの　ポケモンセンター\lでも　できるよ\lたのしんでね！
+@@TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize
+こちらは　こうかん\nサービスカウンター　です\pあつめた　バトルポイントを\nすてきな　しょうひんと\lこうかん　いたします\pこちらの　リストから\nおえらび　ください
+@@TrainerHill_Courtyard_ExchangeServiceCorner_Text_WishIHadAllDolls
+わあ　すてき！\nほしいなあ！\lかわいい　クッション！\lおおきな　ぬいぐるみ！\lちいさな　ぬいぐるみ！\lぜんぶ　ほしい！
+@@TrainerHill_Courtyard_ExchangeServiceCorner_Text_GetYouAnythingYouWant
+ママに　まかせなさい！\pほしい　ものなら　なんだって\nてに　いれて　あげるわ！
+@@TrainerHill_Courtyard_ExchangeServiceCorner_Text_ItemsWillGetMonTougher
+ここの　どうぐが　てに\nはいれば　ポケモンが\lもっと　つよく　なる\pまちがい　ない！\nそうに　きまってる！
+@@TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll
+はあ？\nなに　じろじろ　みてるの？\pわたしの　ぬいぐるみを\nそんなに　みないで\pほしいなら　じぶんで\nもらって　きなさい！\lね　ムチュール？
+@@TrainerHill_Courtyard_ExchangeServiceCorner_Text_MoreBattlePointsForRecord
+しってた？\pどの　バトルしせつでも\nれんしょうを　のばすと\lもらえる　バトルポイントが\lどんどん　ふえるのよ
+## data/maps/TrainerHill_Entrance_hns/scripts.inc
+@@TrainerHill_Entrance_hns_Text_HereToGetMoney
+おかねを　かせぎに　きたんだ！\nなぜかって？　てっぺんに\lつくたびに　しょうきんが\lもらえる　からさ！\pいつ　あくのかな\nまちきれない！
+@@TrainerHill_Entrance_hns_Text_Money
+てっぺんに　つくたびに\nしょうきんが　もらえるの\p10ぷん　いないに　つけば\n1000000円　もらえるって！\pでも　じかんが　かかると\nしょうきんは　へっちゃうの‥
+@@TrainerHill_Entrance_hns_Text_StillGettingReady
+こちらは　たくさんの\nトレーナーと　タッグバトルが\lたのしめる　トレーナーヒルです\pあいにく　まだ　じゅんび\nちゅう　です　また\lおこし　ください！
+@@TrainerHill_Entrance_hns_Text_WelcomeToTrainerHill
+いらっしゃいませ！\pこちらは　たくさんの\nトレーナーと　タッグバトルが\lたのしめる　トレーナーヒルです！
+@@TrainerHill_Entrance_hns_Text_SaveGameBeforeEnter
+はじめて　ですか？\pはいる　まえに\nレポートを　かいて　ください
+@@TrainerHill_Entrance_hns_Text_TrainersUpToFloorX
+ええと‥\nいま　いる　トレーナーは‥\p{STR_VAR_1}かい　まで　です
+@@TrainerHill_Entrance_hns_Text_TrainersInEveryRoom
+ええと‥\nいま　いる　トレーナーは‥\pすべての　へやに\nあつまって　いる　ようです
+@@TrainerHill_Entrance_hns_Text_LikeToChallengeTrainers
+まって　いる　トレーナーに\nちょうせん　しますか？
+@@TrainerHill_Entrance_hns_Text_TimeProgessGetSetGo
+タイムを　はかります\nがんばって　ください！\pいちに　ついて‥\pよーい‥\pスタート！
+@@TrainerHill_Entrance_hns_Text_PleaseVisitUsAgain
+また　おこし　ください！
+@@TrainerHill_Entrance_hns_Text_TooBadTremendousEffort
+ざんねん　でした\pたいへん　がんばって\nたたかわれたと　おもいます\pまた　ちょうせん\nして　くださいね！
+@@TrainerHill_Entrance_hns_Text_HopeYouGiveItYourBest
+がんばって　ください
+@@TrainerHill_Entrance_hns_Text_MovedReceptionHereForSwitch
+トレーナーが　いれかわる　ときは\nとても　さわがしく　なります\pこんざつを　さける　ため\nうけつけを　ここに\lうつしました\pごめいわくを　おかけします
+@@TrainerHill_Entrance_hns_Text_ThankYouForPlaying
+ありがとう　ございました！
+@@TrainerHill_Entrance_hns_Text_ExplainTrainerHill
+トレーナーヒルでは\nタイムアタックを\lおこなって　います\pこの　うけつけから　おくじょうの\nオーナーの　ところまで\lかかる　じかんを\lきそう　ものです\pはやい　タイムは　タイムボードに\nはりだされます　ともだちと\lきそって　みてください\pとちゅうの　トレーナー\nせんでは　けいけんちも\lおかねも　もらえません
+@@TrainerHill_Entrance_hns_Text_WhatSortOfTrainersAreAhead
+この　さきに　どんな\nトレーナーと　ポケモンが\lいるか　わからない\pでも　じゃまする　やつは\nぜんぶ　けちらすだけだ！
+@@TrainerHill_Entrance_hns_Text_CantWaitToTestTheWaters
+この　トレーナーヒルには\nあちこちから　つよい\lトレーナーが　くるらしい\pうでだめし　したくて\nたまらない！\pじゃまする　やつは\nぜんぶ　けちらすぞ！
+@@TrainerHill_Entrance_hns_Text_FriendsTryingToReachTimeBoardTop
+あそこの　タイムボード\nみえる？\pともだちと　だれが　いちばん\nはやく　てっぺんに　つくか\lきそってるんだ
+@@TrainerHill_Entrance_hns_Text_DoYouKnowWhenTheyOpen
+ここ　いつ　あくか\nしってる？\pいちばん　さいしょの\nちょうせんしゃに　なろうと\lまってるんだ！
+## data/maps/TrainerHill_Roof_hns/scripts.inc
+@@TrainerHill_Roof_hns_Text_YouFinallyCameBravo
+むむ！　むむ！\pついに　きたな！\nそう　きたのだ！\pまて！　いうな！\nひとりで　ここまで　きた\lわけは　わかって　おる！\pトレーナーヒルの　オーナーで\nある　わたしに　あいに\lきたのは‥\pわたしと　タッグを\nくみたい　からだな！\lワッフー！\p‥む？\nちがう？\pともかく　のぼって　くる\nところを　みて　いたよ\lすばらしい　たたかい！\lブラボー！
+@@TrainerHill_Roof_hns_Text_HaveTheMostMarvelousGift
+すばらしい　きみに\nすばらしい　おくりものと\lがんばった　ほうびの\lおかねを　あげよう！
+@@TrainerHill_Roof_hns_Text_FullUpBeBackLaterForThis
+おっと　もちものが\nいっぱいだ！\lあとで　とりに　きなさい！
+@@TrainerHill_Roof_hns_Text_GotHereMarvelouslyQuickly
+おや　まてよ！\nずいぶん　すばらしく\lはやく　ついたのでは？\pなんと　みごと！　そんなに\nいそいで　わたしに\lあいに　こなくても！\pうれしいのう　うけつけの\nタイムボードを\lかきかえて　おこう！
+@@TrainerHill_Roof_hns_Text_YouWerentVeryQuick
+だが　ううむ‥\nあまり　はやくは\lなかったな
+@@TrainerHill_Roof_hns_Text_ArriveZippierNextTime
+つぎは　もっと　すばやく\nきて　くれると　うれしいの\pそしたら　よろこんで\nタッグを　くんで　あげよう！\pまた　あおう\nアミーゴ！
+## data/maps/TrainerHill_Elevator_hns/scripts.inc
+@@TrainerHill_Elevator_hns_Text_ReturnToReception
+うけつけに\nもどりますか？
+## data/maps/SSAqua_1F_hns/scripts.inc
+@@SSAqua_1F_Text_Sailor1_ToVermilion
+こうそくせん　アクアごうは\nクチバシティへ　むかって\lおります\pとうちゃく　しましたら\nアナウンス　いたします
+@@SSAqua_1F_Text_Sailor1_ToOlivine
+こうそくせん　アクアごうは\nアサギシティへ　むかって\lおります\pとうちゃく　しましたら\nアナウンス　いたします
+@@SSAqua_1F_Text_Sailor2_FirstTime
+こちらが　おきゃくさまの\nへや　です\pポケモンが　きずついたら\nベッドで　おやすみ\lください\pげんきに　なりますよ
+@@SSAqua_1F_Text_Sailor3
+おきゃくさんは　みんな\nトレーナー　なんだ\pへやで　しょうぶ　したくて\nうずうず　してるぞ
+@@SSAqua_1F_Text_Grandpa
+おっと！　すまんな\nいそいで　おったんじゃ！\pまごむすめが　いなく\nなって　しもうた！\pちいさな　おんなのこじゃ\nみかけたら　おしえて\lおくれ！
+@@SSAqua_1F_Text_Sailor1_InOlivine
+こうそくせん　アクアごうは\nアサギシティに　とうちゃく\lしました
+@@SSAqua_1F_Text_Sailor1_InVermilion
+こうそくせん　アクアごうは\nクチバシティに　とうちゃく\lしました
+@@SSAqua_1F_Text_SailorDoorArrived
+クチバシティに　とうちゃく\nしました　おりますか？
+## data/maps/SSAqua_B1F_hns/scripts.inc
+@@SSAqua_B1F_Text_BarfCan
+うえっ！\nみなきゃ　よかった！
+@@SSAqua_B1F_Text_FastShipOnDutySailor
+おい　ぼうず　あいぼうを\nさがして　くれないか？\pどこかで　さぼってるんだ\nあの　なまけもの！\pさがしに　いきたいが\nいまは　しごと　ちゅうなんだ
+@@SSAqua_B1F_Text_FastShipOnDutySailorRefused
+ああ　まいったな‥\pせんちょうが　かんかんに\nなるぞ‥
+@@SSAqua_B1F_Text_FastShipOnDutySailorThanks
+ありがとう　ぼうず！\nもう　さぼらない　ように\lしっかり　しかって　おいた！
+@@SSAqua_B1F_Text_FastShipOnDutySailorSawGirl
+ちいさな　おんなのこ？\pここを　とおって\nいったかも　しれないな
+@@SSAqua_B1F_Text_FastShipOnDutySailorDirections
+この　さきが　しょくどうだ\pおくの　かいだんは\nせんちょうしつに\lつづいてるぞ
+@@SSAqua_B1F_Text_SailorJeffSeen
+きゅうけい　ちゅうの\nしょうぶは　さいこうだ
+@@SSAqua_B1F_Text_SailorJeffBeaten
+かっても　まけても\nきゅうけいは　おわりだ！
+@@SSAqua_B1F_Text_SailorJeffAfter
+ほんきに　ならないと\nかてないな
+@@SSAqua_B1F_Text_PicnickerDebraSeen
+たいくつ‥\nしょうぶ　しない？
+@@SSAqua_B1F_Text_PicnickerDebraBeaten
+きゃっ！　つよすぎ！
+@@SSAqua_B1F_Text_PicnickerDebraAfter
+ヤマブキ　タマムシ‥\nカントーには　おおきな\lまちが　たくさん　あるって
+@@SSAqua_B1F_Text_JugglerFritzSeen
+うぷ‥\nふなよいだ！
+@@SSAqua_B1F_Text_JugglerFritzBeaten
+もう　うごけない‥
+@@SSAqua_B1F_Text_JugglerFritzAfter
+もう　ふねは　こりごり\nつぎは\pリニアに　のるよ
+@@SSAqua_B1F_Text_SailorGarrettSeen
+ここは　ふなのりの\nしごとばだ！
+@@SSAqua_B1F_Text_SailorGarrettBeaten
+ホームで　まけるとは‥
+@@SSAqua_B1F_Text_SailorGarrettAfter
+クチバシティから　アサギシティ\nまで　いろんな\pおきゃくを　のせるんだ
+@@SSAqua_B1F_Text_FisherJonahSeen
+うみに　でてるのに\nつりが　できない！\pたいくつだ！\nしょうぶ　しよう！
+@@SSAqua_B1F_Text_FisherJonahBeaten
+も　もう　たいくつ\nじゃない‥
+@@SSAqua_B1F_Text_FisherJonahAfter
+クチバの　さんばしで\nつりを　する　つもりだ
+@@SSAqua_B1F_Text_BlackbeltWaiSeen
+ふねの　ゆれに\nたえて\pあしを　きたえて　いる！
+@@SSAqua_B1F_Text_BlackbeltWaiBeaten
+ゆさぶられて\nたおれた！
+@@SSAqua_B1F_Text_BlackbeltWaiAfter
+ジョウトで　カラテおうを\nみつけられなかった\pどこかの　どうくつで\nしゅぎょう　してる\lらしいんだが
+@@SSAqua_B1F_Text_SailorKennethSeen
+おれは　うみの　おとこ！\pでも　ポケモンを　きたえて\nチャンピオンを　めざすぞ！
+@@SSAqua_B1F_Text_SailorKennethBeaten
+しゅぎょう　ぶそくが\nまるわかりだ‥
+@@SSAqua_B1F_Text_SailorKennethAfter
+バッジが　8こ！\nジムリーダーに　かった\pあかし　だな\pつよい　わけだ！
+@@SSAqua_B1F_Text_TeacherShirleySeen
+せいとたちに　ゆび\nいっぽん　ふれさせない\lわよ！
+@@SSAqua_B1F_Text_TeacherShirleyBeaten
+きゃーっ！
+@@SSAqua_B1F_Text_TeacherShirleyAfter
+キキョウの　そとの　いせきへ\nえんそく　なの
+@@SSAqua_B1F_Text_SchoolboyNateSeen
+アルフのいせきって\nしってる？
+@@SSAqua_B1F_Text_SchoolboyNateBeaten
+うわーっ！
+@@SSAqua_B1F_Text_SchoolboyNateAfter
+いせきの　なかでは\nラジオが　へんな　でんぱを\lひろうんだ
+@@SSAqua_B1F_Text_SchoolboyRickySeen
+アルフのいせきには\nへんな　いしの　パネルが\lあるんだ
+@@SSAqua_B1F_Text_SchoolboyRickyBeaten
+やられた！
+@@SSAqua_B1F_Text_SchoolboyRickyAfter
+いしの　パネルは　4まい\nあるって　ほんで　よんだよ
+## data/maps/SSAqua_CaptainsRoom_hns/scripts.inc
+@@SSAqua_CaptainsRoom_Text_GranddaughterCaptainPlayWithMe
+せんちょうさん\nあそんで　よ？\pたいくつ！\nもっと　あそびたい！
+@@SSAqua_CaptainsRoom_Text_GranddaughterHasToFindGrandpa
+こんにちは！\nいっしょに　あそぼ？\p‥あっ！\pおじいちゃんが\nしんぱい　してる？\pいかなきゃ！\pおじいちゃんを\nさがさなきゃ！
+@@SSAqua_CaptainsRoom_Text_CaptainExhausting
+ふう！　きて　くれて\nたすかったよ\pあの　こを　あいて　するのは\nほねが　おれたよ
+@@SSAqua_CaptainsRoom_Text_CaptainHowDoYouLike
+アクアごうの　のりごこちは\nどうだい？\pなみの　うえを　すべるように\nはしるんだ
+## data/maps/SSAqua_PlayersRoom_hns/scripts.inc
+@@SSAquaRooms_Text_TakeRestOnBed_PokecenterChallenge
+ざんねん！　ポケモンセンター\nチャレンジ　ちゅう　です！
+@@SSAquaRooms_Text_TakeRestOnBed
+ベッドが　ある‥\nやすもう
+## data/maps/SSAqua_RoomNW_hns/scripts.inc
+@@SSAqua_RoomNW_Text_SailorStanlySeen
+ああ　おれは　ふなのりだ\pさぼって　なんか\nいないぞ！\pこの　へやが　あいてたから\nちょっと　ひるね　してた\lだけだ！\pええい　しょうぶだ！
+@@SSAqua_RoomNW_Text_SailorStanlyBeaten
+すまん！\nおれが　わるかった！
+@@SSAqua_RoomNW_Text_SailorStanlyAfterBattle
+ふなのりは　ちからしごと\nなんだ　くたくただよ！
+@@SSAqua_RoomNW_Text_GentlemanEdwardSeen
+ああ　だいじな　ものを\nなくして　しまった
+@@SSAqua_RoomNW_Text_GentlemanEdwardBeaten
+み　みつからない‥
+@@SSAqua_RoomNW_Text_GentlemanEdwardAfterBattle
+もう　あきらめた\nさがさなくて　いい\pわすれて　くれ！
+@@SSAqua_RoomNW_Text_BurglarCoreySeen
+ひゃっほう！　ついてる！
+@@SSAqua_RoomNW_Text_BurglarCoreyBeaten
+ついてない！\nまけた！
+@@SSAqua_RoomNW_Text_BurglarCoreyAfterBattle
+ここで　きれいな\nコインを　ひろったんだ\pだれかが　おとしたんだな‥
+## data/maps/SSAqua_RoomNE_hns/scripts.inc
+@@SSAqua_RoomNE_Text_HikerNolandSeen
+ひとりかい？\nじゃあ　しょうぶだ！
+@@SSAqua_RoomNE_Text_HikerNolandBeaten
+てに　おえない！
+@@SSAqua_RoomNE_Text_HikerNolandAfterBattle
+カントーに　のぼりがいの\nある　やまは　あるかな？
+@@SSAqua_RoomNE_Text_PokemaniacEthanSeen
+リリーって　しってる？\nカントーの　にんきDJさ
+@@SSAqua_RoomNE_Text_PokemaniacEthanBeaten
+ぎゃーーっ！
+@@SSAqua_RoomNE_Text_PokemaniacEthanAfterBattle
+リリーも　いいけど\nクルミちゃんが　いちばん！\pジョウトの　ラジオばんぐみを\nききたいな！
+## data/maps/SSAqua_RoomNNE_hns/scripts.inc
+@@SSAqua_RoomNNE_Text_CooltrainermSeanSeen
+うでだめしに\nカントーへ　いくんだ
+@@SSAqua_RoomNNE_Text_CooltrainermSeanBeaten
+かちたかった！
+@@SSAqua_RoomNNE_Text_CooltrainermSeanAfterBattle
+ジョウトの　トレーナーも\nカントーの　ジムリーダーと\lたたかえるんだ
+@@SSAqua_RoomNNE_Text_CooltrainerfCarolSeen
+チャンピオンを　めざして\nしゅぎょう　ちゅう！
+@@SSAqua_RoomNNE_Text_CooltrainerfCarolBeaten
+わたしたちの　なにが\nちがうの？
+@@SSAqua_RoomNNE_Text_CooltrainerfCarolAfterBattle
+いつか　あなたに\nかって　みせる！
+## data/maps/SSAqua_RoomSSW_hns/scripts.inc
+@@SSAqua_RoomSSW_Text_FirebreatherLyleSeen
+カントーで　ひふきの\nショーを　するんだ！
+@@SSAqua_RoomSSW_Text_FirebreatherLyleBeaten
+しゅう‥　ひが\nちっちゃい‥
+@@SSAqua_RoomSSW_Text_FirebreatherLyleAfterBattle
+うみの　うえでは　ほのおは\nよわいのかな\lかんけい　ない？　ほんと？
+@@SSAqua_RoomSSW_Text_BugCatcherKenSeen
+おばあちゃんの　いえで\nむしを　つかまえるんだ！
+@@SSAqua_RoomSSW_Text_BugCatcherKenBeaten
+わあ　つよいね！
+@@SSAqua_RoomSSW_Text_BugCatcherKenAfterBattle
+ジョウトの　きには\nポケモンが　たくさん\lいるよ！
+## data/maps/SSAqua_RoomSSE_hns/scripts.inc
+@@SSAqua_RoomSSE_Text_CantFindGranddaughter
+おお　こんにちは‥\pまだ　まごむすめが\nみつからんのじゃ\pふねの　なかに　いれば\nいいんじゃが\pげんきな　こでな\nだれかに　めいわくを\lかけて　おらんか　しんぱいじゃ‥
+@@SSAqua_RoomSSE_Text_EntertainedGranddaughter
+{PLAYER}くん　じゃったか？\nまごの　あいてを　して\lくれたそうじゃな\pおれいを　いいたい
+@@SSAqua_RoomSSE_Text_GrandpaHaveThis
+そうじゃ！\nこれを　うけとって\lおくれ！
+@@SSAqua_RoomSSE_Text_GrandpaTravelling
+わしらは　せかいを\nたびして　おるんじゃ
+@@SSAqua_RoomSSE_Text_GranddaughterWasPlaying
+おじいちゃん　ここだよ！\nせんちょうさんと　この\lひとと　あそんでたの！
+@@SSAqua_RoomSSE_Text_GranddaughterHadFun
+すっごく　たのしかった！
+## data/maps/SSAqua_RoomSE_hns/scripts.inc
+@@SSAqua_RoomSE_Text_PokefanmColinSeen
+おい　ぼうず！\nしょうぶ　しないか？
+@@SSAqua_RoomSE_Text_PokefanmColinBeaten
+つよいな！
+@@SSAqua_RoomSE_Text_PokefanmColinAfter
+ひとりで　たびを\nしてるのか？\lママが　しんぱい　しないか？
+@@SSAqua_RoomSE_Text_TwinsMegandpeg1Seen
+あかちゃん　あつかい？\nずるい！
+@@SSAqua_RoomSE_Text_TwinsMegandpeg1Beaten
+あっ！　まけちゃった！
+@@SSAqua_RoomSE_Text_TwinsMegandpeg1After
+おんなのこに　あかちゃん\nなんて　しつれいよ！
+@@SSAqua_RoomSE_Text_TwinsMegandpeg2Seen
+あかちゃんじゃ　ないもん！\nレディに　しつれいよ！
+@@SSAqua_RoomSE_Text_TwinsMegandpeg2Beaten
+あっ！　まけちゃった！
+@@SSAqua_RoomSE_Text_TwinsMegandpeg2After
+こどもの　ほうが　おとなより\nかしこい　ときも　あるのよ！
+## data/maps/SSAqua_RoomSW_hns/scripts.inc
+@@SSAqua_RoomSW_Text_BeautyCassieSeen
+かなしみを　わすれたいの\nしょうぶ　しましょう！
+@@SSAqua_RoomSW_Text_BeautyCassieBeaten
+こころが　ないてる‥
+@@SSAqua_RoomSW_Text_BeautyCassieAfterBattle
+しつれんには　ふなたびが\nいちばん\pでも　こうそくせんじゃ\nかなしむには　みじかすぎる
+@@SSAqua_RoomSW_Text_GuitaristClydeSeen
+コガネの　ラジオとうで\nじさくの　うたの\lオーディションを　うけるんだ
+@@SSAqua_RoomSW_Text_GuitaristClydeBeaten
+うおっ！\nおとが　われた！
+@@SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile
+バトルタワーで　デビュー\nする　つもり　だったのに‥\pクチバに　もどって\nしゅぎょう　しなおしだ‥
+@@SSAqua_RoomSW_Text_GuitaristClydeAfterBattle
+ラジオとう　と　いえば\nこんしゅうの　ラッキー\lナンバーは　なんだっけ？
+## data/maps/FarawayIsland_Entrance_hns/scripts.inc
+@@FarawayIsland_Entrance_hns_Text_Sign
+むかし　かかれた　ように\nもじが　かすれて　いる‥\p‥がつ　6にち　もし　ふたたび\nここに　ひとが‥　あしを‥\lふみいれる　ことが　あれば\lやさしい　ひとで　ある‥\lことを　ねがい　わたしは　さる‥
+## data/maps/FarawayIsland_Interior_hns/scripts.inc
+@@FarawayIsland_Interior_hns_Text_TheFeelingOfBeingWatchedFaded
+みられて　いる　けはいが\nきえた‥
+## data/maps/BattleFrontier_OutsideWest_hns/scripts.inc
+@@BattleFrontier_OutsideWest_Text_BattleDomeSign_hns
+ここは　バトルドーム！\nむてきの　スーパースターへの\lみち！
+@@BattleFrontier_OutsideWest_Text_BattleFactorySign_hns
+ここは　バトルファクトリー！\nさいきょうの　ポケモンを\lさがせ！
+@@BattleFrontier_OutsideWest_Text_BattlePikeSign_hns
+ここは　バトルチューブ！\n3つの　みちから\lひとつを　えらべ！
+@@BattleFrontier_OutsideWest_Text_ThisIsBattleTower_hns
+ここは　バトルタワー\pトレーナーが　そだて　あげた\nポケモンで　かちぬきせんを\lおこなう　ところ
+@@BattleFrontier_OutsideWest_Text_MayISeeYourTicket_hns
+こんにちは　ふねに\nおのりですか？\lチケットを　はいけん　します
+@@BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard_hns
+{PLAYER}は　チケットを\nもって　いない‥\pもうしわけ　ありません\pふねに　のるには　チケットが\nひつようです
+@@BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo_hns
+{PLAYER}は\nチケットを　みせた\pはい　けっこうです！\pどちらへ　いかれますか？
+@@BattleFrontier_OutsideWest_Text_SlateportItIs_hns
+カイナシティ　ですね！
+@@BattleFrontier_OutsideWest_Text_LilycoveItIs_hns
+ミナモシティ　ですね！
+@@BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime_hns
+また　ごりよう　ください！
+@@BattleFrontier_OutsideWest_Text_PleaseBoardFerry_hns
+ふねに　のって　しゅっこうを\nおまち　ください
+@@BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo_hns
+では　どちらへ\nいかれますか？
+@@BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends_hns
+ともだちの　なかでは\nいちばん　つよいのに\lここでは‥　ぜんぜん\lだめだ！
+@@BattleFrontier_OutsideWest_Text_CantFindBattleTower_hns
+バトルタワーに　いきたいのに\nバトルフロンティアの　ちずが\lあっても　みつからない\pここ　ひろすぎる！
+@@BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere_hns
+ついたら　すぐ　ちょうせん\nしたかったのに\pとちゅうで　ふなよい\nしちゃって‥　うぷ‥
+@@BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere_hns
+だれでも　ここに　これる\nわけじゃ　ないのよ？\pつよいと　みとめられた\nトレーナー　だけが\lつれて　こられるの\pだから　バトルフロンティアを\nしらない　トレーナーも\lおおいのよ
+@@BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons_hns
+ねえ　にいちゃん‥\pポケモンを　もってなくても\nちょうせん　できるって\lほんと？
+@@BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons_hns
+えっと‥\nだいじょうぶ　だと　おもう\pたぶん‥\pほら　あの　おおきくて\nこわい　ひと　いただろ？\lポケモンを　かして　やるって\lいってたぞ
+@@BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons_hns
+あれは　バトルファクトリー\nつよい　ポケモンを\lかりられるんだ\pでも　ふしぎに　おもうよ\nレンタルの　ポケモンは\lだれが　そだててるんだろう？
+@@BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper_hns
+ハブネークが　いるから\nバトルチューブに　はいるのが\lこわい‥\pで　でも　ここまで　きたから\nぜんぶ　せいは　するぞ！\l‥ぶるぶる‥
+@@BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors_hns
+じゃんけん　しよう！\nじゃん　けん　ぽん！\p‥　‥　‥　‥　‥　‥
+@@BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge_hns
+やった！　かった！\nバトルチューブに\lちょうせん　するぞ！
+@@BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge_hns
+ああ‥\nまけた\pきょうは　ついて　ないな\nバトルチューブの　ちょうせんは\lあしたに　しよう
+@@BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling_hns
+しょうぶより　つりを　えらぶ\nのは　なぜか　ここで\lわたし　だけ　だろうな\pえ？　ここでは　なにも\nつれない？　がっかりだ‥
+@@BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol_hns
+きょうは　シンボルを\nもらうまで　なにが　あっても\lたたかい　つづけるぞ
+@@BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome_hns
+おや？　バトルドームに\nちょうせん　するのかね？\pけんとうを　いのるよ\nおたがい　かちあがって\lあいまみえよう
+@@BattleFrontier_OutsideWest_Text_DomeIsHereGrandpa_hns
+おじいちゃん　こっち！\nバトルドームは　ここだよ！\lがんばって　おじいちゃん！
+@@BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe_hns
+ほう　ここが　バトルドームか？\nジェントルマンには\lまけんぞ！\pじゃが　いりぐちは\nどこじゃ？
+@@BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo_hns
+すこし　まえまで　ここには\nなにも　なかったんだ\pそれが　いまは　どうだ！\nすごい！　かあさんを\lつれて　きて　みせよう
+@@BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier_hns
+ついに　バトルフロンティアに\nきたわ！\pわたしの　ルックスと　じつりょくで\nちゅうもくの　まとよ！
+@@BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople_hns
+もぐもぐ‥\pこの　ひろばは　つよい\nひとで　いっぱい　みたいだ\pもぐもぐ‥
+@@BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike_hns
+ぼりぼり　もぐもぐ‥\pまえに　バトルチューブで\nとしうえの　おんなのこに\lあったんだ\pめつきが　ものすごく\nこわかった\pぼりぼり　もぐもぐ‥\pたべるの　やめなさい！\nって　おこられて\lぼこぼこに　された\pほんとうに　ぞっと　する\nけいけん　だったよ\pぼりぼり　もぐもぐ‥
+@@BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet_hns
+はあ？　なに　いってるの？\nそんなの　たいした　こと\lないわ！\pまえに　おうえん　した　ときなんか\nめが　あって　ひばなが\lちったのよ！
+@@BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering_hns
+なんですってー？！\nふん！\pそれは　たまたま　わたしの\nとなりに　すわってた\lから　でしょ！\pドームスーパースターが　こっちを\nみたのは　わたしの　おうえんが\lおおきかった　からよ！
+@@BattleFrontier_OutsideWest_Text_DomeAceIsMine_hns
+もう　うるさい！\nしずかに　して！\pにわかファンは　ジムリーダーでも\nおうえん　してなさい！\pドームスーパースターは　わたしの！\nわたし　だけの　アイドルよ！
+@@BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers_hns
+あそこで　いいあらそって\nいる　ひとたち‥\pしんじられない　けど\nむかしは　うでの　いい\lトレーナー　だったんだ\pものすごく　つよくて\nゆうめい　だった\pでも　ある　たいかいで\nある　トレーナーに\lこてんぱんに　された\pあまりの　まけっぷりに\nその　トレーナーに\lほれこんで　しまった\pいまは　ただの　ファンさ\nまいにち　バトルドームへ\lアイドルの　おうえんに\lいってるよ
+@@BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier_hns
+バトルフロンティアの　どこかで\nとても　ながい　しっぽの\lポケモンを　みたって\lうわさが　あるの\pきっと　かわいいに\nちがいないわ‥\pちょうせんは　あとで　いいわ\nその　かわいい　こを\lさがしたくて　たまらない！

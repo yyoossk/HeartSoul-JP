@@ -67,42 +67,28 @@ TrainerHill_Courtyard_EventScript_Sailor::
 	end
 
 BattleTowerOutsideYoungsterText:
-	.string "Wow, the TRAINER HILL is huge!\p"
-	.string "There must be many kinds of\n"
-	.string "POKéMON in there!$"
+	.string "うわあ　トレーナーヒルって\nおおきい！\pなかには　いろんな\nポケモンが　いるんだろうな！$"
 
 BattleTowerOutsideBeautyText:
-	.string "In the BATTLE TENTS, you can\n"
-	.string "use only three POKéMON.\p"
-	.string "It's so hard to decide which\n"
-	.string "three should go into battle…$"
+	.string "バトルテントでは　ポケモンを\n3びき　しか　つかえないの\pどの　3びきに　するか\nきめるのが　むずかしいわ‥$"
 
 BattleTowerOutsideSailorText:
-	.string "Hehehe, I snuck out from work.\p"
-	.string "I can't bail out until I've won!\p"
-	.string "I have to win it all. That I must!$"
+	.string "へへへ　しごとを\nぬけだして　きた\pかつまで　やめられない！\pぜんぶ　かつんだ\nかたねば！$"
 
 BattleTowerOutsideSignText:
-	.string "{UP_ARROW} TRAINER HILL ENTRANCE\p"
-	.string "“Scale the heights, you hot-blooded\n"
-	.string "TRAINERS!”\p"
-	.string "{RIGHT_ARROW} BATTLE TENTS.$"
+	.string "{UP_ARROW}　トレーナーヒル　いりぐち\pのぼれ！　あつき\nトレーナーたちよ！\p{RIGHT_ARROW}　バトルテント$"
 
 BattleTower_Battle_Tent_Text_Factory:
-	.string "BATTLE TENT: FACTORY\n"
-	.string "“Find it! The ultimate POKéMON!”$"
+	.string "バトルテント　ファクトリー\nさいきょうの　ポケモンを\lさがせ！$"
 
 BattleTower_Battle_Tent_Text_Palace:
-	.string "BATTLE TENT: PALACE\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string "バトルテント　パレス\nたたかいを　めで　たのしめ！$"
 
 BattleTower_Battle_Tent_Text_Arena:
-	.string "BATTLE TENT: ARENA\n"
-	.string "“May the Greatest Teams Gather!”$"
+	.string "バトルテント　アリーナ\nさいきょうの　チームよ\lあつまれ！$"
 
 BattleTowerOutsideText_Closed:
-	.string "The TRAINER HILL is currently\n"
-	.string "closed for repairs.$"
+	.string "トレーナーヒルは　ただいま\nしゅうりの　ため　おやすみ\lです$"
 
 
 TrainerHill_Courtyard_EventScript_LeftMoveTutor::
@@ -198,46 +184,22 @@ TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan::
 	end
 
 TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan_Text:
-	.string "Hi! If you are looking for the\n"
-	.string "WONDERTRADE, they're now located in\l"
-	.string "every POKéMON CENTER. Have fun!$"
+	.string "やあ！　ミラクルこうかんなら\nいまは　どの　ポケモンセンター\lでも　できるよ\lたのしんでね！$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the EXCHANGE SERVICE\n"
-	.string "CORNER.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "こちらは　こうかん\nサービスカウンター　です\pあつめた　バトルポイントを\nすてきな　しょうひんと\lこうかん　いたします\pこちらの　リストから\nおえらび　ください$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush DOLLS!\l"
-	.string "Little plush DOLLS!\l"
-	.string "I wish I had them all!$"
+	.string "わあ　すてき！\nほしいなあ！\lかわいい　クッション！\lおおきな　ぬいぐるみ！\lちいさな　ぬいぐるみ！\lぜんぶ　ほしい！$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "ママに　まかせなさい！\pほしい　ものなら　なんだって\nてに　いれて　あげるわ！$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my POKéMON will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "ここの　どうぐが　てに\nはいれば　ポケモンが\lもっと　つよく　なる\pまちがい　ない！\nそうに　きまってる！$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, SMOOCHUM?$"
+	.string "はあ？\nなに　じろじろ　みてるの？\pわたしの　ぬいぐるみを\nそんなに　みないで\pほしいなら　じぶんで\nもらって　きなさい！\lね　ムチュール？$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the BATTLE facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "しってた？\pどの　バトルしせつでも\nれんしょうを　のばすと\lもらえる　バトルポイントが\lどんどん　ふえるのよ$"

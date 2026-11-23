@@ -66,45 +66,19 @@ TrainerHill_Roof_hns_EventScript_AlreadyReceivedPrize::
 	end
 
 TrainerHill_Roof_hns_Text_YouFinallyCameBravo:
-	.string "Hm! Hm!\p"
-	.string "You finally came!\n"
-	.string "Yes, you have arrived!\p"
-	.string "Wait! Don't say it!\n"
-	.string "I know why you came all the way\l"
-	.string "here by yourself!\p"
-	.string "You wanted to see me, the owner\n"
-	.string "of the TRAINER HILL, because…\p"
-	.string "You want to form a tag team with me!\n"
-	.string "Wa-hoo!\p"
-	.string "…Uh?\n"
-	.string "That's not it?\p"
-	.string "Anyway, I watched you on your way up.\n"
-	.string "Marvelous battling! Bravo, indeed!$"
+	.string "むむ！　むむ！\pついに　きたな！\nそう　きたのだ！\pまて！　いうな！\nひとりで　ここまで　きた\lわけは　わかって　おる！\pトレーナーヒルの　オーナーで\nある　わたしに　あいに\lきたのは‥\pわたしと　タッグを\nくみたい　からだな！\lワッフー！\p‥む？\nちがう？\pともかく　のぼって　くる\nところを　みて　いたよ\lすばらしい　たたかい！\lブラボー！$"
 
 TrainerHill_Roof_hns_Text_HaveTheMostMarvelousGift:
-	.string "For a marvelous someone like you,\n"
-	.string "I have the most marvelous gift,\l"
-	.string "plus some money for your effort!$"
+	.string "すばらしい　きみに\nすばらしい　おくりものと\lがんばった　ほうびの\lおかねを　あげよう！$"
 
 TrainerHill_Roof_hns_Text_FullUpBeBackLaterForThis:
-	.string "Oh, no, full up with things!\n"
-	.string "You'll be back later for this!$"
+	.string "おっと　もちものが\nいっぱいだ！\lあとで　とりに　きなさい！$"
 
 TrainerHill_Roof_hns_Text_GotHereMarvelouslyQuickly:
-	.string "Oh, hold on here! Did you possibly get\n"
-	.string "here marvelously quickly?\p"
-	.string "How splendid! You needn't have\n"
-	.string "hurried so to see me!\p"
-	.string "That is so delightful. I'll have the Time\n"
-	.string "Board at the reception updated!$"
+	.string "おや　まてよ！\nずいぶん　すばらしく\lはやく　ついたのでは？\pなんと　みごと！　そんなに\nいそいで　わたしに\lあいに　こなくても！\pうれしいのう　うけつけの\nタイムボードを\lかきかえて　おこう！$"
 
 TrainerHill_Roof_hns_Text_YouWerentVeryQuick:
-	.string "But, oh…\n"
-	.string "You weren't very quick getting here.$"
+	.string "だが　ううむ‥\nあまり　はやくは\lなかったな$"
 
 TrainerHill_Roof_hns_Text_ArriveZippierNextTime:
-	.string "Perhaps it would please me more if you\n"
-	.string "arrived zippier next time.\p"
-	.string "Then, I should be pleased to form\n"
-	.string "a tag team with you!\p"
-	.string "Until we meet again, amigo!$"
+	.string "つぎは　もっと　すばやく\nきて　くれると　うれしいの\pそしたら　よろこんで\nタッグを　くんで　あげよう！\pまた　あおう\nアミーゴ！$"

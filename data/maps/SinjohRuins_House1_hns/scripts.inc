@@ -542,57 +542,17 @@ SinjohRuins_Lab_Text_StevenCall3Plates:
 	.string "ダイゴ『{PLAYER}くん\pいま　いせきで\nゆれが　あった\pみんな　ぶじ　だから\nしんぱい　しないで\pおもしろい　ことに　いせきの\nしたの　ちかしつの　ひとつが\lひらいたんだ\pなかの　もようは　ホウエンの\nあるものを　おもいださせる\pじかんが　あったら\nみに　きて　くれ$"
 
 SinjohRuins_Lab_Text_StevenCall6Plates:
-	.string "STEVEN: {PLAYER}.\p"
-	.string "How's the search going?\p"
-	.string "We had another tremor here.\n"
-	.string "A second chamber opened up\l"
-	.string "this time.\p"
-	.string "I've asked our geologist to keep\n"
-	.string "his instruments ready in case it\l"
-	.string "happens again.\p"
-	.string "The deeper we dig... The more\n"
-	.string "questions we find.$"
+	.string "ダイゴ『{PLAYER}くん\pさがしものは　どうだい？\pまた　ゆれが　あったよ\nこんどは　ふたつめの\lちかしつが　ひらいた\pまた　おきても　いいように\nちしつがくしゃに　きかいを\lよういして　もらって　いる\pほるほど‥\nなぞが　ふえて　いく$"
 
 SinjohRuins_Lab_Text_StevenCall9Plates:
-	.string "STEVEN: {PLAYER}.\p"
-	.string "Another tremor here at the ruins.\p"
-	.string "The data paints an intriguing\n"
-	.string "picture.\p"
-	.string "It wasn't an earthquake at all.\p"
-	.string "Some kind of energy built up\n"
-	.string "underground and cracked the\l"
-	.string "rock open from the inside.\p"
-	.string "What could cause that...\n"
-	.string "I honestly don't know.$"
+	.string "ダイゴ『{PLAYER}くん\pいせきで　また\nゆれが　あった\pデータから　おもしろい\nことが　わかった\pじしんでは　なかったんだ\pちかに　たまった　なにかの\nエネルギーが　うちがわから\lいわを　わったんだ\pいったい　なにが‥\nしょうじき　わからない$"
 
 SinjohRuins_Lab_Text_StevenCall12Plates:
-	.string "STEVEN: {PLAYER}.\p"
-	.string "Another tremor. Another chamber\n"
-	.string "opening up.\p"
-	.string "We still can't figure out the\n"
-	.string "pattern behind the timing.\p"
-	.string "Say, {PLAYER}... you're not\n"
-	.string "doing something to cause all\l"
-	.string "this, are you?\p"
-	.string "No, that can't be right.$"
+	.string "ダイゴ『{PLAYER}くん\pまた　ゆれだ　また\nちかしつが　ひらいた\pタイミングの　きまりが\nまだ　わからない\pねえ　{PLAYER}くん‥\nきみが　なにか　して\lいる　わけじゃ　ないよね？\pいや　そんな　はずは　ないか$"
 
 SinjohRuins_Lab_Text_StevenCall15Plates:
-	.string "STEVEN: {PLAYER}.\p"
-	.string "Did you just find another PLATE?\p"
-	.string ".................\p"
-	.string "Of course.\p"
-	.string "The legendary POKéMON lying\n"
-	.string "in these ruins... they're responding\l"
-	.string "to you, aren't they?\p"
-	.string "As if they want to be found.\p"
-	.string "My predictions usually come true.\n"
-	.string "I should have known better than\l"
-	.string "to doubt you.$"
+	.string "ダイゴ『{PLAYER}くん\pいま　また　プレートを\nみつけたかい？\p‥‥‥‥‥‥‥‥‥\pやっぱり\pこの　いせきに　ねむる\nでんせつの　ポケモンは\lきみに　こたえて　いるんだ\pまるで　みつけて　ほしい\nみたいに\pぼくの　よかんは　よく　あたる\nきみを　うたがうべきじゃ\lなかったね$"
 
 SinjohRuins_Lab_Text_StevenCall16Plates:
-	.string "STEVEN: {PLAYER}.\p"
-	.string "We're very close now. I can feel it.\p"
-	.string "..................\p"
-	.string "You should come see this for\n"
-	.string "yourself.$"
+	.string "ダイゴ『{PLAYER}くん\pもう　すぐだ\nそう　かんじる\p‥‥‥‥‥‥‥‥‥\pきみも　じぶんの　めで\nたしかめに　きて　くれ$"
 

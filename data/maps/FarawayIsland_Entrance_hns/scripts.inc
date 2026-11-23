@@ -45,9 +45,4 @@ FarawayIsland_Entrance_hns_EventScript_Sign::
 	end
 
 FarawayIsland_Entrance_hns_Text_Sign:
-	.string "The writing is fading as if it\n"
-	.string "was written a long time ago..\p"
-	.string "..ber, 6th day If any human..\n"
-	.string "sets foot here.. again..et it\l"
-	.string "be a kindhearted pers.. ..ith\l"
-	.string "that hope, I depar..$"
+	.string "むかし　かかれた　ように\nもじが　かすれて　いる‥\p‥がつ　6にち　もし　ふたたび\nここに　ひとが‥　あしを‥\lふみいれる　ことが　あれば\lやさしい　ひとで　ある‥\lことを　ねがい　わたしは　さる‥$"
