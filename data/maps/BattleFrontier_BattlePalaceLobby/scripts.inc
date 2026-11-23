@@ -379,11 +379,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-	.string "Where the hearts of TRAINERS\n"
-	.string "are put to the test.\p"
-	.string "I welcome you to the BATTLE PALACE.\p"
-	.string "I accept challenges to the SINGLE\n"
-	.string "BATTLE HALLS.$"
+	.string "トレーナーの　こころが\nためされる　ばしょ\pバトルパレスへ　ようこそ\pシングルバトルホールへの\nちょうせんを　うけつけます$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
 	.string "Do you wish to take\n"
@@ -413,8 +409,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "you will be disqualified.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
-	.string "When you have fortified your heart\n"
-	.string "and POKéMON, you must return.$"
+	.string "こころと　ポケモンを\nきたえたら　また　きなさい$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
 	.string "There are two BATTLE HALLS,\n"
@@ -456,23 +451,16 @@ BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2:
 	.string "the BATTLE HALL. Is that okay?$"
 
 BattleFrontier_BattlePalaceLobby_Text_FollowMe:
-	.string "Good.\n"
-	.string "Now, follow me.$"
+	.string "よろしい\nでは　ついて　きなさい$"
 
 BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded:
-	.string "I feel privileged for having seen\n"
-	.string "your POKéMON's exploits.\p"
-	.string "The results will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "ポケモンたちの　かつやくを\nみられて　こうえい　です\pけっかを　きろく　します\nしょうしょう　おまちください$"
 
 BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak:
-	.string "To achieve a 7-win streak…\p"
-	.string "The bonds that bind your heart with\n"
-	.string "your POKéMON seem firm and true.$"
+	.string "7れんしょうを　なしとげるとは‥\pあなたと　ポケモンの　こころの\nきずなは　かたく　ほんものの\lようですね$"
 
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
-	.string "Your feat will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "きろくを　のこします\nしょうしょう　おまちください$"
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
@@ -497,55 +485,19 @@ BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
 	.string "{STR_VAR_1}.$"
 
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
-	.string "For a hardy fellow like me,\n"
-	.string "hardy POKéMON are the best.\p"
-	.string "Offense is the best defense!\n"
-	.string "A relentless attack is the ultimate!\p"
-	.string "But that's not what I wanted to chat\n"
-	.string "about.\p"
-	.string "Every so often a really cute lady\n"
-	.string "swings by here.\p"
-	.string "She says that she can tell what\n"
-	.string "POKéMON are thinking.\p"
-	.string "I don't know about that part,\n"
-	.string "but she is really cute.\p"
-	.string "Huh?\n"
-	.string "Why are you looking at me like that?$"
+	.string "おれみたいな　がんばりやには\nがんばりやの　ポケモンが　いちばん\pこうげきは　さいだいの　ぼうぎょ！\nせめつづけるのが　さいきょうだ！\pでも　はなしたいのは\nそんな　ことじゃ　ない\pときどき　ここに\nとても　かわいい　おねえさんが\lくるんだ\pポケモンの　かんがえて　いる\nことが　わかるって　いうんだ\pそれは　どうか　しらないけど\nとにかく　かわいいんだ\pえ？\nなんで　そんな　めで　みるの？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
-	.string "Hmm…\p"
-	.string "It appears that the nature of POKéMON\n"
-	.string "and the moves that they have been\l"
-	.string "taught are the keys to battle here.\p"
-	.string "To be more precise, it's how well\n"
-	.string "the moves match the nature of\l"
-	.string "the POKéMON.\p"
-	.string "If your POKéMON is in trouble and\n"
-	.string "unable to live up to its potential,\l"
-	.string "you may need to examine how well\l"
-	.string "its moves match its nature.$"
+	.string "ふむ‥\pここでの　バトルは　ポケモンの\nせいかくと　おぼえさせた\lわざが　カギの　ようだ\pもっと　くわしく　いうと\nわざが　ポケモンの　せいかくに\lあって　いるか　どうかだ\pポケモンが　ピンチで\nちからを　だしきれない　ときは\lわざと　せいかくの　あいしょうを\lみなおす　ひつようが　あるかもな$"
 
 BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
-	.string "My POKéMON is usually very docile.\p"
-	.string "But when it's in a BATTLE HALL,\n"
-	.string "it sometimes seems to become\l"
-	.string "transformed into something wicked!\p"
-	.string "It becomes totally intimidating.\n"
-	.string "It's shocking, even.$"
+	.string "ぼくの　ポケモンは　ふだんは\nとても　おとなしいんだ\pでも　バトルホールに　はいると\nときどき　まるで　べつの\lわるい　なにかに　かわるんだ\pすごい　はくりょくで‥\nびっくり　するくらいだよ$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
-	.string "I wonder what sort of nature a POKéMON\n"
-	.string "would have if it favored enfeebling its\l"
-	.string "opponents and chipping away slowly.\p"
-	.string "I'd be surprised if it was a LAX nature.\p"
-	.string "But, nah, that can't be right.$"
+	.string "あいてを　よわらせて　すこしずつ\nけずるのが　すきな　ポケモンって\lどんな　せいかく　なんだろう\pのうてんきな　せいかく　だったら\nおどろくけど‥\pいや　そんな　わけ　ないか$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-	.string "Where the hearts of TRAINERS\n"
-	.string "are put to the test.\p"
-	.string "I welcome you to the BATTLE PALACE.\p"
-	.string "I accept challenges to the DOUBLE\n"
-	.string "BATTLE HALLS.$"
+	.string "トレーナーの　こころが\nためされる　ばしょ\pバトルパレスへ　ようこそ\pダブルバトルホールへの\nちょうせんを　うけつけます$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
 	.string "Do you wish to take\n"
@@ -575,21 +527,16 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 	.string "you will be disqualified.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
-	.string "To defeat the PALACE MAVEN\n"
-	.string "and seven TRAINERS in a row…$"
+	.string "パレスガーディアンと\n7にんの　トレーナーに\lれんぞくで　かつとは‥$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
-	.string "In honor of the bond you share with\n"
-	.string "your POKéMON, we present you with\l"
-	.string "these Battle Point(s).$"
+	.string "あなたと　ポケモンの　きずなを\nたたえ　バトルポイントを\lさしあげます$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
-	.string "Would you like to record your latest\n"
-	.string "BATTLE PALACE match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "さいごの　バトルパレスの\nしあいを　フロンティアパスに\lきろく　しますか？$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
-	.string "The BATTLE HALL rules are listed.$"
+	.string "バトルホールの　ルールが\nかいて　あります$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
 	.string "どの　こうもくを　よみますか？$"

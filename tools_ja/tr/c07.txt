@@ -16,17 +16,17 @@
 @@gTVMassOutbreakText00
 こんにちは！\nポケモンニュースの　じかんです\pとても　めずらしい　ニュースが\nとびこんで　きました\p{STR_VAR_1}の　ふきんで\n{STR_VAR_2}が　おおはっせい\lして　いる　そうです\pごぞんじの　とおり\n{STR_VAR_2}は　めったに\lみつからない　ポケモン　です\p{STR_VAR_2}の　ふしぎな\nおおはっせいを　みられる\lめずらしい　チャンスですね\pいじょう　ポケモンニュース\nでした
 @@gTV3CheersForPokeblocksText00
-しかい『きょうも　げんきに！\n{POKEBLOCK}　バンザイ！の\lじかん　です！\pきょうは　{STR_VAR_1}たちが\nつくった　{POKEBLOCK}を\lしらべます\pさっそく　グルメな\nゴクリンに　たべて\lもらいましょう\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥
+しかい『きょうも　げんきに！\nポロック　バンザイ！の\lじかん　です！\pきょうは　{STR_VAR_1}たちが\nつくった　ポロックを\lしらべます\pさっそく　グルメな\nゴクリンに　たべて\lもらいましょう\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥
 @@gTV3CheersForPokeblocksText01
 ゴクリン『グビッ！　グビー！\pしかい『とても　{STR_VAR_1}\nゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さん\nありがとう　ございました！
 @@gTV3CheersForPokeblocksText02
-{STR_VAR_1}の　ブレンドは\nもう　ひといき　でした\pもっと　うまく　ブレンド\nできれば　{POKEBLOCK}は\lもっと　おいしく　なるでしょう
+{STR_VAR_1}の　ブレンドは\nもう　ひといき　でした\pもっと　うまく　ブレンド\nできれば　ポロックは\lもっと　おいしく　なるでしょう
 @@gTV3CheersForPokeblocksText03
 ゴクリン『グビッ！　グビー！\pしかい『うーん‥\n{STR_VAR_1}すぎますね\lゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さんの　ミスが\nひびいた　ようです‥
 @@gTV3CheersForPokeblocksText04
 {STR_VAR_1}さんの　がんばりが\nむだに　なって　ざんねん\pつぎは　{STR_VAR_2}さんの\nがんばりに　きたい\lしましょう！
 @@gTV3CheersForPokeblocksText05
-また　みてね！\nあいことばは\l『{POKEBLOCK}　バンザイ！』
+また　みてね！\nあいことばは\l『ポロック　バンザイ！』
 @@gTVTrainerFanClubSpecialText00
 トレーナーファンクラブ\n{STR_VAR_1}　スペシャル！\pホウエン　じゅうの\n{STR_VAR_1}ファンに　おくる\lとくべつ　ばんぐみ！\pきょうの　テーマは\n『{STR_VAR_1}って　どんな\lひと？』\pトレーナー　だいひょうの\n{STR_VAR_2}に　きいて　みました\p『{STR_VAR_1}を　ひとことで\nいうと？』\pこたえは　『{STR_VAR_3}』\pさすが　{STR_VAR_2}！\nするどい　いけん！\p『{STR_VAR_3}　{STR_VAR_1}』\nいい　ひびき　ですね！\p{STR_VAR_2}には　{STR_VAR_1}の\nつよさを　0から　100で\lさいてん　して　もらいました
 @@gTVTrainerFanClubSpecialText01

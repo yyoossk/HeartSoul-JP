@@ -29,6 +29,4 @@ gText_WeHopeToSeeYouAgain2::
 	.string "またの　ごりようを\nおまちして　おります！$"
 
 gText_PkmnCenterChallenge_NoVisitsLeft:: @ tx_difficulty_challenge
-    .string "Sorry, but you are playing with\n"
-    .string "the POKéCENTER challenge!\p"
-    .string "Good luck!{PAUSE_UNTIL_PRESS}$"
+	.string "もうしわけ　ありません\nポケモンセンター　チャレンジちゅうの\lため　かいふく　できません！\pがんばって　ください！{PAUSE_UNTIL_PRESS}$"

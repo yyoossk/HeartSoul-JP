@@ -129,7 +129,7 @@ CeladonCity_Text_MyTrustedPalPoliwrath::
 	.string "I used a WATER STONE.$"
 
 CeladonCity_Text_Poliwrath::
-	.string "POLIWRATH: Ribi ribit!$"
+	.string "ニョロボン『ニョロ　ニョロ！$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
 	.string "What are you staring at?\n"
@@ -148,20 +148,16 @@ CeladonCity_Text_ExplainXAccuracyDireHit::
 	.string "DEPT. STORE!$"
 
 CeladonCity_Text_CitySign::
-	.string "CELADON CITY\n"
-	.string "The City of Rainbow Dreams$"
+	.string "タマムシシティ\nにじいろ　ゆめの　まち$"
 
 CeladonCity_Text_GymSign::
-	.string "CELADON CITY POKéMON GYM\n"
-	.string "LEADER: ERIKA\l"
-	.string "The Nature-Loving Princess!$"
+	.string "タマムシシティ　ポケモンジム\nリーダー　エリカ\l「しぜんを　あいする　おじょうさま」$"
 
 CeladonCity_Text_MansionSign::
-	.string "CELADON MANSION$"
+	.string "タマムシマンション$"
 
 CeladonCity_Text_DeptStoreSign::
-	.string "Find what you need at the\n"
-	.string "CELADON DEPT. STORE!$"
+	.string "ほしい　ものは\nタマムシデパートで！$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
 	.string "TRAINER TIPS\p"
@@ -176,8 +172,7 @@ CeladonCity_Text_PrizeExchangeSign::
 	.string "PRIZE EXCHANGE$"
 
 CeladonCity_Text_GameCornerSign::
-	.string "ROCKET GAME CORNER\n"
-	.string "The playground for grown-ups!$"
+	.string "ロケットゲームコーナー\nおとなの　あそびば！$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
 	.string "Aaaagh, ow…\n"

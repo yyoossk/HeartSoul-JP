@@ -246,17 +246,13 @@ ViridianCity_Text_ViridiansGymLeaderReturned::
 	.string "VIRIDIAN GYM's LEADER returned!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-	.string "You want to know about the two\n"
-	.string "kinds of caterpillar POKéMON?$"
+	.string "2しゅるいの　いもむしポケモンに\nついて　しりたい？$"
 
 ViridianCity_Text_OhOkayThen::
-	.string "Oh, okay then!$"
+	.string "あ　そう　なの！$"
 
 ViridianCity_Text_ExplainCaterpieWeedle::
-	.string "CATERPIE has no poison,\n"
-	.string "but WEEDLE does.\p"
-	.string "Watch that your POKéMON aren't\n"
-	.string "stabbed by WEEDLE's POISON STING.$"
+	.string "キャタピーには　どくは　ないけど\nビードルには　ある\pポケモンが　ビードルの\nどくばりに　さされない　ように\lきを　つけてね$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
 	.string "Oh, Grandpa!\n"
@@ -334,8 +330,7 @@ ViridianCity_Text_TooBusyForTeachyTV::
 	.string "be ill spent…$"
 
 ViridianCity_Text_CitySign::
-	.string "VIRIDIAN CITY \n"
-	.string "The Eternally Green Paradise$"
+	.string "トキワシティ\nトキワは　みどり\lえいえんの　いろ$"
 
 ViridianCity_Text_CatchMonsForEasierBattles::
 	.string "TRAINER TIPS\p"
@@ -352,7 +347,7 @@ ViridianCity_Text_MovesLimitedByPP::
 	.string "POKéMON at a POKéMON CENTER.$"
 
 ViridianCity_Text_GymSign::
-	.string "VIRIDIAN CITY POKéMON GYM$"
+	.string "トキワシティ　ポケモンジム$"
 
 ViridianCity_Text_GymDoorsAreLocked::
 	.string "VIRIDIAN GYM's doors are locked…$"

@@ -1425,11 +1425,10 @@ Common_EventScript_PartyIsFull::
 	end
 
 Common_Text_ReceivedMon:
-	.string "{PLAYER} received {STR_VAR_1}!$"
+	.string "{PLAYER}は\n{STR_VAR_1}を　もらった！$"
 
 Common_Text_PartyIsFull:
-	.string "Whoa, wait. You can't carry any\n"
-	.string "more POKéMON.$"	
+	.string "おっと　これいじょう\nポケモンは　もてないよ$"
 
 Common_EventScript_PlayerHandedOverTheItem::
 	bufferitemname STR_VAR_1, VAR_0x8004
@@ -1481,13 +1480,7 @@ gText_SelectWithoutRegisteredHoldItem::
 	.string "to holding SELECT for easy use.$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from POKéMON TRAINER\n"
-	.string "SCHOOL.\p"
-	.string "… … … … … …\p"
-	.string "A POKéMON may learn up to four moves.\p"
-	.string "A TRAINER's expertise is tested on the\n"
-	.string "move sets chosen for POKéMON.\p"
-	.string "… … … … … …$"
+	.string "トレーナーズスクールから\nメールが　とどいている\p‥　‥　‥　‥　‥　‥\pポケモンが　おぼえられる　わざは\n4つまで\pどの　わざを　えらぶかで\nトレーナーの　うでが　ためされる\p‥　‥　‥　‥　‥　‥$"
 
 gText_PlayerHouseBootPC::
 	.string "{PLAYER}は　パソコンの\nスイッチを　いれた！$"
@@ -1565,13 +1558,7 @@ gText_ComeBackWithSecretPower::
 	.string "you good stuff in secrecy.$"
 
 gText_PokerusExplanation::
-	.string "Your POKéMON may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
-	.string "except that they are microscopic life-\l"
-	.string "forms that attach to POKéMON.\p"
-	.string "While infected, POKéMON are said to\n"
-	.string "grow exceptionally well.$"
+	.string "あなたの　ポケモンは\nポケルスに　かんせん\lしている　かもしれません\pポケルスは　ポケモンに\nとりつく　ちいさな　いきもの\lと　いうこと　いがいは\lよく　わかって　いません\pかんせん　している　あいだ\nポケモンは　とても　よく\lそだつと　いわれて　います$"
 
 	.include "data/text/surf.inc"
 

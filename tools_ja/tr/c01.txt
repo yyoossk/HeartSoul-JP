@@ -258,6 +258,6 @@ GBA　つうしんケーブルで\nレコードコーナーを\lりよう　で�
 バトルポイントを\n{STR_VAR_1}ポイント　もらった！
 ## data/scripts/contest_hall.inc
 @@LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase
-こんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です\pあら？　まだ　{POKEBLOCK}ケースを\nもって　いない　ようですね\pそれなら　これを\nさしあげます！
+こんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です\pあら？　まだ　ポロックケースを\nもって　いない　ようですね\pそれなら　これを\nさしあげます！
 @@LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp
 さて　それでは‥\pこんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です

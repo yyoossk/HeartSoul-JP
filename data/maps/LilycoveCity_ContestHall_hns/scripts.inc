@@ -317,7 +317,7 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests_hns:
 	.string "コンテストに　たくさん　でて\nだんだん　わかって　きたよ\pかっこよさコンテストなら\nかっこいい　わざが\lアピールに　なる\pでも　かしこい　わざや\nかわいい　わざは\lあまり　うけないんだ$"
 
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks_hns:
-	.string "さっき　ゆうしょう　した\nおにいさん　いろんな\l{POKEBLOCK}を　もってたよ\pあんなに　もってたら\nかてる　のかな？$"
+	.string "さっき　ゆうしょう　した\nおにいさん　いろんな\lポロックを　もってたよ\pあんなに　もってたら\nかてる　のかな？$"
 
 LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous_hns:
 	.string "うわあ　ここ　でっかいな！\pこの　きんちょうかん‥\nいなかの　コンテストかいじょう\lとは　ちがうね$"

@@ -156,7 +156,7 @@ static void SpriteCB_SelectionIconCancel(struct Sprite *);
 static void SpriteCB_MonPic(struct Sprite *);
 static void SpriteCB_Condition(struct Sprite *);
 
-static const u8 sText_GetsAPokeBlockQuestion[] = _("に　{POKEBLOCK}を　あげる？");
+static const u8 sText_GetsAPokeBlockQuestion[] = _("に　ポロックを　あげる？");
 static const u8 sText_WasEnhanced[] = _("が　あがった！");
 static const u8 sText_NothingChanged[] = _("なにも　かわらなかった！");
 static const u8 sText_WontEatAnymore[] = _("もう　たべない　ようだ…");

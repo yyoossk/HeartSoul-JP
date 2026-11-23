@@ -97,13 +97,13 @@ Lv.
 @@81
 {STR_VAR_1}は　{STR_VAR_2}で　メガシンカ
 @@82
-{LV}{UP_ARROW}で　{STR_VAR_2}　カラサリスの　せいかく
+{LV_2}{UP_ARROW}で　{STR_VAR_2}　カラサリスの　せいかく
 @@83
-{LV}{UP_ARROW}で　{STR_VAR_2}　マユルドの　せいかく
+{LV_2}{UP_ARROW}で　{STR_VAR_2}　マユルドの　せいかく
 @@84
-{LV}{UP_ARROW}　{STR_VAR_2}を　おぼえて　いる
+{LV_2}{UP_ARROW}　{STR_VAR_2}を　おぼえて　いる
 @@85
-あめの　ときに　{LV}{UP_ARROW}で　{STR_VAR_2}
+あめの　ときに　{LV_2}{UP_ARROW}で　{STR_VAR_2}
 @@86
 {STR_VAR_2}と　つうしんこうかん
 @@87
@@ -115,13 +115,13 @@ Lv.
 @@90
 みずのかけじくを　つかう
 @@91
-{STR_VAR_2}を　20かい　つかって　{LV}{UP_ARROW}
+{STR_VAR_2}を　20かい　つかって　{LV_2}{UP_ARROW}
 @@92
-はんどう{STR_VAR_2}で　{LV}{UP_ARROW}　オス
+はんどう{STR_VAR_2}で　{LV_2}{UP_ARROW}　オス
 @@93
-はんどう{STR_VAR_2}で　{LV}{UP_ARROW}　メス
+はんどう{STR_VAR_2}で　{LV_2}{UP_ARROW}　メス
 @@94
-{STR_VAR_2}を　もつ　{STR_VAR_3}を　3かい　たおして　{LV}{UP_ARROW}
+{STR_VAR_2}を　もつ　{STR_VAR_3}を　3かい　たおして　{LV_2}{UP_ARROW}
 @@95
 {STR_VAR_1}は　しんか　しない
 @@96

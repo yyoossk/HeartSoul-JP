@@ -643,25 +643,25 @@ LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady:
 	.string "わたしは　コンテストおねえさん！\nコンテストが　だいすき！$"
 
 LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock:
-	.string "このあいだは　{POKEBLOCK}\nありがとう！$"
+	.string "このあいだは　ポロック\nありがとう！$"
 
 LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality:
 	.string "この　こは　わたしの　ともだち\n{STR_VAR_1}！\l{STR_VAR_2}の　かたまり　なの！\pでも　もっと　{STR_VAR_2}を\nみせられると　おもうの！$"
 
 LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase:
-	.string "だから　おねがい！\p{POKEBLOCK}を　1こ　くれない？\n1こ　だけで　いいの！\p‥あら　でも‥\n{POKEBLOCK}ケースを　もって\lないの？　じゃあ　また\lこんどね！$"
+	.string "だから　おねがい！\pポロックを　1こ　くれない？\n1こ　だけで　いいの！\p‥あら　でも‥\nポロックケースを　もって\lないの？　じゃあ　また\lこんどね！$"
 
 LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock:
-	.string "だから　おねがい！\p{POKEBLOCK}を　1こ　くれない？\n1こ　だけで　いいの！$"
+	.string "だから　おねがい！\pポロックを　1こ　くれない？\n1こ　だけで　いいの！$"
 
 LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock:
-	.string "えー！\n{POKEBLOCK}　1こも\lくれないの？$"
+	.string "えー！\nポロック　1こも\lくれないの？$"
 
 LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate:
 	.string "もう！\nけちんぼ！$"
 
 LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock:
-	.string "やったー！\nありがとう！\pさっそく　ポケモンに\n{POKEBLOCK}を　あげるわ$"
+	.string "やったー！\nありがとう！\pさっそく　ポケモンに\nポロックを　あげるわ$"
 
 LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks:
 	.string "‥なにも　かわって\nない　みたい‥\pうーん‥\pまあ　いいわ！\nどうも　ありがとう！$"

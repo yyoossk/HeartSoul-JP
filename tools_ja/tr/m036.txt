@@ -54,7 +54,7 @@
 @@LilycoveCity_ContestHall_Text_EnteredBunchOfContests_hns
 コンテストに　たくさん　でて\nだんだん　わかって　きたよ\pかっこよさコンテストなら\nかっこいい　わざが\lアピールに　なる\pでも　かしこい　わざや\nかわいい　わざは\lあまり　うけないんだ
 @@LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks_hns
-さっき　ゆうしょう　した\nおにいさん　いろんな\l{POKEBLOCK}を　もってたよ\pあんなに　もってたら\nかてる　のかな？
+さっき　ゆうしょう　した\nおにいさん　いろんな\lポロックを　もってたよ\pあんなに　もってたら\nかてる　のかな？
 @@LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous_hns
 うわあ　ここ　でっかいな！\pこの　きんちょうかん‥\nいなかの　コンテストかいじょう\lとは　ちがうね
 @@LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal_hns
@@ -123,9 +123,9 @@
 かしこさコンテスト　ステージ\nかしこい　ポケモンに　かんしん！
 ## data/maps/LilycoveCity_ContestLobby_hns/scripts.inc
 @@LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase_hns
-やったー！\pうけつけの　おねえさんが\n{POKEBLOCK}ケースを　くれた！
+やったー！\pうけつけの　おねえさんが\nポロックケースを　くれた！
 @@LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries_hns
-{POKEBLOCK}を　つくって　いれるの\p{POKEBLOCK}を　つくる　ときは\nみんな　ちがう　きのみを\lいれなきゃ　だめなのよ
+ポロックを　つくって　いれるの\pポロックを　つくる　ときは\nみんな　ちがう　きのみを\lいれなきゃ　だめなのよ
 @@LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint_hns
 おめでとう！\pゆうしょう　きねんに\nきみの　ポケモンの　えを\lかいたんだ‥\pきみの　ポケモンの　アピールが\nすばらしくて　いつもより\lうまく　かけたよ\lほら　みて！
 @@LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum_hns

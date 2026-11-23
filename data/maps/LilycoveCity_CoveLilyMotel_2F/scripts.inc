@@ -92,22 +92,10 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott::
 	end
 
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
-	.string "I'm the GAME DESIGNER.\p"
-	.string "Oh, is that right?\n"
-	.string "You're working on a POKéDEX?\p"
-	.string "It's tough trying to complete it,\n"
-	.string "but don't give up.\p"
-	.string "If you do complete it, please come\n"
-	.string "show me.$"
+	.string "わたしは　ゲームデザイナー\pへえ　そうなんだ\nずかんを　つくってるのかい？\pかんせい　させるのは　たいへん\nだけど　あきらめないでね\pもし　かんせい　したら\nぜひ　みせに　きてよ$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
-	.string "Wow! That's awesome!\n"
-	.string "Yep, it's totally awesome!\p"
-	.string "This POKéDEX is completely filled!\n"
-	.string "You really must love POKéMON!\p"
-	.string "I'm so impressed!\p"
-	.string "Let me give you something in\n"
-	.string "recognition of your feat!$"
+	.string "すごい！　すばらしい！\nほんとうに　すばらしいよ！\pずかんが　ぜんぶ\nうまって　いる！\lきみは　ほんとうに\lポケモンが　すきなんだね！\pかんどう　したよ！\pきみの　がんばりを　たたえて\nこれを　あげよう！$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 	.string "Me? You're talking to me?\n"

@@ -36,30 +36,22 @@ Route4_Text_CrissyRematchIntro::
 	.string "on MT. MOON.$"
 
 Route6_Text_RickyRematchIntro::
-	.string "Oh! You're that nosy kid who\n"
-	.string "eavesdropped on us!$"
+	.string "あっ！　たちぎき　してた\nやつ　だな！$"
 
 Route6_Text_NancyRematchIntro::
-	.string "Excuse me! Didn't I tell you that\n"
-	.string "this is a private conversation?\p"
-	.string "You shouldn't be listening in,\n"
-	.string "you uncouth person!$"
+	.string "ちょっと！　ないしょばなし\nちゅうって　いったでしょ？\pたちぎき　するなんて\nしつれいな　ひとね！$"
 
 Route6_Text_KeigoRematchIntro::
-	.string "I'm trying to find something good\n"
-	.string "that's not a BUG POKéMON, but…$"
+	.string "むしポケモン　いがいで\nいい　ポケモンを　さがしてるけど‥$"
 
 Route6_Text_JeffRematchIntro::
-	.string "Huh?\n"
-	.string "You want to go with me again?$"
+	.string "え？\nまた　ぼくと　たたかうの？$"
 
 Route6_Text_IsabelleRematchIntro::
-	.string "Me?\n"
-	.string "Well, okay. I'll play this once.$"
+	.string "わたし？\nいいわ　1かい　だけね$"
 
 Route6_Text_ElijahRematchIntro::
-	.string "Hey, long time!\n"
-	.string "Have you gotten better?$"
+	.string "やあ　ひさしぶり！\nうでを　あげた？$"
 
 Route8_Text_AidanRematchIntro::
 	.string "You are good at POKéMON, but how\n"

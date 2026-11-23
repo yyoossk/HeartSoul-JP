@@ -279,7 +279,7 @@
 @@356
 {B_OPPONENT_MON1_NAME}は　{B_BUFF1}を　まったく　きにしていない！
 @@357
-{B_PLAYER_NAME}は　{B_OPPONENT_MON1_NAME}に　{POKEBLOCK}を　なげた！
+{B_PLAYER_NAME}は　{B_OPPONENT_MON1_NAME}に　ポロックを　なげた！
 @@358
 {PLAY_SE SE_DING_DONG}アナウンス『サファリボールが　なくなりました！　しゅうりょうです！\p
 @@359

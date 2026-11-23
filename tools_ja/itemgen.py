@@ -31,8 +31,8 @@ BER={'Razz':'ズリ','Bluk':'ブリー','Nanab':'ナナ','Wepear':'セシナ','P
 ST={'HP':'HP','Attack':'こうげき','Defense':'ぼうぎょ','Sp. Atk':'とくこう','Sp. Def':'とくぼう','Speed':'すばやさ'}
 def gen2(s):
     m=re.match(r"\{POKEBLOCK\} ingredient\.\\nPlant in loamy soil\\nto grow (\w+)\.$",s)
-    if m: return '{POKEBLOCK}の　ざいりょう\\nうえると　%sのみが\\nそだつ'%BER[m.group(1)]
-    if s=="{POKEBLOCK} ingredient.\\nPlant in loamy soil\\nto grow a mystery.": return '{POKEBLOCK}の　ざいりょう\\nうえると　なにが\\nそだつかは　なぞ'
+    if m: return 'ポロックの　ざいりょう\\nうえると　%sのみが\\nそだつ'%BER[m.group(1)]
+    if s=="ポロック ingredient.\\nPlant in loamy soil\\nto grow a mystery.": return 'ポロックの　ざいりょう\\nうえると　なにが\\nそだつかは　なぞ'
     m=re.match(r"Makes a Pokémon\\nfriendly but lowers\\nbase (.*?)\.$",s)
     if m: return 'ポケモンが　なつくが\\n%sの　きそポイントが\\nさがる'%ST[m.group(1)]
     m=re.match(r"A hold item that\\nweakens a (\w+)\\nmove(?: if weak to it)?\.$",s)

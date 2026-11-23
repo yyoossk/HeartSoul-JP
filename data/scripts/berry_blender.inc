@@ -1,7 +1,7 @@
 .set NUM_OPPONENTS, VAR_0x8009
 
 BerryBlender_Text_WantToMakePokeblocks:
-	.string "おや？　この　としよりと\n{POKEBLOCK}を　つくりたいのかね？$"
+	.string "おや？　この　としよりと\nポロックを　つくりたいのかね？$"
 
 BerryBlender_Text_Excellent:
 	.string "けっこう　けっこう！$"
@@ -10,7 +10,7 @@ BerryBlender_Text_MadeOldTimerSad:
 	.string "そうか‥\nとしよりは　さびしいのう‥$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks:
-	.string "{POKEBLOCK}の　つくりかたは\nしって　おるかね？$"
+	.string "ポロックの　つくりかたは\nしって　おるかね？$"
 
 BerryBlender_Text_LetsBerryBlender:
 	.string "では　はじめようか！\pきのみブレンダー\nスタート！$"
@@ -19,28 +19,28 @@ BerryBlender_Text_ExplainBerryBlending:
 	.string "では　すこし　せつめい\nしようかの\pなに　かんたんじゃ\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすだけじゃ\pそれだけ　じゃよ\nやって　みれば　わかる$"
 
 BerryBlender_Text_DontHaveAnyBerries:
-	.string "おや？\nきのみを　もって\lおらんのか？\pきのみが　ないと\n{POKEBLOCK}は　つくれんぞ$"
+	.string "おや？\nきのみを　もって\lおらんのか？\pきのみが　ないと\nポロックは　つくれんぞ$"
 
 BerryBlender_Text_CanHaveOneOfMyBerries:
-	.string "それでは　こまるのう\pあまりもので　よければ\nわしの　きのみを\l1こ　あげよう\pそれで　いっしょに　きのみ\nブレンダーで　{POKEBLOCK}を\lつくろう$"
+	.string "それでは　こまるのう\pあまりもので　よければ\nわしの　きのみを\l1こ　あげよう\pそれで　いっしょに　きのみ\nブレンダーで　ポロックを\lつくろう$"
 
 BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string "あまって　おれば\nよろこんで　あげるんじゃが‥\pきょうは　あまりが　なくてな\nまた　こんどに　しよう$"
 
 BerryBlender_Text_PokeblockCaseIsFull:
-	.string "じゃが　{POKEBLOCK}ケースが\nいっぱい　じゃな\p{POKEBLOCK}を　つかってから\nまた　おいで$"
+	.string "じゃが　ポロックケースが\nいっぱい　じゃな\pポロックを　つかってから\nまた　おいで$"
 
 BerryBlender_Text_DontHavePokeblockCase:
-	.string "じゃが　{POKEBLOCK}ケースを\nもって　おらんな\p{POKEBLOCK}ケースを　てに\nいれてから　おいで$"
+	.string "じゃが　ポロックケースを\nもって　おらんな\pポロックケースを　てに\nいれてから　おいで$"
 
 BerryBlender_Text_LetsGetBlendingAlready:
 	.string "はやく　ブレンド\nしようよ！$"
 
 BerryBlender_Text_WhatKindOfPokeblockWillIGet:
-	.string "どんな　{POKEBLOCK}が\nできるかな？\lわくわく　する！$"
+	.string "どんな　ポロックが\nできるかな？\lわくわく　する！$"
 
 BerryBlender_Text_WantToBlendPokeblocksWithUs:
-	.string "やあ！　いっしょに\n{POKEBLOCK}を　つくる？$"
+	.string "やあ！　いっしょに\nポロックを　つくる？$"
 
 BerryBlender_Text_Okay:
 	.string "よーし！$"
@@ -49,7 +49,7 @@ BerryBlender_Text_ThatsTooBad:
 	.string "ざんねん‥\pでも　ぼくたちは　いつでも\nここに　いるから　つくりたく\lなったら　おいでよ！$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks2:
-	.string "もちろん　{POKEBLOCK}の\nつくりかたは　しってるよね？$"
+	.string "もちろん　ポロックの\nつくりかたは　しってるよね？$"
 
 BerryBlender_Text_LetsBerryBlender2:
 	.string "じゃあ　はじめよう！\pきのみブレンダー\nスタート！$"
@@ -58,18 +58,18 @@ BerryBlender_Text_ExplainBerryBlending2:
 	.string "わかった！\nせつめい　するね！\pまわる　ブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすんだ\pそれだけ！\nかんたん　でしょ？$"
 
 BerryBlender_Text_DontHaveAnyBerries2:
-	.string "あれ　ちょっと　まって‥\nきのみを　もって　ないね\pきのみが　ないと\n{POKEBLOCK}は　つくれないよ‥\pきのみを　てに　いれたら\nいつでも　おいでよ$"
+	.string "あれ　ちょっと　まって‥\nきのみを　もって　ないね\pきのみが　ないと\nポロックは　つくれないよ‥\pきのみを　てに　いれたら\nいつでも　おいでよ$"
 
 BerryBlender_Text_PokeblockCaseIsFull2:
-	.string "あれ　ちょっと　まって‥\n{POKEBLOCK}ケースが　いっぱいだ\p{POKEBLOCK}を　つかってから\nまた　おいでよ$"
+	.string "あれ　ちょっと　まって‥\nポロックケースが　いっぱいだ\pポロックを　つかってから\nまた　おいでよ$"
 
 BerryBlender_Text_DontHavePokeblockCase2:
-	.string "あれ　ちょっと　まって‥\n{POKEBLOCK}ケースを　もって\lないね\p{POKEBLOCK}ケースを　てに\nいれてから　おいでよ$"
+	.string "あれ　ちょっと　まって‥\nポロックケースを　もって\lないね\pポロックケースを　てに\nいれてから　おいでよ$"
 
 @ Unused
 BerryBlender_Text_MakePokeblocksWithOurGroup:
 	.string "Oh, hello! Did you want to make some\n"
-	.string "{POKEBLOCK}S with our little group?$"
+	.string "ポロックS with our little group?$"
 
 BerryBlender_Text_OhDear:
 	.string "あらまあ！$"
@@ -78,7 +78,7 @@ BerryBlender_Text_LeftUsInShock:
 	.string "あらまあ‥\pびっくり　させないでよ！$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks3:
-	.string "もちろん　{POKEBLOCK}の\nつくりかたは　しってるわよね？$"
+	.string "もちろん　ポロックの\nつくりかたは　しってるわよね？$"
 
 BerryBlender_Text_LetsBerryBlender3:
 	.string "いいわよ！\nはじめましょう！\pきのみブレンダー\nスタート！$"
@@ -87,13 +87,13 @@ BerryBlender_Text_ExplainBerryBlending3:
 	.string "あらまあ！\pじゃあ　やさしく\nせつめい　するわね\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすの\pそれだけ\nかんたん　でしょ？$"
 
 BerryBlender_Text_DontHaveAnyBerries3:
-	.string "きのみを　もって\nいないのね？\pきのみが　ないと\n{POKEBLOCK}は　つくれないわ\pわたしたちは　いつも　ここで\nつくってるから　きのみを\lてに　いれたら　いっしょに\lつくりましょう$"
+	.string "きのみを　もって\nいないのね？\pきのみが　ないと\nポロックは　つくれないわ\pわたしたちは　いつも　ここで\nつくってるから　きのみを\lてに　いれたら　いっしょに\lつくりましょう$"
 
 BerryBlender_Text_PokeblockCaseIsFull3:
-	.string "{POKEBLOCK}ケースが\nいっぱい　みたいね\p{POKEBLOCK}を　つかってから\nまた　きてね$"
+	.string "ポロックケースが\nいっぱい　みたいね\pポロックを　つかってから\nまた　きてね$"
 
 BerryBlender_Text_DontHavePokeblockCase3:
-	.string "まだ　{POKEBLOCK}ケースを\nもって　いない　みたいね\p{POKEBLOCK}ケースを　てに\nいれてから　きてね$"
+	.string "まだ　ポロックケースを\nもって　いない　みたいね\pポロックケースを　てに\nいれてから　きてね$"
 
 BerryBlender_Text_SetNewBlenderRecord:
 	.string "よし！　きょうこそ\nブレンダーの　さいこうそくど\lきろくを　だすぞ！$"
@@ -102,10 +102,10 @@ BerryBlender_Text_LookGoodAtBlendingJoinUs:
 	.string "あらまあ！\nブレンドが　じょうず\lそうね　いっしょに\lやらない？$"
 
 BerryBlender_Text_MakeDeliciousPokeblocks:
-	.string "おいしい　{POKEBLOCK}を　つくって\nポケモンを　もっと\lかわいく　するの$"
+	.string "おいしい　ポロックを　つくって\nポケモンを　もっと\lかわいく　するの$"
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
-	.string "きのみブレンダーで　ともだちと\nきのみから　{POKEBLOCK}を\lつくります\pともだちと　つうしん　する\nまえに　レポートを\lかいても　いいですか？$"
+	.string "きのみブレンダーで　ともだちと\nきのみから　ポロックを\lつくります\pともだちと　つうしん　する\nまえに　レポートを\lかいても　いいですか？$"
 
 BerryBlender_Text_SearchingForFriends:
 	.string "ともだちを　さがして　います‥\n‥　‥　Bボタン:キャンセル$"
@@ -123,22 +123,22 @@ BerryBlender_Text_NoBerriesLink:
 	.string "きのみを　もって　いません\nきのみブレンダーは\lつかえません$"
 
 BerryBlender_Text_PokeblockCaseIsFullLink:
-	.string "{POKEBLOCK}ケースが　いっぱいです\nきのみブレンダーは\lつかえません$"
+	.string "ポロックケースが　いっぱいです\nきのみブレンダーは\lつかえません$"
 
 BerryBlender_Text_DontHavePokeblockCaseLink:
-	.string "{POKEBLOCK}ケースを　もって\nいません　きのみブレンダーは\lつかえません$"
+	.string "ポロックケースを　もって\nいません　きのみブレンダーは\lつかえません$"
 
 BerryBlender_Text_LoveMakingPokeblocks:
-	.string "{POKEBLOCK}を　つくるのが\nだいすき\pいつも　きのみを\nもちあるいてるの$"
+	.string "ポロックを　つくるのが\nだいすき\pいつも　きのみを\nもちあるいてるの$"
 
 BerryBlender_Text_MakePokeblocksUsingBerryBlender:
-	.string "よかったら　きのみブレンダーで\nいっしょに　{POKEBLOCK}を\lつくらない？$"
+	.string "よかったら　きのみブレンダーで\nいっしょに　ポロックを\lつくらない？$"
 
 BerryBlender_Text_DontHaveAnyBerriesHaveOne:
 	.string "あら？\nきのみを　もって\lいないの？\pそれは　こまったわね\pあまりもので　よければ\nわたしの　きのみを\l1こ　あげるわ$"
 
 BerryBlender_Text_UseItToMakePokeblocksTogether:
-	.string "それで　いっしょに　きのみ\nブレンダーで　{POKEBLOCK}を\lつくりましょう$"
+	.string "それで　いっしょに　きのみ\nブレンダーで　ポロックを\lつくりましょう$"
 
 BerryBlender_Text_DontHaveAnyBerriesNoneToSpare:
 	.string "あら？\nきのみを　もって\lいないの？\pあまって　いれば\nよろこんで　あげるんだけど‥\pきょうは　あまりが　ないの\nごめんなさいね$"

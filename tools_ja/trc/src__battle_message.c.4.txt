@@ -403,7 +403,7 @@
 @@786
 たたかう{CLEAR_TO 56}バッグ\nポケモン{CLEAR_TO 56}にげる
 @@787
-ボール{CLEAR_TO 56}{POKEBLOCK}\nちかよる{CLEAR_TO 56}にげる
+ボール{CLEAR_TO 56}ポロック\nちかよる{CLEAR_TO 56}にげる
 @@788
 {PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}ボール{CLEAR_TO 56}エサ\nいし{CLEAR_TO 56}にげる
 @@789

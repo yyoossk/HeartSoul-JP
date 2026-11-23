@@ -1,0 +1,645 @@
+## data/event_scripts.s
+@@Common_Text_PartyIsFull
+おっと　これいじょう\nポケモンは　もてないよ
+@@Common_Text_ReceivedMon
+{PLAYER}は\n{STR_VAR_1}を　もらった！
+@@gText_PokemonTrainerSchoolEmail
+トレーナーズスクールから\nメールが　とどいている\p‥　‥　‥　‥　‥　‥\pポケモンが　おぼえられる　わざは\n4つまで\pどの　わざを　えらぶかで\nトレーナーの　うでが　ためされる\p‥　‥　‥　‥　‥　‥
+@@gText_PokerusExplanation
+あなたの　ポケモンは\nポケルスに　かんせん\lしている　かもしれません\pポケルスは　ポケモンに\nとりつく　ちいさな　いきもの\lと　いうこと　いがいは\lよく　わかって　いません\pかんせん　している　あいだ\nポケモンは　とても　よく\lそだつと　いわれて　います
+## data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc
+@@BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded
+きろくを　のこします\nしょうしょう　おまちください
+@@BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak
+7れんしょうを　なしとげるとは‥\pあなたと　ポケモンの　こころの\nきずなは　かたく　ほんものの\lようですね
+@@BattleFrontier_BattlePalaceLobby_Text_FollowMe
+よろしい\nでは　ついて　きなさい
+@@BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink
+おれみたいな　がんばりやには\nがんばりやの　ポケモンが　いちばん\pこうげきは　さいだいの　ぼうぎょ！\nせめつづけるのが　さいきょうだ！\pでも　はなしたいのは\nそんな　ことじゃ　ない\pときどき　ここに\nとても　かわいい　おねえさんが\lくるんだ\pポケモンの　かんがえて　いる\nことが　わかるって　いうんだ\pそれは　どうか　しらないけど\nとにかく　かわいいんだ\pえ？\nなんで　そんな　めで　みるの？
+@@BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch
+さいごの　バトルパレスの\nしあいを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms
+ぼくの　ポケモンは　ふだんは\nとても　おとなしいんだ\pでも　バトルホールに　はいると\nときどき　まるで　べつの\lわるい　なにかに　かわるんだ\pすごい　はくりょくで‥\nびっくり　するくらいだよ
+@@BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere
+ふむ‥\pここでの　バトルは　ポケモンの\nせいかくと　おぼえさせた\lわざが　カギの　ようだ\pもっと　くわしく　いうと\nわざが　ポケモンの　せいかくに\lあって　いるか　どうかだ\pポケモンが　ピンチで\nちからを　だしきれない　ときは\lわざと　せいかくの　あいしょうを\lみなおす　ひつようが　あるかもな
+@@BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints
+あなたと　ポケモンの　きずなを\nたたえ　バトルポイントを\lさしあげます
+@@BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded
+ポケモンたちの　かつやくを\nみられて　こうえい　です\pけっかを　きろく　します\nしょうしょう　おまちください
+@@BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified
+こころと　ポケモンを\nきたえたら　また　きなさい
+@@BattleFrontier_BattlePalaceLobby_Text_RulesAreListed
+バトルホールの　ルールが\nかいて　あります
+@@BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers
+パレスガーディアンと\n7にんの　トレーナーに\lれんぞくで　かつとは‥
+@@BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle
+トレーナーの　こころが\nためされる　ばしょ\pバトルパレスへ　ようこそ\pダブルバトルホールへの\nちょうせんを　うけつけます
+@@BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle
+トレーナーの　こころが\nためされる　ばしょ\pバトルパレスへ　ようこそ\pシングルバトルホールへの\nちょうせんを　うけつけます
+@@BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway
+あいてを　よわらせて　すこしずつ\nけずるのが　すきな　ポケモンって\lどんな　せいかく　なんだろう\pのうてんきな　せいかく　だったら\nおどろくけど‥\pいや　そんな　わけ　ないか
+## data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc
+@@BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc
+もたせると　ひかりで　あいての\nめいちゅうりつを　さげる
+@@BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc
+ポケモン　1ぴきの\nとくこうを　あげる
+@@BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc
+ポケモン　1ぴきの\nすばやさを　あげる
+@@BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc
+チコリータの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc
+わざの　いりょくが　あがるが\nおなじ　わざしか　だせない
+@@BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc
+ピッピの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_ConfirmPurchase
+{STR_VAR_1}で\nよろしいですか？
+@@BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc
+ヒノアラシの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc
+メタモンの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints
+もうしわけ　ありません‥\nバトルポイントが　たりません‥
+@@BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt
+もうしわけ　ありません‥\nもちものが　いっぱいです‥
+@@BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc
+もたせると　ときどき\nひんしに　ならずに　たえる
+@@BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant
+ママに　まかせて！\pほしい　ものなら　なんだって\nてに　いれて　あげるわよ！
+@@BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll
+はあ？\nなに　じろじろ　みてるのよ\pあたしの　ぬいぐるみを\nそんな　めで　みないでよね\pほしかったら　じぶんで\nてに　いれなさいよ！\lね　ムチュール？
+@@BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc
+ポケモン　1ぴきの\nHPを　あげる
+@@BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize
+しょうひんを　どうぞ！
+@@BattleFrontier_ExchangeServiceCorner_Text_IronDesc
+ポケモン　1ぴきの\nぼうぎょを　あげる
+@@BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher
+ここの　どうぐが　てに　はいれば\nおれの　ポケモンは　もっと\lつよく　なるんだ\pぜったい　そうさ！\nまちがい　ない！
+@@BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc
+もたせると　こうげきした　とき\nあいてを　ひるませる　ことがある
+@@BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc
+ムチュールの　クッション\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc
+ムチュールが　えがかれた\nおおきな　ポスター
+@@BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc
+おおきな　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc
+もたせると　バトルちゅうに\nHPを　すこしずつ　かいふく
+@@BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc
+もたせると　メロメロじょうたいを\nなおす
+@@BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc
+ニャースの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord
+しってる？\pどの　バトルしせつでも\nきろくを　のばすと　もらえる\lバトルポイントが　ふえて　いくのよ
+@@BattleFrontier_ExchangeServiceCorner_Text_PCIsFull
+もうしわけ　ありません‥\nパソコンが　いっぱいの　ようです‥
+@@BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc
+ポケモン　1ぴきの\nこうげきを　あげる
+@@BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc
+もたせると　ときどき\nさきに　こうげき　できる
+@@BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc
+もたせると　きゅうしょに\nあたりやすく　なる
+@@BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc
+ムチュールの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints
+ありがとう　ございました\pバトルポイントが　たまったら\nまた　おこし　ください
+@@BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc
+トゲピーの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc
+ワニノコの　ドール\nマットや　つくえに　おける
+@@BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize
+こちらは　こうかんサービス\nカウンター　です\pあつめた　バトルポイントを\nすてきな　しょうひんと\lこうかん　いたします\pリストから　しょうひんを\nおえらび　ください
+@@BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC
+ありがとう　ございます！\nおうちの　パソコンに　おくります
+@@BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc
+もたせると　さがった\nのうりょくを　もとに　もどす
+@@BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls
+わあ　すてき！\nほしいなあ！\lかわいい　クッション！\lおおきな　ドール！\lちいさな　ドール！\lぜんぶ　ほしいなあ！
+@@BattleFrontier_ExchangeServiceCorner_Text_ZincDesc
+ポケモン　1ぴきの\nとくぼうを　あげる
+## data/maps/CeladonCity_Frlg/scripts.inc
+@@CeladonCity_Text_CitySign
+タマムシシティ\nにじいろ　ゆめの　まち
+@@CeladonCity_Text_DeptStoreSign
+ほしい　ものは\nタマムシデパートで！
+@@CeladonCity_Text_GameCornerSign
+ロケットゲームコーナー\nおとなの　あそびば！
+@@CeladonCity_Text_GymSign
+タマムシシティ　ポケモンジム\nリーダー　エリカ\l「しぜんを　あいする　おじょうさま」
+@@CeladonCity_Text_MansionSign
+タマムシマンション
+@@CeladonCity_Text_Poliwrath
+ニョロボン『ニョロ　ニョロ！
+## data/maps/CeruleanCity_BikeShop_Frlg/scripts.inc
+@@CeruleanCity_BikeShop_Text_BikesCoolButExpensive
+この　じてんしゃ　かっこいいけど\nすごく　たかいんだよな！
+@@CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe
+ぼくは　ふつうの　じてんしゃで\nじゅうぶん\pだって　マウンテンバイクには\nかいものかごが　つけられないもん
+@@CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle
+{PLAYER}は　ひきかえけんを\nじてんしゃと　こうかんした
+@@CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle
+あたらしい　じてんしゃは\nどう？　のりごこちは　いい？\pサイクリングロードや\nどうくつでも　はしれるよ！
+@@CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo
+あっ　それは‥\pじてんしゃの　ひきかえけん！\pよし！\nはい　どうぞ！
+@@CeruleanCity_BikeShop_Text_ShinyNewBicycle
+ぴかぴかの　じてんしゃだ！
+@@CeruleanCity_BikeShop_Text_SorryYouCantAffordIt
+ごめんね！\nおかねが　たりないよ！
+@@CeruleanCity_BikeShop_Text_ThankYouComeAgain
+ありがとう！\nまた　きてね！
+@@CeruleanCity_BikeShop_Text_WelcomeToBikeShop
+いらっしゃい！\nじてんしゃやへ　ようこそ\pきみに　ぴったりの\nじてんしゃが　あるよ！
+@@CeruleanCity_BikeShop_Text_WowYourBikeIsCool
+わあ\nきみの　じてんしゃ　かっこいい！
+## data/maps/CeruleanCity_Frlg/scripts.inc
+@@CeruleanCity_Text_BetterGetMovingBye
+そろそろ　いかなきゃ！\nじゃあな！
+@@CeruleanCity_Text_BikeShopSign
+くさむらも　どうくつも　らくらく！\nじてんしゃや
+@@CeruleanCity_Text_CitySign
+ハナダシティ\nハナダは　みずいろ\lしんぴの　いろ
+@@CeruleanCity_Text_ExplainFameCheckerSmellYa
+おまえみたいな　ウワサずきには\nぴったりだろ\pおれは　ひとの　ことなんか\nきょうみ　ないから　いらないんだ\pじゃ　こんどこそ　ほんとに\nいくからな　あばよ！
+@@CeruleanCity_Text_GruntDefeat
+したっぱ『まいった！\nおとなしく　でて　いくよ！
+@@CeruleanCity_Text_GruntIntro
+おい！　はいって　くるな！\nおまえの　にわじゃ　ないぞ！\p‥え？\nおれ？\pおれは　ただの　とおりすがりだ！\nしんじて　くれないのか？{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}
+@@CeruleanCity_Text_GymSign
+ハナダシティ　ポケモンジム\nリーダー　カスミ\l「おてんばな　にんぎょ」
+@@CeruleanCity_Text_HardToControlMonsObedience
+ちがう！　そうじゃない！\nポケモンを　あやつるのは\lむずかしいなあ！\pポケモンが　いうことを　きくかは\nトレーナーの　うで　しだい
+@@CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree
+あの　ヤドランが　いなければ\nちいさな　きを　いあいぎりで\lきれるんだけど\pそうすれば　むこうがわに\nいけるのにね\pでも　まわりみちも\nあると　おもうよ
+@@CeruleanCity_Text_MakeRoomForThisCantRun
+これを　うけとれ！\nわたすまで　いけないんだよ！
+@@CeruleanCity_Text_NoYouBlewItAgain
+ああ！\nまた　しっぱいだ！
+@@CeruleanCity_Text_OhRightLittlePresentAsFavor
+ああ　そうだった\pおまえ　かわいそうにな\nいつも　おれの　あとを\lのろのろ　ついて　くるし\pだから　ちょっと　した\nプレゼントを　やるよ
+@@CeruleanCity_Text_OkayIllReturnStolenTM
+‥わかったよ\nぬすんだ　わざマシンを　かえすよ
+@@CeruleanCity_Text_PeopleHereWereRobbed
+ここの　ひとたちが\nどろぼうに　はいられた\pロケットだんの　しわざに\nちがいない！\pけいさつも　ロケットだんには\nてを　やいて　いるんだ！
+@@CeruleanCity_Text_PokemonEncyclopediaAmusing
+ポケモンの　ずかんを\nつくってるの？　おもしろそう
+@@CeruleanCity_Text_RecoveredTM28FromGrunt
+{PLAYER}は　したっぱから\nわざマシン28を　とりかえした
+@@CeruleanCity_Text_RivalDefeat
+おい！\nもう　いいだろ！\lおまえの　かちだよ！
+@@CeruleanCity_Text_RivalIntro
+{RIVAL}『よう！　{PLAYER}！\pまだ　こんな　ところで\nもたもた　してるのか？\pおれは　つよくて　かしこい\nポケモンを　たくさん　つかまえたぜ！\pどれ　おまえの　ポケモンを\nみせて　みろよ　{PLAYER}！
+@@CeruleanCity_Text_RivalPostBattle
+{RIVAL}『なあ　しってるか？\pマサキの　ところで\nめずらしい　ポケモンを\lみせて　もらったんだ\pおかげで　ずかんが\nだいぶ　うまったぜ！\pマサキは　せかいてきに　ゆうめいな\nポケモンマニア　だからな\pパソコンの　ポケモン\nあずかりシステムを　つくったのも\lあいつ　なんだぜ\pおまえも　つかってるんだから\nおれいを　いって　こいよ\pじゃあ　そろそろ　いくぜ！\nあばよ！
+@@CeruleanCity_Text_SlowbroIgnoredOrders
+ヤドランは　いうことを\nきかない‥
+@@CeruleanCity_Text_SlowbroLoafingAround
+ヤドランは　なまけて　いる‥
+@@CeruleanCity_Text_SlowbroPayAttention
+ほら　ヤドラン　ちゃんと\nきいて！
+@@CeruleanCity_Text_SlowbroPunch
+ヤドラン　パンチ！
+@@CeruleanCity_Text_SlowbroTookSnooze
+ヤドランは　いねむりを\nはじめた‥
+@@CeruleanCity_Text_SlowbroTurnedAway
+ヤドランは　そっぽを　むいた‥
+@@CeruleanCity_Text_SlowbroUseSonicboom
+よし！　ヤドラン！\nソニックブーム！
+@@CeruleanCity_Text_SlowbroWithdraw
+ヤドラン　からにこもる！
+@@CeruleanCity_Text_ThisIsCeruleanCave
+ここは　ハナダの　どうくつ\pなかには　おそろしく　つよい\nポケモンが　すんで　いる\pとくべつな　トレーナーしか\nはいる　ことは　ゆるされない\pまず　ポケモンリーグの\nチャンピオンに　なれる　くらい\lつよく　なければ　ならない\pそして　なにか　おおきな　ことを\nなしとげて　いなければ　ならない
+@@CeruleanCity_Text_TrainerLifeIsToughIsntIt
+きみも　トレーナー？\pあつめたり　たたかったり‥\nたいへんな　まいにちだよね
+@@CeruleanCity_Text_TrainerTipsHeldItems
+トレーナー　ワンポイント\pポケモンには　どうぐを\nもたせる　ことが　できる\pもたせた　どうぐを　ポケモンが\nバトルで　つかう　ことも　ある
+@@CeruleanCity_Text_WantBrightRedBicycle
+まっかな　じてんしゃが\nほしいなあ\pよごれない　ように\nいえに　かざって　おくんだ
+@@CeruleanCity_Text_YouCanCutDownSmallTrees
+ちいさな　きは　いあいぎりで\nきれるって　しってた？\pおみせの　まえの　ちいさな　きも\nいあいぎりで　きれるんだよ\pでも　まわりみちも\nあると　おもうよ
+## data/maps/FallarborTown_Mart/scripts.inc
+@@FallarborTown_Mart_Text_Skitty
+エネコ『ミャーオ？
+## data/maps/LavaridgeTown_HerbShop/scripts.inc
+@@LavaridgeTown_HerbShop_Text_WelcomeToHerbShop
+よく　きく　うえに　やすい！\nかんぽうやへ　ようこそ！
+## data/maps/LilycoveCity/scripts.inc
+@@LilycoveCity_Text_ContestHallSign
+ポケモンコンテスト　ホール\n「トレーナーが　あつまる　ばしょ」
+## data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.inc
+@@LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis
+すごい！　すばらしい！\nほんとうに　すばらしいよ！\pずかんが　ぜんぶ\nうまって　いる！\lきみは　ほんとうに\lポケモンが　すきなんだね！\pかんどう　したよ！\pきみの　がんばりを　たたえて\nこれを　あげよう！
+@@LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex
+わたしは　ゲームデザイナー\pへえ　そうなんだ\nずかんを　つくってるのかい？\pかんせい　させるのは　たいへん\nだけど　あきらめないでね\pもし　かんせい　したら\nぜひ　みせに　きてよ
+## data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc
+@@LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale
+やった！　この　セールを\nずっと　まって　いたんだ\pここでしか　てに　はいらない\nどうぐも　ある\lたくさん　かって　いくぞ！
+@@LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty
+ああ‥　のどが　からからだ！
+@@LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown
+ガコン！\p{STR_VAR_1}が　でてきた
+@@LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink
+のみものを　かうのを\nやめた
+@@LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown
+ガコン！\pあたり！　もう　ひとつ\n{STR_VAR_1}が　でてきた！
+@@LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney
+おかねが　たりない‥
+@@LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales
+セールの　ひにちって\nきまって　ないのかな？\pテレビを　みてるけど\nコマーシャルを　やらないのよね
+@@LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike
+じどうはんばいきだ\nどの　のみものに　する？
+## data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc
+@@PlayersHouse_2F_Text_HowDoYouLikeYourRoom
+ママ『{PLAYER}　あたらしい\nへやは　どう？\pよかった！\nちゃんと　かたづいてるわね！\pしたの　ひっこしも\nぜんぶ　おわったわよ\pポケモンの　ひっこしやさんって\nほんとに　べんりね！\pあ　つくえの　うえの　ものも\nちゃんと　あるか　たしかめてね
+## data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc
+@@LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon
+ポケモンの　ほんが\nぎっしり　つまって　いる
+@@LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch
+けんきゅうに　つかう　パソコンだ\nさわらない　ほうが　いい
+## data/maps/MauvilleCity_GameCorner/scripts.inc
+@@MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase
+コインケースを　もって　いないと\nあそべません
+@@MauvilleCity_GameCorner_Text_CantWinJackpot
+ほしい　しょうひんが　あるのに\nおおあたりが　でないんだ
+@@MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay
+ゲームコーナーで　あそぶには\nコインが　ひつよう　です
+@@MauvilleCity_GameCorner_Text_DifficultToStopOn7
+「7」で　ぴったり　とめるのは\nとても　むずかしいんだ\pリールタイムの　ボーナスで\n「7」に　とまると\lコインが　おおく　もらえるよ
+@@MauvilleCity_GameCorner_Text_DontBeNegative
+そんなに　えんりょ　しないで！\nこれ　あげるわ！
+@@MauvilleCity_GameCorner_Text_DontHaveEnoughMoney
+あの‥　その　かずの\nコインを　かう　おかねが\lたりない　ようです‥
+@@MauvilleCity_GameCorner_Text_DontHaveEnoughMoneyFor50
+あの‥　コインを　かう\nおかねが　たりない　ようです‥\pすくなくとも　1000えん\nもって　きて　ください！
+@@MauvilleCity_GameCorner_Text_DontNeedCoinsThen
+あら‥　コインは\nいらないのですね？\lたびの　ごぶうんを！
+@@MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime
+ここに　いると　じかんを\nわすれちゃうな\lしごとに　もどらなきゃ
+@@MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne
+まちがえて　おなじ　ドールを\nふたつ　もらっちゃったの\pひとつ　いる？
+@@MauvilleCity_GameCorner_Text_HereYouGo
+はい　どうぞ！
+@@MauvilleCity_GameCorner_Text_HereYouGo2
+はい　どうぞ！
+@@MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo
+スロットの　じょうほうを\nおしえて　あげよう\pいなずまを　ためるほど\nリールタイムの　チャンスが\lふえるんだ\pさいだい　5かいの\nリールタイムが　ある　ゲームでは‥\pふつうの　ボーナスを　4かい\nそして　ビッグボーナスを\lもらう　ことも　できる\pぜんぶで　660まい　だけど\nとても　むずかしいよ
+@@MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins
+ツキは　いつまでも\nつづかない\lおれには　おおすぎる\lほら　コインを　やるよ！
+@@MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone
+この　まちには　だれにでも\nたのしめる　ものが　ある\pおれには　ゲームコーナーさ
+@@MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins
+ゲームの　コインが　ほしいの？\pでも　コインを　いれる\nコインケースを\lもって　いない　みたいね
+@@MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor
+おい　ぼうず　ここで　あそぶなら\nコインケースが　いるぞ\pとなりの　おねえさんが\nもってたと　おもうぜ\lいって　みな！
+@@MauvilleCity_GameCorner_Text_NoRoomFor50Coins
+あら！　コインケースが　いっぱいで\nこれいじょう　かえません！\pコガネの　ゲームコーナーで\nあそぶか　コインを　けいひんと\lこうかんして　から\lまた　きて　くださいね！
+@@MauvilleCity_GameCorner_Text_NoRoomForCoins
+あら？\nコインケースに　はいりきらない\lみたい‥
+@@MauvilleCity_GameCorner_Text_NotEnoughCoins
+コインが　たりません
+@@MauvilleCity_GameCorner_Text_OhIsThatSo
+あら　そうなの？\nコインを　ためてから\lまた　きてね
+@@MauvilleCity_GameCorner_Text_RouletteOnlyLuck
+この　ルーレット‥\nなかなか　てごわいね\pかつも　まけるも\nうん　しだい　だよ
+@@MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates
+ルーレットの　だいは\nそれぞれ　レートが　ちがうんだ\pだいを　えらぶ　ときは\nコインを　かくにん　してね
+@@MauvilleCity_GameCorner_Text_SendToYourHomePC
+ありがとう　ございます！\nおうちの　パソコンに　おくります
+@@MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX
+{STR_VAR_1}　{STR_VAR_2}で\nよろしいですか？
+@@MauvilleCity_GameCorner_Text_SoYourChoiceIsX
+{STR_VAR_1}で\nよろしいですか？
+@@MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins
+ありがとう　ございます！\nコインを　どうぞ！
+@@MauvilleCity_GameCorner_Text_ThanksBuyCoins
+コインを　おかいあげ\nありがとう　ございます！\lたびの　ごぶうんを！
+@@MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner
+こちらは　ゲームコーナー　です
+@@MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed
+スロットは　コインを\n3まいまで　かけられます
+@@MauvilleCity_GameCorner_Text_WereYouLookingForCoins
+コインを　おさがし　ですか？\p50まいで　500えん　です\nいかが　ですか？
+@@MauvilleCity_GameCorner_Text_YouWantItButNotNow
+え？\nほしいけど　いまは　いらないの？
+## data/maps/PewterCity_House1_Frlg/scripts.inc
+@@PewterCity_House1_Text_Nidoran
+ニドラン♂『キュウ　キュウ！
+## data/maps/PewterCity_Mart_Frlg/scripts.inc
+@@PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy
+あやしい　おじさんに\nへんな　さかなポケモンを\lかわされちゃった！\pすごく　よわいのに\n500えんも　したんだ！
+## data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc
+@@PokemonLeague_ChampionsRoom_Text_OakCongratulations
+オーキド『そうか　かったのか！\nこころから　おめでとう！\pきみが　あたらしい\nポケモンリーグ　チャンピオンだ！\p{STR_VAR_1}と　いっしょに\nずかんづくりに　でかけた　ときから\lほんとうに　せいちょう　したな\p{PLAYER}　りっぱに\nなったな！
+## data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.inc
+@@Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad
+サイクリングロードでは\nおもいきり　とばせるよ\pはやく　はしると　きもちいい\nけど　ひとに　ぶつからない\lように　きを　つけてね！
+@@Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk
+すみません　サイクリングロードは\nあるいて　とおれません\lきけん　ですので\pじてんしゃで　また\nおこし　ください
+## data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
+@@Route124_DivingTreasureHuntersHouse_Text_BagFull
+おっと　バッグが　いっぱいだ\nどうぐを　へらして　きてくれ！
+@@Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind
+いやか？　ざんねんだな\nきが　かわったら　また　きてくれ
+@@Route124_DivingTreasureHuntersHouse_Text_Greeting
+おれは　ダイビングの\nトレジャーハンター！\pふかい　うみに　もぐって\nうみの　そこに　ねむる\lおたからを　あつめて　いるのさ
+@@Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards
+なあ　むかしの　どうぐの\nかけらを　みた　ことは　ないか？
+@@Route124_DivingTreasureHuntersHouse_Text_ItsADeal
+とりひき　せいりつだ！\nだいじに　つかえよ！
+@@Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou
+おっ！　それは‥\nかけら　じゃないか！\lさがして　いたんだ！\pたのむ　こうかん　してくれ！\nいい　ものを　やるから！
+@@Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse
+ほかにも　こうかん　するかい？
+@@Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade
+なにを　こうかん　する？
+@@Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards
+おたからは　もって　ない\nみたいだな‥\pあかいかけら　みたいな\nかけらを　みつけたら\lおれと　こうかん　してくれよ！
+@@Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone
+きみの　{STR_VAR_1}と\nおれの　{STR_VAR_2}を\lこうかん　するんだな？
+## data/maps/Route12_Frlg/scripts.inc
+@@Route12_Text_SportfishingArea
+つりの　めいしょ
+## data/maps/Route6_Frlg/scripts.inc
+@@Route6_Text_ElijahDefeat
+きみ　つよすぎ！
+@@Route6_Text_ElijahIntro
+みかけない　かおだね\nきみ　つよいの？
+@@Route6_Text_ElijahPostBattle
+ぼくの　ポケモンが　よわいのかな？\nそれとも　ぼくが　へたなのかな？\lどっちだと　おもう？
+@@Route6_Text_IsabelleDefeat
+ぜんぜん　だめだった‥
+@@Route6_Text_IsabelleIntro
+わたし？\nいいわよ　あいて　したげる！
+@@Route6_Text_IsabellePostBattle
+もっと　つよく　なりたいな\nひけつは　なに？
+@@Route6_Text_JeffDefeat
+くやしい‥\nきみには　かてなかった‥
+@@Route6_Text_JeffIntro
+え？\nぼくに　なにか　よう？
+@@Route6_Text_JeffPostBattle
+もっと　ポケモンを　つれて\nあるこう　そのほうが　あんしんだ
+@@Route6_Text_KeigoDefeat
+うそ！\nじょうだん　でしょ！
+@@Route6_Text_KeigoIntro
+この　へんは　むしが\nあまり　いないなあ
+@@Route6_Text_KeigoPostBattle
+むしが　すきだから\nトキワの　もりに　もどるよ
+@@Route6_Text_NancyDefeat
+もう！\nまけるのって　だいきらい
+@@Route6_Text_NancyIntro
+ちょっと！\nないしょばなし　ちゅうよ！
+@@Route6_Text_NancyPostBattle
+ひそひそ‥\nひそひそ‥
+@@Route6_Text_RickyDefeat
+ぜんぜん　かてない！
+@@Route6_Text_RickyIntro
+だれだ？\nたちぎき　するなよ！
+@@Route6_Text_RickyPostBattle
+ひそひそ‥\nひそひそ‥
+@@Route6_Text_UndergroundPathSign
+ちかつうろ\nハナダシティ　ー　クチバシティ
+## data/maps/Route7_Frlg/scripts.inc
+@@Route7_Text_UndergroundPathSign
+ちかつうろ\nタマムシシティ　ー　シオンタウン
+## data/maps/SaffronCity_Frlg/scripts.inc
+@@SaffronCity_Text_CitySign
+ヤマブキシティ\nヤマブキは　こがねいろ\lかがやき　の　いろ
+@@SaffronCity_Text_FightingDojo
+かくとう　どうじょう
+@@SaffronCity_Text_GymSign
+ヤマブキシティ　ポケモンジム\nリーダー　ナツメ\l「エスパーしょうじょ」
+@@SaffronCity_Text_SilphCoSign
+シルフカンパニー　ほんしゃビル
+## data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc
+@@VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou
+あなたが　だいすきで\nたまらない　みたい\lみてる　わたしも　しあわせよ
+@@VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou
+ちょっと　いいにくいん　だけど‥\pあなたの　こと\nほんとうに　きらい　みたい\lきまずく　ないの？
+@@VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou
+あなたに　なれて　きたわね\nしんじて　くれてる　みたい
+@@VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot
+あなたの　ことが　かなり　すきね\nちょっと　あまえたい　みたい
+@@VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou
+まだ　あなたに　なれて　ないわね\nすきでも　きらいでも　ない　みたい
+@@VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou
+ポケモンを　みせて\nどれだけ　なついてるか\lみて　あげる\pあら\nあなたの　ポケモン‥
+@@VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy
+とても　しあわせ　そうね\nあなたが　だいすき　みたい
+@@VerdanturfTown_FriendshipRatersHouse_Text_VeryWary
+とても　けいかい　してるわ\nめつきが　こわいもの\lあなたの　こと　ぜんぜん\lすきじゃ　ない　みたい
+## data/maps/VermilionCity_Gym_Frlg/scripts.inc
+@@VermilionCity_Gym_Text_BailyDefeat
+しびれた！
+@@VermilionCity_Gym_Text_BailyIntro
+ぼくは　かるいけど\nでんきには　つよいんだ！\pだから　この　ジムに\nはいったのさ！
+@@VermilionCity_Gym_Text_BailyPostBattle
+わかった　おしえるよ！\pマチスは　ドアの　スイッチを\nなにかの　なかに　かくしたって\lいってた
+@@VermilionCity_Gym_Text_DwayneDefeat
+うわ！\nおどろいた！
+@@VermilionCity_Gym_Text_DwayneIntro
+ここは　こどもの　くる\nところじゃ　ないぞ！\lつよくても　だめだ！
+@@VermilionCity_Gym_Text_DwaynePostBattle
+ジムの　しかけは　マチスが\nじぶんで　つくったんだ\pいたるところに\nにじゅうの　ロックが　ある\lヒントを　やろう\pひとつめの　ロックを　あけたら\nふたつめは　すぐ　となりだ
+@@VermilionCity_Gym_Text_ExplainTM34
+わざマシン34は　でんげきは！\pでんきタイプの　ポケモンに\nおしえて　やれ！
+@@VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis
+オレンジバッジは　ポケモンの\nすばやさを　あげる！\pそれに　いつでも　そらを　とぶが\nつかえる　ように　なるぞ　ボーイ！\pユーは　とくべつだ　ボーイ！\nこれを　うけとれ！
+@@VermilionCity_Gym_Text_GymGuyAdvice
+よう！\nみらいの　チャンピオン！\pマチスには　あだなが　ある\pみんなは　かれを\nイナズマ　アメリカン　と　よぶ！\pでんきポケモンの\nエキスパートだ\pとりや　みずタイプの　ポケモンは\nでんきタイプに　よわい\pまひにも　きを　つけろ\pマチスは　とても　ようじんぶかい\pじぶんを　とじこめて　いるから\nたどりつくのは　たいへんだぞ
+@@VermilionCity_Gym_Text_GymGuyPostVictory
+ふう！\nしびれる　しあい　だったな！
+@@VermilionCity_Gym_Text_GymStatue
+クチバ　ポケモンジム\nリーダー　マチス\pにんてい　トレーナー\n{RIVAL}
+@@VermilionCity_Gym_Text_GymStatuePlayerWon
+クチバ　ポケモンジム\nリーダー　マチス\pにんてい　トレーナー\n{RIVAL}　{PLAYER}
+@@VermilionCity_Gym_Text_LtSurgeDefeat
+オー　ノー！　ショッキング！\pユーは　ほんものだ　ボーイ！\pよし　オレンジバッジを\nもって　いけ！
+@@VermilionCity_Gym_Text_LtSurgeIntro
+ヘイ　ボーイ！　ここで\nなにを　しているんだ？\pユーの　ちいさな　ちからでは\nせんじょうで　いきのこれないぞ！\pいいか　ボーイ　せんそうでは\nでんきポケモンに　たすけられた！\pてきを　しびれさせて\nうごけなく　したのさ！\pユーも　おなじ　めに\nあわせて　やる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}
+@@VermilionCity_Gym_Text_LtSurgePostBattle
+ひとつ　アドバイスだ　ボーイ！\pでんきは　たしかに　つよい！\pだが　じめんタイプの\nポケモンには　きかないぞ！
+@@VermilionCity_Gym_Text_MakeRoomInYourBag
+ヘイ　ボーイ　バッグを\nあけて　おけ！
+@@VermilionCity_Gym_Text_NopeOnlyTrashHere
+ない！\nゴミしか　ない
+@@VermilionCity_Gym_Text_OnlyTrashLocksWereReset
+ない！\nゴミしか　ない\pあっ！\nでんきロックが　もどって　しまった！
+@@VermilionCity_Gym_Text_ReceivedTM34FromLtSurge
+{PLAYER}は　マチスから\nわざマシン34を　もらった
+@@VermilionCity_Gym_Text_SecondLockOpened
+ふたつめの　でんきロックが\nひらいた！　ドアが　ひらいた！
+@@VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened
+あっ！　ゴミの　したに\nスイッチが　ある！　おしてみよう！\pひとつめの　でんきロックが\nひらいた！
+@@VermilionCity_Gym_Text_TuckerDefeat
+まいった！\nきみは　つよい！
+@@VermilionCity_Gym_Text_TuckerIntro
+ぐんたいに　いた　ころ\nマチスは　きびしい　じょうかん\lだった\pほんとうに　きびしい\nひと　だったよ
+@@VermilionCity_Gym_Text_TuckerPostBattle
+あの　ドアを　あけるのは\nかんたんじゃ　ないよ\pマチスは　ぐんたいでも\nようじんぶかい　ことで\lゆうめい　だったんだ
+## data/maps/ViridianCity_Frlg/scripts.inc
+@@ViridianCity_Text_CitySign
+トキワシティ\nトキワは　みどり\lえいえんの　いろ
+@@ViridianCity_Text_ExplainCaterpieWeedle
+キャタピーには　どくは　ないけど\nビードルには　ある\pポケモンが　ビードルの\nどくばりに　さされない　ように\lきを　つけてね
+@@ViridianCity_Text_GymSign
+トキワシティ　ポケモンジム
+@@ViridianCity_Text_OhOkayThen
+あ　そう　なの！
+@@ViridianCity_Text_WantToKnowAboutCaterpillarMons
+2しゅるいの　いもむしポケモンに\nついて　しりたい？
+## data/maps/ViridianCity_Gym_Frlg/scripts.inc
+@@ViridianCity_Gym_Text_AtsushiDefeat
+うおおー！
+@@ViridianCity_Gym_Text_AtsushiIntro
+ぐおおお！\nいかりが　こみあげて　きたぞ！
+@@ViridianCity_Gym_Text_AtsushiPostBattle
+まだまだ　しゅぎょうが　たりない！
+@@ViridianCity_Gym_Text_ColeDefeat
+いてて！\nムチうちだ！
+@@ViridianCity_Gym_Text_ColeIntro
+おれの　ムチの　おとで\nポケモンが　すくみあがるぞ！
+@@ViridianCity_Gym_Text_ColePostBattle
+まて！\nちょっと　ゆだん　しただけだ！
+@@ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis
+グリーンバッジが　あれば\nどんな　レベルの　ポケモンも\lいうことを　きく\pポケモントレーナーとして\nうでを　きわめた　あかしだ\pそれが　あれば\nポケモンリーグに　ちょうせん\lできる\pそれと　この　わざマシンも\nもって　いけ\pポケモンリーグへの\nはなむけだ
+@@ViridianCity_Gym_Text_ExplainTM26
+わざマシン26は　じしん\pおおきな　ゆれを　おこす\nつよい　こうげきだ\pわたしが　ここの　ジムを\nやって　いた　ころに　つくった\lもう　ずいぶん　むかしの　ことだ‥
+@@ViridianCity_Gym_Text_GiovanniDefeat
+はっ！\nじつに　はげしい　たたかい\lだった　きみの　かちだ！\pあかしとして\nグリーンバッジを　やろう！\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}
+@@ViridianCity_Gym_Text_GiovanniIntro
+ふはははは！\nわたしの　かくれがへ　ようこそ！\pロケットだんを　かつての\nすがたに　もどす　まで\lここが　かくれがだ\pだが　また　みつかって\nしまった　ようだな\lよかろう\lこんどは　てかげん　しないぞ！\pふたたび　さいきょうの\nトレーナー　サカキが\lあいて　してやろう！{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}
+@@ViridianCity_Gym_Text_GiovanniPostBattle
+こんな　まけかたを　しては\nぶかに　あわせる　かおが　ない\lかれらの　しんらいを\lうらぎって　しまった\pきょうかぎりで\nロケットだんは　かいさん　する！\pわたしは　もう　いちど\nしゅぎょうに　うちこむ　つもりだ\pいつか　また　あおう！\nさらばだ！
+@@ViridianCity_Gym_Text_GymGuyAdvice
+よう！\nみらいの　チャンピオン！\pトキワの　リーダーが　だれなのか\nおれにも　わからない\pだが　ひとつ　たしかな　ことが\nある　ジムリーダーの　なかで\lいちばん　てごわい\pそれと　ここの　トレーナーは\nじめんタイプの　ポケモンが\lすき　らしいぞ
+@@ViridianCity_Gym_Text_GymGuyPostVictory
+びっくり　したぜ！\nサカキが　トキワの\lジムリーダー　だったのか？
+@@ViridianCity_Gym_Text_GymStatue
+トキワ　ポケモンジム\nリーダー　？\pにんてい　トレーナー\n{RIVAL}
+@@ViridianCity_Gym_Text_GymStatuePlayerWon
+トキワ　ポケモンジム\nリーダー　サカキ\pにんてい　トレーナー\n{RIVAL}　{PLAYER}
+@@ViridianCity_Gym_Text_JasonDefeat
+かんぺきな　ハーモニーだ！
+@@ViridianCity_Gym_Text_JasonIntro
+ポケモンと　ぼくは\nすてきな　おんがくを　かなでるんだ！
+@@ViridianCity_Gym_Text_JasonPostBattle
+ここの　ジムリーダーが\nだれだか　しってる？
+@@ViridianCity_Gym_Text_KiyoDefeat
+アイヤー！
+@@ViridianCity_Gym_Text_KiyoIntro
+からては　さいきょうの\nかくとうぎだ！
+@@ViridianCity_Gym_Text_KiyoPostBattle
+おれの　ポケモンが　おれくらい\nからてが　うまければ‥
+@@ViridianCity_Gym_Text_ReceivedTM26FromGiovanni
+{PLAYER}は　サカキから\nわざマシン26を　もらった
+@@ViridianCity_Gym_Text_SamuelDefeat
+まけた　だと？
+@@ViridianCity_Gym_Text_SamuelIntro
+トキワジムは　ながい　あいだ\nしまって　いた\pでも　いまは　リーダーが\nもどって　きたんだ！
+@@ViridianCity_Gym_Text_SamuelPostBattle
+ポケモンリーグへ　いけるのは\nうちの　リーダーを\lたおした　ものだけだ！
+@@ViridianCity_Gym_Text_TakashiDefeat
+アイヤッ！
+@@ViridianCity_Gym_Text_TakashiIntro
+おれは　からて　だいおう！\nおまえの　うんめいは　おれ　しだい！
+@@ViridianCity_Gym_Text_TakashiPostBattle
+ポケモンリーグ？\nおまえが？　ちょうしに　のるな！
+@@ViridianCity_Gym_Text_WarrenDefeat
+てが　すべった！
+@@ViridianCity_Gym_Text_WarrenIntro
+ほんとうの　じつりょくしゃは\nかっこよく　かつ　ものさ
+@@ViridianCity_Gym_Text_WarrenPostBattle
+こんな　まけかたを　したら\nリーダーに　しかられる‥
+@@ViridianCity_Gym_Text_YouDoNotHaveSpace
+もちものが　いっぱいの\nようだな！
+@@ViridianCity_Gym_Text_YujiDefeat
+ちからつきた！
+@@ViridianCity_Gym_Text_YujiIntro
+へっ！\nもう　そろそろ\lいきが　きれて　きた　ころだろ！
+@@ViridianCity_Gym_Text_YujiPostBattle
+うちの　ジムリーダーに\nついて　いくには　ちからが\lひつようだぞ
+## data/scripts/berry_tree.inc
+@@BerryTree_Text_APokemonAppeared
+ポケモンが　あらわれた！
+@@BerryTree_Text_BerryGrowthStage1
+{STR_VAR_1}が\nうえて　ある
+@@BerryTree_Text_BerryGrowthStage2
+{STR_VAR_1}の\nめが　でて　いる
+@@BerryTree_Text_BerryGrowthStage3
+{STR_VAR_1}が\nすくすく　のびて　いる
+@@BerryTree_Text_BerryGrowthStage4
+{STR_VAR_1}の　はなが\n{STR_VAR_2}　さいて　いる
+@@BerryTree_Text_BerryGrowthStageBudding
+{STR_VAR_1}の　きに\nつぼみが　ついて　いる！
+@@BerryTree_Text_BerryGrowthStageTrunk
+{STR_VAR_1}の　みきが\nふとく　なって　きた！
+@@BerryTree_Text_BerryLeftUnpicked
+{PLAYER}は　{STR_VAR_1}を\nとらずに　おいた
+@@BerryTree_Text_BerryLeftUnpicked_Mutation
+{PLAYER}は　{STR_VAR_1}と\n{STR_VAR_3}を　とらずに　おいた
+@@BerryTree_Text_BerryPocketFull
+バッグの　きのみポケットが\nいっぱいだ\p{STR_VAR_1}を　とれなかった
+@@BerryTree_Text_BerryPocketFull_Mutation
+バッグの　きのみポケットが\nいっぱいだ\p{STR_VAR_1}と　{STR_VAR_3}を\nとれなかった
+@@BerryTree_Text_CareAdverbGood
+きれいに
+@@BerryTree_Text_CareAdverbGreat
+とても　きれいに
+@@BerryTree_Text_CareAdverbPoor
+かわいく
+@@BerryTree_Text_ItsSoftLoamySoil
+ふかふかの　やわらかい　つちだ
+@@BerryTree_Text_PickedTheBerry
+{PLAYER}は　{STR_VAR_1}を\n{STR_VAR_2}こ　とった
+@@BerryTree_Text_PickedTheBerry_Mutation
+{PLAYER}は　{STR_VAR_1}を\n{STR_VAR_2}こと\l{STR_VAR_3}を　とった
+@@BerryTree_Text_PlantIsDelighted
+きのみが　よろこんで　いる\nように　みえる
+@@BerryTree_Text_PlantedOneBerry
+{PLAYER}は　ふかふかの\nつちに　{STR_VAR_1}を\lうえた
+@@BerryTree_Text_PulledOutTheWeed
+{PLAYER}は　ざっそうを\nぬいた！
+@@BerryTree_Text_PutAwayBerry
+{PLAYER}は　{STR_VAR_1}を\nバッグの　きのみポケットに\lしまった\pつちは　もとの\nふかふかの　つちに　もどった
+@@BerryTree_Text_PutAwayBerry_Mutation
+{PLAYER}は　{STR_VAR_1}と\n{STR_VAR_3}を　バッグの\lきのみポケットに　しまった\pつちは　もとの\nふかふかの　つちに　もどった
+@@BerryTree_Text_ScatteredMulch
+{PLAYER}は　ふかふかの　つちに\n{STR_VAR_1}を　まいた
+@@BerryTree_Text_WantToMulch
+ふかふかの　やわらかい　つちだ\nこやしを　まきますか？
+@@BerryTree_Text_WantToPick
+{STR_VAR_1}が　{STR_VAR_2}こ\nなって　いる！\p{STR_VAR_1}を\nとりますか？
+@@BerryTree_Text_WantToPick_Mutation
+{STR_VAR_1}が　{STR_VAR_2}こと\n{STR_VAR_3}が　1こ　なって　いる！\pとりますか？
+@@BerryTree_Text_WantToPlant
+ふかふかの　やわらかい　つちだ\nきのみを　うえますか？
+@@BerryTree_Text_WantToWater
+じょうろで\n{STR_VAR_1}に　みずを　やりますか？
+@@BerryTree_Text_WateredTheBerry
+{PLAYER}は\n{STR_VAR_1}に　みずを　やった
+@@BerryTree_Text_WeedIsGrowing
+ざっそうが　はえて　いる\nぬきますか？
+## data/scripts/safari_zone.inc
+@@Route121_SafariZoneEntrance_Text_ComeInAndEnjoy
+サファリゾーンを\nおたのしみ　ください！
+@@Route121_SafariZoneEntrance_Text_FirstTimeInfo
+サファリゾーンに　はいると\nポケモンを　つかまえる\lサファリボールが　30こ\lもらえます\pボールが　なくなるか\n500ぽ　あるくと\lサファリゲームは　おわりです\pサファリゾーンを\nおたのしみ　ください！
+@@Route121_SafariZoneEntrance_Text_WelcomeFirstTime
+サファリゾーンへ　ようこそ！\nはじめて　ですか？
+@@Route121_SafariZoneEntrance_Text_WelcomeToSafariZone
+サファリゾーンへ　ようこそ！\pここでは　この　ちほうでは\nめずらしい　ポケモンを\lたくさん　みる　ことが　できます\pしかも　しぜんの　なかで\nいきいきと　くらす\lすがたが　みられます\pさらに　ポケモントレーナーにも\nかいほう　して　います\pポケモンを　つかまえて\nもちかえって　ください！\pサファリゾーンを\nおたのしみ　ください！
+## data/text/pkmn_center_nurse.inc
+@@gText_PkmnCenterChallenge_NoVisitsLeft
+もうしわけ　ありません\nポケモンセンター　チャレンジちゅうの\lため　かいふく　できません！\pがんばって　ください！{PAUSE_UNTIL_PRESS}
+## data/text/trainers_frlg.inc
+@@Route6_Text_ElijahRematchIntro
+やあ　ひさしぶり！\nうでを　あげた？
+@@Route6_Text_IsabelleRematchIntro
+わたし？\nいいわ　1かい　だけね
+@@Route6_Text_JeffRematchIntro
+え？\nまた　ぼくと　たたかうの？
+@@Route6_Text_KeigoRematchIntro
+むしポケモン　いがいで\nいい　ポケモンを　さがしてるけど‥
+@@Route6_Text_NancyRematchIntro
+ちょっと！　ないしょばなし\nちゅうって　いったでしょ？\pたちぎき　するなんて\nしつれいな　ひとね！
+@@Route6_Text_RickyRematchIntro
+あっ！　たちぎき　してた\nやつ　だな！

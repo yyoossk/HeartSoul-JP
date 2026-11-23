@@ -4,7 +4,7 @@
 @@LilycoveCity_ContestLobby_Text_LavishedCareOnMon_hns
 まいにち　まいにち\nこの　ポケモンを\lだいじに　そだてて　きた\pちょうしは　さいこう！\nきょうの　ゆうしょうは\lいただきだ！
 @@LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily_hns
-ママと　パパと　おねえちゃんと\n{POKEBLOCK}を　つくったの\lすごく　よく　できたよ！\pひとが　おおいほど\nなめらかで　いい\l{POKEBLOCK}が　できるんだって
+ママと　パパと　おねえちゃんと\nポロックを　つくったの\lすごく　よく　できたよ！\pひとが　おおいほど\nなめらかで　いい\lポロックが　できるんだって
 ## data/maps/FuchsiaCity_SafariZoneEntrance_hns/scripts.inc
 @@FuchsiaCity_SafariZoneEntrance_Text_StevenGiveCase
 そうそう　これも\nいるかも　しれないね

@@ -969,10 +969,10 @@ LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase_hns::
 	end
 
 LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase_hns:
-	.string "やったー！\pうけつけの　おねえさんが\n{POKEBLOCK}ケースを　くれた！$"
+	.string "やったー！\pうけつけの　おねえさんが\nポロックケースを　くれた！$"
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries_hns:
-	.string "{POKEBLOCK}を　つくって　いれるの\p{POKEBLOCK}を　つくる　ときは\nみんな　ちがう　きのみを\lいれなきゃ　だめなのよ$"
+	.string "ポロックを　つくって　いれるの\pポロックを　つくる　ときは\nみんな　ちがう　きのみを\lいれなきゃ　だめなのよ$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint_hns:
 	.string "おめでとう！\pゆうしょう　きねんに\nきみの　ポケモンの　えを\lかいたんだ‥\pきみの　ポケモンの　アピールが\nすばらしくて　いつもより\lうまく　かけたよ\lほら　みて！$"
@@ -1017,5 +1017,5 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon_hns:
 	.string "まいにち　まいにち\nこの　ポケモンを\lだいじに　そだてて　きた\pちょうしは　さいこう！\nきょうの　ゆうしょうは\lいただきだ！$"
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily_hns:
-	.string "ママと　パパと　おねえちゃんと\n{POKEBLOCK}を　つくったの\lすごく　よく　できたよ！\pひとが　おおいほど\nなめらかで　いい\l{POKEBLOCK}が　できるんだって$"
+	.string "ママと　パパと　おねえちゃんと\nポロックを　つくったの\lすごく　よく　できたよ！\pひとが　おおいほど\nなめらかで　いい\lポロックが　できるんだって$"
 

@@ -318,7 +318,7 @@ bool32 MoveSelectionDisplayZMove(enum Move zmove, enum BattlerId battler)
             case Z_EFFECT_SPDEF_UP_1:
             case Z_EFFECT_ACC_UP_1:
             case Z_EFFECT_EVSN_UP_1:
-                gDisplayedStringBattle[0] = CHAR_PLUS;
+                gDisplayedStringBattle[0] = CHAR_UP_ARROW;
                 gDisplayedStringBattle[1] = 0;
                 gDisplayedStringBattle[2] = EOS;
                 PREPARE_STAT_BUFFER(gBattleTextBuff1, zEffect - Z_EFFECT_ATK_UP_1 + 1);
@@ -331,8 +331,8 @@ bool32 MoveSelectionDisplayZMove(enum Move zmove, enum BattlerId battler)
             case Z_EFFECT_SPDEF_UP_2:
             case Z_EFFECT_ACC_UP_2:
             case Z_EFFECT_EVSN_UP_2:
-                gDisplayedStringBattle[0] = CHAR_PLUS;
-                gDisplayedStringBattle[1] = CHAR_PLUS;
+                gDisplayedStringBattle[0] = CHAR_UP_ARROW;
+                gDisplayedStringBattle[1] = CHAR_UP_ARROW;
                 gDisplayedStringBattle[2] = 0;
                 gDisplayedStringBattle[3] = EOS;
                 PREPARE_STAT_BUFFER(gBattleTextBuff1, zEffect - Z_EFFECT_ATK_UP_2 + 1);
@@ -345,9 +345,9 @@ bool32 MoveSelectionDisplayZMove(enum Move zmove, enum BattlerId battler)
             case Z_EFFECT_SPDEF_UP_3:
             case Z_EFFECT_ACC_UP_3:
             case Z_EFFECT_EVSN_UP_3:
-                gDisplayedStringBattle[0] = CHAR_PLUS;
-                gDisplayedStringBattle[1] = CHAR_PLUS;
-                gDisplayedStringBattle[2] = CHAR_PLUS;
+                gDisplayedStringBattle[0] = CHAR_UP_ARROW;
+                gDisplayedStringBattle[1] = CHAR_UP_ARROW;
+                gDisplayedStringBattle[2] = CHAR_UP_ARROW;
                 gDisplayedStringBattle[3] = 0;
                 gDisplayedStringBattle[4] = EOS;
                 PREPARE_STAT_BUFFER(gBattleTextBuff1, zEffect - Z_EFFECT_ATK_UP_3 + 1);

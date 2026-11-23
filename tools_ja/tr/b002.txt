@@ -43,11 +43,11 @@
 @@SafariZone_Text_OutOfBalls
 サファリボールが　なくなりました\nサファリゲームは　しゅうりょうです
 @@SafariZone_Text_PlacePokeblockOnFeeder
-{POKEBLOCK}おきばに\n{POKEBLOCK}を　おきますか？
+ポロックおきばに\nポロックを　おきますか？
 @@SafariZone_Text_PokeblockStillHere
 まえに　おいた　{STR_VAR_1}が\nまだ　のこっている
 @@SafariZone_Text_PokeblockWasPlaced
-{STR_VAR_1}を　{POKEBLOCK}おきばに\nおいた
+{STR_VAR_1}を　ポロックおきばに\nおいた
 @@SafariZone_South_Text_StillHaveTimeExit
 まだ　じかんが　のこっています\nもう　サファリゾーンから　でますか？
 @@SafariZone_South_Text_EnjoyTheRestOfYourAdventure

@@ -130,41 +130,25 @@ SafariZone_Text_OutOfBalls:
 	.string "サファリボールが　なくなりました\nサファリゲームは　しゅうりょうです$"
 
 SafariZone_Text_PlacePokeblockOnFeeder:
-	.string "{POKEBLOCK}おきばに\n{POKEBLOCK}を　おきますか？$"
+	.string "ポロックおきばに\nポロックを　おきますか？$"
 
 SafariZone_Text_PokeblockStillHere:
 	.string "まえに　おいた　{STR_VAR_1}が\nまだ　のこっている$"
 
 SafariZone_Text_PokeblockWasPlaced:
-	.string "{STR_VAR_1}を　{POKEBLOCK}おきばに\nおいた$"
+	.string "{STR_VAR_1}を　ポロックおきばに\nおいた$"
 
 Route121_SafariZoneEntrance_Text_WelcomeToSafariZone:
-	.string "Welcome to the SAFARI ZONE!\p"
-	.string "Here, you may witness many kinds of\n"
-	.string "POKéMON rarely seen in this region.\p"
-	.string "And, you'll see them in their wild,\n"
-	.string "untamed state in natural habitats.\p"
-	.string "What's more, we've thrown open the\n"
-	.string "gates to POKéMON TRAINERS.\p"
-	.string "You're encouraged to catch POKéMON\n"
-	.string "for keeps!\p"
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "サファリゾーンへ　ようこそ！\pここでは　この　ちほうでは\nめずらしい　ポケモンを\lたくさん　みる　ことが　できます\pしかも　しぜんの　なかで\nいきいきと　くらす\lすがたが　みられます\pさらに　ポケモントレーナーにも\nかいほう　して　います\pポケモンを　つかまえて\nもちかえって　ください！\pサファリゾーンを\nおたのしみ　ください！$"
 
 Route121_SafariZoneEntrance_Text_WelcomeFirstTime:
-	.string "Welcome to the SAFARI ZONE!\n"
-	.string "Is it your first time here?$"
+	.string "サファリゾーンへ　ようこそ！\nはじめて　ですか？$"
 
 Route121_SafariZoneEntrance_Text_ComeInAndEnjoy:
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "サファリゾーンを\nおたのしみ　ください！$"
 
 Route121_SafariZoneEntrance_Text_FirstTimeInfo:
-	.string "When you enter the SAFARI ZONE, you\n"
-	.string "start with 30 SAFARI BALLS for\l"
-	.string "catching POKéMON.\p"
-	.string "The SAFARI Game is over when you run\n"
-	.string "out of SAFARI BALLS, or when you've\l"
-	.string "walked 500 steps.\p"
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "サファリゾーンに　はいると\nポケモンを　つかまえる\lサファリボールが　30こ\lもらえます\pボールが　なくなるか\n500ぽ　あるくと\lサファリゲームは　おわりです\pサファリゾーンを\nおたのしみ　ください！$"
 
 Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay:
 	.string "サファリゾーンへ　ようこそ！\p500えんで　つかまえ　ほうだい！\nサファリゲームを\lあそびますか？$"
@@ -192,14 +176,14 @@ Route121_SafariZoneEntrance_Text_PCIsFull:
 
 Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "すみません！\n"
-	.string "{POKEBLOCK}ケースを　おもちで\l"
+	.string "ポロックケースを　おもちで\l"
 	.string "ない　ようですね\p"
-	.string "{POKEBLOCK}を　つかうと\n"
+	.string "ポロックを　つかうと\n"
 	.string "サファリゲームが　ずっと\l"
 	.string "たのしく　なりますよ\p"
-	.string "{POKEBLOCK}ケースを　もって\n"
+	.string "ポロックケースを　もって\n"
 	.string "また　きて　ください\p"
-	.string "{POKEBLOCK}ケースは　あそこの\n"
+	.string "ポロックケースは　あそこの\n"
 	.string "おとこのこから　もらえますよ$"
 
 SafariZone_South_Text_StillHaveTimeExit:
@@ -216,7 +200,7 @@ SafariZone_South_Text_GoodLuck:
 
 SafariZone_South_Text_Boy:
 	.string "Did you know?\p"
-	.string "If you put a {POKEBLOCK} in that square box,\n"
+	.string "If you put a ポロック in that square box,\n"
 	.string "POKéMON gather around.$"
 
 SafariZone_South_Text_Man:
@@ -226,7 +210,7 @@ SafariZone_South_Text_Man:
 	.string "live in the outlying areas.$"
 
 SafariZone_Southwest_Text_Woman:
-	.string "Sometimes, when I toss a {POKEBLOCK} at \n"
+	.string "Sometimes, when I toss a ポロック at \n"
 	.string "POKéMON, it gets ignored.\p"
 	.string "Do POKéMON have likes and dislikes\n"
 	.string "about what they eat?$"
@@ -247,14 +231,14 @@ SafariZone_North_Text_Man:
 	.string "here and trade them with my friends!$"
 
 SafariZone_South_Text_Youngster:
-	.string "I put a {POKEBLOCK} on the {POKEBLOCK} FEEDER.\n"
+	.string "I put a ポロック on the ポロック FEEDER.\n"
 	.string "But it seems to have disappeared.\p"
 	.string "I guess POKéMON must have eaten it\n"
 	.string "without me noticing.$"
 
 Route121_SafariZoneEntrance_Text_TrainerTip:
 	.string "SAFARI ZONE TRAINER TIP!\p"
-	.string "Throw {POKEBLOCK}S at wild POKéMON to make\n"
+	.string "Throw ポロックS at wild POKéMON to make\n"
 	.string "them less likely to flee.$"
 
 SafariZone_Southwest_Text_RestHouseSign:
@@ -262,23 +246,23 @@ SafariZone_Southwest_Text_RestHouseSign:
 	.string "REST HOUSE$"
 
 SafariZone_RestHouse_Text_Youngster:
-	.string "I don't have any {POKEBLOCK}S, but I caught\n"
+	.string "I don't have any ポロックS, but I caught\n"
 	.string "a good number of POKéMON.\p"
 	.string "You can improve your chances of making\n"
 	.string "a catch by getting closer to them\l"
 	.string "before throwing a SAFARI BALL.$"
 
 SafariZone_RestHouse_Text_PsychicM:
-	.string "If you use {POKEBLOCK}S, wild POKéMON won't\n"
+	.string "If you use ポロックS, wild POKéMON won't\n"
 	.string "be so quick to run away.\p"
-	.string "It's not much use to give {POKEBLOCK}S to\n"
+	.string "It's not much use to give ポロックS to\n"
 	.string "POKéMON that don't flee easily.$"
 
 SafariZone_RestHouse_Text_FatMan:
-	.string "If you put a {POKEBLOCK} on the FEEDER,\n"
+	.string "If you put a ポロック on the FEEDER,\n"
 	.string "POKéMON are attracted to it.\p"
 	.string "I think POKéMON with the same sort of\n"
-	.string "nature are drawn by a certain {POKEBLOCK}.$"
+	.string "nature are drawn by a certain ポロック.$"
 
 SafariZone_South_Text_AreaOffLimits1:
 	.string "This area is still under construction.\n"

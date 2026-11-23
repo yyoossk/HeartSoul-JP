@@ -133,73 +133,73 @@ Gモード　グローバルモードは\nGBA　つうしんケーブルで\lつ
 さあ　もりあがって\nいきましょう！\lアピール　かいし！
 ## data/scripts/berry_blender.inc
 @@BerryBlender_Text_WantToMakePokeblocks
-おや？　この　としよりと\n{POKEBLOCK}を　つくりたいのかね？
+おや？　この　としよりと\nポロックを　つくりたいのかね？
 @@BerryBlender_Text_Excellent
 けっこう　けっこう！
 @@BerryBlender_Text_MadeOldTimerSad
 そうか‥\nとしよりは　さびしいのう‥
 @@BerryBlender_Text_KnowHowToMakePokeblocks
-{POKEBLOCK}の　つくりかたは\nしって　おるかね？
+ポロックの　つくりかたは\nしって　おるかね？
 @@BerryBlender_Text_LetsBerryBlender
 では　はじめようか！\pきのみブレンダー\nスタート！
 @@BerryBlender_Text_ExplainBerryBlending
 では　すこし　せつめい\nしようかの\pなに　かんたんじゃ\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすだけじゃ\pそれだけ　じゃよ\nやって　みれば　わかる
 @@BerryBlender_Text_DontHaveAnyBerries
-おや？\nきのみを　もって\lおらんのか？\pきのみが　ないと\n{POKEBLOCK}は　つくれんぞ
+おや？\nきのみを　もって\lおらんのか？\pきのみが　ないと\nポロックは　つくれんぞ
 @@BerryBlender_Text_CanHaveOneOfMyBerries
-それでは　こまるのう\pあまりもので　よければ\nわしの　きのみを\l1こ　あげよう\pそれで　いっしょに　きのみ\nブレンダーで　{POKEBLOCK}を\lつくろう
+それでは　こまるのう\pあまりもので　よければ\nわしの　きのみを\l1こ　あげよう\pそれで　いっしょに　きのみ\nブレンダーで　ポロックを\lつくろう
 @@BerryBlender_Text_DontHaveAnyBerriesToSpare
 あまって　おれば\nよろこんで　あげるんじゃが‥\pきょうは　あまりが　なくてな\nまた　こんどに　しよう
 @@BerryBlender_Text_PokeblockCaseIsFull
-じゃが　{POKEBLOCK}ケースが\nいっぱい　じゃな\p{POKEBLOCK}を　つかってから\nまた　おいで
+じゃが　ポロックケースが\nいっぱい　じゃな\pポロックを　つかってから\nまた　おいで
 @@BerryBlender_Text_DontHavePokeblockCase
-じゃが　{POKEBLOCK}ケースを\nもって　おらんな\p{POKEBLOCK}ケースを　てに\nいれてから　おいで
+じゃが　ポロックケースを\nもって　おらんな\pポロックケースを　てに\nいれてから　おいで
 @@BerryBlender_Text_LetsGetBlendingAlready
 はやく　ブレンド\nしようよ！
 @@BerryBlender_Text_WhatKindOfPokeblockWillIGet
-どんな　{POKEBLOCK}が\nできるかな？\lわくわく　する！
+どんな　ポロックが\nできるかな？\lわくわく　する！
 @@BerryBlender_Text_WantToBlendPokeblocksWithUs
-やあ！　いっしょに\n{POKEBLOCK}を　つくる？
+やあ！　いっしょに\nポロックを　つくる？
 @@BerryBlender_Text_Okay
 よーし！
 @@BerryBlender_Text_ThatsTooBad
 ざんねん‥\pでも　ぼくたちは　いつでも\nここに　いるから　つくりたく\lなったら　おいでよ！
 @@BerryBlender_Text_KnowHowToMakePokeblocks2
-もちろん　{POKEBLOCK}の\nつくりかたは　しってるよね？
+もちろん　ポロックの\nつくりかたは　しってるよね？
 @@BerryBlender_Text_LetsBerryBlender2
 じゃあ　はじめよう！\pきのみブレンダー\nスタート！
 @@BerryBlender_Text_ExplainBerryBlending2
 わかった！\nせつめい　するね！\pまわる　ブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすんだ\pそれだけ！\nかんたん　でしょ？
 @@BerryBlender_Text_DontHaveAnyBerries2
-あれ　ちょっと　まって‥\nきのみを　もって　ないね\pきのみが　ないと\n{POKEBLOCK}は　つくれないよ‥\pきのみを　てに　いれたら\nいつでも　おいでよ
+あれ　ちょっと　まって‥\nきのみを　もって　ないね\pきのみが　ないと\nポロックは　つくれないよ‥\pきのみを　てに　いれたら\nいつでも　おいでよ
 @@BerryBlender_Text_PokeblockCaseIsFull2
-あれ　ちょっと　まって‥\n{POKEBLOCK}ケースが　いっぱいだ\p{POKEBLOCK}を　つかってから\nまた　おいでよ
+あれ　ちょっと　まって‥\nポロックケースが　いっぱいだ\pポロックを　つかってから\nまた　おいでよ
 @@BerryBlender_Text_DontHavePokeblockCase2
-あれ　ちょっと　まって‥\n{POKEBLOCK}ケースを　もって\lないね\p{POKEBLOCK}ケースを　てに\nいれてから　おいでよ
+あれ　ちょっと　まって‥\nポロックケースを　もって\lないね\pポロックケースを　てに\nいれてから　おいでよ
 @@BerryBlender_Text_OhDear
 あらまあ！
 @@BerryBlender_Text_LeftUsInShock
 あらまあ‥\pびっくり　させないでよ！
 @@BerryBlender_Text_KnowHowToMakePokeblocks3
-もちろん　{POKEBLOCK}の\nつくりかたは　しってるわよね？
+もちろん　ポロックの\nつくりかたは　しってるわよね？
 @@BerryBlender_Text_LetsBerryBlender3
 いいわよ！\nはじめましょう！\pきのみブレンダー\nスタート！
 @@BerryBlender_Text_ExplainBerryBlending3
 あらまあ！\pじゃあ　やさしく\nせつめい　するわね\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすの\pそれだけ\nかんたん　でしょ？
 @@BerryBlender_Text_DontHaveAnyBerries3
-きのみを　もって\nいないのね？\pきのみが　ないと\n{POKEBLOCK}は　つくれないわ\pわたしたちは　いつも　ここで\nつくってるから　きのみを\lてに　いれたら　いっしょに\lつくりましょう
+きのみを　もって\nいないのね？\pきのみが　ないと\nポロックは　つくれないわ\pわたしたちは　いつも　ここで\nつくってるから　きのみを\lてに　いれたら　いっしょに\lつくりましょう
 @@BerryBlender_Text_PokeblockCaseIsFull3
-{POKEBLOCK}ケースが\nいっぱい　みたいね\p{POKEBLOCK}を　つかってから\nまた　きてね
+ポロックケースが\nいっぱい　みたいね\pポロックを　つかってから\nまた　きてね
 @@BerryBlender_Text_DontHavePokeblockCase3
-まだ　{POKEBLOCK}ケースを\nもって　いない　みたいね\p{POKEBLOCK}ケースを　てに\nいれてから　きてね
+まだ　ポロックケースを\nもって　いない　みたいね\pポロックケースを　てに\nいれてから　きてね
 @@BerryBlender_Text_SetNewBlenderRecord
 よし！　きょうこそ\nブレンダーの　さいこうそくど\lきろくを　だすぞ！
 @@BerryBlender_Text_LookGoodAtBlendingJoinUs
 あらまあ！\nブレンドが　じょうず\lそうね　いっしょに\lやらない？
 @@BerryBlender_Text_MakeDeliciousPokeblocks
-おいしい　{POKEBLOCK}を　つくって\nポケモンを　もっと\lかわいく　するの
+おいしい　ポロックを　つくって\nポケモンを　もっと\lかわいく　するの
 @@BerryBlender_Text_SaveGameBeforeBerryBlenderLink
-きのみブレンダーで　ともだちと\nきのみから　{POKEBLOCK}を\lつくります\pともだちと　つうしん　する\nまえに　レポートを\lかいても　いいですか？
+きのみブレンダーで　ともだちと\nきのみから　ポロックを\lつくります\pともだちと　つうしん　する\nまえに　レポートを\lかいても　いいですか？
 @@BerryBlender_Text_SearchingForFriends
 ともだちを　さがして　います‥\n‥　‥　Bボタン:キャンセル
 @@BerryBlender_Text_Player1Arrived
@@ -211,17 +211,17 @@ Gモード　グローバルモードは\nGBA　つうしんケーブルで\lつ
 @@BerryBlender_Text_NoBerriesLink
 きのみを　もって　いません\nきのみブレンダーは\lつかえません
 @@BerryBlender_Text_PokeblockCaseIsFullLink
-{POKEBLOCK}ケースが　いっぱいです\nきのみブレンダーは\lつかえません
+ポロックケースが　いっぱいです\nきのみブレンダーは\lつかえません
 @@BerryBlender_Text_DontHavePokeblockCaseLink
-{POKEBLOCK}ケースを　もって\nいません　きのみブレンダーは\lつかえません
+ポロックケースを　もって\nいません　きのみブレンダーは\lつかえません
 @@BerryBlender_Text_LoveMakingPokeblocks
-{POKEBLOCK}を　つくるのが\nだいすき\pいつも　きのみを\nもちあるいてるの
+ポロックを　つくるのが\nだいすき\pいつも　きのみを\nもちあるいてるの
 @@BerryBlender_Text_MakePokeblocksUsingBerryBlender
-よかったら　きのみブレンダーで\nいっしょに　{POKEBLOCK}を\lつくらない？
+よかったら　きのみブレンダーで\nいっしょに　ポロックを\lつくらない？
 @@BerryBlender_Text_DontHaveAnyBerriesHaveOne
 あら？\nきのみを　もって\lいないの？\pそれは　こまったわね\pあまりもので　よければ\nわたしの　きのみを\l1こ　あげるわ
 @@BerryBlender_Text_UseItToMakePokeblocksTogether
-それで　いっしょに　きのみ\nブレンダーで　{POKEBLOCK}を\lつくりましょう
+それで　いっしょに　きのみ\nブレンダーで　ポロックを\lつくりましょう
 @@BerryBlender_Text_DontHaveAnyBerriesNoneToSpare
 あら？\nきのみを　もって\lいないの？\pあまって　いれば\nよろこんで　あげるんだけど‥\pきょうは　あまりが　ないの\nごめんなさいね
 @@BerryBlender_Text_TooWeakToBlend
@@ -236,15 +236,15 @@ Gモード　グローバルモードは\nGBA　つうしんケーブルで\lつ
 @@BerryBlender_Text_BlendMasterNoBerries
 ふむ！\pきのみを　1こも\nもって　いないな！\pわたしは　いちにちじゅう\nここに　いる！\lきのみを　もって　きなさい！
 @@BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks
-もちろん！\nもちろんだ！\pところで‥\nきのみから　{POKEBLOCK}を\lつくる　ほうほうは\lしって　いるかね？
+もちろん！\nもちろんだ！\pところで‥\nきのみから　ポロックを\lつくる　ほうほうは\lしって　いるかね？
 @@BerryBlender_Text_BlendMasterExplainBerryBlending
 ふむ！\pなに　かんたんな　ことだ！\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすだけ\pそれだけで　いい\pわたしが　どれほど　せいかくに\nAボタンを　おすか　みれば\lわかる　はずだ
 @@BerryBlender_Text_BlendMasterLetsBerryBlender
 よろしい！\pでは　はじめよう！\pブレンドマスターと　いっしょに\nきのみブレンダー　スタート！
 @@BerryBlender_Text_BlendMasterNoPokeblockCase
-ふむ！\p{POKEBLOCK}ケースを\nもって　いない　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\l{POKEBLOCK}ケースを\lてに　いれて　きなさい！
+ふむ！\pポロックケースを\nもって　いない　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\lポロックケースを\lてに　いれて　きなさい！
 @@BerryBlender_Text_BlendMasterPokeblockCaseFull
-ふむ！\p{POKEBLOCK}ケースが\nいっぱいの　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\l{POKEBLOCK}を　つかって\lきなさい！
+ふむ！\pポロックケースが\nいっぱいの　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\lポロックを　つかって\lきなさい！
 @@BerryBlender_Text_WhoaAwesome
 うわあ！\nすごい！
 @@BerryBlender_Text_WickedlyFast
@@ -252,7 +252,7 @@ Gモード　グローバルモードは\nGBA　つうしんケーブルで\lつ
 @@BerryBlender_Text_WhatAnExpert
 さすが　たつじん！
 @@BerryBlender_Text_MadeAmazingPokeblocksWithMaster
-マスターと　ブレンド　したら\nすごい　{POKEBLOCK}が\lできたよ！
+マスターと　ブレンド　したら\nすごい　ポロックが\lできたよ！
 @@BerryBlender_Text_QualitiesOfBlendMaster
 きかいの　ように　やじるしを\nおいかける　め‥\pとけいの　ように　せいかくに\nAボタンを　おす　て‥\pこれが　ブレンドマスターの\nすごさ　なのだ
 @@BerryBlender_Text_MasterWorksOnSkillsInMountains

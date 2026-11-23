@@ -6,75 +6,59 @@ Route6_EventScript_UndergroundPathSign::
 	end
 
 Route6_Text_RickyIntro::
-	.string "Who's there?\n"
-	.string "Quit listening in on us!$"
+	.string "だれだ？\nたちぎき　するなよ！$"
 
 Route6_Text_RickyDefeat::
-	.string "I just can't win!$"
+	.string "ぜんぜん　かてない！$"
 
 Route6_Text_RickyPostBattle::
-	.string "Whisper…\n"
-	.string "Whisper…$"
+	.string "ひそひそ‥\nひそひそ‥$"
 
 Route6_Text_NancyIntro::
-	.string "Excuse me!\n"
-	.string "This is a private conversation!$"
+	.string "ちょっと！\nないしょばなし　ちゅうよ！$"
 
 Route6_Text_NancyDefeat::
-	.string "Ugh!\n"
-	.string "I hate losing.$"
+	.string "もう！\nまけるのって　だいきらい$"
 
 Route6_Text_NancyPostBattle::
-	.string "Whisper…\n"
-	.string "Whisper…$"
+	.string "ひそひそ‥\nひそひそ‥$"
 
 Route6_Text_KeigoIntro::
-	.string "There aren't many bugs out here.$"
+	.string "この　へんは　むしが\nあまり　いないなあ$"
 
 Route6_Text_KeigoDefeat::
-	.string "No!\n"
-	.string "You're kidding!$"
+	.string "うそ！\nじょうだん　でしょ！$"
 
 Route6_Text_KeigoPostBattle::
-	.string "I like bugs, so I'm going back to\n"
-	.string "VIRIDIAN FOREST.$"
+	.string "むしが　すきだから\nトキワの　もりに　もどるよ$"
 
 Route6_Text_JeffIntro::
-	.string "Huh?\n"
-	.string "You want to talk to me?$"
+	.string "え？\nぼくに　なにか　よう？$"
 
 Route6_Text_JeffDefeat::
-	.string "This stinks…\n"
-	.string "I couldn't beat your challenge…$"
+	.string "くやしい‥\nきみには　かてなかった‥$"
 
 Route6_Text_JeffPostBattle::
-	.string "I should bring more POKéMON with\n"
-	.string "me. I'll feel safer that way.$"
+	.string "もっと　ポケモンを　つれて\nあるこう　そのほうが　あんしんだ$"
 
 Route6_Text_IsabelleIntro::
-	.string "Me?\n"
-	.string "Well, okay. I'll play!$"
+	.string "わたし？\nいいわよ　あいて　したげる！$"
 
 Route6_Text_IsabelleDefeat::
-	.string "Things just didn't work…$"
+	.string "ぜんぜん　だめだった‥$"
 
 Route6_Text_IsabellePostBattle::
-	.string "I want to get stronger.\n"
-	.string "What's your secret?$"
+	.string "もっと　つよく　なりたいな\nひけつは　なに？$"
 
 Route6_Text_ElijahIntro::
-	.string "I've never seen you around.\n"
-	.string "Are you good?$"
+	.string "みかけない　かおだね\nきみ　つよいの？$"
 
 Route6_Text_ElijahDefeat::
-	.string "You're too good!$"
+	.string "きみ　つよすぎ！$"
 
 Route6_Text_ElijahPostBattle::
-	.string "Are my POKéMON weak?\n"
-	.string "Or, am I just bad?\l"
-	.string "Which do you think?$"
+	.string "ぼくの　ポケモンが　よわいのかな？\nそれとも　ぼくが　へたなのかな？\lどっちだと　おもう？$"
 
 Route6_Text_UndergroundPathSign::
-	.string "UNDERGROUND PATH\n"
-	.string "CERULEAN CITY - VERMILION CITY$"
+	.string "ちかつうろ\nハナダシティ　ー　クチバシティ$"
 

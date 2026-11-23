@@ -2060,11 +2060,11 @@ static void PlayerHandleChooseAction(enum BattlerId battler)
         }
         else if (moveTarget == TARGET_FOES_AND_ALLY)
         {
-            StringAppend(gStringVar1, COMPOUND_STRING(" {V_D_ARROW}{UP_ARROW}"));
+            StringAppend(gStringVar1, COMPOUND_STRING(" {DOWN_ARROW}{UP_ARROW}"));
         }
         else if (moveTarget == TARGET_ALL_BATTLERS || moveTarget == TARGET_FIELD)
         {
-            StringAppend(gStringVar1, COMPOUND_STRING(" {V_D_ARROW}{V_D_ARROW}"));
+            StringAppend(gStringVar1, COMPOUND_STRING(" {DOWN_ARROW}{DOWN_ARROW}"));
         }
         BattlePutTextOnWindow(gStringVar1, B_WIN_ACTION_PROMPT);
     }

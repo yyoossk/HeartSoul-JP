@@ -1379,7 +1379,7 @@ LilycoveCity_ContestLobby_EventScript_DelayForRSPlayer::
 	return
 
 LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
-	.string "こんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です\pあら？　まだ　{POKEBLOCK}ケースを\nもって　いない　ようですね\pそれなら　これを\nさしあげます！$"
+	.string "こんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です\pあら？　まだ　ポロックケースを\nもって　いない　ようですね\pそれなら　これを\nさしあげます！$"
 
 LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp:
 	.string "さて　それでは‥\pこんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です$"

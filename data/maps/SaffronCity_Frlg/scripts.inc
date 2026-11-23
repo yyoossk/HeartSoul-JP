@@ -188,16 +188,13 @@ SaffronCity_Text_HesTakingASnooze::
 	.string "Hah! He's taking a snooze!$"
 
 SaffronCity_Text_CitySign::
-	.string "SAFFRON CITY\n"
-	.string "Shining, Golden Land of Commerce$"
+	.string "ヤマブキシティ\nヤマブキは　こがねいろ\lかがやき　の　いろ$"
 
 SaffronCity_Text_FightingDojo::
-	.string "FIGHTING DOJO$"
+	.string "かくとう　どうじょう$"
 
 SaffronCity_Text_GymSign::
-	.string "SAFFRON CITY POKéMON GYM\n"
-	.string "LEADER: SABRINA\l"
-	.string "The Master of PSYCHIC POKéMON!$"
+	.string "ヤマブキシティ　ポケモンジム\nリーダー　ナツメ\l「エスパーしょうじょ」$"
 
 SaffronCity_Text_FullHealCuresStatus::
 	.string "TRAINER TIPS\p"
@@ -215,7 +212,7 @@ SaffronCity_Text_GreatBallImprovedCatchRate::
 	.string "POKéMON.$"
 
 SaffronCity_Text_SilphCoSign::
-	.string "SILPH CO. OFFICE BUILDING$"
+	.string "シルフカンパニー　ほんしゃビル$"
 
 SaffronCity_Text_MrPsychicsHouse::
 	.string "MR. PSYCHIC'S HOUSE$"

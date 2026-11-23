@@ -293,14 +293,7 @@ PokemonLeague_ChampionsRoom_Text_OakPlayer::
 	.string "OAK: {PLAYER}!$"
 
 PokemonLeague_ChampionsRoom_Text_OakCongratulations::
-	.string "OAK: So, you've won!\n"
-	.string "Sincerely, congratulations!\p"
-	.string "You're the new POKéMON LEAGUE\n"
-	.string "CHAMPION!\p"
-	.string "You've grown up so much since you\n"
-	.string "first left with {STR_VAR_1} to work\l"
-	.string "on the POKéDEX.\p"
-	.string "{PLAYER}, you have come of age!$"
+	.string "オーキド『そうか　かったのか！\nこころから　おめでとう！\pきみが　あたらしい\nポケモンリーグ　チャンピオンだ！\p{STR_VAR_1}と　いっしょに\nずかんづくりに　でかけた　ときから\lほんとうに　せいちょう　したな\p{PLAYER}　りっぱに\nなったな！$"
 
 PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival::
 	.string "OAK: {RIVAL}…\n"

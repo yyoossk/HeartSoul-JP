@@ -209,19 +209,19 @@ static const u8 sText_EVO_Buttons_Decapped_PE[] = _("{DPAD_UPDOWN}しんか　{A
 static const u8 sText_EVO_Name[] = _("{STR_VAR_3}:");
 static const u8 sText_EVO_PreEvo[] = _("{STR_VAR_1}は　{STR_VAR_2}から　しんか");
 static const u8 sText_EVO_PreEvo_PE_Mega[] = _("{STR_VAR_1}は　{STR_VAR_2}で　メガシンカ");
-static const u8 sText_EVO_LEVEL_SILCOON[] = _("{LV}{UP_ARROW}で　{STR_VAR_2}　カラサリスの　せいかく");
-static const u8 sText_EVO_LEVEL_CASCOON[] = _("{LV}{UP_ARROW}で　{STR_VAR_2}　マユルドの　せいかく");
-static const u8 sText_EVO_MOVE[] = _("{LV}{UP_ARROW}　{STR_VAR_2}を　おぼえて　いる");
-static const u8 sText_EVO_LEVEL_RAIN[] = _("あめの　ときに　{LV}{UP_ARROW}で　{STR_VAR_2}");
+static const u8 sText_EVO_LEVEL_SILCOON[] = _("{LV_2}{UP_ARROW}で　{STR_VAR_2}　カラサリスの　せいかく");
+static const u8 sText_EVO_LEVEL_CASCOON[] = _("{LV_2}{UP_ARROW}で　{STR_VAR_2}　マユルドの　せいかく");
+static const u8 sText_EVO_MOVE[] = _("{LV_2}{UP_ARROW}　{STR_VAR_2}を　おぼえて　いる");
+static const u8 sText_EVO_LEVEL_RAIN[] = _("あめの　ときに　{LV_2}{UP_ARROW}で　{STR_VAR_2}");
 static const u8 sText_EVO_TRADE_SPECIFIC_MON[] = _("{STR_VAR_2}と　つうしんこうかん");
 static const u8 sText_EVO_CRITICAL_HITS[] = _("シングルバトルで　きゅうしょに\n{STR_VAR_2}かい　あてる");
 static const u8 sText_EVO_SCRIPT_TRIGGER_DMG[] = _("{STR_VAR_2}いじょうの　ダメージを　うける");
 static const u8 sText_EVO_DARK_SCROLL[] = _("あくのかけじくを　つかう");
 static const u8 sText_EVO_WATER_SCROLL[] = _("みずのかけじくを　つかう");
-static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("{STR_VAR_2}を　20かい　つかって　{LV}{UP_ARROW}");
-static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("はんどう{STR_VAR_2}で　{LV}{UP_ARROW}　オス");
-static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("はんどう{STR_VAR_2}で　{LV}{UP_ARROW}　メス");
-static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("{STR_VAR_2}を　もつ　{STR_VAR_3}を　3かい　たおして　{LV}{UP_ARROW}");
+static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("{STR_VAR_2}を　20かい　つかって　{LV_2}{UP_ARROW}");
+static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("はんどう{STR_VAR_2}で　{LV_2}{UP_ARROW}　オス");
+static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("はんどう{STR_VAR_2}で　{LV_2}{UP_ARROW}　メス");
+static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("{STR_VAR_2}を　もつ　{STR_VAR_3}を　3かい　たおして　{LV_2}{UP_ARROW}");
 static const u8 sText_EVO_NONE[] = _("{STR_VAR_1}は　しんか　しない");
 
 static const u8 sText_FORMS_Buttons_PE[] = _("{A_BUTTON}すがたモード　{START_BUTTON}しんか");
@@ -6736,7 +6736,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                 break;
             case EVO_LEVEL:
             case EVO_LEVEL_BATTLE_ONLY:
-                StringCopy(gStringVar4, COMPOUND_STRING("{LV}{UP_ARROW}"));
+                StringCopy(gStringVar4, COMPOUND_STRING("{LV_2}{UP_ARROW}"));
                 if (evolutions[i].param > 1)
                 {
                     ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEFT_ALIGN, EVO_SCREEN_LVL_DIGITS); //level

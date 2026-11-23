@@ -230,13 +230,13 @@ gTVMassOutbreakText00::
 	.string "こんにちは！\nポケモンニュースの　じかんです\pとても　めずらしい　ニュースが\nとびこんで　きました\p{STR_VAR_1}の　ふきんで\n{STR_VAR_2}が　おおはっせい\lして　いる　そうです\pごぞんじの　とおり\n{STR_VAR_2}は　めったに\lみつからない　ポケモン　です\p{STR_VAR_2}の　ふしぎな\nおおはっせいを　みられる\lめずらしい　チャンスですね\pいじょう　ポケモンニュース\nでした$"
 
 gTV3CheersForPokeblocksText00::
-	.string "しかい『きょうも　げんきに！\n{POKEBLOCK}　バンザイ！の\lじかん　です！\pきょうは　{STR_VAR_1}たちが\nつくった　{POKEBLOCK}を\lしらべます\pさっそく　グルメな\nゴクリンに　たべて\lもらいましょう\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥$"
+	.string "しかい『きょうも　げんきに！\nポロック　バンザイ！の\lじかん　です！\pきょうは　{STR_VAR_1}たちが\nつくった　ポロックを\lしらべます\pさっそく　グルメな\nゴクリンに　たべて\lもらいましょう\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥$"
 
 gTV3CheersForPokeblocksText01::
 	.string "ゴクリン『グビッ！　グビー！\pしかい『とても　{STR_VAR_1}\nゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さん\nありがとう　ございました！$"
 
 gTV3CheersForPokeblocksText02::
-	.string "{STR_VAR_1}の　ブレンドは\nもう　ひといき　でした\pもっと　うまく　ブレンド\nできれば　{POKEBLOCK}は\lもっと　おいしく　なるでしょう$"
+	.string "{STR_VAR_1}の　ブレンドは\nもう　ひといき　でした\pもっと　うまく　ブレンド\nできれば　ポロックは\lもっと　おいしく　なるでしょう$"
 
 gTV3CheersForPokeblocksText03::
 	.string "ゴクリン『グビッ！　グビー！\pしかい『うーん‥\n{STR_VAR_1}すぎますね\lゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さんの　ミスが\nひびいた　ようです‥$"
@@ -245,7 +245,7 @@ gTV3CheersForPokeblocksText04::
 	.string "{STR_VAR_1}さんの　がんばりが\nむだに　なって　ざんねん\pつぎは　{STR_VAR_2}さんの\nがんばりに　きたい\lしましょう！$"
 
 gTV3CheersForPokeblocksText05::
-	.string "また　みてね！\nあいことばは\l『{POKEBLOCK}　バンザイ！』$"
+	.string "また　みてね！\nあいことばは\l『ポロック　バンザイ！』$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer::
 	.string "Hi, there!\p"
@@ -963,10 +963,10 @@ gTVSafariFanClubText01::
 	.string "あんないにん『みんな　がんばって\nいますよ\p{STR_VAR_1}さんは\nとくに　すごいです\pこのまえ　{STR_VAR_1}さんは\nポケモンを　{STR_VAR_2}ひき\lつかまえました$"
 
 gTVSafariFanClubText02::
-	.string "{POKEBLOCK}の　つかいかたも\nうまくて　たしか\l{STR_VAR_2}こ　つかいました$"
+	.string "ポロックの　つかいかたも\nうまくて　たしか\l{STR_VAR_2}こ　つかいました$"
 
 gTVSafariFanClubText03::
-	.string "{POKEBLOCK}を　1こも\nつかわなかった　んです！\pまさに　たつじん　です$"
+	.string "ポロックを　1こも\nつかわなかった　んです！\pまさに　たつじん　です$"
 
 gTVSafariFanClubText04::
 	.string "レポーター『そうなのか！\p{STR_VAR_1}は　たいした\nサファリの　たつじんだな！\pあんないにん『また　きて　あの\nわざを　みせて　ほしいです$"
@@ -978,10 +978,10 @@ gTVSafariFanClubText06::
 	.string "あんないにん『みんな　あまり\nうまく　いって　いません\p{STR_VAR_1}さんは\nとくに　ひどかった\pこのまえ　ポケモンを\n1ぴきも　つかまえられ\lませんでした$"
 
 gTVSafariFanClubText07::
-	.string "{POKEBLOCK}は　つかって　いて\nたしか　{STR_VAR_2}こ\lつかいました\pでも　もうすこし\nうまく　なって　ほしいなあ$"
+	.string "ポロックは　つかって　いて\nたしか　{STR_VAR_2}こ\lつかいました\pでも　もうすこし\nうまく　なって　ほしいなあ$"
 
 gTVSafariFanClubText08::
-	.string "{POKEBLOCK}を　つかえば\nもっと　うまく　いくと\lおもいます　あの　ときは\l1こも　つかわなかったので$"
+	.string "ポロックを　つかえば\nもっと　うまく　いくと\lおもいます　あの　ときは\l1こも　つかわなかったので$"
 
 gTVSafariFanClubText09::
 	.string "レポーター『そうなのか！\p{STR_VAR_1}は　もっと\nサファリで　しゅぎょうが\lひつよう　だな\pあんないにん『なんども　きて\nこつを　つかんで　ほしいです$"

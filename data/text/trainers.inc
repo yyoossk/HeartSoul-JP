@@ -2388,7 +2388,7 @@ Route117_Text_LydiaRematchDefeat:
 
 Route117_Text_LydiaPostRematch:
 	.string "POKéMON seem to like different kinds\n"
-	.string "of {POKEBLOCK}S, depending on their nature.$"
+	.string "of ポロックS, depending on their nature.$"
 
 Route117_Text_DylanIntro:
 	.string "I'm in the middle of a triathlon, but,\n"

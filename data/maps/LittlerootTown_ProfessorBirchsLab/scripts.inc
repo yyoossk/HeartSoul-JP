@@ -805,11 +805,10 @@ LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
 	.string "むずかしそうな　きかいだ\nはかせが　けんきゅうに　つかって　いる$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
-	.string "It's a PC used for research.\n"
-	.string "Better not mess around with it.$"
+	.string "けんきゅうに　つかう　パソコンだ\nさわらない　ほうが　いい$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon:
-	.string "It's crammed with books on POKéMON.$"
+	.string "ポケモンの　ほんが\nぎっしり　つまって　いる$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
 	.string "It's a book that's too hard to read.$"

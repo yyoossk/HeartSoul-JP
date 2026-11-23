@@ -48,9 +48,9 @@
 @@gTVSafariFanClubText01
 あんないにん『みんな　がんばって\nいますよ\p{STR_VAR_1}さんは\nとくに　すごいです\pこのまえ　{STR_VAR_1}さんは\nポケモンを　{STR_VAR_2}ひき\lつかまえました
 @@gTVSafariFanClubText02
-{POKEBLOCK}の　つかいかたも\nうまくて　たしか\l{STR_VAR_2}こ　つかいました
+ポロックの　つかいかたも\nうまくて　たしか\l{STR_VAR_2}こ　つかいました
 @@gTVSafariFanClubText03
-{POKEBLOCK}を　1こも\nつかわなかった　んです！\pまさに　たつじん　です
+ポロックを　1こも\nつかわなかった　んです！\pまさに　たつじん　です
 @@gTVSafariFanClubText04
 レポーター『そうなのか！\p{STR_VAR_1}は　たいした\nサファリの　たつじんだな！\pあんないにん『また　きて　あの\nわざを　みせて　ほしいです
 @@gTVSafariFanClubText05
@@ -58,9 +58,9 @@
 @@gTVSafariFanClubText06
 あんないにん『みんな　あまり\nうまく　いって　いません\p{STR_VAR_1}さんは\nとくに　ひどかった\pこのまえ　ポケモンを\n1ぴきも　つかまえられ\lませんでした
 @@gTVSafariFanClubText07
-{POKEBLOCK}は　つかって　いて\nたしか　{STR_VAR_2}こ\lつかいました\pでも　もうすこし\nうまく　なって　ほしいなあ
+ポロックは　つかって　いて\nたしか　{STR_VAR_2}こ\lつかいました\pでも　もうすこし\nうまく　なって　ほしいなあ
 @@gTVSafariFanClubText08
-{POKEBLOCK}を　つかえば\nもっと　うまく　いくと\lおもいます　あの　ときは\l1こも　つかわなかったので
+ポロックを　つかえば\nもっと　うまく　いくと\lおもいます　あの　ときは\l1こも　つかわなかったので
 @@gTVSafariFanClubText09
 レポーター『そうなのか！\p{STR_VAR_1}は　もっと\nサファリで　しゅぎょうが\lひつよう　だな\pあんないにん『なんども　きて\nこつを　つかんで　ほしいです
 @@gTVSafariFanClubText10

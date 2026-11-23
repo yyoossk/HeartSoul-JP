@@ -11,7 +11,7 @@ BerryBlender_Text_BlendMasterNoBerries:
 	.string "ふむ！\pきのみを　1こも\nもって　いないな！\pわたしは　いちにちじゅう\nここに　いる！\lきのみを　もって　きなさい！$"
 
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
-	.string "もちろん！\nもちろんだ！\pところで‥\nきのみから　{POKEBLOCK}を\lつくる　ほうほうは\lしって　いるかね？$"
+	.string "もちろん！\nもちろんだ！\pところで‥\nきのみから　ポロックを\lつくる　ほうほうは\lしって　いるかね？$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending:
 	.string "ふむ！\pなに　かんたんな　ことだ！\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすだけ\pそれだけで　いい\pわたしが　どれほど　せいかくに\nAボタンを　おすか　みれば\lわかる　はずだ$"
@@ -20,10 +20,10 @@ BerryBlender_Text_BlendMasterLetsBerryBlender:
 	.string "よろしい！\pでは　はじめよう！\pブレンドマスターと　いっしょに\nきのみブレンダー　スタート！$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
-	.string "ふむ！\p{POKEBLOCK}ケースを\nもって　いない　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\l{POKEBLOCK}ケースを\lてに　いれて　きなさい！$"
+	.string "ふむ！\pポロックケースを\nもって　いない　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\lポロックケースを\lてに　いれて　きなさい！$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
-	.string "ふむ！\p{POKEBLOCK}ケースが\nいっぱいの　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\l{POKEBLOCK}を　つかって\lきなさい！$"
+	.string "ふむ！\pポロックケースが\nいっぱいの　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\lポロックを　つかって\lきなさい！$"
 
 BerryBlender_Text_WhoaAwesome:
 	.string "うわあ！\nすごい！$"
@@ -35,7 +35,7 @@ BerryBlender_Text_WhatAnExpert:
 	.string "さすが　たつじん！$"
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster:
-	.string "マスターと　ブレンド　したら\nすごい　{POKEBLOCK}が\lできたよ！$"
+	.string "マスターと　ブレンド　したら\nすごい　ポロックが\lできたよ！$"
 
 BerryBlender_Text_QualitiesOfBlendMaster:
 	.string "きかいの　ように　やじるしを\nおいかける　め‥\pとけいの　ように　せいかくに\nAボタンを　おす　て‥\pこれが　ブレンドマスターの\nすごさ　なのだ$"

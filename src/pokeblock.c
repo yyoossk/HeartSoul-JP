@@ -131,7 +131,7 @@ static void CreateTossPokeblockYesNoMenu(u8);
 static void TossPokeblock(u8);
 
 static const u8 sText_StowCase[] = _("ケースを　しまう");
-static const u8 sText_LvVar1[] = _("{LV}{STR_VAR_1}");
+static const u8 sText_LvVar1[] = _("{LV_2}{STR_VAR_1}");
 static const u8 sText_ThrowAwayVar1[] = _("{STR_VAR_1}を\nすてますか？");
 static const u8 sText_Var1ThrownAway[] = _("{STR_VAR_1}を\nすてました");
 
@@ -202,20 +202,20 @@ static const struct BgTemplate sBgTemplatesForPokeblockMenu[] =
 const u8 *const gPokeblockNames[] =
 {
     [PBLOCK_CLR_NONE]      = NULL,
-    [PBLOCK_CLR_RED]       = COMPOUND_STRING("あかい　{POKEBLOCK}"),
-    [PBLOCK_CLR_BLUE]      = COMPOUND_STRING("あおい　{POKEBLOCK}"),
-    [PBLOCK_CLR_PINK]      = COMPOUND_STRING("ピンクの　{POKEBLOCK}"),
-    [PBLOCK_CLR_GREEN]     = COMPOUND_STRING("みどりの　{POKEBLOCK}"),
-    [PBLOCK_CLR_YELLOW]    = COMPOUND_STRING("きいろい　{POKEBLOCK}"),
-    [PBLOCK_CLR_PURPLE]    = COMPOUND_STRING("むらさきの　{POKEBLOCK}"),
-    [PBLOCK_CLR_INDIGO]    = COMPOUND_STRING("あいいろの　{POKEBLOCK}"),
-    [PBLOCK_CLR_BROWN]     = COMPOUND_STRING("ちゃいろの　{POKEBLOCK}"),
-    [PBLOCK_CLR_LITE_BLUE] = COMPOUND_STRING("みずいろの　{POKEBLOCK}"),
-    [PBLOCK_CLR_OLIVE]     = COMPOUND_STRING("きみどりの　{POKEBLOCK}"),
-    [PBLOCK_CLR_GRAY]      = COMPOUND_STRING("はいいろの　{POKEBLOCK}"),
-    [PBLOCK_CLR_BLACK]     = COMPOUND_STRING("くろい　{POKEBLOCK}"),
-    [PBLOCK_CLR_WHITE]     = COMPOUND_STRING("しろい　{POKEBLOCK}"),
-    [PBLOCK_CLR_GOLD]      = COMPOUND_STRING("きんいろの　{POKEBLOCK}")
+    [PBLOCK_CLR_RED]       = COMPOUND_STRING("あかい　ポロック"),
+    [PBLOCK_CLR_BLUE]      = COMPOUND_STRING("あおい　ポロック"),
+    [PBLOCK_CLR_PINK]      = COMPOUND_STRING("ピンクの　ポロック"),
+    [PBLOCK_CLR_GREEN]     = COMPOUND_STRING("みどりの　ポロック"),
+    [PBLOCK_CLR_YELLOW]    = COMPOUND_STRING("きいろい　ポロック"),
+    [PBLOCK_CLR_PURPLE]    = COMPOUND_STRING("むらさきの　ポロック"),
+    [PBLOCK_CLR_INDIGO]    = COMPOUND_STRING("あいいろの　ポロック"),
+    [PBLOCK_CLR_BROWN]     = COMPOUND_STRING("ちゃいろの　ポロック"),
+    [PBLOCK_CLR_LITE_BLUE] = COMPOUND_STRING("みずいろの　ポロック"),
+    [PBLOCK_CLR_OLIVE]     = COMPOUND_STRING("きみどりの　ポロック"),
+    [PBLOCK_CLR_GRAY]      = COMPOUND_STRING("はいいろの　ポロック"),
+    [PBLOCK_CLR_BLACK]     = COMPOUND_STRING("くろい　ポロック"),
+    [PBLOCK_CLR_WHITE]     = COMPOUND_STRING("しろい　ポロック"),
+    [PBLOCK_CLR_GOLD]      = COMPOUND_STRING("きんいろの　ポロック")
 };
 
 static const struct MenuAction sPokeblockMenuActions[] =

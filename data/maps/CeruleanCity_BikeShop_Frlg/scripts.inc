@@ -73,52 +73,35 @@ CeruleanCity_BikeShop_EventScript_Bicycle::
 	end
 
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
-	.string "Hi!\n"
-	.string "Welcome to our BIKE SHOP.\p"
-	.string "Have we got just the BIKE for\n"
-	.string "you!$"
+	.string "いらっしゃい！\nじてんしゃやへ　ようこそ\pきみに　ぴったりの\nじてんしゃが　あるよ！$"
 
 CeruleanCity_BikeShop_Text_SorryYouCantAffordIt::
-	.string "Sorry!\n"
-	.string "You can't afford it!$"
+	.string "ごめんね！\nおかねが　たりないよ！$"
 
 CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
-	.string "Oh, that's…\p"
-	.string "A BIKE VOUCHER!\p"
-	.string "Okay!\n"
-	.string "Here you go!$"
+	.string "あっ　それは‥\pじてんしゃの　ひきかえけん！\pよし！\nはい　どうぞ！$"
 
 CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle::
-	.string "{PLAYER} exchanged the\n"
-	.string "BIKE VOUCHER for a BICYCLE.$"
+	.string "{PLAYER}は　ひきかえけんを\nじてんしゃと　こうかんした$"
 
 CeruleanCity_BikeShop_Text_ThankYouComeAgain::
-	.string "Thank you!\n"
-	.string "Come back again sometime!$"
+	.string "ありがとう！\nまた　きてね！$"
 
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
-	.string "How do you like your new BICYCLE?\n"
-	.string "Do you like how it rides?\p"
-	.string "You can take it out on CYCLING\n"
-	.string "ROAD and even into caves!$"
+	.string "あたらしい　じてんしゃは\nどう？　のりごこちは　いい？\pサイクリングロードや\nどうくつでも　はしれるよ！$"
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
 	.string "You better make room for your\n"
 	.string "BICYCLE!$"
 
 CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
-	.string "A plain city bike is good enough\n"
-	.string "for me.\p"
-	.string "After all, you can't put a shopping\n"
-	.string "basket on a mountain bike.$"
+	.string "ぼくは　ふつうの　じてんしゃで\nじゅうぶん\pだって　マウンテンバイクには\nかいものかごが　つけられないもん$"
 
 CeruleanCity_BikeShop_Text_BikesCoolButExpensive::
-	.string "These bikes are cool, but they're\n"
-	.string "way expensive!$"
+	.string "この　じてんしゃ　かっこいいけど\nすごく　たかいんだよな！$"
 
 CeruleanCity_BikeShop_Text_WowYourBikeIsCool::
-	.string "Wow.\n"
-	.string "Your BIKE is really cool!$"
+	.string "わあ\nきみの　じてんしゃ　かっこいい！$"
 
 @ Unused
 CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
@@ -127,5 +110,5 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
 	.string "おりたたみ　じてんしゃ！$"
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle::
-	.string "A shiny new BICYCLE!$"
+	.string "ぴかぴかの　じてんしゃだ！$"
 

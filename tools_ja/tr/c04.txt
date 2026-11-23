@@ -266,19 +266,19 @@
 @@LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady
 わたしは　コンテストおねえさん！\nコンテストが　だいすき！
 @@LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock
-このあいだは　{POKEBLOCK}\nありがとう！
+このあいだは　ポロック\nありがとう！
 @@LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality
 この　こは　わたしの　ともだち\n{STR_VAR_1}！\l{STR_VAR_2}の　かたまり　なの！\pでも　もっと　{STR_VAR_2}を\nみせられると　おもうの！
 @@LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase
-だから　おねがい！\p{POKEBLOCK}を　1こ　くれない？\n1こ　だけで　いいの！\p‥あら　でも‥\n{POKEBLOCK}ケースを　もって\lないの？　じゃあ　また\lこんどね！
+だから　おねがい！\pポロックを　1こ　くれない？\n1こ　だけで　いいの！\p‥あら　でも‥\nポロックケースを　もって\lないの？　じゃあ　また\lこんどね！
 @@LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock
-だから　おねがい！\p{POKEBLOCK}を　1こ　くれない？\n1こ　だけで　いいの！
+だから　おねがい！\pポロックを　1こ　くれない？\n1こ　だけで　いいの！
 @@LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock
-えー！\n{POKEBLOCK}　1こも\lくれないの？
+えー！\nポロック　1こも\lくれないの？
 @@LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate
 もう！\nけちんぼ！
 @@LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock
-やったー！\nありがとう！\pさっそく　ポケモンに\n{POKEBLOCK}を　あげるわ
+やったー！\nありがとう！\pさっそく　ポケモンに\nポロックを　あげるわ
 @@LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks
 ‥なにも　かわって\nない　みたい‥\pうーん‥\pまあ　いいわ！\nどうも　ありがとう！
 @@LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks
