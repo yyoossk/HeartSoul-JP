@@ -245,20 +245,16 @@ RocketHideout_B1F_Movement_GruntWalkLeft:
 	step_end
 
 RocketHideout_B1F_Text_CameraGrunt1Seen:
-    .string "Hey!\n"
-    .string "Intruder alert!$"
+	.string "おい！\nしんにゅうしゃ　はっけん！$"
 
 RocketHideout_B1F_Text_CameraGrunt1Beaten:
-    .string "Dang… I failed…$"
+	.string "くそ‥　しっぱいだ‥$"
 
 RocketHideout_B1F_Text_CameraGrunt2Seen:
-    .string "It's my turn! There's no escape!$"
+	.string "こんどは　おれの　ばんだ！\nにがさないぞ！$"
 
 RocketHideout_B1F_Text_CameraGrunt2Beaten:
-    .string "Surveillance cams are in the\n"
-    .string "POKéMON statues.\p"
-    .string "We'll keep appearing until you\n"
-    .string "trip a secret switch.$"
+	.string "ポケモンの　ぞうに\nかんしカメラが　ある\pひみつの　スイッチを　おすまで\nおれたちは　でて　くるぞ$"
 
 RocketHideout_B1F_EventScript_TrainerJed::
 	trainerbattle_single TRAINER_JED_HNS, RocketHideout_B1F_Text_ScientistJedSeen, RocketHideout_B1F_Text_ScientistJedBeaten
@@ -266,32 +262,22 @@ RocketHideout_B1F_EventScript_TrainerJed::
 	end
 
 RocketHideout_B1F_Text_ScientistJedSeen:
-    .string "This was once a ninja hideout.\p"
-    .string "There are traps to confound\n"
-    .string "intruders like you.$"
+	.string "ここは　むかし　にんじゃの\nかくれが　だった\pおまえの　ような　しんにゅうしゃを\nまどわす　わなが　あるぞ$"
 
 RocketHideout_B1F_Text_ScientistJedBeaten:
-    .string "I get it…$"
+	.string "わかったよ‥$"
 
 RocketHideout_B1F_Text_ScientistJedAfter:
-    .string "All right. I'll divulge a secret\n"
-    .string "about our hideout.\p"
-    .string "That thing on the floor up ahead\n"
-    .string "is a warp panel.\p"
-    .string "If you step on it, you'll be\n"
-    .string "warped back to the entrance.$"
+	.string "よし　アジトの　ひみつを\nひとつ　おしえて　やる\pこの　さきの　ゆかの\nあれは　ワープパネルだ\pふむと　いりぐちに\nもどされるぞ$"
 
 RocketHideout_B1F_Text_GruntM16Seen:
-    .string "Heheh. Feeling lucky, punk?$"
+	.string "へへへ　うんだめし\nしてみるか？$"
 
 RocketHideout_B1F_Text_GruntM16Beaten:
-    .string "Kaboom!$"
+	.string "ドカーン！$"
 
 RocketHideout_B1F_Text_GruntM16After:
-    .string "I don't even know where the traps\n"
-    .string "are planted.\p"
-    .string "You'll just have to collect your\n"
-    .string "courage and walk.$"
+	.string "わなが　どこに　あるのか\nおれも　しらない\pゆうきを　だして\nあるくんだな$"
 
 RocketHideout_B1F_EventScript_Rocket16::
 	trainerbattle_single TRAINER_GRUNT_13_HNS, RocketHideout_B1F_Text_GruntM16Seen, RocketHideout_B1F_Text_GruntM16Beaten
@@ -315,7 +301,7 @@ RocketHideout_B1F_EventScript_Persian::
 	end
 
 RocketHideout_B1F_Text_SecurityCameraStatue:
-    .string "It's a PERSIAN statue…$"
+	.string "ペルシアンの　ぞうだ‥$"
 
 RocketHideout_B1F_EventScript_DummyPanel::
 	msgbox RocketHideout_B1F_Text_NothingThere, MSGBOX_SIGN
@@ -358,10 +344,10 @@ RocketHideout_B1F_EventScript_TurnOffSwitch::
 	end
 
 RocketHideout_B1F_Text_NothingThere:
-	.string "A strange panel... Nothing here.$"
+	.string "へんな　パネルだ‥\nなにも　ない$"
 
 RocketHideout_B1F_Text_SecretSwitch:
-    .string "A secret switch! Better press it.$"
+	.string "ひみつの　スイッチだ！\nおしてみよう$"
 
 RocketHideout_B1F_Text_SwitchOff:
-    .string "The switch is turned off.$"
+	.string "スイッチが　きれた$"

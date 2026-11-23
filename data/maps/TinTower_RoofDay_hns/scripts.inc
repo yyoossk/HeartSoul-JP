@@ -289,12 +289,7 @@ TinTower_RoofDay_Text_Kimono_AfterNotCaught:
 	.string "ホウオウを　よびだした\nだけで　なく　たおして\lしまわれるとは‥\pもう　わたくしたちが\nいう　ことは　ありません\lたびの　ごぶじを‥$"
 
 TinTower_RoofDay_Text_Kimono_AfterCaught:
-	.string "You have not only made HO-OH\n"
-	.string "appear, but you have also caught\l"
-	.string "it...\p"
-	.string "There is nothing more for us to\n"
-	.string "say. Take care of yourself in your\l"
-	.string "journey...$"
+	.string "ホウオウを　よびだした\nだけで　なく　つかまえて\lしまわれるとは‥\pもう　わたくしたちが\nいう　ことは　ありません\lたびの　ごぶじを‥$"
 
 TinTower_RoofDay_Movement_CameraPanUp:
 	walk_up
@@ -549,39 +544,21 @@ TinTower_RoofDay_Movement_Kimono_Dance_Shift_Right2:
 	step_end
 
 TinTower_RoofDay_Text_Zuki_Before::
-	.string "ZUKI: Go, face HO-OH. $"
+	.string "ズキ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Naoko_Before::
-	.string "NAOKO: Go, face HO-OH. $"
+	.string "ナオコ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Miki_Before::
-	.string "MIKI: Go, face HO-OH. $"
+	.string "ミキ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Sayo_Before::
-	.string "SAYO: Go, face HO-OH. $"
+	.string "サヨ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Kuni_Before::
-	.string "KUNI: Go, face HO-OH. $"
+	.string "クニ『さあ　ホウオウの　もとへ$"
 
 TinTower_RoofDay_Text_Kimono_Opening::
-	.string "KIMONO GIRL: That's right.\n"
-	.string "This is where we welcome HO-OH.\p"
-	.string "When the dance we practiced many\n"
-	.string "days becomes one with the sound of the\p"
-	.string "CLEAR BELL we entrusted to you, then\n"
-	.string "HO-OH shall come down from the great\l"
-	.string "arch of the sky once again. $"
+	.string "まいこはん『そう\nここが　ホウオウを　むかえる\lばしょ\pわたくしたちが　なんにちも\nけいこ　した　まいと\pあなたに　たくした　とうめいな\nスズの　ねいろが　ひとつに\lなるとき　ホウオウは\lふたたび　おおぞらから\lまいおりるのです$"
 
 TinTower_RoofDay_Text_Kimono_Closing1::
-	.string "That is indeed HO-OH...\n"
-	.string "The guardian of the sky from\p"
-	.string "ancient times... \p"
-	.string "So many have tried again and again,\n"
-	.string "only to fail...\p"
-	.string "{PLAYER}, your heart in complete\n"
-	.string "harmony with the CLEAR BELL has finally\p"
-	.string "allowed it to appear...\n"
-	.string "{PLAYER}, don't you see?\p"
-	.string "HO-OH... It must have been waiting for\n"
-	.string "someone like you all this time.\p"
-	.string "Wouldn't you agree? $"
+	.string "あれこそ　ホウオウ‥\nこだいから　そらを　まもる\pもの‥\pおおくの　ひとが　なんども\nこころみ　やぶれて　きました‥\p{PLAYER}さん　とうめいなスズと\nかんぜんに　ひとつに　なった\pあなたの　こころが　ついに\nよびだしたのです‥\l{PLAYER}さん　わかりますか？\pホウオウは‥　ずっと　あなたの\nような　ひとを　まって\lいたのでしょう\pそう　おもいませんか？$"
 
 TinTower_RoofDay_Text_Kimono_After::
-	.string "You have done a great job.\n"
-	.string "Say hello to PROF.ELM for us.$"
+	.string "よく　がんばりましたね\nウツギはかせに\lよろしく　おつたえください$"

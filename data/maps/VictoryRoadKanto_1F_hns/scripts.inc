@@ -127,31 +127,10 @@ VictoryRoadKanto_1F_Movement_SilverLeave:
 	step_end
 
 VictoryRoad_Text_RivalBefore:
-    .string "Hold it.\p"
-    .string "…Are you going to take the POKéMON\n"
-    .string "LEAGUE challenge?\p"
-    .string "…Don't make me laugh.\p"
-    .string "You're so much weaker than I am.\p"
-    .string "I'm not like I was before.\p"
-    .string "I now have the best and strongest\n"
-    .string "POKéMON with me.\p"
-    .string "I'm invincible!\p"
-    .string "{PLAYER}!\n"
-    .string "I challenge you!$"
+	.string "まて\p‥ポケモンリーグに\nちょうせん　するのか？\p‥わらわせるな\pおまえは　おれより\nずっと　よわい\pおれは　まえとは　ちがう\pさいこうで　さいきょうの\nポケモンが　いっしょだ\pおれは　むてきだ！\p{PLAYER}！\nしょうぶだ！$"
 
 VictoryRoad_Text_RivalDefeat:
-    .string "…I couldn't win…\p"
-    .string "I gave it every-thing I had…\p"
-    .string "What you possess, and what I lack…\p"
-    .string "I'm beginning to understand what\n"
-    .string "that dragon master said to me…$"
+	.string "‥かてなかった‥\pもてる　ちからを\nぜんぶ　だしたのに‥\pおまえに　あって\nおれに　ない　もの‥\pあの　ドラゴンつかいの　いった\nことが　わかって　きた‥$"
 
 VictoryRoad_Text_RivalAfter:
-    .string "…I haven't given up on becoming the\n"
-    .string "greatest trainer…\p"
-    .string "I'm going to find out why I can't\n"
-    .string "win and become stronger…\p"
-    .string "When I do, I will challenge you.\p"
-    .string "And I'll beat you down with all my\n"
-    .string "power.\p"
-    .string "…Humph! You keep at it until then.$"
+	.string "‥さいきょうの　トレーナーに\nなる　ことは　あきらめて\lいない‥\pなぜ　かてないのか\nみつけて　つよく　なる‥\pそしたら　おまえに\nちょうせん　する\pぜんりょくで　たたきのめして\nやる\p‥ふん！　それまで\nせいぜい　がんばるんだな$"

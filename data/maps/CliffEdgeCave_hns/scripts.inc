@@ -10,8 +10,4 @@ CliffEdgeCave_EventScript_BaldMan::
 	end
 
 CliffEdgeCave_Text_Baldman:
-	.string "If you see a fork in the road\n"
-	.string "inside a cave, most likely one\l"
-	.string "way is right and the other leads\l"
-	.string "to a dead end.\p"
-	.string "But people can't help trying both.$"
+	.string "どうくつで　わかれみちが\nあったら　たいてい　かたほうは\lせいかいで　もう　かたほうは\lいきどまり\pでも　ひとは　つい\nりょうほう　ためしたく\lなるんだよな$"

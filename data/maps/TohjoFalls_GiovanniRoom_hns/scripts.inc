@@ -22,8 +22,7 @@ TohjoFalls_GiovanniRoom_EventScript_Radio::
 	end
 
 TohjoFalls_GiovanniRoom_Text_RadioObject::
-	.string "A radio...\n"
-	.string "The battery is dead...$"
+	.string "ラジオだ‥\nでんちが　きれている‥$"
 
 TohjoFalls_GiovanniRoom_CancelScene::
 	setvar VAR_TOHJO_FALLS_GIOVANNI_STATE, 0
@@ -189,45 +188,16 @@ TohjoFalls_Movement_GiovanniLeave:
 	step_end
 
 TohjoFalls_GiovanniRoom_Text_Radio:
-	.string "RADIO: ... ...\n"
-	.string "Ahem, we are TEAM ROCKET!\l"
-	.string "After three years of preparation,\l"
-	.string "we have risen again from the ashes!\l"
-	.string "GIOVANNI! Can you hear us?\l"
-	.string "We did it!\l"
-	.string "Where is our boss?\l"
-	.string "Is he listening?$"
+	.string "ラジオ『‥　‥\nこちら　ロケットだん！\l3ねんの　じゅんびを　へて\lわれわれは　ふっかつ　した！\lサカキさま！　きこえますか？\lやりました！\lボスは　どこに？\lきいて　おられますか？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniIntro:
-	.string "GIOVANNI: ...\p"
-	.string "I don't know why you have come\n"
-	.string "here.\p"
-	.string "Anyway, I have to warn you that\n"
-	.string "this is not a place for kids like\l"
-	.string "you.\p"
-	.string "You have a certain look.\n"
-	.string "It reminds me of the kid who stood\l"
-	.string "in front of me three years ago...\p"
-	.string "You have the same eyes...\p"
-	.string "...\p"
-	.string "I'm on my way to GOLDENROD CITY\n"
-	.string "to answer the call and join my team.\l"
-	.string "Are you going to get in my way?$"
+	.string "サカキ『‥\pなぜ　おまえが　ここに\nきたのかは　しらんが\pここは　おまえの　ような\nこどもの　くる　ところでは\lないと　いっておこう\pおまえの　その　かお‥\n3ねんまえ　わたしの　まえに\lたった　こどもを　おもいだす‥\pおなじ　めを　している‥\p‥\pわたしは　なかまの　よびかけに\nこたえて　コガネシティへ\lむかう　ところだ\lじゃまを　する　つもりか？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle:
-	.string "My old associates need me...\n"
-	.string "We will not repeat the failure of\l"
-	.string "three years ago!$"
+	.string "かつての　なかまが\nわたしを　まって　いる‥\l3ねんまえの　しっぱいは\lくりかえさん！$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniDefeat:
-	.string "What in the world are you?$"
+	.string "おまえは　いったい\nなにものだ？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniAfter:
-	.string "GIOVANNI: How is this possible...?\n"
-	.string "The past three years have been a\l"
-	.string "waste...?\p"
-	.string "How can a kid like you manage to\n"
-	.string "destroy my dream once again?\p"
-	.string "The precious dream of TEAM ROCKET\n"
-	.string "has become little more than an\l"
-	.string "illusion...$"
+	.string "サカキ『なぜだ‥？\nこの　3ねんは\lむだ　だったのか‥？\pなぜ　おまえの　ような　こどもに\nまた　ゆめを　うちくだかれる\lのだ？\pロケットだんの　だいじな　ゆめは\nまぼろしに　すぎなく\lなって　しまった‥$"

@@ -385,17 +385,16 @@ Alola_Poni_Bench_Heal_Movement_0:
 	step_end
 
 Alola_Poni_BattleExeggutor_Text_0:
-	.string "Gaah-aah!$"
+	.string "ナッシーーッ！$"
 
 Alola_Poni_Island_Sign_Text_0:
-	.string "PONI ISLE$"
+	.string "ポニじま$"
 
 Alola_Poni_TotemBattle_Text_0:
-	.string "Buzz!!$"
+	.string "ブーーン！！$"
 
 Alola_Poni_TotemBattle_Text_1:
-	.string "Totem ELECTIVIRE was defeated!\n"
-	.string "It scampered off somewhere…$"
+	.string "ぬしの　エレキブルを　たおした！\nどこかへ　にげて　いった‥$"
 
 PoniIsle_hns_Movement_FacePlayerUpAfterTotemWarp:
 	face_up
@@ -403,54 +402,46 @@ PoniIsle_hns_Movement_FacePlayerUpAfterTotemWarp:
 
 
 Alola_Poni_Totem_sign_Text_0:
-	.string "The totem is emanating a strong\n"
-	.string "energy…\p"
-	.string "Touch the totem to teleport to another\n"
-	.string "Isle?$"
+	.string "トーテムから　つよい\nエネルギーが　でている‥\pトーテムに　さわって　ほかの\nしまへ　ワープしますか？$"
 
 Alola_Poni_Totem_sign_Text_1:
-	.string "MELEMELE ISLE$"
+	.string "メレメレじま$"
 
 Alola_Poni_Totem_sign_Text_2:
-	.string "AKALA ISLE$"
+	.string "アーカラじま$"
 
 Alola_Poni_Totem_sign_Text_3:
-	.string "ULA'ULA ISLE$"
+	.string "ウラウラじま$"
 
 Alola_Poni_Totem_sign_Text_4:
-	.string "CANCEL$"
+	.string "やめる$"
 
 Alola_Poni_Totem_sign_Text_5:
-	.string "A strange totem stands here,\n"
-	.string "power is emanating from it…$"
+	.string "ふしぎな　トーテムが　たっている\nちからが　あふれでている‥$"
 
 Alola_Poni_BattleVsTapuFini_Text_0:
-	.string "Fiiin!$"
+	.string "フィーン！$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_0:
-	.string "Warmer water, no problem!$"
+	.string "あったかい　うみなら\nへっちゃら！$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_1:
-	.string "Gah, I forgot my sunscreen…$"
+	.string "しまった　ひやけどめ\nわすれた‥$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_2:
-	.string "I've swam into so many cool POKéMON!\n"
-	.string "It must be something in the water.$"
+	.string "およいでたら　かっこいい\nポケモンに　たくさん　あった！\lうみに　なにか　あるのかな$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_0:
-	.string "Hey, don't block my current!$"
+	.string "おい　ながれを\nじゃま　するな！$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_1:
-	.string "Ugh, fine,\njust let me swim…$"
+	.string "ちぇっ　わかったよ\nおよがせて　くれ‥$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_2:
-	.string "The current is great for tubing.\n"
-	.string "I don't think I'll tube anywhere else!$"
+	.string "ここの　ながれは　うきわに\nさいこう　ほかでは\lもう　うかべない　かも！$"
 
 Alola_Poni_NPC_girl_Text_0:
-	.string "PONI ISLE is my favorite.\n"
-	.string "The wilderness just speaks for itself!$"
+	.string "ポニじまが　いちばん　すき\nこの　だいしぜんが\lたまらないの！$"
 
 Alola_Poni_Bench_Heal_Text_0:
-	.string "Would you like to take a rest on this\n"
-	.string "bench?$"
+	.string "この　ベンチで\nやすみますか？$"
