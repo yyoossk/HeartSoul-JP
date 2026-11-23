@@ -1,0 +1,123 @@
+## data/text/apprentice.inc
+@@gText_ApprenticePleaseTeach4
+あっ！　{PLAYER}{KUN}　でしょ？\pポケモンが　つよいって\nきいたわ！\pわたし　{STR_VAR_1}！\nともだちに　なって　あげる！\pしってた？\pトレーナーズスクールで\nならう　ことだけ　じゃ\lバトルフロンティアでは\lかてないのよ\pあなたの　アドバイスを\nきいて　あげても　いいわ\lもちろん　いいわよね？
+@@gText_ApprenticeRejectTeaching4
+え？　なんで　ことわるの？\nわたしが　たのんでるのよ！\lかんがえ　なおして！
+@@gText_ApprenticeWhichLevelMode4
+じゃあ　きめて　ほしい\nことが　あるの\pバトルタワーには　レベル50と\nオープンレベルの　へやが\lあるでしょ？\p{PLAYER}{KUN}は　わたしには\nどっちが　いいと　おもう？
+@@gText_ApprenticeLevelModeThanks4
+わたしには　{STR_VAR_1}が\nいいのね？　ありがとう！\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！
+@@gText_ApprenticePleaseTeach5
+やあ　どうも！　{PLAYER}{KUN}！\nゆうめい　だから　しってるよ！\l{STR_VAR_1}って　よんでくれ！\pぼくは　トライアスリートで\nポケモンを　そだてながら\lからだも　きたえてる\pほかにも　しごとや　ひるね\nしゃこうダンス　なんかも\lやってて\pこう　いそがしいと　なかなか\nいい　トレーナーに\lなれなくてさ\pそこで　ていあん！\pであったのも　なにかの　えん\n{PLAYER}{KUN}　ときどき\lちえを　かして　くれない？
+@@gText_ApprenticeRejectTeaching5
+そこを　なんとか！\nぼくには　{PLAYER}{KUN}みたいな\lひとが　ひつよう　なんだ！\pほんとうに　アドバイスが\nほしいんだよ！
+@@gText_ApprenticeWhichLevelMode5
+ありがとう！　そう　こなくちゃ！\nじゃあ　かんたんな　ことから！\pバトルタワーの　ふたつの\nコースは　しってるよね？\lレベル50と　オープンレベル\pいそがしい　ぼくは\nどっちに　そなえれば\lいいかな？
+@@gText_ApprenticeLevelModeThanks5
+{STR_VAR_1}か　よし　わかった\nなんとか　じかんを　つくって\lやって　みるよ！\p‥おっと　しごとに\nいかなきゃ！\lありがとう！　またね！
+@@gText_ApprenticePleaseTeach6
+うそ！　まさか！\nほんものの　{PLAYER}？\pわあ！　すごい！　わたし\n{STR_VAR_1}　よろしくね！\p{PLAYER}って　とっても\nつよいん　でしょ？\pみんな　うわさ　してるよ！\pあっ！　いい　こと\nおもいついた！\l{PLAYER}に　アドバイスを\lもらえば　つよく　なれる！\pいい　アイデア　でしょ？\nおねがい　アドバイス\lちょうだい！
+@@gText_ApprenticeRejectTeaching6
+あはは　いじわるな　ふり\nしても　だまされないよ！\lほんとは　いいって\lことでしょ？
+@@gText_ApprenticeWhichLevelMode6
+やった！　{PLAYER}は　こころが\nひろいって　おもってた！\pまず　なにを　きこうかな？\n‥あ　おもいついた！\pドラムロール　おねがい！\nしつもんは‥\pバトルタワーに\nちょうせん　するなら\lどっちに　すれば　いい？\pレベル50か　オープンレベルか\nわたしに　あうのは　どっち？
+@@gText_ApprenticeLevelModeThanks6
+おおー！\n{STR_VAR_1}　だって！\lすっごく　かっこいい\lこたえ　ありがとう！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！
+@@gText_ApprenticePleaseTeach7
+しつれい　ですが‥\n{PLAYER}さま　ですか？\pわたくし　{STR_VAR_1}と　もうします\nおあい　できて　こうえい　です\pずっと　あこがれて\nおりました‥\p‥　‥　‥　‥　‥　‥\pあの‥　ごめいわく　でなければ\nなのですが‥\p{PLAYER}さまの　でしに\nして　いただけませんか？
+@@gText_ApprenticeRejectTeaching7
+ああ‥！\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥\p‥ショックで　きを　うしなって\nいました　ききまちがい\lでしょうか\pどうか！　でしに　して\nいただけると　おっしゃって\lください！
+@@gText_ApprenticeWhichLevelMode7
+ああ‥　うれしい　です！\pおじかんを　とらせない　よう\nこれに　ついて　ごしどう\lください\pちかいうちに　バトルタワーに\nちょうせん　する　つもり　です\pですが　レベルが\nふたつ　あって‥\pわたくしには　どちらが\nふさわしい　でしょう？\lレベル50か　オープンレベルか
+@@gText_ApprenticeLevelModeThanks7
+{STR_VAR_1}　ですね！\nわかりました　がんばります！\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！
+@@gText_ApprenticePleaseTeach8
+きゃっ！　きゃっ！　{PLAYER}さんが\nはなしかけて　くれた！\lう　うれしい！\pわ　わたしの　なまえは\n{STR_VAR_1}！　トレーナーに\lなった　ばかり　です！\pポケモンかいの　ゆうめいじん\n{PLAYER}さんに　あえて\lうれしい！\pあっ　そうだ！\n{PLAYER}さん　ひとつ　おおきな\lおねがいが　あるんです！\pわたしを　でしに　して\nください！　まなび　たいんです！
+@@gText_ApprenticeRejectTeaching8
+うわーん！\n{PLAYER}さんに　ことわられた‥\lこ　これも　きちょうな\lけいけん　です！\p{PLAYER}さん　おねがい！\nこんどは　いい　へんじを\lきかせて　ください！\pどうか　ごしどうを！
+@@gText_ApprenticeWhichLevelMode8
+ひえー！　{PLAYER}さんが\nいいって　いった！\l{PLAYER}さんが　いいって！\pこんや　ねむれない‥\nほんとうに　ありがとう！\pじゃあ　しつもん　です！\pバトルタワーで　わたしに\nあうのは　レベル50と\lオープンレベル　どっち？
+@@gText_ApprenticeLevelModeThanks8
+{STR_VAR_1}！　よく　わかりました！\nかんぺきに　わかりました！\lうれしすぎて　くらくら！\pまた　いつか　いろいろ\nおしえて　くださいね
+@@gText_ApprenticePleaseTeach9
+おっ！　もしかして‥\nひょっとして‥　{PLAYER}{KUN}？！\lあの　つよくて　ゆうめいな\lトレーナー？\lいやあ　ついてるなあ！\pどうも　{STR_VAR_1}って　いうんだ！\pちょうど　ポケモンの\nせんせいを　さがしてたんだ\pそこへ　ばっちりの\nタイミングで　{PLAYER}{KUN}が\lきた！\pそういう　わけで　{PLAYER}{KUN}！\nでしに　して　くれ！
+@@gText_ApprenticeRejectTeaching9
+ぐわー！\nクールで　きびしいな‥\pそんな　こと　いわないで\nくれよ　たのむよ！
+@@gText_ApprenticeWhichLevelMode9
+おお　いい　へんじ！\nさいこう　だよ！\pじゃあ　まずは　バトルタワーに\nついて　アドバイスを\lもらおうか\pいくなら　どっちが　いい？\nレベル50か　オープンレベルか
+@@gText_ApprenticeLevelModeThanks9
+なるほど　{STR_VAR_1}か！\nオーケー　オーケー！\lおれの　ほんきを　みせて\lくるぜ！\pじゃあ　せんせいと　して\nたよりに　するよ！　アディオス！
+@@gText_ApprenticePleaseTeach10
+よう　{PLAYER}{KUN}　だよね？\nけいさつが　さがしてたよ！\p‥　‥　‥\nもちろん　うそ　だよ！\pぼく　{STR_VAR_1}　こう　みえても\nポケモンチャンピオン　なんだ！\l‥それも　うそ！\pでも　これは　ほんと\nバトルは　あまり\lとくい　じゃない\pだから　ポケモンの\nししょうに　なって\lくれない？
+@@gText_ApprenticeRejectTeaching10
+そんな　つめたい　こと\nいうなら　こうだ！\pうわーん！　うわーん！\nひっく！\pあはは　うそなき　でした！\pねえ　ぼくの　ポケモンの\nししょうに　なってよ
+@@gText_ApprenticeWhichLevelMode10
+やったー！\nおれいに　ふねを\lかって　あげる！\pもちろん　また　うそ　だけど！\nでも‥　ありがとう　ししょう！\pバトルタワーには　レベル50と\nオープンレベルが　あるよね？\pどっちに　ちょうせん　するか\nまよってて‥\pししょう　きめて　くれない？
+@@gText_ApprenticeLevelModeThanks10
+じゃあ　{STR_VAR_1}が　いいんだね！\nなら　ぼくは　もう　ひとつの\lほうに　いくよ！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！
+@@gText_ApprenticePleaseTeach11
+ヨー　ヨー！\nそれが　オレらの　あいさつ　さ！\pオレは　{STR_VAR_1}\nラップを　かます　ふなのりさ！\pつぎは　きみの　ばん\nじこしょうかい　さあ　どうぞ！\pうんうん　なるほど！\nなまえは　{PLAYER}{KUN}\lポケモン　ひとすじ！\pせかいが　ぶたいの\nとしごろ　だね！\pとにかく　いいたいのは\nきょう　はなした　トレーナー\lきみで　10にんめ！\pきねんに　いわおう！\nししょうに　なって\lもらおう！
+@@gText_ApprenticeRejectTeaching11
+だめ　だって！\nいっしょに　やろうよ！\pじらさないで　くれ！\nししょうに　なって　くれ！
+@@gText_ApprenticeWhichLevelMode11
+それだ！\n{PLAYER}　ノリが　いいね！\pさっそく　さいしょの　しつもん\nきみの　いけんを　ききたいもん！\pバトルタワーの　はなし\nオレの　ちからに　かかわる\lはなし！\pレベル50と　オープンレベル\nオレに　あうのは　どっちの\lレベル？
+@@gText_ApprenticeLevelModeThanks11
+よし　{STR_VAR_1}　だって？\nさっそく　いって\lちょうせん　だ！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！
+@@gText_ApprenticePleaseTeach12
+ヘイ　きみ　{PLAYER}じゃない？\nどうする？　はなしかける？\lもう　はなしかけてる　じゃん！\p{PLAYER}　おどろいた？\nじこしょうかい　しなくちゃ\lだね！\pオレの　なまえは　{STR_VAR_1}！\nギターかいの　いちばんぼし\lそれが　オレ！\pきこえてる？\nきこえてるよな！\pうんは　さいこう\nおねがい　ひとつ　さいこう！\p{PLAYER}　オレを　でしに　して！\nなんでも　おしえて　ほしい！
+@@gText_ApprenticeRejectTeaching12
+ことわる　ってか？\nじゃあ　もう　いちど\lおねがい　だ！\p{PLAYER}　でしに　して　くれ！\nなんでも　おしえて　くれ！
+@@gText_ApprenticeWhichLevelMode12
+ラッキー　イエー　ウーフー！\nしつもん　して　いいかい？\pバトルタワーの　ちかく\nだから　そこの　ちからに\lついて　きいて　いい？\pえらべる　なかで\nオレに　あうのは　どれ？
+@@gText_ApprenticeLevelModeThanks12
+{STR_VAR_1}が　きみの　おすすめ\nなら　それが　さいこう\lに　きまってる！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！
+@@gText_ApprenticePleaseTeach13
+あ　ちょっと！　そこの　きみ！\nかたを　もんで　くれない？\p‥そう　そこ！　そこそこ！\nいたた！　ああ　きもちいい！\pわたし　{STR_VAR_1}\nからての　しゅぎょうを\lしてるけど　からだが\lついて　こなくて‥\pそれで　ポケモンバトルで\nきたえる　ことに　したの\pあなた　{PLAYER}{KUN}　でしょ？\nポケモンリーグの\lチャンピオンの？\pねえ　アドバイス\nもらえない？
+@@gText_ApprenticeRejectTeaching13
+え　どうして？\pめいわくは　かけないから！\nおねがい！
+@@gText_ApprenticeWhichLevelMode13
+ありがとう　たすかるわ！\n‥ごほっ！　ごほっ！\pうう　はやく　つよく\nならなきゃ‥\pすぐ　バトルタワーに　いくけど\nわたしには　どっちが　いい？\lレベル50か　オープンレベルか
+@@gText_ApprenticeLevelModeThanks13
+うん　わかった　{STR_VAR_1}ね\nすぐ　いって　くる\pこれからも　たよらせてね\nなんたって　ししょう\lだもの！
+@@gText_ApprenticePleaseTeach14
+えっと‥　あの‥\n{PLAYER}{KUN}‥？\pそんなに　みないで\nください　はずかしい‥\pぼ　ぼく　{STR_VAR_1}です\pいうのも　はずかしい　けど\nこだいの　いせきを\lたんけん　してるんです\pもっと　はずかしい　けど\nバトルフロンティアに\lきょうみが　あるんです\p{PLAYER}{KUN}は　つよい\nトレーナーだって\lうわさ　だから‥\pいいにくい　んですが\nおねがいが　あります\pぼくの　せんせいに　なって\nアドバイスを　くれませんか？
+@@gText_ApprenticeRejectTeaching14
+そんな　ふうに　あしらわないで！\nはずかしくて　いきて\lいけません\pせんせいに　なって　ください！\nアドバイスが　ほしいんです！
+@@gText_ApprenticeWhichLevelMode14
+あ　ありがとう‥\pでも　そんなに　みないで\nください　あせっちゃう\pめを　みないで\nこたえて　ください\pバトルタワーで‥\nどの　レベルに　ちょうせん\lすれば　いいですか？
+@@gText_ApprenticeLevelModeThanks14
+あ‥　はい！\nそれに　ちょうせん　します\pあせらずに　ゆうかんに\nちょうせん　できると\lいいな‥\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します
+@@gText_ApprenticePleaseTeach15
+ん？　{PLAYER}{KUN}の\nようだが‥\lほんとうに　ほんもの　かね？\pわたしの　ことは　{STR_VAR_1}と\nよんで　くれたまえ\pつよい　トレーナーの　でしに\nなろうかと　かんがえて\lいた　ところでね\pきみが　きて　くれて\nついて　いる！\l‥ほんとうに　{PLAYER}{KUN}だね？\pいや　ほんものなら　いいんだ\nわたしを　でしと　みとめて\lほしい　だけ　なのだよ
+@@gText_ApprenticeRejectTeaching15
+おや？\nなぜ　ことわるのかね？\pほんものか　うたがって\nしまった　ことは　あやまる\pどうか　あやまりを\nうけいれて　でしに\lして　くれたまえ
+@@gText_ApprenticeWhichLevelMode15
+ほんとうに　みとめて\nくれるのかね？\lぬかよろこびは　したくない\pほんとう　なら　しつれいした\nでは　アドバイスを　たのむ\pわたしが　バトルタワーに\nいどむ　なら　ふさわしい\lのは　どちらかね？\lレベル50か　オープンレベルか
+@@gText_ApprenticeLevelModeThanks15
+{STR_VAR_1}？\nたしか　かね？\pなるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pうるさい　やつだと\nおもうだろうが　みとめて\lもらえて　うれしい\pまた　あおう！
+@@gText_ApprenticeWhatHeldItem0
+はあ‥　ぐすん‥\nあっ　{PLAYER}さん！\pきめられない　ことが\nあって　こまって　いるんです\p{STR_VAR_1}に　なにを\nもたせれば　いいか\lきめられなくて\pおしえて　{PLAYER}さん\nどの　どうぐを\lもたせれば　いいですか？
+@@gText_ApprenticeHoldNothing0
+え　ほんとう？\n{STR_VAR_1}には　なにも\lもたせなくて　いいの？
+@@gText_ApprenticeThanksNoHeldItem0
+わかりました！　きまって\nうれしい！　すごい！\lうおお！\pほんとうに　ありがとう！
+@@gText_ApprenticeThanksHeldItem0
+よかった‥\n{STR_VAR_1}なら　ぼくも\lもってると　おもう\pきまって　うれしい！\nすごい！　うおお！\pほんとうに　ありがとう！
+@@gText_ApprenticeItemAlreadyRecommended0
+うわーん！　いじわる\nしないで！\pその　{STR_VAR_1}は\nまえにも　すすめられたん\lです　ぐすん‥\pそれとも　{STR_VAR_2}には\nなにも　もたせない\lほうが　いいの？
+@@gText_ApprenticeWhatHeldItem1
+やった！　{PLAYER}さん　だ！\nちょうど　ききたい　ことが\lあったんだ！\pポケモンに　どうぐ\nもたせてる？　ぼくも\lもたせたいんだけど‥\p{STR_VAR_1}には\nなにを　もたせたら\lいいと　おもう？
+@@gText_ApprenticeHoldNothing1
+え？　{STR_VAR_1}には\nなにも　もたせなくて\lいいの？
+@@gText_ApprenticeThanksNoHeldItem1
+そっか！　そうする！\nおしえて　くれて\lありがとう！
+@@gText_ApprenticeThanksHeldItem1
+わあ！　{STR_VAR_1}だね？\nよし　そうする！\pおしえて　くれて\nありがとう！
+@@gText_ApprenticeItemAlreadyRecommended1
+あ　えっと　そうじゃ　なくて\nもう　しってる　もの　いがいの\lどうぐを　しりたいんだ\pそれとも　こんどは　なにも\nもたせなくて　いいって\lこと？
+@@gText_ApprenticeWhatHeldItem2
+{PLAYER}さん　こんにちは！\nわたしの　{STR_VAR_1}の\lこと　なんですが‥\pいい　どうぐを　もたせたいん\nです　なにが　いい\lでしょう？
+@@gText_ApprenticeHoldNothing2
+え　じゃあ　{STR_VAR_1}には\nなにも　もたせなくて\lいいんですか？
+@@gText_ApprenticeThanksNoHeldItem2
+わかりました！\nまた　あいましょう！
