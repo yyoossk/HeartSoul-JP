@@ -271,122 +271,85 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnter_hnsDoor_hns:
 	step_end
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1_hns:
-	.string "Your 1st-round match is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　1かいせん　です\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2_hns:
-	.string "Your 2nd-round match is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　2かいせん　です\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals_hns:
-	.string "Your semifinal match is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　じゅんけっしょう　です\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals_hns:
-	.string "Your final match is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　けっしょう　です\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons_hns:
-	.string "Please choose the two POKéMON\n"
-	.string "that are to appear in battle.$"
+	.string "たたかいに　だす　ポケモンを\n2ひき　えらんで　ください$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay_hns:
-	.string "Right this way, please.$"
+	.string "こちらへ　どうぞ$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth_hns:
-	.string "Thank you for competing!\p"
-	.string "I'll restore your POKéMON to\n"
-	.string "full health.$"
+	.string "おつかれさま　でした！\pポケモンを　かいふく\nいたします$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete_hns:
-	.string "All 1st-round matches have been\n"
-	.string "completed.\p"
-	.string "These are the teams that advanced!$"
+	.string "1かいせんが　すべて\nおわりました\pかちあがった　チームは\nこちら　です！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete_hns:
-	.string "All 2nd-round matches have been\n"
-	.string "completed.\p"
-	.string "These are the teams that advanced!$"
+	.string "2かいせんが　すべて\nおわりました\pかちあがった　チームは\nこちら　です！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete_hns:
-	.string "All semifinal matches have been\n"
-	.string "completed.\p"
-	.string "These are the teams that advanced!$"
+	.string "じゅんけっしょうが　すべて\nおわりました\pかちあがった　チームは\nこちら　です！$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2_hns:
-	.string "Congratulations for getting through\n"
-	.string "the 1st round.\p"
-	.string "The 2nd round is next.\n"
-	.string "Are you ready?$"
+	.string "1かいせん　とっぱ\nおめでとう　ございます\pつぎは　2かいせん　です\nじゅんびは　いいですか？$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals_hns:
-	.string "Congratulations for advancing\n"
-	.string "to the semifinals.\p"
-	.string "The best four teams meet in this round.\n"
-	.string "Are you ready?$"
+	.string "じゅんけっしょう　しんしゅつ\nおめでとう　ございます\pベスト4の　たいけつ　です\nじゅんびは　いいですか？$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals_hns:
-	.string "Congratulations for advancing\n"
-	.string "to the final match.\p"
-	.string "You're one win from the championship.\n"
-	.string "Are you ready?$"
+	.string "けっしょう　しんしゅつ\nおめでとう　ございます\pあと　1しょうで　ゆうしょう\nです　じゅんびは\lいいですか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer_hns:
-	.string "{PLAYER}'s next opponent\n"
-	.string "is this TRAINER.$"
+	.string "{PLAYER}の　つぎの　あいては\nこの　トレーナー　です$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1_hns:
-	.string "The tournament is in the 1st round.$"
+	.string "トーナメントは\n1かいせん　です$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2_hns:
-	.string "The tournament is in the 2nd round.$"
+	.string "トーナメントは\n2かいせん　です$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals_hns:
-	.string "The tournament is in the semifinals.$"
+	.string "トーナメントは\nじゅんけっしょう　です$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals_hns:
-	.string "The tournament is up to the final.$"
+	.string "トーナメントは\nけっしょう　です$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame_hns:
-	.string "Would you like to save and\n"
-	.string "quit the game?$"
+	.string "レポートを　かいて\nゲームを　おわりますか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge_hns:
-	.string "Would you like to retire from your\n"
-	.string "Battle Tournament challenge?$"
+	.string "バトルトーナメントの\nちょうせんを　リタイア\lしますか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait_hns:
-	.string "I am saving your data.\n"
-	.string "Please wait.$"
+	.string "レポートを　かいて　います\nしょうしょう　おまちください$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch_hns:
-	.string "Should I record your last match\n"
-	.string "on your FRONTIER PASS?$"
+	.string "さいごの　しょうぶを\nフロンティアパスに\lきろく　しますか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver_hns:
-	.string "Congratulations for advancing\n"
-	.string "to the final match.\p"
-	.string "For the final match, you will challenge\n"
-	.string "the DOME ACE TUCKER.\p"
-	.string "Are you ready?$"
+	.string "けっしょう　しんしゅつ\nおめでとう　ございます\pけっしょうの　あいては\nドームスーパースターの\lヒース　です\pじゅんびは　いいですか？$"
 
 @ Identical to ReadyForTuckerSilver
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold_hns:
-	.string "Congratulations for advancing\n"
-	.string "to the final match.\p"
-	.string "For the final match, you will challenge\n"
-	.string "the DOME ACE TUCKER.\p"
-	.string "Are you ready?$"
+	.string "けっしょう　しんしゅつ\nおめでとう　ございます\pけっしょうの　あいては\nドームスーパースターの\lヒース　です\pじゅんびは　いいですか？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver_hnsShort_hns:
-	.string "Your final battle against TUCKER is\n"
-	.string "next. Are you ready?$"
+	.string "つぎは　ヒースとの　けっしょう\nです　じゅんびは\lいいですか？$"
 
 @ Identical again
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold_hnsShort_hns:
-	.string "Your final battle against TUCKER is\n"
-	.string "next. Are you ready?$"
+	.string "つぎは　ヒースとの　けっしょう\nです　じゅんびは\lいいですか？$"
 

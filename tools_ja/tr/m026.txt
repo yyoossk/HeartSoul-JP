@@ -1,0 +1,182 @@
+## data/maps/BattleFrontier_BattleTowerMultiBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet_hns
+つぎは　2くみめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet_hns
+つぎは　3くみめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet_hns
+つぎは　4くみめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet_hns
+つぎは　5くみめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet_hns
+つぎは　6くみめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet_hns
+つぎは　7くみめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext_hns
+つぎは　2くみめの　あいてです\nがんばって　ください！
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext_hns
+つぎは　3くみめの　あいてです\nがんばって　ください！
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext_hns
+つぎは　4くみめの　あいてです\nがんばって　ください！
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext_hns
+つぎは　5くみめの　あいてです\nがんばって　ください！
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext_hns
+つぎは　6くみめの　あいてです\nがんばって　ください！
+@@BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext_hns
+つぎは　7くみめの　あいてです\nがんばって　ください！
+@@gText_LinkStandby3_hns
+つうしん　たいきちゅう‥
+@@gText_YourPartnerHasRetired_hns
+パートナーが　リタイア\nしました\pバトルルームの　ちょうせんは\nちゅうし　と　なります
+## data/maps/BattleFrontier_BattleDomeLobby_hns/scripts.inc
+@@BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle_hns
+トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pわたしは　シングルバトル\nトーナメントの\lあんないがかり　です
+@@BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge_hns
+シングルバトル　トーナメントに\nちょうせん　しますか？
+@@BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain_hns
+また　おこし　ください
+@@BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge_hns
+シングルバトル　トーナメントは\nその　なの　とおり　シングル\lバトルの　トーナメント　です\pさんかする　トレーナーは\nポケモンを　3びき\lエントリー　します\pしょうぶでは　3びきの　うち\n1ぴきは　ひかえに　します\pのこりの　2ひきが　1ぴきずつ\nたたかいます\pあいての　3びきを　みてから\nたたかう　2ひきを\lえらんで　ください\p4にんの　トレーナーに　かてば\nゆうしょう　です\pゆうしょう　すると\nバトルポイントが\lもらえます\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge_hns
+バトルドームへ　ごあんない\nする　まえに　レポートを\lかきます　よろしいですか？
+@@BattleFrontier_BattleDomeLobby_Text_WhichLevelMode_hns
+トーナメントには　レベル50と\nオープンレベルの　2つの\lクラスが　あります\lどちらに　しますか？
+@@BattleFrontier_BattleDomeLobby_Text_SelectThreeMons_hns
+では　エントリー　する　ポケモンを\n3びき　えらんで　ください
+@@BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n3びき　いません\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsEnd_hns
+じゅんびが　できたら\nまた　おこし　ください
+@@BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n3びき　いません\pレベル50　いかの　ちがう\nポケモンが　3びき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome_hns
+それでは　バトルドームへ\nごあんない　いたします
+@@BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting_hns
+もうしわけ　ありません！\pまえかい　レポートを　かかずに\nちょうせんを　やめられましたね\pその　ため　これまでの\nちょうせんは　しっかく\lと　なります
+@@BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney_hns
+バトルトーナメント\nゆうしょう　おめでとう\lございます！
+@@BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize_hns
+ゆうしょうの　しょうひん\nです
+@@BattleFrontier_BattleDomeLobby_Text_ReceivedPrize_hns
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった
+@@BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom_hns
+あら　バッグが\nいっぱいの　ようですね\pバッグを　あけてから\nまた　おこし　ください
+@@BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying_hns
+ありがとう　ございました！
+@@BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved_hns
+きろくを　レポートします\nしょうしょう　おまちください
+@@BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou_hns
+おまち　して　おりました！
+@@BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge_hns2_hns
+バトルドームへ　ごあんない\nする　まえに　レポートを\lかきます　よろしいですか？
+@@BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle_hns
+トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pわたしは　ダブルバトル\nトーナメントの\lあんないがかり　です
+@@BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge_hns
+ダブルバトル　トーナメントに\nちょうせん　しますか？
+@@BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge_hns
+ダブルバトル　トーナメントは\nその　なの　とおり　ダブル\lバトルの　トーナメント　です\pさんかする　トレーナーは\nポケモンを　3びき\lエントリー　します\pしょうぶでは　3びきの　うち\n1ぴきは　ひかえに　します\pのこりの　2ひきで\nダブルバトルを　します\pあいての　3びきを　みてから\nたたかう　2ひきを\lえらんで　ください\p4にんの　トレーナーに　かてば\nゆうしょう　です\pゆうしょう　すると\nバトルポイントが\lもらえます\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50_hns
+まえかいの　レベル50\nシングルバトル　トーナメントの\lけっか　です
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50_hns
+まえかいの　レベル50\nダブルバトル　トーナメントの\lけっか　です
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen_hns
+まえかいの　オープンレベル\nシングルバトル　トーナメントの\lけっか　です
+@@BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen_hns
+まえかいの　オープンレベル\nダブルバトル　トーナメントの\lけっか　です
+@@BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough_hns
+みた？\nまえの　バトルトーナメント\pゆうしょうした　{STR_VAR_1}は\nほんとうに　つよかったよ\pパソコンの　よこの　モニターで\nけっかを　みて　ごらん
+@@BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier_hns
+バトルフロンティア‥\nこんな　ばしょを　ずっと\lゆめみて　いたんだ
+@@BattleFrontier_OutsideWest_Text_BattleDomeSign2_hns
+バトルドーム\nむてきの　スーパースターに\lなれ！
+@@BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction_hns
+？？？？？？\nこうじちゅう！
+@@BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation_hns
+バトルドームで　れんぞく\nゆうしょう　すると\lスターと　よばれる\pその　ひょうばんに　ひかれて\nつよい　トレーナーが\lあつまって　くる\pゆうしょうし　つづけられる\nトレーナーこそ　ほんものの\lスーパースターさ
+@@BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound_hns
+いきなり　1かいせんで\nゆうしょう　こうほに\lあたって　しまった\pもちろん　ぼろまけさ‥
+@@BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully_hns
+この　ポケモンを　ひかえに\nして　いれば　かてたのに\pたたかう　ポケモンを　えらぶ\nまえに　あいての　ポケモンを\lよく　みないと　だめだね
+@@BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker_hns
+おめでとう　ございます！\pドームスーパースターを　たおし\nバトルトーナメントで\lゆうしょう　しました！
+@@BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints_hns
+その　うつくしい　せんりゃくを\nたたえ　バトルポイントを\lさしあげます！
+@@BattleFrontier_BattleDomeLobby_Text_RecordLastMatch_hns
+まえかいの　バトルドームの\nしょうぶを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleDomeLobby_Text_RulesAreListed_hns
+バトルトーナメントの\nルールが　かいてある
+@@BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading_hns
+どの　こうもくを\nよみますか？
+@@BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules_hns
+トーナメントの　くみあわせは\nトレーナーの　ポケモンの\lつよさで　きまります\pつよい　トレーナー　どうしが\nいきなり　あたらない\lように　なって　います
+@@BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree_hns
+トーナメントひょう\nつまり　ツリーは\lひかえしつの　あんないがかりに\lいえば　みられます\pツリーでは　いろいろな\nデータが　わかります\pまえかいの　けっかや\nトレーナーの　ポケモン\lたたかいかたの　とくちょう\lなどが　みられます
+@@BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules_hns
+トーナメントで　おたがいの\nポケモンが　どうじに　たおれたら\pしんぱんが　しょうぶを\nふりかえり　しょうしゃを\lきめます
+## data/maps/BattleFrontier_BattleDomePreBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1_hns
+つぎは　1かいせん　です\nじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2_hns
+つぎは　2かいせん　です\nじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals_hns
+つぎは　じゅんけっしょう　です\nじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals_hns
+つぎは　けっしょう　です\nじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons_hns
+たたかいに　だす　ポケモンを\n2ひき　えらんで　ください
+@@BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay_hns
+こちらへ　どうぞ
+@@BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth_hns
+おつかれさま　でした！\pポケモンを　かいふく\nいたします
+@@BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete_hns
+1かいせんが　すべて\nおわりました\pかちあがった　チームは\nこちら　です！
+@@BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete_hns
+2かいせんが　すべて\nおわりました\pかちあがった　チームは\nこちら　です！
+@@BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete_hns
+じゅんけっしょうが　すべて\nおわりました\pかちあがった　チームは\nこちら　です！
+@@BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2_hns
+1かいせん　とっぱ\nおめでとう　ございます\pつぎは　2かいせん　です\nじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals_hns
+じゅんけっしょう　しんしゅつ\nおめでとう　ございます\pベスト4の　たいけつ　です\nじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals_hns
+けっしょう　しんしゅつ\nおめでとう　ございます\pあと　1しょうで　ゆうしょう\nです　じゅんびは\lいいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer_hns
+{PLAYER}の　つぎの　あいては\nこの　トレーナー　です
+@@BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1_hns
+トーナメントは\n1かいせん　です
+@@BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2_hns
+トーナメントは\n2かいせん　です
+@@BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals_hns
+トーナメントは\nじゅんけっしょう　です
+@@BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals_hns
+トーナメントは\nけっしょう　です
+@@BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame_hns
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge_hns
+バトルトーナメントの\nちょうせんを　リタイア\lしますか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait_hns
+レポートを　かいて　います\nしょうしょう　おまちください
+@@BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch_hns
+さいごの　しょうぶを\nフロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver_hns
+けっしょう　しんしゅつ\nおめでとう　ございます\pけっしょうの　あいては\nドームスーパースターの\lヒース　です\pじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold_hns
+けっしょう　しんしゅつ\nおめでとう　ございます\pけっしょうの　あいては\nドームスーパースターの\lヒース　です\pじゅんびは　いいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver_hnsShort_hns
+つぎは　ヒースとの　けっしょう\nです　じゅんびは\lいいですか？
+@@BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold_hnsShort_hns
+つぎは　ヒースとの　けっしょう\nです　じゅんびは\lいいですか？
+## data/maps/BattleFrontier_BattleDomeBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome_hns
+{PLAYER}が　バトルドームに\nにゅうじょう！
+@@BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer_hns
+{STR_VAR_1}\nしあい！\p{PLAYER}　たい　{STR_VAR_2}！\pしょうぶ　かいし！
+@@BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner_hns
+しょうしゃは　{PLAYER}！\nおめでとう！
+@@BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner_hns
+しょうしゃは　{STR_VAR_2}！\nおめでとう！
+@@BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ_hns
+{PLAYER}が　レベル50\nバトルトーナメントの\lチャンピオン　です！\pおめでとう！
+@@BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp_hns
+{PLAYER}が　オープンレベル\nバトルトーナメントの\lチャンピオン　です！\pおめでとう！
+@@BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait_hns
+なんと　いう　けつまつ！\nダブルノックアウト　です！\pこの　ばあい　ルールにより\nしんぱんが　はんてい\lします\pはんていを　おまち\nください

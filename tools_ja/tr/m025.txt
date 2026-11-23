@@ -1,0 +1,413 @@
+## data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyIntro_hns
+こんにちは！\nおぼっちゃまの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltIntro_hns
+こんにちは！\nからておうの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFIntro_hns
+こんにちは！\nうきわガールの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacIntro_hns
+こんにちは！\nオカルトマニアの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro_hns
+こんにちは！\nポケモンブリーダーの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFIntro_hns
+こんにちは！\nトライアスロンの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMIntro_hns
+こんにちは！\nトライアスロンの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlIntro_hns
+こんにちは！\nバトルガールの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMIntro_hns
+こんにちは！\nトライアスロンの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMIntro_hns
+こんにちは！\nうきわボーイの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro_hns
+こんにちは！\nギタリストの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanIntro_hns
+こんにちは！\nジェントルマンの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMIntro_hns
+こんにちは！\nだいすきクラブの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro_hns
+こんにちは！\nたつじんの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro_hns
+こんにちは！\nたつじんの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerIntro_hns
+こんにちは！\nドラゴンつかいの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperIntro_hns
+こんにちは！\nとりつかいの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro_hns
+こんにちは！\nにんじゃごっこの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro_hns
+こんにちは！\nパラソルおねえさんの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro_hns
+こんにちは！\nむしマニアの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro_hns
+こんにちは！\nふなのりの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorIntro_hns
+こんにちは！\nコレクターの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro_hns
+こんにちは！\nポケモンレンジャーの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro_hns
+こんにちは！\nポケモンレンジャーの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyIntro_hns
+こんにちは！\nアロマなおねえさんの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro_hns
+こんにちは！\nいせきマニアの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro_hns
+こんにちは！\nエリートトレーナーの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro_hns
+こんにちは！\nエリートトレーナーの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacIntro_hns
+こんにちは！\nポケマニアの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro_hns
+こんにちは！\nひふきやろうの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperIntro_hns
+こんにちは！\nキャンプボーイの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro_hns
+こんにちは！\nピクニックガールの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMIntro_hns
+こんにちは！\nサイキッカーの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFIntro_hns
+こんにちは！\nサイキッカーの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFIntro_hns
+こんにちは！\nじゅくがえりの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro_hns
+こんにちは！\nポケモンブリーダーの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFIntro_hns
+こんにちは！\nだいすきクラブの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFIntro_hns
+こんにちは！\nビキニのおねえさんの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro_hns
+こんにちは！\nトライアスロンの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFIntro_hns
+こんにちは！\nトライアスロンの　{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるわね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject_hns
+ざんねん‥\nいい　コンビに　なれたのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMIntro_hns
+こんにちは！\nかいパンやろうの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon1_hns
+つれて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pいっしょに　タッグを\nくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMAccept_hns
+ありがとう！\nすぐ　うけつけ　してくるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject_hns
+ざんねん‥\nいい　コンビに　なれたのに

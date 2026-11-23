@@ -440,63 +440,49 @@ BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft_hns:
 	step_end
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet_hns:
-	.string "The 2nd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　2くみめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet_hns:
-	.string "The 3rd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　3くみめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet_hns:
-	.string "The 4th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　4くみめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet_hns:
-	.string "The 5th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　5くみめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet_hns:
-	.string "The 6th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　6くみめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet_hns:
-	.string "The 7th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "つぎは　7くみめの　あいてです\nじゅんびは　いいですか？$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext_hns:
-	.string "The 2nd set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "つぎは　2くみめの　あいてです\nがんばって　ください！$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext_hns:
-	.string "The 3rd set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "つぎは　3くみめの　あいてです\nがんばって　ください！$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext_hns:
-	.string "The 4th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "つぎは　4くみめの　あいてです\nがんばって　ください！$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext_hns:
-	.string "The 5th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "つぎは　5くみめの　あいてです\nがんばって　ください！$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext_hns:
-	.string "The 6th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "つぎは　6くみめの　あいてです\nがんばって　ください！$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext_hns:
-	.string "The 7th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "つぎは　7くみめの　あいてです\nがんばって　ください！$"
 
 gText_LinkStandby3_hns::
-	.string "Link standby…$"
+	.string "つうしん　たいきちゅう‥$"
 
 gText_YourPartnerHasRetired_hns::
-	.string "Your partner has retired.\p"
-	.string "Your BATTLE ROOM challenge\n"
-	.string "will be canceled.$"
+	.string "パートナーが　リタイア\nしました\pバトルルームの　ちょうせんは\nちゅうし　と　なります$"

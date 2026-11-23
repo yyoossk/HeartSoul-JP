@@ -438,250 +438,132 @@ BattleFrontier_BattleDomeLobby_EventScript_ExitRules_hns::
 	end
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle_hns:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the SINGLE BATTLE\n"
-	.string "Tournament.$"
+	.string "トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pわたしは　シングルバトル\nトーナメントの\lあんないがかり　です$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge_hns:
-	.string "Would you like to challenge\n"
-	.string "the SINGLE BATTLE Tournament?$"
+	.string "シングルバトル　トーナメントに\nちょうせん　しますか？$"
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain_hns:
-	.string "We hope to see you again.$"
+	.string "また　おこし　ください$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge_hns:
-	.string "The SINGLE BATTLE Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of SINGLE BATTLES.\p"
-	.string "All participating TRAINERS must\n"
-	.string "enter three POKéMON each.\p"
-	.string "In each battle, one of the three\n"
-	.string "POKéMON must be held in reserve.\p"
-	.string "The other two POKéMON can battle\n"
-	.string "one at a time.\p"
-	.string "Choose the two battling POKéMON after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four TRAINERS.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "シングルバトル　トーナメントは\nその　なの　とおり　シングル\lバトルの　トーナメント　です\pさんかする　トレーナーは\nポケモンを　3びき\lエントリー　します\pしょうぶでは　3びきの　うち\n1ぴきは　ひかえに　します\pのこりの　2ひきが　1ぴきずつ\nたたかいます\pあいての　3びきを　みてから\nたたかう　2ひきを\lえらんで　ください\p4にんの　トレーナーに　かてば\nゆうしょう　です\pゆうしょう　すると\nバトルポイントが\lもらえます\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge_hns:
-	.string "Before I show you to the BATTLE DOME,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "バトルドームへ　ごあんない\nする　まえに　レポートを\lかきます　よろしいですか？$"
 
 BattleFrontier_BattleDomeLobby_Text_WhichLevelMode_hns:
-	.string "The tournament offers two levels\n"
-	.string "of challenge, Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "トーナメントには　レベル50と\nオープンレベルの　2つの\lクラスが　あります\lどちらに　しますか？$"
 
 BattleFrontier_BattleDomeLobby_Text_SelectThreeMons_hns:
-	.string "Now select the three POKéMON that\n"
-	.string "you wish to enter, please.$"
+	.string "では　エントリー　する　ポケモンを\n3びき　えらんで　ください$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen_hns:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible POKéMON.\p"
-	.string "Also, the POKéMON must be holding\n"
-	.string "different kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "もうしわけ　ありません！\pさんか　できる　ポケモンが\n3びき　いません\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsEnd_hns:
-	.string "Please come see me when you are ready.$"
+	.string "じゅんびが　できたら\nまた　おこし　ください$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50_hns:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible POKéMON.\p"
-	.string "You must have three different POKéMON\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "もうしわけ　ありません！\pさんか　できる　ポケモンが\n3びき　いません\pレベル50　いかの　ちがう\nポケモンが　3びき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome_hns:
-	.string "I will now show you to\n"
-	.string "the BATTLE DOME.$"
+	.string "それでは　バトルドームへ\nごあんない　いたします$"
 
 BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting_hns:
-	.string "Excuse me!\p"
-	.string "You didn't save before you quit your\n"
-	.string "challenge last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. Sorry!$"
+	.string "もうしわけ　ありません！\pまえかい　レポートを　かかずに\nちょうせんを　やめられましたね\pその　ため　これまでの\nちょうせんは　しっかく\lと　なります$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney_hns:
-	.string "Congratulations for winning\n"
-	.string "your Battle Tournament!$"
+	.string "バトルトーナメント\nゆうしょう　おめでとう\lございます！$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize_hns:
-	.string "Here is your prize for your Battle\n"
-	.string "Tournament victory.$"
+	.string "ゆうしょうの　しょうひん\nです$"
 
 @ Used by Verdanturf Tent
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize_hns:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom_hns:
-	.string "Oh, your BAG appears to be full.\p"
-	.string "Please make room in your BAG, then come\n"
-	.string "see me.$"
+	.string "あら　バッグが\nいっぱいの　ようですね\pバッグを　あけてから\nまた　おこし　ください$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying_hns:
-	.string "Thank you for playing!$"
+	.string "ありがとう　ございました！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved_hns:
-	.string "Your record will be saved.\n"
-	.string "Please wait.$"
+	.string "きろくを　レポートします\nしょうしょう　おまちください$"
 
 BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou_hns:
-	.string "We've been waiting for you!$"
+	.string "おまち　して　おりました！$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge_hns2_hns:
-	.string "Before I show you to the BATTLE DOME,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "バトルドームへ　ごあんない\nする　まえに　レポートを\lかきます　よろしいですか？$"
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle_hns:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the DOUBLE BATTLE\n"
-	.string "Tournament.$"
+	.string "トレーナーの　せんりゃくが\nためされる　ばしょ！\pバトルドームへ　ようこそ！\pわたしは　ダブルバトル\nトーナメントの\lあんないがかり　です$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge_hns:
-	.string "Would you like to challenge\n"
-	.string "the DOUBLE BATTLE Tournament?$"
+	.string "ダブルバトル　トーナメントに\nちょうせん　しますか？$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge_hns:
-	.string "The DOUBLE BATTLE Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of DOUBLE BATTLES.\p"
-	.string "All participating TRAINERS must\n"
-	.string "enter three POKéMON each.\p"
-	.string "In each battle, one of the three\n"
-	.string "POKéMON must be held in reserve.\p"
-	.string "The remaining two POKéMON must take\n"
-	.string "part in a DOUBLE BATTLE.\p"
-	.string "Choose the two battling POKéMON after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four TRAINERS.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "ダブルバトル　トーナメントは\nその　なの　とおり　ダブル\lバトルの　トーナメント　です\pさんかする　トレーナーは\nポケモンを　3びき\lエントリー　します\pしょうぶでは　3びきの　うち\n1ぴきは　ひかえに　します\pのこりの　2ひきで\nダブルバトルを　します\pあいての　3びきを　みてから\nたたかう　2ひきを\lえらんで　ください\p4にんの　トレーナーに　かてば\nゆうしょう　です\pゆうしょう　すると\nバトルポイントが\lもらえます\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50_hns:
-	.string "They're the results of the last\n"
-	.string "Level 50 SINGLE BATTLE Tournament.$"
+	.string "まえかいの　レベル50\nシングルバトル　トーナメントの\lけっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50_hns:
-	.string "They're the results of the last\n"
-	.string "Level 50 DOUBLE BATTLE Tournament.$"
+	.string "まえかいの　レベル50\nダブルバトル　トーナメントの\lけっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen_hns:
-	.string "They're the results of the last\n"
-	.string "Open Level SINGLE BATTLE Tournament.$"
+	.string "まえかいの　オープンレベル\nシングルバトル　トーナメントの\lけっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen_hns:
-	.string "They're the results of the last\n"
-	.string "Open Level DOUBLE BATTLE Tournament.$"
+	.string "まえかいの　オープンレベル\nダブルバトル　トーナメントの\lけっか　です$"
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough_hns:
-	.string "Did you see it?\n"
-	.string "The last Battle Tournament?\p"
-	.string "The winner, {STR_VAR_1}, was seriously\n"
-	.string "tough.\p"
-	.string "You should check out the results\n"
-	.string "on the monitor beside the PC.$"
+	.string "みた？\nまえの　バトルトーナメント\pゆうしょうした　{STR_VAR_1}は\nほんとうに　つよかったよ\pパソコンの　よこの　モニターで\nけっかを　みて　ごらん$"
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier_hns:
-	.string "The BATTLE FRONTIER…\n"
-	.string "I've long dreamed about a place like it.$"
+	.string "バトルフロンティア‥\nこんな　ばしょを　ずっと\lゆめみて　いたんだ$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_BattleDomeSign2_hns:
-	.string "The BATTLE DOME\n"
-	.string "Become the Unbeatable Superstar!$"
+	.string "バトルドーム\nむてきの　スーパースターに\lなれ！$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction_hns:
-	.string "The ??????\n"
-	.string "Under Construction!$"
+	.string "？？？？？？\nこうじちゅう！$"
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation_hns:
-	.string "When a TRAINER chains tournament\n"
-	.string "wins at the BATTLE DOME, he or she\l"
-	.string "gains a reputation as a star.\p"
-	.string "Tough TRAINERS are drawn by that\n"
-	.string "reputation to the BATTLE DOME.\p"
-	.string "A true superstar is a TRAINER who\n"
-	.string "can keep winning tournaments.$"
+	.string "バトルドームで　れんぞく\nゆうしょう　すると\lスターと　よばれる\pその　ひょうばんに　ひかれて\nつよい　トレーナーが\lあつまって　くる\pゆうしょうし　つづけられる\nトレーナーこそ　ほんものの\lスーパースターさ$"
 
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound_hns:
-	.string "I ran into one of the tournament\n"
-	.string "favorites in the very first round.\p"
-	.string "Of course I got trashed…$"
+	.string "いきなり　1かいせんで\nゆうしょう　こうほに\lあたって　しまった\pもちろん　ぼろまけさ‥$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully_hns:
-	.string "I would've won if I'd kept this POKéMON\n"
-	.string "held in reserve.\p"
-	.string "You need to check your opponent's\n"
-	.string "POKéMON carefully before choosing\l"
-	.string "your battling POKéMON.$"
+	.string "この　ポケモンを　ひかえに\nして　いれば　かてたのに\pたたかう　ポケモンを　えらぶ\nまえに　あいての　ポケモンを\lよく　みないと　だめだね$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker_hns:
-	.string "Congratulations!\p"
-	.string "You defeated the DOME ACE and won\n"
-	.string "the Battle Tournament!$"
+	.string "おめでとう　ございます！\pドームスーパースターを　たおし\nバトルトーナメントで\lゆうしょう　しました！$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints_hns:
-	.string "In recognition of your strategy--\n"
-	.string "a thing of beauty it was, too--\l"
-	.string "we award you these Battle Point(s)!$"
+	.string "その　うつくしい　せんりゃくを\nたたえ　バトルポイントを\lさしあげます！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch_hns:
-	.string "Would you like to record your\n"
-	.string "last BATTLE DOME match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "まえかいの　バトルドームの\nしょうぶを　フロンティアパスに\lきろく　しますか？$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed_hns:
-	.string "The Battle Tournament rules\n"
-	.string "are listed.$"
+	.string "バトルトーナメントの\nルールが　かいてある$"
 
 BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading_hns:
-	.string "Which heading do you want to read?$"
+	.string "どの　こうもくを\nよみますか？$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules_hns:
-	.string "The tournament matchups are drawn up\n"
-	.string "based on the toughness of POKéMON\l"
-	.string "held by TRAINERS.\p"
-	.string "The matchups avoid having tough\n"
-	.string "TRAINERS face each other right away.$"
+	.string "トーナメントの　くみあわせは\nトレーナーの　ポケモンの\lつよさで　きまります\pつよい　トレーナー　どうしが\nいきなり　あたらない\lように　なって　います$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree_hns:
-	.string "The tournament chart, or as we call it,\n"
-	.string "the “Tree,” is available for viewing\l"
-	.string "in the Waiting Room from any guide.\p"
-	.string "The Tournament Tree will provide\n"
-	.string "several kinds of data.\p"
-	.string "The data on view includes the previous\n"
-	.string "tournament's results, the POKéMON held\l"
-	.string "by TRAINERS, and the battle styles of\l"
-	.string "TRAINERS.$"
+	.string "トーナメントひょう\nつまり　ツリーは\lひかえしつの　あんないがかりに\lいえば　みられます\pツリーでは　いろいろな\nデータが　わかります\pまえかいの　けっかや\nトレーナーの　ポケモン\lたたかいかたの　とくちょう\lなどが　みられます$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules_hns:
-	.string "If battling POKéMON faint at the same\n"
-	.string "time--a double KO--in a tournament\l"
-	.string "match, the REFEREES will review\l"
-	.string "the match and declare the winner.$"
+	.string "トーナメントで　おたがいの\nポケモンが　どうじに　たおれたら\pしんぱんが　しょうぶを\nふりかえり　しょうしゃを\lきめます$"

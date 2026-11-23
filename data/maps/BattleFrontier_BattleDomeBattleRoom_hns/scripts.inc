@@ -924,39 +924,25 @@ BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit_hns:
 	step_end
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome_hns:
-	.string "{PLAYER} has entered the BATTLE DOME!$"
+	.string "{PLAYER}が　バトルドームに\nにゅうじょう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer_hns:
-	.string "{STR_VAR_1}\n"
-	.string "match!\p"
-	.string "{PLAYER} versus {STR_VAR_2}!\p"
-	.string "Let the battle begin!$"
+	.string "{STR_VAR_1}\nしあい！\p{PLAYER}　たい　{STR_VAR_2}！\pしょうぶ　かいし！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner_hns:
-	.string "{PLAYER} is the winner!\n"
-	.string "Congratulations!$"
+	.string "しょうしゃは　{PLAYER}！\nおめでとう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner_hns:
-	.string "{STR_VAR_2} is the winner!\n"
-	.string "Congratulations!$"
+	.string "しょうしゃは　{STR_VAR_2}！\nおめでとう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ_hns:
-	.string "{PLAYER} is the Level 50\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "{PLAYER}が　レベル50\nバトルトーナメントの\lチャンピオン　です！\pおめでとう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp_hns:
-	.string "{PLAYER} is the Open Level\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "{PLAYER}が　オープンレベル\nバトルトーナメントの\lチャンピオン　です！\pおめでとう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait_hns:
-	.string "What an unbelievable finish!\n"
-	.string "We have a double knockout!\p"
-	.string "In this event, the Battle Tournament\n"
-	.string "rules call for a REFEREE'S decision.\p"
-	.string "Please wait while the judging\n"
-	.string "is under way.$"
+	.string "なんと　いう　けつまつ！\nダブルノックアウト　です！\pこの　ばあい　ルールにより\nしんぱんが　はんてい\lします\pはんていを　おまち\nください$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer_hns:
 	.string "The REFEREES have reached\n"
