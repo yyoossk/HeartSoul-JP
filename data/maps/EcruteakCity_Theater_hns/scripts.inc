@@ -106,25 +106,16 @@ EcruteakCity_Theater_Movement_KimonoGirlMoveBack:
 	step_end
 
 EcruteakCity_Theater_Text_Rocket1:
-	.string "ROCKET: Stop dancing such a serious\n"
-	.string "dance! Show me something like\l"
-	.string "a hula dance!$"
+	.string "ロケットだん『そんな　まじめな\nおどりは　やめろ！\lフラダンスでも　おどれよ！$"
 
 EcruteakCity_Theater_Text_KimonoRocket1:
-	.string "KIMONO GIRL: ...You mustn't push\n"
-	.string "such a request on me.$"
+	.string "まいこはん『‥そのような\nむりを　いわれましても\lこまります$"
 
 EcruteakCity_Theater_Text_Rocket2:
-	.string "ROCKET: Huh?\p"
-	.string "Are you telling me you don't\n"
-	.string "respect what the customer\l"
-	.string "wants?$"
+	.string "ロケットだん『はあ？\pおきゃくの　ようぼうを\nきけないって　いうのか？$"
 
 EcruteakCity_Theater_Text_Rocket3:
-	.string "Well, then I'll show you how\n"
-	.string "to dance. I'll show you a\l"
-	.string "great one.\p"
-	.string "Wahahaha!$"
+	.string "じゃあ　おれが　おどりかたを\nおしえて　やるよ\lすごいのを　みせて　やる\pわははは！$"
 
 EcruteakCity_Theater_EventScript_Rocket::
 	lock
@@ -178,32 +169,16 @@ EcruteakCity_Theater_Movement_RocketLeave:
 	step_end
 
 EcruteakCity_Theater_Text_RocketSeen:
-	.string "Huh? Who are you?\n"
-	.string "You dare to get in my way?$"
+	.string "ん？　だれだ　おまえ？\nおれの　じゃまを　するのか？$"
 
 EcruteakCity_Theater_Text_RocketBeaten:
-	.string "Oh, no!\n"
-	.string "You make me look like a\l"
-	.string "villain!$"
+	.string "しまった！\nおれが　わるもの　みたいに\lなっちまった！$"
 
 EcruteakCity_Theater_Text_RocketAfter:
-	.string "Oops! I have an important mission!\n"
-	.string "If they find out I was wasting\l"
-	.string "time here, they'll make me start\l"
-	.string "over as the lowest ROCKET GRUNT!\p"
-	.string "I better leave now!$"
+	.string "おっと！　だいじな\nにんむが　あるんだった！\lここで　あそんでたと\lばれたら　したっぱから\lやりなおしだ！\pもう　いかなきゃ！$"
 
 EcruteakCity_Theater_Text_KimonoRocket3:
-	.string "You must be {PLAYER},\n"
-	.string "correct? That was indeed\l"
-	.string "excellent.\p"
-	.string "Kind and strong... Good at\n"
-	.string "raising POKéMON as well...\p"
-	.string "That person does know what\n"
-	.string "to look for in people...\p"
-	.string "Ohoho! That was just me\n"
-	.string "talking to myself.\l"
-	.string "Never mind.$"
+	.string "{PLAYER}さん\nですね？　おみごと\lでした\pやさしく　つよく‥\nポケモンを　そだてるのも\lおじょうず‥\pあの　かたの　ひとを\nみる　めは　たしかですね‥\pおほほ！　ただの\nひとりごと　です\lおきに　なさらず$"
 
 
 EcruteakCity_Theater_EventScript_KimonoGirl::
@@ -245,13 +220,7 @@ EcruteakCity_Theater_EventScript_ZukiDuringRocket::
 	end
 
 EcruteakCity_Theater_Text_Kimono:
-	.string "For KIMONO GIRLS like me,\n"
-	.string "dancing is everything.\p"
-	.string "I have never gone a day\n"
-	.string "without a dance practice.\p"
-	.string "POKéMON are the same.\n"
-	.string "They grow with you little\l"
-	.string "by little each day.$"
+	.string "わたくしたち　まいこはんに\nとって　おどりは\lすべて　です\pいちにちも　おどりの　けいこを\nかかした　ことは\lありません\pポケモンも　おなじ\nひび　すこしずつ　ともに\lせいちょう　するのです$"
 
 EcruteakCity_Theater_EventScript_SurfGuy::
 	lock
@@ -400,23 +369,13 @@ EcruteakCity_Theater_Movement_SurfGuy2:
 	step_end
 
 EcruteakCity_Theater_Text_SurfGuyRocket:
-	.string "What's the deal with that\n"
-	.string "Team Rocket Grunt, messing\l"
-	.string "with that KIMONO GIRL?\p"
-	.string "You are a Trainer, right?\n"
-	.string "Please help her!$"
+	.string "あの　ロケットだんの　したっぱ\nまいこはんに　なにを\lして　いるんだ？\pきみ　トレーナー\nだろ？　たすけて\lあげて　くれ！$"
 
 EcruteakCity_Theater_Text_SurfGuyGiveSurf:
-	.string "Wonderful! You were so\n"
-	.string "courageous for your age!\p"
-	.string "It was a rare sight to see!\n"
-	.string "I want you to have this.\p"
-	.string "Don't be shy--take it!$"
+	.string "すばらしい！　その　としで\nなんと　ゆうかんな！\pいい　ものを　みせて\nもらった！　これを\lうけとって　くれ\pえんりょ　しないで！$"
 
 EcruteakCity_Theater_Text_SurfGuyGaveSurf:
-	.string "That's SURF.\n"
-	.string "It's a move that lets POKéMON\l"
-	.string "swim across water with ease.$"
+	.string "それは　なみのり\nポケモンが　みずの　うえを\lらくらく　およげる　わざだ$"
 
 EcruteakCity_Theater_Text_SurfGuyAfter:
 	.string "Not only are the KIMONO GIRLS\n"

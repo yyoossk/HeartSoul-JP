@@ -88,101 +88,70 @@ GoldenrodCity_RadioTower_4F4_EventScript_Meowth::
 
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_Seen:
-	.string "PROTON: Now wait just one second!\p"
-	.string "Aren't you the one who got in our\n"
-	.string "way at SLOWPOKE WELL?\p"
-	.string "I see... You're doing all this\n"
-	.string "because you want to make me angry.\l"
-	.string "Be careful!\p"
-	.string "But since you seem to wish it, I'll\n"
-	.string "show you the full extent of a TEAM\l"
-	.string "ROCKET EXECUTIVE's wrath!$"
+	.string "ランス『ちょっと　まちな！\pおまえ　ヤドンのいどで\nじゃまを　した　やつだな？\pなるほど‥　わたしを\nおこらせたくて　こんな\lことを　しているのか\lきを　つけたまえ！\pのぞみ　どおり　ロケットだん\nかんぶの　いかりを\lみせて　あげよう！$"
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_Beaten:
-	.string "Phew...$"
+	.string "ふう‥$"
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_After:
-	.string "PROTON: You may have won this\n"
-	.string "time... But all you did was make\p"
-	.string "TEAM ROCKET's wrath grow.$"
+	.string "ランス『こんかいは　まけたが‥\nおまえは　ロケットだんの\pいかりを　ふくらませた\nだけだ$"
 
 GoldenrodCity_RadioTower_4F4_Text_Fisher:
-	.string "I listened to the radio while I was\n"
-	.string "at the RUINS.\p"
-	.string "I heard a strange broadcast there.$"
+	.string "いせきで　ラジオを\nきいて　いたら\pへんな　ほうそうが\nきこえたんだ$"
 
 GoldenrodCity_RadioTower_4F4_Text_DJMary:
-	.string "MARY: Why? Why do I have to suffer\n"
-	.string "through this?\p"
-	.string "MEOWTH, help me!$"
+	.string "クルミ『なんで？　なんで\nこんな　めに　あうの？\pニャース　たすけて！$"
 
 GoldenrodCity_RadioTower_4F4_Text_DJMaryCleared:
-	.string "MARY: Oh! You're my little savior!\p"
-	.string "Will you take this as my thanks?$"
+	.string "クルミ『わあ！　あなたが\nたすけて　くれたのね！\pおれいに　これ\nうけとって？$"
 
 GoldenrodCity_RadioTower_4F4_Text_DJMaryPinkBow:
-	.string "MARY: It's good for dodging the\n"
-	.string "enemy's attacks.$"
+	.string "クルミ『あいての　こうげきを\nよけるのに　やくだつのよ$"
 
 GoldenrodCity_RadioTower_4F4_Text_DJMaryAfter:
-	.string "MARY: Please tune into me on PROF.\n"
-	.string "OAK'S POKéMON TALK show!$"
+	.string "クルミ『オーキドはかせの\nポケモンこうざ　きいてね！$"
 
 GoldenrodCity_RadioTower_4F4_Text_Meowth:
-	.string "MEOWTH: Meowth…$"
+	.string "ニャース『ニャース‥$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10Seen:
-	.string "You plan to rescue the DIRECTOR?\p"
-	.string "That won't be possible because I'm\n"
-	.string "going to beat you!$"
+	.string "きょくちょうを　たすける\nつもりか？\pむりだな　おれが\nおまえを　たおすからな！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10Beaten:
-	.string "No! Unbelievable!$"
+	.string "そんな！　しんじられん！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10After:
-	.string "I don't believe it! I was beaten!$"
+	.string "しんじられない！\nおれが　まけた！$"
 
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Seen:
-	.string "Stop! I'm known as the TEAM ROCKET\n"
-	.string "fortress!\p"
-	.string "You're not taking another step!$"
+	.string "とまれ！　おれは\nロケットだんの　ようさいと\lよばれる　おとこ！\pここから　さきへは\nいっぽも　とおさん！$"
 
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Beaten:
-	.string "The fortress came down!$"
+	.string "ようさいが　くずれた！$"
 
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2After:
-	.string "You've earned my respect, so here's\n"
-	.string "some advice.\p"
-	.string "It's not too late. You can still turn\n"
-	.string "back.$"
+	.string "みとめて　やる\nだから　ちゅうこくだ\pまだ　まにあう\nひきかえすんだな$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Seen:
-	.string "Don't I think POKéMON are cute?\p"
-	.string "I'll think my POKéMON are cute--\p"
-	.string "after they beat yours!$"
+	.string "ポケモンが　かわいいか\nですって？\pわたしの　ポケモンが\nあんたのを　たおしたら‥\pかわいいと　おもって\nあげるわ！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Beaten:
-	.string "Oh, no! They're so useless!$"
+	.string "いやー！\nほんと　やくたたず！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4After:
-	.string "I love my beautiful self!\p"
-	.string "Who cares about POKéMON?$"
+	.string "うつくしい　わたしが\nだいすき！\pポケモン　なんて\nどうでも　いいわ$"
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichSeen:
-	.string "Most excellent.\p"
-	.string "This RADIO TOWER will fulfill our\n"
-	.string "grand design.$"
+	.string "すばらしい\pこの　ラジオとうで\nわれらの　けいかくが\lじつげん　する$"
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichBeaten:
-	.string "Hmmm…\p"
-	.string "All grand plans come with snags.$"
+	.string "ふむ‥\pおおきな　けいかくには\nじゃまが　つきものか$"
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichAfter:
-	.string "Do you honestly believe you can stop\n"
-	.string "TEAM ROCKET?$"
+	.string "ほんとうに　ロケットだんを\nとめられると　おもって\lいるのか？$"
 
 GoldenrodCity_RadioTower_4F4_Text_ProductionSign:
-	.string "4F PRODUCTION$"
+	.string "4F　せいさくぶ$"
 
 GoldenrodCity_RadioTower_4F4_Text_Studio2Sign:
-	.string "4F STUDIO 2$"
+	.string "4F　だい2スタジオ$"

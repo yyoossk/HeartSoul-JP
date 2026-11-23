@@ -27,15 +27,10 @@ GoldenrodDeptStore3_EventScript_Rocker::
 	end
 
 GoldenrodDeptStore_Text_3FSuperNerd:
-    .string "I, I, I'm really impatient!\p"
-    .string "I use X SPEED in battle to speed up\n"
-    .string "my POKéMON.$"
+	.string "ぼ　ぼ　ぼくは\nせっかち　なんだ！\pしょうぶでは　スピーダーで\nポケモンを　はやく　するよ$"
 
 GoldenrodDeptStore_Text_3FRocker:
-    .string "Hey! When you battle, do you use X\n"
-    .string "SPECIAL?\p"
-    .string "It's awesome. It really jacks up\n"
-    .string "SPECIAL ATTACK!$"
+	.string "よう！　しょうぶで\nスペシャルアップ　つかってる？\pすごいぜ　とくこうが\nぐーんと　あがるんだ！$"
 
 GoldenrodDeptStore3_EventScript_Clerk::
 	lock
@@ -59,5 +54,4 @@ GoldenrodDeptStore3_Pokemart:
 	pokemartlistend
 
 GoldenrodDeptStore_Text_3FDirectory:
-    .string "For Victory Seekers\p"
-    .string "3F BATTLE COLLECTION$"
+	.string "しょうりを　めざす　かたへ\p3F　バトルコレクション$"

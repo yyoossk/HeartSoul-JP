@@ -16,11 +16,7 @@ GoldenrodDeptStore6_EventScript_Whitney::
 	end
 
 GoldenrodDeptStore6_Text_Whitney:
-	.string "{PLAYER}! Fancy seeing you here!\p"
-	.string "I'm picking up something for\n"
-	.string "my MILTANK.\p"
-	.string "If you want another battle, come to\n"
-	.string "the FIGHTING DOJO!$"
+	.string "{PLAYER}！\nこんな　とこで　あうなんて！\pミルタンクの　ための\nかいものに　きたんよ\pまた　しょうぶ　したいなら\nかくとうどうじょうに　きてな！$"
 
 GoldenrodCity_DepartmentStore_6F_EventScript_Jose::
 	lock
@@ -48,24 +44,19 @@ GoldenrodCity_DepartmentStore_6F_EventScript_TradeCompleted::
 	end
 
 GoldenrodCity_DepartmentStore_6F_Text_YouWillTradeWontYou:
-	.string "I collect POKéMON!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "ポケモン　あつめてるの！\n{STR_VAR_1}　もってない？\pわたしの　{STR_VAR_2}と\nこうかん　しない？$"
 
 GoldenrodCity_DepartmentStore_6F_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "やったー！\n{STR_VAR_1}　ゲット！\p{STR_VAR_2}\nげんきでね！$"
 
 GoldenrodCity_DepartmentStore_6F_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "えー　ちがうよ\nそれ　{STR_VAR_1}じゃ　ないもん$"
 
 GoldenrodCity_DepartmentStore_6F_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
+	.string "こうかん　しないの？\nざんねん‥$"
 
 GoldenrodCity_DepartmentStore_6F_Text_After:
-	.string "Hi, how's my old MACHOP doing?$"
+	.string "ねえ　まえの\nワンリキー　げんき？$"
 
 
 GoldenrodDeptStore6_EventScript_Lass::
@@ -93,19 +84,10 @@ GoldenrodDeptStore6_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_6FLass:
-    .string "Do you listen to LUCKY CHANNEL?\p"
-    .string "They say if you want to win,\n"
-	.string "you should trade POKéMON with as\l"
-    .string "many people as possible to get\l"
-    .string "different ID numbers.\p"
-	.string "However, trading isn't as widely\n"
-	.string "available as it once was.$"
+	.string "ラッキーチャンネル\nきいてる？\pあてたい　なら　たくさんの\nひとと　こうかん　して\lいろんな　IDを　あつめると\lいいんだって\pでも　いまは　むかしほど\nこうかん　できないのよね$"
 
 GoldenrodDeptStore_Text_6FSuperNerd:
-    .string "If you're tired, try the vending\n"
-    .string "machine's drinks.\p"
-    .string "Your POKéMON will love them too.$"
+	.string "つかれたら　じどうはんばいきの\nのみものを　どうぞ\pポケモンも\nよろこぶよ$"
 
 GoldenrodDeptStore_Text_6FDirectory:
-    .string "Take a Break from Shopping!\p"
-    .string "6F TRANQUIL SQUARE$"
+	.string "かいものの　ひとやすみに！\p6F　いこいの　ひろば$"

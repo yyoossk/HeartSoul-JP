@@ -72,38 +72,25 @@ GoldenrodDeptStore7_EventScript_Bugcatcher::
 	end
 
 GoldenrodDeptStore_Text_RoofPokefanF:
-    .string "Whew, I'm tired.\p"
-    .string "I sometimes come up to the rooftop\n"
-    .string "to take a break from shopping.$"
+	.string "ふう　つかれた\pときどき　おくじょうで\nかいものの　ひとやすみ\lするのよ$"
 
 GoldenrodDeptStore_Text_RoofFisher:
-    .string "Pardon? Who says an adult can't get\n"
-    .string "into this?\p"
-    .string "I'm going to be back every day to\n"
-    .string "collect all the dolls!$"
+	.string "え？　おとなが　むちゅうに\nなっちゃ　だめかい？\pにんぎょうを　ぜんぶ\nあつめる　ために\lまいにち　くるぞ！$"
 
 GoldenrodDeptStore_Text_RoofTwin:
-    .string "They have bargain sales here every\n"
-    .string "so often.$"
+	.string "ここでは　ときどき\nバーゲンを　やってるの$"
 
 GoldenrodDeptStore_Text_RoofSuperNerdOhWow:
-    .string "Oh, wow!$"
+	.string "うわあ！$"
 
 GoldenrodDeptStore_Text_RoofSuperNerdQuitBotheringMe:
-    .string "Will you quit bothering me?$"
+	.string "じゃま　しないで\nくれる？$"
 
 GoldenrodDeptStore_Text_RoofPokefanM:
-    .string "There's something I really want,\n"
-    .string "but I don't have the necessary cash…\p"
-    .string "Maybe I'll sell off the BERRIES I've\n"
-    .string "collected…$"
+	.string "ほしい　ものが　あるんだが\nおかねが　たりなくて‥\pあつめた　きのみでも\nうろうかな‥$"
 
 GoldenrodDeptStore_Text_RoofTeacher:
-    .string "Oh, everything is so cheap!\p"
-    .string "I bought so much, my PACK's crammed!$"
+	.string "まあ　なんでも　やすい！\pかいすぎて　バッグが\nぱんぱんよ！$"
 
 GoldenrodDeptStore_Text_RoofBugCatcher:
-    .string "My POKéMON always get paralyzed or\n"
-    .string "poisoned when the chips are down…\p"
-    .string "So I came to buy some FULL HEAL.\p"
-    .string "I wonder if there's any left?$"
+	.string "だいじな　ときに　かぎって\nポケモンが　まひや　どくに\lなるんだ‥\pだから　なんでもなおしを\nかいに　きたんだ\pまだ　のこってるかな？$"

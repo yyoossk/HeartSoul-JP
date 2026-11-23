@@ -97,46 +97,20 @@ EcruteakCity_PokemonCenter_Movement_BillBot:
 
 
 EcruteakCity_PokemonCenter1F_Text_Bill1:
-	.string "Hi, I'm BILL. And who are you?\p"
-	.string "Hmm, {PLAYER}, huh?\n"
-	.string "You've come at the right time.$"
+	.string "わい　マサキや\nあんたは　だれや？\pふーん　{PLAYER}か\nええ　ときに　きたな$"
 
 EcruteakCity_PokemonCenter1F_Text_Bill2:
-	.string "I just finished adjustments on my\n"
-	.string "POKéMON STORAGE SYSTEM.\p"
-	.string "You know that PC you use to store\n"
-	.string "all your POKéMON?\p"
-	.string "I developed that myself!\p"
-	.string "Now that I've installed this one,\n"
-	.string "my PC is running at all\l"
-	.string "POKéMON CENTERS in JOHTO and KANTO.\p"
-	.string "I have to hurry on back to\n"
-	.string "GOLDENROD and see my folks. Feel\l"
-	.string "free to visit anytime!\p"
-	.string "Buh-bye!$"
+	.string "いま　ポケモンあずかり\nシステムの　ちょうせいが\lおわった　とこや\pポケモンを　あずける\nパソコン　あるやろ？\pあれ　わいが\nつくったんやで！\pこれで　ジョウトと　カントーの\nポケモンセンター　ぜんぶで\lわいの　システムが　うごくで\pコガネに　かえって\nおやに　かお　みせな\lあかん　いつでも\lあそびに　きてや！\pほな　さいなら！$"
 
 EcruteakCity_PokemonCenter1F_Text_PokefanM:
-	.string "The way the KIMONO GIRLS dance is\n"
-	.string "marvelous.\p"
-	.string "Just like the way they use their\n"
-	.string "POKéMON.$"
+	.string "まいこはんの　おどりは\nすばらしい\pポケモンの\nあつかいかたも　な$"
 
 EcruteakCity_PokemonCenter1F_Text_PokefanM_Mobile:
-	.string "You must be hoping to battle more\n"
-	.string "people, right?\p"
-	.string "There's apparently some place where\n"
-	.string "trainers gather.\p"
-	.string "Where, you ask?\p"
-	.string "It's a little past OLIVINE CITY.$"
+	.string "もっと　たくさんの　ひとと\nたたかいたい　だろ？\pトレーナーが　あつまる\nばしょが　あるらしい\pどこかって？\pアサギシティの\nすこし　さきさ$"
 
 EcruteakCity_PokemonCenter1F_Text_CooltrainerF:
-	.string "MORTY, the GYM LEADER, is soooo\n"
-	.string "cool.\p"
-	.string "His POKéMON are really tough too.$"
+	.string "ジムリーダーの　マツバさん\nすっごく　かっこいいの\pポケモンも　すごく\nつよいのよ$"
 
 EcruteakCity_PokemonCenter1F_Text_GymGuide:
-	.string "LAKE OF RAGE…\p"
-	.string "The appearance of a GYARADOS\n"
-	.string "swarm…\p"
-	.string "I smell a conspiracy. I know it!$"
+	.string "いかりのみずうみ‥\pギャラドスの　たいりょう\nはっせい‥\pなにか　いんぼうの\nにおいが　する！$"
 

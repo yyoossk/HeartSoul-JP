@@ -63,36 +63,25 @@ GoldenrodDeptStore5_EventScript_Receptionist_Already::
 	end
 
 GoldenrodDeptStore_Text_5FReceptionistOhYourMon:
-    .string "Hello. Oh, your POKéMON…$"
+	.string "こんにちは\nあら　あなたの　ポケモン‥$"
 
 GoldenrodDeptStore_Text_5FReceptionistWait:
-    .string "Wait, I already gave you that TM!$"
+	.string "あら　その　わざマシンは\nもう　あげたわよ！$"
 
 GoldenrodDeptStore_Text_5FReceptionistPutInSomeMoreEffort:
-	.string "Hmm…\n"
-	.string "It's not bad, but it's also not good.\p"
-	.string "You, as the TRAINER, need to put in\n"
-	.string "some more effort.$"
+	.string "うーん‥\nわるくは　ないけど\lよくも　ないわね\pトレーナーの　あなたが\nもっと　がんばらなきゃ$"
 
 GoldenrodDeptStore_Text_5FReceptionistThisMoveShouldBePerfect:
-    .string "It's very attached to you.\p"
-    .string "This move should be perfect for a\n"
-    .string "pair like you.$"
+	.string "あなたに　とても\nなついて　いるわ\pこの　わざは　あなたたちに\nぴったりよ$"
 
 GoldenrodDeptStore_Text_5FLass:
-    .string "During the day, a lady comes to check\n"
-    .string "out POKéMON.\p"
-    .string "She even gives away TMs!$"
+	.string "ひるまに　ポケモンを　みて\nくれる　おねえさんが\lくるの\pわざマシンも\nくれるのよ！$"
 
 GoldenrodDeptStore_Text_5FPokefanM:
-    .string "You can't rename a POKéMON you get\n"
-    .string "in a trade.\p"
-    .string "The name is a reflection of the\n"
-    .string "original trainer's feelings for it.$"
+	.string "こうかんで　もらった\nポケモンの　なまえは\lかえられない\pなまえには　おやの\nおもいが　こもって\lいるからね$"
 
 GoldenrodDeptStore_Text_Girl:
-	.string "The lady gave me RETURN!\n"
-    .string "My POKéMON must really like me!$"
+	.string "おねえさんに　おんがえしを\nもらったの！\pわたしの　ポケモン\nなついてるのね！$"
 
 GoldenrodDeptStore5_EventScript_Clerk::
 	lock
@@ -120,5 +109,4 @@ GoldenrodDeptStore5_Pokemart:
 
 
 GoldenrodDeptStore_Text_5FDirectory:
-    .string "Customize Your POKéMON\p"
-    .string "5F TM CORNER$"
+	.string "ポケモンを　カスタマイズ\p5F　わざマシンコーナー$"
