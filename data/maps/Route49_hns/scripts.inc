@@ -34,39 +34,23 @@ Route49_EventScript_SkylarAfter::
 	end
 
 Route49_Text_SkylarDefeat:
-	.string "OKAY, you can have the PLATE.$"
+	.string "わかった　プレートは\nあげるよ$"
 
 Route49_Text_SkylarAfter:
-	.string "As cool as that PLATE is,\n"
-	.string "you earned it fair and square.\p"
-	.string "I'll just buy something at the gift\n"
-	.string "shop instead.$"
+	.string "あの　プレートは　かっこいい\nけど　きみが　せいせいどうどう\lかちとった　ものだ\pかわりに　おみやげやで\nなにか　かうよ$"
 
 Route49_Text_SkylarBeforeBattle:
-	.string "What?\p"
-	.string "You want the PLATE?\n"
-	.string "It's an artifact imbued with an\l"
-	.string "ancient power with a connection\l"
-	.string "to the legendary POKéMON?!\p"
-	.string "Well now I'm definitely keeping it.\p"
-	.string "Fine.\p"
-	.string "You'll just have to battle me for it.$"
+	.string "え？\pプレートが　ほしい？\nでんせつの　ポケモンと\lかかわる　こだいの　ちからを\lひめた　いぶつ　だって？！\pそれなら　なおさら\nてばなせないよ\pしかたない\pしょうぶで　かちとって\nもらおう$"
 
 Route49_Text_SkylarBefore:
-	.string "When I was hitting the slopes, my\n"
-	.string "skis snagged on something.\p"
-	.string "It was this strange SKY-blue PLATE.\p"
-	.string "I think I'll hold onto it as a\n"
-	.string "souvenir!$"
+	.string "スキーで　すべってたら\nなにかに　ひっかかったんだ\pこの　ふしぎな　そらいろの\nプレート　だったよ\pおみやげに　とって\nおこうっと！$"
 
 Route49_EventScript_SkierM::
 	msgbox Route49_Text_SkierM, MSGBOX_NPC
 	end
 
 Route49_Text_SkierM::
-	.string "Hey, watch out for my board!\p"
-	.string "What? You want to battle?\n"
-	.string "No way, these slopes are too wicked!$"
+	.string "おい　ボードに\nきを　つけて！\pえ？　しょうぶ？\nむりむり　この　さかは\lけわしすぎる！$"
 
 Route49_EventScripts_KimonoGirl::
     delay 10
@@ -114,14 +98,7 @@ Route49_KimonoGitl_Movement2:
 	step_end
 
 Route49_Text_KimonoGirl:
-    .string "You....\p"
-	.string "You must be {PLAYER}, correct?\n"
-    .string "I've heard all about you and\l"
-	.string "your deeds from my cousins\l"
-	.string "in ECRUTEAK CITY.\p"
-	.string "My sisters wish to meet with you.\l"
-	.string "If you find the time, please\n"
-	.string "seek us out in the town up ahead.$"
+	.string "あなたは‥\pあなたが　{PLAYER}さん\nですね？　エンジュシティの\lいとこたちから　あなたの\lことは　うかがって　います\pしまいたちが　あなたに\nあいたがって　います\lおじかんが　あれば\lこの　さきの　むらへ\lおこし　ください$"
 
 Route49_EventScript_Item_StarDust::
     finditem ITEM_STARDUST
@@ -136,8 +113,7 @@ Route49_EventScript_Sign::
     end
 
 Route49_Text_Sign:
-    .string "The sign is faded.\n"
-    .string "ROUTE 49$"
+	.string "かんばんの　もじが\nかすれている\l49ばんどうろ$"
 
 Route49_EventScript_ActivateOverqwil::
     lock

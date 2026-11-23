@@ -304,85 +304,61 @@ Alola_Ulaula_Bench_Heal_Movement_0:
 	step_end
 
 Alola_Ulaula_BattlePalossand_Text_0:
-	.string "Shuck!$"
+	.string "シロデーン！$"
 
 Alola_Ulaula_MtLanikalaSign_Text_0:
-	.string "This mountain is affectionately\n"
-	.string "referred to as MT. LANIKALA by the\l"
-	.string "locals, as it is the tallest mountain\l"
-	.string "on the ALOLA ISLES.\p"
-	.string "The real name of this mountain has been\n"
-	.string "lost to time.$"
+	.string "この　やまは　アローラしょとうで\nいちばん　たかい　やま\lなので　じもとの　ひとから\lラナキラマウンテンと\lしたしまれて　いる\pほんとうの　なまえは\nわすれさられて　しまった$"
 
 Alola_Ulaula_UlaulaSign_Text_0:
-	.string "ULA'ULA ISLE$"
+	.string "ウラウラじま$"
 
 Alola_Ulaula_Phant_outside_Text_0:
-	.string "Hello there, {PLAYER}!\p"
-	.string "I'm the developer who built this\n"
-	.string "section of the game!\p"
-	.string "I hope you enjoyed this taste of ALOLA.\p"
-	.string "I'm working on a full demake of the\n"
-	.string "region called ULTRA ECLIPSE.$"
+	.string "やあ　{PLAYER}！\pぼくは　ゲームの　この\nぶぶんを　つくった\lかいはつしゃだよ！\pアローラの　あじみを\nたのしんで　くれたかな\pいま　ウルトラエクリプスと　いう\nアローラの　デメイクを\lつくって　いるんだ$"
 
 Alola_Ulaula_Phant_outside_Text_1:
-	.string "Please come visit me at my house at\n"
-	.string "the top of this isle.\l"
-	.string "I'll make it worth your while!$"
+	.string "この　しまの　てっぺんの\nぼくの　いえに　あそびに\lきてね\lいい　ことが　あるよ！$"
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_0:
-	.string "Surprise!\nI was in the trees!$"
+	.string "びっくりした？\nきの　なかに　いたの！$"
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_1:
-	.string "Back into hiding I go…$"
+	.string "また　かくれよう‥$"
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_2:
-	.string "I thought I saw something red flying\n"
-	.string "through the sky.\p"
-	.string "Could it have been a POKéMON?$"
+	.string "なにか　あかい　ものが\nそらを　とんで　いくのを\lみた　きが　するの\pポケモン　だったのかな？$"
 
 Alola_Ulaula_TrainerBattleYoungster_Text_0:
-	.string "Hey, I'm going to be the first to climb\nMT. LANIKALA!$"
+	.string "よし　ぼくが　いちばんに\nラナキラマウンテンに\lのぼるんだ！$"
 
 Alola_Ulaula_TrainerBattleYoungster_Text_1:
-	.string "It's not even the real MT. LANIKALA…$"
+	.string "ほんものの　ラナキラ\nマウンテンじゃ　ないのに‥$"
 
 Alola_Ulaula_TrainerBattleYoungster_Text_2:
-	.string "My dad never told me the real name of\n"
-	.string "this mountain.\p"
-	.string "We've always just called it MT. LANIKALA.$"
+	.string "とうさんは　この　やまの\nほんとうの　なまえを\lおしえて　くれなかった\pずっと　ラナキラマウンテンって\nよんでるんだ$"
 
 Alola_Ulaula_TrainerBattleHiker_Text_0:
-	.string "You must be tough to handle this\nrough terrain!$"
+	.string "こんな　けわしい　みちを\nこえて　きたとは\lつよいな！$"
 
 Alola_Ulaula_TrainerBattleHiker_Text_1:
-	.string "Oof,\nI should've trained harder…$"
+	.string "うっ　もっと\nきたえるんだった‥$"
 
 Alola_Ulaula_TrainerBattleHiker_Text_2:
-	.string "ULA'ULA ISLE has the best hiking!\p"
-	.string "The locals refer to this mountain as\n"
-	.string "MT. LANIKALA, as it is the tallest on\l"
-	.string "the ALOLA ISLES!$"
+	.string "ウラウラじまは　ハイキングに\nさいこう！\pアローラしょとうで　いちばん\nたかいから　じもとでは\lラナキラマウンテンと\lよんでるんだ！$"
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_0:
-	.string "This cave smells terrible!\nLet's battle to get my mind off of it!$"
+	.string "この　どうくつ　すごく\nくさい！　きを　まぎらわしに\lしょうぶ　しよう！$"
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_1:
-	.string "Should've brought some air freshener…$"
+	.string "しょうしゅうざいを\nもって　くるんだった‥$"
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_2:
-	.string "You should plug your nose if you plan\n"
-	.string "on going in that cave.$"
+	.string "あの　どうくつに　はいるなら\nはなを　つまんだ　ほうが\lいいよ$"
 
 Alola_Ulaula_LassNPC_Text_0:
-	.string "The sea by the ISLES is truly\n"
-	.string "breathtaking.\p"
-	.string "I could sit here all day and just\n"
-	.string "watch the waves.$"
+	.string "しまの　まわりの　うみは\nほんとうに　きれい\pいちにちじゅう　ここで\nなみを　ながめて\lいられるわ$"
 
 Alola_Ulaula_Bench_Heal_Text_0:
-	.string "Would you like to take a rest on this\n"
-	.string "bench?$"
+	.string "この　ベンチで\nやすみますか？$"
 
 Alola_Ulaula_EventScript_MoveTutor::
 	lock
@@ -590,126 +566,107 @@ Alola_Ulaula_EventScript_MoveTutorNoScales::
 	end
 
 Alola_Ulaula_Text_MoveTutorIntro:
-	.string "URGH!\n"
-	.string "AGH!\p"
-	.string "YOU!\p"
-	.string "Did the others send you here?\n"
-	.string "Did they tell you that I am the\l"
-	.string "master of POKéMON moves?\p"
-	.string "........................\p"
-	.string "I can train your POKéMON in the\n"
-	.string "ways of the ISLES, but first, a\l"
-	.string "small fee.\p"
-	.string "The price is 5 HEART SCALES.\p"
-	.string "Do you have them?$"
+	.string "ぐおお！\nがあっ！\pおまえ！\pほかの　れんちゅうに\nいわれて　きたのか？\lわしが　わざの　たつじんだと\lきいたのか？\p‥‥‥‥‥‥‥‥\pしまの　わざを\nおしえて　やれるが\lまずは　れいを　もらう\pハートのウロコ　5まいだ\pもって　おるか？$"
 
 Alola_Ulaula_Text_MoveTutorPaid:
-	.string "My wife loves these things.\p"
-	.string "From now on, my services are\n"
-	.string "granted to you.$"
+	.string "つまが　これを\nだいすき　でな\pこれからは　いつでも\nおしえて　やろう$"
 
 Alola_Ulaula_Text_MoveTutorNoScales:
-	.string "Five HEART SCALES.\n"
-	.string "Not four.\p"
-	.string "Try smashing rocks.\n"
-	.string "With your POKéMON, or your fists!$"
+	.string "ハートのウロコ　5まいだ\n4まい　じゃない\pいわを　くだいて　みろ\nポケモンでも　こぶしでも！$"
 
 Alola_Ulaula_Text_MoveTutorChoose:
-	.string "Which move would you like?$"
+	.string "どの　わざに　する？$"
 
 Alola_Ulaula_Text_MoveTutorConfirm:
-	.string "You'd like to learn {STR_VAR_1}?$"
+	.string "{STR_VAR_1}を\nおぼえたいのか？$"
 
 Alola_Ulaula_Text_MoveTutorWhichMon:
-	.string "Which POKéMON should learn it?$"
+	.string "どの　ポケモンに\nおぼえさせる？$"
 
 Alola_Ulaula_Text_MoveTutorDone:
-	.string "EXCELLENT!\p"
-	.string "Your POKéMON holds the knowledge\n"
-	.string "of the ISLES.$"
+	.string "みごと！\pおまえの　ポケモンは\nしまの　ちえを　えた$"
 
 Alola_Ulaula_Text_MoveTutorComeBack:
-	.string "The ISLES aren't going anywhere.\n"
-	.string "Come back anytime.$"
+	.string "しまは　にげは　せん\nいつでも　こい$"
 
 Alola_Ulaula_Text_TutorMove_Acrobatics:
-	.string "ACROBATICS$"
+	.string "アクロバット$"
 
 Alola_Ulaula_Text_TutorMove_AuroraVeil:
-	.string "AURORA VEIL$"
+	.string "オーロラベール$"
 
 Alola_Ulaula_Text_TutorMove_BrutalSwing:
-	.string "BRUTAL SWING$"
+	.string "ぶんまわす$"
 
 Alola_Ulaula_Text_TutorMove_Bulldoze:
-	.string "BULLDOZE$"
+	.string "じならし$"
 
 Alola_Ulaula_Text_TutorMove_Confide:
-	.string "CONFIDE$"
+	.string "ないしょばなし$"
 
 Alola_Ulaula_Text_TutorMove_DazzlingGleam:
-	.string "DAZZLING GLEAM$"
+	.string "マジカルシャイン$"
 
 Alola_Ulaula_Text_TutorMove_DragonTail:
-	.string "DRAGON TAIL$"
+	.string "ドラゴンテール$"
 
 Alola_Ulaula_Text_TutorMove_EchoedVoice:
-	.string "ECHOED VOICE$"
+	.string "エコーボイス$"
 
 Alola_Ulaula_Text_TutorMove_FlameCharge:
-	.string "FLAME CHARGE$"
+	.string "ニトロチャージ$"
 
 Alola_Ulaula_Text_TutorMove_FrostBreath:
-	.string "FROST BREATH$"
+	.string "こおりのいぶき$"
 
 Alola_Ulaula_Text_TutorMove_Infestation:
-	.string "INFESTATION$"
+	.string "まとわりつく$"
 
 Alola_Ulaula_Text_TutorMove_LeechLife:
-	.string "LEECH LIFE$"
+	.string "きゅうけつ$"
 
 Alola_Ulaula_Text_TutorMove_LowSweep:
-	.string "LOW SWEEP$"
+	.string "ローキック$"
 
 Alola_Ulaula_Text_TutorMove_Psyshock:
-	.string "PSYSHOCK$"
+	.string "サイコショック$"
 
 Alola_Ulaula_Text_TutorMove_Quash:
-	.string "QUASH$"
+	.string "さきおくり$"
 
 Alola_Ulaula_Text_TutorMove_Round:
-	.string "ROUND$"
+	.string "りんしょう$"
 
 Alola_Ulaula_Text_TutorMove_Scald:
-	.string "SCALD$"
+	.string "ねっとう$"
 
 Alola_Ulaula_Text_TutorMove_SkyDrop:
-	.string "SKY DROP$"
+	.string "フリーフォール$"
 
 Alola_Ulaula_Text_TutorMove_SludgeWave:
-	.string "SLUDGE WAVE$"
+	.string "ヘドロウェーブ$"
 
 Alola_Ulaula_Text_TutorMove_SmackDown:
-	.string "SMACK DOWN$"
+	.string "うちおとす$"
 
 Alola_Ulaula_Text_TutorMove_SmartStrike:
-	.string "SMART STRIKE$"
+	.string "スマートホーン$"
 
 Alola_Ulaula_Text_TutorMove_Snarl:
-	.string "SNARL$"
+	.string "バークアウト$"
 
 Alola_Ulaula_Text_TutorMove_Venoshock:
-	.string "VENOSHOCK$"
+	.string "ベノムショック$"
 
 Alola_Ulaula_Text_TutorMove_VoltSwitch:
-	.string "VOLT SWITCH$"
+	.string "ボルトチェンジ$"
 
 Alola_Ulaula_Text_TutorMove_WildCharge:
-	.string "WILD CHARGE$"
+	.string "ワイルドボルト$"
 
 Alola_Ulaula_Text_TutorMove_WorkUp:
-	.string "WORK UP$"
+	.string "ふるいたてる$"
 
 Alola_Ulaula_Text_TutorMove_Cancel:
-	.string "CANCEL$"
+	.string "やめる$"
 

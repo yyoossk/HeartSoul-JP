@@ -774,7 +774,4 @@ Alola_Melemele_camper_Text_0:
 	.string "だいすきな　ねこポケモン\nニャースの　ちがう　すがたを\lみに　カントーから\lはるばる　きたんだ！$"
 
 Alola_Melemele_Picnicker_Text_0:
-	.string "These ISLES are chock full of unique\n"
-	.string "POKéMON!\p"
-	.string "I need to stock up on POKé BALLS so I\n"
-	.string "can catch them all!$"
+	.string "この　しまじまは　めずらしい\nポケモンで　いっぱい！\pぜんぶ　つかまえる　ために\nモンスターボールを\lかいこまなきゃ！$"

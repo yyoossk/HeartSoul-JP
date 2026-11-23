@@ -158,37 +158,31 @@ Alola_Ulaula_House_Phant_Movement_5:
 	step_end
 
 Alola_Ulaula_House_Phant_Text_0:
-	.string "Welcome, {PLAYER}.\p"
-	.string "Thanks again for playing!$"
+	.string "ようこそ　{PLAYER}\pあそんで　くれて\nあらためて　ありがとう！$"
 
 Alola_Ulaula_House_Phant_Text_1:
-	.string "I hope you're prepared…\n"
-	.string "good luck.$"
+	.string "じゅんびは　いいかな‥\nがんばって$"
 
 Alola_Ulaula_House_Phant_Text_2:
-	.string "Congratulations, {PLAYER}!$"
+	.string "おめでとう　{PLAYER}！$"
 
 Alola_Ulaula_House_Phant_Text_3:
-	.string "I think you've earned this.$"
+	.string "これを　もらう　しかくが\nあると　おもうよ$"
 
 Alola_Ulaula_House_Phant_Text_4:
-	.string "You received an EGG from PHANTONOMY!$"
+	.string "ファントノミーから\nタマゴを　もらった！$"
 
 Alola_Ulaula_House_Phant_Text_5:
-	.string "That EGG contains my favorite POKéMON.\p"
-	.string "Please, take good care of it…$"
+	.string "その　タマゴには　ぼくの\nいちばん　すきな　ポケモンが\lはいってる\pだいじに　してね‥$"
 
 Alola_Ulaula_House_Phant_Text_6:
-	.string "No worries, {PLAYER}.\n"
-	.string "Come back when you're ready…$"
+	.string "だいじょうぶ　{PLAYER}\nじゅんびが　できたら\lまた　きてね‥$"
 
 Alola_Ulaula_House_Phant_Text_7:
-	.string "I hope you enjoyed this taste of ALOLA.\p"
-	.string "I'm working on a full demake of the\n"
-	.string "region called ULTRA ECLIPSE.$"
+	.string "アローラの　あじみを\nたのしんで　くれたかな\pいま　ウルトラエクリプスと　いう\nアローラの　デメイクを\lつくって　いるんだ$"
 
 Alola_Ulaula_House_Noivern_Text_0:
-	.string "Scree!$"
+	.string "キィー！$"
 
 Alola_Ulaula_House_Typholosion_Text_0:
-	.string "Graa!$"
+	.string "グワァ！$"

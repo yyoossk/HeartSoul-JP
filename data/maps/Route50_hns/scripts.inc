@@ -6,19 +6,14 @@ Route50_EventScript_BlackBelt1::
 	end
 
 Route50_Text_BlackBelt1::
-	.string "The body must be hardened\n"
-    .string "and the mind strengthened\l"
-    .string "in the harshest of conditions!$"
+	.string "もっとも　きびしい　かんきょうで\nからだを　きたえ\lこころを　つよく　するのだ！$"
 
 Route50_EventScript_BlackBelt2::
 	msgbox Route50_Text_BlackBelt2, MSGBOX_NPC
 	end
 
 Route50_Text_BlackBelt2::
-    .string "Phew!\p"
-    .string "I'm not as hardcore as he is.\p"
-	.string "There's really not much else\n"
-    .string "to do here but train.$"
+	.string "ふう！\pおれは　あいつほど\nストイックじゃ　ないよ\pここでは　しゅぎょう\nくらいしか　やる　ことが\lないんだ$"
   
 
 Route50_EventScript_Wessel::
@@ -49,27 +44,16 @@ Route50_EventScript_WesselAfter::
 	end
 
 Route50_Text_WesselBefore:
-	.string "Incredible, A VOLTORB!\p"
-    .string "But it appears to be made\n"
-    .string "of... Wood?\p"
-    .string "My hypothesis that this route\n"
-    .string "would contain many STEEL TYPE\l"
-    .string "POKéMON is disproven yet again.\p"
-    .string "But why else would I have found\n"
-    .string "this STEEL PLATE here?\p"
-    .string "I must collect more data!$"
+	.string "すごい　ビリリダマだ！\pでも　これは‥\nき　で　できてる？\pこの　どうろには　はがねタイプが\nおおいと　いう　わたしの\lかせつは　また　はずれた\pでは　なぜ　ここで\nこうてつプレートを\lみつけたのか？\pもっと　データを\nあつめねば！$"
 
 Route50_Text_WesselBeforeBattle:
-	.string "You want this PLATE?\n"
-	.string "But I haven't analyzed it yet!\p"
-	.string "Fine, we will battle for it.$"
+	.string "この　プレートが　ほしい？\nまだ　ぶんせき　して\lいないのに！\pいいだろう　しょうぶで\nきめよう$"
 
 Route50_Text_WesselDefeat:
-	.string "My hypothesis was wrong...$"
+	.string "かせつが\nまちがって　いた‥$"
 
 Route50_Text_WesselAfter:
-	.string "Take the PLATE. I don't want to\n"
-	.string "talk about it.$"
+	.string "プレートは　もって　いけ\nその　はなしは　したくない$"
 
 Route50_EventScript_Finley::
 	goto_if_defeated TRAINER_FINLEY_HNS, Route50_EventScript_FinleyAfter
@@ -99,32 +83,16 @@ Route50_EventScript_FinleyAfter::
 	end
 
 Route50_Text_FinleyBefore:
-	.string "How are the villagers treating\n"
-    .string "you?\p"
-    .string "They can be very unwelcoming to\n"
-    .string "strangers.\p"
-    .string "But meeting new people is one\n"
-    .string "of life's greatest joys.\p"
-    .string "One day, I hope to meet CHAMPION\n"
-    .string "LANCE.\p"
-    .string "He is a legendary dragon tamer,\n"
-    .string "much like myself.\l"
-    .string "Who am I?\p"
-    .string "Well, I am FINLEY, keeper of the\n"
-    .string "DRACO PLATE.$"
+	.string "むらの　ひとたちの\nたいどは　どうだい？\pよそものには　とても\nつめたい　ことが　ある\pでも　あたらしい　ひとと\nであうのは　じんせいの\lおおきな　よろこびだ\pいつか　チャンピオンの\nワタルに　あいたい\pかれは　わたしと　おなじ\nでんせつの　ドラゴンつかい\lわたしが　だれかって？\pわたしは　フィンリー\nりゅうのプレートの\lまもりて　だ$"
 
 Route50_Text_FinleyBeforeBattle:
-	.string "I know the KIMONO's have sent you\n"
-	.string "to collect these PLATES.\p"
-	.string "They say you are worthy...\n"
-	.string "But can you conquer my dragons?$"
+	.string "まいこはんに　いわれて\nプレートを　あつめて　いる\lのだろう\pふさわしいと　いうが‥\nわたしの　ドラゴンに\lかてるかな？$"
 
 Route50_Text_FinleyDefeat:
-	.string "My dragons fought well.$"
+	.string "わたしの　ドラゴンは\nよく　たたかった$"
 
 Route50_Text_FinleyAfter:
-	.string "Perhaps you are even strong enough\n"
-	.string "to beat LANCE...$"
+	.string "きみなら　ワタルにも\nかてるかも　しれないな‥$"
 
 Route50_EventScript_Item_ULtraBall::
     finditem ITEM_ULTRA_BALL

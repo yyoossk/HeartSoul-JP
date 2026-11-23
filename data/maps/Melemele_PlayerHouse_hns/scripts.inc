@@ -541,258 +541,115 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Movement_0:
 	step_end
 
 Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_0:
-	.string "Alola, {PLAYER}!$"
+	.string "アローラ　{PLAYER}くん！$"
 
 Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_1:
-	.string "I'm glad you're here!\n"
-	.string "Welcome to my villa!\p"
-	.string "I'm staying here while I research the\n"
-	.string "ALOLA ISLES for their similarity to\l"
-	.string "the ALOLA region.\p"
-	.string "I'm particularly interested in the\n"
-	.string "phenomenon of “Regional Variants”.$"
+	.string "よく　きて　くれた！\nわたしの　ヴィラへ　ようこそ！\pアローラしょとうと　アローラちほうの\nにている　ところを　しらべる\lあいだ　ここに　いるんだ\pとくに　リージョンフォームと\nいう　げんしょうに\lきょうみが　あってね$"
 
 Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_2:
-	.string "You seem quite capable.\p"
-	.string "You'd be perfect to help with my survey\n"
-	.string "of the ALOLA ISLES!\p"
-	.string "Explore all the ISLES have to offer,\n"
-	.string "and if you find any familiar POKéMON\l"
-	.string "that resemble those from KANTO…\l"
-	.string "come back and show me your POKéDEX!\p"
-	.string "I'll be here patiently waiting to hear\n"
-	.string "about your progress!$"
+	.string "きみは　なかなか\nたのもしそうだ\pアローラしょとうの　ちょうさを\nてつだって　もらうのに\lぴったりだ！\pしまじまを　くまなく　たんけん\nして　カントーの　ポケモンに\lにた　ポケモンを　みつけたら\lずかんを　みせに　きて　くれ！\pここで　しんちょくを\nまって　いるよ！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_0:
-	.string "Wow!\n"
-	.string "You saw the Guardian Deities!\p"
-	.string "Incredible work, {PLAYER}.\p"
-	.string "I found this while wandering about.\p"
-	.string "I'm not entirely sure what it's for,\n"
-	.string "but you should take it.$"
+	.string "すごい！\nしまの　まもりがみを\lみたのか！\pすばらしいぞ　{PLAYER}くん\pあるいて　いたら\nこれを　みつけたんだ\pなにに　つかうかは\nわからないが　きみに\lあげよう$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_1:
-	.string "The ALOLA ISLES must truly be special if\n"
-	.string "the Guardians themselves visited!$"
+	.string "まもりがみ　じきじきに\nおとずれるとは　アローラしょとうは\lほんとうに　とくべつなんだな！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_2:
-	.string "Thanks for your help with my research,\n"
-	.string "{PLAYER}!\p"
-	.string "Our understanding of the ALOLA ISLES\n"
-	.string "has greatly improved thanks to you!\p"
-	.string "I hope you continue to explore the\n"
-	.string "ISLES to find all the secrets that\l"
-	.string "they hold!$"
+	.string "けんきゅうを　てつだって\nくれて　ありがとう\l{PLAYER}くん！\pきみの　おかげで　アローラしょとうの\nりかいが　ずっと　ふかまった！\pこれからも　しまを　たんけん\nして　ひめられた　ひみつを\lみつけて　くれ！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_3:
-	.string "Alola {PLAYER}!\p"
-	.string "So you managed to defeat all of the\n"
-	.string "Totem POKéMON on the ISLES, did you?\p"
-	.string "That's quite an accomplishment!\p"
-	.string "It's been long enough…\p"
-	.string "I think it's about time we had a battle,\n"
-	.string "don't you?$"
+	.string "アローラ　{PLAYER}くん！\pしまの　ぬしポケモンを\nぜんぶ　たおしたのかい？\pたいした　ものだ！\pそろそろ‥\pわたしたちも　しょうぶ\nしようじゃ　ないか？$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_4:
-	.string "Great!\n"
-	.string "I won't be taking it easy on you!$"
+	.string "よし！\nてかげんは　しないよ！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_5:
-	.string "Incredible, {PLAYER}!$"
+	.string "すばらしい　{PLAYER}くん！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_6:
-	.string "Wow, {PLAYER}!\n"
-	.string "You really are a powerful Trainer!\p"
-	.string "You've proven worthy of a secret\n"
-	.string "I've been keeping about these ISLES…\p"
-	.string "I'm not the only one who's noticed a\n"
-	.string "striking resemblance between the ALOLA\l"
-	.string "ISLES and the ALOLA region…\p"
-	.string "It seems the Tapu Guardians themselves\n"
-	.string "have been visiting the ISLES.\p"
-	.string "If you see them fly over the ISLES, head\n"
-	.string "to the totems… They may be there \l"
-	.string "waiting for you!$"
+	.string "すごいね　{PLAYER}くん！\nほんとうに　つよい\lトレーナーだ！\pこの　しまじまの　ひみつを\nおしえるに　ふさわしい！\pアローラしょとうと　アローラちほうが\nそっくり　だと　きづいたのは\lわたしだけ　じゃ　ないんだ‥\pカプたち　まもりがみ　じしんが\nこの　しまを　おとずれて\lいるらしい\pしまの　うえを　とぶのを　みたら\nトーテムへ　いって　ごらん‥\lきみを　まって　いるかも！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_7:
-	.string "What are you waiting for, {PLAYER}?\n"
-	.string "Go out there and explore!$"
+	.string "どうしたんだ　{PLAYER}くん？\nさあ　たんけんに　いって\lおいで！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_8:
-	.string "No worries, {PLAYER}!\p"
-	.string "Take your time to prepare for the\n"
-	.string "battle, and come back when you're\l"
-	.string "ready!$"
+	.string "だいじょうぶ\n{PLAYER}くん！\pしょうぶの　じゅんびが\nできたら　また　おいで！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_9:
-	.string "Alola {PLAYER}!\p"
-	.string "So you've found all the Alolan variants\n"
-	.string "on the ISLES, but have you defeated all\l"
-	.string "the Totem POKéMON yet?\p"
-	.string "You should look for a strange pillar on\n"
-	.string "each isle, the Totem POKéMON will be\l"
-	.string "guarding it!$"
+	.string "アローラ　{PLAYER}くん！\pアローラの　すがたの　ポケモンは\nぜんぶ　みつけた　ようだが\lぬしポケモンは　ぜんぶ\lたおしたかい？\pそれぞれの　しまの　ふしぎな\nはしらを　さがして　ごらん\lぬしポケモンが　まもって\lいる　はずだ！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_10:
-	.string "Hello again, {PLAYER}!\p"
-	.string "How's your research on the ALOLA ISLES\n"
-	.string "coming along?\p"
-	.string "Would you like to share your progress\n"
-	.string "about a specific isle with me?$"
+	.string "やあ　{PLAYER}くん！\pアローラしょとうの　ちょうさは\nどうだい？\pどこかの　しまの　しんちょくを\nおしえて　くれるかい？$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_11:
-	.string "MELEMELE ISLE$"
+	.string "メレメレじま$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_12:
-	.string "AKALA ISLE$"
+	.string "アーカラじま$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_13:
-	.string "ULA'ULA ISLE$"
+	.string "ウラウラじま$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_14:
-	.string "PONI ISLE$"
+	.string "ポニじま$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_15:
-	.string "Not right now.$"
+	.string "いまは　いい$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_16:
-	.string "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.$"
+	.string "ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_17:
-	.string "Wow, {PLAYER}!$"
+	.string "すごいぞ　{PLAYER}くん！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_18:
-	.string "You found all the Alolan variants living\n"
-	.string "on MELEMELE ISLE!$"
+	.string "メレメレじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_19:
-	.string "And it looks like you've found all the\n"
-	.string "Alolan variants on the other ISLES too!\p"
-	.string "That's amazing, {PLAYER}!\p"
-	.string "You should be very proud of yourself!$"
+	.string "ほかの　しまの　アローラの　すがたも\nぜんぶ　みつけた　ようだね！\pすばらしいぞ　{PLAYER}くん！\pじぶんを　ほこりに\nおもって　いいよ！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_20:
-	.string "You've helped me validate that all\n"
-	.string "of the Alolan variants are present on\l"
-	.string "the ALOLA ISLES!\p"
-	.string "I'd like you to help me with one more\n"
-	.string "thing…\p"
-	.string "Could you help me investigate the Totem\n"
-	.string "POKéMON that are said to be guarding\l"
-	.string "the totems on each ISLE?\p"
-	.string "But beware! These Totem POKéMON are\n"
-	.string "said to be much stronger than their\l"
-	.string "normal counterparts…\p"
-	.string "You never know who might be watching\n"
-	.string "to see if you are a worthy opponent!$"
+	.string "アローラの　すがたが　ぜんぶ\nアローラしょとうに　いると\lたしかめられたよ！\pもう　ひとつ　てつだって\nほしい　ことが　ある‥\pそれぞれの　しまの　トーテムを\nまもると　いわれる　ぬし\lポケモンを　しらべて　くれるかな？\pだが　きを　つけて！\nぬしポケモンは　ふつうの\lポケモンより　ずっと　つよい\pきみが　ふさわしい　あいてか\nだれかが　みて　いるかも\lしれないよ！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_21:
-	.string "Keep exploring the other ISLES and\n"
-	.string "report your progress to me!$"
+	.string "ほかの　しまも　たんけん　して\nしんちょくを　おしえてね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_22:
-	.string "It seems you've already found all the\n"
-	.string "Alolan variants on MELEMELE ISLE!\p"
-	.string "Great job!\p"
-	.string "Keep exploring the other ISLES and\n"
-	.string "report your progress to me!$"
+	.string "メレメレじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_23:
-	.string "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
-	.string "It seems you haven't quite found all of\n"
-	.string "the Alolan variants on MELEMELE ISLE\l"
-	.string "just yet.\p"
-	.string "I've heard MELEMELE ISLE has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\n"
-	.string "variants for you to find…\p"
-	.string "{COLOR RED}RATTATA{COLOR DARK_GRAY}, {COLOR RED}RATICATE{COLOR DARK_GRAY}, {COLOR RED}MEOWTH{COLOR DARK_GRAY}, and\n"
-	.string "{COLOR RED}PERSIAN{COLOR DARK_GRAY}.\p"
-	.string "Keep on searching and come back when\n"
-	.string "you've caught them all!$"
+	.string "ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pメレメレじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pメレメレじまには　{COLOR RED}4{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}コラッタ{COLOR DARK_GRAY}　{COLOR RED}ラッタ{COLOR DARK_GRAY}　{COLOR RED}ニャース{COLOR DARK_GRAY}\n{COLOR RED}ペルシアン{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_24:
-	.string "You found all the Alolan variants living\n"
-	.string "on AKALA ISLE!$"
+	.string "アーカラじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_25:
-	.string "Now that you've helped me validate that\n"
-	.string "all of the Alolan variants are present\l"
-	.string "on the ALOLA ISLES.\p"
-	.string "I'd like you to help me with one more\n"
-	.string "thing…\p"
-	.string "Could you help me investigate the Totem\n"
-	.string "POKéMON that are said to be guarding\l"
-	.string "the totems on each isle?\p"
-	.string "But beware! These Totem POKéMON are\n"
-	.string "said to be much stronger than their\l"
-	.string "normal counterparts…\p"
-	.string "You never know who might be watching\n"
-	.string "to see if you are a worthy opponent!$"
+	.string "アローラの　すがたが　ぜんぶ\nアローラしょとうに　いると\lたしかめられたよ\pもう　ひとつ　てつだって\nほしい　ことが　ある‥\pそれぞれの　しまの　トーテムを\nまもると　いわれる　ぬし\lポケモンを　しらべて　くれるかな？\pだが　きを　つけて！\nぬしポケモンは　ふつうの\lポケモンより　ずっと　つよい\pきみが　ふさわしい　あいてか\nだれかが　みて　いるかも\lしれないよ！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_26:
-	.string "It seems you've already found all the\n"
-	.string "Alolan variants on AKALA ISLE!\p"
-	.string "Great job!\p"
-	.string "Keep exploring the other ISLES and\n"
-	.string "report your progress to me!$"
+	.string "アーカラじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
-	.string "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
-	.string "It seems you haven't quite found all of\n"
-	.string "the Alolan variants on AKALA ISLE\l"
-	.string "just yet.\p"
-	.string "I've heard AKALA ISLE has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\n"
-	.string "variants for you to find…\p"
-	.string "{COLOR RED}RAICHU{COLOR DARK_GRAY}, {COLOR RED}MAROWAK{COLOR DARK_GRAY}, {COLOR RED}DIGLETT{COLOR DARK_GRAY}, and {COLOR RED}DUGTRIO{COLOR DARK_GRAY}.\p"
-	.string "Keep on searching and come back when\n"
-	.string "you've caught them all!$"
+	.string "ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pアーカラじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pアーカラじまには　{COLOR RED}4{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}ライチュウ{COLOR DARK_GRAY}　{COLOR RED}ガラガラ{COLOR DARK_GRAY}　{COLOR RED}ディグダ{COLOR DARK_GRAY}　{COLOR RED}ダグトリオ{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_28:
-	.string "You found all the Alolan variants living\n"
-	.string "on ULA'ULA ISLE!$"
+	.string "ウラウラじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_29:
-	.string "It seems you've already found all the\n"
-	.string "Alolan variants on ULA'ULA ISLE!\p"
-	.string "Great job!\p"
-	.string "Keep exploring the other ISLES and\n"
-	.string "report your progress to me!$"
+	.string "ウラウラじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_30:
-	.string "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
-	.string "It seems you haven't quite found all of\n"
-	.string "the Alolan variants on ULA'ULA ISLE\l"
-	.string "just yet.\p"
-	.string "I've heard ULA'ULA ISLE has {COLOR RED}6 {COLOR DARK_GRAY}Alolan\n"
-	.string "variants for you to find…\p"
-	.string "{COLOR RED}VULPIX{COLOR DARK_GRAY}, {COLOR RED}NINETALES{COLOR DARK_GRAY}, {COLOR RED}SANDSHREW{COLOR DARK_GRAY}, {COLOR RED}SANDSLASH{COLOR DARK_GRAY},\n"
-	.string "{COLOR RED}GRIMER{COLOR DARK_GRAY}, and {COLOR RED}MUK{COLOR DARK_GRAY}.\p"
-	.string "Keep on searching and come back when\n"
-	.string "you've caught them all!$"
+	.string "ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pウラウラじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pウラウラじまには　{COLOR RED}6{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}ロコン{COLOR DARK_GRAY}　{COLOR RED}キュウコン{COLOR DARK_GRAY}　{COLOR RED}サンド{COLOR DARK_GRAY}　{COLOR RED}サンドパン{COLOR DARK_GRAY}\n{COLOR RED}ベトベター{COLOR DARK_GRAY}　{COLOR RED}ベトベトン{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_31:
-	.string "You found all the Alolan variants living\n"
-	.string "on PONI ISLE!$"
+	.string "ポニじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_32:
-	.string "It seems you've already found all the\n"
-	.string "Alolan variants on PONI ISLE!\p"
-	.string "Great job!\p"
-	.string "Keep exploring the other ISLES and\n"
-	.string "report your progress to me!$"
+	.string "ポニじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
-	.string "Let me take a look at your POKéDEX{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
-	.string "It seems you haven't quite found all of\n"
-	.string "the Alolan variants on PONI ISLE\l"
-	.string "just yet.\p"
-	.string "I've heard PONI ISLE has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\n"
-	.string "variants for you to find…\p"
-	.string "{COLOR RED}GEODUDE{COLOR DARK_GRAY}, {COLOR RED}GRAVELER{COLOR DARK_GRAY}, {COLOR RED}GOLEM{COLOR DARK_GRAY}, and\n"
-	.string "{COLOR RED}EXEGGUTOR{COLOR DARK_GRAY}.\p"
-	.string "Keep on searching and come back when\n"
-	.string "you've caught them all!$"
+	.string "ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pポニじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pポニじまには　{COLOR RED}4{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}イシツブテ{COLOR DARK_GRAY}　{COLOR RED}ゴローン{COLOR DARK_GRAY}　{COLOR RED}ゴローニャ{COLOR DARK_GRAY}\n{COLOR RED}ナッシー{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_34:
-	.string "No worries, {PLAYER}!\p"
-	.string "Come back when you'd like to share your\n"
-	.string "findings about the ALOLA ISLES!$"
+	.string "だいじょうぶ\n{PLAYER}くん！\pアローラしょとうの　はっけんを\nおしえたく　なったら\lまた　おいで！$"

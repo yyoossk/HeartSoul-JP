@@ -16,8 +16,7 @@ NewSinjoh_EventScript_TriggerNorthGate::
 	end
 
 NewSinjoh_Text_TriggerNorthGate:
-	.string "Better not leave the Kimono\n"
-	.string "girls waiting.$"
+	.string "まいこはんたちを\nまたせない　ほうが　いい$"
 
 NewSinjoh_EventScript_PetStantler::
     lock
@@ -30,16 +29,14 @@ NewSinjoh_EventScript_PetStantler::
 	end
 
 NewSinjoh_Text_Stantler_Cry:
-    .string "Lerrrrr!$"
+	.string "オドシー！$"
 
 NewSinjoh_EventScript_Steven::
 	msgbox NewSinjoh_Text_Steven, MSGBOX_AUTOCLOSE
 	end
 
 NewSinjoh_Text_Steven:
-	.string "STEVEN: Ma'am, may I help you to\n"
-	.string "the spring over there?\p"
-	.string "It seems there is plenty of room.$"
+	.string "ダイゴ『おくさん　あちらの\nおんせんまで　おつれ\lしましょうか？\pばしょは　まだ　たくさん\nあいて　いるようです$"
 
 NewSinjoh_MilkMan_EventScript_Seller::
 	lock
@@ -89,31 +86,25 @@ NewSinjoh_MilkMan_NotEnough::
 	end
 
 NewSinjoh_MilkMan_text_BuyMilk:
-	.string "I am the Milkman.\p"
-	.string "My milk is delicious.\p"
-	.string "If you would like some today, it'll be\n"
-	.string "¥500.$"
+	.string "わたしは　ミルクマン\pわたしの　ミルクは\nおいしいよ\pきょう　ほしい　なら\n500円だ$"
 
 NewSinjoh_MilkMan_GotMilk:
-	.string "Here ya go!\n"
-	.string "It's fortified with what the world wants.$"
+	.string "はい　どうぞ！\nせかいが　もとめる　ものが\lはいってるよ$"
 
 NewSinjoh_MilkMan_NoMoney:
-	.string "Sorry.\n"
-	.string "Get some cash, then you will get a sale!$"
+	.string "わるいね\nおかねが　あれば\lうって　あげるよ！$"
 
 NewSinjoh_MilkMan_NoRoom:
-	.string "Look's like your PACK's full.$"
+	.string "バッグが　いっぱい\nみたいだね$"
 
 NewSinjoh_MilkMan_NoSale:
-	.string "Don't you want it?\n"
-	.string "It gots what the world deserves.$"
+	.string "いらないの？\nせかいに　ふさわしい\lものが　はいってるのに$"
 
 NewSinjoh_MilkMan_Text_WouldYouLikeAnother:
-	.string "How bout another?$"
+	.string "もう　1ぽん　どう？$"
 
 NewSinjoh_Text_GotMilk:
-	.string "{PLAYER} got MOOMOO MILK.$"
+	.string "{PLAYER}は\nモーモーミルクを　てにいれた$"
 
 MilkMan_EventScript_Battle:: 
     msgbox MilkMan_Battle_text
@@ -122,13 +113,10 @@ MilkMan_EventScript_Battle::
     end
 
 MilkMan_Battle_text:
-	.string "I am the MilkMan,\p"
-	.string "My milk is delicious.\p"
-	.string "Special delivery today!$"
+	.string "わたしは　ミルクマン\pわたしの　ミルクは\nおいしいよ\pきょうは　とくべつ\nはいたつだ！$"
 
 NewSinjoh_MilkMan_text_Lose:
-	.string "This world is perfect.\n"
-	.string "isn't it?$"
+	.string "この　せかいは\nかんぺき　だろう？$"
 
 NewSinjoh_Script_TravelMart::
 	lock
@@ -153,11 +141,10 @@ NewSinjoh_Pokemart_TravelShop:
 	.2byte ITEM_NONE
 
 NewSinjoh_Text_TravelShopGreeting:
-	.string "Welcome to My little Supply Shop.\n"
-	.string "How can I help you?$"
+	.string "ちいさな　よろずやへ\nようこそ\lなにに　しますか？$"
 
 NewSinjoh_Text_TravelShopEnd:
-	.string "Do come back.$"
+	.string "また　どうぞ$"
 
 Script_NewSinjoh_Traveler_Brother::
 	lock
@@ -167,22 +154,14 @@ Script_NewSinjoh_Traveler_Brother::
 	end
 
 NewSinjoh_Text_TravelBrother_Greeting:
-    .string "All our goods are homemade\n"
-	.string "and grown locally!\p"
-	.string "My big sister opened up this shop,\n"
-	.string "because the POKéMART company\l"
-	.string "won't open a location\l"
-	.string "this far out from a major town.$"
+	.string "うちの　しなものは　ぜんぶ\nてづくりで　じもと　さんです！\pおおきな　まちから　とおすぎて\nフレンドリィショップが\lみせを　だして　くれないので\lあねが　この　みせを\lひらいたんです$"
 
 NewSinjoh_EventScript_Josh::
 	msgbox NewSinjoh_Text_Josh, MSGBOX_NPC
 	end
 
 NewSinjoh_Text_Josh:
-	.string "This place is sick!\p"
-	.string "Hiding these hot springs\n"
-	.string "from the world is a travesty.\p"
-	.string "I'm gonna tell all my friends!$"
+	.string "ここ　さいこう！\pこの　おんせんを　せかいに\nかくしてる　なんて\lもったいない！\pともだち　みんなに\nおしえるぞ！$"
 
 NewSinjoh_EventScript_Janice::
 	goto_if_ge VAR_SINJOH_STORYLINE, 13, NewSinjoh_EventScript_JaniceAfter
@@ -193,21 +172,16 @@ NewSinjoh_EventScript_JaniceAfter::
 	end
 
 NewSinjoh_Text_Janice:
-	.string "These springs are magical,\n"
-	.string "but I feel like the locals\l"
-	.string "are giving us dirty looks.$"
+	.string "おんせんは　すてき　だけど\nじもとの　ひとに　にらまれて\lいる　きが　するの$"
 NewSinjoh_Text_JaniceAfter:
-	.string "These springs are magical,\n"
-	.string "and the locals are so kind\l"
-	.string "when you get to know them!$"
+	.string "おんせんは　すてきだし\nじもとの　ひとも　はなして\lみたら　とても　やさしいの！$"
 
 NewSinjoh_EventScript_OldLady1::
 	msgbox NewSinjoh_Text_OldLady1, MSGBOX_NPC
 	end
 
 NewSinjoh_Text_OldLady1:
-	.string "There's nothing like a nice view to\n"
-	.string "invigorate this old soul.$"
+	.string "いい　けしきほど　としよりの\nこころを　げんきに\lする　ものは　ないねえ$"
 
 NewSinjoh_EventScript_OldLady2::
 	goto_if_ge VAR_SINJOH_STORYLINE, 13, NewSinjoh_EventScript_OldLady2Steven
@@ -218,14 +192,9 @@ NewSinjoh_EventScript_OldLady2Steven::
 	end
 
 NewSinjoh_Text_OldLady2:
-	.string "Great, now these tourists\n"
-	.string "are hogging our hot springs!\p"
-	.string "It's been one bad thing after\n"
-	.string "another lately!$"
+	.string "まったく　かんこうきゃくが\nおんせんを　ひとりじめ　して！\pさいきんは　わるい\nことばかり　つづくよ！$"
 NewSinjoh_Text_OldLady2Steven:
-	.string "What a handsome young man!\p"
-	.string "Maybe these tourists aren't\n"
-	.string "so bad after all.$"
+	.string "まあ　すてきな\nわかもの！\pかんこうきゃくも　そう\nわるくは　ない　かもね$"
 
 NewSinjoh_EventScript_OldLady3::
 	goto_if_ge VAR_SINJOH_STORYLINE, 13, NewSinjoh_EventScript_OldLady3After
@@ -236,16 +205,9 @@ NewSinjoh_EventScript_OldLady3After::
 	end
 
 NewSinjoh_Text_OldLady3:
-	.string "How can that woman\n"
-	.string "be so rude to our guests?\p"
-	.string "She needs to take a dip\n"
-	.string "in the springs. \p"
-	.string "There is plenty of space\n"
-	.string "for everyone.$"
+	.string "あの　ひとは　どうして\nおきゃくさんに　あんなに\lしつれい　なのかしら？\pおんせんに　つかって\nおちつけば　いいのに\pばしょは　みんなの　ぶん\nたくさん　あるわ$"
 NewSinjoh_Text_OldLady3After:
-	.string "It seems everybody is getting\n"
-	.string "used to each other around here.\p"
-	.string "Good!$"
+	.string "みんな　おたがいに\nなれて　きたみたいね\pよかった！$"
 
 NewSinjoh_EventScript_SpringsSage::
 	goto_if_ge VAR_SINJOH_STORYLINE, 13, NewSinjoh_EventScript_SpringsSageAfter
@@ -256,14 +218,7 @@ NewSinjoh_EventScript_SpringsSageAfter::
 	end
 
 NewSinjoh_Text_SpringsSage:
-	.string "There has been much division\n"
-	.string "and strife in our community\l"
-	.string "since the newcomers arrived.\p"
-	.string "Regardless of your perspective,\n"
-	.string "it is clear that the balance has\l"
-	.string "been disturbed.\p"
-	.string "Please be kind to locals and\n"
-	.string "tourists alike.$"
+	.string "あたらしい　ひとびとが　きてから\nむらは　わかれ　あらそいが\lたえぬ\pどちらの　たちばで　あれ\nつりあいが　みだれて\lいるのは　あきらかじゃ\pじもとの　ものにも\nかんこうきゃくにも\lやさしく　して　おくれ$"
 NewSinjoh_Text_SpringsSageAfter:
 	.string "Things have been better since\n"
 	.string "the legendary POKéMON were quelled.\p"
