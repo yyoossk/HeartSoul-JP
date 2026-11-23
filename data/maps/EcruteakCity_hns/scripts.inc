@@ -118,30 +118,13 @@ EcruteakCity_Movement_Silver2:
 	step_end
 
 EcruteakCity_Text_Silver1:
-	.string "THUD!!$"
+	.string "ドサッ！！$"
 
 EcruteakCity_Text_Silver2:
-	.string "{RIVAL}: How...? How is this\n"
-	.string "possible? How can I lose to mere\l"
-	.string "KIMONO GIRLS...?$"
+	.string "{RIVAL}『なぜだ‥？　なんで\nおれが　ただの　まいこはん\lなんかに　まけるんだ‥？$"
 
 EcruteakCity_Text_Silver3:
-	.string "{RIVAL}: You were watching me,\n"
-	.string "{PLAYER}...\p"
-	.string "Yeah, that's right!\p"
-	.string "I never thought defeating five\n"
-	.string "KIMONO GIRLS would be so hard...\p"
-	.string "I got beaten to a pulp...\p"
-	.string "...\p"
-	.string "You must have come here for the\n"
-	.string "same reason, right?\p"
-	.string "Don't get cocky just because you\n"
-	.string "defeated TEAM ROCKET!\p"
-	.string "These KIMONO GIRLS are insanely\n"
-	.string "strong.\p"
-	.string "See if you can defeat them.\p"
-	.string "But I'm not going back, I don't\n"
-	.string "want to see you win.$"
+	.string "{RIVAL}『みてたのか\n{PLAYER}‥\pああ　そうだよ！\pまいこはん　5にんに　かつのが\nこんなに　むずかしいとはな‥\pこてんぱんに　やられたよ‥\p‥‥\pおまえも　おなじ　りゆうで\nきたんだろ？\pロケットだんを　たおした\nくらいで　いい　きに　なるなよ！\pこの　まいこはんたちは\nとんでもなく　つよい\pかてるもんなら　かってみろ\pだが　おれは　もどらない\nおまえが　かつ　ところなんか\lみたくないからな$"
 
 EcruteakCity_EventScript_Gramps::
 	lock
@@ -281,104 +264,59 @@ EcruteakCity_EventScript_Item_RareCandy::
 	end
 
 EcruteakCity_Text_Eevee:
-	.string "EEVEE: Veee!$"
+	.string "イーブイ『ブイーッ！$"
 
 EcruteakCity_Text_Vulpix:
-	.string "VULPIX: Vullll Pix!$"
+	.string "ロコン『コーン！$"
 
 
 EcruteakCity_Text_UnusedMissingDaughter:
-	.string "Oh, no. Oh, no…\p"
-	.string "My daughter is missing.\p"
-	.string "No… She couldn't have gone to the\n"
-	.string "BURNED TOWER.\p"
-	.string "I told her not to go near it…\p"
-	.string "People seem to disappear there…\p"
-	.string "Oh, what should I do…?$"
+	.string "ああ‥　どうしましょう‥\pむすめが　いなく　なったの\pまさか‥　やけたとうに\nいったんじゃ‥\pちかづいちゃ　だめって\nいったのに‥\pあそこでは　ひとが\nきえるって‥\pああ　どうしたら‥？$"
 
 EcruteakCity_Text_Gramps1:
-	.string "ECRUTEAK used to have two towers:\n"
-	.string "one each in the east and west.$"
+	.string "エンジュには　むかし\nひがしと　にしに　ひとつずつ\lとうが　あったんじゃ$"
 
 EcruteakCity_Text_Gramps2:
-	.string "Ah, child. Have you learned to\n"
-	.string "dance like the KIMONO GIRLS?\p"
-	.string "If you go to their DANCE THEATER,\n"
-	.string "an odd old man will give you\l"
-	.string "something nice, I hear.$"
+	.string "おお　ぼうや　まいこはん\nみたいに　おどれるように\lなったかな？\pかぶれんじょうに　いけば\nかわった　じいさんが　いいものを\lくれる　らしいぞ$"
 
 EcruteakCity_Text_Lass1:
-	.string "I'm going to practice at the DANCE\n"
-	.string "THEATER. Care to join me?$"
+	.string "これから　かぶれんじょうで\nおどりの　れんしゅう　なの\lいっしょに　どう？$"
 
 EcruteakCity_Text_Lass2:
-	.string "The tower that used to be here…\p"
-	.string "My grandma told me it used to be\n"
-	.string "much taller.\p"
-	.string "I hear there are ghosts in it now.$"
+	.string "ここに　あった　とうはね‥\pおばあちゃんの　はなしだと\nもっと　ずっと　たかかったんだって\pいまは　ゆうれいが\nでるって　うわさよ$"
 
 EcruteakCity_Text_Lass2_ReleasedBeasts:
-	.string "Three big POKéMON ran off in different\n"
-	.string "directions. What were they?$"
+	.string "おおきな　ポケモンが　3びき\nばらばらの　ほうこうに\lかけていったの　あれは　なに？$"
 
 EcruteakCity_Text_Fisher:
-	.string "I heard a rumor about OLIVINE\n"
-	.string "LIGHTHOUSE.\p"
-	.string "The POKéMON that serves as the\n"
-	.string "beacon fell ill. Sounds like they\l"
-	.string "are in trouble.$"
+	.string "アサギの　とうだいの\nうわさを　きいたんだ\pとうだいの　あかりの　かわりを\nしている　ポケモンが　びょうきに\lなったらしい　たいへんそうだ$"
 
 EcruteakCity_Text_Fisher_JasmineReturned:
-	.string "The POKéMON at OLIVINE LIGHTHOUSE\n"
-	.string "has been cured.\p"
-	.string "Boats can safely sail out to sea at\n"
-	.string "night again.$"
+	.string "アサギの　とうだいの　ポケモンが\nげんきに　なったんだって\pこれで　また　よるも　ふねが\nあんぜんに　でられるな$"
 
 EcruteakCity_Text_Youngster:
-	.string "I hear POKéMON are rampaging at the\n"
-	.string "LAKE OF RAGE. I'd like to see that.$"
+	.string "いかりのみずうみで　ポケモンが\nあばれてるって　きいたよ\lみてみたいなあ$"
 
 EcruteakCity_Text_Gramps3:
-	.string "In the distant past…\p"
-	.string "This tower burned in a fire. Three\n"
-	.string "nameless POKéMON perished in it.\p"
-	.string "A rainbow-colored POKéMON descended\n"
-	.string "from the sky and resurrected them…\p"
-	.string "It's a legend that has been passed\n"
-	.string "down by ECRUTEAK GYM LEADERS.\p"
-	.string "Me?\p"
-	.string "I was a trainer way back when.\n"
-	.string "Hohoho!$"
+	.string "とおい　むかし‥\pこの　とうは　かじで　もえた\nなもなき　ポケモンが　3びき\lとうの　なかで　いのちを　おとした\pにじいろの　ポケモンが　そらから\nまいおりて　3びきを\lよみがえらせた‥\pエンジュジムの　リーダーに\nつたわる　でんせつじゃ\pわし？\pわしも　むかしは\nトレーナー　じゃった　ほっほっほ！$"
 
 EcruteakCity_Text_SageGym:
-	.string "Gym Leader MORTY is not here right\n"
-	.string "now. You may find him at the\l"
-	.string "BURNED TOWER.$"
+	.string "ジムリーダーの　マツバさんは\nいま　いません\lやけたとうに　いるかも　しれません$"
 
 EcruteakCity_Text_Sign:
-	.string "ECRUTEAK CITY\n"
-	.string "A Historical City\p"
-	.string "Where the Past Meets the Present$"
+	.string "エンジュシティ\nむかしと　いまが\lであう　れきしの　まち$"
 
 EcruteakCity_Text_TinTowerSign:
-	.string "TIN TOWER\p"
-	.string "A legendary POKéMON is said to\n"
-	.string "roost here.$"
+	.string "スズのとう\pでんせつの　ポケモンが\nまいおりると　いわれている$"
 
 EcruteakCity_Text_OfficeSign:
-	.string "Barrier Station to TIN TOWER\p"
-	.string "No Trespassing by the Unworthy.$"
+	.string "スズのとう　せきしょ\pみとめられた　もの　いがい\nたちいり　きんし$"
 
 EcruteakCity_Text_GymSign:
-	.string "ECRUTEAK CITY POKéMON GYM\n"
-	.string "LEADER: MORTY\p"
-	.string "The Mystic Seer of the Future$"
+	.string "エンジュシティ　ポケモンジム\nジムリーダー　マツバ\pみらいを　みとおす\nしんぴの　みこ$"
 
 EcruteakCity_Text_DanceTheaterSign:
-	.string "ECRUTEAK DANCE THEATER$"
+	.string "エンジュ　かぶれんじょう$"
 
 EcruteakCity_Text_BurnedTowerSign:
-	.string "BURNED TOWER\p"
-	.string "It was destroyed by a mysterious\n"
-	.string "fire.\p"
-	.string "Please stay away, as it is unsafe.$"
+	.string "やけたとう\pなぞの　かじで　やけおちた\pあぶないので\nちかづかないで　ください$"

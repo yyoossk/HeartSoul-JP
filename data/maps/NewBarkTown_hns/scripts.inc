@@ -20,7 +20,7 @@ NewBarkTown_EventScript_ElmCallAfterLeague::
 	end
 
 NewBarkTown_Text_ElmName:
-	.string "PROF.ELM$"
+	.string "ウツギはかせ$"
 
 NewBarkTown_OnTransition::
 	goto_if_eq VAR_NEWBARK_TOWN_STATE, 2, NewBarkTown_Set_TalkToElm
@@ -225,55 +225,40 @@ NewBarkTown_Movement_FaceDown:
 	step_end
 
 NewBarkTown_Text_LabSign:
-	.string "PROF.ELM'S LAB$"
+	.string "ウツギ　ポケモンけんきゅうじょ$"
 
 NewBarkTown_Text_Door:
-	.string "The door is locked.$"
+	.string "かぎが　かかっている$"
 
 NewBarkTown_Text_Wooper:
-	.string "WOOPER: Woooooop.$"
+	.string "ウパー『ウパーッ$"
 
 NewBarkTown_Text_FatManState2:
-	.string "Wow, your POKéGEAR is impressive!\n"
-	.string "Did your mom get it for you?$"
+	.string "わあ　すごい　ポケギアだね！\nママに　かってもらったの？$"
 
 NewBarkTown_Text_FatManState3:
-	.string "Yo, {PLAYER}!\p"
-	.string "I hear PROF.ELM discovered\n"
-	.string "some new POKéMON.$"
+	.string "よう　{PLAYER}！\pウツギはかせが　あたらしい\nポケモンを　はっけん　したらしいよ$"
 
 NewBarkTown_Text_LassState2:
-	.string "Wait, {PLAYER}!\p"
-	.string "It's dangerous to go out\n"
-	.string "without a POKéMON!\p"
-	.string "Wild POKéMON jump out of the grass\n"
-	.string "on the way to the next town.$"
+	.string "まって　{PLAYER}！\pポケモンを　もたずに　でかけたら\nあぶないわよ！\pとなりまちへの　みちの　くさむら\nからは　やせいの　ポケモンが\lとびだしてくるの$"
 
 NewBarkTown_Text_LassState3:
-	.string "Oh! Your POKéMON is adorable!\n"
-	.string "I wish I had one!$"
+	.string "まあ！　かわいい　ポケモンね！\nわたしも　ほしいなあ！$"
 
 NewBarkTown_Text_LassState4:
-	.string "Hi, {PLAYER}! Leaving again?\p"
-	.string "You should tell your mom if\n"
-	.string "you are leaving.$"
+	.string "あら　{PLAYER}！　また　おでかけ？\pでかける　ときは　ママに\nいってから　いきなさいね$"
 
 NewBarkTown_Text_LassState5:
-	.string "Call your mom on your POKéGEAR\n"
-	.string "to let her know how you're doing.$\p"
+	.string "ポケギアで　ママに　でんわして\nげんきだって　しらせて　あげてね\p"
 
 NewBarkTown_Text_Silver1:
-	.string ". . .\p"
-	.string "So this is the famous ELM\n"
-	.string "POKéMON LAB…$"
+	.string "‥‥‥\pここが　うわさの\nウツギ　ポケモンけんきゅうじょか‥$"
 
 NewBarkTown_Text_Silver2:
-	.string "…What are you staring at?$"
+	.string "‥なに　じろじろ　みてるんだよ？$"
 
 NewBarkTown_Text_Sign:
-	.string "NEW BARK TOWN\p"
-	.string "The Town Where the Winds of\n"
-	.string "a New Beginning Blow$"
+	.string "ワカバタウン\pあたらしい　はじまりの\nかぜが　ふく　まち$"
 
 NewBarkTown_EventScript_PlayersHouseMailbox::
 	msgbox NewBarkTown_Text_PlayersHouse, MSGBOX_SIGN
@@ -284,8 +269,8 @@ NewBarkTown_EventScript_ElmsHouseMailbox::
 	end
 
 NewBarkTown_Text_PlayersHouse:
-	.string "{PLAYER}'S HOUSE$"
+	.string "{PLAYER}の　いえ$"
 
 NewBarkTown_Text_ElmsHouse:
-	.string "PROF.ELM'S HOUSE$"
+	.string "ウツギはかせの　いえ$"
 

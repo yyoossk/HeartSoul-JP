@@ -233,140 +233,94 @@ Route36_Movement_SudoWoodo:
 	step_end
 
 Route36_Text_UseSquirtbottle:
-	.string "Use SQUIRTBOTTLE?$"
+	.string "ゼニガメじょうろを　つかいますか？$"
 
 Route36_Text_UsedSquirtbottle:
-	.string "{PLAYER} used the SQUIRTBOTTLE.$"
+	.string "{PLAYER}は\nゼニガメじょうろを　つかった$"
 
 Route36_Text_SudowoodoAttacked:
-	.string "The weird tree doesn't like the\n"
-	.string "SQUIRTBOTTLE!\p"
-	.string "The weird tree attacked!$"
+	.string "へんな　きは　ゼニガメじょうろが\nきらい　みたいだ！\pへんな　きが　おそいかかってきた！$"
 
 Route36_Text_RockSmashGuy1:
-	.string "Wa-hey!\p"
-	.string "I was going to snap that tree\n"
-	.string "with my straight-arm punch.\p"
-	.string "But I couldn't! I'm a failure!$"
+	.string "わっはっは！\pその　きを　おれの　まっすぐ\nパンチで　へしおる　つもり\lだったんだが\pできなかった！\nおれは　だめな　やつだ！$"
 
 Route36_Text_RockSmashGuy2:
-	.string "Did you clear that wretched tree?\p"
-	.string "I'm impressed!\n"
-	.string "I want you to have this.$"
+	.string "あの　にくい　きを\nどかしたのか？\pたいしたもんだ！\nこれを　やるよ$"
 
 Route36_Text_RockSmashGuy3:
-	.string "That happens to be ROCK SMASH.\p"
-	.string "You can shatter rocks with just a\n"
-	.string "single well-aimed smack.\p"
-	.string "If any rocks are in your way,\n"
-	.string "just smash 'em up!$"
+	.string "それは　いわくだき　だ\pねらいすました　いちげきで\nいわを　こなごなに　できる\pじゃまな　いわが　あったら\nくだいて　しまえ！$"
 
 Route36_Text_OddTree:
-	.string "A weird tree is blocking the way.$"
+	.string "へんな　きが\nみちを　ふさいで　いる$"
 
 Route36_Text_Lass1:
-	.string "Be careful at night on this route!\p"
-	.string "I saw a POKéMON that looked like\n"
-	.string "GROWLITHE, but it had a scary aura\l"
-	.string "to it.$"
+	.string "よるの　この　みちは\nきをつけて！\pガーディに　にてる　けど\nこわい　ふんいきの\lポケモンを　みたの$"
 
 Route36_Text_Lass2_ClearedSudowoodo:
-	.string "That odd tree disappeared without\n"
-	.string "a trace.\p"
-	.string "Oh! That tree was really a\n"
-	.string "POKéMON?$"
+	.string "あの　へんな　き\nあとかたも　なく　きえたの\pえ！　あの　き\nポケモン　だったの？$"
 
 Route36_Text_PsychicMarkSeen:
-	.string "I'm going to read your thoughts!$"
+	.string "きみの　こころを\nよんで　やる！$"
 
 Route36_Text_PsychicMarkBeaten:
-	.string "I misread you!$"
+	.string "よみちがえた！$"
 
 Route36_Text_PsychicMarkAfter:
-	.string "I'd be strong if only I could tell\n"
-	.string "what my opponent was thinking.$"
+	.string "あいての　かんがえが　わかれば\nつよく　なれるのに$"
 
 Route36_Text_SchoolboyAlan1Seen:
-	.string "Thanks to my studies, I'm ready\n"
-	.string "for any POKéMON!$"
+	.string "べんきょうの　おかげで\nどんな　ポケモンにも\lたいおう　できるぞ！$"
 
 Route36_Text_SchoolboyAlan1Beaten:
-	.string "Oops! Computation error?$"
+	.string "あれ？　けいさんミス？$"
 
 Route36_Text_SchoolboyAlanAfter:
-	.string "Darn. I study five hours a day too.\p"
-	.string "There's more to learning than just\n"
-	.string "reading books.$"
+	.string "くそう　まいにち　5じかんも\nべんきょう　してるのに\pほんを　よむ　だけが\nべんきょうじゃ　ないんだな$"
 
 Route36_Text_MeetArthur:
-	.string "ARTHUR: Who are you?\n"
-	.string "I'm ARTHUR of the WEEKDAY FAMILY.\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "モク『だれだ　おまえ？\nおれは　ようび　きょうだいの\lモクだ\pおれの　すきな　ようびを\nあてたら　ごほうびを　やる$"
 
 Route36_Text_ArthurNope:
-	.string "Not quite!$"
+	.string "ちがうな！$"
 
 Route36_Text_ArthurGivesGift:
-	.string "Here. You can have this.$"
+	.string "ほら　これを　やる$"
 
 Route36_Text_ArthurGaveGift:
-	.string "ARTHUR: A POKéMON that uses ROCK-\n"
-	.string "type moves should hold on to that.\p"
-	.string "It pumps up ROCK-type attacks.$"
+	.string "モク『いわタイプの　わざを　つかう\nポケモンに　もたせて　おけ\pいわタイプの　こうげきが\nつよく　なる$"
 
 Route36_Text_ArthurThursday:
-	.string "ARTHUR: I'm ARTHUR of Thursday.\n"
-	.string "I'm the fifth son out of seven.$"
+	.string "モク『おれは　もくようびの　モク\n7にん　きょうだいの\l5ばんめの　むすこだ$"
 
 Route36_Text_Sign:
-	.string "ROUTE 36$"
+	.string "36ばんどうろ$"
 
 Route36_Text_Sign_RuinsNorth:
-	.string "RUINS OF ALPH\n"
-	.string "NORTH ENTRANCE$"
+	.string "アルフのいせき\nきたいりぐち$"
 
 Route36_Text_Tips1:
-	.string "TRAINER TIPS\n"
-	.string "POKéMON stats vary--even within\l"
-	.string "the same species.\p"
-	.string "Their stats may be similar at first.\p"
-	.string "However, differences will become\n"
-	.string "pronounced as the POKéMON grow.$"
+	.string "トレーナーの　こころえ\nおなじ　しゅるいの　ポケモンでも\lのうりょくは　ちがう\pさいしょは　にている　ことも\nあるけど\pそだてるうちに　ちがいが\nはっきり　してくる$"
 
 Route36_Text_Tips2:
-	.string "TRAINER TIPS\n"
-	.string "Use DIG to return to the entrance of\n"
-	.string "any place.\p"
-	.string "It is convenient for exploring\n"
-	.string "caves and other landmarks.$"
+	.string "トレーナーの　こころえ\nあなをほるを　つかうと\lいりぐちに　もどれる\pどうくつなどを　たんけん\nするのに　べんり$"
 
 Route36_Text_AlanRegister:
-	.string "Darn. I study five hours a day too.\p"
-	.string "There's more to learning than just\n"
-	.string "reading books.$"
+	.string "くそう　まいにち　5じかんも\nべんきょう　してるのに\pほんを　よむ　だけが\nべんきょうじゃ　ないんだな$"
 
 Route36_Text_AlanRematchIntro:
-	.string "Thanks to my studies, I'm ready\n"
-	.string "for any POKéMON!$"
+	.string "べんきょうの　おかげで\nどんな　ポケモンにも\lたいおう　できるぞ！$"
 
 Route36_Text_AlanRematchDefeat:
-	.string "Oops! Computation error?$"
+	.string "あれ？　けいさんミス？$"
 
 Route36_Text_AlanPostRematch:
-	.string "Darn. I study five hours a day too.\p"
-	.string "There's more to learning than just\n"
-	.string "reading books.$"
+	.string "くそう　まいにち　5じかんも\nべんきょう　してるのに\pほんを　よむ　だけが\nべんきょうじゃ　ないんだな$"
 
 Route36_Text_AlanHasItem:
-	.string "Hey! I found something\n"
-	.string "while studying!\p"
-	.string "Here, you can have it!$"
+	.string "おーい！　べんきょう　ちゅうに\nいいもの　みつけたよ！\pはい　あげる！$"
 
 Route36_Text_AlanGaveItem:
-	.string "I'll let you know if I find\n"
-	.string "anything else!$"
+	.string "また　なにか　みつけたら\nしらせるね！$"
 
 Route36_Text_AlanNoRoom:
-	.string "Hmm, your BAG is full.\p"
-	.string "Come back when you have room.$"
+	.string "うーん　バッグが　いっぱいだね\pあきを　つくってから\nまた　きて$"

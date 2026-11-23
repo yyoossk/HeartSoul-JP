@@ -81,25 +81,19 @@ Route43_EventScript_Item_Max_Ether::
 	end
 
 Route43_Text_PokemaniacBenSeen:
-    .string "I love POKéMON!\p"
-    .string "That's why I started--and why I'll\n"
-    .string "keep on collecting POKéMON!$"
+	.string "ポケモン　だいすき！\pだから　あつめはじめたし\nこれからも　あつめつづけるぞ！$"
 
 Route43_Text_PokemaniacBenBeaten:
-    .string "How could you do this to me?$"
+	.string "なんて　ことを　するんだ？$"
 
 Route43_Text_PokemaniacBenAfter:
-    .string "What else do I like besides\n"
-    .string "POKéMON?\p"
-    .string "MARY on the radio. I bet she's\n"
-    .string "cute!$"
+	.string "ポケモンの　ほかに　すきな　もの？\pラジオの　クルミちゃん\nきっと　かわいいよ！$"
 
 Route43_Text_PokemaniacBrentSeen:
-    .string "Hey! Do you have any rare\n"
-    .string "POKéMON?$"
+	.string "おい！　めずらしい\nポケモン　もってるか？$"
 
 Route43_Text_PokemaniacBrentBeaten:
-    .string "Oh, my poor POKéMON! Darlings!$"
+	.string "ああ　かわいそうな\nポケモンたち！$"
 
 Route43_Text_PokemaniacBrentAfter:
     .string "I'd be happy just to own a single\n"

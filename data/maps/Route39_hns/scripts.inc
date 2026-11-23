@@ -133,42 +133,17 @@ Route39_EventScript_BaobaIntro::
 	end
 
 Route39_Text_ChooseLegend::
-	.string "BAOBA: GOOD HEAVENS! Did that\n"
-	.string "shadow belong to a POKéMON?\p"
-	.string "Did you get a good look at it?\n"
-	.string "I can't tell what color it was...$"
+	.string "バオバ『なんと！　いまの　かげは\nポケモン　だったのか？\pちゃんと　みえたかい？\nなにいろ　だったか\lわからなかった‥$"
 
 Route39_Text_BaobaIntro::
-	.string "How strange...\p"
-	.string "...Ohh!\n"
-	.string "What you are holding is...\l"
-	.string "what they call... a POKéDEX!\p"
-	.string "Haven't seen one of those in ages.\p"
-	.string "My name is BAOBA!\n"
-	.string "I used to run a SAFARI ZONE in\l"
-	.string "FUCHSIA CITY, but it was becoming\l"
-	.string "out of date with new entertainment\l"
-	.string "options coming out.\p"
-	.string "I decided to go overseas to learn\n"
-	.string "the newest technology and open a\l"
-	.string "state-of-the-art SAFARI ZONE\l"
-	.string "in CIANWOOD.\p"
-	.string "It may be more than a coincidence\n"
-	.string "that we are chatting.\p"
-	.string "Why don't we register each other's\n"
-	.string "numbers in the POKéGEAR?\p"
-	.string "I can give you a call once the\n"
-	.string "SAFARI ZONE is open before I call\l"
-	.string "anyone else!$"
+	.string "ふしぎだ‥\p‥おお！\nきみが　もっているのは‥\lいわゆる‥　ポケモンずかん！\pひさしぶりに　みたよ\pわしの　なまえは　バオバ！\nむかし　セキチクシティで\lサファリゾーンを　やって　いたが\lあたらしい　あそびが　ふえて\lじだいおくれに　なってしまった\pそこで　かいがいで　さいしんの\nぎじゅつを　まなんで　タンバに\lさいせんたんの　サファリゾーンを\lひらく　ことに　したんだ\pこうして　はなして　いるのも\nなにかの　えんかも　しれない\pポケギアに　おたがいの　ばんごうを\nとうろく　しないかね？\pサファリゾーンが　オープン　したら\nだれよりも　さきに　きみに\lでんわ　するよ！$"
 
 Route39_Text_Registered:
-	.string "{PLAYER} registered BAOBA\n"
-	.string "in the POKéGEAR!$"
+	.string "{PLAYER}は　ポケギアに\nバオバを　とうろく　した！$"
 
 
 Route39_Text_WillCall:
-	.string "BAOBA: I'll let you know\n"
-	.string "on the POKéGEAR soon!$"
+	.string "バオバ『ちかいうちに　ポケギアで\nしらせるよ！$"
 
 Route39_Movement_BaobaLeave:
 	walk_left
@@ -218,8 +193,7 @@ Route39_EventScript_Woman::
 	end
 
 Route39_Text_Woman:
-	.string "That shadow... Maybe it was a giant\n"
-	.string "PIDGEY?$"
+	.string "あの　かげ‥　もしかして\nおおきな　ポッポ　かしら？$"
 
 Route39_EventScript_Miltank::
 	lock
@@ -232,7 +206,7 @@ Route39_EventScript_Miltank::
 	end
 
 Route39_Text_Miltank:
-	.string "MILTANK: Mooo!$"
+	.string "ミルタンク『モーッ！$"
 
 Route39_EventScript_Eugene::
 	trainerbattle_single TRAINER_EUGENE_HNS, Route39_Text_SailorEugeneSeen, Route39_Text_SailorEugeneBeaten
@@ -240,17 +214,13 @@ Route39_EventScript_Eugene::
 	end
 
 Route39_Text_SailorEugeneSeen:
-	.string "I just got back to OLIVINE.\p"
-	.string "So how about a POKéMON battle?$"
+	.string "アサギに　かえって　きた\nばかりだ\pポケモンしょうぶ　しないか？$"
 
 Route39_Text_SailorEugeneBeaten:
-	.string "Awaaargh!$"
+	.string "うわあああっ！$"
 
 Route39_Text_SailorEugeneAfter:
-	.string "My POKéMON were caught and\n"
-	.string "raised overseas.\p"
-	.string "They're my companions on\n"
-	.string "those long voyages.$"
+	.string "おれの　ポケモンは　かいがいで\nつかまえて　そだてたんだ\pながい　こうかいの\nなかまなのさ$"
 
 Route39_EventScript_Derek::
 	trainerbattle_single TRAINER_DEREK_HNS, Route39_Text_PokefanMDerekSeen, Route39_Text_PokefanMDerekBeaten, Route39_EventScript_RegisterDerek
@@ -286,18 +256,13 @@ Route39_EventScript_DerekNoRoom::
 	end
 
 Route39_Text_PokefanMDerekSeen:
-	.string "This is a good time to brag\n"
-	.string "about my PIKACHU!$"
+	.string "ピカチュウを　じまん　する\nチャンスだ！$"
 
 Route39_Text_PokefanMDerekBeaten:
-	.string "I had no time to show off\n"
-	.string "PIKACHU…$"
+	.string "ピカチュウを　じまん　する\nひまも　なかった‥$"
 
 Route39_Text_PokefanMDerekAfter:
-	.string "I'm not listening to your\n"
-	.string "bragging!\p"
-	.string "We POKé FANS have a policy\n"
-	.string "of not listening to bragging!$"
+	.string "きみの　じまんは　きかないよ！\pポケモン　だいすきクラブは\nひとの　じまんは　きかない\lきまり　なんだ！$"
 
 Route39_EventScript_Ruth::
 	trainerbattle_single TRAINER_RUTH_HNS, Route39_Text_PokefanFRuthSeen, Route39_Text_PokefanFRuthBeaten
@@ -305,17 +270,13 @@ Route39_EventScript_Ruth::
 	end
 
 Route39_Text_PokefanFRuthSeen:
-	.string "Such darling POKéMON.\p"
-	.string "Let's show our POKéMON\n"
-	.string "together at the same time.$"
+	.string "かわいい　ポケモンたち\pいっしょに　ポケモンを\nみせあいましょう$"
 
 Route39_Text_PokefanFRuthBeaten:
-	.string "I don't mind losing.$"
+	.string "まけても　かまわないわ$"
 
 Route39_Text_PokefanFRuthAfter:
-	.string "Do you know about baby\n"
-	.string "POKéMON?\p"
-	.string "I bet they're just adorable!$"
+	.string "ベビィポケモンって\nしってる？\pきっと　すごく\nかわいいわよ！$"
 
 Route39_EventScript_Norman::
 	trainerbattle_single TRAINER_NORMAN_HNS, Route39_Text_PsychicNormanSeen, Route39_Text_PsychicNormanBeaten
@@ -323,19 +284,13 @@ Route39_EventScript_Norman::
 	end
 
 Route39_Text_PsychicNormanSeen:
-	.string "Let me see what your\n"
-	.string "POKéMON are capable of.$"
+	.string "きみの　ポケモンの\nちからを　みせて　もらおう$"
 
 Route39_Text_PsychicNormanBeaten:
-	.string "Ooh, your POKéMON have\n"
-	.string "potential.$"
+	.string "おお　きみの　ポケモンには\nかのうせいが　ある$"
 
 Route39_Text_PsychicNormanAfter:
-	.string "You know how POKéMON have\n"
-	.string "different abilities?\p"
-	.string "People are like that too.\n"
-	.string "Everyone has different\l"
-	.string "potential.$"
+	.string "ポケモンって　それぞれ\nのうりょくが　ちがうだろ？\pひとも　おなじさ\nみんな　ちがう\lかのうせいを　もってる$"
 
 Route39_EventScript_Jamie::
 	trainerbattle_single TRAINER_JAMIE_HNS, Route39_Text_PokefanFJaimeSeen, Route39_Text_PokefanFJaimeBeaten
@@ -343,22 +298,13 @@ Route39_EventScript_Jamie::
 	end
 
 Route39_Text_PokefanFJaimeSeen:
-	.string "You came at just the right\n"
-	.string "time.\p"
-	.string "Let's battle.$"
+	.string "ちょうど　いい　ところに\nきたわね\pしょうぶしましょう$"
 
 Route39_Text_PokefanFJaimeBeaten:
-	.string "Oh, how disappointing…$"
+	.string "まあ　ざんねん‥$"
 
 Route39_Text_PokefanFJaimeAfter:
-	.string "I met UMBREON at night right\n"
-	.string "here on ROUTE 39.\p"
-	.string "I'm not sure why, but it\n"
-	.string "seems to like it when I\l"
-	.string "train here.\p"
-	.string "It seems to become friendlier\n"
-	.string "by training here than\l"
-	.string "anywhere else.$"
+	.string "よるに　この　39ばんどうろで\nブラッキーに　であったの\pなぜか　ここで　とっくん\nすると　よろこぶのよ\pほかの　どこよりも　ここで\nとっくん　すると　なつく\lみたいなの$"
 
 Route39_EventScript_Sign1::
 	lock
@@ -368,8 +314,7 @@ Route39_EventScript_Sign1::
 	end
 
 Route39_Text_Sign:
-	.string "ROUTE 39\p"
-	.string "OLIVINE CITY - ECRUTEAK CITY$"
+	.string "39ばんどうろ\pアサギシティ　ー　エンジュシティ$"
 
 Route39_EventScript_Sign2::
 	lock
@@ -379,8 +324,7 @@ Route39_EventScript_Sign2::
 	end
 
 Route39_Text_MoomooFarmSign:
-	.string "MOOMOO FARM\p"
-	.string "Enjoy Our Fresh and Tasty Milk$"
+	.string "モーモーぼくじょう\pしんせんで　おいしい\nミルクを　どうぞ$"
 
 Route39_EventScript_Sign3::
 	lock
@@ -390,29 +334,16 @@ Route39_EventScript_Sign3::
 	end
 
 Route39_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "Use HEADBUTT on trees to shake\n"
-	.string "POKéMON out.\p"
-	.string "Different kinds of POKéMON\n"
-	.string "drop out of trees.\p"
-	.string "Use HEADBUTT on any tree\n"
-	.string "you see!$"
+	.string "トレーナーの　こころえ\pきに　ずつきを　すると\nポケモンが　おちてくる\pきによって　ちがう　ポケモンが\nおちてくるぞ\pみかけた　きには\nどんどん　ずつきだ！$"
 
 Route39_Text_DerekRegister:
-	.string "I'm not listening to your\n"
-	.string "bragging!\p"
-	.string "We POKé FANS have a policy\n"
-	.string "of not listening to bragging!$"
+	.string "きみの　じまんは　きかないよ！\pポケモン　だいすきクラブは\nひとの　じまんは　きかない\lきまり　なんだ！$"
 
 Route39_Text_DerekHasItem:
-	.string "Hey! I was showing off my\n"
-	.string "PIKACHU and found something.\p"
-	.string "Here, you can have it!$"
+	.string "おーい！　ピカチュウを　じまん\nしてたら　いいもの　みつけたよ\pはい　あげる！$"
 
 Route39_Text_DerekGaveItem:
-	.string "PIKACHU is it!\n"
-	.string "Don't you agree?$"
+	.string "ピカチュウ　さいこう！\nそう　おもうだろ？$"
 
 Route39_Text_DerekNoRoom:
-	.string "Hmm, your BAG is full.\p"
-	.string "Come back when you have room.$"
+	.string "うーん　バッグが　いっぱいだね\pあきを　つくってから\nまた　きて$"

@@ -36,44 +36,28 @@ Route33_EventScript_Lass::
 	end
 
 Route33_Text_HikerAnthony2Seen:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "トンネルを　ぬけて　きたけど\nまだまだ　げんきが\lありあまってるぜ$"
 
 Route33_Text_HikerAnthony2Beaten:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "うおっ！　おまえ　おれより\nげんきだな！$"
 
 Route33_Text_HikerAnthony2After:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "やまおとこは　やまで\nいちばん　かがやくのさ$"
 
 Route33_Text_AnthonyRegister:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "やまおとこは　やまで\nいちばん　かがやくのさ$"
 
 Route33_Text_AnthonyRematchIntro:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "トンネルを　ぬけて　きたけど\nまだまだ　げんきが\lありあまってるぜ$"
 
 Route33_Text_AnthonyRematchDefeat:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "うおっ！　おまえ　おれより\nげんきだな！$"
 
 Route33_Text_AnthonyPostRematch:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "やまおとこは　やまで\nいちばん　かがやくのさ$"
 
 Route33_Text_HikerAnthonyDunsparce:
-	.string "Hey, did you get a DUNSPARCE?\p"
-	.string "I caught one too.\p"
-	.string "Take a look at it in the light.\n"
-	.string "It's got a funny face!$"
+	.string "よう　ノコッチは　つかまえたか？\pおれも　1ぴき　つかまえたんだ\pあかるい　ところで　みてみな\nおもしろい　かおを　してるぜ！$"
 
 Route33_Text_Lass:
-	.string "Pant, pant…\p"
-	.string "That cave was bigger than\n"
-	.string "I'd expected.\p"
-	.string "I got too tired exploring\n"
-	.string "for MARILL, so I came outside.$"
+	.string "ふう　ふう‥\pあの　どうくつ　おもってたより\nひろかったわ\pマリルを　さがして　つかれちゃって\nそとに　でて　きたの$"

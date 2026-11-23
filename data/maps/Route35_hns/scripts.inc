@@ -109,135 +109,109 @@ Route35_EventScript_Item_ParalyzeHeal::
 	end
 
 Route35_Text_CamperIvanSeen:
-	.string "I've been getting POKéMON data off\n"
-	.string "my radio. I think I'm good.$"
+	.string "ラジオで　ポケモンの　じょうほうを\nしいれてるんだ　かてるはず$"
 
 Route35_Text_CamperIvanBeaten:
-	.string "I give!$"
+	.string "まいった！$"
 
 Route35_Text_CamperIvanAfter:
-	.string "Music on the radio changes the\n"
-	.string "moods of wild POKéMON.$"
+	.string "ラジオの　おんがくで　やせいの\nポケモンの　きぶんが　かわるんだ$"
 
 Route35_Text_CamperElliotSeen:
-	.string "I'm gonna show my girlfriend I'm\n"
-	.string "hot stuff!$"
+	.string "かのじょに　いい　ところを\nみせるんだ！$"
 
 Route35_Text_CamperElliotBeaten:
-	.string "I wish you would have lost for me…$"
+	.string "まけて　ほしかったのに‥$"
 
 Route35_Text_CamperElliotAfter:
-	.string "I was humiliated in front of my\n"
-	.string "girlfriend…$"
+	.string "かのじょの　まえで\nはじを　かいた‥$"
 
 Route35_Text_PicnickerBrookeSeen:
-	.string "My boyfriend's weak, so I can't rely\n"
-	.string "on him.$"
+	.string "かれし　よわいから\nたよれないの$"
 
 Route35_Text_PicnickerBrookeBeaten:
-	.string "Oh, my! You're so strong!$"
+	.string "まあ！　あなた　つよいのね！$"
 
 Route35_Text_PicnickerBrookeAfter:
-	.string "I can count on my POKéMON more than\n"
-	.string "my boyfriend.$"
+	.string "かれしより　ポケモンの　ほうが\nずっと　たよりに　なるわ$"
 
 Route35_Text_PicnickerKimSeen:
-	.string "Are you going to the GYM? Me too!$"
+	.string "ジムに　いくの？\nわたしも！$"
 
 Route35_Text_PicnickerKimBeaten:
-	.string "Oh. I couldn't win…$"
+	.string "ああ　かてなかった‥$"
 
 Route35_Text_PicnickerKimAfter:
-	.string "The GYM BADGES are pretty. I collect\n"
-	.string "them.$"
+	.string "ジムバッジって　きれいなの\nあつめてるのよ$"
 
 Route35_Text_BirdKeeperBryanSeen:
-	.string "What kinds of BALLS do you use?$"
+	.string "きみは　どんな　ボールを\nつかってる？$"
 
 Route35_Text_BirdKeeperBryanBeaten:
-	.string "Yikes! Not fast enough!$"
+	.string "ひえっ！　はやさが　たりない！$"
 
 Route35_Text_BirdKeeperBryanAfter:
-	.string "Some POKéMON flee right away.\p"
-	.string "Try catching them with KURT's\n"
-	.string "FAST BALL.\p"
-	.string "Whenever I find a ASPEAR BERRY, I\n"
-	.string "take it to KURT.\p"
-	.string "He turns it into a custom BALL.$"
+	.string "すぐ　にげる　ポケモンも　いる\pガンテツさんの　スピードボールで\nつかまえて　みな\pナナシのみを　みつけたら\nいつも　ガンテツさんに\lもっていくんだ\pとくべつな　ボールに\nしてくれるんだよ$"
 
 Route35_Text_JugglerIrwinSeen:
-	.string "Behold my graceful BALL dexterity!$"
+	.string "わたしの　みごとな\nボールさばきを　みよ！$"
 
 Route35_Text_JugglerIrwinBeaten:
-	.string "Whew! That was a jolt!$"
+	.string "ふう！　しびれたよ！$"
 
 Route35_Text_JugglerIrwinAfter:
-	.string "I was going to dazzle you with my\n"
-	.string "prize POKéMON.\p"
-	.string "But your prowess electrified me!$"
+	.string "じまんの　ポケモンで　きみを\nおどろかせる　つもり　だったのに\pきみの　うでまえに\nしびれて　しまったよ！$"
 
 Route35_Text_BugCatcherArnieSeen:
-	.string "I'll go anywhere if bug POKéMON\n"
-	.string "appear there.$"
+	.string "むしポケモンが　でるなら\nどこへでも　いくよ$"
 
 Route35_Text_BugCatcherArnieBeaten:
-	.string "Huh? I shouldn't have lost that…$"
+	.string "あれ？　まける　はず\nなかったのに‥$"
 
 Route35_Text_BugCatcherArnieAfter:
-	.string "My VENONAT won me the Bug-Catching\n"
-	.string "Contest at the NATIONAL PARK.$"
+	.string "しぜんこうえんの　むしとりたいかいで\nコンパンで　ゆうしょう　したんだ$"
 
 Route35_Text_IrwinRegister:
-	.string "I was going to dazzle you with my\n"
-	.string "prize POKéMON.\p"
-	.string "But your prowess electrified me!$"
+	.string "じまんの　ポケモンで　きみを\nおどろかせる　つもり　だったのに\pきみの　うでまえに\nしびれて　しまったよ！$"
 
 Route35_Text_ArnieRegister:
-	.string "My VENONAT won me the Bug-Catching\n"
-	.string "Contest at the NATIONAL PARK.$"
+	.string "しぜんこうえんの　むしとりたいかいで\nコンパンで　ゆうしょう　したんだ$"
 
 Route35_Text_ArnieRematchIntro:
-	.string "I'll go anywhere if bug POKéMON\n"
-	.string "appear there.$"
+	.string "むしポケモンが　でるなら\nどこへでも　いくよ$"
 
 Route35_Text_ArnieRematchDefeat:
-	.string "Huh? I shouldn't have lost that…$"
+	.string "あれ？　まける　はず\nなかったのに‥$"
 
 Route35_Text_ArniePostRematch:
-	.string "My VENONAT won me the Bug-Catching\n"
-	.string "Contest at the NATIONAL PARK.$"
+	.string "しぜんこうえんの　むしとりたいかいで\nコンパンで　ゆうしょう　したんだ$"
 
 Route35_Text_BugCatcherArnieYanma:
-	.string "Wow… Look at all those YANMA!\p"
-	.string "I'm so blown away, I can't move.$"
+	.string "わあ‥　ヤンヤンマが\nいっぱい！\pおどろいて　うごけないよ$"
 
 Route35_Text_FirebreatherWaltSeen:
-	.string "I'm practicing my fire breathing.$"
+	.string "ひふきの　れんしゅう　ちゅうだ$"
 
 Route35_Text_FirebreatherWaltBeaten:
-	.string "Ow! I scorched the tip of my nose!$"
+	.string "あちっ！　はなの　さきを\nこがしちまった！$"
 
 Route35_Text_FirebreatherWaltAfter:
-	.string "The POKéMON March on the radio\n"
-	.string "lures wild POKéMON.$"
+	.string "ラジオの　ポケモンマーチは\nやせいの　ポケモンを　よびよせる$"
 
 Route35_Text_OfficerDirkSeen:
-	.string "Danger lurks in the night!$"
+	.string "よるには　きけんが\nひそんで　いる！$"
 
 Route35_Text_OfficerDirkBeaten:
-	.string "Whoops!$"
+	.string "おっと！$"
 
 Route35_Text_OfficerDirkAfter:
-	.string "You know, night time is fun in its\n"
-	.string "own ways.\p"
-	.string "But don't overdo it, OK?$"
+	.string "よるには　よるの\nたのしさが　あるが\pほどほどに　するんだぞ$"
 
 Route35_Text_OfficerDirkTough:
-	.string "Your POKéMON look pretty tough.\p"
-	.string "You could go anywhere safely.$"
+	.string "きみの　ポケモンは\nつよそうだな\pどこへ　いっても\nあんぜん　だろう$"
 
 Route35_Text_Sign:
-	.string "ROUTE 35$"
+	.string "35ばんどうろ$"
 
 Route35_Text_Sign2:
-	.string "NATIONAL PARK GATE$"
+	.string "しぜんこうえん　ゲート$"

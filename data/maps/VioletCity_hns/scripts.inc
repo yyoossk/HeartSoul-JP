@@ -391,107 +391,69 @@ VioletCity_EventScript_GymSign::
 	end
 
 VioletCity_Text_LiquidJustice:
-	.string "Look around!\p"
-	.string "It's easy to see what POKéMON\n"
-	.string "you can catch in an area without\l"
-	.string "having to run around in tall\l"
-	.string "grass all day!$"
+	.string "まわりを　みて　ごらん！\pくさむらを　いちにちじゅう\nあるきまわらなくても\lここで　つかまえられる\lポケモンが　すぐ　わかるんだ！$"
 
 VioletCity_Text_EarlAsksIfYouBeatFalkner:
-	.string "Hello!\n"
-	.string "You are trainer?\p"
-	.string "Battle GYM LEADER,\n"
-	.string "win you did?$"
+	.string "ハロー！\nトレーナー　あなた　ですか？\pジムリーダーと\nしょうぶ　かちましたか？$"
 
 VioletCity_Text_VeryNiceIndeed:
-	.string "Ooh, la la!\n"
-	.string "Very indeed nice!$"
+	.string "オー　ラ　ラ！\nとっても　ベリーナイス！$"
 
 VioletCity_Text_FollowEarl:
-	.string "Is that so? Then study shall\n"
-	.string "you! Follow me!$"
+	.string "そうですか？　では\nおべんきょう　しましょう！\lついて　きてください！$"
 
 VioletCity_Text_HereTeacherIAm:
-	.string "Here, teacher I am.\n"
-	.string "Good it is you study here!$"
+	.string "ここ　わたしの　じゅく\nここで　べんきょう　いいこと！$"
 
 VioletCity_Text_Lass:
-	.string "Ghosts are rumored to appear\n"
-	.string "in SPROUT TOWER.\p"
-	.string "They say that GHOST-type\n"
-	.string "moves can bypass the defenses\p"
-	.string "of tough POKéMON like ONIX\n"
-	.string "and GEODUDE.$"
+	.string "マダツボミのとうには\nゆうれいが　でるって　うわさよ\pゴーストタイプの　わざは\nイワークや　イシツブテみたいな\pかたい　ポケモンの\nまもりを　すりぬけるんだって$"
 
 VioletCity_Text_Boy:
-	.string "Hey, you're a POKéMON trainer?\p"
-	.string "If you head to the ACADEMY,\n"
-	.string "you might learn something new!$"
+	.string "ねえ　きみ　ポケモントレーナー？\pポケモンじゅくに　いけば\nあたらしい　ことが　まなべるかもよ！$"
 
 VioletCity_Text_Gramps:
-	.string "FALKNER, from the VIOLET\n"
-	.string "POKéMON GYM, is a fine trainer!\p"
-	.string "He inherited his father's gym\n"
-	.string "and has done a great job with\l"
-	.string "it.$"
+	.string "キキョウジムの　ハヤトは\nりっぱな　トレーナーじゃ！\pちちおやの　ジムを　ついで\nよく　やって　おる$"
 
 VioletCity_Text_Youngster:
-	.string "I saw a wiggly tree up ahead!\p"
-	.string "If you touch it, it squirms\n"
-	.string "and dances! Cool!$"
+	.string "さきの　ほうに　くねくね\nうごく　きが　あったんだ！\pさわると　くねくね\nおどりだすんだ！　すごいよ！$"
 
 VioletCity_Text_Sign:
-	.string "VIOLET CITY\p"
-	.string "The City of Nostalgic Scents$"
+	.string "キキョウシティ\pなつかしい　かおりの　まち$"
 
 VioletCity_Text_GymSign:
-	.string "VIOLET CITY POKéMON GYM\p"
-	.string "LEADER: FALKNER, The Elegant\n"
-	.string "Master of Flying POKéMON$"
+	.string "キキョウシティ　ポケモンジム\pジムリーダー　ハヤト\nゆうがな　ひこうポケモンつかい$"
 
 VioletCity_Text_SproutTowerSign:
-	.string "SPROUT TOWER\p"
-	.string "Experience the Way of POKéMON$"
+	.string "マダツボミのとう\pポケモンの　みちを　あゆもう$"
 
 VioletCity_Text_EarlsAcademySign:
-	.string "EARL'S POKéMON ACADEMY$"
+	.string "アールの　ポケモンじゅく$"
 
 VioletCity_Text_Pichu:
-	.string "PICHU: Chuuuu!$"
+	.string "ピチュー『ピチュー！$"
 
 VioletCity_Text_Bellsprout:
-	.string "BELLSPROUT: Sprouuuut.$"
+	.string "マダツボミ『マダーッ$"
 
 VioletCity_Text_Rattata:
-	.string "RATTATA: RATTATARATTA!$"
+	.string "コラッタ『コラッタ！$"
 
 VioletCity_Text_ElmName:
-	.string "PROF.ELM$"
+	.string "ウツギはかせ$"
 
 VioletCity_Text_Elm_Call:
-	.string "PROF.ELM: Hello, {PLAYER}? We\n"
-	.string "discovered something about the EGG!\p"
-	.string "My assistant is at the POKéMON\n"
-	.string "CENTER in VIOLET CITY.\p"
-	.string "Could you talk to him?$"
+	.string "ウツギ『もしもし　{PLAYER}くん？\nタマゴの　ことで　わかったことが\lあるんだ！\pじょしゅが　キキョウシティの\nポケモンセンターに　いるから\pはなしを　きいて　くれるかい？$"
 
 VioletCity_Text_Kimono_Girl1:
-.string "Me oh my...\n"
-.string "That EGG must be...!$"
+	.string "あらまあ‥\nその　タマゴは‥！$"
 
 VioletCity_Text_Kimono_Girl2:
-.string "I see...\p"
-.string "So it was handed from MR. POKéMON\n"
-.string "to PROF.ELM, then from \l"
-.string "PROF.ELM to you.\p"
-.string "Now I get it...$"
+	.string "なるほど‥\pポケモンじいさんから　ウツギはかせへ\nそして　ウツギはかせから\lあなたへ　わたったのですね\pよく　わかりました‥$"
 
 VioletCity_Text_Kimono_Girl3:
-.string "That EGG is truly an important EGG.\p"
-.string "Please do take good care of it\n"
-.string "for me. Is that understood?$"
+	.string "その　タマゴは　ほんとうに\nだいじな　タマゴです\pどうか　たいせつに　してください\nよろしいですね？$"
 
 VioletCity_Text_Kimono_Girl4:
-.string "I am counting on you.$"
+	.string "たのみましたよ$"
 
 

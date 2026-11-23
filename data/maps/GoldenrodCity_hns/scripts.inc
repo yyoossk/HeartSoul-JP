@@ -289,185 +289,137 @@ GoldenrodCity_EventScript_Beauty::
 	end
 
 GoldenrodCity_Text_Beauty:
-	.string "This is the GOLDENROD GYM!\p"
-	.string "Our leader WHITNEY is not here\n"
-	.string "right now. She might be at the\l"
-	.string "RADIO TOWER.$"
+	.string "ここは　コガネジムよ！\pリーダーの　アカネは\nいま　いないの\lラジオとうに　いるかも$"
 
 GoldenrodCity_Text_Woman:
-	.string "I used to train in WHITNEY's GYM,\n"
-	.string "but all her crying gave me a\l"
-	.string "headache.$"
+	.string "まえは　アカネの　ジムで\nしゅぎょう　してたけど\lあの　なきごえで　あたまが\lいたく　なっちゃって$"
 
 GoldenrodCity_Text_HikerDay:
-	.string "When I went into the GAME CORNER\n"
-	.string "it was night time... How long was I\l"
-	.string "in there?!$"
+	.string "ゲームコーナーに　はいった　ときは\nよる　だったのに‥\lおれ　どれだけ　いたんだ！？$"
 
 GoldenrodCity_Text_HikerNight:
-	.string "When I went into the GAME CORNER\n"
-	.string "it was day time... How long was I\l"
-	.string "in there?!$"
+	.string "ゲームコーナーに　はいった　ときは\nひるま　だったのに‥\lおれ　どれだけ　いたんだ！？$"
 
 GoldenrodCity_Text_Snubbull:
-	.string "SNUBBULL: SNUUUBUUUULL!$"
+	.string "ブルー『ブルーッ！$"
 
 GoldenrodCity_Text_MrMime:
 	.string "............................$"
 
 GoldenrodCity_Text_ElmName:
-	.string "PROF.ELM$"
+	.string "ウツギはかせ$"
 
 GoldenrodCity_Text_ElmCall:
-	.string "PROF.ELM: Hello, {PLAYER}?\n"
-	.string "Has that EGG hatched yet?\p"
-	.string "Once it hatches, don't forget to\n"
-	.string "bring it by the lab! I need to\l"
-	.string "see it!$"
+	.string "ウツギ『もしもし　{PLAYER}くん？\nタマゴは　もう　かえったかい？\pかえったら　けんきゅうじょに\nつれてきてね！　ぜひ\lみたいんだ！$"
 
 GoldenrodCity_Text_PokefanM:
-	.string "They built the new RADIO TOWER\n"
-	.string "to replace the old creaky one.$"
+	.string "ふるくて　ギシギシいう　とうの\nかわりに　あたらしい\lラジオとうを　たてたんだ$"
 
 GoldenrodCity_Text_Youngster1:
-	.string "I know there's a new BIKE SHOP,\n"
-	.string "but I can't find it anywhere.$"
+	.string "あたらしい　じてんしゃやが\nあるって　きいたけど\lどこにも　みつからないんだ$"
 
 GoldenrodCity_Text_CooltrainerF1:
-	.string "Is that man in black dressed up\n"
-	.string "like a TEAM ROCKET member?\p"
-	.string "How silly!$"
+	.string "あの　くろい　ふくの　ひと\nロケットだんの　かっこう　してる？\pへんなの！$"
 
 GoldenrodCity_Text_CooltrainerF1_Cleared:
-	.string "Was that man in black really part\n"
-	.string "of TEAM ROCKET? I can't believe it!$"
+	.string "あの　くろい　ふくの　ひと\nほんとうに　ロケットだん　だったの？\lしんじられない！$"
 
 GoldenrodCity_Text_CooltrainerF2:
-	.string "The RADIO TOWER in GOLDENROD CITY\n"
-	.string "is quite the landmark.\p"
-	.string "They're running a campaign now.\p"
-	.string "They'll give you a shiny new\n"
-	.string "RADIO if you can pass their quiz.$"
+	.string "コガネシティの　ラジオとうは\nまちの　シンボルなの\pいま　キャンペーンを\nやってるのよ\pクイズに　ごうかく　したら\nあたらしい　ラジオが　もらえるの$"
 
 GoldenrodCity_Text_CooltrainerF2_GotCard:
-	.string "Oh, your POKéGEAR already works\n"
-	.string "as a radio!$"
+	.string "あら　あなたの　ポケギア\nもう　ラジオに　なってるのね！$"
 
 GoldenrodCity_Text_Youngster2:
-	.string "E-he-he-he…\p"
-	.string "I got in trouble for playing in\n"
-	.string "the DEPT.STORE basement.$"
+	.string "えへへへ‥\pデパートの　ちかで　あそんでたら\nおこられちゃった$"
 
 GoldenrodCity_Text_Lass:
-	.string "That man inside rates your\n"
-	.string "POKéMON nicknames.\p"
-	.string "He can even rename them.$"
+	.string "なかに　いる　ひとが　ポケモンの\nニックネームを　うらなって　くれるの\pなまえを　かえる　ことも　できるのよ$"
 
 GoldenrodCity_Text_Gramps:
-	.string "Whew! This town is so big,\n"
-	.string "I can't find anything at all.$"
+	.string "ふう！　この　まちは　ひろすぎて\nなにも　みつからんわい$"
 
 GoldenrodCity_Text_RocketScout1:
-	.string "So this is the RADIO TOWER…$"
+	.string "ここが　ラジオとうか‥$"
 
 GoldenrodCity_Text_RocketScout2:
-	.string "What do you want, pest?\n"
-	.string "Scram already!$"
+	.string "なんだ　ガキ？\nさっさと　うせろ！$"
 
 GoldenrodCity_Text_Rocket1:
-	.string "Stay out of the way!\n"
-	.string "Beat it, kid!$"
+	.string "じゃまだ　どけ！\nあっちへ　いけ！$"
 
 GoldenrodCity_Text_Rocket2:
-	.string "Take over the RADIO TOWER…\p"
-	.string "What? It's none of your business!$"
+	.string "ラジオとうを　のっとる‥\pなに？　おまえには\nかんけい　ないだろ！$"
 
 GoldenrodCity_Text_Rocket3:
-	.string "POKéMON? They're just tools\n"
-	.string "we use to make money!$"
+	.string "ポケモン？　かねもうけの\nどうぐに　すぎないさ！$"
 
 GoldenrodCity_Text_Rocket4:
-	.string "Our dream will soon come true…\p"
-	.string "It was a long, hard struggle…$"
+	.string "おれたちの　ゆめが\nもうすぐ　かなう‥\pながく　くるしい\nたたかい　だった‥$"
 
 GoldenrodCity_Text_Rocket5:
-	.string "Hey, brat! You don't belong here!\n"
-	.string "Get lost already!$"
+	.string "おい　ガキ！　ここは\nおまえの　くる　ところじゃない！\lさっさと　きえろ！$"
 
 GoldenrodCity_Text_Rocket6:
-	.string "Come and taste the terror of\n"
-	.string "TEAM ROCKET!$"
+	.string "ロケットだんの　おそろしさを\nあじわわせて　やる！$"
 
 GoldenrodCity_Text_StationSign:
-	.string "GOLDENROD CITY STATION$"
+	.string "コガネシティ　えき$"
 
 GoldenrodCity_Text_RadioTowerSign:
-	.string "GOLDENROD CITY RADIO TOWER$"
+	.string "コガネシティ　ラジオとう$"
 
 GoldenrodCity_Text_DeptStoreSign:
-	.string "Full Selection of POKéMON Goods!\p"
-	.string "GOLDENROD CITY DEPT.STORE$"
+	.string "ポケモングッズ　ずらり　かんび！\pコガネシティ　デパート$"
 
 GoldenrodCity_Text_GymSign:
-	.string "GOLDENROD CITY POKéMON GYM\n"
-	.string "LEADER: WHITNEY\p"
-	.string "The Incredibly Pretty Girl!$"
+	.string "コガネシティ　ポケモンジム\nジムリーダー　アカネ\pダイナマイト　プリティ　ギャル！$"
 
 GoldenrodCity_Text_CitySign:
-	.string "GOLDENROD CITY\p"
-	.string "The Festive City of Opulent Charm$"
+	.string "コガネシティ\pはなやかで　にぎやかな　まち$"
 
 GoldenrodCity_Text_BikeShopSign:
-	.string "The World is a Cycle Path!\n"
-	.string "BIKE SHOP$"
+	.string "せかいは　サイクリングロード！\nじてんしゃや$"
 
 GoldenrodCity_Text_GameCornerSign:
-	.string "Your Playground!\p"
-	.string "GOLDENROD CITY GAME CORNER$"
+	.string "あそびの　ひろば！\pコガネシティ　ゲームコーナー$"
 
 GoldenrodCity_Text_NameRaterSign:
-	.string "NAME RATER\p"
-	.string "Get Your POKéMON Nicknames Rated$"
+	.string "せいめい　はんだんし\pポケモンの　ニックネームを\nうらないます$"
 
 GoldenrodCity_Text_UndergroundNorthSign:
-	.string "UNDERGROUND ENTRANCE$"
+	.string "ちかつうろ　いりぐち$"
 
 GoldenrodCity_Text_UndergroundSouthSign:
-	.string "UNDERGROUND ENTRANCE$"
+	.string "ちかつうろ　いりぐち$"
 
 
 GoldenrodCity_Text_FlowerShopSign:
-	.string "Blooming Beautiful FLOWER SHOP$"
+	.string "はなが　いっぱい　フラワーショップ$"
 
 GoldenrodCity_Text_MoveTutorAsk:
-	.string "I can teach your POKéMON some\n"
-	.string "amazing moves!\p"
-	.string "Should I teach one?$"
+	.string "おまえの　ポケモンに　すっごい\nわざを　おしえて　やれるぞ！\pおしえて　やろうか？$"
 
 GoldenrodCity_Text_MoveTutorCost:
-	.string "It'll cost you 1000 coins.\n"
-	.string "Okay?$"
+	.string "コイン　1000まい　いただくが\nいいかい？$"
 
 GoldenrodCity_Text_MoveTutorDecline:
-	.string "Aww… But these moves are great!$"
+	.string "ええー‥　すごい　わざ　なのに！$"
 
 GoldenrodCity_Text_MoveTutorWhich:
-	.string "Wahahah! You won't regret it!\p"
-	.string "Which move should I teach?$"
+	.string "わははは！　こうかい　させないぞ！\pどの　わざを　おしえる？$"
 
 GoldenrodCity_Text_MoveTutorNoCash:
-	.string "Too bad. Guess I'll need to\n"
-	.string "get some cash from home…$"
+	.string "ざんねん\nいえから　おかねを　もってくるか‥$"
 
 GoldenrodCity_Text_MoveTutorUnderstand:
-	.string "If you understand this move,\n"
-	.string "you've made it as a trainer.$"
+	.string "この　わざの　よさが　わかれば\nおまえも　いちにんまえの\lトレーナーだ$"
 
 GoldenrodCity_Text_MoveTutorFarewell:
-	.string "Wahahah! Farewell, kid!$"
+	.string "わははは！　さらばだ！$"
 
 GoldenrodCity_Text_MoveTutorBut:
-	.string "B-but…$"
+	.string "で‥　でも‥$"
 
 GoldenrodCity_Text_MoveTutorNotEnoughCoins:
-	.string "…You don't have enough coins…$"
+	.string "‥コインが　たりないぞ‥$"

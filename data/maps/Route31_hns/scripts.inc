@@ -116,129 +116,73 @@ Route31_EventScript_ItemAntidote::
 	end
 
 Route31_Text_CooltrainerM:
-	.string "DARK CAVE…\p"
-	.string "If POKéMON could light it up,\n"
-	.string "I'd explore it.$"
+	.string "くらやみのほらあな‥\pポケモンで　あかるく　できたら\nたんけん　するんだけどな$"
 
 Route31_Text_BugCatcherWade1_Seen:
-	.string "I caught a bunch of POKéMON.\n"
-	.string "Let me battle with you!$"
+	.string "ポケモンを　いっぱい\nつかまえたんだ　しょうぶしよう！$"
 
 Route31_Text_BugCatcherWade1_Beaten:
-	.string "Awwwww…$"
+	.string "あーあ‥$"
 
 Route31_Text_BugCatcherWade1_After:
-	.string "You can catch POKéMON even if\n"
-	.string "you have six with you.\p"
-	.string "If you catch one, it'll go to\n"
-	.string "your BOX automatically.$"
+	.string "てもちが　6ぴきでも\nポケモンは　つかまえられるよ\pつかまえたら　じどうで\nボックスに　おくられるんだ$"
 
 Route31_Text_SleepyMan:
-	.string "… Hnuurg… Huh?\p"
-	.string "I walked too far today looking\n"
-	.string "for POKéMON.\p"
-	.string "My feet hurt and I'm sleepy…\p"
-	.string "If I were a wild POKéMON, I'd\n"
-	.string "be easy to catch…\p"
-	.string "…Zzzz…$"
+	.string "‥ふぁあ‥　ん？\pきょうは　ポケモンを　さがして\nあるきすぎて　しまった\pあしは　いたいし　ねむいし‥\pわしが　やせいの　ポケモンなら\nすぐ　つかまって　しまうな‥\p‥ぐう‥$"
 
 Route31_Text_SleepyManGotMail:
-	.string "…Zzzz… Huh?\p"
-	.string "What's that? You have MAIL\n"
-	.string "for me?$"
+	.string "‥ぐう‥　ん？\pなんじゃ？　わしに\nメールかい？$"
 
 Route31_Text_SleepyManFail:
-	.string "…Zzzz…$"
+	.string "‥ぐう‥$"
 
 Route31_Text_HandOverMailMon:
-	.string "{PLAYER} handed over the\n"
-	.string "POKéMON holding the MAIL.$"
+	.string "{PLAYER}は　メールを　もった\nポケモンを　わたした$"
 
 Route31_Text_ReadingMail:
-	.string "Let's see…\p"
-	.string "Thanks for bringing this to\n"
-	.string "me.\p"
-	.string "My friend's a good guy, and\n"
-	.string "you're swell too!\p"
-	.string "I'd like to do something good\n"
-	.string "in return too!\p"
-	.string "I know! I want you to have\n"
-	.string "this!$"
+	.string "どれどれ‥\pとどけて　くれて\nありがとう\pわしの　ともだちは　いい　やつで\nきみも　いい　こじゃな！\pわしも　なにか\nおれいを　したいのう！\pそうじゃ！　これを\nあげよう！$"
 
 Route31_Text_DescribeRest:
-	.string "...Zzz...\p"
-	.string "...Umm... Rest!\p"
-	.string "The phrase 'recover fast' became\n"
-	.string "shortened to 'Rest,' you see?\p"
-	.string "This is a move to sleep and recover\n"
-	.string "some HP.$"
+	.string "‥ぐう‥\p‥ええと‥　ねむる！\pねて　すばやく　かいふく　するから\nねむる　なんじゃ\pねむって　HPを　かいふくする\nわざじゃよ$"
 
 Route31_Text_WrongMail:
-	.string "This MAIL isn't for me.$"
+	.string "この　メールは　わしあて\nじゃないのう$"
 
 Route31_Text_MissingMail:
-	.string "Why is this POKéMON so special?\p"
-	.string "It doesn't have any MAIL.$"
+	.string "この　ポケモンが　どうか\nしたのかね？\pメールを　もって　おらんぞ$"
 
 Route31_Text_DeclinedToHandOverMail:
-	.string "What? You don't want\n"
-	.string "anything?$"
+	.string "なんじゃ？　なにも\nいらんのか？$"
 
 Route31_Text_CantTakeLastMon:
-	.string "If I take that POKéMON from\n"
-	.string "you,\p"
-	.string "what are you going to use in\n"
-	.string "battle?$"
+	.string "その　ポケモンを　もらったら\pきみは　なにで\nたたかうんじゃ？$"
 
 Route31_Text_Youngster:
-	.string "I found a good POKéMON in DARK\n"
-	.string "CAVE.\p"
-	.string "I'm going to raise it to take\n"
-	.string "on FALKNER.\p"
-	.string "He's the leader of VIOLET\n"
-	.string "CITY's GYM.$"
+	.string "くらやみのほらあなで\nいい　ポケモンを　みつけたんだ\pそだてて　ハヤトに\nいどむんだ\pキキョウジムの\nリーダーだよ$"
 
 Route31_Text_Sign:
-	.string "ROUTE 31\p"
-	.string "VIOLET CITY - CHERRYGROVE CITY$"
+	.string "31ばんどうろ\pキキョウシティ　ー　ヨシノシティ$"
 
 Route31_Text_WadeRegister:
-	.string "You're awesome! I like you!\p"
-	.string "I look for POKéMON here every\n"
-	.string "day.\p"
-	.string "When I'm in the grass, I find\n"
-	.string "all kinds of BERRIES.\p"
-	.string "If you'd like, I'll share\n"
-	.string "some.$"
+	.string "きみ　すごいね！　きにいったよ！\pまいにち　ここで　ポケモンを\nさがしてるんだ\pくさむらに　いると　いろんな\nきのみが　みつかるんだ\pよかったら　わけて　あげるよ$"
 
 Route31_Text_WadeRematchIntro:
-	.string "I was waiting for you.\n"
-	.string "Let's battle!$"
+	.string "まってたよ\nしょうぶしよう！$"
 
 Route31_Text_WadeRematchDefeat:
-	.string "Awwwww…$"
+	.string "あーあ‥$"
 
 Route31_Text_WadePostRematch:
-	.string "You'll hear from me as soon\n"
-	.string "as I find anything that you\l"
-	.string "might like.$"
+	.string "きみが　よろこびそうな　ものを\nみつけたら　すぐ　れんらく\lするからね$"
 
 Route31_Text_WadeHasItem:
-	.string "Hey! I've been looking for\n"
-	.string "you!\p"
-	.string "I found something while I\n"
-	.string "was in the grass.\p"
-	.string "Here, you can have it!$"
+	.string "おーい！　きみを　さがして\nたんだよ！\pくさむらで　いい　ものを\nみつけたんだ\pはい　あげる！$"
 
 Route31_Text_WadeGaveItem:
-	.string "I'll let you know if I find\n"
-	.string "anything else!$"
+	.string "また　なにか　みつけたら\nしらせるね！$"
 
 Route31_Text_WadeNoRoom:
-	.string "Hmm, looks like your BAG\n"
-	.string "is full.\p"
-	.string "Come back when you have\n"
-	.string "room!$"
+	.string "うーん　バッグが\nいっぱい　みたいだね\pあきを　つくってから\nまた　きてよ！$"
 
 Route31_Text_DarkCaveSign:
-	.string "DARK CAVE$"
+	.string "くらやみのほらあな$"

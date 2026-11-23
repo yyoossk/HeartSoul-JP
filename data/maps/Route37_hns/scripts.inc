@@ -81,76 +81,49 @@ Route37_EventScript_Sign::
 	end
 
 Route37_Text_TwinsAnnAndAnne1_Seen:
-	.string "ANN: ANNE and I are in this\n"
-	.string "together!$"
+	.string "アン『わたしと　アンナは\nいつも　いっしょ！$"
 
 Route37_Text_TwinsAnnAndAnne1_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "アンとアンナ『うーん‥\nちょっと　つよすぎ$"
 
 Route37_Text_TwinsAnnAndAnne1_After:
-	.string "ANN: I can tell what my sister and\n"
-	.string "my POKéMON are thinking.$"
+	.string "アン『いもうとと　ポケモンの\nかんがえてる　ことが　わかるの$"
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
-	.string "ANNE: ANN and I are in this\n"
-	.string "together!$"
+	.string "アンナ『わたしと　アンは\nいつも　いっしょ！$"
 
 Route37_Text_TwinsAnnAndAnne2_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "アンとアンナ『うーん‥\nちょっと　つよすぎ$"
 
 Route37_Text_TwinsAnnAndAnne2_After:
-	.string "ANNE: We share the same feelings as\n"
-	.string "our POKéMON.$"
+	.string "アンナ『わたしたちは　ポケモンと\nきもちが　つながってるの$"
 
 Route37_Text_PsychicGreg_Seen:
-	.string "POKéMON can't do a thing if they are\n"
-	.string "asleep.\p"
-	.string "I'll show you how scary that is!$"
+	.string "ねむっている　ポケモンは\nなにも　できない\pその　こわさを\nおしえて　やろう！$"
 
 Route37_Text_PsychicGreg_Beaten:
-	.string "I lost. That's pretty sad…$"
+	.string "まけた　かなしいな‥$"
 
 Route37_Text_PsychicGreg_After:
-	.string "Putting POKéMON to sleep or paralyz-\n"
-	.string "ing them are good battle techniques.$"
+	.string "ポケモンを　ねむらせたり\nまひさせたりするのは\lいい　せんぽうだ$"
 
 Route37_Text_Sunny_Meet:
-	.string "SUNNY: Hi!\p"
-	.string "I'm SUNNY of the WEEKDAY family!\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "ニチ『こんにちは！\pぼく　ようび　きょうだいの\nニチだよ！\pぼくの　すきな　ようびを\nあてたら　ごほうびを　あげる$"
 
 Route37_Text_Sunny_GiveGift1:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "きみに　あったら　これを\nわたすように　いわれてたんだ！$"
 
 Route37_Text_Sunny_GiveGift2:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "きみに　あったら　これを\nわたすように　いわれてたんだ！$"
 
 Route37_Text_Sunny_GaveGift:
-	.string "SUNNY: That thing…\p"
-	.string "Um…\p"
-	.string "… What was it now…\p"
-	.string "…\p"
-	.string "Oh! I remember now!\p"
-	.string "A POKéMON that knows electric\n"
-	.string "moves should hold it.\p"
-	.string "My sis MONICA said it powers up\n"
-	.string "electric moves!$"
+	.string "ニチ『それね‥\pえっと‥\p‥なんだっけ‥\p‥\pあ！　おもいだした！\pでんきの　わざを　おぼえてる\nポケモンに　もたせるんだ\pツキコねえちゃんが　でんきの\nわざが　つよくなるって　いってた！$"
 
 Route37_Text_Sunny_Sunday:
-	.string "SUNNY: My sisters and brothers are\n"
-	.string "MONICA, TUSCANY, WESLEY, ARTHUR,\l"
-	.string "FRIEDA and SANTOS.\p"
-	.string "They're all older than me!$"
+	.string "ニチ『ぼくの　きょうだいは\nツキコ　カヨ　スイ　モク\lキンコ　ドヨウ　だよ\pみんな　ぼくより\nとしうえ　なんだ！$"
 
 Route37_Text_Sunny_NotSunday:
-	.string "SUNNY: Isn't today Sunday?\n"
-	.string "Um… I forgot!$"
+	.string "ニチ『きょうって　にちようび\nじゃないの？　えっと‥\lわすれちゃった！$"
 
 Route37_Text_Sign:
-	.string "ROUTE 37\n"
-	.string "ECRUTEAK CITY AHEAD$"
+	.string "37ばんどうろ\nこの　さき　エンジュシティ$"

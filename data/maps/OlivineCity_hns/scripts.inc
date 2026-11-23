@@ -29,22 +29,10 @@ OlivineCity_EventScript_BaobaCall::
 	end
 
 OlivineCity_Text_BaobaName:
-	.string "BAOBA$"
+	.string "バオバ$"
 
 OlivineCity_Text_Baoba:
-	.string "{PLAYER}!\p"
-	.string "This is WARDEN BAOBA.\p"
-	.string "Sorry to have kept you waiting.\n"
-	.string "We've finally opened the\l"
-	.string "SAFARI ZONE!\p"
-	.string "Do you know where it is?\p"
-	.string "You know the GATE inside the cavern\n"
-	.string "in CIANWOOD CITY?\p"
-	.string "If you go through there and walk for\n"
-	.string "a short while, you should soon see\l"
-	.string "the SAFARI ZONE!\p"
-	.string "We're a little out of the way, but\n"
-	.string "please come visit!$"
+	.string "{PLAYER}くん！\pえんちょうの　バオバだ\pまたせて　わるかったね\nついに　サファリゾーンが\lオープン　したんだ！\pばしょは　わかるかな？\pタンバシティの　どうくつの\nなかに　ゲートが　あるだろう？\pそこを　ぬけて　すこし　あるけば\nすぐに　サファリゾーンが\lみえて　くるはずだ！\pちょっと　とおいけど\nぜひ　あそびに　きてね！$"
 
 OlivineCity_EventScript_CityTrigger:: @FLAGHEAP
 	setflag FLAG_HIDE_OLIVINE_CITY_GYM_JASMINE
@@ -156,23 +144,7 @@ OlivineCity_Movement_SilverLeave:
 	step_end
 
 OlivineCity_Text_SilverEncounter:
-	.string "You again?\n"
-	.string "There's no need to be alert.\p"
-	.string "I don't bother with wimps\n"
-	.string "like you.\p"
-	.string "Speaking of weaklings, the\n"
-	.string "city's GYM LEADER isn't here,\l"
-	.string "and is supposedly taking care\l"
-	.string "of a sick POKéMON at the\l"
-	.string "LIGHTHOUSE.\p"
-	.string "Humph! Boo-hoo!\n"
-	.string "Just let sick POKéMON go!\p"
-	.string "A POKéMON that can't battle\n"
-	.string "is worthless!\p"
-	.string "Why don't you go train at the\n"
-	.string "LIGHTHOUSE?\p"
-	.string "Who knows? It may make you a\n"
-	.string "bit of a better Trainer!$"
+	.string "また　おまえか？\nそう　けいかい　するなよ\pおまえ　みたいな　よわい\nやつは　あいてに　しない\pよわいと　いえば　この　まちの\nジムリーダーは　いなくて\lとうだいで　びょうきの\lポケモンの　せわを　してるらしい\pふん！　くだらない！\nびょうきの　ポケモンなんか\lほうって　おけば　いい！\pたたかえない　ポケモンに\nかちなんか　ない！\pおまえも　とうだいで\nしゅぎょう　したら　どうだ？\pすこしは　ましな\nトレーナーに　なれるかもな！$"
 
 OlivineCity_EventScript_Sailor1::
 	lock
@@ -261,79 +233,43 @@ OlivineCity_EventScript_EonTicketWomanAfter::
 	end
 
 OlivineCity_Text_CafeSign:
-	.string "OLIVINE CAFE\n"
-	.string "WHERE STRONG SAILORS ENJOY\l"
-	.string "HEARTY MEALS OF STRENGTH$"
+	.string "アサギ　しょくどう\nうみの　おとこが　ちからの　つく\lりょうりを　たべる　みせ$"
 
 OlivineCity_Text_EonTicketWoman1:
-	.string "My name is MARY!\p"
-	.string "Just kidding, but I love MARY's\n"
-	.string "radio show!$"
+	.string "わたしの　なまえは　クルミ！\pなんて　うそ！　でも　クルミちゃんの\nラジオばんぐみ　だいすきなの！$"
 
 OlivineCity_Text_EonTicketWoman2:
-	.string "You must be {PLAYER}!!!\p"
-	.string "Oh my goodness! The champion!\p"
-	.string "I heard about you on MARY's\n"
-	.string "radio show!\p"
-	.string "Here, take this!$"
+	.string "あなた　{PLAYER}さん　でしょ！！！\pうそ！　チャンピオンだわ！\pクルミちゃんの　ラジオで\nあなたの　こと　きいたの！\pはい　これ　どうぞ！$"
 
 OlivineCity_Text_EonTicketWoman3:
-	.string "I can't believe I met the\n"
-	.string "champion!!!$"
+	.string "チャンピオンに　あえるなんて\nしんじられない！！！$"
 
 OlivineCity_Text_Sailor1:
-	.string "Dark roads are dangerous\n"
-	.string "at night.\p"
-	.string "But in the pitch-black of\n"
-	.string "night, the sea is even more\l"
-	.string "treacherous!\p"
-	.string "Without the beacon of the\n"
-	.string "LIGHTHOUSE to guide it,\l"
-	.string "no ship can sail.$"
+	.string "よるの　くらい　みちは\nあぶない\pだが　まっくらな　よるの\nうみは　もっと　きけんだ！\pとうだいの　あかりが　なければ\nふねは　だせないのさ$"
 
 OlivineCity_Text_YoungsterPokegear:
-	.string "That thing you have--\n"
-	.string "it's a POKéGEAR, right?\l"
-	.string "Wow, that's cool.$"
+	.string "きみが　もってる　それ\nポケギア　だよね？\lすごい　かっこいい$"
 
 OlivineCity_Text_YoungsterPokedex:
-	.string "Wow, you have a POKéDEX!\p"
-	.string "That is just so awesome.$"
+	.string "わあ　ポケモンずかん\nもってるんだ！\pほんとに　すごいなあ$"
 
 OlivineCity_Text_Sailor2:
-	.string "The league has JASMINE\n"
-	.string "pegged as the sixth\l"
-	.string "strongest GYM LEADER!\p"
-	.string "Hah! That's a load of crud.\p"
-	.string "There's no way PRYCE could\n"
-	.string "hurt JASMINE's STEEL-type\l"
-	.string "POKéMON!\p"
-	.string "Bureaucracy if you ask me.\p"
-	.string "She's something to be feared,\n"
-	.string "that's for sure!$"
+	.string "リーグの　ひょうかでは　ミカンは\n6ばんめに　つよい\lジムリーダー　なんだと！\pはっ！　ばかばかしい\pヤナギさんじゃ　ミカンの\nはがねポケモンに　まったく\lかなわないって　いうのに！\pおやくしょ　しごとだよ\pミカンは　ほんとうに\nおそろしい　あいてだぜ！$"
 
 OlivineCity_Text_Sign:
-	.string "OLIVINE CITY\p"
-	.string "The Port Closest to Foreign Lands$"
+	.string "アサギシティ\pいこくに　いちばん\nちかい　みなと$"
 
 OlivineCity_Text_PortSign:
-	.string "OLIVINE PORT\n"
-	.string "FAST SHIP PIER$"
+	.string "アサギこう\nこうそくせん　のりば$"
 
 OlivineCity_Text_GymSign:
-	.string "OLIVINE CITY POKéMON GYM\n"
-	.string "LEADER: JASMINE\p"
-	.string "The Steel-Clad Defense Girl$"
+	.string "アサギシティ　ポケモンジム\nジムリーダー　ミカン\pこうてつの　まもりの　おんなのこ$"
 
 OlivineCity_Text_LighthouseSign:
-	.string "OLIVINE LIGHTHOUSE\n"
-	.string "Also known as the GLITTER\l"
-	.string "LIGHTHOUSE$"
+	.string "アサギの　とうだい\nべつめい　かがやきの　とうだい$"
 
 OlivineCity_Text_BattleTowerSign:
-	.string "TRAINER HILL and\n"
-	.string "BATTLE TENTS AHEAD.\p"
-	.string "Opening Now!$"
+	.string "この　さき\nトレーナーヒルと　バトルテント\pただいま　オープン！$"
 
 OlivineCity_Text_Machoke:
-	.string "MACHOKE: CHO!$"
+	.string "ゴーリキー『ゴーリッ！$"
