@@ -42,84 +42,47 @@ BattleFrontier_Lounge5_EventScript_LittleBoy_hns::
 	end
 
 BattleFrontier_Lounge5_Text_NatureGirlGreeting_hns::
-	.string "Ehehe!\n"
-	.string "I can tell what POKéMON are thinking!\p"
-	.string "Please!\n"
-	.string "Can I see your POKéMON?$"
+	.string "えへへ！\nポケモンの　きもちが\lわかるの！\pおねがい！\nポケモン　みせて？$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown_hns::
-	.string "Boo!\n"
-	.string "Cheapie!$"
+	.string "ぶー！\nけち！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+	.string "ふむふむ‥\pこのこ　たたかうのが\nすきだって！\lいたくても　たたかうって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "ふむふむ‥\pこのこ　たたかうのが\nすきだって！\lでも　いたく　なったら\lじぶんを　まもるって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "ふむふむ‥\pこのこ　たたかうのが\nすきだって！\lでも　いたく　なったら\lずるく　なるって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "ふむふむ‥\pこのこ　じぶんを　まもるのが\nすきだって！\lでも　いたく　なったら\lやりかえすって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself whether\l"
-	.string "or not it has a lot of ouchies!$"
+	.string "ふむふむ‥\pこのこ　じぶんを　まもるのが\nすきだって！\lいたくても　いたくなくても\lじぶんを　まもるって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "ふむふむ‥\pこのこ　じぶんを　まもるのが\nすきだって！\lでも　いたく　なったら\lずるく　なるって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "ふむふむ‥\pこのこ　ずるいのが\nすきだって！\lでも　いたく　なったら\lやりかえすって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "ふむふむ‥\pこのこ　ずるいのが\nすきだって！\lでも　いたく　なったら\lじぶんを　まもるって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "ふむふむ‥\pこのこ　ずるいのが\nすきだって！\lいたくても　ずるく\lたたかうって！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg_hns::
-	.string "That's silly! An EGG is asleep!\n"
-	.string "I can't talk to it!$"
+	.string "へんなの！　タマゴは\nねてるんだよ！\lおはなし　できないよ！$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon_hns::
-	.string "How charming!\n"
-	.string "That little lady claims she can\l"
-	.string "understand POKéMON!$"
+	.string "かわいいわね！\nあの　おじょうちゃん\lポケモンの　ことばが\lわかるん　ですって！$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound_hns::
-	.string "I have this feeling that the little girl\n"
-	.string "is saying something profound.$"
+	.string "あの　おんなのこ　なにか\nふかい　ことを　いってる\lきが　するんだ$"
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot_hns::
-	.string "I know something!\p"
-	.string "That little girl plays at the red house\n"
-	.string "a lot!$"
+	.string "しってるよ！\pあの　おんなのこ　あかい\nいえで　よく　あそんでるの！$"
 

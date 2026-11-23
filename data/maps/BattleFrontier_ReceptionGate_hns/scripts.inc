@@ -297,115 +297,61 @@ BattleFrontier_ReceptionGate_EventScript_ExitFrontierPassGuide_hns::
 	end
 
 BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay_hns:
-	.string "Is it your first time here?\n"
-	.string "Please step this way!$"
+	.string "はじめての　かた　ですか？\nこちらへ　どうぞ！$"
 
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier_hns:
-	.string "The front lines of POKéMON battling!\n"
-	.string "Welcome to the BATTLE FRONTIER!$"
+	.string "ポケモンバトルの　さいぜんせん！\nバトルフロンティアへ　ようこそ！$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass_hns:
-	.string "For a first-time visitor, we issue\n"
-	.string "the FRONTIER PASS.\p"
-	.string "It's for use at all the facilities\n"
-	.string "in the BATTLE FRONTIER.\p"
-	.string "Here you are!$"
+	.string "はじめての　かたには\nフロンティアパスを\lおわたし　しています\pバトルフロンティアの\nすべての　しせつで\lつかえます\pどうぞ！$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass_hns:
-	.string "{PLAYER} obtained\n"
-	.string "the FRONTIER PASS.$"
+	.string "{PLAYER}は\nフロンティアパスを　もらった！$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass_hns:
-	.string "{PLAYER} placed the TRAINER CARD\n"
-	.string "in the FRONTIER PASS.$"
+	.string "{PLAYER}は　トレーナーカードを\nフロンティアパスに　いれた$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier_hns:
-	.string "We hope you enjoy all that the BATTLE\n"
-	.string "FRONTIER has to offer!$"
+	.string "バトルフロンティアを\nぞんぶんに　おたのしみ\lください！$"
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame_hns:
-	.string "???: Well, if it isn't {PLAYER}{KUN}!\n"
-	.string "You came out here!$"
+	.string "？？？『おや　{PLAYER}{KUN}　じゃないか！\nきて　くれたんだね！$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay_hns:
-	.string "GUIDE: Oh! MR. SCOTT, sir!\n"
-	.string "Good day to you, sir!$"
+	.string "あんないにん『あっ！　エニシダさま！\nこんにちは！$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere_hns:
-	.string "SCOTT: It's great to see you here,\n"
-	.string "it really is!\p"
-	.string "I hope you'll take your time and\n"
-	.string "explore everywhere.\p"
-	.string "Naturally, I hope you'll also experience\n"
-	.string "the pure essence of battling.\p"
-	.string "I also have my quarters here, so feel\n"
-	.string "free to visit if you have time.$"
+	.string "エニシダ『きみが　きて　くれて\nほんとうに　うれしいよ！\pゆっくり　ぜんぶ\nみて　まわって　ほしい\pもちろん　じゅんすいな\nバトルも　あじわって　ほしい\pぼくの　へやも　ここに\nあるから　ひまが　あれば\lあそびに　おいで$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities_hns:
-	.string "I'm your guide to the various facilities\n"
-	.string "here in the BATTLE FRONTIER.$"
+	.string "わたしは　バトルフロンティアの\nしせつを　ごあんない　します$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2_hns:
-	.string "Which would you like to learn about?$"
+	.string "どの　しせつに　ついて\nききたい　ですか？$"
 
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo_hns:
-	.string "It is the gigantic tower considered\n"
-	.string "to be the BATTLE FRONTIER's symbol.\p"
-	.string "There are four kinds of BATTLE ROOMS\n"
-	.string "in the tower for SINGLE, DOUBLE, MULTI,\l"
-	.string "and LINK MULTI BATTLES.$"
+	.string "バトルフロンティアの\nシンボルと　いわれる\lきょだいな　とう　です\pとうの　なかには　シングル\nダブル　マルチ　つうしんマルチ\lの　4しゅるいの\lバトルルームが　あります$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo_hns:
-	.string "The BATTLE DOME is the large building\n"
-	.string "shaped like a huge egg.\p"
-	.string "Events named Battle Tourneys are held\n"
-	.string "in this facility.\p"
-	.string "The Battle Tourneys are offered in\n"
-	.string "two courses--for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+	.string "バトルドームは　おおきな\nタマゴの　かたちの\lたてもの　です\pここでは　トーナメントが\nひらかれて　います\pトーナメントは　シングルと\nダブルの　2コース　です$"
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo_hns:
-	.string "The BATTLE PALACE is the red building\n"
-	.string "on the right of the BATTLE FRONTIER.\p"
-	.string "There are two kinds of BATTLE HALLS\n"
-	.string "for SINGLE and DOUBLE BATTLES.$"
+	.string "バトルパレスは　バトル\nフロンティアの　みぎにある\lあかい　たてもの　です\pシングルと　ダブルの\n2しゅるいの　バトルホールが\lあります$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo_hns:
-	.string "The BATTLE ARENA is the dojo-like\n"
-	.string "building at the center-right of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Set KO Tourney\n"
-	.string "takes place at the BATTLE ARENA.$"
+	.string "バトルアリーナは　バトル\nフロンティアの　まんなか\lみぎよりに　ある　どうじょう\lのような　たてもの　です\pバトルアリーナでは　3たいけつ\nトーナメントが　ひらかれます$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo_hns:
-	.string "The BATTLE FACTORY is the large\n"
-	.string "building that is the closest to us.\p"
-	.string "An event called the Battle Swap\n"
-	.string "is conducted there.\p"
-	.string "The Battle Swap event is offered in\n"
-	.string "two courses for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+	.string "バトルファクトリーは\nここから　いちばん　ちかい\lおおきな　たてもの　です\pここでは　こうかんバトルが\nおこなわれて　います\pこうかんバトルは　シングルと\nダブルの　2コース　です$"
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo_hns:
-	.string "The BATTLE PIKE is the building shaped\n"
-	.string "like a POKéMON at the center-left of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Battle Choice\n"
-	.string "is conducted there.$"
+	.string "バトルチューブは　バトル\nフロンティアの　まんなか\lひだりよりに　ある　ポケモンの\lかたちの　たてもの　です\pここでは　みちえらびバトルが\nおこなわれて　います$"
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo_hns:
-	.string "The BATTLE PYRAMID is the enormous\n"
-	.string "pyramid.\p"
-	.string "An event called the Battle Quest\n"
-	.string "is conducted there.$"
+	.string "バトルピラミッドは\nきょだいな　ピラミッド　です\pここでは　バトルクエストが\nおこなわれて　います$"
 
 BattleFrontier_ReceptionGate_Text_RankingHallInfo_hns:
-	.string "The RANKING HALL is located near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "There, you may see the most fantastic\n"
-	.string "records left by the TRAINERS that\l"
-	.string "took on the many challenges of\l"
-	.string "the BATTLE FRONTIER.$"
+	.string "ランキングホールは\nバトルタワーの　ちかくに\lあります\pバトルフロンティアの\nいろいろな　ちょうせんで\lトレーナーが　のこした\lすばらしい　きろくが\lみられます$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo_hns:
 	.string "The EXCHANGE SERVICE CORNER is near\n"

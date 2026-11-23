@@ -1,0 +1,241 @@
+## data/maps/BattleFrontier_Lounge3_hns/scripts.inc
+@@BattleFrontier_Lounge3_Text_GetToBattleTowerSingle_hns
+バトルタワーの　シングル\nバトルルームへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleTowerDouble_hns
+バトルタワーの　ダブル\nバトルルームへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleTowerMulti_hns
+バトルタワーの　マルチ\nバトルルームへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleDomeSingle_hns
+バトルドームの　シングル\nトーナメントへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleDomeDouble_hns
+バトルドームの　ダブル\nトーナメントへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleFactorySingle_hns
+バトルファクトリーの　シングルの\nこうかんバトルへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble_hns
+バトルファクトリーの　ダブルの\nこうかんバトルへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle_hns
+バトルパレスの　シングル\nバトルホールへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble_hns
+バトルパレスの　ダブル\nバトルホールへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattleArena_hns
+バトルアリーナの　3たいけつ\nトーナメントへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePike_hns
+バトルチューブの　みちえらび\nバトルへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_GetToBattlePyramid_hns
+バトルピラミッドの　バトル\nクエストへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！
+@@BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints_hns
+ああ　おまえか‥\nおしかったな‥\pわるいけど　バトルポイントは\nかえせないんだ‥\pつぎは　もっと　がんばろうって\nことで　ひとつ！
+@@BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints_hns
+おお　やった！\nよう　チャンピオン！\pおまえなら　やれると\nしんじてたぜ！\lふたりとも　おおもうけだ！\pバトルポイントは　かえすぜ\nもちろん　おれからの\lおまけも　つけてな！
+@@BattleFrontier_Lounge3_Text_ObtainedBattlePoints_hns
+{PLAYER}は\nバトルポイントを\l{STR_VAR_1}ポイント　もらった！
+@@BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge_hns
+また　ちょうせん　する\nきに　なったら\lおれの　ことを　おもいだしてくれ！
+@@BattleFrontier_Lounge3_Text_NotInterested_hns
+きょうみ　ないだと？\nそんなに　びびる　ことは\lないだろ！
+@@BattleFrontier_Lounge3_Text_Oh_hns
+あ‥
+@@BattleFrontier_Lounge3_Text_BackedWrongTrainer_hns
+また　はずれの　トレーナーに\nかけちまった！\pおれも　みんなみたいに\nふつうに　バトル　したほうが\lいいのかな‥
+@@BattleFrontier_Lounge3_Text_TrainerGoodButRattled_hns
+あの　トレーナー‥\pうでは　いいけど\nすぐ　あせるから\lバトルドームでは\lかちのこれないな‥
+@@BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne_hns
+うふふ！\nかつ　ひとは　みれば\lわかるのよ！
+@@BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges_hns
+あの　トレーナーたち‥\nなに　してるの　かしら？\lちょうせん　すれば\lいいのに
+## data/maps/BattleFrontier_Lounge4_hns/scripts.inc
+@@BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring_hns
+きょうは　つよい　トレーナーの\nインタビューを　ほうそう\lするかしら？
+@@BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere_hns
+ここで　レストランを\nひらいたら　ぜったい\lもうかるな
+@@BattleFrontier_Lounge4_Text_NeedBreatherAfterBattles_hns
+ふう‥\pはげしい　バトルの　あとは\nひといき　いれないと‥\pでも　いまも　さくせんや\nコンボを　かんがえるのは\lやすまないぜ
+## data/maps/BattleFrontier_ScottsHouse_hns/scripts.inc
+@@BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier_hns
+エニシダ『やあ　ようこそ！\nへへ‥　せまくて　すまないね\pさて　{PLAYER}{KUN}\nあらためて　バトルフロンティアへ\lようこそ\pここは　ぼくの　ゆめ\nそのもの　なんだ\lながい　ねんげつを　かけて\lやっと　かたちに　なった
+@@BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal_hns
+ふりかえれば　ほんとうに\nながい　たび　だった‥\pつよい　トレーナーを\nさがして　ひとりで\lいえを　でたんだ\pこれを　つくるのに　どれだけ\nくろうと　じかんが　かかったか\lだれにも　わからないだろう
+@@BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing_hns
+でも　それは　もう　むかしの\nはなし　きに　しない！\pきみには　ここで　おもいきり\nバトルを　たのしんで　ほしい\p{PLAYER}{KUN}　たびの　とちゅうで\nなんども　であった\lきねんに　これを　うけとって
+@@BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints_hns
+{PLAYER}は\nバトルポイントを\l{STR_VAR_1}ポイント　もらった！
+@@BattleFrontier_ScottsHouse_Text_ExplainBattlePoints_hns
+エニシダ『バトルポイントは\nフロンティアパスで\lたしかめられるよ\pバトルフロンティアで\nかつやく　するほど\lバトルポイントが　たまる\pどうぐと　こうかん　したり\nすきに　つかって　くれ
+@@BattleFrontier_ScottsHouse_Text_ExpectingGreatThings_hns
+きみには　おおいに\nきたい　してるよ！
+@@BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers_hns
+エニシダ『トレーナーは\nひとりひとり　ちがう\lみんな　それぞれの\lじんせいを　いきている\pでも　バトルの　ときは\nだれで　あろうと　かんけいない\pみんな　おなじ　なんだ！\pだれもが　びょうどうな\nじゅんすいな　バトルが\lぼくは　だいすき　なんだ\pだから　ほんきで　バトル\nする　トレーナーを　さがして\lここに　まねいて　いるんだよ
+@@BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain_hns
+エニシダ『フロンティアブレーンには\nもう　あったかい？\pいや　それより　シンボルは\nもう　もらえたかな？\pフロンティアブレーンは\nぼくが　えらびぬいた\lさいきょうの　トレーナー　たちだ\pでも　きみの　つよさには\nかれらも　おどろく　はずさ！
+@@BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier_hns
+エニシダ『きみは　バトルの\nしゅぎょう　だけじゃ　ないよね？\pたしか　ずかんも\nつくって　いたはずだ\pじつは　ね‥\pバトルフロンティアの　どこかで\nやせいの　ポケモンに\lであえるかも‥\lふふふ！
+@@BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols_hns
+エニシダ『バトルフロンティアは\nたのしんで　いるかい？\p‥ちょっと　まって‥\nおお！\pきみの　フロンティアパス！\nぎんの　シンボルが\lぜんぶ　そろってる！\pすばらしい！　やっぱり\nきみは　つよかった！\pふだんは　こんな　ことは\nしないけど　とくべつだ！\pこれを　うけとって　くれ\nきみなら　うまく\lつかって　くれるだろう
+@@BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols_hns
+エニシダ『バトルフロンティアを\nたのしんで　くれてるかな？\p‥ちょっと　まって‥\nおお　しんじられない！\pきみの　フロンティアパス！\nきんの　シンボルが\lぜんぶ　そろってる！\pとんでもない！　やっぱり\nきみは　すごかった！\p‥　‥　‥　‥　‥　‥\p{PLAYER}　これを\nぜひ　うけとって　くれ！\pきみなら　この　おくりものの\nかちが　わかる　はずだ！
+@@BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere_hns
+いい　トレーナーを　みぬく\nめには　じしんが　あるんだ\pきみを　ここに　つれてきて\nほんとうに　よかった！
+@@BattleFrontier_ScottsHouse_Text_BerryPocketStuffed_hns
+きのみポケットが\nいっぱい　みたいだね
+@@BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow_hns
+エニシダ『おお　うわさは　きいたよ！\nバトルタワーで　だいかつやく！\l50にんいじょう　れんしょう\lしたんだって？\pすごい！\nこれを　うけとって　くれ！
+@@BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow_hns
+エニシダ『おお！　うわさは　きいたよ！\nバトルタワーを　せいは！\l100にんいじょう　れんしょう\lしたんだって？\pとんでもなく　すごい！\nこれを　うけとって　くれ！
+@@BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings_hns
+これからも　きみの　すごい\nうわさを　たのしみに　してるよ！
+@@BattleFrontier_ScottsHouse_Text_ComeBackForThisLater_hns
+おっと　にもつが　いっぱい\nなら　あとで　とりに　きてね
+## data/maps/BattleFrontier_Lounge5_hns/scripts.inc
+@@BattleFrontier_Lounge5_Text_NatureGirlGreeting_hns
+えへへ！\nポケモンの　きもちが\lわかるの！\pおねがい！\nポケモン　みせて？
+@@BattleFrontier_Lounge5_Text_NatureGirlNoneShown_hns
+ぶー！\nけち！
+@@BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow_hns
+ふむふむ‥\pこのこ　たたかうのが\nすきだって！\lいたくても　たたかうって！
+@@BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow_hns
+ふむふむ‥\pこのこ　たたかうのが\nすきだって！\lでも　いたく　なったら\lじぶんを　まもるって！
+@@BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow_hns
+ふむふむ‥\pこのこ　たたかうのが\nすきだって！\lでも　いたく　なったら\lずるく　なるって！
+@@BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow_hns
+ふむふむ‥\pこのこ　じぶんを　まもるのが\nすきだって！\lでも　いたく　なったら\lやりかえすって！
+@@BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow_hns
+ふむふむ‥\pこのこ　じぶんを　まもるのが\nすきだって！\lいたくても　いたくなくても\lじぶんを　まもるって！
+@@BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow_hns
+ふむふむ‥\pこのこ　じぶんを　まもるのが\nすきだって！\lでも　いたく　なったら\lずるく　なるって！
+@@BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow_hns
+ふむふむ‥\pこのこ　ずるいのが\nすきだって！\lでも　いたく　なったら\lやりかえすって！
+@@BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow_hns
+ふむふむ‥\pこのこ　ずるいのが\nすきだって！\lでも　いたく　なったら\lじぶんを　まもるって！
+@@BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow_hns
+ふむふむ‥\pこのこ　ずるいのが\nすきだって！\lいたくても　ずるく\lたたかうって！
+@@BattleFrontier_Lounge5_Text_NatureGirlEgg_hns
+へんなの！　タマゴは\nねてるんだよ！\lおはなし　できないよ！
+@@BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon_hns
+かわいいわね！\nあの　おじょうちゃん\lポケモンの　ことばが\lわかるん　ですって！
+@@BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound_hns
+あの　おんなのこ　なにか\nふかい　ことを　いってる\lきが　するんだ
+@@BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot_hns
+しってるよ！\pあの　おんなのこ　あかい\nいえで　よく　あそんでるの！
+## data/maps/BattleFrontier_Lounge6_hns/scripts.inc
+@@BattleFrontier_Lounge6_Text_WouldYouLikeToTrade_hns
+わたしの　ポケモンは\n{STR_VAR_2}\lしってる？\lとても　かわいくて　いいこよ\pこのこなら　じしんを　もって\nこうかんに　だせるわ！\p{STR_VAR_1}と　わたしの\n{STR_VAR_2}を\lこうかん　して　くれない？
+@@BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt_hns
+まあ　かわいい！\nありがとう！\lだいじに　するわね！\pわたしの　{STR_VAR_2}も\nかわいがって　あげてね！
+@@BattleFrontier_Lounge6_Text_DontTradeForAnythingButMon_hns
+あら　ごめんなさい！\n{STR_VAR_1}　いがいとは\lこうかん　しないの
+@@BattleFrontier_Lounge6_Text_WellThatsFineToo_hns
+あら　だめ？\nそれなら　しかたないわね\lまた　あそびに　きてね
+@@BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined_hns
+うふふ！\nエネコって　おもってたより\lずっと　かわいいわ！\lうれしい！
+## data/maps/BattleFrontier_Lounge7_hns/scripts.inc
+@@BattleFrontier_Lounge7_Text_LeftTutorIntro_hns
+ぶわっはっは！\pいまは　そう　みえない\nだろうけど　むかしは\lつよい　トレーナー　だったのさ\pこの　あたりで　いちばん\nつよい　おねえさんと\lいわれて　いたんだよ！\p‥　‥　‥　‥　‥　‥\pなんだい？\nしんじて　ないね\pあっちの　ほらふき\nおばさんとは　ちがう\lわたしは　ほんものさ！\pしょうこを　みせて　あげる\nポケモンに　とくべつで\lかわいい　わざを\lおしえて　あげるよ\pでも　ただじゃ　ないよ\nバトルポイントを　ちょっと\lはらって　もらおうか
+@@BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack_hns
+ぶわっはっは！\pとくべつで　かわいい\nわざを　おぼえに　きたのかい？
+@@BattleFrontier_Lounge7_Text_TeachWhichMove_hns
+ほらほら　みてごらん！\nどの　わざを　おしえる？
+@@BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints_hns
+{STR_VAR_1}　だね？\nバトルポイント\l{STR_VAR_2}ポイント　だよ　いいね？
+@@BattleFrontier_Lounge7_Text_TeachMoveToWhichMon_hns
+ほらほら　わざを　おしえる\nポケモンを　えらびな
+@@BattleFrontier_Lounge7_Text_HaventGotEnoughPoints_hns
+なんだい‥\nバトルポイントが\lたりないじゃないか！
+@@BattleFrontier_Lounge7_Text_IllTakeBattlePoints_hns
+わたしの　うでが\nわかったかい？\lバトルポイントは　いただくよ！
+@@BattleFrontier_Lounge7_Text_YouDontWantTo_hns
+なんだって？\nいらないのかい‥\pわたしの　うでを　みたく\nなったら　いつでも　おいで！
+@@BattleFrontier_Lounge7_Text_RightTutorIntro_hns
+いっひっひ！\pいまは　そう　みえない\nだろうけど　むかしは\lすごい　トレーナー　だったのさ\pこの　あたりで　いちばん\nむてきの　かいパンやろうと\lいわれて　いたんだよ！\p‥　‥　‥　‥　‥　‥\pどうしたい？\nしんじて　ないね\pあっちの　とんちんかんな\nおばさんとは　ちがう\lわたしは　けいけん　ほうふさ！\pしょうこを　みせて　あげる\nポケモンに　つよくて\lきれいな　わざを\lおしえて　あげるよ\pでも　ただじゃ　ないよ\nバトルポイントを　ちょっと\lはらって　もらおうか
+@@BattleFrontier_Lounge7_Text_RightTutorWelcomeBack_hns
+いっひっひ！\pつよくて　きれいな\nわざを　おぼえに　きたのかい？
+@@BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong_hns
+あの　おばさんたち\nわるくち　ばかり\lいいあってるから\lなかが　わるいと　おもうだろ\pでも　ほんとうに　そうなら\nふたりで　ここに　いたり\lしないよね？
+@@BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful_hns
+ぼくが　ちいさい　ころ\nあの　ひとたちは　つよくて\lきれいだった\pトレーナーの\nあこがれ　だったんだ\pいまも　うでは\nおとろえて　いない\pむしろ　ポケモンの　わざは\nもっと　みがかれてる\pでも‥　なぜだか\nこう　おもって　しまう‥\pじかんって　ざんこくだ‥
+@@BattleFrontier_Lounge7_Text_SoftboiledDesc_hns
+さいだいHPの\nはんぶん　まで\nかいふく　する
+@@BattleFrontier_Lounge7_Text_SeismicTossDesc_hns
+じぶんの　レベルと\nおなじ　ダメージを\nあたえる
+@@BattleFrontier_Lounge7_Text_DreamEaterDesc_hns
+ねむっている\nあいての　ダメージの\nはんぶんを　すいとる
+@@BattleFrontier_Lounge7_Text_MegaPunchDesc_hns
+ものすごい　ちからで\nなぐりつける\nつよい　パンチ
+@@BattleFrontier_Lounge7_Text_MegaKickDesc_hns
+ものすごい　ちからで\nけりつける\nつよい　キック
+@@BattleFrontier_Lounge7_Text_BodySlamDesc_hns
+からだごと　ぶつかる\nまひ　させる\nことが　ある
+@@BattleFrontier_Lounge7_Text_RockSlideDesc_hns
+おおきな　いわを\nなげつける　ひるませる\nことが　ある
+@@BattleFrontier_Lounge7_Text_CounterDesc_hns
+ぶつりこうげきの\nダメージを　2ばいに\nして　かえす
+@@BattleFrontier_Lounge7_Text_ThunderWaveDesc_hns
+よわい　でんきを\nあびせて　あいてを\nまひ　させる
+@@BattleFrontier_Lounge7_Text_SwordsDanceDesc_hns
+たたかいの　まいで\nこうげきを　ぐーんと\nあげる
+@@BattleFrontier_Lounge7_Text_DefenseCurlDesc_hns
+からだを　まるめて\nよわみを　かくし\nぼうぎょを　あげる
+@@BattleFrontier_Lounge7_Text_SnoreDesc_hns
+ねむっている　とき\nだけ　つかえる\nおおきな　いびき
+@@BattleFrontier_Lounge7_Text_MudSlapDesc_hns
+かおに　どろを\nかけて　あいての\nめいちゅうを　さげる
+@@BattleFrontier_Lounge7_Text_SwiftDesc_hns
+ほしがたの　こうせんを\nはなつ　かならず\nめいちゅう　する
+@@BattleFrontier_Lounge7_Text_IcyWindDesc_hns
+つめたい　かぜで\nあいての　すばやさを\nさげる
+@@BattleFrontier_Lounge7_Text_EndureDesc_hns
+1ターン　どんな\nこうげきにも　HP1で\nもちこたえる
+@@BattleFrontier_Lounge7_Text_PsychUpDesc_hns
+あいての　のうりょく\nへんかを　じぶんに\nコピー　する
+@@BattleFrontier_Lounge7_Text_IcePunchDesc_hns
+こおりの　パンチ\nこおらせる　ことが\nある
+@@BattleFrontier_Lounge7_Text_ThunderPunchDesc_hns
+でんきの　パンチ\nまひ　させる　ことが\nある
+@@BattleFrontier_Lounge7_Text_FirePunchDesc_hns
+ほのおの　パンチ\nやけどを　おわせる\nことが　ある
+@@BattleFrontier_Lounge7_Text_ElementalTutorIntro
+ぐーぐー‥\pな　なんだ　なに？\pおっと　すまん\nすこし　ねむって　いた\pわしは　さいきょうわざを\nおしえる　ものじゃ\pくさ　ほのお　みずタイプの\nポケモンに　いちばん\lつよい　わざを　おしえられる\pそんな　ちからを\nもとめて　きたのかね？
+@@BattleFrontier_Lounge7_Text_ElementalTutorWelcomeBack
+ぐーぐー‥\pな　なんだ　なに　だれ？\pおお　さいきょうの　わざを\nおぼえに　きたのかね？
+@@BattleFrontier_Lounge7_Text_TeachWhichMoveElemental
+おまえさんの　ポケモンには\nどの　わざが　あうと　おもう？
+@@BattleFrontier_Lounge7_Text_StrongElementalMoveDesc
+いりょくは　たかいが\nつぎの　ターンは\nうごけない
+## data/maps/BattleFrontier_ReceptionGate_hns/scripts.inc
+@@BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay_hns
+はじめての　かた　ですか？\nこちらへ　どうぞ！
+@@BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier_hns
+ポケモンバトルの　さいぜんせん！\nバトルフロンティアへ　ようこそ！
+@@BattleFrontier_ReceptionGate_Text_IssueFrontierPass_hns
+はじめての　かたには\nフロンティアパスを\lおわたし　しています\pバトルフロンティアの\nすべての　しせつで\lつかえます\pどうぞ！
+@@BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass_hns
+{PLAYER}は\nフロンティアパスを　もらった！
+@@BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass_hns
+{PLAYER}は　トレーナーカードを\nフロンティアパスに　いれた
+@@BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier_hns
+バトルフロンティアを\nぞんぶんに　おたのしみ\lください！
+@@BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame_hns
+？？？『おや　{PLAYER}{KUN}　じゃないか！\nきて　くれたんだね！
+@@BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay_hns
+あんないにん『あっ！　エニシダさま！\nこんにちは！
+@@BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere_hns
+エニシダ『きみが　きて　くれて\nほんとうに　うれしいよ！\pゆっくり　ぜんぶ\nみて　まわって　ほしい\pもちろん　じゅんすいな\nバトルも　あじわって　ほしい\pぼくの　へやも　ここに\nあるから　ひまが　あれば\lあそびに　おいで
+@@BattleFrontier_ReceptionGate_Text_YourGuideToFacilities_hns
+わたしは　バトルフロンティアの\nしせつを　ごあんない　します
+@@BattleFrontier_ReceptionGate_Text_LearnAboutWhich2_hns
+どの　しせつに　ついて\nききたい　ですか？
+@@BattleFrontier_ReceptionGate_Text_BattleTowerInfo_hns
+バトルフロンティアの\nシンボルと　いわれる\lきょだいな　とう　です\pとうの　なかには　シングル\nダブル　マルチ　つうしんマルチ\lの　4しゅるいの\lバトルルームが　あります
+@@BattleFrontier_ReceptionGate_Text_BattleDomeInfo_hns
+バトルドームは　おおきな\nタマゴの　かたちの\lたてもの　です\pここでは　トーナメントが\nひらかれて　います\pトーナメントは　シングルと\nダブルの　2コース　です
+@@BattleFrontier_ReceptionGate_Text_BattlePalaceInfo_hns
+バトルパレスは　バトル\nフロンティアの　みぎにある\lあかい　たてもの　です\pシングルと　ダブルの\n2しゅるいの　バトルホールが\lあります
+@@BattleFrontier_ReceptionGate_Text_BattleArenaInfo_hns
+バトルアリーナは　バトル\nフロンティアの　まんなか\lみぎよりに　ある　どうじょう\lのような　たてもの　です\pバトルアリーナでは　3たいけつ\nトーナメントが　ひらかれます
+@@BattleFrontier_ReceptionGate_Text_BattleFactoryInfo_hns
+バトルファクトリーは\nここから　いちばん　ちかい\lおおきな　たてもの　です\pここでは　こうかんバトルが\nおこなわれて　います\pこうかんバトルは　シングルと\nダブルの　2コース　です
+@@BattleFrontier_ReceptionGate_Text_BattlePikeInfo_hns
+バトルチューブは　バトル\nフロンティアの　まんなか\lひだりよりに　ある　ポケモンの\lかたちの　たてもの　です\pここでは　みちえらびバトルが\nおこなわれて　います
+@@BattleFrontier_ReceptionGate_Text_BattlePyramidInfo_hns
+バトルピラミッドは\nきょだいな　ピラミッド　です\pここでは　バトルクエストが\nおこなわれて　います
+@@BattleFrontier_ReceptionGate_Text_RankingHallInfo_hns
+ランキングホールは\nバトルタワーの　ちかくに\lあります\pバトルフロンティアの\nいろいろな　ちょうせんで\lトレーナーが　のこした\lすばらしい　きろくが\lみられます

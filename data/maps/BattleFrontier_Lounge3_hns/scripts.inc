@@ -255,136 +255,67 @@ BattleFrontier_Lounge3_Text_ThanksOffYouGo_hns::
 	.string "へへっ！　ありがとよ！\nさあ　いって　こい！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle_hns::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "SINGLE BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルタワーの　シングル\nバトルルームへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble_hns::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "DOUBLE BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルタワーの　ダブル\nバトルルームへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti_hns::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "MULTI BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルタワーの　マルチ\nバトルルームへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle_hns::
-	.string "Get to the BATTLE DOME's\n"
-	.string "SINGLE BATTLE Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルドームの　シングル\nトーナメントへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeDouble_hns::
-	.string "Get to the BATTLE DOME's\n"
-	.string "DOUBLE BATTLE Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルドームの　ダブル\nトーナメントへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle_hns::
-	.string "Get to the BATTLE FACTORY's\n"
-	.string "Battle Swap Single Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルファクトリーの　シングルの\nこうかんバトルへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble_hns::
-	.string "Get to the BATTLE FACTORY's\n"
-	.string "Battle Swap Double Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルファクトリーの　ダブルの\nこうかんバトルへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle_hns::
-	.string "Get to the BATTLE PALACE's\n"
-	.string "SINGLE BATTLE HALLS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルパレスの　シングル\nバトルホールへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble_hns::
-	.string "Get to the BATTLE PALACE's\n"
-	.string "DOUBLE BATTLE HALLS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルパレスの　ダブル\nバトルホールへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleArena_hns::
-	.string "Get to the BATTLE ARENA's\n"
-	.string "Set KO Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルアリーナの　3たいけつ\nトーナメントへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePike_hns::
-	.string "Get to the BATTLE PIKE's\n"
-	.string "Battle Choice pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルチューブの　みちえらび\nバトルへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid_hns::
-	.string "Get to the BATTLE PYRAMID's\n"
-	.string "Battle Quest pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+	.string "バトルピラミッドの　バトル\nクエストへ　いそげ！\pぜったい　まけられない！\nチャンスを　むだに　するな！\lおれたちの　みらいが\lかかってるんだ！$"
 
 BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints_hns::
-	.string "Oh, it's you…\n"
-	.string "Nice try…\p"
-	.string "I hate to break it to you, but I can't\n"
-	.string "return your Battle Points…\p"
-	.string "I guess we'll have to let it motivate\n"
-	.string "us to try harder next time!$"
+	.string "ああ　おまえか‥\nおしかったな‥\pわるいけど　バトルポイントは\nかえせないんだ‥\pつぎは　もっと　がんばろうって\nことで　ひとつ！$"
 
 BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints_hns::
-	.string "Oh, yes!\n"
-	.string "Hello there, champ!\p"
-	.string "I knew you could!\n"
-	.string "I knew you would!\l"
-	.string "We're both big winners!\p"
-	.string "I'll return your Battle Points and,\n"
-	.string "of course, a little extra from me!$"
+	.string "おお　やった！\nよう　チャンピオン！\pおまえなら　やれると\nしんじてたぜ！\lふたりとも　おおもうけだ！\pバトルポイントは　かえすぜ\nもちろん　おれからの\lおまけも　つけてな！$"
 
 BattleFrontier_Lounge3_Text_ObtainedBattlePoints_hns::
-	.string "{PLAYER} obtained\n"
-	.string "{STR_VAR_1} Battle Points.$"
+	.string "{PLAYER}は\nバトルポイントを\l{STR_VAR_1}ポイント　もらった！$"
 
 BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge_hns::
-	.string "If you're up for another challenge,\n"
-	.string "please do think of me!$"
+	.string "また　ちょうせん　する\nきに　なったら\lおれの　ことを　おもいだしてくれ！$"
 
 BattleFrontier_Lounge3_Text_NotInterested_hns::
-	.string "Not interested?! You shouldn't be\n"
-	.string "so afraid to take a chance!$"
+	.string "きょうみ　ないだと？\nそんなに　びびる　ことは\lないだろ！$"
 
 BattleFrontier_Lounge3_Text_Oh_hns::
-	.string "Oh…$"
+	.string "あ‥$"
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer_hns::
-	.string "I backed the wrong TRAINER again!\p"
-	.string "Maybe I should be battling normally\n"
-	.string "like everyone else…$"
+	.string "また　はずれの　トレーナーに\nかけちまった！\pおれも　みんなみたいに\nふつうに　バトル　したほうが\lいいのかな‥$"
 
 BattleFrontier_Lounge3_Text_TrainerGoodButRattled_hns::
-	.string "That TRAINER…\p"
-	.string "He's good, but he gets rattled too\n"
-	.string "easily to survive the BATTLE DOME…$"
+	.string "あの　トレーナー‥\pうでは　いいけど\nすぐ　あせるから\lバトルドームでは\lかちのこれないな‥$"
 
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne_hns::
-	.string "Giggle!\n"
-	.string "I know a winner when I see one!$"
+	.string "うふふ！\nかつ　ひとは　みれば\lわかるのよ！$"
 
 BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges_hns::
-	.string "Those TRAINERS…\n"
-	.string "What are they doing?\l"
-	.string "They should be taking challenges.$"
+	.string "あの　トレーナーたち‥\nなに　してるの　かしら？\lちょうせん　すれば\lいいのに$"
