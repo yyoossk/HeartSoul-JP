@@ -1,0 +1,137 @@
+## data/text/match_call.inc
+@@MatchCall_WildBattleText9
+あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pどう？　ポケモン\nあつまってる？\pわたしは　さんざん！\nみんな　にげちゃうの！\pじゃあね！
+@@MatchCall_WildBattleText10
+あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pきいて　ほんの　すこしで\n{STR_VAR_2}を　つかまえ\lられたのに‥\pにげられちゃった‥\pもっと　がんばらなきゃ\nまたね
+@@MatchCall_WildBattleText11
+ああ　{PLAYER}{KUN}\n{STR_VAR_1}です\lげんき　かな？\pさっき　やせいの　{STR_VAR_2}を\nつかまえようと　したが\lにげられて　しまった\pまけた　きぶん　だよ‥
+@@MatchCall_WildBattleText12
+もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\lまだ　ポケモンを\lつかまえて　いるかね？\pわしも　つかまえようと\nして　おるが　なかなか\lむずかしい\pポケモンの　みちは　ふかい！
+@@MatchCall_WildBattleText13
+おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\lポケモンは　つかまえて\lおるかね？\pわしも　つかまえようと\nして　おるが　どうも\lうまく　いかん\pポケモンの　みちは　ふかい！
+@@MatchCall_WildBattleText14
+あら　{PLAYER}{KUN}　こんにちは\n{STR_VAR_1}です\pいま　かわいい　{STR_VAR_2}を\nつかまえようと　したの\pでも　にげられちゃった！\nもう　がっかり！\pばいばい！
+@@MatchCall_WildBattleText15
+よう　{PLAYER}！\n{STR_VAR_1}だ！\pポケモンを　つかまえて\nみようと　おもってるんだ\pでも　ぜんぜん　みつからない\nまったく　わけが　わからん！\pおてあげだ！\nじゃあな！
+@@MatchCall_NegativeBattleText1
+もしもし！　{PLAYER}{KUN}？\n{STR_VAR_1}だよ\pほかの　トレーナーと\nしょうぶ　したけど\lまけちゃった\pすごく　くやしかった\nじゃあ　またね！
+@@MatchCall_NegativeBattleText2
+もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pきみと　たたかった　あと\nほかの　ひとに　ちょうせん\lしたんだ\pおしかったけど　まけちゃった\nまあ　いいか！
+@@MatchCall_NegativeBattleText3
+やあ　{PLAYER}！\n{STR_VAR_1}だよ\pいま　バトルで\nこてんぱんに　された\pもっと　ポケモンを\nそだてないと　だめだな！
+@@MatchCall_NegativeBattleText4
+よう　{PLAYER}\n{STR_VAR_1}だ\pきのう　また　しょうぶ\nしたけど　かてなかった\pもっと　そだてないとな\nじゃあ　またな
+@@MatchCall_NegativeBattleText5
+やっほー　{PLAYER}！\n{STR_VAR_1}だよ\pげんき　してる？\pバトルは　つづけてるけど\nなかなか　かてないんだ\pちょうしが　でないや\nじゃあ　げんきでね！
+@@MatchCall_NegativeBattleText6
+やあ　{PLAYER}\n{STR_VAR_1}だよ\pそっちは　どう？\pさいきん　がんばって\nバトル　してるけど\lあまり　かてなくて\pどうも　ちょうしが　でない\nきを　つけてね
+@@MatchCall_NegativeBattleText7
+{STR_VAR_1}だ\nさいきん　どうだ？\pきのう　バトルに　まけて\nその　ことばかり\lかんがえてる\pさくせんを　ねらないと‥\nじゃあな
+@@MatchCall_NegativeBattleText8
+あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pポケモンは　げんき？\nこのあいだ　しょうぶに\lまけて　しまったの\pもっと　がんばらなくちゃ！\nまた　おはなし　しましょう！
+@@MatchCall_NegativeBattleText9
+あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pねえ　ねえ　きいて！\pさっき　ポケモンバトル\nしたんだけど　さいごの\lさいごで　まけちゃった\pもう　くやしい！
+@@MatchCall_NegativeBattleText10
+あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pさっき　バトルを　したの\nまけちゃった　けど\pもっと　ポケモンを\nそだてなきゃ　またね
+@@MatchCall_NegativeBattleText11
+ああ　{PLAYER}{KUN}\n{STR_VAR_1}です\lポケモンは　げんきかな？\pわしは　また　バトルに\nまけて　しまったよ\pまあ　またな！
+@@MatchCall_NegativeBattleText12
+もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\lまだ　バトルを\lがんばって　おるかね？\pわしは　このまえ　まけて\nしまってな　ポケモンを\lいちから　きたえなおして\lおるよ\pまた　あおう
+@@MatchCall_NegativeBattleText13
+おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\pげんきに　して　おるかね\pわしは　ついさっき\nバトルを　して　おったよ\p{PLAYER}{KUN}も　わしの　ように\nげんきに　な！　またな！
+@@MatchCall_NegativeBattleText14
+あら　{PLAYER}{KUN}\n{STR_VAR_1}です\pげんきに　してる？\pたまには　おうちに\nかえりなさいね\pばいばい！
+@@MatchCall_PositiveBattleText1
+もしもし！　{PLAYER}{KUN}？\n{STR_VAR_1}だよ！\pさっき　ほかの　トレーナーと\nしょうぶ　したんだ\lかった！　かったよ！\p{STR_VAR_2}が　すごく\nがんばって　くれた\lほんとうに　うれしい！
+@@MatchCall_PositiveBattleText2
+もしもし　{PLAYER}{KUN}！\n{STR_VAR_1}です！\pきのう　しょうぶ　して\nかったんだ！　さいこう！
+@@MatchCall_PositiveBattleText3
+やあ　{PLAYER}！\n{STR_VAR_1}だよ！\lバトルの　ちょうしは　どう？\pぼくは　このまえ　バトル\nしたら　{STR_VAR_2}が\lだいかつやく　したんだ！\pつぎに　{PLAYER}と\nたたかう　ときは\lまけないからね！
+@@MatchCall_PositiveBattleText4
+よう　{PLAYER}\n{STR_VAR_1}だ\pさっき　しょうぶ　したんだ\nなんとか　かったけど\lぎりぎり　だった\p{STR_VAR_2}が　すごい\nはたらきを　みせて\lくれたよ
+@@MatchCall_PositiveBattleText5
+やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\pげんき　してる？\nバトル　してる？\pちょっと　まえに　かったんだ！\n{STR_VAR_2}が　すごかった！\pまってて　つぎは　きみに\nかつからね！　じゃあね！
+@@MatchCall_PositiveBattleText6
+やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\pそっちは　どう？\pぼくは　さいきん　ぜっこうちょう\nいまも　バトルに\lかった　ところさ\pつぎに　しょうぶ　する\nときは　ぜったい\lまけないよ！
+@@MatchCall_PositiveBattleText7
+{PLAYER}{KUN}？\n{STR_VAR_1}だ\pおれの　{STR_VAR_2}は\nすごいぞ！　いまも\lバトルに　かったんだ！\pきみとの　さいせんが\nまちきれないよ
+@@MatchCall_PositiveBattleText8
+あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pおげんき　かしら\nいま　かった　ことを\lおしらせ　したくて\p{STR_VAR_2}が　とくに\nがんばって　くれたの\pまた　おはなし　しましょう！
+@@MatchCall_PositiveBattleText9
+あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pポケモンは　げんき？\nわたしの　ポケモンは\lいま　バトルに　かったの！\p{STR_VAR_2}が\nすっごかったんだから！\pみせて　あげたかったな！\nまたね！
+@@MatchCall_PositiveBattleText10
+あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pさいきん　どう？\pわたしの　ポケモンは\nげんき　いっぱい　みたい\pさっき　いっしょに\nバトルに　かったの　またね
+@@MatchCall_PositiveBattleText11
+ああ　{PLAYER}{KUN}\n{STR_VAR_1}じゃ\pさいきん　バトルは\nしとるかね？　わしは\lきょうも　かったぞ！\pぜっこうちょう　じゃ！\nがっはっは！　ではな！
+@@MatchCall_PositiveBattleText12
+もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pげんきに　して　おるかね？\nわしは　まだまだ　げんき！\pいまも　また　しょうぶに\nかった　ところじゃ\lまだ　わかいもんには\lまけんよ！
+@@MatchCall_PositiveBattleText13
+おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\pげんきに　して　おるかね\nわしも　まだまだ　げんきじゃ！\pいまも　また　バトルに\nかった　ところじゃ\lまだ　わかいもんには\lまけんぞ！\pではな！
+@@MatchCall_PositiveBattleText14
+あら　{PLAYER}{KUN}\n{STR_VAR_1}です\pこのまえ　バトルを　したら\n{STR_VAR_2}が　すばらしかった\lのよ！\p{PLAYER}{KUN}にも　みて\nほしかったわ　ばいばい！
+@@MatchCall_SameRouteBattleRequestText1
+もしもし！　{PLAYER}？\n{STR_VAR_1}だよ\pえ？　まって　いま\n{STR_VAR_2}の　ちかく？\pわあ　じゃあ　しょうぶ\nしなきゃ！　まってるね！
+@@MatchCall_SameRouteBattleRequestText2
+もしもし　{PLAYER}！\n{STR_VAR_1}です\pえ？　いま　ちょうど\n{STR_VAR_2}の　あたりに\lいるの？\pいま　しょうぶ　しない？\nまってるね！
+@@MatchCall_SameRouteBattleRequestText3
+やあ　{PLAYER}！\n{STR_VAR_1}だよ\pあれ　いま\n{STR_VAR_2}の　ちかく？\pいますぐ　ぼくと\nしょうぶ　しない？\pこんどは　まけないぞ！\nまってるよ！　すぐ　きてね！
+@@MatchCall_SameRouteBattleRequestText4
+よう　{PLAYER}{KUN}\n{STR_VAR_1}だ\pいま　どこに　いる？\nえ？　{STR_VAR_2}？\pいま　しょうぶ　するか？\nまってるぞ　じゃあな！
+@@MatchCall_SameRouteBattleRequestText5
+やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\lげんき　してる？\pいま　どこ？\n{STR_VAR_2}？\pじゃあ　すぐに　さいせん\nしようよ！\pさがして　まってるね\nすぐ　あおう！
+@@MatchCall_SameRouteBattleRequestText6
+やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\lポケモンは　げんき？\pえ　ほんと？\n{STR_VAR_2}の　あたりに\lいるの？\pじゃあ　さいせん\nしなくちゃね\pもちろん　まってるよ\nじゃあね！
+@@MatchCall_SameRouteBattleRequestText7
+‥あの　{PLAYER}{KUN}？\n{STR_VAR_1}だけど‥\pえ　{STR_VAR_2}の\nあたりに　いるの？\pじゃあ　しょうぶ　しよう\nいますぐ　って　ことね\pわたしの　ポケモンを\nみせて　あげる　まってるね
+@@MatchCall_SameRouteBattleRequestText8
+あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pおげんき　かしら\nあら　{STR_VAR_2}の　ちかくに\lいらっしゃるのね\pそれなら　わたしと\nしょうぶ　しません？\pまって　いますわ\nでは　のちほど！
+@@MatchCall_SameRouteBattleRequestText9
+あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pげんき？\nえ　{STR_VAR_2}の　ちかく？\pそれなら　しょうぶ\nするしか　ないでしょ？\pあんまり　またせないでね！
+@@MatchCall_SameRouteBattleRequestText10
+あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pげんき？\nあ　{STR_VAR_2}の　ちかくね\pじゃあ　いま　しょうぶ\nしましょう\pじゅんびは　できてるわ\nはやく　きてね！
+@@MatchCall_SameRouteBattleRequestText11
+ああ　{PLAYER}{KUN}\n{STR_VAR_1}じゃ\pほう　いまは\n{STR_VAR_2}に　おるのか？\pそれなら　しょうぶ　する\nしか　なかろう？\pここで　まって　おるぞ！\nすぐに　きなさい！
+@@MatchCall_SameRouteBattleRequestText12
+もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\lいまは　どこに　おるかね？\p{STR_VAR_2}？\nそれは　すぐ　ちかくじゃ！\pいまから　しょうぶ\nせんかね？\pまって　おるよ\nではな！
+@@MatchCall_SameRouteBattleRequestText13
+おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\pげんきに　して　おるかね\nほう　{STR_VAR_2}の\lちかくに　おるのか？\pそれほど　とおくも　ない\nしょうぶを　しに　おいで\pまって　おるよ\nでは　またな
+@@MatchCall_SameRouteBattleRequestText14
+あら　{PLAYER}{KUN}\n{STR_VAR_1}です\pいま　どこ？\n‥{STR_VAR_2}？\lとても　ちかいわね\pしょうぶ　する　べき\nだと　おもわない？\pさがして　いるわ！\nばいばい！
+@@MatchCall_DifferentRouteBattleRequestText1
+もしもし！　{PLAYER}？\n{STR_VAR_1}だよ\pわたしと　しょうぶ\nしない？\p{STR_VAR_2}の　あたりで\nまってるね！
+@@MatchCall_DifferentRouteBattleRequestText2
+もしもし　{PLAYER}！\n{STR_VAR_1}です\pまた　わたしと　しょうぶ\nしない？\p{STR_VAR_2}の　あたりに\nいるからね　まってるよ！
+@@MatchCall_DifferentRouteBattleRequestText3
+やあ　{PLAYER}！\n{STR_VAR_1}だよ\pぼくの　ポケモン　まえより\nずっと　つよく　なったんだ\pどれだけ　つよく　なったか\n{PLAYER}の　ポケモンで\lためしたいんだ\pだから　しょうぶ　しよう！\p{STR_VAR_2}の　あたりで\nまってるよ
+@@MatchCall_DifferentRouteBattleRequestText4
+よう　{PLAYER}{KUN}\n{STR_VAR_1}だ\lげんきか？\pおれの　ポケモン\nさいきん　かなり\lつよく　なったんだ\pなあ　また　おれと\nしょうぶ　しないか？\p{STR_VAR_2}の　あたりで\nあおうぜ　いいな？
+@@MatchCall_DifferentRouteBattleRequestText5
+やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\pぼくの　ポケモン\nいい　かんじに　そだってる\pきみと　また　しょうぶ\nしたいな\p{STR_VAR_2}の　あたりで\nさがして　まってるね\lすぐ　あおう！
+@@MatchCall_DifferentRouteBattleRequestText6
+やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\lちょうしは　どう？\pまた　きみと　しょうぶ\nしたいと　おもってたんだ\lどうかな？\pしょうぶ　する　きに\nなったら　{STR_VAR_2}に\lきてね\pじゃあね！
+@@MatchCall_DifferentRouteBattleRequestText7
+‥あの　{PLAYER}{KUN}？\n{STR_VAR_1}だけど‥\lポケモン　そだってる？\pわたしの　ポケモンは\nつよく　なったよ\lみせて　あげたい\p{STR_VAR_2}の　あたりに\nいるから　しょうぶ　しに\lきてね　じゃあね
+@@MatchCall_DifferentRouteBattleRequestText8
+あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pおげんき　かしら\nわたしの　ポケモンは\lとても　げんきよ\pちかくに　きたら\nぜひ　さいせんを\lおねがいね\p{STR_VAR_2}の　あたりに\nいますわ　では　また！
+@@MatchCall_DifferentRouteBattleRequestText9
+あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\lポケモン　げんき？\pわたしの　ポケモン\nどんどん　よく　なってるの\l{PLAYER}{KUN}に　みせたいな\pいま　{STR_VAR_2}の\nあたりに　いるから　ちかく\lなら　しょうぶ　しよう！\pはやく　あえると　いいな！
+@@MatchCall_DifferentRouteBattleRequestText10
+あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\lさいきん　どう？\pわたしの　ポケモン\nまえより　ずっと\lつよく　なったの\p{PLAYER}{KUN}と　また\nしょうぶ　したいな\p{STR_VAR_2}の　あたりに\nいるから　ちかかったら\lきてね
+@@MatchCall_DifferentRouteBattleRequestText11
+ああ　{PLAYER}{KUN}\n{STR_VAR_1}じゃ\lいまは　どこに　おる？\pわしの　ポケモンは\nげんき　いっぱい　じゃ\l{PLAYER}{KUN}の　ポケモンに\lあうのを　たのしみに\lして　おるようじゃ\pいまは　{STR_VAR_2}の\nあたりに　おる\lさがしに　きて　おくれ
+@@MatchCall_DifferentRouteBattleRequestText12
+もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pじつは　わしの　ポケモン\nさいきん　ずいぶん\lたくましく　なってな\p{PLAYER}{KUN}との　しょうぶで\nためして　みたいのじゃ\p{STR_VAR_2}の　あたりに\nおるから　いつでも\lきて　おくれ！
+@@MatchCall_DifferentRouteBattleRequestText13
+おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\lポケモンは　げんきかね？\pわしの　ポケモンは　げんき\nすぎて　まける　きが\lせんほど　じゃ！\pぜひ　また　しょうぶ\nしたい　ものじゃ\p{STR_VAR_2}の　ちかくに\nきたら　よって　おくれ
+@@MatchCall_DifferentRouteBattleRequestText14
+あら　{PLAYER}{KUN}\n{STR_VAR_1}です\lおげんき　かしら\pそうそう！　わたしの\nポケモン　まえより\lずっと　つよく　なったの\p{PLAYER}{KUN}　わたしたち\nしょうぶ　するべき\lだと　おもわない？\p{STR_VAR_2}の　あたりで\nまってるわ\pいつでも　きてね！
+@@MatchCall_PersonalizedText1
+やまが　だいすきな\n{STR_VAR_1}だ！\pあれから　やまの\nよさが　わかって　きたか？\pやまで　きみを　あまり\nみかけないな‥\pこんどは　{STR_VAR_2}の\nあたりで　あおう
+@@MatchCall_PersonalizedText2
+{STR_VAR_1}です\nこんにちは\pいま　あたらしい　トレーナーに\nきみの　ことを　はなして\lいたんだ\pポケモンを　だいじに　そだてる\nつよい　トレーナーが\lいるって　ね\pみんなに　あこがれられる\nトレーナーに　なってね\pまた　あおう！
+@@MatchCall_PersonalizedText3
+もしもし！　{STR_VAR_1}です\pいま　いる　ところ\nだいすき！　あまい\lかおりで　いっぱい！\pだれかが　きのみを　うえて\nはなが　さいたみたい\pまた　こんどね！
+@@MatchCall_PersonalizedText4
+もしもし！　たんけん　30ねん\n{STR_VAR_1}で　ござる！\pきみは　げんきに　あちこち\nたびを　して　いる\lようだね\pあたらしい　いせきは\nみつけたかい？\lみつけたら　おしえて　くれ！\pでは　しつれい\nいせきの　たんけんに\lいかねば
+@@MatchCall_PersonalizedText5
+{STR_VAR_1}だよ！\pきょう　なに　してるか\nわかる？　はまべで\lなみを　みてるの！\pはあ‥　なみが　キラキラ\nここから　みる　うみが\lいちばん　きれい\lおなか　すいたから　ばいばい！

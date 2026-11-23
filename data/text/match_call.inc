@@ -23,622 +23,208 @@ MatchCall_WildBattleText8::
 	.string "あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pさいきん　ポケモンは\nうまく　つかまえられて\lいます？\pわたしは　さっき　あと\nすこしの　ところで\lにげられて　しまいました\pもっと　がんばらなくちゃ！\nまた　おはなし　しましょう！$"
 
 MatchCall_WildBattleText9::
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "So? Are you getting more POKéMON\n"
-	.string "together?\p"
-	.string "I'm having a rotten time of it!\n"
-	.string "They all get away from me!\p"
-	.string "See you!$"
+	.string "あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pどう？　ポケモン\nあつまってる？\pわたしは　さんざん！\nみんな　にげちゃうの！\pじゃあね！$"
 
 MatchCall_WildBattleText10::
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Listen, I came within a whisker of\n"
-	.string "catching this {STR_VAR_2}…\p"
-	.string "But, it gave me the slip…\p"
-	.string "I need to try harder.\n"
-	.string "See you around.$"
+	.string "あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pきいて　ほんの　すこしで\n{STR_VAR_2}を　つかまえ\lられたのに‥\pにげられちゃった‥\pもっと　がんばらなきゃ\nまたね$"
 
 MatchCall_WildBattleText11::
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\l"
-	.string "How are things with you?\p"
-	.string "I tried to catch a wild {STR_VAR_2}\n"
-	.string "earlier, but it managed to flee.\p"
-	.string "I feel defeated…$"
+	.string "ああ　{PLAYER}{KUN}\n{STR_VAR_1}です\lげんき　かな？\pさっき　やせいの　{STR_VAR_2}を\nつかまえようと　したが\lにげられて　しまった\pまけた　きぶん　だよ‥$"
 
 MatchCall_WildBattleText12::
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\l"
-	.string "Are you still catching POKéMON?\p"
-	.string "I've been trying to catch them\n"
-	.string "myself, but it's not so easy.\p"
-	.string "The way of POKéMON is deep!$"
+	.string "もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\lまだ　ポケモンを\lつかまえて　いるかね？\pわしも　つかまえようと\nして　おるが　なかなか\lむずかしい\pポケモンの　みちは　ふかい！$"
 
 MatchCall_WildBattleText13::
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\l"
-	.string "Have you been catching POKéMON?\p"
-	.string "I've been trying to catch them\n"
-	.string "myself, but with little success.\p"
-	.string "The way of POKéMON is deep!$"
+	.string "おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\lポケモンは　つかまえて\lおるかね？\pわしも　つかまえようと\nして　おるが　どうも\lうまく　いかん\pポケモンの　みちは　ふかい！$"
 
 MatchCall_WildBattleText14::
-	.string "Oh, hi, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Just now, I tried to catch a cute\n"
-	.string "{STR_VAR_2}.\p"
-	.string "It got away, though!\n"
-	.string "Oh, you bet I was disappointed!\p"
-	.string "Bye-bye!$"
+	.string "あら　{PLAYER}{KUN}　こんにちは\n{STR_VAR_1}です\pいま　かわいい　{STR_VAR_2}を\nつかまえようと　したの\pでも　にげられちゃった！\nもう　がっかり！\pばいばい！$"
 
 MatchCall_WildBattleText15::
-	.string "Hey, {PLAYER}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I've been thinking about trying\n"
-	.string "to catch me some POKéMON.\p"
-	.string "But I can't seem to find any.\n"
-	.string "It's a real puzzler for me!\p"
-	.string "I'm at my wit's end!\n"
-	.string "See you around!$"
+	.string "よう　{PLAYER}！\n{STR_VAR_1}だ！\pポケモンを　つかまえて\nみようと　おもってるんだ\pでも　ぜんぜん　みつからない\nまったく　わけが　わからん！\pおてあげだ！\nじゃあな！$"
 
 MatchCall_NegativeBattleText1::
-	.string "Hi! {PLAYER}{KUN}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I tried battling another TRAINER,\n"
-	.string "but I lost.\p"
-	.string "It was really disappointing.\n"
-	.string "Well, see you again!$"
+	.string "もしもし！　{PLAYER}{KUN}？\n{STR_VAR_1}だよ\pほかの　トレーナーと\nしょうぶ　したけど\lまけちゃった\pすごく　くやしかった\nじゃあ　またね！$"
 
 MatchCall_NegativeBattleText2::
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "I challenged someone else after\n"
-	.string "we battled.\p"
-	.string "I came close, but I ended up\n"
-	.string "losing. Oh, well!$"
+	.string "もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pきみと　たたかった　あと\nほかの　ひとに　ちょうせん\lしたんだ\pおしかったけど　まけちゃった\nまあ　いいか！$"
 
 MatchCall_NegativeBattleText3::
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I just got cleaned in a battle.\p"
-	.string "I guess I need to raise my team\n"
-	.string "some more!$"
+	.string "やあ　{PLAYER}！\n{STR_VAR_1}だよ\pいま　バトルで\nこてんぱんに　された\pもっと　ポケモンを\nそだてないと　だめだな！$"
 
 MatchCall_NegativeBattleText4::
-	.string "Hey, {PLAYER}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "I tried another battle yesterday,\n"
-	.string "but I couldn't pull out the win.\p"
-	.string "My team needs more raising.\n"
-	.string "Okay, catch you later.$"
+	.string "よう　{PLAYER}\n{STR_VAR_1}だ\pきのう　また　しょうぶ\nしたけど　かてなかった\pもっと　そだてないとな\nじゃあ　またな$"
 
 MatchCall_NegativeBattleText5::
-	.string "Hiya, {PLAYER}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "How are things with you?\p"
-	.string "I've been battling on,\n"
-	.string "but I haven't won very often.\p"
-	.string "I can't get it together.\n"
-	.string "Right, take care!$"
+	.string "やっほー　{PLAYER}！\n{STR_VAR_1}だよ\pげんき　してる？\pバトルは　つづけてるけど\nなかなか　かてないんだ\pちょうしが　でないや\nじゃあ　げんきでね！$"
 
 MatchCall_NegativeBattleText6::
-	.string "Hey, {PLAYER}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "How's it going for you?\p"
-	.string "I've been battling hard lately,\n"
-	.string "but to little success.\p"
-	.string "I can't get into the groove.\n"
-	.string "You take care.$"
+	.string "やあ　{PLAYER}\n{STR_VAR_1}だよ\pそっちは　どう？\pさいきん　がんばって\nバトル　してるけど\lあまり　かてなくて\pどうも　ちょうしが　でない\nきを　つけてね$"
 
 MatchCall_NegativeBattleText7::
-	.string "{STR_VAR_1} here.\n"
-	.string "How's it going lately?\p"
-	.string "I lost a battle yesterday,\n"
-	.string "and it's filled my thoughts.\p"
-	.string "I have to devise a plan…\n"
-	.string "See you.$"
+	.string "{STR_VAR_1}だ\nさいきん　どうだ？\pきのう　バトルに　まけて\nその　ことばかり\lかんがえてる\pさくせんを　ねらないと‥\nじゃあな$"
 
 MatchCall_NegativeBattleText8::
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "How are your POKéMON doing?\n"
-	.string "I lost a match the other day.\p"
-	.string "I need to try harder!\n"
-	.string "See you again!$"
+	.string "あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pポケモンは　げんき？\nこのあいだ　しょうぶに\lまけて　しまったの\pもっと　がんばらなくちゃ！\nまた　おはなし　しましょう！$"
 
 MatchCall_NegativeBattleText9::
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "Listen, listen, you have to hear\n"
-	.string "this!\p"
-	.string "I had a POKéMON battle earlier,\n"
-	.string "but I lost at the last second.\p"
-	.string "Oh, it burns me up!$"
+	.string "あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pねえ　ねえ　きいて！\pさっき　ポケモンバトル\nしたんだけど　さいごの\lさいごで　まけちゃった\pもう　くやしい！$"
 
 MatchCall_NegativeBattleText10::
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "A little earlier, I was in a battle.\n"
-	.string "I lost, though.\p"
-	.string "I need to raise my POKéMON more.\n"
-	.string "See you around.$"
+	.string "あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pさっき　バトルを　したの\nまけちゃった　けど\pもっと　ポケモンを\nそだてなきゃ　またね$"
 
 MatchCall_NegativeBattleText11::
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\l"
-	.string "How are your POKéMON?\p"
-	.string "I just lost yet another battle.\p"
-	.string "Well, see you!$"
+	.string "ああ　{PLAYER}{KUN}\n{STR_VAR_1}です\lポケモンは　げんきかな？\pわしは　また　バトルに\nまけて　しまったよ\pまあ　またな！$"
 
 MatchCall_NegativeBattleText12::
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\l"
-	.string "Are you still battling hard?\p"
-	.string "As for me, I lost recently, so I've\n"
-	.string "been training my team all over.\p"
-	.string "Let's meet again.$"
+	.string "もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\lまだ　バトルを\lがんばって　おるかね？\pわしは　このまえ　まけて\nしまってな　ポケモンを\lいちから　きたえなおして\lおるよ\pまた　あおう$"
 
 MatchCall_NegativeBattleText13::
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I hope you've been keeping well.\p"
-	.string "I was in a battle just a little\n"
-	.string "while before this.\p"
-	.string "{PLAYER}{KUN}, try to be active like me.\n"
-	.string "See you again!$"
+	.string "おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\pげんきに　して　おるかね\pわしは　ついさっき\nバトルを　して　おったよ\p{PLAYER}{KUN}も　わしの　ように\nげんきに　な！　またな！$"
 
 MatchCall_NegativeBattleText14::
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Are you doing good?\p"
-	.string "You should go home every so often,\n"
-	.string "though.\p"
-	.string "Bye-bye!$"
+	.string "あら　{PLAYER}{KUN}\n{STR_VAR_1}です\pげんきに　してる？\pたまには　おうちに\nかえりなさいね\pばいばい！$"
 
 MatchCall_PositiveBattleText1::
-	.string "Hi! {PLAYER}{KUN}, hello!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I battled another TRAINER earlier.\n"
-	.string "I won! I won!\p"
-	.string "My {STR_VAR_2} really worked hard\n"
-	.string "for me. This is so great!$"
+	.string "もしもし！　{PLAYER}{KUN}？\n{STR_VAR_1}だよ！\pさっき　ほかの　トレーナーと\nしょうぶ　したんだ\lかった！　かったよ！\p{STR_VAR_2}が　すごく\nがんばって　くれた\lほんとうに　うれしい！$"
 
 MatchCall_PositiveBattleText2::
-	.string "Hello, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}!\p"
-	.string "I had a battle yesterday and\n"
-	.string "I won! It's fantastic!$"
+	.string "もしもし　{PLAYER}{KUN}！\n{STR_VAR_1}です！\pきのう　しょうぶ　して\nかったんだ！　さいこう！$"
 
 MatchCall_PositiveBattleText3::
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}!\l"
-	.string "How's your battling?\p"
-	.string "Me, I had a battle the other day,\n"
-	.string "and my {STR_VAR_2} came up huge!\p"
-	.string "The next time I battle you,\n"
-	.string "{PLAYER}, it won't be me losing!$"
+	.string "やあ　{PLAYER}！\n{STR_VAR_1}だよ！\lバトルの　ちょうしは　どう？\pぼくは　このまえ　バトル\nしたら　{STR_VAR_2}が\lだいかつやく　したんだ！\pつぎに　{PLAYER}と\nたたかう　ときは\lまけないからね！$"
 
 MatchCall_PositiveBattleText4::
-	.string "Hey, {PLAYER}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "I had a match earlier.\n"
-	.string "I managed to win, but it was close.\p"
-	.string "My {STR_VAR_2} put on one\n"
-	.string "inspired showing.$"
+	.string "よう　{PLAYER}\n{STR_VAR_1}だ\pさっき　しょうぶ　したんだ\nなんとか　かったけど\lぎりぎり　だった\p{STR_VAR_2}が　すごい\nはたらきを　みせて\lくれたよ$"
 
 MatchCall_PositiveBattleText5::
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "How are things with you?\n"
-	.string "Battling much?\p"
-	.string "I just won a while back!\n"
-	.string "My {STR_VAR_2} was brilliant!\p"
-	.string "You wait. I'm going to beat you\n"
-	.string "next time! Right, take care!$"
+	.string "やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\pげんき　してる？\nバトル　してる？\pちょっと　まえに　かったんだ！\n{STR_VAR_2}が　すごかった！\pまってて　つぎは　きみに\nかつからね！　じゃあね！$"
 
 MatchCall_PositiveBattleText6::
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "How's it going for you?\p"
-	.string "I've been riding a hot streak.\n"
-	.string "Why, I just won a battle.\p"
-	.string "When we have our next battle,\n"
-	.string "I'm sure not going to lose!$"
+	.string "やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\pそっちは　どう？\pぼくは　さいきん　ぜっこうちょう\nいまも　バトルに\lかった　ところさ\pつぎに　しょうぶ　する\nときは　ぜったい\lまけないよ！$"
 
 MatchCall_PositiveBattleText7::
-	.string "{PLAYER}{KUN}?\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "My {STR_VAR_2} is a force!\n"
-	.string "It won me another battle just now!\p"
-	.string "I can't wait to have a rematch\n"
-	.string "with you.$"
+	.string "{PLAYER}{KUN}？\n{STR_VAR_1}だ\pおれの　{STR_VAR_2}は\nすごいぞ！　いまも\lバトルに　かったんだ！\pきみとの　さいせんが\nまちきれないよ$"
 
 MatchCall_PositiveBattleText8::
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "I hope you've been well.\n"
-	.string "I wanted to tell you I just won.\p"
-	.string "My {STR_VAR_2} worked especially\n"
-	.string "hard to get the win.\p"
-	.string "See you again!$"
+	.string "あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pおげんき　かしら\nいま　かった　ことを\lおしらせ　したくて\p{STR_VAR_2}が　とくに\nがんばって　くれたの\pまた　おはなし　しましょう！$"
 
 MatchCall_PositiveBattleText9::
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "How are your POKéMON holding up?\n"
-	.string "Mine just won a battle!\p"
-	.string "My {STR_VAR_2} was spectacular,\n"
-	.string "I must say!\p"
-	.string "I wish I could've shown you!\n"
-	.string "See you again!$"
+	.string "あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pポケモンは　げんき？\nわたしの　ポケモンは\lいま　バトルに　かったの！\p{STR_VAR_2}が\nすっごかったんだから！\pみせて　あげたかったな！\nまたね！$"
 
 MatchCall_PositiveBattleText10::
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "How has life been treating you?\p"
-	.string "My POKéMON appear to be charged\n"
-	.string "with energy.\p"
-	.string "I just won a battle with them.\n"
-	.string "See you around.$"
+	.string "あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pさいきん　どう？\pわたしの　ポケモンは\nげんき　いっぱい　みたい\pさっき　いっしょに\nバトルに　かったの　またね$"
 
 MatchCall_PositiveBattleText11::
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Been in any battles lately?\n"
-	.string "I just won another one today!\p"
-	.string "I'm on a roll! Gahahaha!\n"
-	.string "Well, see you!$"
+	.string "ああ　{PLAYER}{KUN}\n{STR_VAR_1}じゃ\pさいきん　バトルは\nしとるかね？　わしは\lきょうも　かったぞ！\pぜっこうちょう　じゃ！\nがっはっは！　ではな！$"
 
 MatchCall_PositiveBattleText12::
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I trust you've been well?\n"
-	.string "I'm still bursting with life!\p"
-	.string "Why, just now, I won another match.\n"
-	.string "I'm not stepping aside to you\l"
-	.string "youngsters yet!$"
+	.string "もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pげんきに　して　おるかね？\nわしは　まだまだ　げんき！\pいまも　また　しょうぶに\nかった　ところじゃ\lまだ　わかいもんには\lまけんよ！$"
 
 MatchCall_PositiveBattleText13::
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I hope you've been keeping well.\n"
-	.string "I still have a bounce in my step!\p"
-	.string "Why, I just won a battle yet again.\n"
-	.string "Oh, I won't lose to young people\l"
-	.string "quite yet!\p"
-	.string "See you again!$"
+	.string "おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\pげんきに　して　おるかね\nわしも　まだまだ　げんきじゃ！\pいまも　また　バトルに\nかった　ところじゃ\lまだ　わかいもんには\lまけんぞ！\pではな！$"
 
 MatchCall_PositiveBattleText14::
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I was in a battle recently, and my\n"
-	.string "{STR_VAR_2} was exceptional!\p"
-	.string "I wish you could have seen it,\n"
-	.string "{PLAYER}{KUN}. Bye-bye!$"
+	.string "あら　{PLAYER}{KUN}\n{STR_VAR_1}です\pこのまえ　バトルを　したら\n{STR_VAR_2}が　すばらしかった\lのよ！\p{PLAYER}{KUN}にも　みて\nほしかったわ　ばいばい！$"
 
 MatchCall_SameRouteBattleRequestText1::
-	.string "Hi! {PLAYER}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Huh? Wait, you're near\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Oh, wow, we have to battle, then!\n"
-	.string "I'll be waiting! See you!$"
+	.string "もしもし！　{PLAYER}？\n{STR_VAR_1}だよ\pえ？　まって　いま\n{STR_VAR_2}の　ちかく？\pわあ　じゃあ　しょうぶ\nしなきゃ！　まってるね！$"
 
 MatchCall_SameRouteBattleRequestText2::
-	.string "Hello, {PLAYER}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "Oh? You happen to be around\n"
-	.string "{STR_VAR_2} right now?\p"
-	.string "Would you like to battle now?\n"
-	.string "I'll wait for you! See you!$"
+	.string "もしもし　{PLAYER}！\n{STR_VAR_1}です\pえ？　いま　ちょうど\n{STR_VAR_2}の　あたりに\lいるの？\pいま　しょうぶ　しない？\nまってるね！$"
 
 MatchCall_SameRouteBattleRequestText3::
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "Oh, hey, are you near\n"
-	.string "{STR_VAR_2} right now?\p"
-	.string "How would you like to battle with\n"
-	.string "me right now?\p"
-	.string "I'm not losing again!\n"
-	.string "I'll be waiting! Catch you soon!$"
+	.string "やあ　{PLAYER}！\n{STR_VAR_1}だよ\pあれ　いま\n{STR_VAR_2}の　ちかく？\pいますぐ　ぼくと\nしょうぶ　しない？\pこんどは　まけないぞ！\nまってるよ！　すぐ　きてね！$"
 
 MatchCall_SameRouteBattleRequestText4::
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "Whereabouts are you now?\n"
-	.string "Huh? {STR_VAR_2}?\p"
-	.string "Want to battle now?\n"
-	.string "I'll wait for you. See you!$"
+	.string "よう　{PLAYER}{KUN}\n{STR_VAR_1}だ\pいま　どこに　いる？\nえ？　{STR_VAR_2}？\pいま　しょうぶ　するか？\nまってるぞ　じゃあな！$"
 
 MatchCall_SameRouteBattleRequestText5::
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\l"
-	.string "How are things with you?\p"
-	.string "You're where now?\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Well, how about we have a quick\n"
-	.string "rematch right away?\p"
-	.string "I'll keep an eye out for you.\n"
-	.string "See you soon!$"
+	.string "やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\lげんき　してる？\pいま　どこ？\n{STR_VAR_2}？\pじゃあ　すぐに　さいせん\nしようよ！\pさがして　まってるね\nすぐ　あおう！$"
 
 MatchCall_SameRouteBattleRequestText6::
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\l"
-	.string "How are your POKéMON keeping?\p"
-	.string "Oh, is that right? You're around\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Well, then, we'd better have\n"
-	.string "a rematch.\p"
-	.string "I can wait, sure.\n"
-	.string "See you!$"
+	.string "やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\lポケモンは　げんき？\pえ　ほんと？\n{STR_VAR_2}の　あたりに\lいるの？\pじゃあ　さいせん\nしなくちゃね\pもちろん　まってるよ\nじゃあね！$"
 
 MatchCall_SameRouteBattleRequestText7::
-	.string "…Er, {PLAYER}{KUN}?\n"
-	.string "{STR_VAR_1} here…\p"
-	.string "Oh, you happen to be around\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Then, let's battle.\n"
-	.string "Right away, I mean.\p"
-	.string "I'll show you my POKéMON.\n"
-	.string "I'll wait for you.$"
+	.string "‥あの　{PLAYER}{KUN}？\n{STR_VAR_1}だけど‥\pえ　{STR_VAR_2}の\nあたりに　いるの？\pじゃあ　しょうぶ　しよう\nいますぐ　って　ことね\pわたしの　ポケモンを\nみせて　あげる　まってるね$"
 
 MatchCall_SameRouteBattleRequestText8::
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "I hope you're doing well.\n"
-	.string "Oh, you're near {STR_VAR_2}.\p"
-	.string "Would you like to have a battle\n"
-	.string "with me, then?\p"
-	.string "I'll wait for you.\n"
-	.string "See you soon!$"
+	.string "あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pおげんき　かしら\nあら　{STR_VAR_2}の　ちかくに\lいらっしゃるのね\pそれなら　わたしと\nしょうぶ　しません？\pまって　いますわ\nでは　のちほど！$"
 
 MatchCall_SameRouteBattleRequestText9::
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "Are you keeping up?\n"
-	.string "Oh, you're near {STR_VAR_2}?\p"
-	.string "Oh, well, then don't you think we\n"
-	.string "should battle?\p"
-	.string "Don't keep me waiting too long!$"
+	.string "あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\pげんき？\nえ　{STR_VAR_2}の　ちかく？\pそれなら　しょうぶ\nするしか　ないでしょ？\pあんまり　またせないでね！$"
 
 MatchCall_SameRouteBattleRequestText10::
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "How are things with you?\n"
-	.string "Oh, you're near {STR_VAR_2}.\p"
-	.string "We should have a battle now, then.\p"
-	.string "I'm ready and waiting.\n"
-	.string "Be quick!$"
+	.string "あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\pげんき？\nあ　{STR_VAR_2}の　ちかくね\pじゃあ　いま　しょうぶ\nしましょう\pじゅんびは　できてるわ\nはやく　きてね！$"
 
 MatchCall_SameRouteBattleRequestText11::
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Ah, so where you are now is\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Well, then, we just have to have\n"
-	.string "a battle, don't you think?\p"
-	.string "I'll wait around for you!\n"
-	.string "See you real quick!$"
+	.string "ああ　{PLAYER}{KUN}\n{STR_VAR_1}じゃ\pほう　いまは\n{STR_VAR_2}に　おるのか？\pそれなら　しょうぶ　する\nしか　なかろう？\pここで　まって　おるぞ！\nすぐに　きなさい！$"
 
 MatchCall_SameRouteBattleRequestText12::
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\l"
-	.string "Where might you be now?\p"
-	.string "{STR_VAR_2}?\n"
-	.string "That's quite close by!\p"
-	.string "What do you say we have a battle\n"
-	.string "now?\p"
-	.string "I can wait.\n"
-	.string "See you!$"
+	.string "もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\lいまは　どこに　おるかね？\p{STR_VAR_2}？\nそれは　すぐ　ちかくじゃ！\pいまから　しょうぶ\nせんかね？\pまって　おるよ\nではな！$"
 
 MatchCall_SameRouteBattleRequestText13::
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I hope you've been keeping well.\n"
-	.string "Oh, you're near {STR_VAR_2}?\p"
-	.string "Since that's not very far away,\n"
-	.string "come see me for a battle.\p"
-	.string "I'll wait for you.\n"
-	.string "Bye for now.$"
+	.string "おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\pげんきに　して　おるかね\nほう　{STR_VAR_2}の\lちかくに　おるのか？\pそれほど　とおくも　ない\nしょうぶを　しに　おいで\pまって　おるよ\nでは　またな$"
 
 MatchCall_SameRouteBattleRequestText14::
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "You're what? …{STR_VAR_2}?\n"
-	.string "That's very close.\p"
-	.string "Don't you think we ought to have\n"
-	.string "a battle?\p"
-	.string "I'll be looking for you!\n"
-	.string "Bye-bye!$"
+	.string "あら　{PLAYER}{KUN}\n{STR_VAR_1}です\pいま　どこ？\n‥{STR_VAR_2}？\lとても　ちかいわね\pしょうぶ　する　べき\nだと　おもわない？\pさがして　いるわ！\nばいばい！$"
 
 MatchCall_DifferentRouteBattleRequestText1::
-	.string "Hi! {PLAYER}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Want to have a battle with me?\p"
-	.string "I'll be waiting for you around\n"
-	.string "{STR_VAR_2}!$"
+	.string "もしもし！　{PLAYER}？\n{STR_VAR_1}だよ\pわたしと　しょうぶ\nしない？\p{STR_VAR_2}の　あたりで\nまってるね！$"
 
 MatchCall_DifferentRouteBattleRequestText2::
-	.string "Hello, {PLAYER}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "Would you like to have a battle\n"
-	.string "with me again?\p"
-	.string "You can find me around\n"
-	.string "{STR_VAR_2}. I'll be waiting!$"
+	.string "もしもし　{PLAYER}！\n{STR_VAR_1}です\pまた　わたしと　しょうぶ\nしない？\p{STR_VAR_2}の　あたりに\nいるからね　まってるよ！$"
 
 MatchCall_DifferentRouteBattleRequestText3::
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "My POKéMON have grown a lot\n"
-	.string "tougher since last time.\p"
-	.string "I want to see how strong they've\n"
-	.string "become with your POKéMON, {PLAYER}.\p"
-	.string "So, let's have a battle!\p"
-	.string "I'll be waiting for you around\n"
-	.string "{STR_VAR_2}.$"
+	.string "やあ　{PLAYER}！\n{STR_VAR_1}だよ\pぼくの　ポケモン　まえより\nずっと　つよく　なったんだ\pどれだけ　つよく　なったか\n{PLAYER}の　ポケモンで\lためしたいんだ\pだから　しょうぶ　しよう！\p{STR_VAR_2}の　あたりで\nまってるよ$"
 
 MatchCall_DifferentRouteBattleRequestText4::
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\l"
-	.string "How are things with you?\p"
-	.string "My POKéMON have grown pretty\n"
-	.string "tough lately.\p"
-	.string "Hey, how would you like to have\n"
-	.string "another battle with me?\p"
-	.string "Let's meet up around\n"
-	.string "{STR_VAR_2}, okay?$"
+	.string "よう　{PLAYER}{KUN}\n{STR_VAR_1}だ\lげんきか？\pおれの　ポケモン\nさいきん　かなり\lつよく　なったんだ\pなあ　また　おれと\nしょうぶ　しないか？\p{STR_VAR_2}の　あたりで\nあおうぜ　いいな？$"
 
 MatchCall_DifferentRouteBattleRequestText5::
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "My POKéMON are growing up in\n"
-	.string "decent ways.\p"
-	.string "I'd really like to have another\n"
-	.string "battle with you.\p"
-	.string "I'll keep an eye out for you around\n"
-	.string "{STR_VAR_2}. See you soon!$"
+	.string "やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\pぼくの　ポケモン\nいい　かんじに　そだってる\pきみと　また　しょうぶ\nしたいな\p{STR_VAR_2}の　あたりで\nさがして　まってるね\lすぐ　あおう！$"
 
 MatchCall_DifferentRouteBattleRequestText6::
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\l"
-	.string "I hope you're on top of things.\p"
-	.string "I was thinking I'd like another\n"
-	.string "battle with you. What do you say?\p"
-	.string "If you feel like a battle,\n"
-	.string "come to {STR_VAR_2}.\p"
-	.string "See you!$"
+	.string "やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\lちょうしは　どう？\pまた　きみと　しょうぶ\nしたいと　おもってたんだ\lどうかな？\pしょうぶ　する　きに\nなったら　{STR_VAR_2}に\lきてね\pじゃあね！$"
 
 MatchCall_DifferentRouteBattleRequestText7::
-	.string "…Er, {PLAYER}{KUN}?\n"
-	.string "{STR_VAR_1} here…\l"
-	.string "So? Are your POKéMON growing?\p"
-	.string "Mine sure got stronger.\n"
-	.string "I'd like to show you.\p"
-	.string "I'll be around {STR_VAR_2}.\n"
-	.string "Come see me for a match.\p"
-	.string "See you around.$"
+	.string "‥あの　{PLAYER}{KUN}？\n{STR_VAR_1}だけど‥\lポケモン　そだってる？\pわたしの　ポケモンは\nつよく　なったよ\lみせて　あげたい\p{STR_VAR_2}の　あたりに\nいるから　しょうぶ　しに\lきてね　じゃあね$"
 
 MatchCall_DifferentRouteBattleRequestText8::
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "I hope you're doing well.\n"
-	.string "My POKéMON are very frisky.\p"
-	.string "If you're ever in the area, please\n"
-	.string "give me a rematch.\p"
-	.string "I'll be around {STR_VAR_2}.\n"
-	.string "Until then, good-bye!$"
+	.string "あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pおげんき　かしら\nわたしの　ポケモンは\lとても　げんきよ\pちかくに　きたら\nぜひ　さいせんを\lおねがいね\p{STR_VAR_2}の　あたりに\nいますわ　では　また！$"
 
 MatchCall_DifferentRouteBattleRequestText9::
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\l"
-	.string "How are your POKéMON doing?\p"
-	.string "My POKéMON keep getting better.\n"
-	.string "I'd like to show you, {PLAYER}{KUN}.\p"
-	.string "I'm around {STR_VAR_2} now,\n"
-	.string "so let's battle if you're close by.\p"
-	.string "Hope I see you soon!$"
+	.string "あ　{PLAYER}{KUN}　やっほー！\n{STR_VAR_1}だよ！\lポケモン　げんき？\pわたしの　ポケモン\nどんどん　よく　なってるの\l{PLAYER}{KUN}に　みせたいな\pいま　{STR_VAR_2}の\nあたりに　いるから　ちかく\lなら　しょうぶ　しよう！\pはやく　あえると　いいな！$"
 
 MatchCall_DifferentRouteBattleRequestText10::
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\l"
-	.string "So, how are things with you?\p"
-	.string "My POKéMON have grown much\n"
-	.string "stronger than before.\p"
-	.string "I'd love another battle with you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "I'll be around {STR_VAR_2}.\n"
-	.string "Come see me if you're close.$"
+	.string "あ　{PLAYER}{KUN}　こんにちは‥\n{STR_VAR_1}です\lさいきん　どう？\pわたしの　ポケモン\nまえより　ずっと\lつよく　なったの\p{PLAYER}{KUN}と　また\nしょうぶ　したいな\p{STR_VAR_2}の　あたりに\nいるから　ちかかったら\lきてね$"
 
 MatchCall_DifferentRouteBattleRequestText11::
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\l"
-	.string "Where might you be now?\p"
-	.string "My POKéMON are full of life.\n"
-	.string "They appear to be looking forward\l"
-	.string "to seeing your POKéMON, {PLAYER}{KUN}.\p"
-	.string "I'm around {STR_VAR_2} now.\n"
-	.string "I hope you'll seek us out.$"
+	.string "ああ　{PLAYER}{KUN}\n{STR_VAR_1}じゃ\lいまは　どこに　おる？\pわしの　ポケモンは\nげんき　いっぱい　じゃ\l{PLAYER}{KUN}の　ポケモンに\lあうのを　たのしみに\lして　おるようじゃ\pいまは　{STR_VAR_2}の\nあたりに　おる\lさがしに　きて　おくれ$"
 
 MatchCall_DifferentRouteBattleRequestText12::
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I should tell you, my POKéMON have\n"
-	.string "grown to be quite robust lately.\p"
-	.string "I would like to see them in a battle\n"
-	.string "with you, {PLAYER}{KUN}.\p"
-	.string "We'll be around {STR_VAR_2}.\n"
-	.string "Come see us anytime!$"
+	.string "もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pじつは　わしの　ポケモン\nさいきん　ずいぶん\lたくましく　なってな\p{PLAYER}{KUN}との　しょうぶで\nためして　みたいのじゃ\p{STR_VAR_2}の　あたりに\nおるから　いつでも\lきて　おくれ！$"
 
 MatchCall_DifferentRouteBattleRequestText13::
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\l"
-	.string "Are your POKéMON keeping well?\p"
-	.string "My POKéMON have been so healthy,\n"
-	.string "they don't look capable of losing!\p"
-	.string "I would surely love to have another\n"
-	.string "battle with you.\p"
-	.string "If you're near {STR_VAR_2},\n"
-	.string "do come see us.$"
+	.string "おお　{PLAYER}{KUN}　こんにちは！\n{STR_VAR_1}じゃよ！\lポケモンは　げんきかね？\pわしの　ポケモンは　げんき\nすぎて　まける　きが\lせんほど　じゃ！\pぜひ　また　しょうぶ\nしたい　ものじゃ\p{STR_VAR_2}の　ちかくに\nきたら　よって　おくれ$"
 
 MatchCall_DifferentRouteBattleRequestText14::
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\l"
-	.string "Keeping well, I hope.\p"
-	.string "Oh, yes! My POKéMON are\n"
-	.string "much stronger than before.\p"
-	.string "Don't you think we ought to have\n"
-	.string "a battle, {PLAYER}{KUN}?\p"
-	.string "We'll be waiting for you around\n"
-	.string "{STR_VAR_2}.\p"
-	.string "Come see us anytime, okay?$"
+	.string "あら　{PLAYER}{KUN}\n{STR_VAR_1}です\lおげんき　かしら\pそうそう！　わたしの\nポケモン　まえより\lずっと　つよく　なったの\p{PLAYER}{KUN}　わたしたち\nしょうぶ　するべき\lだと　おもわない？\p{STR_VAR_2}の　あたりで\nまってるわ\pいつでも　きてね！$"
 
 MatchCall_PersonalizedText1::
-	.string "It's me, the mountain-loving\n"
-	.string "{STR_VAR_1}!\p"
-	.string "Well, since we met, have you grown\n"
-	.string "to appreciate the mountains more?\p"
-	.string "I rarely see you in the mountains…\p"
-	.string "Next time, we'll meet somewhere\n"
-	.string "around {STR_VAR_2}.$"
+	.string "やまが　だいすきな\n{STR_VAR_1}だ！\pあれから　やまの\nよさが　わかって　きたか？\pやまで　きみを　あまり\nみかけないな‥\pこんどは　{STR_VAR_2}の\nあたりで　あおう$"
 
 MatchCall_PersonalizedText2::
-	.string "This is {STR_VAR_1}.\n"
-	.string "Hello.\p"
-	.string "I was just telling a new TRAINER\n"
-	.string "about you.\p"
-	.string "I told her about a strong TRAINER\n"
-	.string "who raises POKéMON with care.\p"
-	.string "I hope you'll become a TRAINER\n"
-	.string "that everyone will admire.\p"
-	.string "I hope we meet again!$"
+	.string "{STR_VAR_1}です\nこんにちは\pいま　あたらしい　トレーナーに\nきみの　ことを　はなして\lいたんだ\pポケモンを　だいじに　そだてる\nつよい　トレーナーが\lいるって　ね\pみんなに　あこがれられる\nトレーナーに　なってね\pまた　あおう！$"
 
 MatchCall_PersonalizedText3::
-	.string "Hello! It's {STR_VAR_1}.\p"
-	.string "I love where I am now.\n"
-	.string "It's pleasant with sweet aromas!\p"
-	.string "I think someone planted BERRIES,\n"
-	.string "and they burst into bloom.\p"
-	.string "See you again sometime!$"
+	.string "もしもし！　{STR_VAR_1}です\pいま　いる　ところ\nだいすき！　あまい\lかおりで　いっぱい！\pだれかが　きのみを　うえて\nはなが　さいたみたい\pまた　こんどね！$"
 
 MatchCall_PersonalizedText4::
-	.string "Hello! Thirty years of exploration,\n"
-	.string "{STR_VAR_1} at your service!\p"
-	.string "It seems that you're energetically\n"
-	.string "traveling here and there.\p"
-	.string "Have you discovered any new ruins?\n"
-	.string "Please tell if you have!\p"
-	.string "Now, if you'll excuse me,\n"
-	.string "I have ruins to explore.$"
+	.string "もしもし！　たんけん　30ねん\n{STR_VAR_1}で　ござる！\pきみは　げんきに　あちこち\nたびを　して　いる\lようだね\pあたらしい　いせきは\nみつけたかい？\lみつけたら　おしえて　くれ！\pでは　しつれい\nいせきの　たんけんに\lいかねば$"
 
 MatchCall_PersonalizedText5::
-	.string "It's {STR_VAR_1}!\p"
-	.string "Know what I'm doing today?\n"
-	.string "Looking at waves from the beach!\p"
-	.string "Sigh… The waves are all sparkly.\n"
-	.string "The sea is the prettiest from here.\l"
-	.string "I'm getting hungry, so bye-bye!$"
+	.string "{STR_VAR_1}だよ！\pきょう　なに　してるか\nわかる？　はまべで\lなみを　みてるの！\pはあ‥　なみが　キラキラ\nここから　みる　うみが\lいちばん　きれい\lおなか　すいたから　ばいばい！$"
 
 MatchCall_PersonalizedText6::
 	.string "Munch-chew…\n"
