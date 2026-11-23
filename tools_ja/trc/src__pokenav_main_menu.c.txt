@@ -1,0 +1,34 @@
+@@1
+{B_BUTTON}もどる
+@@2
+{B_BUTTON}もどる
+@@3
+{B_BUTTON}もどる　{R_BUTTON}そらをとぶ
+@@4
+{B_BUTTON}もどる　{R_BUTTON}そらをとぶ
+@@5
+{A_BUTTON}ズーム　{B_BUTTON}もどる
+@@6
+{A_BUTTON}ぜんたい　{B_BUTTON}もどる
+@@7
+{A_BUTTON}ズーム　{B_BUTTON}もどる　{R_BUTTON}そらをとぶ
+@@8
+{A_BUTTON}ぜんたい　{B_BUTTON}もどる　{R_BUTTON}そらをとぶ
+@@9
+{A_BUTTON}コンディション　{B_BUTTON}もどる
+@@10
+{A_BUTTON}マーキング　{B_BUTTON}もどる
+@@11
+{A_BUTTON}マークを　えらぶ　{B_BUTTON}もどる
+@@12
+{A_BUTTON}メニュー　{B_BUTTON}もどる
+@@13
+{A_BUTTON}けってい　{B_BUTTON}もどる
+@@14
+{B_BUTTON}もどる
+@@15
+{A_BUTTON}リボン　{B_BUTTON}もどる
+@@16
+{A_BUTTON}みる　{B_BUTTON}もどる
+@@17
+{B_BUTTON}もどる
