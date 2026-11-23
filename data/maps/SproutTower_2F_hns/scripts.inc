@@ -28,27 +28,22 @@ SproutTower_2F_EventScript_Xdefend::
 	end
 
 SproutTower_Text_SageNico_Seen:
-	.string "However hard we battle,\n"
-	.string "the TOWER will stand strong.$"
+	.string "どんなに　はげしく　たたかっても\nとうは　びくとも　せん$"
 
 SproutTower_Text_SageNico_Beaten:
-	.string "I fought hard but I'm too weak.$"
+	.string "がんばったが\nわしは　よわい$"
 
 SproutTower_Text_SageNico_AfterBattle:
-	.string "The flexible pillar protects the\n"
-	.string "TOWER, even from earthquakes.$"
+	.string "しなやかな　はしらが\nじしんからも　とうを\lまもって　おるのじゃ$"
 
 SproutTower_Text_SageEdmond_Seen:
-	.string "…Sway like leaves in the wind…$"
+	.string "‥かぜに　ゆれる\nこのはの　ように‥$"
 
 SproutTower_Text_SageEdmond_Beaten:
-	.string "Oh, I'm weak!$"
+	.string "ああ　よわい！$"
 
 SproutTower_Text_SageEdmond_AfterBattle:
-	.string "I tried to copy BELLSPROUT's\n"
-	.string "gentle movements for battle…\p"
-	.string "But I didn't train well enough.$"
+	.string "マダツボミの　しなやかな\nうごきを　まねたが‥\pしゅぎょうが\nたりなかった$"
 
 SproutTower_Text_2F_Statue:
-	.string "A POKéMON statue…\p"
-	.string "It looks very distinguished.$"
+	.string "ポケモンの　ぞう‥\pとても　ふうかくが　ある$"

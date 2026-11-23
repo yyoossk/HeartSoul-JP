@@ -63,30 +63,14 @@ MtSilver_PokemonCenter_EventScript_Meara_WarpToSinjoh::
 	end
 
 MtSilver_PokemonCenter_Text_Meara1:
-	.string "I'm a researcher from... Uhh...\n"
-	.string "the PEWTER CITY museum!\p"
-	.string "An unusual amount of artifacts have\n"
-	.string "been discovered in this area, so\l"
-	.string "I've come here to investigate.\p"
-	.string "Have you found anything strange\n"
-	.string "in the mountain?\p"
-	.string "Maybe something like a FLUTE?\p"
-	.string "If you do, please show me.$"
+	.string "わたしは‥　えーと‥\nニビシティの　はくぶつかんの\lけんきゅういんよ！\pこの　あたりで　いぶつが\nたくさん　みつかったので\lしらべに　きたの\pやまで　なにか　へんな　ものを\nみつけなかった？\pたとえば　ふえ　とか？\pみつけたら　みせてね$"
 
 MtSilver_PokemonCenter_Text_Meara2:
-	.string "That flute!\p"
-	.string "You have the spirit of a true\n"
-	.string "archaeologist!\p"
-	.string "There's a branch of the cave\n"
-	.string "where the POKéMON are too strong\l"
-	.string "for me to safely explore.\p"
-	.string "If I take you there, would you\n"
-	.string "explore it for more artifacts?$"
+	.string "その　ふえ！\pあなた　ほんものの\nこうこがくしゃの\lこころを　もってるわ！\pどうくつに　ポケモンが　つよくて\nわたしでは　しらべられない\lえだみちが　あるの\pつれて　いったら　いぶつを\nさがして　くれる？$"
 
 MtSilver_PokemonCenter_Text_Prompt:
-	.string "If I take you there, would you\n"
-	.string "explore it for more artifacts?$"
+	.string "つれて　いったら　いぶつを\nさがして　くれる？$"
 
 MtSilver_PokemonCenter_Text_Meara3:
-	.string "Ready to search for more artifacts?$"
+	.string "いぶつを　さがしに\nいく　じゅんびは　いい？$"
 

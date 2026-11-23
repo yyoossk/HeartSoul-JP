@@ -50,38 +50,28 @@ UnionCave_B2F_EventScript_Item_MaxRevive::
 	end
 
 UnionCave_B2F_Text_CooltrainermNickSeen:
-	.string "There are two kinds of people.\p"
-	.string "Those who have style, and those\n"
-	.string "who don't.\p"
-	.string "What kind of person are you?$"
+	.string "にんげんには　2しゅるい　いる\pスタイルの　ある　やつと\nない　やつだ\pきみは　どっちだ？$"
 
 UnionCave_B2F_Text_CooltrainermNickBeaten:
-	.string "You've got dazzling style!$"
+	.string "まばゆい　スタイルだ！$"
 
 UnionCave_B2F_Text_CooltrainermNickAfter:
-	.string "Your POKéMON style is stunning and\n"
-	.string "colorful, I admit.\p"
-	.string "You'll just keep getting better!$"
+	.string "きみの　ポケモンの　スタイルは\nあざやかで　すばらしい\pこれからも　どんどん\nよく　なるぞ！$"
 
 UnionCave_B2F_Text_CooltrainerfGwenSeen:
-	.string "I'm in training. Care for a round?$"
+	.string "しゅぎょう　ちゅうなの\nひとしょうぶ　どう？$"
 
 UnionCave_B2F_Text_CooltrainerfGwenBeaten:
-	.string "Aww, no! You're too good for me.$"
+	.string "いやー！　つよすぎる$"
 
 UnionCave_B2F_Text_CooltrainerfGwenAfter:
-	.string "I'm going to train by myself until I\n"
-	.string "improve.$"
+	.string "つよく　なるまで\nひとりで　しゅぎょう　するわ$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaSeen:
-	.string "If the POKéMON I liked were there,\n"
-	.string "I'd go anywhere.\p"
-	.string "That's what a real trainer does.$"
+	.string "すきな　ポケモンが　いるなら\nどこへ　だって　いくわ\pそれが　ほんとうの\nトレーナーよ$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaBeaten:
-	.string "I'd rather pet my babies than this!$"
+	.string "こんな　ことより\nあの　こたちを　なでたい！$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaAfter:
-	.string "Just once a week, a POKéMON comes to\n"
-	.string "the water's edge.\p"
-	.string "I wanted to see that POKéMON…$"
+	.string "しゅうに　いちど　だけ\nポケモンが　みずべに\lあらわれるの\pその　ポケモンを\nみたかったの‥$"

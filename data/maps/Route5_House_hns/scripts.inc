@@ -19,16 +19,10 @@ Route5_House_EventScript_Woman::
 	end
 
 Route5_House_Text_Granny1:
-	.string "Eeyaaaah!\p"
-	.string "I sense a sinister shadow\n"
-	.string "hovering over you.\l"
-	.string "Take this to ward it off!$"
+	.string "きえええっ！\pおまえさんの　うえに\nわるい　かげが　みえる！\lこれで　はらうのじゃ！$"
 
 Route5_House_Text_Granny2:
-	.string "You were in mortal danger, but\n"
-	.string "you're protected now.$"
+	.string "あぶない　ところ　じゃったが\nもう　だいじょうぶじゃ$"
 
 Route5_House_Text_Woman:
-	.string "My grandma is into warding off what\n"
-	.string "she believes to be evil spirits.\p"
-	.string "I'm sorry that she startled you.$"
+	.string "おばあちゃん　あくりょうばらいに\nこってるの\pおどろかせて\nごめんなさいね$"

@@ -356,9 +356,7 @@ SafariZoneGate_SafariZoneEntrance_Text_Boy:
 	.string "ポロックおきばって\nしってる？\pポロックを　おくと　かくれ\nとくせいの　ポケモンが\lでて　くるんだ！\pポロックの　しゅるいで\nポケモンの　せいかくも\lかわるよ\pしかも　ポロック　しだいで\nこたいちが　さいこうの\lポケモンが　よってくる！\pかべの　ひょうに\nくわしく　かいて　あるよ$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BoyGiveCase:
-	.string "Here, you seem like you need this.$"
+	.string "ほら　きみ　これが\nひつよう　みたいだね$"
 
 SafariZoneGate_SafariZoneEntrance_Text_Engineer:
-	.string "Sorry Trainer, this area is still\n"
-	.string "under construction. Check back\l"
-	.string "later!$"
+	.string "ごめんね　ここは　まだ\nこうじ　ちゅう　なんだ\lまた　あとで　きてね！$"

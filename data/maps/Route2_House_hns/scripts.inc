@@ -21,13 +21,7 @@ Route2_House_EventScript_ManAfter::
 	end
 
 Route2_House_Text_Fisher:
-	.string "Hi! Wow, I'm glad to see you.\p"
-	.string "You're the first visitor I've had in a\n"
-	.string "long time.\p"
-	.string "I'm super-happy! Let me give you a\n"
-	.string "little present.$"
+	.string "やあ！　よく　きて\nくれたね\pおきゃくさんは\nひさしぶりだよ\pすっごく　うれしい！\nちょっとした　プレゼントを\lあげよう$"
 
 Route2_House_Text_Fisher_GotNugget:
-	.string "That's a NUGGET.\p"
-	.string "I can't give you any nuggets of\n"
-	.string "wisdom, so that'll have to do!$"
+	.string "それは　きんのたま\pきんげんは　あげられない\nから　それで　がまんしてね！$"

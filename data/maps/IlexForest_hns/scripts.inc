@@ -650,56 +650,31 @@ IlexForest_Movement_Kurt2:
 	step_end
 
 IlexForest_Text_ApprenticeIntro:
-	.string "Oh, man… My boss is going to be\n"
-	.string "steaming…\p"
-	.string "The FARFETCH'D that CUTS trees\n"
-	.string "for charcoal took off on me.\p"
-	.string "I can't go looking for it here\n"
-	.string "in the ILEX FOREST.\p"
-	.string "It's too big, dark and scary\n"
-	.string "for me…$"
+	.string "ああ　どうしよう‥\nおやかたに　おこられる‥\pすみやきの　きを　きる\nカモネギに　にげられた\pこの　ウバメのもりで\nさがすなんて　むりだ\pひろくて　くらくて\nこわいよ‥$"
 
 IlexForest_Text_ApprenticeAfter:
-	.string "Wow! Thanks a whole bunch!\p"
-	.string "My boss' POKéMON won't obey me\n"
-	.string "because I don't have a BADGE.$"
+	.string "わあ！　ほんとうに\nありがとう！\pバッジが　ないから\nおやかたの　ポケモンが\lいうことを　きかないんだ$"
 
 IlexForest_Text_ItsTheMissingPokemon:
-	.string "It's the missing POKéMON!$"
+	.string "にげた　ポケモンだ！$"
 
 IlexForest_Text_Kwaaaa:
-	.string "FARFETCH'D: Kwaa!$"
+	.string "カモネギ『クワッ！$"
 
 IlexForest_Text_CharcoalMasterIntro:
-	.string "Ah! My FARFETCH'D!\p"
-	.string "You found it for us, kid?\p"
-	.string "Without it, we wouldn't be able\n"
-	.string "to CUT trees for charcoal.\p"
-	.string "Thanks, kid!\p"
-	.string "Now, how can I thank you…\p"
-	.string "I know! Here, take this.$"
+	.string "おお！　わしの　カモネギ！\pぼうずが　みつけて\nくれたのか？\pこいつが　いないと　すみやきの\nきを　きれんのじゃ\pありがとうよ　ぼうず！\pさて　なにか　おれいを‥\pそうじゃ！\nこれを　やろう$"
 
 IlexForest_Text_CharcoalMasterOutro:
-	.string "That's the CUT HM.\n"
-	.string "Teach that to a POKéMON to clear\l"
-	.string "small trees.\p"
-	.string "Of course, you have to have the\n"
-	.string "GYM BADGE from AZALEA to use it.$"
+	.string "それは　いあいぎりの\nひでんマシン　ポケモンに\lおぼえさせれば　ほそい\lきを　きれるぞ\pもちろん　ヒワダジムの\nバッジが　ないと\lつかえんがな$"
 
 IlexForest_Text_CharcoalMasterTalkAfter:
-	.string "Do you want to apprentice as a\n"
-	.string "charcoal maker with me?\p"
-	.string "You'll be first-rate in ten years!$"
+	.string "わしの　もとで　すみやきの\nでしに　ならんか？\p10ねんで　いちにんまえ\nじゃぞ！$"
 
 IlexForest_Text_Lass:
-	.string "Did something happen to the\n"
-	.string "forest's guardian?$"
+	.string "もりの　かみさまに\nなにか　あったの　かしら？$"
 
 IlexForest_Text_Signpost:
-	.string "ILEX FOREST is so overgrown with\n"
-	.string "trees that you can't see the sky.\p"
-	.string "Please watch out for items that may\n"
-	.string "have been dropped.$"
+	.string "ウバメのもりは　きが　しげって\nそらも　みえない\pおとしものに\nきを　つけてください$"
 
 IlexForest_Text_Shrine:
 	.string "ILEX FOREST SHRINE…\p"

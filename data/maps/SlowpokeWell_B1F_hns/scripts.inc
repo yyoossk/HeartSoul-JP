@@ -81,103 +81,52 @@ SlowpokeWell_B1F_Movement_Kurt:
 	step_end
 
 SlowpokeWell_B1F_Text_KurtIntro:
-	.string "KURT: Hey there, {PLAYER}!\p"
-	.string "The guard up top took off when\n"
-	.string "I shouted at him.\p"
-	.string "But then I took a tumble down\n"
-	.string "the WELL.\p"
-	.string "I slammed down hard on my back,\n"
-	.string "so I can't move.\p"
-	.string "Rats! If I were fit, my POKéMON\n"
-	.string "would've punished them…\p"
-	.string "Ah, it can't be helped.\p"
-	.string "{PLAYER}, show them how gutsy\n"
-	.string "you are in my place!$"
+	.string "ガンテツ『おう　{PLAYER}！\pうえの　みはりは　わしが\nどなったら　にげよった\pじゃが　わしは　いどに\nおちて　しもうた\pこしを　うって\nうごけんのじゃ\pくそっ！　げんき　なら\nわしの　ポケモンで\lこらしめて　やるのに‥\pしかたない\p{PLAYER}！　わしの　かわりに\nこんじょうを　みせて\lやれ！$"
 
 SlowpokeWell_B1F_Text_KurtAfter:
-	.string "KURT: Way to go, {PLAYER}!\p"
-	.string "TEAM ROCKET has taken off.\p"
-	.string "My back's better too.\n"
-	.string "Let's get out of here.$"
+	.string "ガンテツ『ようやった\n{PLAYER}！\pロケットだんは\nにげて　いったぞ\pわしの　こしも　なおった\nここから　でよう$"
 
 SlowpokeWell_B1F_Text_GruntM29Seen:
-	.string "Darn! I was standing guard up\n"
-	.string "top when some old coot yelled\l"
-	.string "at me.\p"
-	.string "He startled me so much that\n"
-	.string "I fell down here.\p"
-	.string "I think I'll vent my anger by\n"
-	.string "taking it out on you!$"
+	.string "くそっ！　うえで　みはって\nいたら　へんな　じじいに\lどなられた\pびっくり　して\nここに　おちちまった\pおまえで　うさばらし\nしてやる！$"
 
 SlowpokeWell_B1F_Text_GruntM29Beaten:
-	.string "Arrgh! This is NOT my day!$"
+	.string "ぐわー！　きょうは\nついてない！$"
 
 SlowpokeWell_B1F_Text_GruntM29After:
-	.string "Sure, we've been hacking the\n"
-	.string "tails off SLOWPOKE and selling\l"
-	.string "them.\p"
-	.string "Everything we do is for profit.\p"
-	.string "That's right! We're TEAM ROCKET,\n"
-	.string "and we'll do anything for money!$"
+	.string "ああ　ヤドンの　しっぽを\nきって　うってるさ\pすべては　もうけの　ため\pそうさ！　おれたちは\nロケットだん　かねの　ためなら\lなんでも　するぜ！$"
 
 SlowpokeWell_B1F_Text_ProtonSeen:
-	.string "What do you want?\p"
-	.string "If you interrupt our work,\n"
-	.string "don't expect any mercy!$"
+	.string "なんの　ようだ？\pしごとの　じゃまを　するなら\nようしゃ　しないぞ！$"
 
 SlowpokeWell_B1F_Text_ProtonBeaten:
-	.string "You did OK today,\n"
-	.string "but wait till next time!$"
+	.string "きょうは　まあまあ　だが\nつぎは　こうは　いかんぞ！$"
 
 SlowpokeWell_B1F_Text_ProtonAfter:
-	.string "Yeah, TEAM ROCKET was broken up\n"
-	.string "three years ago.\p"
-	.string "The boss went into hiding.\p"
-	.string "But we continued our activities\n"
-	.string "underground!\p"
-	.string "A small obstacle like you won't be\n"
-	.string "much of a problem for our mission.\p"
-	.string "I advise you to be very afraid of\n"
-	.string "what is to come!$"
+	.string "そう　ロケットだんは\n3ねんまえに　かいさん　した\pボスは　すがたを\nけした\pだが　われわれは　うらで\nかつどうを　つづけて　きた！\pおまえ　ていどの　じゃまは\nにんむの　さまたげにも\lならん\pこれから　おこる　ことを\nせいぜい　おそれる\lことだな！$"
 
 SlowpokeWell_B1F_Text_GruntM2Seen:
-	.string "Hyuck-hyuck-hyuck!\n"
-	.string "Quit taking SLOWPOKETAILS?\p"
-	.string "You're nuts!\n"
-	.string "If we obeyed you, TEAM ROCKET's\l"
-	.string "rep would be ruined!$"
+	.string "ひゃっひゃっひゃ！\nヤドンのシッポを　とるのを\lやめろ　だと？\pばかを　いうな！\nいうことを　きいたら\lロケットだんの　なが　すたる！$"
 
 SlowpokeWell_B1F_Text_GruntM2Beaten:
-	.string "Hyuck…\n"
-	.string "Too strong…$"
+	.string "ひゃっ‥\nつよすぎる‥$"
 
 SlowpokeWell_B1F_Text_GruntM2After:
-	.string "We need the money,\n"
-	.string "but selling SLOWPOKETAILS?\p"
-	.string "It's tough being a ROCKET GRUNT!$"
+	.string "かねは　ひつよう　だけど\nヤドンのシッポを　うる\lなんてな‥\pしたっぱは　つらいよ！$"
 
 SlowpokeWell_B1F_Text_GruntF1Seen:
-	.string "Stop taking TAILS?\p"
-	.string "Yeah, just try to defeat all\n"
-	.string "of us!$"
+	.string "しっぽを　とるのを\nやめろ？\pやれる　もんなら　わたしたち\nぜんいんを　たおして　みなさい！$"
 
 SlowpokeWell_B1F_Text_GruntF1Beaten:
-	.string "You rotten brat!$"
+	.string "この　くそがき！$"
 
 SlowpokeWell_B1F_Text_GruntF1After:
-	.string "SLOWPOKETAILS grow back fast!\p"
-	.string "What's wrong with selling them?$"
+	.string "ヤドンの　しっぽは\nすぐ　はえて　くるのよ！\pうって　なにが\nわるいの？$"
 
 SlowpokeWell_B1F_Text_SlowpokeWithMail:
-	.string "A SLOWPOKE with its TAIL cut off…\p"
-	.string "Huh? It has MAIL.\n"
-	.string "Read it?$"
+	.string "しっぽを　きられた\nヤドンだ‥\pん？　メールを　もってる\nよみますか？$"
 
 SlowpokeWell_B1F_Text_SlowpokeMail:
-	.string "{PLAYER} read the MAIL.\p"
-	.string "Be good and look after the\n"
-	.string "house with Grandpa and SLOWPOKE.\p"
-	.string "Love, Dad$"
+	.string "{PLAYER}は　メールを\nよんだ\pおじいちゃんと　ヤドンと\nいいこで　るすばん\lしていてね\pパパより$"
 
 SlowpokeWell_B1F_Text_TaillessSlowpoke:
-	.string "A SLOWPOKE with its TAIL cut off…$"
+	.string "しっぽを　きられた\nヤドンだ‥$"

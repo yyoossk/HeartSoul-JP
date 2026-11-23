@@ -29,48 +29,14 @@ SaffronCity_Tunnel_NS_EventScript_BaldingManAfter::
 	end
 
 SaffronCity_Tunnel_NS_Text_BaldingManIntro:
-	.string "Don't be afraid, I'm not a bad\n"
-	.string "person.\p"
-	.string "A place like this...\n"
-	.string "attracts mean people.\p"
-	.string "They would eventually cause\n"
-	.string "trouble...\p"
-	.string "It makes me mad just thinking about\n"
-	.string "it.$"
+	.string "こわがらないで\nわるい　ものじゃ　ないよ\pこういう　ところには‥\nわるい　やつが　あつまる\pいずれ　もんだいを\nおこすんだ‥\pかんがえる　だけで\nはらが　たつ$"
 
 SaffronCity_Tunnel_NS_Text_BaldingManCandybarDetected:
-	.string "Aha!\n"
-	.string "That's a RAGE CANDYBAR!\p"
-	.string "Can I have it?\n"
-	.string "Please!$"
+	.string "おお！\nそれは　いかりまんじゅう！\pくれないか？\nたのむ！$"
 
 SaffronCity_Tunnel_NS_Text_BaldingManGaveCandybar:
-	.string "{PLAYER} Gave the RageCandyBar to the\n"
-	.string "guy at the underground path.\p"
-	.string "Munch!\p"
-	.string "How upsetting!\p"
-	.string "But this is so good!\p"
-	.string "Munch munch!\p"
-	.string "Aargh! It makes me mad!\p"
-	.string "Munch munch!\p"
-	.string "Aargh...\p"
-	.string "...................Phew!\p"
-	.string "I am feeling much better!\n"
-	.string "Thank you for your candy!\l"
-	.string "I want you to have this!$"
+	.string "{PLAYER}は　ちかつうろの\nおじさんに　いかりまんじゅうを\lあげた\pもぐっ！\pはらが　たつ！\pでも　うまい！\pもぐもぐ！\pうがー！　はらが　たつ！\pもぐもぐ！\pうがー‥\p‥‥‥‥‥‥‥‥ふう！\pすっかり　おちついた！\nまんじゅう　ありがとう！\lこれを　あげよう！$"
 
 SaffronCity_Tunnel_NS_Text_BaldingManGaveTm:
-	.string "TM 64 contains........\p"
-	.string "tick-\n"
-	.string "            tock\l"
-	.string "tick-\l"
-	.string "            tock\l"
-	.string "tick-\l"
-	.string "            tock\l"
-	.string "tick-\l"
-	.string "            tock\l"
-	.string "tick.....\l"
-	.string "......................\l"
-	.string "......................\l"
-	.string "KA-BOOM!!!$"	
+	.string "わざマシン64の　なかみは‥‥‥\pチク‥\n　　　　タク\lチク‥\l　　　　タク\lチク‥\l　　　　タク\lチク‥\l　　　　タク\lチク‥‥\l‥‥‥‥‥‥‥\l‥‥‥‥‥‥‥\lドッカーン！！$"
 

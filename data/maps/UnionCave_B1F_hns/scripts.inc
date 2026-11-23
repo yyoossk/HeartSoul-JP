@@ -30,51 +30,37 @@ UnionCave_B1F_EventScript_Item_Xdefend::
 	end
 
 UnionCave_B1F_Text_HikerPhillipSeen:
-	.string "It's been a while since I last saw\n"
-	.string "another person.\p"
-	.string "Don't be shy. Let's battle!$"
+	.string "ひとに　あうのは\nひさしぶりだ\pえんりょ　するな\nしょうぶ　しよう！$"
 
 UnionCave_B1F_Text_HikerPhillipBeaten:
-	.string "Uurggh…$"
+	.string "うぐぐ‥$"
 
 UnionCave_B1F_Text_HikerPhillipAfter:
-	.string "I've been lost for a long time…\p"
-	.string "I don't mind it here, but I am\n"
-	.string "soooo hungry!$"
+	.string "ずっと　まよってるんだ‥\pここは　きらいじゃ　ないけど\nおなかが　すいた！$"
 
 UnionCave_B1F_Text_HikerLeonardSeen:
-	.string "What do you know! A visitor!$"
+	.string "おお！　おきゃくさんだ！$"
 
 UnionCave_B1F_Text_HikerLeonardBeaten:
-	.string "Wahahah! You're a feisty one!$"
+	.string "わはは！\nげんきな　やつだ！$"
 
 UnionCave_B1F_Text_HikerLeonardAfter:
-	.string "I live down here.\p"
-	.string "You can, too, if you'd like.\p"
-	.string "There's plenty of room, you see.$"
+	.string "おれは　ここに\nすんでるんだ\pきみも　すみたけりゃ\nどうぞ\pばしょは　いくらでも\nあるからな$"
 
 UnionCave_B1F_Text_PokemaniacAndrewSeen:
-	.string "Who's there?\p"
-	.string "Leave me and my POKéMON alone!$"
+	.string "だれだ？\pぼくと　ポケモンを\nほっといて　くれ！$"
 
 UnionCave_B1F_Text_PokemaniacAndrewBeaten:
-	.string "Go… Go away!$"
+	.string "あ‥　あっちへ　いけ！$"
 
 UnionCave_B1F_Text_PokemaniacAndrewAfter:
-	.string "Just me and my POKéMON. I'm de-\n"
-	.string "lirious with joy.$"
+	.string "ぼくと　ポケモン　だけ\nしあわせで　たまらない$"
 
 UnionCave_B1F_Text_PokemaniacCalvinSeen:
-	.string "I came all the way here to conduct\n"
-	.string "my POKéMON research.\p"
-	.string "Let me demonstrate my findings in a\n"
-	.string "real battle!$"
+	.string "ポケモンの　けんきゅうの\nために　ここまで　きたんだ\pじっせんで　けんきゅうの\nせいかを　みせて　あげる！$"
 
 UnionCave_B1F_Text_PokemaniacCalvinBeaten:
-	.string "You demonstrated on me!$"
+	.string "みせられたのは\nこっち　だった！$"
 
 UnionCave_B1F_Text_PokemaniacCalvinAfter:
-	.string "I should compile and announce my\n"
-	.string "study findings.\p"
-	.string "I might even become famous like\n"
-	.string "PROF.ELM.$"
+	.string "けんきゅうの　せいかを\nまとめて　はっぴょう　しよう\pウツギはかせ　みたいに\nゆうめいに　なれるかも$"

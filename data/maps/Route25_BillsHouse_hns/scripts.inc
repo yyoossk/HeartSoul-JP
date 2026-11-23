@@ -36,10 +36,7 @@ Route25_BillsHouse_hns_EventScript_TeleporterTest::
 	end
 
 Route25_BillsHouse_Text_Teleporter:
-	.string "THIS MACHINE WILL TRANSFORM\n"
-	.string "A POKéMON INTO ITS GALARIAN FORM\l"
-	.string "THIS PROCESS IS PERMANENT.\l"
-	.string "WOULD YOU LIKE TO PROCEED?$"
+	.string "この　きかいは　ポケモンを\nガラルの　すがたに　かえます\lもとには　もどせません\lじっこう　しますか？$"
 
 Route25_BillsHouse_hns_PickMeowth::
 	setvar VAR_0x8004, SPECIES_MEOWTH
@@ -316,55 +313,55 @@ Route25_BillsHouse_Movement_ShowPlayer:
 	step_end
 
 Route25_BillsHouse_hns_Text_Meowth:
-	.string "MEOWTH$"
+	.string "ニャース$"
 
 Route25_BillsHouse_hns_Text_Ponyta:
-	.string "PONYTA$"
+	.string "ポニータ$"
 
 Route25_BillsHouse_hns_Text_Rapidash:
-	.string "RAPIDASH$"
+	.string "ギャロップ$"
 
 Route25_BillsHouse_hns_Text_Slowpoke:
-	.string "SLOWPOKE$"
+	.string "ヤドン$"
 
 Route25_BillsHouse_hns_Text_Slowbro:
-	.string "SLOWBRO$"
+	.string "ヤドラン$"
 
 Route25_BillsHouse_hns_Text_Slowking:
-	.string "SLOWKING$"
+	.string "ヤドキング$"
 
 Route25_BillsHouse_hns_Text_Farfetchd:
-	.string "FARFETCH'D$"
+	.string "カモネギ$"
 
 Route25_BillsHouse_hns_Text_Weezing:
-	.string "WEEZING$"
+	.string "マタドガス$"
 
 Route25_BillsHouse_hns_Text_MrMime:
-	.string "MR. MIME$"
+	.string "バリヤード$"
 
 Route25_BillsHouse_hns_Text_Articuno:
-	.string "ARTICUNO$"
+	.string "フリーザー$"
 
 Route25_BillsHouse_hns_Text_Zapdos:
-	.string "ZAPDOS$"
+	.string "サンダー$"
 
 Route25_BillsHouse_hns_Text_Moltres:
-	.string "MOLTRES$"
+	.string "ファイヤー$"
 
 Route25_BillsHouse_hns_Text_Corsola:
-	.string "CORSOLA$"
+	.string "サニーゴ$"
 
 Route25_BillsHouse_hns_Text_Zigzagoon:
-	.string "ZIGZAGOON$"
+	.string "ジグザグマ$"
 
 Route25_BillsHouse_hns_Text_Linoone:
-	.string "LINOONE$"
+	.string "マッスグマ$"
 
 Route25_BillsHouse_hns_Text_Cancel:
-	.string "CANCEL$"
+	.string "やめる$"
 
 Route25_BillsHouse_hns_Text_NotInParty:
-	.string "POKéMON NOT DETECTED.$"
+	.string "ポケモンが　みつかりません$"
 
 @VAR_BILLS_GRANDPA
 
@@ -536,90 +533,48 @@ Route25_BillsHouse_Movement_MonCelebration:
 	step_end
 
 Route25_BillsHouse_Text_GrandpaIntro:
-	.string "Hm? You know BILL? He's my\n"
-	.string "grandson.\p"
-	.string "He's in JOHTO. He does\n"
-	.string "something with PCs, so I'm\l"
-	.string "housesitting.$"
+	.string "む？　マサキを　しってるのか？\nわしの　まごじゃ\pいまは　ジョウトで　パソコンの\nしごとを　しておる　から\lわしが　るすばん　じゃ$"
 
 Route25_BillsHouse_Text_GrampsMeowth:
-	.string "My grandson BILL told me about\n"
-	.string "a POKéMON that has sharp claws,\l"
-	.string "a charm on its head, and is\p"
-	.string "said to bring good fortune.$"
+	.string "まごの　マサキが　するどい\nツメと　あたまに　こばんを\lつけた　ポケモンの\lはなしを　しておった\pしあわせを　まねくと\nいわれて　いるそうじゃ$"
 
 Route25_BillsHouse_Text_GrampsZigzagoon:
-	.string "BILL mentioned a POKéMON that\n"
-	.string "runs around in a zigzag\l"
-	.string "pattern.\p"
-	.string "It's quite the little\n"
-	.string "scavenger, I hear.$"
+	.string "マサキが　ジグザグに\nはしりまわる　ポケモンの\lはなしを　しておった\pなんでも　ひろいあつめる\nらしいのう$"
 
 Route25_BillsHouse_Text_GrampsPonyta:
-	.string "Do you know of a POKéMON with\n"
-	.string "a fiery mane?\p"
-	.string "I hear it can run faster than\n"
-	.string "most trains.$"
+	.string "ほのおの　たてがみを　もつ\nポケモンを　しっておるか？\pたいていの　でんしゃより\nはやく　はしるそうじゃ$"
 
 Route25_BillsHouse_Text_GrampsFarfetchd:
-	.string "BILL told me about a POKéMON\n"
-	.string "that always carries a stalk\l"
-	.string "of leek with it.\p"
-	.string "Quite the peculiar creature.$"
+	.string "マサキが　いつも　ネギを\nもっている　ポケモンの\lはなしを　しておった\pなんとも　かわった\nいきもの　じゃのう$"
 
 Route25_BillsHouse_Text_GrampsSlowpoke:
-	.string "Do you know the POKéMON that\n"
-	.string "is always staring blankly?\p"
-	.string "Its tail is often sold on the\n"
-	.string "black market.$"
+	.string "いつも　ぼーっと　している\nポケモンを　しっておるか？\pしっぽが　やみいちで\nうられる　ことも　あるそうじゃ$"
 
 Route25_BillsHouse_Text_TeleporterUnlocked:
-	.string "Oh, one more thing!\p"
-	.string "BILL's TELEPORTER.\n"
-	.string "That's the big machine over there.\p"
-	.string "He never quite got it working.\p"
-	.string "But it does curious things to\n"
-	.string "POKéMON.\p"
-	.string "You're welcome to try it, if\n"
-	.string "you'd like!\p"
-	.string "Just use that computer over there.$"
+	.string "そうそう　もう　ひとつ！\pマサキの　テレポーターじゃ\nあそこの　おおきな　きかいじゃよ\pちゃんと　うごかせた　ことは\nないんじゃが\pポケモンに　ふしぎな\nことが　おきるんじゃ\pよければ　つかって\nみなさい\pそこの　パソコンを\nつかうのじゃ$"
 
 Route25_BillsHouse_Text_AskToSeeMon:
-	.string "If you have that POKéMON, may I\n"
-	.string "see it, please?$"
+	.string "その　ポケモンを　もって\nおったら　みせて　くれんか？$"
 
 Route25_BillsHouse_Text_ExcitedToSee:
-	.string "You will show me? How good of\n"
-	.string "you!$"
+	.string "みせて　くれるのか？\nやさしいのう！$"
 
 Route25_BillsHouse_Text_YouDontHaveIt:
-	.string "You don't have it?\n"
-	.string "That's too bad…$"
+	.string "もって　おらんのか？\nざんねんじゃ‥$"
 
 Route25_BillsHouse_Text_ShownPokemon:
-	.string "Ah, so that is {STR_VAR_1}?\p"
-	.string "Isn't it cute! That's so kind\n"
-	.string "of you.$"
+	.string "ほう　これが　{STR_VAR_1}か？\pかわいいのう！\nありがとう$"
 
 Route25_BillsHouse_Text_Appreciation:
-	.string "Thanks!\p"
-	.string "This is a token of my\n"
-	.string "appreciation.$"
+	.string "ありがとう！\pこれは　ほんの\nきもちじゃ$"
 
 Route25_BillsHouse_Text_ComeAgain:
-	.string "Come visit again sometime.$"
+	.string "また　あそびに\nおいで$"
 
 Route25_BillsHouse_Text_ShownAll:
-	.string "Thanks for showing me so many\n"
-	.string "cute POKéMON.\p"
-	.string "I really enjoyed myself. I'm\n"
-	.string "glad I've lived such a long life.\p"
-	.string "Feel free to use the TELEPORTER\n"
-	.string "whenever you like.$"
+	.string "かわいい　ポケモンを　たくさん\nみせて　くれて　ありがとう\pたのしかったよ\nながいき　して　よかった\pテレポーターは　いつでも\nすきに　つかいなさい$"
 
 Route25_BillsHouse_Text_WrongPokemon:
-	.string "Hm?\p"
-	.string "That's not the POKéMON that I\n"
-	.string "was told about.$"
+	.string "む？\pわしが　きいた\nポケモンでは　ないのう$"
 
 

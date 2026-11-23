@@ -6,6 +6,4 @@ Gate_SaffronCity_Route5_EventScript_Guard::
 	end
 
 Route5_Text_SaffronGateOfficer:
-	.string "You're from JOHTO, aren't you?\p"
-	.string "How do you like KANTO?\n"
-	.string "It's nice, don't you agree?$"
+	.string "ジョウトから　きたんだろ？\pカントーは　どうだい？\nいい　ところ　だろう？$"

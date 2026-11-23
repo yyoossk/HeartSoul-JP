@@ -33,15 +33,7 @@ DarkCave2_EventScript_BlackGlassesGot::
 	end
 
 DarkCave2_Text_Nerd:
-    .string "Whoa! You startled me there!\p"
-    .string "I had my BLACK-GLASSES on, so I\n"
-    .string "didn't notice you at all.\p"
-    .string "What am I doing here?\p"
-    .string "Hey, don't you worry about it.\p"
-    .string "I'll give you a pair of BLACK-\n"
-    .string "GLASSES, so forget you saw me,\n"
-    .string "OK?$"
+	.string "うわっ！　びっくり\nした！\pくろいメガネを　かけてたから\nぜんぜん　きづかなかったよ\pここで　なにを　してるかって？\pまあ　きに　しないで\pくろいメガネを　あげるから\nぼくを　みた　ことは\lわすれて　くれる？$"
 
 DarkCave2_Text_Nerd2:
-    .string "BLACK-GLASSES ups the power of\n"
-    .string "DARK-type moves.$"
+	.string "くろいメガネは　あくタイプの\nわざの　いりょくを　あげるよ$"
