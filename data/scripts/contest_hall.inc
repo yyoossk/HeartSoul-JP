@@ -1379,20 +1379,10 @@ LilycoveCity_ContestLobby_EventScript_DelayForRSPlayer::
 	return
 
 LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "POKéMON CONTESTS.\p"
-	.string "Oh? It appears that you don't have\n"
-	.string "a {POKEBLOCK} CASE yet.\p"
-	.string "In that case, we need to provide you\n"
-	.string "with this!$"
+	.string "こんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です\pあら？　まだ　{POKEBLOCK}ケースを\nもって　いない　ようですね\pそれなら　これを\nさしあげます！$"
 
 LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp:
-	.string "Okay, now that we've cleared that\n"
-	.string "up…\p"
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "POKéMON CONTESTS.$"
+	.string "さて　それでは‥\pこんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です$"
 
 LilycoveCity_ContestLobby_Text_ContestReception:
 	.string "Hello!\p"

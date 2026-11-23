@@ -1,0 +1,263 @@
+## data/text/cable_club.inc
+@@CableClub_Text_WelcomeWhichCableClubService
+ポケモン　ケーブルクラブへ\nようこそ\pどの　サービスを\nごりよう　ですか？
+@@CableClub_Text_WhichService
+どの　サービスを\nごりよう　ですか？
+@@CableClub_Text_TradeUsingLinkCable
+GBA　つうしんケーブルで\nほかの　プレイヤーと\lポケモンを　こうかん　します
+@@CableClub_Text_BattleUsingLinkCable
+GBA　つうしんケーブルで\nほかの　トレーナーと\lたいせん　できます
+@@CableClub_Text_RecordCornerUsingLinkCable
+GBA　つうしんケーブルで\nレコードコーナーを\lりよう　できます
+@@CableClub_Text_NeedTwoMonsForDoubleBattle
+ダブルバトルには　ポケモンが\n2ひき　いじょう　ひつよう　です
+@@CableClub_Text_NeedTwoMonsToTrade
+こうかんには　ポケモンを\n2ひき　いじょう\lつれている　ひつようが　あります
+@@CableClub_Text_CantTradeEnigmaBerry
+{STR_VAR_1}のみを　もった\nポケモンは　こうかん\lできません
+@@gText_PleaseWaitForLink
+しょうしょう　おまちください\n‥　‥　Bボタン:キャンセル
+@@gText_ConfirmLinkWhenPlayersReady
+みんなの　じゅんびが　できたら‥\nAボタン:けってい\lBボタン:キャンセル
+@@gText_ConfirmStartLinkWithXPlayers
+{STR_VAR_1}にんで　つうしんを　はじめます\nAボタン:けってい\lBボタン:キャンセル
+@@gText_AwaitingLinkup
+つうしん　たいきちゅう‥\n‥　‥　Bボタン:キャンセル
+@@CableClub_Text_PleaseEnter
+どうぞ　おはいり　ください
+@@CableClub_Text_DirectYouToYourRoom
+おへやへ　ごあんない　します
+@@Text_SomeoneIsNotReadyToLink
+じゅんびが　できていない\nひとが　います\pみなさんの　じゅんびが\nととのってから\lまた　おこし　ください
+@@Text_LinkErrorPleaseReset
+つうしんエラーです‥\nリセットして　もういちど\lやりなおして　ください
+@@Text_PlayersMadeDifferentSelections
+つうしん　あいての　かたと\nえらんだ　ものが　ちがう\lようです
+@@CableClub_Text_PleaseVisitAgain
+また　おこし　ください
+@@CableClub_Text_IncorrectNumberOfParticipants
+さんかしゃの　かずが\nただしく　ありません
+@@CableClub_Text_CantSingleBattleWithXPlayers
+シングルバトルは\n{STR_VAR_1}にんでは\lあそべません
+@@CableClub_Text_CantDoubleBattleWithXPlayers
+ダブルバトルは\n{STR_VAR_1}にんでは\lあそべません
+@@CableClub_Text_NeedFourPlayers
+この　バトルモードは\n4にん　ひつよう　です
+@@CableClub_Text_PleaseConfirmNumberAndRestart
+にんずうを　たしかめて\nもういちど　はじめて\lください
+@@Text_TerminateLinkConfirmation
+へやを　でると　つうしんを\nしゅうりょう　します\lよろしい　ですか？
+@@Text_TerminateLinkPleaseWait
+つうしんを　しゅうりょう　します‥\nへやの　そとへ　ごあんない\lします　おまちください
+@@CableClub_Text_TooBusyToNotice
+この　トレーナーは\nいそがしくて　きづかない‥
+@@CableClub_Text_GotToLookAtTrainerCard
+やった！　{STR_VAR_1}の\nトレーナーカードを　みた！
+@@CableClub_Text_GotToLookAtColoredTrainerCard
+やった！　{STR_VAR_1}の\nトレーナーカードを　みた！\p{STR_VAR_2}の　カードだ！
+@@BattleColosseum_2P_Text_TakePlaceStartBattle
+いちに　ついて\nたいせんを　はじめて　ください
+@@TradeCenter_Text_TakeSeatStartTrade
+せきに　ついて\nこうかんを　はじめて　ください
+@@RecordCorner_Text_ThanksForComing
+ごりよう　ありがとう\nございました
+@@CableClub_Text_TrainerCardDataOverwritten
+トレーナーカードの　データが\nうわがき　されます
+@@CableClub_Text_HopeToSeeYouAgain
+また　おまち　しています！
+@@CableClub_Text_NotSetUpForFarAwayRegion
+もうしわけ　ございません\pとおい　ちほうの　トレーナーとの\nこうかんには　まだ\lたいおう　していないのです‥
+@@CableClub_Text_OtherTrainerNotReady
+あいての　トレーナーの\nじゅんびが　できていません
+@@CableClub_Text_YouHaveAMonThatCantBeTaken
+つれて　いけない　ポケモンが\nいます
+@@RecordCorner_Text_TakeSeatAndWait
+せきに　ついて\nおまち　ください
+@@RecordCorner_Text_PlayerSentOverOneX
+{STR_VAR_1}から\n{STR_VAR_2}が　1こ　とどいた
+@@CableClub_Text_CantMixWithJapaneseGame
+つうしんエラーです\pかいがいばんの　ルビー　サファイア\nとは　レコードを\lまぜられません\pまた　エメラルドと\nにほんの　ルビー　サファイアを\lどうじに　まぜることは\lできません
+@@CableClub_Text_AdapterNotConnected
+ワイヤレスアダプタが\nただしく　つながって\lいません
+@@CableClub_Text_ParticipantsStepUpToCounter
+さんかしゃの　かたは\nうけつけへ　おこし　ください
+@@CableClub_Text_YouMayTradeHere
+ここでは　ほかの　トレーナーと\nポケモンを　こうかん　できます
+@@CableClub_Text_YouMayBattleHere
+ここでは　ともだちと\nたいせん　できます
+@@CableClub_Text_CanMakeBerryPowder
+2にんから　5にんで\nいっしょに　きのみパウダーを\lつくれます
+@@CableClub_Text_CanMixRecords
+2にんから　4にんの\nレコードを　まぜられます
+@@CableClub_Text_CancelSelectedItem
+えらんだ　メニューを\nとりけします
+@@CableClub_Text_NeedBerryForBerryCrush
+きのみクラッシュを　つかうには\nきのみが　1こ　いじょう\lひつよう　です
+@@CableClub_Text_NeedTwoMonsForUnionRoom
+ユニオンルームに　はいるには\nポケモンが　2ひき　いじょう\lひつよう　です
+@@CableClub_Text_NoEnigmaBerryInUnionRoom
+{STR_VAR_1}のみを　もった\nポケモンは　ユニオンルームに\lはいれません
+@@CableClub_Text_UnionRoomAdapterNotConnected
+こちらは　ポケモン　ワイヤレス\nクラブの　ユニオンルーム　です\pざんねんですが　ワイヤレス\nアダプタが　ただしく\lつながって　いません\pまた　おこし　ください
+@@CableClub_Text_PlayerIsWaiting
+{STR_VAR_1}が　いま\nあそんで　いるようです\lがんばって！
+@@MossdeepCity_GameCorner_1F_Text_DescribeWhichGame
+よかったら　ゲームの　ルールを\nせつめい　しますよ\pどの　ゲームを\nせつめい　しましょうか？
+@@MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo
+『ポケモンなわとび』\pAボタンで　ポケモンに\nつるのムチの　なわを\lとばせます\pせの　たかさ　70センチ\nくらい　までの　ちいさな\lポケモンだけ　さんか　できます\pおよぐ　だけ　もぐる　だけ\nとぶ　だけの　ポケモンは\lジャンプが　にがて　です\pなので　そういう　ポケモンは\nさんか　できません\pみんなで　タイミングを\nあわせると　いいことが\lありますよ
+@@MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo
+『ドードリオの　きのみとり』\pドードリオの　3つの　あたまで\nおちてくる　きのみを\lうけとります\p{PLUS}ボタンの　みぎ　うえ　ひだりで\nあたまを　うごかします\pこの　ゲームを　あそぶには\nドードリオが　ひつよう　です
+@@MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay
+ゲームを　あそびたいなら\nとなりの　おじいさんに\lはなしかけて　ください
+@@MossdeepCity_GameCorner_1F_Text_WelcomeCanYouWait
+やあ　いらっしゃい！\nワイヤレスつうしんで\lゲームを　あそびに　きたの？\pすこし　まって\nもらえるかな？
+@@MossdeepCity_GameCorner_1F_Text_ComeAgain
+じゃあ　また　おいで！
+@@MossdeepCity_GameCorner_1F_Text_AdapterNotConnected
+ワイヤレスアダプタが\nつながって　いないよ\lつないでから　また　おいで！
+@@MossdeepCity_GameCorner_1F_Text_PlayWhichGame
+よし　どの　ゲームで\nあそびたい？
+@@MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon
+どの　ポケモンで\nさんか　する？
+@@MossdeepCity_GameCorner_1F_Text_AllGoodToGo
+よし　じゅんび　ばんたんだ\nほかの　ひとに　まけるなよ！
+@@MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon
+さんか　できる　ポケモンを\nもって　いない　みたいだね‥\pどんな　ポケモンが　さんか\nできるか　せつめい　しようか？
+@@MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed
+『ポケモンなわとび』は\nせの　たかさ　70センチ\lくらい　までの　ポケモンが\lさんか　できるんだ\pさんか　できないのは\nジャンプ　できない　ポケモン\pつまり　およぐ　だけ　もぐる\nだけ　とぶ　だけの\lポケモンだね\pおぼえて　おくのは\nそれだけさ
+@@MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed
+ドードリオの　きのみとりは\nドードリオ　だけが\lさんか　できる　ゲームだよ
+@@CableClub_Text_WelcomeWhichDirectCornerRoom
+ポケモン　ワイヤレスクラブ\nダイレクトコーナーへ　ようこそ\pここでは　ともだちと\nちょくせつ　あそべます\pどの　へやに　はいりますか？
+@@CableClub_Text_TradePokemon
+ポケモンを　こうかん\nしますか？
+@@CableClub_Text_PlayWhichBattleMode
+どの　バトルモードで\nあそびますか？
+@@CableClub_Text_AccessRecordCorner
+レコードコーナーを\nりよう　しますか？
+@@CableClub_Text_UseBerryCrush
+きのみクラッシュを\nりよう　しますか？
+@@CableClub_Text_ExplainBattleModes
+バトルモードは　3しゅるい\nあります\pシングルバトルは　ポケモンを\n1ぴき　いじょう　もった\lトレーナー　2にんで　たたかいます\pいちどに　だせる　ポケモンは\nひとり　1ぴき　です\pダブルバトルは　ポケモンを\n2ひき　いじょう　もった\lトレーナー　2にんで　たたかいます\pいちどに　ひとり　2ひきずつ\nポケモンを　だします\pマルチバトルは　ポケモンを\n1ぴき　いじょう　もった\lトレーナー　4にんで　たたかいます\pいちどに　だせる　ポケモンは\nひとり　1ぴき　です
+@@CableClub_Text_ChooseGroupLeaderOfTwo
+ふたりの　うち　どちらが\nリーダーに　なるか\lきめて　ください\pもう　ひとりは\n『グループに　はいる』を\lえらんで　ください
+@@CableClub_Text_ChooseGroupLeaderOfFour
+4にんの　うち　だれが\nリーダーに　なるか\lきめて　ください\pほかの　ひとは\n『グループに　はいる』を\lえらんで　ください
+@@CableClub_Text_ChooseGroupLeader
+だれが　リーダーに　なるか\nきめて　ください\pほかの　ひとは\n『グループに　はいる』を\lえらんで　ください
+@@CableClub_Text_WelcomeUnionRoomEnter
+ポケモン　ワイヤレスクラブ\nユニオンルームへ　ようこそ\pここでは　しらない　ひとも\nふくめた　ほかの　トレーナーと\lちょくせつ　あそべます\pへやに　はいりますか？
+@@CableClub_Text_UnionRoomInfo
+ユニオンルームの　トレーナーは\nあなたの　ちかくで　へやに\lはいった　プレイヤー　たち　です\pあいさつ　など　いろいろな\nことが　できます\pレベル30　までの　ポケモン\n2ひきで　1たい1の\lたいせんが　できます\p2にんから　5にんで\nチャットも　できます\pポケモンを　こうかんに\nだす　ことも　できます\pへやに　はいりますか？
+@@CableClub_Text_EnjoyUnionRoom
+ユニオンルームを\nおたのしみ　ください
+@@CableClub_Text_FirstTimeRightThisWay
+こんにちは！\nわたしは　ここの\lあんないがかり　です\pここに　くるのは\nはじめて　ですね\pワイヤレスつうしんの\nしくみを　ごあんない　します\pまず　ポケモンセンターの\nこの　フロアを　ごらん\lください\pこちらへ　どうぞ
+@@CableClub_Text_ExplainWirelessClubFirstTime
+この　フロアには\nへやが　ふたつ　あります\pまず　ひだりの　へや\nここは　ユニオンルーム　です\pユニオンルームに　はいった\nちかくの　トレーナーと\lつうしん　できます\pチャットや　たいせん\nこうかん　などが　できます\pつぎに　みぎの　へやは\nダイレクトコーナー　です\pこの　へやでは　ともだちと\nポケモンの　こうかんや\lたいせんが　できます\pワイヤレスアダプタが\nなくても　GBA　つうしんケーブル\lで　つうしん　できます\pその　ばあいは\nダイレクトコーナーへ\lおこし　ください\pワイヤレスつうしんを\nおたのしみ　ください
+@@CableClub_Text_AskAboutLinking
+こんにちは　{PLAYER}さん！\pポケモンセンター　2かいの\nあんないがかり　です\pつうしんの　ことで　なにか\nききたい　ことが\lありますか？
+@@CableClub_Text_ExplainWirelessClub
+ポケモン　ワイヤレスクラブの\nしくみを　せつめい　します\pこの　フロアには\nへやが　ふたつ　あります\pまず　ひだりの　へや\nここは　ユニオンルーム　です\pユニオンルームに　はいった\nちかくの　トレーナーと\lつうしん　できます\pチャットや　たいせん\nこうかん　などが　できます\pつぎに　みぎの　へやは\nダイレクトコーナー　です\pこの　へやでは　ともだちと\nポケモンの　こうかんや\lたいせんが　できます\pユニオンルームや　ダイレクト\nコーナーで　ともだちが\lみつからない　ことが　あります\pその　ときは　ともだちの\nそばに　ちかよって　ください\pワイヤレスアダプタが\nなくても　GBA　つうしんケーブル\lで　つうしん　できます\pその　ばあいは\nダイレクトコーナーへ\lおこし　ください\pワイヤレスつうしんを\nおたのしみ　ください
+@@CableClub_Text_HopeYouEnjoyWirelessSystem
+ワイヤレスつうしんを\nおたのしみ　ください
+## data/text/battle_tent.inc
+@@FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent
+バトルテント　ハジツゲかいじょうへ\nようこそ！\p3たいけつトーナメントの\nごあんないを　いたします！
+@@FallarborTown_BattleTentLobby_Text_TakeChallenge
+3たいけつトーナメントに\nちょうせん　しますか？
+@@FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge
+また　の　ちょうせんを\nおまち　しています！
+@@FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge
+バトルテントへ　ごあんない\nする　まえに　レポートを\lかきます　よろしいですか？
+@@FallarborTown_BattleTentLobby_Text_SelectThreeMons
+では　ポケモンを\n3びき　えらんで　ください
+@@FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50
+ちょうせんしゃさま！\pさんかに　ひつような\nポケモン　3びきが　いません\pおなじ　どうぐを　もたせる\nことも　できません\pタマゴ{STR_VAR_1}は\nさんか　できません\pじゅんびが　できたら\nまた　おこし　ください
+@@FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen
+ちょうせんしゃさま！\pさんかに　ひつような\nポケモン　3びきが　いません\pさんか　するには　ちがう\nしゅるいの　ポケモンが\l3びき　ひつよう　です\pおなじ　どうぐを　もたせる\nことも　できません\pタマゴ{STR_VAR_1}は\nさんか　できません\pじゅんびが　できたら\nまた　おこし　ください
+@@FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent
+では　バトルテントへ\nごあんない　いたします
+@@FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting
+ちょうせんしゃさま！\pまえに　レポートを　かかずに\nやめて　しまい　ましたね？\pざんねんですが　ちょうせんは\nしっかく　と　なりました\pもちろん　また　あたらしく\nちょうせん　できます
+@@FallarborTown_BattleTentLobby_Text_BeatThreeTrainers
+おみごと！　トレーナー　3にんに\nれんしょう　しました！
+@@FallarborTown_BattleTentLobby_Text_WaitWhileSaveGame
+レポートを　かきますので\nおまち　ください
+@@FallarborTown_BattleTentLobby_Text_PresentYouWithPrize
+3れんしょうの　きねんに\nこちらの　しょうひんを\lさしあげます
+@@FallarborTown_BattleTentLobby_Text_ReceivedPrize
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった！
+@@FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize
+おや？\nバッグが　いっぱいの\lようですね\pあきを　つくってから\nしょうひんを　うけとりに\lきて　ください
+@@FallarborTown_BattleTentLobby_Text_ThankYouWaitWhileSaving
+ごさんか　ありがとう\nございました！\pレポートを　かきますので\nおまち　ください
+@@FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2
+また　の　ちょうせんを\nおまち　しています！
+@@FallarborTown_BattleTentLobby_Text_LookingForwardToArrival
+おまち　して　おりました\pバトルテントへ　ごあんない\nする　まえに　レポートを\lかきます　おまち　ください
+@@VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent
+バトルテント　シダケかいじょうへ\nようこそ！\pここでは　トレーナーの\nポケモンへの　しんらいが\lためされます
+@@VerdanturfTown_BattleTentLobby_Text_ReturnFortified
+こころと　ポケモンを\nきたえて　また　おいで\lなさい
+@@VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50
+ふう‥\pちょうせんに　ひつような\nポケモン　3びきが　いません\pちがう　しゅるいの　ポケモンが\n3びき　ひつよう　です\pおなじ　どうぐを　もたせる\nことも　できません\pタマゴ{STR_VAR_1}は\nさんか　できません\pじゅんびが　できたら\nまた　おいで　なさい
+@@VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen
+ふう‥\pちょうせんに　ひつような\nポケモン　3びきが　いません\pちがう　しゅるいの　ポケモンが\n3びき　ひつよう　です\pおなじ　どうぐを　もたせる\nことも　できません\pタマゴ{STR_VAR_1}は\nさんか　できません\pじゅんびが　できたら\nまた　おいで　なさい
+@@VerdanturfTown_BattleTentLobby_Text_SelectThreeMons
+よろしい　では　ポケモンを\n3びき　えらび　なさい
+@@VerdanturfTown_BattleTentLobby_Text_SaveBeforeChallenge
+バトルテントへ　あんない\nする　まえに　レポートを\lかきます　よろしいですか？
+@@VerdanturfTown_BattleTentLobby_Text_NowFollowMe
+よろしい\nでは　ついて　きなさい
+@@VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded
+あなたの　ポケモンの\nかつやくを　みられて\lこうえい　です\pけっかを　きろく　します\nしばらく　おまち　ください
+@@VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak
+3れんしょう　とは‥\pあなたと　ポケモンの\nこころの　きずなは\lかたく　ほんもの　ですね
+@@VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded
+あなたの　かつやくを\nきろく　します\lしばらく　おまち　ください
+@@VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize
+3れんしょうの　ほうびに\nこちらの　しょうひんを\lさしあげます
+@@SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent
+バトルテント　カイナかいじょうへ\nようこそ！\pこうかんバトルの\nごあんないを　いたします
+@@SlateportCity_BattleTentLobby_Text_TakeChallenge
+こうかんバトルに\nちょうせん　しますか？
+@@SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit
+また　の　おこしを\nおまち　しています
+@@SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge
+ちょうせんを　はじめる　まえに\nレポートを　かきます\lよろしいですか？
+@@SlateportCity_BattleTentLobby_Text_StepThisWay
+こちらへ　どうぞ
+@@SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults
+ごさんか　ありがとう\nございました！\pレンタルポケモンと　ひきかえに\nあなたの　ポケモンを\lおかえし　します\pけっかも　レポートに　かきます\nおまち　ください
+@@SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons
+おめでとう　ございます！\n3れんしょう　です！\pレンタルポケモンと　ひきかえに\nあなたの　ポケモンを\lおかえし　します\pけっかも　レポートに　かきます\nおまち　ください
+@@SlateportCity_BattleTentLobby_Text_AwardYouThisPrize
+3れんしょうを　たたえて\nこちらの　しょうひんを\lさしあげます
+@@SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom
+おや？\nこれを　いれる　あきが\lない　ようですね\pバッグに　あきを　つくってから\nこえを　かけて　ください
+@@SlateportCity_BattleTentLobby_Text_BeenWaitingForYou
+おまち　して　おりました！\pちょうせんを　さいかい　する\nまえに　レポートを　かきます
+@@SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting
+もうしわけ　ありませんが\nまえに　レポートを　かかずに\lやめて　しまい　ましたね\pその　ため　ちょうせんは\nしっかくと　なりました
+@@SlateportCity_BattleTentLobby_Text_ExplainBasicRules
+こうかんバトルでは　ポケモンを\n3びき　だけ　つかえます\pレンタルでも　こうかんでも\nおなじ　ポケモンを　2ひき\lいじょう　もつ　ことは\lできません
+@@SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules
+こうかん　できるのは\nいま　たおした　トレーナー\lだけ　です\pその　トレーナーが　つかった\nポケモンと　だけ\lこうかん　できます
+@@SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules
+バトルに　かつ　たびに\nたおした　あいての\lポケモン　1ぴきと\lこうかん　できます\p3にんめの　トレーナーとは\nこうかん　できません
+@@SlateportCity_BattleTentLobby_Text_ExplainSwapNotes
+ポケモンを　こうかん　する\nときの　ちゅういてんは\lふたつ　です\pひとつめ　こうかん　する　とき\nもらう　ポケモンの\lのうりょくは　みられません\pふたつめ　チームの　ポケモンは\nレンタル　した　じゅんばんに\lならんで　います\pこうかん　しても　この\nじゅんばんは　かわりません
+@@SlateportCity_BattleTentLobby_Text_ExplainMonRules
+カイナ　バトルテントの\nポケモンは　すべて\lレンタル　です\pレンタルポケモンは\nすべて　レベル30　です
+@@BattleTentLobby_Text_ExplainLevelRules
+この　バトルテントでは\nあいての　レベルが\lあなたの　ポケモンに\lあわせて　かわります\pただし　あいての　ポケモンは\nすべて　レベル30　いじょう\lです
+@@VerdanturfTown_BattleTentLobby_Text_RulesAreListed
+シダケ　バトルテントの\nルールが　かいてある
+@@BattleTentLobby_Text_EarnedBattlePoints
+バトルポイントを\n{STR_VAR_1}ポイント　もらった！
+## data/scripts/contest_hall.inc
+@@LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase
+こんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です\pあら？　まだ　{POKEBLOCK}ケースを\nもって　いない　ようですね\pそれなら　これを\nさしあげます！
+@@LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp
+さて　それでは‥\pこんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です
