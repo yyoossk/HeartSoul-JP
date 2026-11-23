@@ -433,71 +433,53 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge_hns::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth_hns:
-	.string "We will restore your POKéMON to\n"
-	.string "full health.$"
+	.string "ポケモンを　かいふく\nいたします$"
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent_hns:
-	.string "You will be facing opponent no. {STR_VAR_1}.\n"
-	.string "Are you ready?$"
+	.string "{STR_VAR_1}にんめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent_hns:
-	.string "You will be facing opponent no. 2.\n"
-	.string "Are you ready?$"
+	.string "2にんめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent_hns:
-	.string "You will be facing opponent no. 3.\n"
-	.string "Are you ready?$"
+	.string "3にんめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent_hns:
-	.string "You will be facing opponent no. 4.\n"
-	.string "Are you ready?$"
+	.string "4にんめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent_hns:
-	.string "You will be facing opponent no. 5.\n"
-	.string "Are you ready?$"
+	.string "5にんめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent_hns:
-	.string "You will be facing opponent no. 6.\n"
-	.string "Are you ready?$"
+	.string "6にんめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent_hns:
-	.string "You will be facing opponent no. 7.\n"
-	.string "Are you ready?$"
+	.string "7にんめの　あいてです\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle_hns:
-	.string "Record your battle on your\n"
-	.string "FRONTIER PASS?$"
+	.string "しょうぶを　フロンティアパスに\nきろく　しますか？$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass_hns:
-	.string "{PLAYER}'s battle was recorded\n"
-	.string "on the FRONTIER PASS.$"
+	.string "{PLAYER}の　しょうぶが\nフロンティアパスに\lきろく　された$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame_hns:
-	.string "Would you like to save and\n"
-	.string "quit the game?$"
+	.string "レポートを　かいて\nゲームを　おわりますか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait_hns:
-	.string "Saving your battle data.\n"
-	.string "Please wait.$"
+	.string "バトルデータを　レポート\nしています　おまちください$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge_hns:
-	.string "Would you like to cancel your BATTLE\n"
-	.string "ROOM challenge?$"
+	.string "バトルルームの　ちょうせんを\nやめますか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved_hns::
-	.string "There was an error of some sort.\n"
-	.string "Your record could not be saved.$"
+	.string "なんらかの　エラーが\nおきました\lきろくを　レポート\lできませんでした$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay_hns:
-	.string "Excuse me, but…\p"
-	.string "Our leader, the SALON MAIDEN, is on\n"
-	.string "her way here in hopes of battling you.\p"
-	.string "She should be arriving very shortly.$"
+	.string "すみません‥\pわたしたちの　リーダー\nサロンメイデンが　あなたと\lたたかいたいと\lこちらへ　むかって　います\pまもなく　とうちゃく\nする　はずです$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden_hns:
-	.string "You will be facing the SALON MAIDEN.\n"
-	.string "Are you prepared?$"
+	.string "サロンメイデンとの\nしょうぶです\lかくごは　いいですか？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel_hns:
 	.string "Greetings…\n"

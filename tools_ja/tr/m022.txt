@@ -1,0 +1,180 @@
+## data/maps/BattleFrontier_BattleTowerLobby_hns/scripts.inc
+@@BattleFrontier_BattleTowerLobby_Text_DirectYouToBattleRoom_hns
+それでは　バトルルームへ\nごあんない　いたします
+@@BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting_hns
+もうしわけ　ありません！\pまえかい　レポートを　かかずに\nちょうせんを　やめられましたね\pその　ため　これまでの\nちょうせんは　しっかく\lと　なります
+@@BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven_hns
+おめでとう　ございます！\n7にんの　トレーナーに\lかちぬきました！\p
+@@BattleFrontier_BattleTowerLobby_Text_EarnedFabulousPrize_hns
+7にん　かちぬいた　あなたに\nすばらしい　しょうひんを\lさしあげます！\p
+@@BattleFrontier_BattleTowerLobby_Text_ReceivedPrize_hns
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった
+@@BattleFrontier_BattleTowerLobby_Text_BagFullMakeRoom_hns
+あら　バッグが\nいっぱいの　ようですね\pバッグを　あけてから\nまた　おこし　ください
+@@BattleFrontier_BattleTowerLobby_Text_ThankYouForPlaying_hns
+ありがとう　ございました！\p
+@@BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved_hns
+きろくを　レポートします\nしょうしょう　おまちください
+@@BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou_hns
+おまち　して　おりました！\p
+@@BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved_hns
+バトルルームに　はいる　まえに\nレポートを　かきます\lしょうしょう　おまちください
+@@BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer_hns
+いよいよ　50にんめの\nトレーナーとの　しょうぶです\pここからは　7にん　かちぬく\nたびに　ポケモンに　きねんの\lリボンが　おくられます\pがんばって　ください！
+@@BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons_hns
+つよい　トレーナー　7にんに\nかちぬいた　きねんの\lリボンです\p{PLAYER}は　リボンを\nもらった！
+@@BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons_hns
+{PLAYER}は　ちょうせんした\nポケモンに　リボンを　つけた
+@@BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower_hns
+すみません　すこし\nよろしい　ですか？\pバトルタワーで　しょうぶを\nはじめる　とき　かった　とき\lまけた　ときの　きもちを\lおしえて　もらえますか？
+@@BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin_hns
+では　しょうぶを　はじめる\nときの　きもちは？
+@@BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveWon_hns
+しょうぶに　かった　ときは\nどんな　きもち　ですか？
+@@BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveLost_hns
+しょうぶに　まけた　ときの\nきもちを　きかせて\lもらえますか？
+@@BattleFrontier_BattleTowerLobby_Text_DontThinkMuchAboutIt_hns
+あら　とくに　なにも\nかんじない？\lクール　ですね
+@@BattleFrontier_BattleTowerLobby_Text_ChangedYourMind_hns
+え？　きが　かわった？\nきまぐれ　なんですね
+@@BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel_hns
+なるほど　そういう\nきもち　なんですね\lとても　ユニークです\pありがとう！
+@@BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded_hns
+れんしょうの　かずが\nきろく　されるんだ\pみっともない　まけかた\nだけは　したく　ないな！
+@@BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins_hns
+バトルタワーに　はいったら\nまけるか　7にん　かちぬくまで\lでられないんだ\pちょうせんの　かくごが\nできてから　はいりなよ
+@@BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction_hns
+バトルタワー\nダブルバトル　カウンターへ\lようこそ！\pあいにく　バトルルームは\nまだ　こうじ　ちゅう　です\pかんせい　しましたら\nまた　おこし　ください
+@@BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction_hns
+バトルタワー\nマルチバトル　カウンターへ\lようこそ！\pあいにく　バトルルームは\nまだ　こうじ　ちゅう　です\pかんせい　しましたら\nまた　おこし　ください
+@@BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge_hns
+また　の　ちょうせんを\nおまち　して　おります！
+@@BattleFrontier_BattleTowerLobby_Text_WhichLevelMode_hns
+バトルルームには　レベル50と\nオープンレベルの　2つの\lクラスが　あります\lどちらに　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_PleaseSelectMons_hns
+さんか　させる　ポケモンを\nえらんで　ください
+@@BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering_hns
+バトルルームに　はいる　まえに\nレポートを　かく　ひつようが\lあります　よろしいですか？
+@@BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom_hns
+それでは　{STR_VAR_1}の\nバトルルームへ　ごあんない\lいたします
+@@BattleFrontier_BattleTowerLobby_Text_RecordLastMatch_hns
+まえかいの　バトルタワーの\nしょうぶを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n{STR_VAR_2}ひき　いません\pレベル50　いかの　ちがう\nポケモンが　{STR_VAR_2}ひき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsEnd_hns
+じゅんびが　できたら\nまた　おこし　ください
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n{STR_VAR_2}ひき　いません\pちがう　ポケモンが\n{STR_VAR_2}ひき　ひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50_hnsSingles_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n3びき　いません\pレベル50　いかの　ちがう\nポケモンが　3びき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen_hnsSingles_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n3びき　いません\pちがう　ポケモンが\n3びき　ひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50_hnsDoubles_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n4ひき　いません\pレベル50　いかの　ちがう\nポケモンが　4ひき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen_hnsDoubles_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n4ひき　いません\pちがう　ポケモンが\n4ひき　ひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50_hnsMultis_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n2ひき　いません\pレベル50　いかの　ちがう\nポケモンが　2ひき\lひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen_hnsMultis_hns
+もうしわけ　ありません！\pさんか　できる　ポケモンが\n2ひき　いません\pちがう　ポケモンが\n2ひき　ひつようです\pもたせる　どうぐも\nちがう　ものに　して\lください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle_hns
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pわたしは　シングルバトル\nルームの　あんないがかり\lです
+@@BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge_hns
+シングルバトルルームに\nちょうせん　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge_hns
+バトルタワーの　シングルバトル\nルームは　ポケモン　3びきで\lシングルバトルを　おこなう\lしせつ　です\pバトルタワーには　シングル\nバトルルームが　たくさん\lあります\pそれぞれの　ルームで\n7にんの　トレーナーが\lまって　います\p7にん　ぜんいんに　かつと\nバトルポイントが\lもらえます\pちょうせんを　ちゅうだん\nする　ときは　レポートを\lかいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattleTowerLobby_Text_SelectThreeMons_hns
+では　さんか　させる　ポケモンを\n3びき　えらんで　ください
+@@BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle_hns
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pわたしは　ダブルバトル\nルームの　あんないがかり\lです
+@@BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge_hns
+ダブルバトルルームに\nちょうせん　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge_hns
+バトルタワーの　ダブルバトル\nルームは　ポケモン　4ひきで\lダブルバトルを　おこなう\lしせつ　です\pバトルタワーには　ダブル\nバトルルームが　たくさん\lあります\pそれぞれの　ルームで\n7にんの　トレーナーが\lまって　います\p7にん　ぜんいんに　かつと\nバトルポイントが\lもらえます\pちょうせんを　ちゅうだん\nする　ときは　レポートを\lかいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons_hns
+では　さんか　させる　ポケモンを\n4ひき　えらんで　ください
+@@BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle_hns
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pわたしは　マルチバトル\nルームの　あんないがかり\lです
+@@BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge_hns
+マルチバトルルームに\nちょうせん　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge_hns
+バトルタワーの　マルチバトル\nルームは　マルチバトルを\lおこなう　しせつ　です\pマルチバトルでは　タワーの\nトレーナーと　くみ　それぞれ\lポケモン　2ひきで\lさんか　します\pタワーの　なかには　ほかの\nトレーナーと　あえる\lバトルサロンが　あります\pそこで　マルチバトルの\nパートナーを　みつけて\lください\pパートナーが　きまったら\nマルチバトルルームへ\lごあんない　します\pルームでは　7くみの\nタッグが　まって　います\p7くみ　ぜんぶに　かつと\nバトルポイントが\lもらえます\pちょうせんを　ちゅうだん\nする　ときは　レポートを\lかいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons_hns
+では　さんか　させる　ポケモンを\n2ひき　えらんで　ください
+@@BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle_hns
+トレーナーの　さいのうが\nためされる　ばしょ！\pバトルタワーへ　ようこそ！\pわたしは　つうしんマルチバトル\nルームの　あんないがかり\lです
+@@BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge_hns
+つうしんマルチバトルルームに\nちょうせん　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge_hns
+バトルタワーの　マルチバトル\nルームは　ともだちと\lマルチバトルを　おこなう\lしせつ　です\pワイヤレスアダプタか\nつうしんケーブルで\lともだちと　つないで　ください\pともだちと　くみ　ちがう\nポケモンを　2ひきずつ\lさんか　させます\pバトルタワーには　マルチ\nバトルルームが　たくさん\lあります\pルームでは　7くみの\nタッグが　まって　います\p7くみ　ぜんぶに　かつと\nバトルポイントが\lもらえます\pほかの　ルームと　ちがい\nとちゅうで　ちゅうだん\lできません\pはじめたら　7かい\nつづけて　たたかいます
+@@BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons_hns2_hns
+では　さんか　させる　ポケモンを\n2ひき　えらんで　ください
+@@BattleFrontier_BattleTowerLobby_Text_ChoseSameMonAsFriend_hns
+ともだちと　おなじ　ポケモンを\nえらんで　います\pともだちと　ちがう　ポケモンを\n2ひき　えらび　レベルを\lそろえて　もう　いちど\lうけつけして　ください
+@@BattleFrontier_BattleTowerLobby_Text_LinkMultiOnlyForTwoPlayers_hns
+つうしんマルチバトルルームは\nふたり　つうしん　せんよう\lです
+@@BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon_hns
+ともだちも　{STR_VAR_1}を\nえらんで　います
+@@BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon_hnss_hns
+ともだちも　{STR_VAR_1}と\n{STR_VAR_2}を　えらんで　います
+@@BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode_hns
+ともだちが　ちがう\nレベルを　えらんで　います
+@@BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode_hnsSameMon_hns
+ともだちが　ちがう\nレベルを　えらんで　います\pともだちも　{STR_VAR_1}を\nえらんで　います
+@@BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode_hnsSameMon_hnss_hns
+ともだちが　ちがう\nレベルを　えらんで　います\pともだちも　{STR_VAR_1}と\n{STR_VAR_2}を　えらんで　います
+@@BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode_hns
+ともだちと　ちがう　ポケモンを\n2ひき　えらび　レベルを\lそろえて　もう　いちど\lうけつけして　ください
+@@BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn_hns
+ごあんない　する　まえに\nレポートを　かきます\lしょうしょう　おまちください
+@@BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden_hns
+おめでとう　ございます！\nサロンメイデンを　たおし\l7にん　かちぬきました！
+@@BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints_hns
+その　すばらしい　さいのうを\nたたえ　バトルポイントを\lさしあげます
+@@BattleFrontier_Text_ObtainedXBattlePoints_hns
+{PLAYER}は　バトルポイントを\n{STR_VAR_1}ポイント　もらった
+@@BattleFrontier_BattleTowerLobby_Text_RulesAreListed_hns
+バトルタワーの　ルールが\nかいてある
+@@BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading_hns
+どの　こうもくを\nよみますか？
+@@BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules_hns
+バトルタワーは　シングル\nダブル　マルチ\lつうしんマルチの\l4しゅるいの　バトルを\lおこなう　しせつ　です\pそれぞれの　バトルごとに\nバトルルームが　わかれて\lいます\pさんか　したい　バトルの\nあんないがかりに\lはなしかけて　ください
+@@BattleFrontier_BattleTowerLobby_Text_ExplainMonRules_hns
+バトルルームに　よって\nさんか　させる　ポケモンの\lかずが　ちがいます\pシングルバトルは\n3びき\pダブルバトルは　4ひき\nマルチは　どちらも　2ひき\lです
+@@BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules_hns
+バトルサロンでは\nマルチバトルルームに\lちょうせん　する　ための\lパートナーを　さがします\pほかの　トレーナーの　ポケモンと\nわざを　よく　みて　さいてきな\lパートナーを　えらびましょう\p7れんしょう　すると　あたらしい\nパートナーを　えらべます
+@@BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules_hns
+つうしんマルチバトルは\nともだち　ふたりで\lちょうせん　する　モード　です\pワイヤレスアダプタか\nつうしんケーブルで\lつないで　ください\pうけつけで　ポケモンを\n2ひき　えらびます\pともだちとは　ちがう\nポケモンに　して　ください\pほかの　モードと　ちがい\nとちゅうで　ちゅうだん\lできません
+## data/maps/BattleFrontier_BattleTowerBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth_hns
+ポケモンを　かいふく\nいたします
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent_hns
+{STR_VAR_1}にんめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent_hns
+2にんめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent_hns
+3にんめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent_hns
+4にんめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent_hns
+5にんめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent_hns
+6にんめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent_hns
+7にんめの　あいてです\nじゅんびは　いいですか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle_hns
+しょうぶを　フロンティアパスに\nきろく　しますか？
+@@BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass_hns
+{PLAYER}の　しょうぶが\nフロンティアパスに\lきろく　された
+@@BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame_hns
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait_hns
+バトルデータを　レポート\nしています　おまちください
+@@BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge_hns
+バトルルームの　ちょうせんを\nやめますか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved_hns
+なんらかの　エラーが\nおきました\lきろくを　レポート\lできませんでした
+@@BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay_hns
+すみません‥\pわたしたちの　リーダー\nサロンメイデンが　あなたと\lたたかいたいと\lこちらへ　むかって　います\pまもなく　とうちゃく\nする　はずです
+@@BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden_hns
+サロンメイデンとの\nしょうぶです\lかくごは　いいですか？
