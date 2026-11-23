@@ -1,0 +1,17 @@
+## data/text/apprentice.inc
+@@gText_ApprenticePickWinSpeech12
+おっ　イエー　{PLAYER}！\nきょうも　みつけたぜ！\pどうする？　また　きく？\nもちろん！　もう　きいてる\lしな！\pとにかく　{PLAYER}‥\nきこえてる？\lきこえてるよな！\lもっと　アドバイスが\lほしいんだ！\pさけぶ　セリフの　ことさ\nバトルが　うまく　いった\lとき　かっこよく　さけぶ\lことば！\pさあ　きかせて　くれよ！
+@@gText_ApprenticeWinSpeechThanks12
+{STR_VAR_1}\pいいね　いいね！\nイカしてる　から\lつかうぜ！\pもう　きく　ことは　ないぜ\nあとは　てを　ふって\lさよなら　だけ\pでも　いつか　また　あおう\nどっちかが　まける\lうんめいの　バトルでな\pでも　ほんとうに　おわかれの\nときが　きたぜ\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで！\pげんきでな　{PLAYER}！\nだいすきだぜ！
+@@gText_ApprenticePickWinSpeech13
+{PLAYER}{KUN}　もう　だめ‥\nはなみずが　とまらないの‥\pバトルに　かった　ときの\nかっこいい　セリフを\lかんがえてたら\pかんどう　しすぎて　ないちゃって\nはなみずが　とまらなく\lなったの‥\pそういう　わけで\nきめて　ほしいの　{PLAYER}{KUN}\pバトルに　かったら\nなんて　いえば　いい？
+@@gText_ApprenticeWinSpeechThanks13
+{STR_VAR_1}\p‥　‥　‥いいわね\nいや　かんどうてき！\lまた　なみだが　でてきた！\pでも　なみだと　はなみずが\nでても　その　セリフを\lつかうわ！\pもう　きく　ことは\nなくなっちゃった　{PLAYER}{KUN}\pこれからは　ライバルよ！\nいろいろ　ありがとう！
+@@gText_ApprenticePickWinSpeech14
+えっと‥　あの‥\n{PLAYER}{KUN}‥\pそんなに　みないで\nください　きんちょう\lしちゃう\pぼ　ぼく　また　アドバイスが\nほしいんです　でも\lこれで　さいご‥\pきくのも　はずかしい　けど\nバトルに　かったら\lなんて　いえば　いい？
+@@gText_ApprenticeWinSpeechThanks14
+{STR_VAR_1}\pあ‥　はい！\nそう　いって　みます！\lきんちょう　して　いえない\lかも　しれないけど‥\pありがとう　{PLAYER}{KUN}\nもう　おわかれ　です\p{PLAYER}{KUN}に　おそわった\nことを　まもって\lせいいっぱい　がんばります
+@@gText_ApprenticePickWinSpeech15
+ん？　{PLAYER}{KUN}の\nようだが‥　ほんとうかね？\lもしや　よく　できた\l{PLAYER}にんぎょう　では？\pいや　いや　きに　しないで\nくれたまえ　ほんもの　なら\lしつれいを　わすれて　くれ\pそう　おこらないで　くれ\nまた　きみの　アドバイスが\lほしい　だけ　なのだ\pセリフに　ついての\nことだ\pつまり　バトルに　かったら\nなんと　いえば　よいかね？
+@@gText_ApprenticeWinSpeechThanks15
+{STR_VAR_1}\p‥　‥　‥　‥　‥　‥\nしょうぶに　かったら‥\p{STR_VAR_1}\p‥ほんき　かね？\pなるほど　ほんき　なら\nよい　じかんを　さいて\lくれて　かんしゃ　する\pわたしにも　その　セリフを\nうまく　つかえると\lいいのだが\pききたい　ことは\nもう　なくなった　ようだ\pそろそろ　わかれを　つげて\nひとりだち　する\lときが　きた　ようだ\pありがとう　ししょう！\nうたがって　すまなかった！
