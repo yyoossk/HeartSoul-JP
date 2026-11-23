@@ -10,9 +10,8 @@ ViridianCity_Mart_EventScript_Cooltrainer::
 	end
 
 ViridianMart_Text_Lass:
-	.string "The GYM LEADER here is totally cool.$"
+	.string "ここの　ジムリーダー\nすっごく　かっこいいの$"
 
 ViridianMart_Text_CooltrainerM:
-	.string "Have you been to CINNABAR?\p"
-	.string "It's an island way south of here.$"
+	.string "グレンに　いった　ことある？\pここから　ずっと　みなみの\nしまだよ$"
 

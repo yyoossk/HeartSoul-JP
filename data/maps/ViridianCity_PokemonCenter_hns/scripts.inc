@@ -24,20 +24,13 @@ ViridianCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM:
-	.string "Where in the world is VIRIDIAN's GYM\n"
-	.string "LEADER? I wanted to challenge him.$"
+	.string "トキワの　ジムリーダーは\nいったい　どこに　いるんだ？\lちょうせん　したいのに$"
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned:
-	.string "There are no GYM TRAINERS at the\n"
-	.string "VIRIDIAN GYM.\p"
-	.string "The LEADER claims his policy is to\n"
-	.string "win without having any underlings.$"
+	.string "トキワジムには　ジムトレーナーが\nいないんだ\pリーダーは　てしたなしで\nかつのが　ほうしん　らしい$"
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerF:
-	.string "I heard that the GYM in CINNABAR is\n"
-	.string "gone.\p"
-	.string "I wonder what became of BLAINE, the\n"
-	.string "GYM LEADER.$"
+	.string "グレンの　ジムが　なくなったって\nきいたわ\pジムリーダーの　カツラさんは\nどう　なったのかしら$"
 
 ViridianCity_PokemonCenter_Text_1FBugCatcher:
-	.string "My dream is to become a GYM LEADER.$"
+	.string "ぼくの　ゆめは\nジムリーダーに　なること！$"

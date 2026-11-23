@@ -62,27 +62,19 @@ PalletTown_House2_Text_OfferGrooming:
 	.string "ナナミ『こんにちは！　ちょうど\nおちゃに　する　ところよ\pいっしょに　どう？\pあら　ポケモンが\nちょっと　よごれてるわね\p1ぴき　グルーミング\nして　あげましょうか？$"
 
 PalletTown_House2_Text_WhichMon:
-	.string "DAISY: Which one should I groom?$"
+	.string "ナナミ『どの　こを\nきれいに　する？$"
 
 PalletTown_House2_Text_Alright:
-	.string "DAISY: OK, I'll get it looking\n"
-	.string "nice in no time.$"
+	.string "ナナミ『わかったわ\nすぐ　きれいに　するわね$"
 
 PalletTown_House2_Text_AllDone:
-	.string "DAISY: There you go! All done.\p"
-	.string "See? Doesn't {STR_VAR_1} look\n"
-	.string "nice?\p"
-	.string "It's such a cute POKéMON.$"
+	.string "ナナミ『はい　できあがり！\pほら　{STR_VAR_1}\nきれいに　なったでしょ？\pほんとうに　かわいい\nポケモンね$"
 
 PalletTown_House2_Text_AlreadyGroomed:
-	.string "DAISY: I always have tea around\n"
-	.string "this time. Come join me.$"
+	.string "ナナミ『いつも　この　じかんに\nおちゃを　してるの\lいっしょに　どうぞ$"
 
 PalletTown_House2_Text_Refused:
-	.string "DAISY: You don't want to have one\n"
-	.string "groomed?\p"
-	.string "OK, we'll just have tea.$"
+	.string "ナナミ『グルーミングは\nいらないの？\pじゃあ　おちゃだけ\nしましょう$"
 
 PalletTown_House2_Text_CantGroomEgg:
-	.string "DAISY: Oh, sorry. I honestly can't\n"
-	.string "groom an EGG.$"
+	.string "ナナミ『あら　ごめんね\nタマゴは　さすがに\lグルーミング　できないわ$"

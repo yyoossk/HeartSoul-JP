@@ -43,9 +43,7 @@ ViridianCity_Gym_EventScript_BlueGotoDojo::
 	end
 
 ViridianCity_Gym_Text_BlueGotoDojo:
-	.string "BLUE: Back for more already?\p"
-	.string "If you want another shot at me,\n"
-	.string "come to the FIGHTING DOJO!$"
+	.string "グリーン『もう　きたのか？\pまた　おれと　やりたいなら\nかくとうどうじょうに　こい！$"
 
 ViridianCity_Gym_EventScript_BlueAtDojo::
 	msgbox ViridianCity_Gym_Text_LeaderBlue_Epilogue, MSGBOX_DEFAULT
@@ -54,49 +52,25 @@ ViridianCity_Gym_EventScript_BlueAtDojo::
 	end
 
 ViridianCity_Gym_Text_LeaderBlue_Before:
-	.string "BLUE: Yo! Finally got here, huh?\p"
-	.string "I wasn't in the mood at CINNABAR,\p"
-	.string "but now I'm ready to battle you.\p"
-	.string "…\p"
-	.string "You're telling me you conquered all\n"
-	.string "the GYMS in JOHTO?\p"
-	.string "Heh! JOHTO's GYMS must be pretty\n"
-	.string "pathetic then.\p"
-	.string "Hey, don't worry about it.\p"
-	.string "I'll know if you are good or not by\n"
-	.string "battling you right now.\p"
-	.string "Ready, JOHTO CHAMP?$"
+	.string "グリーン『よう！\nやっと　きたな？\pグレンでは　そんな　きぶんじゃ\nなかったが\pいまなら　あいて\nしてやるぜ\p‥\pジョウトの　ジムを\nぜんぶ　せいは　した　だと？\pへっ！　ジョウトの　ジムも\nたいした　こと　ないな\pまあ　きにするな\pおまえが　つよいか　どうか\nいま　たたかえば　わかる\pじゅんびは　いいか？\nジョウトの　チャンピオン！$"
 
 ViridianCity_Gym_Text_LeaderBlue_Win:
-	.string "BLUE: What?\p"
-	.string "How the heck did I lose to you?\p"
-	.string "…\p"
-	.string "Tch, all right… Here, take this--it's\n"
-	.string "EARTHBADGE.$"
+	.string "グリーン『なに？\pなんで　おれが　おまえに\nまけるんだ？\p‥\pちっ　わかったよ‥\nほら　グリーンバッジだ$"
 
 ViridianCity_Gym_Text_ReceivedEarthBadge:
-	.string "{PLAYER} received EARTHBADGE.$"
+	.string "{PLAYER}は\nグリーンバッジを　もらった$"
 
 ViridianCity_Gym_Text_LeaderBlue_After:
-	.string "BLUE: …\p"
-	.string "All right, I was wrong. You're the\n"
-	.string "real deal. You are a good trainer.\p"
-	.string "But I'm going to beat you someday.\p"
-	.string "Don't you forget it!$"
+	.string "グリーン『‥\pわかった　おれの　まちがい\nだった　おまえは　ほんもの\lいい　トレーナーだ\pだが　いつか\nおまえを　たおす\pわすれるなよ！$"
 
 ViridianCity_Gym_Text_LeaderBlue_GiveTM:
-	.string "Take this with you.$"
+	.string "これを　もってけ$"
 
 ViridianCity_Gym_Text_LeaderBlue_ExplainTM:
-	.string "That's TRICK ROOM.\p"
-	.string "All POKEMON in battle will change speed.\n"
-	.string "Slow goes first. Fast goes last.\p"
-	.string "Use it to turn a battle on its head.$"
+	.string "それは　トリックルーム\pたたかいの　ポケモンの\nすばやさが　ぎゃくに　なる\lおそい　ほうが　さきに\lうごくんだ\pたたかいを　ひっくりかえす\nのに　つかえ$"
 
 ViridianCity_Gym_Text_LeaderBlue_Epilogue:
-	.string "BLUE: Listen, you.\p"
-	.string "You'd better not lose until I beat\n"
-	.string "you. Got it?$"
+	.string "グリーン『いいか\pおれが　おまえを　たおすまで\nまけるんじゃ　ねえぞ\lわかったな？$"
 
 
 ViridianCity_Gym_EventScript_GymGuy::
@@ -109,18 +83,10 @@ ViridianCity_Gym_EventScript_GymGuyAfter::
 	end
 
 ViridianCity_Gym_Text_Guide:
-	.string "Yo, CHAMP in making!\p"
-	.string "How's it going? Looks like you're on\n"
-	.string "a roll.\p"
-	.string "The GYM LEADER is a guy who battled\n"
-	.string "the CHAMPION three years ago.\p"
-	.string "He's no pushover.\p"
-	.string "Give it everything you've got!$"
+	.string "よう！　みらいの　チャンピオン！\pちょうしは　どうだ？\nのってる　みたいだな\pここの　ジムリーダーは\n3ねんまえに　チャンピオンと\lたたかった　おとこだ\pあまく　ないぞ\pぜんりょくで　いけ！$"
 
 ViridianCity_Gym_Text_Guide_Win:
-	.string "Man, you are truly tough…\p"
-	.string "That was a heck of an inspirational\n"
-	.string "battle. It brought tears to my eyes.$"
+	.string "いやあ　ほんとうに\nつよいな‥\pかんどうの　しょうぶ\nだった　なみだが\lでて　きたよ$"
 
 
 ViridianCity_Gym_EventScript_GymStatue::
@@ -136,14 +102,8 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "VIRIDIAN POKéMON GYM\n"
-    .string "LEADER: BLUE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+	.string "トキワ　ポケモンジム\nリーダー　グリーン\pかった　トレーナー\nグリーン　レッド$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "VIRIDIAN POKéMON GYM\n"
-    .string "LEADER: BLUE\p"
-    .string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, {PLAYER}$"
+	.string "トキワ　ポケモンジム\nリーダー　グリーン\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
 

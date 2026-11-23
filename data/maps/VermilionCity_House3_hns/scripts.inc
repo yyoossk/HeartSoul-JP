@@ -6,7 +6,4 @@ VermilionCity_House3_EventScript_Gentleman::
 	end
 
 VermilionCity_House3_Text_Gentleman:
-	.string "Over many years, DIGLETT dug a\n"
-	.string "large tunnel.\p"
-	.string "That tunnel goes to a distant\n"
-	.string "town.$"
+	.string "ディグダが　ながい　としつきを\nかけて　おおきな　トンネルを\lほったんじゃ\pその　トンネルは\nとおくの　まちに　つづいて\lおる$"

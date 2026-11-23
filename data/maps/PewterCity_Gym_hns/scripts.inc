@@ -39,74 +39,40 @@ PewterCity_Gym_EventScript_Brock_Defeated::
 
 
 PewterCity_Gym_Text_Brock_Intro:
-	.string "BROCK: Wow, it's not often that we get a\n"
-	.string "challenger from JOHTO.\p"
-	.string "I'm BROCK, the PEWTER GYM LEADER.\p"
-	.string "I'm an expert on ROCK-type POKéMON.\p"
-	.string "My POKéMON are impervious to most\n"
-	.string "physical attacks. You'll have a hard\l"
-	.string "time inflicting any damage.\p"
-	.string "Come on!$"
+	.string "タケシ『ほう　ジョウトから\nちょうせんしゃが　くるとは\lめずらしい\pおれは　ニビジムリーダーの\nタケシ\pいわタイプの　ポケモンの\nエキスパートだ\pおれの　ポケモンに　ぶつりこうげきは\nほとんど　きかない\lダメージを　あたえるのは\lたいへんだぞ\pさあ　こい！$"
 
 PewterCity_Gym_Text_Brock_WinLoss:
-	.string "BROCK: Your POKéMON's powerful attacks\n"
-	.string "overcame my rock-hard defense…\p"
-	.string "You're stronger than I expected…\p"
-	.string "Go ahead--take this BADGE.$"
+	.string "タケシ『きみの　ポケモンの　こうげきが\nおれの　かたい　まもりを\lうちやぶった‥\pおもった　より　つよいな‥\pさあ　この　バッジを\nうけとって　くれ$"
 
 PewterCity_Gym_Text_ReceivedBoulderBadge:
-	.string "{PLAYER} received BOULDERBADGE.$"
+	.string "{PLAYER}は\nグレーバッジを　もらった$"
 
 PewterCity_Gym_Text_Brock_GiveTM:
-	.string "Here, take this TM with you.$"
+	.string "ほら　この　わざマシンも\nもって　いけ$"
 
 PewterCity_Gym_Text_Brock_ExplainTM:
-	.string "It contains ROCK SLIDE.\p"
-	.string "It drops rocks on your opponents\n"
-	.string "with a chance to cause flinching.\p"
-	.string "Use it to stop them in their tracks.$"
+	.string "それは　いわなだれ\pあいてに　いわを　おとし\nひるませる　ことも　ある\pあいての　うごきを\nとめるのに　つかえ$"
 
 PewterCity_Gym_Text_Brock_BoulderBadge:
-	.string "BROCK: {PLAYER}, thanks. I enjoyed\n"
-	.string "battling you, even though I am a bit\l"
-	.string "upset.\p"
-	.string "That BOULDERBADGE will make your\n"
-	.string "POKéMON even more powerful.$"
+	.string "タケシ『{PLAYER}　ありがとう\nくやしいけど　たのしい\lしょうぶ　だったよ\pその　グレーバッジで　ポケモンは\nもっと　つよく　なるぞ$"
 
 PewterCity_Gym_Text_Brock_FightDone:
-	.string "BROCK: The world is huge. There are\n"
-	.string "still many strong trainers like you.\p"
-	.string "Just wait and see. I'm going to become\n"
-	.string "a lot stronger too.$"
+	.string "タケシ『せかいは　ひろい\nきみの　ような　つよい\lトレーナーは　まだ　いる\pみてろよ　おれも\nもっと　つよく　なる$"
 
 PewterCity_Gym_Text_CamperJerry_Seen:
-	.string "The trainers of this GYM use ROCK-type\n"
-	.string "POKéMON.\p"
-	.string "The ROCK-type has high DEFENSE.\p"
-	.string "Battles could end up going a long time.\n"
-	.string "Are you ready for this?$"
+	.string "この　ジムの　トレーナーは\nいわタイプを　つかう\pいわタイプは\nぼうぎょが　たかい\pしょうぶは　ながびくかもな\nかくごは　いいか？$"
 
 PewterCity_Gym_Text_CamperJerry_Beaten:
-	.string "I have to win these battles…$"
+	.string "かたなきゃ　いけないのに‥$"
 
 PewterCity_Gym_Text_CamperJerry_AfterBattle:
-	.string "Hey, you! Trainer from JOHTO! BROCK is\n"
-	.string "tough. He'll punish you if you don't\l"
-	.string "take him seriously.$"
+	.string "おい　ジョウトの　トレーナー！\nタケシさんは　つよいぞ\lあまく　みると　いたい\lめに　あうぞ$"
 
 PewterCity_Gym_Text_Guide:
-	.string "Yo! CHAMP in making! You're really\n"
-	.string "rocking.\p"
-	.string "Are you battling the GYM LEADERS of\n"
-	.string "KANTO?\p"
-	.string "They're strong and dedicated people,\n"
-	.string "just like JOHTO's GYM LEADERS.$"
+	.string "よう！　みらいの　チャンピオン！\nいわの　ように　かたい\lかつやくだな\pカントーの　ジムリーダーにも\nちょうせん　してるのか？\pジョウトの　ジムリーダー　と\nおなじく　つよくて　ねっしんな\lひとたちだぞ$"
 
 PewterCity_Gym_Text_Guide_Win:
-	.string "Yo! CHAMP in making! That GYM didn't\n"
-	.string "give you much trouble.\p"
-	.string "The way you took charge was really\n"
-	.string "inspiring. I mean that seriously.$"
+	.string "よう！　みらいの　チャンピオン！\nこの　ジムは　らくしょう\lだったな\pきみの　たたかいぶりには\nほんとうに　しげき　されたよ$"
 
 PewterCity_Gym_EventScript_GymGuy::
 	goto_if_set FLAG_DEFEATED_PEWTER_GYM, PewterCity_Gym_EventScript_GymGuyAfter
@@ -131,16 +97,10 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_GymStatue::
-    .string "PEWTER POKéMON GYM\n"
-    .string "LEADER: BROCK\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\nグリーン　レッド$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "PEWTER POKéMON GYM\n"
-    .string "LEADER: BROCK\p"
-    .string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, {PLAYER}$"
+	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
 
 PewterCity_Gym_EventScript_Brock_Trade::
 	goto_if_set FLAG_PEWTER_GYM_NPC_TRADE_COMPLETED, PewterCity_Gym_EventScript_BrockTradeCompleted
@@ -166,26 +126,16 @@ PewterCity_Gym_EventScript_BrockTradeCompleted::
 	end
 
 PewterCity_Gym_Text_BrockWantToTrade:
-	.string "BROCK: Hey, {PLAYER}. I found this\n"
-	.string "little BONSLY while training in the\l"
-	.string "mountains.\p"
-	.string "It's cute, but I think it needs\n"
-	.string "a different kind of trainer.\p"
-	.string "Would you trade a {STR_VAR_1}\n"
-	.string "for my {STR_VAR_2}?$"
+	.string "タケシ『やあ　{PLAYER}\nやまで　しゅぎょう　ちゅうに\lこの　ウソハチを　みつけたんだ\pかわいいけど　べつの\nトレーナーが　あってる\lきがするんだ\p{STR_VAR_1}と　おれの\n{STR_VAR_2}を　こうかん\lしないか？$"
 
 PewterCity_Gym_Text_BrockTakeCare:
-	.string "BROCK: Thanks! Take good care of\n"
-	.string "WOODY for me!$"
+	.string "タケシ『ありがとう！\nウッディを　よろしくな！$"
 
 PewterCity_Gym_Text_BrockDeclineTrade:
-	.string "BROCK: No? That's okay.\n"
-	.string "WOODY and I will keep training.$"
+	.string "タケシ『だめか？　いいさ\nウッディと　しゅぎょうを\lつづけるよ$"
 
 PewterCity_Gym_Text_BrockNotRequestedMon:
-	.string "BROCK: That's not a {STR_VAR_1}.\n"
-	.string "That's not what I'm after.$"
+	.string "タケシ『それは　{STR_VAR_1}じゃ\nないな　ほしいのは\lそれじゃ　ないんだ$"
 
 PewterCity_Gym_Text_BrockTradeCompleted:
-	.string "BROCK: How's WOODY doing?\n"
-	.string "BONSLY are tougher than they look!$"
+	.string "タケシ『ウッディは　げんきか？\nウソハチは　みかけより\lたくましいぞ！$"

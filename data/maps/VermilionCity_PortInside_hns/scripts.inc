@@ -9,12 +9,10 @@ VermilionPortIndoor_EventScript_Nerd::
 	end
 
 VermilionPortPassage_Text_Teacher:
-	.string "The FAST SHIP sails every day!$"
+	.string "こうそくせんは　まいにち\nでて　いるのよ！$"
 
 VermilionPort_Text_SuperNerd:
-	.string "You came from JOHTO?\p"
-	.string "I hear many rare POKéMON live\n"
-	.string "over there.$"
+	.string "ジョウトから　きたの？\pあっちには　めずらしい\nポケモンが　たくさん\lいるんだって$"
 
 VermilionPort_EventScript_Sailor::
 	lock
@@ -167,46 +165,31 @@ VermilionPort_Movement_BoatLeave:
 	step_end
 
 VermilionPort_Text_SailorCantSail:
-	.string "There's been a break-in at the\n"
-	.string "POWER PLANT, so we cannot set sail\l"
-	.string "until the THIEF is found.$"
+	.string "はつでんしょに　どろぼうが\nはいったので　はんにんが\lみつかるまで　しゅっこう\lできません$"
 
 VermilionPort_Text_NoPass:
-    .string "{PLAYER} tried to show the\n"
-    .string "{STR_VAR_1}…\p"
-    .string "…But no {STR_VAR_1}!\p"
-    .string "Sorry!\n"
-    .string "You may board only if you have an\l"
-    .string "{STR_VAR_1}.$"
+	.string "{PLAYER}は　{STR_VAR_1}を\nみせようと　した‥\p‥しかし　{STR_VAR_1}が\nない！\pもうしわけ　ありません\n{STR_VAR_1}を　おもちの\lかたしか　のれません$"
 
 VermilionPort_Text_SailorGetOnBoard:
-    .string "We're departing soon.\n"
-    .string "Please get on board.$"
+	.string "まもなく　しゅっこう　です\nごじょうせん　ください$"
 
 VermilionPort_Text_CantBoard:
-    .string "Sorry. You can't board now.$"
+	.string "もうしわけ　ありません\nいまは　のれません$"
 
 VermilionPort_Text_WhereSail:
-    .string "Where would you like to sail?$"
+	.string "どちらへ　いかれますか？$"
 
 VermilionPort_Text_AskBoard:
-    .string "Welcome to FAST SHIP S.S.AQUA.\p"
-    .string "Will you be boarding today?$"
+	.string "こうそくせん　アクアごうへ\nようこそ\pきょう　ごじょうせん\nですか？$"
 
 VermilionPort_Text_AskTicket:
-    .string "May I see your S.S.TICKET?$"
+	.string "ふねの　チケットを\nはいけん　します$"
 
 VermilionPort_Text_ComeAgain:
-    .string "We hope to see you again!$"
+	.string "また　おこし　ください！$"
 
 VermilionPort_Text_FlashTicket:
-    .string "{PLAYER} flashed the S.S.TICKET.\p"
-    .string "That's it. Thank you!$"
+	.string "{PLAYER}は　ふねの　チケットを\nみせた\pはい　たしかに！\nありがとう　ございます！$"
 
 VermilionPort_Text_NoTicket:
-    .string "{PLAYER} tried to show the\n"
-    .string "S.S.TICKET…\p"
-    .string "…But no TICKET!\p"
-    .string "Sorry!\n"
-    .string "You may board only\l"
-    .string "if you have an S.S.TICKET.$"
+	.string "{PLAYER}は　ふねの　チケットを\nみせようと　した‥\p‥しかし　チケットが\nない！\pもうしわけ　ありません\nふねの　チケットを　おもちの\lかたしか　のれません$"

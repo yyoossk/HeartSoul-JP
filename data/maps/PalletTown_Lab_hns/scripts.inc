@@ -72,85 +72,34 @@ PalletTown_Lab_EventScript_PC::
 	end
 
 PalletTown_Lab_Text_OakLabDexCheck:
-	.string "How is your POKéDEX coming?$"
+	.string "ずかんの　ほうは\nどうかな？$"
 
 PalletTown_Lab_Text_OakWelcomeKanto:
-	.string "OAK: Ah, {PLAYER}!\n"
-	.string "It's good of you to come all this\l"
-	.string "way to KANTO.\p"
-	.string "What do you think of the trainers\n"
-	.string "out here? Pretty tough, huh?$"
+	.string "オーキド『おお　{PLAYER}！\nはるばる　カントーまで\lよく　きたな\pこちらの　トレーナーは\nどうじゃ？　てごわいじゃろう？$"
 
 PalletTown_Lab_Text_OakLabGoodbye:
-	.string "If you're in the area, I hope you\n"
-	.string "come visit again.$"
+	.string "ちかくに　きたら\nまた　よって　おくれ$"
 
 PalletTown_Lab_Text_OakOpenMtSilver:
-	.string "OAK: Wow! That's excellent!\p"
-	.string "You collected the BADGES of GYMS\n"
-	.string "in KANTO. Well done!\p"
-	.string "I was right in my assessment of\n"
-	.string "you.\p"
-	.string "Tell you what, {PLAYER}. I'll make\n"
-	.string "arrangements so that you can go\l"
-	.string "to MT.SILVER.\p"
-	.string "MT.SILVER is a big mountain that\n"
-	.string "is home to many wild POKéMON.\p"
-	.string "It's too dangerous for your average\n"
-	.string "trainer, so it's off limits. But\l"
-	.string "we can make an exception in your\l"
-	.string "case, {PLAYER}.\p"
-	.string "Go up to INDIGO PLATEAU. You can\n"
-	.string "reach MT.SILVER from there.$"
+	.string "オーキド『なんと！　すばらしい！\pカントーの　ジムバッジを\nあつめたのか　みごとじゃ！\pわしの　みこんだ　とおりじゃった\pよし　{PLAYER}　シロガネやまへ\nいけるように　てはいして\lおこう\pシロガネやまは　やせいの\nポケモンが　たくさん　すむ\lおおきな　やまじゃ\pふつうの　トレーナーには\nきけん　なので　たちいり\lきんしじゃが　きみは\lとくべつじゃ\pセキエイこうげんへ　いきなさい\nそこから　シロガネやまへ\lいけるぞ$"
 
 PalletTown_Lab_Text_OakOpenIndigoPlateau:
-	.string "Oh, and speaking of the INDIGO\n"
-	.string "PLATEAU, now that you've earned\l"
-	.string "16 badges, the KANTO LEAGUE\l"
-	.string "will be ready to accept\l"
-	.string "your challenge once again.\p"
-	.string "But be warned, LANCE and his\n"
-	.string "ELITE FOUR won't go easy on you\l"
-	.string "this time.\p"
-	.string "Good luck, {PLAYER}!$"
+	.string "そうそう　セキエイこうげんと\nいえば　バッジを　16こ\lあつめた　きみの\lちょうせんを　カントーリーグが\lまた　うけつけて　くれるぞ\pじゃが　ワタルと　してんのうは\nこんどは　てかげん\lせんぞ\pがんばるのじゃぞ\n{PLAYER}！$"
 
 PalletTown_Lab_Text_OakNoKantoBadges:
-	.string "OAK: Hmm? You're not collecting\n"
-	.string "KANTO GYM BADGES?\p"
-	.string "The GYM LEADERS in KANTO are as\n"
-	.string "tough as any you battled in JOHTO.\p"
-	.string "I recommend that you challenge them.$"
+	.string "オーキド『む？　カントーの\nジムバッジを　あつめて\lおらんのか？\pカントーの　ジムリーダーも\nジョウトに　まけず　つよいぞ\pちょうせん　してみる\nことを　すすめるぞ$"
 
 PalletTown_Lab_Text_OakYesKantoBadges:
-	.string "OAK: Ah, you're collecting KANTO\n"
-	.string "GYM BADGES.\p"
-	.string "I imagine that it's hard, but the\n"
-	.string "experience is sure to help you.\p"
-	.string "Come see me when you get them all.\p"
-	.string "I'll have a gift for you.\p"
-	.string "Keep trying hard, {PLAYER}!$"
+	.string "オーキド『おお　カントーの\nジムバッジを　あつめて\lおるのか\pたいへん　じゃろうが\nきっと　いい　けいけんに\lなるぞ\pぜんぶ　あつめたら\nわしに　あいに　きなさい\pおくりものを　よういして\nおこう\pがんばれよ　{PLAYER}！$"
 
 PalletTown_Lab_Text_OaksAssistant1:
-	.string "The PROF's POKéMON TALK radio\n"
-	.string "program isn't aired here in KANTO.\p"
-	.string "It's a shame--I'd like to hear it.$"
+	.string "はかせの　ポケモンこうざは\nカントーでは　ほうそう\lされて　ないんだ\pざんねん‥　ききたいのに$"
 
 PalletTown_Lab_Text_OaksAssistant2:
-	.string "Thanks to your work on the POKéDEX,\n"
-	.string "the PROF's research is coming along\l"
-	.string "great.$"
+	.string "きみが　ずかんを\nうめて　くれるので\lはかせの　けんきゅうも\lじゅんちょうだよ$"
 
 PalletTown_Lab_Text_OaksAssistant3:
-	.string "Don't tell anyone, but PROF.OAK'S\n"
-	.string "POKéMON TALK isn't a live broadcast.$"
+	.string "ないしょ　だけど\nオーキドはかせの　ポケモンこうざは\lなまほうそう　じゃ　ないんだ$"
 
 PalletTown_Lab_Text_OaksLabPC:
-	.string "There's an e-mail message on the PC.\p"
-	.string "…\p"
-	.string "PROF.OAK, how is your research\n"
-	.string "coming along?\p"
-	.string "I'm still plugging away.\p"
-	.string "I heard rumors that {PLAYER} is\n"
-	.string "getting quite a reputation.\p"
-	.string "I'm delighted to hear that.\p"
-	.string "ELM in NEW BARK TOWN 8-)$"
+	.string "パソコンに　メールが\nとどいている\p‥\pオーキドはかせ　けんきゅうの\nほうは　いかが　ですか？\pわたしは　あいかわらず\nがんばって　います\p{PLAYER}くんが　ひょうばんに\nなって　いると　ききました\pうれしい　かぎりです\pワカバタウンの　ウツギより$"

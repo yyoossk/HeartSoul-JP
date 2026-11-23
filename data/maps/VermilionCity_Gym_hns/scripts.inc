@@ -289,148 +289,85 @@ VermilionCity_Gym_EventScript_Surge_Defeated::
 	end
 
 VermilionGym_Text_LtSurgeIntro:
-	.string "SURGE: Hey, you little tyke!\p"
-	.string "I have to hand it to you.\n"
-	.string "It may not be very smart to\l"
-	.string "challenge me, but it takes guts!\p"
-	.string "When it comes to electric\n"
-	.string "POKéMON, I'm number one!\p"
-	.string "I've never lost on the\n"
-	.string "battlefield.\p"
-	.string "I'll zap you just like I did my\n"
-	.string "enemies in war!$"
+	.string "マチス『ヘイ　ボーイ！\pたいした　もんだ\nミーに　ちょうせん　するのは\lかしこく　ないが\lどきょうは　あるね！\pでんきポケモンなら\nミーが　ナンバーワン！\pせんじょうで　まけた　ことは\nいちども　ない\pせんそうの　てきの　ように\nしびれさせて　やるぜ！$"
 
 VermilionGym_Text_LtSurgeWinLoss:
-	.string "SURGE: Arrrgh! You are strong!\p"
-	.string "OK, kid. You get THUNDERBADGE!$"
+	.string "マチス『アーウチ！\nユー　つよいね！\pオーケー　ボーイ\nオレンジバッジを　やろう！$"
 
 VermilionGym_Text_ReceivedThunderBadge:
-	.string "{PLAYER} received THUNDERBADGE.$"
+	.string "{PLAYER}は\nオレンジバッジを　もらった$"
 
 VermilionGym_Text_ThunderBadgeInfo:
-	.string "SURGE: THUNDERBADGE increases\n"
-	.string "POKéMON's speed.\p"
-	.string "Consider it proof that you\n"
-	.string "defeated me.\p"
-	.string "You wear it proudly, hear?$"
+	.string "マチス『オレンジバッジで\nポケモンの　すばやさが\lあがる\pミーに　かった\nあかしだ\pほこりを　もって\nつけてな？$"
 
 VermilionGym_Text_LtSurge_GiveTM:
-	.string "And take this TM. It served me\n"
-	.string "well in the war!$"
+	.string "それと　この　わざマシンも\nやろう　せんそうで\lやくに　たったぜ！$"
 
 VermilionGym_Text_LtSurge_ExplainTM:
-	.string "It's SHOCK WAVE.\p"
-	.string "A shockingly accurate move\n"
-	.string "which hits every time!$"
+	.string "それは　でんげきは\pかならず　あたる\nおどろきの　わざだ！$"
 
 VermilionGym_Text_LtSurgeThunderstone:
-	.string "And take this stone. It has real\n"
-	.string "thunder power!$"
+	.string "それと　この　いしも　やろう\nほんものの　かみなりの\lちからが　あるぜ！$"
 
 
 VermilionGym_Text_LtSurgePostBattle:
-	.string "SURGE: Hey, kid! Still slugging\n"
-	.string "and chugging away?\p"
-	.string "My POKéMON and I are still at it!$"
+	.string "マチス『ヘイ　ボーイ！\nまだ　がんばってるか？\pミーと　ポケモンも\nまだまだ　やってるぜ！$"
 
 VermilionGym_Text_SurgeRematch:
-	.string "SURGE: So, you're now KANTO\n"
-	.string "CHAMPION!\p"
-	.string "Impressive work, kid!\n"
-	.string "But don't think I'm done!\p"
-	.string "How about we have a go again?$"
+	.string "マチス『ユー　いまは　カントーの\nチャンピオンか！\pたいした　もんだ　ボーイ！\nだが　ミーも　まだまだだ！\pもう　いっちょ\nやるか？$"
 
 VermilionGym_Text_SurgeRematchDefeat:
-	.string "SURGE: Arrrgh! You're still just\n"
-	.string "as strong!$"
+	.string "マチス『アーウチ！\nあいかわらず　つよいな！$"
 
 VermilionGym_Text_GentlemanGregorySeen:
-	.string "You're here to defeat LT.SURGE?\p"
-	.string "Not if I can help it!$"
+	.string "マチスさんを　たおしに\nきたのか？\pそうは　させんぞ！$"
 
 VermilionGym_Text_GentlemanGregoryBeaten:
-	.string "Sorry I failed you,\n"
-	.string "LT.SURGE, sir!$"
+	.string "もうしわけ　ありません\nマチスさん！$"
 
 VermilionGym_Text_GentlemanGregoryAfter:
-	.string "When I was still in the army,\n"
-	.string "LT.SURGE saved my life.$"
+	.string "ぐんたいに　いた　ころ\nマチスさんに　いのちを\lすくわれたのだ$"
 
 VermilionGym_Text_GuitaristVincentSeen:
-	.string "LT.SURGE recognized my potential\n"
-	.string "with electric POKéMON.\p"
-	.string "Think you can beat me?$"
+	.string "マチスさんは　でんきポケモンの\nおれの　さいのうを\lみとめて　くれた\pおれに　かてると\nおもうか？$"
 
 VermilionGym_Text_GuitaristVincentBeaten:
-	.string "Ooh, how shocking!$"
+	.string "うわ　しびれた！$"
 
 VermilionGym_Text_GuitaristVincentAfter:
-	.string "Mom told me not to quit my\n"
-	.string "day job, but what am I supposed\l"
-	.string "to do when I'm not finding\l"
-	.string "success there either?$"
+	.string "ははおやには　しごとを　やめるな\nって　いわれたけど\lそっちでも　うまく　いかない\lときは　どうすれば　いいんだ？$"
 
 VermilionGym_Text_JugglerHortonSeen:
-	.string "I'm going to take you down!\n"
-	.string "Prepare to be shocked!$"
+	.string "きみを　たおして　やる！\nしびれる　かくごを　しろ！$"
 
 VermilionGym_Text_JugglerHortonBeaten:
-	.string "Gwaaah! I was overpowered…$"
+	.string "ぐわー！\nちからで　まけた‥$"
 
 VermilionGym_Text_JugglerHortonAfter:
-	.string "Don't get too comfortable about\n"
-	.string "beating me…\p"
-	.string "LT.SURGE is tough.$"
+	.string "ぼくに　かったからって\nあんしん　するなよ‥\pマチスさんは　つよいぞ$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "LT. SURGE has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "POKéMON.\p"
-    .string "FLYING/WATER-type POKéMON match\n"
-    .string "poorly against the ELECTRIC type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "LT. SURGE is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+	.string "よう！\nみらいの　チャンピオン！\pマチスには　あだなが\nあるんだ\pイナズマアメリカン\nって　よばれてる！\pでんきポケモンの\nエキスパートだ\pひこうや　みずタイプの\nポケモンは　でんきタイプに\lよわいぞ\pまひにも　きをつけろ\pマチスは　とても\nようじんぶかい\pかぎを　かけて　とじこもって\nいるから　たどりつくのは\lかんたんじゃ　ないぞ$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-	.string "Whew! That was an electrifying\n"
-	.string "bout!\p"
-	.string "It sure made me nervous.$"
+	.string "ふう！　しびれる\nしょうぶ　だったな！\pおれも　どきどき\nしたよ$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+	.string "クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\nグリーン　レッド$"
 
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED, {PLAYER}$"
+	.string "クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+	.string "ない！\nゴミしか　はいって　いない$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Hey! There's a switch under the\n"
-    .string "trash! Turn it on!\p"
-    .string "The first electric lock opened!$"
+	.string "おや！　ゴミの　したに\nスイッチが　ある！　おしてみた！\pひとつめの　でんきロックが\nはずれた！$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-    .string "The second electric lock opened!\n"
-    .string "The motorized door opened!$"
+	.string "ふたつめの　でんきロックが\nはずれた！　とびらが　ひらいた！$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
+	.string "ない！\nゴミしか　はいって　いない\pあっ！\nでんきロックが　もとに\lもどって　しまった！$"
 

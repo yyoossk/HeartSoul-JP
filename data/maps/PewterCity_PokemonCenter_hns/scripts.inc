@@ -15,12 +15,10 @@ PewterCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 PewterCity_PokemonCenter1F_Text_Teacher:
-	.string "…Yeah, and the GYM in CINNABAR's gone.\p"
-	.string "I was really amazed.\p"
-	.string "…Yes? I'm on the phone. Go away!$"
+	.string "‥そうなの　グレンの\nジムが　なくなったのよ\pほんとうに　びっくり\pなに？　でんわ　ちゅうよ\nあっちへ　いって！$"
 
 PewterCity_PokemonCenter1F_Text_Jigglypuff:
-	.string "JIGGLYPUFF: Puu pupuu.$"
+	.string "プリン『プーウ　ププー$"
 
 PewterCity_PokemonCenter_EventScript_Mondo::
 	lock
@@ -48,29 +46,19 @@ PewterCity_PokemonCenter_EventScript_TradeCompleted::
 	end
 
 PewterCity_PokemonCenter_Text_WantToTrade:
-	.string "I've been traveling all over, looking\n"
-	.string "for a good {STR_VAR_1}.\p"
-	.string "Would you trade one for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "いい　{STR_VAR_1}を　さがして\nあちこち　たびを　してるんだ\pぼくの　{STR_VAR_2}と\nこうかん　しない？$"
 
 PewterCity_PokemonCenter_Text_TakeCare:
-	.string "Thanks a bunch!\n"
-	.string "Take good care of my {STR_VAR_1}!$"
+	.string "ほんとうに　ありがとう！\n{STR_VAR_1}を　だいじにね！$"
 
 PewterCity_PokemonCenter_Text_DeclineTrade:
-	.string "No? That's too bad…\n"
-	.string "I think you'd like my HAUNTER.$"
+	.string "だめ？　ざんねん‥\nぼくの　ゴースト\lきにいると　おもうのに$"
 
 PewterCity_PokemonCenter_Text_NotRequestedMon:
-	.string "Hmm, that's not a {STR_VAR_1}.\n"
-	.string "That's not what I'm looking for.$"
+	.string "うーん　それは　{STR_VAR_1}じゃ\nないね　ほしいのは\lそれじゃ　ないんだ$"
 
 PewterCity_PokemonCenter_Text_TradeCompleted:
-	.string "How's that HAUNTER treating you?\n"
-	.string "It's a real trickster!$"
+	.string "ゴーストは　どう？\nいたずらずき　だろ！$"
 
 PewterCity_PokemonCenter1F_Text_BugCatcher:
-	.string "Most POKéMON get drowsy if they hear a\n"
-	.string "JIGGLYPUFF singing.\p"
-	.string "There are several moves that can be\n"
-	.string "used only while a POKéMON is asleep.$"
+	.string "プリンの　うたを　きくと\nたいていの　ポケモンは\lねむく　なるんだ\pねむって　いる　ときにしか\nつかえない　わざも\lいくつか　あるよ$"

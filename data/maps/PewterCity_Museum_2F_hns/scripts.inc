@@ -23,25 +23,16 @@ PewterCity_Museum_2F_EventScript_Meteor::
 	end
 
 PewterCity_Museum_2F_Text_Nerd:
-	.string "They say that meteorites struck\n"
-	.string "BIRTH ISLAND.\p"
-	.string "We would love to display them here\n"
-	.string "in our museum, but...\p"
-	.string "These meteorites are said to emit\n"
-	.string "strange energy and cannot be\l"
-	.string "carried away...$"
+	.string "たんじょうのしまに　いんせきが\nおちたと　いわれている\pこの　はくぶつかんに\nかざりたいんだけど‥\pふしぎな　エネルギーを　だして\nもちだせない　らしいんだ‥$"
 
 PewterCity_Museum_2F_Text_AskedDaddyToCatchPikachu::
-    .string "I want a PIKACHU!\n"
-    .string "It's so cute!\p"
-    .string "I asked my daddy to catch me one!$"
+	.string "ピカチュウ　ほしい！\nかわいいんだもん！\pパパに　つかまえてって\nたのんだの！$"
 
 PewterCity_Museum_2F_Text_PikachuSoonIPromise::
-    .string "Yeah, a PIKACHU soon, I promise!$"
+	.string "うん　ピカチュウ　すぐ\nつかまえて　くるよ！$"
 
 PewterCity_Museum_2F_Text_SpaceShuttle::
-    .string "Space Shuttle$"
+	.string "スペースシャトル$"
 
 PewterCity_Museum_2F_Text_MeteoriteThatFellOnMtMoon::
-    .string "A meteorite that fell on MT. MOON.\n"
-    .string "It is thought to be a MOON STONE.$"
+	.string "おつきみやまに　おちた　いんせき\nつきのいしと　かんがえられている$"

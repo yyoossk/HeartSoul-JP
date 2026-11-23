@@ -15,13 +15,7 @@ CeruleanCity_PokemonCenter_EventScript_Guy::
 	end
 
 CeruleanCity_PokemonCenter1F_Text_SuperNerd:
-	.string "For battles, I'd much rather use\n"
-	.string "POKéMON I've been raising, even if\p"
-	.string "they're weaker than some newly\n"
-	.string "caught POKéMON.$"
+	.string "しょうぶ　には　つかまえた\nばかりの　ポケモンより\pよわくても　そだててきた\nポケモンを　つかいたいな$"
 
 CeruleanCity_PokemonCenter1F_Text_GymGuide:
-	.string "The MAGNET TRAIN travels at over\n"
-	.string "340 mph. It goes between KANTO and\l"
-	.string "JOHTO in almost no time at all.\p"
-	.string "It really makes JOHTO accessible.$"
+	.string "リニアは　じそく　550キロ\nいじょうで　はしる\lカントーと　ジョウトを\lあっというまに　むすぶんだ\pジョウトへ　いくのが\nほんとうに　らくに　なったよ$"
