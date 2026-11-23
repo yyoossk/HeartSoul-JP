@@ -10,9 +10,7 @@ PalletTown_RedsHouse_2F_EventScript_PC::
 	end
 
 RedsHouse_Text_NES:
-	.string "{PLAYER} played the NES.\p"
-	.string "Better get going--no time to lose!$"
+	.string "{PLAYER}は　ゲームきで\nあそんだ\pそろそろ　いかなきゃ！\nぐずぐず　してられない！$"
 
 RedsHouse_Text_PC:
-	.string "It looks like it hasn't been used\n"
-	.string "in a long time…$"
+	.string "ながい　あいだ　つかわれて\nいない　ようだ‥$"

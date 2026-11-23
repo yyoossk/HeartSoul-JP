@@ -228,36 +228,25 @@ MahoganyTown_Pokemart:
 	end
 
 MahoganyTown_Shop_Text_Granny:
-	.string "Please come back another time.\n"
-	.string "The store is... closed\l"
-	.string "right now.$"
+	.string "また　こんど　きて\nおくれ　みせは‥\lいまは　しまって　いるよ$"
 
 MahoganyMart1F_Text_Pharmacist_Lance:
-    .string "ROCKETS have hijacked my basement!$"
+	.string "ロケットだんに　ちかを\nのっとられた！$"
 
 MahoganyMart1F_Text_BlackBelt:
-    .string "Heheh! The experi- ment worked like\n"
-    .string "a charm.\p"
-    .string "MAGIKARP are just worthless, but\n"
-    .string "GYARADOS are big moneymakers.$"
+	.string "へへへ！　じっけんは\nだいせいこう　だぜ\pコイキングは　やくたたず\nだが　ギャラドスは\lいい　かねに　なる$"
 
 MahoganyMart1F_Text_BlackBelt_Lance:
-    .string "Urrgh…\p"
-    .string "That guy's POKéMON are tough…$"
+	.string "うぐぐ‥\pあいつの　ポケモン\nつよすぎる‥$"
 
 MahoganyMart1F_Text_Lance_HyperBeam:
-    .string "LANCE: DRAGONITE, HYPER BEAM.$"
+	.string "ワタル『カイリュー\nはかいこうせん！$"
 
 MahoganyMart1F_Text_Lance_Radio:
-    .string "What took you, {PLAYER}?\p"
-    .string "Just as we thought, that strange\n"
-    .string "radio signal is coming from here.$"
+	.string "おそかったな　{PLAYER}くん\pおもった　とおり　へんな\nでんぱは　ここから\lでて　いる$"
 
 MahoganyMart1F_Text_Lance_Stairs:
-    .string "Excellent work finding the stairs,\n"
-	.string "DRAGONITE!$"
+	.string "よく　かいだんを　みつけた\nカイリュー！$"
 
 MahoganyMart1F_Text_Lance_SplitUp:
-    .string "LANCE: {PLAYER}, we should split up\n"
-    .string "to check this place.\p"
-    .string "I'll go first.$"
+	.string "ワタル『{PLAYER}くん　てわけして\nここを　しらべよう\pわたしが　さきに　いく$"

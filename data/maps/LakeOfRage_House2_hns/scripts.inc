@@ -104,60 +104,34 @@ LakeOfRage_House2_EventScript_FisherSatisfied::
 	end
 
 LakeOfRage_House2_Text_LakeHistory:
-    .string "LAKE OF RAGE is actually a crater\n"
-    .string "made by rampaging GYARADOS.\p"
-    .string "The crater filled up with rainwater\n"
-    .string "and the LAKE was formed.\p"
-    .string "That's the story passed on from my\n"
-    .string "Grandpa's great-great-grandpa.\p"
-    .string "It used to be that you could catch\n"
-    .string "lively MAGIKARP there, but…\p"
-    .string "I don't understand what's happening.$"
+	.string "いかりのみずうみは　あばれた\nギャラドスが　つくった\lクレーター　なんだ\pそこに　あまみずが　たまって\nみずうみに　なったのさ\pおじいちゃんの　ひいひい\nおじいちゃんから\lつたわる　はなしだ\pむかしは　げんきな　コイキングが\nつれたんだけど‥\pいったい　どう　なって\nいるんだろう$"
 
 LakeOfRage_House2_Text_MenInBlack:
-    .string "The LAKE hasn't been normal since\n"
-    .string "those men wearing black arrived.$"
+	.string "くろい　ふくの　おとこたちが\nきてから　みずうみが\lおかしいんだ$"
 
 LakeOfRage_House2_Text_LastMon:
-    .string "Well don't let me take your last\n"
-    .string "POKéMON!$"
+	.string "さいごの　ポケモンを\nもらう　わけには　いかないよ！$"
 
 LakeOfRage_House2_Text_WorldsLargest:
-    .string "LAKE OF RAGE is back to normal.\p"
-    .string "The MAGIKARP have returned.\p"
-    .string "I may yet realize my dream of own-\n"
-    .string "ing the world's largest MAGIKARP.\p"
-    .string "In fact... I'll pay you ¥2000 for\n"
-	.string "every MAGIKARP you give me, and\l"
-	.string "¥100,000 for a HUGE MAGIKARP!$"
+	.string "いかりのみずうみが\nもとに　もどった\pコイキングも　もどって　きた\pせかい　いちの　コイキングを\nもつ　ゆめが　かなうかも\pそうだ‥　コイキング\n1ぴきに　2000円\lでかい　コイキングなら\l100000円　はらうぞ！$"
 
 LakeOfRage_House2_Text_ForMe:
-	.string "So... Do you have a MAGIKARP for\n"
-	.string "me?$"
+	.string "で‥　コイキングは\nもって　きたかい？$"
 
 LakeOfRage_House2_Text_HaveMagikarp:
-    .string "Ah, you have a MAGIKARP! Let's\n"
-    .string "see how big that baby is.$"
+	.string "おっ　コイキング　だね！\nどれだけ　おおきいか\lみせて　もらおう$"
 
 LakeOfRage_House2_Text_BigPayout:
-    .string "Wow! This one is outstanding!\p"
-    .string "I tip my hat to you!\p"
-    .string "Here's a little something for your\n"
-	.string "trouble.$"
+	.string "おお！　これは　すごい！\pまいった！\pほんの　きもち　だが\nうけとって　くれ$"
 
 LakeOfRage_House2_Text_Bonus:
-    .string "The record is the important thing.\p"
-    .string "Think of that as a bonus!$"
+	.string "だいじなのは　きろくさ\pそれは　おまけだと\nおもって　くれ！$"
 
 LakeOfRage_House2_Text_TooShort:
-    .string "Wow! This one is outstanding!\p"
-    .string "…I wish I could say that, but I've\n"
-    .string "seen a bigger one before.\p"
-    .string "I guess it's worth something.$"
+	.string "おお！　これは　すごい！\p‥と　いいたい　ところ　だが\nもっと　おおきいのを\lみた　ことが　ある\pまあ　それなりの\nかちは　あるな$"
 
 LakeOfRage_House2_Text_NotMagikarp:
-    .string "What? That's not a MAGIKARP!$"
+	.string "なに？　それは\nコイキングじゃ　ないぞ！$"
 
 LakeOfRage_House2_Text_Refused:
-    .string "Oh… So you didn't get one good\n"
-    .string "enough to show me? Maybe next time.$"
+	.string "そうか‥　みせられる　ほどの\nやつは　まだ　いないか\lまた　こんど　だな$"

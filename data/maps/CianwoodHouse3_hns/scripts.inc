@@ -70,66 +70,47 @@ CianwoodCity_EventScript_KirkReturnedShuckie::
 	end
 
 CianwoodCity_Text_ManiacAskShuckle:
-	.string "I, I'm in shock!\p"
-	.string "A guy about your age with piercing\n"
-	.string "eyes and long hair came in.\p"
-	.string "He scared me into giving him my\n"
-	.string "prized POKéMON!\p"
-	.string "I still have one left, but what if\n"
-	.string "he comes back?\p"
-	.string "You look strong. Could you look\n"
-	.string "after my POKéMON for a while?$"
+	.string "し　し　しょっく　だよ！\pきみぐらいの　としの　めつきの\nするどい　かみの　ながい\lやつが　きて\pおどされて　だいじな\nポケモンを　とられたんだ！\pまだ　1ぴき　のこってるけど\nまた　きたら　どうしよう？\pきみ　つよそうだね　しばらく\nぼくの　ポケモンを　あずかって\lくれない？$"
 
 CianwoodCity_Text_ManiacTakeCareShuckle:
-	.string "Oh, thank you!\p"
-	.string "Take good care of it, please!$"
+	.string "ありがとう！\pだいじに　してね！$"
 
 CianwoodCity_Text_ManiacGotShuckle:
-	.string "{PLAYER} received a POKéMON.$"
+	.string "{PLAYER}は\nポケモンを　あずかった$"
 
 CianwoodCity_Text_ManiacPartyFull:
-	.string "Your POKéMON party is full.$"
+	.string "てもちが　いっぱい　だよ$"
 
 CianwoodCity_Text_ManiacIfHeComesBack:
-	.string "Oh, no… What'll I do if he comes\n"
-	.string "back?$"
+	.string "そんな‥　また　あいつが\nきたら　どうしよう？$"
 
 CianwoodCity_Text_ManiacHowsdoing:
-	.string "Hi! How's my POKéMON?$"
+	.string "やあ！　ぼくの\nポケモン　げんき？$"
 
 CianwoodCity_Text_ManiacAskReturn:
-	.string "Hi! How's my POKéMON?\p"
-	.string "I think I'm safe now, so may I\n"
-	.string "have it back?$"
+	.string "やあ！　ぼくの\nポケモン　げんき？\pもう　だいじょうぶ　そうだから\nかえして　もらえる？$"
 
 CianwoodCity_Text_ManiacThankYou:
-	.string "Thank you!$"
+	.string "ありがとう！$"
 
 CianwoodCity_Text_ManiacShuckleNotThere:
-	.string "Hey, you don't have my POKéMON\n"
-	.string "with you.$"
+	.string "あれ　ぼくの　ポケモン\nつれて　ないじゃないか$"
 
 CianwoodCity_Text_ManiacShuckleLikesYou:
-	.string "My POKéMON has come to like you.\p"
-	.string "All right, you should keep it.\p"
-	.string "But promise to be good to it!$"
+	.string "ぼくの　ポケモン　きみに\nなついちゃった　みたい\pよし　きみが\nもってて　いいよ\pでも　だいじに　するって\nやくそく　してね！$"
 
 CianwoodCity_Text_ManiacRobbed:
-	.string "Huh, something's not right.$"
+	.string "あれ　なにか\nおかしいぞ$"
 
 CianwoodCity_Text_ManiacRobbed2:
-	.string "Oh, no, no… That's the same as\n"
-	.string "being robbed.$"
+	.string "そんな‥　これじゃ\nとられたのと　おなじだ$"
 
 CianwoodCity_Text_ManiacHappinessSpeech:
-	.string "For POKéMON, happiness is being\n"
-	.string "with a person who treats them well.$"
+	.string "ポケモンに　とって\nだいじに　してくれる　ひとと\lいるのが　しあわせ　なんだ$"
 
 CianwoodCity_Text_ManiacLastMon:
-	.string "If I take my POKéMON back,\n"
-	.string "what are you going to use\n"
-	.string "in battle?$"
+	.string "ぼくが　ポケモンを\nかえして　もらったら\lきみは　なにで　たたかうの？$"
 
 
 CianwoodCity_Text_ManiacReturnedMon:
-	.string "{PLAYER} returned SHUCKIE.$"
+	.string "{PLAYER}は\nツボを　かえした$"

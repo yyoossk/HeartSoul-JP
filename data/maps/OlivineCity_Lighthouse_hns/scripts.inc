@@ -195,23 +195,16 @@ OlivineLighthouse_Text_SailorErnestBeaten:
 	.string "うわわ！\nかなわない！$"
 
 OlivineLighthouse_Text_SailorErnestAfter:
-	.string "A GYM LEADER isn't just about being\n"
-	.string "strong.\p"
-	.string "A LEADER also needs to be\n"
-	.string "compassionate.$"
+	.string "ジムリーダーは　つよい\nだけじゃ　だめなんだ\pやさしさも　ひつよう\nなのさ$"
 
 OlivineLighthouse_Text_BirdKeeperDenisSeen:
-	.string "We're pretty high up here. My bird\n"
-	.string "POKéMON are in prime form.$"
+	.string "ここは　たかいから　おれの\nとりポケモンは　ぜっこうちょうだ$"
 
 OlivineLighthouse_Text_BirdKeeperDenisBeaten:
-	.string "Oops… They crashed…$"
+	.string "おっと‥　ついらく\nしちゃった‥$"
 
 OlivineLighthouse_Text_BirdKeeperDenisAfter:
-	.string "My POKéMON learned how to use FLY in\n"
-	.string "CIANWOOD.\p"
-	.string "Well, since I'm a loser, I'll FLY\n"
-	.string "across the sea…$"
+	.string "おれの　ポケモンは　タンバで\nそらをとぶを　おぼえたんだ\pまけたし　うみを　とんで\nかえるとするか‥$"
 
 @6th floor==============================================================================================================================
 
@@ -257,30 +250,16 @@ OlivineLighthouse_EventScript_AmpharosSick::
 	end
 
 OlivineLighthouse_Text_JasmineCianwoodPharmacy:
-	.string "JASMINE: …This POKéMON always kept\n"
-	.string "the sea lit at night.\p"
-	.string "…But it suddenly got sick… It's\n"
-	.string "gasping for air…\p"
-	.string "…I understand that there is a\n"
-	.string "wonderful PHARMACY in CIANWOOD…\p"
-	.string "But that's across the sea…\n"
-	.string "And I can't leave AMPHY unattended…$"
+	.string "ミカン『‥この　こは　よるの\nうみを　ずっと　てらして\lくれて　いたの\p‥でも　きゅうに　びょうきに\nなって‥　くるしそうで‥\p‥タンバに　よく　きく\nくすりやさんが　あるって\lきいたけど‥\pうみの　むこうだし‥\nアカリちゃんを　ひとりに\lできないし‥$"
 
 OlivineLighthouse_Text_JasmineGetMedicine:
-	.string "…May I ask you to get some medicine\n"
-	.string "for me? Please?$"
+	.string "‥くすりを　もらって　きて\nくれませんか？　おねがい‥$"
 
 OlivineLighthouse_Text_JasmineGetMedicine2:
-	.string "There is a wonderful PHARMACY\n"
-	.string "in CIANWOOD…\p"
-	.string "But that's across the sea…\n"
-	.string "And I can't leave AMPHY unattended…\p"
-	.string "…May I ask you to get some medicine\n"
-	.string "for me? Please?$"
+	.string "タンバに　よく　きく\nくすりやさんが　あるの‥\pでも　うみの　むこうだし‥\nアカリちゃんを　ひとりに\lできないし‥\p‥くすりを　もらって　きて\nくれませんか？　おねがい‥$"
 
 OlivineLighthouse_Text_JasmineCureAmphy:
-	.string "JASMINE: …Will that medicine cure\n"
-	.string "AMPHY?$"
+	.string "ミカン『‥その　くすりで\nアカリちゃん　なおるかしら？$"
 
 
 OlivineLighthouse_EventScript_JasmineDeliverPotion::
@@ -347,40 +326,27 @@ OlivineLighthouse_EventScript_JasmineRefuse::
 	end
 
 OlivineLighthouse_Text_PlayerHandedSecretpotion:
-	.string "{PLAYER} handed the SECRET POTION to\n"
-	.string "JASMINE.$"
+	.string "{PLAYER}は　ミカンに\nひでんのくすりを　わたした$"
 
 OlivineLighthouse_Text_JasmineDontBeOffended:
-	.string "JASMINE: …Um, please don't be\n"
-	.string "offended…\p"
-	.string "…AMPHY will not take anything from\n"
-	.string "anyone but me…$"
+	.string "ミカン『‥あの　きを　わるく\nしないでね‥\p‥アカリちゃんは　わたし\nからしか　うけつけないの‥$"
 
 OlivineLighthouse_Text_JasmineAmphyHowFeeling:
-	.string "JASMINE: …\p"
-	.string "AMPHY, how are you feeling?$"
+	.string "ミカン『‥\pアカリちゃん\nぐあいは　どう？$"
 
 OlivineLighthouse_Text_JasmineThankYou:
-	.string "JASMINE: …Oh, I'm so relieved…\p"
-	.string "This is just so wonderful…\p"
-	.string "Thank you so very, very much.\p"
-	.string "…I will return to the GYM…\p"
-	.string "I'll also warn you, STEEL types\n"
-	.string "are powerful.$"
+	.string "ミカン『‥ああ　よかった‥\pほんとうに　よかった‥\pほんとうに　ほんとうに\nありがとう\p‥わたし　ジムに\nもどります‥\pいっておきますけど　はがね\nタイプは　つよいですよ$"
 
 OlivineLighthouse_Text_JasmineISee:
-	.string "JASMINE: …I see…\n"
-	.string "…AMPHY, hang on!$"
+	.string "ミカン『‥そうですか‥\n‥アカリちゃん　がんばって！$"
 
 OlivineLighthouse_Text_AmphyPalPaloo:
-	.string "AMPHY: …\n"
-	.string "…Pa… paloo…$"
+	.string "アカリちゃん『‥\n‥パル‥　パルル‥$"
 
 OlivineLighthouse_Text_AmphyBreathingLabored:
-	.string "Its breathing is terribly\n"
-	.string "labored…$"
+	.string "いきが　とても\nくるしそうだ‥$"
 
 OlivineLighthouse_Text_AmphyPaluPalulu:
-	.string "AMPHY: Palu! Palulu!$"
+	.string "アカリちゃん『パルッ！\nパルルー！$"
 
 

@@ -26,21 +26,10 @@ CianwoodHouse2_EventScript_Twin::
 	end
 	
 CianwoodCity_Text_LugiaHouseTeacher:
-	.string "You came from OLIVINE?\p"
-	.string "Do you remember the four islands\n"
-	.string "along the way?\p"
-	.string "I heard that a mythical sea crea-\n"
-	.string "ture is hiding in them.$"
+	.string "アサギから　きたの？\pとちゅうの　4つの　しまを\nおぼえてる？\pしまには　まぼろしの　うみの\nいきものが　かくれて\lいるんだって$"
 
 CianwoodCity_Text_LugiaHouseLass:
-	.string "I heard that you can only see it\n"
-	.string "if you have a SILVER WING.\p"
-	.string "It must have the same scent as\n"
-	.string "the creature.$"
+	.string "ぎんいろのはねが　ないと\nあえないって　きいたわ\pきっと　その　いきものと\nおなじ　においが　するのね$"
 
 CianwoodCity_Text_LugiaHouseTwin:
-	.string "I've heard that the whirlpools\n"
-	.string "around the islands are caused by\l"
-	.string "the sea creature.\p"
-	.string "You might need a special move\n"
-	.string "to get past them.$"
+	.string "しまの　まわりの　うずしおは\nその　うみの　いきものの\lしわざ　なんだって\pとおるには　とくべつな\nわざが　いるかもね$"

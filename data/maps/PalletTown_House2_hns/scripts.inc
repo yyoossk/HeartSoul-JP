@@ -56,18 +56,10 @@ PalletTown_House2_EventScript_DaisyGrooming::
 	end
 
 PalletTown_House2_Text_Hello:
-	.string "DAISY: Hi! My kid brother is the\n"
-	.string "GYM LEADER in VIRIDIAN CITY.\p"
-	.string "But he goes out of town so\n"
-	.string "often, it causes problems for\l"
-	.string "the trainers.$"
+	.string "ナナミ『こんにちは！　おとうとは\nトキワシティの\lジムリーダー　なの\pでも　しょっちゅう　まちを\nでるから　トレーナーが\lこまってるのよね$"
 
 PalletTown_House2_Text_OfferGrooming:
-	.string "DAISY: Hi! Good timing. I'm about\n"
-	.string "to have some tea.\p"
-	.string "Would you like to join me?\p"
-	.string "Oh, your POKéMON are a bit dirty.\p"
-	.string "Would you like me to groom one?$"
+	.string "ナナミ『こんにちは！　ちょうど\nおちゃに　する　ところよ\pいっしょに　どう？\pあら　ポケモンが\nちょっと　よごれてるわね\p1ぴき　グルーミング\nして　あげましょうか？$"
 
 PalletTown_House2_Text_WhichMon:
 	.string "DAISY: Which one should I groom?$"
