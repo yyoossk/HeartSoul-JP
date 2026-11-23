@@ -1,0 +1,131 @@
+## data/text/tv.inc
+@@SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory
+うーん‥\nテレビの　いい　ネタが\lできたわ\pいそいで　まとめなきゃ！
+@@gTVRecentHappeningsText00
+こんにちは　さいきんの\nできごとの　じかん　です\pポケモントレーナーに　とって\nまいにちが　ものがたり\pそんな　ポケモンの　おはなしを\nごしょうかい　します\pきょうは　トレーナー\n{STR_VAR_1}の　おはなし　です\p{STR_VAR_1}が　さいきん\nけいけん　した　ことは？\lみて　みましょう\pえーと‥
+@@gTVRecentHappeningsText01
+いかが　でしたか？\p{STR_VAR_1}が　さいきん　どんな\nけいけんを　したのか\lよく　わかりますね\lまるで　その　ばに\lいた　みたい　です！
+@@gTVRecentHappeningsText02
+『{STR_VAR_3}』\nこれが　おはなしに\lふかみを　あたえて　います
+@@gTVRecentHappeningsText03
+『{STR_VAR_3}』\nこれで　ばしょの　ようすが\lめに　うかびますね
+@@gTVRecentHappeningsText04
+『{STR_VAR_3}』の\nところが　とても\lいきいき　して　います
+@@gTVRecentHappeningsText05
+{STR_VAR_1}が　ポケモンとの\nすてきな　おはなしを\lきかせて　くれました\pこの　おはなしは　みなさんの\nこころにも　きざまれた\lことでしょう\pきょうは　ここまで\nまた　みて　くださいね
+@@gTVMassOutbreakText00
+こんにちは！\nポケモンニュースの　じかんです\pとても　めずらしい　ニュースが\nとびこんで　きました\p{STR_VAR_1}の　ふきんで\n{STR_VAR_2}が　おおはっせい\lして　いる　そうです\pごぞんじの　とおり\n{STR_VAR_2}は　めったに\lみつからない　ポケモン　です\p{STR_VAR_2}の　ふしぎな\nおおはっせいを　みられる\lめずらしい　チャンスですね\pいじょう　ポケモンニュース\nでした
+@@gTV3CheersForPokeblocksText00
+しかい『きょうも　げんきに！\n{POKEBLOCK}　バンザイ！の\lじかん　です！\pきょうは　{STR_VAR_1}たちが\nつくった　{POKEBLOCK}を\lしらべます\pさっそく　グルメな\nゴクリンに　たべて\lもらいましょう\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥
+@@gTV3CheersForPokeblocksText01
+ゴクリン『グビッ！　グビー！\pしかい『とても　{STR_VAR_1}\nゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さん\nありがとう　ございました！
+@@gTV3CheersForPokeblocksText02
+{STR_VAR_1}の　ブレンドは\nもう　ひといき　でした\pもっと　うまく　ブレンド\nできれば　{POKEBLOCK}は\lもっと　おいしく　なるでしょう
+@@gTV3CheersForPokeblocksText03
+ゴクリン『グビッ！　グビー！\pしかい『うーん‥\n{STR_VAR_1}すぎますね\lゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さんの　ミスが\nひびいた　ようです‥
+@@gTV3CheersForPokeblocksText04
+{STR_VAR_1}さんの　がんばりが\nむだに　なって　ざんねん\pつぎは　{STR_VAR_2}さんの\nがんばりに　きたい\lしましょう！
+@@gTV3CheersForPokeblocksText05
+また　みてね！\nあいことばは\l『{POKEBLOCK}　バンザイ！』
+@@gTVTrainerFanClubSpecialText00
+トレーナーファンクラブ\n{STR_VAR_1}　スペシャル！\pホウエン　じゅうの\n{STR_VAR_1}ファンに　おくる\lとくべつ　ばんぐみ！\pきょうの　テーマは\n『{STR_VAR_1}って　どんな\lひと？』\pトレーナー　だいひょうの\n{STR_VAR_2}に　きいて　みました\p『{STR_VAR_1}を　ひとことで\nいうと？』\pこたえは　『{STR_VAR_3}』\pさすが　{STR_VAR_2}！\nするどい　いけん！\p『{STR_VAR_3}　{STR_VAR_1}』\nいい　ひびき　ですね！\p{STR_VAR_2}には　{STR_VAR_1}の\nつよさを　0から　100で\lさいてん　して　もらいました
+@@gTVTrainerFanClubSpecialText01
+けっかは　{STR_VAR_3}てん！\nとても　たかい　てんすう\lです！\p{STR_VAR_2}は　{STR_VAR_1}を\nとても　たかく　ひょうか\lして　いる　ようです
+@@gTVTrainerFanClubSpecialText02
+けっかは　{STR_VAR_3}てん！\nなかなか　いい　てんすう\lです\p{STR_VAR_2}は　{STR_VAR_1}を\nライバルと　おもって\lいる　ようです
+@@gTVTrainerFanClubSpecialText03
+けっかは　{STR_VAR_3}てん！\nちょっと　ひくい　てんすう\lです\p{STR_VAR_2}は　{STR_VAR_1}を\nただの　あいぼうと　おもって\lいる　ようです
+@@gTVTrainerFanClubSpecialText04
+けっかは　{STR_VAR_3}てん！\nひどい　てんすう　です\p{STR_VAR_2}は　{STR_VAR_1}を\nしたっぱと　おもって\lいる　ようです
+@@gTVTrainerFanClubSpecialText05
+いかが　でしたか　みなさん！\p{STR_VAR_1}の　あたらしい\nいちめんが　わかりましたね\pさいごに　{STR_VAR_2}の\nことばで　しめくくります\p{STR_VAR_3}　{STR_VAR_1}！
+@@gTVNameRaterText00
+さて　お待ちかね‥\nなまえしんだんの　じかん　です\pポケモンに　つけた　ニックネーム\nから　うんせいを　うらないます\pわたしが　さしあげるのは\nやくに　たつ　アドバイス　です\pきょうは　{STR_VAR_1}の　ポケモン\n{STR_VAR_2}の　ニックネーム\l{STR_VAR_3}を　しんだん　します\pふむふむ‥\pふむ‥\nこの　ニックネームは‥
+@@gTVNameRaterText01
+いろいろな　さいのうを\nかんじさせる　ニックネーム\pゆうきを　だして　いろいろな\nことに　ちょうせん　して\lください
+@@gTVNameRaterText02
+トレーナーの　なまえ\n{STR_VAR_1}と　ぴったり\lあった　ニックネーム\pいきの　あった　いい\nパートナーに　なるでしょう
+@@gTVNameRaterText03
+こせいてきな　ポケモンに\nふさわしい　ニックネーム！\pちゃんと　そだてれば\nこせいが　どんどん\lのびて　いくでしょう！
+@@gTVNameRaterText04
+ポケモンの　やさしさを\nそだてる　ニックネーム\pちゃんと　そだてれば\nあたたかい　こころを\lもつ　でしょう！
+@@gTVNameRaterText05
+しょうらいの　だいかつやくを\nよかん　させる　とても\lいい　ニックネーム\pこの　ポケモンの　みらいが\nたのしみ　です
+@@gTVNameRaterText06
+ポケモンを　げんきに\nする　いい　ニックネーム！\pいつまでも　じょうぶで\nげんきに　いられる\lでしょう
+@@gTVNameRaterText07
+ポケモンを　かっぱつに\nする　いい　ニックネーム！\pバトルで　だいかつやく\nするでしょう
+@@gTVNameRaterText08
+ポケモンを　みりょくてきに\nする　ニックネーム！\pポケモンコンテストで\nにんきもの　に　なること\lまちがい　なし　です
+@@gTVNameRaterText09
+ニックネーム　{STR_VAR_1}は\n『{STR_VAR_3}』の　もじが\lねもとを　ささえて　います\pそれを　さいしょの　もじ\n『{STR_VAR_2}』が　ささえ\lどっしりと　した\lニックネームに　なって　います
+@@gTVNameRaterText10
+ニックネーム　{STR_VAR_1}は\nとても　かたちが　よく\lここちよい　です\p『{STR_VAR_2}』と　『{STR_VAR_3}』の\nもじが　ある　ところが\lじつに　すばらしい！
+@@gTVNameRaterText11
+ニックネーム　{STR_VAR_1}には\nけだかく　ながれる　ような\lひびきが　あります\pさいしょの　『{STR_VAR_2}』から\n『{STR_VAR_3}』への　ながれが\lとくに　すばらしい
+@@gTVNameRaterText12
+ほかの　いい　ニックネームの\nれいも　みて　みましょう
+@@gTVNameRaterText13
+たとえば　トレーナーの　なまえ\n{STR_VAR_1}の　いちぶを　つかって\l{STR_VAR_2}{STR_VAR_3}と　いう\lいい　ニックネームが\lできます
+@@gTVNameRaterText14
+{STR_VAR_2}{STR_VAR_3}と　いう\nニックネームも　なかなか\lいい　でしょう
+@@gTVNameRaterText15
+ポケモンの　しゅるいめい\n{STR_VAR_2}を　もとに　して\l{STR_VAR_1}{STR_VAR_3}と　いう\lニックネームも　つくれます
+@@gTVNameRaterText16
+{STR_VAR_1}{STR_VAR_3}も\nいい　ニックネーム　です
+@@gTVNameRaterText17
+ぜったいに　さけるべき　なのは\nほかの　ポケモンの　しゅるいめい\lを　つかう　ことです\pたとえば　{STR_VAR_2}から\n{STR_VAR_1}{STR_VAR_3}と　いう\lニックネームは　いけません
+@@gTVNameRaterText18
+{STR_VAR_1}は　なかなか　いい\nニックネーム　ですね\pこれからも　{STR_VAR_1}を\nかわいがって　あげて\lください\pきょうは　ここまで\nまた　おあい　しましょう
+@@gTVPokemonAnglerText00
+{STR_VAR_2}　つりめいじん\pアナウンサー『こんにちは！\nきょうは　{STR_VAR_2}の\lつりかたを　ききます\pめいじん　{STR_VAR_2}を\nつる　こつは？\pめいじん『{STR_VAR_2}を　つる\nこつ？　それは　じっと\lまつ　ことじゃ\pあそこの　{STR_VAR_1}を\nみて　ごらん\lいい　おてほんじゃ\pあの　トレーナーは　もう\n{STR_VAR_3}ひきも\lにがして　おる\pそれでも　あきらめずに\nまって　おる　それが\l{STR_VAR_2}つりの　おきてじゃ\pアナウンサー『なるほど‥\pあっ！　{STR_VAR_1}が\nついに　{STR_VAR_2}を\lつりあげました！\pトレーナーは　うれしさの\nあまり　なきそう　です！\pあの　かおを　みたら\nわたしも　つりに　いきたく\lなりました！\pみなさんも　{STR_VAR_2}つりに\nちょうせん　しては\lいかが　ですか？\pそれでは　また　つぎの\nほうそうで！　よい　つりを！
+@@gTVPokemonAnglerText01
+{STR_VAR_2}　つりめいじん\pアナウンサー『こんにちは！\nきょうは　{STR_VAR_2}の\lつりかたを　ききます\pめいじん　{STR_VAR_2}を\nつる　こつは？\pめいじん『{STR_VAR_2}を　つる\nこつ？　それは　つりざおを\lちからづよく　ふる　ことじゃ\pあそこの　{STR_VAR_1}を\nみて　ごらん\lあの　さおさばきを！\pあの　トレーナーは　もう\n{STR_VAR_3}ひき　つづけて\lつって　おる\pアナウンサー『すごい！\nあらし　みたい　です‥\pあんな　うでまえを　みたら\nわたしも　つりに　いきたく\lなりました\pみなさんも　{STR_VAR_2}つりに\nちょうせん　しては\lいかが　ですか？\pそれでは　また　つぎの\nほうそうで！　よい　つりを！
+@@gTVPokemonTodayFailedText00
+こんにちは！\pきょうの　ポケモンの\nじかん　です！\pおねえさん『やっほー！　みんな\nげんき　してるー？\pきょうは　{STR_VAR_1}の　ポケモン\n{STR_VAR_2}を　みて　いくよ！\pおにいさん『そうだ！\nそう　しよう！
+@@gTVPokemonTodayFailedText01
+あっ！\n{STR_VAR_1}と　いえば‥\pおねえさん　ぼく　その\nトレーナーを　この　めで\lみたんだ！\pおねえさん『え　なにを\nみたの？\pおにいさん『{STR_VAR_2}に\nでかけた　ときに　ね\p{STR_VAR_1}が　ポケモンの\n{STR_VAR_3}を　つかまえよう\lと　して　いたんだけど‥
+@@gTVPokemonTodayFailedText02
+ポケモンに　にげられちゃった\nんだ！\pモンスターボールを\n{STR_VAR_2}こも\lむだに　して！\pにげられた　ときの\n{STR_VAR_1}の　くやしそうな\lかお　みせたかったな！
+@@gTVPokemonTodayFailedText03
+でも　{STR_VAR_1}が\nしっぱい　して　ポケモンを\lたおしちゃったんだ！\pモンスターボールを\n{STR_VAR_2}こも\lむだに　して！\pたおれた　ときの\n{STR_VAR_1}の　ぼうぜんと\lした　かお　みせたかったな！
+@@gTVPokemonTodayFailedText04
+おねえさん『ちょっと！\nそれは　ひどいよ！\pひとの　ふこうを\nわらっちゃ　だめ！\pかわいそうな　{STR_VAR_1}\nざんねん　だったね！\pおにいさん『そうだね！\nわらって　ごめん
+@@gTVPokemonTodayFailedText05
+おねえさん『ぶふふ‥\pおにいさん『あっ！\nいま　わらったでしょ！\pおねえさん『えっ？！\pわらって　ないよ！\nほんとに　ほんと！\pかわいそうな　{STR_VAR_1}\nざんねん　だったね！\pおにいさん『‥
+@@gTVPokemonTodayFailedText06
+おねえさん『おふざけは\nここまで！\lきょうの　ポケモンは‥\pあれ？\nもう　じかん？\pえー！\nきょうは　ポケモンを\lしょうかい　できなかった！\pおにいさん『また　つぎの\nほうそうで　あおうね！\pおねえさん『ちょっと　わたしを\nおいて　おわらないで！
+@@gTVPokemonTodaySuccessfulText00
+こんにちは！\pきょうの　ポケモンの\nじかん　です！\pおねえさん『やっほー！　みんな\nげんき　してるー？\pきょうは　{STR_VAR_1}の　ポケモン\n{STR_VAR_2}を　みて　いくよ！\pおにいさん『そうだ！\nそう　しよう！
+@@gTVPokemonTodaySuccessfulText01
+おねえさん『{STR_VAR_1}は\n{STR_VAR_2}に　{STR_VAR_3}と　いう\lニックネームを　つけたの！\p{STR_VAR_3}は　だいじに\nかわいがられて　いる\lみたい！
+@@gTVPokemonTodaySuccessfulText02
+おにいさん『つかまえるのに\nモンスターボールを\l{STR_VAR_3}こも　なげたんだ！\pさいごは　{STR_VAR_2}\n1こで　つかまえたよ！
+@@gTVPokemonTodaySuccessfulText03
+おねえさん『そんなに　かんたんに\nつかまえられた　なんて\l{STR_VAR_1}と　{STR_VAR_2}は\lうんめいの　であい　だったのね！
+@@gTVPokemonTodaySuccessfulText04
+おねえさん『へえ！　すごい！\pでも　くろうして　つかまえた\nポケモンは　トレーナーの\lあいを　うけるって　いうよね！
+@@gTVPokemonTodaySuccessfulText05
+おねえさん『{STR_VAR_1}の　{STR_VAR_2}は\nきちょうな　マスターボールで\lつかまえた　おもいでの\lポケモン　なの！\pおにいさん『うわー！\nめちゃくちゃ　すごい！\pおねえさん『{STR_VAR_1}は\nよっぽど　{STR_VAR_2}が\lほしかったのね！
+@@gTVPokemonTodaySuccessfulText06
+おにいさん『それで　その\n{STR_VAR_2}に　{STR_VAR_3}って\lなまえを　つけるなんて‥\p{STR_VAR_1}の　トレーナーセンスが\nよく　わかるね\pおねえさん『わたしも\nそう　おもう！
+@@gTVPokemonTodaySuccessfulText07
+わたし　だったら　その\nニックネームは　この\l{STR_VAR_3}に　つけるかな！\pおにいさん『おお！　それは\nあたらしいかも！
+@@gTVPokemonTodaySuccessfulText08
+{STR_VAR_1}の　{STR_VAR_2}？\nぴったり　じゃない？\pもじの　ひびきも\nポケモンの　{STR_VAR_1}に\lぴったり！\pおにいさん『うん　たしかに！
+@@gTVPokemonTodaySuccessfulText09
+わたしが　しる　かぎり\n{STR_VAR_1}に　{STR_VAR_2}って\lなまえを　つけた　ひとは\lいないわ！\pおにいさん『トレーナーの\nなまえを　つける　センスが\lすごいって　ことだね！
+@@gTVPokemonTodaySuccessfulText10
+こんど　ポケモンを\nつかまえたら　{STR_VAR_2}って\lなまえに　しようっと\pおにいさん『え？　ぼくも！\nぼくも　{STR_VAR_2}に　する！
+@@gTVPokemonTodaySuccessfulText11
+おねえさん『あっ　たいへん！\nもう　こんな　じかん！\pじゃあ　みんな\nきょうは　ここまで！\lまた　つぎの　ほうそうで！\pおにいさん『つぎは　きみの\nポケモンが　しょうかい\lされるかもね！
+@@SmartShopper_Text_Intro
+こんにちは！\pきょうの　かしこい\nおかいもの　の　じかん　です\pインタビュアー『みなさん\nこんにちは！\pきょうは　{STR_VAR_2}の\nおみせに　きて　います\pさいきん　なにが\nうれて　いるか\lしらべて　みましょう
+@@SmartShopper_Text_ClerkNormal
+てんいんさんに　はなしを\nきいて　みましょう\pこんにちは　しょうばいは\nいかが　ですか？\pてんいん『ええ　とても\nじゅんちょう　です\pさいきんは　{STR_VAR_2}が\nとくに　よく　うれて\lいます\pこのまえも　{STR_VAR_1}と　いう\nトレーナーが　{STR_VAR_3}こ\lかって　いきました
+@@SmartShopper_Text_RandomComment1
+インタビュアー『{STR_VAR_2}を\n{STR_VAR_3}こも？　たいりょう\lですね！\p{STR_VAR_1}は　きっと　とおくへ\nながい　たびに　でる\lじゅんびを　して　いたんですね\pたびには　{STR_VAR_2}が\nかかせませんからね！
+@@SmartShopper_Text_RandomComment2
+インタビュアー『{STR_VAR_2}と\nいえば　わたしも　このまえ\l{STR_VAR_3}こ　かいました\pやっぱり　{STR_VAR_2}は\nいい　どうぐ　ですね！
+@@SmartShopper_Text_RandomComment3
+インタビュアー『{STR_VAR_2}？！\nそれを　{STR_VAR_3}こも？！\pそんなに　かう　ひとが\nいるなんて　おもいません\lでした\pわたしなんて　いちどに\n1こか　2こ　しか\lかえないのに‥
