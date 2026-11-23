@@ -302,8 +302,7 @@ Route13_Text_RobertRematchIntro::
 	.string "I've dedicated myself to them.$"
 
 Route14_Text_CarterRematchIntro::
-	.string "I used TMs to teach good moves\n"
-	.string "to my POKéMON.$"
+	.string "わざマシンで　ポケモンに\nいい　わざを　おぼえさせたぜ$"
 
 Route14_Text_MitchRematchIntro::
 	.string "My bird POKéMON should be ready\n"

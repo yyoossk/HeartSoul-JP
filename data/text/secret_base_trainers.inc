@@ -74,167 +74,106 @@ SecretBase_Text_Trainer2Intro:
 	.string "おおきな　やしきも　いいけど\nこういう　ばしょの　ほうが\lすきなんだ\pいろんな　ひとが　あそびに\nきて　くれるからね\pそれで　しょうぶ　しない？$"
 
 SecretBase_Text_Trainer2AcceptBattle:
-	.string "That's the way!$"
+	.string "そう　こなくちゃ！$"
 
 SecretBase_Text_Trainer2DeclineBattle:
-	.string "When you're ready, give me a shout!$"
+	.string "じゅんびが　できたら\nこえを　かけてね！$"
 
 SecretBase_Text_Trainer2Defeated::
-	.string "Aww! Done in!\n"
-	.string "But it's still fun to battle!$"
+	.string "あーあ！　やられた！\nでも　バトルは　たのしいな！$"
 
 SecretBase_Text_Trainer2PostBattle:
-	.string "Well, anyway, I should go buy some\n"
-	.string "decorations and furniture.\p"
-	.string "I want my SECRET BASE to be a place\n"
-	.string "other people can enjoy.$"
+	.string "さてと　もようがえグッズを\nかいに　いかなきゃ\pみんなが　たのしめる\nひみつきちに　したいんだ$"
 
 SecretBase_Text_Trainer2PreChampion:
-	.string "A big mansion is nice, but I like this\n"
-	.string "sort of place more.\p"
-	.string "I like it because all kinds of people\n"
-	.string "come visit me.$"
+	.string "おおきな　やしきも　いいけど\nこういう　ばしょの　ほうが\lすきなんだ\pいろんな　ひとが　あそびに\nきて　くれるからね$"
 
 SecretBase_Text_Trainer7Intro:
-	.string "I simply adore shopping for decorations\n"
-	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
-	.string "as much.\p"
-	.string "If you would be so kind, will you battle\n"
-	.string "with my POKéMON?$"
+	.string "もようがえグッズの\nかいものが　だいすき　なの\pポケモンを　そだてるのも\nおなじ　くらい　すき\pよろしければ　わたしの\nポケモンと　しょうぶ\lして　いただける？$"
 
 SecretBase_Text_Trainer7AcceptBattle:
-	.string "Thank you.\n"
-	.string "Shall we begin?$"
+	.string "ありがとう\nでは　はじめましょうか？$"
 
 SecretBase_Text_Trainer7DeclineBattle:
-	.string "Oh.\n"
-	.string "How disappointing…$"
+	.string "まあ\nざんねん‥$"
 
 SecretBase_Text_Trainer7Defeated::
-	.string "I concede…$"
+	.string "まいりました‥$"
 
 SecretBase_Text_Trainer7PostBattle:
-	.string "That was all in good fun!\n"
-	.string "I should go enjoy shopping now.$"
+	.string "たのしかったわ！\nさあ　かいものを\lたのしんで　こなくちゃ$"
 
 SecretBase_Text_Trainer7PreChampion:
-	.string "I simply adore shopping for decorations\n"
-	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
-	.string "as much.$"
+	.string "もようがえグッズの\nかいものが　だいすき　なの\pポケモンを　そだてるのも\nおなじ　くらい　すき$"
 
 SecretBase_Text_Trainer3Intro:
-	.string "Some people make their SECRET BASES in\n"
-	.string "hard-to-find places.\l"
-	.string "Do they want to just lie low?\p"
-	.string "But since you found me, how about we\n"
-	.string "have a battle?$"
+	.string "みつけにくい　ばしょに\nひみつきちを　つくる　ひとも\lいるよね　かくれて\lいたいのかな？\pでも　みつかったからには\nしょうぶ　しようか？$"
 
 SecretBase_Text_Trainer3AcceptBattle:
-	.string "I'm not going down easily!$"
+	.string "かんたんには　まけないぞ！$"
 
 SecretBase_Text_Trainer3DeclineBattle:
-	.string "Oh… Are you maybe tired from searching\n"
-	.string "for this place?$"
+	.string "あれ‥　ここを　さがして\nつかれちゃった　かな？$"
 
 SecretBase_Text_Trainer3Defeated::
-	.string "I went down…$"
+	.string "まけちゃった‥$"
 
 SecretBase_Text_Trainer3PostBattle:
-	.string "Where's your SECRET BASE?\n"
-	.string "I should go visit you there.$"
+	.string "きみの　ひみつきちは　どこ？\nこんど　あそびに　いくよ$"
 
 SecretBase_Text_Trainer3PreChampion:
-	.string "Some people make their SECRET BASES in\n"
-	.string "hard-to-find places.\l"
-	.string "Do they want to just lie low?$"
+	.string "みつけにくい　ばしょに\nひみつきちを　つくる　ひとも\lいるよね　かくれて\lいたいのかな？$"
 
 SecretBase_Text_Trainer8Intro:
-	.string "People have told me that you can get\n"
-	.string "decorations in several ways.\p"
-	.string "We should have a race to see who can\n"
-	.string "get nicer decorations and furniture!\p"
-	.string "In the meantime, want to battle?$"
+	.string "もようがえグッズは　いろんな\nほうほうで　てに　はいるって\lきいたよ\pどっちが　いい　グッズを\nあつめられるか　きょうそう\lしようよ！\pそれまでに　しょうぶ　する？$"
 
 SecretBase_Text_Trainer8AcceptBattle:
-	.string "This is my SECRET BASE.\n"
-	.string "I can't lose!$"
+	.string "ここは　ぼくの　ひみつきち\nまけられない！$"
 
 SecretBase_Text_Trainer8DeclineBattle:
-	.string "I'll battle with you anytime.$"
+	.string "いつでも　しょうぶ　するよ$"
 
 SecretBase_Text_Trainer8Defeated::
-	.string "Huh?\n"
-	.string "Did I just lose?$"
+	.string "あれ？\nぼく　まけたの？$"
 
 SecretBase_Text_Trainer8PostBattle:
-	.string "I won't lose at collecting decorations.\n"
-	.string "Come visit again!$"
+	.string "グッズあつめでは　まけないぞ\nまた　きてね！$"
 
 SecretBase_Text_Trainer8PreChampion:
-	.string "People have told me that you can get\n"
-	.string "decorations in several ways.\p"
-	.string "We should have a race to see who can\n"
-	.string "get nicer decorations and furniture!$"
+	.string "もようがえグッズは　いろんな\nほうほうで　てに　はいるって\lきいたよ\pどっちが　いい　グッズを\nあつめられるか　きょうそう\lしようよ！$"
 
 SecretBase_Text_Trainer4Intro:
-	.string "I found a spot I liked, and I did it up\n"
-	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
-	.string "stronger with it.\p"
-	.string "That's what I do.\n"
-	.string "Want to battle with me?$"
+	.string "きに　いった　ばしょを\nみつけて　すきな　グッズで\lかざったんだ\pすきな　ポケモンを\nそだてて　いっしょに\lつよく　なる\pそれが　おれの　やりかた\nしょうぶ　するか？$"
 
 SecretBase_Text_Trainer4AcceptBattle:
-	.string "Show me what you're made of!$"
+	.string "きみの　じつりょくを\nみせて　もらおう！$"
 
 SecretBase_Text_Trainer4DeclineBattle:
-	.string "I guess there are times when you're not\n"
-	.string "into it.$"
+	.string "きぶんが　のらない\nときも　あるよな$"
 
 SecretBase_Text_Trainer4Defeated::
-	.string "I know exactly what you're made of now.$"
+	.string "きみの　じつりょくが\nよく　わかったよ$"
 
 SecretBase_Text_Trainer4PostBattle:
-	.string "We can both become stronger.\n"
-	.string "Let's keep at it!$"
+	.string "おたがい　もっと　つよく\nなれる　がんばろうぜ！$"
 
 SecretBase_Text_Trainer4PreChampion:
-	.string "I found a spot I liked, and I did it up\n"
-	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
-	.string "stronger with it.\p"
-	.string "Every day is a great day.$"
+	.string "きに　いった　ばしょを\nみつけて　すきな　グッズで\lかざったんだ\pすきな　ポケモンを\nそだてて　いっしょに\lつよく　なる\pまいにちが　さいこうだ$"
 
 SecretBase_Text_Trainer9Intro:
-	.string "You can learn a lot about the taste\n"
-	.string "and sense of people by the kinds of\l"
-	.string "decorations they have, and how they\l"
-	.string "display them.\p"
-	.string "What do you think of my taste?\n"
-	.string "Are you speechless?\p"
-	.string "Want to see my taste in battling?$"
+	.string "どんな　グッズを　どう\nかざるかで　その　ひとの\lセンスが　わかるのよ\pわたしの　センス　どう？\nことばも　でない？\pバトルの　センスも\nみて　みる？$"
 
 SecretBase_Text_Trainer9AcceptBattle:
-	.string "There's no holding back!$"
+	.string "てかげんは　しないわ！$"
 
 SecretBase_Text_Trainer9DeclineBattle:
-	.string "I'll be happy to demonstrate my style\n"
-	.string "anytime.$"
+	.string "わたしの　スタイルは\nいつでも　みせて　あげるわ$"
 
 SecretBase_Text_Trainer9Defeated::
-	.string "You're supremely talented!\n"
-	.string "Your power seems to be limitless…$"
+	.string "すばらしい　さいのう！\nあなたの　ちからは\lかぎりが　ない　みたい‥$"
 
 SecretBase_Text_Trainer9PostBattle:
-	.string "What did you think of my style?\n"
-	.string "I'll keep on polishing it!$"
+	.string "わたしの　スタイル　どうだった？\nもっと　みがいて　いくわ！$"
 
 SecretBase_Text_Trainer9PreChampion:
-	.string "You can learn a lot about the taste\n"
-	.string "and sense of people by the kinds of\l"
-	.string "decorations they have, and how they\l"
-	.string "display them.\p"
-	.string "What do you think of my taste?\n"
-	.string "Are you speechless?$"
+	.string "どんな　グッズを　どう\nかざるかで　その　ひとの\lセンスが　わかるのよ\pわたしの　センス　どう？\nことばも　でない？$"

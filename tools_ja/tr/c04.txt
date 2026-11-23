@@ -1,0 +1,314 @@
+## data/text/secret_base_trainers.inc
+@@SecretBase_Text_Trainer2AcceptBattle
+そう　こなくちゃ！
+@@SecretBase_Text_Trainer2DeclineBattle
+じゅんびが　できたら\nこえを　かけてね！
+@@SecretBase_Text_Trainer2Defeated
+あーあ！　やられた！\nでも　バトルは　たのしいな！
+@@SecretBase_Text_Trainer2PostBattle
+さてと　もようがえグッズを\nかいに　いかなきゃ\pみんなが　たのしめる\nひみつきちに　したいんだ
+@@SecretBase_Text_Trainer2PreChampion
+おおきな　やしきも　いいけど\nこういう　ばしょの　ほうが\lすきなんだ\pいろんな　ひとが　あそびに\nきて　くれるからね
+@@SecretBase_Text_Trainer7Intro
+もようがえグッズの\nかいものが　だいすき　なの\pポケモンを　そだてるのも\nおなじ　くらい　すき\pよろしければ　わたしの\nポケモンと　しょうぶ\lして　いただける？
+@@SecretBase_Text_Trainer7AcceptBattle
+ありがとう\nでは　はじめましょうか？
+@@SecretBase_Text_Trainer7DeclineBattle
+まあ\nざんねん‥
+@@SecretBase_Text_Trainer7Defeated
+まいりました‥
+@@SecretBase_Text_Trainer7PostBattle
+たのしかったわ！\nさあ　かいものを\lたのしんで　こなくちゃ
+@@SecretBase_Text_Trainer7PreChampion
+もようがえグッズの\nかいものが　だいすき　なの\pポケモンを　そだてるのも\nおなじ　くらい　すき
+@@SecretBase_Text_Trainer3Intro
+みつけにくい　ばしょに\nひみつきちを　つくる　ひとも\lいるよね　かくれて\lいたいのかな？\pでも　みつかったからには\nしょうぶ　しようか？
+@@SecretBase_Text_Trainer3AcceptBattle
+かんたんには　まけないぞ！
+@@SecretBase_Text_Trainer3DeclineBattle
+あれ‥　ここを　さがして\nつかれちゃった　かな？
+@@SecretBase_Text_Trainer3Defeated
+まけちゃった‥
+@@SecretBase_Text_Trainer3PostBattle
+きみの　ひみつきちは　どこ？\nこんど　あそびに　いくよ
+@@SecretBase_Text_Trainer3PreChampion
+みつけにくい　ばしょに\nひみつきちを　つくる　ひとも\lいるよね　かくれて\lいたいのかな？
+@@SecretBase_Text_Trainer8Intro
+もようがえグッズは　いろんな\nほうほうで　てに　はいるって\lきいたよ\pどっちが　いい　グッズを\nあつめられるか　きょうそう\lしようよ！\pそれまでに　しょうぶ　する？
+@@SecretBase_Text_Trainer8AcceptBattle
+ここは　ぼくの　ひみつきち\nまけられない！
+@@SecretBase_Text_Trainer8DeclineBattle
+いつでも　しょうぶ　するよ
+@@SecretBase_Text_Trainer8Defeated
+あれ？\nぼく　まけたの？
+@@SecretBase_Text_Trainer8PostBattle
+グッズあつめでは　まけないぞ\nまた　きてね！
+@@SecretBase_Text_Trainer8PreChampion
+もようがえグッズは　いろんな\nほうほうで　てに　はいるって\lきいたよ\pどっちが　いい　グッズを\nあつめられるか　きょうそう\lしようよ！
+@@SecretBase_Text_Trainer4Intro
+きに　いった　ばしょを\nみつけて　すきな　グッズで\lかざったんだ\pすきな　ポケモンを\nそだてて　いっしょに\lつよく　なる\pそれが　おれの　やりかた\nしょうぶ　するか？
+@@SecretBase_Text_Trainer4AcceptBattle
+きみの　じつりょくを\nみせて　もらおう！
+@@SecretBase_Text_Trainer4DeclineBattle
+きぶんが　のらない\nときも　あるよな
+@@SecretBase_Text_Trainer4Defeated
+きみの　じつりょくが\nよく　わかったよ
+@@SecretBase_Text_Trainer4PostBattle
+おたがい　もっと　つよく\nなれる　がんばろうぜ！
+@@SecretBase_Text_Trainer4PreChampion
+きに　いった　ばしょを\nみつけて　すきな　グッズで\lかざったんだ\pすきな　ポケモンを\nそだてて　いっしょに\lつよく　なる\pまいにちが　さいこうだ
+@@SecretBase_Text_Trainer9Intro
+どんな　グッズを　どう\nかざるかで　その　ひとの\lセンスが　わかるのよ\pわたしの　センス　どう？\nことばも　でない？\pバトルの　センスも\nみて　みる？
+@@SecretBase_Text_Trainer9AcceptBattle
+てかげんは　しないわ！
+@@SecretBase_Text_Trainer9DeclineBattle
+わたしの　スタイルは\nいつでも　みせて　あげるわ
+@@SecretBase_Text_Trainer9Defeated
+すばらしい　さいのう！\nあなたの　ちからは\lかぎりが　ない　みたい‥
+@@SecretBase_Text_Trainer9PostBattle
+わたしの　スタイル　どうだった？\nもっと　みがいて　いくわ！
+@@SecretBase_Text_Trainer9PreChampion
+どんな　グッズを　どう\nかざるかで　その　ひとの\lセンスが　わかるのよ\pわたしの　センス　どう？\nことばも　でない？
+## data/scripts/safari_zone.inc
+@@Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay
+サファリゾーンへ　ようこそ！\p500えんで　つかまえ　ほうだい！\nサファリゲームを\lあそびますか？
+@@Route121_SafariZoneEntrance_Text_PlayAnotherTime
+わかりました\nまた　あそびに　きてね！
+@@Route121_SafariZoneEntrance_Text_NotEnoughMoney
+おかねが　たりません\nごめんなさい
+@@Route121_SafariZoneEntrance_Text_ThatWillBe500Please
+500えん　いただきます
+@@Route121_SafariZoneEntrance_Text_HereAreYourSafariBalls
+サファリボールを　どうぞ
+@@Route121_SafariZoneEntrance_Text_Received30SafariBalls
+{PLAYER}は　サファリボールを\n30こ　うけとった！
+@@Route121_SafariZoneEntrance_Text_PleaseEnjoyYourself
+ゲームが　おわったら\nおしらせ　します\pそれまで　たのしんで\nきて　ください！\lいってらっしゃい！
+@@Route121_SafariZoneEntrance_Text_PCIsFull
+すみません！\nパソコンの　ボックスが\lいっぱい　です
+## data/text/birch_speech.inc
+@@gText_Birch_Welcome
+やあ！　またせて　しまったね！\pポケットモンスターの　せかいへ\nようこそ！\pわたしの　なまえは　オダマキ\pみんなからは　ポケモンはかせと\nよばれて　いるよ\p
+@@gText_Birch_MainSpeech
+この　せかいには\nポケットモンスター　ちぢめて\lポケモンと　よばれる\lいきもの　たちが　いる\pひとは　ポケモンと\nときには　あそび　あいて\lときには　しごとの　なかまと\lして　くらして　いる\pそして　ときには　なかまと\nちからを　あわせて\lたたかう　ことも　ある\pでも　こんなに　ちかくに\nいても　ポケモンの　ことは\lまだ　よく　わかって　いない\pポケモンには　まだまだ\nたくさんの　なぞが　ある\pその　なぞを　とくために\nわたしは　けんきゅうを\lして　いるんだ\p
+@@gText_Birch_AndYouAre
+それで　きみは？
+@@gText_Birch_BoyOrGirl
+きみは　おとこのこ？\nそれとも　おんなのこ？
+@@gText_Birch_WhatsYourName
+よし\nきみの　なまえは？
+@@gText_Birch_SoItsPlayer
+{PLAYER}{KUN}　だね？
+@@gText_Birch_YourePlayer
+ああ　そうか！\pわたしの　ふるさと　ミシロに\nひっこして　くる\l{PLAYER}{KUN}　だね\lわかったよ！\p
+@@gText_Birch_AreYouReady
+さあ　じゅんびは　いいかな？\pきみだけの　ぼうけんが\nいま　はじまる！\pゆめと　ぼうけんと\nなかまが　まつ　ポケモンの\lせかいへ　ゆうきを　だして\lとびこもう！\pじゃあ　あとで　わたしの\nけんきゅうじょに　おいで\p
+## data/text/oak_speech_hns.inc
+@@gText_Oak_Welcome
+やあ！　またせて　しまったね！\pポケットモンスターの　せかいへ\nようこそ！\pわたしの　なまえは　オーキド\pみんなからは　ポケモンはかせと\nよばれて　おるよ\p
+@@gText_Oak_MainSpeech
+この　せかいには\nポケットモンスター　ちぢめて\lポケモンと　よばれる\lいきもの　たちが　いる\pひとと　ポケモンは\nたすけあって　くらして\lおるのじゃ\pポケモンと　あそぶ　ひとも\nいれば　バトルを　する\lひとも　いる\pじゃが　ポケモンの　ことは\nまだ　ぜんぶ　わかって\lいる　わけでは　ない\pまだまだ　とくべき　なぞが\nたくさん　ある　だから\lわしは　まいにち　ポケモンを\lけんきゅう　して　おるのじゃ\p
+@@gText_Oak_AndYouAre
+それで　きみは？
+@@gText_Oak_BoyOrGirl
+きみは　おとこのこ？\nそれとも　おんなのこ？
+@@gText_Oak_WhatChallenge
+どんな　なんいどを\nのぞんで　おるかな？
+@@gText_Oak_ChallengeSelected
+うむ　ちょうど　いい\nなんいど　じゃな！
+@@gText_Oak_WhatsYourName
+きみの　なまえは？
+@@gText_Oak_SoItsPlayer
+おお！　{PLAYER}{KUN}　と　いうのか！
+@@gText_Oak_YourePlayer
+{PLAYER}{KUN}　じゅんびは　いいかな？\pきみだけの　ぼうけんが\nいま　はじまる！\p
+@@gText_Oak_AreYouReady
+たのしい　ことも\nきびしい　ことも　ある\pゆめと　ぼうけんの\nポケットモンスターの　せかいが\lまって　おる！　さあ　ゆこう！\pまた　あとで　あおう！\p
+## data/text/event_ticket_1.inc
+@@EventTicket_Text_SouthernIslandSailBack
+おう　この　しまには\nみるものも　やることも\lなにも　ねえな\pミナモへ　もどるか？
+@@EventTicket_Text_SailHome
+よし　わかった！\nかえるとしよう！
+@@EventTicket_Text_AsYouLike
+おう　すきに　しな
+@@SouthernIsland_Exterior_Text_Sign
+「きおくが　うすれゆく　ものは\nそれを　こころに\lきざもうと　する‥」
+## data/text/event_ticket_2.inc
+@@FarawayIsland_Interior_Text_Mew
+ミュウ‥
+## data/text/berries.inc
+@@Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers
+おねえちゃん　たちみたいに\nわたしも　おはなを\lそだててるの！\pはい　どうぞ！\nあげる！
+@@Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries
+きのみは　うえて　そだてても\nいいし　ポケモンに　もたせても\lいいの\pでも　いまは　いろんな\nきのみを　まぜて　ポケモンの\lおかしを　つくる　きかいが\lあるんだって\pわたしも　おかし　ほしいな
+## data/text/trainers.inc
+@@Route104_Text_GinaNotEnoughMons
+ジーナ『あら？　ポケモン　1ぴき？\nそれじゃ　しょうぶ　しないわ\p1ぴき　だけじゃ\nさびしいでしょ　かわいそう
+@@VSSeeker_Text_BatteryNotChargedNeedXSteps
+バッテリーが　たりません\pフルじゅうでん　までに\nひつような　ほすう:{STR_VAR_1}{PAUSE_UNTIL_PRESS}
+@@VSSeeker_Text_NoTrainersWithinRange
+ちかくに　たたかえる\nトレーナーは　いない‥\pバトルサーチャーの\nスイッチを　きった{PAUSE_UNTIL_PRESS}
+@@VSSeeker_Text_TrainersNotReady
+ほかの　トレーナーは\nまだ　じゅんびが　できて\lいない　ようだ\pまた　あとで　ためそう{PAUSE_UNTIL_PRESS}
+## data/text/trainers_frlg.inc
+@@Route14_Text_CarterRematchIntro
+わざマシンで　ポケモンに\nいい　わざを　おぼえさせたぜ
+## data/scripts/test_signpost.inc
+@@Text_ThisIsATestSignpostMsg
+これは　テスト　メッセージ\nこれは　かんばん　です
+## data/scripts/profile_man.inc
+@@ProfileMan_Text_CollectTrainerProfiles
+やあ　トレーナーさん！\nすてきな　えがお　だね\pぼくの　しゅみは　ポケモン\nトレーナーの　プロフィールを\lあつめる　ことなんだ
+@@ProfileMan_Text_MayISeeYourProfile
+それで　どうかな？\nきみの　プロフィールを\lみせて　くれない？
+@@ProfileMan_Text_EasyChatExplanation
+プロフィールは　ことばを\n4つ　くみあわせて\lつくるんだ\pれいとして　4つの　ことばで\nつくった　プロフィールを\lみせるね\pこの　4つの　ことばを\nほかの　ことばに　すきに\lいれかえて　じぶんの\lプロフィールを　つくるんだ\pつかえる　ことばは\nたくさん　あるよ\pポケモン　せいかつ　しゅみ\nなどの　グループに　わかれて\lいるから　さがしやすいよ\pまず　グループを　えらぶと\nことばの　リストが　でる\pそこから　つかいたい\nことばを　えらぶんだ\pのこりの　ことばも　おなじ\nように　えらべば　きみだけの\lプロフィールの　できあがり
+@@ProfileMan_Text_LetsSeeItThen
+やった！　ありがとう！\nじゃあ　みせて！
+@@ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile
+え　ほんとに？\pきみ　みたいな　ひとなら\nすてきな　プロフィール\lだろうに‥
+@@ProfileMan_Text_NotIntoItRightNow
+あれ？　いまは　そんな\nきぶんじゃ　ない？\pまあ　いつでも　いいよ！
+@@ProfileMan_Text_YouHaveWonderfulSmile
+やあ　トレーナーさん！\nすてきな　えがお　だね
+@@ProfileMan_Text_MayISeeYourNewProfile
+あたらしい　プロフィールを\nみせて　くれない？
+@@ProfileMan_Text_EvenBetterThanLastProfile
+やった！　ありがとう！\pまえに　みせて　もらった\nのより　もっと　いいと\lいいな
+@@ProfileMan_Text_LikeProfileWayItIs
+いまの　プロフィールが\nきに　いってるんだね\pむりも　ない　いまの\nままでも　すてきな\lプロフィール　だもの
+@@ProfileMan_Text_FantasticProfile
+す　すばらしい！\pきみの　プロフィール\nさいこう　だよ！\lきみらしさが　よく　でてる\pこの　プロフィールを　きいたら\nだれでも　きみに\lむちゅうに　なるよ！\pありがとう！
+## data/text/questionnaire.inc
+@@Questionnaire_Text_FillOut
+アンケートが　ある\nかいて　みますか？
+@@Questionnaire_Text_ThankYou
+アンケートに　ごきょうりょく\nいただき　ありがとう\lございました\pこんごの　さんこうに\nさせて　いただきます
+@@Questionnaire_Text_YouKnowThoseWordsGift
+あら　こんにちは！\nその　ことばを　しってるの？\pということは　ふしぎな\nおくりものを　しってるのね\pこれからは　ふしぎな\nおくりものが　うけとれる\lわよ！
+@@Questionnaire_Text_YouCanAccessMysteryGift
+レポートを　かけば\nふしぎな　おくりものが\lつかえる　ように　なるわ
+@@Questionnaire_Text_YouKnowThoseWordsEvent
+あら　こんにちは！\nその　ことばを　しってるの？\pということは　ふしぎな\nできごとを　しってるのね
+@@Questionnaire_Text_YouCanAccessMysteryEvent
+レポートを　かけば\nふしぎな　できごとが\lつかえる　ように　なるわ
+@@MysteryGift_Text_TheresATicketForYou
+ふしぎな　できごとを\nごりよう　いただき\lありがとう　ございます\p{PLAYER}さま　ですね\nチケットを　おあずかり\lして　います
+@@MysteryGift_Text_TryUsingItAtLilycovePort
+ミナモシティの　みなとで\nつかう　もの　のようです\pいちど　ためして　みては\nいかが　ですか？
+## data/scripts/lilycove_lady.inc
+@@LilycoveCity_PokemonCenter_1F_Text_ImTheFavorLady
+わたしは　おねだりおねえさん‥
+@@LilycoveCity_PokemonCenter_1F_Text_ObsessedWithThing
+さいきん　{STR_VAR_1}\nものに　むちゅう　なの‥
+@@LilycoveCity_PokemonCenter_1F_Text_ThankYouForLastTime
+あら‥\nこのあいだは　ありがとう‥
+@@LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeBadThing
+まえに　たしか　{STR_VAR_3}が‥\p{STR_VAR_1}と　いって\n{STR_VAR_2}を　くれたの\pでも　ぜんぜん\n{STR_VAR_1}　なかった
+@@LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeGreatThing
+まえに　{STR_VAR_3}が　とっても\n{STR_VAR_1}　{STR_VAR_2}を　くれたの\pいまも　だいじに　してるわ
+@@LilycoveCity_PokemonCenter_1F_Text_WillYouShareThing
+ねえ　なにか　{STR_VAR_1}\nものが　あったら\lわけて　くれない？
+@@LilycoveCity_PokemonCenter_1F_Text_WhatWillYouGiveMe
+‥ほんと？\nなにを　くれるの？
+@@LilycoveCity_PokemonCenter_1F_Text_IsThatSoGoodbye
+そう？\nじゃあ　さようなら‥
+@@LilycoveCity_PokemonCenter_1F_Text_NotWillingToShare
+あら‥\nわけて　くれないの？
+@@LilycoveCity_PokemonCenter_1F_Text_IllTryToCherishIt
+あら？\nその　{STR_VAR_2}が　{STR_VAR_1}？\p‥ほんとう　かしら？\pでも　いちおう　おれいは\nいうわ　だいじに　するわね‥
+@@LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis
+まあ‥\pとっても　{STR_VAR_1}\n{STR_VAR_2}ね‥\pすてき\nゆめみたい‥\pありがとう‥\nだいじに　するわ‥
+@@LilycoveCity_PokemonCenter_1F_Text_IWillTreasureThis
+‥まあ　まあ　まあ‥\pすごいわ！\nほんとうに　{STR_VAR_1}！\p{STR_VAR_2}が　こんなに\n{STR_VAR_1}　なんて\lしらなかった！\pありがとう！\pいっしょう　たからものに\nするわ！
+@@LilycoveCity_PokemonCenter_1F_Text_IllGiveYouThisInReturn
+すてきな　おくりものの\nおかえしに　この　すてきな\lどうぐを　あげるわ\pだいじに　してね‥
+@@LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt
+あら　もてる　あきが\nないのね\pバッグを　かたづけたら\nまた　きてね‥
+@@LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady
+わたしは　クイズおねえさん！\nクイズが　だいすき！
+@@LilycoveCity_PokemonCenter_1F_Text_WaitingToTakeYourQuiz
+あら？\pあなたの　つくった　クイズに\nこたえる　ひとを　まってるの\pおしゃべりは　また　こんどね
+@@LilycoveCity_PokemonCenter_1F_Text_WaitingForChallenger
+{STR_VAR_1}が　かんがえた\nクイズに　ちょうせん　する\lひとを　まってるの！
+@@LilycoveCity_PokemonCenter_1F_Text_TakeQuizChallenge
+せいかい　したら　すてきな\nしょうひんが　もらえるわよ！\pクイズに　ちょうせん\nしてみる？
+@@LilycoveCity_PokemonCenter_1F_Text_HowBoringBye
+もう　つまんない！\nばいばい！
+@@LilycoveCity_PokemonCenter_1F_Text_YoureGoingToQuit
+えー！\nやめちゃうの？
+@@LilycoveCity_PokemonCenter_1F_Text_TakeTheQuizAnotherTime
+また　クイズに\nちょうせん　してね！
+@@LilycoveCity_PokemonCenter_1F_Text_YouGotItRight
+すごい！　せいかい！\nあなた　さえてるわね！
+@@LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize
+おめでとう！\nクイズに　せいかい！\p{STR_VAR_1}が　よういした\nしょうひんを　ゲット！
+@@LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp
+あら？　バッグが　いっぱい！\nあきが　できたら　きてね
+@@LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs
+うーん‥　ざんねん！\nせいかいは　『{STR_VAR_3}』でした！
+@@LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize
+ざんねん！\pクイズの　しょうひん\n{STR_VAR_1}は　わたしが\lもらうわね！
+@@LilycoveCity_PokemonCenter_1F_Text_MakeYourOwnQuiz
+ねえ　ねえ！\nあなたも　クイズを\lつくって　みない？
+@@LilycoveCity_PokemonCenter_1F_Text_MaybeNextTime
+あら　そう‥\nじゃあ　また　こんどね！
+@@LilycoveCity_PokemonCenter_1F_Text_PickYourPrize
+まず　クイズに　せいかい\nした　ひとへの　しょうひんを\lえらんでね\pでも　ちょうせんしゃが\nまちがえたら　しょうひんは\lわたしが　もらうわよ！
+@@LilycoveCity_PokemonCenter_1F_Text_QuitChoosingPrize
+しょうひんを　えらばないと\nクイズは　つくれないわ\pクイズを　つくるのを\nやめる？
+@@LilycoveCity_PokemonCenter_1F_Text_WriteYourQuiz
+まあ　すてき！\nいい　しょうひんね！\pつぎは　クイズの　もんだいと\nこたえを　かいてね
+@@LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizQuestion
+クイズの　もんだいを\nかくのを　やめる？
+@@LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger
+ありがとう！\nいい　クイズが　できたわね\pさっそく　ちょうせん　して\nくれる　ひとを　さがして\lくるわ
+@@LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady
+わたしは　コンテストおねえさん！\nコンテストが　だいすき！
+@@LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock
+このあいだは　{POKEBLOCK}\nありがとう！
+@@LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality
+この　こは　わたしの　ともだち\n{STR_VAR_1}！\l{STR_VAR_2}の　かたまり　なの！\pでも　もっと　{STR_VAR_2}を\nみせられると　おもうの！
+@@LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase
+だから　おねがい！\p{POKEBLOCK}を　1こ　くれない？\n1こ　だけで　いいの！\p‥あら　でも‥\n{POKEBLOCK}ケースを　もって\lないの？　じゃあ　また\lこんどね！
+@@LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock
+だから　おねがい！\p{POKEBLOCK}を　1こ　くれない？\n1こ　だけで　いいの！
+@@LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock
+えー！\n{POKEBLOCK}　1こも\lくれないの？
+@@LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate
+もう！\nけちんぼ！
+@@LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock
+やったー！\nありがとう！\pさっそく　ポケモンに\n{POKEBLOCK}を　あげるわ
+@@LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks
+‥なにも　かわって\nない　みたい‥\pうーん‥\pまあ　いいわ！\nどうも　ありがとう！
+@@LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks
+わあ　やった！\nすごく　よろこんでる！\p{STR_VAR_1}の　{STR_VAR_2}も\nすごく　よく　なったと\lおもう\pほんとうに　ありがとう！
+@@LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests
+うーん‥\pそろそろ　コンテストに\nでられそう\pどこかで　わたしたちを\nみかけたら　おうえん\lしてね
+@@LilycoveCity_PokemonCenter_1F_Text_Zigzagoon
+{STR_VAR_1}『ぐぐぅ！
+@@LilycoveCity_PokemonCenter_1F_Text_Kecleon
+{STR_VAR_1}『いぎぎぎぃ！
+@@LilycoveCity_PokemonCenter_1F_Text_Poochyena
+{STR_VAR_1}『ばぁーるん‥
+@@LilycoveCity_PokemonCenter_1F_Text_Pikachu
+{STR_VAR_1}『ピッカ！
+@@LilycoveCity_PokemonCenter_1F_Text_Skitty
+{STR_VAR_1}『うみゃーん！
+## data/text/match_call.inc
+@@MatchCall_WildBattleText1
+もしもし！　{PLAYER}{KUN}？\n{STR_VAR_1}だよ\pこのまえ　{STR_VAR_2}を\nみたけど　つかまえられ\lなかったんだ\pすごく　おしかった！\nじゃあ　またね！
+@@MatchCall_WildBattleText2
+もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pさっき　いい　{STR_VAR_2}を\nつかまえようと　したんだ\pでも　にげられちゃった\nほんとうに　がっかり！\pじゃあね！
+@@MatchCall_WildBattleText3
+やあ　{PLAYER}！\n{STR_VAR_1}だよ\pいま　{STR_VAR_2}を\nつかまえようと　したけど\lにげられた\pあと　ちょっと　だったのに！\pきょうは　ついてないや‥\nじゃあね！
+@@MatchCall_WildBattleText4
+よう　{PLAYER}{KUN}\n{STR_VAR_1}だ\p{STR_VAR_2}って　ポケモン\nしってる？　もうすこしで\lつかまえられたんだ\pちょっと　まえの　ことさ\nつかまえたと　おもったら\lにげられちゃって\pでも　こんど　みたら\nぜったい　つかまえるよ\pじゃあ　またな
+@@MatchCall_WildBattleText5
+やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\lさいきん　ポケモン\lつかまえてる？\pちょっと　まえに　あと\nすこしで　つかまえられそう\lだったけど　にげられたんだ\pじゃあ　げんきでね！
+@@MatchCall_WildBattleText6
+やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\lさいきん　ポケモン\lつかまえた？\pこのまえ　もうすこしで\nつかまえられたのに\lなぜか　にげられちゃった\pきを　つけてね
+@@MatchCall_WildBattleText7
+‥あ　{PLAYER}{KUN}？\n{STR_VAR_1}だけど\pあっ　まって！　まって！\nこの　{STR_VAR_2}\lつかまえられそう‥\pああー！　にげられた！\nおしい　なんて\lもんじゃ　ないよ！
+@@MatchCall_WildBattleText8
+あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pさいきん　ポケモンは\nうまく　つかまえられて\lいます？\pわたしは　さっき　あと\nすこしの　ところで\lにげられて　しまいました\pもっと　がんばらなくちゃ！\nまた　おはなし　しましょう！

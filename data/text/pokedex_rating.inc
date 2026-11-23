@@ -245,12 +245,7 @@ gNationalDexRatingText_LessThan350::
 	.string "ジョウトちほうに　いない\nポケモンの　おおくは\pサファリゾーンに　あつまって\nいるんだ$"
 
 gNationalDexRatingText_LessThan400::
-@	.string "Music on the radio might also\n"
-@	.string "entice POKéMON to leap out$"
-	.string "There are hidden locations all\n"
-	.string "over the world containing rare\p"
-	.string "and unusual POKéMON, try to find\n"
-	.string "them all!$"
+	.string "せかいじゅうに　めずらしい\nポケモンが　いる　かくれた\pばしょが　あるんだ　ぜんぶ\nさがして　みよう！$"
 
 gNationalDexRatingText_LessThan435::
 	.string "わあ　ここまで\nきたんだね‥！\lじつは　ちょっと　びっくり！$"

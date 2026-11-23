@@ -257,10 +257,7 @@ Route104_Text_GinaPostBattle:
 	.string "We have to train lots more!$"
 
 Route104_Text_GinaNotEnoughMons:
-	.string "GINA: Oh? Only one POKéMON?\n"
-	.string "Then, we don't battle with you.\p"
-	.string "If there's only one POKéMON, it will\n"
-	.string "be lonesome. That's not nice.$"
+	.string "ジーナ『あら？　ポケモン　1ぴき？\nそれじゃ　しょうぶ　しないわ\p1ぴき　だけじゃ\nさびしいでしょ　かわいそう$"
 
 Route104_Text_MiaIntro:
 	.string "MIA: We are twins, so we battle\n"
@@ -4781,16 +4778,10 @@ Route134_Text_HudsonPostBattle:
 	.string "worried about him.$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
-	.string "The battery isn't charged enough.\p"
-	.string "No. of steps required to fully\n"
-	.string "charge the battery: {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "バッテリーが　たりません\pフルじゅうでん　までに\nひつような　ほすう:{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_NoTrainersWithinRange::
-	.string "There are no Trainers within range\n"
-	.string "who can battle…\p"
-	.string "The VS Seeker was turned off.{PAUSE_UNTIL_PRESS}$"
+	.string "ちかくに　たたかえる\nトレーナーは　いない‥\pバトルサーチャーの\nスイッチを　きった{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_TrainersNotReady::
-	.string "The other Trainers don't appear\n"
-	.string "to be ready for battle.\p"
-	.string "Let's wait till later.{PAUSE_UNTIL_PRESS}$"
+	.string "ほかの　トレーナーは\nまだ　じゅんびが　できて\lいない　ようだ\pまた　あとで　ためそう{PAUSE_UNTIL_PRESS}$"

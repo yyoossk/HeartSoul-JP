@@ -1,73 +1,26 @@
 MatchCall_WildBattleText1::
-	.string "Hi! {PLAYER}{KUN}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I saw this {STR_VAR_2} a while back\n"
-	.string "but I couldn't catch it.\p"
-	.string "It was so close, too!\n"
-	.string "Well, see you again!$"
+	.string "もしもし！　{PLAYER}{KUN}？\n{STR_VAR_1}だよ\pこのまえ　{STR_VAR_2}を\nみたけど　つかまえられ\lなかったんだ\pすごく　おしかった！\nじゃあ　またね！$"
 
 MatchCall_WildBattleText2::
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "I tried to catch a nice {STR_VAR_2}\n"
-	.string "a little while ago.\p"
-	.string "But, it got away.\n"
-	.string "I was sure disappointed!\p"
-	.string "Okay, bye!$"
+	.string "もしもし　{PLAYER}{KUN}\n{STR_VAR_1}です\pさっき　いい　{STR_VAR_2}を\nつかまえようと　したんだ\pでも　にげられちゃった\nほんとうに　がっかり！\pじゃあね！$"
 
 MatchCall_WildBattleText3::
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I just took a shot at catching\n"
-	.string "this {STR_VAR_2}, but it took off.\p"
-	.string "I came oh so close, too!\p"
-	.string "It spoiled my day…\n"
-	.string "All right, see you!$"
+	.string "やあ　{PLAYER}！\n{STR_VAR_1}だよ\pいま　{STR_VAR_2}を\nつかまえようと　したけど\lにげられた\pあと　ちょっと　だったのに！\pきょうは　ついてないや‥\nじゃあね！$"
 
 MatchCall_WildBattleText4::
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "You know the POKéMON {STR_VAR_2}?\n"
-	.string "I came close to getting one.\p"
-	.string "It was just a while back.\n"
-	.string "I thought I had it but it escaped.\p"
-	.string "If I see it again, I'll get it for\n"
-	.string "sure, though.\p"
-	.string "Okay, catch you later.$"
+	.string "よう　{PLAYER}{KUN}\n{STR_VAR_1}だ\p{STR_VAR_2}って　ポケモン\nしってる？　もうすこしで\lつかまえられたんだ\pちょっと　まえの　ことさ\nつかまえたと　おもったら\lにげられちゃって\pでも　こんど　みたら\nぜったい　つかまえるよ\pじゃあ　またな$"
 
 MatchCall_WildBattleText5::
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\l"
-	.string "Catching any POKéMON lately?\p"
-	.string "A little while ago I came close to\n"
-	.string "nabbing one, but it got loose.\p"
-	.string "Right, take care!$"
+	.string "やっほー　{PLAYER}{KUN}！\n{STR_VAR_1}だよ\lさいきん　ポケモン\lつかまえてる？\pちょっと　まえに　あと\nすこしで　つかまえられそう\lだったけど　にげられたんだ\pじゃあ　げんきでね！$"
 
 MatchCall_WildBattleText6::
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\l"
-	.string "Caught any POKéMON lately?\p"
-	.string "I nearly nabbed one the other day.\n"
-	.string "But it evaded me somehow.\p"
-	.string "You take care.$"
+	.string "やあ　{PLAYER}{KUN}\n{STR_VAR_1}だよ\lさいきん　ポケモン\lつかまえた？\pこのまえ　もうすこしで\nつかまえられたのに\lなぜか　にげられちゃった\pきを　つけてね$"
 
 MatchCall_WildBattleText7::
-	.string "…Uh, {PLAYER}{KUN}?\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "Oh, wait! Wait!\n"
-	.string "I can catch this {STR_VAR_2}…\p"
-	.string "Aaarrrgh! It bolted loose!\n"
-	.string "That wasn't just close!$"
+	.string "‥あ　{PLAYER}{KUN}？\n{STR_VAR_1}だけど\pあっ　まって！　まって！\nこの　{STR_VAR_2}\lつかまえられそう‥\pああー！　にげられた！\nおしい　なんて\lもんじゃ　ないよ！$"
 
 MatchCall_WildBattleText8::
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "Have you had success catching\n"
-	.string "POKéMON lately?\p"
-	.string "I came very close a little while\n"
-	.string "ago, but my target got free.\p"
-	.string "I need to try harder!\n"
-	.string "See you again!$"
+	.string "あら　{PLAYER}{KUN}　ごきげんよう\n{STR_VAR_1}です\pさいきん　ポケモンは\nうまく　つかまえられて\lいます？\pわたしは　さっき　あと\nすこしの　ところで\lにげられて　しまいました\pもっと　がんばらなくちゃ！\nまた　おはなし　しましょう！$"
 
 MatchCall_WildBattleText9::
 	.string "Oh, {PLAYER}{KUN}, hi there!\n"

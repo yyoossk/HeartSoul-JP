@@ -186,18 +186,10 @@ Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
 	.string "It's like they have the will to live.$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
-	.string "I'm trying to be like my big sisters.\n"
-	.string "I'm growing flowers, too!\p"
-	.string "Here you go!\n"
-	.string "It's for you!$"
+	.string "おねえちゃん　たちみたいに\nわたしも　おはなを\lそだててるの！\pはい　どうぞ！\nあげる！$"
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries:
-	.string "You can plant a BERRY and grow it big,\n"
-	.string "or you can make a POKéMON hold it.\p"
-	.string "But now they have a machine that mixes\n"
-	.string "up different BERRIES and makes candies\l"
-	.string "for POKéMON.\p"
-	.string "I want some candy, too.$"
+	.string "きのみは　うえて　そだてても\nいいし　ポケモンに　もたせても\lいいの\pでも　いまは　いろんな\nきのみを　まぜて　ポケモンの\lおかしを　つくる　きかいが\lあるんだって\pわたしも　おかし　ほしいな$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese:
 	.string "Hi, what's your name?\p"
