@@ -1,0 +1,18 @@
+@@0
+{STR_VAR_1}の　とくせいを\n{STR_VAR_2}に　かえますか？
+@@1
+{STR_VAR_1}の　とくせいが\n{STR_VAR_2}に　なった！{PAUSE_UNTIL_PRESS}
+@@2
+{STR_VAR_1}の　きそポイントが\nすべて　0に　なった！{PAUSE_UNTIL_PRESS}
+@@3
+ひでんわざを　おぼえているので\nボックスに　おくれません{PAUSE_UNTIL_PRESS}
+@@4
+じぶんの　ポケモンでは　ないので\nボックスに　おくれません{PAUSE_UNTIL_PRESS}
+@@5
+{STR_VAR_1}の　のうりょくが\nかわるかも　しれません　つかいますか？
+@@6
+{STR_VAR_2}の　こうかで　{STR_VAR_1}の\nのうりょくが　かわった　かも！{PAUSE_UNTIL_PRESS}
+@@7
+{STR_VAR_1}の　ダイマックスレベルが\n1　あがった！{PAUSE_UNTIL_PRESS}
+@@8
+{STR_VAR_1}を　{STR_VAR_2}に\nいれた{PAUSE_UNTIL_PRESS}

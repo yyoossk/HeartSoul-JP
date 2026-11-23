@@ -334,210 +334,210 @@ static const u16 sTextPal[] = INCBIN_U16("graphics/interface/option_menu_text_cu
 // =============================================================================
 
 static const u8 *const sChoices_OffOn[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("ON"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("オン"),
 };
 
 static const u8 *const sChoices_OnOff[] = {
-    COMPOUND_STRING("ON"),
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("オン"),
+    COMPOUND_STRING("オフ"),
 };
 
 static const u8 *const sChoices_Gamemode[] = {
-    COMPOUND_STRING("RECOMMENDED"),
-    COMPOUND_STRING("CUSTOM"),
+    COMPOUND_STRING("おすすめ"),
+    COMPOUND_STRING("カスタム"),
 };
 
 static const u8 *const sChoices_OriginalModern[] = {
-    COMPOUND_STRING("ORIGINAL"),
-    COMPOUND_STRING("MODERN"),
+    COMPOUND_STRING("オリジナル"),
+    COMPOUND_STRING("モダン"),
 };
 
-static const u8 sText_TopBar_Left[]   = _("{L_BUTTON}PREVIOUS");
-static const u8 sText_TopBar_Right[]  = _("{R_BUTTON}NEXT");
-static const u8 sText_TopBar_Save[]   = _("{R_BUTTON}SAVE");
-static const u8 sText_TopBar_Cancel[] = _("{B_BUTTON}CANCEL");
+static const u8 sText_TopBar_Left[]   = _("{L_BUTTON}まえへ");
+static const u8 sText_TopBar_Right[]  = _("{R_BUTTON}つぎへ");
+static const u8 sText_TopBar_Save[]   = _("{R_BUTTON}セーブ");
+static const u8 sText_TopBar_Cancel[] = _("{B_BUTTON}やめる");
 
 // =============================================================================
 // Tab item tables — skeleton placeholders
 // =============================================================================
 
 static const u8 *const sDesc_Gamemode[] = {
-    COMPOUND_STRING("Recommended settings."),
-    COMPOUND_STRING("Choose your own rules."),
+    COMPOUND_STRING("おすすめの　せってい　です"),
+    COMPOUND_STRING("じぶんで　ルールを　きめます"),
 };
 static const u8 *const sDesc_ModernMoves[] = {
-    COMPOUND_STRING("Generation 3 LEARNSETS and EGG\n MOVES with no changes."),
-    COMPOUND_STRING("Generation 7 LEARNSETS and EGG\n MOVES + minor changes."),
+    COMPOUND_STRING("だい3せだいの　おぼえる　わざと\nタマゴわざ　そのまま　です"),
+    COMPOUND_STRING("だい7せだいの　おぼえる　わざと\nタマゴわざ　すこし　かえて　います"),
 };
 static const u8 *const sDesc_Synchronize[] = {
-    COMPOUND_STRING("SYNCHRONIZE works as in GEN III.\n50% chance to copy nature."),
-    COMPOUND_STRING("SYNCHRONIZE works as in GEN VIII+.\n100% chance to copy nature."),
+    COMPOUND_STRING("シンクロは　だい3せだいと　おなじ\nせいかくが　にる　かくりつ　50%"),
+    COMPOUND_STRING("シンクロは　だい8せだい　いこう\nせいかくが　かならず　にる"),
 };
 static const u8 *const sDesc_Sturdy[] = {
-    COMPOUND_STRING("STURDY works as in GEN III. Only\nnegates OHKO moves (GUILLOTINE, etc.)"),
-    COMPOUND_STRING("STURDY works as in GEN V+.\n{PKMN} survive lethal hits with 1HP."),
+    COMPOUND_STRING("がんじょうは　だい3せだいと　おなじ\nいちげきわざ　だけを　ふせぐ"),
+    COMPOUND_STRING("がんじょうは　だい5せだい　いこう\nHP1で　もちこたえる"),
 };
 static const u8 *const sDesc_NewCitrus[] = {
-    COMPOUND_STRING("SITRUS BERRY restores 30HP.\nSame as GEN III."),
-    COMPOUND_STRING("SITRUS BERRY restores 25% of\ntotal HP. Same as GEN IV and up."),
+    COMPOUND_STRING("オボンのみは　HP30かいふく\nだい3せだいと　おなじ"),
+    COMPOUND_STRING("オボンのみは　HP4ぶんの1\nかいふく　だい4せだい　いこう"),
 };
 static const u8 *const sDesc_FairyTypes[] = {
-    COMPOUND_STRING("FAIRY TYPE isn't added to {PKMN}\nthat got it in GEN VI."),
-    COMPOUND_STRING("FAIRY TYPE is added / changed to\ncertain {PKMN}, as in GEN VI."),
+    COMPOUND_STRING("だい6せだいで　フェアリーに\nなった　ポケモンは　そのまま"),
+    COMPOUND_STRING("だい6せだいと　おなじく　フェアリー\nタイプが　つく　ポケモンが　いる"),
 };
 static const u8 *const sDesc_LegAbilities[] = {
-    COMPOUND_STRING("PRESSURE stays as the main\nability of some legendaries."),
-    COMPOUND_STRING("Legendaries have PRESSURE changed\nfor a better ability."),
+    COMPOUND_STRING("いくつかの　でんせつの　とくせいは\nプレッシャーの　まま"),
+    COMPOUND_STRING("でんせつの　プレッシャーを\nもっと　いい　とくせいに　かえる"),
 };
 static const u8 *const sDesc_InfiniteTMs[] = {
-    COMPOUND_STRING("TMs are not reusable.\nLike in the original."),
-    COMPOUND_STRING("TMs are reusable."),
+    COMPOUND_STRING("わざマシンは　1かい　きり\nもとの　ゲームと　おなじ"),
+    COMPOUND_STRING("わざマシンは　なんども　つかえる"),
 };
 static const u8 *const sDesc_Mints[] = {
-    COMPOUND_STRING("Mints are not available ingame until\nfinishing the game."),
-    COMPOUND_STRING("Mints can be bought at the\nFLOWER SHOP after the 3rd badge."),
+    COMPOUND_STRING("ミントは　クリアする　まで\nてに　はいらない"),
+    COMPOUND_STRING("3つめの　バッジの　あとで\nはなやで　ミントが　かえる"),
 };
 static const u8 *const sDesc_SurvivePoison[] = {
-    COMPOUND_STRING("Your {PKMN} will faint if they are\nPOISONED."),
-    COMPOUND_STRING("Your {PKMN} will survive the POISON\nstatus with 1HP."),
+    COMPOUND_STRING("どくで　ポケモンが\nひんしに　なる"),
+    COMPOUND_STRING("どくでも　ポケモンは\nHP1で　のこる"),
 };
 static const u8 *const sDesc_Split[] = {
-    COMPOUND_STRING("PHYSICAL and SPECIAL MOVES\ndepend on the {PKMN} TYPE."),
-    COMPOUND_STRING("PHYSICAL and SPECIAL MOVES\nare MOVE specific."),
+    COMPOUND_STRING("ぶつりと　とくしゅは\nわざの　タイプで　きまる"),
+    COMPOUND_STRING("ぶつりと　とくしゅは\nわざごとに　きまる"),
 };
 static const u8 *const sChoices_Gen3Gen7[] = {
-    COMPOUND_STRING("GEN 3"),
-    COMPOUND_STRING("GEN 7"),
+    COMPOUND_STRING("だい3せだい"),
+    COMPOUND_STRING("だい7せだい"),
 };
 static const u8 *const sChoices_Gen3Gen1[] = {
-    COMPOUND_STRING("GEN 3"),
-    COMPOUND_STRING("GEN 1"),
+    COMPOUND_STRING("だい3せだい"),
+    COMPOUND_STRING("だい1せだい"),
 };
 static const u8 *const sDesc_GenOneRecharge[] = {
-    COMPOUND_STRING("RECHARGE MOVES like HYPER BEAM will\nalways need to recharge after use."),
-    COMPOUND_STRING("If a RECHARGE MOVE KO's the opponent,\nno recharge turn is needed."),
+    COMPOUND_STRING("はかいこうせんなどは　つかったあと\nかならず　はんどうで　うごけない"),
+    COMPOUND_STRING("はんどうの　ある　わざで　たおせば\nつぎの　ターンも　うごける"),
 };
 static const u8 *const sDesc_Next[] = {
-    COMPOUND_STRING("Continue to the next page."),
+    COMPOUND_STRING("つぎの　ページへ　すすみます"),
 };
 
 static const struct ChallengeMenuItem sTabItems_Mode[] = {
     [ITEM_MODE_GAMEMODE] = {
-        .name         = COMPOUND_STRING("GAMEMODE"),
+        .name         = COMPOUND_STRING("ゲームモード"),
         .descriptions = sDesc_Gamemode,
         .numChoices   = 2,
         .choiceNames  = sChoices_Gamemode,
     },
     [ITEM_MODE_MODERN_MOVES] = {
-        .name         = COMPOUND_STRING("{PKMN} MOVEPOOL"),
+        .name         = COMPOUND_STRING("おぼえるわざ"),
         .descriptions = sDesc_ModernMoves,
         .numChoices   = 2,
         .choiceNames  = sChoices_Gen3Gen7,
     },
     [ITEM_MODE_SYNCHRONIZE] = {
-        .name         = COMPOUND_STRING("SYNCHRONIZE"),
+        .name         = COMPOUND_STRING("シンクロ"),
         .descriptions = sDesc_Synchronize,
         .numChoices   = 2,
         .choiceNames  = sChoices_OriginalModern,
     },
     [ITEM_MODE_STURDY] = {
-        .name         = COMPOUND_STRING("STURDY"),
+        .name         = COMPOUND_STRING("がんじょう"),
         .descriptions = sDesc_Sturdy,
         .numChoices   = 2,
         .choiceNames  = sChoices_OriginalModern,
     },
     [ITEM_MODE_NEW_CITRUS] = {
-        .name         = COMPOUND_STRING("SITRUS BERRY"),
+        .name         = COMPOUND_STRING("オボンのみ"),
         .descriptions = sDesc_NewCitrus,
         .numChoices   = 2,
         .choiceNames  = sChoices_OriginalModern,
     },
     [ITEM_MODE_FAIRY_TYPES] = {
-        .name         = COMPOUND_STRING("ADD FAIRY TYPE"),
+        .name         = COMPOUND_STRING("フェアリー"),
         .descriptions = sDesc_FairyTypes,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_LEGENDARY_ABILITIES] = {
-        .name         = COMPOUND_STRING("LEGEN. ABILITIES"),
+        .name         = COMPOUND_STRING("でんせつとくせい"),
         .descriptions = sDesc_LegAbilities,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_INFINITE_TMS] = {
-        .name         = COMPOUND_STRING("REUSABLE TMS"),
+        .name         = COMPOUND_STRING("わざマシン"),
         .descriptions = sDesc_InfiniteTMs,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_MINTS] = {
-        .name         = COMPOUND_STRING("NATURE MINTS"),
+        .name         = COMPOUND_STRING("ミント"),
         .descriptions = sDesc_Mints,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_SURVIVE_POISON] = {
-        .name         = COMPOUND_STRING("SURVIVE POISON"),
+        .name         = COMPOUND_STRING("どくでのこる"),
         .descriptions = sDesc_SurvivePoison,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_SPLIT] = {
-        .name         = COMPOUND_STRING("PHYS/SP SPLIT"),
+        .name         = COMPOUND_STRING("ぶつりとくしゅ"),
         .descriptions = sDesc_Split,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_GEN_ONE_RECHARGE] = {
-        .name         = COMPOUND_STRING("RECHARGE MOVES"),
+        .name         = COMPOUND_STRING("はんどうわざ"),
         .descriptions = sDesc_GenOneRecharge,
         .numChoices   = 2,
         .choiceNames  = sChoices_Gen3Gen1,
     },
     [ITEM_MODE_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("つぎへ"),
         .descriptions = sDesc_Next,
         .numChoices   = 0,
         .choiceNames  = NULL,
     },
 };
 
-static const u8 *const sDesc_SaveExit[] = { COMPOUND_STRING("Save choices and continue...") };
-static const u8 sText_ConfirmSave[] = COMPOUND_STRING("Confirm your choices?");
+static const u8 *const sDesc_SaveExit[] = { COMPOUND_STRING("けっていして　つぎへ‥") };
+static const u8 sText_ConfirmSave[] = COMPOUND_STRING("この　せっていで　いいですか？");
 
 // =============================================================================
 // Choice strings — shared across tabs
 // =============================================================================
 
 static const u8 *const sChoices_OffRandom[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("RANDOM"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("ランダム"),
 };
 
 static const u8 *const sChoices_GenScope[] = {
-    COMPOUND_STRING("GEN 1-9"),
-    COMPOUND_STRING("GEN 1-3"),
+    COMPOUND_STRING("1-9せだい"),
+    COMPOUND_STRING("1-3せだい"),
 };
 
 static const u8 *const sChoices_OffChaos[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("CHAOS"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("カオス"),
 };
 
 static const u8 *const sChoices_YesNo[] = {
-    COMPOUND_STRING("YES"),
-    COMPOUND_STRING("NO"),
+    COMPOUND_STRING("はい"),
+    COMPOUND_STRING("いいえ"),
 };
 
 static const u8 *const sChoices_BanUnban[] = {
-    COMPOUND_STRING("BAN"),
-    COMPOUND_STRING("UNBAN"),
+    COMPOUND_STRING("きんし"),
+    COMPOUND_STRING("かいきん"),
 };
 
 static const u8 *const sChoices_RtcFake[] = {
-    COMPOUND_STRING("RTC"),
-    COMPOUND_STRING("FAKE RTC"),
+    COMPOUND_STRING("とけい"),
+    COMPOUND_STRING("かそうどけい"),
 };
 
 static const u8 *const sChoices_ShinyChance[] = {
@@ -549,19 +549,19 @@ static const u8 *const sChoices_ShinyChance[] = {
 };
 
 static const u8 *const sChoices_Nuzlocke[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("EASY"),
-    COMPOUND_STRING("NORMAL"),
-    COMPOUND_STRING("HARD"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("やさしい"),
+    COMPOUND_STRING("ふつう"),
+    COMPOUND_STRING("むずかしい"),
 };
 
 static const u8 *const sChoices_CemeteryRelease[] = {
-    COMPOUND_STRING("CEMETERY"),
-    COMPOUND_STRING("RELEASE"),
+    COMPOUND_STRING("ぼち"),
+    COMPOUND_STRING("にがす"),
 };
 
 static const u8 *const sChoices_PartyLimit[] = {
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("オフ"),
     COMPOUND_STRING("5"),
     COMPOUND_STRING("4"),
     COMPOUND_STRING("3"),
@@ -570,9 +570,9 @@ static const u8 *const sChoices_PartyLimit[] = {
 };
 
 static const u8 *const sChoices_LevelCap[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("NORMAL"),
-    COMPOUND_STRING("HARD"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("ふつう"),
+    COMPOUND_STRING("むずかしい"),
 };
 
 static const u8 *const sChoices_ExpMult[] = {
@@ -583,44 +583,44 @@ static const u8 *const sChoices_ExpMult[] = {
 };
 
 static const u8 *const sChoices_TrainerIVs[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("SCALE"),
-    COMPOUND_STRING("HARD"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("ちょうせい"),
+    COMPOUND_STRING("むずかしい"),
 };
 
 static const u8 *const sChoices_TrainerEVs[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("SCALE"),
-    COMPOUND_STRING("HARD"),
-    COMPOUND_STRING("EXTREM"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("ちょうせい"),
+    COMPOUND_STRING("むずかしい"),
+    COMPOUND_STRING("ごくあく"),
 };
 
 static const u8 *const sChoices_PlayerIVs[] = {
-    COMPOUND_STRING("YES"),
-    COMPOUND_STRING("NO"),
-    COMPOUND_STRING("NO (HP)"),
+    COMPOUND_STRING("はい"),
+    COMPOUND_STRING("いいえ"),
+    COMPOUND_STRING("いいえHP"),
 };
 
 static const u8 *const sChoices_PkmnCenter[] = {
-    COMPOUND_STRING("YES"),
-    COMPOUND_STRING("NO"),
+    COMPOUND_STRING("はい"),
+    COMPOUND_STRING("いいえ"),
 };
 
 static const u8 *const sChoices_Expensive[] = {
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("オフ"),
     COMPOUND_STRING("x5"),
     COMPOUND_STRING("x10"),
     COMPOUND_STRING("x50!"),
 };
 
 static const u8 *const sChoices_EvoLimit[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("FIRST"),
-    COMPOUND_STRING("ALL"),
+    COMPOUND_STRING("オフ"),
+    COMPOUND_STRING("さいしょ"),
+    COMPOUND_STRING("ぜんぶ"),
 };
 
 static const u8 *const sChoices_BstEqual[] = {
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("オフ"),
     COMPOUND_STRING("100"),
     COMPOUND_STRING("255"),
     COMPOUND_STRING("500"),
@@ -631,65 +631,65 @@ static const u8 *const sChoices_BstEqual[] = {
 // =============================================================================
 
 static const u8 *const sDesc_RtcType[] = {
-    COMPOUND_STRING("Use vanilla Real Time Clock."),
-    COMPOUND_STRING("Use a fake Real Time Clock.\n1h in real life = 1 day in-game."),
+    COMPOUND_STRING("ふつうの　とけいを　つかいます"),
+    COMPOUND_STRING("かそうの　とけいを　つかいます\nげんじつの　1じかんが　1にち"),
 };
 static const u8 *const sDesc_ShinyChance[] = {
-    COMPOUND_STRING("Very low chance of SHINY encounter.\nDefault chance from Generation III."),
-    COMPOUND_STRING("Low chance of SHINY encounter.\nDefault chance from Generation VI+."),
-    COMPOUND_STRING("Decent chance of SHINY encounter."),
-    COMPOUND_STRING("High chance of SHINY encounter."),
-    COMPOUND_STRING("Very high chance of SHINY encounter."),
+    COMPOUND_STRING("いろちがいに　とても　あいにくい\nだい3せだいと　おなじ"),
+    COMPOUND_STRING("いろちがいに　あいにくい\nだい6せだい　いこうと　おなじ"),
+    COMPOUND_STRING("いろちがいに　そこそこ　あえる"),
+    COMPOUND_STRING("いろちがいに　よく　あえる"),
+    COMPOUND_STRING("いろちがいに　とても　よく　あえる"),
 };
 static const u8 *const sDesc_ItemDrop[] = {
-    COMPOUND_STRING("Wild {PKMN} items will be only\nobtainable via capture or THIEF."),
-    COMPOUND_STRING("Wild {PKMN} will drop their hold\nitem after defeating them."),
+    COMPOUND_STRING("やせいの　もちものは　つかまえるか\nどろぼうで　しか　てに　はいらない"),
+    COMPOUND_STRING("やせいの　ポケモンを　たおすと\nもちものを　おとす"),
 };
 static const u8 *const sDesc_FrontierBans[] = {
-    COMPOUND_STRING("Powerful legendary {PKMN} are banned\nin the BATTLE FRONTIER. Default."),
-    COMPOUND_STRING("All legendaries are allowed to\nparticipate in the BATTLE FRONTIER."),
+    COMPOUND_STRING("つよい　でんせつは　バトル\nフロンティアで　つかえない"),
+    COMPOUND_STRING("すべての　でんせつが　バトル\nフロンティアに　でられる"),
 };
 static const u8 *const sDesc_ShinyColor[] = {
-    COMPOUND_STRING("Original shiny color palette for\nall {PKMN}. Default."),
-    COMPOUND_STRING("Some shiny {PKMN} have brand new\ncolor palettes."),
+    COMPOUND_STRING("いろちがいは　すべて\nもとの　いろ　です"),
+    COMPOUND_STRING("いちぶの　いろちがいが\nあたらしい　いろに　なる"),
 };
 static const u8 *const sDesc_FeaturesNext[] = {
-    COMPOUND_STRING("Continue to Randomizer options."),
+    COMPOUND_STRING("ランダムの　せっていへ　すすみます"),
 };
 
 static const struct ChallengeMenuItem sTabItems_Features[] = {
     [ITEM_FEATURES_RTC_TYPE] = {
-        .name         = COMPOUND_STRING("CLOCK TYPE"),
+        .name         = COMPOUND_STRING("とけい"),
         .descriptions = sDesc_RtcType,
         .numChoices   = 2,
         .choiceNames  = sChoices_RtcFake,
     },
     [ITEM_FEATURES_SHINY_CHANCE] = {
-        .name         = COMPOUND_STRING("SHINY CHANCE"),
+        .name         = COMPOUND_STRING("いろちがい"),
         .descriptions = sDesc_ShinyChance,
         .numChoices   = 5,
         .choiceNames  = sChoices_ShinyChance,
     },
     [ITEM_FEATURES_SHINY_COLOR] = {
-        .name         = COMPOUND_STRING("ALT SHINY"),
+        .name         = COMPOUND_STRING("べつのいろ"),
         .descriptions = sDesc_ShinyColor,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_FEATURES_ITEM_DROP] = {
-        .name         = COMPOUND_STRING("ITEM DROP"),
+        .name         = COMPOUND_STRING("もちもの"),
         .descriptions = sDesc_ItemDrop,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_FEATURES_FRONTIER_BANS] = {
-        .name         = COMPOUND_STRING("FRONTIER BANS"),
+        .name         = COMPOUND_STRING("フロンティア"),
         .descriptions = sDesc_FrontierBans,
         .numChoices   = 2,
         .choiceNames  = sChoices_BanUnban,
     },
     [ITEM_FEATURES_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("つぎへ"),
         .descriptions = sDesc_FeaturesNext,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -701,182 +701,182 @@ static const struct ChallengeMenuItem sTabItems_Features[] = {
 // =============================================================================
 
 static const u8 *const sDesc_RandomOffOn[] = {
-    COMPOUND_STRING("Game will not be randomized."),
-    COMPOUND_STRING("Play the game randomized.\nSettings below!"),
+    COMPOUND_STRING("ランダムに　しません"),
+    COMPOUND_STRING("ランダムで　あそびます\nせっていは　したへ！"),
 };
 static const u8 *const sDesc_RandomStarter[] = {
-    COMPOUND_STRING("Standard starter {PKMN}."),
-    COMPOUND_STRING("Randomize starter {PKMN}."),
+    COMPOUND_STRING("ふつうの　さいしょの　ポケモン"),
+    COMPOUND_STRING("さいしょの　ポケモンを　ランダムに"),
 };
 static const u8 *const sDesc_RandomWild[] = {
-    COMPOUND_STRING("Same wild encounter as in the\nbase game."),
-    COMPOUND_STRING("Randomize wild {PKMN}."),
+    COMPOUND_STRING("やせいの　ポケモンは\nもとの　ゲームと　おなじ"),
+    COMPOUND_STRING("やせいの　ポケモンを　ランダムに"),
 };
 static const u8 *const sDesc_RandomMapBased[] = {
-    COMPOUND_STRING("Wild encounters are fully random\nevery time."),
-    COMPOUND_STRING("Wild encounters are seeded per map.\nSame area always has the same {PKMN}."),
+    COMPOUND_STRING("やせいの　ポケモンは　まいかい\nまったくの　ランダム"),
+    COMPOUND_STRING("やせいの　ポケモンは　ばしょごとに\nきまり　いつも　おなじ"),
 };
 static const u8 *const sDesc_RandomTrainer[] = {
-    COMPOUND_STRING("Trainer will have their expected\nparty."),
-    COMPOUND_STRING("Randomize enemy trainer parties."),
+    COMPOUND_STRING("トレーナーの　てもちは\nもとの　まま"),
+    COMPOUND_STRING("トレーナーの　てもちを　ランダムに"),
 };
 static const u8 *const sDesc_RandomStatic[] = {
-    COMPOUND_STRING("Static encounters will be the same\nas in the base game."),
-    COMPOUND_STRING("Named {PKMN}, casino {PKMN}, roamers, and\nsome other special {PKMN} won't change."),
+    COMPOUND_STRING("とくべつな　ポケモンは\nもとの　ゲームと　おなじ"),
+    COMPOUND_STRING("なまえつき　コイン　はいかい　など\nとくべつな　ポケモンは　かわらない"),
 };
 static const u8 *const sDesc_RandomSimilar[] = {
-    COMPOUND_STRING("{PKMN} replaced with similar tiered\nones. Currently based on evo stages."),
-    COMPOUND_STRING("Distribution of {PKMN} not balanced\naround their strength!"),
+    COMPOUND_STRING("にた　つよさの　ポケモンに\nかわる　しんか　だんかいで　きめる"),
+    COMPOUND_STRING("つよさを　かんがえずに\nポケモンを　えらぶ！"),
 };
 static const u8 *const sDesc_RandomLegendaries[] = {
-    COMPOUND_STRING("Legendary {PKMN} will not be\nincluded and randomized."),
-    COMPOUND_STRING("Include legendary {PKMN} in\nrandomization!"),
+    COMPOUND_STRING("でんせつの　ポケモンは\nランダムに　ふくめない"),
+    COMPOUND_STRING("でんせつの　ポケモンも\nランダムに　ふくめる！"),
 };
 static const u8 *const sDesc_RandomGenScope[] = {
-    COMPOUND_STRING("Randomize into {PKMN} from every\ngeneration."),
-    COMPOUND_STRING("Only GEN 1-3 {PKMN} and their\ncross-gen evolutions."),
+    COMPOUND_STRING("すべての　せだいの\nポケモンから　えらぶ"),
+    COMPOUND_STRING("だい1-3せだいの　ポケモンと\nその　しんかけい　だけ"),
 };
 static const u8 *const sDesc_RandomType[] = {
-    COMPOUND_STRING("{PKMN} types stay the same as in\nthe base game."),
-    COMPOUND_STRING("Randomize all {PKMN} types."),
+    COMPOUND_STRING("ポケモンの　タイプは\nもとの　まま"),
+    COMPOUND_STRING("ポケモンの　タイプを　ランダムに"),
 };
 static const u8 *const sDesc_RandomMoves[] = {
-    COMPOUND_STRING("{PKMN} moves stay the same as in\nthe base game."),
-    COMPOUND_STRING("Randomize all {PKMN} moves."),
+    COMPOUND_STRING("ポケモンの　わざは\nもとの　まま"),
+    COMPOUND_STRING("ポケモンの　わざを　ランダムに"),
 };
 static const u8 *const sDesc_RandomAbilities[] = {
-    COMPOUND_STRING("{PKMN} abilities stay the same as\nin the base game."),
-    COMPOUND_STRING("Randomize all {PKMN} abilities."),
+    COMPOUND_STRING("ポケモンの　とくせいは\nもとの　まま"),
+    COMPOUND_STRING("ポケモンの　とくせいを　ランダムに"),
 };
 static const u8 *const sDesc_RandomEvolutions[] = {
-    COMPOUND_STRING("{PKMN} evolutions stay the same as\nin the base game."),
-    COMPOUND_STRING("Randomize all {PKMN} evolutions."),
+    COMPOUND_STRING("ポケモンの　しんかは\nもとの　まま"),
+    COMPOUND_STRING("ポケモンの　しんかを　ランダムに"),
 };
 static const u8 *const sDesc_RandomEvoMethods[] = {
-    COMPOUND_STRING("The {PKMN} that can potentially\nevolve are unchanged."),
-    COMPOUND_STRING("Randomize evolution lines. Allows\nnew evolution lines to occur!"),
+    COMPOUND_STRING("しんか　できる　ポケモンは\nかわらない"),
+    COMPOUND_STRING("しんかけいを　ランダムに\nあたらしい　しんかけいが　できる！"),
 };
 static const u8 *const sDesc_RandomTypeEffec[] = {
-    COMPOUND_STRING("Type effectiveness chart will remain\nthe same as in the base game."),
-    COMPOUND_STRING("Randomize type effectiveness.\nWARNING: CAN BE BUGGY!"),
+    COMPOUND_STRING("タイプの　あいしょうは\nもとの　まま"),
+    COMPOUND_STRING("タイプの　あいしょうを　ランダムに\nちゅうい:バグが　でるかも！"),
 };
 static const u8 *const sDesc_RandomItems[] = {
-    COMPOUND_STRING("All found or received items are the\nsame as in the base game."),
-    COMPOUND_STRING("Randomize found, hidden and received\nitems. KEY items are excluded!"),
+    COMPOUND_STRING("ひろう　もらう　どうぐは\nもとの　まま"),
+    COMPOUND_STRING("ひろう　かくれた　もらう　どうぐを\nランダムに　だいじなものは　のぞく"),
 };
 static const u8 *const sDesc_RandomChaos[] = {
-    COMPOUND_STRING("Chaos mode disabled."),
-    COMPOUND_STRING("Every above chosen option will be\nvery chaotic. NOT recommended!"),
+    COMPOUND_STRING("カオスモードは　オフ"),
+    COMPOUND_STRING("うえの　せっていが　すべて\nめちゃくちゃに　なる　おすすめしない！"),
 };
 static const u8 *const sDesc_RandomNext[] = {
-    COMPOUND_STRING("Continue to Nuzlocke options."),
+    COMPOUND_STRING("ナズロックの　せっていへ　すすみます"),
 };
 
 static const struct ChallengeMenuItem sTabItems_Randomizer[] = {
     [ITEM_RANDOM_OFF_ON] = {
-        .name         = COMPOUND_STRING("RANDOMIZER"),
+        .name         = COMPOUND_STRING("ランダム"),
         .descriptions = sDesc_RandomOffOn,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_STARTER] = {
-        .name         = COMPOUND_STRING("STARTER {PKMN}"),
+        .name         = COMPOUND_STRING("さいしょのポケモン"),
         .descriptions = sDesc_RandomStarter,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_WILD_PKMN] = {
-        .name         = COMPOUND_STRING("WILD {PKMN}"),
+        .name         = COMPOUND_STRING("やせいポケモン"),
         .descriptions = sDesc_RandomWild,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_MAP_BASED] = {
-        .name         = COMPOUND_STRING("MAP SEEDED"),
+        .name         = COMPOUND_STRING("ばしょごと"),
         .descriptions = sDesc_RandomMapBased,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_RANDOM_TRAINER] = {
-        .name         = COMPOUND_STRING("TRAINER"),
+        .name         = COMPOUND_STRING("トレーナー"),
         .descriptions = sDesc_RandomTrainer,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_STATIC] = {
-        .name         = COMPOUND_STRING("STATIC {PKMN}"),
+        .name         = COMPOUND_STRING("とくべつポケモン"),
         .descriptions = sDesc_RandomStatic,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_SIMILAR] = {
-        .name         = COMPOUND_STRING("BALANCING"),
+        .name         = COMPOUND_STRING("バランス"),
         .descriptions = sDesc_RandomSimilar,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_RANDOM_LEGENDARIES] = {
-        .name         = COMPOUND_STRING("LEGENDARIES"),
+        .name         = COMPOUND_STRING("でんせつ"),
         .descriptions = sDesc_RandomLegendaries,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_RANDOM_GEN_SCOPE] = {
-        .name         = COMPOUND_STRING("GEN SCOPE"),
+        .name         = COMPOUND_STRING("せだい"),
         .descriptions = sDesc_RandomGenScope,
         .numChoices   = 2,
         .choiceNames  = sChoices_GenScope,
     },
     [ITEM_RANDOM_TYPE] = {
-        .name         = COMPOUND_STRING("TYPE"),
+        .name         = COMPOUND_STRING("タイプ"),
         .descriptions = sDesc_RandomType,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_MOVES] = {
-        .name         = COMPOUND_STRING("MOVES"),
+        .name         = COMPOUND_STRING("わざ"),
         .descriptions = sDesc_RandomMoves,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_ABILITIES] = {
-        .name         = COMPOUND_STRING("ABILITIES"),
+        .name         = COMPOUND_STRING("とくせい"),
         .descriptions = sDesc_RandomAbilities,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_EVOLUTIONS] = {
-        .name         = COMPOUND_STRING("EVOLUTIONS"),
+        .name         = COMPOUND_STRING("しんか"),
         .descriptions = sDesc_RandomEvolutions,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_EVO_METHODS] = {
-        .name         = COMPOUND_STRING("EVO LINES"),
+        .name         = COMPOUND_STRING("しんかけい"),
         .descriptions = sDesc_RandomEvoMethods,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_TYPE_EFFEC] = {
-        .name         = COMPOUND_STRING("EFFECTIVENESS"),
+        .name         = COMPOUND_STRING("あいしょう"),
         .descriptions = sDesc_RandomTypeEffec,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_ITEMS] = {
-        .name         = COMPOUND_STRING("ITEMS"),
+        .name         = COMPOUND_STRING("どうぐ"),
         .descriptions = sDesc_RandomItems,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffRandom,
     },
     [ITEM_RANDOM_CHAOS] = {
-        .name         = COMPOUND_STRING("CHAOS MODE"),
+        .name         = COMPOUND_STRING("カオスモード"),
         .descriptions = sDesc_RandomChaos,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffChaos,
     },
     [ITEM_RANDOM_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("つぎへ"),
         .descriptions = sDesc_RandomNext,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -888,74 +888,74 @@ static const struct ChallengeMenuItem sTabItems_Randomizer[] = {
 // =============================================================================
 
 static const u8 *const sDesc_Nuzlocke[] = {
-    COMPOUND_STRING("Nuzlocke mode is disabled."),
-    COMPOUND_STRING("Fainted {PKMN} can't be used anymore!\nNo more rules are enforced."),
-    COMPOUND_STRING("One catch per route! Fainted {PKMN}\ncan't be used anymore."),
-    COMPOUND_STRING("Same rules as NORMAL but also\ndeletes SAVE on battle loss!"),
+    COMPOUND_STRING("ナズロックモードは　オフ"),
+    COMPOUND_STRING("ひんしの　ポケモンは　つかえない！\nほかの　ルールは　なし"),
+    COMPOUND_STRING("1どうろ　1ぴき！　ひんしの\nポケモンは　つかえない"),
+    COMPOUND_STRING("ふつうと　おなじ　ルール　さらに\nまけると　レポートが　きえる！"),
 };
 static const u8 *const sDesc_SpeciesClause[] = {
-    COMPOUND_STRING("Only not prior caught {PKMN} count\nas first encounter. RECOMMENDED!"),
-    COMPOUND_STRING("The player always has to catch the\nfirst {PKMN} per route."),
+    COMPOUND_STRING("まだ　つかまえて　いない　ポケモン\nだけ　さいしょの　であいに　なる"),
+    COMPOUND_STRING("どうろの　さいしょの　ポケモンを\nかならず　つかまえる"),
 };
 static const u8 *const sDesc_ShinyClause[] = {
-    COMPOUND_STRING("The player can always catch shiny\n{PKMN}. RECOMMENDED!"),
-    COMPOUND_STRING("The player can only catch a shiny\n{PKMN} if it's the first encounter."),
+    COMPOUND_STRING("いろちがいは　いつでも\nつかまえられる　おすすめ！"),
+    COMPOUND_STRING("いろちがいは　さいしょの　であい\nの　ときだけ　つかまえられる"),
 };
 static const u8 *const sDesc_Nicknaming[] = {
-    COMPOUND_STRING("Forces the player to nickname every\n{PKMN}. RECOMMENDED!"),
-    COMPOUND_STRING("Nicknames are optional."),
+    COMPOUND_STRING("すべての　ポケモンに　ニックネームを\nつける　おすすめ！"),
+    COMPOUND_STRING("ニックネームは　じゆう"),
 };
 static const u8 *const sDesc_Deletion[] = {
-    COMPOUND_STRING("Fainted {PKMN} are sent to the PC\nafter battle and can't be retrieved."),
-    COMPOUND_STRING("Fainted {PKMN} are released after\nbattle!"),
+    COMPOUND_STRING("ひんしの　ポケモンは　バトルの　あと\nパソコンへ　おくられ　もどせない"),
+    COMPOUND_STRING("ひんしの　ポケモンは　バトルの\nあと　にがされる！"),
 };
 static const u8 *const sDesc_RareCandy[] = {
-    COMPOUND_STRING("Infinite Rare Candy will be in the\nplayer's PC at game start."),
-    COMPOUND_STRING("Player will not have access to\nInfinite Rare Candy."),
+    COMPOUND_STRING("はじめから　パソコンに\nむげんの　ふしぎなアメが　ある"),
+    COMPOUND_STRING("むげんの　ふしぎなアメは\nつかえない"),
 };
 static const u8 *const sDesc_NuzlockeNext[] = {
-    COMPOUND_STRING("Continue to difficulty options."),
+    COMPOUND_STRING("なんいどの　せっていへ　すすみます"),
 };
 
 static const struct ChallengeMenuItem sTabItems_Nuzlocke[] = {
     [ITEM_NUZLOCKE_NUZLOCKE] = {
-        .name         = COMPOUND_STRING("NUZLOCKE"),
+        .name         = COMPOUND_STRING("ナズロック"),
         .descriptions = sDesc_Nuzlocke,
         .numChoices   = 4,
         .choiceNames  = sChoices_Nuzlocke,
     },
     [ITEM_NUZLOCKE_SPECIES_CLAUSE] = {
-        .name         = COMPOUND_STRING("DUPES CLAUSE"),
+        .name         = COMPOUND_STRING("かぶりきんし"),
         .descriptions = sDesc_SpeciesClause,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_NUZLOCKE_SHINY_CLAUSE] = {
-        .name         = COMPOUND_STRING("SHINY CLAUSE"),
+        .name         = COMPOUND_STRING("いろちがい"),
         .descriptions = sDesc_ShinyClause,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_NUZLOCKE_NICKNAMING] = {
-        .name         = COMPOUND_STRING("NICKNAMES"),
+        .name         = COMPOUND_STRING("ニックネーム"),
         .descriptions = sDesc_Nicknaming,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_NUZLOCKE_DELETION] = {
-        .name         = COMPOUND_STRING("FAINTING"),
+        .name         = COMPOUND_STRING("ひんし"),
         .descriptions = sDesc_Deletion,
         .numChoices   = 2,
         .choiceNames  = sChoices_CemeteryRelease,
     },
     [ITEM_NUZLOCKE_RARE_CANDY] = {
-        .name         = COMPOUND_STRING("INF. RARE CANDY"),
+        .name         = COMPOUND_STRING("むげんアメ"),
         .descriptions = sDesc_RareCandy,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_NUZLOCKE_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("つぎへ"),
         .descriptions = sDesc_NuzlockeNext,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -966,131 +966,131 @@ static const struct ChallengeMenuItem sTabItems_Nuzlocke[] = {
 // DIFFICULTY descriptions + table
 // =============================================================================
 
-static const u8 sText_Desc_PartyLimit[] = _("Limits the amount of {PKMN} in the\nparty. 1 has visual bugs in DOUBLES.");
+static const u8 sText_Desc_PartyLimit[] = _("てもちの　かずを　せいげん\n1は　ダブルで　ひょうじが　みだれる");
 static const u8 *const sDesc_PartyLimit[] = {
     sText_Desc_PartyLimit, sText_Desc_PartyLimit, sText_Desc_PartyLimit,
     sText_Desc_PartyLimit, sText_Desc_PartyLimit, sText_Desc_PartyLimit,
 };
 static const u8 *const sDesc_LevelCap[] = {
-    COMPOUND_STRING("No level cap. Overleveling possible."),
-    COMPOUND_STRING("Maximum level is based on the next\ngym's highest {PKMN} level."),
-    COMPOUND_STRING("Maximum level is based on the next\ngym's lowest {PKMN} level."),
+    COMPOUND_STRING("レベルの　じょうげん　なし"),
+    COMPOUND_STRING("さいこうレベルは　つぎの　ジムの\nいちばん　たかい　レベル"),
+    COMPOUND_STRING("さいこうレベルは　つぎの　ジムの\nいちばん　ひくい　レベル"),
 };
 static const u8 *const sDesc_ExpMult[] = {
-    COMPOUND_STRING("{PKMN} gain normal EXP. Points.\nStacks with HARD MODE EXP."),
-    COMPOUND_STRING("{PKMN} gain 50 percent more EXP.\nPoints! Stacks with HARD MODE EXP."),
-    COMPOUND_STRING("{PKMN} gain double EXP. Points!\nStacks with HARD MODE EXP."),
-    COMPOUND_STRING("{PKMN} gain ZERO EXP. Points!!!\nApplies to HARD MODE EXP. as well."),
+    COMPOUND_STRING("ふつうに　けいけんちを　もらえる\nハードモードの　けいけんちと　かさなる"),
+    COMPOUND_STRING("けいけんちが　1.5ばい！\nハードモードの　けいけんちと　かさなる"),
+    COMPOUND_STRING("けいけんちが　2ばい！\nハードモードの　けいけんちと　かさなる"),
+    COMPOUND_STRING("けいけんちが　まったく　もらえない！\nハードモードの　ぶんも　なし"),
 };
 static const u8 *const sDesc_ItemPlayer[] = {
-    COMPOUND_STRING("The player can use battle items."),
-    COMPOUND_STRING("The player can NOT use battle items.\nHold items are allowed!"),
+    COMPOUND_STRING("バトルで　どうぐを　つかえる"),
+    COMPOUND_STRING("バトルで　どうぐを　つかえない\nもちものは　だいじょうぶ！"),
 };
 static const u8 *const sDesc_ItemTrainer[] = {
-    COMPOUND_STRING("Enemy trainers can use battle items."),
-    COMPOUND_STRING("Enemy trainers can NOT use battle\nitems."),
+    COMPOUND_STRING("てきトレーナーは\nどうぐを　つかう"),
+    COMPOUND_STRING("てきトレーナーは\nどうぐを　つかわない"),
 };
 static const u8 *const sDesc_NoEVs[] = {
-    COMPOUND_STRING("The player's {PKMN} gain effort\nvalues as expected."),
-    COMPOUND_STRING("The player's {PKMN} do NOT gain any\neffort values!"),
+    COMPOUND_STRING("ポケモンは　ふつうに\nどりょくちを　もらえる"),
+    COMPOUND_STRING("ポケモンは　どりょくちを\nまったく　もらえない！"),
 };
 static const u8 *const sDesc_ScalingIVs[] = {
-    COMPOUND_STRING("The {PKMN} of enemy Trainer have\nthe expected IVs."),
-    COMPOUND_STRING("The IVs of Trainer {PKMN} increase\nwith gym badges!"),
-    COMPOUND_STRING("All Trainer {PKMN} have perfect IVs!"),
+    COMPOUND_STRING("てきトレーナーの　ポケモンは\nふつうの　こたいち"),
+    COMPOUND_STRING("てきトレーナーの　こたいちが\nバッジの　かずで　あがる！"),
+    COMPOUND_STRING("てきトレーナーの　ポケモンは\nすべて　さいこうの　こたいち！"),
 };
 static const u8 *const sDesc_ScalingEVs[] = {
-    COMPOUND_STRING("The {PKMN} of enemy Trainer have\nno EVs."),
-    COMPOUND_STRING("The EVs of Trainer {PKMN} increase\nwith gym badges!"),
-    COMPOUND_STRING("All Trainer {PKMN} have high EVs!"),
-    COMPOUND_STRING("All Trainer {PKMN} have 252 EVs!\nVery Hard!"),
+    COMPOUND_STRING("てきトレーナーの　ポケモンは\nどりょくち　なし"),
+    COMPOUND_STRING("てきトレーナーの　どりょくちが\nバッジの　かずで　あがる！"),
+    COMPOUND_STRING("てきトレーナーの　ポケモンは\nすべて　どりょくちが　たかい！"),
+    COMPOUND_STRING("てきトレーナーの　ポケモンは\nどりょくち252！　とても　むずかしい！"),
 };
 static const u8 *const sDesc_MaxPartyIVs[] = {
-    COMPOUND_STRING("Your {PKMN} have the expected IVs\n(between 0 and 31)."),
-    COMPOUND_STRING("The IVs of your {PKMN} are set\nalways to the maximum (31)."),
-    COMPOUND_STRING("IVs are set between 30 and 31 to\nallow different Hidden Powers."),
+    COMPOUND_STRING("じぶんの　ポケモンは\nふつうの　こたいち　0-31"),
+    COMPOUND_STRING("じぶんの　ポケモンの　こたいちは\nいつも　さいこう　31"),
+    COMPOUND_STRING("こたいちは　30か　31\nめざめるパワーを　えらべる"),
 };
 static const u8 *const sDesc_LessEscapes[] = {
-    COMPOUND_STRING("The player can easily run away from\nbattles, as usual."),
-    COMPOUND_STRING("The player can't easily run away\nfrom battles. Use repels!"),
+    COMPOUND_STRING("いつもどおり　バトルから\nかんたんに　にげられる"),
+    COMPOUND_STRING("バトルから　にげにくい\nむしよけスプレーを　つかおう！"),
 };
 static const u8 *const sDesc_EscapeRopeDig[] = {
-    COMPOUND_STRING("ESCAPE ROPE and DIG can be used to\nexit dungeons."),
-    COMPOUND_STRING("ESCAPE ROPE and DIG can't be used\nto exit dungeons."),
+    COMPOUND_STRING("あなぬけのヒモと　あなをほるで\nダンジョンから　でられる"),
+    COMPOUND_STRING("あなぬけのヒモと　あなをほるで\nダンジョンから　でられない"),
 };
 static const u8 *const sDesc_DifficultyNext[] = {
-    COMPOUND_STRING("Continue to challenge options."),
+    COMPOUND_STRING("ちょうせんの　せっていへ　すすみます"),
 };
 
 static const struct ChallengeMenuItem sTabItems_Difficulty[] = {
     [ITEM_DIFFICULTY_PARTY_LIMIT] = {
-        .name         = COMPOUND_STRING("PARTY LIMIT"),
+        .name         = COMPOUND_STRING("てもちせいげん"),
         .descriptions = sDesc_PartyLimit,
         .numChoices   = 6,
         .choiceNames  = sChoices_PartyLimit,
     },
     [ITEM_DIFFICULTY_LEVEL_CAP] = {
-        .name         = COMPOUND_STRING("LEVEL CAP"),
+        .name         = COMPOUND_STRING("レベルせいげん"),
         .descriptions = sDesc_LevelCap,
         .numChoices   = 3,
         .choiceNames  = sChoices_LevelCap,
     },
     [ITEM_DIFFICULTY_EXP_MULTIPLIER] = {
-        .name         = COMPOUND_STRING("EXP. MULTIPLIER"),
+        .name         = COMPOUND_STRING("けいけんちばいりつ"),
         .descriptions = sDesc_ExpMult,
         .numChoices   = 4,
         .choiceNames  = sChoices_ExpMult,
     },
     [ITEM_DIFFICULTY_ITEM_PLAYER] = {
-        .name         = COMPOUND_STRING("PLAYER ITEMS"),
+        .name         = COMPOUND_STRING("じぶんのどうぐ"),
         .descriptions = sDesc_ItemPlayer,
         .numChoices   = 2,
         .choiceNames  = sChoices_YesNo,
     },
     [ITEM_DIFFICULTY_ITEM_TRAINER] = {
-        .name         = COMPOUND_STRING("TRAINER ITEMS"),
+        .name         = COMPOUND_STRING("てきのどうぐ"),
         .descriptions = sDesc_ItemTrainer,
         .numChoices   = 2,
         .choiceNames  = sChoices_YesNo,
     },
     [ITEM_DIFFICULTY_MAX_PARTY_IVS] = {
-        .name         = COMPOUND_STRING("PLAYER IVs"),
+        .name         = COMPOUND_STRING("じぶんのこたいち"),
         .descriptions = sDesc_MaxPartyIVs,
         .numChoices   = 3,
         .choiceNames  = sChoices_PlayerIVs,
     },
     [ITEM_DIFFICULTY_SCALING_IVS] = {
-        .name         = COMPOUND_STRING("TRAINER IVs"),
+        .name         = COMPOUND_STRING("てきのこたいち"),
         .descriptions = sDesc_ScalingIVs,
         .numChoices   = 3,
         .choiceNames  = sChoices_TrainerIVs,
     },
     [ITEM_DIFFICULTY_NO_EVS] = {
-        .name         = COMPOUND_STRING("PLAYER EVs"),
+        .name         = COMPOUND_STRING("じぶんのどりょくち"),
         .descriptions = sDesc_NoEVs,
         .numChoices   = 2,
         .choiceNames  = sChoices_YesNo,
     },
     [ITEM_DIFFICULTY_SCALING_EVS] = {
-        .name         = COMPOUND_STRING("TRAINER EVs"),
+        .name         = COMPOUND_STRING("てきのどりょくち"),
         .descriptions = sDesc_ScalingEVs,
         .numChoices   = 4,
         .choiceNames  = sChoices_TrainerEVs,
     },
     [ITEM_DIFFICULTY_LESS_ESCAPES] = {
-        .name         = COMPOUND_STRING("LESS ESCAPES"),
+        .name         = COMPOUND_STRING("にげにくい"),
         .descriptions = sDesc_LessEscapes,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_DIFFICULTY_ESCAPE_ROPE_DIG] = {
-        .name         = COMPOUND_STRING("ESC. ROPE / DIG"),
+        .name         = COMPOUND_STRING("あなぬけ"),
         .descriptions = sDesc_EscapeRopeDig,
         .numChoices   = 2,
         .choiceNames  = sChoices_YesNo,
     },
     [ITEM_DIFFICULTY_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("つぎへ"),
         .descriptions = sDesc_DifficultyNext,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -1102,25 +1102,25 @@ static const struct ChallengeMenuItem sTabItems_Difficulty[] = {
 // =============================================================================
 
 static const u8 *const sDesc_Pokecenter[] = {
-    COMPOUND_STRING("The player can visit {PKMN}centers\nand other locations to heal."),
-    COMPOUND_STRING("The player CAN'T visit {PKMN}centers\nor other locations to heal."),
+    COMPOUND_STRING("ポケモンセンター　などで\nかいふく　できる"),
+    COMPOUND_STRING("ポケモンセンター　などで\nかいふく　できない"),
 };
 static const u8 *const sDesc_Expensive[] = {
-    COMPOUND_STRING("Everything has the usual cost."),
-    COMPOUND_STRING("Everything is 5 times more\nexpensive!"),
-    COMPOUND_STRING("Everything is 10 times more\nexpensive! Good ol' capitalism."),
-    COMPOUND_STRING("Everything is 50 times more\nexpensive! Ultra capitalism!"),
+    COMPOUND_STRING("ねだんは　いつもどおり"),
+    COMPOUND_STRING("ねだんが　すべて　5ばい！"),
+    COMPOUND_STRING("ねだんが　すべて　10ばい！"),
+    COMPOUND_STRING("ねだんが　すべて　50ばい！"),
 };
 static const u8 *const sDesc_EvoLimit[] = {
-    COMPOUND_STRING("{PKMN} evolve as expected."),
-    COMPOUND_STRING("{PKMN} can only evolve into their\nfirst evolution."),
-    COMPOUND_STRING("{PKMN} can NOT evolve at all!"),
+    COMPOUND_STRING("ポケモンは　ふつうに　しんか　する"),
+    COMPOUND_STRING("ポケモンは　1だんかい　めまで\nしか　しんか　できない"),
+    COMPOUND_STRING("ポケモンは　まったく\nしんか　できない！"),
 };
 #define NUM_ONE_TYPE_CHOICES 20
 #define ONE_TYPE_OFF 31
 #define EVO_LINE_TYPE_SEARCH_DEPTH 4 // deepest evolution chain worth walking
 
-static const u8 sText_Desc_OneType[] = _("Allow only one {PKMN} type the\nplayer can capture and use.");
+static const u8 sText_Desc_OneType[] = _("つかまえて　つかえる\nポケモンの　タイプを　1つに　する");
 static const u8 *const sDesc_OneType[] = {
     sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType,
     sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType,
@@ -1129,65 +1129,65 @@ static const u8 *const sDesc_OneType[] = {
     sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType,
 };
 static const u8 *const sDesc_BstEqualizer[] = {
-    COMPOUND_STRING("All {PKMN} have their original\nbase stats."),
-    COMPOUND_STRING("{PKMN} stats are calculated with\n100 of each base stat."),
-    COMPOUND_STRING("{PKMN} stats are calculated with\n255 of each base stat."),
-    COMPOUND_STRING("{PKMN} stats are calculated with\n500 of each base stat."),
+    COMPOUND_STRING("ポケモンの　しゅぞくちは\nもとの　まま"),
+    COMPOUND_STRING("すべての　しゅぞくちを　100として\nのうりょくを　けいさん"),
+    COMPOUND_STRING("すべての　しゅぞくちを　255として\nのうりょくを　けいさん"),
+    COMPOUND_STRING("すべての　しゅぞくちを　500として\nのうりょくを　けいさん"),
 };
 static const u8 *const sDesc_Mirror[] = {
-    COMPOUND_STRING("The player uses their own party."),
-    COMPOUND_STRING("In Trainer battles, the player gets\na copy of the enemy's party!"),
+    COMPOUND_STRING("じぶんの　てもちで　たたかう"),
+    COMPOUND_STRING("トレーナーせんでは　あいての\nてもちの　コピーを　つかう！"),
 };
 static const u8 *const sDesc_MirrorThief[] = {
-    COMPOUND_STRING("The player gets their own party\nback after battles."),
-    COMPOUND_STRING("The player keeps the enemies party\nafter battle!"),
+    COMPOUND_STRING("バトルの　あと　じぶんの\nてもちに　もどる"),
+    COMPOUND_STRING("バトルの　あとも　あいての\nてもちを　もらう！"),
 };
 
 static const struct ChallengeMenuItem sTabItems_Challenges[] = {
     [ITEM_CHALLENGES_POKECENTER] = {
-        .name         = COMPOUND_STRING("{PKMN}CENTER"),
+        .name         = COMPOUND_STRING("ポケセン"),
         .descriptions = sDesc_Pokecenter,
         .numChoices   = 2,
         .choiceNames  = sChoices_PkmnCenter,
     },
     [ITEM_CHALLENGES_EXPENSIVE] = {
-        .name         = COMPOUND_STRING("ULTRA EXPENSIVE!"),
+        .name         = COMPOUND_STRING("ちょうたかい！"),
         .descriptions = sDesc_Expensive,
         .numChoices   = 4,
         .choiceNames  = sChoices_Expensive,
     },
     [ITEM_CHALLENGES_EVO_LIMIT] = {
-        .name         = COMPOUND_STRING("EVO LIMIT"),
+        .name         = COMPOUND_STRING("しんかせいげん"),
         .descriptions = sDesc_EvoLimit,
         .numChoices   = 3,
         .choiceNames  = sChoices_EvoLimit,
     },
     [ITEM_CHALLENGES_ONE_TYPE] = {
-        .name         = COMPOUND_STRING("ONE TYPE ONLY"),
+        .name         = COMPOUND_STRING("1タイプのみ"),
         .descriptions = sDesc_OneType,
         .numChoices   = NUM_ONE_TYPE_CHOICES,
         .choiceNames  = NULL,
     },
     [ITEM_CHALLENGES_BST_EQUALIZER] = {
-        .name         = COMPOUND_STRING("BST EQUALIZER"),
+        .name         = COMPOUND_STRING("しゅぞくち"),
         .descriptions = sDesc_BstEqualizer,
         .numChoices   = 4,
         .choiceNames  = sChoices_BstEqual,
     },
     [ITEM_CHALLENGES_MIRROR] = {
-        .name         = COMPOUND_STRING("MIRROR MODE"),
+        .name         = COMPOUND_STRING("ミラーモード"),
         .descriptions = sDesc_Mirror,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_CHALLENGES_MIRROR_THIEF] = {
-        .name         = COMPOUND_STRING("MIRROR THIEF"),
+        .name         = COMPOUND_STRING("ミラーどろぼう"),
         .descriptions = sDesc_MirrorThief,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_CHALLENGES_SAVE] = {
-        .name         = COMPOUND_STRING("SAVE"),
+        .name         = COMPOUND_STRING("セーブ"),
         .descriptions = sDesc_SaveExit,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -1206,12 +1206,12 @@ struct TabDef
 };
 
 static const struct TabDef sTabs[TAB_COUNT] = {
-    [TAB_MODE]       = { COMPOUND_STRING("MODE"),       sTabItems_Mode,       ITEM_MODE_COUNT },
-    [TAB_FEATURES]   = { COMPOUND_STRING("FEATURES"),   sTabItems_Features,   ITEM_FEATURES_COUNT },
-    [TAB_RANDOMIZER] = { COMPOUND_STRING("RANDOMIZER"), sTabItems_Randomizer, ITEM_RANDOM_COUNT },
-    [TAB_NUZLOCKE]   = { COMPOUND_STRING("NUZLOCKE"),   sTabItems_Nuzlocke,   ITEM_NUZLOCKE_COUNT },
-    [TAB_DIFFICULTY] = { COMPOUND_STRING("DIFFICULTY"),  sTabItems_Difficulty, ITEM_DIFFICULTY_COUNT },
-    [TAB_CHALLENGES] = { COMPOUND_STRING("CHALLENGES"), sTabItems_Challenges, ITEM_CHALLENGES_COUNT },
+    [TAB_MODE]       = { COMPOUND_STRING("モード"),       sTabItems_Mode,       ITEM_MODE_COUNT },
+    [TAB_FEATURES]   = { COMPOUND_STRING("きのう"),   sTabItems_Features,   ITEM_FEATURES_COUNT },
+    [TAB_RANDOMIZER] = { COMPOUND_STRING("ランダム"), sTabItems_Randomizer, ITEM_RANDOM_COUNT },
+    [TAB_NUZLOCKE]   = { COMPOUND_STRING("ナズロック"),   sTabItems_Nuzlocke,   ITEM_NUZLOCKE_COUNT },
+    [TAB_DIFFICULTY] = { COMPOUND_STRING("なんいど"),  sTabItems_Difficulty, ITEM_DIFFICULTY_COUNT },
+    [TAB_CHALLENGES] = { COMPOUND_STRING("ちょうせん"), sTabItems_Challenges, ITEM_CHALLENGES_COUNT },
 };
 
 // =============================================================================
@@ -1508,8 +1508,8 @@ static void ChallengeMenu_ItemPrintFunc(u8 windowId, u32 itemId, u8 y)
     {
         u8 n = sel;
         const u8 *text;
-        static const u8 sText_Random[] = _("RANDOM");
-        static const u8 sText_Off[] = _("OFF");
+        static const u8 sText_Random[] = _("ランダム");
+        static const u8 sText_Off[] = _("オフ");
         if (n > 18)
             text = sText_Off;
         else if (n == 18)

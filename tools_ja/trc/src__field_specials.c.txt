@@ -1,0 +1,196 @@
+@@0
+おにいさん
+@@1
+おねえさん
+@@2
+むすこ
+@@3
+むすめ
+@@4
+99かい　いじょう
+@@5
+1ぷん　いじょう
+@@6
+びょう
+@@7
+かい
+@@8
+ミクリ
+@@9
+ダイゴ
+@@10
+トウキ
+@@11
+ナギ
+@@12
+フヨウ
+@@13
+プリム
+@@19
+きれいないす
+@@20
+きれいなつくえ
+@@98
+サンプルコード
+@@99
+いま:
+@@21
+0てん
+@@22
+10てん
+@@23
+20てん
+@@24
+30てん
+@@25
+40てん
+@@26
+50てん
+@@27
+60てん
+@@28
+70てん
+@@29
+80てん
+@@30
+90てん
+@@31
+100てん
+@@14
+あおいビードロ
+@@15
+きいろビードロ
+@@16
+あかいビードロ
+@@17
+しろいビードロ
+@@18
+くろいビードロ
+@@33
+ピッピポスター{CLEAR_TO 0x5E}16BP
+@@34
+ピッピクッション{CLEAR_TO 0x5E}32BP
+@@35
+ムチュールドール{CLEAR_TO 0x5E}32BP
+@@36
+トゲピードール{CLEAR_TO 0x5E}48BP
+@@37
+ニャースドール{CLEAR_TO 0x5E}48BP
+@@38
+ピッピドール{CLEAR_TO 0x5E}48BP
+@@39
+メタモンドール{CLEAR_TO 0x5E}48BP
+@@40
+ヒノアラシドール{CLEAR_TO 0x5E}80BP
+@@41
+チコリータドール{CLEAR_TO 0x5E}80BP
+@@42
+ワニノコドール{CLEAR_TO 0x5E}80BP
+@@43
+ラプラスドール{CLEAR_TO 0x58}128BP
+@@44
+カビゴンドール{CLEAR_TO 0x58}128BP
+@@45
+フシギバナドール{CLEAR_TO 0x58}256BP
+@@46
+リザードンドール{CLEAR_TO 0x58}256BP
+@@47
+カメックスドール{CLEAR_TO 0x58}256BP
+@@48
+タウリン{CLEAR_TO 0x64}1BP
+@@49
+リゾチウム{CLEAR_TO 0x64}1BP
+@@50
+ブロムヘキシン{CLEAR_TO 0x64}1BP
+@@51
+キトサン{CLEAR_TO 0x64}1BP
+@@52
+インドメタシン{CLEAR_TO 0x64}1BP
+@@53
+マックスアップ{CLEAR_TO 0x64}1BP
+@@54
+たべのこし{CLEAR_TO 0x5E}48BP
+@@55
+しろいハーブ{CLEAR_TO 0x5E}48BP
+@@56
+せんせいのツメ{CLEAR_TO 0x5E}48BP
+@@57
+メンタルハーブ{CLEAR_TO 0x5E}48BP
+@@58
+ひかりのこな{CLEAR_TO 0x5E}64BP
+@@59
+こだわりハチマキ{CLEAR_TO 0x5E}64BP
+@@61
+きあいのハチマキ{CLEAR_TO 0x5E}64BP
+@@62
+ピントレンズ{CLEAR_TO 0x5E}64BP
+@@63
+ちからのこな{CLEAR_TO 114}{FONT_SMALL}50
+@@64
+ちからのねっこ{CLEAR_TO 114}{FONT_SMALL}80
+@@65
+ばんのうごな{CLEAR_TO 114}{FONT_SMALL}50
+@@66
+ふっかつそう{CLEAR_TO 108}{FONT_SMALL}300
+@@67
+タウリン{CLEAR_TO 99}{FONT_SMALL}1000
+@@68
+ブロムヘキシン{CLEAR_TO 99}{FONT_SMALL}1000
+@@69
+インドメタシン{CLEAR_TO 99}{FONT_SMALL}1000
+@@70
+リゾチウム{CLEAR_TO 99}{FONT_SMALL}1000
+@@71
+キトサン{CLEAR_TO 99}{FONT_SMALL}1000
+@@72
+マックスアップ{CLEAR_TO 99}{FONT_SMALL}1000
+@@73
+ポイントアップ{CLEAR_TO 99}{FONT_SMALL}3000
+@@74
+タマゴうみ{CLEAR_TO 0x4E}16BP
+@@75
+ちきゅうなげ{CLEAR_TO 0x4E}24BP
+@@76
+ゆめくい{CLEAR_TO 0x4E}24BP
+@@77
+メガトンパンチ{CLEAR_TO 0x4E}24BP
+@@78
+メガトンキック{CLEAR_TO 0x4E}48BP
+@@79
+のしかかり{CLEAR_TO 0x4E}48BP
+@@80
+いわなだれ{CLEAR_TO 0x4E}48BP
+@@81
+カウンター{CLEAR_TO 0x4E}48BP
+@@82
+でんじは{CLEAR_TO 0x4E}48BP
+@@83
+つるぎのまい{CLEAR_TO 0x4E}48BP
+@@84
+まるくなる{CLEAR_TO 0x4E}16BP
+@@85
+いびき{CLEAR_TO 0x4E}24BP
+@@86
+どろかけ{CLEAR_TO 0x4E}24BP
+@@87
+スピードスター{CLEAR_TO 0x4E}24BP
+@@88
+こごえるかぜ{CLEAR_TO 0x4E}24BP
+@@89
+こらえる{CLEAR_TO 0x4E}48BP
+@@90
+じこあんじ{CLEAR_TO 0x4E}48BP
+@@91
+れいとうパンチ{CLEAR_TO 0x4E}48BP
+@@92
+かみなりパンチ{CLEAR_TO 0x4E}48BP
+@@93
+ほのおのパンチ{CLEAR_TO 0x4E}48BP
+@@94
+ハードプラント{CLEAR_TO 0x4E}64BP
+@@95
+ブラストバーン{CLEAR_TO 0x4E}64BP
+@@96
+ハイドロカノン{CLEAR_TO 0x4E}64BP
+@@60
+おうじゃのしるし{CLEAR_TO 0x5E}64BP
