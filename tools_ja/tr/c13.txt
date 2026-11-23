@@ -1,0 +1,141 @@
+## data/text/apprentice.inc
+@@gText_ApprenticeThanksHeldItem2
+{STR_VAR_1}　ですね？\nわかりました！\pがんばって　さがします！\nまた　あいましょう！
+@@gText_ApprenticeItemAlreadyRecommended2
+{STR_VAR_1}の　ことは\nもう　おしえて　もらいました\pちがう　しゅるいの　どうぐを\nもたせたいんです\pそれとも　{STR_VAR_2}には\nなにも　いらないと\lおもいますか？
+@@gText_ApprenticeWhatHeldItem3
+こんにちは　{PLAYER}さん‥\nおじゃま　して　すみません\lまた　ききたい　ことが　あって\pぼく　ひとりの　ちからじゃ\nかてないと　おもうので\l{STR_VAR_1}に　どうぐを\lもたせようと　おもって\pでも　なにが　いいか\nわからなくて\p{PLAYER}さん　おねがい\nきめて　もらえませんか？
+@@gText_ApprenticeHoldNothing3
+ぼくなんかの　ポケモンは\nどうぐを　もたない\lほうが　いいって　こと？
+@@gText_ApprenticeThanksNoHeldItem3
+わかりました‥\nどうぐに　たよるなって\lことですね　がんばります！\pほんとうに　ありがとう\nございました！
+@@gText_ApprenticeThanksHeldItem3
+{STR_VAR_1}　ですね\nてに　はいるか　わからない‥\lいや！　がんばって\lてに　いれます\pほんとうに　ありがとう\nございました！
+@@gText_ApprenticeItemAlreadyRecommended3
+あの　でも‥\nそれ　まえにも　きいた\lきが‥\p{STR_VAR_1}を　うまく\nつかえて　いない\lから　ですか？\pそれとも　{STR_VAR_2}には\nなにも　もたせない\lほうが　いいって　こと？
+@@gText_ApprenticeWhatHeldItem4
+あっ　{PLAYER}{KUN}\nききたい　ことが　あるの\pわたしの　ポケモン　きめて\nくれたでしょ？\pでも　もたせる　どうぐは\nきいて　なかったわ\pせっかく　アドバイス\nしたん　だから\lさいごまで　めんどう\lみて　くれるわよね？\p{STR_VAR_1}に　なにを\nもたせたら　いい？
+@@gText_ApprenticeHoldNothing4
+え！　じゃあ　{STR_VAR_1}は\nすで　がんばれって\lこと？
+@@gText_ApprenticeThanksNoHeldItem4
+それが　いいなら\nそうするわ\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！
+@@gText_ApprenticeThanksHeldItem4
+{STR_VAR_1}　ね？\nわるくないわ　つかう！\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！
+@@gText_ApprenticeItemAlreadyRecommended4
+え？　なに　いってるの？\n{STR_VAR_1}は　まえにも\lきいたわよ\pそれとも　{STR_VAR_2}は\nすで　がんばれって\lこと？
+@@gText_ApprenticeWhatHeldItem5
+よう　{PLAYER}{KUN}！\pおたがい　いそがしいのに\nよく　あうね！\pきょうは　さんぽと　そうじと\nブラッシングを　しなきゃ\pだいじな　{STR_VAR_1}に\nなにも　かって　あげる\lじかんが　なくてさ\pじかんが　ないから\n{STR_VAR_1}に　なにを\lもたせるか　アドバイス\lして　くれない？
+@@gText_ApprenticeHoldNothing5
+いそがしい　ぼく　だから\n{STR_VAR_1}には　なにも\lいらないって　こと？
+@@gText_ApprenticeThanksNoHeldItem5
+よし　わかった\nそれなら　じかんは\lいらないね\pきょうも　ありがとう！\nまたね！
+@@gText_ApprenticeThanksHeldItem5
+よし　わかった\nなんとか　じかんを　つくって\lおすすめの　{STR_VAR_1}を\lさがすよ\pいい　ししょうに　あえて\nよかった　ありがとう！\lまたね！
+@@gText_ApprenticeItemAlreadyRecommended5
+え？　その　{STR_VAR_1}は\nもう　しってるよ\pあ　そうか　わかった\nいそがしい　ぼく　だから\l{STR_VAR_2}には　なにも\lいらないって　こと？
+@@gText_ApprenticeWhatHeldItem6
+やっほー　{PLAYER}！　わたし！\nきょうも　あたまを\lかして　ほしいの！\lアドバイス　ちょうだい！\pドラムロール　おねがい！\nしつもんは‥\p{STR_VAR_1}に　どうぐを\nもたせるなら　なにが\lいい？
+@@gText_ApprenticeHoldNothing6
+そうなの？　{STR_VAR_1}には\nどうぐは　いらないって\lこと　ね
+@@gText_ApprenticeThanksNoHeldItem6
+わかった　そうする！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！
+@@gText_ApprenticeThanksHeldItem6
+うんうん！　{STR_VAR_1}ね\nかっこいい　せんたく！\lぜったい　ためして　みる！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！
+@@gText_ApprenticeItemAlreadyRecommended6
+あはは！　へんなの！\nその　{STR_VAR_1}は\lまえにも　きいたよ！\p{PLAYER}　だいじょうぶ？\pあっ　まって！　{STR_VAR_2}には\nどうぐは　いらないって\lこと　ね
+@@gText_ApprenticeWhatHeldItem7
+ごきげんよう　{PLAYER}さま\nおかわり　ありませんか\pごそうだん　しても\nよろしいでしょうか？\pさいきんの　しょうぶで\nあいては　ポケモンに\lどうぐを　もたせて\lいた　ようです\pその　けっか　わたくしは\nやぶれて　しまいました‥\pおくれを　とりたく\nありません　わたくしも\l{STR_VAR_1}に　どうぐを\lもたせたいのです\pわたくしの　ポケモンに\nふさわしい　ものを　きめて\lいただけると　うれしいです‥
+@@gText_ApprenticeHoldNothing7
+つまり‥　わたくしの\nポケモンには　どうぐは\lひつよう　ないと？
+@@gText_ApprenticeThanksNoHeldItem7
+よく　わかりました！\nこのまま　がんばります\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！
+@@gText_ApprenticeThanksHeldItem7
+{STR_VAR_1}　ですね！\nさっそく　ちゅうもん\lいたします\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！
+@@gText_ApprenticeItemAlreadyRecommended7
+それは　もう　うかがって\nおりますし　もって\lおります\pそれとも‥　わたくしの\nポケモンには　どうぐは\lひつよう　ないと？
+@@gText_ApprenticeWhatHeldItem8
+きゃっ！　{PLAYER}さん！\nま　また　あえて\lうれしい！\pあっ　そうだ！　{PLAYER}さんに\nどうしても　ききたい　ことが\lあったんです！\p{STR_VAR_1}に　なにを\nもたせるか　きめて\lください！
+@@gText_ApprenticeHoldNothing8
+わあ！　その　こたえは\nよそうがい！　どうぐは\lいらないん　ですね？
+@@gText_ApprenticeThanksNoHeldItem8
+よく　わかりました！\nどうぐ　なしで　がんばります！\pまた　いつか　いろいろ\nおしえて　くださいね
+@@gText_ApprenticeThanksHeldItem8
+{STR_VAR_1}！　それに　します！\pあの‥　もしかして　{PLAYER}さんも\nポケモンに　それを\lもたせてる　んですか？\pぜったい　てに　いれます！\nまた　いつか　いろいろ\lおしえて　くださいね
+@@gText_ApprenticeItemAlreadyRecommended8
+あれ？　その　{STR_VAR_1}\nまえにも　すすめて\lくれましたね\pそれとも　それが　いちばん？\nそれとも　{STR_VAR_2}には\lなにも　いらないって　こと？
+@@gText_ApprenticeWhatHeldItem9
+オラ！\nマエストロ　{PLAYER}{KUN}！\pポケモンの　どうぐに\nついて　アドバイス\lして　くれ！\p{STR_VAR_1}に　なにを\nもたせたら　いいと\lおもう？\pえんりょ　するなよ\nずばっと　いって　くれ！
+@@gText_ApprenticeHoldNothing9
+お？　{STR_VAR_1}は\nなにも　もたなくても\lかてるって　ことか？
+@@gText_ApprenticeThanksNoHeldItem9
+シー　ブエノ！\nせいいっぱい　やるぜ\lドカン　とな！\pいつも　ありがとな！\nアディオス！
+@@gText_ApprenticeThanksHeldItem9
+なるほど　{STR_VAR_1}だな？\nシー　ブエノ！\lさっそく　さがして　くるぜ\lバシッ　とな！\pいつも　ありがとな！\nアディオス！
+@@gText_ApprenticeItemAlreadyRecommended9
+いや　いや！　その\n{STR_VAR_1}は　まえにも\lきいたぞ\pおっと　まてよ‥\nつまり　{STR_VAR_2}は\lなにも　もたなくても\lかてるって　ことか？
+@@gText_ApprenticeWhatHeldItem10
+{PLAYER}{KUN}　しんじられない\nことが　おきたよ！\pけさ　おきたら　ぼくの\nポケモンが　きんのたまを\l10こ　もってたんだ！\pもちろん　うそ　だよ！\nわはは！\pでも　これは　ほんと\nポケモンに　もたせる　どうぐを\lかんがえるのが　にがて\lなんだ\pだから　{STR_VAR_1}に\nなにを　もたせるか　きめて\lくれない？　ししょう
+@@gText_ApprenticeHoldNothing10
+どういう　こと？\nなにも　もたせるなって\lこと？
+@@gText_ApprenticeThanksNoHeldItem10
+そっか　なにも　もたせない\nんだね　じゃあ　なにか\lかって　こなくちゃ！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！
+@@gText_ApprenticeThanksHeldItem10
+そっか　{STR_VAR_1}だね！\nそれ　いがいを　もたせよう！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！
+@@gText_ApprenticeItemAlreadyRecommended10
+えっと　それ　まえにも\nおしえて　くれたよね？\pほかに　ないの？\pそれとも　{STR_VAR_2}には\nなにも　もたせるなって\lこと？
+@@gText_ApprenticeWhatHeldItem11
+ヨー　ヨー！\nそれが　オレらの　あいさつ　さ！\pラップを　かます　ふなのり！\nイカした　しつもん\lもって　きたぜ！\pどうぐの　しつもん\nきみの　いけんを　ききたい\lもん！\p{STR_VAR_1}に　もたせる　どうぐ\nなにに　すれば　いいか\lおしえて　ちょうだい！
+@@gText_ApprenticeHoldNothing11
+そうなのか？\n{STR_VAR_1}は　なにも\lもたなくて　いいのか？
+@@gText_ApprenticeThanksNoHeldItem11
+オーケー　わかった　まかせとけ！\nオレの　ポケモンも　すでで\lいくぜ！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！
+@@gText_ApprenticeThanksHeldItem11
+オーケー　{STR_VAR_1}\nそれを　つかうぜ\lきみに　まかせて　せいかい\lだったぜ！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！
+@@gText_ApprenticeItemAlreadyRecommended11
+オーケー　{STR_VAR_1}って？\nそれは　このまえ　きいた\lあたらしい　アイデアが\lほしいんだ！\pそれとも　なんだ？\nオレの　ポケモンは　なにも\lもたなくて　いいのか？
+@@gText_ApprenticeWhatHeldItem12
+ヘイ　{PLAYER}！\nきょうも　みつけたぜ！\pどうする？　アドバイス\nもらう？　もちろん！\lもう　はなしかけてる　しな！\p{PLAYER}　オレに　あきてきた？\nいや　そんな　わけ\lないよな\pはなしを　きいて　くれ\nアドバイスが　ほしいんだ\pオレの　{STR_VAR_1}に\nもたせる　どうぐの　こと\lまよって　なやんで\lしかたない！
+@@gText_ApprenticeHoldNothing12
+{STR_VAR_1}には　なにも　いらない？\nなにも　もたせなくて　いい？
+@@gText_ApprenticeThanksNoHeldItem12
+なにも　もたせないのが　いちばん\nなら　きみの　いう　とおりに\lするぜ！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！
+@@gText_ApprenticeThanksHeldItem12
+{STR_VAR_1}を　もたせるのが\nいちばん　なら　きみの\lいう　とおりに　するぜ！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！
+@@gText_ApprenticeItemAlreadyRecommended12
+その　{STR_VAR_1}って\nまえにも　きかなかった？\lたしかに　きいたぜ\lまちがい　ない！\pあたらしい　なにかが　ほしい！\nそれとも　{STR_VAR_2}には\lなにも　いらない？
+@@gText_ApprenticeWhatHeldItem13
+ぐわっ！　いたた！　{PLAYER}{KUN}\nうでが　おれてるの！\lさわらないで　おねがい！\pポケモン　たちと　いろんな\nどうぐを　ためしてたら\lおれちゃった　みたい\pそういう　わけで\nきめて　ほしいの\p{PLAYER}{KUN}　{STR_VAR_1}に　なにを\nもたせたら　いいと\lおもう？
+@@gText_ApprenticeHoldNothing13
+いたた‥\pじゃあ　{STR_VAR_1}は　なにも\nもたなくて　いいって　こと？
+@@gText_ApprenticeThanksNoHeldItem13
+うん　わかった　いまの\nわたしには　その　ほうが\lらくね\pこれからも　たよらせてね
+@@gText_ApprenticeThanksHeldItem13
+うん　わかった　{STR_VAR_1}ね\nポケモンの　うでは　ぶじ\lだから　すぐに　もたせるわ\pこれからも　たよらせてね
+@@gText_ApprenticeItemAlreadyRecommended13
+ちがう　ちがう　その\n{STR_VAR_1}は　まえにも\lきいたわよ　おぼえてる？\pもっと　いい　ものを\nおしえて　くれない？\pあ　ちょっと　まって\nじゃあ　{STR_VAR_2}は\lなにも　もたなくて\lいいって　こと？
+@@gText_ApprenticeWhatHeldItem14
+えっと‥　あの‥\n{PLAYER}{KUN}‥\pそんなに　みないで\nください　ぼくの　ポケモン\lなにも　もってないんです\pほ　ほんとうに　はずかしい\nけど　アドバイスが\lほしいんです\p{STR_VAR_1}を　つよく　する\nどうぐが　きめられなくて\p{PLAYER}{KUN}は　なにが\nいいと　おもいますか？
+@@gText_ApprenticeHoldNothing14
+あ‥　じゃあ　{STR_VAR_1}は\nどうぐを　もたない\lほうが　いいと？
+@@gText_ApprenticeThanksNoHeldItem14
+あ‥　はい！\nどうぐ　なしで　いきます\pでも　どきどき　します\nかっこよすぎ　ないかな？\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します
+@@gText_ApprenticeThanksHeldItem14
+あ‥　はい！\n{STR_VAR_1}で　いきます\pでも　どきどき　します\nかっこよすぎ　ないかな？\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します
+@@gText_ApprenticeItemAlreadyRecommended14
+で　でも　それは　もう\nききました\pそんな　ふうに　あしらわないで！\nはずかしくて　いきて\lいけません\pあ‥　はやとちり　ですか？\n{STR_VAR_2}は　どうぐを\lもたない　ほうが　いいと？
+@@gText_ApprenticeWhatHeldItem15
+ん？　{PLAYER}{KUN}の\nようだが‥　ほんとうかね？\lもしや　ふたご　では？\pいや　いや　きに　しないで\nくれたまえ　ほんもの　なら\lしつれいを　わすれて　くれ\pまた　きみの　すばらしい\nアドバイスが　ほしい\pこの　{STR_VAR_1}に　べんりな\nどうぐを　もたせたいの\lだが\pなにが　ふさわしい\nかね？
+@@gText_ApprenticeHoldNothing15
+なにも　もたない　ほうが\nよいと？　たしか　かね？
+@@gText_ApprenticeThanksNoHeldItem15
+なるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pまた　あおう！
+@@gText_ApprenticeThanksHeldItem15
+{STR_VAR_1}？\nたしか　かね？\pなるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pポケモンが　うまく\nつかって　くれると　いいが\pまた　あおう！
+@@gText_ApprenticeItemAlreadyRecommended15
+いや　いや　まちたまえ\nそれは　まえにも　おそわった\lはずだ\pこんどは　ちがう　ものを\nすすめて　ほしい\pもしや　{STR_VAR_2}は\nなにも　もたない　ほうが\lよいと？　たしか　かね？
+@@gText_ApprenticeWhichMonFirst0
+うわーん　{PLAYER}さん！\nこまって　るんです　ぐすん‥\pほかの　ひとと　バトル\nしたいけど　どうしたら\lいいか　わからなくて\pポケモンを　どう　ならべたら\nいちばん　つよく\lなれるの　かな？\pおしえて　{PLAYER}さん\nぼく　だったら　どの\lポケモンを　さいしょに\lだしますか？
+@@gText_ApprenticeMonFirstThanks0
+{STR_VAR_1}を　さいしょに？\nうわーん！\pあっ！　ごめんなさい！\nさいしょの　ポケモンを\lえらんで　もらえて\lうれしくて　ないちゃった‥\pほんとうに　ありがとう！
+@@gText_ApprenticeWhichMonFirst1
+やった！　{PLAYER}さん　だ！\nちょうど　ききたい　ことが\lあったんだ！\pえっと　ぼくの　ポケモンで\nさいしょに　だすのは\lどれが　いいと　おもう？

@@ -278,533 +278,214 @@ gText_ApprenticeThanksNoHeldItem2::
 	.string "わかりました！\nまた　あいましょう！$"
 
 gText_ApprenticeThanksHeldItem2::
-	.string "Oh, the item {STR_VAR_1}?\n"
-	.string "Understood!\p"
-	.string "I'll do my best to find one!\n"
-	.string "See you again!$"
+	.string "{STR_VAR_1}　ですね？\nわかりました！\pがんばって　さがします！\nまた　あいましょう！$"
 
 gText_ApprenticeItemAlreadyRecommended2::
-	.string "Somebody taught me about\n"
-	.string "the {STR_VAR_1} already.\p"
-	.string "I want my POKéMON to hold a different\n"
-	.string "kind of item.\p"
-	.string "Or do you think {STR_VAR_2} doesn't\n"
-	.string "have to hold anything?$"
+	.string "{STR_VAR_1}の　ことは\nもう　おしえて　もらいました\pちがう　しゅるいの　どうぐを\nもたせたいんです\pそれとも　{STR_VAR_2}には\nなにも　いらないと\lおもいますか？$"
 
 gText_ApprenticeWhatHeldItem3::
-	.string "Hello, {PLAYER}…\n"
-	.string "I'm sorry to disturb you, but I have\l"
-	.string "something else I wanted to ask you.\p"
-	.string "I don't think I'm good enough to win\n"
-	.string "matches on my own, so I'm thinking of\l"
-	.string "making my {STR_VAR_1} hold an item.\p"
-	.string "But I don't know what would be good.\p"
-	.string "{PLAYER}, please, could you decide\n"
-	.string "for me?$"
+	.string "こんにちは　{PLAYER}さん‥\nおじゃま　して　すみません\lまた　ききたい　ことが　あって\pぼく　ひとりの　ちからじゃ\nかてないと　おもうので\l{STR_VAR_1}に　どうぐを\lもたせようと　おもって\pでも　なにが　いいか\nわからなくて\p{PLAYER}さん　おねがい\nきめて　もらえませんか？$"
 
 gText_ApprenticeHoldNothing3::
-	.string "A POKéMON belonging to someone like me\n"
-	.string "would be better off without an item?$"
+	.string "ぼくなんかの　ポケモンは\nどうぐを　もたない\lほうが　いいって　こと？$"
 
 gText_ApprenticeThanksNoHeldItem3::
-	.string "I understand…\n"
-	.string "You're saying I shouldn't rely on items.\l"
-	.string "I'll do my best not to!\p"
-	.string "Thank you very much!$"
+	.string "わかりました‥\nどうぐに　たよるなって\lことですね　がんばります！\pほんとうに　ありがとう\nございました！$"
 
 gText_ApprenticeThanksHeldItem3::
-	.string "The item {STR_VAR_1}, okay.\n"
-	.string "I'm not sure if I can get one…\l"
-	.string "No! I'll do my best to get it.\p"
-	.string "Thank you very much!$"
+	.string "{STR_VAR_1}　ですね\nてに　はいるか　わからない‥\lいや！　がんばって\lてに　いれます\pほんとうに　ありがとう\nございました！$"
 
 gText_ApprenticeItemAlreadyRecommended3::
-	.string "Oh, but…\n"
-	.string "I think I've heard about that before…\p"
-	.string "Is it maybe because I haven't handled\n"
-	.string "the item {STR_VAR_1} very well?\p"
-	.string "Or do you mean I shouldn't make\n"
-	.string "my {STR_VAR_2} hold anything?$"
+	.string "あの　でも‥\nそれ　まえにも　きいた\lきが‥\p{STR_VAR_1}を　うまく\nつかえて　いない\lから　ですか？\pそれとも　{STR_VAR_2}には\nなにも　もたせない\lほうが　いいって　こと？$"
 
 gText_ApprenticeWhatHeldItem4::
-	.string "Oh, {PLAYER}{KUN}.\n"
-	.string "There's something I wanted to ask you.\p"
-	.string "You know how you decided which\n"
-	.string "POKéMON I should have for me?\p"
-	.string "But I never asked you what item\n"
-	.string "it should be holding.\p"
-	.string "Since you already gave me advice,\n"
-	.string "how about seeing this to the end?\p"
-	.string "What would be good? I want to make\n"
-	.string "my {STR_VAR_1} hold something.$"
+	.string "あっ　{PLAYER}{KUN}\nききたい　ことが　あるの\pわたしの　ポケモン　きめて\nくれたでしょ？\pでも　もたせる　どうぐは\nきいて　なかったわ\pせっかく　アドバイス\nしたん　だから\lさいごまで　めんどう\lみて　くれるわよね？\p{STR_VAR_1}に　なにを\nもたせたら　いい？$"
 
 gText_ApprenticeHoldNothing4::
-	.string "Oh! So my {STR_VAR_1} should do\n"
-	.string "the best it can empty-handed?$"
+	.string "え！　じゃあ　{STR_VAR_1}は\nすで　がんばれって\lこと？$"
 
 gText_ApprenticeThanksNoHeldItem4::
-	.string "If you think that's best, I'll do that.\p"
-	.string "Knowing that you made the decision,\n"
-	.string "{PLAYER}{KUN}, I won't be so upset if\l"
-	.string "I lose.\p"
-	.string "Okay, I'll look to you for advice again.\n"
-	.string "Bye!$"
+	.string "それが　いいなら\nそうするわ\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！$"
 
 gText_ApprenticeThanksHeldItem4::
-	.string "The item {STR_VAR_1}, huh?\n"
-	.string "Not bad. I'll use it!\p"
-	.string "Knowing that you made the decision,\n"
-	.string "{PLAYER}{KUN}, I won't be so upset if\l"
-	.string "I lose.\p"
-	.string "Okay, I'll look to you for advice again.\n"
-	.string "Bye!$"
+	.string "{STR_VAR_1}　ね？\nわるくないわ　つかう！\p{PLAYER}{KUN}が　きめたん　だから\nまけても　そんなに\lくやしくないわ\pじゃあ　また　アドバイス\nしてね　ばいばい！$"
 
 gText_ApprenticeItemAlreadyRecommended4::
-	.string "Huh? What are you saying?\n"
-	.string "You told me about the {STR_VAR_1}\l"
-	.string "already before.\p"
-	.string "Or do you mean my {STR_VAR_2} should\n"
-	.string "do the best it can empty-handed?$"
+	.string "え？　なに　いってるの？\n{STR_VAR_1}は　まえにも\lきいたわよ\pそれとも　{STR_VAR_2}は\nすで　がんばれって\lこと？$"
 
 gText_ApprenticeWhatHeldItem5::
-	.string "Yo, {PLAYER}{KUN}!\p"
-	.string "We're both busy, but we seem to run\n"
-	.string "into each other often anyway!\p"
-	.string "Today I have to do some walking,\n"
-	.string "cleaning, and brushing.\p"
-	.string "I haven't even had the time to buy\n"
-	.string "my precious {STR_VAR_1} anything.\p"
-	.string "I don't have any time, so how about\n"
-	.string "giving me advice on what I should make\l"
-	.string "my {STR_VAR_1} hold?$"
+	.string "よう　{PLAYER}{KUN}！\pおたがい　いそがしいのに\nよく　あうね！\pきょうは　さんぽと　そうじと\nブラッシングを　しなきゃ\pだいじな　{STR_VAR_1}に\nなにも　かって　あげる\lじかんが　なくてさ\pじかんが　ないから\n{STR_VAR_1}に　なにを\lもたせるか　アドバイス\lして　くれない？$"
 
 gText_ApprenticeHoldNothing5::
-	.string "Oh, so me being a busy guy, you say\n"
-	.string "my {STR_VAR_1} doesn't need anything?$"
+	.string "いそがしい　ぼく　だから\n{STR_VAR_1}には　なにも\lいらないって　こと？$"
 
 gText_ApprenticeThanksNoHeldItem5::
-	.string "Okay, gotcha.\n"
-	.string "I won't need any time for that.\p"
-	.string "Thanks today!\n"
-	.string "See you around!$"
+	.string "よし　わかった\nそれなら　じかんは\lいらないね\pきょうも　ありがとう！\nまたね！$"
 
 gText_ApprenticeThanksHeldItem5::
-	.string "Okay, gotcha.\n"
-	.string "I'll find time somehow and find\l"
-	.string "that {STR_VAR_1} you recommended.\p"
-	.string "I'm glad I met a good mentor in you.\n"
-	.string "Thanks! See you around!$"
+	.string "よし　わかった\nなんとか　じかんを　つくって\lおすすめの　{STR_VAR_1}を\lさがすよ\pいい　ししょうに　あえて\nよかった　ありがとう！\lまたね！$"
 
 gText_ApprenticeItemAlreadyRecommended5::
-	.string "Huh? I already know about\n"
-	.string "that {STR_VAR_1}.\p"
-	.string "Oh, right, I get it.\n"
-	.string "So me being a busy guy, you say\l"
-	.string "my {STR_VAR_2} doesn't need anything?$"
+	.string "え？　その　{STR_VAR_1}は\nもう　しってるよ\pあ　そうか　わかった\nいそがしい　ぼく　だから\l{STR_VAR_2}には　なにも\lいらないって　こと？$"
 
 gText_ApprenticeWhatHeldItem6::
-	.string "Hiya, {PLAYER}! It's me!\n"
-	.string "I need to tap your mind again today.\l"
-	.string "Please, I need your advice!\p"
-	.string "Drum roll, please!\n"
-	.string "The question I have is…\p"
-	.string "If I want to make my {STR_VAR_1} hold\n"
-	.string "an item, what should it be?$"
+	.string "やっほー　{PLAYER}！　わたし！\nきょうも　あたまを\lかして　ほしいの！\lアドバイス　ちょうだい！\pドラムロール　おねがい！\nしつもんは‥\p{STR_VAR_1}に　どうぐを\nもたせるなら　なにが\lいい？$"
 
 gText_ApprenticeHoldNothing6::
-	.string "Is that right? My {STR_VAR_1} doesn't\n"
-	.string "need to hold an item, you're saying.$"
+	.string "そうなの？　{STR_VAR_1}には\nどうぐは　いらないって\lこと　ね$"
 
 gText_ApprenticeThanksNoHeldItem6::
-	.string "Okay, that's what I'll do!\p"
-	.string "I guess that's about all I wanted\n"
-	.string "to ask you today.\p"
-	.string "Let's meet here again, okay?\n"
-	.string "Thanks!$"
+	.string "わかった　そうする！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！$"
 
 gText_ApprenticeThanksHeldItem6::
-	.string "Uh-huh! One {STR_VAR_1}.\n"
-	.string "What a cool choice!\l"
-	.string "I'll definitely try that!\p"
-	.string "I guess that's about all I wanted\n"
-	.string "to ask you today.\p"
-	.string "Let's meet here again, okay?\n"
-	.string "Thanks!$"
+	.string "うんうん！　{STR_VAR_1}ね\nかっこいい　せんたく！\lぜったい　ためして　みる！\pきょう　ききたかったのは\nこれ　くらい　かな\pまた　ここで　あおうね！\nありがとう！$"
 
 gText_ApprenticeItemAlreadyRecommended6::
-	.string "Ahahah! That's silly!\n"
-	.string "You already told me about that\l"
-	.string "{STR_VAR_1} before!\p"
-	.string "Are you feeling okay, {PLAYER}?\p"
-	.string "Oh, wait! My {STR_VAR_2} doesn't\n"
-	.string "need to hold an item, you're saying.$"
+	.string "あはは！　へんなの！\nその　{STR_VAR_1}は\lまえにも　きいたよ！\p{PLAYER}　だいじょうぶ？\pあっ　まって！　{STR_VAR_2}には\nどうぐは　いらないって\lこと　ね$"
 
 gText_ApprenticeWhatHeldItem7::
-	.string "Hello, {PLAYER}. I hope you've been\n"
-	.string "keeping well.\p"
-	.string "May I approach you for advice?\p"
-	.string "In a recent battle, my opponent\n"
-	.string "seemed to have given his POKéMON\l"
-	.string "an item to hold.\p"
-	.string "As a result, I was defeated…\p"
-	.string "I don't wish to be left behind.\n"
-	.string "I would like to make my {STR_VAR_1}\l"
-	.string "hold an item, too.\p"
-	.string "It would please me if you could decide\n"
-	.string "what would be right for my POKéMON…$"
+	.string "ごきげんよう　{PLAYER}さま\nおかわり　ありませんか\pごそうだん　しても\nよろしいでしょうか？\pさいきんの　しょうぶで\nあいては　ポケモンに\lどうぐを　もたせて\lいた　ようです\pその　けっか　わたくしは\nやぶれて　しまいました‥\pおくれを　とりたく\nありません　わたくしも\l{STR_VAR_1}に　どうぐを\lもたせたいのです\pわたくしの　ポケモンに\nふさわしい　ものを　きめて\lいただけると　うれしいです‥$"
 
 gText_ApprenticeHoldNothing7::
-	.string "In other words… My POKéMON has\n"
-	.string "no need to hold an item?$"
+	.string "つまり‥　わたくしの\nポケモンには　どうぐは\lひつよう　ないと？$"
 
 gText_ApprenticeThanksNoHeldItem7::
-	.string "I understand clearly now!\n"
-	.string "I will keep trying like this.\p"
-	.string "Thank you, {PLAYER}.\n"
-	.string "I hope I can count on you again.\l"
-	.string "Please take care!$"
+	.string "よく　わかりました！\nこのまま　がんばります\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！$"
 
 gText_ApprenticeThanksHeldItem7::
-	.string "One {STR_VAR_1} it is!\n"
-	.string "I will order it right away.\p"
-	.string "Thank you, {PLAYER}.\n"
-	.string "I hope I can count on you again.\l"
-	.string "Please take care!$"
+	.string "{STR_VAR_1}　ですね！\nさっそく　ちゅうもん\lいたします\pありがとう　ございました\n{PLAYER}さま　また　よろしく\lおねがい　いたします\lどうか　おげんきで！$"
 
 gText_ApprenticeItemAlreadyRecommended7::
-	.string "You've already told me about that,\n"
-	.string "and I already have it.\p"
-	.string "Or are you saying… My POKéMON has\n"
-	.string "no need to hold an item?$"
+	.string "それは　もう　うかがって\nおりますし　もって\lおります\pそれとも‥　わたくしの\nポケモンには　どうぐは\lひつよう　ないと？$"
 
 gText_ApprenticeWhatHeldItem8::
-	.string "Eek! {PLAYER}!\n"
-	.string "I… I'm overjoyed to see you again!\p"
-	.string "Oh-oh-oh! There's something I just\n"
-	.string "had to ask you, {PLAYER}!\p"
-	.string "Please decide what my {STR_VAR_1}\n"
-	.string "should be holding!$"
+	.string "きゃっ！　{PLAYER}さん！\nま　また　あえて\lうれしい！\pあっ　そうだ！　{PLAYER}さんに\nどうしても　ききたい　ことが\lあったんです！\p{STR_VAR_1}に　なにを\nもたせるか　きめて\lください！$"
 
 gText_ApprenticeHoldNothing8::
-	.string "Oh, wow! I didn't expect that answer!\n"
-	.string "So, a hold item isn't necessary?$"
+	.string "わあ！　その　こたえは\nよそうがい！　どうぐは\lいらないん　ですね？$"
 
 gText_ApprenticeThanksNoHeldItem8::
-	.string "Perfectly understood!\n"
-	.string "I'll keep at this without an item!\p"
-	.string "I hope you'll be willing to teach me\n"
-	.string "some more another time.$"
+	.string "よく　わかりました！\nどうぐ　なしで　がんばります！\pまた　いつか　いろいろ\nおしえて　くださいね$"
 
 gText_ApprenticeThanksHeldItem8::
-	.string "{STR_VAR_1}! I'll use that!\p"
-	.string "Um… Could it be, {PLAYER}, you also\n"
-	.string "make your POKéMON hold that item?\p"
-	.string "I'll be sure to get it!\n"
-	.string "I hope you'll be willing to teach me\l"
-	.string "some more another time.$"
+	.string "{STR_VAR_1}！　それに　します！\pあの‥　もしかして　{PLAYER}さんも\nポケモンに　それを\lもたせてる　んですか？\pぜったい　てに　いれます！\nまた　いつか　いろいろ\lおしえて　くださいね$"
 
 gText_ApprenticeItemAlreadyRecommended8::
-	.string "Oh? You recommended that\n"
-	.string "{STR_VAR_1} before, too.\p"
-	.string "Or is it the best thing to hold?\n"
-	.string "Or do you mean that my {STR_VAR_2}\l"
-	.string "doesn't need anything to hold?$"
+	.string "あれ？　その　{STR_VAR_1}\nまえにも　すすめて\lくれましたね\pそれとも　それが　いちばん？\nそれとも　{STR_VAR_2}には\lなにも　いらないって　こと？$"
 
 gText_ApprenticeWhatHeldItem9::
-	.string "Hola!\n"
-	.string "My maestro, {PLAYER}{KUN}!\p"
-	.string "I want to hit you up for advice on\n"
-	.string "POKéMON tools.\p"
-	.string "What do you think would be good for\n"
-	.string "my {STR_VAR_1} to hold?\p"
-	.string "Don't be shy now.\n"
-	.string "Let's blurt it out!$"
+	.string "オラ！\nマエストロ　{PLAYER}{KUN}！\pポケモンの　どうぐに\nついて　アドバイス\lして　くれ！\p{STR_VAR_1}に　なにを\nもたせたら　いいと\lおもう？\pえんりょ　するなよ\nずばっと　いって　くれ！$"
 
 gText_ApprenticeHoldNothing9::
-	.string "Oh? So, you're saying my {STR_VAR_1}\n"
-	.string "can win without holding any item?$"
+	.string "お？　{STR_VAR_1}は\nなにも　もたなくても\lかてるって　ことか？$"
 
 gText_ApprenticeThanksNoHeldItem9::
-	.string "Si, bueno!\n"
-	.string "I'll give it my best shot, like, slam!\p"
-	.string "All right, thanks, as always!\n"
-	.string "Adios!$"
+	.string "シー　ブエノ！\nせいいっぱい　やるぜ\lドカン　とな！\pいつも　ありがとな！\nアディオス！$"
 
 gText_ApprenticeThanksHeldItem9::
-	.string "Uh-huh, that's one {STR_VAR_1}?\n"
-	.string "Si, bueno!\l"
-	.string "I'll go find me one, like, bam!\p"
-	.string "All right, thanks, as always!\n"
-	.string "Adios!$"
+	.string "なるほど　{STR_VAR_1}だな？\nシー　ブエノ！\lさっそく　さがして　くるぜ\lバシッ　とな！\pいつも　ありがとな！\nアディオス！$"
 
 gText_ApprenticeItemAlreadyRecommended9::
-	.string "No, no! You already told me about\n"
-	.string "that {STR_VAR_1} thing before.\p"
-	.string "Oh, now wait just one minute here…\n"
-	.string "So, you're saying my {STR_VAR_2}\l"
-	.string "can win without holding any item?$"
+	.string "いや　いや！　その\n{STR_VAR_1}は　まえにも\lきいたぞ\pおっと　まてよ‥\nつまり　{STR_VAR_2}は\lなにも　もたなくても\lかてるって　ことか？$"
 
 gText_ApprenticeWhatHeldItem10::
-	.string "{PLAYER}{KUN}, something unbelievable\n"
-	.string "has happened!\p"
-	.string "I woke up this morning, and my POKéMON\n"
-	.string "had 10 NUGGETS!\p"
-	.string "Of course I'm lying!\n"
-	.string "Wahahaha!\p"
-	.string "This is no lie, though.\n"
-	.string "I'm not very good at thinking about\l"
-	.string "what items POKéMON should hold.\p"
-	.string "So, how about deciding for me what\n"
-	.string "my {STR_VAR_1} should hold, master?$"
+	.string "{PLAYER}{KUN}　しんじられない\nことが　おきたよ！\pけさ　おきたら　ぼくの\nポケモンが　きんのたまを\l10こ　もってたんだ！\pもちろん　うそ　だよ！\nわはは！\pでも　これは　ほんと\nポケモンに　もたせる　どうぐを\lかんがえるのが　にがて\lなんだ\pだから　{STR_VAR_1}に\nなにを　もたせるか　きめて\lくれない？　ししょう$"
 
 gText_ApprenticeHoldNothing10::
-	.string "What's that mean?\n"
-	.string "Don't make it hold anything?$"
+	.string "どういう　こと？\nなにも　もたせるなって\lこと？$"
 
 gText_ApprenticeThanksNoHeldItem10::
-	.string "Okay, so it shouldn't hold anything.\n"
-	.string "Then, I'd better get something for it!\p"
-	.string "Just kidding!\n"
-	.string "I'll obey your teaching, master!\p"
-	.string "Thanks, master!\n"
-	.string "I hope you'll keep teaching me!$"
+	.string "そっか　なにも　もたせない\nんだね　じゃあ　なにか\lかって　こなくちゃ！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！$"
 
 gText_ApprenticeThanksHeldItem10::
-	.string "Okay, so it's one {STR_VAR_1}!\n"
-	.string "I'll make it hold anything but that!\p"
-	.string "Just kidding!\n"
-	.string "I'll obey your teaching, master!\p"
-	.string "Thanks, master!\n"
-	.string "I hope you'll keep teaching me!$"
+	.string "そっか　{STR_VAR_1}だね！\nそれ　いがいを　もたせよう！\pじょうだん　だよ！\nししょうの　いう　とおりに\lするよ！\pありがとう　ししょう！\nこれからも　おしえてね！$"
 
 gText_ApprenticeItemAlreadyRecommended10::
-	.string "Um, you told me about that before,\n"
-	.string "didn't you?\p"
-	.string "Isn't there something else?\p"
-	.string "Or do you mean, don't make\n"
-	.string "my {STR_VAR_2} hold anything?$"
+	.string "えっと　それ　まえにも\nおしえて　くれたよね？\pほかに　ないの？\pそれとも　{STR_VAR_2}には\nなにも　もたせるなって\lこと？$"
 
 gText_ApprenticeWhatHeldItem11::
-	.string "A-H-O-Y!\n"
-	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
-	.string "I present to you a question\l"
-	.string "that's pretty fly!\p"
-	.string "It's an item question\n"
-	.string "that begs your suggestion!\p"
-	.string "My {STR_VAR_1} needs an item to hold,\n"
-	.string "What should it be, if I may be bold?$"
+	.string "ヨー　ヨー！\nそれが　オレらの　あいさつ　さ！\pラップを　かます　ふなのり！\nイカした　しつもん\lもって　きたぜ！\pどうぐの　しつもん\nきみの　いけんを　ききたい\lもん！\p{STR_VAR_1}に　もたせる　どうぐ\nなにに　すれば　いいか\lおしえて　ちょうだい！$"
 
 gText_ApprenticeHoldNothing11::
-	.string "Is that right?\n"
-	.string "My {STR_VAR_1} doesn't need to be\l"
-	.string "holding anything tight?$"
+	.string "そうなのか？\n{STR_VAR_1}は　なにも\lもたなくて　いいのか？$"
 
 gText_ApprenticeThanksNoHeldItem11::
-	.string "Okay, I hear you, sure I do!\n"
-	.string "My POKéMON will go empty-handed, too!\p"
-	.string "If it's advice I ever need,\n"
-	.string "{PLAYER}, your word I'll always heed!$"
+	.string "オーケー　わかった　まかせとけ！\nオレの　ポケモンも　すでで\lいくぜ！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！$"
 
 gText_ApprenticeThanksHeldItem11::
-	.string "Okay, one {STR_VAR_1},\n"
-	.string "that's what I'll use.\l"
-	.string "I was right to make you choose!\p"
-	.string "If it's advice I ever need,\n"
-	.string "{PLAYER}, your word I'll always heed!$"
+	.string "オーケー　{STR_VAR_1}\nそれを　つかうぜ\lきみに　まかせて　せいかい\lだったぜ！\pアドバイスが　ひつようなら\n{PLAYER}の　ことば　いつでも\lきくぜ！$"
 
 gText_ApprenticeItemAlreadyRecommended11::
-	.string "Okay, one {STR_VAR_1}, you say?\n"
-	.string "You told me that the other day.\l"
-	.string "I need a new idea, a brand new way.\p"
-	.string "Or, what, is that right?\n"
-	.string "My POKéMON doesn't need to hold\l"
-	.string "anything tight?$"
+	.string "オーケー　{STR_VAR_1}って？\nそれは　このまえ　きいた\lあたらしい　アイデアが\lほしいんだ！\pそれとも　なんだ？\nオレの　ポケモンは　なにも\lもたなくて　いいのか？$"
 
 gText_ApprenticeWhatHeldItem12::
-	.string "Say, hey, {PLAYER}!\n"
-	.string "I found you again today!\p"
-	.string "What should I do? Get your advice?\n"
-	.string "Why not? I'm already talking to you!\p"
-	.string "{PLAYER}, are you getting sick of me?\n"
-	.string "Nah, no way, that can't be.\p"
-	.string "Will you hear me out?\n"
-	.string "I'm looking for advice--that's what\l"
-	.string "I'm talking about.\p"
-	.string "It's about a hold item for\n"
-	.string "my {STR_VAR_1} that'd be good.\l"
-	.string "My indecision is making me brood.$"
+	.string "ヘイ　{PLAYER}！\nきょうも　みつけたぜ！\pどうする？　アドバイス\nもらう？　もちろん！\lもう　はなしかけてる　しな！\p{PLAYER}　オレに　あきてきた？\nいや　そんな　わけ\lないよな\pはなしを　きいて　くれ\nアドバイスが　ほしいんだ\pオレの　{STR_VAR_1}に\nもたせる　どうぐの　こと\lまよって　なやんで\lしかたない！$"
 
 gText_ApprenticeHoldNothing12::
-	.string "My {STR_VAR_1} needs nothing?\n"
-	.string "Doesn't need to hold anything?$"
+	.string "{STR_VAR_1}には　なにも　いらない？\nなにも　もたせなくて　いい？$"
 
 gText_ApprenticeThanksNoHeldItem12::
-	.string "If holding nothing is the best,\n"
-	.string "I'll do as you suggest!\p"
-	.string "Well, {PLAYER}, I have to roam free,\n"
-	.string "but don't you forget about me.\p"
-	.string "See you again, my smart friend!$"
+	.string "なにも　もたせないのが　いちばん\nなら　きみの　いう　とおりに\lするぜ！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！$"
 
 gText_ApprenticeThanksHeldItem12::
-	.string "If holding that {STR_VAR_1} is\n"
-	.string "the best, I'll do as you suggest!\p"
-	.string "Well, {PLAYER}, I have to roam free,\n"
-	.string "but don't you forget about me.\p"
-	.string "See you again, my smart friend!$"
+	.string "{STR_VAR_1}を　もたせるのが\nいちばん　なら　きみの\lいう　とおりに　するぜ！\pじゃあ　{PLAYER}　オレは\nじゆうに　いくけど\lオレの　こと　わすれないで\pまたな　かしこい　ともよ！$"
 
 gText_ApprenticeItemAlreadyRecommended12::
-	.string "Haven't I heard about that\n"
-	.string "{STR_VAR_1} before?\l"
-	.string "I'm certain I have, that's for sure!\p"
-	.string "I need a new something!\n"
-	.string "Or, my {STR_VAR_2} needs nothing?\l"
-	.string "Doesn't need to hold anything?$"
+	.string "その　{STR_VAR_1}って\nまえにも　きかなかった？\lたしかに　きいたぜ\lまちがい　ない！\pあたらしい　なにかが　ほしい！\nそれとも　{STR_VAR_2}には\lなにも　いらない？$"
 
 gText_ApprenticeWhatHeldItem13::
-	.string "Gwah! Ouch! {PLAYER}{KUN}, my arm's broken!\n"
-	.string "Don't touch it, please!\p"
-	.string "I must've broken it while I was trying\n"
-	.string "out different hold items with my posse\l"
-	.string "of POKéMON.\p"
-	.string "So, things being this way,\n"
-	.string "I need you to decide for me.\p"
-	.string "{PLAYER}{KUN}, what do you think would be\n"
-	.string "good for my {STR_VAR_1} to hold?$"
+	.string "ぐわっ！　いたた！　{PLAYER}{KUN}\nうでが　おれてるの！\lさわらないで　おねがい！\pポケモン　たちと　いろんな\nどうぐを　ためしてたら\lおれちゃった　みたい\pそういう　わけで\nきめて　ほしいの\p{PLAYER}{KUN}　{STR_VAR_1}に　なにを\nもたせたら　いいと\lおもう？$"
 
 gText_ApprenticeHoldNothing13::
-	.string "Ouch…\p"
-	.string "So your suggestion is my {STR_VAR_1}\n"
-	.string "doesn't have to hold anything?$"
+	.string "いたた‥\pじゃあ　{STR_VAR_1}は　なにも\nもたなくて　いいって　こと？$"
 
 gText_ApprenticeThanksNoHeldItem13::
-	.string "Hm, all right. That would be easier\n"
-	.string "for me, the way things are now.\p"
-	.string "I hope I can keep hitting you up\n"
-	.string "for help like this.$"
+	.string "うん　わかった　いまの\nわたしには　その　ほうが\lらくね\pこれからも　たよらせてね$"
 
 gText_ApprenticeThanksHeldItem13::
-	.string "Hm, all right. That's one {STR_VAR_1}.\n"
-	.string "My POKéMON's arm is fine, so I'll make\l"
-	.string "it hold that item right away.\p"
-	.string "I hope I can keep hitting you up\n"
-	.string "for help like this.$"
+	.string "うん　わかった　{STR_VAR_1}ね\nポケモンの　うでは　ぶじ\lだから　すぐに　もたせるわ\pこれからも　たよらせてね$"
 
 gText_ApprenticeItemAlreadyRecommended13::
-	.string "No, no, you told me about that\n"
-	.string "{STR_VAR_1} before, remember?\p"
-	.string "How about telling me something\n"
-	.string "even better?\p"
-	.string "Oh, wait a second.\n"
-	.string "So your suggestion is my {STR_VAR_2}\l"
-	.string "doesn't have to hold anything?$"
+	.string "ちがう　ちがう　その\n{STR_VAR_1}は　まえにも\lきいたわよ　おぼえてる？\pもっと　いい　ものを\nおしえて　くれない？\pあ　ちょっと　まって\nじゃあ　{STR_VAR_2}は\lなにも　もたなくて\lいいって　こと？$"
 
 gText_ApprenticeWhatHeldItem14::
-	.string "Er… Um…\n"
-	.string "{PLAYER}{KUN}…\p"
-	.string "Please, don't look at me that way.\n"
-	.string "My POKéMON don't have anything.\p"
-	.string "I… I'm really embarrassed about this,\n"
-	.string "but I really need your advice.\p"
-	.string "I can't decide what hold item would\n"
-	.string "make my {STR_VAR_1} strong.\p"
-	.string "{PLAYER}{KUN}, what do you think would\n"
-	.string "be good?$"
+	.string "えっと‥　あの‥\n{PLAYER}{KUN}‥\pそんなに　みないで\nください　ぼくの　ポケモン\lなにも　もってないんです\pほ　ほんとうに　はずかしい\nけど　アドバイスが\lほしいんです\p{STR_VAR_1}を　つよく　する\nどうぐが　きめられなくて\p{PLAYER}{KUN}は　なにが\nいいと　おもいますか？$"
 
 gText_ApprenticeHoldNothing14::
-	.string "Oh… Then, you think it would be better\n"
-	.string "if my {STR_VAR_1} didn't have an item?$"
+	.string "あ‥　じゃあ　{STR_VAR_1}は\nどうぐを　もたない\lほうが　いいと？$"
 
 gText_ApprenticeThanksNoHeldItem14::
-	.string "Oh… Okay!\n"
-	.string "I'll go without an item.\p"
-	.string "This is nerve-racking, though.\n"
-	.string "Wouldn't it be too cool?\p"
-	.string "Thank you, {PLAYER}{KUN}.\n"
-	.string "If we meet again, I hope you will be\l"
-	.string "as helpful.$"
+	.string "あ‥　はい！\nどうぐ　なしで　いきます\pでも　どきどき　します\nかっこよすぎ　ないかな？\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します$"
 
 gText_ApprenticeThanksHeldItem14::
-	.string "Oh… Okay!\n"
-	.string "I'll go with that {STR_VAR_1}.\p"
-	.string "This is nerve-racking, though.\n"
-	.string "Wouldn't it be too cool?\p"
-	.string "Thank you, {PLAYER}{KUN}.\n"
-	.string "If we meet again, I hope you will be\l"
-	.string "as helpful.$"
+	.string "あ‥　はい！\n{STR_VAR_1}で　いきます\pでも　どきどき　します\nかっこよすぎ　ないかな？\pありがとう　{PLAYER}{KUN}\nまた　あったら　よろしく\lおねがい　します$"
 
 gText_ApprenticeItemAlreadyRecommended14::
-	.string "B-but I already heard about that.\p"
-	.string "Please don't brush me off like this!\n"
-	.string "I can't live with the humiliation.\p"
-	.string "Oh… Am I jumping to conclusions?\n"
-	.string "Do you think it would be better if\l"
-	.string "my {STR_VAR_2} didn't have an item?$"
+	.string "で　でも　それは　もう\nききました\pそんな　ふうに　あしらわないで！\nはずかしくて　いきて\lいけません\pあ‥　はやとちり　ですか？\n{STR_VAR_2}は　どうぐを\lもたない　ほうが　いいと？$"
 
 gText_ApprenticeWhatHeldItem15::
-	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
-	.string "But are you really?\l"
-	.string "Perhaps you're a twin?\p"
-	.string "Oh, no, no, no, don't worry!\n"
-	.string "If you really are {PLAYER}, please\l"
-	.string "forget about my rudeness.\p"
-	.string "What I would like is some more of\n"
-	.string "your fine advice.\p"
-	.string "I have here my {STR_VAR_1} that I wish\n"
-	.string "to make hold a convenient item.\p"
-	.string "What would be worthy of it?$"
+	.string "ん？　{PLAYER}{KUN}の\nようだが‥　ほんとうかね？\lもしや　ふたご　では？\pいや　いや　きに　しないで\nくれたまえ　ほんもの　なら\lしつれいを　わすれて　くれ\pまた　きみの　すばらしい\nアドバイスが　ほしい\pこの　{STR_VAR_1}に　べんりな\nどうぐを　もたせたいの\lだが\pなにが　ふさわしい\nかね？$"
 
 gText_ApprenticeHoldNothing15::
-	.string "It's better if it held nothing?\n"
-	.string "Are you certain?$"
+	.string "なにも　もたない　ほうが\nよいと？　たしか　かね？$"
 
 gText_ApprenticeThanksNoHeldItem15::
-	.string "I see. If that's the case, that's fine.\n"
-	.string "I thank you for your time.\p"
-	.string "Let us meet again!$"
+	.string "なるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pまた　あおう！$"
 
 gText_ApprenticeThanksHeldItem15::
-	.string "One {STR_VAR_1}?\n"
-	.string "Are you certain?\p"
-	.string "I see. If that's the case, that's fine.\n"
-	.string "I thank you for your time.\p"
-	.string "I do hope my POKéMON will be able to\n"
-	.string "put it to good use.\p"
-	.string "Let us meet again!$"
+	.string "{STR_VAR_1}？\nたしか　かね？\pなるほど　それなら　よい\nじかんを　さいて　くれて\lかんしゃ　する\pポケモンが　うまく\nつかって　くれると　いいが\pまた　あおう！$"
 
 gText_ApprenticeItemAlreadyRecommended15::
-	.string "No, no, wait a minute.\n"
-	.string "I believe you taught me that before.\p"
-	.string "I would like you to recommend\n"
-	.string "something different this time.\p"
-	.string "Perhaps you're suggesting that\n"
-	.string "my {STR_VAR_2} should hold nothing?\l"
-	.string "Are you certain?$"
+	.string "いや　いや　まちたまえ\nそれは　まえにも　おそわった\lはずだ\pこんどは　ちがう　ものを\nすすめて　ほしい\pもしや　{STR_VAR_2}は\nなにも　もたない　ほうが\lよいと？　たしか　かね？$"
 
 gText_ApprenticeWhichMonFirst0::
-	.string "Waah, {PLAYER}!\n"
-	.string "I have a dilemma, sob…\p"
-	.string "I want to begin battling other people,\n"
-	.string "but I don't know what to do.\p"
-	.string "How should I line up my POKéMON\n"
-	.string "so they'll be at their strongest?\p"
-	.string "Please tell me, {PLAYER}.\n"
-	.string "If you were me, which of these POKéMON\l"
-	.string "would you send out first?$"
+	.string "うわーん　{PLAYER}さん！\nこまって　るんです　ぐすん‥\pほかの　ひとと　バトル\nしたいけど　どうしたら\lいいか　わからなくて\pポケモンを　どう　ならべたら\nいちばん　つよく\lなれるの　かな？\pおしえて　{PLAYER}さん\nぼく　だったら　どの\lポケモンを　さいしょに\lだしますか？$"
 
 gText_ApprenticeMonFirstThanks0::
-	.string "My {STR_VAR_1} should go first?\n"
-	.string "Waaaaah!\p"
-	.string "Oh! I'm so sorry!\n"
-	.string "You've made me happy by choosing\l"
-	.string "my first POKéMON, and it's made me cry…\p"
-	.string "Thank you so much!$"
+	.string "{STR_VAR_1}を　さいしょに？\nうわーん！\pあっ！　ごめんなさい！\nさいしょの　ポケモンを\lえらんで　もらえて\lうれしくて　ないちゃった‥\pほんとうに　ありがとう！$"
 
 gText_ApprenticeWhichMonFirst1::
-	.string "Yay! It's {PLAYER}!\n"
-	.string "Great! I wanted to ask you something!\p"
-	.string "Um, of my POKéMON, which do you\n"
-	.string "think should go out first?$"
+	.string "やった！　{PLAYER}さん　だ！\nちょうど　ききたい　ことが\lあったんだ！\pえっと　ぼくの　ポケモンで\nさいしょに　だすのは\lどれが　いいと　おもう？$"
 
 gText_ApprenticeMonFirstThanks1::
 	.string "My {STR_VAR_1}? That's true.\n"
