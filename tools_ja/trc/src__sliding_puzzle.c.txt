@@ -1,0 +1,12 @@
+@@0
+{DPAD_NONE}いどう　{B_BUTTON}やめる
+@@1
+{DPAD_NONE}いどう　{A_BUTTON}もつ　{B_BUTTON}やめる
+@@2
+{DPAD_NONE}いどう　{A_BUTTON}おく　{L_BUTTON}{R_BUTTON}かいてん　{B_BUTTON}やめる
+@@3
+{DPAD_NONE}いどう　{A_BUTTON}いれかえ　{L_BUTTON}{R_BUTTON}かいてん　{B_BUTTON}やめる
+@@4
+{DPAD_NONE}いどう　{L_BUTTON}{R_BUTTON}かいてん　{B_BUTTON}やめる
+@@5
+{A_BUTTON}{B_BUTTON}つづける

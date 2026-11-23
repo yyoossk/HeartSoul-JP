@@ -407,12 +407,12 @@ enum
     INSTRUCTION_CONTINUE,
 };
 
-static const u8 sText_MoveQuit[]            = _("{DPAD_NONE} Move {B_BUTTON} Quit");
-static const u8 sText_MovePickUpQuit[]      = _("{DPAD_NONE} Move {A_BUTTON} Pick Up {B_BUTTON} Quit");
-static const u8 sText_MovePlaceRotateQuit[] = _("{DPAD_NONE} Move {A_BUTTON} Place {L_BUTTON}{R_BUTTON} Rotate {B_BUTTON} Quit");
-static const u8 sText_MoveSwapRotateQuit[]  = _("{DPAD_NONE} Move {A_BUTTON} Swap {L_BUTTON}{R_BUTTON} Rotate {B_BUTTON} Quit");
-static const u8 sText_MoveRotateQuit[]      = _("{DPAD_NONE} Move {L_BUTTON}{R_BUTTON} Rotate {B_BUTTON} Quit");
-static const u8 sText_Continue[]            = _("{A_BUTTON}{B_BUTTON} Continue");
+static const u8 sText_MoveQuit[]            = _("{DPAD_NONE}いどう　{B_BUTTON}やめる");
+static const u8 sText_MovePickUpQuit[]      = _("{DPAD_NONE}いどう　{A_BUTTON}もつ　{B_BUTTON}やめる");
+static const u8 sText_MovePlaceRotateQuit[] = _("{DPAD_NONE}いどう　{A_BUTTON}おく　{L_BUTTON}{R_BUTTON}かいてん　{B_BUTTON}やめる");
+static const u8 sText_MoveSwapRotateQuit[]  = _("{DPAD_NONE}いどう　{A_BUTTON}いれかえ　{L_BUTTON}{R_BUTTON}かいてん　{B_BUTTON}やめる");
+static const u8 sText_MoveRotateQuit[]      = _("{DPAD_NONE}いどう　{L_BUTTON}{R_BUTTON}かいてん　{B_BUTTON}やめる");
+static const u8 sText_Continue[]            = _("{A_BUTTON}{B_BUTTON}つづける");
 
 static const u8 *const sInstructions[] =
 {

@@ -1,0 +1,44 @@
+@@0
+ケースを　しまう
+@@2
+{STR_VAR_1}を\nすてますか？
+@@3
+{STR_VAR_1}を\nすてました
+@@4
+あかい　{POKEBLOCK}
+@@5
+あおい　{POKEBLOCK}
+@@6
+ピンクの　{POKEBLOCK}
+@@7
+みどりの　{POKEBLOCK}
+@@8
+きいろい　{POKEBLOCK}
+@@9
+むらさきの　{POKEBLOCK}
+@@10
+あいいろの　{POKEBLOCK}
+@@11
+ちゃいろの　{POKEBLOCK}
+@@12
+みずいろの　{POKEBLOCK}
+@@13
+きみどりの　{POKEBLOCK}
+@@14
+はいいろの　{POKEBLOCK}
+@@15
+くろい　{POKEBLOCK}
+@@16
+しろい　{POKEBLOCK}
+@@17
+きんいろの　{POKEBLOCK}
+@@18
+からい
+@@19
+しぶい
+@@20
+あまい
+@@21
+にがい
+@@22
+すっぱい
