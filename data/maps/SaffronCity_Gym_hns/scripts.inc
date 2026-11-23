@@ -60,121 +60,73 @@ SaffronCity_Gym_EventScript_Sabrina_Defeated::
 	end
 
 SaffronCity_Gym_Text_SabrinaIntro:
-	.string "SABRINA: I knew you were coming…\p"
-	.string "Three years ago I had a vision\n"
-	.string "of your arrival.\p"
-	.string "You're after my BADGE.\p"
-	.string "I don't enjoy battling, but it's\n"
-	.string "my duty as a LEADER to confer\l"
-	.string "BADGES on anyone who has proven\l"
-	.string "him- or herself worthy.\p"
-	.string "Since you wish it, I will show\n"
-	.string "you my psychic powers!$"
+	.string "ナツメ『あなたが　くるのは\nわかっていた‥\p3ねんまえ　あなたが　くるのを\nよちして　いたの\pわたしの　バッジが\nめあて　なのね\pたたかいは　すきじゃ　ないけど\nふさわしい　ものに　バッジを\lわたすのが　リーダーの\lつとめ\pのぞむ　なら\nちょうのうりょくを\lみせて　あげる！$"
 
 SaffronCity_Gym_Text_SabrinaWinLoss:
-	.string "SABRINA: Your power…\p"
-	.string "It far exceeds what I foresaw…\p"
-	.string "Maybe it isn't possible to fully\n"
-	.string "predict what the future holds…\p"
-	.string "OK, you win. You earned yourself\n"
-	.string "MARSHBADGE.$"
+	.string "ナツメ『あなたの　ちから‥\pわたしの　よち　を\nはるかに　こえている‥\pみらいを　かんぜんに　よむ\nことは　できない　のかも‥\pいいわ　あなたの　かち\nゴールドバッジを　あげる$"
 
 SaffronCity_Gym_Text_ReceivedMarshBadge:
-	.string "{PLAYER} received MARSHBADGE.$"
+	.string "{PLAYER}は\nゴールドバッジを　もらった$"
 
 SaffronCity_Gym_Text_MarshBadgeInfo:
-	.string "SABRINA: MARSHBADGE draws out\n"
-	.string "your subliminal powers…\p"
-	.string "Although I failed to accurately\n"
-	.string "predict your power, this much I\l"
-	.string "know to be true.\p"
-	.string "You will become a celebrated and\n"
-	.string "beloved CHAMPION!$"
+	.string "ナツメ『ゴールドバッジは　あなたの\nせんざいてきな　ちからを\lひきだすわ‥\pあなたの　ちからは\nよめなかったけど　これだけは\lたしかよ\pあなたは　みんなに　あいされる\nチャンピオンに　なるわ！$"
 
 SaffronCity_Gym_Text_Sabrina_GiveTM:
-	.string "Here, take this as well.$"
+	.string "これも　うけとって$"
 
 SaffronCity_Gym_Text_Sabrina_ExplainTM:
-	.string "It holds SKILL SWAP.\p"
-	.string "It can take your opponents' abilities\n"
-	.string "away from them and give them your own.\p"
-	.string "Use it wisely...$"
+	.string "それは　スキルスワップ\pあいての　とくせいを　うばって\nじぶんの　とくせいを\lあたえる　わざよ\pかしこく　つかってね‥$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle:
-	.string "SABRINA: Your love for your\n"
-	.string "POKéMON overwhelmed my psychic\l"
-	.string "power…\p"
-	.string "The power of love, I think, is\n"
-	.string "also a kind of psychic power…$"
+	.string "ナツメ『ポケモンへの　あいじょうが\nわたしの　ちょうのうりょくを\lうわまわった‥\pあいの　ちからも　きっと\nちょうのうりょくの　ひとつ‥$"
 
 SaffronCity_Gym_Text_SabrinaRematch:
-	.string "SABRINA: Ah, the KANTO CHAMPION.\p"
-	.string "I sensed your return.\p"
-	.string "Your power has grown immensely.\p"
-	.string "Even now, I feel your aura.\p"
-	.string "Want to have a rematch with me?$"
+	.string "ナツメ『あら　カントーの\nチャンピオン\pあなたが　くるのを\nかんじて　いたわ\pちからが　おおきく\nなったわね\pいまも　あなたの　オーラを\nかんじる\pもう　いちど\nしょうぶ　する？$"
 
 SaffronCity_Gym_Text_SabrinaRematchDefeat:
-	.string "SABRINA: Your love for your\n"
-	.string "POKéMON again overwhelmed my\l"
-	.string "psychic power…$"
+	.string "ナツメ『ポケモンへの　あいじょうが\nまた　わたしの　ちょうのうりょくを\lうわまわった‥$"
 
 SaffronCity_Gym_Text_MediumRebeccaSeen:
-	.string "The power of all those you\n"
-	.string "defeated comes to me!$"
+	.string "あなたが　たおした　ものたちの\nちからが　わたしに　あつまる！$"
 
 SaffronCity_Gym_Text_MediumRebeccaBeaten:
-	.string "Strong… Far too strong…$"
+	.string "つよい‥　つよすぎる‥$"
 
 SaffronCity_Gym_Text_MediumRebeccaAfter:
-	.string "What is the source of your power?$"
+	.string "あなたの　ちからの\nみなもとは　なに？$"
 
 SaffronCity_Gym_Text_PsychicFranklinSeen:
-	.string "Psychic power is the power of\n"
-	.string "your soul.$"
+	.string "ちょうのうりょくとは\nこころの　ちからだ$"
 
 SaffronCity_Gym_Text_PsychicFranklinBeaten:
-	.string "Your soul has more power than\n"
-	.string "mine!$"
+	.string "きみの　こころの　ほうが\nつよい！$"
 
 SaffronCity_Gym_Text_PsychicFranklinAfter:
-	.string "You made your soul stronger, not\n"
-	.string "just your abilities.$"
+	.string "きみは　うでだけで　なく\nこころも　きたえたんだね$"
 
 SaffronCity_Gym_Text_MediumDorisSeen:
-	.string "Fufufufu… I see it clearly.\p"
-	.string "I can see into your soul!$"
+	.string "ふふふふ‥　はっきり\nみえるわ\pあなたの　こころが\nみえる！$"
 
 SaffronCity_Gym_Text_MediumDorisBeaten:
-	.string "Though I read you, I still lost…$"
+	.string "こころを　よんだのに\nまけた‥$"
 
 SaffronCity_Gym_Text_MediumDorisAfter:
-	.string "Darn! I forgot that I predicted I\n"
-	.string "would lose to you.$"
+	.string "しまった！　あなたに　まけると\nよちしたのを　わすれてた$"
 
 SaffronCity_Gym_Text_PsychicJaredSeen:
-	.string "The FIGHTING DOJO next door was\n"
-	.string "once this city's GYM.$"
+	.string "となりの　かくとうどうじょうは\nむかし　この　まちの\lジム　だったんだ$"
 
 SaffronCity_Gym_Text_PsychicJaredBeaten:
-	.string "I was no match…$"
+	.string "かなわなかった‥$"
 
 SaffronCity_Gym_Text_PsychicJaredAfter:
-	.string "KARATE KING, the master of the\n"
-	.string "FIGHTING DOJO, was just destroyed\l"
-	.string "by SABRINA.$"
+	.string "かくとうどうじょうの　しはん\nカラテおうは　ナツメさんに\lこてんぱんに　されたんだ$"
 
 SaffronCity_Gym_Text_GymGuideIntro:
-	.string "Yo, CHAMP in making!\p"
-	.string "A trainer as skilled as you\n"
-	.string "doesn't need to be told how to\l"
-	.string "deal with PSYCHIC-type POKéMON,\l"
-	.string "right?\p"
-	.string "I expect great things from you!\p"
-	.string "Good luck!$"
+	.string "よう　みらいの　チャンピオン！\pきみほどの　うでなら\nエスパータイプの　たいさくは\lいわなくても　わかるよな？\pきたい　してるぞ！\pがんばれよ！$"
 
 SaffronCity_Gym_Text_GymGuideWin:
-	.string "That was another fantastic battle!$"
+	.string "また　すばらしい\nしょうぶ　だったな！$"
 
 SaffronCity_Gym_EventScript_GymStatue::
 	lockall
@@ -190,13 +142,7 @@ SaffronCity_Gym_EventScript_GymStatuePostVictory::
 
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "SAFFRON POKéMON GYM\n"
-    .string "LEADER: SABRINA\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\nグリーン　レッド$"
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "SAFFRON POKéMON GYM\n"
-    .string "LEADER: SABRINA\p"
-    .string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, {PLAYER}$"
+	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"

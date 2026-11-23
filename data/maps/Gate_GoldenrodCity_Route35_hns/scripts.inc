@@ -76,58 +76,34 @@ Gate_GoldenrodCity_Route35_EventScript_Fisher::
 	end
 
 Route35GoldenrodGate_Text_RandyAskFavor:
-	.string "Excuse me, kid! Can you do a guy\n"
-	.string "a favor?\p"
-	.string "Can you take this POKéMON with MAIL\n"
-	.string "to my friend?\p"
-	.string "He's on ROUTE 31.$"
+	.string "ちょっと　きみ！\nたのみを　きいて　くれない？\pこの　メールを　もった　ポケモンを\nともだちに　とどけて　ほしいんだ\p31ばんどうろに　いるよ$"
 
 Route35GoldenrodGate_Text_RandyThanks:
-	.string "You will? Perfect! Thanks, kid!\p"
-	.string "My pal's a chubby guy who snoozes\n"
-	.string "all the time.\p"
-	.string "You'll recognize him right away!$"
+	.string "いいの？　たすかる！\nありがとう！\pともだちは　いつも\nねている　ふとった　やつさ\pすぐ　わかるよ！$"
 
 Route35GoldenrodGate_Text_ReceivedMonWithMail:
-	.string "{PLAYER} received a POKéMON with MAIL.$"
+	.string "{PLAYER}は　メールを\nもった　ポケモンを\lあずかった$"
 
 Route35GoldenrodGate_Text_RandyWeirdTree:
-	.string "Make sure to put it at the front of\n"
-	.string "your team when you find my friend!\p"
-	.string "ROUTE 31!\p"
-	.string "Oh, yeah. There was a weird tree\n"
-	.string "blocking the road.\p"
-	.string "I wonder if it's been cleared?$"
+	.string "ともだちに　あったら　その\nポケモンを　せんとうに\lしておいてね！\p31ばんどうろだよ！\pそうそう　へんな　きが\nみちを　ふさいでたな\pもう　なくなったかな？$"
 
 Route35GoldenrodGate_Text_CantCarryMoreMon:
-	.string "You can't carry another POKéMON…$"
+	.string "もう　ポケモンを\nもてないね‥$"
 
 Route35GoldenrodGate_Text_RandyNeverMind:
-	.string "Oh… Never mind, then…$"
+	.string "そうか‥　じゃあ\nいいよ‥$"
 
 Route35GoldenrodGate_Text_ThanksForDelivery:
-	.string "Thanks, kid! You made the delivery\n"
-	.string "for me!\p"
-	.string "Here's something for your trouble!$"
+	.string "ありがとう！　とどけて\nくれたんだね！\pおれいに　これを\nどうぞ！$"
 
 Route35GoldenrodGate_Text_RandyMyPalSnoozing:
-	.string "My pal was snoozing, right? Heh,\n"
-	.string "what'd I say?$"
+	.string "あいつ　ねてた　だろ？\nへへ　いった　とおり\lだろ？$"
 
 Route35GoldenrodGate_Text_PokefanF_TreeBlocking:
-	.string "A strange tree is blocking the road.\p"
-	.string "It wriggles around if you talk to it.\p"
-	.string "I heard it became wild when someone\n"
-	.string "watered it with a SQUIRTBOTTLE.$"
+	.string "へんな　きが　みちを\nふさいでるの\pはなしかけると\nくねくね　うごくのよ\pだれかが　ゼニガメじょうろで\nみずを　かけたら　あばれだした\lらしいわ$"
 
 Route35GoldenrodGate_Text_PokefanF_Lullaby:
-	.string "I like the POKéMON Lullaby they play\n"
-	.string "on the radio.$"
+	.string "ラジオで　ながれる\nポケモンの　こもりうたが\lすきなの$"
 
 Route35GoldenrodGate_Text_Fisher:
-	.string "I wonder how many kinds of POKéMON\n"
-	.string "there are in the world.\p"
-	.string "Three years ago, PROF.OAK said that\n"
-	.string "there were 150 different kinds.\p"
-	.string "But recently I heard there's\n"
-	.string "over 400!$"
+	.string "せかいには　なんしゅるいの\nポケモンが　いるんだろう\p3ねんまえ　オーキドはかせは\n150しゅるい　いると\lいっていた\pでも　さいきん　400しゅるい\nいじょう　いると　きいたよ！$"

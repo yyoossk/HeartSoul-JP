@@ -105,37 +105,13 @@ PokemonLeague_WillsRoom_EventScript_WillDefeated::
 	end
 
 PokemonLeague_WillsRoom_Text_Before:
-    .string "Welcome to POKéMON LEAGUE,\n"
-    .string "{PLAYER}.\p"
-    .string "Allow me to introduce myself.\n"
-    .string "I am WILL.\p"
-    .string "I have trained all around the\n"
-    .string "world, making my psychic\l"
-    .string "POKéMON powerful.\p"
-    .string "And, at last, I've been accepted\n"
-    .string "into the ELITE FOUR.\p"
-    .string "I can only keep getting better!\p"
-    .string "Losing is not an option!$"
+	.string "ポケモンリーグへ　ようこそ\n{PLAYER}くん\pじこしょうかい　させて\nもらおう　わたしは　イツキ\pせかいじゅうで　しゅぎょうを　して\nエスパーポケモンを\lきたえて　きた\pそして　ついに\nしてんのうに　えらばれた\pわたしは　まだまだ\nつよく　なる！\pまける　わけには\nいかない！$"
 
 PokemonLeague_WillsRoom_Text_Beaten:
-    .string "I… I can't… believe it…$"
+	.string "そ‥　そんな‥\nしんじられない‥$"
 
 PokemonLeague_WillsRoom_Text_Defeat:
-    .string "Even though I was defeated, I\n"
-    .string "won't change my course.\p"
-    .string "I will continue battling until I\n"
-    .string "stand above all trainers!\p"
-    .string "Now, {PLAYER}, move on and\n"
-    .string "experience the true ferocity of\l"
-    .string "the ELITE FOUR.$"
+	.string "まけても　わたしは\nみちを　かえない\pすべての　トレーナーの　うえに\nたつまで　たたかいつづける！\pさあ　{PLAYER}くん　さきへ　すすみ\nしてんのうの　ほんとうの\lおそろしさを　あじわいたまえ$"
 
 PokemonLeague_WillsRoom_Text_RematchBefore:
-    .string "WILL: Ah, welcome back.\p"
-    .string "I have foreseen this encounter.\p"
-    .string "My psychic POKéMON and\n"
-    .string "I have evolved, developing\l"
-    .string "new tactics.\p"
-    .string "Prepare yourself for a battle of\n"
-    .string "enhanced strategy and might.\p"
-    .string "Let us see if your foresight\n"
-    .string "matches mine.$"
+	.string "イツキ『やあ　おかえり\pこの　さいかいは\nよち　していたよ\pわたしと　エスパーポケモンも\nしんか　して　あたらしい\lせんじゅつを　みにつけた\pさくせんも　ちからも　ました\nしょうぶを　かくご　したまえ\pきみの　よちが　わたしに\nかなうか　みせて　もらおう$"

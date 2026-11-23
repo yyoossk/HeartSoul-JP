@@ -63,36 +63,13 @@ PokemonLeague_KogasRoom_EventScript_KogaDefeated::
 	end
 
 PokemonLeague_KogasRoom_Text_RematchBefore:
-    .string "KOGA: Fwahahahaha!\p"
-    .string "You return, brave challenger.\p"
-    .string "My ninja skills have sharpened.\p"
-    .string "New sinister traps await you.\p"
-    .string "Poison, sleep, and more...\n"
-    .string "Be ready!\p"
-    .string "Fwahahahaha!\p"
-    .string "Show me how you've grown!$"
+	.string "キョウ『ファファファ！\pもどったか\nゆうかんな　ちょうせんしゃよ\pせっしゃの　にんじゅつは\nさらに　みがかれた\pあらたな　わなが\nまって　おるぞ\pどく　ねむり　そのほか‥\nかくご　いたせ！\pファファファ！\pせいちょうを\nみせて　みよ！$"
 
 PokemonLeague_KogasRoom_Text_Before:
-    .string "Fwahahahaha!\p"
-    .string "I am KOGA of the ELITE FOUR.\p"
-    .string "I live in shadows, a ninja!\p"
-    .string "My intricate style will confound\n"
-    .string "and destroy you!\p"
-    .string "Confusion, sleep, poison…\p"
-    .string "Prepare to be the victim of my\n"
-    .string "sinister technique!\p"
-    .string "Fwahahahaha!\p"
-    .string "POKéMON is not merely about brute\n"
-    .string "force--you shall see soon enough!$"
+	.string "ファファファ！\pせっしゃ　してんのうの\nキョウ！\pかげに　いきる\nにんじゃで　ござる！\pせっしゃの　ふくざつな\nせんぽうで　きさまを\lまどわし　たおす！\pこんらん　ねむり　どく‥\pせっしゃの　わなに\nかかるが　よい！\pファファファ！\pポケモンは　ちから　だけ\nでは　ないと　すぐに\lわかるで　ござろう！$"
 
 PokemonLeague_KogasRoom_Text_Beaten:
-    .string "Ah!\n"
-    .string "You have proven your worth!$"
+	.string "むう！\nみごと　なり！$"
 
 PokemonLeague_KogasRoom_Text_Defeat:
-    .string "I subjected you to everything I\n"
-    .string "could muster.\p"
-    .string "But my efforts failed. I must hone\n"
-    .string "my skills.\p"
-    .string "Go on to the next room, and put\n"
-    .string "your abilities to test!$"
+	.string "せっしゃの　すべてを\nぶつけたが\pやぶれた　うでを\nみがかねば\pつぎの　へやへ　すすみ\nきさまの　ちからを\lためすが　よい！$"

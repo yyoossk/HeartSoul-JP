@@ -207,69 +207,37 @@ Gate_NationalPark_Movement_Player_EnterParkBotB:
 	step_end
 
 Route35NationalParkGate_Text_OfficerAskToParticipate:
-	.string "Hello Trainer! The Bug-Catching\n"
-	.string "Contest is on today.\p"
-	.string "The rules are simple.\p"
-	.string "Using one of your POKéMON, catch a\n"
-	.string "bug POKéMON to be judged.\p"
-	.string "Would you like to give it a try?$"
+	.string "こんにちは　トレーナーさん！\nきょうは　むしとりたいかい\lです\pルールは　かんたん\pてもちの　ポケモン　1ぴきで\nむしポケモンを　つかまえて\lしんさを　うけます\pさんか　しますか？$"
 
 Route35NationalParkGate_Text_OfficerGiveSportBalls:
-	.string "Any EXP your POKéMON gains during\n"
-	.string "the contest will be reverted when\l"
-	.string "you leave.\p"
-	.string "Here are the SPORT BALLS for the\n"
-	.string "Contest.$"
+	.string "たいかい　ちゅうに　ポケモンが\nえた　けいけんちは　でる　ときに\lもとに　もどります\pたいかい　ようの\nパークボールです$"
 
 Route35NationalParkGate_Text_ReceivedSportBalls:
-	.string "{PLAYER} received SPORT BALLS.$"
+	.string "{PLAYER}は\nパークボールを　うけとった$"
 
 Route35NationalParkGate_Text_OfficerExplainRules:
-	.string "The person who gets the strongest\n"
-	.string "bug POKéMON is the winner.\p"
-	.string "If you run out of SPORT BALLS,\n"
-	.string "you're done.\p"
-	.string "You can catch up to 5 POKéMON. The\n"
-	.string "last one caught will be the only\l"
-	.string "one kept and placed in the contest.\p"
-	.string "Go out and catch the strongest bug\n"
-	.string "POKéMON you can find!$"
+	.string "いちばん　つよい　むしポケモンを\nつかまえた　ひとが\lゆうしょう　です\pパークボールが　なくなったら\nおしまい　です\pポケモンは　5ひきまで\nつかまえられますが　さいごの\l1ぴき　だけが　しんさされます\pいちばん　つよい　むしポケモンを\nつかまえて　きてください！$"
 
 Route35NationalParkGate_Text_OfficerAskToUseFirstMon:
-	.string "If you have more than one POKéMON,\n"
-	.string "you'll have to use the\l"
-	.string "first POKéMON in your party.\p"
-	.string "Is that OK with you?$"
+	.string "てもちが　2ひき　いじょう\nなら　せんとうの　ポケモンで\lさんか　して　もらいます\pよろしい　ですか？$"
 
 Route35NationalParkGate_Text_OfficerHoldYourMon:
-	.string "Fine, we'll hold your other POKéMON\n"
-	.string "while you compete.$"
+	.string "では　ほかの　ポケモンは\nたいかい　ちゅう\lおあずかり　します$"
 
 Route35NationalParkGate_Text_MonLeftWithHelper:
-	.string "{PLAYER}'s POKéMON were left with the\n"
-	.string "CONTEST HELPER.$"
+	.string "{PLAYER}は　ポケモンを\nかかりいんに　あずけた$"
 
 Route35NationalParkGate_Text_ChooseMonAndComeBack:
-	.string "Please choose the POKéMON to be used\n"
-	.string "in the Contest, then come see me.$"
+	.string "たいかいに　つかう　ポケモンを\nえらんでから　また\lきて　ください$"
 
 Route35NationalParkGate_Text_TakePartInFuture:
-	.string "OK. We hope you'll take part in the\n"
-	.string "future.$"
+	.string "わかりました　また\nさんか　してくださいね$"
 
 Route35NationalParkGate_Text_FirstMonCantBattle:
-	.string "Uh-oh… The first POKéMON in your\n"
-	.string "party can't battle.\p"
-	.string "Please switch it with the POKéMON\n"
-	.string "you want to use, then come see me.$"
+	.string "あら‥　せんとうの　ポケモンが\nたたかえない　ようですね\pつかいたい　ポケモンと\nいれかえてから\lまた　きて　ください$"
 
 Route35NationalParkGate_Text_MakeRoom:
-	.string "Uh-oh… Both your party and your\n"
-	.string "PC BOX are full.\p"
-	.string "You have no room to put the bug\n"
-	.string "POKéMON you catch.\p"
-	.string "Please make room in your party or\n"
-	.string "your PC BOX, then come see me.$"
+	.string "あら‥　てもちも　パソコンの\nボックスも　いっぱい　ですね\pつかまえた　むしポケモンを\nいれる　ばしょが　ありません\pてもちか　ボックスを\nあけてから　また\lきて　ください$"
 
 Route35NationalParkGate_Text_EggAsFirstMon:
 	.string "Uh-oh… You have an EGG as the first\n"

@@ -30,7 +30,7 @@ SaffronCity_SilphCo_EventScript_Refused::
 	end
 
 SaffronCity_SilphCo_Text_Refused:
-	.string "Oh...$"
+	.string "そうか‥$"
 
 SaffronCity_SilphCo_EventScript_TreeckoChosen::
 	closemessage
@@ -92,29 +92,13 @@ SaffronCity_SilphCo_Movement_StevenLeave:
 
 
 SaffronCity_SilphCo_Text_Steven1:
-	.string "Hello...\n"
-	.string "You're breaking up...\l"
-	.string "I think it depends on my dad.\l"
-	.string "I see...\n"
-	.string "I'll be on my way. See you soon.$"
+	.string "もしもし‥\nでんぱが　わるいな‥\lちちしだい　だと　おもう\lそうか‥\nでは　これで　また　あとで$"
 SaffronCity_SilphCo_Text_Steven2:
-	.string "STEVEN: You are... I remember your\n"
-	.string "eyes.\p"
-	.string "When I see a trainer whose eyes\n"
-	.string "twinkle, I always remember.\p"
-	.string "You have a POKéDEX! So you are\n"
-	.string "also in search of POKéMON!\l"
-	.string "Let me see...\p"
-	.string "I think I can help you with that.\p"
-	.string "Let's say that you have stones in\n"
-	.string "front of you. Which color would\l"
-	.string " you pick?$"
+	.string "ダイゴ『きみは‥　その　めを\nおぼえているよ\pめが　かがやく　トレーナーは\nかならず　おぼえて　いるんだ\pずかんを　もってるね！　きみも\nポケモンを　さがして　いるんだ\lそうだな‥\pちからに　なれると　おもう\pめの　まえに　いしが　あると\nしよう　どの　いろを\lえらぶ？$"
 SaffronCity_SilphCo_Text_Steven3:
-	.string "You chose correctly! I'll give you\n"
-	.string "{STR_VAR_1}!$"
+	.string "ただしい　えらびだ！\n{STR_VAR_1}を　あげよう！$"
 SaffronCity_SilphCo_Text_Steven4:
-	.string "Take good care of it. Your caring\n"
-	.string "for it will make me very happy.$"
+	.string "だいじに　して　くれ\nそれが　ぼくには\lなにより　うれしい$"
 
 SaffronCity_SilphCo_EventScript_Receptionist::
 	msgbox SilphCo_Text_Receptionist, MSGBOX_NPC
@@ -137,24 +121,16 @@ SaffronCity_SilphCo_EventScript_Sign2::
 	end
 
 SilphCo_Text_Sign1:
-	.string "SILPH CO.\n"
-	.string "1F RECEPTION.$"
+	.string "シルフカンパニー\n1F　うけつけ$"
 
 SilphCo_Text_Sign2:
-	.string "SILPH CO.\n"
-	.string "ELEVATOR OUT OF SERVICE$"
+	.string "シルフカンパニー\nエレベーター　ていし　ちゅう$"
 
 SilphCo_Text_Receptionist:
-	.string "Welcome. This is SILPH CO.'s HEAD\n"
-	.string "OFFICE BUILDING.$"
+	.string "いらっしゃいませ　こちらは\nシルフカンパニー　ほんしゃビル\lです$"
 
 SilphCo_Text_Officer:
-	.string "Only employees are permitted to\n"
-	.string "go upstairs.\p"
-	.string "But since you came such a long\n"
-	.string "way,\p"
-	.string "have this neat little souvenir.$"
+	.string "うえの　かいは　しゃいん　いがい\nはいれません\pでも　とおくから　きて\nくれたので\pちょっとした　おみやげを\nどうぞ$"
 
 SilphCo_Text_Officer_GotUpGrade:
-	.string "It's SILPH CO.'s latest product.\p"
-	.string "It's not for sale anywhere yet.$"
+	.string "シルフカンパニーの\nさいしん　せいひん　です\pまだ　どこにも\nうって　いませんよ$"

@@ -35,24 +35,13 @@ IndigoPlateau_EventScript_ShigyNinja::
 	end
 
 IndigoPlateau_Text_ShigyNinja:
-	.string "Congrats on making it here!\p"
-	.string "I've seen tons of trainers come\n"
-	.string "through here over the years, and\l"
-	.string "all of them are wonderfully unique.\p"
-	.string "You should be proud of yourself\n"
-	.string "for getting this far!\p"
-	.string "Now, go get 'em!$"
+	.string "ここまで　きたね\nおめでとう！\pなんねんも　たくさんの\nトレーナーを　みてきたけど\lみんな　すばらしく　こせいてき\pここまで　きた　じぶんを\nほこりに　おもって　いいよ！\pさあ　いって　こい！$"
 
 IndigoPlateau_Text_Blackbelt:
-	.string "The POKéMON LEAGUE is not taking\n"
-	.string "new challengers at the moment.\p"
-	.string "Please check back later.$"
+	.string "ポケモンリーグは　いま\nちょうせんしゃを\lうけつけて　いません\pまた　あとで\nきて　ください$"
 
 IndigoPlateau_Text_CooltrainerM:
-    .string "At the POKéMON LEAGUE, you'll get\n"
-    .string "tested by the ELITE FOUR.\p"
-    .string "You have to beat them all. If you\n"
-    .string "lose, you have to start all over!$"
+	.string "ポケモンリーグでは　してんのうが\nきみを　ためす\pぜんいんに　かたなければ\nならない　まけたら\lさいしょから　やりなおしだ！$"
 
 IndigoPlateau_EventScript_Silver::
 	lock
@@ -86,24 +75,13 @@ IndigoPlateau_Silver_Battle_Chikorita::
 	return
 
 IndigoPlateau_Text_RivalEntrance1:
-    .string "Hold it.\p"
-    .string "You're going to take the POKéMON\n"
-    .string "LEAGUE challenge now?\p"
-    .string "That's not going to happen.\p"
-    .string "My super-well-trained POKéMON\n"
-    .string "are going to pound you.\p"
-    .string "{PLAYER}!\n"
-    .string "I challenge you!$"
+	.string "まて\pいまから　ポケモンリーグに\nちょうせん　する　だと？\pそうは　させない\pきたえ　ぬいた　おれの\nポケモンで　たたきのめす\p{PLAYER}！\nしょうぶだ！$"
 
 IndigoPlateau_Text_RivalWin:
-    .string "…\p"
-    .string "OK--I lost…$"
+	.string "‥\pわかった‥　まけたよ‥$"
 
 IndigoPlateau_Text_RivalAfter:
-    .string "…Darn… I still can't win…\p"
-    .string "I… I have to think more about my\n"
-    .string "POKéMON…\p"
-    .string "Humph! Try not to lose!$"
+	.string "‥くそっ‥　まだ　かてない‥\pおれは‥　もっと　ポケモンの\nことを　かんがえなきゃ‥\pふん！　まけるんじゃ\nねえぞ！$"
 
 IndigoPlateau_EventScript_Psychic::
 	lock
@@ -146,19 +124,13 @@ IndigoPlateau_EventScript_Abra::
 	end
 
 IndigoPlateau_Text_TeleportGuy1:
-    .string "Ah! You're challenging the ELITE\n"
-    .string "FOUR? Are you sure you're ready?\p"
-    .string "If you need to train some more,\n"
-    .string "my ABRA can help you.\p"
-    .string "It can TELEPORT you home.\p"
-    .string "Would you like to go home now?$"
+	.string "おっ！　してんのうに\nちょうせん　するのか？\lじゅんびは　いいのかい？\pもっと　きたえたいなら\nぼくの　ケーシィが\lてつだうよ\pテレポートで　いえまで\nおくって　くれる\pいま　いえに　かえる？$"
 
 IndigoPlateau_Text_TeleportGuyYes:
-    .string "OK, OK. Picture your house in your\n"
-    .string "mind…$"
+	.string "よし　よし　じぶんの　いえを\nあたまに　うかべて‥$"
 
 IndigoPlateau_Text_TeleportGuyNo:
-    .string "OK, OK. The best of luck to you!$"
+	.string "よし　よし\nがんばってね！$"
 
 IndigoPlateau_Text_Abra:
-    .string "ABRA: Aabra…$"
+	.string "ケーシィ『ケーシィ‥$"

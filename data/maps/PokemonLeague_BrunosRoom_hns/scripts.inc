@@ -63,34 +63,13 @@ PokemonLeague_BrunosRoom_EventScript_BrunoDefeated::
 	end
 
 PokemonLeague_BrunosRoom_Text_RematchBefore:
-    .string "BRUNO: Welcome back, young\n"
-    .string "warrior.\p"
-    .string "Through rigorous training, we have\n"
-    .string "grown stronger.\p"
-    .string "My rock-hard will is even more firm\n"
-    .string "and unyielding.\p"
-    .string "Are you prepared to face an even\n"
-    .string "greater challenge?\p"
-    .string "Show me the results of your\n"
-    .string "training.\p"
-    .string "Hoo hah!$"
+	.string "シバ『よく　もどった\nわかき　せんしよ\pきびしい　しゅぎょうで\nおれたちは　さらに\lつよく　なった\pおれの　いわの　ような　いしは\nいっそう　かたく　ゆるがない\pさらなる　しれんに\nたちむかう　かくごは\lあるか？\pしゅぎょうの　せいかを\nみせて　みろ\pウー　ハーッ！$"
 
 PokemonLeague_BrunosRoom_Text_Before:
-    .string "I am BRUNO of the ELITE FOUR.\p"
-    .string "I always train to the extreme be-\n"
-    .string "cause I believe in our potential.\p"
-    .string "That is how we became strong.\p"
-    .string "Can you withstand our power?\p"
-    .string "Hm? I see no fear in you. You look\n"
-    .string "determined. Perfect for battle!\p"
-    .string "Ready, {PLAYER}? You will bow down\n"
-    .string "to our overwhelming power!\p"
-    .string "Hoo hah!$"
+	.string "おれは　してんのうの　シバ！\pおれたちの　かのうせいを\nしんじて　つねに　げんかいまで\lきたえて　いる\pだから　つよく　なれたのだ\pおれたちの　ちからに\nたえられるか？\pむ？　おそれが　みえない\nいい　めだ\lしょうぶに　ぴったりだ！\pいくぞ　{PLAYER}！　おれたちの\nあっとうてきな　ちからに\lひれふすが　いい！\pウー　ハーッ！$"
 
 PokemonLeague_BrunosRoom_Text_Beaten:
-    .string "Why? How could we lose?$"
+	.string "なぜだ？　なぜ\nまけたのだ？$"
 
 PokemonLeague_BrunosRoom_Text_Defeat:
-    .string "Having lost, I have no right to\n"
-    .string "say anything…\p"
-    .string "Go face your next challenge!$"
+	.string "まけた　おれに　なにも\nいう　しかくは　ない‥\pつぎの　しれんに\nむかえ！$"

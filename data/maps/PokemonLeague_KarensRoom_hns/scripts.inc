@@ -63,42 +63,14 @@ PokemonLeague_KarensRoom_EventScript_KarenDefeated::
 	end
 
 PokemonLeague_KarensRoom_Text_RematchBefore:
-    .string "KAREN: Ah, it's you again.\p"
-    .string "I trust you haven't forgotten\n"
-    .string "my belief:\p"
-    .string "True strength arises from trust\n"
-    .string "in one's POKéMON.\p"
-    .string "Since our last encounter, my\n"
-    .string "bond with my POKéMON has\l"
-    .string "deepened further.\p"
-    .string "Are you ready to face a team\n"
-    .string "united by an unbreakable bond?\p"
-    .string "Show me the power of the bond\n"
-    .string "with your POKéMON.$"
+	.string "カリン『あら　また　あなた\pわたしの　しんねん\nわすれて　ないわよね\pほんとうの　つよさは\nポケモンを　しんじる\lこころから　うまれる\pあれから　わたしと\nポケモンの　きずなは\lもっと　ふかく　なった\pこわれない　きずなで\nむすばれた　チームに\lいどむ　かくごは　いい？\pあなたと　ポケモンの\nきずなの　ちからを\lみせて　ちょうだい$"
 
 PokemonLeague_KarensRoom_Text_Before:
-    .string "I am KAREN of the ELITE FOUR.\p"
-    .string "You're {PLAYER}? How amusing.\p"
-    .string "I love DARK-type POKéMON.\p"
-    .string "I find their wild, tough image\n"
-    .string "to be so appealing. And they're\l"
-    .string "so strong.\p"
-    .string "Think you can take them?\n"
-    .string "Just try to entertain me.\p"
-    .string "Let's go.$"
+	.string "わたしは　してんのうの　カリン\pあなたが　{PLAYER}？\nおもしろい　わね\pわたしは　あくタイプの\nポケモンが　すき\pワイルドで　タフな　ところに\nひかれるの　それに\lとても　つよい\pあなたに　かてる　かしら？\nせいぜい　たのしませて\pさあ　はじめましょう$"
 
 PokemonLeague_KarensRoom_Text_Beaten:
-    .string "Well, aren't you good. I like that\n"
-    .string "in a trainer.$"
+	.string "あら　やるじゃない\nそういう　トレーナー\lすきよ$"
 
 PokemonLeague_KarensRoom_Text_Defeat:
-    .string "Strong POKéMON.\p"
-    .string "Weak POKéMON.\p"
-    .string "That is only the selfish\n"
-    .string "perception of people.\p"
-    .string "Truly skilled trainers should\n"
-    .string "try to win with their favorites.\p"
-    .string "I like your style. You understand\n"
-    .string "what's important.\p"
-    .string "Go on--the CHAMPION is waiting.$"
+	.string "つよい　ポケモン\pよわい　ポケモン\pそんなの　ひとの\nかってな　おもいこみ\pほんとうに　うでの　ある\nトレーナー　なら　すきな\lポケモンで　かつべき\pあなたの　スタイル　すきよ\nだいじな　ことが\lわかってる\pさあ　いって\nチャンピオンが　まってるわ$"
 

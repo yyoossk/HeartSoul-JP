@@ -18,11 +18,7 @@ Gate_AzaleaTown_IlexForest_EventScript_Granny::
 	end
 
 Gate_AzaleaTown_IlexForest_Text_Officer:
-	.string "ILEX FOREST is big.\n"
-	.string "Be careful!\l"
-	.string "Don't get lost.$"
+	.string "ウバメのもりは　ひろい\nきを　つけて！\lまいごに　ならないように$"
 
 Gate_AzaleaTown_IlexForest_Text_Granny:
-	.string "The ILEX FOREST is watched\n"
-	.string "over by its protector.\p"
-	.string "Stay out of mischief!$"
+	.string "ウバメのもりは　もりの\nかみさまが　みまもって\lおる\pいたずら　するで\nないぞ！$"

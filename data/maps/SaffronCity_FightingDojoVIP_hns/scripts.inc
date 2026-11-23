@@ -802,6 +802,5 @@ SaffronCity_FightingDojoVIP_Text_Blue_Rematch:
 	.string "グリーン『へえ　チャンピオン\nさまか！\pずいぶん　えらく\nなったもんだな\pおれも　その　しょうごうを\nもってたんだぜ\lてかげんは　しないぞ\pその　ちょうしが　つづくか\nみせて　もらおう\pもう　いちど\nしょうぶ　するか？$"
 
 SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat:
-	.string "BLUE: What?\p"
-	.string "How the heck did I lose again?$"
+	.string "グリーン『なに？\pなんで　また　まけるんだ？$"
 
