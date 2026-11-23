@@ -206,103 +206,46 @@ SlateportCity_OceanicMuseum_1F_Text_ThatsAllForInterview:
 	.string "まあ　すてきな　おはなし！\pかならず　テレビで\nながして　もらうわね\pいつか　ほうそう　される\nはずだから　たのしみに\lしててね$"
 
 SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory:
-	.string "Hmmm…\n"
-	.string "I've got a good story for a TV program.\p"
-	.string "I'd better write it up in a hurry!$"
+	.string "うーん‥\nテレビの　いい　ネタが\lできたわ\pいそいで　まとめなきゃ！$"
 
 gTVRecentHappeningsText00::
-	.string "Hello, it's time for RECENT HAPPENINGS.\p"
-	.string "For POKéMON TRAINERS, every day\n"
-	.string "is a storybook tale.\p"
-	.string "What we want to do is to introduce you\n"
-	.string "to some of these POKéMON tales.\p"
-	.string "Today, we bring you the story\n"
-	.string "of the TRAINER {STR_VAR_1}.\p"
-	.string "What did {STR_VAR_1} experience recently?\n"
-	.string "Let's find out.\p"
-	.string "Let's see…$"
+	.string "こんにちは　さいきんの\nできごとの　じかん　です\pポケモントレーナーに　とって\nまいにちが　ものがたり\pそんな　ポケモンの　おはなしを\nごしょうかい　します\pきょうは　トレーナー\n{STR_VAR_1}の　おはなし　です\p{STR_VAR_1}が　さいきん\nけいけん　した　ことは？\lみて　みましょう\pえーと‥$"
 
 gTVRecentHappeningsText01::
-	.string "Wasn't that enlightening?\p"
-	.string "The story gives you a clear idea of what\n"
-	.string "{STR_VAR_1} has experienced recently.\l"
-	.string "It's as if we were there as witnesses!$"
+	.string "いかが　でしたか？\p{STR_VAR_1}が　さいきん　どんな\nけいけんを　したのか\lよく　わかりますね\lまるで　その　ばに\lいた　みたい　です！$"
 
 gTVRecentHappeningsText02::
-	.string "“{STR_VAR_3}.” That\n"
-	.string "accents the tale and gives it depth.$"
+	.string "『{STR_VAR_3}』\nこれが　おはなしに\lふかみを　あたえて　います$"
 
 gTVRecentHappeningsText03::
-	.string "“{STR_VAR_3}.”\n"
-	.string "That gives the tale a sense of place.\l"
-	.string "It lets us envision the tale's setting.$"
+	.string "『{STR_VAR_3}』\nこれで　ばしょの　ようすが\lめに　うかびますね$"
 
 gTVRecentHappeningsText04::
-	.string "The “{STR_VAR_3}”\n"
-	.string "section of the tale is very expressive.$"
+	.string "『{STR_VAR_3}』の\nところが　とても\lいきいき　して　います$"
 
 gTVRecentHappeningsText05::
-	.string "{STR_VAR_1} has recounted a wonderful\n"
-	.string "tale involving POKéMON.\p"
-	.string "And now {STR_VAR_1}'s tale is indelibly\n"
-	.string "etched into your soul, too.\p"
-	.string "That's it for today.\n"
-	.string "Please tune in next time.$"
+	.string "{STR_VAR_1}が　ポケモンとの\nすてきな　おはなしを\lきかせて　くれました\pこの　おはなしは　みなさんの\nこころにも　きざまれた\lことでしょう\pきょうは　ここまで\nまた　みて　くださいね$"
 
 gTVMassOutbreakText00::
-	.string "Greetings!\n"
-	.string "It's time for POKéMON NEWS.\p"
-	.string "We've just received word of a very\n"
-	.string "rare occurrence.\p"
-	.string "There have been reports of a mass\n"
-	.string "outbreak of {STR_VAR_2} in the vicinity\l"
-	.string "of {STR_VAR_1}.\p"
-	.string "{STR_VAR_2}, as you're probably aware,\n"
-	.string "is known as a POKéMON that's rare\l"
-	.string "and hard to find.\p"
-	.string "It sounds like a rare opportunity to\n"
-	.string "see the mystifying outbreak of\l"
-	.string "{STR_VAR_2} in the wild.\p"
-	.string "That's the news on POKéMON NEWS.$"
+	.string "こんにちは！\nポケモンニュースの　じかんです\pとても　めずらしい　ニュースが\nとびこんで　きました\p{STR_VAR_1}の　ふきんで\n{STR_VAR_2}が　おおはっせい\lして　いる　そうです\pごぞんじの　とおり\n{STR_VAR_2}は　めったに\lみつからない　ポケモン　です\p{STR_VAR_2}の　ふしぎな\nおおはっせいを　みられる\lめずらしい　チャンスですね\pいじょう　ポケモンニュース\nでした$"
 
 gTV3CheersForPokeblocksText00::
-	.string "MC: We hope you're in good cheer,\n"
-	.string "“3 CHEERS FOR {POKEBLOCK}S” is here!\p"
-	.string "Today, we examine the {POKEBLOCK} blended\n"
-	.string "by {STR_VAR_1} and associates.\p"
-	.string "Without any delay, let me feed it\n"
-	.string "to my gourmet POKéMON GULPIN.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "しかい『きょうも　げんきに！\n{POKEBLOCK}　バンザイ！の\lじかん　です！\pきょうは　{STR_VAR_1}たちが\nつくった　{POKEBLOCK}を\lしらべます\pさっそく　グルメな\nゴクリンに　たべて\lもらいましょう\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥$"
 
 gTV3CheersForPokeblocksText01::
-	.string "GULPIN: Gubi! Gubii!\p"
-	.string "MC: And the verdict is very {STR_VAR_1}!\n"
-	.string "GULPIN says it tastes “{STR_VAR_2}!”\p"
-	.string "Thank you so much, {STR_VAR_3}!$"
+	.string "ゴクリン『グビッ！　グビー！\pしかい『とても　{STR_VAR_1}\nゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さん\nありがとう　ございました！$"
 
 gTV3CheersForPokeblocksText02::
-	.string "{STR_VAR_1}'s blending performance\n"
-	.string "left something to be desired.\p"
-	.string "If this TRAINER could blend better,\n"
-	.string "the {POKEBLOCK} would be much tastier.$"
+	.string "{STR_VAR_1}の　ブレンドは\nもう　ひといき　でした\pもっと　うまく　ブレンド\nできれば　{POKEBLOCK}は\lもっと　おいしく　なるでしょう$"
 
 gTV3CheersForPokeblocksText03::
-	.string "GULPIN: Gubi! Gubii!\p"
-	.string "MC: Hmm… It's too {STR_VAR_1}.\n"
-	.string "GULPIN says it tastes “{STR_VAR_2}!”\p"
-	.string "It looks like {STR_VAR_3}'s errors\n"
-	.string "hurt the blending quality…$"
+	.string "ゴクリン『グビッ！　グビー！\pしかい『うーん‥\n{STR_VAR_1}すぎますね\lゴクリンは　『{STR_VAR_2}』\lあじ　だと　いって　います！\p{STR_VAR_3}さんの　ミスが\nひびいた　ようです‥$"
 
 gTV3CheersForPokeblocksText04::
-	.string "It's too bad that {STR_VAR_1}'s\n"
-	.string "leading effort went to waste.\p"
-	.string "Let's hope {STR_VAR_2} can turn in\n"
-	.string "a better showing next time!$"
+	.string "{STR_VAR_1}さんの　がんばりが\nむだに　なって　ざんねん\pつぎは　{STR_VAR_2}さんの\nがんばりに　きたい\lしましょう！$"
 
 gTV3CheersForPokeblocksText05::
-	.string "Tune in next time!\n"
-	.string "Our slogan is “3 CHEERS FOR {POKEBLOCK}S!”$"
+	.string "また　みてね！\nあいことばは\l『{POKEBLOCK}　バンザイ！』$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer::
 	.string "Hi, there!\p"
@@ -347,419 +290,157 @@ LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial::
 	.string "I hope you catch it!$"
 
 gTVTrainerFanClubSpecialText00::
-	.string "TRAINER FAN CLUB\n"
-	.string "{STR_VAR_1} SPECIAL!\p"
-	.string "This is a special presentation for\n"
-	.string "the fans of {STR_VAR_1} all over HOENN!\p"
-	.string "Today, we ask the question, “What do\n"
-	.string "people think of {STR_VAR_1}?”\p"
-	.string "We posed the question to {STR_VAR_2}\n"
-	.string "as the TRAINER representative.\p"
-	.string "We asked, “In one word, how would\n"
-	.string "you describe {STR_VAR_1}?”\p"
-	.string "The reply: “{STR_VAR_3}.”\p"
-	.string "Kudos to {STR_VAR_2}!\n"
-	.string "What a perceptive opinion!\p"
-	.string "“{STR_VAR_3} {STR_VAR_1}.”\n"
-	.string "It has such a nice ring to it!\p"
-	.string "{STR_VAR_2} also scored {STR_VAR_1}'s\n"
-	.string "strength from 0 to 100.$"
+	.string "トレーナーファンクラブ\n{STR_VAR_1}　スペシャル！\pホウエン　じゅうの\n{STR_VAR_1}ファンに　おくる\lとくべつ　ばんぐみ！\pきょうの　テーマは\n『{STR_VAR_1}って　どんな\lひと？』\pトレーナー　だいひょうの\n{STR_VAR_2}に　きいて　みました\p『{STR_VAR_1}を　ひとことで\nいうと？』\pこたえは　『{STR_VAR_3}』\pさすが　{STR_VAR_2}！\nするどい　いけん！\p『{STR_VAR_3}　{STR_VAR_1}』\nいい　ひびき　ですね！\p{STR_VAR_2}には　{STR_VAR_1}の\nつよさを　0から　100で\lさいてん　して　もらいました$"
 
 gTVTrainerFanClubSpecialText01::
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That is a very high score indeed!\p"
-	.string "{STR_VAR_2} must obviously hold\n"
-	.string "{STR_VAR_1} in very high esteem.$"
+	.string "けっかは　{STR_VAR_3}てん！\nとても　たかい　てんすう\lです！\p{STR_VAR_2}は　{STR_VAR_1}を\nとても　たかく　ひょうか\lして　いる　ようです$"
 
 gTVTrainerFanClubSpecialText02::
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That is quite a good score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be a rival.$"
+	.string "けっかは　{STR_VAR_3}てん！\nなかなか　いい　てんすう\lです\p{STR_VAR_2}は　{STR_VAR_1}を\nライバルと　おもって\lいる　ようです$"
 
 gTVTrainerFanClubSpecialText03::
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That's a rather weak score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be a mere sidekick.$"
+	.string "けっかは　{STR_VAR_3}てん！\nちょっと　ひくい　てんすう\lです\p{STR_VAR_2}は　{STR_VAR_1}を\nただの　あいぼうと　おもって\lいる　ようです$"
 
 gTVTrainerFanClubSpecialText04::
-	.string "The score was {STR_VAR_3} point(s)!\n"
-	.string "That's a terrible score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be an underling.$"
+	.string "けっかは　{STR_VAR_3}てん！\nひどい　てんすう　です\p{STR_VAR_2}は　{STR_VAR_1}を\nしたっぱと　おもって\lいる　ようです$"
 
 gTVTrainerFanClubSpecialText05::
-	.string "There you have it, folks!\p"
-	.string "I think we all learned something\n"
-	.string "new about {STR_VAR_1}.\p"
-	.string "In closing, I'll leave you with\n"
-	.string "{STR_VAR_2}'s words.\p"
-	.string "{STR_VAR_3} {STR_VAR_1}!$"
+	.string "いかが　でしたか　みなさん！\p{STR_VAR_1}の　あたらしい\nいちめんが　わかりましたね\pさいごに　{STR_VAR_2}の\nことばで　しめくくります\p{STR_VAR_3}　{STR_VAR_1}！$"
 
 gTVNameRaterText00::
-	.string "And now, it's time for…\n"
-	.string "THE NAME RATER SHOW.\p"
-	.string "I tell your POKéMON's fortune from\n"
-	.string "the nickname you've bestowed.\p"
-	.string "Advice is what I have to give, and it is\n"
-	.string "helpful advice that I offer.\p"
-	.string "Today, I shall do a reading of\n"
-	.string "the nickname {STR_VAR_3} of {STR_VAR_1}'s\l"
-	.string "POKéMON {STR_VAR_2}.\p"
-	.string "Hmhm…\p"
-	.string "Hmm…\n"
-	.string "This nickname is…$"
+	.string "さて　おまちかね‥\nなまえしんだんの　じかん　です\pポケモンに　つけた　ニックネーム\nから　うんせいを　うらないます\pわたしが　さしあげるのは\nやくに　たつ　アドバイス　です\pきょうは　{STR_VAR_1}の　ポケモン\n{STR_VAR_2}の　ニックネーム\l{STR_VAR_3}を　しんだん　します\pふむふむ‥\pふむ‥\nこの　ニックネームは‥$"
 
 gTVNameRaterText01::
-	.string "A nickname that hints at talent in many\n"
-	.string "different ways.\p"
-	.string "I urge this TRAINER to take courage\n"
-	.string "and take on many challenges.$"
+	.string "いろいろな　さいのうを\nかんじさせる　ニックネーム\pゆうきを　だして　いろいろな\nことに　ちょうせん　して\lください$"
 
 gTVNameRaterText02::
-	.string "A nickname that perfectly complements\n"
-	.string "{STR_VAR_1}, the TRAINER's name.\p"
-	.string "It suggests that you will forge a fine\n"
-	.string "partnership with precise timing.$"
+	.string "トレーナーの　なまえ\n{STR_VAR_1}と　ぴったり\lあった　ニックネーム\pいきの　あった　いい\nパートナーに　なるでしょう$"
 
 gTVNameRaterText03::
-	.string "A nickname fit for a unique individual\n"
-	.string "of a POKéMON!\p"
-	.string "If raised properly, this POKéMON's\n"
-	.string "uniqueness will bloom excessively!$"
+	.string "こせいてきな　ポケモンに\nふさわしい　ニックネーム！\pちゃんと　そだてれば\nこせいが　どんどん\lのびて　いくでしょう！$"
 
 gTVNameRaterText04::
-	.string "A nickname that will nurture the caring\n"
-	.string "and compassionate side of POKéMON.\p"
-	.string "If raised properly, this POKéMON will\n"
-	.string "come to exhibit real warmth!$"
+	.string "ポケモンの　やさしさを\nそだてる　ニックネーム\pちゃんと　そだてれば\nあたたかい　こころを\lもつ　でしょう！$"
 
 gTVNameRaterText05::
-	.string "A very fine nickname that hints at\n"
-	.string "greatness to come.\p"
-	.string "I am intrigued about what the future\n"
-	.string "holds in store for this POKéMON.$"
+	.string "しょうらいの　だいかつやくを\nよかん　させる　とても\lいい　ニックネーム\pこの　ポケモンの　みらいが\nたのしみ　です$"
 
 gTVNameRaterText06::
-	.string "A good nickname that should make the\n"
-	.string "POKéMON hale and hearty!\p"
-	.string "That POKéMON should remain fit and\n"
-	.string "robust for a long, long time.$"
+	.string "ポケモンを　げんきに\nする　いい　ニックネーム！\pいつまでも　じょうぶで\nげんきに　いられる\lでしょう$"
 
 gTVNameRaterText07::
-	.string "A good nickname that should make the\n"
-	.string "POKéMON very active!\p"
-	.string "I should think that this POKéMON will be\n"
-	.string "a strong performer in battles.$"
+	.string "ポケモンを　かっぱつに\nする　いい　ニックネーム！\pバトルで　だいかつやく\nするでしょう$"
 
 gTVNameRaterText08::
-	.string "An appealing nickname that should make\n"
-	.string "the POKéMON very charming!\p"
-	.string "I don't doubt that this POKéMON will be\n"
-	.string "quite the charmer in POKéMON CONTESTS.$"
+	.string "ポケモンを　みりょくてきに\nする　ニックネーム！\pポケモンコンテストで\nにんきもの　に　なること\lまちがい　なし　です$"
 
 gTVNameRaterText09::
-	.string "The nickname {STR_VAR_1} is rooted by\n"
-	.string "the letter “{STR_VAR_3}.”\p"
-	.string "That letter is supported by the first\n"
-	.string "letter “{STR_VAR_2},” which gives it a solid sense\l"
-	.string "of presence as a nickname.$"
+	.string "ニックネーム　{STR_VAR_1}は\n『{STR_VAR_3}』の　もじが\lねもとを　ささえて　います\pそれを　さいしょの　もじ\n『{STR_VAR_2}』が　ささえ\lどっしりと　した\lニックネームに　なって　います$"
 
 gTVNameRaterText10::
-	.string "The nickname {STR_VAR_1} is very\n"
-	.string "shapely in a pleasing manner.\p"
-	.string "The presence of the letters “{STR_VAR_2}” and\n"
-	.string "“{STR_VAR_3}”--now that is remarkably good!$"
+	.string "ニックネーム　{STR_VAR_1}は\nとても　かたちが　よく\lここちよい　です\p『{STR_VAR_2}』と　『{STR_VAR_3}』の\nもじが　ある　ところが\lじつに　すばらしい！$"
 
 gTVNameRaterText11::
-	.string "The nickname {STR_VAR_1}--it has a\n"
-	.string "sublime, flowing feel to it.\p"
-	.string "The flow from the initial letter “{STR_VAR_2}” to\n"
-	.string "“{STR_VAR_3}” is especially wonderful.$"
+	.string "ニックネーム　{STR_VAR_1}には\nけだかく　ながれる　ような\lひびきが　あります\pさいしょの　『{STR_VAR_2}』から\n『{STR_VAR_3}』への　ながれが\lとくに　すばらしい$"
 
 gTVNameRaterText12::
-	.string "Let's examine other examples of fine\n"
-	.string "nicknames, shall we?$"
+	.string "ほかの　いい　ニックネームの\nれいも　みて　みましょう$"
 
 gTVNameRaterText13::
-	.string "Try this example. Take a part of the\n"
-	.string "TRAINER name of {STR_VAR_1}, and end\l"
-	.string "up with the fine nickname {STR_VAR_2}{STR_VAR_3}.$"
+	.string "たとえば　トレーナーの　なまえ\n{STR_VAR_1}の　いちぶを　つかって\l{STR_VAR_2}{STR_VAR_3}と　いう\lいい　ニックネームが\lできます$"
 
 gTVNameRaterText14::
-	.string "The nickname {STR_VAR_2}{STR_VAR_3} would also work\n"
-	.string "quite well.$"
+	.string "{STR_VAR_2}{STR_VAR_3}と　いう\nニックネームも　なかなか\lいい　でしょう$"
 
 gTVNameRaterText15::
-	.string "The POKéMON's species name of\n"
-	.string "{STR_VAR_2} could be used as the basis\l"
-	.string "for making the nickname {STR_VAR_1}{STR_VAR_3}.$"
+	.string "ポケモンの　しゅるいめい\n{STR_VAR_2}を　もとに　して\l{STR_VAR_1}{STR_VAR_3}と　いう\lニックネームも　つくれます$"
 
 gTVNameRaterText16::
-	.string "{STR_VAR_1}{STR_VAR_3} would also be an effective\n"
-	.string "nickname.$"
+	.string "{STR_VAR_1}{STR_VAR_3}も\nいい　ニックネーム　です$"
 
 gTVNameRaterText17::
-	.string "What should always be avoided is using\n"
-	.string "another POKéMON species name.\p"
-	.string "For instance, avoid taking the name of\n"
-	.string "{STR_VAR_2} to make the nickname {STR_VAR_1}{STR_VAR_3}.\l"
-	.string "That is unacceptable.$"
+	.string "ぜったいに　さけるべき　なのは\nほかの　ポケモンの　しゅるいめい\lを　つかう　ことです\pたとえば　{STR_VAR_2}から\n{STR_VAR_1}{STR_VAR_3}と　いう\lニックネームは　いけません$"
 
 gTVNameRaterText18::
-	.string "I must say that {STR_VAR_1} is quite\n"
-	.string "a good nickname.\p"
-	.string "I hope that the TRAINER will continue\n"
-	.string "to treat {STR_VAR_1} with love.\p"
-	.string "That's it for today's show.\n"
-	.string "May we meet again.$"
+	.string "{STR_VAR_1}は　なかなか　いい\nニックネーム　ですね\pこれからも　{STR_VAR_1}を\nかわいがって　あげて\lください\pきょうは　ここまで\nまた　おあい　しましょう$"
 
 gTVPokemonAnglerText00::
-	.string "{STR_VAR_2} ANGLER\p"
-	.string "ANNOUNCER: Hello! Today, we'll get tips\n"
-	.string "on fishing for {STR_VAR_2}.\p"
-	.string "GURU, what advice can you give for\n"
-	.string "catching {STR_VAR_2}?\p"
-	.string "GURU: Hm? Catching {STR_VAR_2}?\n"
-	.string "Well, let me tell you, be patient and\l"
-	.string "wait. That's the bottom line.\p"
-	.string "Do you see {STR_VAR_1} over there?\n"
-	.string "That TRAINER makes a good example.\p"
-	.string "That TRAINER's already had\n"
-	.string "{STR_VAR_3} POKéMON get away.\p"
-	.string "But there {STR_VAR_1} waits. No giving up.\n"
-	.string "That's the law for catching {STR_VAR_2}.\p"
-	.string "ANNOUNCER: I see…\p"
-	.string "Oh! {STR_VAR_1} has finally landed an\n"
-	.string "elusive {STR_VAR_2}!\p"
-	.string "The TRAINER appears close to tears\n"
-	.string "out of sheer joy!\p"
-	.string "Seeing that elated look, I'm getting\n"
-	.string "the itch to go fishing, too!\p"
-	.string "Viewers, why not take this as a cue to\n"
-	.string "try some {STR_VAR_2} fishing?\p"
-	.string "Until our next broadcast, farewell and\n"
-	.string "good fishing to you all!$"
+	.string "{STR_VAR_2}　つりめいじん\pアナウンサー『こんにちは！\nきょうは　{STR_VAR_2}の\lつりかたを　ききます\pめいじん　{STR_VAR_2}を\nつる　こつは？\pめいじん『{STR_VAR_2}を　つる\nこつ？　それは　じっと\lまつ　ことじゃ\pあそこの　{STR_VAR_1}を\nみて　ごらん\lいい　おてほんじゃ\pあの　トレーナーは　もう\n{STR_VAR_3}ひきも\lにがして　おる\pそれでも　あきらめずに\nまって　おる　それが\l{STR_VAR_2}つりの　おきてじゃ\pアナウンサー『なるほど‥\pあっ！　{STR_VAR_1}が\nついに　{STR_VAR_2}を\lつりあげました！\pトレーナーは　うれしさの\nあまり　なきそう　です！\pあの　かおを　みたら\nわたしも　つりに　いきたく\lなりました！\pみなさんも　{STR_VAR_2}つりに\nちょうせん　しては\lいかが　ですか？\pそれでは　また　つぎの\nほうそうで！　よい　つりを！$"
 
 gTVPokemonAnglerText01::
-	.string "{STR_VAR_2} ANGLER\p"
-	.string "ANNOUNCER: Hello! Today, we'll get tips\n"
-	.string "on fishing for {STR_VAR_2}.\p"
-	.string "GURU, what advice can you give for\n"
-	.string "catching {STR_VAR_2}?\p"
-	.string "GURU: Hm? Catching {STR_VAR_2}?\n"
-	.string "Well, let me tell you, use your fishing\l"
-	.string "ROD with vigor!\p"
-	.string "Do you see {STR_VAR_1} over there?\n"
-	.string "See how the ROD is handled?\p"
-	.string "That TRAINER's already caught\n"
-	.string "{STR_VAR_3} in a row.\p"
-	.string "ANNOUNCER: It's incredible!\n"
-	.string "It looks like a storm…\p"
-	.string "Seeing technique of that caliber, I'm\n"
-	.string "getting the itch to go fishing, too.\p"
-	.string "Viewers, why not take this as a cue to\n"
-	.string "try some {STR_VAR_2} fishing?\p"
-	.string "Until our next broadcast, farewell and\n"
-	.string "good fishing to you all!$"
+	.string "{STR_VAR_2}　つりめいじん\pアナウンサー『こんにちは！\nきょうは　{STR_VAR_2}の\lつりかたを　ききます\pめいじん　{STR_VAR_2}を\nつる　こつは？\pめいじん『{STR_VAR_2}を　つる\nこつ？　それは　つりざおを\lちからづよく　ふる　ことじゃ\pあそこの　{STR_VAR_1}を\nみて　ごらん\lあの　さおさばきを！\pあの　トレーナーは　もう\n{STR_VAR_3}ひき　つづけて\lつって　おる\pアナウンサー『すごい！\nあらし　みたい　です‥\pあんな　うでまえを　みたら\nわたしも　つりに　いきたく\lなりました\pみなさんも　{STR_VAR_2}つりに\nちょうせん　しては\lいかが　ですか？\pそれでは　また　つぎの\nほうそうで！　よい　つりを！$"
 
 gTVPokemonTodayFailedText00::
-	.string "Hello!\p"
-	.string "It's time for POKéMON TODAY!\p"
-	.string "BIG SIS: Hi! Is everyone peachy and\n"
-	.string "perky today?\p"
-	.string "Today, we're going to look at {STR_VAR_1}'s\n"
-	.string "POKéMON {STR_VAR_2}!\p"
-	.string "BIG BRO: Yeah! That's what we're going\n"
-	.string "to do!$"
+	.string "こんにちは！\pきょうの　ポケモンの\nじかん　です！\pおねえさん『やっほー！　みんな\nげんき　してるー？\pきょうは　{STR_VAR_1}の　ポケモン\n{STR_VAR_2}を　みて　いくよ！\pおにいさん『そうだ！\nそう　しよう！$"
 
 gTVPokemonTodayFailedText01::
-	.string "Oh!\n"
-	.string "Speaking of {STR_VAR_1}…\p"
-	.string "BIG SIS, I saw the TRAINER with my very\n"
-	.string "own eyes!\p"
-	.string "BIG SIS: Oh, what did you see?\p"
-	.string "BIG BRO: Well, I had to go on a trip to\n"
-	.string "{STR_VAR_2}.\p"
-	.string "That's when I happened to come across\n"
-	.string "{STR_VAR_1}, who was trying to catch the\l"
-	.string "POKéMON {STR_VAR_3}, but…$"
+	.string "あっ！\n{STR_VAR_1}と　いえば‥\pおねえさん　ぼく　その\nトレーナーを　この　めで\lみたんだ！\pおねえさん『え　なにを\nみたの？\pおにいさん『{STR_VAR_2}に\nでかけた　ときに　ね\p{STR_VAR_1}が　ポケモンの\n{STR_VAR_3}を　つかまえよう\lと　して　いたんだけど‥$"
 
 gTVPokemonTodayFailedText02::
-	.string "The POKéMON managed to get away!\p"
-	.string "It ended up wasting this many\n"
-	.string "POKé BALLS: {STR_VAR_2}!\p"
-	.string "You should have seen the expression\n"
-	.string "of frustration on {STR_VAR_1}'s face when\l"
-	.string "the POKéMON took off!$"
+	.string "ポケモンに　にげられちゃった\nんだ！\pモンスターボールを\n{STR_VAR_2}こも\lむだに　して！\pにげられた　ときの\n{STR_VAR_1}の　くやしそうな\lかお　みせたかったな！$"
 
 gTVPokemonTodayFailedText03::
-	.string "But {STR_VAR_1} goofed and made the\n"
-	.string "POKéMON faint!\p"
-	.string "It ended up wasting this many\n"
-	.string "POKé BALLS: {STR_VAR_2}!\p"
-	.string "You should have seen the expression\n"
-	.string "of stunned dismay on {STR_VAR_1}'s face\l"
-	.string "when the POKéMON fainted!$"
+	.string "でも　{STR_VAR_1}が\nしっぱい　して　ポケモンを\lたおしちゃったんだ！\pモンスターボールを\n{STR_VAR_2}こも\lむだに　して！\pたおれた　ときの\n{STR_VAR_1}の　ぼうぜんと\lした　かお　みせたかったな！$"
 
 gTVPokemonTodayFailedText04::
-	.string "BIG SIS: Hey, there!\n"
-	.string "That's not nice!\p"
-	.string "You shouldn't be laughing at other\n"
-	.string "people's misfortune!\p"
-	.string "Oh, poor {STR_VAR_1}.\n"
-	.string "What a shame!\p"
-	.string "BIG BRO: That's true!\n"
-	.string "Sorry for laughing.$"
+	.string "おねえさん『ちょっと！\nそれは　ひどいよ！\pひとの　ふこうを\nわらっちゃ　だめ！\pかわいそうな　{STR_VAR_1}\nざんねん　だったね！\pおにいさん『そうだね！\nわらって　ごめん$"
 
 gTVPokemonTodayFailedText05::
-	.string "BIG SIS: Bufufu…\p"
-	.string "BIG BRO: Hey!\n"
-	.string "You just laughed, too!\p"
-	.string "BIG SIS: Huh?!\p"
-	.string "I didn't laugh!\n"
-	.string "Honestly, I didn't!\p"
-	.string "Oh, poor {STR_VAR_1}.\n"
-	.string "What a shame!\p"
-	.string "BIG BRO: …$"
+	.string "おねえさん『ぶふふ‥\pおにいさん『あっ！\nいま　わらったでしょ！\pおねえさん『えっ？！\pわらって　ないよ！\nほんとに　ほんと！\pかわいそうな　{STR_VAR_1}\nざんねん　だったね！\pおにいさん『‥$"
 
 gTVPokemonTodayFailedText06::
-	.string "BIG SIS: That's enough silliness!\n"
-	.string "Let's look at today's POKéMON…\p"
-	.string "Huh?\n"
-	.string "We're out of time already?\p"
-	.string "Aww!\n"
-	.string "We couldn't profile a POKéMON today!\p"
-	.string "BIG BRO: See you again next time!\p"
-	.string "BIG SIS: Hey, don't end the show\n"
-	.string "without me!$"
+	.string "おねえさん『おふざけは\nここまで！\lきょうの　ポケモンは‥\pあれ？\nもう　じかん？\pえー！\nきょうは　ポケモンを\lしょうかい　できなかった！\pおにいさん『また　つぎの\nほうそうで　あおうね！\pおねえさん『ちょっと　わたしを\nおいて　おわらないで！$"
 
 gTVPokemonTodaySuccessfulText00::
-	.string "Hello!\p"
-	.string "It's time for POKéMON TODAY!\p"
-	.string "BIG SIS: Hi! Is everyone peachy and\n"
-	.string "perky today?\p"
-	.string "Today, we're going to look at {STR_VAR_1}'s\n"
-	.string "POKéMON {STR_VAR_2}!\p"
-	.string "BIG BRO: Yeah! That's what we're going\n"
-	.string "to do!$"
+	.string "こんにちは！\pきょうの　ポケモンの\nじかん　です！\pおねえさん『やっほー！　みんな\nげんき　してるー？\pきょうは　{STR_VAR_1}の　ポケモン\n{STR_VAR_2}を　みて　いくよ！\pおにいさん『そうだ！\nそう　しよう！$"
 
 gTVPokemonTodaySuccessfulText01::
-	.string "BIG SIS: {STR_VAR_1} gave the nickname\n"
-	.string "{STR_VAR_3} to the {STR_VAR_2}!\p"
-	.string "It sounds like {STR_VAR_3} is getting\n"
-	.string "good, loving care!$"
+	.string "おねえさん『{STR_VAR_1}は\n{STR_VAR_2}に　{STR_VAR_3}と　いう\lニックネームを　つけたの！\p{STR_VAR_3}は　だいじに\nかわいがられて　いる\lみたい！$"
 
 gTVPokemonTodaySuccessfulText02::
-	.string "BIG BRO: The TRAINER had to throw this\n"
-	.string "many POKé BALLS to catch it: {STR_VAR_3}!\p"
-	.string "It finally took a single {STR_VAR_2}\n"
-	.string "to catch it!$"
+	.string "おにいさん『つかまえるのに\nモンスターボールを\l{STR_VAR_3}こも　なげたんだ！\pさいごは　{STR_VAR_2}\n1こで　つかまえたよ！$"
 
 gTVPokemonTodaySuccessfulText03::
-	.string "BIG SIS: If it was that easy to catch,\n"
-	.string "it must have been destiny that brought\l"
-	.string "{STR_VAR_1} and the {STR_VAR_2} together!$"
+	.string "おねえさん『そんなに　かんたんに\nつかまえられた　なんて\l{STR_VAR_1}と　{STR_VAR_2}は\lうんめいの　であい　だったのね！$"
 
 gTVPokemonTodaySuccessfulText04::
-	.string "BIG SIS: Wow! That's so neat!\p"
-	.string "But you know what they say, a POKéMON\n"
-	.string "that takes a lot of effort to catch\l"
-	.string "earns the love of its TRAINER!$"
+	.string "おねえさん『へえ！　すごい！\pでも　くろうして　つかまえた\nポケモンは　トレーナーの\lあいを　うけるって　いうよね！$"
 
 gTVPokemonTodaySuccessfulText05::
-	.string "BIG SIS: {STR_VAR_1}'s {STR_VAR_2} is a\n"
-	.string "memorable POKéMON because it took an\l"
-	.string "invaluable MASTER BALL to catch!\p"
-	.string "BIG BRO: Wow! That's mega-awesome!\p"
-	.string "BIG SIS: {STR_VAR_1} must have really\n"
-	.string "wanted that {STR_VAR_2}, for sure!$"
+	.string "おねえさん『{STR_VAR_1}の　{STR_VAR_2}は\nきちょうな　マスターボールで\lつかまえた　おもいでの\lポケモン　なの！\pおにいさん『うわー！\nめちゃくちゃ　すごい！\pおねえさん『{STR_VAR_1}は\nよっぽど　{STR_VAR_2}が\lほしかったのね！$"
 
 gTVPokemonTodaySuccessfulText06::
-	.string "BIG BRO: Then to give the nickname\n"
-	.string "{STR_VAR_3} to that {STR_VAR_2}…\p"
-	.string "You really get a good idea about\n"
-	.string "{STR_VAR_1}'s TRAINER sense.\p"
-	.string "BIG SIS: I second that notion!$"
+	.string "おにいさん『それで　その\n{STR_VAR_2}に　{STR_VAR_3}って\lなまえを　つけるなんて‥\p{STR_VAR_1}の　トレーナーセンスが\nよく　わかるね\pおねえさん『わたしも\nそう　おもう！$"
 
 gTVPokemonTodaySuccessfulText07::
-	.string "If it were me, I'd give that nickname\n"
-	.string "to something like this {STR_VAR_3}!\p"
-	.string "BIG BRO: Whoa! That could be the start\n"
-	.string "of something new!$"
+	.string "わたし　だったら　その\nニックネームは　この\l{STR_VAR_3}に　つけるかな！\pおにいさん『おお！　それは\nあたらしいかも！$"
 
 gTVPokemonTodaySuccessfulText08::
-	.string "{STR_VAR_2} the {STR_VAR_1}?\n"
-	.string "Doesn't that sound perfect?\p"
-	.string "The letters and everything--they\n"
-	.string "sound just right for the POKéMON\l"
-	.string "{STR_VAR_1}!\p"
-	.string "BIG BRO: Yeah, true, that!$"
+	.string "{STR_VAR_1}の　{STR_VAR_2}？\nぴったり　じゃない？\pもじの　ひびきも\nポケモンの　{STR_VAR_1}に\lぴったり！\pおにいさん『うん　たしかに！$"
 
 gTVPokemonTodaySuccessfulText09::
-	.string "As far as I know, no TRAINER has ever\n"
-	.string "given the nickname {STR_VAR_2} to their\l"
-	.string "{STR_VAR_1}!\p"
-	.string "BIG BRO: That just goes to show what\n"
-	.string "great taste the TRAINER has in picking\l"
-	.string "nicknames!$"
+	.string "わたしが　しる　かぎり\n{STR_VAR_1}に　{STR_VAR_2}って\lなまえを　つけた　ひとは\lいないわ！\pおにいさん『トレーナーの\nなまえを　つける　センスが\lすごいって　ことだね！$"
 
 gTVPokemonTodaySuccessfulText10::
-	.string "The next time I catch a POKéMON,\n"
-	.string "I should give it the name {STR_VAR_2}.\p"
-	.string "BIG BRO: Huh? Me, too!\n"
-	.string "I'll use the nickname {STR_VAR_2}, too!$"
+	.string "こんど　ポケモンを\nつかまえたら　{STR_VAR_2}って\lなまえに　しようっと\pおにいさん『え？　ぼくも！\nぼくも　{STR_VAR_2}に　する！$"
 
 gTVPokemonTodaySuccessfulText11::
-	.string "BIG SIS: Oh, no!\n"
-	.string "Look at the time!\p"
-	.string "Well, gang, this is it for today.\n"
-	.string "See you again next time!\p"
-	.string "BIG BRO: Remember, it could be your\n"
-	.string "POKéMON in the spotlight next time!$"
+	.string "おねえさん『あっ　たいへん！\nもう　こんな　じかん！\pじゃあ　みんな\nきょうは　ここまで！\lまた　つぎの　ほうそうで！\pおにいさん『つぎは　きみの\nポケモンが　しょうかい\lされるかもね！$"
 
 SmartShopper_Text_Intro::
-	.string "Hello!\p"
-	.string "It's time for TODAY'S SMART SHOPPER.\p"
-	.string "INTERVIEWER: How are you, viewers?\p"
-	.string "Today we're visiting a shop\n"
-	.string "in {STR_VAR_2}.\p"
-	.string "Let's check on what the hot sellers\n"
-	.string "have been recently.$"
+	.string "こんにちは！\pきょうの　かしこい\nおかいもの　の　じかん　です\pインタビュアー『みなさん\nこんにちは！\pきょうは　{STR_VAR_2}の\nおみせに　きて　います\pさいきん　なにが\nうれて　いるか\lしらべて　みましょう$"
 
 SmartShopper_Text_ClerkNormal::
-	.string "Let's interview the clerk to get the\n"
-	.string "lowdown.\p"
-	.string "Hi, how's your business?\p"
-	.string "CLERK: Oh, we're doing excellent.\p"
-	.string "Recently, {STR_VAR_2} has been\n"
-	.string "selling especially strongly.\p"
-	.string "Why, just the other day a TRAINER\n"
-	.string "named {STR_VAR_1} bought {STR_VAR_3}.$"
+	.string "てんいんさんに　はなしを\nきいて　みましょう\pこんにちは　しょうばいは\nいかが　ですか？\pてんいん『ええ　とても\nじゅんちょう　です\pさいきんは　{STR_VAR_2}が\nとくに　よく　うれて\lいます\pこのまえも　{STR_VAR_1}と　いう\nトレーナーが　{STR_VAR_3}こ\lかって　いきました$"
 
 SmartShopper_Text_RandomComment1::
-	.string "INTERVIEWER: The TRAINER bought\n"
-	.string "{STR_VAR_3} {STR_VAR_2}S? That's a haul!\p"
-	.string "If I may say so, {STR_VAR_1} must have\n"
-	.string "been stocking up for a long journey\l"
-	.string "to far-off places.\p"
-	.string "For traveling, {STR_VAR_2}S are so\n"
-	.string "important!$"
+	.string "インタビュアー『{STR_VAR_2}を\n{STR_VAR_3}こも？　たいりょう\lですね！\p{STR_VAR_1}は　きっと　とおくへ\nながい　たびに　でる\lじゅんびを　して　いたんですね\pたびには　{STR_VAR_2}が\nかかせませんからね！$"
 
 SmartShopper_Text_RandomComment2::
-	.string "INTERVIEWER: Speaking of the item\n"
-	.string "{STR_VAR_2}, I just bought {STR_VAR_3} of\l"
-	.string "them recently.\p"
-	.string "After all, {STR_VAR_2}'s a great item!$"
+	.string "インタビュアー『{STR_VAR_2}と\nいえば　わたしも　このまえ\l{STR_VAR_3}こ　かいました\pやっぱり　{STR_VAR_2}は\nいい　どうぐ　ですね！$"
 
 SmartShopper_Text_RandomComment3::
-	.string "INTERVIEWER: {STR_VAR_2}?!\n"
-	.string "But {STR_VAR_3} of them?!\p"
-	.string "I didn't think there would be anyone\n"
-	.string "buying that many.\p"
-	.string "My goodness, I can only afford one or\n"
-	.string "two at a time…$"
+	.string "インタビュアー『{STR_VAR_2}？！\nそれを　{STR_VAR_3}こも？！\pそんなに　かう　ひとが\nいるなんて　おもいません\lでした\pわたしなんて　いちどに\n1こか　2こ　しか\lかえないのに‥$"
 
 SmartShopper_Text_RandomComment4::
 	.string "INTERVIEWER: One time, I bought\n"
