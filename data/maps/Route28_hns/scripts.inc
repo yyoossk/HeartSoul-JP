@@ -16,7 +16,7 @@ Route28_EventScript_Item_Flamethrower::
     end
 
 Route28_Text_Sign:
-	.string "ROUTE 28$"
+	.string "28ばんどうろ$"
 
 Route28_EventScript_Trigger_Scientist::
 	lock
@@ -72,19 +72,8 @@ Route28_Movement_ScientistLeave:
 	step_end
 
 Route28_Text_Scientist:
-	.string "Hiya, Boss.\p"
-	.string "Yes, I've found several artifacts,\n"
-	.string "but no sign of the AZURE FLUTE.\p"
-	.string "It may be inside the MOUNTAIN, but\n"
-	.string "the wild POKéMON here are strong,\l"
-	.string "and my team needs some rest...\p"
-	.string "..................\p"
-	.string "You're breaking up...\l"
-	.string "Boss....?\p"
-	.string "I'm going to the POKéMON CENTER.\p"
-	.string "I'll call back if I find the FLUTE.$"
+	.string "もしもし　ボス\pはい　いくつか　いぶつは\nみつけましたが　てんかいのふえは\lまだ　です\pやまの　なかに　あるかも\nしれませんが　ここの　やせいの\lポケモンは　つよくて\lチームも　やすみが　ひつようで‥\p‥‥‥‥‥‥‥‥‥\pもしもし　きこえ\nますか‥　ボス‥？\pポケモンセンターに\nいって　きます\pふえを　みつけたら\nまた　れんらく　します$"
 
 Route28_Text_Scientist2:
-	.string ".......CLICK\p"
-	.string "The signal in SINJOH sucks...$"
+	.string "‥‥‥ガチャ\pシントは　でんぱが\nわるいなあ‥$"
 

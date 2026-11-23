@@ -83,77 +83,58 @@ Route12_EventScript_Tentacruel::
 	end
 
 Route12_Text_Magikarp:
-	.string "MAGIKARP: Kaaaarp.$"
+	.string "コイキング『コイ‥$"
 
 Route12_Text_NewFisher:
-	.string "Careful, something vicious lives in\n"
-	.string "these waters.$"
+	.string "きをつけな　この　みずには\nきょうぼうな　やつが　いるぞ$"
 
 Route12_Text_FisherMartinSeen:
-	.string "Patience is the key to both\n"
-	.string "fishing and POKéMON.$"
+	.string "つりも　ポケモンも\nがまんが　だいじ$"
 
 Route12_Text_FisherMartinBeaten:
-	.string "Gwaaah!$"
+	.string "ぐわあっ！$"
 
 Route12_Text_FisherMartinAfterBattle:
-	.string "I'm too impatient for fishing…$"
+	.string "おれは　つりには\nせっかち　すぎる‥$"
 
 Route12_Text_FisherStephenSeen:
-	.string "I feel so content, fishing while\n"
-	.string "listening to some tunes on my\l"
-	.string "radio.$"
+	.string "ラジオを　ききながらの\nつりは　しあわせだなあ$"
 
 Route12_Text_FisherStephenBeaten:
-	.string "My stupid radio distracted me!$"
+	.string "ラジオに　きを　とられた！$"
 
 Route12_Text_FisherStephenAfterBattle:
-	.string "Have you checked out KANTO's radio\n"
-	.string "programs? We get a good variety\l"
-	.string "here.$"
+	.string "カントーの　ラジオばんぐみ\nきいてみた？　いろいろ\lあるんだぜ$"
 
 Route12_Text_FisherBarneySeen:
-	.string "What's most important in our\n"
-	.string "everyday lives?$"
+	.string "まいにちの　くらしで\nいちばん　だいじな　ものは？$"
 
 Route12_Text_FisherBarneyBeaten:
-	.string "The answer is coming up next!$"
+	.string "こたえは　このあと　すぐ！$"
 
 Route12_Text_FisherBarneyAfterBattle:
-	.string "I think electricity is the most\n"
-	.string "important thing in our daily\l"
-	.string "lives.\p"
-	.string "If it weren't, people wouldn't\n"
-	.string "have made such a fuss when the\l"
-	.string "POWER PLANT went out of\l"
-	.string "commission.$"
+	.string "くらしで　いちばん　だいじなのは\nでんきだと　おもうんだ\pでなきゃ　はつでんしょが\nとまった　とき　あんなに\lさわぎに　ならないだろ$"
 
 Route12_Text_KyleRegister:
-	.string "I'll remember this.\n"
-	.string "Give me your number!$"
+	.string "おぼえて　おくぞ\nばんごうを　おしえろ！$"
 
 Route12_Text_KyleRematchIntro:
-	.string "Did you forget?\n"
-	.string "Let's see!$"
+	.string "わすれたか？\nためして　みよう！$"
 
 Route12_Text_KyleRematchDefeat:
-	.string "You remembered.$"
+	.string "おぼえていたか$"
 
 Route12_Text_KylePostRematch:
-	.string "The thrill of battle is almost\n"
-	.string "as good as a big catch!$"
+	.string "しょうぶの　スリルは\nおおものを　つりあげるのと\lおなじ　くらい　いいぜ！$"
 
 Route12_Text_FisherKyleSeen:
-	.string "Do you remember?$"
+	.string "おぼえてるか？$"
 
 Route12_Text_FisherKyleBeaten:
-	.string "You do remember?$"
+	.string "おぼえてるのか？$"
 
 Route12_Text_FisherKyleAfterBattle:
-	.string "The tug you feel on the ROD when\n"
-	.string "you hook a POKéMON…\p"
-	.string "That's the best feeling ever for\n"
-	.string "an angler like me.$"
+	.string "ポケモンが　かかった　ときの\nつりざおの　てごたえ‥\pそれが　つりびとに　とって\nさいこうの　かんかくさ$"
 
 Route12_EventScript_Sign::
 	msgbox Route12_Text_Sign, MSGBOX_SIGN
@@ -164,9 +145,8 @@ Route12_EventScript_FishingSign::
 	end
 
 Route12_Text_Sign:
-	.string "ROUTE 12\p"
-	.string "NORTH TO LAVENDER TOWN$"
+	.string "12ばんどうろ\pきたへ　いくと　シオンタウン$"
 
 Route12_Text_FishingSpotSign:
-	.string "FISHING SPOT$"
+	.string "つりの　めいしょ$"
 

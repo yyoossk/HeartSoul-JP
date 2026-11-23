@@ -61,139 +61,52 @@ VioletCity_TrainerSchool_EventScript_BlackBoard::
 	end
 
 VioletCity_TrainerSchool_Text_Twin:
-	.string "I'm not a GBA kid, but I love\n"
-	.string "playing POKéMON games!\p"
-	.string "In the old games, you had to battle\n"
-	.string "a lot of wild POKéMON to get enough\l"
-	.string "EXP.\p"
-	.string "But in newer games, the EXP. SHARE\n"
-	.string "makes your POKéMON level up too fast.\p"
-	.string "In this game, the EXP. SHARE is\n"
-	.string "balanced to put your POKéMON at just\l"
-	.string "the right level. Or slightly higher,\l"
-	.string "depending on how many battles you do.\p"
-	.string "If you want a traditional GEN 1-4\n"
-	.string "experience, turn EXP. SHARE off.\l"
-	.string "If you want a modern experience,\l"
-	.string "turn EXP. SHARE ON.\p"
-	.string "You choose how you want to play!$"
+	.string "ゲームボーイアドバンス　せだい\nじゃないけど　ポケモンの\lゲームが　だいすきなの！\pむかしの　ゲームでは　やせいの\nポケモンと　たくさん　たたかって\lけいけんちを　かせいだのよ\pでも　さいきんの　ゲームでは\nがくしゅうそうちで　レベルが\lあがりすぎちゃうの\pこの　ゲームの　がくしゅうそうちは\nちょうど　いい　レベルに　なるように\lちょうせい　されてるの\lたたかう　かずに　よっては\lすこし　たかめに　なるわ\pむかしながらの　1〜4せだいの\nあそびかたが　したいなら\lがくしゅうそうちを　オフ\lいまどきの　あそびかたなら\lがくしゅうそうちを　オンにしてね\pあそびかたは　あなたが\nきめていいのよ！$"
 
 VioletCity_TrainerSchool_Text_EarlIntro:
-	.string "EARL, I am!\p"
-	.string "Wonderful are POKéMON, yes!\p"
-	.string "Teach you I will to be a better\n"
-	.string "trainer!$"
+	.string "アール　わたしです！\pポケモン　すばらしい　です！\pもっと　いい　トレーナーに\nなれるよう　おしえて　あげます！$"
 
 VioletCity_TrainerSchool_Text_Teacher:
-	.string "Certain POKéMON start off weak and\n"
-	.string "require much more EXP to become\l"
-	.string "strong than others do.\p"
-	.string "For example, LARVITAR is quite weak\n"
-	.string "but will eventually become a\l"
-	.string "mighty TYRANITAR, at the cost of\l"
-	.string "much EXP.\p"
-	.string "Only the most dedicated trainers\n"
-	.string "should attempt to train such a\l"
-	.string "POKéMON.$"
+	.string "さいしょは　よわくて\nつよく　なるまでに　ほかより\lずっと　けいけんちが　いる\lポケモンも　います\pたとえば　ヨーギラスは　とても\nよわいですが　たくさんの\lけいけんちを　つめば　やがて\lつよい　バンギラスに　なります\pそういう　ポケモンを　そだてるのは\nほんとうに　ねっしんな\lトレーナー　だけに\lしましょうね$"
 
 VioletCity_TrainerSchool_Text_TeachHowToWin:
-	.string "Good! Teach you, I will!\p"
-	.string "In battle, POKéMON top on list\n"
-	.string "jump out first!\p"
-	.string "Change order in list, make\n"
-	.string "battle easy, maybe!\p"
-	.string "More from me you want to hear?$"
+	.string "グッド！　おしえて　あげます！\pしょうぶ　では　リストの\nいちばん　うえの　ポケモン\pさいしょに　でます！\nならびかえ　しょうぶ\lらくに　なる　かも！\pもっと　ききたい　ですか？$"
 
 VioletCity_TrainerSchool_Text_TeachMore:
-	.string "So, want to know how to raise\n"
-	.string "POKéMON well?$"
+	.string "では　ポケモンの　じょうずな\nそだてかた　しりたい　ですか？$"
 
 VioletCity_TrainerSchool_Text_TeachRaiseWell:
-	.string "Fine! Teach you, I will!\p"
-	.string "If POKéMON come out in battle\n"
-	.string "even briefly, some EXP. Points\p"
-	.string "it gets.\n"
-	.string "At top of list put weak POKéMON\p"
-	.string "Switch in battle quick!\n"
-	.string "This way, weak POKéMON strong\p"
-	.string "become!$"
+	.string "グッド！　おしえて　あげます！\pしょうぶに　すこしでも　でた\nポケモン　けいけんち\pもらえます\nリストの　いちばん　うえに\pよわい　ポケモン　おいて\nすぐ　いれかえ！\pこれで　よわい　ポケモン\nつよく　なります！$"
 
 VioletCity_TrainerSchool_Text_NoMoreToTeach:
-	.string "Oh! Smart student you are!\n"
-	.string "Nothing more do I teach!\p"
-	.string "If you want more, talk to\n"
-	.string "pupils!$"
+	.string "オー！　かしこい　せいと\nですね！　もう　おしえる\lこと　ありません！\pもっと　しりたければ\nせいとに　きいて　ください！$"
 
 VioletCity_TrainerSchool_Text_Youngster1:
-	.string "POKéMON previously thought to\n"
-	.string "only evolve through trade can\p"
-	.string "evolve through leveling.\n"
-	.string "MACHOKE and GRAVELER evolve\p"
-	.string "at LVL 38, while KADABRA and\n"
-	.string "HAUNTER evolve at LVL 42.\p"
-	.string "Some items, like the METAL\n"
-	.string "COAT, have also been found to\p"
-	.string "evolve certain POKéMON\n"
-	.string "while holding and leveling up.$"
+	.string "こうかんでしか　しんか　しないと\nおもわれていた　ポケモンも\pレベルアップで　しんか　するんだ\nゴーリキーと　ゴローンは\pレベル38　ユンゲラーと\nゴーストは　レベル42だよ\pメタルコートみたいに　もたせて\nレベルを　あげると\pしんか　する　ポケモンが\nいる　どうぐも　あるんだ$"
 
 VioletCity_TrainerSchool_Text_GameboyKid1:
-	.string "Notable POKéMON available in an\n"
-	.string "area can be seen in the overworld!\p"
-	.string "But make sure to check routes\n"
-	.string "at DAY and NIGHT!$"
+	.string "その　ばしょで　とれる　おもな\nポケモンは　フィールドで\lみえるんだ！\pでも　どうろは　ひるも　よるも\nたしかめてね！$"
 
 VioletCity_TrainerSchool_Text_GameboyKid2:
-	.string "BERRIES in the JOHTO region are\n"
-	.string "good for healing and making BALLS.\p"
-	.string "BERRIES in KANTO are good for\n"
-	.string "reducing a POKéMON's stats.\p"
-	.string "The DOJO in KANTO helps POKéMON\n"
-	.string "perfect individual stats.$"
+	.string "ジョウトの　きのみは　かいふくや\nボールづくりに　つかえるの\pカントーの　きのみは　ポケモンの\nのうりょくを　さげるのに　いいの\pカントーの　どうじょうでは\nのうりょくを　ひとつずつ\lみがけるのよ$"
 
 VioletCity_TrainerSchool_Text_Youngster2:
-	.string "Be aware that your opponents\n"
-	.string "now use teams with better type\l"
-	.string "coverage, so expect a much\l"
-	.string "more challenging journey ahead.$"
+	.string "あいては　タイプの　バランスが\nいい　チームを　つかって\lくるから　これからの　たびは\lもっと　きびしく　なるよ$"
 
 VioletCity_TrainerSchool_Text_Blackboard:
-	.string "The blackboard describes\n"
-	.string "POKéMON HM moves.\p"
-	.string "HMs, once unlocked, don't need to\n"
-	.string "be taught to be used.$"
+	.string "こくばんに　ひでんわざの\nことが　かいてある\pひでんわざは　つかえるように\nなれば　おぼえさせなくても\lつかえる$"
 
 VioletCity_TrainerSchool_Text_Notebook:
-	.string "It's this kid's notebook…\p"
-	.string "Catch POKéMON using POKé BALLS.\p"
-	.string "Up to six can be in your party.\p"
-	.string "Keep reading?$"
+	.string "この　こどもの　ノートだ‥\pポケモンは　モンスターボールで\nつかまえよう\pてもちには　6ぴきまで\nつれて　いける\pつづきを　よむ？$"
 
 VioletCity_TrainerSchool_Text_Notebook1:
-	.string "Before throwing a POKé BALL,\n"
-	.string "weaken the target first.\p"
-	.string "A poisoned or burned POKéMON\n"
-	.string "is easier to catch.\p"
-	.string "Keep reading?$"
+	.string "ボールを　なげる　まえに\nあいてを　よわらせよう\pどくや　やけどの　ポケモンは\nつかまえやすい\pつづきを　よむ？$"
 
 VioletCity_TrainerSchool_Text_Notebook2:
-	.string "Some moves may cause confusion.\p"
-	.string "Confusion may make a POKéMON\n"
-	.string "attack itself.\p"
-	.string "Leaving battle clears up any\n"
-	.string "confusion.\p"
-	.string "Keep reading?$"
+	.string "わざで　こんらん　することがある\pこんらんすると　じぶんを\nこうげき　することがある\pしょうぶから　でれば\nこんらんは　なおる\pつづきを　よむ？$"
 
 VioletCity_TrainerSchool_Text_Notebook3:
-	.string "People who catch and use\n"
-	.string "POKéMON in battle are POKéMON\n"
-	.string "trainers.\p"
-	.string "They are expected to visit\n"
-	.string "POKéMON GYMS and defeat other\n"
-	.string "trainers.\p"
-	.string "The next page is… Blank!\p"
-	.string "Boy: E-he-he…\p"
-	.string "I haven't written anymore…$"
+	.string "ポケモンを　つかまえて\nしょうぶに　つかう　ひとが\nポケモントレーナー\pトレーナーは　ポケモンジムを\nまわって　ほかの　トレーナーに\nかつ　ことを　めざす\pつぎの　ページは‥　まっしろだ！\pしょうねん『えへへ‥\pまだ　かいて　ないんだ‥$"
 
 VioletCity_TrainerSchool_Text_StickerMachine:
-	.string "This super machine prints data\n"
-	.string "out as stickers!$"
+	.string "データを　シールに　して\nだしてくれる　すごい　きかいだ！$"

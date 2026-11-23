@@ -223,90 +223,58 @@ Route14_EventScript_RematchTrevorTryGiveItem::
 
 
 Route14_Text_Eusine:
-	.string "EUSINE: {PLAYER}! Not again!\n"
-	.string "I'll be there first next time!\p"
-	.string "Having followed it here, I'm\n"
-	.string "starting to understand what SUICUNE\l"
-	.string "is after.\p"
-	.string "To be honest, I would like to keep\n"
-	.string "this information to myself.\p"
-	.string "But I want to be an honest trainer\n"
-	.string "in front of SUICUNE!\p"
-	.string "That's why I am sharing a clue with\n"
-	.string "you.\p"
-	.string "It seems that...\n"
-	.string "SUICUNE prefers a hilly place...\l"
-	.string "Near water...\l"
-	.string "Somewhere north...\p"
-	.string "I don't know exactly where yet.\n"
-	.string "It will just be you and me!\p"
-	.string "Who'll find it first?\n"
-	.string "I challenge you!$"
+	.string "ミナキ『{PLAYER}くん！　またか！\nつぎは　さきに　ついて　みせる！\pここまで　おいかけて　きて\nスイクンの　ねらいが\lわかって　きたよ\pしょうじき　この　じょうほうは\nひとりじめ　したいが\pスイクンの　まえでは\nしょうじきな　トレーナーで\lいたいんだ！\pだから　きみにも\nヒントを　わけよう\pどうやら‥\nスイクンは　おかの　ような\lばしょを　このむ‥\lみずの　ちかくで‥\lどこか　きたの　ほう‥\pまだ　はっきりとは　わからない\nきみと　わたしの　しょうぶだ！\pどちらが　さきに　みつけるか？\nいざ　しょうぶ！$"
 
 Route14_Text_PokefanmTrevorSeen:
-	.string "Hi. Did you know…?\p"
-	.string "POKéMON get more friendly if you\n"
-	.string "train them in a place that they\l"
-	.string "remember.$"
+	.string "やあ　しってた‥？\pポケモンは　おもいでの\nばしょで　とっくん　すると\lなつきやすいんだ$"
 
 Route14_Text_PokefanmTrevorBeaten:
-	.string "Where did I meet this SCIZOR?$"
+	.string "この　ハッサムと　どこで\nであったっけ？$"
 
 Route14_Text_PokefanmTrevorAfterBattle:
-	.string "If only there were an easy way to\n"
-	.string "identify where I got my POKéMON…$"
+	.string "ポケモンを　どこで　つかまえたか\nかんたんに　わかったら　いいのに‥$"
 
 Route14_Text_TrevorRegister:
-	.string "You're interesting!\n"
-	.string "Can I have your number?$"
+	.string "きみ　おもしろいね！\nばんごう　もらえる？$"
 
 Route14_Text_TrevorRematchIntro:
-	.string "I've been training with my\n"
-	.string "POKéMON in familiar places!$"
+	.string "なじみの　ばしょで　ポケモンと\nとっくん　してきたんだ！$"
 
 Route14_Text_TrevorRematchDefeat:
-	.string "Maybe I need new places…$"
+	.string "あたらしい　ばしょが\nひつようかな‥$"
 
 Route14_Text_TrevorPostRematch:
-	.string "Friendship makes POKéMON\n"
-	.string "stronger. I'm sure of it!$"
+	.string "なかよしだと　ポケモンは\nつよくなる　まちがいない！$"
 
 Route14_Text_PokefanmCarterSeen:
-	.string "Let me tell you, I had a hard time\n"
-	.string "catching my prized POKéMON.$"
+	.string "いっとくけど　じまんの　ポケモンを\nつかまえるのは　たいへん\lだったんだぞ$"
 
 Route14_Text_PokefanmCarterBeaten:
-	.string "Awaaah!$"
+	.string "うわあっ！$"
 
 Route14_Text_PokefanmCarterAfterBattle:
-	.string "TOTODILE, CYNDAQUIL, CHIKORITA…\p"
-	.string "I think that's a well-balanced mix.$"
+	.string "ワニノコ　ヒノアラシ　チコリータ‥\pバランスの　いい\nくみあわせ　だと　おもう$"
 
 Route14_Text_CarterRegister:
-	.string "You know your starters!\n"
-	.string "Let me get your number!$"
+	.string "さいしょの　ポケモンに\nくわしいね！　ばんごう　ちょうだい！$"
 
 Route14_Text_CarterRematchIntro:
-	.string "I've found even more rare starters\n"
-	.string "to show off! Battle me!$"
+	.string "もっと　めずらしい　さいしょの\nポケモンを　みつけたんだ！\lしょうぶだ！$"
 
 Route14_Text_CarterRematchDefeat:
-	.string "My precious starters…$"
+	.string "ぼくの　だいじな　ポケモンが‥$"
 
 Route14_Text_CarterPostRematch:
-	.string "There are so many starters from\n"
-	.string "different regions to collect!$"
+	.string "いろんな　ちほうの　さいしょの\nポケモンを　あつめなきゃ！$"
 
 Route14_Text_BirdKeeperRoySeen:
-	.string "My dream is to fly with my beloved\n"
-	.string "bird POKéMON.$"
+	.string "ぼくの　ゆめは　だいすきな\nとりポケモンと　そらを\lとぶ　ことだ$"
 
 Route14_Text_BirdKeeperRoyBeaten:
-	.string "I can dream, but I can't ever fly…$"
+	.string "ゆめは　みられても\nとべは　しない‥$"
 
 Route14_Text_BirdKeeperRoyAfterBattle:
-	.string "You have POKéMON that know the HM\n"
-	.string "move FLY, don't you? I envy you.$"
+	.string "きみは　そらをとぶを　おぼえた\nポケモンを　もってるんだろ？\lうらやましいなあ$"
 
 Route14_EventScript_Pidgeotto::
 	lockall
@@ -399,11 +367,11 @@ Route14_Movement_StuckPidgeottoJump:
 	step_end
 
 Route14_Text_Pidgeotto:
-	.string "PIDGEOTTO: Kaaaaa!$"
+	.string "ピジョン『クルッポー！$"
 Route14_Text_PidgeottoBerry:
-	.string "Give the PIDGEOTTO a BERRY?$"
+	.string "ピジョンに　きのみを　あげますか？$"
 Route14_Text_PidgeottoAteBerry:
-	.string "PIDGEOTTO enjoyed the QUALOT BERRY!$"
+	.string "ピジョンは　タポルのみを\nおいしそうに　たべた！$"
 Route14_Text_PidgeottoTurnedAway:
-	.string "PIDGEOTTO doesn't like it!$"
+	.string "ピジョンは　いやがっている！$"
 

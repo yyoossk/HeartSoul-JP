@@ -18,17 +18,8 @@ AzaleaTown_Mart_EventScriptBugCatcher::
 	end
 
 AzaleaMart_Text_CooltrainerM:
-	.string "Are you able to buy a GREAT BALL?\n"
-	.string "All I can buy are POKé BALLS.\p"
-	.string "I heard that more items become\n"
-	.string "available to buy when you earn\l"
-	.string "GYM BADGES!\p"
-	.string "I wish KURT would make me some\n"
-	.string "of his custom BALLS.$"
+	.string "スーパーボール　かえる？\nおれは　モンスターボールしか\lかえないんだ\pジムバッジを　もらうと\nかえる　どうぐが　ふえるらしい！\pガンテツさんに　とくべつな\nボールを　つくって　ほしいなあ$"
 
 AzaleaMart_Text_BugCatcher:
-	.string "A GREAT BALL is better for catch-\n"
-	.string "ing POKéMON than a POKé BALL.\p"
-	.string "But KURT's might be better some-\n"
-	.string "times.$"
+	.string "スーパーボールは　モンスターボールより\nポケモンが　つかまえやすいんだ\pでも　ガンテツさんの　ボールの\nほうが　いい　ときも　あるよ$"
 

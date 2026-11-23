@@ -35,27 +35,19 @@ VioletCity_House1_EventScript_TradeCompleted::
 	end
 
 VioletCity_House1_Text_YouWillTradeWontYou:
-	.string "I collect POKéMON!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "ポケモンを　あつめてるんだ！\n{STR_VAR_1}　もってる？\pぼくの　{STR_VAR_2}と\nこうかん　しない？$"
 
 VioletCity_House1_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "やった！　{STR_VAR_1}を\nてにいれたぞ！\p{STR_VAR_2}　げんきでね！$"
 
 VioletCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "うーん　ちがうよ\nそれは　{STR_VAR_1}じゃない$"
 
 VioletCity_House1_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
+	.string "こうかん　したくないの？\nざんねん‥$"
 
 VioletCity_House1_Text_After:
-	.string "Hi, how's my old ONIX doing?$"
+	.string "やあ　まえの　ぼくの\nイワーク　げんき？$"
 
 VioletCity_House1_Text_PokefanM:
-	.string "A POKéMON you get in a trade\n"
-	.string "grows quickly.\p"
-	.string "But if you don't have the right\n"
-	.string "GYM BADGE, they may disobey you.$"
+	.string "こうかんで　もらった　ポケモンは\nはやく　そだつんだ\pでも　ちゃんと　ジムバッジが\nないと　いうことを\lきかない　ことも　あるぞ$"

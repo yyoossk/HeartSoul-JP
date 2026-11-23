@@ -123,104 +123,82 @@ Route13_EventScript_DirectionsSign::
 	end
 
 Route13_Text_PokefanmAlexSeen:
-	.string "Bow down before my regal POKéMON!$"
+	.string "わが　こうきな　ポケモンの\nまえに　ひれふせ！$"
 
 Route13_Text_PokefanmAlexBeaten:
-	.string "How… How dare you mock royalty!$"
+	.string "おうぞくを　ばかに　する\nとは‥　なんたる　ことだ！$"
 
 Route13_Text_PokefanmAlexAfterBattle:
-	.string "Doesn't everyone wish to someday\n"
-	.string "be a king?$"
+	.string "だれでも　いつかは　おうさまに\nなりたいと　おもうだろう？$"
 
 Route13_Text_AlexRegister:
-	.string "You're not royalty but you're good.\n"
-	.string "Let me get your number.$"
+	.string "おうぞくでは　ないが　なかなかだ\nばんごうを　もらおう$"
 
 Route13_Text_AlexRematchIntro:
-	.string "I've added knights to my court!\n"
-	.string "Let's battle!$"
+	.string "きゅうていに　きしを　くわえた！\nしょうぶだ！$"
 
 Route13_Text_AlexRematchDefeat:
-	.string "Dethroned again…$"
+	.string "また　おうざを　おわれた‥$"
 
 Route13_Text_AlexPostRematch:
-	.string "Maybe I'm just a pawn after all.$"
+	.string "わたしは　しょせん\nポーンに　すぎないのか$"
 
 Route13_Text_PokefanmJoshuaSeen:
-	.string "Nihihi! Would you like to battle\n"
-	.string "my PIKACHU gang?$"
+	.string "にひひ！　ぼくの　ピカチュウ\nぐんだんと　しょうぶ　する？$"
 
 Route13_Text_PokefanmJoshuaBeaten:
-	.string "PI-PIKACHU!$"
+	.string "ピ‥　ピカチュウ！$"
 
 Route13_Text_PokefanmJoshuaAfterBattle:
-	.string "You look like you have many\n"
-	.string "POKéMON, but PIKACHU\l"
-	.string "is still the best.$"
+	.string "きみは　いろんな　ポケモンを\nもってる　みたいだけど\lやっぱり　ピカチュウが　いちばん$"
 
 Route13_Text_BirdKeeperPerrySeen:
-	.string "Agility is the key attribute of\n"
-	.string "bird POKéMON.$"
+	.string "とりポケモンの\nいのちは　すばやさだ$"
 
 Route13_Text_BirdKeeperPerryBeaten:
-	.string "You beat me with your speed…$"
+	.string "はやさで　まけた‥$"
 
 Route13_Text_BirdKeeperPerryAfterBattle:
-	.string "Your POKéMON are remarkably well-\n"
-	.string "trained.$"
+	.string "きみの　ポケモンは\nみごとに　きたえられてる$"
 
 Route13_Text_BirdKeeperBretSeen:
-	.string "Check out my POKéMON. Just look\n"
-	.string "at their coloring and their\l"
-	.string "plumage.$"
+	.string "おれの　ポケモンを　みてくれ\nいろも　はねも\lきれい　だろう$"
 
 Route13_Text_BirdKeeperBretBeaten:
-	.string "Shoot! Not good enough!$"
+	.string "くそう！　たりなかった！$"
 
 Route13_Text_BirdKeeperBretAfterBattle:
-	.string "If you groom them, POKéMON get\n"
-	.string "happy.$"
+	.string "けづくろい　して　やると\nポケモンは　よろこぶんだ$"
 
 Route13_Text_HikerKennySeen:
-	.string "I should go to ROCK TUNNEL to get\n"
-	.string "myself an ONIX.$"
+	.string "イワヤマトンネルに　いって\nイワークを　つかまえなきゃ$"
 
 Route13_Text_HikerKennyBeaten:
-	.string "I lost…$"
+	.string "まけた‥$"
 
 Route13_Text_HikerKennyAfterBattle:
-	.string "Geological features don't appear\n"
-	.string "to change.\p"
-	.string "But they actually change, little\n"
-	.string "by little.$"
+	.string "ちけいって　かわらない\nように　みえるだろ\pでも　すこしずつ\nかわって　いるんだ$"
 
 Route13_Text_KennyRegister:
-	.string "Maybe POKéMON change over time too.\n"
-	.string "Let's battle again sometime!$"
+	.string "ポケモンも　すこしずつ\nかわるのかもな　また\lしょうぶしよう！$"
 
 Route13_Text_KennyRematchIntro:
-	.string "I've learned from geology!\n"
-	.string "Let's go!$"
+	.string "ちしつがくから　まなんだぞ！\nいくぞ！$"
 
 Route13_Text_KennyRematchDefeat:
-	.string "Still not enough…$"
+	.string "まだ　たりない‥$"
 
 Route13_Text_KennyPostRematch:
-	.string "The power of POKéMON is like\n"
-	.string "erosion. We will persevere!$"
+	.string "ポケモンの　ちからは\nしんしょくの　ようなもの\lねばりづよく　いくぞ！$"
 
 Route13_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "Look! Right there, at the left\n"
-	.string "side of the post.$"
+	.string "トレーナーの　こころえ\pみて！　くいの　ひだりがわ\nそこだよ$"
 
 Route13_Text_Sign:
-	.string "ROUTE 13\p"
-	.string "NORTH TO SILENCE BRIDGE$"
+	.string "13ばんどうろ\pきたへ　いくと\lサイレンスブリッジ$"
 
 Route13_Text_DirectionsSign:
-	.string "NORTH TO LAVENDER TOWN\p"
-	.string "WEST TO FUCHSIA CITY$"
+	.string "きたへ　シオンタウン\pにしへ　セキチクシティ$"
 
 Route13_GetOffBoat::
 	lock
@@ -423,33 +401,21 @@ Route13_Movement_BoatArrive:
 	step_end
 
 Route13_GetOffBoat_Text_0:
-	.string "Welcome back to mainland Kanto!\p"
-	.string "Come back if you'd like to take a trip\n"
-	.string "to the ALOLA ISLES!$"
+	.string "カントーほんどへ　おかえりなさい！\pアローラの　しまじまへ　いきたく\nなったら　また　きてね！$"
 
 Route13_TravelToAlola_Text_0:
-	.string "Ahoy there!\p"
-	.string "That's one strange souvenir.\n"
-	.string "You must be from the ISLES!$"
+	.string "アホイ！\pかわった　おみやげだね\nしまの　ひとかい？$"
 Route13_TravelToAlola_Text_0_5:
-	.string "Would you like to take the next ship?\n"
-	.string "It departs shortly!$"
+	.string "つぎの　ふねに　のるかい？\nもうすぐ　しゅっぱんだよ！$"
 
 Route13_TravelToAlola_Text_1:
-	.string "Ahoy! Let's get you on board!$"
+	.string "アホイ！　さあ　のって！$"
 
 Route13_TravelToAlola_Text_2:
-	.string "Ahoy!\n"
-	.string "Come back when you'd like to set sail.$"
+	.string "アホイ！\nふねに　のりたく　なったら\lまた　おいで$"
 
 Route13_TravelToAlola_Text_3:
-	.string "Ah, it's you again!\n"
-	.string "Do you want to go to the ALOLA ISLES?$"
+	.string "おや　また　きみか！\nアローラの　しまじまへ　いくかい？$"
 
 Route13_TravelToAlola_Text_4:
-	.string "Ahoy!\n"
-	.string "This port is for residents only.\p"
-	.string "All of the residents of these ISLES\n"
-	.string "carry some… {PAUSE 30}strange souvenirs.\p"
-	.string "It makes them so easy to identify,\n"
-	.string "I don't even need to check tickets!$"
+	.string "アホイ！\nこの　みなとは　しまの　じゅうみん\lせんようだよ\pしまの　ひとは　みんな　なんだか‥\n{PAUSE 30}ふしぎな　おみやげを\lもってるんだ\pだから　すぐ　わかって\nきっぷを　みる　ひつようも\lないのさ！$"

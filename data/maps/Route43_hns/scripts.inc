@@ -96,103 +96,73 @@ Route43_Text_PokemaniacBrentBeaten:
 	.string "ああ　かわいそうな\nポケモンたち！$"
 
 Route43_Text_PokemaniacBrentAfter:
-    .string "I'd be happy just to own a single\n"
-    .string "rare POKéMON.$"
+	.string "めずらしい　ポケモンが　1ぴき\nいるだけで　しあわせ　なんだ$"
 
 Route43_Text_BrentRegister:
-    .string "I'd be happy just to own a single\n"
-    .string "rare POKéMON.$"
+	.string "めずらしい　ポケモンが　1ぴき\nいるだけで　しあわせ　なんだ$"
 
 Route43_Text_BrentRematchIntro:
-    .string "Hey! Do you have any rare\n"
-    .string "POKéMON?$"
+	.string "おい！　めずらしい\nポケモン　もってるか？$"
 
 Route43_Text_BrentRematchDefeat:
-    .string "Oh, my poor POKéMON! Darlings!$"
+	.string "ああ　かわいそうな\nポケモンたち！$"
 
 Route43_Text_BrentPostRematch:
-    .string "I'd be happy just to own a single\n"
-    .string "rare POKéMON.$"
+	.string "めずらしい　ポケモンが　1ぴき\nいるだけで　しあわせ　なんだ$"
 
 Route43_Text_PokemaniacRonSeen:
-    .string "Would you get this?\p"
-    .string "Some {RIVAL} guy made fun of my\n"
-    .string "POKéMON!\p"
-    .string "Darn it! My POKéMON's great!$"
+	.string "きいてくれよ！\p{RIVAL}って　やつが　おれの\nポケモンを　ばかに　したんだ！\pくそう！　おれの　ポケモンは\nすごいんだ！$"
 
 Route43_Text_PokemaniacRonBeaten:
-    .string "My NIDOKING did pretty right on!$"
+	.string "ニドキングは　よく　がんばった！$"
 
 Route43_Text_PokemaniacRonAfter:
-    .string "It's okay for people to like\n"
-    .string "different types of POKéMON.\p"
-    .string "POKéMON isn't just about having the\n"
-    .string "most powerful one.$"
+	.string "すきな　ポケモンが　ひとそれぞれ\nちがっても　いいんだ\pつよい　ポケモンを　もつ　ことだけが\nポケモンじゃない$"
 
 Route43_Text_FisherMarvinSeen:
-    .string "I'm in a slump.\p"
-    .string "Maybe it's the gear I'm using.\p"
-    .string "Let's battle for a change of pace!$"
+	.string "スランプ　なんだ\pどうぐの　せいかな\pきぶんてんかんに　しょうぶだ！$"
 
 Route43_Text_FisherMarvinBeaten:
-    .string "I lost, but I feel better anyway.$"
+	.string "まけたけど　すっきりしたよ$"
 
 Route43_Text_FisherMarvinAfter:
-    .string "KURT's LURE BALL is the best for\n"
-    .string "catching hooked POKéMON.\p"
-    .string "It's much more effective than a\n"
-    .string "ULTRA BALL.$"
+	.string "つりあげた　ポケモンを　つかまえる\nなら　ガンテツさんの　ルアーボールが\lいちばんだ\pハイパーボールより\nずっと　よく　つかまるぞ$"
 
 Route43_Text_CamperSpencerSeen:
-    .string "I can do so much with my\n"
-    .string "POKéMON--it's super-fun!$"
+	.string "ポケモンと　いろんな　ことが\nできて　すっごく　たのしい！$"
 
 Route43_Text_CamperSpencerBeaten:
-    .string "Losing isn't fun at all…$"
+	.string "まけるのは　ちっとも　たのしくない‥$"
 
 Route43_Text_CamperSpencerAfter:
-    .string "What is going on at LAKE OF RAGE?\p"
-    .string "We were planning to camp there.$"
+	.string "いかりのみずうみで　なにが\nおきてるんだろう？\pキャンプする　つもりだったのに$"
 
 Route43_Text_PicnickerTiffanySeen:
-    .string "Are you going to LAKE OF RAGE too?\p"
-    .string "Let's play for a little while!$"
+	.string "あなたも　いかりのみずうみに\nいくの？\pちょっと　あそびましょ！$"
 
 Route43_Text_PicnickerTiffanyBeaten:
-    .string "I played too much!$"
+	.string "あそびすぎちゃった！$"
 
 Route43_Text_PicnickerTiffanyWantsPicnic:
-    .string "I'm having a picnic with POKéMON.\p"
-    .string "Won't you join us?$"
+	.string "ポケモンと　ピクニック　ちゅうなの\pあなたも　いっしょに　どう？$"
 
 Route43_Text_TiffanyRegister:
-    .string "I'm having a picnic with POKéMON.\p"
-    .string "Won't you join us?$"
+	.string "ポケモンと　ピクニック　ちゅうなの\pあなたも　いっしょに　どう？$"
 
 Route43_Text_TiffanyRematchIntro:
-    .string "Are you going to LAKE OF RAGE too?\p"
-    .string "Let's play for a little while!$"
+	.string "あなたも　いかりのみずうみに\nいくの？\pちょっと　あそびましょ！$"
 
 Route43_Text_TiffanyRematchDefeat:
-    .string "I played too much!$"
+	.string "あそびすぎちゃった！$"
 
 Route43_Text_TiffanyPostRematch:
-    .string "I'm having a picnic with POKéMON.\p"
-    .string "Won't you join us?$"
+	.string "ポケモンと　ピクニック　ちゅうなの\pあなたも　いっしょに　どう？$"
 
 Route43_Sign1:
-    .string "ROUTE 43\p"
-    .string "LAKE OF RAGE - MAHOGANY TOWN$"
+	.string "43ばんどうろ\pいかりのみずうみ　ー　チョウジタウン$"
 
 Route43_Sign2:
-    .string "ROUTE 43\p"
-    .string "LAKE OF RAGE - MAHOGANY TOWN$"
+	.string "43ばんどうろ\pいかりのみずうみ　ー　チョウジタウン$"
 
 Route43_TrainerTips:
-    .string "TRAINER TIPS\p"
-    .string "All POKéMON have pros and cons\n"
-    .string "depending on their types.\p"
-    .string "If their types differ, a higher-\n"
-    .string "level POKéMON may lose in battle.\p"
-    .string "Learn which types are strong and\n"
-    .string "weak against your POKéMON's type.$"
+	.string "トレーナーの　こころえ\pポケモンには　タイプによって\nとくいと　にがてが　ある\pタイプしだいでは　レベルが\nたかくても　まける　ことも\pじぶんの　ポケモンの　タイプの\nとくいと　にがてを　おぼえよう$"

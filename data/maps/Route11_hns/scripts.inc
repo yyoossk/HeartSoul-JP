@@ -36,32 +36,25 @@ Route11_EventScript_Item_Grass_Knot::
     end
 
 Route11_Text_Engineer:
-	.string "I saw a strange POKéMON climbing\n"
-	.string "in the trees, but it didn't\l"
-	.string "look like MANKEY...$"
+	.string "きに　のぼる　へんな　ポケモンを\nみたんだ　でも　マンキーじゃ\lなかった　ような‥$"
 
 Route11_Text_YoungsterOwenSeen:
-	.string "There's no cheating in POKéMON.\p"
-	.string "Let's keep it fair and square!$"
+	.string "ポケモンに　ずるは　なしだ\pせいせいどうどう　いこう！$"
 
 Route11_Text_YoungsterOwenBeaten:
-	.string "Huh? How did this happen?$"
+	.string "あれ？　どうして　こうなった？$"
 
 Route11_Text_YoungsterOwenAfterBattle:
-	.string "I fought fair and square with\n"
-	.string "honor.\p"
-	.string "I don't regret this at all.$"
+	.string "せいせいどうどう\nたたかったんだ\pぜんぜん　くやしくないよ$"
 
 Route11_Text_YoungsterJasonSeen:
-	.string "It itches and tickles a bit when\n"
-	.string "I wear shorts in the grass.$"
+	.string "はんズボンで　くさむらに　いると\nちょっと　くすぐったいんだ$"
 
 Route11_Text_YoungsterJasonBeaten:
-	.string "Aiyaaah! I got stomped!$"
+	.string "あいやー！　ふみつぶされた！$"
 
 Route11_Text_YoungsterJasonAfterBattle:
-	.string "I'm going to catch more POKéMON in\n"
-	.string "the grass.$"
+	.string "くさむらで　もっと\nポケモンを　つかまえるぞ$"
 
 Route11_Text_PsychicHermanSeen:
 	.string "…$"
@@ -70,21 +63,17 @@ Route11_Text_PsychicHermanBeaten:
 	.string "…$"
 
 Route11_Text_PsychicHermanAfterBattle:
-	.string "…\p"
-	.string "I lost while I had my eyes closed…$"
+	.string "‥\pめを　とじてる　あいだに\nまけていた‥$"
 
 Route11_Text_PsychicFidelSeen:
-	.string "I can see it…\p"
-	.string "Everything to see about you…$"
+	.string "みえる‥\pきみの　すべてが　みえる‥$"
 
 Route11_Text_PsychicFidelBeaten:
-	.string "I couldn't foresee your power…$"
+	.string "きみの　ちからは\nよちできなかった‥$"
 
 Route11_Text_PsychicFidelAfterBattle:
-	.string "Strength in conviction…\p"
-	.string "You're strong because you believe\n"
-	.string "in your POKéMON.$"
+	.string "しんねんの　つよさ‥\pきみが　つよいのは　ポケモンを\nしんじて　いるからだ$"
 
 Route11_Text_Sign:
-	.string "ROUTE 11$"
+	.string "11ばんどうろ$"
 

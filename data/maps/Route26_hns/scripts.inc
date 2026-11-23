@@ -63,110 +63,74 @@ Route26_EventScript_Richard::
 	end
 
 Route26_Text_CooltrainermJakeSeen:
-    .string "I'm making my final preparations\n"
-    .string "for the POKéMON LEAGUE.$"
+	.string "ポケモンリーグの　さいごの\nしあげ　ちゅうなんだ$"
 
 Route26_Text_CooltrainermJakeBeaten:
-    .string "I blew it!$"
+	.string "しくじった！$"
 
 Route26_Text_CooltrainermJakeAfter:
-    .string "It's going to be tough to win at\n"
-    .string "the LEAGUE.\p"
-    .string "I need to do some more training.\p"
-    .string "I hear that the LEAGUE's ELITE\n"
-    .string "FOUR are tougher than GYM LEADERS.$"
+	.string "リーグで　かつのは\nむずかしそうだ\pもっと　しゅぎょう　しなきゃ\pリーグの　してんのうは\nジムリーダーより　つよいらしい$"
 
 Route26_Text_CooltrainermGavenSeen:
-    .string "By experiencing tough battles, you\n"
-    .string "gain power.$"
+	.string "きびしい　しょうぶを　けいけん\nして　ちからを　つけるんだ$"
 
 Route26_Text_CooltrainermGavenBeaten:
-    .string "Gaah! Life is even tougher!$"
+	.string "ぐあっ！　じんせいは\nもっと　きびしい！$"
 
 Route26_Text_CooltrainermGavenAfter:
-    .string "To get to POKéMON LEAGUE, you have\n"
-    .string "to get through VICTORY ROAD.\p"
-    .string "But VICTORY ROAD is tough.\p"
-    .string "Practically nobody goes there!$"
+	.string "ポケモンリーグへ　いくには\nチャンピオンロードを\lぬけなきゃ　ならない\pでも　チャンピオンロードは\nけわしい\pほとんど　だれも\nいかないんだ！$"
 
 Route26_Text_GavenRegister:
-    .string "To get to POKéMON LEAGUE, you have\n"
-    .string "to get through VICTORY ROAD.\p"
-    .string "But VICTORY ROAD is tough.\p"
-    .string "Practically nobody goes there!$"
+	.string "ポケモンリーグへ　いくには\nチャンピオンロードを\lぬけなきゃ　ならない\pでも　チャンピオンロードは\nけわしい\pほとんど　だれも\nいかないんだ！$"
 
 Route26_Text_GavenRematchIntro:
-    .string "By experiencing tough battles, you\n"
-    .string "gain power.$"
+	.string "きびしい　しょうぶを　けいけん\nして　ちからを　つけるんだ$"
 
 Route26_Text_GavenRematchDefeat:
-    .string "Gaah! Life is even tougher!$"
+	.string "ぐあっ！　じんせいは\nもっと　きびしい！$"
 
 Route26_Text_GavenPostRematch:
-    .string "To get to POKéMON LEAGUE, you have\n"
-    .string "to get through VICTORY ROAD.\p"
-    .string "But VICTORY ROAD is tough.\p"
-    .string "Practically nobody goes there!$"
+	.string "ポケモンリーグへ　いくには\nチャンピオンロードを\lぬけなきゃ　ならない\pでも　チャンピオンロードは\nけわしい\pほとんど　だれも\nいかないんだ！$"
 
 Route26_Text_CooltrainerfJoyceSeen:
-    .string "Since you've come this far,\n"
-    .string "you must be good.\p"
-    .string "I'm going to give this battle\n"
-    .string "everything I've got!$"
+	.string "ここまで　きたって　ことは\nつよいのね\pこの　しょうぶに　ぜんりょくを\nかけるわ！$"
 
 Route26_Text_CooltrainerfJoyceBeaten:
-    .string "No! I don't believe this!$"
+	.string "うそ！　しんじられない！$"
 
 Route26_Text_CooltrainerfJoyceAfter:
-    .string "I've defeated eight GYM LEADERS,\n"
-    .string "so I was feeling confident.\p"
-    .string "I'll have to try harder next time.$"
+	.string "ジムリーダーを　8にん　たおして\nじしんが　あったのに\pつぎは　もっと\nがんばらなきゃ$"
 
 Route26_Text_CooltrainerfBethSeen:
-    .string "I lost to a trainer named {RIVAL}.\p"
-    .string "He was really strong, but…\p"
-    .string "It was as if he absolutely had to\n"
-    .string "win at any cost.\p"
-    .string "I felt sorry for his POKéMON.$"
+	.string "{RIVAL}って　トレーナーに\nまけたの\pとても　つよかったけど‥\pなにが　なんでも　かたなきゃ\nいけない　みたいだった\pポケモンが　かわいそう\nだったわ$"
 
 Route26_Text_CooltrainerfBethBeaten:
-    .string "POKéMON aren't tools of war.$"
+	.string "ポケモンは　せんそうの\nどうぐじゃ　ないわ$"
 
 Route26_Text_CooltrainerfBethAfter:
-    .string "POKéMON are in-valuable, lifelong\n"
-    .string "partners.$"
+	.string "ポケモンは　かけがえのない\nいっしょうの　パートナーよ$"
 
 Route26_Text_BethRegister:
-    .string "POKéMON are invaluable, lifelong\n"
-    .string "partners.$"
+	.string "ポケモンは　かけがえのない\nいっしょうの　パートナーよ$"
 
 Route26_Text_BethRematchIntro:
-    .string "I lost to a trainer named {RIVAL}.\p"
-    .string "But I won't lose to you!$"
+	.string "{RIVAL}って　トレーナーに\nまけたの\pでも　あなたには\nまけないわ！$"
 
 Route26_Text_BethRematchDefeat:
-    .string "POKéMON aren't tools of war.$"
+	.string "ポケモンは　せんそうの\nどうぐじゃ　ないわ$"
 
 Route26_Text_BethPostRematch:
-    .string "POKéMON are invaluable, lifelong\n"
-    .string "partners.$"
+	.string "ポケモンは　かけがえのない\nいっしょうの　パートナーよ$"
 
 Route26_Text_PsychicRichardSeen:
-    .string "Wow, look at all those BADGES!\n"
-    .string "I'm impressed.\p"
-    .string "But you're not satisfied by just\n"
-    .string "collecting them, right?$"
+	.string "わあ　バッジが　いっぱい！\nかんしんするよ\pでも　あつめる　だけじゃ\nまんぞく　しないだろう？$"
 
 Route26_Text_PsychicRichardBeaten:
-    .string "Good battle!$"
+	.string "いい　しょうぶだ！$"
 
 Route26_Text_PsychicRichardAfter:
-    .string "People and POKéMON grow from their\n"
-    .string "experiences.\p"
-    .string "Don't get lazy and complacent.$"
+	.string "ひとも　ポケモンも\nけいけんで　せいちょうする\pなまけて　まんぞく\nしては　いけないよ$"
 
 Route26_Text_Sign:
-    .string "ROUTE 26\p"
-    .string "POKéMON LEAGUE\n"
-    .string "RECEPTION GATE$"
+	.string "26ばんどうろ\pポケモンリーグ\nうけつけ　ゲート$"
 

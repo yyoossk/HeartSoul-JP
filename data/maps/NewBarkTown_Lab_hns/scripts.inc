@@ -94,10 +94,7 @@ NewBarkTown_Lab_EventScript_ElmAideIsWaiting::
 	end
 
 NewBarkTown_Lab_Text_ElmAideIsWaiting:
-	.string "{PLAYER}!\p"
-	.string "What are you doing here?\p"
-	.string "My aide is still waiting for you\n"
-	.string "In VIOLET CITY!$"
+	.string "{PLAYER}くん！\pここで　なにを　してるんだい？\pじょしゅが　まだ　キキョウシティで\nきみを　まってるよ！$"
 
 NewBarkTown_Lab_EventScript_ElmIntro::
 	msgbox NewBarkTown_Lab_Text_ElmIntro, MSGBOX_YESNO
@@ -654,385 +651,179 @@ NewBarkTown_Lab_Movement_ElmStepForward:
 	step_end
 
 NewBarkTown_Lab_Text_ShouldntTouch:
-	.string "Probably shouldn't touch!$"
+	.string "さわらない　ほうが\nよさそうだ！$"
 
 NewBarkTown_Lab_Text_ElmIntro:
-	.string "ELM: {PLAYER}! There you are!\p"
-	.string "I needed to ask you a favor.\p"
-	.string "I'm conducting new POKéMON\n"
-	.string "research right now. I was\l"
-	.string "wondering if you could help\l"
-	.string "me with it, {PLAYER}.\p"
-	.string "You see…\p"
-	.string "I'm writing a paper that I\n"
-	.string "want to present at a conference.\p"
-	.string "But there are some things I\n"
-	.string "don't quite understand yet.\p"
-	.string "So!\p"
-	.string "I'd like you to raise a\n"
-	.string "POKéMON that I recently caught.$"
+	.string "ウツギ『{PLAYER}くん！\nまってたよ！\pきみに　たのみが\nあったんだ\pいま　あたらしい　ポケモンの\nけんきゅうを　しているんだけど\l{PLAYER}くんに　てつだって\lもらえないかと　おもってね\pじつは‥\pがっかいで　はっぴょう\nしたい　ろんぶんを\lかいているんだ\pでも　まだ　よく　わからない\nところが　あってね\pそこで！\pさいきん　つかまえた　ポケモンを\nきみに　そだてて　ほしいんだ$"
 
 NewBarkTown_Lab_Text_ElmAccepted:
-	.string "Thanks, {PLAYER}!\n"
-	.string "You're a great help!$"
+	.string "ありがとう　{PLAYER}くん！\nほんとうに　たすかるよ！$"
 
 NewBarkTown_Lab_Text_ElmRefused:
-	.string "But… Please, I need your\n"
-	.string "help!$"
+	.string "そんな‥　たのむよ\nきみの　ちからが　ひつようなんだ！$"
 
 NewBarkTown_Lab_Text_ElmResearchAmbitions:
-	.string "When I announce my findings,\n"
-	.string "I'm sure we'll delve deeper\p"
-	.string "into the many mysteries of\n"
-	.string "POKéMON.\p"
-	.string "You can count on it!$"
+	.string "わたしの　けんきゅうを\nはっぴょう　すれば\pポケモンの　なぞが\nもっと　ふかく　わかるはずさ\pきたいして　いて\nくれよ！$"
 
 NewBarkTown_Lab_Text_ElmGotAnEmail:
-	.string "Oh, hey! I got an e-mail!\p"
-	.string "… … … … … … … …\n"
-	.string "Hm… Uh-huh…\p"
-	.string "Okay…$"
+	.string "おや？　メールが\nとどいたぞ！\p‥‥‥‥‥‥‥‥\nふむ‥　なるほど‥\pよし‥$"
 
 NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
-	.string "Hey, listen.\p"
-	.string "I have an acquaintance called\n"
-	.string "MR. POKéMON.\p"
-	.string "He keeps finding weird things and\n"
-	.string "raving about his discoveries.\p"
-	.string "Anyway, I just got an e-mail\n"
-	.string "from him saying that this\l"
-	.string "time it's real.\p"
-	.string "It is intriguing, but we're\n"
-	.string "busy with our POKéMON research...\p"
-	.string "Wait!\n"
-	.string "I know!\p"
-	.string "{PLAYER}, can you go in our\n"
-	.string "place?$"
+	.string "ねえ　きいてよ\pわたしの　しりあいに\nポケモンじいさんって　ひとが\lいるんだけど\pへんな　ものを　みつけては\nだいはっけんだと\lさわいでるんだ\pその　ひとから　こんどこそ\nほんものだって　メールが\lきたんだ\pきに　なるけど\nポケモンの　けんきゅうで\lいそがしいし‥\pそうだ！\nいい　ことを　おもいついた！\p{PLAYER}くん　かわりに\nいって　くれないかい？$"
 
 NewBarkTown_Lab_Text_ElmChooseAPokemon:
-	.string "I want you to raise one of\n"
-	.string "the POKéMON contained in these BALLS.\p"
-	.string "You'll be that POKéMON's\n"
-	.string "first partner, {PLAYER}!\p"
-	.string "Go on. Pick one!$"
+	.string "この　ボールの　なかの　ポケモンを\n1ぴき　そだてて　ほしいんだ\p{PLAYER}くんが　その　ポケモンの\nさいしょの　パートナーさ！\pさあ　えらんで！$"
 
 NewBarkTown_Lab_Text_ElmWhereGoing:
-	.string "ELM: Wait! Where are you\n"
-	.string "going?$"
+	.string "ウツギ『まって！　どこへ\nいくんだい？$"
 
 NewBarkTown_Lab_Text_ChooseCyndaquil:
-	.string "ELM: You'll take {STR_VAR_1},\n"
-	.string "the {STR_VAR_2} POKéMON?$"
+	.string "ウツギ『{STR_VAR_2}ポケモンの\n{STR_VAR_1}に　するかい？$"
 
 NewBarkTown_Lab_Text_ChooseTotodile:
-	.string "ELM: Do you want {STR_VAR_1},\n"
-	.string "the {STR_VAR_2} POKéMON?$"
+	.string "ウツギ『{STR_VAR_2}ポケモンの\n{STR_VAR_1}が　いいかい？$"
 
 NewBarkTown_Lab_Text_ChooseChikorita:
-	.string "ELM: So, you like {STR_VAR_1},\n"
-	.string "the {STR_VAR_2} POKéMON?$"
+	.string "ウツギ『{STR_VAR_2}ポケモンの\n{STR_VAR_1}が　すきなのかい？$"
 
 NewBarkTown_Lab_Text_DidntChooseStarter:
-	.string "ELM: Think it over carefully.\p"
-	.string "Your partner is important.$"
+	.string "ウツギ『よく　かんがえてね\pパートナーは　だいじだよ$"
 
 NewBarkTown_Lab_Text_ChoseStarter:
-	.string "ELM: I think that's a great\n"
-	.string "POKéMON too!$"
+	.string "ウツギ『わたしも　すばらしい\nポケモンだと　おもうよ！$"
 
 NewBarkTown_Lab_Text_ReceivedStarter:
-	.string "{PLAYER} received {STR_VAR_1}!$"
+	.string "{PLAYER}は\n{STR_VAR_1}を　てにいれた！$"
 
 NewBarkTown_Lab_Text_Nickname:
-	.string "Would you like to give your\n"
-	.string "{STR_VAR_1} a nickname?$"
+	.string "{STR_VAR_1}に\nニックネームを　つけますか？$"
 
 NewBarkTown_Lab_Text_ElmDirections1:
-	.string "MR. POKéMON lives a little bit\n"
-	.string "beyond CHERRYGROVE, the next\l"
-	.string "city over.\p"
-	.string "It's almost a direct route\n"
-	.string "there, so you can't miss it.\p"
-	.string "But just in case, you have my\n"
-	.string "phone number. Call me if\l"
-	.string "anything comes up!$"
+	.string "ポケモンじいさんの　いえは\nとなりの　ヨシノシティの\lすこし　さきだよ\pほとんど　いっぽんみち　だから\nまよわないと　おもうけど\pねんのため　わたしの　でんわ\nばんごうは　しってるね\lなにか　あったら　でんわしてね！$"
 
 NewBarkTown_Lab_Text_ElmDirections1_Register:
-	.string "MR. POKéMON lives a little bit\n"
-	.string "beyond CHERRYGROVE, the next\l"
-	.string "city over.\p"
-	.string "It's almost a direct route\n"
-	.string "there, so you can't miss it.\p"
-	.string "But just in case, here's my\n"
-	.string "phone number. Call me if\l"
-	.string "anything comes up!$"
+	.string "ポケモンじいさんの　いえは\nとなりの　ヨシノシティの\lすこし　さきだよ\pほとんど　いっぽんみち　だから\nまよわないと　おもうけど\pねんのため　わたしの　でんわ\nばんごうを　おしえて　おくよ\lなにか　あったら　でんわしてね！$"
 
 NewBarkTown_Lab_Text_RegisteredElm:
-	.string "Registered PROF.ELM\n"
-	.string "in the POKéGEAR.$"
+	.string "ポケギアに\nウツギはかせを　とうろく　した$"
 
 
 NewBarkTown_Lab_Text_ElmLetYourMonBattle:
-	.string "If a wild POKéMON appears,\n"
-	.string "let your POKéMON battle it!$"
+	.string "やせいの　ポケモンが　でたら\nきみの　ポケモンで　たたかうんだ！$"
 
 NewBarkTown_Lab_Text_ElmDirections2:
-	.string "If a wild POKéMON appears, let\n"
-	.string "your POKéMON battle it!\p"
-	.string "If your POKéMON is hurt, you\n"
-	.string "should heal it with the machine\l"
-	.string "to my right, or at the POKéCENTER.\p"
-	.string "I'm counting on you!$"
+	.string "やせいの　ポケモンが　でたら\nきみの　ポケモンで　たたかうんだ！\pポケモンが　きずついたら\nわたしの　みぎの　きかいか\lポケモンセンターで　なおしてね\pたのんだよ！$"
 
 NewBarkTown_Lab_Text_GotElmsNumber:
-	.string "{PLAYER} got ELM's phone\n"
-	.string "number.$"
+	.string "{PLAYER}は　ウツギはかせの\nでんわばんごうを　てにいれた$"
 
 NewBarkTown_Lab_Text_ElmDescribesMrPokemon:
-	.string "MR. POKéMON goes everywhere and\n"
-	.string "finds rarities.\p"
-	.string "Too bad they're just rare and\n"
-	.string "not very useful…$"
+	.string "ポケモンじいさんは　あちこち\nいっては　めずらしい　ものを\lみつけて　くるんだ\pでも　めずらしい　だけで\nあまり　やくに　たたないのが\lざんねん　なんだよね‥$"
 
 NewBarkTown_Lab_Text_ElmPokeBall:
-	.string "It contains a POKéMON caught\n"
-	.string "by PROF.ELM.$"
+	.string "ウツギはかせが　つかまえた\nポケモンが　はいっている$"
 
 @THEFT================================================================================
 
 NewBarkTown_Lab_Text_ElmAfterTheft1:
-	.string "ELM: {PLAYER}, this is terrible…\p"
-	.string "Oh, yes, what was MR. POKéMON's\n"
-	.string "big discovery?$"
+	.string "ウツギ『{PLAYER}くん　たいへんな\nことに　なったよ‥\pそうそう　ポケモンじいさんの\nだいはっけんって　なんだった？$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft2:
-	.string "{PLAYER} handed the MYSTERY EGG\n"
-	.string "to PROF.ELM.$"
+	.string "{PLAYER}は　ふしぎなタマゴを\nウツギはかせに　わたした$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft3:
-	.string "ELM: This?$"
+	.string "ウツギ『これ？$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft4:
-	.string "But… Is it a POKéMON EGG?\p"
-	.string "If it is, it is a great\n"
-	.string "discovery!\p"
-	.string "ELM: What?!?\p"
-	.string "PROF.OAK gave you a POKéDEX?\p"
-	.string "{PLAYER}, is that true?\n"
-	.string "Th-that's incredible!\p"
-	.string "He is superb at seeing the\n"
-	.string "potential of people as trainers.\p"
-	.string "Wow, {PLAYER}. You may have what\n"
-	.string "it takes to become the CHAMPION.\p"
-	.string "You seem to be getting on\n"
-	.string "great with POKéMON too.\p"
-	.string "You should take the POKéMON\n"
-	.string "GYM challenge.\p"
-	.string "The closest GYM would be the\n"
-	.string "one in VIOLET CITY.\p"
-	.string "…{PLAYER}. The road to the\n"
-	.string "championship will be a long one.\p"
-	.string "Before you leave, make sure\n"
-	.string "that you talk to your mom.$"
+	.string "でも‥　これって　ポケモンの\nタマゴかな？\pもし　そうなら\nだいはっけんだ！\pウツギ『なに！？\pオーキドはかせが　きみに\nポケモンずかんを　くれた！？\p{PLAYER}くん　ほんとうかい？\nす‥　すごいじゃないか！\pはかせは　トレーナーの　さいのうを\nみぬく　めが　すばらしいんだ\pすごいよ　{PLAYER}くん　きみは\nチャンピオンに　なれる\lかも　しれないね\pポケモンとも　なかよく\nやれてる　みたいだし\pポケモンジムに　ちょうせん\nしてみると　いい\pいちばん　ちかい　ジムは\nキキョウシティだよ\p‥{PLAYER}くん　チャンピオンへの\nみちは　ながいよ\pでかける　まえに　ママに\nちゃんと　はなして　おいてね$"
 
 NewBarkTown_Lab_Text_ElmStudyingEgg:
-	.string "ELM: Don't give up!\n"
-	.string "I'll call if I learn anything\l"
-	.string "about that EGG!$"
+	.string "ウツギ『あきらめないで！\nタマゴの　ことが　わかったら\lでんわ　するよ！$"
 
 NewBarkTown_Lab_Text_ElmAideHasEgg:
-	.string "ELM: {PLAYER}? Didn't you meet\n"
-	.string "my assistant?\p"
-	.string "He should have met you with\n"
-	.string "the EGG at VIOLET CITY's\p"
-	.string "POKéMON CENTER.\p"
-	.string "You must have just missed him.\n"
-	.string "Try to catch him there.$"
+	.string "ウツギ『{PLAYER}くん？　じょしゅに\nあわなかったかい？\pキキョウシティの　ポケモンセンターで\nタマゴを　もって　まってる\pはずなんだけど\pいきちがい　だったのかな\nもういちど　いって　みて$"
 
 NewBarkTown_Lab_Text_ElmWaitingEggHatch:
-	.string "ELM: Hey, has that EGG changed\n"
-	.string "any?$"
+	.string "ウツギ『ねえ　タマゴに\nへんかは　あったかい？$"
 
 NewBarkTown_Lab_Text_ElmThoughtEggHatched:
-	.string "{PLAYER}? I thought the EGG\n"
-	.string "hatched.\p"
-	.string "Where is the POKéMON?$"
+	.string "{PLAYER}くん？　タマゴが\nかえったと　おもったんだけど\pポケモンは　どこだい？$"
 
 NewBarkTown_Lab_Text_ShowTogepi1:
-	.string "ELM: {PLAYER}, you look great!$"
+	.string "ウツギ『{PLAYER}くん　げんきそうだね！$"
 
 NewBarkTown_Lab_Text_ShowTogepi2:
-	.string "What? That POKéMON!?!$"
+	.string "え？　その　ポケモン！？$"
 
 NewBarkTown_Lab_Text_ShowTogepi3:
-	.string "The EGG hatched! So, POKéMON\n"
-	.string "are born from EGGS…\p"
-	.string "No, perhaps not all POKéMON\n"
-	.string "are.\p"
-	.string "Wow, there's still a lot of\n"
-	.string "research to be done.$"
+	.string "タマゴが　かえったんだ！\nポケモンは　タマゴから\lうまれるのか‥\pいや　ぜんぶの　ポケモンが\nそうとは　かぎらないか\pいやあ　まだまだ　けんきゅう\nする　ことが　いっぱいだ$"
 
 NewBarkTown_Lab_Text_ElmGiveEverstone1:
-	.string "Thanks, {PLAYER}! You're helping\n"
-	.string "unravel POKéMON mysteries for us!\p"
-	.string "I want you to have this as a\n"
-	.string "token of our appreciation.$"
+	.string "ありがとう　{PLAYER}くん！\nポケモンの　なぞを　とく\lてつだいを　してくれて！\pおれいの　しるしに\nこれを　うけとって$"
 
 NewBarkTown_Lab_Text_ElmGiveEverstone2:
-	.string "That's an EVERSTONE.\p"
-	.string "Some species of POKéMON evolve\n"
-	.string "when they grow to certain levels.\p"
-	.string "A POKéMON holding the EVERSTONE\n"
-	.string "won't evolve.\p"
-	.string "Give it to a POKéMON you don't\n"
-	.string "want to evolve.$"
+	.string "それは　かわらずのいし\pポケモンの　なかには　ある\nレベルに　なると　しんかする\lものが　いる\pかわらずのいしを　もった\nポケモンは　しんか　しないんだ\pしんか　させたくない\nポケモンに　もたせてね$"
 
 NewBarkTown_Lab_Text_ElmCallYou:
-	.string "ELM: {PLAYER}, I'll call you if\n"
-	.string "anything comes up.$"
+	.string "ウツギ『{PLAYER}くん　なにか\nあったら　でんわするよ$"
 
 NewBarkTown_Lab_Text_AideAfterTheft:
-	.string "…sigh… That stolen POKéMON.\p"
-	.string "I wonder how it's doing.\p"
-	.string "They say a POKéMON raised by a\n"
-	.string "bad person turns bad itself.$"
+	.string "‥はあ‥　ぬすまれた　ポケモン\pいま　どうして　いるかな\pわるい　ひとに　そだてられた\nポケモンは　わるく　なるって\lいうけど‥$"
 
 NewBarkTown_Lab_Text_ElmGiveMasterBall1:
-	.string "ELM: Hi, {PLAYER}!\p"
-	.string "Thanks to you, my research is\n"
-	.string "going great!\p"
-	.string "Take this as a token of my\n"
-	.string "appreciation.$"
+	.string "ウツギ『やあ　{PLAYER}くん！\pきみの　おかげで　けんきゅうは\nじゅんちょうだよ！\pおれいの　しるしに\nこれを　うけとって$"
 
 NewBarkTown_Lab_Text_ElmGiveMasterBall2:
-	.string "The MASTER BALL is the best!\p"
-	.string "It's the ultimate BALL! It'll\n"
-	.string "catch any POKéMON without fail.\p"
-	.string "It's given only to recognized\n"
-	.string "POKéMON researchers.\p"
-	.string "I think you can make much better\n"
-	.string "use of it than I can, {PLAYER}!$"
+	.string "マスターボールは　さいこうの\nボールさ！\pどんな　ポケモンでも　かならず\nつかまえられる\pみとめられた　ポケモン\nけんきゅうしゃ　だけが\lもらえるんだ\pわたしより　{PLAYER}くんの\nほうが　ずっと　うまく\lつかえると　おもうよ！$"
 
 NewBarkTown_Lab_Text_KimonoGirls:
-	.string "By the way...\n"
-	.string "A group of beautiful KIMONO\l"
-	.string "GIRLS were looking for you.\p"
-	.string "They told me they are\n"
-	.string "waiting for you at the\l" 
-	.string "ECRUTEAK DANCE THEATER.\p"
-	.string "I know you've gone through many\n"
-	.string "things since that EGG got you\l"
-	.string "involved in all this...\p"
-	.string "I hope you'll carry through it.$"
+	.string "ところで‥\nきれいな　まいこはんたちが\lきみを　さがして　いたよ\pエンジュの　かぶれんじょうで\nまっているって\pあの　タマゴを　きっかけに\nいろんな　ことが　あったね‥\pさいごまで　やりとげて\nほしいな$"
 
 NewBarkTown_Lab_Text_KimonoWaiting:
-	.string "PROF.ELM: The KIMONO\n"
-	.string "GIRLS are waiting for you at\l"
-	.string "the ECRUTEAK DANCE THEATER.$"
+	.string "ウツギ『まいこはんたちが\nエンジュの　かぶれんじょうで\lまっているよ$"
 
 NewBarkTown_Lab_Text_League:
-	.string "PROF.ELM: Hahaha...\n"
-	.string "Good job!\p"
-	.string "That rare EGG has brought you\n"
-	.string "a lot of trouble, huh?\p"
-	.string "The KIMONO GIRLS said something\n"
-	.string "about me?\p"
-	.string "I have nothing to do with it.\p"
-	.string "You made your decision and went\n"
-	.string "through with it.\p"
-	.string "Having done so much, you should\n"
-	.string "be able to face the LEAGUE now!\p"
-	.string "You should head for INDIGO\n"
-	.string "PLATEAU!\p"
-	.string "Do you know how to get there?\n"
-	.string "Follow ROUTE 27 to ROUTE 26.\p"
-	.string "Once there, go straight north!$"
+	.string "ウツギ『あはは‥\nよく　やったね！\pあの　めずらしい　タマゴの\nせいで　いろいろ　たいへん\lだったね？\pまいこはんたちが　わたしの\nことを　なにか　いってた？\pわたしは　なにも\nしていないよ\pきみが　じぶんで　きめて\nやりとげたんだ\pここまで　やったなら\nもう　リーグに　ちょうせん\lできるはずだ！\pセキエイこうげんを\nめざすと　いい！\pいきかたは　わかるかい？\n27ばんどうろから　26ばんどうろへ\pそこから　まっすぐ　きただよ！$"
 
 
 NewBarkTown_Lab_Text_ElmGiveTicket1:
-	.string "ELM: {PLAYER}! There you are!\p"
-	.string "I called because I have\n"
-	.string "something for you.\p"
-	.string "See? It's an S.S.TICKET.\p"
-	.string "Now you can catch POKéMON in\n"
-	.string "KANTO.$"
+	.string "ウツギ『{PLAYER}くん！\nまってたよ！\pわたしたい　ものが　あって\nでんわ　したんだ\pほら　ふねのチケットだよ\pこれで　カントーでも\nポケモンが　つかまえられるね$"
 
 NewBarkTown_Lab_Text_ElmGiveTicket2:
-	.string "The ship departs from OLIVINE\n"
-	.string "CITY.\p"
-	.string "But you knew that already,\n"
-	.string "{PLAYER}.\p"
-	.string "After all, you've traveled all\n"
-	.string "over with your POKéMON.\p"
-	.string "Give my regards to PROF.OAK in\n"
-	.string "KANTO!$"
+	.string "ふねは　アサギシティから\nでているよ\pでも　{PLAYER}くんは\nもう　しってるよね\pなにしろ　ポケモンと\nいろんな　ところを\lたびして　きたんだから\pカントーの　オーキドはかせに\nよろしく　つたえてね！$"
 
 NewBarkTown_Lab_Text_LabMonEgg:
-	.string "It's the POKéMON EGG being\n"
-	.string "studied by PROF.ELM.$"
+	.string "ウツギはかせが　しらべている\nポケモンの　タマゴだ$"
 
 NewBarkTown_Lab_Text_AideGivePotion:
-	.string "{PLAYER}, I want you to have\n"
-	.string "this for your errand.$"
+	.string "{PLAYER}くん　おつかいの\nために　これを　どうぞ$"
 
 NewBarkTown_Lab_Text_AideAlwaysBusy:
-	.string "There are only three of us, so\n"
-	.string "we're always busy.$"
+	.string "ここは　3にん　しか　いないから\nいつも　いそがしいんだ$"
 
 NewBarkTown_Lab_Text_AideSave:
-	.string "Don't forget to save your game\n"
-	.string "regularly!\p"
-	.string "Press the START button, then\n"
-	.string "SAVE the game!$"
+	.string "こまめに　レポートを\nかくのを　わすれずに！\pスタートボタンを　おして\nレポートを　えらんでね！$"
 
 NewBarkTown_Lab_Text_AideTheftTestimony:
-	.string "There was a loud noise\n"
-	.string "outside…\p"
-	.string "When we went to look,\n"
-	.string "someone stole a POKéMON.\p"
-	.string "It's unbelievable that anyone\n"
-	.string "would do that!\p"
-	.string "…sigh… That stolen POKéMON.\p"
-	.string "I wonder how it's doing.\p"
-	.string "They say a POKéMON raised by a\n"
-	.string "bad person turns bad itself.$"
+	.string "そとで　おおきな　おとが\nしたんだ‥\pみに　いったら　ポケモンを\nぬすまれて　しまった\pそんな　ことを　する\nひとが　いるなんて！\p‥はあ‥　ぬすまれた　ポケモン\pいま　どうして　いるかな\pわるい　ひとに　そだてられた\nポケモンは　わるく　なるって\lいうけど‥$"
 
 NewBarkTown_Lab_Text_AideGiveBalls:
-	.string "{PLAYER}!\p"
-	.string "Use these on your POKéDEX\n"
-	.string "quest!$"
+	.string "{PLAYER}くん！\pずかんづくりに\nこれを　つかって！$"
 
 NewBarkTown_Lab_Text_AideExplainBalls:
-	.string "To add to your POKéDEX, you\n"
-	.string "have to catch POKéMON.\p"
-	.string "Throw POKé BALLS at wild\n"
-	.string "POKéMON to get them.$"
+	.string "ずかんに　とうろく　するには\nポケモンを　つかまえなきゃ\pやせいの　ポケモンに\nモンスターボールを　なげて\lつかまえよう$"
 
 NewBarkTown_Lab_Text_Officer1:
-	.string "I heard a POKéMON was stolen\n"
-	.string "here…\p"
-	.string "I was just getting some\n"
-	.string "information from PROF.ELM.\p"
-	.string "Apparently, it was a young\n"
-	.string "male with long, red hair…\p"
-	.string "What?\p"
-	.string "You battled a trainer like\n"
-	.string "that?\p"
-	.string "Did you happen to get his\n"
-	.string "name?$"
+	.string "ここで　ポケモンが\nぬすまれたと　きいてね‥\pいま　ウツギはかせから\nはなしを　きいて　いたんだ\pどうやら　あかい　かみの\nわかい　おとこ　らしい‥\pなに？\pそんな　トレーナーと\nしょうぶ　したって？\pなまえは　わかるかい？$"
 
 NewBarkTown_Lab_Text_Officer2_1:
-	.string "OK! So {RIVAL} was his name?$"
+	.string "よし！　{RIVAL}と　いうんだな？$"
 
 NewBarkTown_Lab_Text_Officer2:
-	.string "Thanks for helping my\n"
-	.string "investigation!$"
+	.string "そうさに　きょうりょく\nありがとう！$"
 
 NewBarkTown_Lab_Text_OfficerNo:
-	.string "Surely you got his name?!$"
+	.string "なまえくらい　わかるだろう！？$"
 
 NewBarkTown_Lab_Text_Elm_CallMe:
-	.string "Ah, {PLAYER}!\p"
-	.string "How's your POKéDEX coming along?\n"
-	.string "I'm busy now, but call me sometime\l"
-	.string "and I can check your progress!$"
+	.string "やあ　{PLAYER}くん！\pずかんは　すすんでるかい？\nいまは　いそがしいけど\lでんわを　くれれば　みてあげるよ！$"

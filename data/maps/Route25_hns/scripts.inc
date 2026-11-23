@@ -26,12 +26,7 @@ Route25_EventScript_MistyRematch::
     end
 
 Route25_Text_Misty:
-    .string "MISTY: I love the sunset here!\n"
-	.string "It gives me the courage to go on,\l"
-	.string "you know?\p"
-	.string "Right!\p"
-	.string "If you're ready for a real splash,\n"
-	.string "meet me at the FIGHTING DOJO!$"
+	.string "カスミ『ここの　ゆうひ\nだいすき！\lげんきが　でるのよ　ね？\pそうよ！\pほんきで　みずびたしに\nなる　かくごが　あるなら\lかくとうどうじょうに　きて！$"
 
 Route25_EventScript_Dudley::
 	trainerbattle_single TRAINER_DUDLEY_HNS, Route25_Text_SchoolboyDudleySeen, Route25_Text_SchoolboyDudleyBeaten
@@ -191,31 +186,13 @@ Route25_Trigger_SuicuneLeftLeft::
 	goto Route25_Trigger_SuicuneLeft
 
 Route25_Text_Eusine1:
-	.string "EUSINE: Puff, puff...\n"
-	.string "I am... no match for you.\p"
-	.string "...As I predicted.\n"
-	.string "..........................\l"
-	.string "... Go ahead.\p"
-	.string "Since I met you in the BURNED TOWER\n"
-	.string "at ECRUTEAK CITY, I've sort of\l"
-	.string "known that SUICUNE would choose\l"
-	.string "you.$"
+	.string "ミナキ『はあ　はあ‥\nわたしは‥　きみには\lかなわない‥\p‥よそうどおりだ\n‥‥‥‥‥‥‥‥‥‥‥‥\l‥さあ　いきたまえ\pエンジュシティの　やけたとうで\nきみに　あった　ときから\lスイクンが　きみを　えらぶと\lなんとなく　わかっていたよ$"
 
 Route25_Text_Eusine2:
-	.string "Take a look at it!\p"
-	.string "SUICUNE is waiting for you!\n"
-	.string "It has been waiting for a battle\l"
-	.string "with a worthy trainer to whom it\l"
-	.string "can entrust itself.$"
+	.string "みて　ごらん！\pスイクンが　きみを\nまっている！\lみを　ゆだねられる\lトレーナーとの　しょうぶを\lまって　いたんだ$"
 
 Route25_Text_Eusine3:
-	.string "{PLAYER}...\n"
-	.string "You two are truly amazing...\p"
-	.string "I have never seen a battle this\n"
-	.string "intense!\l"
-	.string "I have no regrets...\p"
-	.string "Farewell, SUICUNE!\n"
-	.string "Farewell... {PLAYER}!$"
+	.string "{PLAYER}くん‥\nきみたちは　ほんとうに\lすばらしい‥\pこんなに　はげしい　しょうぶは\nみたことが　ない！\lもう　くいは　ない‥\pさらば　スイクン！\nさらば‥　{PLAYER}くん！$"
 
 Route25_EventScript_Eusine::
 	msgbox Route25_Text_Eusine2, MSGBOX_NPC
@@ -385,126 +362,83 @@ Route25_Movement_MistyWalkToPlayerLeft:
 	step_end
 
 Route25_Text_MistyDate:
-	.string "MISTY: Aww! Why did you have to\n"
-	.string "show up and bug us now?\p"
-	.string "Do you know what they call\n"
-	.string "people like you?\p"
-	.string "Pests! You heard me right,\n"
-	.string "pest!\p"
-	.string "…\p"
-	.string "…Oh? Those BADGES you have…\n"
-	.string "Are they JOHTO GYM BADGES?\p"
-	.string "If you have eight, you must be\n"
-	.string "good.\p"
-	.string "OK, then. Come to CERULEAN GYM.\p"
-	.string "I'll be happy to take you on.\p"
-	.string "I'm MISTY, the GYM LEADER in\n"
-	.string "CERULEAN.$"
+	.string "カスミ『もう！　なんで　いま\nでてきて　じゃまするのよ？\pあなたみたいな　ひと\nなんて　いうか　しってる？\pおじゃまむし！\nそうよ　おじゃまむし！\p‥\p‥あら？　その　バッジ‥\nジョウトの　ジムバッジ？\p8つも　あるなら\nそうとう　つよいのね\pいいわ　ハナダジムに\nきなさい\pよろこんで　あいてを\nしてあげる\pわたしは　カスミ\nハナダの　ジムリーダーよ$"
 
 Route25_Text_SchoolboyDudleySeen:
-	.string "Beat the six of us trainers to\n"
-	.string "win a fabulous prize!\p"
-	.string "Think you've got what it takes?$"
+	.string "トレーナー　6にんに　かったら\nすてきな　しょうひんが\lもらえるぞ！\pじしん　あるかい？$"
 
 Route25_Text_SchoolboyDudleyBeaten:
-	.string "Whoo! Good stuff.$"
+	.string "ふう！　やるね$"
 
 Route25_Text_SchoolboyDudleyAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "ベストは　つくした\nくやしくないよ$"
 
 Route25_Text_LassEllenSeen:
-	.string "I'm second.\n"
-	.string "Now it's serious!$"
+	.string "わたしは　2ばんめ\nここからが　ほんばんよ！$"
 
 Route25_Text_LassEllenBeaten:
-	.string "How could I lose?$"
+	.string "なんで　まけたの？$"
 
 Route25_Text_LassEllenAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "ベストは　つくした\nくやしくないわ$"
 
 Route25_Text_SchoolboyJoeSeen:
-	.string "Here's No. 3!\n"
-	.string "I won't be easy.$"
+	.string "3ばんめだ！\nかんたんには　いかないぞ$"
 
 Route25_Text_SchoolboyJoeBeaten:
-	.string "Ow! Stomped flat!$"
+	.string "いてっ！　ぺしゃんこだ！$"
 
 Route25_Text_SchoolboyJoeAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "ベストは　つくした\nくやしくないよ$"
 
 Route25_Text_LassLauraSeen:
-	.string "I'm No. 4!\n"
-	.string "Getting tired?$"
+	.string "4ばんめよ！\nつかれて　きた？$"
 
 Route25_Text_LassLauraBeaten:
-	.string "I lost too…$"
+	.string "わたしも　まけちゃった‥$"
 
 Route25_Text_LassLauraAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "ベストは　つくした\nくやしくないわ$"
 
 Route25_Text_CamperLloydSeen:
-	.string "OK! I'm No. 5.\n"
-	.string "I'll stomp you!$"
+	.string "よし！　5ばんめだ\nふみつぶして　やる！$"
 
 Route25_Text_CamperLloydBeaten:
-	.string "Whoa! Too much.$"
+	.string "うわっ！　つよすぎ$"
 
 Route25_Text_CamperLloydAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "ベストは　つくした\nくやしくないよ$"
 
 Route25_Text_LassShannonSeen:
-	.string "I'm the last in line, but I tell\n"
-	.string "you, I'm tough!$"
+	.string "さいごだけど\nわたしは　つよいわよ！$"
 
 Route25_Text_LassShannonBeaten:
-	.string "You're kidding.$"
+	.string "うそでしょ$"
 
 Route25_Text_LassShannonAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "ベストは　つくした\nくやしくないわ$"
 
 Route25_Text_SupernerdPatSeen:
-	.string "Mufufufu…\p"
-	.string "I have nothing to do with the\n"
-	.string "six-pack trainers.\p"
-	.string "I waited here to beat you when\n"
-	.string "you were tired out by all the\l"
-	.string "battles.$"
+	.string "むふふふ‥\pぼくは　あの　6にん　ぐみとは\nかんけい　ないよ\pしょうぶで　つかれた　ところを\nたおそうと　まってたんだ$"
 
 Route25_Text_SupernerdPatBeaten:
-	.string "Aren't you tired at all?$"
+	.string "ぜんぜん　つかれて　ないの？$"
 
 Route25_Text_SupernerdPatAfter:
-	.string "I'm sorry… I won't cheat\n"
-	.string "anymore…$"
+	.string "ごめんなさい‥　もう\nずるは　しません‥$"
 
 Route25_Text_CooltrainerKevinNugget:
-	.string "You took on one more battle than\n"
-	.string "you expected, but you won\l"
-	.string "anyway.\p"
-	.string "As promised, you win a prize.$"
+	.string "おもったより　ひとり　おおく\nたたかったけど　それでも\lかったね\pやくそくどおり\nしょうひんを　あげよう$"
 
 Route25_Text_CooltrainerKevinSeen:
-	.string "But after seeing how you battle,\n"
-	.string "I want to see how I'll fare.\p"
-	.string "How about it? Let me take you\n"
-	.string "on.$"
+	.string "でも　きみの　たたかいを　みたら\nじぶんも　ためして　みたく\lなった\pどうだい？\nあいてを　して　くれ$"
 
 Route25_Text_CooltrainerKevinBeaten:
-	.string "I've never had a battle this\n"
-	.string "good!$"
+	.string "こんな　いい　しょうぶは\nはじめてだ！$"
 
 Route25_Text_CooltrainerKevinAfter:
-	.string "That was a great battle!\p"
-	.string "You and your POKéMON are truly\n"
-	.string "outstanding!$"
+	.string "すばらしい　しょうぶ　だった！\pきみも　ポケモンも\nほんとうに　すごい！$"
 
 Route25_Text_BillsHouseSign:
-	.string "SEA COTTAGE\n"
-	.string "BILL'S HOUSE$"
+	.string "みさきの　こや\nマサキの　いえ$"
 

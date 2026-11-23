@@ -76,45 +76,28 @@ AzaleaTown_House1_EventScript_Farfetchd::
 
 
 CharcoalKiln_Text_Boss1:
-	.string "All the SLOWPOKE have disappeared\n"
-	.string "from the town.\p"
-	.string "The forest's protector may be\n"
-	.string "angry with us…\p"
-	.string "It may be a bad omen. We should\n"
-	.string "stay in.$"
+	.string "まちから　ヤドンが\nいなく　なって　しまった\pもりの　かみさまが\nおこって　いるのかも‥\pわるい　まえぶれかも　しれん\nいえに　いた　ほうが　いい$"
 
 CharcoalKiln_Text_Boss2:
-	.string "The SLOWPOKE have returned…$"
+	.string "ヤドンが　もどって　きた‥$"
 
 CharcoalKiln_Text_Boss3:
-	.string "The SLOWPOKE have returned…\p"
-	.string "But my APPRENTICE hasn't come back\n"
-	.string "from ILEX FOREST.\p"
-	.string "Where in the world is that lazy guy?$"
+	.string "ヤドンが　もどって　きた‥\pだが　でしが　ウバメのもりから\nもどって　こない\pあの　なまけものは\nどこに　いるんだ？$"
 
 CharcoalKiln_Text_Boss4:
-	.string "You chased off TEAM ROCKET and\n"
-	.string "went to ILEX FOREST alone?\p"
-	.string "That takes guts! I like that.\n"
-	.string "Come train with us.$"
+	.string "ロケットだんを　おいはらって\nひとりで　ウバメのもりへ\lいったのか？\pいい　どきょうだ！　きにいった\nうちで　しゅぎょう　しないか$"
 
 CharcoalKiln_Text_Apprentice1:
-	.string "Where have all the SLOWPOKE gone?\p"
-	.string "Are they out playing somewhere?$"
+	.string "ヤドンたち　どこへ\nいっちゃったんだろう？\pどこかで　あそんでるのかな？$"
 
 CharcoalKiln_Text_Apprentice2:
-	.string "The SLOWPOKE came back!$"
+	.string "ヤドンが　もどって　きた！$"
 
 CharcoalKiln_Text_Apprentice3:
-	.string "I'm sorry--I forgot to thank you.\p"
-	.string "This is CHARCOAL that I made.\p"
-	.string "FIRE-type POKéMON would be happy\n"
-	.string "to hold that.$"
+	.string "ごめん　おれい　いうの\nわすれてた\pこれは　おれが　つくった\nもくたん　なんだ\pほのおタイプの　ポケモンに\nもたせると　よろこぶよ$"
 
 CharcoalKiln_Text_Apprentice4:
-	.string "The SLOWPOKE came back, and you even\n"
-	.string "found FARFETCH'D.\p"
-	.string "You're the coolest, man!$"
+	.string "ヤドンも　もどったし\nカモネギまで　みつけて\lくれるなんて\pきみ　さいこうに\nかっこいいよ！$"
 
 CharcoalKiln_Text_Farfetchd:
-	.string "FARFETCH'D: Kwaa!$"
+	.string "カモネギ『クワッ！$"

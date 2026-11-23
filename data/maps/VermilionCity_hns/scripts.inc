@@ -309,79 +309,46 @@ VermilionCity_Movement_EusineLeave:
 	step_end
 
 VermilionCity_Text_Eusine:
-	.string "EUSINE: That was so close!\n"
-	.string "I though I could corner it by\l"
-	.string "ambushing it here.\p"
-	.string "But running on the water is beyond\n"
-	.string "me.\p"
-	.string "Still, I am starting to see\n"
-	.string "a pattern.\p"
-	.string "SUICUNE prefers water!\p"
-	.string "That means...$"
+	.string "ミナキ『おしかった！\nここで　まちぶせすれば\lおいつめられると　おもったが\pみずの　うえを　はしるなんて\nわたしには　むりだ\pだが　パターンが\nみえて　きたぞ\pスイクンは　みずを\nこのむ！\pと　いうことは‥$"
 
 VermilionCity_Text_Eusine2:
-	.string "Sorry {PLAYER}, I've got to go!$"
+	.string "すまない　{PLAYER}くん\nもう　いかなくては！$"
 
 VermilionCity_Text_Teacher:
-	.string "VERMILION PORT is KANTO's seaside\n"
-	.string "gateway.\p"
-	.string "Luxury liners from around the\n"
-	.string "world dock here.$"
+	.string "クチバこうは　カントーの\nうみの　げんかんよ\pせかいじゅうから　ごうかきゃくせんが\nやってくるの$"
 
 VermilionCity_Text_MachopOwner:
-	.string "My POKéMON is preparing the land\n"
-	.string "for construction.\p"
-	.string "But I have no money to start the\n"
-	.string "project…$"
+	.string "おれの　ポケモンが\nとちを　ならしてるんだ\pでも　こうじを　はじめる\nかねが　ない‥$"
 
 VermilionCity_Text_Machop1:
-	.string "MACHOP: Guooh gogogoh!$"
+	.string "ワンリキー『グオッ　ゴゴゴッ！$"
 
 VermilionCity_Text_Machop2:
-	.string "A MACHOP is growling while\n"
-	.string "stomping the ground flat.$"
+	.string "ワンリキーが　うなりながら\nじめんを　ふみならしている$"
 
 VermilionCity_Text_SuperNerd:
-	.string "There are eight GYMS in KANTO.\p"
-	.string "That big building is VERMILION's\n"
-	.string "POKéMON GYM.$"
+	.string "カントーには　ジムが　8つ　ある\pあの　おおきな　たてものが\nクチバの　ポケモンジムだ$"
 
 VermilionCity_Text_SnorlaxSleeping:
-	.string "SNORLAX is snoring peacefully…$"
+	.string "カビゴンが　きもちよさそうに\nいびきを　かいている‥$"
 
 VermilionCity_Text_RadioNearSnorlax:
-	.string "The POKéGEAR was placed near \n"
-	.string "the sleeping SNORLAX…\p"
-	.string "…\p"
-	.string "SNORLAX woke up!$"
+	.string "ねむっている　カビゴンの\nそばに　ポケギアを　ちかづけた‥\p‥\pカビゴンが　めを　さました！$"
 
 VermilionCity_Text_BadgeGuy_Trainer:
-	.string "Skilled trainers gather in KANTO.\p"
-	.string "GYM LEADERS are especially strong.\p"
-	.string "They won't be easy to defeat.$"
+	.string "カントーには　うでの　いい\nトレーナーが　あつまってる\pとくに　ジムリーダーは　つよい\nかんたんには　かてないぞ$"
 
 VermilionCity_Text_BadgeGuy_SomeBadges:
-	.string "You've started to collect KANTO\n"
-	.string "GYM BADGES?\p"
-	.string "Don't you agree that the trainers\n"
-	.string "here are tough?$"
+	.string "カントーの　ジムバッジを\nあつめはじめたのか？\pここの　トレーナーは\nつよいだろう？$"
 
 VermilionCity_Text_BadgeGuy_MostBadges:
-	.string "I guess you'll be finished with\n"
-	.string "your conquest of KANTO GYMS soon.\p"
-	.string "Let me know if you get all eight\n"
-	.string "BADGES.$"
+	.string "カントーの　ジム　せいはも\nもうすぐ　だな\p8つ　そろったら\nおしえて　くれよ$"
 
 VermilionCity_Text_BadgeGuy_AllBadges:
-	.string "Congratulations!\p"
-	.string "You got all the KANTO GYM BADGES.\p"
-	.string "I've got a reward for your efforts.$"
+	.string "おめでとう！\pカントーの　ジムバッジを\nぜんぶ　あつめたんだな\pがんばった　ごほうびを\nやろう$"
 
 VermilionCity_Text_BadgeGuy_BattleEdge:
-	.string "Having a variety of POKéMON types\n"
-	.string "should give you an edge in battle.\p"
-	.string "I'm sure the KANTO GYM BADGES will\n"
-	.string "help you.$"
+	.string "いろんな　タイプの　ポケモンが\nいると　しょうぶで　ゆうりだ\pカントーの　ジムバッジも\nきっと　やくに　たつぞ$"
 
 VermilionCity_EventScript_CitySign::
 	msgbox VermilionCity_Text_Sign, MSGBOX_SIGN
@@ -397,25 +364,19 @@ VermilionCity_EventScript_DiglettsCaveSign::
 	end
 
 VermilionCity_Text_Sign:
-	.string "VERMILION CITY\p"
-	.string "The Port of Exquisite Sunsets$"
+	.string "クチバシティ\pクチバは　オレンジ\nゆうひの　いろ$"
 
 VermilionCity_Text_GymSign:
-	.string "VERMILION CITY\n"
-	.string "POKéMON GYM\p"
-	.string "LEADER: LT.SURGE\p"
-	.string "The Lightning American$"
+	.string "クチバシティ\nポケモンジム\pジムリーダー　マチス\nイナズマ　アメリカン$"
 
 VermilionCity_Text_FanClubSign:
-	.string "POKéMON FAN CLUB\p"
-	.string "All POKéMON Fans Welcome!$"
+	.string "ポケモン　だいすきクラブ\pポケモン　だいすきな　ひと\nだれでも　かんげい！$"
 
 VermilionCity_Text_DiglettsCaveSign:
-	.string "DIGLETT'S CAVE$"
+	.string "ディグダのあな$"
 
 VermilionCity_Text_PortSign:
-	.string "VERMILION PORT\n"
-	.string "ENTRANCE$"
+	.string "クチバこう\nいりぐち$"
 
 VermilionCity_EventScript_TriggerStevenLeft::
 	lock
@@ -501,34 +462,10 @@ VermilionCity_Movement_StevenWalkToPlayer:
 	step_end
 
 VermilionCity_Text_StevenIntro:
-	.string "Hi!\n"
-	.string "My name is Steven.\l"
-	.string "The Champion from the HOENN region.\p"
-	.string "Have we met...before?\p"
-	.string "That's not possible. \n"
-	.string "All the trainers I have battled\l"
-	.string "seem to have the same look, anyway.\p"
-	.string "Especially the ones who gave me\n"
-	.string "tough battles.\p"
-	.string "I'm in KANTO for business.\n"
-	.string "Recently many HOENN POKéMON have\l"
-	.string "migrated to this region.\l"
-	.string "This influx risks disrupting the\l"
-	.string "natural ecosystem here.\p"
-	.string "So with the help of my company,\n"
-	.string "I'm creating a special habitat\l"
-	.string "to attract and contain the most\l"
-	.string "invasive species.\p"
-	.string "Make sure you keep an eye out\n"
-	.string "and catch any HOENN POKéMON you see.\p"
-	.string "Some trainers have even reported\n"
-	.string "one that soars through the sky like\l"
-	.string "a jet... What color was it again?$"
+	.string "やあ！\nぼくは　ダイゴ\lホウエンちほうの　チャンピオンさ\pまえに‥　あった　ことが\nあったかな？\pそんな　はずは　ないか\nたたかった　トレーナーは　みんな\lおなじ　めを　してる　からね\pとくに　てごわかった\nトレーナーほど　ね\pカントーには　しごとで　きたんだ\nさいきん　ホウエンの　ポケモンが\lたくさん　この　ちほうに\lうつってきて　いてね\lこのままでは　ここの\lしぜんが　みだれてしまう\pそこで　ぼくの　かいしゃで\nとくべつな　すみかを　つくって\lいちばん　ふえすぎた\lしゅるいを　あつめて　いるんだ\pホウエンの　ポケモンを　みかけたら\nかならず　つかまえて　おいてね\pジェットきの　ように　そらを\nとぶ　ポケモンを　みた　という\lトレーナーも　いる‥\lなにいろ　だったかな？$"
 
 VermilionCity_Text_StevenOutro:
-	.string "Ah, that's right.\p"
-	.string "I must go.\n"
-	.string "May our journeys cross again.$"
+	.string "ああ　そうだ\pもう　いかないと\nまた　どこかで　あおう$"
 
 VermilionCity_EventScript_TriggerSamson::
 	lock
@@ -577,16 +514,4 @@ VermilionCity_Movement_SamsonLeave:
 	step_end
 
 VermilionCity_Text_Samson:
-	.string "Whoah!\p"
-	.string "Sorry kiddo, I'm in a hurry!\p"
-	.string "The ferry on ROUTE 13 will be\n"
-	.string "leaving for the ISLES soon, and\l"
-	.string "I've got to be on it!\p"
-	.string "Phew... Phew...\p"
-	.string "I ran all the way here from\n"
-	.string "MT. MOON.\p"
-	.string "See this tchotchke here?\p"
-	.string "I picked up this STRANGE SOUVENIR\n"
-	.string "at the GIFT SHOP.\p"
-	.string "It's my ticket onto the ISLES.\p"
-	.string "Well, see-ya!$"
+	.string "おっとっと！\pごめんよ　ぼうや　いそいでるんだ！\p13ばんどうろの　ふねが\nもうすぐ　ナナシマへ\lでちまうんだ！\pぜえ‥　ぜえ‥\pおつきみやまから　ずっと\nはしって　きたんだ\pこの　おきもの　みてくれ\pおみやげやで　かった\nふしぎなおきもの　なんだ\pこれが　ナナシマへの\nきっぷ　なのさ\pじゃあな！$"

@@ -30,37 +30,26 @@ Route6_EventScript_Item_Silver_Wind::
     end
 
 Route6_Text_PokefanM:
-	.string "The road is closed until the\n"
-	.string "problem at the POWER PLANT is\l"
-	.string "solved.$"
+	.string "はつでんしょの　もんだいが\nかいけつ　するまで　みちは\lとおれないよ$"
 
 Route6_Text_UndergroundPathSign:
-	.string "UNDERGROUND PATH\p"
-	.string "CERULEAN CITY - VERMILION CITY$"
+	.string "ちかつうろ\pハナダシティ　ー　クチバシティ$"
 
 PokefanM_Text_RexSeen:
-	.string "My STANTLER is the cutest in the\n"
-	.string "world.$"
+	.string "おれの　オドシシは\nせかいで　いちばん　かわいい$"
 
 PokefanM_Text_RexBeaten:
-	.string "My STANTLER!$"
+	.string "おれの　オドシシが！$"
 
 PokefanM_Text_RexAfter:
-	.string "Look how adorable my STANTLER\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "オドシシの　しぐさ\nかわいいだろ？\pこころが　とけちゃう\nくらい　かわいいだろ？$"
 
 PokefanM_Text_AllanSeen:
-	.string "My GRANBULL is the cutest in the\n"
-	.string "world.$"
+	.string "おれの　グランブルは\nせかいで　いちばん　かわいい$"
 
 PokefanM_Text_AllanBeaten:
-	.string "My GRANBULL!$"
+	.string "おれの　グランブルが！$"
 
 PokefanM_Text_AllanAfter:
-	.string "Look how adorable my GRANBULL\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "グランブルの　しぐさ\nかわいいだろ？\pこころが　とけちゃう\nくらい　かわいいだろ？$"
 

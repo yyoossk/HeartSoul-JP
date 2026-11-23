@@ -20,10 +20,7 @@ CeladonCity_EventScript_Erika::
     end
 
 CeladonCity_Text_Erika:
-    .string "Oh, {PLAYER}.\n"
-	.string "Isn't the fountain lovely today?\p"
-	.string "If you wish for another battle,\n"
-	.string "I'll be at the FIGHTING DOJO.$"
+	.string "あら　{PLAYER}さん\nきょうの　ふんすいは\lすてきだと　おもいません？\pまた　しょうぶを　ごきぼうなら\nかくとうどうじょうに　おりますわ$"
 
 CeladonCity_EventScript_Fatman::
 	msgbox CeladonCity_Text_Fisher, MSGBOX_NPC
@@ -71,50 +68,31 @@ CeladonCity_EventScript_Item_Recycle::
     end
 
 CeladonCity_Text_Fisher:
-	.string "This POLIWRATH is my partner.\p"
-	.string "I wonder if it'll ever evolve\n"
-	.string "into a frog POKéMON.$"
+	.string "この　ニョロボンは\nおれの　あいぼう　なんだ\pいつか　カエルの　ポケモンに\nしんか　するかな$"
 
 CeladonCity_Text_Poliwrath:
-	.string "POLIWRATH: Croak!$"
+	.string "ニョロボン『ゲコッ！$"
 
 CeladonCity_Text_Teacher1:
-	.string "I lost at the slot machines again…\p"
-	.string "We girls also play the slots now.\p"
-	.string "You should check them out too.$"
+	.string "また　スロットで　まけちゃった‥\pいまは　おんなのこも\nスロットで　あそぶのよ\pあなたも　やってみたら？$"
 
 CeladonCity_Text_Gramps1:
-	.string "GRIMER have been appearing lately.\p"
-	.string "See that pond out in front of the\n"
-	.string "house? GRIMER live there now.\p"
-	.string "Where did they come from? This is\n"
-	.string "a serious problem…$"
+	.string "さいきん　ベトベターが\nでるように　なった\pいえの　まえの　いけが　みえるか？\nいまは　ベトベターが　すんでおる\pどこから　きたのか？\nこれは　ゆゆしき　もんだいじゃ‥$"
 
 CeladonCity_Text_Gramps2:
-	.string "Nihihi! This GYM is great! Only\n"
-	.string "girls are allowed here!$"
+	.string "にひひ！　この　ジムは　さいこう！\nおんなのこ　しか　いないんじゃ！$"
 
 CeladonCity_Text_Youngster1:
-	.string "Want to know a secret?\p"
-	.string "CELADON MANSION has a hidden back\n"
-	.string "door.$"
+	.string "ひみつ　おしえて　あげようか？\pタマムシマンションには\nかくれた　うらぐちが　あるんだ$"
 
 CeladonCity_Text_Youngster2:
-	.string "They're holding an eating contest\n"
-	.string "at the restaurant.\p"
-	.string "Just watching them go at it makes\n"
-	.string "me feel bloated…$"
+	.string "レストランで　おおぐい\nたいかいを　やってるよ\pみてるだけで　おなかが\nいっぱいに　なりそう‥$"
 
 CeladonCity_Text_Teacher2:
-	.string "CELADON DEPT.STORE has the biggest\n"
-	.string "and best selection of merchandise.\p"
-	.string "If you can't get it there, you\n"
-	.string "can't get it anywhere.\p"
-	.string "Gee… I sound like a sales clerk.$"
+	.string "タマムシデパートは　しなぞろえが\nいちばん　すごいのよ\pあそこで　かえない　ものは\nどこでも　かえないわ\pあら‥　てんいんさん　みたいね$"
 
 CeladonCity_Text_Lass:
-	.string "Looking at the ground while I was\n"
-	.string "walking made me dizzy.$"
+	.string "じめんを　みながら　あるいてたら\nめが　まわっちゃった$"
 
 CeladonCity_EventScript_CitySign::
 	msgbox CeladonCity_Text_Sign, MSGBOX_SIGN
@@ -141,29 +119,19 @@ CeladonCity_EventScript_TrainerTips::
 	end
 
 CeladonCity_Text_Sign:
-	.string "CELADON CITY\p"
-	.string "The City of Rainbow Dreams$"
+	.string "タマムシシティ\pタマムシは　にじいろ\nゆめの　いろ$"
 
 CeladonGym_Text_Sign:
-	.string "CELADON CITY POKéMON GYM LEADER:\n"
-	.string "ERIKA\p"
-	.string "The Nature-Loving Princess$"
+	.string "タマムシシティ　ポケモンジム\nジムリーダー　エリカ\pしぜんを　あいする　おじょうさま$"
 
 CeladonCity_Text_DeptStoreSign:
-	.string "Find What You Need at CELADON\n"
-	.string "DEPT.STORE!$"
+	.string "ほしい　ものは\nタマムシデパートで！$"
 
 CeladonCity_Text_MansionSign:
-	.string "CELADON MANSION$"
+	.string "タマムシマンション$"
 
 CeladonCity_Text_GameCornerSign:
-	.string "The Playground for Everybody--\n"
-	.string "CELADON GAME CORNER$"
+	.string "みんなの　あそびば\nタマムシ　ゲームコーナー$"
 
 CeladonCity_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "GUARD SPEC. protects POKéMON\n"
-	.string "against SPECIAL attacks such as\l"
-	.string "FLAMETHROWER and SURF.\p"
-	.string "Get your items at CELADON DEPT.\n"
-	.string "STORE!$"
+	.string "トレーナーの　こころえ\pエフェクトガードは　かえんほうしゃや\nなみのりなどの　とくしゅ\lこうげきから　ポケモンを　まもる\pどうぐは　タマムシデパートで\nかおう！$"

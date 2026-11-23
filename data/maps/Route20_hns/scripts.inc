@@ -97,74 +97,59 @@ Route20_EventScript_Headlocker::
 	end
 
 Route20_Text_Dennis:
-	.string "DENNIS: SHAAAAAAAA!$"
+	.string "デニス『シャアアアアアッ！$"
 
 Route20_Text_Headlocker:
-	.string "There's a rare POKéMON on this\n"
-	.string "route.\p"
-	.string "And sometimes it carries a rare\n"
-	.string "evolution item.\p"
-	.string "That's double rare!\p"
-	.string "I need to finish my POKéDEX, so\n"
-	.string "I've been fishing here for hours!$"
+	.string "この　すいどうには　めずらしい\nポケモンが　いるんだ\pしかも　ときどき　めずらしい\nしんかの　どうぐを　もってる\pダブルで　めずらしい！\pずかんを　かんせい　させたくて\nなんじかんも　つりを\lしてるんだ！$"
 
 Route20_Text_Seel:
-	.string "SEEL: Seel seel!$"
+	.string "パウワウ『パウッ　パウッ！$"
 
 Route20_Text_Dewgong:
-	.string "DEWGONG: Goooong!$"
+	.string "ジュゴン『ジュゴーン！$"
 
 Route20_Text_SeafoamSign:
-	.string "SEAFOAM ISLANDS$"
+	.string "ふたごじま$"
 
 Route20_Text_NicoleRegister:
-	.string "Your POKéMON swims fast!\n"
-	.string "Let me get your number!$"
+	.string "あなたの　ポケモン　はやいわね！\nばんごう　おしえて！$"
 
 Route20_Text_NicoleRematchIntro:
-	.string "All this swimming has made my\n"
-	.string "POKéMON stronger! Let's battle!$"
+	.string "およいで　ポケモンが　つよく\nなったわ！　しょうぶよ！$"
 
 Route20_Text_NicoleRematchDefeat:
-	.string "Swept away again…$"
+	.string "また　ながされちゃった‥$"
 
 Route20_Text_NicolePostRematch:
-	.string "Win or lose, I'm getting fit and\n"
-	.string "so are my POKéMON!$"
+	.string "かっても　まけても　わたしも\nポケモンも　からだが\lひきしまっていくわ！$"
 
 Route20_Text_SwimmerfNicoleSeen:
-	.string "I feel so much lighter in water.$"
+	.string "みずの　なかだと\nからだが　かるいの$"
 
 Route20_Text_SwimmerfNicoleBeaten:
-	.string "Oh, no!$"
+	.string "ああっ！$"
 
 Route20_Text_SwimmerfNicoleAfterBattle:
-	.string "Swimming exercises your full body.\p"
-	.string "It's really good for you.$"
+	.string "すいえいは　ぜんしんうんどう\pからだに　とっても　いいのよ$"
 
 Route20_Text_SwimmerfLoriSeen:
-	.string "What an impressive collection of\n"
-	.string "GYM BADGES. We should battle!$"
+	.string "すごい　ジムバッジの　かずね\nしょうぶ　しましょ！$"
 
 Route20_Text_SwimmerfLoriBeaten:
-	.string "No!$"
+	.string "いやっ！$"
 
 Route20_Text_SwimmerfLoriAfterBattle:
-	.string "SURF is no longer the only HM move\n"
-	.string "you use in water.$"
+	.string "みずの　うえで　つかう　ひでんわざは\nなみのり　だけじゃ　ないのよ$"
 
 Route20_Text_SwimmermCameronSeen:
-	.string "I guess it's impossible to swim\n"
-	.string "all the way to JOHTO.$"
+	.string "ジョウトまで　およいで\nいくのは　むりだろうな$"
 
 Route20_Text_SwimmermCameronBeaten:
-	.string "Aiyah!$"
+	.string "あいやー！$"
 
 Route20_Text_SwimmermCameronAfterBattle:
-	.string "Besides the sea, I can also swim\n"
-	.string "in ponds and rivers.$"
+	.string "うみの　ほかにも　いけや\nかわでも　およげるぜ$"
 
 Route20_Text_CinnabarIsland_GymUnusedSign:
-	.string "What does this sign say?\p"
-	.string "CINNABAR GYM LEADER: BLAINE$"
+	.string "なんて　かいてある　かな？\pグレンジム　ジムリーダー　カツラ$"
 

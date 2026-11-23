@@ -22,11 +22,7 @@ CinnabarIsland_EventScript_Blaine::
     end
 
 CinnabarIsland_Text_Blaine:
-    .string "BLAINE: I'll never give up\n"
-	.string "until the day I've rebuilt\l"
-	.string "CINNABAR GYM!\p"
-	.string "I'll be at the FIGHTING DOJO\n"
-	.string "until then.$"
+	.string "カツラ『グレンジムを　たてなおす\nひまで　わしは　ぜったい\lあきらめんぞ！\pそれまでは　かくとうどうじょうに\nおるからな$"
 
 
 
@@ -50,58 +46,10 @@ CinnabarIsland_EventScript_BlueActive::
 
 
 CinnabarIsland_Text_BlueBefore:
-	.string "Who are you?\p"
-	.string "Well, it's plain to see that you're\n"
-	.string "a trainer…\p"
-	.string "My name's BLUE.\p"
-	.string "I was once the CHAMPION, although\n"
-	.string "it was for only a short time…\p"
-	.string "That meddling RED did me in…\p"
-	.string "Anyway, what do you want? You want\n"
-	.string "to challenge me or something?\p"
-	.string "…I hate to say it, but I'm not in\n"
-	.string "the mood for a battle now.\p"
-	.string "Take a good look around you…\p"
-	.string "A volcano erupts, and just like\n"
-	.string "that, a whole town disappears.\p"
-	.string "We can go on winning and losing in\n"
-	.string "POKéMON. But if nature so much as\l"
-	.string "twitches, we can lose in a second.\p"
-	.string "…\p"
-	.string "That's the way it is…\p"
-	.string "But, anyway, I'm still a trainer.\p"
-	.string "If I see a strong opponent, it\n"
-	.string "makes me want to battle.\p"
-	.string "If you want to battle me, you'll\n"
-	.string "need 15 badges first.\p"
-	.string "I'll take you on then.$"
+	.string "だれだ　おまえ？\pまあ　みれば　トレーナーだって\nことは　わかるけどな‥\pおれの　なまえは　グリーン\pいちどは　チャンピオンに\nなった　おとこさ　ほんの\lわずかな　あいだ　だったけど‥\pあの　レッドの　やつに\nやられちまったからな‥\pで　なんの　ようだ？\nおれに　ちょうせん　でも\lしにきたのか？\p‥いいたくないけど　いまは\nしょうぶする　きぶんじゃ\lないんだ\pまわりを　よく　みてみろよ‥\pかざんが　ふんかしたら\nまち　ひとつが　あっというまに\lきえちまう\pポケモンで　かったり　まけたり\nしてても　しぜんが　ちょっと\lうごけば　いっしゅんで　まけさ\p‥\pそういう　もんさ‥\pでも　おれは　やっぱり\nトレーナーだ\pつよい　あいてを　みると\nしょうぶ　したくなる\pおれと　しょうぶ　したいなら\nまず　バッジを　15こ　あつめな\pそしたら　あいてを　してやる$"
 
 CinnabarIsland_Text_Blue:
-	.string "Who are you?\p"
-	.string "Well, it's plain to see that you're\n"
-	.string "a trainer…\p"
-	.string "My name's BLUE.\p"
-	.string "I was once the CHAMPION, although\n"
-	.string "it was for only a short time…\p"
-	.string "That meddling RED did me in…\p"
-	.string "Anyway, what do you want? You want\n"
-	.string "to challenge me or something?\p"
-	.string "…I hate to say it, but I'm not in\n"
-	.string "the mood for a battle now.\p"
-	.string "Take a good look around you…\p"
-	.string "A volcano erupts, and just like\n"
-	.string "that, a whole town disappears.\p"
-	.string "We can go on winning and losing in\n"
-	.string "POKéMON. But if nature so much as\l"
-	.string "twitches, we can lose in a second.\p"
-	.string "…\p"
-	.string "That's the way it is…\p"
-	.string "But, anyway, I'm still a trainer.\p"
-	.string "If I see a strong opponent, it\n"
-	.string "makes me want to battle.\p"
-	.string "If you want to battle me, come to\n"
-	.string "the VIRIDIAN GYM.\p"
-	.string "I'll take you on then.$"
+	.string "だれだ　おまえ？\pまあ　みれば　トレーナーだって\nことは　わかるけどな‥\pおれの　なまえは　グリーン\pいちどは　チャンピオンに\nなった　おとこさ　ほんの\lわずかな　あいだ　だったけど‥\pあの　レッドの　やつに\nやられちまったからな‥\pで　なんの　ようだ？\nおれに　ちょうせん　でも\lしにきたのか？\p‥いいたくないけど　いまは\nしょうぶする　きぶんじゃ\lないんだ\pまわりを　よく　みてみろよ‥\pかざんが　ふんかしたら\nまち　ひとつが　あっというまに\lきえちまう\pポケモンで　かったり　まけたり\nしてても　しぜんが　ちょっと\lうごけば　いっしゅんで　まけさ\p‥\pそういう　もんさ‥\pでも　おれは　やっぱり\nトレーナーだ\pつよい　あいてを　みると\nしょうぶ　したくなる\pおれと　しょうぶ　したいなら\nトキワジムに　こい\pそしたら　あいてを　してやる$"
 
 CinnabarIsland_EventScript_Sign::
 	msgbox CinnabarIsland_Text_Sign, MSGBOX_SIGN
@@ -112,12 +60,8 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_Text_GymSign:
-	.string "There's a notice here…\p"
-	.string "CINNABAR GYM has relocated to\n"
-	.string "SEAFOAM ISLANDS.\p"
-	.string "BLAINE$"
+	.string "はりがみが　ある‥\pグレンジムは　ふたごじまに\nうつりました\pカツラ$"
 
 CinnabarIsland_Text_Sign:
-	.string "CINNABAR ISLAND\p"
-	.string "The Fiery Town of Burning Desire$"
+	.string "グレンタウン\pグレンは　くれない\nもえる　とうしの　いろ$"
 

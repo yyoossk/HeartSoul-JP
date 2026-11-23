@@ -12,8 +12,7 @@ Route22_EventScript_Sign::
 	end
 
 Route22_Text_VictoryRoadEntranceSign:
-	.string "POKéMON LEAGUE\p"
-	.string "VICTORY ROAD ENTRANCE$"
+	.string "ポケモンリーグ\pチャンピオンロード　いりぐち$"
 
 Route22_EventScript_ResetActivation::
 	setvar VAR_TEMP_0, 0
@@ -284,61 +283,29 @@ Route22_Movement_CelebiPush:
 
 
 Route22_Text_Silver1:
-	.string "{RIVAL}: You told me...\n"
-	.string "you were the number one in the whole\l"
-	.string "world!\p"
-	.string "Are you gonna quit?\p"
-	.string "What are you going to do now?$"
+	.string "{RIVAL}『あんた　いったよな‥\nせかいで　いちばんだって！\pやめるのかよ？\pこれから　どうするんだよ？$"
 
 Route22_Text_Giovanni1:
-	.string "....................\p"
-	.string "GIOVANNI: One must acknowledge one's\n"
-	.string "defeat before he can move on...\p"
-	.string "I will go solo... for now...\p"
-	.string "So that one day I will form a\n"
-	.string "stronger organization!$"
+	.string "‥‥‥‥‥‥‥‥‥‥\pサカキ『まけを　みとめなければ\nまえには　すすめない‥\pしばらくは　ひとりで　いく‥\pいつか　もっと　つよい\nそしきを　つくる　ために！$"
 
 Route22_Text_Silver2:
-	.string "{RIVAL}: What aspect of you was\n"
-	.string "number one?\p"
-	.string "Gathering so many only to be\n"
-	.string "defeated by a mere child!$"
+	.string "{RIVAL}『あんたの　どこが\nいちばん　なんだよ？\pあれだけ　あつめて\nこども　ひとりに　まけて！$"
 
 Route22_Text_Giovanni2:
-	.string "GIOVANNI: Putting together the\n"
-	.string "potential of many is how you\l"
-	.string "produce a huge power...\l"
-	.string "That's what an organization is...\l"
-	.string "That's the strength of organization\p"
-	.string "I failed... to make the best use of\n"
-	.string "my subordinates' potential...!\p"
-	.string "But you shall witness one day the\n"
-	.string "revival of me and my TEAM ROCKET!$"
+	.string "サカキ『おおくの　ちからを\nあわせて　おおきな　ちからを\lうみだす‥　それが　そしきだ‥\lそれが　そしきの　つよさだ\pわたしは‥　ぶかの　ちからを\nいかしきれなかった‥！\pだが　いつか　わたしと\nロケットだんの　ふっかつを\lみせて　やろう！$"
 
 Route22_Text_Silver3:
-	.string "{RIVAL}: I don't understand you!\p"
-	.string "You don't make any sense!$"
+	.string "{RIVAL}『わけが　わからない！\pあんたの　いうことは\nめちゃくちゃだ！$"
 
 Route22_Text_Giovanni3:
-	.string ".......................\p"
-	.string "GIOVANNI: One day you will\n"
-	.string "understand.$"
+	.string "‥‥‥‥‥‥‥‥‥‥‥‥\pサカキ『いつか　おまえにも\nわかる　ときが　くる$"
 
 Route22_Text_Silver4:
-	.string "{RIVAL}: I don't want to\n"
-	.string "understand you!\p"
-	.string "I will never become someone like\n"
-	.string "you.\p"
-	.string "A coward when you're alone and\n"
-	.string "acting like a tyrant when you're\l"
-	.string "in front of other cowards!\p"
-	.string "I will become strong!\p"
-	.string "I will become a stronger man all\n"
-	.string "by myself!$"
+	.string "{RIVAL}『わかりたくも　ない！\pおれは　ぜったい　あんた\nみたいには　ならない\pひとりだと　おくびょうで\nおくびょうものの　まえでは\lいばりちらす　あんた　みたいには！\pおれは　つよく　なる！\pおれ　ひとりの　ちからで\nもっと　つよい　おとこに　なる！$"
 
 Route22_Text_Silver5:
-	.string "ALL BY MYSELF!$"
+	.string "おれ　ひとりの　ちからでな！$"
 
 Route22_Text_Silver6:
-	.string "{RIVAL}: ... What are you staring at?$"
+	.string "{RIVAL}『‥なに　みてんだよ？$"
 
