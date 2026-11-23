@@ -181,9 +181,7 @@ FuchsiaCity_Text_SafariZoneOfficeSign::
 	.string "SAFARI ZONE OFFICE$"
 
 FuchsiaCity_Text_GymSign::
-	.string "FUCHSIA CITY POKéMON GYM\n"
-	.string "LEADER: KOGA\l"
-	.string "The Poisonous Ninja Master$"
+	.string "セキチクシティ　ポケモンジム\nリーダー　キョウ\lどくの　にんじゃマスター$"
 
 FuchsiaCity_Text_ChanseySign::
 	.string "Name: CHANSEY\n"

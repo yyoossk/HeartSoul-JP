@@ -991,12 +991,10 @@ MauvilleCity_GameCorner_Text_ThanksBuyCoins:
 	.string "Good luck on your adventure!$"
 
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
-	.string "Welcome.\p"
-	.string "You can exchange your COINS for\n"
-	.string "prizes here.$"
+	.string "いらっしゃいませ\pここでは　コインを　けいひんと\nこうかん　できます$"
 
 MauvilleCity_GameCorner_Text_WhichPrize:
-	.string "Which prize would you like?$"
+	.string "どの　けいひんに　しますか？$"
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX:
 	.string "So your choice is\n"

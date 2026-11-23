@@ -349,10 +349,7 @@ BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
 	.string "I'll take your Battle Points, thanks!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+	.string "なんじゃ？\nいやなのか‥\pわしの　うでまえを　みたく　なったら\nいつでも　くるが　よい！$"
 
 BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "Ihihihi!\p"

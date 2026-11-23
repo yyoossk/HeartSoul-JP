@@ -1490,10 +1490,10 @@ gText_PokemonTrainerSchoolEmail::
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}は　パソコンの\nスイッチを　いれた！$"
 
 gText_PokeblockLinkCanceled::
-	.string "The link was canceled.$"
+	.string "つうしんが　キャンセル　されました$"
 
 gText_UnusedNicknameReceivedPokemon::
 	.string "Want to give a nickname to\n"
@@ -1618,12 +1618,10 @@ gText_PlayerFoundTMHMs::
 	.string "{STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::
-	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
-	.string "The weird tree attacked!$"
+	.string "へんな　きは　ゼニガメじょうろが\nきらい　みたいだ！\pへんな　きが　おそって　きた！$"
 
 gText_LegendaryFlewAway::
-	.string "The {STR_VAR_1} flew away!$"
+	.string "{STR_VAR_1}は　とびさって　しまった！$"
 
 gText_WantWhichFloor::
 	.string "Which floor do you want?$"

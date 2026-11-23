@@ -1,0 +1,149 @@
+## data/maps/BattleFrontier_BattleArenaLobby/scripts.inc
+@@BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules
+セットKOトーナメントには　ふつうの\nバトルと　ちがう　ルールが　あります\pまず　1かいの　バトルは\n3ターンまで　です\p3ターンで　しょうぶが　つかないと\nしんさに　なります\pレフェリーが　ポケモンの\nたたかいぶりで　かちを　きめます\pまた　しょうぶが　つくまで\nポケモンを　いれかえる　ことは\lできません
+@@BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules
+3つめの　しんさは「からだ」\nバトルの　おわりに　のこった\lHPで　きまります\pバトルの　はじめの　HPと\nおわりに　のこった　HPで\lひょうか　します
+@@BattleFrontier_BattleArenaLobby_Text_ExplainMindRules
+1つめの　しんさは「こころ」\nどれだけ　せめたかを\lひょうか　します\pトレーナーが　こうげきわざを\nどれだけ　つかわせたかで\lきまります
+@@BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules
+2つめの　しんさは「わざ」\nわざを　どれだけ　うまく\lつかったかを　ひょうか　します\pわざが　うまく　きまれば\nひょうかが　あがります\pわざが　しっぱい　すると\nひょうかが　さがります\pこうげきわざなら　こうかばつぐんで\nあがり　いまひとつで　さがります\pまもる　や　みきり　などの　わざでは\nひょうかは　あがりません\pあいてが　まもる　や　みきりを\nつかって　わざが　あたらなかった\lときは　ひょうかは　さがりません
+@@BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading
+どの　こうもくを　よみますか？
+@@BattleFrontier_BattleArenaLobby_Text_RulesAreListed
+セットKOトーナメントの　ルールが\nかいて　あります
+## data/maps/BattleFrontier_BattleDomeLobby/scripts.inc
+@@BattleFrontier_BattleDomeLobby_Text_ReceivedPrize
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった！
+## data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc
+@@BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading
+どの　こうもくを　よみますか？
+@@BattleFrontier_BattleFactoryLobby_Text_RulesAreListed
+バトルスワップの　ルールが\nかいて　あります
+## data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc
+@@BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics
+ここでは　ポケモンが　じぶんで\nかんがえて　たたかいます\pやせいと　ちがい　ひとと　くらす\nポケモンは　せいかくに　よって\lうごきかたが　かわります
+@@BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves
+あいてに　ちょくせつ　ダメージを\nあたえる　こうげきの　わざ\pあいての　こうげきに　そなえたり\nHPを　かいふく　したり　する\lまもりの　わざ\pどくや　まひ　などで　あいてを\nよわらせる　ちょっと　かわった\lわざも　あります\pポケモンは　この　3つの\nなかから　わざを　えらびます
+@@BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature
+せいかくに　よっては　とにかく\nこうげき　したがる　ポケモンも　います\pじぶんの　みを　まもりたがる\nポケモンも　います\pあいてを　まどわせるのが\nすきな　ポケモンも　います\pせいかくに　よって　とくいな\nわざが　あります\pにがてな　わざも　あります
+@@BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered
+トレーナーの　めいれいが　ないと\nうまく　つかえない　わざも\lあります\pポケモンは　きらいな　わざを\nうまく　つかえません\pせいかくに　あわない　わざしか\nおぼえて　いないと　ちからを\lだしきれない　ことが　おおいです
+@@BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger
+せいかくに　よっては　ピンチに　なると\nせいかくに　あわない　わざを\lつかいはじめる　ことが　あります\pピンチで　ようすが　かわったら\nよく　みて　いて　ください
+@@BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge
+はあ‥\pまえかい　レポートを　かかずに\nちょうせんを　おえましたね\pその　ため　ちょうせんは\nしっかく　です　ざんねんです
+@@BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge
+バトルホールへ　あんない　する　まえに\nレポートを　かきます　いいですか？
+@@BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize
+しょうひんを　いれる　ばしょが\nない　ようです\pバッグを　せいり　してから\nまた　きて　ください
+@@BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading
+どの　こうもくを　よみますか？
+@@BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting
+おまち　して　おりました‥
+## data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc
+@@BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge
+バトルルームの　ちょうせんを\nやめますか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved
+なにかの　エラーが　おきました\nきろくを　セーブ　できません　でした
+@@BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle
+バトルを　フロンティアパスに\nきろく　しますか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth
+ポケモンを　げんきに\nして　あげましょう
+@@BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait
+バトルデータを　セーブ　しています\nしばらく　おまちください
+@@BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass
+{PLAYER}の　バトルが\nフロンティアパスに　きろく　された
+## data/maps/BattleFrontier_BattleTowerLobby/scripts.inc
+@@BattleFrontier_BattleTowerLobby_Text_ReceivedPrize
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった！
+@@BattleFrontier_Text_ObtainedXBattlePoints
+{PLAYER}は　{STR_VAR_1}バトルポイントを　もらった！
+## data/maps/BattleFrontier_Lounge7/scripts.inc
+@@BattleFrontier_Lounge7_Text_YouDontWantTo
+なんじゃ？\nいやなのか‥\pわしの　うでまえを　みたく　なったら\nいつでも　くるが　よい！
+## data/maps/CeladonCity_Gym_Frlg/scripts.inc
+@@CeladonCity_Gym_Text_GymStatue
+タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\n{RIVAL}
+@@CeladonCity_Gym_Text_GymStatuePlayerWon
+タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\n{RIVAL}　{PLAYER}
+## data/maps/CeruleanCity_Gym_Frlg/scripts.inc
+@@CeruleanCity_Gym_Text_GymStatue
+ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\n{RIVAL}
+@@CeruleanCity_Gym_Text_GymStatuePlayerWon
+ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\n{RIVAL}　{PLAYER}
+## data/maps/CinnabarIsland_Frlg/scripts.inc
+@@CinnabarIsland_Text_GymSign
+グレンじま　ポケモンジム\nリーダー　カツラ\lねっけつ　クイズおやじ！
+## data/scripts/debug.inc
+@@Debug_Text_ArianaDefeat
+これで　おわったと　おもわないで！
+@@Debug_Text_Grunt23Defeat
+みとめないぞ！
+## data/maps/FuchsiaCity_Gym_Frlg/scripts.inc
+@@FuchsiaCity_Gym_Text_GymStatue
+セキチク　ポケモンジム\nリーダー　キョウ\pかった　トレーナー\n{RIVAL}
+@@FuchsiaCity_Gym_Text_GymStatuePlayerWon
+セキチク　ポケモンジム\nリーダー　キョウ\pかった　トレーナー\n{RIVAL}　{PLAYER}
+## data/maps/FuchsiaCity_Frlg/scripts.inc
+@@FuchsiaCity_Text_GymSign
+セキチクシティ　ポケモンジム\nリーダー　キョウ\lどくの　にんじゃマスター
+## data/maps/LavaridgeTown/scripts.inc
+@@LavaridgeTown_Text_ReceivedTheEgg
+{PLAYER}は　タマゴを　もらった！
+## data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc
+@@LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine
+むずかしそうな　きかいだ\nはかせが　けんきゅうに　つかって　いる
+## data/maps/MauvilleCity_GameCorner/scripts.inc
+@@MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes
+いらっしゃいませ\pここでは　コインを　けいひんと\nこうかん　できます
+@@MauvilleCity_GameCorner_Text_WhichPrize
+どの　けいひんに　しますか？
+## data/maps/PewterCity_Gym_Frlg/scripts.inc
+@@PewterCity_Gym_Text_GymStatue
+ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{RIVAL}
+@@PewterCity_Gym_Text_GymStatuePlayerWon
+ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{RIVAL}　{PLAYER}
+## data/maps/PewterCity_Frlg/scripts.inc
+@@PewterCity_Text_GymSign
+ニビシティ　ポケモンジム\nリーダー　タケシ\lつよくて　かたい　いしの　おとこ！
+## data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc
+@@PlayersHouse_1F_Text_YouShouldRestABit
+ママ「{PLAYER}　だいじょうぶ？\nちょっと　つかれてる　みたい\pすこし　やすんだら？
+## data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc
+@@PlayersHouse_2F_Text_ClockIsStopped
+とけいが　とまってる‥\pあわせて　うごかさなきゃ！
+## data/maps/PokemonLeague_BrunosRoom_Frlg/scripts.inc
+@@PokemonLeague_BrunosRoom_Text_Defeat
+なぜだ？\nなぜ　まけたのだ？
+## data/maps/Route10_Frlg/scripts.inc
+@@Route10_Text_PowerPlant
+はつでんしょ
+## data/maps/Route119_WeatherInstitute_2F/scripts.inc
+@@Route119_WeatherInstitute_2F_Text_NoRoomForPokemon
+ん？　ポケモンを　もつ\nよゆうが　ない　ようだね
+## data/maps/Route5_Frlg/scripts.inc
+@@Route5_Text_UndergroundPathSign
+ちかつうろ\nハナダシティ　-　クチバシティ
+## data/maps/SaffronCity_Gym_Frlg/scripts.inc
+@@SaffronCity_Gym_Text_GymStatue
+ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{RIVAL}
+@@SaffronCity_Gym_Text_GymStatuePlayerWon
+ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{RIVAL}　{PLAYER}
+@@SaffronCity_Gym_Text_SabrinaIntro
+あなたが　くることは\nよちして　いたわ\pわたしは　こどもの　ころから\nちょうのうりょくが　あったの\pなにげなく　なげた　スプーンが\nまがったのが　はじまり\pたたかいは　すきじゃない　けど\nのぞむなら　ちからを　みせて　あげる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}
+@@SaffronCity_Gym_Text_SabrinaPostBattle
+ちょうのうりょくは　ひとにぎりの\nひとだけの　ものじゃ　ないわ\pだれにでも　ちょうのうりょくは　ある\nみんな　きづいて　いない　だけ
+## data/maps/VermilionCity_Frlg/scripts.inc
+@@VermilionCity_Text_GymSign
+クチバシティ　ポケモンジム\nリーダー　マチス\lイナズマ　アメリカン！
+## data/event_scripts.s
+@@gText_LegendaryFlewAway
+{STR_VAR_1}は　とびさって　しまった！
+@@gText_PlayerHouseBootPC
+{PLAYER}は　パソコンの\nスイッチを　いれた！
+@@gText_PokeblockLinkCanceled
+つうしんが　キャンセル　されました
+@@gText_Sudowoodo_Attacked
+へんな　きは　ゼニガメじょうろが\nきらい　みたいだ！\pへんな　きが　おそって　きた！

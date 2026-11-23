@@ -311,9 +311,7 @@ VermilionCity_Text_PokemonFanClubSign::
 	.string "All POKéMON fans welcome!$"
 
 VermilionCity_Text_GymSign::
-	.string "VERMILION CITY POKéMON GYM\n"
-	.string "LEADER: LT. SURGE\l"
-	.string "The Lightning American!$"
+	.string "クチバシティ　ポケモンジム\nリーダー　マチス\lイナズマ　アメリカン！$"
 
 VermilionCity_Text_VermilionHarbor::
 	.string "VERMILION HARBOR$"

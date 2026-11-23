@@ -517,57 +517,22 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "making an effective team.$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
-	.string "The Set KO Tourney's rules are listed.$"
+	.string "セットKOトーナメントの　ルールが\nかいて　あります$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "どの　こうもくを　よみますか？$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
-	.string "The Set KO Tourney has special rules,\n"
-	.string "unlike standard battles.\p"
-	.string "First, one battle lasts only\n"
-	.string "three turns.\p"
-	.string "If the outcome is not decided after\n"
-	.string "three turns, it goes to judging.\p"
-	.string "The REFEREE will choose the winner\n"
-	.string "based on how the POKéMON battled.\p"
-	.string "Also, a POKéMON cannot be switched out\n"
-	.string "until its battle's outcome is decided.$"
+	.string "セットKOトーナメントには　ふつうの\nバトルと　ちがう　ルールが　あります\pまず　1かいの　バトルは\n3ターンまで　です\p3ターンで　しょうぶが　つかないと\nしんさに　なります\pレフェリーが　ポケモンの\nたたかいぶりで　かちを　きめます\pまた　しょうぶが　つくまで\nポケモンを　いれかえる　ことは\lできません$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-	.string "The first judging factor is “Mind.”\n"
-	.string "This factor evaluates how aggressive\l"
-	.string "the battlers were.\p"
-	.string "The judging is based on how often\n"
-	.string "the TRAINERS ordered the use of\l"
-	.string "offensive moves.$"
+	.string "1つめの　しんさは「こころ」\nどれだけ　せめたかを\lひょうか　します\pトレーナーが　こうげきわざを\nどれだけ　つかわせたかで\lきまります$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-	.string "The second judging factor is “Skill.”\n"
-	.string "This factor evaluates how effectively\l"
-	.string "POKéMON moves were used.\p"
-	.string "If a move worked successfully,\n"
-	.string "the Skill rating goes up.\p"
-	.string "If a move failed, the Skill rating\n"
-	.string "is lowered.\p"
-	.string "If it was an offensive move, the Skill\n"
-	.string "rating goes up if the move was “super\l"
-	.string "effective” and goes down if it was\l"
-	.string "“not very effective.”\p"
-	.string "The Skill rating will not go up for\n"
-	.string "moves such as PROTECT and DETECT.\p"
-	.string "If the opponent used PROTECT or\n"
-	.string "DETECT, and your POKéMON failed to\l"
-	.string "hit with a move, its Skill rating will not\l"
-	.string "go down.$"
+	.string "2つめの　しんさは「わざ」\nわざを　どれだけ　うまく\lつかったかを　ひょうか　します\pわざが　うまく　きまれば\nひょうかが　あがります\pわざが　しっぱい　すると\nひょうかが　さがります\pこうげきわざなら　こうかばつぐんで\nあがり　いまひとつで　さがります\pまもる　や　みきり　などの　わざでは\nひょうかは　あがりません\pあいてが　まもる　や　みきりを\nつかって　わざが　あたらなかった\lときは　ひょうかは　さがりません$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-	.string "The third judging factor is “Body.”\n"
-	.string "This factor is based on how much HP\l"
-	.string "remained at the end of a battle.\p"
-	.string "The rating takes into account how much\n"
-	.string "HP a POKéMON had at the start of\l"
-	.string "battle, and what remained at the end.$"
+	.string "3つめの　しんさは「からだ」\nバトルの　おわりに　のこった\lHPで　きまります\pバトルの　はじめの　HPと\nおわりに　のこった　HPで\lひょうか　します$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
 	.string "A victory snatched from the ARENA\n"

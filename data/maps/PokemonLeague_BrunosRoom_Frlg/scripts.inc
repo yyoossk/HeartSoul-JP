@@ -139,8 +139,7 @@ PokemonLeague_BrunosRoom_Text_RematchIntro::
 	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_Defeat::
-	.string "Why?\n"
-	.string "How could I lose?$"
+	.string "なぜだ？\nなぜ　まけたのだ？$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle::
 	.string "My job is done.\n"

@@ -278,10 +278,10 @@ Debug_EventScript_LanceMultiWin::
 	end
 
 Debug_Text_ArianaDefeat:
-	.string "You haven't seen the last of me!$"
+	.string "これで　おわったと　おもわないで！$"
 
 Debug_Text_Grunt23Defeat:
-	.string "I won't accept this!$"
+	.string "みとめないぞ！$"
 
 Debug_Text_LanceMultiVictory:
 	.string "Lance multi battle complete!$"

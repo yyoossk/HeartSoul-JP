@@ -96,13 +96,7 @@ SaffronCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 SaffronCity_Gym_Text_SabrinaIntro::
-	.string "I had a vision of your arrival.\p"
-	.string "I have had psychic powers since\n"
-	.string "I was a child.\p"
-	.string "It started when a spoon I\n"
-	.string "carelessly tossed, bent.\p"
-	.string "I dislike battling, but if you wish,\n"
-	.string "I will show you my powers!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "あなたが　くることは\nよちして　いたわ\pわたしは　こどもの　ころから\nちょうのうりょくが　あったの\pなにげなく　なげた　スプーンが\nまがったのが　はじまり\pたたかいは　すきじゃない　けど\nのぞむなら　ちからを　みせて　あげる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
 	.string "This loss shocks me!\n"
@@ -113,10 +107,7 @@ SaffronCity_Gym_Text_SabrinaDefeat::
 	.string "MARSHBADGE.$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
-	.string "Psychic power isn't something that\n"
-	.string "only a few people have.\p"
-	.string "Everyone has psychic power.\n"
-	.string "People just don't realize it.$"
+	.string "ちょうのうりょくは　ひとにぎりの\nひとだけの　ものじゃ　ないわ\pだれにでも　ちょうのうりょくは　ある\nみんな　きづいて　いない　だけ$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
 	.string "The MARSHBADGE makes POKéMON up\n"
@@ -244,14 +235,8 @@ SaffronCity_Gym_Text_GymGuyPostVictory::
 	.string "at the slots!$"
 
 SaffronCity_Gym_Text_GymStatue::
-	.string "SAFFRON POKéMON GYM\n"
-	.string "LEADER: SABRINA\p"
-	.string "WINNING TRAINERS:\n"
-	.string "{RIVAL}$"
+	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{RIVAL}$"
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-	.string "SAFFRON POKéMON GYM\n"
-	.string "LEADER: SABRINA\p"
-	.string "WINNING TRAINERS:\n"
-	.string "{RIVAL}, {PLAYER}$"
+	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{RIVAL}　{PLAYER}$"
 
