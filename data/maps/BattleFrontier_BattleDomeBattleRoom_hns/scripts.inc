@@ -945,220 +945,120 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait_hns:
 	.string "なんと　いう　けつまつ！\nダブルノックアウト　です！\pこの　ばあい　ルールにより\nしんぱんが　はんてい\lします\pはんていを　おまち\nください$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer_hns:
-	.string "The REFEREES have reached\n"
-	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is {STR_VAR_1}!\l"
-	.string "Congratulations!$"
+	.string "しんぱんの　はんていが\nでました！\pしょうしゃは‥\nなんと！\lしょうしゃは　{STR_VAR_1}！\lおめでとう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer_hns:
-	.string "The REFEREES have reached\n"
-	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is {PLAYER}!\l"
-	.string "Congratulations!$"
+	.string "しんぱんの　はんていが\nでました！\pしょうしゃは‥\nなんと！\lしょうしゃは　{PLAYER}！\lおめでとう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope_hns:
-	.string "The bright new hope!\p"
-	.string "$"
+	.string "きたいの　しんじん！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RisingStar_hns:
-	.string "The rising star!\p"
-	.string "$"
+	.string "のぼりざかの　ホープ！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship_hns:
-	.string "Will this TRAINER race to\n"
-	.string "the championship?\p"
-	.string "$"
+	.string "この　トレーナーは　ゆうしょうまで\nかけぬけるのか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry_hns:
-	.string "Can the feat of a championship\n"
-	.string "on the first try be achieved?\p"
-	.string "$"
+	.string "はつ　ちょうせんで\nゆうしょうなるか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged_hns:
-	.string "Can the loss of the last match\n"
-	.string "be avenged?\p"
-	.string "$"
+	.string "まえかいの　まけを\nはらせるか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship_hns:
-	.string "The TRAINER is on fire for\n"
-	.string "the first championship try!\p"
-	.string "$"
+	.string "はつゆうしょうに　むけて\nもえて　いる！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal_hns:
-	.string "A win here means this TRAINER\n"
-	.string "advances to the final!\p"
-	.string "$"
+	.string "ここで　かてば\nけっしょう　しんしゅつ！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue_hns:
-	.string "Will the long-held dream of\n"
-	.string "a championship finally come true?\p"
-	.string "$"
+	.string "ながねんの　ゆうしょうの　ゆめは\nついに　かなうのか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion_hns:
-	.string "The invincible champion!\p"
-	.string "$"
+	.string "むてきの　チャンピオン！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer_hns:
-	.string "Can anyone hope to beat this\n"
-	.string "TRAINER?\p"
-	.string "$"
+	.string "この　トレーナーに　かてる\nものは　いるのか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer_hns:
-	.string "Do battles exist solely for\n"
-	.string "this TRAINER?\p"
-	.string "$"
+	.string "しょうぶは　この　トレーナーの\nために　あるのか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle_hns:
-	.string "The current champion aiming to\n"
-	.string "retain the title!\p"
-	.string "$"
+	.string "タイトル　ぼうえいを　めざす\nげんチャンピオン！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned_hns:
-	.string "The former champion has returned!\p"
-	.string "$"
+	.string "もとチャンピオンが\nかえって　きた！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned_hns:
-	.string "The former toughness has returned!\p"
-	.string "$"
+	.string "かつての　つよさが\nもどって　きた！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals_hns:
-	.string "Will this TRAINER do as expected\n"
-	.string "and advance to the finals?\p"
-	.string "$"
+	.string "よそう　どおり　けっしょうへ\nすすむのか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory_hns:
-	.string "Will the former champ regain\n"
-	.string "lost glory?\p"
-	.string "$"
+	.string "もとチャンピオンは　えいこうを\nとりもどせるか？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster_hns:
-	.string "Feel the glow of a true master!$"
+	.string "しんの　たつじんの\nかがやきを　かんじろ！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker_hns:
-	.string "And now… The TRAINER standing in\n"
-	.string "{PLAYER}'s record-setting path…\p"
-	.string "Yes! The one and only!\n"
-	.string "The BATTLE DOME COMMISSIONER!\l"
-	.string "Our very own DOME ACE!\l"
-	.string "Make way for TUCKER!$"
+	.string "そして‥　{PLAYER}の\nきろくの　まえに　たちはだかる\lトレーナーは‥\pそう！　この　ひと！\nバトルドームの　ボス！\lわれらが　ドームスーパースター！\lヒースの　とうじょうだ！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant_hns:
-	.string "Spectators: TUCKER! TUCKER!\n"
-	.string "TUCKER! TUCKER! TUCKER!$"
+	.string "かんきゃく『ヒース！　ヒース！\nヒース！　ヒース！　ヒース！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro_hns:
-	.string "TUCKER: Ahahah!\p"
-	.string "Do you hear it? This crowd!\n"
-	.string "They're all itching to see our match!\p"
-	.string "Ahahah!\p"
-	.string "I bet you're twitching all over from\n"
-	.string "the tension of getting to battle me!\p"
-	.string "But don't you worry about a thing!\p"
-	.string "I'm the no. 1 star of the BATTLE DOME!\n"
-	.string "I, TUCKER the DOME ACE, will bathe you\l"
-	.string "in my brilliant glow!$"
+	.string "ヒース『あっはっは！\pきこえるかい？　この　かんせい！\nみんな　ぼくたちの　しょうぶを\lまちきれないんだ！\pあっはっは！\pぼくと　たたかえる\nきんちょうで　ふるえて\lいるんだろう！\pでも　しんぱい　いらない！\pぼくは　バトルドームの\nナンバーワンスター！\lドームスーパースター　ヒースが\lきみを　かがやきで\lつつんで　あげよう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy_hns:
-	.string "Your strategy!\n"
-	.string "Let's see it!$"
+	.string "きみの　せんりゃく！\nみせて　もらおう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer_hns:
-	.string "Unbelievable! It's incredible!\n"
-	.string "The victor is {PLAYER}!$"
+	.string "しんじられない！　すごい！\nしょうしゃは　{PLAYER}！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker_hns:
-	.string "The winner is TUCKER!\n"
-	.string "The DOME ACE has prevailed!\p"
-	.string "Congratulations, TUCKER!$"
+	.string "しょうしゃは　ヒース！\nドームスーパースターの\lかち！\pおめでとう　ヒース！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass_hns:
-	.string "TUCKER: Rules are rules!\n"
-	.string "Let me see your FRONTIER PASS.$"
+	.string "ヒース『きまりは　きまり！\nフロンティアパスを\lみせて　くれ$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol_hns:
-	.string "The Tactics Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "フロンティアパスに\nタクティクスシンボルが\lきざまれた！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime_hns:
-	.string "… … … … … …\p"
-	.string "I sorely underestimated you. I won't\n"
-	.string "make the same mistake next time…$"
+	.string "‥　‥　‥　‥　‥　‥\pきみを　みくびって　いたよ\nつぎは　おなじ　まちがいは\lしない‥$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched_hns:
-	.string "Can the win streak be stretched?\n"
-	.string "The confidence is there!$"
+	.string "れんしょうは　のびるのか？\nじしんは　じゅうぶん！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker_hns:
-	.string "Ladies and gentlemen!\n"
-	.string "Boys, girls, and POKéMON!\p"
-	.string "Finally!\n"
-	.string "Finally, the legend has returned!\p"
-	.string "Yes, the name of that legend!\n"
-	.string "Our very own DOME ACE!\l"
-	.string "It's none other than TUCKER!$"
+	.string "みなさま！\nおとこのこも　おんなのこも\lポケモンも！\pついに！\nついに　でんせつが\lかえって　きた！\pそう　その　でんせつの　なは！\nわれらが　ドームスーパースター！\lほかでも　ない　ヒースだ！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro_hns:
-	.string "TUCKER: Ah…\n"
-	.string "The pummeling roar of the crowd…\l"
-	.string "Their furnace-like heat of excitement…\l"
-	.string "This is a wonderful place…\p"
-	.string "To the crowd, I am the DOME ACE…\n"
-	.string "I represent their hopes and dreams…\l"
-	.string "I must never fade from their sight…\p"
-	.string "I must burn!\n"
-	.string "Brighter and more brilliant!\l"
-	.string "I must light all that gather here!$"
+	.string "ヒース『ああ‥\nとどろく　かんせい‥\lもえるような　ねっき‥\lすばらしい　ばしょだ‥\pかんきゃくに　とって　ぼくは\nドームスーパースター‥\lみんなの　ゆめと　きぼう‥\lけっして　きえては　ならない‥\pぼくは　もえる！\nもっと　あかるく　はなやかに！\lここに　あつまる　すべてを\lてらすんだ！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess_hns:
-	.string "I will unleash all the power that\n"
-	.string "I possess! Right here and now!$"
+	.string "ぼくの　もてる　ちからを\nすべて　ときはなとう！\lいま　ここで！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed_hns:
-	.string "TUCKER: You're genuinely fantastic!\p"
-	.string "Never before! I haven't ever lost in the\n"
-	.string "times I've had to unleash my power.\p"
-	.string "Yes, quite fantastic!\n"
-	.string "Your FRONTIER PASS, please?$"
+	.string "ヒース『きみは　ほんとうに\nすばらしい！\pちからを　ときはなって\nまけた　ことは　いちども\lなかったのに！\pそう　じつに　すばらしい！\nフロンティアパスを\lいいかな？$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine_hns:
-	.string "The Tactics Symbol took on\n"
-	.string "a golden shine!$"
+	.string "タクティクスシンボルが\nきんいろに　かがやいた！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter_hns:
-	.string "You're strong, but above all,\n"
-	.string "you have a unique charm!\p"
-	.string "In you, I see a definite potential for\n"
-	.string "a superstar like me.\p"
-	.string "I will very much look forward to\n"
-	.string "our next encounter!$"
+	.string "きみは　つよい　でも　それ\nいじょうに　ふしぎな\lみりょくが　ある！\pきみには　ぼくの　ような\nスーパースターの　そしつが\lある\pつぎに　あう　ひを\nたのしみに　しているよ！$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ_hns2_hns:
-	.string "{PLAYER} is the Level 50\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "{PLAYER}が　レベル50\nバトルトーナメントの\lチャンピオン　です！\pおめでとう！$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp_hns2_hns:
-	.string "{PLAYER} is the Open Level\n"
-	.string "Battle Tournament Champion!\p"
-	.string "Congratulations!$"
+	.string "{PLAYER}が　オープンレベル\nバトルトーナメントの\lチャンピオン　です！\pおめでとう！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker_hns:
-	.string "The final match!\p"
-	.string "{PLAYER} versus the DOME ACE, TUCKER!\p"
-	.string "Let the battle begin!$"
+	.string "けっしょう！\p{PLAYER}　たい　ドームスーパー\nスター　ヒース！\pしょうぶ　かいし！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker_hns:
-	.string "The REFEREES have reached\n"
-	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is our very own DOME ACE!\l"
-	.string "It's TUCKER!\p"
-	.string "Congratulations! And thank you!\n"
-	.string "Let's hear it for the DOME ACE, TUCKER!$"
+	.string "しんぱんの　はんていが\nでました！\pしょうしゃは‥\nなんと！\lしょうしゃは　われらが\lドームスーパースター！\lヒースだ！\pおめでとう！　そして\nありがとう！　ドームスーパー\lスター　ヒースに　はくしゅを！$"
