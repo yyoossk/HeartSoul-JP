@@ -198,139 +198,61 @@ BattleFrontier_Lounge3_EventScript_FaceOriginalDirection_hns::
 	end
 
 BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere_hns::
-	.string "…What's that you want?\p"
-	.string "Can't you see we're kind of busy here?\n"
-	.string "Can't your business wait till later?$"
+	.string "‥なんの　ようだ？\pいそがしいのが\nわからないのか？\lあとに　して　くれ$"
 
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling_hns::
-	.string "…Huh?\n"
-	.string "You look to me like a tough TRAINER.\p"
-	.string "Heheh…\n"
-	.string "Listen, I have this proposition.\p"
-	.string "We have a little group going here,\n"
-	.string "and we play a little game with what\l"
-	.string "goes on in the BATTLE FRONTIER.\p"
-	.string "The rules are really simple.\p"
-	.string "First, we pick one of the facilities\n"
-	.string "in the BATTLE FRONTIER.\p"
-	.string "Then, we each pick a different TRAINER\n"
-	.string "who's taking that facility's challenge,\l"
-	.string "and bet with our Battle Points.\p"
-	.string "The guy who bet on the TRAINER with\n"
-	.string "the best record takes all the Battle\l"
-	.string "Points in the pool.\p"
-	.string "Sounds simple, huh?\n"
-	.string "So, anyway…$"
+	.string "‥ん？\nおまえ　つよそうな\lトレーナー　だな\pへへへ‥\nいい　はなしが　あるんだ\pおれたちは　ここで　バトル\nフロンティアの　しょうぶを\lネタに　ちょっとした\lゲームを　してるんだ\pルールは　かんたんだ\pまず　バトルフロンティアの\nしせつを　ひとつ　えらぶ\pそれから　その　しせつに\nちょうせん　する　トレーナーを\lそれぞれ　えらんで\lバトルポイントを　かける\pいちばん　いい　きろくの\nトレーナーに　かけた　やつが\lバトルポイントを　ぜんぶ\lもらう\pかんたん　だろ？\nそれで　だ‥$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's SINGLE BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nタワーの　シングルバトルルームに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's DOUBLE BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nタワーの　ダブルバトルルームに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's MULTI BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nタワーの　マルチバトルルームに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "DOME's SINGLE BATTLE Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nドームの　シングルトーナメントに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "DOME's DOUBLE BATTLE Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nドームの　ダブルトーナメントに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "FACTORY's Battle Swap Single Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nファクトリーの　シングルの\lこうかんバトルに　でる\lトレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "FACTORY's Battle Swap Double Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nファクトリーの　ダブルの\lこうかんバトルに　でる\lトレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "PALACE's SINGLE BATTLE HALLS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nパレスの　シングルバトルホールに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "PALACE's DOUBLE BATTLE HALLS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nパレスの　ダブルバトルホールに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleArena_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "ARENA's Set KO Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nアリーナの　3たいけつ\lトーナメントに　でる\lトレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePike_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE PIKE's\l"
-	.string "Battle Choice.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nチューブの　みちえらびバトルに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid_hns::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "PYRAMID's Battle Quest.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+	.string "おれが　さがしてるのは　バトル\nピラミッドの　バトルクエストに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない$"
 
 BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe_hns::
-	.string "I'll see to it that you benefit, too.\n"
-	.string "So how about it?\l"
-	.string "How about entering that event for me?$"
+	.string "おまえにも　いい　おもいを\nさせて　やるよ　どうだ？\lおれの　かわりに\lでて　くれないか？$"
 
 BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints_hns::
-	.string "All right, that's perfect.\n"
-	.string "So, uh… How about spotting me some\l"
-	.string "of your Battle Points?\p"
-	.string "Trust me, I'll show you my gratitude\n"
-	.string "afterward.$"
+	.string "よし　ばっちりだ\nそれで‥　バトルポイントを\lすこし　かして　くれないか？\pあとで　ちゃんと\nおれいは　するから$"
 
 BattleFrontier_Lounge3_Text_HowMuchCanYouSpot_hns::
-	.string "Great, great!\n"
-	.string "So, how much can you spot me?$"
+	.string "いいね　いいね！\nで　いくら　かして\lくれる？$"
 
 BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints_hns::
-	.string "Oh, no, no, no!\n"
-	.string "You don't have enough Battle Points!\p"
-	.string "I wish you wouldn't monkey around and\n"
-	.string "waste everyone's time!$"
+	.string "おいおい　だめだ！\nバトルポイントが\lたりないぞ！\pふざけて　みんなの　じかんを\nむだに　しないで　くれ！$"
 
 BattleFrontier_Lounge3_Text_ThanksOffYouGo_hns::
-	.string "Heheh! Thanks much!\n"
-	.string "So, off you go!$"
+	.string "へへっ！　ありがとよ！\nさあ　いって　こい！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle_hns::
 	.string "Get to the BATTLE TOWER's\n"

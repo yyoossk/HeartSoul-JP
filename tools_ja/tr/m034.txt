@@ -1,0 +1,123 @@
+## data/maps/BattleFrontier_ExchangeServiceCorner_hns/scripts.inc
+@@BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize_hns
+こちらは　こうかん\nサービスカウンター　です\pあつめた　バトルポイントを\nすてきな　しょうひんと\lこうかん　いたします\pこちらの　リストから\nおえらび　ください
+@@BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls_hns
+わあ　すてき！\nほしいなあ！\lかわいい　クッション！\lおおきな　ぬいぐるみ！\lちいさな　ぬいぐるみ！\lぜんぶ　ほしい！
+@@BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant_hns
+ママに　まかせなさい！\pほしい　ものなら　なんだって\nてに　いれて　あげるわ！
+@@BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher_hns
+ここの　どうぐが　てに\nはいれば　ポケモンが\lもっと　つよく　なる\pまちがい　ない！\nそうに　きまってる！
+@@BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll_hns
+はあ？\nなに　じろじろ　みてるの？\pわたしの　ぬいぐるみを\nそんなに　みないで\pほしいなら　じぶんで\nもらって　きなさい！\lね　ムチュール？
+@@BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord_hns
+しってた？\pどの　バトルしせつでも\nれんしょうを　のばすと\lもらえる　バトルポイントが\lどんどん　ふえるのよ
+## data/maps/BattleFrontier_Lounge2_hns/scripts.inc
+@@BattleFrontier_Lounge2_Text_FrontierManiacIntro_hns
+よう！　バトルフロンティアの\nニュースなら　おれが\lナンバーワン！\pフロンティアマニアと\nよんで　くれ\pいちおう　きくけど\nきみ　トレーナー　だよな？\pバトルフロンティアの\nさいしん　じょうほうを\lおしえて　あげるよ
+@@BattleFrontier_Lounge2_Text_SwingByForTheLatestWord_hns
+よう！　さいしん　じょうほうを\nききに　きたのかい？\lよし　いいぞ！
+@@BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight_hns
+どう？　どう？　どう？\pおれの　じょうほう\nすごく　やくに　たった\lだろ？
+@@BattleFrontier_Lounge2_Text_FacilityIsHottest_hns
+えーと‥\pいま　いちばん　あついのは\n{STR_VAR_1}　らしいぞ
+@@BattleFrontier_Lounge2_Text_BattleTowerIsHottest_hns
+えーと‥\pいま　いちばん　あついのは\nバトルタワーの\l{STR_VAR_1}　らしいぞ
+@@BattleFrontier_Lounge2_Text_SalonMaidenIsThere_hns
+しらなかった　だろ！\pそこには　エニシダさんが\nフロンティアブレーンと　よぶ\lトップトレーナーが　いるんだ\pサロンメイデンと　いう\nなぞの　トレーナーが\lとりしきってるんだ
+@@BattleFrontier_Lounge2_Text_SalonMaidenSilverMons_hns
+サロンメイデンと\nたたかった　ことある？\pあいての　じつりょくを\nはかる　ときは\lこんな　ポケモンを\lつかう　らしい\pエスパータイプの　ねんりき\nポケモン　ほのおタイプの\lかざんポケモン　そして\lノーマルタイプの\lいねむりポケモン
+@@BattleFrontier_Lounge2_Text_SalonMaidenGoldMons_hns
+ほんきの　サロンメイデンと\nたたかった　ことある？\pぜんりょくの　ときは\nこんな　ポケモンを\lつかう　らしい\pドラゴンと　エスパーの\nむげんポケモン　でんきタイプの\lいかずちポケモン　そして\lノーマルタイプの\lいねむりポケモン
+@@BattleFrontier_Lounge2_Text_DomeAceIsThere_hns
+しらなかった　だろ！\pそこには　エニシダさんが\nフロンティアブレーンと　よぶ\lトップトレーナーが　いるんだ\pドームスーパースターと　いう\nはなやかな　トレーナーが\lとりしきってるんだ
+@@BattleFrontier_Lounge2_Text_DomeAceSilverMons_hns
+ドームスーパースターと\nたたかった　ことある？\pあいてを　かるく　みてる\nときは　この　3びきを\lつかう\pドラゴンと　ひこうの\nドラゴンポケモン　みずと\lじめんの　ぬまうおポケモン\lほのおと　ひこうの\lかえんポケモン
+@@BattleFrontier_Lounge2_Text_DomeAceGoldMons_hns
+ほんきの　ドームスーパースターと\nたたかった　ことある？\pせんりゃくを　みせる　ときは\nこの　3びきを　つかう\pドラゴンと　ひこうの\nむげんポケモン　みずと\lじめんの　ぬまうおポケモン\lはがねと　エスパーの\lてつあしポケモン
+@@BattleFrontier_Lounge2_Text_FactoryHeadIsThere_hns
+しらなかった　だろ！\pそこには　エニシダさんが\nフロンティアブレーンと　よぶ\lトップトレーナーが　いるんだ\pファクトリーヘッドと　いう\nかわった　トレーナーが\lとりしきってるんだ
+@@BattleFrontier_Lounge2_Text_FactoryHeadSilverMons_hns
+ファクトリーヘッドと\nもう　たたかった？\pえーと‥　しょうぶの　ときは\nレンタルポケモンを\l3びき　つかうだけ\pきみと　ほとんど　おなじ\nじょうけんで　たたかうんだ
+@@BattleFrontier_Lounge2_Text_FactoryHeadGoldMons_hns
+ほんきの　ファクトリーヘッドと\nたたかった　ことある？\pほんきの　ときも\nレンタルポケモンを\l3びき　つかうんだ\pきみと　ほとんど　おなじ\nじょうけんで　たたかうんだ
+@@BattleFrontier_Lounge2_Text_PikeQueenIsThere_hns
+しらなかった　だろ！\pそこには　エニシダさんが\nフロンティアブレーンと　よぶ\lトップトレーナーが　いるんだ\pチューブクイーンと　いう\nこわい　トレーナーが\lとりしきってるんだ
+@@BattleFrontier_Lounge2_Text_PikeQueenSilverMons_hns
+チューブクイーンと\nたたかった　ことある？\pきげんが　いい　ときは\nこの　3びきを　つかう\lらしい\pどくタイプの　きばへび\nポケモン　むしと　いわの\lかびポケモン　みずタイプの\lいつくしみポケモン
+@@BattleFrontier_Lounge2_Text_PikeQueenGoldMons_hns
+ほんきの　チューブクイーンと\nたたかった　ことある？\pほんきで　おこった　ときは\nこの　3びきを　つかう\lらしい\pどくタイプの　きばへび\nポケモン　はがねと　じめんの\lてつへびポケモン　みずと\lひこうの　きょうあくポケモン
+@@BattleFrontier_Lounge2_Text_ArenaTycoonIsThere_hns
+しらなかった　だろ！\pそこには　エニシダさんが\nフロンティアブレーンと　よぶ\lトップトレーナーが　いるんだ\pアリーナキャプテンと　いう\nかわいい　トレーナーが\lとりしきってるんだ
+@@BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons_hns
+アリーナキャプテンと\nたたかった　ことある？\pあいての　じつりょくを\nみる　ときは　こんな\lポケモンを　つかう　らしい\pむしと　かくとうの\n1ぽんヅノポケモン　あくタイプの\lげっこうポケモン　むしと\lゴーストの　ぬけがらポケモン
+@@BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons_hns
+ほんきの　アリーナキャプテンと\nたたかった　ことある？\pほんきの　ときは\nこんな　ポケモンを\lつかう　らしい\pあくタイプの　げっこう\nポケモン　ゴーストと　どくの\lシャドーポケモン　くさと\lかくとうの　キノコポケモン
+@@BattleFrontier_Lounge2_Text_PalaceMavenIsThere_hns
+しらなかった　だろ！\pそこには　エニシダさんが\nフロンティアブレーンと　よぶ\lトップトレーナーが　いるんだ\pパレスガーディアンと　いう\nあやしい　トレーナーが\lとりしきってるんだ
+@@BattleFrontier_Lounge2_Text_PalaceMavenSilverMons_hns
+パレスガーディアンと\nたたかった　ことある？\pあいての　こころを　ためす\nときは　こんな　ポケモンを\lつかう　らしい\pどくと　ひこうの\nこうもりポケモン　ノーマルの\lなまけものポケモン　みずと\lこおりの　のりものポケモン
+@@BattleFrontier_Lounge2_Text_PalaceMavenGoldMons_hns
+ほんきの　パレスガーディアンと\nたたかった　ことある？\pぜんりょくの　ときは\nこんな　ポケモンを\lつかう　らしい\pほのおタイプの　でんせつ\nポケモン　ノーマルの\lなまけものポケモン\lみずタイプの\lオーロラポケモン
+@@BattleFrontier_Lounge2_Text_PyramidKingIsThere_hns
+しらなかった　だろ！\pそこには　エニシダさんが\nフロンティアブレーンと　よぶ\lトップトレーナーが　いるんだ\pピラミッドキングと　いう\nあつい　トレーナーが\lとりしきってるんだ
+@@BattleFrontier_Lounge2_Text_PyramidKingSilverMons_hns
+ピラミッドキングと\nたたかった　ことある？\pあいての　ちからを　みる\nときは　こんな　ポケモンを\lつかう　らしい\pいわタイプの　いわやま\nポケモン　こおりタイプの\lひょうざんポケモン\lはがねタイプの\lくろがねポケモン
+@@BattleFrontier_Lounge2_Text_PyramidKingGoldMons_hns
+ほんきの　ピラミッドキングと\nたたかった　ことある？\pあつく　もえてる　ときは\nこんな　ポケモンを\lつかう　らしい\pこおりと　ひこうの　れいとう\nポケモン　でんきと　ひこうの\lでんげきポケモン　ほのおと\lひこうの　かえんポケモン
+@@BattleFrontier_Lounge2_Text_DoubleBattleAdvice1_hns
+ダブルバトルが　できる\nばしょは　いくつか　あるけど\pバトルタワーの　ダブルバトル\nルームが　きほん　なんだ！\pバトルフロンティアの\nダブルバトルは　まず\lそこで　まなぶと　いいよ
+@@BattleFrontier_Lounge2_Text_DoubleBattleAdvice2_hns
+ここの　しょうぶは\nきを　つけてね\pダブルバトル　せんようの\nさくせんを　もつ\lトレーナーも　いるらしい
+@@BattleFrontier_Lounge2_Text_DoubleBattleAdvice3_hns
+ここの　ダブルバトルに\nなれて　じしんが　ついたら\lほかの　ダブルバトルにも\lちょうせん　して　みなよ
+@@BattleFrontier_Lounge2_Text_MultiBattleAdvice_hns
+バトルサロンには　いろんな\nトレーナーが　あつまる\pともだちや　ファンに\nあえるかも！\lよく　さがして　みなよ！
+@@BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice_hns
+ともだちと　いっしょなら\nつうしんマルチバトルルームへ\pつよい　ともだちと　くめば\nてごわい　あいてが\lでて　くるぞ！
+@@BattleFrontier_Lounge2_Text_NewsGatheringPower_hns
+なんて　しゅざいりょく！\nししょうは　さすがだ！
+@@BattleFrontier_Lounge2_Text_AmazingPowersOfObservation_hns
+なんて　かんさつりょく！\nししょうは　さすがだ！
+@@BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion_hns
+なんて　せっとくりょく！\nししょうは　さすがだ！
+@@BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe_hns
+‥ここ　なんなの？\nこわい‥
+## data/maps/BattleFrontier_Lounge3_hns/scripts.inc
+@@BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere_hns
+‥なんの　ようだ？\pいそがしいのが\nわからないのか？\lあとに　して　くれ
+@@BattleFrontier_Lounge3_Text_YouLookToughExplainGambling_hns
+‥ん？\nおまえ　つよそうな\lトレーナー　だな\pへへへ‥\nいい　はなしが　あるんだ\pおれたちは　ここで　バトル\nフロンティアの　しょうぶを\lネタに　ちょっとした\lゲームを　してるんだ\pルールは　かんたんだ\pまず　バトルフロンティアの\nしせつを　ひとつ　えらぶ\pそれから　その　しせつに\nちょうせん　する　トレーナーを\lそれぞれ　えらんで\lバトルポイントを　かける\pいちばん　いい　きろくの\nトレーナーに　かけた　やつが\lバトルポイントを　ぜんぶ\lもらう\pかんたん　だろ？\nそれで　だ‥
+@@BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle_hns
+おれが　さがしてるのは　バトル\nタワーの　シングルバトルルームに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble_hns
+おれが　さがしてるのは　バトル\nタワーの　ダブルバトルルームに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti_hns
+おれが　さがしてるのは　バトル\nタワーの　マルチバトルルームに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle_hns
+おれが　さがしてるのは　バトル\nドームの　シングルトーナメントに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble_hns
+おれが　さがしてるのは　バトル\nドームの　ダブルトーナメントに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle_hns
+おれが　さがしてるのは　バトル\nファクトリーの　シングルの\lこうかんバトルに　でる\lトレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble_hns
+おれが　さがしてるのは　バトル\nファクトリーの　ダブルの\lこうかんバトルに　でる\lトレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle_hns
+おれが　さがしてるのは　バトル\nパレスの　シングルバトルホールに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble_hns
+おれが　さがしてるのは　バトル\nパレスの　ダブルバトルホールに\lちょうせん　する　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattleArena_hns
+おれが　さがしてるのは　バトル\nアリーナの　3たいけつ\lトーナメントに　でる\lトレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePike_hns
+おれが　さがしてるのは　バトル\nチューブの　みちえらびバトルに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_ChallengeBattlePyramid_hns
+おれが　さがしてるのは　バトル\nピラミッドの　バトルクエストに\lでる　トレーナーだ\pでも　まだ　かてそうな\nトレーナーが　みつからない
+@@BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe_hns
+おまえにも　いい　おもいを\nさせて　やるよ　どうだ？\lおれの　かわりに\lでて　くれないか？
+@@BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints_hns
+よし　ばっちりだ\nそれで‥　バトルポイントを\lすこし　かして　くれないか？\pあとで　ちゃんと\nおれいは　するから
+@@BattleFrontier_Lounge3_Text_HowMuchCanYouSpot_hns
+いいね　いいね！\nで　いくら　かして\lくれる？
+@@BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints_hns
+おいおい　だめだ！\nバトルポイントが\lたりないぞ！\pふざけて　みんなの　じかんを\nむだに　しないで　くれ！
+@@BattleFrontier_Lounge3_Text_ThanksOffYouGo_hns
+へへっ！　ありがとよ！\nさあ　いって　こい！
