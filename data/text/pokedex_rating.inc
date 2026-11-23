@@ -1,20 +1,14 @@
 gBirchDexRatingText_AreYouCurious::
-	.string "PROF. BIRCH: Ah, {PLAYER}{KUN}!\p"
-	.string "Are you curious about how your\n"
-	.string "POKéDEX is coming along?$"
+	.string "オダマキ『おお　{PLAYER}{KUN}！\pずかんの　ようすが\nきに　なるのかい？$"
 
 gBirchDexRatingText_Cancel::
-	.string "Hm? Oh, you haven't caught enough\n"
-	.string "POKéMON to make it worthwhile.$"
+	.string "うん？　まだ　あまり\nポケモンを　つかまえて\lいない　ようだね$"
 
 gBirchDexRatingText_SoYouveSeenAndCaught::
-	.string "Hmhm…\p"
-	.string "So, you've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+	.string "ふむふむ‥\pみつけた　ポケモンが\n{STR_VAR_1}ひき\lつかまえた　ポケモンが\l{STR_VAR_2}ひき　だね‥$"
 
 gBirchDexRatingText_LessThan10::
-	.string "Go into grassy areas more and look\n"
-	.string "for POKéMON more carefully.$"
+	.string "くさむらに　もっと　はいって\nよく　さがして　ごらん$"
 
 gBirchDexRatingText_LessThan20::
 	.string "I guess you're getting the hang\n"

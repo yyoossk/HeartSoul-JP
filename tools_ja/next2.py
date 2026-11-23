@@ -12,6 +12,7 @@ c=0;last=None;tot=rem=0
 for rel in [l for l in open('/home/claude/work/common_order.txt').read().split('\n') if l]:
     for lab in used.get(rel,[]):
         s=d[rel][lab]; tot+=len(s)
+        if not s.endswith('$'): continue
         if (rel,lab) in done or not re.search(r'[A-Za-z]{2}',re.sub(r'\{[^}]*\}','',s)): continue
         rem+=len(s)
         if c>maxc: continue

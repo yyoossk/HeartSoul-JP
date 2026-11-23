@@ -1,0 +1,268 @@
+## data/scripts/contest_hall.inc
+@@LilycoveCity_ContestLobby_Text_ContestReception
+こんにちは！\pこちらは　ポケモンコンテストの\nうけつけ　です
+@@LilycoveCity_ContestLobby_Text_EnterContest1
+ポケモンを　コンテストに\nだしますか？
+@@LilycoveCity_ContestLobby_Text_WhichTopic1
+なにに　ついて\nききたい　ですか？
+@@LilycoveCity_ContestLobby_Text_ExplainContests
+ポケモンコンテストは\n4にんの　トレーナーが\lポケモンを　1ぴきずつ　だして\lしんさで　きそいあう　ものです\pしんさは　1じしんさと\n2じしんさの　2だんかい　です\p1じしんさは　かんきゃくの\nにんき　とうひょう　です\p2じしんさは　ポケモンが\nわざで　アピールします\pよく　かんがえて　アピールし\nしんさいんの　ちゅうもくを\lあつめ　かんきゃくを\lもりあげましょう\pさいごに　1じと　2じの\nてんすうを　あわせます\pいちばん　てんすうの　たかい\nポケモンが　ゆうしょう　です
+@@LilycoveCity_ContestLobby_Text_ExplainContestTypes
+コンテストは　5しゅるい\nあります\pかっこよさ　うつくしさ\nかわいさ　かしこさ\lたくましさ　の　5つ　です\pだす　ポケモンに　あった\nコンテストを　えらんで\lください
+@@LilycoveCity_ContestLobby_Text_ExplainContestRanks
+ポケモンコンテストには\n4つの　ランクが　あります\pノーマル　スーパー　ハイパー\nマスター　の　4つ　です\pノーマルランクには\nどの　ポケモンでも\lでられます\pノーマルランクで　ゆうしょう\nした　ポケモンは　おなじ\lぶもんの　スーパーランクに\lすすめます\pおなじように　スーパーランクの\nゆうしょうで　ハイパーランクへ\lハイパーランクの　ゆうしょうで\lマスターランクへ　すすめます\pマスターランクで　ゆうしょう\nした　ポケモンは　なんどでも\lマスターランクに　でられます
+@@LilycoveCity_ContestLobby_Text_EnterWhichRank
+どの　ランクに\nでますか？
+@@LilycoveCity_ContestLobby_Text_EnterWhichContest1
+どの　コンテストに\nでますか？
+@@LilycoveCity_ContestLobby_Text_EnterWhichPokemon1
+どの　ポケモンを\nだしますか？
+@@LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank
+もうしわけ　ございませんが\nあなたの　ポケモンは\lまだ　この　ランクには\lでられません‥
+@@LilycoveCity_ContestLobby_Text_EggCannotTakePart
+もうしわけ　ございませんが\nタマゴは　ポケモンコンテストに\lでられません
+@@LilycoveCity_ContestLobby_Text_MonInNoConditionForContest
+あなたの　ポケモンは\nコンテストに　でられる\lじょうたいでは　ない\lようです‥
+@@LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway
+あら　その　リボンは‥\pこの　コンテストで　まえに\nゆうしょう　して　いますね？\pそれでも　この　コンテストに\nでますか？
+@@LilycoveCity_ContestLobby_Text_ConfirmContestMon
+コンテストに　だすのは\nその　ポケモンで　よろしい\lですか？
+@@LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4
+では　あなたの　ポケモンを\nこの　コンテストに\lエントリー　します\pあなたの　ポケモンは\nエントリーナンバー4　です\lまもなく　はじまります
+@@LilycoveCity_ContestLobby_Text_ComeThroughHere
+こちらから　おはいり\nください　がんばって！
+@@LilycoveCity_ContestLobby_Text_PokemonWonWeHavePrize
+おめでとう　ございます！\nあなたの　ポケモンが\lゆうしょう　です！\pしょうひんを　ごよういして\nあります　こちらへ　どうぞ！
+@@LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater
+しょうひんは　あとで\nうけとりに　きて　ください
+@@ContestHall_Text_GettingStartedParticipantsAsFollows
+しかい『こんにちは！　ただいまより\n{STR_VAR_3}ランク　ポケモン\l{STR_VAR_2}を　はじめます！\pさんか　する　トレーナーと\nポケモンは　こちら　です！
+@@ContestHall_Text_GettingStartedParticipantsAsFollowsLink
+しかい『こんにちは！　ただいまより\n4にん　つうしん　ポケモン\l{STR_VAR_2}を　はじめます！\pさんか　する　トレーナーと\nポケモンは　こちら　です！
+@@ContestHall_Text_EntryXTrainersMon
+しかい『エントリーナンバー{STR_VAR_2}！\n{STR_VAR_1}の　{STR_VAR_3}！
+@@ContestHall_Text_SeenContestantsAudienceWillVote
+しかい『4ひきの　ポケモンが\nでそろいました！\pそれでは　1じしんさ　です！\pかんきゃくの　みなさんに\nすきな　ポケモンに\lとうひょう　して　もらいます\pさっそく　とうひょう\nかいし！
+@@ContestHall_Text_VotingUnderWay
+とうひょうちゅう‥
+@@ContestHall_Text_VotingCompleteLetsAppeal
+とうひょう　しゅうりょう！\pしゅうけいの　あいだに\n2じしんさに　うつります！\p2じしんさは　おまちかねの\nアピールタイム！\pすばらしい　わざの　アピールで\nわたしたちを　おどろかせて\lください！\pさあ　もりあがって　いきましょう！\nアピール　かいし！
+@@ContestHall_Text_ThatsItForJudging
+しかい『しんさは　ここまで！
+@@ContestHall_Text_ThankYouForAppeals
+みなさん　すばらしい\nアピールを　ありがとう\lございました！\pこれで　すべての　しんさが\nおわりました！\lおつかれさまでした！
+@@ContestHall_Text_JudgeLooksReady
+のこるは　どきどきの\nゆうしょうしゃ　はっぴょう　です\pしんさいんの　じゅんびが\nととのった　ようです！
+@@ContestHall_Text_WeWillNowDeclareWinner
+しんさいん『それでは\nゆうしょうしゃを　はっぴょう\lします！
+@@ContestHall_Text_CongratsTrainerXandMon
+しかい『エントリーナンバー{STR_VAR_2}！\p{STR_VAR_3}と　{STR_VAR_1}\nおめでとう　ございます！
+@@ContestHall_Text_CongratsPleaseCompeteAgain
+しかい『おめでとう　ございます！\nまた　さんか　して　ください！
+@@ContestHall_Text_AcceptYourPrize
+しかい『どうぞ！\nしょうひんを　おうけとり\lください！
+@@ContestHall_Text_ConferRibbonAsPrize
+しょうひんとして　この\nリボンを　おくります！
+@@ContestHall_Text_ReceivedRibbon
+{PLAYER}は\nリボンを　もらった！
+@@ContestHall_Text_PutRibbonOnMon
+{PLAYER}は　{STR_VAR_1}に\nリボンを　つけた
+@@ContestHall_Text_PickUpPrizeAtCounterLater
+しょうひんは　あとで\nうけつけで　うけとって\lください　また　さんか\lして　くださいね！
+@@LilycoveCity_ContestLobby_Text_ProgressWillBeSaved
+コンテストに　でる　まえに\nレポートを　かきます
+@@LilycoveCity_ContestLobby_Text_ParticipateAnotherTime
+また　の　さんかを\nおまち　しています
+@@LilycoveCity_ContestLobby_Text_Transmitting
+つうしんちゅう‥
+@@LilycoveCity_ContestLobby_Text_TransmissionError
+つうしんエラー‥
+@@LilycoveCity_ContestLobby_Text_PlayersChoseDifferentContest
+ほかの　プレイヤーと\nちがう　コンテストを\lえらんだ　かも　しれません
+@@LilycoveCity_ContestLobby_Text_PlayersMadeDifferentChoice
+ほかの　プレイヤーと\nちがう　ものを\lえらんだ　かも　しれません
+@@LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel
+しょうしょう　おまちください\n‥　‥　Bボタン:キャンセル
+@@LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX
+あなたの　ポケモンを\nコンテストに　エントリー\lします\pあなたの　ポケモンは\nエントリーナンバー{STR_VAR_2}　です
+@@LilycoveCity_ContestLobby_Text_ContestBeginShortly
+まもなく　コンテストが\nはじまります
+@@LilycoveCity_ContestLobby_Text_LinkContestReception
+いらっしゃいませ！　こちらは\nポケモンコンテストの\lつうしん　うけつけ　です\pともだちと　いっしょに\nコンテストに　でられます
+@@LilycoveCity_ContestLobby_Text_WhichTopic2
+なにに　ついて\nききたい　ですか？
+@@LilycoveCity_ContestLobby_Text_EnterContest3
+コンテストに\nでますか？
+@@LilycoveCity_ContestLobby_Text_EnterWhichContest3
+どの　コンテストに\nでますか？
+@@LilycoveCity_ContestLobby_Text_MonInNoCondition2
+あなたの　ポケモンは\nコンテストに　でられる\lじょうたいでは　ない\lようです‥
+@@LilycoveCity_ContestLobby_Text_EggCannotTakePart2
+もうしわけ　ございませんが\nタマゴは　ポケモンコンテストに\lでられません
+@@LilycoveCity_ContestLobby_Text_EnterWhichPokemon3
+どの　ポケモンを\nだしますか？
+@@LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader
+だれが　リーダーに　なるか\nきめて　ください\pほかの　ひとは\n『グループに　はいる』を\lえらんで　ください
+@@LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode
+4にん　うけつけで　エントリー\nした　プレイヤーが　います\pGBA　つうしんケーブルで\n4にん　つないで　ください\p4にんの　じゅんびが　できたら\nGモード　グローバルモードを\lえらんで　もういちど\lエントリー　して　ください
+@@LilycoveCity_ContestLobby_Text_ExplainLinkContest
+これは　ワイヤレスアダプタか\nGBA　つうしんケーブルで\lつないだ　2にんから　4にんの\lコンテスト　です\pまず　さんか　する\nモードを　えらんで　もらいます\pモードは　2しゅるい　あります\pEモード　エメラルドモードは\nみんな　エメラルドを　もった\l2にんから　4にん　むけ　です\pGモード　グローバルモードは\nエメラルドか　ルビー\lサファイアを　もった\l4にん　せんよう　です\pみんなで　はなしあって\nおなじ　モードを\lえらんで　ください\pみんなが　おなじ　モードで\nおなじ　コンテストを　えらぶと\lエントリー　かんりょう　です\pその　あとは　いつもどおり\nコンテストが　はじまります
+@@LilycoveCity_ContestLobby_Text_ExplainEMode
+Eモード　エメラルドモードは\n2にんから　4にんで\lつうしんコンテストが　できます\lみんな　ポケットモンスター\lエメラルドが　ひつよう　です\pワイヤレスアダプタか\nGBA　つうしんケーブルで\lつないで　ください\p4にん　いない　ときは\nかいじょうの　トレーナーが\lさんかして　4にんに　します\pEモードは　ルビー\nサファイアでは　つかえません
+@@LilycoveCity_ContestLobby_Text_ExplainGMode
+Gモード　グローバルモードは\nGBA　つうしんケーブルで\lつないだ　4にん　せんよう\lです\pみんな　エメラルドか\nルビー　サファイアが\lひつよう　です\pみんなが　Gモードを　えらぶか\n4にん　うけつけから\lエントリー　すると\lコンテストが　はじまります
+@@LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode
+もうしわけ　ございません\pGモードは　ワイヤレス\nアダプタでは　つかえません\pEモードを　えらぶか\nGBA　つうしんケーブルで\lやりなおして　ください
+@@LilycoveCity_ContestLobby_Text_WhichContestMode
+どの　コンテストモードに\nでますか？
+@@ContestHall_Text_GettingStartedWireless
+しかい『こんにちは！　ただいまより\n4にん　つうしん　ポケモン\l{STR_VAR_2}を　はじめます！
+@@ContestHall_Text_ParticipantsAsFollows
+さんか　する　トレーナーと\nポケモンは　こちら　です！
+@@ContestHall_Text_WeveSeenContestants
+しかい『4ひきの　ポケモンが\nでそろいました！\pそれでは　1じしんさ　です！
+@@ContestHall_Text_AudienceWillVote
+かんきゃくの　みなさんに\nすきな　ポケモンに\lとうひょう　して　もらいます
+@@ContestHall_Text_LetVotingBegin
+さっそく\nとうひょう　かいし！
+@@ContestHall_Text_VotingComplete
+とうひょう　しゅうりょう！\pしゅうけいの　あいだに\n2じしんさに　うつります！
+@@ContestHall_Text_SecondStageOfJudging
+2じしんさは　おまちかねの\nアピールタイム！\pすばらしい　わざの　アピールで\nわたしたちを　おどろかせて\lください！
+@@ContestHall_Text_LetsAppeal
+さあ　もりあがって\nいきましょう！\lアピール　かいし！
+## data/scripts/berry_blender.inc
+@@BerryBlender_Text_WantToMakePokeblocks
+おや？　この　としよりと\n{POKEBLOCK}を　つくりたいのかね？
+@@BerryBlender_Text_Excellent
+けっこう　けっこう！
+@@BerryBlender_Text_MadeOldTimerSad
+そうか‥\nとしよりは　さびしいのう‥
+@@BerryBlender_Text_KnowHowToMakePokeblocks
+{POKEBLOCK}の　つくりかたは\nしって　おるかね？
+@@BerryBlender_Text_LetsBerryBlender
+では　はじめようか！\pきのみブレンダー\nスタート！
+@@BerryBlender_Text_ExplainBerryBlending
+では　すこし　せつめい\nしようかの\pなに　かんたんじゃ\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすだけじゃ\pそれだけ　じゃよ\nやって　みれば　わかる
+@@BerryBlender_Text_DontHaveAnyBerries
+おや？\nきのみを　もって\lおらんのか？\pきのみが　ないと\n{POKEBLOCK}は　つくれんぞ
+@@BerryBlender_Text_CanHaveOneOfMyBerries
+それでは　こまるのう\pあまりもので　よければ\nわしの　きのみを\l1こ　あげよう\pそれで　いっしょに　きのみ\nブレンダーで　{POKEBLOCK}を\lつくろう
+@@BerryBlender_Text_DontHaveAnyBerriesToSpare
+あまって　おれば\nよろこんで　あげるんじゃが‥\pきょうは　あまりが　なくてな\nまた　こんどに　しよう
+@@BerryBlender_Text_PokeblockCaseIsFull
+じゃが　{POKEBLOCK}ケースが\nいっぱい　じゃな\p{POKEBLOCK}を　つかってから\nまた　おいで
+@@BerryBlender_Text_DontHavePokeblockCase
+じゃが　{POKEBLOCK}ケースを\nもって　おらんな\p{POKEBLOCK}ケースを　てに\nいれてから　おいで
+@@BerryBlender_Text_LetsGetBlendingAlready
+はやく　ブレンド\nしようよ！
+@@BerryBlender_Text_WhatKindOfPokeblockWillIGet
+どんな　{POKEBLOCK}が\nできるかな？\lわくわく　する！
+@@BerryBlender_Text_WantToBlendPokeblocksWithUs
+やあ！　いっしょに\n{POKEBLOCK}を　つくる？
+@@BerryBlender_Text_Okay
+よーし！
+@@BerryBlender_Text_ThatsTooBad
+ざんねん‥\pでも　ぼくたちは　いつでも\nここに　いるから　つくりたく\lなったら　おいでよ！
+@@BerryBlender_Text_KnowHowToMakePokeblocks2
+もちろん　{POKEBLOCK}の\nつくりかたは　しってるよね？
+@@BerryBlender_Text_LetsBerryBlender2
+じゃあ　はじめよう！\pきのみブレンダー\nスタート！
+@@BerryBlender_Text_ExplainBerryBlending2
+わかった！\nせつめい　するね！\pまわる　ブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすんだ\pそれだけ！\nかんたん　でしょ？
+@@BerryBlender_Text_DontHaveAnyBerries2
+あれ　ちょっと　まって‥\nきのみを　もって　ないね\pきのみが　ないと\n{POKEBLOCK}は　つくれないよ‥\pきのみを　てに　いれたら\nいつでも　おいでよ
+@@BerryBlender_Text_PokeblockCaseIsFull2
+あれ　ちょっと　まって‥\n{POKEBLOCK}ケースが　いっぱいだ\p{POKEBLOCK}を　つかってから\nまた　おいでよ
+@@BerryBlender_Text_DontHavePokeblockCase2
+あれ　ちょっと　まって‥\n{POKEBLOCK}ケースを　もって\lないね\p{POKEBLOCK}ケースを　てに\nいれてから　おいでよ
+@@BerryBlender_Text_OhDear
+あらまあ！
+@@BerryBlender_Text_LeftUsInShock
+あらまあ‥\pびっくり　させないでよ！
+@@BerryBlender_Text_KnowHowToMakePokeblocks3
+もちろん　{POKEBLOCK}の\nつくりかたは　しってるわよね？
+@@BerryBlender_Text_LetsBerryBlender3
+いいわよ！\nはじめましょう！\pきのみブレンダー\nスタート！
+@@BerryBlender_Text_ExplainBerryBlending3
+あらまあ！\pじゃあ　やさしく\nせつめい　するわね\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすの\pそれだけ\nかんたん　でしょ？
+@@BerryBlender_Text_DontHaveAnyBerries3
+きのみを　もって\nいないのね？\pきのみが　ないと\n{POKEBLOCK}は　つくれないわ\pわたしたちは　いつも　ここで\nつくってるから　きのみを\lてに　いれたら　いっしょに\lつくりましょう
+@@BerryBlender_Text_PokeblockCaseIsFull3
+{POKEBLOCK}ケースが\nいっぱい　みたいね\p{POKEBLOCK}を　つかってから\nまた　きてね
+@@BerryBlender_Text_DontHavePokeblockCase3
+まだ　{POKEBLOCK}ケースを\nもって　いない　みたいね\p{POKEBLOCK}ケースを　てに\nいれてから　きてね
+@@BerryBlender_Text_SetNewBlenderRecord
+よし！　きょうこそ\nブレンダーの　さいこうそくど\lきろくを　だすぞ！
+@@BerryBlender_Text_LookGoodAtBlendingJoinUs
+あらまあ！\nブレンドが　じょうず\lそうね　いっしょに\lやらない？
+@@BerryBlender_Text_MakeDeliciousPokeblocks
+おいしい　{POKEBLOCK}を　つくって\nポケモンを　もっと\lかわいく　するの
+@@BerryBlender_Text_SaveGameBeforeBerryBlenderLink
+きのみブレンダーで　ともだちと\nきのみから　{POKEBLOCK}を\lつくります\pともだちと　つうしん　する\nまえに　レポートを\lかいても　いいですか？
+@@BerryBlender_Text_SearchingForFriends
+ともだちを　さがして　います‥\n‥　‥　Bボタン:キャンセル
+@@BerryBlender_Text_Player1Arrived
+{STR_VAR_1}が　きました
+@@BerryBlender_Text_Player1And2Arrived
+{STR_VAR_1}と　{STR_VAR_2}が\nきました
+@@BerryBlender_Text_AllPlayersArrived
+{STR_VAR_1}と　{STR_VAR_2}と\n{STR_VAR_3}が　きました
+@@BerryBlender_Text_NoBerriesLink
+きのみを　もって　いません\nきのみブレンダーは\lつかえません
+@@BerryBlender_Text_PokeblockCaseIsFullLink
+{POKEBLOCK}ケースが　いっぱいです\nきのみブレンダーは\lつかえません
+@@BerryBlender_Text_DontHavePokeblockCaseLink
+{POKEBLOCK}ケースを　もって\nいません　きのみブレンダーは\lつかえません
+@@BerryBlender_Text_LoveMakingPokeblocks
+{POKEBLOCK}を　つくるのが\nだいすき\pいつも　きのみを\nもちあるいてるの
+@@BerryBlender_Text_MakePokeblocksUsingBerryBlender
+よかったら　きのみブレンダーで\nいっしょに　{POKEBLOCK}を\lつくらない？
+@@BerryBlender_Text_DontHaveAnyBerriesHaveOne
+あら？\nきのみを　もって\lいないの？\pそれは　こまったわね\pあまりもので　よければ\nわたしの　きのみを\l1こ　あげるわ
+@@BerryBlender_Text_UseItToMakePokeblocksTogether
+それで　いっしょに　きのみ\nブレンダーで　{POKEBLOCK}を\lつくりましょう
+@@BerryBlender_Text_DontHaveAnyBerriesNoneToSpare
+あら？\nきのみを　もって\lいないの？\pあまって　いれば\nよろこんで　あげるんだけど‥\pきょうは　あまりが　ないの\nごめんなさいね
+@@BerryBlender_Text_TooWeakToBlend
+ブレンドマスター『ふむ！　わたしの\nうでまえを　みたいと？\pわるいが　わたしの　ブレンドは\nきみの　ような　しんまいには\lレベルが　たかすぎる\pりっぱに　なってから\nまた　きなさい
+## data/text/blend_master.inc
+@@BerryBlender_Text_BlendWithTheBlendMaster
+ブレンドマスター『いかにも！\nわたしこそ　ブレンドマスター！\pわたしと　ブレンド　すれば\nマスターの　わざを\lめの　あたりに　するだろう！
+@@BerryBlender_Text_SeeMyMasteryInAction
+ブレンドマスター『ふむ！　わたしの\nうでまえを　みたいと？
+@@BerryBlender_Text_TooBusyNowIsee
+ふむ！\pいまは　いそがしいと\nいうわけか！\pしんぱい　むよう！\nわたしは　いちにちじゅう\lここに　いる！\lようじを　すませて　きなさい！
+@@BerryBlender_Text_BlendMasterNoBerries
+ふむ！\pきのみを　1こも\nもって　いないな！\pわたしは　いちにちじゅう\nここに　いる！\lきのみを　もって　きなさい！
+@@BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks
+もちろん！\nもちろんだ！\pところで‥\nきのみから　{POKEBLOCK}を\lつくる　ほうほうは\lしって　いるかね？
+@@BerryBlender_Text_BlendMasterExplainBerryBlending
+ふむ！\pなに　かんたんな　ことだ！\pブレンダーの　やじるしが\nじぶんの　マークに　きたら\lAボタンを　おすだけ\pそれだけで　いい\pわたしが　どれほど　せいかくに\nAボタンを　おすか　みれば\lわかる　はずだ
+@@BerryBlender_Text_BlendMasterLetsBerryBlender
+よろしい！\pでは　はじめよう！\pブレンドマスターと　いっしょに\nきのみブレンダー　スタート！
+@@BerryBlender_Text_BlendMasterNoPokeblockCase
+ふむ！\p{POKEBLOCK}ケースを\nもって　いない　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\l{POKEBLOCK}ケースを\lてに　いれて　きなさい！
+@@BerryBlender_Text_BlendMasterPokeblockCaseFull
+ふむ！\p{POKEBLOCK}ケースが\nいっぱいの　ようだな！\pわたしは　いちにちじゅう\nここに　いる！\l{POKEBLOCK}を　つかって\lきなさい！
+@@BerryBlender_Text_WhoaAwesome
+うわあ！\nすごい！
+@@BerryBlender_Text_WickedlyFast
+めちゃくちゃ　はやい！
+@@BerryBlender_Text_WhatAnExpert
+さすが　たつじん！
+@@BerryBlender_Text_MadeAmazingPokeblocksWithMaster
+マスターと　ブレンド　したら\nすごい　{POKEBLOCK}が\lできたよ！
+@@BerryBlender_Text_QualitiesOfBlendMaster
+きかいの　ように　やじるしを\nおいかける　め‥\pとけいの　ように　せいかくに\nAボタンを　おす　て‥\pこれが　ブレンドマスターの\nすごさ　なのだ
+@@BerryBlender_Text_MasterWorksOnSkillsInMountains
+ブレンドマスターは　やまおくで\nうでを　みがいて　いる\lらしい\pときどき　ここに　きては\nいちにちじゅう　きのみを\lブレンド　して　いるんだ
+## data/text/pokedex_rating.inc
+@@gBirchDexRatingText_AreYouCurious
+オダマキ『おお　{PLAYER}{KUN}！\pずかんの　ようすが\nきに　なるのかい？
+@@gBirchDexRatingText_Cancel
+うん？　まだ　あまり\nポケモンを　つかまえて\lいない　ようだね
+@@gBirchDexRatingText_SoYouveSeenAndCaught
+ふむふむ‥\pみつけた　ポケモンが\n{STR_VAR_1}ひき\lつかまえた　ポケモンが\l{STR_VAR_2}ひき　だね‥
+@@gBirchDexRatingText_LessThan10
+くさむらに　もっと　はいって\nよく　さがして　ごらん
