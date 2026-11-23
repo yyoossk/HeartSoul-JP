@@ -441,134 +441,79 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter_hns:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons_hns:
-	.string "Excellent…\n"
-	.string "Let me restore your POKéMON.$"
+	.string "みごとです‥\nポケモンを　かいふく\lしましょう$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent_hns:
-	.string "The 2nd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "つぎは　2にんめの　あいてです\nかくごは　いいですか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent_hns:
-	.string "The 3rd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "つぎは　3にんめの　あいてです\nかくごは　いいですか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent_hns:
-	.string "The 4th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "つぎは　4にんめの　あいてです\nかくごは　いいですか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent_hns:
-	.string "The 5th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "つぎは　5にんめの　あいてです\nかくごは　いいですか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent_hns:
-	.string "The 6th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "つぎは　6にんめの　あいてです\nかくごは　いいですか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent_hns:
-	.string "The 7th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "つぎは　7にんめの　あいてです\nかくごは　いいですか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame_hns:
-	.string "Would you like to save and quit\n"
-	.string "the game?$"
+	.string "レポートを　かいて\nゲームを　おわりますか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge_hns:
-	.string "Do you wish to quit your challenge?$"
+	.string "ちょうせんを\nやめますか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData_hns:
-	.string "Saving the data.\n"
-	.string "Have patience…$"
+	.string "レポートを　かいて　います\nしばらく　おまちを‥$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch_hns:
-	.string "Do you wish to record your latest\n"
-	.string "match on your FRONTIER PASS?$"
+	.string "さいごの　しょうぶを\nフロンティアパスに\lきろく　しますか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven_hns:
-	.string "And now…\p"
-	.string "By winning consistently, you have\n"
-	.string "earned the privilege of challenging\l"
-	.string "our master, the PALACE MAVEN…$"
+	.string "さて‥\pかちつづけた　あなたは\nわれらが　あるじ\lパレスガーディアンに\lいどむ　しかくを　えました‥$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven_hns:
-	.string "I shall send for the PALACE MAVEN.\n"
-	.string "Are you ready?$"
+	.string "パレスガーディアンを\nおよびします\lじゅんびは　いいですか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser_hns:
-	.string "Let great fanfare announce the arrival\n"
-	.string "of the PALACE MAVEN, SPENSER!$"
+	.string "パレスガーディアン\nウコンの　おなーりー！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro_hns:
-	.string "SPENSER: My physical being is with\n"
-	.string "POKéMON always!\p"
-	.string "My heart beats as one with\n"
-	.string "POKéMON always!\p"
-	.string "Young one of a TRAINER!\n"
-	.string "Do you believe in your POKéMON?\p"
-	.string "Can you believe them through\n"
-	.string "and through?\p"
-	.string "If your bonds of trust are frail,\n"
-	.string "you will never beat my brethren!$"
+	.string "ウコン『わしの　からだは\nいつも　ポケモンと　ともに！\pわしの　こころは　いつも\nポケモンと　ひとつ！\pわかき　トレーナーよ！\nポケモンを　しんじて\lおるか？\pこころの　そこから\nしんじられるか？\pしんらいの　きずなが\nもろければ　わしの　なかまには\lかてんぞ！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons_hns:
-	.string "The bond you share with your POKéMON!\n"
-	.string "Prove it to me here!$"
+	.string "おぬしと　ポケモンの\nきずな！　ここで\lしめして　みせよ！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle_hns:
-	.string "SPENSER: Gwahahah!\p"
-	.string "Hah, you never fell for my bluster!\n"
-	.string "Sorry for trying that stunt!\p"
-	.string "Here!\n"
-	.string "Bring me the thing!$"
+	.string "ウコン『がっはっは！\pわしの　こけおどしには\nのらんかったな！\lためして　すまんかった！\pほれ！\nあれを　だせ！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass_hns:
-	.string "My, my, if only you could maintain that\n"
-	.string "facade of distinguished authority…\p"
-	.string "Here!\n"
-	.string "Let's see your FRONTIER PASS!$"
+	.string "いやはや　いげんを　たもつ\nのも　らくでは　ないのう‥\pほれ！\nフロンティアパスを　みせい！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol_hns:
-	.string "The Spirits Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "フロンティアパスに\nスピリッツシンボルが\lきざまれた！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime_hns:
-	.string "SPENSER: Your POKéMON's eyes are \n"
-	.string "truly clear and unclouded.\p"
-	.string "I will eagerly await the next\n"
-	.string "opportunity to see you.$"
+	.string "ウコン『おぬしの　ポケモンの　めは\nまことに　すんで　くもりが\lない\pまた　あえる　ひを\nたのしみに　まって　おるぞ$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack_hns:
-	.string "SPENSER: Gwahahah!\n"
-	.string "You've battled your way up again?\p"
-	.string "You must have developed a truly\n"
-	.string "formidable bond with your POKéMON.\p"
-	.string "So be it!\p"
-	.string "This time, I won't bluster or hold back.\n"
-	.string "This time, there's no fooling around.\p"
-	.string "Ready now?\n"
-	.string "Prepare to lose!$"
+	.string "ウコン『がっはっは！\nまた　かちあがって\lきたのか？\pよほど　ポケモンと　つよい\nきずなを　きずいたのじゃな\pよかろう！\pこんどは　こけおどしも\nてかげんも　なしじゃ\lおふざけも　なしじゃ\pよいか？\nまける　かくごを　せい！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah_hns:
-	.string "… … …Kaaah!$"
+	.string "‥　‥　‥かーっ！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable_hns:
-	.string "SPENSER: Well, that was some display!\n"
-	.string "Even fully unleashed, my brethren\l"
-	.string "could not overpower you.\p"
-	.string "Your team spirit is truly admirable!\p"
-	.string "Here!\n"
-	.string "Bring me that thing, will you?$"
+	.string "ウコン『いやはや　みごとじゃ！\nほんきを　だした　わしの\lなかまでも　かなわなんだ\pおぬしの　チームワークは\nまことに　あっぱれ！\pほれ！\nあれを　だして　くれんか？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass_hns:
-	.string "My, my, if only you could maintain\n"
-	.string "a certain level of decorum…\p"
-	.string "Gaaah, here!\n"
-	.string "Hurry with that FRONTIER PASS, you!$"
+	.string "いやはや　れいぎを　たもつ\nのも　らくでは　ないのう‥\pがーっ　ほれ！\nはよう　フロンティアパスを！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine_hns:
-	.string "The Spirits Symbol took on\n"
-	.string "a golden shine!$"
+	.string "スピリッツシンボルが\nきんいろに　かがやいた！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain_hns:
-	.string "SPENSER: Gwahahah!\p"
-	.string "Come see me time and again!\n"
-	.string "My brethren and I will be waiting!$"
+	.string "ウコン『がっはっは！\pなんどでも　あいに　こい！\nわしと　なかまが\lまって　おるぞ！$"

@@ -486,19 +486,8 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves_hns:
 	.string "あいてに　ちょくせつ　ダメージを\nあたえる　こうげきの　わざ\pこうげきに　そなえたり\nHPを　かいふく　したり\lする　まもりの　わざ\pそして　どくや　まひなどで\nあいてを　よわらせる\lかわった　わざ\pポケモンは　この　3つの\nなかから　わざを\lえらびます$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered_hns:
-	.string "When not under command by its TRAINER,\n"
-	.string "a POKéMON may be unable to effectively\l"
-	.string "use certain moves.\p"
-	.string "A POKéMON is not good at using any\n"
-	.string "move that it dislikes.\p"
-	.string "If a POKéMON only knows moves that\n"
-	.string "do not match its nature, it will often\l"
-	.string "be unable to live up to its potential.$"
+	.string "トレーナーの　めいれいが\nないと　うまく　つかえない\lわざも　あります\pポケモンは　きらいな　わざを\nうまく　つかえません\pせいかくに　あわない　わざ\nしか　しらないと　ちからを\lだしきれない　ことが　おおいです$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger_hns:
-	.string "Depending on its nature, a POKéMON may\n"
-	.string "start using moves that don't match its\l"
-	.string "nature when it is in trouble.\p"
-	.string "If a POKéMON begins behaving oddly\n"
-	.string "in a pinch, watch it carefully.$"
+	.string "せいかくに　よっては　ピンチの\nとき　せいかくに　あわない\lわざを　つかいだす　ことも\lあります\pピンチで　ようすが　かわったら\nよく　みて　あげて\lください$"
 

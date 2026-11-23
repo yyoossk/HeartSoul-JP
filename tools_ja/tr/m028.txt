@@ -1,0 +1,170 @@
+## data/maps/BattleFrontier_BattlePalaceLobby_hns/scripts.inc
+@@BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered_hns
+トレーナーの　めいれいが\nないと　うまく　つかえない\lわざも　あります\pポケモンは　きらいな　わざを\nうまく　つかえません\pせいかくに　あわない　わざ\nしか　しらないと　ちからを\lだしきれない　ことが　おおいです
+@@BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger_hns
+せいかくに　よっては　ピンチの\nとき　せいかくに　あわない\lわざを　つかいだす　ことも\lあります\pピンチで　ようすが　かわったら\nよく　みて　あげて\lください
+## data/maps/BattleFrontier_BattlePalaceCorridor_hns/scripts.inc
+@@BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame_hns
+ひとも　ポケモンも\nおなじ　なのです‥\pせいかくに　よって\nとくいな　ことと　にがてな\lことが　あるのです
+@@BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes_hns
+きらいな　ことを　させる\nより　すきで　とくいな\lことを　させて　あげなさい\pポケモンの　きもちに　なって\nどんな　わざが　すきか\lかんがえて　ごらんなさい
+@@BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered_hns
+ポケモンの　せいかくは\nふしぎな　ものです‥\pおいつめられると　まるで\nちがう　ふるまいを　する\lポケモンも　いるのです
+@@BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature_hns
+せいかくで　ポケモンの\nふるまいが　どう　かわるか\lわかって　きましたか？
+@@BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons_hns
+ああ‥　あなたと　ポケモンの\nあいだに　つよい　こころの\lきずなが　みえます‥
+## data/maps/BattleFrontier_BattlePalaceBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons_hns
+みごとです‥\nポケモンを　かいふく\lしましょう
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent_hns
+つぎは　2にんめの　あいてです\nかくごは　いいですか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent_hns
+つぎは　3にんめの　あいてです\nかくごは　いいですか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent_hns
+つぎは　4にんめの　あいてです\nかくごは　いいですか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent_hns
+つぎは　5にんめの　あいてです\nかくごは　いいですか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent_hns
+つぎは　6にんめの　あいてです\nかくごは　いいですか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent_hns
+つぎは　7にんめの　あいてです\nかくごは　いいですか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame_hns
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge_hns
+ちょうせんを\nやめますか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SavingData_hns
+レポートを　かいて　います\nしばらく　おまちを‥
+@@BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch_hns
+さいごの　しょうぶを\nフロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven_hns
+さて‥\pかちつづけた　あなたは\nわれらが　あるじ\lパレスガーディアンに\lいどむ　しかくを　えました‥
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven_hns
+パレスガーディアンを\nおよびします\lじゅんびは　いいですか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser_hns
+パレスガーディアン\nウコンの　おなーりー！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro_hns
+ウコン『わしの　からだは\nいつも　ポケモンと　ともに！\pわしの　こころは　いつも\nポケモンと　ひとつ！\pわかき　トレーナーよ！\nポケモンを　しんじて\lおるか？\pこころの　そこから\nしんじられるか？\pしんらいの　きずなが\nもろければ　わしの　なかまには\lかてんぞ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons_hns
+おぬしと　ポケモンの\nきずな！　ここで\lしめして　みせよ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle_hns
+ウコン『がっはっは！\pわしの　こけおどしには\nのらんかったな！\lためして　すまんかった！\pほれ！\nあれを　だせ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass_hns
+いやはや　いげんを　たもつ\nのも　らくでは　ないのう‥\pほれ！\nフロンティアパスを　みせい！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol_hns
+フロンティアパスに\nスピリッツシンボルが\lきざまれた！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime_hns
+ウコン『おぬしの　ポケモンの　めは\nまことに　すんで　くもりが\lない\pまた　あえる　ひを\nたのしみに　まって　おるぞ
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack_hns
+ウコン『がっはっは！\nまた　かちあがって\lきたのか？\pよほど　ポケモンと　つよい\nきずなを　きずいたのじゃな\pよかろう！\pこんどは　こけおどしも\nてかげんも　なしじゃ\lおふざけも　なしじゃ\pよいか？\nまける　かくごを　せい！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah_hns
+‥　‥　‥かーっ！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable_hns
+ウコン『いやはや　みごとじゃ！\nほんきを　だした　わしの\lなかまでも　かなわなんだ\pおぬしの　チームワークは\nまことに　あっぱれ！\pほれ！\nあれを　だして　くれんか？
+@@BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass_hns
+いやはや　れいぎを　たもつ\nのも　らくでは　ないのう‥\pがーっ　ほれ！\nはよう　フロンティアパスを！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine_hns
+スピリッツシンボルが\nきんいろに　かがやいた！
+@@BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain_hns
+ウコン『がっはっは！\pなんどでも　あいに　こい！\nわしと　なかまが\lまって　おるぞ！
+## data/maps/BattleFrontier_BattlePyramidLobby_hns/scripts.inc
+@@BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid_hns
+トレーナーの　ゆうきが\nためされる　ばしょ！\pバトルピラミッドへ\nようこそ！\pわたしは　バトルクエストの\nあんないがかり　です
+@@BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge_hns
+バトルクエストに\nちょうせん　する　ゆうきは\lありますか？
+@@BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge_hns
+また　の　ちょうせんを\nおまち　して　おります！
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid_hns
+バトルクエストは　ピラミッドを\nたんけん　して　てっぺんを\lめざす　イベント　です\pピラミッドには　7かいの\nめいろが　あり　つよい\lトレーナーと　やせいの\lポケモンで　いっぱいです\pどうぐを　もたせない\nポケモン　3びきで\lさんか　して　ください\pのぼる　とちゅうは　どうぐを\nいれる　バトルバッグを\lおわたし　します\pしっぱい　すると　バトルバッグの\nどうぐは　なくなります\pちゅうだん　する　ときは\nやすむを　えらんで\lレポートを　かいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode_hns
+ピラミッドには　レベル50と\nオープンレベルの　2つの\lコースが　あります\lどちらに　しますか？
+@@BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons_hns
+よろしい　では　つれて　いく\nポケモンを　3びき\lえらんで　ください
+@@BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen_hns
+ぼうけんしゃよ　もんだいが\nあります！\pちょうせん　できる　ポケモンが\n3びき　いない　ようです\pポケモンの　どうぐも\nすべて　はずして　ください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50_hns
+ぼうけんしゃよ　もんだいが\nあります！\pちょうせん　できる　ポケモンが\n3びき　いない　ようです\pちがう　ポケモン　3びきで\nどれも　レベル50　いか\lで　なければ　なりません\pポケモンの　どうぐも\nすべて　はずして　ください\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsEnd_hns
+じゅんびが　できたら\nこえを　かけて　ください
+@@BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge_hns
+バトルピラミッドに　はいる\nまえに　レポートを　かきます\lよろしいですか？
+@@BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid_hns
+よろしい　それでは\nバトルピラミッドへ\lごあんない　します
+@@BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping_hns
+たんけん　ちゅうは\n{PLAYER}さまの　バッグを\lおあずかり　します
+@@BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag_hns
+かわりに　まえかい　つかった\nバトルバッグを　どうぞ
+@@BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag_hns
+かわりに　この\nバトルバッグを　どうぞ
+@@BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag_hns
+{PLAYER}は　バッグと\nバトルバッグを\lとりかえた
+@@BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel_hns
+この　ゆかの　パネルに\nのると　ピラミッドの\lうえの　かいへ　いけます\pぶじに　たんけんを\nおえられますように！
+@@BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag_hns
+ぼうけんしゃよ　たいへん\nです！\pまえかい　レポートを　かかずに\nちょうせんを　やめましたね\pざんねん　ながら\nちょうせんは　しっかく\lと　なります\pおあずかり　していた\nバッグを　おかえし　します\p{PLAYER}は　バッグを\nかえして　もらった
+@@BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid_hns
+よく　ぞ　おもどりに！\pピラミッドを　せいは　されました\nすばらしい！
+@@BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake_hns
+ああ　すこし　もんだいが\pポケモンが　どうぐを\nもって　います\pピラミッドで　てに　いれた\nどうぐは　もちだせません
+@@BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag_hns
+ポケモンの　どうぐは　すべて\nバトルバッグに　うつします\l{PLAYER}さま
+@@BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep_hns
+もうしわけ　ありませんが\nバトルバッグに　すべては\lはいりきりません\pバトルバッグと　ポケモンに\nのこす　どうぐを\lえらんで　ください
+@@BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem_hns
+まだ　どうぐを　もっている\nポケモンが　います
+@@BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep_hns
+バトルバッグと　ポケモンに\nのこす　どうぐを\lえらんで　ください
+@@BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld_hns
+{PLAYER}は　ポケモンの\nどうぐを　すべて　かえした
+@@BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept_hns
+つかった　バトルバッグは\nつぎの　ちょうせんまで\lおあずかり　します\p{PLAYER}は　バトルバッグを\nかえして　バッグを\lうけとった
+@@BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait_hns
+けっかを　きろく　します\nしょうしょう　おまちください
+@@BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis_hns
+バトルピラミッド　せいはの\nきねんに　これを\lおうけとり　ください
+@@BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem_hns
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった
+@@BattleFrontier_BattlePyramidLobby_Text_BagIsFull_hns
+‥あら‥\nバッグが　いっぱいの\lようです\pバッグを　せいり\nしてから　また\lおこし　ください
+@@BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag_hns
+ざんねん　でしたね‥\pおあずかり　していた\nバッグを　おかえし　します\p{PLAYER}は　バッグを\nかえして　もらった
+@@BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge_hns
+つぎの　ちょうせんを\nおまち　して　おります！
+@@BattleFrontier_BattlePyramidLobby_Text_HereIsPrize_hns
+おまち　して　おりました！\pピラミッド　せいはの\nしょうひん　です
+@@BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait_hns
+ようこそ‥\pピラミッドで　まちうける\nわざわいを　うらなって\lあげましょう‥
+@@BattleFrontier_BattlePyramidLobby_Text_Aah_hns
+‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥\p‥　‥　‥　‥　‥　‥\nはっ！
+@@BattleFrontier_BattlePyramidLobby_Text_HintParalysis_hns
+ひばなの　あめが\nみえます‥\p‥そして　まひに　くるしむ\nあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintPoison_hns
+どくが　みえます‥\p‥そして　どくに　くるしむ\nあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintBurn_hns
+まっかな　ほのおが\nみえます‥\p‥そして　やけどに　くるしむ\nあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintPPWaste_hns
+むくわれぬ　いかりの\nすさまじい　プレッシャーを\lかんじます‥\pそれは　のろい‥\p‥そして　PPを　うばわれ\nわるあがき　する　しか\lない　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintLevitate_hns
+そらたかく　うかぶ\nポケモンが　みえます‥\p‥そして　じめんわざが\nきかずに　こまる\lあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility_hns
+ちめんから　わきあがる\nすさまじい　ちからを\lかんじます‥\p‥そして　その　ちからから\nにげられない　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintIce_hns
+こおりタイプの　ポケモンが\nみえます‥\p‥そして　こおりつく　さむさと\nたたかう　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintExplosion_hns
+つかう　ものを　きけんに\nさらす　わざの　あらしが\lみえます‥\p‥そして　それに　たおれる\nあなたの　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintPsychic_hns
+エスパータイプの　ポケモンが\nみえます‥\p‥そして　エスパーわざに\nくるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintRock_hns
+いわタイプの　ポケモンが\nみえます‥\p‥そして　いわわざに\nくるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintFighting_hns
+かくとうタイプの　ポケモンが\nみえます‥\p‥そして　かくとうわざに\nうちのめされる　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintWeather_hns
+あまごい‥　にほんばれ‥\nすなあらし‥　あられ‥\pてんきで　つよく　なる\nポケモンが　みえます‥\p‥そして　いろいろな　わざに\nまどわされる　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintBug_hns
+むしタイプの　ポケモンが\nみえます‥\p‥そして　いろいろな\nこうげきに　くるしむ\lポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintDark_hns
+あくタイプの　ポケモンが\nみえます‥\p‥そして　あくわざに\nくるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintWater_hns
+みずタイプの　ポケモンが\nみえます‥\p‥そして　みずわざに\nくるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintGhost_hns
+ゴーストタイプの　ポケモンが\nみえます‥\p‥そして　ゴーストわざに\nくるしむ　ポケモンが‥
