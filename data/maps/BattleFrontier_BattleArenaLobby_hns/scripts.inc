@@ -358,216 +358,100 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules_hns::
 	end
 
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena_hns:
-	.string "Where the battling spirit of TRAINERS\n"
-	.string "is put to the test!\p"
-	.string "I welcome you to the BATTLE ARENA!\p"
-	.string "I am your guide to the Set KO Tourney!$"
+	.string "トレーナーの　とうしが\nためされる　ばしょ！\pバトルアリーナへ\nようこそ！\pわたしは　3たいけつ\nトーナメントの\lあんないがかり　です！$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge_hns:
-	.string "Now, do you wish to take\n"
-	.string "the BATTLE ARENA challenge?$"
+	.string "バトルアリーナに\nちょうせん　しますか？$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge_hns:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "また　の　ちょうせんを\nおまち　して　おります！$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge_hns:
-	.string "In the BATTLE ARENA, we undertake\n"
-	.string "the Set KO Tourney.\p"
-	.string "All participants enter with a team of\n"
-	.string "three POKéMON.\p"
-	.string "The three POKéMON must be lined up in\n"
-	.string "the order in which they are to appear.\p"
-	.string "During battle, the POKéMON will appear\n"
-	.string "one at a time in the preset order.\p"
-	.string "Once a POKéMON enters battle, it must\n"
-	.string "remain out until the match is decided.\p"
-	.string "If a match remains undecided in\n"
-	.string "three turns, it goes to judging.\p"
-	.string "If you wish to interrupt your challenge,\n"
-	.string "please save the game.\p"
-	.string "If you don't save, you will not be able\n"
-	.string "to continue with your challenge.\p"
-	.string "If you pull off the feat of beating\n"
-	.string "seven TRAINERS in succession,\l"
-	.string "we will present you with Battle Points.$"
+	.string "バトルアリーナでは　3たいけつ\nトーナメントを　おこないます\pさんかしゃは　みな　ポケモン\n3びきで　エントリー\lします\p3びきは　でる　じゅんばんに\nならべて　ください\pしょうぶでは　きめた　じゅんに\n1ぴきずつ　でて　きます\pいちど　でた　ポケモンは\nしょうぶが　つくまで\lひっこめられません\p3ターンで　しょうぶが\nつかなければ　はんていに\lなります\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかないと　ちょうせんを\nつづけられません\p7にんの　トレーナーに\nれんしょう　すれば\lバトルポイントを\lさしあげます$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave_hns:
-	.string "Before showing you to the BATTLE\n"
-	.string "ARENA, you must save. Is that okay?$"
+	.string "バトルアリーナへ　ごあんない\nする　まえに　レポートを\lかきます　よろしいですか？$"
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode_hns:
-	.string "The BATTLE ARENA offers two levels\n"
-	.string "of challenge, Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "バトルアリーナには　レベル50と\nオープンレベルの　2つの\lクラスが　あります\lどちらに　しますか？$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons_hns:
-	.string "Very well, now select your\n"
-	.string "three POKéMON, please.$"
+	.string "よろしい　では　ポケモンを\n3びき　えらんで　ください$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen_hns:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "To qualify, you must bring three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "ちょうせんしゃよ！\pエントリーに　ひつような\nポケモンが　3びき\lいません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsEnd_hns:
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "じゅんびが　できたら\nまた　おこし　ください$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50_hns:
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "To qualify, you must bring three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "The three different POKéMON\n"
-	.string "must all be Level 50 or lower.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "ちょうせんしゃよ！\pエントリーに　ひつような\nポケモンが　3びき\lいません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pどれも　レベル50　いか\nで　なければ　なりません\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena_hns:
-	.string "I shall now guide you to\n"
-	.string "the BATTLE ARENA.$"
+	.string "それでは　バトルアリーナへ\nごあんない　いたします$"
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown_hns:
-	.string "My dear challenger!\p"
-	.string "You did not save the game before\n"
-	.string "shutting down, did you?\p"
-	.string "It is unfortunate, but that has\n"
-	.string "resulted in your disqualification\l"
-	.string "from your challenge.\p"
-	.string "You may, of course, start with a fresh\n"
-	.string "challenge.$"
+	.string "ちょうせんしゃよ！\pまえかい　レポートを　かかずに\nでんげんを　きりましたね？\pざんねん　ながら　その　ため\nちょうせんは　しっかく\lと　なりました\pもちろん　あらたに\nちょうせん　できます$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins_hns:
-	.string "We congratulate you for your splendid\n"
-	.string "string of wins over seven TRAINERS!$"
+	.string "7にんの　トレーナーに\nみごと　れんしょう！\lおめでとう　ございます！$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement_hns:
-	.string "Your achievement will be recorded.\n"
-	.string "Please wait while I save the game.$"
+	.string "きろくを　のこします\nレポートを　かくので\lおまち　ください$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize_hns:
-	.string "In commemoration of your 7-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "7れんしょうを　きねんして\nしょうひんを\lさしあげます$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize_hns:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize_hns:
-	.string "Oh?\n"
-	.string "Your BAG seems to be full.\p"
-	.string "I urge you to clear space and\n"
-	.string "return for your prize.$"
+	.string "おや？\nバッグが　いっぱいの\lようです\pあけてから　しょうひんを\nうけとりに　きて　ください$"
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave_hns:
-	.string "Thank you so much for participating!\p"
-	.string "Please wait while I save the game.$"
+	.string "さんか　ありがとう\nございました！\pレポートを　かくので\nおまち　ください$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge_hns2_hns:
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "また　の　ちょうせんを\nおまち　して　おります！$"
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame_hns:
-	.string "We have been looking forward to\n"
-	.string "your arrival.\p"
-	.string "Before I show you to the BATTLE\n"
-	.string "ARENA, I must save the game.\l"
-	.string "Please wait.$"
+	.string "おまち　して　おりました\pバトルアリーナへ　ごあんない\nする　まえに　レポートを\lかきます　おまち　ください$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch_hns:
-	.string "Shall I record your last BATTLE ARENA\n"
-	.string "match on your FRONTIER PASS?$"
+	.string "さいごの　バトルアリーナの\nしょうぶを　フロンティアパスに\lきろく　しますか？$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack_hns:
-	.string "I lost on the REFEREE's decision…\p"
-	.string "I don't think it was a good idea to only\n"
-	.string "use defensive moves and not attack…$"
+	.string "はんていで　まけた‥\pこうげき　しないで\nまもりの　わざ　ばかり\lつかったのが　だめ\lだったかな‥$"
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked_hns:
-	.string "I won in judging!\p"
-	.string "Landing hits consistently on\n"
-	.string "the opponent's POKéMON worked!$"
+	.string "はんていで　かった！\pあいての　ポケモンに\nこうげきを　あて　つづけたのが\lよかった　みたい！$"
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw_hns:
-	.string "Our match was declared a draw.\p"
-	.string "When we ran out of time, both my\n"
-	.string "POKéMON and the opponent's had about\l"
-	.string "the same amount of HP left.$"
+	.string "しょうぶは　ひきわけ\nだった\pじかんぎれの　とき　おたがいの\nポケモンの　HPが\lおなじ　くらい　だったんだ$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant_hns:
-	.string "In the BATTLE ARENA, the order of\n"
-	.string "POKéMON is totally important.\p"
-	.string "For example, if your first POKéMON\n"
-	.string "has certain type disadvantages,\l"
-	.string "try making your second POKéMON one\l"
-	.string "with moves that are super effective\l"
-	.string "against the first one.\p"
-	.string "I think that will be a good way of\n"
-	.string "making an effective team.$"
+	.string "バトルアリーナでは　ポケモンの\nじゅんばんが　すごく\lだいじ　なんだ\pたとえば　1ぴきめが\nにがてな　タイプが　あるなら\l2ひきめは　その　あいてに\lこうかばつぐんの　わざを\lもつ　ポケモンに　するとか\pそう　すると　いい\nチームに　なると　おもうよ$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed_hns:
-	.string "The Set KO Tourney's rules are listed.$"
+	.string "3たいけつトーナメントの\nルールが　かいてある$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading_hns:
-	.string "Which heading do you want to read?$"
+	.string "どの　こうもくを\nよみますか？$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules_hns:
-	.string "The Set KO Tourney has special rules,\n"
-	.string "unlike standard battles.\p"
-	.string "First, one battle lasts only\n"
-	.string "three turns.\p"
-	.string "If the outcome is not decided after\n"
-	.string "three turns, it goes to judging.\p"
-	.string "The REFEREE will choose the winner\n"
-	.string "based on how the POKéMON battled.\p"
-	.string "Also, a POKéMON cannot be switched out\n"
-	.string "until its battle's outcome is decided.$"
+	.string "3たいけつトーナメントには\nふつうの　しょうぶと\lちがう　ルールが　あります\pまず　しょうぶは\n3ターンで　おわります\p3ターンで　きまらなければ\nはんていに　なります\pしんぱんが　ポケモンの\nたたかいぶりを　みて\lしょうしゃを　きめます\pまた　しょうぶが　つくまで\nポケモンを　いれかえる\lことは　できません$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules_hns:
-	.string "The first judging factor is “Mind.”\n"
-	.string "This factor evaluates how aggressive\l"
-	.string "the battlers were.\p"
-	.string "The judging is based on how often\n"
-	.string "the TRAINERS ordered the use of\l"
-	.string "offensive moves.$"
+	.string "ひとつめの　はんていは\nこころ　どれだけ　せっきょく\lてきに　たたかったかを\lみます\pこうげきの　わざを\nどれだけ　つかったかで\lはんてい　します$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules_hns:
-	.string "The second judging factor is “Skill.”\n"
-	.string "This factor evaluates how effectively\l"
-	.string "POKéMON moves were used.\p"
-	.string "If a move worked successfully,\n"
-	.string "the Skill rating goes up.\p"
-	.string "If a move failed, the Skill rating\n"
-	.string "is lowered.\p"
-	.string "If it was an offensive move, the Skill\n"
-	.string "rating goes up if the move was “super\l"
-	.string "effective” and goes down if it was\l"
-	.string "“not very effective.”\p"
-	.string "The Skill rating will not go up for\n"
-	.string "moves such as PROTECT and DETECT.\p"
-	.string "If the opponent used PROTECT or\n"
-	.string "DETECT, and your POKéMON failed to\l"
-	.string "hit with a move, its Skill rating will not\l"
-	.string "go down.$"
+	.string "ふたつめの　はんていは\nわざ　わざを　どれだけ\lうまく　つかったかを　みます\pわざが　せいこう\nすると　あがります\pわざが　しっぱい\nすると　さがります\pこうげきわざは　こうかばつぐん\nなら　あがり　いまひとつ\lなら　さがります\pまもる　や　みきり　などの\nわざでは　あがりません\pあいての　まもる　や　みきりで\nこうげきが　はずれても\lさがりません$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules_hns:
-	.string "The third judging factor is “Body.”\n"
-	.string "This factor is based on how much HP\l"
-	.string "remained at the end of a battle.\p"
-	.string "The rating takes into account how much\n"
-	.string "HP a POKéMON had at the start of\l"
-	.string "battle, and what remained at the end.$"
+	.string "みっつめの　はんていは\nからだ　しょうぶの　おわりに\lHPが　どれだけ\lのこったかで　きまります\pしょうぶの　はじめと\nおわりの　HPを　くらべて\lはんてい　します$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon_hns:
 	.string "A victory snatched from the ARENA\n"

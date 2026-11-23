@@ -126,606 +126,388 @@ BattlePyramid_Retire_hns::
 
 @ Also used by Trainer Hill
 BattleFacility_TrainerBattle_PlaceholderText_hns:
-	.string "This is a sample message.$"
+	.string "これは　サンプルの\nメッセージです$"
 
 gText_BattlePyramidConfirmRest_hns::
-	.string "Your BATTLE PYRAMID quest will be\n"
-	.string "saved so that you may quit for now.\l"
-	.string "Is that okay?$"
+	.string "バトルピラミッドの　たんけんを\nレポート　して　いったん\lやめます　よろしいですか？$"
 
 gText_BattlePyramidConfirmRetire_hns::
-	.string "Are you sure you want to quit your\n"
-	.string "PYRAMID quest?$"
+	.string "ピラミッドの　たんけんを\nほんとうに　やめますか？$"
 
 BattlePyramid_Text_ExitHintUp1_hns::
-	.string "This floor's exit is in\n"
-	.string "that direction: {UP_ARROW}$"
+	.string "この　かいの　でぐちは\n{UP_ARROW}の　ほうこうだ$"
 
 BattlePyramid_Text_ExitHintLeft1_hns::
-	.string "This floor's exit is in\n"
-	.string "that direction: {LEFT_ARROW}$"
+	.string "この　かいの　でぐちは\n{LEFT_ARROW}の　ほうこうだ$"
 
 BattlePyramid_Text_ExitHintRight1_hns::
-	.string "This floor's exit is in\n"
-	.string "that direction: {RIGHT_ARROW}$"
+	.string "この　かいの　でぐちは\n{RIGHT_ARROW}の　ほうこうだ$"
 
 BattlePyramid_Text_ExitHintDown1_hns::
-	.string "This floor's exit is in\n"
-	.string "that direction: {DOWN_ARROW}$"
+	.string "この　かいの　でぐちは\n{DOWN_ARROW}の　ほうこうだ$"
 
 BattlePyramid_Text_ExitHintUp2_hns::
-	.string "The exit on this floor is in\n"
-	.string "the {UP_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{UP_ARROW}の　ほうに　あるよ$"
 
 BattlePyramid_Text_ExitHintLeft2_hns::
-	.string "The exit on this floor is in\n"
-	.string "the {LEFT_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{LEFT_ARROW}の　ほうに　あるよ$"
 
 BattlePyramid_Text_ExitHintRight2_hns::
-	.string "The exit on this floor is in\n"
-	.string "the {RIGHT_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{RIGHT_ARROW}の　ほうに　あるよ$"
 
 BattlePyramid_Text_ExitHintDown2_hns::
-	.string "The exit on this floor is in\n"
-	.string "the {DOWN_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{DOWN_ARROW}の　ほうに　あるよ$"
 
 BattlePyramid_Text_ExitHintUp3_hns::
-	.string "The exit is over\n"
-	.string "that {UP_ARROW} way.$"
+	.string "でぐちは\n{UP_ARROW}の　ほうだ$"
 
 BattlePyramid_Text_ExitHintLeft3_hns::
-	.string "The exit is over\n"
-	.string "that {LEFT_ARROW} way.$"
+	.string "でぐちは\n{LEFT_ARROW}の　ほうだ$"
 
 BattlePyramid_Text_ExitHintRight3_hns::
-	.string "The exit is over\n"
-	.string "that {RIGHT_ARROW} way.$"
+	.string "でぐちは\n{RIGHT_ARROW}の　ほうだ$"
 
 BattlePyramid_Text_ExitHintDown3_hns::
-	.string "The exit is over\n"
-	.string "that {DOWN_ARROW} way.$"
+	.string "でぐちは\n{DOWN_ARROW}の　ほうだ$"
 
 BattlePyramid_Text_ExitHintUp4_hns::
-	.string "On this floor, the exit is somewhere\n"
-	.string "in the {UP_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{UP_ARROW}の　どこかに　ある$"
 
 BattlePyramid_Text_ExitHintLeft4_hns::
-	.string "On this floor, the exit is somewhere\n"
-	.string "in the {LEFT_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{LEFT_ARROW}の　どこかに　ある$"
 
 BattlePyramid_Text_ExitHintRight4_hns::
-	.string "On this floor, the exit is somewhere\n"
-	.string "in the {RIGHT_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{RIGHT_ARROW}の　どこかに　ある$"
 
 BattlePyramid_Text_ExitHintDown4_hns::
-	.string "On this floor, the exit is somewhere\n"
-	.string "in the {DOWN_ARROW} direction.$"
+	.string "この　かいの　でぐちは\n{DOWN_ARROW}の　どこかに　ある$"
 
 BattlePyramid_Text_ExitHintUp5_hns::
-	.string "The exit?\n"
-	.string "It's that {UP_ARROW} way.$"
+	.string "でぐち？\n{UP_ARROW}の　ほうさ$"
 
 BattlePyramid_Text_ExitHintLeft5_hns::
-	.string "The exit?\n"
-	.string "It's that {LEFT_ARROW} way.$"
+	.string "でぐち？\n{LEFT_ARROW}の　ほうさ$"
 
 BattlePyramid_Text_ExitHintRight5_hns::
-	.string "The exit?\n"
-	.string "It's that {RIGHT_ARROW} way.$"
+	.string "でぐち？\n{RIGHT_ARROW}の　ほうさ$"
 
 BattlePyramid_Text_ExitHintDown5_hns::
-	.string "The exit?\n"
-	.string "It's that {DOWN_ARROW} way.$"
+	.string "でぐち？\n{DOWN_ARROW}の　ほうさ$"
 
 BattlePyramid_Text_ExitHintUp6_hns::
-	.string "The exit happens to be in\n"
-	.string "the {UP_ARROW} direction.$"
+	.string "でぐちは　たしか\n{UP_ARROW}の　ほうこうだよ$"
 
 BattlePyramid_Text_ExitHintLeft6_hns::
-	.string "The exit happens to be in\n"
-	.string "the {LEFT_ARROW} direction.$"
+	.string "でぐちは　たしか\n{LEFT_ARROW}の　ほうこうだよ$"
 
 BattlePyramid_Text_ExitHintRight6_hns::
-	.string "The exit happens to be in\n"
-	.string "the {RIGHT_ARROW} direction.$"
+	.string "でぐちは　たしか\n{RIGHT_ARROW}の　ほうこうだよ$"
 
 BattlePyramid_Text_ExitHintDown6_hns::
-	.string "The exit happens to be in\n"
-	.string "the {DOWN_ARROW} direction.$"
+	.string "でぐちは　たしか\n{DOWN_ARROW}の　ほうこうだよ$"
 
 BattlePyramid_Text_EightItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There are eight items left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　8こ　あるよ$"
 
 BattlePyramid_Text_SevenItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There are seven items left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　7こ　あるよ$"
 
 BattlePyramid_Text_SixItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There are six items left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　6こ　あるよ$"
 
 BattlePyramid_Text_FiveItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There are five items left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　5こ　あるよ$"
 
 BattlePyramid_Text_FourItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There are four items left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　4こ　あるよ$"
 
 BattlePyramid_Text_ThreeItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There are three items left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　3こ　あるよ$"
 
 BattlePyramid_Text_TwoItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There are two items left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　2こ　あるよ$"
 
 BattlePyramid_Text_OneItemRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There is one item left to\n"
-	.string "be found.$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　どうぐが\nあと　1こ　あるよ$"
 
 BattlePyramid_Text_ZeroItemsRemaining1_hns::
-	.string "Are you looking for items?\p"
-	.string "There isn't anything left to\n"
-	.string "be found!$"
+	.string "どうぐを　さがしてるの？\pこの　かいには　もう\nどうぐは　ないよ$"
 
 BattlePyramid_Text_EightItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There are eight items\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　8こ　あるよ$"
 
 BattlePyramid_Text_SevenItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There are seven items left\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　7こ　あるよ$"
 
 BattlePyramid_Text_SixItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There are six items left\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　6こ　あるよ$"
 
 BattlePyramid_Text_FiveItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There are five items left\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　5こ　あるよ$"
 
 BattlePyramid_Text_FourItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There are four items left\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　4こ　あるよ$"
 
 BattlePyramid_Text_ThreeItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There are three items left\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　3こ　あるよ$"
 
 BattlePyramid_Text_TwoItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There are two items left\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　2こ　あるよ$"
 
 BattlePyramid_Text_OneItemRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There is just one item\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　どうぐが\nあと　1こ　あるよ$"
 
 BattlePyramid_Text_ZeroItemsRemaining2_hns::
-	.string "Because you won, I'll tell you\n"
-	.string "a little secret!\p"
-	.string "There isn't anything left\n"
-	.string "lying around here.$"
+	.string "かったから　ひみつを\nおしえて　あげる！\pこの　かいには　もう\nどうぐは　ないよ$"
 
 BattlePyramid_Text_EightItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are eight items left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　8こ　あるよ$"
 
 BattlePyramid_Text_SevenItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are seven items left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　7こ　あるよ$"
 
 BattlePyramid_Text_SixItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are six items left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　6こ　あるよ$"
 
 BattlePyramid_Text_FiveItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are five items left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　5こ　あるよ$"
 
 BattlePyramid_Text_FourItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are four items left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　4こ　あるよ$"
 
 BattlePyramid_Text_ThreeItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are three items left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　3こ　あるよ$"
 
 BattlePyramid_Text_TwoItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are two items left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　2こ　あるよ$"
 
 BattlePyramid_Text_OneItemRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there's but one item left\n"
-	.string "waiting to be found on this floor.$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　どうぐが\nあと　1こ　あるよ$"
 
 BattlePyramid_Text_ZeroItemsRemaining3_hns::
-	.string "How's your stock of items holding up?\p"
-	.string "I reckon there are no more items\n"
-	.string "waiting to be found on this floor.\l"
-	.string "You take care now!$"
+	.string "どうぐは　たりてるかい？\pこの　かいには　もう\nどうぐは　ないよ$"
 
 BattlePyramid_Text_EightItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be eight more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　8こ　あるよ$"
 
 BattlePyramid_Text_SevenItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be seven more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　7こ　あるよ$"
 
 BattlePyramid_Text_SixItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be six more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　6こ　あるよ$"
 
 BattlePyramid_Text_FiveItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be five more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　5こ　あるよ$"
 
 BattlePyramid_Text_FourItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be four more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　4こ　あるよ$"
 
 BattlePyramid_Text_ThreeItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be three more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　3こ　あるよ$"
 
 BattlePyramid_Text_TwoItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be two more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　2こ　あるよ$"
 
 BattlePyramid_Text_OneItemRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appears to be only one more\n"
-	.string "item on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　どうぐが\nあと　1こ　あるよ$"
 
 BattlePyramid_Text_ZeroItemsRemaining4_hns::
-	.string "You're strong, so you've earned\n"
-	.string "a hint!\p"
-	.string "There appear to be no more\n"
-	.string "items on the ground.$"
+	.string "つよいから　ヒントを\nあげよう！\pこの　かいには　もう\nどうぐは　ないよ$"
 
 BattlePyramid_Text_EightItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are eight items…$"
+	.string "この　かいには　どうぐが\n8こ　あると　きいた‥$"
 
 BattlePyramid_Text_SevenItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are seven items…$"
+	.string "この　かいには　どうぐが\n7こ　あると　きいた‥$"
 
 BattlePyramid_Text_SixItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are six items…$"
+	.string "この　かいには　どうぐが\n6こ　あると　きいた‥$"
 
 BattlePyramid_Text_FiveItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are five items…$"
+	.string "この　かいには　どうぐが\n5こ　あると　きいた‥$"
 
 BattlePyramid_Text_FourItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are four items…$"
+	.string "この　かいには　どうぐが\n4こ　あると　きいた‥$"
 
 BattlePyramid_Text_ThreeItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are three items…$"
+	.string "この　かいには　どうぐが\n3こ　あると　きいた‥$"
 
 BattlePyramid_Text_TwoItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are two items…$"
+	.string "この　かいには　どうぐが\n2こ　あると　きいた‥$"
 
 BattlePyramid_Text_OneItemRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there is one item…$"
+	.string "この　かいには　どうぐが\n1こ　あると　きいた‥$"
 
 BattlePyramid_Text_ZeroItemsRemaining5_hns::
-	.string "On this floor of the PYRAMID,\n"
-	.string "I hear there are no items…$"
+	.string "この　かいには　どうぐは\nないと　きいた‥$"
 
 BattlePyramid_Text_EightItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are eight more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　8こ　あるよ$"
 
 BattlePyramid_Text_SevenItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are seven more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　7こ　あるよ$"
 
 BattlePyramid_Text_SixItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are six more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　6こ　あるよ$"
 
 BattlePyramid_Text_FiveItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are five more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　5こ　あるよ$"
 
 BattlePyramid_Text_FourItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are four more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　4こ　あるよ$"
 
 BattlePyramid_Text_ThreeItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are three more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　3こ　あるよ$"
 
 BattlePyramid_Text_TwoItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are two more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　2こ　あるよ$"
 
 BattlePyramid_Text_OneItemRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there is one more\n"
-	.string "item on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　どうぐが\nあと　1こ　あるよ$"
 
 BattlePyramid_Text_ZeroItemsRemaining6_hns::
-	.string "Have you collected any items?\p"
-	.string "I believe there are no more\n"
-	.string "items on this floor.$"
+	.string "どうぐは　あつめた？\pこの　かいには　もう\nどうぐは　ないよ$"
 
 BattlePyramid_Text_SevenTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "But there are still seven tough\n"
-	.string "TRAINERS other than me!$"
+	.string "きみ　ほんとうに　すごい！\pでも　つよい　トレーナーが\nまだ　7にん　いるぞ！$"
 
 BattlePyramid_Text_SixTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "But there are still six tough\n"
-	.string "TRAINERS other than me!$"
+	.string "きみ　ほんとうに　すごい！\pでも　つよい　トレーナーが\nまだ　6にん　いるぞ！$"
 
 BattlePyramid_Text_FiveTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "But there are still five tough\n"
-	.string "TRAINERS other than me!$"
+	.string "きみ　ほんとうに　すごい！\pでも　つよい　トレーナーが\nまだ　5にん　いるぞ！$"
 
 BattlePyramid_Text_FourTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "But there are still four tough\n"
-	.string "TRAINERS other than me!$"
+	.string "きみ　ほんとうに　すごい！\pでも　つよい　トレーナーが\nまだ　4にん　いるぞ！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "But there are still three tough\n"
-	.string "TRAINERS other than me!$"
+	.string "きみ　ほんとうに　すごい！\pでも　つよい　トレーナーが\nまだ　3にん　いるぞ！$"
 
 BattlePyramid_Text_TwoTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "But there are still two tough\n"
-	.string "TRAINERS other than me!$"
+	.string "きみ　ほんとうに　すごい！\pでも　つよい　トレーナーが\nまだ　2にん　いるぞ！$"
 
 BattlePyramid_Text_OneTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "But there's still one tough\n"
-	.string "TRAINER other than me!$"
+	.string "きみ　ほんとうに　すごい！\pでも　つよい　トレーナーが\nまだ　1にん　いるぞ！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining1_hns::
-	.string "You were really awesome!\p"
-	.string "There's no one left that\n"
-	.string "can beat you!$"
+	.string "きみ　ほんとうに　すごい！\pもう　きみに　かてる\nトレーナーは　いないよ！$"
 
 BattlePyramid_Text_SevenTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there are seven TRAINERS left!\n"
-	.string "Someone will humble you!$"
+	.string "くやしい！\pでも　つよい　トレーナーが\nまだ　7にん　いるぞ！$"
 
 BattlePyramid_Text_SixTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there are six TRAINERS left!\n"
-	.string "Someone will humble you!$"
+	.string "くやしい！\pでも　つよい　トレーナーが\nまだ　6にん　いるぞ！$"
 
 BattlePyramid_Text_FiveTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there are five TRAINERS left!\n"
-	.string "Someone will humble you!$"
+	.string "くやしい！\pでも　つよい　トレーナーが\nまだ　5にん　いるぞ！$"
 
 BattlePyramid_Text_FourTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there are four TRAINERS left!\n"
-	.string "Someone will humble you!$"
+	.string "くやしい！\pでも　つよい　トレーナーが\nまだ　4にん　いるぞ！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there are three TRAINERS left!\n"
-	.string "Someone will humble you!$"
+	.string "くやしい！\pでも　つよい　トレーナーが\nまだ　3にん　いるぞ！$"
 
 BattlePyramid_Text_TwoTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there are two TRAINERS left!\n"
-	.string "Someone will humble you!$"
+	.string "くやしい！\pでも　つよい　トレーナーが\nまだ　2にん　いるぞ！$"
 
 BattlePyramid_Text_OneTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there's one TRAINER left!\n"
-	.string "I'm sure you will be humbled!$"
+	.string "くやしい！\pでも　つよい　トレーナーが\nまだ　1にん　いるぞ！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining2_hns::
-	.string "This is so upsetting!\p"
-	.string "But there are no more TRAINERS\n"
-	.string "who can engage you!$"
+	.string "くやしい！\pもう　きみに　かてる\nトレーナーは　いないよ！$"
 
 BattlePyramid_Text_SevenTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "But there are seven more TRAINERS\n"
-	.string "on this floor. Can you beat them all?$"
+	.string "やるな！\pでも　つよい　トレーナーが\nまだ　7にん　いるぞ！$"
 
 BattlePyramid_Text_SixTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "But there are six more TRAINERS\n"
-	.string "on this floor. Can you beat them all?$"
+	.string "やるな！\pでも　つよい　トレーナーが\nまだ　6にん　いるぞ！$"
 
 BattlePyramid_Text_FiveTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "But there are five more TRAINERS\n"
-	.string "on this floor. Can you beat them all?$"
+	.string "やるな！\pでも　つよい　トレーナーが\nまだ　5にん　いるぞ！$"
 
 BattlePyramid_Text_FourTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "But there are four more TRAINERS\n"
-	.string "on this floor. Can you beat them all?$"
+	.string "やるな！\pでも　つよい　トレーナーが\nまだ　4にん　いるぞ！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "But there are three more TRAINERS\n"
-	.string "on this floor. Can you beat them all?$"
+	.string "やるな！\pでも　つよい　トレーナーが\nまだ　3にん　いるぞ！$"
 
 BattlePyramid_Text_TwoTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "But there are two more TRAINERS\n"
-	.string "on this floor. Can you beat them both?$"
+	.string "やるな！\pでも　つよい　トレーナーが\nまだ　2にん　いるぞ！$"
 
 BattlePyramid_Text_OneTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "But there's still one more TRAINER\n"
-	.string "on this floor. Can you prevail?$"
+	.string "やるな！\pでも　つよい　トレーナーが\nまだ　1にん　いるぞ！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining3_hns::
-	.string "That's pretty impressive!\p"
-	.string "You've gone through all the TRAINERS\n"
-	.string "on this floor.$"
+	.string "やるな！\pもう　きみに　かてる\nトレーナーは　いないよ！$"
 
 BattlePyramid_Text_SevenTrainersRemaining4_hns::
-	.string "Maybe you could sweep through\n"
-	.string "the seven TRAINERS left on this floor.$"
+	.string "まけたよ\pでも　つよい　トレーナーが\nまだ　7にん　いるぞ！$"
 
 BattlePyramid_Text_SixTrainersRemaining4_hns::
-	.string "Maybe you could sweep through\n"
-	.string "the six TRAINERS left on this floor.$"
+	.string "まけたよ\pでも　つよい　トレーナーが\nまだ　6にん　いるぞ！$"
 
 BattlePyramid_Text_FiveTrainersRemaining4_hns::
-	.string "Maybe you could sweep through\n"
-	.string "the five TRAINERS left on this floor.$"
+	.string "まけたよ\pでも　つよい　トレーナーが\nまだ　5にん　いるぞ！$"
 
 BattlePyramid_Text_FourTrainersRemaining4_hns::
-	.string "Maybe you could sweep through\n"
-	.string "the four TRAINERS left on this floor.$"
+	.string "まけたよ\pでも　つよい　トレーナーが\nまだ　4にん　いるぞ！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining4_hns::
-	.string "Maybe you could sweep through\n"
-	.string "the three TRAINERS left on this floor.$"
+	.string "まけたよ\pでも　つよい　トレーナーが\nまだ　3にん　いるぞ！$"
 
 BattlePyramid_Text_TwoTrainersRemaining4_hns::
-	.string "Maybe you could sweep through\n"
-	.string "the two TRAINERS left on this floor.$"
+	.string "まけたよ\pでも　つよい　トレーナーが\nまだ　2にん　いるぞ！$"
 
 BattlePyramid_Text_OneTrainersRemaining4_hns::
-	.string "Maybe you could complete your sweep\n"
-	.string "with the one TRAINER left on this floor.$"
+	.string "まけたよ\pでも　つよい　トレーナーが\nまだ　1にん　いるぞ！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining4_hns::
-	.string "There isn't a single person left who\n"
-	.string "can defeat you now…$"
+	.string "まけたよ\pもう　きみに　かてる\nトレーナーは　いないよ！$"
 
 BattlePyramid_Text_SevenTrainersRemaining5_hns::
-	.string "You may have what it takes to beat\n"
-	.string "the seven expert TRAINERS who remain.$"
+	.string "つよいね\pでも　つよい　トレーナーが\nまだ　7にん　いるぞ！$"
 
 BattlePyramid_Text_SixTrainersRemaining5_hns::
-	.string "You may have what it takes to beat\n"
-	.string "the six expert TRAINERS who remain.$"
+	.string "つよいね\pでも　つよい　トレーナーが\nまだ　6にん　いるぞ！$"
 
 BattlePyramid_Text_FiveTrainersRemaining5_hns::
-	.string "You may have what it takes to beat\n"
-	.string "the five expert TRAINERS who remain.$"
+	.string "つよいね\pでも　つよい　トレーナーが\nまだ　5にん　いるぞ！$"
 
 BattlePyramid_Text_FourTrainersRemaining5_hns::
-	.string "You may have what it takes to beat\n"
-	.string "the four expert TRAINERS who remain.$"
+	.string "つよいね\pでも　つよい　トレーナーが\nまだ　4にん　いるぞ！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining5_hns::
-	.string "You may have what it takes to beat\n"
-	.string "the three expert TRAINERS who remain.$"
+	.string "つよいね\pでも　つよい　トレーナーが\nまだ　3にん　いるぞ！$"
 
 BattlePyramid_Text_TwoTrainersRemaining5_hns::
-	.string "You may have what it takes to beat\n"
-	.string "the two expert TRAINERS who remain.$"
+	.string "つよいね\pでも　つよい　トレーナーが\nまだ　2にん　いるぞ！$"
 
 BattlePyramid_Text_OneTrainersRemaining5_hns::
-	.string "You may have what it takes to beat\n"
-	.string "the one expert TRAINER who remains.$"
+	.string "つよいね\pでも　つよい　トレーナーが\nまだ　1にん　いるぞ！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining5_hns::
-	.string "Your skills are beyond reproach.\p"
-	.string "There are no more TRAINERS here\n"
-	.string "who have any chance of beating you.$"
+	.string "つよいね\pもう　きみに　かてる\nトレーナーは　いないよ！$"
 
 BattlePyramid_Text_SevenTrainersRemaining6_hns::
-	.string "Can you keep winning against\n"
-	.string "the seven remaining TRAINERS?$"
+	.string "おみごと\pでも　つよい　トレーナーが\nまだ　7にん　いるぞ！$"
 
 BattlePyramid_Text_SixTrainersRemaining6_hns::
-	.string "Can you keep winning against\n"
-	.string "the six remaining TRAINERS?$"
+	.string "おみごと\pでも　つよい　トレーナーが\nまだ　6にん　いるぞ！$"
 
 BattlePyramid_Text_FiveTrainersRemaining6_hns::
-	.string "Can you keep winning against\n"
-	.string "the five remaining TRAINERS?$"
+	.string "おみごと\pでも　つよい　トレーナーが\nまだ　5にん　いるぞ！$"
 
 BattlePyramid_Text_FourTrainersRemaining6_hns::
-	.string "Can you keep winning against\n"
-	.string "the four remaining TRAINERS?$"
+	.string "おみごと\pでも　つよい　トレーナーが\nまだ　4にん　いるぞ！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining6_hns::
-	.string "Can you keep winning against\n"
-	.string "the three remaining TRAINERS?$"
+	.string "おみごと\pでも　つよい　トレーナーが\nまだ　3にん　いるぞ！$"
 
 BattlePyramid_Text_TwoTrainersRemaining6_hns::
-	.string "Can you keep winning against\n"
-	.string "the two remaining TRAINERS?$"
+	.string "おみごと\pでも　つよい　トレーナーが\nまだ　2にん　いるぞ！$"
 
 BattlePyramid_Text_OneTrainersRemaining6_hns::
-	.string "Can you keep winning against\n"
-	.string "the last remaining TRAINER?$"
+	.string "おみごと\pでも　つよい　トレーナーが\nまだ　1にん　いるぞ！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining6_hns::
-	.string "There aren't any TRAINERS left that\n"
-	.string "can take you on now…$"
+	.string "おみごと\pもう　きみに　かてる\nトレーナーは　いないよ！$"

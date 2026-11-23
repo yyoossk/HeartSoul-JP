@@ -1,0 +1,134 @@
+## data/maps/BattleFrontier_BattlePyramidLobby_hns/scripts.inc
+@@BattleFrontier_BattlePyramidLobby_Text_HintSteel_hns
+はがねタイプの　ポケモンが\nみえます‥\p‥そして　とても　つよい\nわざに　くるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon_hns
+そらを　とぶ　ポケモンが\nみえます‥\p‥そして　とても　つよい\nわざに　くるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve_hns
+いしの　ちからで　しんか\nした　ものたちが　みえます‥\pほのお　みず　でんきも\nかんじます‥\p‥そして　その　3つの　ちからに\nくるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_HintNormal_hns
+ノーマルタイプの　ポケモンが\nみえます‥\p‥そして　とても　つよい\nわざに　くるしむ　ポケモンが‥
+@@BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot_hns
+うらないを　しんじるか　どうかは\nあなた　しだい‥\pみらいは　いつでも\nかえられる‥\lぶじを　いのって　います‥
+@@BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning_hns
+しってる？\pはしって　いると　トレーナーに\nきづかれて　しょうぶを\lしかけられるんだ\pだから　トレーナーを\nさけたいなら　めを　あわせずに\lそっと　とおりすぎるんだ
+@@BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems_hns
+うわあああああっ！\pどうぐを　たくさん　もってたのに\nまけて　ぜんぶ\lなくしちゃった！\pうわあああああっ！
+@@BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing_hns
+おかえりなさい！\nとんでもない　ことを\lなしとげましたね！\pピラミッドキングを　たおし\nバトルピラミッドを\lせいは　しました！
+@@BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints_hns
+わかき　たんけんしゃよ！\nその　ゆうきを　たたえ\lバトルポイントを\lさしあげます！
+@@BattleFrontier_BattlePyramidLobby_Text_RulesAreListed_hns
+バトルクエストの　ルールが\nかいてある
+@@BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading_hns
+どの　こうもくを\nよみますか？
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules_hns
+ピラミッドを　せいは　すると\nでて　くる　やせいの\lポケモンが　かわります\pたんけん　して　どんな\nポケモンが　でるか\lしらべて　ください
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules_hns
+ピラミッドの　なかでは\nトレーナーが　まちかまえて\lいます\pひとつの　かいに　トレーナーは\nさいだい　8にん\pトレーナーに　かつと\nぼうけんに　やくだつ\lヒントが　もらえます
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules_hns
+ピラミッドの　めいろは\nはいる　たびに\lかわります\pめいろは　くらいので\nきを　つけて　すすんで\lください\pやせいの　ポケモンや　トレーナーに\nかつと　あかるく　なります
+@@BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules_hns
+ピラミッドの　なかでは\nバトルバッグが\lバッグの　かわりに　なります\pバトルバッグは　レベル50と\nオープンレベルで　べつべつに\lあります\pどうぐは　10しゅるいを\n99こずつ　いれられます\pしっぱい　すると　バトルバッグの\nなかみは　なくなります
+## data/maps/BattleFrontier_BattlePyramidFloor_hns/scripts.inc
+@@BattleFacility_TrainerBattle_PlaceholderText_hns
+これは　サンプルの\nメッセージです
+@@gText_BattlePyramidConfirmRest_hns
+バトルピラミッドの　たんけんを\nレポート　して　いったん\lやめます　よろしいですか？
+@@gText_BattlePyramidConfirmRetire_hns
+ピラミッドの　たんけんを\nほんとうに　やめますか？
+## data/maps/BattleFrontier_BattlePyramidTop_hns/scripts.inc
+@@BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo_hns
+よく　ぞ　ここまで！\nバトルピラミッドの　ちょうじょうに\lとうたつ　しました！\pこの　うえは　ピラミッドの\nてんぼうだい　です\pピラミッドを　せいは　した\nものだけが　はいれる\lばしょ　です\pさあ　どうぞ！\nおのぼり　ください！
+@@BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid_hns
+ピラミッドの　あたらしい\nせいはしゃ！\l{PLAYER}の　なを　とどろかせよ！
+@@BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere_hns
+よく　ぞ　ここまで！\pざんねん　ながら　ほんの\nわずかの　さで　にばんめ\lでした！\pわれらが　ボスが　ひとあしさきに\nピラミッドを　せいは　して\lいるのです\pしかし　わかき　たんけんしゃよ‥\nあなたは　トレーナー！\pちからを　しめして　ボスから\nいただきの　えいこうを\lうばいとるのです！\pさあ！　じゅんびが　できたら\nもう　いっぽ　ゆうきを\lだして　ください！
+@@BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure_hns
+わかき　ぼうけんしゃよ‥\pたんけんこそ　さいこうの\nぼうけんだと　おもわんか？\pじぶんの　ちえ！\pじぶんの　ちから！\pじぶんの　ポケモン！\pそして　なにより　みちの\nせかいを　すすむ　じぶんの\lゆうき　だけ‥
+@@BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon_hns
+ああ　そうとも　じんせいは\nすばらしい！\lすばらしい！　な？\pわしは　ジンダイ！\pピラミッドキング\nつまり　ここの　せきにんしゃだ\pみんな　ボスと\nよんで　おる！\pここに　きたと　いう　ことは\nそれだけ　じしんが　あると\lいう　ことだな？\pわっはっは！\nこれは　たのしみだ！
+@@BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle_hns
+さあ！\nその　ゆうきを　しょうぶに\lぶつけて　こい！
+@@BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease_hns
+ジンダイ『わっはっは！\nすばらしい！　じつに\lすばらしい！\pみごとだ！　みとめよう！\nフロンティアパスを\lだしなさい！
+@@BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol_hns
+フロンティアパスに\nブレイブシンボルが\lきざまれた！
+@@BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting_hns
+わかき　たんけんしゃよ！\nまた　あう　ひを\lたのしみに　して　おるぞ！
+@@BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned_hns
+ジンダイ『‥ついに　もどって\nきたな　わかき　たんけんしゃよ‥\pその　ぼうけんへの　あいは\nこころの　おくそこから\lわいて　くる　ようだ‥\pそう‥　わかい　ころの\nわしと　おなじだ‥\p‥　‥　‥ああ‥\pあつい！\pきけんな！\pひっしな！\pいのちがけで　いきる　ことを\nじっかん　した　ぼうけんの\lひびが　もどって　きた‥
+@@BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter_hns
+さあ！\pわしの　ゆうきも\nふりきれて　おるぞ！
+@@BattleFrontier_BattlePyramidTop_Text_EverythingYouHave_hns
+もてる　ちからを　すべて\nぶつけて　こい！\lうけとめて　やる！
+@@BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis_hns
+ジンダイ『わっはっは！\nみごと！\lじつに　すばらしい！\pわかき　たんけんしゃよ！\pわしの　かんぱいだ！\nほれ！　これを　うけとれ！
+@@BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine_hns
+ブレイブシンボルが\nきんいろに　かがやいた！
+@@BattleFrontier_BattlePyramidTop_Text_FarewellForNow_hns
+ああ　わしも　まだまだ\nまなぶ　ことが　ある！\pまた　どこかで　あおう！\nさらばだ　わかき\lたんけんしゃよ！
+@@BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady_hns
+じゅんびが　できたら\nゆうきを　だして\lすすんで　ください
+## data/maps/BattleFrontier_BattleArenaLobby_hns/scripts.inc
+@@BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena_hns
+トレーナーの　とうしが\nためされる　ばしょ！\pバトルアリーナへ\nようこそ！\pわたしは　3たいけつ\nトーナメントの\lあんないがかり　です！
+@@BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge_hns
+バトルアリーナに\nちょうせん　しますか？
+@@BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge_hns
+また　の　ちょうせんを\nおまち　して　おります！
+@@BattleFrontier_BattleArenaLobby_Text_ExplainChallenge_hns
+バトルアリーナでは　3たいけつ\nトーナメントを　おこないます\pさんかしゃは　みな　ポケモン\n3びきで　エントリー\lします\p3びきは　でる　じゅんばんに\nならべて　ください\pしょうぶでは　きめた　じゅんに\n1ぴきずつ　でて　きます\pいちど　でた　ポケモンは\nしょうぶが　つくまで\lひっこめられません\p3ターンで　しょうぶが\nつかなければ　はんていに\lなります\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかないと　ちょうせんを\nつづけられません\p7にんの　トレーナーに\nれんしょう　すれば\lバトルポイントを\lさしあげます
+@@BattleFrontier_BattleArenaLobby_Text_OkayToSave_hns
+バトルアリーナへ　ごあんない\nする　まえに　レポートを\lかきます　よろしいですか？
+@@BattleFrontier_BattleArenaLobby_Text_WhichLevelMode_hns
+バトルアリーナには　レベル50と\nオープンレベルの　2つの\lクラスが　あります\lどちらに　しますか？
+@@BattleFrontier_BattleArenaLobby_Text_SelectThreeMons_hns
+よろしい　では　ポケモンを\n3びき　えらんで　ください
+@@BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen_hns
+ちょうせんしゃよ！\pエントリーに　ひつような\nポケモンが　3びき\lいません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsEnd_hns
+じゅんびが　できたら\nまた　おこし　ください
+@@BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50_hns
+ちょうせんしゃよ！\pエントリーに　ひつような\nポケモンが　3びき\lいません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pどれも　レベル50　いか\nで　なければ　なりません\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}
+@@BattleFrontier_BattleArenaLobby_Text_GuideYouToArena_hns
+それでは　バトルアリーナへ\nごあんない　いたします
+@@BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown_hns
+ちょうせんしゃよ！\pまえかい　レポートを　かかずに\nでんげんを　きりましたね？\pざんねん　ながら　その　ため\nちょうせんは　しっかく\lと　なりました\pもちろん　あらたに\nちょうせん　できます
+@@BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins_hns
+7にんの　トレーナーに\nみごと　れんしょう！\lおめでとう　ございます！
+@@BattleFrontier_BattleArenaLobby_Text_RecordAchievement_hns
+きろくを　のこします\nレポートを　かくので\lおまち　ください
+@@BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize_hns
+7れんしょうを　きねんして\nしょうひんを\lさしあげます
+@@BattleFrontier_BattleArenaLobby_Text_ReceivedPrize_hns
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった
+@@BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize_hns
+おや？\nバッグが　いっぱいの\lようです\pあけてから　しょうひんを\nうけとりに　きて　ください
+@@BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave_hns
+さんか　ありがとう\nございました！\pレポートを　かくので\nおまち　ください
+@@BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge_hns2_hns
+また　の　ちょうせんを\nおまち　して　おります！
+@@BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame_hns
+おまち　して　おりました\pバトルアリーナへ　ごあんない\nする　まえに　レポートを\lかきます　おまち　ください
+@@BattleFrontier_BattleArenaLobby_Text_RecordLastMatch_hns
+さいごの　バトルアリーナの\nしょうぶを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack_hns
+はんていで　まけた‥\pこうげき　しないで\nまもりの　わざ　ばかり\lつかったのが　だめ\lだったかな‥
+@@BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked_hns
+はんていで　かった！\pあいての　ポケモンに\nこうげきを　あて　つづけたのが\lよかった　みたい！
+@@BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw_hns
+しょうぶは　ひきわけ\nだった\pじかんぎれの　とき　おたがいの\nポケモンの　HPが\lおなじ　くらい　だったんだ
+@@BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant_hns
+バトルアリーナでは　ポケモンの\nじゅんばんが　すごく\lだいじ　なんだ\pたとえば　1ぴきめが\nにがてな　タイプが　あるなら\l2ひきめは　その　あいてに\lこうかばつぐんの　わざを\lもつ　ポケモンに　するとか\pそう　すると　いい\nチームに　なると　おもうよ
+@@BattleFrontier_BattleArenaLobby_Text_RulesAreListed_hns
+3たいけつトーナメントの\nルールが　かいてある
+@@BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading_hns
+どの　こうもくを\nよみますか？
+@@BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules_hns
+3たいけつトーナメントには\nふつうの　しょうぶと\lちがう　ルールが　あります\pまず　しょうぶは\n3ターンで　おわります\p3ターンで　きまらなければ\nはんていに　なります\pしんぱんが　ポケモンの\nたたかいぶりを　みて\lしょうしゃを　きめます\pまた　しょうぶが　つくまで\nポケモンを　いれかえる\lことは　できません
+@@BattleFrontier_BattleArenaLobby_Text_ExplainMindRules_hns
+ひとつめの　はんていは\nこころ　どれだけ　せっきょく\lてきに　たたかったかを\lみます\pこうげきの　わざを\nどれだけ　つかったかで\lはんてい　します
+@@BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules_hns
+ふたつめの　はんていは\nわざ　わざを　どれだけ\lうまく　つかったかを　みます\pわざが　せいこう\nすると　あがります\pわざが　しっぱい\nすると　さがります\pこうげきわざは　こうかばつぐん\nなら　あがり　いまひとつ\lなら　さがります\pまもる　や　みきり　などの\nわざでは　あがりません\pあいての　まもる　や　みきりで\nこうげきが　はずれても\lさがりません
+@@BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules_hns
+みっつめの　はんていは\nからだ　しょうぶの　おわりに\lHPが　どれだけ\lのこったかで　きまります\pしょうぶの　はじめと\nおわりの　HPを　くらべて\lはんてい　します
