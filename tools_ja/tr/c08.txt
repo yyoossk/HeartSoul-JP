@@ -1,0 +1,145 @@
+## data/text/tv.inc
+@@SmartShopper_Text_RandomComment4
+インタビュアー『わたしも　まえに\n{STR_VAR_2}を　たくさん\lかった　ことが　あります\pでも　おおすぎて\nこうかい　しました‥\pそれ　からは　ほんとうに\nひつような　ぶん　だけ\lかう　ように　しています‥\pおっと！\pわたしの　はなしは\nどうでも　いいですね！
+@@SmartShopper_Text_SecondItem
+てんいん『{STR_VAR_1}さんは\n{STR_VAR_2}も　{STR_VAR_3}こ\lまとめがい　されました\pインタビュアー『それは　かしこい\n{STR_VAR_2}も　いい\lどうぐ　ですね
+@@SmartShopper_Text_ThirdItem
+てんいん『それと　{STR_VAR_2}も\n{STR_VAR_3}こ　かって\lいかれました
+@@SmartShopper_Text_DuringSale
+てんいん『しかも　おおうりだしの\nときでした　かしこい\lかいもの　ですね
+@@SmartShopper_Text_OutroNormal
+インタビュアー『ふむ‥　{STR_VAR_1}は\nかなりの　かいもの\lじょうず　みたいですね！\p{STR_VAR_1}の　かいものの\nごうけいは‥\p{STR_VAR_2}えん？！\nすごい　きんがく！\pおっと！　じかんです！\nまた　つぎの　ほうそうで！
+@@SmartShopper_Text_IsVIP
+てんいん『{STR_VAR_1}さんは\nまちがいなく　VIPの\lおきゃくさま　です
+@@SmartShopper_Text_ClerkMax
+てんいんさんに　はなしを\nきいて　みましょう\pこんにちは　しょうばいは\nいかが　ですか？\pてんいん『それが　もう　すごい\nうれゆきで　て　が\lまわらない　ほど　です\pさいきん　{STR_VAR_1}と　いう\nトレーナーが　{STR_VAR_2}を\lまとめがい　されまして\p{STR_VAR_2}の　ざいこが\nほとんど　なくなりました\pそんなに　かう　おきゃくさまが\nいるとは　ゆめにも　おもい\lませんでした！\pインタビュアー『では　100こか\n200こ　くらい　うれた？\pてんいん『いえいえ　もっと\nずっと　たくさん　です！\pインタビュアー『なんと！\n{STR_VAR_1}は　とくべつな\lおきゃくさん　ですね！\pてんいん『{STR_VAR_1}さんは\nまちがいなく　VIPの\lおきゃくさま　です
+@@SmartShopper_Text_OutroMax
+インタビュアー『うーん‥\nすごい　ですね\pでも　どうして　そんなに\nかう　ひつようが\lあったのでしょう？\p‥　‥\pなぞは　ふかまるばかり　ですが\nきょうは　ここまで\lまた　つぎの　ほうそうで！\pそれにしても　{STR_VAR_1}は\nなぞの　ひと　ですね‥
+@@gTVWorldOfMastersText00
+たつじんの　せかい\pみなさん　こんにちは\p{STR_VAR_1}と　いう　トレーナーを\nごぞんじ　でしょうか\p{STR_VAR_1}は　ポケモン　つかまえの\nたつじん　として\lゆうめい　です\p{STR_VAR_1}の　ポケモンさがしは\nじぶんの　あしで　ていねいに\lさがす　ことが　すべて\pある　きねんすべき　ひ\nトレーナーは　{STR_VAR_2}ほ\lあるきました\pその　ひ　つかまえた　ポケモンは\nなんと　{STR_VAR_3}ひき！
+@@gTVWorldOfMastersText01
+この　すばらしい　きろくは\nトレーナーと　{STR_VAR_1}の\lしんらいが　あってこそ\lでしょう
+@@gTVWorldOfMastersText02
+たつじんが　その　ひ　さいごに\nつかまえたのは　{STR_VAR_2}\lふきんの　{STR_VAR_3}\pこの　ポケモンは　きろくの\nあかしと　して　とくべつな\lそんざい　の　ようです\pうでに　じしんの　ある\nトレーナーは　この　きろくに\lちょうせん　して　みては？\pきょうは　ここまで\nまた　みて　くださいね
+@@gTVTodaysRivalTrainerText00
+きょうの　ライバルトレーナー！\pポケモントレーナーの\nみなさん　こんにちは！\lきょうも　げんき　ですか？\pきょうも　いつもの　ように\nライバルを　ひとり\lしょうかい　します！
+@@gTVTodaysRivalTrainerText07
+きょうの　ライバルトレーナーは\nいま　{STR_VAR_3}あたりに\lいる　{STR_VAR_1}！\p{STR_VAR_1}が　ずかんに\nとうろく　した　ポケモンは\l{STR_VAR_2}ひき　です
+@@gTVTodaysRivalTrainerText08
+きょうの　ライバルトレーナーは\nいま　ひみつきちに　いる\l{STR_VAR_1}！\p{STR_VAR_1}が　ずかんに\nとうろく　した　ポケモンは\l{STR_VAR_2}ひき　です
+@@gTVTodaysRivalTrainerText09
+きょうの　ライバルトレーナーは\n{STR_VAR_1}！\p{STR_VAR_1}が　ずかんに\nとうろく　した　ポケモンは\l{STR_VAR_2}ひき　です
+@@gTVTodaysRivalTrainerText10
+きょうの　ライバルトレーナーは\nいま　ふねに　のっている\l{STR_VAR_1}！\p{STR_VAR_1}が　ずかんに\nとうろく　した　ポケモンは\l{STR_VAR_2}ひき　です
+@@gTVTodaysRivalTrainerText01
+ライバルの　バッジの　かずは？\nなんと　{STR_VAR_1}こ！
+@@gTVTodaysRivalTrainerText02
+でも　ライバルは　まだ\nバッジを　1こも\lもって　いません！
+@@gTVTodaysRivalTrainerText03
+ライバルは　まだ　バトル\nフロンティアの　シンボルを\l1こも　もって　いません
+@@gTVTodaysRivalTrainerText04
+ライバルの　バトルフロンティアの\nシンボルの　かずは？\pきんの　シンボル:{STR_VAR_1}こ！\nぎんの　シンボル:{STR_VAR_2}こ！
+@@gTVTodaysRivalTrainerText05
+ライバルは　バトルフロンティアで\nバトルポイントを\l{STR_VAR_1}ポイント　ためて　います
+@@gTVTodaysRivalTrainerText06
+{STR_VAR_1}と　くらべて\nあなたは　どう　でしたか？\pぼうけんは　つづきます！\pトレーナーの　みなさん！\pライバルに　まけないよう\nまえへ　すすみましょう！
+@@TrendWatcher_Text_Intro
+ムロ　はやりもの　ネットワーク！\pしかい『よう　みんな！\nムロの　さいしんの\lはやりを　おとどけ　するぜ\pきょうの　ゲストは　ムロの\nことなら　なんでも　しってる\lこの　おじいさんだ\pおじいさん『よろしく\pしかい『さっそく　ほんだいだ\pムロの　みんなが　いま\nむちゅうな　ものは　なに？\pおじいさん『{STR_VAR_1}　{STR_VAR_2}\pしかい『{STR_VAR_1}　{STR_VAR_2}\nですか？\pおじいさん『いや\p{STR_VAR_1}　{STR_VAR_2}は\nまったく　はやらなかった\pその　はなしを　ききたいかね？\pしかい『いや　しりたいのは\nいま　はやって　いる　もの\lなんだけど‥
+@@TrendWatcher_Text_MaleTaughtMePhrase
+おじいさん『{STR_VAR_1}　{STR_VAR_2}は\nミシロの　{STR_VAR_3}が\lはやって　いると\lおしえて　くれたんじゃ‥
+@@TrendWatcher_Text_FemaleTaughtMePhrase
+おじいさん『{STR_VAR_1}　{STR_VAR_2}は\nミシロの　{STR_VAR_3}が\lはやって　いると\lおしえて　くれたんじゃ‥
+@@TrendWatcher_Text_PhraseWasHopeless
+じゃが　まったく　だめ　じゃった\p{STR_VAR_1}　{STR_VAR_2}まつり！\p{STR_VAR_1}　{STR_VAR_2}コンテスト！\pみんなに　いっしょうけんめい\nおしえたんじゃが‥\pきっと　{STR_VAR_1}の\nところが　いけなかったんじゃ‥\pしかい『あの　すみません\nいま　はやってる　ものを\lおしえて　ほしいんですが‥
+@@TrendWatcher_Text_MaleTellMeBigger
+おじいさん『{STR_VAR_3}！\nたのむ　{STR_VAR_1}　{STR_VAR_2}\lより　もっと　すごい\lことばを　おしえて　くれ！
+@@TrendWatcher_Text_FemaleTellMeBigger
+おじいさん『{STR_VAR_3}！\nたのむ　{STR_VAR_1}　{STR_VAR_2}\lより　もっと　すごい\lことばを　おしえて　くれ！
+@@TrendWatcher_Text_Outro
+しかい『‥えー‥　という　わけで\nはやりもの　ずきの\lみんな！\p{STR_VAR_1}　{STR_VAR_2}は‥\nムロでは　はやらなかったぜ！\pじかんだ　また　あおうぜ！\pおじいさん『{STR_VAR_1}　{STR_VAR_2}！
+@@gTVHoennTreasureInvestigatorsText00
+ホウエン　おたから　たんけんたい！\pみんな　こんにちは！\nさいきん　おたからは\lみつけた？\pきょうも　あちこちから\nとどいた　もくげき　じょうほうを\lしらべるよ！\pまずは　おてがみ　から\n『{STR_VAR_1}　はっけん！』\lだって！
+@@gTVHoennTreasureInvestigatorsText01
+これは　みて　みなくちゃ！\nよんで　みるね\p‥たんけんたいの　みなさん\nおげんき　ですか\pこのまえ　{STR_VAR_3}の\nあたりで　{STR_VAR_2}を\lみかけました\pその　トレーナーは\n{STR_VAR_1}を　みつけて\lいました　うらやましい\p‥やったね　{STR_VAR_2}！\pみんなも　ダウジングマシンで\nさがして　みよう！\pわくわく　する　しらせを\nまってるよ！
+@@gTVHoennTreasureInvestigatorsText02
+これは　みて　みなくちゃ！\nよんで　みるね\p‥たんけんたいの　みなさん\nおげんき　ですか\pこのまえ　ふねの　うえで\n{STR_VAR_2}を　みかけました\pその　トレーナーは\n{STR_VAR_1}を　みつけて\lいました　うらやましい\p‥やったね　{STR_VAR_2}！\pみんなも　ダウジングマシンで\nさがして　みよう！\pわくわく　する　しらせを\nまってるよ！
+@@gTVFindThatGamerText00
+ゲーマーを　さがせ！\pゲーマーの　みんな！\n{STR_VAR_2}の　ちょうしは\lどう？\pきょうも　ゲームコーナーに\nきた　すごうでの\lトレーナーを　しょうかい！\pきょうの　ナンバーワン\nゲーマーは‥\l{STR_VAR_1}！
+@@gTVFindThatGamerText01
+{STR_VAR_1}は　{STR_VAR_2}で\nコインを　{STR_VAR_3}まいも\lかせいだ！\p『{STR_VAR_1}が　くると\nコインを　たくさん\lよういしなきゃ』\pゲームコーナーの　てんいんは\nそう　つぶやいて　いるとか！\pみんなも　ゲームコーナーで\n{STR_VAR_2}を　あそぶ　ときは\l{STR_VAR_1}の　ように\lコインに　ちゅうい！\pもりあがる　ゲームコーナー\nから　おとどけ　しました！\lきょうは　ここまで！
+@@gTVFindThatGamerText02
+{STR_VAR_1}は　{STR_VAR_2}で\nコインを　{STR_VAR_3}まい\lすって　しまった！\p『{STR_VAR_1}が　くると\nコインが　よく　うれる』\pゲームコーナーの　てんいんは\nそう　いって　いるとか！
+@@gTVFindThatGamerText03
+みんなも　ゲームコーナーで\n{STR_VAR_2}を　あそぶ　ときは\l{STR_VAR_1}の　ように\lコインに　ちゅうい！\pもりあがる　ゲームコーナー\nから　おとどけ　しました！\lきょうは　ここまで！
+@@gTVBreakingNewsText00
+ニュース　そくほう！
+@@gTVBreakingNewsText01
+{STR_VAR_1}が　めずらしい\n{STR_VAR_2}を　つかまえた！\p{STR_VAR_3}ふきんから\nなまちゅうけい　です！\pさきほど　ここで　{STR_VAR_1}が\nめずらしい　{STR_VAR_2}の\lほかくに　せいこう　しました！
+@@gTVBreakingNewsText02
+めずらしい　{STR_VAR_2}に\nであった　{STR_VAR_1}は\lポケモンの　{STR_VAR_3}を\lくりだしました
+@@gTVBreakingNewsText03
+バトルで　なげた\nボールの　かずは　{STR_VAR_1}こ\pさいごに　なげた　{STR_VAR_2}で\nついに　めずらしい　ポケモンを\lつかまえました
+@@gTVBreakingNewsText04
+その　しゅんかん　{STR_VAR_2}に\n{STR_VAR_1}の　よろこびの\lさけびが　ひびきわたりました\p{STR_VAR_1}が　ちょっと\nうらやましい　です\lわたしも　さけびたい\p‥しあわせな　げんばから\nおとどけ　しました！
+@@gTVBreakingNewsText05
+{STR_VAR_1}　めずらしい\n{STR_VAR_2}の　ほかくに\lしっぱい！\p{STR_VAR_3}ふきんから\nなまちゅうけい　です！\pここで　{STR_VAR_1}が\nめずらしい　{STR_VAR_2}の\lほかくに　しっぱい　しました！
+@@gTVBreakingNewsText06
+めずらしい　{STR_VAR_2}に\nであった　{STR_VAR_1}は\lポケモンの　{STR_VAR_3}を\lくりだしました
+@@gTVBreakingNewsText07
+トレーナーは　{STR_VAR_2}に\n{STR_VAR_1}を　つかわせ\pうっかり　めずらしい\nポケモンを　たおして\lしまいました‥
+@@gTVBreakingNewsText12
+ところが　{STR_VAR_1}は\nめずらしい　{STR_VAR_2}を\lみて　あわてて　しまい\pおもわず　{STR_VAR_3}に\nこうげきを　めいれい\pうっかり　めずらしい\nポケモンを　たおして\lしまいました
+@@gTVBreakingNewsText08
+その　しゅんかん　{STR_VAR_2}に\n{STR_VAR_1}の　くやしさの\lさけびが　ひびきわたりました‥
+@@gTVBreakingNewsText09
+ところが　{STR_VAR_1}は\nボールを　つかいきって\lしまった　ようです\pめずらしい　{STR_VAR_2}との\nバトルを　あきらめるしか\lありませんでした\pその　しゅんかん　{STR_VAR_3}に\n{STR_VAR_1}の　くやしさの\lさけびが　ひびきわたりました‥
+@@gTVBreakingNewsText10
+ところが　{STR_VAR_2}は\nとつぜん　にげだしました\pその　しゅんかん　{STR_VAR_3}に\n{STR_VAR_1}の　くやしさの\lさけびが　ひびきわたりました‥
+@@gTVBreakingNewsText11
+{STR_VAR_1}の　きもちが\nよく　わかります\lわたしも　さけびたく　なります\p‥かなしい　げんばから\nおとどけ　しました！
+@@gTVSecretBaseVisitText00
+みなさん　こんにちは！\nひみつきち　ほうもんの\lじかん　です\pきょうは　{STR_VAR_1}の\nひみつきちを　たずねます\p{STR_VAR_1}は　どんな\nひみつきちに　して　いるのか？\pみて　みましょう！\n‥　‥　‥　‥　‥　‥
+@@gTVSecretBaseVisitText01
+おお！\nすばらしい！\pこの　{STR_VAR_2}‥\nこんな　ところに　ある\lとは　おもいません　でした！
+@@gTVSecretBaseVisitText02
+おお！\nこれは　すごい！\pかぐも　グッズも\nひとつも　ありません！\pふつうの　ひとには\nまね　できない　だいたんさ！\pシンプル　ですが\nワイルドさが　あふれて　います！\pまいりました　{STR_VAR_1}\nさすが　です！
+@@gTVSecretBaseVisitText03
+おお！　なるほど！\nよく　わかります！\pこの　{STR_VAR_2}が\nここに　ある　ことで‥\lメッセージが　つたわります！
+@@gTVSecretBaseVisitText04
+おお！　なるほど！\nよく　わかります！\pこの　スペースは　わざと\nグッズを　おいて　いない\lのです！\pメッセージが　つたわります！
+@@gTVSecretBaseVisitText05
+ふうう！\p{STR_VAR_2}と\n{STR_VAR_3}の　くみあわせ！\pまさに　ゆめの\nコンビ　です！
+@@gTVSecretBaseVisitText06
+ふうう！\pこの　{STR_VAR_2}を\nここに　おくとは‥\pひみつきち　ぜんたいに\nそんざいかんが　あふれて\lいます！
+@@gTVSecretBaseVisitText07
+ふうう！\pここには　なにも\nおいて　いません\pこの　なにも　ない　くうかんが\nひみつきち　ぜんたいに\lえいきょう　して　います
+@@gTVSecretBaseVisitText08
+おっ！\n{STR_VAR_1}が　かえって　きた！\lしょうぶを　いどみましょう！\p‥　‥　‥　‥　‥　‥\n‥　‥　‥　‥　‥　‥
+@@gTVSecretBaseVisitText09
+ふう‥\n{STR_VAR_1}には　かないません\pトレーナーの　ポケモンは\nまさに　チャンピオンの\lなに　ふさわしい　ものでした\p{STR_VAR_1}の　トレーナーとしての\nつよさが　よく　わかりました\p{STR_VAR_2}が　{STR_VAR_3}を\nおぼえて　いた　ことから‥\p{STR_VAR_1}が　どんな\nトレーナーか　わかります\pほんとうに　べんきょうに\nなりました！
+@@gTVSecretBaseVisitText10
+ひえー！\n{STR_VAR_1}には　かないません\pトレーナーの　ポケモンは\nとんでもなく　つよかった！\p{STR_VAR_1}の　トレーナーとしての\nねばりづよさが　よく\lわかりました\p{STR_VAR_2}が　{STR_VAR_3}を\nおぼえて　いた　ことから‥\p{STR_VAR_1}が　どんな\nトレーナーか　わかります\pほんとうに　べんきょうに\nなりました！
+@@gTVSecretBaseVisitText11
+ふうう！\n{STR_VAR_1}には　かないません\pトレーナーの　ポケモンは\nバランス　よく　そだてられて\lいました\p{STR_VAR_1}の　トレーナーとしての\nおもいやりが　よく\lわかりました\p{STR_VAR_2}が　{STR_VAR_3}を\nおぼえて　いた　ことから‥\p{STR_VAR_1}が　どんな\nトレーナーか　わかります\pほんとうに　べんきょうに\nなりました！
+@@gTVSecretBaseVisitText12
+いやはや！\n{STR_VAR_1}には　かないません\pトレーナーの　ポケモンは\nこれからの　せいちょうが\lたのしみ　でした\p{STR_VAR_1}の　ゆめと\nきぼうが　あらわれて\lいました\p{STR_VAR_2}が　{STR_VAR_3}を\nおぼえて　いた　ことから‥\p{STR_VAR_1}が　どんな\nトレーナーか　わかります\pほんとうに　べんきょうに\nなりました！
+@@gTVSecretBaseVisitText13
+いや　すばらしい\nひみつきち　でした！\pみなさんも　きかいが　あれば\n{STR_VAR_1}の　ひみつきちを\lたずねて　みて　ください\pそれでは　また　つぎの\nほうそうで！
+@@gTVPokemonLotteryWinnerFlashReportText00
+わくわく！\nどきどき！\pポケモンくじ　とうせんしゃ\nそくほう！\pこんにちは！　ミナモデパート\n1かいの　ポケモンくじ\lコーナーから　なまちゅうけい\lです！\pきょうも　また　ラッキーな\nトレーナーが　あらわれ\lました！\pその　トレーナーの　なまえは‥\n{STR_VAR_1}！\p{STR_VAR_1}は　{STR_VAR_2}に\nとうせん　して　{STR_VAR_3}を\lもちかえり　ました！\p{STR_VAR_1}！\nおめでとう　ございます！\pみなさんも　みてる　だけで\nなく　ちょうせん　しよう！\pミナモデパート　いちどうも\nまた　の　おこしを　おまち\lしています！\pホウエン　いちの　しなぞろえ\nミナモデパートから\lおとどけ　しました！
+@@gTVThePokemonBattleSeminarText00
+ポケモン　バトルセミナー！\pほかの　ひとの　バトルから\nまなべる　ことを\lしらべます\pきょうは　{STR_VAR_1}の\nバトルを　とりあげます\p{STR_VAR_1}の　{STR_VAR_2}は\n{STR_VAR_3}と　たたかって\lいました‥
+@@gTVThePokemonBattleSeminarText01
+そして　{STR_VAR_2}に\n{STR_VAR_3}を　つかった‥\pうーん‥　{STR_VAR_1}！\nそれは　まちがいだ！
+@@gTVThePokemonBattleSeminarText02
+その　だめな　わざの　ほかに\nトレーナーの　{STR_VAR_1}は
+@@gTVThePokemonBattleSeminarText03
+{STR_VAR_1}　{STR_VAR_2}\n{STR_VAR_3}を　おぼえて　いた
+@@gTVThePokemonBattleSeminarText04
+{STR_VAR_1}と\n{STR_VAR_2}を　おぼえて　いた
+@@gTVThePokemonBattleSeminarText05
+{STR_VAR_2}を　おぼえて　いた
+@@gTVThePokemonBattleSeminarText06
+では　この　ばめんで\nなにを　つかう　べき\lだったのか？\p‥　‥　‥　‥　‥　‥\n{STR_VAR_1}だ！\p{STR_VAR_1}の　ほうが\n{STR_VAR_2}より　ぜったいに\lよかった！\pみなさんも　この　れいから\nまなんで　あたまを　つかって\lたたかおう！\pそれでは　また！
+@@gTVTrainerFanClubText00
+みんな　いっしょに！\nトレーナー　ファンクラブ！\pしかい『みんな　もりあがってる？\nきょうは　だいにんきの\lトレーナー　{STR_VAR_1}の\lファンが　あつまったよ！\pファン『うおおおおー！\pファン『{STR_VAR_1}！\pしかい『みんな！\n{STR_VAR_1}は　すき　かー？！\pファン『だいすきー！\pしかい『{STR_VAR_1}の　どこが\nすき　なんだー？！
