@@ -11,10 +11,8 @@ Gate_MahoganyTown_Route43_EventScript_CopAfter::
 	end
 
 Route43MahoganyGate_Text_Officer:
-    .string "Only people headed up to LAKE OF\n"
-    .string "RAGE have been through here lately.$"
+	.string "さいきん　ここを　とおるのは\nいかりのみずうみへ\lいく　ひと　ばかりだ$"
 
 Route43MahoganyGate_Text_Officer_RocketsCleared:
-    .string "Nobody goes up to LAKE OF RAGE\n"
-    .string "these days.$"
+	.string "さいきんは　いかりのみずうみに\nいく　ひとは　いないな$"
 

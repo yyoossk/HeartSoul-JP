@@ -31,19 +31,10 @@ SafariZoneGate_PokemonCenter_Text_Boy::
 	end
 
 SafariZoneGate_PokemonCenter_Text_NPC1:
-	.string "Those who come to a POKéMON CENTER\n"
-	.string "often take good care of their POKéMON.\p"
-	.string "Wouldn't you agree?$"
+	.string "ポケモンセンターに　くる　ひとは\nポケモンを　だいじに　する\lひとが　おおい\pそう　おもわない？$"
 
 SafariZoneGate_PokemonCenter_Text_NPC2:
-	.string "After a long walk in the mountains to\n"
-	.string "find a POKéMON CENTER, when you're\l"
-	.string "just about to fall flat...\p"
-	.string "Then it feels like you are in paradise!$"
+	.string "やまを　ながく　あるいて\nたおれそうな　ときに\lポケモンセンターを\lみつけると‥\pまるで　てんごくに\nいる　きぶんだよ！$"
 
 SafariZoneGate_PokemonCenter_Text_SafariSong:
-	.string "Safari, safari, it is so much fun.\n"
-	.string "Safari, safari, so interesting, huh!\p"
-	.string "So many POKéMON are waiting for us!\p"
-	.string "...That's a song I made up.\n"
-	.string "I sing it when I am in the SAFARI ZONE.$"
+	.string "サファリ　サファリ　たのしいな\nサファリ　サファリ　おもしろい\pポケモン　いっぱい\nまってるよ！\p‥ぼくが　つくった　うた\nサファリゾーンで　うたうんだ$"

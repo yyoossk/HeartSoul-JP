@@ -41,28 +41,20 @@ Route32_PokemonCenter_EventScript_FishingGuru3::
 
 
 Route32_Pokecenter_Text_FishingGuruQuestion:
-	.string "This is a great fishing spot.\p"
-	.string "You saw people fishing?\n"
-	.string "How about you?\p"
-	.string "Would you like one of my RODS?$"
+	.string "ここは　いい　つりばだ\pつりを　してる　ひとを\nみたかい？　きみは　どうだ？\pわしの　つりざおを\nひとつ　やろうか？$"
 
 Route32_Pokecenter_Text_FishingGuruYes:
-	.string "Heh, that's good to hear.\p"
-	.string "Now you're an angler too!$"
+	.string "へへ　そう　こなくちゃ\pこれで　きみも\nつりびとだ！$"
 
 Route32_Pokecenter_Text_FishingGuruGiveRod:
-	.string "Fishing is great!\p"
-	.string "If there's water, be it the sea or\n"
-	.string "a stream, try out your ROD.$"
+	.string "つりは　いいぞ！\pうみでも　かわでも　みずが\nあったら　つりざおを\lつかって　みな$"
 
 Route32_Pokecenter_Text_FishingGuruNo:
-	.string "Oh. That's rather disappointing…$"
+	.string "そうか‥　ざんねんだ‥$"
 
 Route32_Pokecenter_Text_FishingGuruAfter:
-	.string "Yo, kid. How are they biting?$"
+	.string "よう　ぼうず\nつれてるか？$"
 
 Route32_Pokecenter_Text_CooltrainerF:
-	.string "What should I make my POKéMON hold?\p"
-	.string "Maybe an item that increases\n"
-	.string "ATTACK power…$"
+	.string "ポケモンに　なにを\nもたせようかな？\pこうげきりょくが　あがる\nどうぐ　とか‥$"
 

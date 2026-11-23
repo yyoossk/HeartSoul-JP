@@ -330,56 +330,22 @@ VerdanturfTown_BattleTentLobby_hns_EventScript_ExitRules::
 	end
 
 VerdanturfTown_BattleTentLobby_hns_Text_MonsReluctantToUseDislikedMoves:
-	.string "If it doesn't like a certain move,\n"
-	.string "a POKéMON will be reluctant to use it.\p"
-	.string "It doesn't matter how strong it is,\n"
-	.string "either.\p"
-	.string "For example, a POKéMON with a GENTLE\n"
-	.string "nature probably won't enjoy hurting\l"
-	.string "its opponents.\p"
-	.string "If it can't seem to live up to its\n"
-	.string "potential, it's probably failing at\l"
-	.string "using a disliked move against its will.$"
+	.string "ポケモンは　きらいな　わざを\nつかいたがらない\pどんなに　つよくても\nかんけい　ない\pたとえば　おだやかな　せいかくの\nポケモンは　あいてを\lきずつけるのを　いやがる\pちからを　だしきれない　なら\nきらいな　わざを　むりに\lつかわされて　いるのかもね$"
 
 VerdanturfTown_BattleTentLobby_hns_Text_GentleMonsScaryIfAngry:
-	.string "My big sister is gentle usually.\n"
-	.string "But when she gets angry,\l"
-	.string "she's really, really scary!\p"
-	.string "I bet a gentle POKéMON will be scary\n"
-	.string "if it gets angry!$"
+	.string "おねえちゃん　ふだんは\nやさしいけど　おこると\lすっごく　こわいの！\pやさしい　ポケモンも\nおこったら　きっと　こわいよ！$"
 
 VerdanturfTown_BattleTentLobby_hns_Text_AttractionRunsDeep:
-	.string "My feelings toward my POKéMON…\n"
-	.string "The attraction runs deep…\p"
-	.string "Oh, hi, you didn't see that, did you?\n"
-	.string "Well, it doesn't matter.\p"
-	.string "How would you like this TM for\n"
-	.string "your POKéMON?$"
+	.string "ポケモンへの　わたしの　おもい‥\nとても　ふかいの‥\pあら　みてた？\nまあ　いいわ\pこの　わざマシン\nあなたの　ポケモンに　どう？$"
 
 VerdanturfTown_BattleTentLobby_hns_Text_AttractionMutual:
-	.string "My feelings toward my POKéMON…\n"
-	.string "I'm sure the attraction is mutual!\p"
-	.string "They battle exactly the way I want\n"
-	.string "them to!$"
+	.string "ポケモンへの　わたしの　おもい‥\nきっと　りょうおもいよ！\pおもった　とおりに\nたたかって　くれるもの！$"
 
 VerdanturfTown_BattleTentLobby_hns_Text_TaughtWhatKindsOfMoves:
-	.string "What kind of moves have you taught\n"
-	.string "your POKéMON?\p"
-	.string "I think you would give yourself\n"
-	.string "an advantage if they knew how to\l"
-	.string "heal or protect themselves.$"
+	.string "ポケモンに　どんな　わざを\nおぼえさせてる？\pかいふくや　まもりの　わざが\nあると　ゆうりに　なると\lおもうよ$"
 
 VerdanturfTown_BattleTentLobby_hns_Text_ScottCanMeetToughTrainers:
-	.string "SCOTT: Hey there, {PLAYER}{KUN}!\n"
-	.string "I thought I might see you here.\p"
-	.string "A BATTLE TENT's a place where\n"
-	.string "you can meet tough TRAINERS.\p"
-	.string "It doesn't matter what the rules are,\n"
-	.string "or how battles are waged, either.\p"
-	.string "{PLAYER}{KUN}, I expect you to do\n"
-	.string "the best you can!$"
+	.string "エニシダ『やあ　{PLAYER}{KUN}！\nここで　あえると　おもってたよ\pバトルテントは　つよい\nトレーナーに　であえる　ばしょ\pルールや　たたかいかたは\nかんけい　ない\p{PLAYER}{KUN}　ぜんりょくを\nだして　くれよ！$"
 
 VerdanturfTown_BattleTentLobby_hns_Text_ScottVisitRegularly:
-	.string "SCOTT: I visit here regularly in hopes\n"
-	.string "of seeing tough TRAINERS in action\l"
-	.string "in whatever the situation.$"
+	.string "エニシダ『どんな　じょうきょう　でも\nつよい　トレーナーの　たたかいが\lみたくて　よく　くるんだ$"

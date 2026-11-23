@@ -240,14 +240,10 @@ Route35NationalParkGate_Text_MakeRoom:
 	.string "あら‥　てもちも　パソコンの\nボックスも　いっぱい　ですね\pつかまえた　むしポケモンを\nいれる　ばしょが　ありません\pてもちか　ボックスを\nあけてから　また\lきて　ください$"
 
 Route35NationalParkGate_Text_EggAsFirstMon:
-	.string "Uh-oh… You have an EGG as the first\n"
-	.string "POKéMON in your party.\p"
-	.string "Please switch it with the POKéMON\n"
-	.string "you want to use, then come see me.$"
+	.string "あら‥　せんとうが\nタマゴ　ですね\pつかいたい　ポケモンと\nいれかえてから\lまた　きて　ください$"
 
 Route35NationalParkGate_Text_ContestIsOver:
-	.string "Today's Contest is over. We hope you\n"
-	.string "will participate in the future.$"
+	.string "きょうの　たいかいは\nおわりました　また\lさんか　してくださいね$"
 
 Route35NationalParkGate_EventScript_Policeman::
 	lock
@@ -290,28 +286,19 @@ Route35NationalParkGate_EventScript_Beauty::
 	end
 
 Route35NationalParkGate_Text_Rocker:
-	.string "I love bird POKéMON! I found a\n"
-	.string "DARK-type bird in the park\l"
-	.string "last night!$"
+	.string "とりポケモンが　だいすき！\nゆうべ　こうえんで　あくタイプの\lとりを　みつけたんだ！$"
 
 Route35NationalParkGate_Text_BC2:
-	.string "I caught a whopping SCYTHER!$"
+	.string "でっかい　ストライクを\nつかまえたぞ！$"
 
 Route35NationalParkGate_Text_Beauty:
-	.string "He always wins these contests!$"
+	.string "かれったら　いつも\nゆうしょう　するのよ！$"
 
 Route35NationalParkGate_Text_WeHoldContests:
-	.string "We hold Contests regularly in the\n"
-	.string "PARK. You should give it a shot.$"
+	.string "こうえんでは　たいかいを\nていきてきに　ひらいて　います\lぜひ　ちょうせん　して　ください$"
 
 Route35NationalParkGate_Text_YoungsterWonders:
-	.string "When is the next Bug-Catching Contest\n"
-	.string "going to be?$"
+	.string "つぎの　むしとりたいかいは\nいつかな？$"
 
 Route35NationalParkGate_Text_ContestExplanation:
-	.string "The Bug-Catching Contest is held on\n"
-	.string "Tuesday, Thursday and Saturday.\p"
-	.string "Not only do you earn a prize just\n"
-	.string "for participating,\p"
-	.string "you also get to keep the bug POKéMON\n"
-	.string "you may have at the end of the contest.$"
+	.string "むしとりたいかいは　かようび\nもくようび　どようびに\lひらかれます\pさんか　する　だけで\nしょうひんが　もらえて\pさいごに　もっていた\nむしポケモンも　もらえます$"

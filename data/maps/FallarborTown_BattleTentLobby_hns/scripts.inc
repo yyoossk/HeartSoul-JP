@@ -305,46 +305,17 @@ FallarborTown_BattleTentLobby_hns_EventScript_ExitRules::
 	end
 
 FallarborTown_BattleTentLobby_hns_Text_MakeThinkImJustKid:
-	.string "Fufufufufu.\p"
-	.string "I'm going to make everyone think\n"
-	.string "I'm just a kid and let them play down.\p"
-	.string "Then, I'll shock them and grab\n"
-	.string "the title!$"
+	.string "ふふふふふ\pただの　こどもだと\nおもわせて　ゆだん\lさせるの\pそこで　びっくり　させて\nタイトルを　いただくわ！$"
 
 FallarborTown_BattleTentLobby_hns_Text_FallarborTentMyFavorite:
-	.string "You know how BATTLE TENTS offer\n"
-	.string "different events?\p"
-	.string "My favorite is definitely the red\n"
-	.string "colored TENT.\p"
-	.string "I think it's fantastic how TRAINERS\n"
-	.string "try to win with all their faith in\l"
-	.string "their POKéMON.$"
+	.string "バトルテントって　いろんな\nしゅもくが　あるでしょ？\pわたしは　あかい\nテントが　いちばん　すき\pポケモンを　しんじて　かとうと\nする　トレーナーって\lすてきだと　おもうの$"
 
 FallarborTown_BattleTentLobby_hns_Text_CameToCampOut:
-	.string "I heard something about some tent,\n"
-	.string "so I came to camp out.\p"
-	.string "I didn't know that tents these days\n"
-	.string "are so luxurious!\p"
-	.string "Since I'm here, I may as well try\n"
-	.string "my hand at battling!$"
+	.string "テントが　あると　きいて\nキャンプに　きたんだが\pさいきんの　テントは\nごうかなんだな！\pせっかく　だから\nたたかって　いくか！$"
 
 FallarborTown_BattleTentLobby_hns_Text_ScottLookingForSomeone:
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\n"
-	.string "So you came out to this BATTLE TENT!\p"
-	.string "The people in these parts tend to be\n"
-	.string "easygoing and laid-back.\p"
-	.string "But, you see, what I'm looking for are\n"
-	.string "people with…\p"
-	.string "How should I say this?\p"
-	.string "Someone bursting with the desire\n"
-	.string "and the drive to win.\p"
-	.string "If there were a TRAINER like that,\n"
-	.string "I'd immediately…\p"
-	.string "Whoops! Never mind!\n"
-	.string "Keep working at it!$"
+	.string "エニシダ『やあ　{PLAYER}{KUN}！\nバトルテントに　きたんだね！\pこの　あたりの　ひとは\nのんびり　している\pでも　ぼくが　さがしてる\nのは‥\pなんて　いえば　いいかな？\pかちたいと　いう　きもちに\nあふれた　ひと\pそんな　トレーナーが\nいたら　すぐにでも‥\pおっと！　なんでもない！\nがんばってね！$"
 
 FallarborTown_BattleTentLobby_hns_Text_ScottMakeChallenge:
-	.string "SCOTT: Instead of wasting your\n"
-	.string "time with the likes of me, why not\l"
-	.string "make a challenge?$"
+	.string "エニシダ『ぼくの　あいてなんか\nしてないで　ちょうせん\lしてきたら？$"
 

@@ -14,16 +14,11 @@ Route28House_EventScript_CelebrityAfter::
 	end
 
 Route28House_Text_Celebrity1:
-	.string "Oh, dear. You've found me.\p"
-	.string "Please don't tell anyone about me.\p"
-	.string "I'll give you this for keeping my\n"
-	.string "secret. Please?$"
+	.string "あら　みつかっちゃった\pわたしの　ことは\nだれにも　いわないで\pないしょに　して　くれる\nおれいに　これを　あげる\lおねがい？$"
 
 Route28House_Text_Celebrity2:
-	.string "It's tough being a top celebrity.\p"
-	.string "Everywhere I go, people chase me.\p"
-	.string "I just want to be left alone…$"
+	.string "トップスターも　らくじゃ\nないの\pどこへ　いっても\nおいかけられて\pそっと　して\nおいて　ほしいのに‥$"
 
 Route28House_Text_Fearow:
-	.string "FEAROW: Feero!$"
+	.string "オニドリル『ドリィー！$"
 

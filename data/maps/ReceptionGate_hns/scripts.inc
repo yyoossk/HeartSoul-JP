@@ -15,13 +15,7 @@ ReceptionGate_EventScript_Janine::
     end
 
 ReceptionGate_Text_Janine:
-    .string "JANINE: I'm on the way to my dad's\n"
-    .string "house to give him his lunch.\p"
-    .string "The ELITE FOUR has no time to rest\n"
-    .string "day or night. It's such hard work,\l"
-    .string "you know?\p"
-    .string "If you're ready for another battle,\n"
-    .string "I'll be at the DOJO later.$"
+	.string "アンズ『ちちうえに　おべんとうを\nとどけに　いく　ところなの\pしてんのうは　ひるも　よるも\nやすむ　ひまが　ないの\lたいへん　なのよ\pまた　しょうぶ　するなら\nあとで　どうじょうに　いるわ$"
 
 
 ReceptionGate_EventScript_Officer::
@@ -67,30 +61,19 @@ ReceptionGate_EventScript_KantoGuard::
     end
 
 VictoryRoadGate_Text_Officer:
-    .string "Only trainers who have proven\n"
-    .string "themselves may pass.$"
+	.string "みとめられた　トレーナー\nだけが　とおれます$"
 
 VictoryRoadGate_Text_Kimono:
-    .string "Sorry kid, this way is closed until\n"
-    .string "someone deals with that LEGENDARY\l"
-    .string "POKéMON...$"
+	.string "ごめんなさい　でんせつの\nポケモンを　だれかが\lしずめるまで　ここは\lとおれません‥$"
 
 VictoryRoadGate_Text_NotEnoughBadges:
-    .string "You don't have all the GYM BADGES\n"
-    .string "of JOHTO.\p"
-    .string "I'm sorry, but I can't let you go\n"
-    .string "through.$"
+	.string "ジョウトの　ジムバッジが\nそろって　いませんね\pもうしわけ　ありませんが\nとおす　わけには　いきません$"
 
 VictoryRoadGate_Text_EightBadges:
-    .string "Oh! The eight BADGES of JOHTO!\p"
-    .string "Please, go right on through!$"
+	.string "おお！　ジョウトの\nバッジが　8こ！\pどうぞ　おとおり　ください！$"
 
 VictoryRoadGate_Text_LeftBlackBelt:
-    .string "This way leads to MT.SILVER.\p"
-    .string "You'll see scary-strong POKéMON out\n"
-    .string "there.$"
+	.string "こっちは　シロガネやまへ\nつづいている\pおそろしく　つよい\nポケモンが　いるぞ$"
 
 VictoryRoadGate_Text_RightBlackBelt:
-    .string "Off to the POKéMON LEAGUE, are you?\p"
-    .string "The ELITE FOUR are so strong it's\n"
-    .string "scary, and they're ready for you!$"
+	.string "ポケモンリーグへ　いくのか？\pしてんのうは　こわいほど\nつよいぞ　まちかまえてる！$"

@@ -17,18 +17,7 @@ Route30_House_EventScript_BaldMan2::
 	end
 
 Route30_BerryHouse_Text_MonEatBerries:
-	.string "When you follow that path up north,\n"
-	.string "you will see MR. POKéMON’s house.\p"
-	.string "But before you go, allow me to\n"
-	.string "tell you about BERRIES!\p"
-	.string "POKéMON get healthier by eating\n"
-	.string "BERRIES.\p"
-	.string "They can even eat BERRIES\n"
-	.string "they're holding in battle.\p"
-	.string "BERRIES can also be turned into\n"
-	.string "BALLS by KURT in AZALEA TOWN.\p"
-	.string "Here. I'll share one with you!$"
+	.string "この　みちを　きたへ　すすむと\nポケモンじいさんの　いえが\lあるよ\pでも　その　まえに　きのみの\nことを　おしえて　あげよう！\pポケモンは　きのみを　たべると\nげんきに　なるんだ\pもたせて　おけば　たたかいの\nなかで　じぶんで　たべるよ\pヒワダタウンの　ガンテツさんは\nきのみから　ボールを\lつくって　くれる\pほら　ひとつ\nわけて　あげよう！$"
 
 Route30_BerryHouse_Text_CheckTrees:
-	.string "Check trees for BERRIES.\n"
-	.string "They grow back after a few hours.$"
+	.string "きのみの　きを　しらべて　ごらん\nなんじかんか　すると\lまた　なるよ$"

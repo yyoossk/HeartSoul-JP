@@ -283,35 +283,17 @@ SlateportCity_BattleTentLobby_hns_EventScript_ExitRules::
 	end
 
 SlateportCity_BattleTentLobby_hns_Text_CouldntFindMonForMe:
-	.string "So, like, I couldn't find myself any\n"
-	.string "POKéMON that were, like, for me.\p"
-	.string "So, I figured, like, hey, I should file\n"
-	.string "a complaint to the guy there?\p"
-	.string "And he wouldn't hear me out, like, hey!\n"
-	.string "So, like, total bummer, man!\p"
-	.string "Hey, like, you! Zip it, you know?\n"
-	.string "Just, you know, take this!$"
+	.string "なんかさ　じぶんに　あう\nポケモンが　いなくてさ\pだから　かかりの　ひとに\nもんく　いおうと　したわけ\pでも　ぜんぜん　きいて\nくれなくてさ　まじ　さいあく！\pちょっと　あんた！\nだまって　これ　うけとって！$"
 
 SlateportCity_BattleTentLobby_hns_Text_ExplainTorment:
-	.string "That's, like, TM41, you know?\n"
-	.string "Hey, it's TORMENT, you hearing me?\p"
-	.string "Like, it won't let the other guy\n"
-	.string "use the same move twice in a row, see?\p"
-	.string "Hey, now, you listen here, like,\n"
-	.string "I'm not laying a torment on you!$"
+	.string "それ　わざマシン41\nいちゃもん　ってわけ\pあいてに　おなじ　わざを\nつづけて　ださせない\lってこと\pべつに　あんたに\nいちゃもん　つけてる\lわけじゃ　ないからね！$"
 
 SlateportCity_BattleTentLobby_hns_Text_IllTryUsingBugMons:
-	.string "I don't really like BUG POKéMON,\n"
-	.string "but maybe I'll try using some for\l"
-	.string "a change of pace.\p"
-	.string "Who knows, I might even get to like\n"
-	.string "them!$"
+	.string "むしポケモンは　あんまり\nすきじゃ　ないけど\lきぶんてんかんに　つかって\lみようかな\pすきに　なるかも\nしれないし！$"
 
 SlateportCity_BattleTentLobby_hns_Text_BattleEvenWithoutToughMons:
-	.string "You can battle all you want here even\n"
-	.string "if you don't have any tough POKéMON.$"
+	.string "ここでは　つよい　ポケモンが\nいなくても　すきなだけ\lたたかえるよ$"
 
 SlateportCity_BattleTentLobby_hns_Text_NiceIfMoreSelection:
-	.string "Wouldn't it be nice if they had more of\n"
-	.string "a selection?$"
+	.string "もっと　えらべる　ポケモンが\nおおければ　いいのに$"
 

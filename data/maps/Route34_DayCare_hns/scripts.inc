@@ -30,20 +30,16 @@ Route34_DayCare_Bookshelf4::
 	end
 
 Route34_DayCare_Text_Bookshelf1:
-	.string "A BABY POKéMON encyclopedia!\p"
-	.string "VOLUME 1: ALL ABOUT ABILITIES$"
+	.string "ベビィポケモン　だいずかん！\pだい1かん　とくせいの　すべて$"
 
 Route34_DayCare_Text_Bookshelf2:
-	.string "A BABY POKéMON encyclopedia!\p"
-	.string "VOLUME 2: TYPICAL TYPES$"
+	.string "ベビィポケモン　だいずかん！\pだい2かん　よくある　タイプ$"
 
 Route34_DayCare_Text_Bookshelf3:
-	.string "A BABY POKéMON encyclopedia!\p"
-	.string "VOLUME 3: BABIES' CRIES$"
+	.string "ベビィポケモン　だいずかん！\pだい3かん　ベビィの　なきごえ$"
 
 Route34_DayCare_Text_Bookshelf4:
-	.string "A BABY POKéMON encyclopedia!\p"
-	.string "VOLUME 4: ADORABLE ACTIONS$"
+	.string "ベビィポケモン　だいずかん！\pだい4かん　かわいい　しぐさ$"
 
 Route34_DayCare_EventScript_Clerk::
 	lock
@@ -152,40 +148,25 @@ Route34_DayCare_EventScript_ClerkAfter::
 	end
 
 Route34_DayCare_Text_ClerkBefore:
-	.string "I'm the DAY-CARE couple's son.\p"
-	.string "An ODD EGG was found with a TRAINER's\n"
-	.string "POKéMON, but they didn't want it...\p"
-	.string "I'd offer it to you...\n"
-	.string "But how can I know you'll take good\l"
-	.string "care of it?$"
+	.string "ぼくは　あずかりやの\nふうふの　むすこです\pトレーナーの　ポケモンと\nいっしょに　へんな　タマゴが\lみつかったけど　いらないって‥\pきみに　あげたいけど‥\nだいじに　して　くれるか\lどうやって　わかる　かな？$"
 
 Route34_DayCare_Text_ClerkNoRoom:
-	.string "It looks like you can't carry another\n"
-	.string "POKéMON anyway.$"
+	.string "どっちみち　もう　ポケモンを\nもてない　みたいだね$"
 
 Route34_DayCare_Text_ClerkQuestion:
-	.string "Answer this question for me.\n"
-	.string "How do you feel about this ODD EGG?$"
+	.string "しつもんに　こたえて\nこの　へんなタマゴを\lどう　おもう？$"
 
 Route34_DayCare_Text_Rejection:
-	.string "Hmm, I think this EGG isn't for you.\p"
-	.string "It would be irresponsible of me to\n"
-	.string "give out a precious EGG like this\l"
-	.string "to someone who isn't as well-read\l"
-	.string "on the subject of baby POKéMON!$"
+	.string "うーん　この　タマゴは\nきみ　むけ　じゃないね\pベビィポケモンに　くわしく\nない　ひとに　こんな\lだいじな　タマゴを　わたすのは\lむせきにん　だからね！$"
 
 Route34_DayCare_Text_ReceivedOddEgg:
-	.string "{PLAYER} Received the ODD EGG.$"
+	.string "{PLAYER}は\nへんなタマゴを　もらった$"
 
 Route34_DayCare_Text_TakeCare:
-	.string "I knew you were the right trainer\n"
-	.string "for the job. Take good care of it!$"
+	.string "きみなら　まかせられると\nおもってたよ\lだいじに　してね！$"
 
 Route34_DayCare_Text_ClerkAfter:
-	.string "We see a lot of those eggs around\n"
-	.string "here.\p"
-	.string "Something was different about that\n"
-	.string "one, though.$"
+	.string "ここでは　タマゴを\nよく　みかけるけど\pあの　タマゴは\nなにか　ちがったな$"
 
 Route34_DayCare_EventScript_Ditto::
 	lock
@@ -198,7 +179,7 @@ Route34_DayCare_EventScript_Ditto::
 	end
 
 Route34_DayCare_Text_Ditto:
-	.string "DITTO: Tto!$"
+	.string "メタモン『メタッ！$"
 
 Route34_EventScript_DaycareMan::
 	lock
@@ -332,9 +313,7 @@ Route34_DayCare_EventScript_ClosedForChallenge::
 	end
 
 Route34_DayCare_Text_ClosedForChallenge:
-	.string "Sorry, we can't look after your\n"
-	.string "POKéMON during a party limit\l"
-	.string "challenge!$"
+	.string "ごめんね　てもち　せいげんの\nちょうせん　ちゅうは\lポケモンを　あずかれないんだ！$"
 
 Route34_DayCare_EventScript_OnlyOneMon::
 	msgbox Route34_DayCare_Text_YouHaveJustOneMon, MSGBOX_DEFAULT
@@ -470,141 +449,96 @@ Route34_DayCare_EventScript_TwoMonsInDaycare::
 	end
 
 Route34_Text_SeeWifeIfYoudLikeMeToRaiseMon:
-	.string "I'm the DAY-CARE MAN.\p"
-	.string "I help take care of the precious\n"
-	.string "POKéMON of TRAINERS.\p"
-	.string "If you'd like me to raise your POKéMON,\n"
-	.string "have a word with my wife.$"
+	.string "わしは　あずかりやの\nじいさん\pトレーナーの　だいじな\nポケモンを　あずかって\lそだてて　おる\pポケモンを　あずけたい\nなら　ばあさんに\lはなしかけて　おくれ$"
 
 Route34_Text_DoYouWantEgg:
-	.string "Ah, it's you!\p"
-	.string "We were raising your POKéMON,\n"
-	.string "and my goodness, were we surprised!\p"
-	.string "Your POKéMON had an EGG!\p"
-	.string "We don't know how it got there,\n"
-	.string "but your POKéMON had it.\p"
-	.string "You do want it, yes?$"
+	.string "おお　きみか！\pあずかった　ポケモンを\nそだてて　いたら\lなんと　おどろいた！\pポケモンが　タマゴを\nもって　いたんじゃ！\pどこから　きたのか\nわからんが　たしかに\lもって　おった\pほしい　じゃろう？$"
 
 Route34_Text_YourMonIsDoingFine:
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your {STR_VAR_1}'s doing fine.$"
+	.string "おお　きみか！　よく　きたな\n{STR_VAR_1}は　げんき　じゃよ$"
 
 Route34_Text_IllKeepIt:
-	.string "Well then, I'll keep it.\n"
-	.string "Thanks!$"
+	.string "そうか　では\nわしが　もらって　おこう\lありがとう！$"
 
 Route34_Text_YouHaveNoRoomForIt:
-	.string "You have no room for it…\n"
-	.string "Come back when you've made room.$"
+	.string "もてない　ようじゃな‥\nあけてから　また　おいで$"
 
 Route34_Text_ReceivedEgg:
-	.string "{PLAYER} received the EGG from\n"
-	.string "the DAY-CARE MAN.$"
+	.string "{PLAYER}は　あずかりやの\nじいさんから　タマゴを\lもらった$"
 
 Route34_Text_TakeGoodCareOfIt:
-	.string "Take good care of it.$"
+	.string "だいじに　するんじゃぞ$"
 
 Route34_Text_FriendlyWithOtherTrainersMon:
-	.string "By the way, about your {STR_VAR_1},\n"
-	.string "it seemed to be friendly with\l"
-	.string "{STR_VAR_2}'s {STR_VAR_3}.\p"
-	.string "I may even have seen it receiving\n"
-	.string "a piece of MAIL.$"
+	.string "ところで　きみの　{STR_VAR_1}\n{STR_VAR_2}の　{STR_VAR_3}と\lなかよく　して　おったぞ\pメールを　もらって　いる\nところも　みたかも　しれん$"
 
 @ Unused
 Route34_Text_SeeWifeIfYouWantToPickUpMon:
-	.string "If you want to pick up your POKéMON,\n"
-	.string "have a word with my wife.$"
+	.string "ポケモンを　ひきとる　なら\nばあさんに　はなしかけて\lおくれ$"
 
 Route34_Text_YourMonsAreDoingFine:
-	.string "Ah, it's you! Your {STR_VAR_1} and\n"
-	.string "{STR_VAR_2} are doing fine.$"
+	.string "おお　きみか！　{STR_VAR_1}も\n{STR_VAR_2}も　げんき　じゃよ$"
 
 Route34_Text_IWillKeepDoYouWantIt:
-	.string "I really will keep it.\n"
-	.string "You do want this, yes?$"
+	.string "ほんとうに　もらって\nしまうぞ　ほしいじゃろう？$"
 
 Route34_DayCare_Text_WouldYouLikeUsToRaiseAMon:
-	.string "I'm the DAY-CARE LADY.\p"
-	.string "We can raise POKéMON for you.\p"
-	.string "Would you like us to raise one?$"
+	.string "わたしは　あずかりやの\nばあさんよ\pポケモンを　そだてて\nあげられるわ\pあずけて　みる？$"
 
 Route34_DayCare_Text_WhichMonShouldWeRaise:
-	.string "Which POKéMON should we raise for\n"
-	.string "you?$"
+	.string "どの　ポケモンを\nそだてる？$"
 
 Route34_DayCare_Text_WellRaiseYourMon:
-	.string "Fine, we'll raise your {STR_VAR_1}\n"
-	.string "for a while.\p"
-	.string "Come back for it later.$"
+	.string "はい　{STR_VAR_1}を\nしばらく　あずかるわね\pあとで　むかえに\nきてね$"
 
 Route34_DayCare_Text_WeCanRaiseOneMore:
-	.string "We can raise two of your POKéMON.\n"
-	.string "Would you like us to raise one more?$"
+	.string "ポケモンは　2ひきまで\nあずかれるわ\lもう　1ぴき　あずける？$"
 
 Route34_DayCare_Text_HusbandWasLookingForYou:
-	.string "My husband was looking for you.$"
+	.string "じいさんが　あなたを\nさがして　いたわよ$"
 
 Route34_DayCare_Text_FineThenComeAgain:
-	.string "Oh, fine, then.\n"
-	.string "Come again.$"
+	.string "そう　じゃあ\nまた　きてね$"
 
 Route34_DayCare_Text_NotEnoughMoney:
-	.string "You don't have enough money…$"
+	.string "おかねが　たりないわね‥$"
 
 Route34_DayCare_Text_TakeOtherOneBackToo:
-	.string "Will you take back the other one,\n"
-	.string "too?$"
+	.string "もう　1ぴきも\nひきとる？$"
 
 Route34_DayCare_Text_ComeAgain:
-	.string "Fine.\n"
-	.string "Come again.$"
+	.string "そう\nまた　きてね$"
 
 Route34_DayCare_Text_GoodToSeeYou:
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your POKéMON can only be doing good!$"
+	.string "あら　あなた！　よく　きたわね\nポケモンは　すくすく\lそだってるわよ！$"
 
 Route34_DayCare_Text_YourMonHasGrownXLevels:
-	.string "By level, your {STR_VAR_1} has\n"
-	.string "grown by {STR_VAR_2}.$"
+	.string "{STR_VAR_1}は　レベルが\n{STR_VAR_2}　あがったわ$"
 
 Route34_DayCare_Text_YourTeamIsFull:
-	.string "Your POKéMON team is full.\n"
-	.string "Make room, then come see me.$"
+	.string "てもちが　いっぱいね\nあけてから　また　きてね$"
 
 @ Unused
 Route34_DayCare_Text_TakeBackWhichMon:
-	.string "Which POKéMON will you take back?$"
+	.string "どの　ポケモンを\nひきとる？$"
 
 Route34_DayCare_Text_ItWillCostX:
-	.string "If you want your {STR_VAR_1} back,\n"
-	.string "it will cost ¥{STR_VAR_2}.$"
+	.string "{STR_VAR_1}を　ひきとるなら\n{STR_VAR_2}円　いただくわ$"
 
 Route34_DayCare_Text_HeresYourMon:
-	.string "Perfect!\n"
-	.string "Here's your POKéMON.$"
+	.string "はい！\nポケモンを　かえすわね$"
 
 Route34_DayCare_Text_TookBackMon:
-	.string "{PLAYER} took back {STR_VAR_1} from\n"
-	.string "the DAY-CARE LADY.$"
+	.string "{PLAYER}は　あずかりやの\nばあさんから　{STR_VAR_1}を\lひきとった$"
 
 Route34_DayCare_Text_YouHaveJustOneMon:
-	.string "Oh? But you have just one\n"
-	.string "POKéMON.\p"
-	.string "Come back another time.$"
+	.string "あら？　ポケモンが\n1ぴき　しか　いないわね\pまた　こんど\nきてね$"
 
 Route34_DayCare_Text_TakeYourMonBack:
-	.string "Will you take your POKéMON back?$"
+	.string "ポケモンを　ひきとる？$"
 
 Route34_DayCare_Text_WhatWillYouBattleWith:
-	.string "If you leave me that POKéMON,\n"
-	.string "what will you battle with?\p"
-	.string "Come back another time.$"
+	.string "その　ポケモンを　あずけたら\nなにで　たたかうの？\pまた　こんど\nきてね$"
 
 Route34_DayCare_Text_YoullBeLeftWithJustOne:
-	.string "Huh?\n"
-	.string "Now, now.\p"
-	.string "If you leave that POKéMON with\n"
-	.string "me, you'll be left with just one.\p"
-	.string "You will be better off if you catch\n"
-	.string "some more, I dare say.$"
+	.string "あら？\nまあ　まあ\pその　ポケモンを　あずけたら\n1ぴきに　なっちゃうわよ\pもっと　つかまえて　きた\nほうが　いいと　おもうわ$"
