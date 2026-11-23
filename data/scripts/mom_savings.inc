@@ -26,22 +26,10 @@ EventScript_MomGiftCall_Decoration::
 	end
 
 Mom_Text_GiftCall_Item:
-	.string "MOM: Hi, sweetie!\p"
-	.string "I bought something nice\n"
-	.string "for you with your savings!\p"
-	.string "I sent it to your PC.\n"
-	.string "Take care!$"
+	.string "ママ『もしもし　げんき？\pあなたの　ちょきんで\nいいもの　かっちゃった！\pパソコンに　おくっておいたわ\nがんばってね！$"
 
 Mom_Text_GiftCall_Berry:
-	.string "MOM: Hi, sweetie!\p"
-	.string "I found some nice BERRIES\n"
-	.string "at the store for you!\p"
-	.string "I sent them to your PC.\n"
-	.string "Take care!$"
+	.string "ママ『もしもし　げんき？\pおみせで　いい　きのみを\nみつけたの！\pパソコンに　おくっておいたわ\nがんばってね！$"
 
 Mom_Text_GiftCall_Decoration:
-	.string "MOM: Hi, sweetie!\p"
-	.string "I bought a cute POKé DOLL\n"
-	.string "for your room!\p"
-	.string "Check your DECORATIONS when you\n"
-	.string "come home. Take care!$"
+	.string "ママ『もしもし　げんき？\pあなたの　へやに　かわいい\nにんぎょうを　かったわよ！\pかえったら　もようがえを\nみてね　がんばってね！$"

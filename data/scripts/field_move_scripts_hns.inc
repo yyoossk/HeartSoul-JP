@@ -47,16 +47,13 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+	.string "この　きは　いあいぎりで\nきれそうだ！\pいあいぎりを　つかいますか？$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1}は\n{STR_VAR_2}を　つかった！$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+	.string "この　きは　いあいぎりで\nきれそうだ！$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -151,7 +148,7 @@ EventScript_EndHeadbutt::
 	end
 
 Text_MonUsedHeadbutt::
-	.string "{STR_VAR_1} used HEADBUTT!$"
+	.string "{STR_VAR_1}は\nずつきを　つかった！$"
 
 
 EventScript_FollowerFieldMove:
@@ -306,20 +303,16 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "この　いわは　こわせそうだ\nいわくだきを　つかいますか？$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "ごつごつした　いわだ　ポケモンの\nわざで　こわせるかも　しれない$"
 
 Text_WantToHeadbutt:
-	.string "This tree may house POKéMON.\n"
-	.string "Would you like to use HEADBUTT?$"
+	.string "この　きには　ポケモンが\nいるかも　ずつきを　つかいますか？$"
 
 Text_CantHeadbutt:
-	.string "It's a small tree, but a wild\n"
-	.string "POKéMON may be living within.$"
+	.string "ちいさな　きだ　やせいの\nポケモンが　すんでいるかも$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -368,20 +361,16 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない\pかいりきを　つかいますか？$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!$"
+	.string "{STR_VAR_1}は\nかいりきを　つかった！$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "かいりきで　いわが\nうごかせるように　なっている$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -407,15 +396,13 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "ものすごい　いきおいで\nみずが　おちてくる！$"
 
 Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "おおきな　たきだ\nたきのぼりを　つかいますか？$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1}は\nたきのぼりを　つかった！$"
 
 EventScript_UseDive::
 	lockall
@@ -533,34 +520,29 @@ Movement_WhirlpoolWest:
 	step_end
 
 Text_CantWhirlpool:
-	.string "The water is swirling and spinning\n"
-	.string "around with a mighty roar.$"
+	.string "みずが　ものすごい　いきおいで\nうずを　まいている$"
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "ここは　うみが　ふかい　ポケモンの\nわざで　もぐれるかも　しれない$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "ここは　うみが　ふかい\nダイビングを　つかいますか？$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used WHIRLPOOL.$"
+	.string "{STR_VAR_1}は\nうずしおを　つかった！$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "うえから　ひかりが　さしこむ\nポケモンの　わざで　うかべるかも$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "うえから　ひかりが　さしこむ\nダイビングを　つかいますか？$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "ここには　なにも　いないようだ‥$"
 
 EventScript_DigCommon:
 	isfollowerfieldmoveuser VAR_0x8004
@@ -631,15 +613,13 @@ EventScript_EndRockClimb::
 	end
 
 Text_WantToRockClimb:
-	.string "The cliff is steep.\n"
-	.string "Would you like to use Rock Climb?$"
+	.string "けわしい　がけだ\nロッククライムを　つかいますか？$"
 
 Text_MonUsedRockClimb:
-	.string "{STR_VAR_1} used Rock Climb!$"
+	.string "{STR_VAR_1}は\nロッククライムを　つかった！$"
 
 Text_CantRockClimb:
-	.string "The cliff is steep.\n"
-	.string "A Pokémon may be able to climb it.$"
+	.string "けわしい　がけだ　ポケモンの\nわざで　のぼれるかも　しれない$"
 
 SetTimeEncounters::
 	callnative SetTimeBasedEncounters

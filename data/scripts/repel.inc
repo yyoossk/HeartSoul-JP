@@ -137,16 +137,13 @@ EventScript_UseSpray::
 
 
 Text_SprayWoreOff::
-	.string "{STR_VAR_1}'s effect wore off…$"
+	.string "{STR_VAR_1}の　こうかが　きれた‥$"
 
 Text_SprayWoreOffAskUseAnother::
-	.string "{STR_VAR_1}'s effect wore off!\n"
-	.string "Use another?$"
+	.string "{STR_VAR_1}の　こうかが　きれた！\nもうひとつ　つかう？$"
 
 Text_SprayWoreOffAskUseX::
-	.string "{STR_VAR_1}'s effect wore off…\n"
-	.string "Use a {STR_VAR_2}?$"
+	.string "{STR_VAR_1}の　こうかが　きれた‥\n{STR_VAR_2}を　つかう？$"
 
 Text_SprayWoreOffUseX::
-	.string "{PLAYER} used the\n"
-	.string "{STR_VAR_2}.$"
+	.string "{PLAYER}は\n{STR_VAR_2}を　つかった$"

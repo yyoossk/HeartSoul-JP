@@ -1,57 +1,47 @@
 gText_ObtainedTheItem::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "{STR_VAR_2}を　てにいれた！$"
 
 gText_TheBagIsFull::
-	.string "The BAG is full…$"
+	.string "バッグが　いっぱいだ‥$"
 
 gText_PutItemInPocket::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3} POCKET.$"
+	.string "{PLAYER}は　{STR_VAR_2}を\n{STR_VAR_3}ポケットに　しまった$"
 
 gText_PlayerFoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+	.string "{PLAYER}は　{STR_VAR_2}を　みつけた！$"
 
 gText_TooBadBagIsFull::
-	.string "Too bad!\n"
-	.string "The BAG is full…$"
+	.string "ざんねん！\nバッグが　いっぱいだ‥$"
 
 gText_PlayerPutItemInBag::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the BAG.$"
+	.string "{PLAYER}は　{STR_VAR_2}を\nバッグに　しまった$"
 
 gText_ObtainedTheDecor::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "{STR_VAR_2}を　てにいれた！$"
 
 gText_NoRoomLeftForAnother::
-	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+	.string "ざんねん！　{STR_VAR_2}を\nおく　ばしょが　ない‥$"
 
 gText_TheDecorWasTransferredToThePC::
-	.string "The {STR_VAR_2} was transferred\n"
-	.string "to the PC.$"
+	.string "{STR_VAR_2}を\nパソコンに　おくった$"
 
 gText_ObtainedTheItems::
-	.string "Obtained {STR_VAR_1} {STR_VAR_2}!$"
+	.string "{STR_VAR_2}を　{STR_VAR_1}こ　てにいれた！$"
 
 gText_PlayerFoundItems::
-	.string "{PLAYER} found {STR_VAR_1} {STR_VAR_2}!$"
+	.string "{PLAYER}は　{STR_VAR_2}を\n{STR_VAR_1}こ　みつけた！$"
 
 gText_PutCoinsAwayInCoinCase::
-	.string "{PLAYER} put the COINS away in\n"
-	.string "the COIN CASE.$"
+	.string "{PLAYER}は　コインを\nコインケースに　しまった$"
 
 gText_FoundXCoins::
-	.string "{PLAYER} found\n"
-	.string "{STR_VAR_1} {STR_VAR_2}!$"
+	.string "{PLAYER}は\n{STR_VAR_2}を　{STR_VAR_1}まい　みつけた！$"
 
 gText_FoundXItems::
-	.string "{PLAYER} found\n"
-	.string "{STR_VAR_1} {STR_VAR_2}(s)!$"
+	.string "{PLAYER}は\n{STR_VAR_2}を　{STR_VAR_1}こ　みつけた！$"
 
 gText_CoinCaseIsFull::
-	.string "Too bad!\n"
-	.string "The COIN CASE is full…$"
+	.string "ざんねん！\nコインケースが　いっぱいだ‥$"
 
 gText_NothingToPutThemIn::
-	.string "Too bad!\n"
-	.string "There's nothing to put them in…$"
+	.string "ざんねん！\nいれる　ものが　ない‥$"

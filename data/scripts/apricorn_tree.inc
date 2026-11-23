@@ -61,30 +61,22 @@ ApricornTree_EventScript_CancelPickingApricorn::
 	end
 
 ApricornTree_Text_Intro:
-	.string "It's an Apricorn Tree!$"
+	.string "ぼんぐりの　きだ！$"
 
 ApricornTree_Text_Empty:
-	.string "There are no Apricorns…$"
+	.string "ぼんぐりが　なっていない‥$"
 
 ApricornTree_Text_WantToPick:
-	.string "…It's {STR_VAR_2} {STR_VAR_1}!\n"
-	.string "Do you want to pick the\l"
-	.string "{STR_VAR_1}?$"
+	.string "‥{STR_VAR_1}が　{STR_VAR_2}こ　なっている！\n{STR_VAR_1}を\lとりますか？$"
 
 ApricornTree_Text_PickedTheApricorn:
-	.string "{PLAYER} obtained\n"
-	.string "{STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER}は\n{STR_VAR_1}を　{STR_VAR_2}こ　てにいれた$"
 
 ApricornTree_Text_PutAwayApricorn:
-	.string "{PLAYER} put away the\n"
-	.string "{STR_VAR_1} in\l"
-	.string "the BAG's {STR_VAR_3} POCKET.$"
+	.string "{PLAYER}は　{STR_VAR_1}を\nバッグの\l{STR_VAR_3}ポケットに　しまった$"
 
 ApricornTree_Text_PocketFull:
-	.string "The BAG's {STR_VAR_3} POCKET is full.\p"
-	.string "{PLAYER} gave up on the\n"
-	.string "{STR_VAR_1}…$"
+	.string "バッグの　{STR_VAR_3}ポケットが\nいっぱいだ\p{PLAYER}は\n{STR_VAR_1}を　あきらめた‥$"
 
 ApricornTree_Text_ApricornLeftUnpicked:
-	.string "{PLAYER} gave up on the\n"
-	.string "{STR_VAR_1}…$"
+	.string "{PLAYER}は\n{STR_VAR_1}を　あきらめた‥$"

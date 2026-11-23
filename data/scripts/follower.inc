@@ -1,14 +1,14 @@
 gText_FollowerLovesYou::
-	.string "{STR_VAR_1} is regarding you with\nadoration!$"
+	.string "{STR_VAR_1}は　あなたを\nうっとりと　みつめている！$"
 
 gText_FollowerLostInThought::
-	.string "{STR_VAR_1} seems lost in thought.$"
+	.string "{STR_VAR_1}は　かんがえごとを\nしている　ようだ$"
 
 gText_FollowerDefault::
-	.string "ERROR 404: Script not found.$"
+	.string "エラー404:　スクリプトが　ありません$"
 
 gText_WantsToFly::
-	.string "{STR_VAR_1} looks up at the\nsky restlessly.\pWould you like to use FLY?$"
+	.string "{STR_VAR_1}は　そわそわと\nそらを　みあげている\pそらをとぶを　つかいますか？$"
 
 EventScript_Follower::
 	lock

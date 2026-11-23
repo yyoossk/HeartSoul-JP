@@ -124,80 +124,46 @@ BugContest_EventScript_SideEnd::
 	end
 
 BugContest_Text_Judging0::
-	.string "The contest has now concluded.\n"
-	.string "Please pick the POKéMON you would\l"
-	.string "like to keep and have judged.$"
+	.string "たいかいは　しゅうりょう　しました\nしんさを　うけて　のこしたい\lポケモンを　えらんで　ください$"
 
 BugContest_Text_Judging1::
-	.string "We will now judge the POKéMON\n"
-	.string "you've caught.\p"
-	.string "...................\n"
-	.string "...................\p"
-	.string "We have chosen the winners! Are\n"
-	.string "ready for this?$"
+	.string "それでは　つかまえた　ポケモンの\nしんさを　はじめます\p‥‥‥‥‥‥‥‥‥\n‥‥‥‥‥‥‥‥‥\pじゅんいが　きまりました！\nじゅんびは　いいですか？$"
 
 BugContest_Text_WrongChoiceMon:
-	.string "Please pick the POKéMON you would\n"
-	.string "like to keep and have judged.$"
+	.string "しんさを　うけて　のこしたい\nポケモンを　えらんで　ください$"
 
 BugContest_Text_DidntCatch:
-	.string "Oh no! You didn't catch a POKéMON.\n"
-	.string "You've forfeited the competition.\p"
-	.string "Your party will now be returned.$"
+	.string "あら！　ポケモンを　つかまえて\nいませんね　しっかくです\pあずかった　ポケモンを\nおかえし　します$"
 
 BugContest_Text_TimesUp:
-	.string "Ding-dong! Time's up!$"
+	.string "ピンポーン！　じかんぎれです！$"
 
 BugContest_Text_WhiteOut:
-	.string "{PLAYER} is out of useable POKéMON.\n"
-	.string "{PLAYER} forfeited the contest.$"
+	.string "{PLAYER}は　たたかえる\nポケモンが　いなくなった！\l{PLAYER}は　たいかいを　きけんした$"
 
 BugContest_Text_First1:
-	.string "Placing third is the COOLTRAINER\n"
-	.string "BELINDA, who caught a wriggling\l"
-	.string "BUTTERFREE!$"
+	.string "だい3いは　エリートトレーナーの\nベリンダさん！　ぴちぴちの\lバタフリーを　つかまえました！$"
 BugContest_Text_First2:
-	.string "Placing second is the BUGCATCHER\n"
-	.string "SHAUN, who caught a writhing\l"
-	.string "PINSIR!$"
+	.string "だい2いは　むしとりしょうねんの\nショーンくん！　あばれる\lカイロスを　つかまえました！$"
 BugContest_Text_First3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "{PLAYER}, who caught a whopping\n"
-	.string "{STR_VAR_1}!$"
+	.string "むしとりたいかい　ゆうしょうは‥\p{PLAYER}さん！　みごとな\n{STR_VAR_1}を　つかまえました！$"
 
 BugContest_Text_Second1:
-	.string "Placing third is the COOLTRAINER\n"
-	.string "BELINDA, who caught a wriggling\l"
-	.string "BUTTERFREE!$"
+	.string "だい3いは　エリートトレーナーの\nベリンダさん！　ぴちぴちの\lバタフリーを　つかまえました！$"
 BugContest_Text_Second2:
-	.string "Placing second is {PLAYER}, who\n"
-	.string "caught a writhing {STR_VAR_1}!$"
+	.string "だい2いは　{PLAYER}さん！\nあばれる　{STR_VAR_1}を\lつかまえました！$"
 BugContest_Text_Second3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "BUGCATCHER SHAUN, who caught a\n"
-	.string "whopping PINSIR!$"
+	.string "むしとりたいかい　ゆうしょうは‥\pむしとりしょうねんの　ショーンくん！\nみごとな　カイロスを　つかまえました！$"
 
 BugContest_Text_Third1:
-	.string "Placing third is {PLAYER}, who\n"
-	.string "caught a wriggling {STR_VAR_1}!$"
+	.string "だい3いは　{PLAYER}さん！\nぴちぴちの　{STR_VAR_1}を\lつかまえました！$"
 BugContest_Text_Third2:
-	.string "Placing second is the COOLTRAINER\n"
-	.string "BELINDA, who caught a writhing\l"
-	.string "BUTTERFREE!$"
+	.string "だい2いは　エリートトレーナーの\nベリンダさん！　あばれる\lバタフリーを　つかまえました！$"
 BugContest_Text_Third3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "BUGCATCHER SHAUN, who caught a\n"
-	.string "whopping PINSIR!$"
+	.string "むしとりたいかい　ゆうしょうは‥\pむしとりしょうねんの　ショーンくん！\nみごとな　カイロスを　つかまえました！$"
 
 BugContest_Text_TakePartInFuture:
-	.string "Thank you for participating!\n"
-	.string "We hope you'll take part in the\l"
-	.string "future.$"
+	.string "ごさんか　ありがとう　ございました！\nまた　ぜひ　さんか　してくださいね$"
 
 BugContest_Text_TransferAndReturn:
-	.string "Your chosen BUG POKéMON will now\n"
-	.string "be sent to the PC and your party\l"
-	.string "will be returned to you.$"
+	.string "えらんだ　むしポケモンは\nパソコンに　おくられます\lあずかった　ポケモンを　おかえしします$"

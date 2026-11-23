@@ -44,16 +44,13 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+	.string "この　きは　いあいぎりで\nきれそうだ！\pいあいぎりを　つかいますか？$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1}は\n{STR_VAR_2}を　つかった！$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+	.string "この　きは　いあいぎりで\nきれそうだ！$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -218,12 +215,10 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "この　いわは　こわせそうだ\nいわくだきを　つかいますか？$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "ごつごつした　いわだ　ポケモンの\nわざで　こわせるかも　しれない$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -268,22 +263,16 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない\pかいりきを　つかいますか？$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+	.string "{STR_VAR_1}は\nかいりきを　つかった！\p{STR_VAR_1}の　かいりきで\nいわが　うごかせるように　なった！$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "かいりきで　いわが\nうごかせるように　なっている$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -310,15 +299,13 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "ものすごい　いきおいで\nみずが　おちてくる！$"
 
 Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "おおきな　たきだ\nたきのぼりを　つかいますか？$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1}は\nたきのぼりを　つかった！$"
 
 EventScript_UseDive::
 	lockall
@@ -404,30 +391,26 @@ EventScript_UseCutGrass::
 	goto EventScript_CutGrassCommon
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "ここは　うみが　ふかい　ポケモンの\nわざで　もぐれるかも　しれない$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "ここは　うみが　ふかい\nダイビングを　つかいますか？$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1}は\nダイビングを　つかった！$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "うえから　ひかりが　さしこむ\nポケモンの　わざで　うかべるかも$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "うえから　ひかりが　さしこむ\nダイビングを　つかいますか？$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "ここには　なにも　いないようだ‥$"
 
 EventScript_UseDefog::
 	lockall
@@ -469,12 +452,10 @@ EventScript_EndRockClimb::
 	end
 
 Text_WantToRockClimb:
-	.string "The cliff is steep.\n"
-	.string "Would you like to use Rock Climb?$"
+	.string "けわしい　がけだ\nロッククライムを　つかいますか？$"
 
 Text_MonUsedRockClimb:
-	.string "{STR_VAR_1} used Rock Climb!$"
+	.string "{STR_VAR_1}は\nロッククライムを　つかった！$"
 
 Text_CantRockClimb:
-	.string "The cliff is steep.\n"
-	.string "A Pokémon may be able to climb it.$"
+	.string "けわしい　がけだ　ポケモンの\nわざで　のぼれるかも　しれない$"

@@ -1,58 +1,53 @@
 MoveRelearner_Text_WouldLearnNewMoves:
-	.string "Hi, I'm the Move Relearner.\n"
-	.string "Would you like to learn new moves?$"
+	.string "やあ　わたしは　わざおもいだしやだ\nわざを　おぼえさせて　みるかい？$"
 
 MoveRelearner_Text_LevelUpMoves:
-	.string "Level Up Moves$"
+	.string "レベルアップの　わざ$"
 
 MoveRelearner_Text_EggMoves:
-	.string "Egg Moves$"
+	.string "タマゴわざ$"
 
 MoveRelearner_Text_TMMoves:
-	.string "TM Moves$"
+	.string "わざマシンの　わざ$"
 
 MoveRelearner_Text_TutormoveMoves:
-	.string "Tutor Moves$"
+	.string "おしえわざ$"
 
 MoveRelearner_Text_SeeYa:
-	.string "See ya!$"
+	.string "じゃあ　また！$"
 
 MoveRelearner_Text_AnythingElse:
-	.string "Is there anything else I may do for you?$"
+	.string "ほかに　なにか　ようは　あるかね？$"
 
 MoveRelearner_Text_ChoosePkmn:
-	.string "Please choose your Pokémon.$"
+	.string "ポケモンを　えらんでおくれ$"
 
 MoveRelearner_Text_HaveNoPkmn:
-	.string "You have no Pokémon.$"
+	.string "ポケモンを　もっていないね$"
 
 MoveRelearner_Text_CantTeachMoveToEgg:
-	.string "Sorry…\n"
-	.string "But an Egg can't learn moves.$"
+	.string "わるいね‥\nタマゴには　わざを　おしえられない$"
 
 MoveRelearner_Text_CantTeachMoveToPkmn:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that Pokémon.$"
+	.string "わるいね‥\pその　ポケモンに　おしえられる\nわざは　ないようだ$"
 
 MoveRelearner_Text_LevelUpMoveLWR::
-	.string "level up move$"
+	.string "レベルアップわざ$"
 
 MoveRelearner_Text_EggMoveLWR::
-	.string "egg move$"
+	.string "タマゴわざ$"
 
 MoveRelearner_Text_TMMoveLWR::
-	.string "TM move$"
+	.string "わざマシンわざ$"
 
 MoveRelearner_Text_TutorMoveLWR::
-	.string "tutor move$"
+	.string "おしえわざ$"
 
 MoveRelearner_Text_MoveLWR::
-	.string "move$"
+	.string "わざ$"
 
 MoveRelearner_Text_WhichXmoveShouldTeach:
-	.string "Which {STR_VAR_3} should I teach?$"
+	.string "どの　{STR_VAR_3}を　おしえようか？$"
 
 MoveRelearner_Text_ThankYouComeAgain:
-	.string "Thank you for using our services.\n"
-	.string "Please come again!$"
+	.string "ごりよう　ありがとう\nまた　きておくれ！$"

@@ -118,32 +118,25 @@ SafariZone_EventScript_PokeblockGone::
 	end
 
 SafariZone_Text_PokeblockGone:
-	.string "The {STR_VAR_1} was all\n"
-	.string "eaten up!$"
+	.string "{STR_VAR_1}は　ぜんぶ\nたべられて　しまった！$"
 
 SafariZone_Text_WouldYouLikeToExit:
-	.string "Would you like to exit the SAFARI\n"
-	.string "ZONE right now?$"
+	.string "いますぐ　サファリゾーンから\nでますか？$"
 
 SafariZone_Text_TimesUp:
-	.string "Ding-dong! Time's up!\n"
-	.string "Your SAFARI Game is over.$"
+	.string "ピンポーン！　じかんぎれです！\nサファリゲームは　しゅうりょうです$"
 
 SafariZone_Text_OutOfBalls:
-	.string "You've run out of SAFARI BALLS.\n"
-	.string "Your SAFARI Game is over.$"
+	.string "サファリボールが　なくなりました\nサファリゲームは　しゅうりょうです$"
 
 SafariZone_Text_PlacePokeblockOnFeeder:
-	.string "Would you like to place a {POKEBLOCK}\n"
-	.string "on the {POKEBLOCK} FEEDER?$"
+	.string "{POKEBLOCK}おきばに\n{POKEBLOCK}を　おきますか？$"
 
 SafariZone_Text_PokeblockStillHere:
-	.string "The {STR_VAR_1} you left\n"
-	.string "before is still here.$"
+	.string "まえに　おいた　{STR_VAR_1}が\nまだ　のこっている$"
 
 SafariZone_Text_PokeblockWasPlaced:
-	.string "The {STR_VAR_1} was placed\n"
-	.string "on the {POKEBLOCK} FEEDER.$"
+	.string "{STR_VAR_1}を　{POKEBLOCK}おきばに\nおいた$"
 
 Route121_SafariZoneEntrance_Text_WelcomeToSafariZone:
 	.string "Welcome to the SAFARI ZONE!\p"
@@ -219,24 +212,16 @@ Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 #endif
 
 SafariZone_South_Text_StillHaveTimeExit:
-	.string "You still have time left. Would you like\n"
-	.string "to exit the SAFARI ZONE now?$"
+	.string "まだ　じかんが　のこっています\nもう　サファリゾーンから　でますか？$"
 
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure:
-	.string "Please enjoy the rest of your wild\n"
-	.string "adventure!$"
+	.string "のこりの　ぼうけんを\nたのしんで　くださいね！$"
 
 SafariZone_South_Text_ExitEarlyThankYouForPlaying:
-	.string "Okay.\p"
-	.string "I'll take back your remaining SAFARI\n"
-	.string "BALLS.\p"
-	.string "Thank you for playing.\n"
-	.string "We hope to see you again.$"
+	.string "わかりました\pのこった　サファリボールは\nおかえし　いただきます\pごりよう　ありがとう　ございました\nまた　おまちしています$"
 
 SafariZone_South_Text_GoodLuck:
-	.string "Good luck!\p"
-	.string "If you need anything, don't hesitate\n"
-	.string "to tell me, please!$"
+	.string "がんばって　くださいね！\pなにか　あったら　えんりょなく\nおこえかけ　ください！$"
 
 SafariZone_South_Text_Boy:
 	.string "Did you know?\p"
