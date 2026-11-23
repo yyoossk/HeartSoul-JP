@@ -1011,20 +1011,11 @@ LilycoveCity_ContestLobby_Text_ContestFeastForEyes_hns:
 	.string "コンテストに　くると\nめの　ほようだ！\pえに　かきたく　なる\nポケモンが　いっぱい　だよ！$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme_hns:
-	.string "The TOUGHNESS CONTEST is like\n"
-	.string "extreme, man!\p"
-	.string "Those muscular appeals…\n"
-	.string "Cascading sweat… I swoon!$"
+	.string "たくましさコンテストって\nさいこうに　あついのよ！\pきんにくの　アピール‥\nほとばしる　あせ‥\lうっとり　しちゃう！$"
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon_hns:
-	.string "Day in and day out, I lavished my care\n"
-	.string "on this POKéMON.\p"
-	.string "Its condition is peaking.\n"
-	.string "Today, victory is mine!$"
+	.string "まいにち　まいにち\nこの　ポケモンを\lだいじに　そだてて　きた\pちょうしは　さいこう！\nきょうの　ゆうしょうは\lいただきだ！$"
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily_hns:
-	.string "I made {POKEBLOCK}S with Mom, Dad, and\n"
-	.string "Big Sister. They turned out great!\p"
-	.string "I bet you can make smoother, better\n"
-	.string "{POKEBLOCK}S if you have more people.$"
+	.string "ママと　パパと　おねえちゃんと\n{POKEBLOCK}を　つくったの\lすごく　よく　できたよ！\pひとが　おおいほど\nなめらかで　いい\l{POKEBLOCK}が　できるんだって$"
 

@@ -1,0 +1,47 @@
+## data/maps/LilycoveCity_ContestLobby_hns/scripts.inc
+@@LilycoveCity_ContestLobby_Text_ToughContestIsExtreme_hns
+たくましさコンテストって\nさいこうに　あついのよ！\pきんにくの　アピール‥\nほとばしる　あせ‥\lうっとり　しちゃう！
+@@LilycoveCity_ContestLobby_Text_LavishedCareOnMon_hns
+まいにち　まいにち\nこの　ポケモンを\lだいじに　そだてて　きた\pちょうしは　さいこう！\nきょうの　ゆうしょうは\lいただきだ！
+@@LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily_hns
+ママと　パパと　おねえちゃんと\n{POKEBLOCK}を　つくったの\lすごく　よく　できたよ！\pひとが　おおいほど\nなめらかで　いい\l{POKEBLOCK}が　できるんだって
+## data/maps/FuchsiaCity_SafariZoneEntrance_hns/scripts.inc
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenGiveCase
+そうそう　これも\nいるかも　しれないね
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenChamp
+やあ　{PLAYER}くん\nいや　カントーの　チャンピオンと\lよぶべき　かな？\pじつは　ぼくも　すこしの　あいだ\nホウエンちほうの\lチャンピオン　だったんだ\pだから　ようこそ\nこちらがわへ　{PLAYER}くん\pそうだ　これを\nおいわいに　うけとって
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenWelcome
+また　あったね　{PLAYER}くん！\pデボンサファリゾーンへ\nようこそ！\pこの　とくべつな　サファリには\n4つの　ちがう　かんきょうが\lあって　ホウエンちほうから\lきた　いろいろな　がいらいしゅが\lすみついて　いるんだ\pトレーナーの　みんなには\nできるだけ　つかまえて\lあんぜんに　とりのぞいて\lほしいんだ\pここには　とても　めずらしい\nポケモンが　いる\lサファリレベルを　あげれば\lなおさらだ\pサファリレベルを　あげたい\nときは　いつでも　ここの\lかかりいんに　はなしかけてね
+@@FuchsiaCity_SafariZoneEntrance_Text_Steven
+やあ　{PLAYER}くん\pサファリは　たのしんで\nいるかい？\pさいきん　めずらしい　いしを\nみかけなかった？
+@@FuchsiaCity_SafariZoneEntrance_Text_Level1
+こんにちは　{PLAYER}さん\nサファリレベルを　2に\lあげますか？\l200000えん　かかります
+@@FuchsiaCity_SafariZoneEntrance_Text_Level2
+こんにちは　{PLAYER}さん\nサファリレベルを　3に\lあげますか？\l300000えん　かかります
+@@FuchsiaCity_SafariZoneEntrance_Text_Level3
+こんにちは　{PLAYER}さん\nサファリレベルを　4に\lあげますか？\l400000えん　かかります
+@@FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyDeclined
+そうですか　ざんねんです‥
+@@FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyAccepted
+プレミアムな　サファリゾーンを\nおたのしみ　ください！
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenWantToTrade
+ねえ　{PLAYER}くん‥\nぼくは　しばらく　この\lダンバルを　そだてて　きた\pでも　きみの　ような\nトレーナーと　いっしょの\lほうが　いいと　おもうんだ\p{STR_VAR_1}と　ぼくの\n{STR_VAR_2}を\lこうかん　して　くれないか？
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenTakeCare
+ありがとう！\nアイアンを　だいじに\lして　あげてね
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenDeclineTrade
+かまわないよ\nきが　かわったら\lいつでも　いってね
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenNotRequestedMon
+うーん　それは\n{STR_VAR_1}じゃ　ないね\lぼくの　おもってたのとは\lちがうな
+@@FuchsiaCity_SafariZoneEntrance_Text_StevenTradeCompleted
+アイアンは　げんき？\nダンバルは　おもしろい\lポケモン　なんだ\pじりょくの　パルスで\nなかまと　はなしを\lするんだよ
+@@FuchsiaCity_SafariZoneEntrance_Text_MaxLevel
+こんにちは　{PLAYER}さん\nセキチクサファリゾーンの\lプレミアムかいいんを\lつづけて　いただき\lありがとう　ございます
+## data/maps/FuchsiaCity_SafariZoneBeach_hns/scripts.inc
+@@SafariZoneFuchsia_Text_Attendant1
+この　エリアには\nサファリレベル2が\lひつよう　です
+@@SafariZoneFuchsia_Text_Attendant2
+この　エリアには\nサファリレベル3が\lひつよう　です
+@@SafariZoneFuchsia_Text_Attendant3
+この　エリアには\nサファリレベル4が\lひつよう　です
+@@SafariZoneFuchsia_Text_Approved
+どうぞ　おとおり　ください
