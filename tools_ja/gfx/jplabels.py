@@ -94,3 +94,72 @@ if __name__=='__main__':
     put(2,90,68,75,'トレーナーカード',0xf,0x8,0xd,68)
     im.save(p)
     print('card ok')
+    # ---- Pokedex (HGSS style) ----
+    import sys as _s; _s.path.insert(0,R+'tools_ja/gfx'); import tmap
+    D=R+'graphics/pokedex/hgss/'
+    def glyph_rows(text,top):
+        # rows `top`..15 of each bold glyph cell (no dakuten folding)
+        rows=None
+        for ch in text:
+            i=CM[ch]; cx=(i%16)*8; cy=(i//16)*16
+            g=[[BP[cx+x,cy+y] for x in range(8)] for y in range(top,16)]
+            cols=[x for x in range(8) if any(r[x] for r in g)] or [0,3]
+            g=[r[cols[0]:cols[-1]+1] for r in g]
+            rows=g if rows is None else [a+b for a,b in zip(rows,g)]
+        return rows
+    def tm_label(tm,ts,x0,x1,y0,y1,text,fg,sh,ty):
+        im,info=tmap.load(D+tm,D+ts); px=im.load()
+        from collections import Counter
+        for y in range(y0,y1+1):
+            c=Counter(px[x,y]&15 for x in range(x0,x1+1) if px[x,y]&15 not in (fg,sh))
+            b=c.most_common(1)[0][0] if c else 1
+            for x in range(x0,x1+1): px[x,y]=(px[x,y]&0xF0)|b
+        rows=glyph_rows(text,16-(y1-ty+1)); rows=squeeze(rows,x1-x0+1)
+        xs=x0+(x1-x0+1-len(rows[0]))//2
+        for y,r in enumerate(rows):
+            for x,v in enumerate(r):
+                if v==1: px[xs+x,ty+y]=(px[xs+x,ty+y]&0xF0)|fg
+                elif v==2: px[xs+x,ty+y]=(px[xs+x,ty+y]&0xF0)|sh
+        cells=set((x//8,y//8) for x in range(x0,x1+1) for y in range(y0,y1+1))
+        tmap.writeback(im,info,D+ts,cells)
+    for ts in ['tileset_menu_list.png','tileset_menu_list_DECA.png']:
+        tm_label('tilemap_list_screen.bin',ts,114,141,149,159,'メニュー',0xf,0x4,150)
+        tm_label('tilemap_list_screen.bin',ts,149,183,149,159,'けんさく',0xf,0x4,150)
+    def spr_text(ts,y0,y1,x0,x1,text,fg,sh,fold=False,top=6):
+        im=Image.open(D+ts); px=im.load(); bg=px[31,200]
+        for y in range(y0,y1+1):
+            for x in range(x0,x1+1): px[x,y]=bg
+        if fold:
+            global H
+            rows=strip(text)
+        else:
+            rows=glyph_rows(text,top)
+        rows=squeeze(rows,x1-x0+1)
+        for y,r in enumerate(rows[:y1-y0+1]):
+            for x,v in enumerate(r):
+                if v==1: px[x0+x,y0+y]=(px[x0+x,y0+y]&0xF0)|fg
+                elif v==2: px[x0+x,y0+y]=(px[x0+x,y0+y]&0xF0)|sh
+        im.save(D+ts)
+    def spr64(ts,y0,text,fg,sh):
+        # 64x32 sprite stored as 1D tiles in a 32px wide sheet: compose, draw, decompose
+        im=Image.open(D+ts); px=im.load(); bg=px[31,200]
+        base=(y0//8)*4
+        def pos(sx,sy):
+            t=base+(sy//8)*8+(sx//8); return (t%4)*8+sx%8,(t//4)*8+sy%8
+        for sy in range(5,15):
+            for sx in range(14,64):
+                p=pos(sx,sy); px[p]=bg
+        rows=strip(text)
+        for y in range(8):
+            for x,v in enumerate(rows[y]):
+                if v:
+                    p=pos(16+x,6+y); px[p]=(px[p]&0xF0)|(fg if v==1 else sh)
+        im.save(D+ts)
+    for ts in ['tileset_interface_hns.png','tileset_interface_DECA_hns.png']:
+        spr_text(ts,83,92,0,31,'けんさく',0x1,0xf)
+        spr_text(ts,115,124,0,31,'メニュー',0x1,0xf)
+        spr_text(ts,324,331,0,31,'ジョウト',0xf,0x4,fold=True)
+        spr_text(ts,340,347,0,31,'ぜんこく',0xf,0x4,fold=True)
+        spr64(ts,128,'みつけた',0xf,0x4)
+        spr64(ts,192,'つかまえた',0xf,0x4)
+    print('dex ok')
