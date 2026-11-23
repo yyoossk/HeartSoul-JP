@@ -29,11 +29,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("くさねこ"),
         .height = 4,
         .weight = 41,
-        .description = COMPOUND_STRING(
-            "The sweet scent its body gives off\n"
-            "mesmerizes those around it. The\n"
-            "scent grows stronger when this\n"
-            "Pokémon is in the sun."),
+        .description = COMPOUND_STRING("からだから　でる　あまい\nかおりで　まわりの　ものを\nうっとり　させる　ひなたに　いると\nかおりが　つよく　なる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -94,11 +90,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("くさねこ"),
         .height = 9,
         .weight = 122,
-        .description = COMPOUND_STRING(
-            "Floragato deftly wields the vine\n"
-            "hidden beneath its long fur, slamming\n"
-            "the hard flower bud against its\n"
-            "opponents."),
+        .description = COMPOUND_STRING("ながい　けの　したに　かくした\nつるを　じょうずに　あやつり\nかたい　つぼみを　あいてに\nたたきつける"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -158,11 +150,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("マジシャン"),
         .height = 15,
         .weight = 312,
-        .description = COMPOUND_STRING(
-            "This Pokémon uses the reflective\n"
-            "fur lining its cape to camouflage the\n"
-            "stem of its flower, creating the\n"
-            "illusion that the flower is floating."),
+        .description = COMPOUND_STRING("マントの　うらの　ひかりを\nはねかえす　けで　はなの　くきを\nかくし　はなが　ういて　いる\nように　みせる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -223,11 +211,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひワニ"),
         .height = 4,
         .weight = 98,
-        .description = COMPOUND_STRING(
-            "Its flame sac is small, so energy is\n"
-            "always leaking out. This energy is\n"
-            "released from the dent atop\n"
-            "Fuecoco's head and flickers to and fro."),
+        .description = COMPOUND_STRING("ほのおぶくろが　ちいさいので\nいつも　エネルギーが　もれて　いる\nあたまの　くぼみから　でて\nゆらゆら　ゆれる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -288,11 +272,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひワニ"),
         .height = 10,
         .weight = 307,
-        .description = COMPOUND_STRING(
-            "The combination of Crocalor's fire\n"
-            "energy and overflowing vitality has\n"
-            "caused an egg-shaped fireball to\n"
-            "appear on the Pokémon's head."),
+        .description = COMPOUND_STRING("ほのおの　エネルギーと　あふれる\nげんきが　あわさって　あたまに\nタマゴの　かたちの　ひのたまが\nうかんだ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -352,11 +332,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("シンガー"),
         .height = 16,
         .weight = 3265,
-        .description = COMPOUND_STRING(
-            "Skeledirge's gentle singing\n"
-            "soothes the souls of all that hear it. It\n"
-            "burns its enemies to a crisp with\n"
-            "flames of over 5,400 degrees Fahrenheit."),
+        .description = COMPOUND_STRING("やさしいうたごえはきいたものの\nたましいを　いやす　3000どの\nほのおで　てきを\nまるこげに　する"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -417,11 +393,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("こがも"),
         .height = 5,
         .weight = 61,
-        .description = COMPOUND_STRING(
-            "Its strong legs let it easily swim\n"
-            "around in even fast-flowing rivers.\n"
-            "It likes to keep things tidy and is\n"
-            "prone to overthinking things."),
+        .description = COMPOUND_STRING("つよい　あしで　はやい\nながれの　かわも　らくに　およぐ\nきれいずきで　あれこれ\nかんがえすぎる　ところが　ある"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -482,11 +454,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("れんしゅう"),
         .height = 12,
         .weight = 215,
-        .description = COMPOUND_STRING(
-            "The hardworking Quaxwell observes\n"
-            "people and Pokémon from various\n"
-            "regions and incorporates their\n"
-            "movements into its own dance routines."),
+        .description = COMPOUND_STRING("がんばりやで　いろいろな\nちほうの　ひとや　ポケモンの\nうごきを　みて　じぶんの\nダンスに　とりいれる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -546,11 +514,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ダンサー"),
         .height = 18,
         .weight = 619,
-        .description = COMPOUND_STRING(
-            "A single kick from a Quaquaval can\n"
-            "send a truck rolling. This Pokémon\n"
-            "uses its powerful legs to perform\n"
-            "striking dances from far-off lands."),
+        .description = COMPOUND_STRING("ひとけりで　トラックを\nころがす　つよい　あしで\nとおい　くにの　はなやかな\nダンスを　おどる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -611,11 +575,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぶた"),
         .height = 5,
         .weight = 102,
-        .description = COMPOUND_STRING(
-            "It searches for food all day. It\n"
-            "possesses a keen sense of smell but\n"
-            "doesn't use it for anything other\n"
-            "than foraging."),
+        .description = COMPOUND_STRING("いちにちじゅう　たべものを\nさがす　はなが　とても　きくが\nたべものを　さがす　とき\nいがいには　つかわない"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -677,10 +637,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぶた"),
         .height = 10,
         .weight = 1200,
-        .description = COMPOUND_STRING(
-            "Oinkologne is proud of its fine,\n"
-            "glossy skin. It emits a concentrated\n"
-            "scent from the tip of its tail."),
+        .description = COMPOUND_STRING("つやつやの　きれいな　ひふが\nじまん　しっぽの　さきから\nこい　においを　だす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -741,11 +698,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぶた"),
         .height = 10,
         .weight = 1200,
-        .description = COMPOUND_STRING(
-            "This is a meticulous Pokémon that\n"
-            "likes to keep things tidy. It\n"
-            "shrouds itself in a floral aroma that\n"
-            "soothes the Pokémon around it."),
+        .description = COMPOUND_STRING("きちょうめんで　きれいずきな\nポケモン　はなの　かおりを\nまとい　まわりの　ポケモンを\nおちつかせる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -808,11 +761,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("いとだま"),
         .height = 3,
         .weight = 40,
-        .description = COMPOUND_STRING(
-            "The thread it secretes from its\n"
-            "rear is as strong as wire. The secret\n"
-            "behind the thread's strength is the\n"
-            "topic of ongoing research."),
+        .description = COMPOUND_STRING("おしりから　だす　いとは\nはりがねの　ように　つよい\nその　つよさの　ひみつは\nいまも　けんきゅう　されて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -873,11 +822,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("トラップ"),
         .height = 10,
         .weight = 165,
-        .description = COMPOUND_STRING(
-            "It clings to branches and ceilings\n"
-            "using its threads and moves without\n"
-            "a sound. It takes out its prey\n"
-            "before the prey even notices it."),
+        .description = COMPOUND_STRING("いとで　えだや　てんじょうに\nしがみつき　おとも　なく　うごく\nえものが　きづく　まえに\nしとめて　しまう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -938,11 +883,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ばった"),
         .height = 2,
         .weight = 10,
-        .description = COMPOUND_STRING(
-            "It has its third set of legs folded\n"
-            "up. When it's in a tough spot, this\n"
-            "Pokémon jumps over 30 feet using the\n"
-            "strength of its legs."),
+        .description = COMPOUND_STRING("3ばんめの　あしを　おりたたんで\nいる　ピンチの　ときは　その\nあしの　ちからで　10メートル\nいじょう　とびはねる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1003,11 +944,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ばった"),
         .height = 10,
         .weight = 175,
-        .description = COMPOUND_STRING(
-            "When it decides to fight all out, it\n"
-            "stands on its previously folded\n"
-            "legs to enter Showdown Mode. It\n"
-            "neutralizes its enemies in short order."),
+        .description = COMPOUND_STRING("ほんきで　たたかう　ときは\nおりたたんだ　あしで　たって\nしょうぶの　すがたに　なり\nすぐに　てきを　たおす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1068,11 +1005,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ねずみ"),
         .height = 3,
         .weight = 25,
-        .description = COMPOUND_STRING(
-            "The pads of its paws are electricity-\n"
-            "discharging organs. Pawmi fires\n"
-            "electricity from its forepaws while\n"
-            "standing unsteadily on its hind legs."),
+        .description = COMPOUND_STRING("にくきゅうは　でんきを　だす\nきかん　うしろあしで　ふらふら\nたちながら　まえあしから\nでんきを　うつ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1133,11 +1066,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ねずみ"),
         .height = 4,
         .weight = 65,
-        .description = COMPOUND_STRING(
-            "When its group is attacked, Pawmo\n"
-            "is the first to leap into battle,\n"
-            "defeating enemies with a fighting\n"
-            "technique that utilizes electric shocks."),
+        .description = COMPOUND_STRING("むれが　おそわれると　まっさきに\nとびだして　でんげきを\nつかった　かくとうわざで\nてきを　たおす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1197,11 +1126,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("じっせん"),
         .height = 9,
         .weight = 410,
-        .description = COMPOUND_STRING(
-            "This Pokémon normally is slow to\n"
-            "react, but once it enters battle, it\n"
-            "will strike down its enemies with\n"
-            "lightning-fast movements."),
+        .description = COMPOUND_STRING("ふだんは　はんのうが　にぶいが\nたたかいに　なると　いなずまの\nような　すばやさで\nてきを　うちたおす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1262,11 +1187,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("つがい"),
         .height = 3,
         .weight = 18,
-        .description = COMPOUND_STRING(
-            "Exhibiting great teamwork, they\n"
-            "use their incisors to cut pieces out\n"
-            "of any material that might be useful\n"
-            "for a nest, then make off with them."),
+        .description = COMPOUND_STRING("みごとな　チームワークで\nすに　つかえそうな　ものを\nまえばで　きりとって\nもちさる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1328,11 +1249,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("かぞく"),
         .height = 3,
         .weight = 23,
-        .description = COMPOUND_STRING(
-            "The little one just appeared one\n"
-            "day. They all live together like a\n"
-            "family, but the relationship between\n"
-            "the three is still unclear."),
+        .description = COMPOUND_STRING("ちいさい　1ぴきは　ある　ひ\nとつぜん　あらわれた　かぞくの\nように　くらすが　3びきの\nかんけいは　なぞ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1393,11 +1310,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("かぞく"),
         .height = 3,
         .weight = 28,
-        .description = COMPOUND_STRING(
-            "The larger pair protects the little\n"
-            "ones during battles. When facing\n"
-            "strong opponents, the whole group\n"
-            "will join the fight."),
+        .description = COMPOUND_STRING("たたかいでは　おおきい　2ひきが\nちいさい　ものを　まもる\nつよい　あいてには\nみんなで　たちむかう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1460,11 +1373,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("こいぬ"),
         .height = 3,
         .weight = 109,
-        .description = COMPOUND_STRING(
-            "This Pokémon is smooth and moist\n"
-            "to the touch. Yeast in Fidough's\n"
-            "breath induces fermentation in the\n"
-            "Pokémon's vicinity."),
+        .description = COMPOUND_STRING("さわると　なめらかで　しっとり\nして　いる　いきに　ふくまれる\nこうぼが　まわりの　ものを\nはっこう　させる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1525,11 +1434,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("こいぬ"),
         .height = 5,
         .weight = 149,
-        .description = COMPOUND_STRING(
-            "The pleasant aroma that emanates\n"
-            "from this Pokémon's body helps\n"
-            "wheat grow, so Dachsbun has been\n"
-            "treasured by farming villages."),
+        .description = COMPOUND_STRING("からだから　でる　いい　においが\nこむぎを　そだてるので\nのうそんで　たいせつに\nされて　きた"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1590,11 +1495,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("オリーブ"),
         .height = 3,
         .weight = 65,
-        .description = COMPOUND_STRING(
-            "This Pokémon converts nutrients\n"
-            "into oil, which it stores in the fruit\n"
-            "on its head. It can easily go a whole\n"
-            "week without eating or drinking."),
+        .description = COMPOUND_STRING("えいようを　あぶらに　かえて\nあたまの　みに　ためる\n1しゅうかん　のまず　くわずでも\nへいき"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1655,11 +1556,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("オリーブ"),
         .height = 6,
         .weight = 119,
-        .description = COMPOUND_STRING(
-            "Dolliv shares its tasty, fresh-\n"
-            "scented oil with others. This species\n"
-            "has coexisted with humans since\n"
-            "times long gone."),
+        .description = COMPOUND_STRING("さわやかな　かおりの　おいしい\nあぶらを　わけて　くれる\nむかしから　ひとと　ともに\nくらして　きた"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1719,11 +1616,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("オリーブ"),
         .height = 14,
         .weight = 482,
-        .description = COMPOUND_STRING(
-            "This Pokémon drives back enemies\n"
-            "by launching its rich, aromatic oil at\n"
-            "them with enough force to smash a\n"
-            "boulder."),
+        .description = COMPOUND_STRING("こくの　ある　かおりの　あぶらを\nいわも　くだく　いきおいで\nとばして　てきを\nおいはらう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1784,11 +1677,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おうむ"),
         .height = 6,
         .weight = 24,
-        .description = COMPOUND_STRING(
-            "Green-feathered flocks hold the\n"
-            "most sway. When they're out\n"
-            "searching for food in the mornings and\n"
-            "evenings, it gets very noisy."),
+        .description = COMPOUND_STRING("みどりの　はねの　むれが\nいちばん　ちからを　もつ\nあさと　ゆうがたの　えさを　さがす\nじかんは　とても　うるさい"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1850,11 +1739,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おうむ"),
         .height = 6,
         .weight = 24,
-        .description = COMPOUND_STRING(
-            "The largest of their flocks can\n"
-            "contain more than 50 individuals. They\n"
-            "fly around towns and forests,\n"
-            "searching for food and making a racket."),
+        .description = COMPOUND_STRING("いちばん　おおきな　むれは\n50ぴき　いじょう　まちや　もりを\nとびまわり　さわがしく\nえさを　さがす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1916,11 +1801,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おうむ"),
         .height = 6,
         .weight = 24,
-        .description = COMPOUND_STRING(
-            "These Squawkabilly are hotheaded,\n"
-            "and their fighting style is vicious.\n"
-            "They'll leap within reach of their\n"
-            "foes to engage in close combat."),
+        .description = COMPOUND_STRING("おこりっぽく　たたかいかたも\nはげしい　あいての　ふところに\nとびこんで　ちかい　きょりで\nたたかう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -1982,11 +1863,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おうむ"),
         .height = 6,
         .weight = 24,
-        .description = COMPOUND_STRING(
-            "Though these Squawkabilly are the\n"
-            "fewest in number, they have no\n"
-            "trouble living in towns since they blend\n"
-            "in with the white buildings."),
+        .description = COMPOUND_STRING("かずは　いちばん　すくないが\nしろい　たてものに　とけこむ\nので　まちでも\nらくに　くらせる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2050,11 +1927,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("がんえん"),
         .height = 4,
         .weight = 160,
-        .description = COMPOUND_STRING(
-            "The ground scrapes its body as it\n"
-            "travels, causing it to leave salt\n"
-            "behind. Salt is constantly being created\n"
-            "and replenished inside Nacli's body."),
+        .description = COMPOUND_STRING("じめんに　からだが　すれて\nしおを　のこして　いく\nからだの　なかで　いつも\nしおが　つくられて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2115,11 +1988,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("がんえん"),
         .height = 6,
         .weight = 1050,
-        .description = COMPOUND_STRING(
-            "It compresses rock salt inside its\n"
-            "body and shoots out hardened salt\n"
-            "pellets with enough force to\n"
-            "perforate an iron sheet."),
+        .description = COMPOUND_STRING("からだの　なかで　がんえんを\nかためて　てっぱんを　つらぬく\nいきおいで　しおの　たまを\nうちだす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2179,11 +2048,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("がんえん"),
         .height = 23,
         .weight = 2400,
-        .description = COMPOUND_STRING(
-            "Garganacl will rub its fingertips\n"
-            "together and sprinkle injured\n"
-            "Pokémon with salt. Even severe wounds will\n"
-            "promptly heal afterward."),
+        .description = COMPOUND_STRING("ゆびさきを　こすりあわせて\nけがを　した　ポケモンに\nしおを　まく　ひどい　きずも\nすぐに　なおる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2244,11 +2109,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひのこ"),
         .height = 6,
         .weight = 105,
-        .description = COMPOUND_STRING(
-            "Burnt charcoal came to life and\n"
-            "became a Pokémon. Possessing a fiery\n"
-            "fighting spirit, Charcadet will\n"
-            "battle even tough opponents."),
+        .description = COMPOUND_STRING("もえた　すみが　いのちを\nもって　ポケモンに　なった\nはげしい　とうしで　つよい\nあいてにも　たちむかう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2312,11 +2173,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひのせんし"),
         .height = 15,
         .weight = 850,
-        .description = COMPOUND_STRING(
-            "Armarouge evolved through the use\n"
-            "of a set of armor that belonged to\n"
-            "a distinguished warrior. This\n"
-            "Pokémon is incredibly loyal."),
+        .description = COMPOUND_STRING("ゆうめいな　せんしの　よろいを\nつかって　しんか　した\nとても　ちゅうじつな\nポケモン"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2375,11 +2232,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひのやいば"),
         .height = 16,
         .weight = 620,
-        .description = COMPOUND_STRING(
-            "The fiery blades on its arms burn\n"
-            "fiercely with the lingering\n"
-            "resentment of a sword wielder who fell\n"
-            "before accomplishing their goal."),
+        .description = COMPOUND_STRING("うでの　ほのおの　やいばは\nゆめ　なかばで　たおれた\nけんしの　むねんを\nやどして　はげしく　もえる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2440,11 +2293,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("でんきおたま"),
         .height = 3,
         .weight = 4,
-        .description = COMPOUND_STRING(
-            "Tadbulb shakes its tail to\n"
-            "generate electricity. If it senses danger,\n"
-            "it will make its head blink on and off\n"
-            "to alert its allies."),
+        .description = COMPOUND_STRING("しっぽを　ふって　でんきを\nつくる　きけんを　かんじると\nあたまを　てんめつ　させて\nなかまに　しらせる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2506,11 +2355,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("でんきがえる"),
         .height = 12,
         .weight = 1130,
-        .description = COMPOUND_STRING(
-            "When this Pokémon expands and\n"
-            "contracts its wobbly body, the belly-\n"
-            "button dynamo in its stomach\n"
-            "produces a huge amount of electricity."),
+        .description = COMPOUND_STRING("ぷよぷよの　からだを\nふくらませたり　ちぢめたり　すると\nおへその　はつでんきから\nたくさんの　でんきが　でる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2571,11 +2416,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("うみつばめ"),
         .height = 4,
         .weight = 36,
-        .description = COMPOUND_STRING(
-            "When its wings catch the wind, the\n"
-            "bones within produce electricity.\n"
-            "This Pokémon dives into the ocean,\n"
-            "catching prey by electrocuting them."),
+        .description = COMPOUND_STRING("つばさに　かぜを　うけると\nなかの　ほねが　でんきを　つくる\nうみに　とびこみ　えものを\nでんきで　しびれさせて　とる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2636,11 +2477,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぐんかんどり"),
         .height = 14,
         .weight = 386,
-        .description = COMPOUND_STRING(
-            "It uses its throat sac to store\n"
-            "electricity generated by its wings.\n"
-            "There's hardly any oil in its feathers,\n"
-            "so it is a poor swimmer."),
+        .description = COMPOUND_STRING("つばさで　つくった　でんきを\nのどの　ふくろに　ためる　はねに\nあぶらが　ほとんど　ないので\nおよぐのは　にがて"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2701,11 +2538,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("わんぱく"),
         .height = 5,
         .weight = 160,
-        .description = COMPOUND_STRING(
-            "Its well-developed jaw and fangs\n"
-            "are strong enough to crunch through\n"
-            "boulders, and its thick fat makes\n"
-            "for an excellent defense."),
+        .description = COMPOUND_STRING("はったつした　あごと　キバは\nいわも　かみくだく　ぶあつい\nしぼうが　すぐれた\nまもりに　なる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2766,11 +2599,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おやぶん"),
         .height = 11,
         .weight = 610,
-        .description = COMPOUND_STRING(
-            "Mabosstiff loves playing with\n"
-            "children. Though usually gentle, it\n"
-            "takes on an intimidating look when\n"
-            "protecting its family."),
+        .description = COMPOUND_STRING("こどもと　あそぶのが　だいすき\nふだんは　やさしいが　かぞくを\nまもる　ときは\nこわい　かおに　なる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2831,11 +2660,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("どくねずみ"),
         .height = 2,
         .weight = 7,
-        .description = COMPOUND_STRING(
-            "To keep enemies away from its\n"
-            "territory, it paints markings around its\n"
-            "nest using a poisonous liquid that\n"
-            "has an acrid odor."),
+        .description = COMPOUND_STRING("なわばりに　てきを　ちかづけない\nため　つんとくる　においの\nどくえきで　すの　まわりに\nしるしを　えがく"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2896,11 +2721,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("どくざる"),
         .height = 7,
         .weight = 272,
-        .description = COMPOUND_STRING(
-            "Each Grafaiai paints its own\n"
-            "individual pattern, and it will paint that\n"
-            "same pattern over and over again\n"
-            "throughout its life."),
+        .description = COMPOUND_STRING("1ぴき　ずつ　ちがう　もようを\nえがき　いっしょう　おなじ\nもようを　なんども\nえがきつづける"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -2961,11 +2782,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ころがり"),
         .height = 6,
         .weight = 6,
-        .description = COMPOUND_STRING(
-            "A soul unable to move on to the\n"
-            "afterlife was blown around by the wind\n"
-            "until it got tangled up with dried\n"
-            "grass and became a Pokémon."),
+        .description = COMPOUND_STRING("あのよへ　いけない　たましいが\nかぜに　ふかれて　かれくさに\nからまり　ポケモンに\nなった"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3026,11 +2843,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ころがり"),
         .height = 12,
         .weight = 60,
-        .description = COMPOUND_STRING(
-            "It will open the branches of its\n"
-            "head to envelop its prey. Once it\n"
-            "absorbs all the life energy it needs, it\n"
-            "expels the prey and discards it."),
+        .description = COMPOUND_STRING("あたまの　えだを　ひらいて\nえものを　つつむ　ひつような\nいのちを　すいとると　えものを\nはきだして　すてる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3093,11 +2906,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("きくらげ"),
         .height = 9,
         .weight = 330,
-        .description = COMPOUND_STRING(
-            "Though it looks like Tentacool,\n"
-            "Toedscool is a completely different\n"
-            "species. Its legs may be thin, but it\n"
-            "can run at a speed of 30 mph."),
+        .description = COMPOUND_STRING("メノクラゲに　にて　いるが\nまったく　べつの　ポケモン\nあしはほそいがじそく50キロで\nはしる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3160,11 +2969,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("きくらげ"),
         .height = 19,
         .weight = 580,
-        .description = COMPOUND_STRING(
-            "These Pokémon gather into groups\n"
-            "and form colonies deep within\n"
-            "forests. They absolutely hate it when\n"
-            "strangers approach."),
+        .description = COMPOUND_STRING("むれで　もりの　おくに\nコロニーを　つくる　しらない\nものが　ちかづくのを\nとても　いやがる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3225,11 +3030,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("まちぶせ"),
         .height = 13,
         .weight = 790,
-        .description = COMPOUND_STRING(
-            "Klawf hangs upside-down from\n"
-            "cliffs, waiting for prey. But Klawf can't\n"
-            "remain in this position for long\n"
-            "because its blood rushes to its head."),
+        .description = COMPOUND_STRING("がけに　さかさに　ぶらさがって\nえものを　まつ　でも　あたまに\nちが　のぼるので　ながくは\nつづけられない"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3291,11 +3092,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("とうがらし"),
         .height = 3,
         .weight = 30,
-        .description = COMPOUND_STRING(
-            "The more sunlight this Pokémon\n"
-            "bathes in, the more spicy chemicals are\n"
-            "produced by its body, and thus the\n"
-            "spicier its moves become."),
+        .description = COMPOUND_STRING("ひかりを　あびる　ほど\nからい　せいぶんが　つくられ\nわざも　からく\nなる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3356,11 +3153,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("とうがらし"),
         .height = 9,
         .weight = 150,
-        .description = COMPOUND_STRING(
-            "The green head has turned vicious\n"
-            "due to the spicy chemicals\n"
-            "stimulating its brain. Once it goes on a\n"
-            "rampage, there is no stopping it."),
+        .description = COMPOUND_STRING("からい　せいぶんで　のうが\nしげき　され　みどりの　あたまは\nきょうぼうに　なった　あばれだすと\nとめられない"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3426,10 +3219,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("とうがらし"),
         .height = 12,
         .weight = 220,
-        .description = COMPOUND_STRING(
-            "Mega Evolution has dialed up this\n"
-            "Pokémon's spiciness. It swings its\n"
-            "“necktie” around to wallop its foes."),
+        .description = COMPOUND_STRING("メガシンカで　からさが　ました\nネクタイを　ふりまわして\nてきを　うちのめす"),
         .frontPic = gMonFrontPic_ScovillainMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
@@ -3482,11 +3272,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ころがり"),
         .height = 2,
         .weight = 10,
-        .description = COMPOUND_STRING(
-            "This Pokémon creates a mud ball by\n"
-            "mixing sand and dirt with psychic\n"
-            "energy. It treasures its mud ball more\n"
-            "than its own life."),
+        .description = COMPOUND_STRING("すなと　つちに　サイコパワーを\nまぜて　どろだんごを　つくる\nどろだんごは　じぶんの\nいのちより　たいせつ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3547,11 +3333,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ころがり"),
         .height = 3,
         .weight = 35,
-        .description = COMPOUND_STRING(
-            "The body that supports the ball\n"
-            "barely moves. Therefore, it is thought\n"
-            "that the true body of this Pokémon\n"
-            "is actually inside the ball."),
+        .description = COMPOUND_STRING("たまを　ささえる　からだは\nほとんど　うごかない　ほんたいは\nたまの　なかに　あると\nかんがえられて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3612,11 +3394,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("えりまき"),
         .height = 2,
         .weight = 15,
-        .description = COMPOUND_STRING(
-            "Flittle's toes levitate about half\n"
-            "an inch above the ground because of\n"
-            "the psychic power emitted from the\n"
-            "frills on the Pokémon's belly."),
+        .description = COMPOUND_STRING("おなかの　ひだから　でる\nサイコパワーで　あしは\nじめんから　1センチ　ほど\nういて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3677,11 +3455,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("だちょう"),
         .height = 19,
         .weight = 900,
-        .description = COMPOUND_STRING(
-            "It immobilizes opponents by\n"
-            "bathing them in psychic power from its\n"
-            "large eyes. Despite its appearance, it\n"
-            "has a vicious temperament."),
+        .description = COMPOUND_STRING("おおきな　めから　サイコパワーを\nあびせてあいてをうごけなくする\nみためと　ちがい\nきょうぼうな　せいかく"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3742,11 +3516,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("かじし"),
         .height = 4,
         .weight = 89,
-        .description = COMPOUND_STRING(
-            "This Pokémon pounds iron scraps\n"
-            "together to make a hammer. It will\n"
-            "remake the hammer again and again until\n"
-            "it's satisfied with the result."),
+        .description = COMPOUND_STRING("てつくずを　たたいて\nハンマーを　つくる　なっとく\nするまで　なんども\nつくりなおす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3807,11 +3577,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ハンマー"),
         .height = 7,
         .weight = 591,
-        .description = COMPOUND_STRING(
-            "These Pokémon make their homes in\n"
-            "piles of scrap metal. They test the\n"
-            "strength of each other's hammers by\n"
-            "smashing them together."),
+        .description = COMPOUND_STRING("てつくずの　やまに　すむ\nハンマーを　ぶつけあって\nたがいの　ハンマーの\nつよさを　たしかめる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3871,11 +3637,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ハンマー"),
         .height = 7,
         .weight = 1128,
-        .description = COMPOUND_STRING(
-            "The hammer tops 220 pounds, yet it\n"
-            "gets swung around easily by\n"
-            "Tinkaton as it steals whatever it pleases\n"
-            "and carries its plunder back home."),
+        .description = COMPOUND_STRING("100キロ　いじょうの　ハンマーを\nかるがると　ふりまわし\nほしい　ものを　うばって\nすに　もちかえる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3936,10 +3698,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ちんあなご"),
         .height = 12,
         .weight = 18,
-        .description = COMPOUND_STRING(
-            "This Pokémon can pick up the scent\n"
-            "of a Veluza just over 65 feet away\n"
-            "and will hide itself in the sand."),
+        .description = COMPOUND_STRING("20メートル　さきの　ミガルーサの\nにおいも　かぎつけ\nすなの　なかに\nかくれる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4000,10 +3759,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ちんあなご"),
         .height = 12,
         .weight = 54,
-        .description = COMPOUND_STRING(
-            "A variety of fish Pokémon, Wugtrio\n"
-            "was once considered to be a\n"
-            "regional form of Dugtrio."),
+        .description = COMPOUND_STRING("さかなの　ポケモンの　なかま\nむかしは　ダグトリオの\nリージョンフォームだと\nおもわれて　いた"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4064,11 +3820,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おとしもの"),
         .height = 15,
         .weight = 429,
-        .description = COMPOUND_STRING(
-            "Bombirdier uses the apron on its\n"
-            "chest to bundle up food, which it\n"
-            "carries back to its nest. It enjoys\n"
-            "dropping things that make loud noises."),
+        .description = COMPOUND_STRING("むねの　エプロンで　たべものを\nつつみ　すに　はこぶ\nおおきな　おとが　する　ものを\nおとすのが　すき"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4130,10 +3882,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("いるか"),
         .height = 13,
         .weight = 602,
-        .description = COMPOUND_STRING(
-            "Its water ring is made from\n"
-            "seawater mixed with a sticky fluid that\n"
-            "Finizen secretes from its blowhole."),
+        .description = COMPOUND_STRING("みずの　わは　うみみずと\nふんきこうから　だす\nねばねばの　えきを\nまぜて　つくる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4194,11 +3943,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("いるか"),
         .height = 13,
         .weight = 602,
-        .description = COMPOUND_STRING(
-            "This Pokémon changes its appearance\n"
-            "if it hears its allies calling for\n"
-            "help. Palafin will never show\n"
-            "anybody its moment of transformation."),
+        .description = COMPOUND_STRING("なかまが　たすけを　もとめる\nこえを　きくと　すがたが　かわる\nへんしん　する　しゅんかんは\nだれにも　みせない"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4259,11 +4004,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ヒーロー"),
         .height = 18,
         .weight = 974,
-        .description = COMPOUND_STRING(
-            "This Pokémon's ancient genes have\n"
-            "awakened. It is now so extraordinarily\n"
-            "strong that it can easily lift a\n"
-            "cruise ship with one fin."),
+        .description = COMPOUND_STRING("こだいの　いでんしが　めざめた\nけたはずれに　つよく　なり\nヒレ　1ほんで　きゃくせんも\nかるく　もちあげる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4327,11 +4068,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("たんきとう"),
         .height = 10,
         .weight = 350,
-        .description = COMPOUND_STRING(
-            "The steel section is Varoom's\n"
-            "actual body. This Pokémon clings to\n"
-            "rocks and converts the minerals within\n"
-            "into energy to fuel its activities."),
+        .description = COMPOUND_STRING("はがねの　ぶぶんが　ほんたい\nいわに　くっついて　なかの\nこうぶつを　エネルギーに\nかえて　うごく"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4392,11 +4129,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("たきとう"),
         .height = 18,
         .weight = 1200,
-        .description = COMPOUND_STRING(
-            "It creates a gas out of poison and\n"
-            "minerals from rocks. It then\n"
-            "detonates the gas in its cylinders- now\n"
-            "numbering eight-to generate energy."),
+        .description = COMPOUND_STRING("どくと　いわの　こうぶつから\nガスを　つくり　8つに\nなった　シリンダーで　ばくはつ\nさせて　エネルギーを　つくる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4457,11 +4190,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ライド"),
         .height = 16,
         .weight = 630,
-        .description = COMPOUND_STRING(
-            "It can sprint at over 70 mph while\n"
-            "carrying a human. The rider's body\n"
-            "heat warms Cyclizar's back and lifts\n"
-            "the Pokémon's spirit."),
+        .description = COMPOUND_STRING("ひとを　のせて　じそく　110キロ\nいじょうではしれるのったひとの\nたいおんで　せなかが　あたたまると\nきぶんが　あがる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4523,11 +4252,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("みみず"),
         .height = 25,
         .weight = 3100,
-        .description = COMPOUND_STRING(
-            "When attacked, this Pokémon will\n"
-            "wield the tendrils on its body like\n"
-            "fists and pelt the opponent with a\n"
-            "storm of punches."),
+        .description = COMPOUND_STRING("おそわれると　からだの\nつるを　こぶしの　ように　つかい\nあいてに　パンチの　あらしを\nあびせる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4589,11 +4314,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("マントル"),
         .height = 7,
         .weight = 80,
-        .description = COMPOUND_STRING(
-            "Glimmet's toxic mineral crystals\n"
-            "look just like flower petals. This\n"
-            "Pokémon scatters poisonous powder like\n"
-            "pollen to protect itself."),
+        .description = COMPOUND_STRING("どくの　こうぶつの　けっしょうは\nはなびらに　そっくり　かふんの\nように　どくの　こなを\nまいて　みを　まもる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4655,11 +4376,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("マントル"),
         .height = 15,
         .weight = 450,
-        .description = COMPOUND_STRING(
-            "Glimmora's petals are made of\n"
-            "crystallized poison energy. It has\n"
-            "recently become evident that these\n"
-            "petals resemble Tera Jewels."),
+        .description = COMPOUND_STRING("はなびらは　どくの　エネルギーが\nけっしょうに　なった　もの\nテラスタルの　ほうせきに\nにて　いると　さいきん　わかった"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4726,11 +4443,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("マントル"),
         .height = 15,
         .weight = 450,
-        .description = COMPOUND_STRING(
-            "Glimmora's petals-now larger and\n"
-            "separated from its main body-rotate\n"
-            "around it to provide defense while\n"
-            "cattering poisonous fragments."),
+        .description = COMPOUND_STRING("おおきく　なり　からだから\nはなれた　はなびらが　まわりを\nまわって　まもり　どくの\nかけらを　まきちらす"),
         .frontPic = gMonFrontPic_GlimmoraMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
@@ -4784,11 +4497,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おばけいぬ"),
         .height = 6,
         .weight = 350,
-        .description = COMPOUND_STRING(
-            "This friendly Pokémon doesn't like\n"
-            "being alone. Pay it even the\n"
-            "slightest bit of attention, and it will\n"
-            "follow you forever."),
+        .description = COMPOUND_STRING("ひとなつっこく　ひとりぼっちが\nきらい　すこしでも　かまうと\nずっと　ついて　くる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4849,11 +4558,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おばけいぬ"),
         .height = 20,
         .weight = 150,
-        .description = COMPOUND_STRING(
-            "Houndstone spends most of its\n"
-            "time sleeping in graveyards. Among all\n"
-            "the dog Pokémon, this one is most\n"
-            "loyal to its master."),
+        .description = COMPOUND_STRING("ほとんど　ぼちで　ねて\nいる　いぬの　ポケモンの　なかで\nいちばん　しゅじんに\nちゅうじつ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4914,11 +4619,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("どうちょう"),
         .height = 16,
         .weight = 370,
-        .description = COMPOUND_STRING(
-            "Thanks to a behavior of theirs\n"
-            "known as “synchronizing,” an entire\n"
-            "flock of these Pokémon can attack\n"
-            "simultaneously in perfect harmony."),
+        .description = COMPOUND_STRING("シンクロと　よばれる\nしゅうせいの　おかげで\nむれ　ぜんいんが　ぴったり\nそろって　こうげき　できる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -4980,11 +4681,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("りくくじら"),
         .height = 12,
         .weight = 450,
-        .description = COMPOUND_STRING(
-            "This species left the ocean and\n"
-            "began living on land a very long time\n"
-            "ago. It seems to be closely related\n"
-            "to Wailmer."),
+        .description = COMPOUND_STRING("ずっと　むかし　うみを　はなれ\nりくで　くらしはじめた\nホエルコと　ちかい　なかま\nらしい"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5045,11 +4742,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("りくくじら"),
         .height = 45,
         .weight = 7000,
-        .description = COMPOUND_STRING(
-            "Ice energy builds up in the horn on\n"
-            "its upper jaw, causing the horn to\n"
-            "reach cryogenic temperatures that\n"
-            "freeze its surroundings."),
+        .description = COMPOUND_STRING("うわあごの　ツノに　こおりの\nエネルギーが　たまり　まわりを\nこおらせる　ほど　つめたく\nなる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5110,11 +4803,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("すてみ"),
         .height = 25,
         .weight = 900,
-        .description = COMPOUND_STRING(
-            "Veluza has excellent regenerative\n"
-            "capabilities. It sheds spare flesh\n"
-            "from its body to boost its agility,\n"
-            "then charges at its prey."),
+        .description = COMPOUND_STRING("さいせいりょくが　とても　たかい\nよけいな　みを　すてて\nすばやさを　あげ　えものに\nとっしん　する"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5177,11 +4866,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("おおなまず"),
         .height = 120,
         .weight = 2200,
-        .description = COMPOUND_STRING(
-            "It treats Tatsugiri like its boss\n"
-            "and follows it loyally. Though\n"
-            "powerful, Dondozo is apparently not very\n"
-            "smart."),
+        .description = COMPOUND_STRING("シャリタツを　おやぶんと　して\nちゅうじつに　したがう\nつよいが　あまり　かしこくは\nない　らしい"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5244,11 +4929,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぎたい"),
         .height = 3,
         .weight = 80,
-        .description = COMPOUND_STRING(
-            "This is a small dragon Pokémon. It\n"
-            "lives inside the mouth of Dondozo to\n"
-            "protect itself from enemies on the\n"
-            "outside."),
+        .description = COMPOUND_STRING("ちいさな　ドラゴンの　ポケモン\nヘイラッシャの　くちの　なかに\nすみ　そとの　てきから\nみを　まもる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5311,10 +4992,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぎたい"),
         .height = 3,
         .weight = 80,
-        .description = COMPOUND_STRING(
-            "This Pokémon tricks its opponents\n"
-            "by playing dead. It is small and\n"
-            "weak, but it uses its smarts to survive."),
+        .description = COMPOUND_STRING("しんだ　ふりを　して　あいてを\nだます　ちいさく　よわいが\nちえを　つかって\nいきのびる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5377,10 +5055,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぎたい"),
         .height = 3,
         .weight = 80,
-        .description = COMPOUND_STRING(
-            "It's one of the most intelligent\n"
-            "dragon Pokémon. It camouflages itself\n"
-            "by inflating its throat sac."),
+        .description = COMPOUND_STRING("ドラゴンポケモンの　なかでも\nとくに　かしこい　のどの\nふくろを　ふくらませて\nすがたを　かくす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5448,11 +5123,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぎたい"),
         .height = 6,
         .weight = 240,
-        .description = COMPOUND_STRING(
-            "Tatsugiri's brain has been invigorated\n"
-            "by Mega Evolution, making it even\n"
-            "wilier. It can create and command\n"
-            "copies of itself."),
+        .description = COMPOUND_STRING("メガシンカで　のうが　かっせいか\nして　もっと　ずるがしこく　なった\nじぶんの　コピーを　つくって\nあやつる　ことが　できる"),
         .frontPic = gMonFrontPic_TatsugiriCurlyMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 11,
@@ -5506,11 +5177,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぎたい"),
         .height = 6,
         .weight = 240,
-        .description = COMPOUND_STRING(
-            "It solidifies the energy of Mega Evolution,\n"
-            "building up an overflowing pile to launch\n"
-            "as projectiles. These projectiles explode\n"
-            "on contact."),
+        .description = COMPOUND_STRING("メガシンカの　エネルギーを\nかためて　やまもりに　し\nたまに　して　うちだす\nたまは　あたると　ばくはつ　する"),
         .frontPic = gMonFrontPic_TatsugiriDroopyMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 11,
@@ -5564,11 +5231,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ぎたい"),
         .height = 6,
         .weight = 240,
-        .description = COMPOUND_STRING(
-            "Using the energy of Mega Evolution, it\n"
-            "creates a dish to ride upon, allowing it\n"
-            "to move with total freedom-even through\n"
-            "the air."),
+        .description = COMPOUND_STRING("メガシンカの　エネルギーで\nのりものの　さらを　つくり\nそらの　なかも　じゆうに\nうごきまわる"),
         .frontPic = gMonFrontPic_TatsugiriStretchyMega,
         .frontPicSize = MON_COORDS_SIZE(40, 40),
         .frontPicYOffset = 11,
@@ -5622,11 +5285,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 22,
         .weight = 3200,
-        .description = COMPOUND_STRING(
-            "Sightings of this Pokémon have\n"
-            "occurred in recent years. The name\n"
-            "Great Tusk was taken from a creature\n"
-            "listed in a certain book."),
+        .description = COMPOUND_STRING("ここ　すうねんで　もくげき\nされて　いる　なまえは\nある　ほんに　のって　いた\nいきものから　とられた"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5689,11 +5348,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 12,
         .weight = 80,
-        .description = COMPOUND_STRING(
-            "There has been only one reported\n"
-            "sighting of this Pokémon. It\n"
-            "resembles a mysterious creature depicted\n"
-            "in an old expedition journal."),
+        .description = COMPOUND_STRING("もくげきは　1かいしか\nない　ふるい　たんけんきに\nえがかれた　なぞの\nいきものに　にて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5756,11 +5411,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 12,
         .weight = 210,
-        .description = COMPOUND_STRING(
-            "It bears a slight resemblance to a\n"
-            "Pokémon described in a dubious\n"
-            "magazine as a cross between a dinosaur\n"
-            "and a mushroom."),
+        .description = COMPOUND_STRING("あやしげなざっしにきょうりゅうと\nキノコが　まざったと　かかれた\nポケモンに　すこし　にて\nいる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5825,11 +5476,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 14,
         .weight = 40,
-        .description = COMPOUND_STRING(
-            "It has similar features to a\n"
-            "ghostly pterosaur that was covered in a\n"
-            "paranormal magazine, but the two\n"
-            "have little else in common."),
+        .description = COMPOUND_STRING("オカルトざっしに　のった\nゆうれいの　よくりゅうに\nにて　いるが　ほかに\nにた　ところは　ない"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5893,10 +5540,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 32,
         .weight = 920,
-        .description = COMPOUND_STRING(
-            "This mysterious Pokémon has some\n"
-            "similarities to a creature that an\n"
-            "old book introduced as Slither Wing."),
+        .description = COMPOUND_STRING("ふるい　ほんに　チヲハウハネと\nして　しょうかい　された\nいきものに　にて　いる\nなぞの　ポケモン"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -5959,11 +5603,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 23,
         .weight = 600,
-        .description = COMPOUND_STRING(
-            "It slightly resembles a Magneton\n"
-            "that lived for 10,000 years and was\n"
-            "featured in an article in a\n"
-            "paranormal magazine."),
+        .description = COMPOUND_STRING("オカルトざっしの　きじに\nあった　1まんねん　いきた\nレアコイルに　すこし\nにて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6026,11 +5666,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 9,
         .weight = 2400,
-        .description = COMPOUND_STRING(
-            "Sightings of this Pokémon have\n"
-            "occurred in recent years. It resembles\n"
-            "a mysterious object described in an\n"
-            "old expedition journal."),
+        .description = COMPOUND_STRING("ここ　すうねんで　もくげき\nされて　いる　ふるい\nたんけんきに　かかれた　なぞの\nぶったいに　にて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6093,11 +5729,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 6,
         .weight = 110,
-        .description = COMPOUND_STRING(
-            "Its shape is similar to a robot\n"
-            "featured in a paranormal magazine\n"
-            "article. The robot was said to have been\n"
-            "created by an ancient civilization."),
+        .description = COMPOUND_STRING("オカルトざっしの　きじに\nのった　こだいぶんめいが\nつくった　ロボットに\nかたちが　にて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6160,11 +5792,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 18,
         .weight = 3807,
-        .description = COMPOUND_STRING(
-            "It is very similar to a cyborg\n"
-            "covered exclusively by a paranormal\n"
-            "magazine. The cyborg was said to be the\n"
-            "modified form of a certain athlete."),
+        .description = COMPOUND_STRING("オカルトざっしだけが\nとりあげた　ある　せんしゅが\nかいぞう　された　サイボーグに\nとても　にて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6227,11 +5855,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 13,
         .weight = 1110,
-        .description = COMPOUND_STRING(
-            "It resembles a certain Pokémon\n"
-            "introduced in a paranormal magazine,\n"
-            "described as the offspring of a\n"
-            "Hydreigon that fell in love with a robot."),
+        .description = COMPOUND_STRING("ロボットに　こいした\nサザンドラの　こどもと　して\nオカルトざっしに　のった\nポケモンに　にて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6295,11 +5919,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 12,
         .weight = 360,
-        .description = COMPOUND_STRING(
-            "No records exist of this species\n"
-            "being caught. Data is lacking, but\n"
-            "the Pokémon's traits match up with an\n"
-            "object described in an old book."),
+        .description = COMPOUND_STRING("つかまえた　きろくは　ない\nデータは　すくないが　ふるい\nほんに　かかれた　ぶったいの\nとくちょうと　いっちする"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6363,11 +5983,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 16,
         .weight = 3030,
-        .description = COMPOUND_STRING(
-            "It has some similarities to a\n"
-            "Pokémon introduced in a dubious magazine\n"
-            "as a Tyranitar from one billion\n"
-            "years into the future."),
+        .description = COMPOUND_STRING("あやしげな　ざっしに\n10おくねんごの　バンギラスと\nして　のった　ポケモンに\nにて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6429,11 +6045,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひれ"),
         .height = 5,
         .weight = 170,
-        .description = COMPOUND_STRING(
-            "This Pokémon lives in forests and\n"
-            "craggy areas. Using the power of its\n"
-            "dorsal fin, it cools the inside of its\n"
-            "nest like a refrigerator."),
+        .description = COMPOUND_STRING("もりや　いわの　おおい　ところに\nすむ　せびれの　ちからで\nすの　なかを　れいぞうこの\nように　ひやす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6494,11 +6106,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひれ"),
         .height = 8,
         .weight = 300,
-        .description = COMPOUND_STRING(
-            "Arctibax freezes the air around it,\n"
-            "protecting its face with an ice\n"
-            "mask and turning its dorsal fin into a\n"
-            "blade of ice."),
+        .description = COMPOUND_STRING("まわりの　くうきを　こおらせ\nこおりの　かめんで　かおを　まもり\nせびれを　こおりの　やいばに\nする"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6558,11 +6166,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひょうりゅう"),
         .height = 21,
         .weight = 2100,
-        .description = COMPOUND_STRING(
-            "It launches itself into battle by\n"
-            "flipping upside down and spewing\n"
-            "frigid air from its mouth. It finishes\n"
-            "opponents off with its dorsal blade."),
+        .description = COMPOUND_STRING("さかさに　なって　くちから\nれいきを　ふきだし　たたかいに\nとびこむ　さいごは\nせびれの　やいばで　とどめを　さす"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6628,11 +6232,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("ひょうりゅう"),
         .height = 21,
         .weight = 3150,
-        .description = COMPOUND_STRING(
-            "Baxcalibur's dorsal blade has grown even\n"
-            "more massive thanks to Mega Evolution.\n"
-            "This Pokémon fires beams from the hilt\n"
-            "at its solar plexus."),
+        .description = COMPOUND_STRING("メガシンカで　せびれの\nやいばが　さらに　おおきく　なった\nみぞおちの　つかから\nビームを　うつ"),
         .frontPic = gMonFrontPic_BaxcaliburMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
@@ -6685,11 +6285,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("たからばこ"),
         .height = 3,
         .weight = 50,
-        .description = COMPOUND_STRING(
-            "It lives inside an old treasure\n"
-            "chest. Sometimes it gets left in shop\n"
-            "corners since no one realizes it's\n"
-            "actually a Pokémon."),
+        .description = COMPOUND_STRING("ふるい　たからばこの　なかに\nすむ　ポケモンだと　きづかれず\nみせの　すみに　おかれた\nままに　なる　ことも"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6751,11 +6347,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("たからもの"),
         .height = 1,
         .weight = 1,
-        .description = COMPOUND_STRING(
-            "It wanders around, carrying an old\n"
-            "coin on its back. It survives by\n"
-            "draining the life-force from humans who\n"
-            "try to pick up its coin."),
+        .description = COMPOUND_STRING("せなかに　ふるい　コインを\nのせて　うろつく　コインを\nひろおうと　した　ひとの\nいのちを　すって　いきて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6808,11 +6400,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("たからもの"),
         .height = 12,
         .weight = 300,
-        .description = COMPOUND_STRING(
-            "It has a sturdy body made up of\n"
-            "stacked coins. Gholdengo overwhelms\n"
-            "its enemies by firing coin after coin\n"
-            "at them in quick succession."),
+        .description = COMPOUND_STRING("つみかさなった　コインで\nできた　じょうぶな　からだ\nコインを　つぎつぎ　うちだして\nてきを　あっとう　する"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6873,11 +6461,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("わざわい"),
         .height = 15,
         .weight = 742,
-        .description = COMPOUND_STRING(
-            "The grudge of a person punished\n"
-            "for writing the king's evil deeds upon\n"
-            "wooden tablets has clad itself in\n"
-            "dead leaves to become a Pokémon."),
+        .description = COMPOUND_STRING("おうの　あくじを　もくかんに\nかいて　ばっせられた　ひとの\nうらみが　おちばを　まとい\nポケモンに　なった"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6940,11 +6524,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("わざわい"),
         .height = 19,
         .weight = 1522,
-        .description = COMPOUND_STRING(
-            "This Pokémon can control 100 tons\n"
-            "of fallen snow. It plays around\n"
-            "innocently by leaping in and out of\n"
-            "avalanches it has caused."),
+        .description = COMPOUND_STRING("100トンの　ゆきを　あやつる\nじぶんで　おこした　なだれに\nとびこんだり　して\nむじゃきに　あそぶ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7007,11 +6587,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("わざわい"),
         .height = 27,
         .weight = 6997,
-        .description = COMPOUND_STRING(
-            "It slowly brings its exceedingly\n"
-            "heavy head down upon the ground,\n"
-            "splitting the earth open with huge\n"
-            "fissures that run over 160 feet deep."),
+        .description = COMPOUND_STRING("とても　おもい　あたまを　ゆっくり\nじめんに　おろし　50メートル\nいじょうの　ふかい\nわれめを　つくる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7074,11 +6650,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("わざわい"),
         .height = 4,
         .weight = 49,
-        .description = COMPOUND_STRING(
-            "It controls flames burning at over\n"
-            "5,400 degrees Fahrenheit. It\n"
-            "casually swims through the sea of lava it\n"
-            "creates by melting rock and sand."),
+        .description = COMPOUND_STRING("3000ど　いじょうの　ほのおを\nあやつる　いわや　すなを\nとかした　ようがんの　うみを\nのんびり　およぐ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7143,11 +6715,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 20,
         .weight = 3800,
-        .description = COMPOUND_STRING(
-            "According to an article in a\n"
-            "dubious magazine, this Pokémon has some\n"
-            "connection to Mega Evolution that\n"
-            "occurs in Hoenn."),
+        .description = COMPOUND_STRING("あやしげな　ざっしに　よると\nホウエンで　おきる\nメガシンカと　かんけいが\nあるらしい"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7211,10 +6779,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 14,
         .weight = 350,
-        .description = COMPOUND_STRING(
-            "It has some similarities to a mad\n"
-            "scientist's invention covered in a\n"
-            "paranormal magazine."),
+        .description = COMPOUND_STRING("オカルトざっしに　のった\nマッドサイエンティストの\nはつめいひんに　にて　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7276,11 +6841,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 25,
         .weight = 3030,
-        .description = COMPOUND_STRING(
-            "This Pokémon resembles Cyclizar,\n"
-            "but it is far burlier and more\n"
-            "ferocious. Nothing is known about its\n"
-            "ecology or other features."),
+        .description = COMPOUND_STRING("モトトカゲに　にているが\nずっと　たくましく　きょうぼう\nせいたいなどは　まったく\nわかって　いない"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7344,11 +6905,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 35,
         .weight = 2400,
-        .description = COMPOUND_STRING(
-            "This seems to be the Iron Serpent\n"
-            "mentioned in an Violet Book. The\n"
-            "Iron Serpent is said to have turned the\n"
-            "land to ash with its lightning."),
+        .description = COMPOUND_STRING("バイオレットブックに　かかれた\nテツノイサハだと　おもわれる\nかみなりで　だいちを\nはいに　したと　いう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7414,10 +6971,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 35,
         .weight = 2800,
-        .description = COMPOUND_STRING(
-            "This ferocious creature is shrouded in\n"
-            "mystery. It's named after an aquatic\n"
-            "monster mentioned in an old journal."),
+        .description = COMPOUND_STRING("なぞに　つつまれた　きょうぼうな\nいきもの　ふるい　にっきに\nかかれた　すいちゅうの\nかいぶつから　なまえが　ついた"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7480,10 +7034,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 15,
         .weight = 1250,
-        .description = COMPOUND_STRING(
-            "According to the few eyewitness accounts\n"
-            "that exist, it used its shining blades\n"
-            "to julienne large trees and boulders."),
+        .description = COMPOUND_STRING("すくない　もくげきに　よると\nひかる　やいばで　おおきな\nきや　いわを　せんぎりに\nしたと　いう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7545,11 +7096,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("まっちゃ"),
         .height = 1,
         .weight = 11,
-        .description = COMPOUND_STRING(
-            "Supposedly, the regrets of a tea\n"
-            "ceremony master who died before\n"
-            "perfecting his craft lingered in some\n"
-            "matcha and became a Pokémon."),
+        .description = COMPOUND_STRING("うでを　きわめる　まえに\nなくなった　ちゃじんの　むねんが\nまっちゃに　やどり\nポケモンに　なったと　いう"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7613,11 +7160,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("まっちゃ"),
         .height = 1,
         .weight = 11,
-        .description = COMPOUND_STRING(
-            "It has taken up residence in a very\n"
-            "expensive tea caddy. It takes an\n"
-            "expert to distinguish the expensive\n"
-            "tea caddies from the cheap ones."),
+        .description = COMPOUND_STRING("とても　たかい　ちゃいれに\nすみついた　たかい　ものと\nやすい　ものを　みわけるのは\nめききでも　むずかしい"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7681,11 +7224,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("まっちゃ"),
         .height = 2,
         .weight = 22,
-        .description = COMPOUND_STRING(
-            "It pretends to be tea, trying to fool\n"
-            "people into drinking it so it can\n"
-            "drain their life-force. Its ruse is\n"
-            "generally unsuccessful."),
+        .description = COMPOUND_STRING("おちゃの　ふりを　して\nのんだ　ひとの　いのちを\nすおうと　するが　たいてい\nうまく　いかない"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7747,11 +7286,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("まっちゃ"),
         .height = 2,
         .weight = 22,
-        .description = COMPOUND_STRING(
-            "The more stirring it does with the\n"
-            "tea whisk on its head, the more\n"
-            "energy it builds up. It does this to\n"
-            "prepare for battle."),
+        .description = COMPOUND_STRING("あたまの　ちゃせんで　かきまぜる\nほど　エネルギーが　たまる\nたたかいに　そなえて\nそう　して　いる"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7815,11 +7350,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("けらい"),
         .height = 18,
         .weight = 920,
-        .description = COMPOUND_STRING(
-            "After all its muscles were stimulated\n"
-            "by the toxic chain around its neck,\n"
-            "Okidogi transformed and gained\n"
-            "a powerful physique."),
+        .description = COMPOUND_STRING("くびの　どくの　くさりで\nきんにくが　しげき　され\nたくましい　からだに\nへんぼう　した"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7882,11 +7413,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("けらい"),
         .height = 10,
         .weight = 122,
-        .description = COMPOUND_STRING(
-            "The chain is made from toxins that\n"
-            "enhance capabilities. It stimulated\n"
-            "Munkidori's brain and caused the\n"
-            "Pokémon's psychic powers to bloom."),
+        .description = COMPOUND_STRING("くさりは　のうりょくを　たかめる\nどくで　できて　いる　のうが\nしげき　され　サイコパワーが\nはなひらいた"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -7949,11 +7476,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("けらい"),
         .height = 14,
         .weight = 301,
-        .description = COMPOUND_STRING(
-            "Fezandipiti owes its beautiful looks and\n"
-            "lovely voice to the toxic stimulants\n"
-            "emanating from the chain wrapped around\n"
-            "its body."),
+        .description = COMPOUND_STRING("うつくしい　すがたと　こえは\nからだに　まきついた\nくさりから　でる　どくの\nしげきの　おかげ"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -8098,11 +7621,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 35,
         .weight = 5900,
-        .description = COMPOUND_STRING(
-            "There are scant few reports of\n"
-            "this creature being sighted.\n"
-            "One short video shows it rampaging,\n"
-            "and spouting pillars of flame."),
+        .description = COMPOUND_STRING("もくげきは　ほとんど　ない\nみじかい　どうがに　あばれながら\nほのおの　はしらを\nふきあげる　すがたが　あった"),
         .pokemonScale = 259,
         .pokemonOffset = 0,
         .trainerScale = 345,
@@ -8165,11 +7684,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 52,
         .weight = 4800,
-        .description = COMPOUND_STRING(
-            "It bears resemblance to a Pokémon\n"
-            "that became a hot topic for a short\n"
-            "while after a paranomal magazine\n"
-            "touted it as Raikou's ancestor."),
+        .description = COMPOUND_STRING("ライコウの　そせんだと\nオカルトざっしが　とりあげ\nいちじ　わだいに　なった\nポケモンに　にて　いる"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 345,
@@ -8232,10 +7747,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 15,
         .weight = 1625,
-        .description = COMPOUND_STRING(
-            "It was named after a mysterious\n"
-            "object recorded in an old book.\n"
-            "Its body seems to be metallic."),
+        .description = COMPOUND_STRING("ふるい　ほんに　かかれた\nなぞの　ぶったいから\nなまえが　ついた　からだは\nきんぞくの　ようだ"),
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 336,
@@ -8298,11 +7810,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("パラドックス"),
         .height = 16,
         .weight = 1560,
-        .description = COMPOUND_STRING(
-            "It resembles a mysterious object\n"
-            "introduced in a paranormal magazine\n"
-            "as a cutting-edge weapon\n"
-            "shaped like Cobalion."),
+        .description = COMPOUND_STRING("オカルトざっしで　コバルオンの\nかたちの　さいせんたん\nへいきと　して　しょうかい\nされた　ぶったいに　にて　いる"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 365,
@@ -8365,11 +7873,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("テラスタル"),
         .height = 2,
         .weight = 65,
-        .description = COMPOUND_STRING(
-            "Terapagos protects itself using its\n"
-            "power to transform energy into hard\n"
-            "crystals. This Pokémon is the source\n"
-            "of the Terastal phenomenon."),
+        .description = COMPOUND_STRING("エネルギーを　かたい　けっしょうに\nかえる　ちからで　みを　まもる\nテラスタル　げんしょうの\nみなもと"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 365,
@@ -8435,11 +7939,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("テラスタル"),
         .height = 3,
         .weight = 160,
-        .description = COMPOUND_STRING(
-            "The shell is made of crystallized\n"
-            "Terastal energy. When struck by a move,\n"
-            "this shell absorbs the move's energy\n"
-            "and transfers it to Terapagos."),
+        .description = COMPOUND_STRING("こうらは　テラスタルの\nエネルギーの　けっしょう　わざを\nうけると　その　エネルギーを\nすって　からだに　おくる"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 365,
@@ -8506,11 +8006,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("テラスタル"),
         .height = 17,
         .weight = 770,
-        .description = COMPOUND_STRING(
-            "An old expedition journal describes the\n"
-            "sight of this Pokémon buried in the,\n"
-            "depths of the earth as resembling a\n"
-            "planet floating in space."),
+        .description = COMPOUND_STRING("ふるい　たんけんきには\nちの　そこに　うまった\nすがたが　うちゅうに　うかぶ\nわくせいの　ようだと　ある"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 365,
@@ -8569,11 +8065,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .categoryName = _("しはい"),
         .height = 3,
         .weight = 3,
-        .description = COMPOUND_STRING(
-            "It feeds others toxic mochi that\n"
-            "draw out desires and capabilities.\n"
-            "Those who eat the mochi fall under\n"
-            "Pecharunt's control, chained to its will."),
+        .description = COMPOUND_STRING("よくぼうや　のうりょくを　ひきだす\nどくの　もちを　たべさせる\nたべた　ものは　モモワロウに\nあやつられて　しまう"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 365,
