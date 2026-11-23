@@ -1,0 +1,191 @@
+## data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Reject_hns
+いそがしい　なか　きたのに！\nかんべん　してよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Intro_hns
+やあ！\nげんき？\pわたし　{STR_VAR_3}　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし！\lよろしくね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1_hns
+きいて　きいて！　{STR_VAR_3}　おすすめの\nポケモンは　ね\l{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}！\nもちろん　ばっちり　そだてたよ！\pタッグ　くまない？\nきっと　いい　コンビに　なるよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Accept_hns
+やった　たのしく　なりそう！\nうけつけ　してくる！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Reject_hns
+もう　いじわる！\nわたし　おすみつき　なのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Intro_hns
+じこしょうかい　させて\nください　わたしは　{STR_VAR_3}\p{STR_VAR_1}の　{STR_VAR_2}ばんめの\nでし　です
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon1_hns
+{STR_VAR_3}の　アドバイスを　うけ\nそだてた　チームは\l{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}です\pどうか　タッグを\nくんで　ください！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Accept_hns
+まあ‥　うれしい！\nぜんりょくを　つくします！\pうけつけは　わたしが！\nおまち　ください！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Reject_hns
+{PLAYER}さんと　くめると\nおもって　いたのに‥
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Intro_hns
+きゃっ！　はなしかけて\nくれた！　う　うれしい！\pわたし　{STR_VAR_3}！　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon1_hns
+{STR_VAR_3}の　アドバイスで\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon2Ask_hns
+{STR_VAR_1}を　つかう\n{STR_VAR_2}を　そだてたの\pおねがい　かなえて！\nあなたの　パートナーに\lなりたいの！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Accept_hns
+きゃっ！　ふわふわ\nしちゃう！　ありがとう！\lすぐ　うけつけ　してくる！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Reject_hns
+うわーん！　ひどい！\nでも　そこが　かっこいい‥
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Intro_hns
+ひゃっほう！　おれは　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし！\pなまえは　{STR_VAR_3}\nよろしく　よろしく！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon1_hns
+ししょうの　{STR_VAR_3}の　おすすめ\n{STR_VAR_1}　めいじんの　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon2Ask_hns
+{STR_VAR_1}　めいじんの\n{STR_VAR_2}\pいい　だろ？\nパートナーに　なって\lくれるよな？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Accept_hns
+よし　さいこう！\nすぐ　うけつけ　してくる！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Reject_hns
+ぐわーっ！\n{PLAYER}は　ださんてきだな！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro_hns
+たいへん！　きょうで\nバトルタワーは　おしまい！\p‥　‥　‥　‥　‥　‥\nなーんて　じょうだん！\pみんな　{STR_VAR_3}って　よぶよ！\n{STR_VAR_1}の　1000ばんめの　でし！\lほんとは　{STR_VAR_2}ばんめ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon1_hns
+{STR_VAR_3}に　アドバイス　もらったの\n{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}！\nそれぞれ　10ぴき　いるよ！\lほんとは　1ぴきずつ！\pどう？\nいっしょに　タッグバトル\lしない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept_hns
+やったー！\nおれいに　ポケモン　あげる！\pじょうだん！　でも　うけつけは\nほんとに　してくるね？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject_hns
+つめたーい！　バトルタワーを\nこわしちゃうぞ！\pもちろん　しないけど！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro_hns
+ヘイ　おれは　ノリノリ！\nポケモン　あやつる　バリバリ！\pラップ　する　ふなのり　{STR_VAR_3}！\nなきむしと　まちがえる　な！\p{STR_VAR_1}の　{STR_VAR_2}ばんめの　でし！\nみくびる　な　この　おれっち！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon1_hns
+{STR_VAR_3}の　アドバイス　まもって\nじまんの　チーム　つくって！\l{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon2Ask_hns
+{STR_VAR_1}を　つかう\n{STR_VAR_2}！\pであいを　きねんに\nタッグで　しょうりを　いわおう！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Accept_hns
+ヘイ　ヘイ　きにいった　ぜ！\nうけつけ　いって　くる　ぜ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Reject_hns
+おいおい　{PLAYER}　つめたい　ぜ！\nいわせて　もらえば　の　はなし　さ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Intro_hns
+いやっほー！\nにげないで！　ふざけた　だけ！\pやあ！　わたし　{STR_VAR_3}！\n{STR_VAR_1}の　{STR_VAR_2}ばんめの　でし！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon1_hns
+{STR_VAR_3}に　いわれた　とおり\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon2Ask_hns
+{STR_VAR_1}を　つかう\n{STR_VAR_2}を　えらんだの\pどう？\nいい　へんじ　ちょうだい！\pおねがい！\nなかまに　いれて！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Accept_hns
+いえーい！　ついてる！\nうれしい！\pたたかう　まえに\nすぐ　うけつけ　してくる！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Reject_hns
+ことわるの？\n{PLAYER}　かなしく　なっちゃう！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro_hns
+ごほっ！\pあ　ごめん　かぜ　なんだ\nポケモンは　げんき　だけど\pぼく　{STR_VAR_3}　{STR_VAR_1}の\n{STR_VAR_2}ばんめの　でし　ごほっ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon1_hns
+{STR_VAR_3}の　アドバイスを　まもって\nつくった　チームは\l{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}\pかぜの　ひも　あめの　ひも\nまいにち　きたえたんだ\pだから　かぜを\nひいたのかも\pそんな　ぼくだけど\nパートナーに　なる？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Accept_hns
+ありがとう　たすかるよ！\nごほっ　ごほっ！\lうけつけ　してくるね
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Reject_hns
+だめ？\n{PLAYER}とは　いい　コンビに\lなれると　おもうのに
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Intro_hns
+あ　こんにちは！\nきんちょう　しちゃう\pわたし　{STR_VAR_3}\n{STR_VAR_1}の　{STR_VAR_2}ばんめの\lでし　です
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1_hns
+{STR_VAR_3}が　いいって　いった　チーム\n{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}です\pはずかしい　けど\nいっしょに　くんで\lくれますか？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Accept_hns
+わあ　ありがとう！\nてれるけど　がんばります！\pうけつけ　してきます
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Reject_hns
+ことわらないで！\nただでさえ　はずかしいのに‥
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Intro_hns
+わたしは　{STR_VAR_3}　うそでは\nない　{STR_VAR_1}の\l{STR_VAR_2}ばんめの　でしだ
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon1_hns
+{STR_VAR_3}が　すすめた　チームだ\pせいじつな　アドバイスに\nきこえたので　つれてきた\l{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pできれば　タッグの\nパートナーと　して\lみとめて　ほしい
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Accept_hns
+ほんとうに　みとめて\nくれるのか？\lでなければ　こまる　ところだ\pだが　しょうち　して　くれた\nなら　よし　ふたりぶん\lうけつけ　してこよう
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Reject_hns
+む？　なぜ　ことわる？\nじょうだん　かね？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassIntro_hns
+わたし　ミニスカートの\n{STR_VAR_1}！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon1_hns
+つれてるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}よ\pパートナーに　なって\nくれる？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassAccept_hns
+ありがとう！\nうけつけ　してくるね！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject_hns
+パートナーに　ならないの？\nあとで　こうかい　するわよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterIntro_hns
+こんにちは！\pぼく　たんぱんこぞうの\n{STR_VAR_1}！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon1_hns
+なにが　いるか　しりたい？\n{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}！\pタッグの　パートナーに\nなって　くれるよね？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept_hns
+やった！\nうけつけ　してくるね？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject_hns
+えー！　ぼくの　ポケモンと\nくめば　むてき　なのに！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro_hns
+やっほー！\nやまおとこの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1_hns
+なにを　つれてるか\nしってるか？\l{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ！\pいい　だろ？\nタッグを　くまないか？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerAccept_hns
+やっほー！\nじゃあ　うけつけ　してくる
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject_hns
+きみと　ならんで\nたたかいたかったな
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyIntro_hns
+こんにちは！\nおとなの　おねえさんの\l{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon1_hns
+なにを　そだてて　いるか\nわかる？\l{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}！\pどう　かしら？\nいっしょに　タッグを\lくまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyAccept_hns
+すてき！\nすぐ　うけつけ　するわ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyReject_hns
+ざんねん！\pわたしたち　ふたり　なら\nさいこう　だったのに！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanIntro_hns
+よう！\pおれを　しってるか？\nつりびとの　{STR_VAR_1}だ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1_hns
+おれの　チームは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon2Ask_hns
+{STR_VAR_1}を　つかう　{STR_VAR_2}だ\pどうだ？\nおれと　ならんで　たたかうか？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanAccept_hns
+よし　よし！\nおれに　まかせろ！\pうけつけ　してくる
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanReject_hns
+あいしょう　ぴったり\nだったのに‥
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyIntro_hns
+おめに　かかれて　うれしいわ\nわたくし　おじょうさまの\l{STR_VAR_1}と　もうします
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1_hns
+わたくしの　チームは\n{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}です\pおきに　めして　いただけたら\nパートナーに　なって\lほしいのです
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyAccept_hns
+こころから　かんしゃ\nいたします\lうけつけは　わたくしが
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyReject_hns
+わたくしを　えらばなかった\nこと　きっと　こうかい\lなさいますわ
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFIntro_hns
+トライアスロンの\n{STR_VAR_1}よ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon1_hns
+つれてるのは‥\n{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}！\nこの　コンビよ！\pおねがい！\nタッグを　くんで　くれる？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFAccept_hns
+わあ　ありがとう！\nカウンターで　うけつけ\lしてくるね
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFReject_hns
+わたしたち　ふたり　なら\nぜったい　つよかったのに！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherIntro_hns
+やあ！\nむしとりしょうねんの\l{STR_VAR_1}だよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon1_hns
+ぼくの　ポケモン　みてよ！\n{STR_VAR_1}の　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon2Ask_hns
+{STR_VAR_1}の　{STR_VAR_2}！\pねえ　きいて！\nタッグを　くまない？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherAccept_hns
+わかった！\pカウンターで　うけつけ\nしてくるね
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject_hns
+ちぇっ　ぼくの　ポケモン\nすごいのに　こうかい\lしないでよ！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro_hns
+ごきげんよう！\nじゅくがえりの\l{STR_VAR_1}です！
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon1_hns
+そだてて　いるのは\n{STR_VAR_1}を　つかう　{STR_VAR_2}と
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon2Ask_hns
+{STR_VAR_1}を　つかう\n{STR_VAR_2}です\pわるくない　でしょう？\nタッグを　くみませんか？
+@@BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMAccept_hns
+ありがとう　ございます！\nうけつけを　すませて\lきます
