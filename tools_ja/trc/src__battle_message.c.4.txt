@@ -1,0 +1,416 @@
+@@584
+{B_SCR_NAME_WITH_PREFIX}は　フェアリーオーラを　はなっている！
+@@585
+{B_SCR_NAME_WITH_PREFIX}は　すべての　オーラを　せいぎょする！
+@@586
+{B_SCR_NAME_WITH_PREFIX}は　ゆめうつつの　じょうたい！
+@@587
+ばの　かべが　すべて　きえさった！
+@@588
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ITEM}を　みつけた！
+@@589
+すなあらしが　ふきはじめた！
+@@590
+おたがいの　ポケモンは　3ターンごに　ほろびてしまう！
+@@591
+{B_DEF_NAME_WITH_PREFIX}の　オーラが　もえあがった！
+@@592
+{B_SCR_NAME_WITH_PREFIX}は　2つの　とくせいを　もっている！
+@@593
+{B_EFF_NAME_WITH_PREFIX}の　のうりょくへんかが　もとに　もどった！
+@@594
+{B_ATK_NAME_WITH_PREFIX}は　{B_BUFF1}で　こうどうが　はやくなった！
+@@595
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　つぎの　わざの　めいちゅうりつが　あがった！
+@@596
+{B_SCR_NAME_WITH_PREFIX}は　ちょうはつを　ふりはらった！
+@@597
+{B_SCR_NAME_WITH_PREFIX}の　メロメロが　とけた！
+@@598
+{B_ATK_NAME_WITH_PREFIX}の　どうぐは　はずせない！
+@@599
+{B_LAST_ITEM}が　{B_ATK_NAME_WITH_PREFIX2}に　くっついた！
+@@600
+{B_DEF_NAME_WITH_PREFIX}の　やけどが　なおった！
+@@601
+{B_SCR_NAME_WITH_PREFIX}は　{B_ATK_NAME_WITH_PREFIX2}に　レッドカードを　つきつけた！
+@@602
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　いれかわった！
+@@603
+{B_SCR_NAME_WITH_PREFIX}の　メロメロが　とけた！
+@@604
+{B_SCR_NAME_WITH_PREFIX}の　いちゃもんが　とけた！
+@@605
+{B_SCR_NAME_WITH_PREFIX}の　かいふくふうじが　とけた！
+@@606
+{B_ATK_NAME_WITH_PREFIX}は　トレーナーとの　きずなで　ちからが　みなぎった！\p
+@@607
+{B_ATK_NAME_WITH_PREFIX}は　サトシゲッコウガに　なった！\p
+@@608
+ひざしが　とても　つよくなった！
+@@609
+ひざしが　もとに　もどった！
+@@610
+つよい　ひざしで　みずタイプの　こうげきが　じょうはつした！
+@@611
+ひざしが　つよすぎて　おさまらない！
+@@612
+つよい　あめが　ふりはじめた！
+@@613
+つよい　あめが　あがった！
+@@614
+つよい　あめで　ほのおタイプの　こうげきが　きえた！
+@@615
+つよい　あめは　やみそうにない！
+@@616
+なぞの　らんきりゅうが　ひこうタイプの　ポケモンを　まもっている！
+@@617
+なぞの　らんきりゅうが　おさまった！
+@@618
+なぞの　らんきりゅうは　ふきやまない！
+@@619
+なぞの　らんきりゅうが　こうげきを　よわめた！
+@@620
+きのみを　もっていないので　わざが　だせない！\p
+@@621
+{B_SCR_NAME_WITH_PREFIX}の　ゲンシカイキ！　げんしの　すがたを　とりもどした！
+@@622
+しかし　{B_ATK_NAME_WITH_PREFIX2}は　その　わざを　つかえない！
+@@623
+しかし　{B_ATK_NAME_WITH_PREFIX2}は　いまの　すがたでは　つかえない！
+@@624
+{B_DEF_NAME_WITH_PREFIX2}の　まもりを　うちやぶった！
+@@625
+{B_ATK_ABILITY}の　こうかで　{B_CURRENT_MOVE}しか　だせない！\p
+@@626
+{B_DEF_NAME_WITH_PREFIX}は　あいてと　とくせいを　いれかえた！
+@@627
+{B_DEF_NAME_WITH_PREFIX}の　どくが　なおった！
+@@628
+{B_SCR_NAME_WITH_PREFIX}は　{B_BUFF1}タイプに　なった！
+@@629
+おたがいの　ポケモンは　にげられなくなった！
+@@630
+{B_ATK_NAME_WITH_PREFIX}は　はいすいのじんで　にげられなくなった！
+@@631
+{B_DEF_NAME_WITH_PREFIX}は　ほのおに　よわくなった！
+@@632
+{B_DEF_NAME_WITH_PREFIX}に　{B_BUFF1}が　おそいかかる！
+@@633
+{B_DEF_NAME_WITH_PREFIX}は　たこがためで　にげられなくなった！
+@@634
+あたりに　かがくへんかガスが　たちこめた！
+@@635
+かがくへんかガスの　こうかが　きれた！
+@@636
+{B_DEF_NAME_WITH_PREFIX}は　おもすぎて　もちあがらない！
+@@637
+{B_ATK_NAME_WITH_PREFIX}は　{B_DEF_NAME_WITH_PREFIX2}を　そらへ　つれさった！
+@@638
+{B_DEF_NAME_WITH_PREFIX}は　トラバサミに　とらわれた！
+@@639
+{B_ATK_NAME_WITH_PREFIX}に　うちゅうの　ちからが　あふれだす！
+@@640
+{B_ATK_NAME_WITH_PREFIX}は　くちばしを　かねつしはじめた！
+@@641
+{B_ATK_NAME_WITH_PREFIX}は　おたがいの　ばの　こうかを　いれかえた！
+@@642
+{B_ATK_NAME_WITH_PREFIX}は　Zパワーを　みにまとった！
+@@643
+{B_ATK_NAME_WITH_PREFIX}は　ぜんりょくの　Zワザを　はなつ！
+@@644
+{B_SCR_NAME_WITH_PREFIX}は　Zパワーで　さがった　のうりょくが　もとに　もどった！
+@@645
+{B_SCR_NAME_WITH_PREFIX}は　Zパワーで　のうりょくが　あがった！
+@@646
+{B_SCR_NAME_WITH_PREFIX}は　Zパワーで　きゅうしょに　あたりやすくなった！
+@@647
+{B_SCR_NAME_WITH_PREFIX}は　Zパワーで　HPを　かいふくした！
+@@648
+{B_SCR_NAME_WITH_PREFIX}は　Zパワーで　のうりょくが　あがった！
+@@649
+{B_SCR_NAME_WITH_PREFIX}の　HPが　Zパワーで　かいふくした！
+@@650
+{B_ATK_NAME_WITH_PREFIX}は　しんぱいを　かけまいと　どくを　なおした！
+@@651
+{B_ATK_NAME_WITH_PREFIX}は　しんぱいを　かけまいと　めを　さました！
+@@652
+{B_ATK_NAME_WITH_PREFIX}は　しんぱいを　かけまいと　まひを　なおした！
+@@653
+{B_ATK_NAME_WITH_PREFIX}は　しんぱいを　かけまいと　やけどを　なおした！
+@@654
+{B_ATK_NAME_WITH_PREFIX}は　しんぱいを　かけまいと　こおりを　とかした！
+@@655
+{B_DEF_NAME_WITH_PREFIX}は　かなしませまいと　もちこたえた！
+@@656
+{B_ATK_NAME_WITH_PREFIX}は　でんきを　つかいきった！
+@@657
+{B_ATK_NAME_WITH_PREFIX}は　あいてと　{B_BUFF1}を　いれかえた！
+@@658
+{B_CURRENT_MOVE}を　うけて　{B_DEF_NAME_WITH_PREFIX2}に　ちからが　みなぎった！
+@@659
+ひざしで　{B_SCR_NAME_WITH_PREFIX2}の　こだいかっせいが　はつどうした！
+@@660
+{B_SCR_NAME_WITH_PREFIX}の　{B_BUFF1}が　たかまった！
+@@661
+エレキフィールドで　{B_SCR_NAME_WITH_PREFIX2}の　クォークチャージが　はつどうした！
+@@662
+{B_SCR_NAME_WITH_PREFIX}の　{B_SCR_ABILITY}で　まわりの　{B_BUFF1}が　よわまった！\p
+@@663
+{B_SCR_NAME_WITH_PREFIX}は　たおれた　なかまの　ぶん　ちからが　わいた！
+@@664
+{B_SCR_NAME_WITH_PREFIX}の　{B_SCR_ABILITY}で　{B_DEF_NAME_WITH_PREFIX2}の　{B_DEF_ABILITY}が　きかない！
+@@665
+{B_ATK_NAME_WITH_PREFIX}は　トラップシェルを　しかけた！
+@@666
+{B_ATK_NAME_WITH_PREFIX}の　トラップシェルは　ふはつに　おわった！
+@@667
+{B_ATK_TEAM2}　チームの　あしもとの　まきびしが　きえた！
+@@668
+{B_ATK_TEAM2}　チームの　あしもとの　どくびしが　きえた！
+@@669
+{B_ATK_TEAM2}　チームの　あしもとの　ねばねばネットが　きえた！
+@@670
+{B_ATK_TEAM2}　チームの　まわりの　とがった　いわが　きえた！
+@@671
+{B_DEF_NAME_WITH_PREFIX}は　まもりきれずに　ダメージを　うけた！
+@@672
+{B_ATK_NAME_WITH_PREFIX}の　たくわえた　こうかが　きえた！
+@@673
+{B_BUFF1}は　ふっかつして　たたかえるように　なった！
+@@674
+{B_BUFF1}の　HPが　かいふくした
+@@675
+{B_BUFF1}の　じょうたいいじょうが　なおった！
+@@676
+{B_BUFF1}の　PPが　かいふくした！
+@@677
+{B_ATK_NAME_WITH_PREFIX}は　{B_DEF_NAME_WITH_PREFIX2}を　とじこめた！
+@@678
+{B_ATK_NAME_WITH_PREFIX}は　しもやけの　ダメージを　うけている！
+@@679
+{B_EFF_NAME_WITH_PREFIX}は　しもやけに　なった！
+@@680
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　しもやけが　なおった！
+@@681
+{B_ATK_NAME_WITH_PREFIX}は　しんぱいを　かけまいと　しもやけを　なおした！
+@@682
+{B_SCR_NAME_WITH_PREFIX}の　しもやけが　なおった！
+@@683
+{B_SCR_NAME_WITH_PREFIX}の　{B_CURRENT_MOVE}で　しもやけが　なおった！
+@@684
+{B_SCR_NAME_WITH_PREFIX}は　ものまねハーブで　あいての　のうりょくへんかを　まねた！
+@@685
+ゆきが　ふりはじめた！
+@@686
+ゆきが　ふりつづいている
+@@687
+ゆきが　やんだ！
+@@688
+ゆきが　ふりはじめた！
+@@689
+{B_ATK_NAME_WITH_PREFIX}は　{B_DEF_NAME_WITH_PREFIX2}の　{B_LAST_ITEM}を　とかした！
+@@690
+{B_ATK_NAME_WITH_PREFIX2}から　まばゆい　ひかりが　あふれだす！
+@@691
+{B_ATK_NAME_WITH_PREFIX}は　ウルトラバーストで　ほんらいの　ちからを　とりもどした！
+@@692
+がくしゅうそうちで　ほかの　ポケモンも　けいけんちを　もらった！\p
+@@693
+{B_BUFF1}は　つかえない！\p
+@@694
+{B_DEF_NAME_WITH_PREFIX}は　しおづけに　なった！
+@@695
+{B_ATK_NAME_WITH_PREFIX}は　{B_BUFF1}の　ダメージを　うけている！
+@@696
+{B_DEF_NAME_WITH_PREFIX}は　みずあめまみれに　なった！
+@@697
+{B_DEF_TEAM2}　ポケモンの　まわりに　とがった　はがねが　ただよいはじめた！
+@@698
+とがった　はがねが　{B_DEF_NAME_WITH_PREFIX2}に　くいこんだ！
+@@699
+{B_ATK_NAME_WITH_PREFIX}は　とがった　はがねを　ふきとばした！
+@@700
+{B_ATK_TEAM2}　ポケモンの　まわりの　はがねが　きえた！
+@@701
+{B_DEF_TEAM1}　ポケモンは　つるに　とらわれた！
+@@702
+{B_ATK_NAME_WITH_PREFIX}は　キョダイベンタツの　はげしい　ムチで　ダメージを　うけている！
+@@703
+{B_DEF_TEAM1}　ポケモンは　みずの　うずに　まきこまれた！
+@@704
+{B_ATK_NAME_WITH_PREFIX}は　キョダイホウゲキの　うずで　ダメージを　うけている！
+@@705
+{B_DEF_TEAM1}　ポケモンは　ほのおに　かこまれた！
+@@706
+{B_ATK_NAME_WITH_PREFIX}は　キョダイゴクエンの　ほのおで　もえている！
+@@707
+{B_DEF_TEAM1}　ポケモンは　いわに　かこまれた！
+@@708
+{B_ATK_NAME_WITH_PREFIX}は　キョダイフンセキの　いわで　ダメージを　うけている！
+@@709
+ダイマックスの　ちからで　わざが　ふせがれた！
+@@710
+{B_SCR_NAME_WITH_PREFIX}は　えいゆうへと　へんしんした！
+@@711
+2つの　わざが　ひとつに！　これは　がったいわざだ！{PAUSE 16}
+@@712
+{B_ATK_TEAM2}　チームの　そらに　にじが　かかった！
+@@713
+{B_ATK_TEAM2}　チームの　にじが　きえた！
+@@714
+{B_ATK_NAME_WITH_PREFIX}は　{B_ATK_PARTNER_NAME}の　わざを　まっている‥{PAUSE 16}
+@@715
+{B_DEF_TEAM2}　チームが　ひのうみに　つつまれた！
+@@716
+{B_ATK_NAME_WITH_PREFIX}は　ひのうみの　ダメージを　うけた！
+@@717
+{B_ATK_TEAM2}　チームの　ひのうみが　きえた！
+@@718
+{B_DEF_TEAM2}　チームが　しつげんに　つつまれた！
+@@719
+{B_ATK_TEAM2}　チームの　しつげんが　きえた！
+@@720
+{B_ATK_NAME_WITH_PREFIX}は　さむい　ギャグを　いおうとしている！
+@@721
+{B_EFF_NAME_WITH_PREFIX}は　{B_SCR_NAME_WITH_PREFIX2}の　いれた　まっちゃを　のみほした！
+@@722
+{B_ATK_NAME_WITH_PREFIX}は　でんきを　きゅうしゅうした！
+@@723
+{B_LAST_ITEM}を　つかいきった‥
+@@724
+{B_ATK_NAME_WITH_PREFIX}は　{B_BUFF1}タイプが　なくなった！
+@@725
+{B_ATK_NAME_WITH_PREFIX}は　しっぽを　きって　みがわりを　つくった！
+@@726
+{B_ATK_NAME_WITH_PREFIX}は　はげしい　ひかりに　つつまれた！
+@@727
+{B_ATK_NAME_WITH_PREFIX2}の　みずあめから　あまい　かおりが　ただよう！
+@@728
+じくうが　ゆがんだ！
+@@729
+もちものの　こうかが　なくなる　ふしぎな　くうかんが　できた！
+@@730
+ぼうぎょと　とくぼうが　いれかわる　ふしぎな　くうかんが　できた！
+@@731
+おかたづけ　かんりょう！
+@@732
+{B_ATK_NAME_WITH_PREFIX}は　テラスタルして　{B_BUFF1}タイプに　なった！
+@@733
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　{B_SCR_ABILITY}を　はつどうした！
+@@734
+こい　きりが　たちこめた！
+@@735
+きりが　ふかい‥
+@@736
+きりが　はれた
+@@737
+{B_DEF_NAME_WITH_PREFIX}は　こうらを　かがやかせた！　タイプあいしょうを　ゆがめている！
+@@738
+{B_ATK_NAME_WITH_PREFIX}は　この　こうげきに　ぜんりょくを　かける！
+@@739
+{B_SCR_NAME_WITH_PREFIX}は　ヘイラッシャに　のみこまれ　しれいとうに　なった！
+@@740
+{B_PLAYER_NAME}は　{B_LAST_ITEM}を　ふいた\pなかなか　いい　ねいろだ！
+@@741
+{B_PLAYER_NAME}は　{B_LAST_ITEM}を　ふいた
+@@742
+ふえの　ねいろを　きいた　ポケモンは　めを　さました！
+@@743
+ひざしが　つよい！
+@@744
+あられが　ふっている！
+@@745
+ゆきが　ふっている！
+@@746
+あしもとに　くさが　おいしげっている！
+@@747
+あしもとに　きりが　たちこめている！
+@@748
+あしもとに　でんきが　かけめぐっている！
+@@749
+あしもとが　ふしぎな　かんじだ！
+@@750
+ゆびを　ふって　{B_CURRENT_MOVE}が　でた！
+@@751
+ねむりの　ルールで　{B_DEF_NAME_WITH_PREFIX2}は　ねむらなかった！
+@@752
+{B_DEF_NAME_WITH_PREFIX2}と　{B_DEF_PARTNER_NAME}に　こうかは　ばつぐんだ！
+@@753
+{B_DEF_NAME_WITH_PREFIX2}と　{B_DEF_PARTNER_NAME}に　こうかは　いまひとつだ‥
+@@754
+{B_DEF_NAME_WITH_PREFIX2}と　{B_DEF_PARTNER_NAME}には　こうかが　ないようだ‥
+@@755
+{B_DEF_NAME}を　てもちに　くわえますか？
+@@756
+{B_ATK_NAME_WITH_PREFIX}は　ダイマックスした！
+@@757
+{B_ATK_NAME_WITH_PREFIX}は　キョダイマックスした！
+@@758
+ダイマックスの　ときだ！
+@@759
+キョダイマックスの　ときだ！
+@@760
+しょうぶを　あきらめて　やめますか？　やめると　まけた　ことに　なります
+@@761
+たくさんの　けはいを　かんじる！
+@@762
+{B_ATK_NAME_WITH_PREFIX}は　パーフェクトフォルムに　かわった！
+@@763
+{B_ATK_NAME_WITH_PREFIX}の　とくせいは　{B_LAST_ITEM}で　まもられている！
+@@764
+{B_ATK_NAME_WITH_PREFIX}は　こわくて　うごけない！
+@@765
+ゆうれい『でていけ‥‥　でていけ‥‥
+@@766
+シルフスコープで　ゆうれいの\nしょうたいを　みやぶった！
+@@767
+ゆうれいの　しょうたいは　ガラガラだった！\p\n
+@@768
+{B_TRAINER1_NAME}『{B_OPPONENT_MON1_NAME}　もどれ！
+@@769
+{B_PLAYER_NAME}は　{B_OPPONENT_MON1_NAME}に\nいしを　なげた！
+@@770
+{B_PLAYER_NAME}は　{B_OPPONENT_MON1_NAME}に\nエサを　なげた！
+@@771
+{B_OPPONENT_MON1_NAME}は　おこっている！
+@@772
+{B_OPPONENT_MON1_NAME}は　エサを　たべている！
+@@773
+{B_SCR_NAME_WITH_PREFIX}の　ばけのかわが　はがれた！
+@@774
+{B_SCR_ABILITY}が　はつどうした！
+@@775
+{B_SCR_ABILITY}が　おわった！
+@@776
+やせいの　ポケモンは\n{B_LAST_ITEM}を　おとしていった！\p
+@@777
+やせいの　ポケモンが　どうぐを　おとしたが\nバッグが　いっぱいだ！\p
+@@778
+おや？\n{STR_VAR_1}の　ようすが‥！
+@@779
+おめでとう！　{STR_VAR_1}は\n{STR_VAR_2}に　しんかした！{WAIT_SE}\p
+@@780
+あれ‥？　{STR_VAR_1}の\nへんかが　とまった！\p
+@@782
+{B_BUFF1}は\nどうする？
+@@783
+{B_PLAYER_NAME}は\nどうする？
+@@784
+ミツルは\nどうする？
+@@785
+{PAUSE 16}つうしんたいきちゅう‥
+@@786
+たたかう{CLEAR_TO 56}バッグ\nポケモン{CLEAR_TO 56}にげる
+@@787
+ボール{CLEAR_TO 56}{POKEBLOCK}\nちかよる{CLEAR_TO 56}にげる
+@@788
+{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}ボール{CLEAR_TO 56}エサ\nいし{CLEAR_TO 56}にげる
+@@789
+PP
+@@790
+タイプ/
+@@791
+{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}PP\nタイプ/
+@@793
+{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}どの　わざを\nわすれさせる？

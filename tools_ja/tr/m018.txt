@@ -1,0 +1,422 @@
+## data/maps/TinTower_RoofDay_hns/scripts.inc
+@@TinTower_RoofDay_Text_Kimono_AfterCaught
+ホウオウを　よびだした\nだけで　なく　つかまえて\lしまわれるとは‥\pもう　わたくしたちが\nいう　ことは　ありません\lたびの　ごぶじを‥
+@@TinTower_RoofDay_Text_Zuki_Before
+ズキ『さあ　ホウオウの　もとへ
+@@TinTower_RoofDay_Text_Naoko_Before
+ナオコ『さあ　ホウオウの　もとへ
+@@TinTower_RoofDay_Text_Miki_Before
+ミキ『さあ　ホウオウの　もとへ
+@@TinTower_RoofDay_Text_Sayo_Before
+サヨ『さあ　ホウオウの　もとへ
+@@TinTower_RoofDay_Text_Kuni_Before
+クニ『さあ　ホウオウの　もとへ
+@@TinTower_RoofDay_Text_Kimono_Opening
+まいこはん『そう\nここが　ホウオウを　むかえる\lばしょ\pわたくしたちが　なんにちも\nけいこ　した　まいと\pあなたに　たくした　とうめいな\nスズの　ねいろが　ひとつに\lなるとき　ホウオウは\lふたたび　おおぞらから\lまいおりるのです
+@@TinTower_RoofDay_Text_Kimono_Closing1
+あれこそ　ホウオウ‥\nこだいから　そらを　まもる\pもの‥\pおおくの　ひとが　なんども\nこころみ　やぶれて　きました‥\p{PLAYER}さん　とうめいなスズと\nかんぜんに　ひとつに　なった\pあなたの　こころが　ついに\nよびだしたのです‥\l{PLAYER}さん　わかりますか？\pホウオウは‥　ずっと　あなたの\nような　ひとを　まって\lいたのでしょう\pそう　おもいませんか？
+@@TinTower_RoofDay_Text_Kimono_After
+よく　がんばりましたね\nウツギはかせに\lよろしく　おつたえください
+## data/maps/TohjoFalls_GiovanniRoom_hns/scripts.inc
+@@TohjoFalls_GiovanniRoom_Text_RadioObject
+ラジオだ‥\nでんちが　きれている‥
+@@TohjoFalls_GiovanniRoom_Text_Radio
+ラジオ『‥　‥\nこちら　ロケットだん！\l3ねんの　じゅんびを　へて\lわれわれは　ふっかつ　した！\lサカキさま！　きこえますか？\lやりました！\lボスは　どこに？\lきいて　おられますか？
+@@TohjoFalls_GiovanniRoom_Text_GiovanniIntro
+サカキ『‥\pなぜ　おまえが　ここに\nきたのかは　しらんが\pここは　おまえの　ような\nこどもの　くる　ところでは\lないと　いっておこう\pおまえの　その　かお‥\n3ねんまえ　わたしの　まえに\lたった　こどもを　おもいだす‥\pおなじ　めを　している‥\p‥\pわたしは　なかまの　よびかけに\nこたえて　コガネシティへ\lむかう　ところだ\lじゃまを　する　つもりか？
+@@TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle
+かつての　なかまが\nわたしを　まって　いる‥\l3ねんまえの　しっぱいは\lくりかえさん！
+@@TohjoFalls_GiovanniRoom_Text_GiovanniDefeat
+おまえは　いったい\nなにものだ？
+@@TohjoFalls_GiovanniRoom_Text_GiovanniAfter
+サカキ『なぜだ‥？\nこの　3ねんは\lむだ　だったのか‥？\pなぜ　おまえの　ような　こどもに\nまた　ゆめを　うちくだかれる\lのだ？\pロケットだんの　だいじな　ゆめは\nまぼろしに　すぎなく\lなって　しまった‥
+## data/maps/VictoryRoadKanto_1F_hns/scripts.inc
+@@VictoryRoad_Text_RivalBefore
+まて\p‥ポケモンリーグに\nちょうせん　するのか？\p‥わらわせるな\pおまえは　おれより\nずっと　よわい\pおれは　まえとは　ちがう\pさいこうで　さいきょうの\nポケモンが　いっしょだ\pおれは　むてきだ！\p{PLAYER}！\nしょうぶだ！
+@@VictoryRoad_Text_RivalDefeat
+‥かてなかった‥\pもてる　ちからを\nぜんぶ　だしたのに‥\pおまえに　あって\nおれに　ない　もの‥\pあの　ドラゴンつかいの　いった\nことが　わかって　きた‥
+@@VictoryRoad_Text_RivalAfter
+‥さいきょうの　トレーナーに\nなる　ことは　あきらめて\lいない‥\pなぜ　かてないのか\nみつけて　つよく　なる‥\pそしたら　おまえに\nちょうせん　する\pぜんりょくで　たたきのめして\nやる\p‥ふん！　それまで\nせいぜい　がんばるんだな
+## data/maps/ViridianForest_hns/scripts.inc
+@@ViridianForest_Text_Bugsy
+ツクシ『もっと　つよい　むしタイプの\nトレーナーに　なる　ために\lカントーへ　むしポケモンを\lさがしに　きたんだ！\pまた　しょうぶ　するなら\nヤマブキの　どうじょうに\lいるよ！
+## data/maps/MtMoon_Cave_hns/scripts.inc
+@@MtMoon_Cave_Text_Rival_Before
+‥‥‥‥‥‥‥‥‥‥‥\pひさしぶりだな　{PLAYER}\p‥おまえに　まけて　から\nおれの　ポケモンに　たりない\lものを　かんがえた\pそして　こたえを\nみつけた\p{PLAYER}　みせて\nやる！
+@@MtMoon_Cave_Text_Rival_Win
+‥‥‥‥‥‥‥‥‥‥‥\pポケモンを　さいこうに\nそだてた　つもり　だった‥\p‥でも　まだ\nたりなかった‥
+@@MtMoon_Cave_Text_Rival_After
+‥‥‥‥‥‥‥‥‥‥‥\p‥せいせいどうどう\nおまえの　かちだ\pみとめる　だが　これで\nおわりじゃ　ない\pおれは　さいこうの\nトレーナーに　なる\pこいつらが　ついてて\nくれる　からな\p‥いいか　{PLAYER}\pいつか　おまえに　かって\nおれの　つよさを\lしょうめい　してやる
+@@MtMoon_Cave_Text_Rival_Loss
+‥‥‥‥‥‥‥‥‥‥‥\pかりは　かえした\pおれは　ポケモンと\nチャンピオンを　たおして\lせかい　いちの\lトレーナーに　なる
+@@MtMoon_Cave_Text_Sign
+おつきみやま　ひろば　ここから
+## data/maps/MtMoon_Outside_hns/scripts.inc
+@@MtMoon_Outside_Text_WhiteRockTouchIt
+めずらしい　しろい　いわだ\nつきの　いろを　おもわせる\pさわって　みますか？
+@@MtMoon_Outside_Text_WhiteRockTouchDay
+{PLAYER}は　めずらしい\nいわに　さわった\l‥‥‥‥‥‥‥‥‥‥‥‥\l‥‥‥‥‥‥‥‥‥‥‥‥\lしかし　なにも　おこらない
+@@MtMoon_Outside_Text_WhiteRockTouchNight
+{PLAYER}は　めずらしい\nいわに　さわった\l‥‥‥‥‥‥‥‥‥‥‥‥\l‥‥‥‥‥‥‥‥‥‥‥‥
+@@MtMoon_Outside_Text_DontLitterSign
+おつきみやま　ひろば\nゴミを　すてないで
+@@MtMoon_Outside_Text_Jirachi
+ジラーチ『ジラッ！
+@@MtMoon_Outside_Text_Clefairy
+ピッピ『ピッ　ピッピッピ！
+## data/maps/DiglettsCave_EntranceNorth_hns/scripts.inc
+@@DiglettsCave_EntranceNorth_Text_Brock
+タケシ『いわに　かこまれた\nせまい　ばしょは\lおちつく　だろ？\pまた　しょうぶ　するなら\nかくとうどうじょうに　いるよ
+## data/maps/SeafoamIslands_Gym_hns/scripts.inc
+@@SeafoamIslands_Gym_Text_GymStatue
+グレン　ポケモンジム\nリーダー　カツラ\pかった　トレーナー\nグリーン　レッド
+@@SeafoamIslands_Gym_Text_GymStatuePlayerWon
+グレン　ポケモンジム\nリーダー　カツラ\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+@@SeafoamIslands_Gym_Text_Blaine_GiveTM
+これも　もって　いけ！
+@@SeafoamIslands_Gym_Text_Blaine_ExplainTM
+その　わざマシンは\nすごいぞ　オーバーヒートじゃ！\pすさまじい　ねつで　あいてを\nこがすが　そのあと\lとくこうが　さがる\pつぎの　あいてが　やけどなおしを\nもってると　いいのう！\lうおおーっ！
+@@SeafoamIslands_Gym_Text_BlaineIntro
+カツラ『うおおーっ！\pグレンの　ジムが\nやけて　しもうた\pかざんの　せいで　わしと\nほのおポケモンは\lいえなし　じゃ\pうおおーっ！\pじゃが　この　どうくつで\nジムリーダーに\lふっかつ　したぞ！\pわしに　かてたら\nバッジを　やろう\pはっ！　やけどなおしを\nよういして　おけい！
+@@SeafoamIslands_Gym_Text_BlaineWinLoss
+カツラ『みごと！\nもえつきた‥\pクリムゾンバッジを\nやろう！
+@@SeafoamIslands_Gym_Text_ReceivedVolcanoBadge
+{PLAYER}は\nクリムゾンバッジを　もらった
+@@SeafoamIslands_Gym_Text_BlaineAfterBattle
+カツラ『こんかいは　まけたが\nつぎは　かつぞ\pグレンジムを　たてなおしたら\nさいせん　じゃ
+@@SeafoamIslands_Gym_Text_BlaineFightDone
+カツラ『わしの　ほのおポケモンは\nもっと　つよく　なるぞ\pみて　おれ！
+@@SeafoamIslands_Gym_Text_BlaineRematch
+カツラ『おおっ！\pカントーの　チャンピオンに\nなったのか！\pもえるのう！\pうでは　ちょういっきゅうじゃ\pわしは　いつでも\nしょうぶ　だいかんげいじゃ\pもう　いちど\nしょうぶ　するか？
+@@SeafoamIslands_Gym_Text_BlaineRematchDefeat
+カツラ『きみの　うでは\nまさに　ほのおじゃ！\pわしの　まもりを\nもやしつくした
+@@SeafoamIslands_Gym_Text_GymGuideWin
+よう！\p‥あれ？　もう\nおわったのか？\pわるい　わるい！\pグレンジムが　なくなったから\nどこに　いるか\lわからなくてさ\pでも　アドバイス\nなしでも　じゅうぶん　つよいな\lかつと　おもってたよ！
+@@SeafoamIslands_Gym_Text_GymGuideWin2
+ジムリーダーが　いれば\nポケモンジムは　どこでも\lできるんだ\pたてもの　なんて\nいらないのさ
+## data/maps/SeafoamIslands_B1F_hns/scripts.inc
+@@SeafoamIslands_B1F_Text_ArticunoBattle
+ギャオー！
+## data/maps/MtSilver_Outside_hns/scripts.inc
+@@MtSilver_Outside_Text_Sign
+シロガネやま
+## data/maps/MtSilver_1F_WaterfallRoom_hns/scripts.inc
+@@MtSilver_1F_WaterfallRoom_Text_Scientist
+ここが　みたんさの　えだみちの\nいりぐちよ‥　{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}\pここ　さむくない？\pじゃあ　わたしは\nもどるわね\pがんばって！
+## data/maps/CliffEdgeCave_hns/scripts.inc
+@@CliffEdgeCave_Text_Baldman
+どうくつで　わかれみちが\nあったら　たいてい　かたほうは\lせいかいで　もう　かたほうは\lいきどまり\pでも　ひとは　つい\nりょうほう　ためしたく\lなるんだよな
+## data/maps/RocketHideout_B1F_hns/scripts.inc
+@@RocketHideout_B1F_Text_CameraGrunt1Seen
+おい！\nしんにゅうしゃ　はっけん！
+@@RocketHideout_B1F_Text_CameraGrunt1Beaten
+くそ‥　しっぱいだ‥
+@@RocketHideout_B1F_Text_CameraGrunt2Seen
+こんどは　おれの　ばんだ！\nにがさないぞ！
+@@RocketHideout_B1F_Text_CameraGrunt2Beaten
+ポケモンの　ぞうに\nかんしカメラが　ある\pひみつの　スイッチを　おすまで\nおれたちは　でて　くるぞ
+@@RocketHideout_B1F_Text_ScientistJedSeen
+ここは　むかし　にんじゃの\nかくれが　だった\pおまえの　ような　しんにゅうしゃを\nまどわす　わなが　あるぞ
+@@RocketHideout_B1F_Text_ScientistJedBeaten
+わかったよ‥
+@@RocketHideout_B1F_Text_ScientistJedAfter
+よし　アジトの　ひみつを\nひとつ　おしえて　やる\pこの　さきの　ゆかの\nあれは　ワープパネルだ\pふむと　いりぐちに\nもどされるぞ
+@@RocketHideout_B1F_Text_GruntM16Seen
+へへへ　うんだめし\nしてみるか？
+@@RocketHideout_B1F_Text_GruntM16Beaten
+ドカーン！
+@@RocketHideout_B1F_Text_GruntM16After
+わなが　どこに　あるのか\nおれも　しらない\pゆうきを　だして\nあるくんだな
+@@RocketHideout_B1F_Text_SecurityCameraStatue
+ペルシアンの　ぞうだ‥
+@@RocketHideout_B1F_Text_NothingThere
+へんな　パネルだ‥\nなにも　ない
+@@RocketHideout_B1F_Text_SecretSwitch
+ひみつの　スイッチだ！\nおしてみよう
+@@RocketHideout_B1F_Text_SwitchOff
+スイッチが　きれた
+## data/maps/RocketHideout_B2F_hns/scripts.inc
+@@RocketHideout_B2F_Text_MurkrowUnlock
+ヤミカラスが　ラムダの　こえを\nまねて　あいことばを　さけんだ\p‥‥‥‥‥‥‥‥\nおんせいにんしょうで\lとびらが　ひらいた！
+@@RocketHideout_B2F_Text_ArianaHoldIt
+アテナ『そこまでよ！
+@@RocketHideout_B2F_Text_ArianaChallenge
+アテナ『あんたみたいな　こどもに\nいつまでも　すきに\lさせて　おけないわ\pロケットだんの　プライドが\nなんども　きずつけられて\lへって　いくのよ\p‥だから　ここで\nおしまいに　して　あげる\lどんなに　つよくても\pふたり　どうじに　あいて\nしたら　かちめは　ないわ\lそう　でしょ？\pふふふ！　わるいわね　ぼうや\nさあ　ぼこぼこに　される\lかくごを　しなさい
+@@RocketHideout_B2F_Text_LanceInterrupt
+ワタル『まて！\nふたりがかり　だと？\pひきょう　だな！\nいかにも　ロケットだんらしい\lやりかただ\pわたしも　くわわろう！
+@@RocketHideout_B2F_Text_ArianaOutraged
+アテナ『なに？　なかまが\nいたの？　ほこりは\lないの？\pサカキさまの　かわりの\nボス　として　ロケットだんに\lさからう　おろかさを\lおしえて　あげるわ！
+@@RocketHideout_B2F_Text_LanceChooseMons
+ワタル『{PLAYER}くん　はやく\nポケモンを　えらぶんだ！
+@@RocketHideout_B2F_Text_ArianaLoss
+ちっ　ほんとうに\nつよいのね　ざんねん\pロケットだんに　はいれば\nかんぶに　なれたのに
+@@RocketHideout_Text_ArianaRetreat
+アテナ『でも　まあ　いいわ\nでんぱの　じっけんは\lだいせいこう\pもう　この　アジトが\nどうなろうと　かまわない\pもっと　おおきな　けいかくが\nあるの　ロケットだんの\lほんとうの　ちからを\lすぐに　おもいしるわ\pいまの　うちに　たのしんで\nおきなさい‥　ふふふ‥
+@@RocketHideout_Text_LanceStepBack
+すまない　{PLAYER}くん\nきみが　うまく　やってたから\lみまもって　いたんだ\pあとは　あの　へんな\nでんぱを　とめる　だけだ
+@@RocketHideout_B2F_Text_LanceElectrodeFaint
+この　きかいが　すべての\nげんいんだ\pスイッチが　みあたらない‥\pしかたない　マルマインを\nぜんぶ　たおすんだ\pそうすれば　この　きかいの\nへんな　でんぱも\lとまる　はずだ\pポケモンに　つみは　ないから\nこころが　いたむが‥\p{PLAYER}くん\nてわけ　しよう
+@@RocketHideout_B2F_Text_LanceSide
+ワタル『こっちは\nわたしに　まかせろ
+@@RocketHideout_B2F_Text_LanceElectrodeDone
+ワタル『へんな　でんぱが\nやっと　とまった\pみずうみも　もとに\nもどる　だろう\pきみは　ヒーローだ！\nポケモンたちに　かわって\lれいを　いうよ\pそうだ　これを\nもって　いきなさい\lここで　みつけたが\lわたしには　ひつようない
+@@RocketHideout_B2F_Text_LanceWhirlpool
+それは　うずしお\nポケモンに　おぼえさせれば\lあれた　うみを　わたれる\pだが　おぼえて　おきなさい\pたたかい　いがいで　つかうには\nチョウジジムの　バッジが\lひつようだ
+@@RocketHideout_B2F_Text_LanceMonMaster
+{PLAYER}くん‥\pポケモンマスターへの　みちは\nながく　けわしい\pそれでも　すすむ\nかい？\p‥\pそうか　そうだな\pかんたんに　あきらめる\nようなら　はじめから\lゆめを　おいかけたり\lしないだろう\pまた　あえる　ひを\nたのしみに　しているよ！
+@@RocketHideout_B2F_Text_B2FTransmitter
+あやしい　でんぱを　だして\nいる　ラジオの　そうしんきだ\pフルパワーで　うごいている
+@@RocketHideout_B2F_Text_B2FDeactivateTransmitter
+ラジオの　そうしんきは\nついに　わるい　でんぱを\lとめた
+@@RocketHideout_B2F_Text_LanceHeals1
+ワタル『だいじょうぶか？\pポケモンが　きずついて\nつかれて　いるね\pほら　わたしの　くすりを\nわけて　あげよう
+@@RocketHideout_B2F_Text_LanceHeals2
+ワタル『{PLAYER}くん\nポケモンの　ために\lがんばろう
+@@RocketHideout_B2F_Text_GruntM17Seen
+とびらが　ひらかない？\pあたりまえだ　ロケットだん\nしか　しらない　あいことばが\lいるんだ
+@@RocketHideout_B2F_Text_GruntM17Beaten
+なに？　まけた？
+@@RocketHideout_B2F_Text_GruntM17After
+へっ　おれは　したっぱだ\pあいことばは　しらない\nざんねん　だったな
+@@RocketHideout_B2F_Text_GruntM18Seen
+こども？　きは　すすまないが\nたおさねば　ならん
+@@RocketHideout_B2F_Text_GruntM18Beaten
+まけると　おもってた‥
+@@RocketHideout_B2F_Text_GruntM18After
+まえの　にんむでも\nこどもに　やられたんだ\pポケモンを　さらって　いたら\nあかい　ながい　かみで\lめつきの　わるい　こどもに\lこてんぱんに　された‥
+@@RocketHideout_B2F_Text_GruntM19Seen
+この　くそがき！
+@@RocketHideout_B2F_Text_GruntM19Beaten
+ぐぬぬ‥
+@@RocketHideout_B2F_Text_GruntM19After
+へっ　あの　とびらの\nあいことばは　ボスしか\lしらない\pボスは　どこかって？\nしらねえよ\lじぶんで　さがしな
+## data/maps/RocketHideout_B3F_hns/scripts.inc
+@@RocketHideout_B3F_Text_LanceGetPassword
+ワタル『ボスの　へやに\nはいるには　あいことばが\l2つ　いる\pあいことばを　しっているのは\nいちぶの　ロケットだん\lだけ　らしい\pそこの　ロケットだんが\nしんせつに　おしえて\lくれたよ\p{PLAYER}くん\nあいことばを　ききだそう
+@@RocketHideout_B3F_Text_B3FRocket
+うぐぐ‥　マントの\nおとこ　めちゃくちゃ\lつよい‥
+@@RocketHideout_B3F_Text_B3FLockedDoorNeedsPassword
+とびらは　しまっている‥\pひらくには　あいことばが\n2つ　ひつようだ
+@@RocketHideout_B3F_Text_B3FLockedDoorOpenSesame
+とびらは　しまっている‥\p{PLAYER}は　2つの\nあいことばを　いれた\pとびらが　ひらいた！
+@@RocketHideout_B3F_Text_Rival
+‥\pロケットだんは　おれが\nつぶすと　いった　だろう？\p‥おい　ドラゴンポケモンを\nつかう　マントの　おとこは\lだれだ？\pおれの　ポケモンは\nまったく　かなわなかった\pあいつの　いった　ことが\nひっかかる‥\pおれが　ポケモンを　あいして\nしんじて　いないと　いうんだ\pチームが　やくたたず　なのは\nおれの　せいじゃ　ない\pあんな　あまい　やつに\nまけて　はらが　たつ\pだが　かんがえて\nしまう\pおれが　なにか\nまちがって　いるのか？\pあいじょうが　あいつの\nチームを　つよく\lしたのか？
+@@RocketHideout_B3F_Text_PetrelIntro
+むははは　まって　いたぞ\nおまえが　{PLAYER}か‥\pわたし？　わたしを\nしらないのか？\lサカキ　だよ\pあの　いだいなる\nサカキさま　だ！\lわはははは！
+@@RocketHideout_B3F_Text_PetrelDisbelief
+‥え？\nサカキさまに　ぜんぜん\lにてない？\pみためも　にてない？\nなんで？　あんなに\lまねして　きたのに！
+@@RocketHideout_B3F_Text_PetrelReveal
+ラムダ『わたしは\nロケットだん　かんぶ！\pおまえ　そうしんきの　へやに\nしのびこむ　つもりだな\pそうは　させん\nあの　へやは　とくべつな\lあいことばで　まもられて\lいる\pあいことばは\nサカキさま　ばんざい\lわたしが　いうのは　いがいか？\pだが　しっても　むだだ\pわたしが　いわないと\nとびらは　ひらかない\lわたしの　こえにしか\lはんのう　しないのだ
+@@RocketHideout_B3F_Text_PetrelBeaten
+な‥　なにも\nできなかった‥\pサカキさま\nおゆるし　ください‥
+@@RocketHideout_B3F_Text_PetrelAfterBattle
+ラムダ『3ねんまえの\nかいさん　いらい　サカキさまは\lゆくえ　ふめいだ\pだが　ふっかつの\nときを　まって　おられるに\lちがいない‥　わはははは！\pおまえに　まけても　そうしんきの\nへやに　はいれない　ことに\lかわりは　ない！\pひらくには　わたしの\nこえが　いるのだ！
+@@RocketHideout_B3F_Text_MurkrowSpeak1
+ヤミカラス『サカキさま\nばんざい
+@@RocketHideout_B3F_Text_MurkrowMimic
+ヤミカラスが　ラムダの\nこえを　まねている！\pもしかしたら‥！？
+@@RocketHideout_B3F_Text_Murkrow
+ヤミカラス『あいことばは‥\pサカキさま　ばんざい
+@@RocketHideout_B3F_Text_GruntF5Seen
+あいことばを　しってるか\nですって？\pたぶんね\pでも　よわむしには\nおしえないわ！
+@@RocketHideout_B3F_Text_GruntF5Beaten
+わかった　やめて\nおしえるわ
+@@RocketHideout_B3F_Text_GruntF5After
+ボスの　へやの　あいことばは\nヤドンのシッポ\pでも　あいことばが　2つ\nないと　いみが　ないわよ
+@@RocketHideout_B3F_Text_GruntM28Seen
+ひゃっひゃっひゃ！\pいどで　あった\nやつだな！\pまた　いどむ　きか？\pはっ！　ばかだが\nきもは　すわってるな！\pいっておくが　おれは\nつよく　なったぞ！\pかてたら　ボスの　へやの\nあいことばを　おしえて\lやる！
+@@RocketHideout_B3F_Text_GruntM28Beaten
+ひゃっひゃっひゃ！\nやるな！
+@@RocketHideout_B3F_Text_GruntM28After
+ひゃっひゃっひゃ！\pボスの　へやの　あいことばは‥\pえーと‥　ラッタの\nシッポ　だった　かな
+@@RocketHideout_B3F_Text_ScientistRossSeen
+むかしは　シルフで　はたらいて\nいたが　いまは　ロケットだんの\lけんきゅうを　している\pおせっかいな　こどもには\nおしおきが　ひつようだ
+@@RocketHideout_B3F_Text_ScientistRossBeaten
+ささいな　さくせんミスで‥
+@@RocketHideout_B3F_Text_ScientistRossAfter
+ポケモンを　くるわせる\nでんぱ‥\pじっけんは　だいせいこうだ\pしょうしんは　まちがい　なし\nこんな　まけは　どうでも\lいい
+@@RocketHideout_B3F_Text_ScientistMitchSeen
+じっけんで　ポケモンが\nきずついても　かまわない
+@@RocketHideout_B3F_Text_ScientistMitchBeaten
+わたしは　あたまで\nしょうぶ　する　タイプ\lなんだ
+@@RocketHideout_B3F_Text_ScientistMitchAfter
+でんぱの　パワーを　あげて\nぜんこくに　ほうそう　したら‥\pかんがえる　だけで\nわくわく　する！
+## data/maps/PoniIsle_hns/scripts.inc
+@@Alola_Poni_BattleExeggutor_Text_0
+ナッシーーッ！
+@@Alola_Poni_Island_Sign_Text_0
+ポニじま
+@@Alola_Poni_TotemBattle_Text_0
+ブーーン！！
+@@Alola_Poni_TotemBattle_Text_1
+ぬしの　エレキブルを　たおした！\nどこかへ　にげて　いった‥
+@@Alola_Poni_Totem_sign_Text_0
+トーテムから　つよい\nエネルギーが　でている‥\pトーテムに　さわって　ほかの\nしまへ　ワープしますか？
+@@Alola_Poni_Totem_sign_Text_1
+メレメレじま
+@@Alola_Poni_Totem_sign_Text_2
+アーカラじま
+@@Alola_Poni_Totem_sign_Text_3
+ウラウラじま
+@@Alola_Poni_Totem_sign_Text_4
+やめる
+@@Alola_Poni_Totem_sign_Text_5
+ふしぎな　トーテムが　たっている\nちからが　あふれでている‥
+@@Alola_Poni_BattleVsTapuFini_Text_0
+フィーン！
+@@Alola_Poni_TrainerBattleSwimmer1_Text_0
+あったかい　うみなら\nへっちゃら！
+@@Alola_Poni_TrainerBattleSwimmer1_Text_1
+しまった　ひやけどめ\nわすれた‥
+@@Alola_Poni_TrainerBattleSwimmer1_Text_2
+およいでたら　かっこいい\nポケモンに　たくさん　あった！\lうみに　なにか　あるのかな
+@@Alola_Poni_TrainerBattleSwimmer2_Text_0
+おい　ながれを\nじゃま　するな！
+@@Alola_Poni_TrainerBattleSwimmer2_Text_1
+ちぇっ　わかったよ\nおよがせて　くれ‥
+@@Alola_Poni_TrainerBattleSwimmer2_Text_2
+ここの　ながれは　うきわに\nさいこう　ほかでは\lもう　うかべない　かも！
+@@Alola_Poni_NPC_girl_Text_0
+ポニじまが　いちばん　すき\nこの　だいしぜんが\lたまらないの！
+@@Alola_Poni_Bench_Heal_Text_0
+この　ベンチで\nやすみますか？
+## data/maps/AkalaIsle_hns/scripts.inc
+@@Alola_Akala_BattleSandygast_Text_0
+スナァー！
+@@Alola_Akala_Sign_Text_0
+アーカラじま
+@@Alola_Akala_House_Sign_Text_0
+アーカラ　ヴィラ\pアーカラじまに　くる\nりょこうしゃの　やど
+@@Alola_Akala_Natu_Text_0
+ネイティ『ティーーー！
+@@Alola_Akala_OldManOnBench_Text_0
+きょうは　いい　てんきじゃ\nのう？\pネイティに　えさを　やって\nいたら　こいつが　ベンチに\lすわって　きたんじゃ！
+@@Alola_Akala_TotemBattle_Text_0
+ブバーン！
+@@Alola_Akala_TotemBattle_Text_1
+ぬしの　ブーバーンを　たおした！\nどこかへ　にげて　いった‥
+@@Alola_Akala_TotemBattle_Text_2
+ダイノー！
+@@Alola_Akala_TotemBattle_Text_3
+ぬしの　ダイノーズを　たおした！\nどこかへ　にげて　いった‥
+@@Alola_Akala_Totem_sign_Text_0
+トーテムから　つよい\nエネルギーが　でている‥\pトーテムに　さわって　ほかの\nしまへ　ワープしますか？
+@@Alola_Akala_Totem_sign_Text_1
+メレメレじま
+@@Alola_Akala_Totem_sign_Text_2
+ウラウラじま
+@@Alola_Akala_Totem_sign_Text_3
+ポニじま
+@@Alola_Akala_Totem_sign_Text_4
+やめる
+@@Alola_Akala_Totem_sign_Text_5
+ふしぎな　トーテムが　たっている\nちからが　あふれでている‥
+@@Alola_Akala_BattleVsTapuLele_Text_0
+レレー！
+@@Alola_Akala_TrainerBattleHiker_Text_0
+やまを　のぼりに\nしまへ　きたんだ！
+@@Alola_Akala_TrainerBattleHiker_Text_1
+そして　ころげおちる‥
+@@Alola_Akala_TrainerBattleHiker_Text_2
+アーカラじまは　ハイキングに\nさいこう！　ゆたかな　もりと\lけわしい　みちが　ある！
+@@Alola_Akala_TrainerBattlePicnicker_Text_0
+はっ！　きづかなかった\nでしょ？
+@@Alola_Akala_TrainerBattlePicnicker_Text_1
+ふいうちが　いつも\nこうかばつぐん　とは\lかぎらないのね‥
+@@Alola_Akala_TrainerBattlePicnicker_Text_2
+アーカラじまは　しげみが　おおくて\nかんたんに　きに　かくれられるの！
+@@Alola_Akala_TrainerBattleCamper_Text_0
+ぼくが　いちばんに\nぬしポケモンに　みとめられるんだ！
+@@Alola_Akala_TrainerBattleCamper_Text_1
+くそっ　これじゃ\nだめだ
+@@Alola_Akala_TrainerBattleCamper_Text_2
+この　さきに　へんな　トーテムが\nあるけど　ぬしポケモンは\lみて　ないな
+@@Alola_Akala_TrainerBattleSwimmerLand_Text_0
+ちょっと！　すなはまは\nはだしで！
+@@Alola_Akala_TrainerBattleSwimmerLand_Text_1
+いたっ\nライフセーバーは　どこ‥
+@@Alola_Akala_TrainerBattleSwimmerLand_Text_2
+アーカラじまの　すなはまが\nいちばん！　すなが　やわらかくて\lうみが　すきとおってる！
+@@Alola_Akala_TrainerBattleSwimmerWater_Text_0
+どいて！\nいま　ちょうきょり　ちゅう！
+@@Alola_Akala_TrainerBattleSwimmerWater_Text_1
+ほしかった　きゅうけいは\nこれじゃ　ない‥
+@@Alola_Akala_TrainerBattleSwimmerWater_Text_2
+ウラウラじまの　すなはまが\nいちばん！　ほかの　ひとの\lいうことは　きかないで！
+@@Alola_Akala_TrainerBattleSwimmerWaterM_Text_0
+はっ！　なみのり　するのに\nポケモンに　のるのか？
+@@Alola_Akala_TrainerBattleSwimmerWaterM_Text_1
+じぶんで　およいで\nなかったら　かてる\lげんきが　あったかも‥
+@@Alola_Akala_TrainerBattleSwimmerWaterM_Text_2
+ここの　ながれは　つよい！\nしままで　わたって　くるには\lかなり　つよい　ポケモンで\lないと　むりだな！
+@@Alola_Akala_Bench_Heal_Text_0
+この　ベンチで\nやすみますか？
+## data/maps/MelemeleIsle_hns/scripts.inc
+@@Alola_Melemele_GetOffBoat_Text_0
+しまへ　おかえりなさい！\pカントーへ　もどりたく\nなったら　また　どうぞ！
+@@Alola_Melemele_TravelToKanto_Text_0
+アロハ！\pカントーへ　わたりますか？
+@@Alola_Melemele_TravelToKanto_Text_1
+アロハ！\nさあ　のって　ください！
+@@Alola_Melemele_TravelToKanto_Text_2
+アロハ！\nしゅっこう　したく　なったら\lまた　どうぞ
+@@Alola_Melemele_Mailbox_Text_0
+ナリヤ・オーキドの　ヴィラ
+@@Alola_Melemele_Melemele_Sign_Text_0
+メレメレじまへ　ようこそ！
+@@Alola_Melemele_Pokecenter_Sign_Text_0
+メレメレじま\nポケモンセンターへ　ようこそ！\pアローラしょとうで　ゆいいつの\nポケモンセンター　ですが\lしまの　あちこちの　ベンチで\lやすめます
+@@Alola_Melemele_MelemeleMart_Sign_Text_0
+メレメレじま　ショップ
+@@Alola_Melemele_BattleSandygast_Text_0
+スナァー！
+@@Alola_Melemele_SamsonOak_Trigger_Beginning_Text_0
+アローラ！
+@@Alola_Melemele_SamsonOak_Trigger_Beginning_Text_1
+アローラしょとうへ　ようこそ！
+@@Alola_Melemele_SamsonOak_Trigger_Beginning_Text_2
+わたしは　ナリヤ・オーキド！\nポケモンはかせ　だよ\pきみの　なまえは？
+@@Alola_Melemele_SamsonOak_Trigger_Beginning_Text_3
+ほう　{PLAYER}くん\nいい　なまえだ！\pカントーの　オーキドはかせは\nわたしの　いとこ　なんだ\pまちを　あんない　しよう！
+@@Alola_Melemele_SamsonOak_Trigger_Beginning_Text_4
+ここが　この　しまじまの\nおもな　まち\pアローラの　ハウオリシティに\nふしぎな　ほど　にている‥\l{PAUSE 30}そう　いえば‥\pこの　しま　ぜんたいが\nメレメレじまに　にている‥
+@@Alola_Melemele_SamsonOak_Trigger_Beginning_Text_5
+まあ　それは　ともかく！\pわたしは　ちほうごとに　ことなる\nポケモンの　すがたを\lけんきゅう　しているんだ！\pアローラちほうからの　かえりに\nこの　しまじまを\lみつけてね‥\pおどろいた　ことに　アローラで\nみた　ポケモンが　ここにも\lたくさん　いたから\lここを‥　{PAUSE 30}アローラしょとうと\lよぶ　ことに　したんだ！
+@@Alola_Melemele_SamsonOak_Trigger_Beginning_Text_6
+まだ　しまを　ぜんぶ\nしらべた　わけじゃ　ない‥\l{PAUSE 30}わたしも　きた　ばかりでね\pアローラの　すがたの　ポケモンが\nぜんぶ　ここに　いるか\lしりたいんだ\pもし　みつけたら　しまの\nひがしがわに　ある　ヴィラに\lきて　みせて　ほしい！\pそれと　とちゅうで　しまを\nじゆうに　たんけん　してね！\pじゃあ　ヴィラで！
+@@Alola_Melemele_NeedToTalkToSamsonOak_Text_0
+ナリヤが　ヴィラで　まってる‥\n{PAUSE 30}あまり　またせない　ように！
+@@Alola_Melemele_TotemBattle_Text_0
+リーフィー！
+@@Alola_Melemele_TotemBattle_Text_1
+ぬしの　リーフィアを　たおした！\nどこかへ　にげて　いった‥
+@@Alola_Melemele_TotemBattle_Text_2
+ラッター！
+@@Alola_Melemele_TotemBattle_Text_3
+ぬしの　ラッタを　たおした！\nどこかへ　にげて　いった‥
+@@Alola_Melemele_Totem_sign_Text_0
+トーテムから　つよい\nエネルギーが　でている‥\pトーテムに　さわって　ほかの\nしまへ　ワープしますか？
+@@Alola_Melemele_Totem_sign_Text_1
+メレメレじま
+@@Alola_Melemele_Totem_sign_Text_2
+アーカラじま
+@@Alola_Melemele_Totem_sign_Text_3
+ウラウラじま
+@@Alola_Melemele_Totem_sign_Text_4
+ポニじま
+@@Alola_Melemele_Totem_sign_Text_5
+やめる
+@@Alola_Melemele_Totem_sign_Text_6
+ふしぎな　トーテムが　たっている\nちからが　あふれでている‥
+@@Alola_Melemele_BattleVsTapuKoko_Text_0
+コーーーッ！
+@@Alola_Melemele_TrainerBattleSwimmer_Text_0
+しまの　まわりの　うみは\nあったかい！
+@@Alola_Melemele_TrainerBattleSwimmer_Text_1
+すこし　りくで\nかわかそう　かな‥
+@@Alola_Melemele_TrainerBattleSwimmer_Text_2
+うみには　すてきな　ポケモンが\nたくさん　いるよ\lつりざおを　ぜんぶ\lためして　みて！
+@@Alola_Melemele_Bugcatcher_Text_0
+アローラしょとうの　むしポケモンは\nカントーより　ずっと\lおおきいんだ！
+@@Alola_Melemele_camper_Text_0
+だいすきな　ねこポケモン\nニャースの　ちがう　すがたを\lみに　カントーから\lはるばる　きたんだ！

@@ -1,0 +1,408 @@
+## data/maps/CianwoodCity_hns/scripts.inc
+@@CianwoodCity_Text_ChucksWifeGiveHM
+それは　タンバの　ジムバッジね！\pそれなら　この　ひでんマシンを\nもっていって
+@@CianwoodCity_Text_ChucksWifeFlySpeech
+そらをとぶを　ポケモンに\nおしえて　あげてね\pいちど　いった　ところなら\nどこへでも　すぐ　とんでいけるわ
+@@CianwoodCity_Text_ChucksWifeChubby
+あの　ひと　あなたに　まけたから\nもっと　しゅぎょう　しなきゃね\pちょっと　ふとって　きてたから\nちょうど　いいわ
+@@CianwoodCity_Text_Youngster
+そらをとぶを　つかえば\nアサギまで　すぐ　もどれるよ
+@@CianwoodCity_Text_PokefanM
+まちの　きたに　ある　いわは\nくだけるんだ\pなにか　かくれて\nいるかも　しれない\pいわくだきで　こわせるよ
+@@CianwoodCity_Text_Lass
+ジムリーダーの　シジマさんは\nかくとうポケモンと\lくみてを　しているの
+@@CianwoodCity_Text_EusineSuicune
+ミナキ『やあ　{PLAYER}くん\pいまの　スイクン\nじゃなかったかい？\pちらっと　みえただけだが\nなみの　うえを　かける\lスイクンを　みた　きがする\pスイクンは　うつくしく\nそして　ゆうだいだ\pまちや　みちを　ものすごい\nはやさで　かけぬけていく\pすばらしい‥\pスイクンを　ちかくで\nみてみたい‥\pきめたよ\pトレーナーとして　きみと\nしょうぶして　スイクンに\lみとめて　もらうんだ！\pさあ　{PLAYER}くん\nしょうぶだ！
+@@CianwoodCity_Text_EusineBeaten
+くやしいが　きみの　かちだ
+@@CianwoodCity_Text_EusineAfter
+きみは　すごいな　{PLAYER}くん！\pポケモンが　きみに　ひかれるのも\nとうぜんだ\pやっと　わかったよ\pわたしは　スイクンを\nさがしつづける\pきっと　また　あえるだろう\pそれじゃ　また！
+@@CianwoodCity_Text_Sign
+タンバシティ\pあらなみに　かこまれた　みなとまち
+@@CianwoodCity_Text_GymSign
+タンバシティ　ポケモンジム\pジムリーダー　シジマ\nうなる　てっけんが　かたる
+@@CianwoodCity_Text_PharmacySign
+500ねんの　でんとう\pタンバ　やっきょく\nおくすりの　ごそうだん　うけたまわります
+@@CianwoodCity_Text_Safari
+がけのどうくつ\nサファリゾーンへの　みち
+@@CianwoodCity_Text_Engineer
+この　みちは　こうじちゅうです\nあたらしい　サファリゾーンを\lじゅんびして　います！
+## data/maps/SafariZoneGate_hns/scripts.inc
+@@SafariZone_Text_ForeignFeeling
+サファリゾーンって‥\nがいこくに　いる　みたいな\lきぶんに　なるの\pふしぎな　かんじが　するわ
+@@SafariZone_Text_SilentNPC
+‥‥‥‥‥‥‥‥‥\p‥わたしは　くちべた　です‥
+@@SafariZone_Text_Kangaskhan
+ガルーラ『‥‥‥‥‥‥‥‥‥
+@@SafariZone_Text_JigglypuffTrainer
+この　サファリゾーン　さいこう！\nポケモンを　おいかけまくっちゃった！\pでも　プリンが　すねちゃったの
+@@SafariZone_Text_FirstCatch
+はじめての　ポケモンは\nサファリゾーンで　つかまえたいって\lずっと　おもってたんだ
+@@SafariZone_Text_SlowpokeFan
+いろんな　ポケモンが　いるけど\nヤドンの　かわいさに　かなう\lものは　いないわ\pわたし　ヤドンに　にてるって\nよく　いわれるの！
+@@SafariZone_Text_CustomSystem
+サファリゾーンを　かえられる\nすごい　しくみが　あるって\lおもってるでしょ？\pほんとうの　ところは‥
+@@SafariZone_Text_Sign
+サファリゾーン\nなにもかもが　スリル　まんてん\pきがるに　やせいを\nたいけん　しに　きてね！
+@@SafariZoneGate_Text_VitaminGuruSellWhatYouNeed
+わたしは　げんきの　たつじん！\nひつような　ものを　うりますよ！
+## data/maps/Mahoganytown_hns/scripts.inc
+@@MahoganyTown_Text_RageCandyBarMerchantTryOne
+やあ　ぼうや！\pチョウジタウンは　はじめて\nみたいだね\pはじめてなら　おいしい\nいかりまんじゅうを　どうぞ！\pいまなら　ひとつ　300円！\nいかが？
+@@MahoganyTown_Text_RageCandyBarMerchantSavorIt
+まいど！　あじわって　たべてね！
+@@MahoganyTown_Text_RageCandyBarMerchantNotEnoughMoney
+おかねが　たりないね
+@@MahoganyTown_Text_RageCandyBarMerchantRefused
+あ　そう‥
+@@MahoganyTown_Text_RageCandyBarMerchantSoldOut
+いかりまんじゅうは　うりきれだ\pかたづけ　ちゅうだから\nじゃま　しないでね　ぼうや
+@@MahoganyTown_Text_Gramps
+みずうみで　あばれる\nギャラドスを　みにいくのかい？
+@@MahoganyTown_Text_GrampsClearedRocketHideout
+いかりのみずうみに\nコイキングが　もどってきた\pつりびとたちには\nいい　しらせじゃな
+@@MahoganyTown_Text_Fisher
+せっかく　ここまで　きたんだ\nけんぶつ　していきなよ\pきたへ　いって　いかりのみずうみを\nいま　みておくと　いいよ
+@@MahoganyTown_Text_Lass
+おばあちゃんの　おみせに\nいってみて　ほかには　ない\lものを　うってるの
+@@MahoganyTown_Text_Sign
+チョウジタウン\pにんじゃの　さとへ　ようこそ
+@@MahoganyTown_Text_RagecandybarSign
+チョウジタウンに　きたら\nいかりまんじゅうを　どうぞ！
+@@MahoganyTown_Text_GymSign
+チョウジタウン　ポケモンジム\pジムリーダー　ヤナギ\nふゆの　きびしさを　おしえる　せんせい
+@@ElmPhoneRadioTowerRocketTakeoverText
+ウツギ『{PLAYER}くん\nちょうしは　どうだい？\pラジオの　ほうそうが　なんだか\nおかしくて　でんわ　したんだ\pロケットだんの　ことを\nはなしていたよ\p{PLAYER}くん　なにか\nしってるかい？\pロケットだんが　ふっかつ　した‥？\nいや　そんな　はず　ないよね\pじゃま　して　ごめんね\nきをつけてね！
+## data/maps/BlackthornCity_hns/scripts.inc
+@@BlackthornCity_Text_ElmName
+ウツギはかせ
+@@BlackthornCity_Text_BaobaCall
+バオバえんちょう『{PLAYER}くん！\pえんちょうの　バオバだ\pサファリゾーンが　ひろく\nなったので　しらせたくて\lでんわ　したよ！\pぜひ　きてくれ！
+@@BlackthornCity_Text_ElmCall
+ウツギ『もしもし　{PLAYER}くん？\pわたしたい　ものが　あるんだ\nけんきゅうじょに　よって\lくれないかい？\pじゃあ　また！
+@@BlackthornCity_Text_ClairNotReady
+ジムリーダーの　イブキさまは\nあなたの　かつやくを　みています\pでも　イブキさまは　バッジを　7つ\nもつ　トレーナーとしか\lたたかいません
+@@BlackthornCity_Text_ClairIsIn
+ジムリーダーの　イブキさまが\nあなたを　おまちです\pでも　ふつうの　トレーナーでは\nとうてい　かてないでしょう
+@@BlackthornCity_Text_ClairIsBeaten
+イブキさまに　かったのですか？\pすごい！\pワタルさま　いがいに　まけたなんて\nきいたことが　ありません
+@@BlackthornGrampsRefusesEntryText
+ならん　えらばれた　トレーナー\nしか　ここで　しゅぎょうは\lできんのじゃ\pおひきとり　ください
+@@BlackthornGrampsGrantsEntryText
+イブキが　みとめたのなら　その\nそふである　ちょうろうも\lみとめるじゃろう\pはいって　よろしい
+@@BlackBeltText_VoicesInMyHead
+うおお！　あたまの　なかで\nこえが　する！\pえ？　ラジオを　きいてる\nだけだよ！
+@@BlackthornCooltrainerF1Text
+ポケモンに　わざを\nおもいださせに　きたの？
+@@BlackthornYoungsterText
+ドラゴンつかいは　みんな\nフスベシティの　しゅっしん\lなんだよ
+@@BlackthornCity_MeetSantosText
+ドヨウ『‥‥\pぼくは　ようび　きょうだいの\nドヨウ‥\pあててみて
+@@BlackthornCity_SantosGivesGiftText
+これ　あげる‥
+@@BlackthornCity_SantosGaveGiftText
+ドヨウ『‥‥\pのろいのおふだ‥\pゴーストタイプの　わざが\nつよくなる‥\pこわいよ‥
+@@BlackthornCity_SantosSaturdayText
+ドヨウ『‥‥\pまた　べつの　どようびに‥\pもう　プレゼントは\nないけど‥
+@@BlackthornCity_SantosNopeText
+ドヨウ『ちがう
+@@BlackthornCooltrainerF2Text
+わあ　こおりのぬけみちを\nとおって　きたの？\pすごうでの　トレーナー\nなのね！
+@@BlackthornCitySignText
+フスベシティ\pやまあいの　しずかな　まち
+@@BlackthornGymSignText
+フスベシティ　ポケモンジム\nジムリーダー　イブキ\pドラゴンに　あいされし\nポケモンつかい
+@@BlackthornCity_Text_MoveDeletersHouseSign
+わざ　きょうだいの　いえ
+@@BlackthornCity_Text_DragonDenSign
+この　さき　りゅうのあな
+## data/maps/Route29_hns/scripts.inc
+@@Route29_Text_PressAorB
+AかBボタンで　とじます
+@@Route29_Text_OldMan1
+ポケモンは　くさむらに\nかくれておる\lいつ　とびだすか　わからんぞ‥
+@@Route29_Text_OldMan2
+なんどか　みかけたのう\nポケモンは　なんびき\lつかまえたかな？\pポケモンの　つかまえかたを\nおしえて　あげようか？
+@@Route29_Text_OldManExplanation
+まず　よわらせると\nポケモンは　つかまえやすい\pそれから　バッグから　ボールを\nなげるのじゃ！　どの　ボールでも\lかまわんぞ\pもっと　しりたければ\nキキョウシティの　ポケモンじゅくに\lいくと　いい！\pそこの　せいとは　ポケモンに\nとても　くわしいぞ
+@@Route29_Text_OldManDeclined
+そうか　まあ　よかろう\pどうろを　ぜんぶ　まわれば\nいろんな　ポケモンが　みつかる\pずかんでも　すみかが\nわかるぞ！\pもっと　しりたければ\nキキョウシティの　ポケモンじゅくに\lいくと　いい！\pそこの　せいとは　ポケモンに\nとても　くわしいぞ
+@@Route29_Text_Youngster
+よう　ポケモンの　ちょうしは　どう？\pよわってて　しょうぶ　できないなら\nくさむらに　はいっちゃ　だめだよ
+@@Route29_Text_Lass
+あの　だんさ　みえる？\nとびおりるのは　こわいけど\pくさむらを　とおらずに\nワカバへ　いけるのよ
+@@Route29_Text_Girl
+ひとやすみ　したくて\nレポートを　かいたの
+@@Route29_Text_Boy_WaitingForDay
+ひるまに　しか　でない\nポケモンを　まってるんだ
+@@Route29_Text_Boy_WaitingForNight
+よるに　しか　でない\nポケモンを　まってるんだ
+@@Route29_Text_MeetTuscany
+カヨ『はじめまして　かしら？\pわたくし　ようび　きょうだいの\nカヨと　もうします\pわたくしの　すきな　ようびを\nあてたら　ごほうびを　さしあげますわ
+@@Route29_Text_TuscanyNope
+ちがいますわ！
+@@Route29_Text_TuscanyGivesGift
+そのとおり！　おちかづきの\nしるしに　この　シルクのスカーフを\lどうぞ
+@@Route29_Text_TuscanyGaveGift
+カヨ『とても　かわいらしいと\nおもいません　こと？\pノーマルタイプの　わざが\nつよくなりますの\pきっと　おやくに　たちますわ
+@@Route29_Text_TuscanyTuesday
+カヨ『あねの　ツキコには\nおあいに　なりまして？\pおとうとの　スイには？\pわたくしは　7にん　きょうだいの\n3ばんめ　ですのよ
+@@Route29_Text_Sign1
+29ばんどうろ\pヨシノシティ　ー　ワカバタウン
+## data/maps/Route30_hns/scripts.inc
+@@Route30_Text_Mailbox
+ポケモンじいさんの　いえ
+@@Route30_Text_UseTackle
+いけっ　コラッタ！\pたいあたり！
+@@Route30_Text_ThisIsABigBattle
+なんだよ！　いま　だいじな\nしょうぶ　ちゅうなんだ！\lじゃま　しないで！
+@@Route30_Text_YoungsterJoey1Seen
+さっき　まけちゃったから\nポケモンを　さがしてるんだ\pまてよ！　きみ　よわそうだな！\nさあ　しょうぶだ！
+@@Route30_Text_YoungsterJoey1Beaten
+あっ！　また　まけた！\nちくしょう！
+@@Route30_Text_YoungsterJoey1After
+しょうぶに　かつには　もっと\nポケモンが　いるのかな？\pいや！　ぼくは　なにが　あっても\nこいつ　ひとすじだ！
+@@Route30_Text_YoungsterMikeySeen
+きみ　ポケモントレーナー\nだよね？\pだったら　しょうぶだ！
+@@Route30_Text_YoungsterMikeyBeaten
+おかしいな\nまえは　かったのに
+@@Route30_Text_YoungsterMikeyAfter
+いい　トレーナーに　なるのって\nほんとに　たいへんだ\pいろんな　ひとと　しょうぶして\nうまく　なるんだ
+@@Route30_Text_BugCatcherDonSeen
+むしポケモンじゃなくて\nトレーナーを　みつけた！
+@@Route30_Text_BugCatcherDonBeaten
+うわあ！　つよすぎる！
+@@Route30_Text_BugCatcherDonAfter
+ポケモンを　つかまえてたら\nボールが　なくなっちゃった\pもっと　かっておけば\nよかった‥
+@@Route30_Text_YoungsterDirectionsToMrPokemon
+ポケモンじいさんの　いえ？\nもう　すこし　さきだよ
+@@Route30_Text_YoungsterEveryoneIsBattling
+みんな　たのしそうに\nしょうぶ　してるよ！\pきみも　やりなよ！
+@@Route30_Text_CooltrainerF
+わたしは　トレーナーじゃないの\pでも　トレーナーと　めが　あったら\nしょうぶを　かくごしてね
+@@Route30_Text_Sign
+30ばんどうろ\pキキョウシティ　ー　ヨシノシティ
+@@Route30_Text_MrPokemonsHouseDirectionsSign
+ポケモンじいさんの　いえ\nこの　さき　まっすぐ！
+@@Route30_Text_MrPokemonsHouseSign
+ポケモンじいさんの　いえ
+@@Route30_Text_TrainerTips
+トレーナーの　こころえ\pひとの　ポケモンを\nとっては　いけません！\pモンスターボールは　やせいの\nポケモンに　なげましょう！
+@@Route30_Text_JoeyRegister
+きみ　なかなか　やるね！\pぼくの　コラッタは　あいかわらず\nやるきまんまん　なんだ\pこいつ　1ぴきしか　いないけど\nこいつと　すごい\lトレーナーに　なるんだ！\pまた　しょうぶしようね！
+@@Route30_Text_JoeyRematchIntro
+こんどは　ちがうって\nいったよね！　しょうぶだ！
+@@Route30_Text_JoeyRematchDefeat
+あっ！　また　まけた！\nちくしょう！
+@@Route30_Text_JoeyPostRematch
+いま　コラッタの　わざを\nしらべて　さくせんを\lかんがえてるんだ\pいい　さくせんが　うかんだら\nしょうぶしよう！
+@@Route30_Text_YoungsterJoeyGiveHPUp
+また　まけた‥\nきみって　つよいなあ！\pそうだ　これを　わたすの\nわすれる　ところだった\pこれで　もっと　つよく\nなってね！\pぼくも　つよく　なるから
+@@Route30_Text_ElmName
+ウツギはかせ
+@@Route30_Text_Elm_Disaster
+ウツギ『も‥　もしもし？\n{PLAYER}くん？　たいへんだ！\pえっと　その　とにかく\nたいへん　なんだ！\pどうしよう？　あれが‥\nああ　もう‥\pすぐに　もどってきて　くれ！
+@@Route30_Text_Poliwag
+ニョロモ『ニョロ　ニョーロ！
+## data/maps/Route31_hns/scripts.inc
+@@Route31_Text_CooltrainerM
+くらやみのほらあな‥\pポケモンで　あかるく　できたら\nたんけん　するんだけどな
+@@Route31_Text_BugCatcherWade1_Seen
+ポケモンを　いっぱい\nつかまえたんだ　しょうぶしよう！
+@@Route31_Text_BugCatcherWade1_Beaten
+あーあ‥
+@@Route31_Text_BugCatcherWade1_After
+てもちが　6ぴきでも\nポケモンは　つかまえられるよ\pつかまえたら　じどうで\nボックスに　おくられるんだ
+@@Route31_Text_SleepyMan
+‥ふぁあ‥　ん？\pきょうは　ポケモンを　さがして\nあるきすぎて　しまった\pあしは　いたいし　ねむいし‥\pわしが　やせいの　ポケモンなら\nすぐ　つかまって　しまうな‥\p‥ぐう‥
+@@Route31_Text_SleepyManGotMail
+‥ぐう‥　ん？\pなんじゃ？　わしに\nメールかい？
+@@Route31_Text_SleepyManFail
+‥ぐう‥
+@@Route31_Text_HandOverMailMon
+{PLAYER}は　メールを　もった\nポケモンを　わたした
+@@Route31_Text_ReadingMail
+どれどれ‥\pとどけて　くれて\nありがとう\pわしの　ともだちは　いい　やつで\nきみも　いい　こじゃな！\pわしも　なにか\nおれいを　したいのう！\pそうじゃ！　これを\nあげよう！
+@@Route31_Text_DescribeRest
+‥ぐう‥\p‥ええと‥　ねむる！\pねて　すばやく　かいふく　するから\nねむる　なんじゃ\pねむって　HPを　かいふくする\nわざじゃよ
+@@Route31_Text_WrongMail
+この　メールは　わしあて\nじゃないのう
+@@Route31_Text_MissingMail
+この　ポケモンが　どうか\nしたのかね？\pメールを　もって　おらんぞ
+@@Route31_Text_DeclinedToHandOverMail
+なんじゃ？　なにも\nいらんのか？
+@@Route31_Text_CantTakeLastMon
+その　ポケモンを　もらったら\pきみは　なにで\nたたかうんじゃ？
+@@Route31_Text_Youngster
+くらやみのほらあなで\nいい　ポケモンを　みつけたんだ\pそだてて　ハヤトに\nいどむんだ\pキキョウジムの\nリーダーだよ
+@@Route31_Text_Sign
+31ばんどうろ\pキキョウシティ　ー　ヨシノシティ
+@@Route31_Text_WadeRegister
+きみ　すごいね！　きにいったよ！\pまいにち　ここで　ポケモンを\nさがしてるんだ\pくさむらに　いると　いろんな\nきのみが　みつかるんだ\pよかったら　わけて　あげるよ
+@@Route31_Text_WadeRematchIntro
+まってたよ\nしょうぶしよう！
+@@Route31_Text_WadeRematchDefeat
+あーあ‥
+@@Route31_Text_WadePostRematch
+きみが　よろこびそうな　ものを\nみつけたら　すぐ　れんらく\lするからね
+@@Route31_Text_WadeHasItem
+おーい！　きみを　さがして\nたんだよ！\pくさむらで　いい　ものを\nみつけたんだ\pはい　あげる！
+@@Route31_Text_WadeGaveItem
+また　なにか　みつけたら\nしらせるね！
+@@Route31_Text_WadeNoRoom
+うーん　バッグが\nいっぱい　みたいだね\pあきを　つくってから\nまた　きてよ！
+@@Route31_Text_DarkCaveSign
+くらやみのほらあな
+## data/maps/Route32_hns/scripts.inc
+@@Route32_Text_CooltrainerM_WhatsTheHurry
+まって！\nなにを　あわてて　いるんだい？
+@@Route32_Text_CooltrainerM_AideIsWaiting
+{PLAYER}くん　だよね？\nメガネを　かけた　ひとが\pきみを　さがしていたよ\pポケモンセンターで\nまってるから　いって　ごらん
+@@Route32_Text_CooltrainerM_SproutTower
+マダツボミのとうには　いった？\nキキョウシティに　きたら\pあそこで　しゅぎょう　するのが\nトレーナーの　きほんさ\pマダツボミのとうへ　いこう！
+@@Route32_Text_CooltrainerM_VioletGym
+ポケモンジムには　いった？\nあそこで　ポケモンと　じぶんを\pためす　ことが　できる\nすべての　トレーナーの\pとおりみちだよ！
+@@Route32_Text_CooltrainerM_HaveThisSeed
+いい　ポケモンを　つれてるね\nキキョウシティの　あたりで\pきたえた　せいかだね\nとくに　ジムでの　しゅぎょうは\pやくに　たった　だろう\nキキョウシティの　きねんに　これを\pあげよう　くさタイプの\nわざが　つよく　なるんだ
+@@Route32_Text_CooltrainerM_Experiences
+キキョウシティでの　けいけんは\nこれからの　たびに\lやくだつ　はずだよ
+@@Route32_Text_SlowpokeTailOffer
+おいしくて　えいようまんてんの\nヤドンのシッポ　いかが？\pいまなら　とくべつに\n100まん円！\pほしく　なるだろ？
+@@Route32_Text_ThoughtKidsLoaded
+ちっ！　さいきんの　ガキは\nかねもちだと　おもったのに‥
+@@Route32_Text_RefusedSlowpokeTail
+いらないのか？\nだったら　うせろ！　しっしっ！
+@@Route32_Text_FisherJustin_Seen
+うわっ！\pきみの　せいで　さかなを\nにがしちゃったじゃないか！
+@@Route32_Text_FisherJustin_Beaten
+ザッパーン！
+@@Route32_Text_FisherJustin_After
+おちついて　れいせいに‥\nつりも　ポケモンも\lたいせつな　ことは　おなじさ
+@@Route32_Text_FisherRalph1_Seen
+おれは　つりも　ポケモンも\nとくい　なんだ\pこどもなんかに\nまけて　たまるか！
+@@Route32_Text_FisherRalph1_Beaten
+ちっ！　あせりすぎた‥
+@@Route32_Text_FisherRalph1_After
+つりは　いっしょうの\nしゅみだ\pポケモンは　いっしょうの\nともだちさ！
+@@Route32_Text_RalphRegister
+つりは　いっしょうの\nしゅみだ\pポケモンは　いっしょうの\nともだちさ！
+@@Route32_Text_RalphRematchIntro
+おれは　つりも　ポケモンも\nとくい　なんだ\pこどもなんかに\nまけて　たまるか！
+@@Route32_Text_RalphRematchDefeat
+ちっ！　あせりすぎた‥
+@@Route32_Text_RalphPostRematch
+つりは　いっしょうの\nしゅみだ\pポケモンは　いっしょうの\nともだちさ！
+@@Route32_Text_FisherHenry_Seen
+おれの　ポケモン？　つりたてだぜ！
+@@Route32_Text_FisherHenry_Beaten
+ピチャン？
+@@Route32_Text_FisherHenry_After
+つりたての　ポケモンじゃ\nちゃんと　そだてた　ポケモンには\lかなわないな
+@@Route32_Text_YoungsterAlbert_Seen
+みかけない　かおだね\nじぶんは　つよいって　おもってる？
+@@Route32_Text_YoungsterAlbert_Beaten
+きみ　つよいね！
+@@Route32_Text_YoungsterAlbert_After
+ぼくは　すきな　ポケモンで\nいちばんを　めざすんだ\pみんなと　おなじ　つよい\nポケモンは　つかわないよ
+@@Route32_Text_YoungsterGordon_Seen
+くさむらで　いい　ポケモンを\nみつけたんだ！\pこいつらなら　かてるはず！
+@@Route32_Text_YoungsterGordon_Beaten
+ちぇっ　かてると　おもったのに
+@@Route32_Text_YoungsterGordon_After
+くさむらって　ひっつき\nむしが　いっぱいだ
+@@Route32_Text_CamperRoland_Seen
+その　まなざし‥　きになるね
+@@Route32_Text_CamperRoland_Beaten
+うーん　ざんねんだ
+@@Route32_Text_CamperRoland_After
+しょうぶ　したくなかったら\nめを　あわせないことだね
+@@Route32_Text_PicnickerLiz1_Seen
+うんうん　それでね‥\pえ？　しょうぶ？　いま　でんわ\nちゅうなの　もう　いいわ\lでも　さっさと　すませてよ
+@@Route32_Text_PicnickerLiz1_Beaten
+もう！　むしゃくしゃする！
+@@Route32_Text_PicnickerLiz1_After
+せっかく　たのしく　おしゃべり\nしてたのに
+@@Route32_Text_LizRegister
+せっかく　たのしく　おしゃべり\nしてたのに
+@@Route32_Text_LizRematchIntro
+うんうん　それでね‥\pえ？　しょうぶ？　いま　でんわ\nちゅうなの　もう　いいわ\lでも　さっさと　すませてよ
+@@Route32_Text_LizRematchDefeat
+もう！　むしゃくしゃする！
+@@Route32_Text_LizPostRematch
+せっかく　たのしく　おしゃべり\nしてたのに
+@@Route32_Text_BirdKeeperPeter_Seen
+その　バッジ！　キキョウシティの\nだな！　ハヤトに　かったのか？
+@@Route32_Text_BirdKeeperPeter_Beaten
+じぶんの　よわてんは\nわかってるんだ
+@@Route32_Text_BirdKeeperPeter_After
+キキョウシティの　ジムで\nまた　しゅぎょう　しなきゃ
+@@Route32_Text_RoarIntro
+ガオーッ！　おれが　ほえると\nみんな　にげるのに　おまえは\lよってきた！\pきにいった！　これを　やる！
+@@Route32_Text_RoarOutro
+ガオーッ！　ほえるだ！\pいい　ほえごえは　ポケモンでも\nにげだすぞ！
+@@Route32_Text_MeetFrieda
+キンコ『やっほー！\pようび　きょうだいの　キンコだよ！\nよろしくね！\pわたしの　すきな　ようびを\nあてたら　ごほうびを　あげる
+@@Route32_Text_FriedaGivesGift
+どくバリを　あげる！
+@@Route32_Text_FriedaGaveGift
+キンコ『どくタイプの　わざを\nもってる　ポケモンに　もたせてね\pそれ！\pすっごいんだから！\pどくの　わざが　びっくりするほど\nつよく　なるよ！
+@@Route32_Text_FriedaFriday
+キンコ『やっほー！　なにようびが\nすき？\pわたしは　ぜったい\nきんようび！\pさいこうだと　おもわない？
+@@Route32_Text_FriedaNope
+キンコ『それじゃ　ないよ！
+@@Route32_Text_Sign1
+32ばんどうろ\pキキョウシティ　ー　ヒワダタウン
+@@Route32_Text_Sign2
+アルフのいせき\nひがしいりぐち
+@@Route32_Text_Sign3
+この　さき\nつながりのどうくつ
+## data/maps/Route33_hns/scripts.inc
+@@Route33_Text_HikerAnthony2Seen
+トンネルを　ぬけて　きたけど\nまだまだ　げんきが\lありあまってるぜ
+@@Route33_Text_HikerAnthony2Beaten
+うおっ！　おまえ　おれより\nげんきだな！
+@@Route33_Text_HikerAnthony2After
+やまおとこは　やまで\nいちばん　かがやくのさ
+@@Route33_Text_AnthonyRegister
+やまおとこは　やまで\nいちばん　かがやくのさ
+@@Route33_Text_AnthonyRematchIntro
+トンネルを　ぬけて　きたけど\nまだまだ　げんきが\lありあまってるぜ
+@@Route33_Text_AnthonyRematchDefeat
+うおっ！　おまえ　おれより\nげんきだな！
+@@Route33_Text_AnthonyPostRematch
+やまおとこは　やまで\nいちばん　かがやくのさ
+@@Route33_Text_HikerAnthonyDunsparce
+よう　ノコッチは　つかまえたか？\pおれも　1ぴき　つかまえたんだ\pあかるい　ところで　みてみな\nおもしろい　かおを　してるぜ！
+@@Route33_Text_Lass
+ふう　ふう‥\pあの　どうくつ　おもってたより\nひろかったわ\pマリルを　さがして　つかれちゃって\nそとに　でて　きたの
+## data/maps/Route34_hns/scripts.inc
+@@Route34_Text_YoungsterSamuel_Seen
+おい！　マンキーを　さがしてるんだ！
+@@Route34_Text_YoungsterSamuel_Beaten
+とおりすがりの　ひとに\nまけるなんて！
+@@Route34_Text_YoungsterSamuel_After
+もっと　しゅぎょう　するぞ\pなにしろ　ジムリーダーを\nめざしてるんだからな
+@@Route34_Text_YoungsterIan_Seen
+ぼくは　クラスで　いちばん\nポケモンが　つよいんだ
+@@Route34_Text_YoungsterIan_Beaten
+そんな！　うえには　うえが‥
+@@Route34_Text_YoungsterIan_After
+クラスの　スターに　なれるように\nがんばってるんだ
+@@Route34_Text_CamperTodd_Seen
+ポケモンを　そだてる\nうでには　じしんが　あるんだ\pみたい？
+@@Route34_Text_CamperTodd_Beaten
+そだてかた　まちがえたかな？
+@@Route34_Text_CamperTodd_After
+そだてやに　あずけるか\nどうぐを　つかうか‥
+@@Route34_Text_ToddRegister
+そだてやに　あずけるか\nどうぐを　つかうか‥
+@@Route34_Text_ToddRematchIntro
+ポケモンを　そだてる\nうでには　じしんが　あるんだ\pみたい？
+@@Route34_Text_ToddRematchDefeat
+そだてかた　まちがえたかな？
+@@Route34_Text_ToddPostRematch
+そだてやに　あずけるか\nどうぐを　つかうか‥
+@@Route34_Text_GinaRegister
+あなた　つよすぎて\nれんしゅうあいてに　ならないわ
+@@Route34_Text_PicnickerGina_Seen
+あなた　トレーナー？\pれんしゅうじあい　しましょ

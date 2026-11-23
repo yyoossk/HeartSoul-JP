@@ -1,0 +1,410 @@
+## data/maps/OlivineCity_Lighthouse_hns/scripts.inc
+@@OlivineLighthouse_Text_SailorErnestAfter
+ジムリーダーは　つよい\nだけじゃ　だめなんだ\pやさしさも　ひつよう\nなのさ
+@@OlivineLighthouse_Text_BirdKeeperDenisSeen
+ここは　たかいから　おれの\nとりポケモンは　ぜっこうちょうだ
+@@OlivineLighthouse_Text_BirdKeeperDenisBeaten
+おっと‥　ついらく\nしちゃった‥
+@@OlivineLighthouse_Text_BirdKeeperDenisAfter
+おれの　ポケモンは　タンバで\nそらをとぶを　おぼえたんだ\pまけたし　うみを　とんで\nかえるとするか‥
+@@OlivineLighthouse_Text_JasmineCianwoodPharmacy
+ミカン『‥この　こは　よるの\nうみを　ずっと　てらして\lくれて　いたの\p‥でも　きゅうに　びょうきに\nなって‥　くるしそうで‥\p‥タンバに　よく　きく\nくすりやさんが　あるって\lきいたけど‥\pうみの　むこうだし‥\nアカリちゃんを　ひとりに\lできないし‥
+@@OlivineLighthouse_Text_JasmineGetMedicine
+‥くすりを　もらって　きて\nくれませんか？　おねがい‥
+@@OlivineLighthouse_Text_JasmineGetMedicine2
+タンバに　よく　きく\nくすりやさんが　あるの‥\pでも　うみの　むこうだし‥\nアカリちゃんを　ひとりに\lできないし‥\p‥くすりを　もらって　きて\nくれませんか？　おねがい‥
+@@OlivineLighthouse_Text_JasmineCureAmphy
+ミカン『‥その　くすりで\nアカリちゃん　なおるかしら？
+@@OlivineLighthouse_Text_PlayerHandedSecretpotion
+{PLAYER}は　ミカンに\nひでんのくすりを　わたした
+@@OlivineLighthouse_Text_JasmineDontBeOffended
+ミカン『‥あの　きを　わるく\nしないでね‥\p‥アカリちゃんは　わたし\nからしか　うけつけないの‥
+@@OlivineLighthouse_Text_JasmineAmphyHowFeeling
+ミカン『‥\pアカリちゃん\nぐあいは　どう？
+@@OlivineLighthouse_Text_JasmineThankYou
+ミカン『‥ああ　よかった‥\pほんとうに　よかった‥\pほんとうに　ほんとうに\nありがとう\p‥わたし　ジムに\nもどります‥\pいっておきますけど　はがね\nタイプは　つよいですよ
+@@OlivineLighthouse_Text_JasmineISee
+ミカン『‥そうですか‥\n‥アカリちゃん　がんばって！
+@@OlivineLighthouse_Text_AmphyPalPaloo
+アカリちゃん『‥\n‥パル‥　パルル‥
+@@OlivineLighthouse_Text_AmphyBreathingLabored
+いきが　とても\nくるしそうだ‥
+@@OlivineLighthouse_Text_AmphyPaluPalulu
+アカリちゃん『パルッ！\nパルルー！
+## data/maps/CianwoodPokecenter_hns/scripts.inc
+@@CianwoodPokemoncenter_Text_Fisher1
+みずポケモン　なら\nメノクラゲが　だんトツで\lいちばんだ！
+@@CianwoodPokemoncenter_Text_Fisher2
+みずポケモンが　ひつよう\nみたいだな\pほら　この　こを　やるよ\nたくさん　いるからな
+@@CianwoodCity_Text_PokecenterLass
+ポケモンマニアに　あった？\pいつも　めずらしい　ポケモンを\nじまん　してるのよ
+@@CianwoodCity_Text_GymGuide
+ここの　ジムの　トレーナーは\nマッチョな　らんぼうもの\pうろうろ　してたら\nおれが　ねらわれそうだ\pアドバイスだ　ジムリーダーは\nかくとうタイプを　つかう\pだから　エスパーポケモンで\nこまらせて　やれ\pちからを　だされる　まえに\nたおして　しまえ\pそれと　ジムの　まんなかの\nいわ　だが\pうまく　うごかさないと\nジムリーダーの　ところへ\lいけないぞ\pつまったら　いちど\nそとへ　でろ
+@@CianwoodCity_Text_GymGuideWin
+{PLAYER}！　かったな！\nみた　しゅんかんに\lわかったよ！
+@@CianwoodCity_Text_PokecenterSuperNerd
+そだてた　ポケモンを\nみせびらかすのが　すきなんだ\pきみも　そうだろ？\pたくさん　しょうぶして\nぼくの　ポケモンを\lみせびらかすぞ！
+## data/maps/CianwoodHouse1_hns/scripts.inc
+@@CianwoodCity_Text_OldManIntro
+ひとが　たずねて　きたのは\nいつ　いらいかのう\pわしも　わかい　ころは\nポケモントレーナー　だった\lとうを　めざし　うみに\lもぐろうと　した\pいろんな　ことに\nうちこんだ　ものじゃ\pいまは　この　はまべで\nなみと　かぜの　おとを\lきいて　のんびり　しておる
+@@CianwoodCity_Text_BellTowerStory
+エンジュの　スズのとうを\nしっておるか？\pとうの　うえには　とうめいな\nすずが　あるんじゃ\pつよい　かぜでも\nまったく　なりはせん\pならす　ほうほうは\nひとつ　だけ\pとうの　うえの　すずと　おなじ\nとうめいなスズを\lてに　いれることじゃ\pわしも　わかい　ころ\nさがしたが‥　ついに\lみつからなかった‥
+@@CianwoodCity_Text_WhirlIslandsStory
+うずまきじまを\nしっておるか？\pたきつぼには　うみなりの\nすずが　あるんじゃ\pあらい　なみでも\nまったく　なりはせん\pならす　ほうほうは\nひとつ　だけ\pたきつぼの　すずと　おなじ\nうみなりのスズを\lてに　いれることじゃ\pわしも　わかい　ころ\nさがしたが‥　ついに\lみつからなかった‥
+@@CianwoodCity_Text_ClearBellReaction
+おお！　とうめいなスズを\nてに　いれたのか？\pわしの　むかしの　ゆめ‥\nそうか‥\pやりとげたのじゃな‥\n‥\l‥きこえる！\pスズのとうの　ほうから\nかぜに　のって　すずの\lねが‥
+@@CianwoodCity_Text_TidalBellReaction
+おお！　うみなりのスズを\nてに　いれたのか？\pわしの　むかしの　ゆめ‥\nそうか‥\pやりとげたのじゃな‥\n‥\l‥きこえる！\pうずまきじまの　ほうから\nしおかぜに　のって　すずの\lねが‥
+## data/maps/CianwoodHouse2_hns/scripts.inc
+@@CianwoodCity_Text_LugiaHouseTeacher
+アサギから　きたの？\pとちゅうの　4つの　しまを\nおぼえてる？\pしまには　まぼろしの　うみの\nいきものが　かくれて\lいるんだって
+@@CianwoodCity_Text_LugiaHouseLass
+ぎんいろのはねが　ないと\nあえないって　きいたわ\pきっと　その　いきものと\nおなじ　においが　するのね
+@@CianwoodCity_Text_LugiaHouseTwin
+しまの　まわりの　うずしおは\nその　うみの　いきものの\lしわざ　なんだって\pとおるには　とくべつな\nわざが　いるかもね
+## data/maps/CianwoodHouse3_hns/scripts.inc
+@@CianwoodCity_Text_ManiacAskShuckle
+し　し　しょっく　だよ！\pきみぐらいの　としの　めつきの\nするどい　かみの　ながい\lやつが　きて\pおどされて　だいじな\nポケモンを　とられたんだ！\pまだ　1ぴき　のこってるけど\nまた　きたら　どうしよう？\pきみ　つよそうだね　しばらく\nぼくの　ポケモンを　あずかって\lくれない？
+@@CianwoodCity_Text_ManiacTakeCareShuckle
+ありがとう！\pだいじに　してね！
+@@CianwoodCity_Text_ManiacGotShuckle
+{PLAYER}は\nポケモンを　あずかった
+@@CianwoodCity_Text_ManiacPartyFull
+てもちが　いっぱい　だよ
+@@CianwoodCity_Text_ManiacIfHeComesBack
+そんな‥　また　あいつが\nきたら　どうしよう？
+@@CianwoodCity_Text_ManiacHowsdoing
+やあ！　ぼくの\nポケモン　げんき？
+@@CianwoodCity_Text_ManiacAskReturn
+やあ！　ぼくの\nポケモン　げんき？\pもう　だいじょうぶ　そうだから\nかえして　もらえる？
+@@CianwoodCity_Text_ManiacThankYou
+ありがとう！
+@@CianwoodCity_Text_ManiacShuckleNotThere
+あれ　ぼくの　ポケモン\nつれて　ないじゃないか
+@@CianwoodCity_Text_ManiacShuckleLikesYou
+ぼくの　ポケモン　きみに\nなついちゃった　みたい\pよし　きみが\nもってて　いいよ\pでも　だいじに　するって\nやくそく　してね！
+@@CianwoodCity_Text_ManiacRobbed
+あれ　なにか\nおかしいぞ
+@@CianwoodCity_Text_ManiacRobbed2
+そんな‥　これじゃ\nとられたのと　おなじだ
+@@CianwoodCity_Text_ManiacHappinessSpeech
+ポケモンに　とって\nだいじに　してくれる　ひとと\lいるのが　しあわせ　なんだ
+@@CianwoodCity_Text_ManiacLastMon
+ぼくが　ポケモンを\nかえして　もらったら\lきみは　なにで　たたかうの？
+@@CianwoodCity_Text_ManiacReturnedMon
+{PLAYER}は\nツボを　かえした
+## data/maps/CianwoodShop_hns/scripts.inc
+@@CianwoodCity_Text_PharmacistGivePotion
+きみの　ポケモンは\nげんき　そうだね\pなにか　こまって　いるのかい？\p‥\pとうだいの　ポケモンが\nたいへん　だって？\pわかった！\pこれが　きく　はずだ
+@@CianwoodCity_Text_ReceivedSecretpotion
+{PLAYER}は\nひでんのくすりを　もらった
+@@CianwoodCity_Text_PharmacistDescribePotion
+ひでんのくすりは\nちょっと　つよすぎるから\lきんきゅうの　とき　だけ\lだしてるんだ
+## data/maps/CianwoodGym_hns/scripts.inc
+@@CianwoodGym_Text_GymStatue
+タンバシティ　ポケモンジム
+@@CianwoodGym_Text_GymStatueCertified
+タンバシティ　ポケモンジム\pシジマ　にんてい　トレーナー\n{PLAYER}
+@@CianwoodGym_Text_ChuckGotoDojo
+わはははは　{PLAYER}！\nいまは　しゅぎょう　ちゅうだ！\pまた　しょうぶ　したいなら\nヤマブキの\lかくとうどうじょうへ　こい！
+@@CianwoodGym_Text_ChuckAtDojo
+どうじょうで　まって　おるぞ！\nわははははは
+@@CianwoodGym_Text_ChuckIntro1
+わははは！\pよくぞ　ここまで\nきた！\pいっておくが\nわしは　つよいぞ！\pわしの　ポケモンは　いわを\nくだき　ほねを　くだく！\pみておれ！
+@@CianwoodGym_Text_ChuckIntro2
+シジマ『うぐぐ‥\n‥\pうおりゃあ！
+@@CianwoodGym_Text_ChuckIntro3
+どうだ！　こわく\nなったか？\pなに？　ポケモンと\nかんけい　ないだと？\pその　とおり！\pさあ　しょうぶだ！
+@@CianwoodGym_Text_ChuckLoss
+な？　なに？　まけた？\pたいしたものだ！\nショックバッジに　ふさわしい！
+@@CianwoodGym_Text_GetStormBadge
+{PLAYER}は\nショックバッジを　もらった
+@@CianwoodGym_Text_ChuckBadgeSpeech
+ショックバッジが　あれば\nこうかんした　ポケモンも\lレベル70まで　いうことを　きく\pそれに　たたかい　いがいでも\nそらをとぶが　つかえる\pほれ　これも\nもって　いけ！
+@@CianwoodGym_Text_ChuckTMSpeech
+それは　きあいパンチ\pおそいが　ダメージは\nきょうれつだ\lさきに　こうげき　されるなよ！
+@@CianwoodGym_Text_ChuckAfter
+わははは！　たのしい\nしょうぶ　だった！\pだが　まけは　まけ！\pこれからは　24じかん\nしゅぎょう　するぞ！
+@@CianwoodGym_Text_ChuckRematch
+わははは！\nジョウトの　チャンピオン！\pまた　きたな！\pうでを　あげた\nようだな！\pどちらが　つよいか\nためすか？
+@@CianwoodGym_Text_ChuckRematchDefeat
+な？　なに？　まけた？\nまたか？
+@@CianwoodGym_Text_BlackbeltYoshiSeen
+おれと　ポケモンは\nゆうじょうで　むすばれている\pこの　きずなは\nぜったいに　きれない！
+@@CianwoodGym_Text_BlackbeltYoshiBeaten
+うそだろ！
+@@CianwoodGym_Text_BlackbeltYoshiAfter
+きみも　ポケモンと\nつよい　きずなで　むすばれて\lいる　ようだな！
+@@CianwoodGym_Text_BlackbeltLaoSeen
+われら　ぶどうかに\nおそれる　ものなし！
+@@CianwoodGym_Text_BlackbeltLaoBeaten
+しょうげき　だ！
+@@CianwoodGym_Text_BlackbeltLaoAfter
+かくとうポケモンは\nエスパーが　にがて‥
+@@CianwoodGym_Text_BlackbeltNobSeen
+ことばは　いらん\nこぶしで　かたれ！
+@@CianwoodGym_Text_BlackbeltNobAfter
+まけた！\nことばも　でない！
+@@CianwoodGym_Text_BlackbeltLungSeen
+いかりの　こぶしで　きみの\nポケモンを　くだいて　やる！
+@@CianwoodGym_Text_BlackbeltLungBeaten
+くだかれた！
+@@CianwoodGym_Text_BlackbeltLungAfter
+ポケモンが　まけた‥\nおれの　プライドが‥
+## data/maps/MahoganyTown_PokemonCenter_hns/scripts.inc
+@@MahoganyTown_PokemonCenter_Text_PokefanM
+なんだって？　ロケットだんが\nもどって　きた？\pいかりのみずうみで　くろずくめの\nおとこたちを　みたぞ‥
+@@MahoganyTown_PokemonCenter_Text_Youngster
+ポケモンが　はやく　しんか\nしすぎない　ように\lとめているんだ\pある　わざを　おぼえさせてから\nしんか　させるんだよ
+@@MahoganyTown_PokemonCenter_Text_CooltrainerF
+ポケモンは　しんか　すると\nつよく　なるけど\pわざを　おぼえるのが\nおそく　なるのよ
+## data/maps/MahoganyTown_Gym_hns/scripts.inc
+@@MahoganyTown_Gym_Text_GymStatue
+チョウジタウン　ポケモンジム
+@@MahoganyTown_Gym_Text_GymStatueCertified
+チョウジタウン　ポケモンジム\pヤナギ　にんてい　トレーナー\n{PLAYER}
+@@MahoganyTown_Gym_Text_PryceIntro
+ポケモンも　わしら　とおなじく\nいろんな　けいけんを　つむ\pわしも　じんせいで　おおくを\nみて　くるしんで　きた\pとしうえと　して\nそれを　みせて　やろう\pわしは　きみが　うまれる　まえから\nポケモンと　ともに　あった\pかんたんには　まけん\pふゆの　トレーナー\nこの　ヤナギが　ちからを\lみせて　くれよう！
+@@MahoganyTown_Gym_Text_PryceImpressed
+うむ　みごとな　うでまえ\pその　つよい　いしが　あれば\nどんな　こんなんも\lのりこえられよう\pこの　バッジに\nふさわしい！
+@@MahoganyTown_Gym_Text_ReceivedBadge
+{PLAYER}は\nアイスバッジを　もらった
+@@MahoganyTown_Gym_Text_GlacierBadgeSpeech
+その　バッジで　ポケモンの\nとくこうが　あがる\pそれに　うずしおで　ほんものの\nうずを　わたれる\pそして　これは‥\nわしからの　おくりものじゃ！
+@@MahoganyTown_Gym_Text_HailSpeech
+その　わざマシンは　あられ\p5ターンの　あいだ\nまいターン　ダメージを\lあたえる\pふゆの　きびしさを\nあらわした　わざじゃ
+@@MahoganyTown_Gym_Text_CherishPokemon
+こおりと　ゆきが　とければ\nはるが　くる\pきみと　ポケモンは　これから\nながい　としつきを\lともに　すごすじゃろう\pその　ときを\nたいせつに　するのじゃ！
+@@MahoganyTown_Gym_Text_PryceRematch
+おお　ジョウトの\nチャンピオン！\pきみの　うでは\nまことに　すばらしい\pかんしん　したぞ\pだが　いまでも　おたがいに\nまなぶ　ことは　おおい\pふゆの　トレーナー　ヤナギ\nまだ　おくのては　あるぞ\pもう　いちど\nしょうぶ　するか？
+@@MahoganyTown_Gym_Text_PryceRematchDefeat
+うむ　またしても\nみごとな　うでまえ\pその　つよい　いしが　あれば\nどんな　こんなんも\lのりこえられよう
+@@MahoganyTown_Gym_Text_Guide
+ヤナギは　50ねんも\nポケモンを　そだてて　きた\lベテランだ\pどんな　あいてにも　たいおう\nできる　ポケモンを\lそろえて　いるぞ\pほのおで　せめると　いいが\nあめには　きを　つけろ！
+@@MahoganyTown_Gym_Text_GuideWin
+ヤナギも　すごいが\nきみは　もっと　すごい！\pせだいを　こえた\nあつい　しょうぶ　だったな！
+@@MahoganyTown_Gym_Text_BoarderRonaldSeen
+きみの　ポケモンを　こおらせて\nなにも　できなく　してやる！
+@@MahoganyTown_Gym_Text_BoarderRonaldBeaten
+くそっ　なにも\nできなかった
+@@MahoganyTown_Gym_Text_BoarderRonaldAfter
+こおって　いても\nつかえる　わざが　あるらしい
+@@MahoganyTown_Gym_Text_BoarderBradSeen
+この　ジムは　ゆかが\nすべるんだ\pたのしい　だろ？\pでも　あそびじゃ\nないんだぜ！
+@@MahoganyTown_Gym_Text_BoarderBradBeaten
+おれたちの　ほんきが\nわかったか？
+@@MahoganyTown_Gym_Text_BoarderBradAfter
+この　ジムは　さいこう\nポケモンと　すべるのが\lだいすきさ！
+@@MahoganyTown_Gym_Text_BoarderDouglasSeen
+ヤナギさんの　ひみつを\nしってるぞ
+@@MahoganyTown_Gym_Text_BoarderDouglasBeaten
+よし　ヤナギさんの\nひみつを　おしえよう
+@@MahoganyTown_Gym_Text_BoarderDouglasAfter
+ヤナギさんの　つよさの\nひみつは‥\pまいにち　たきに　うたれて\nこころと　からだを\lきたえて　いるんだ
+@@MahoganyTown_Gym_Text_SkierRoxanneSeen
+ジムリーダーの　ヤナギさんの\nところへ　いくには\lよく　かんがえて　すべるのよ
+@@MahoganyTown_Gym_Text_SkierRoxanneBeaten
+スキー　なら\nまけないのに！
+@@MahoganyTown_Gym_Text_SkierRoxanneAfter
+せいかくに　すべらないと\nこの　ジムでは\lさきへ　すすめないわ
+@@MahoganyTown_Gym_Text_SkierClarissaSeen
+わたしの　パラレルターン\nみてて！
+@@MahoganyTown_Gym_Text_SkierClarissaBeaten
+いやー！　ころんじゃった！
+@@MahoganyTown_Gym_Text_SkierClarissaAfter
+スキーの　じまん　なんて\nしなきゃ　よかった‥
+## data/maps/MahoganyTown_Shop_hns/scripts.inc
+@@MahoganyTown_Shop_Text_Granny
+また　こんど　きて\nおくれ　みせは‥\lいまは　しまって　いるよ
+@@MahoganyMart1F_Text_Pharmacist_Lance
+ロケットだんに　ちかを\nのっとられた！
+@@MahoganyMart1F_Text_BlackBelt
+へへへ！　じっけんは\nだいせいこう　だぜ\pコイキングは　やくたたず\nだが　ギャラドスは\lいい　かねに　なる
+@@MahoganyMart1F_Text_BlackBelt_Lance
+うぐぐ‥\pあいつの　ポケモン\nつよすぎる‥
+@@MahoganyMart1F_Text_Lance_HyperBeam
+ワタル『カイリュー\nはかいこうせん！
+@@MahoganyMart1F_Text_Lance_Radio
+おそかったな　{PLAYER}くん\pおもった　とおり　へんな\nでんぱは　ここから\lでて　いる
+@@MahoganyMart1F_Text_Lance_Stairs
+よく　かいだんを　みつけた\nカイリュー！
+@@MahoganyMart1F_Text_Lance_SplitUp
+ワタル『{PLAYER}くん　てわけして\nここを　しらべよう\pわたしが　さきに　いく
+## data/maps/MahoganyTown_House1_hns/scripts.inc
+@@MahoganyRedGyaradosHouse_Text_BlackBelt
+みずうみに　あかい　ギャラドスが\nでたって　きいたぞ\pへんだな　ふつうの\nギャラドスでさえ　あそこでは\lめずらしいのに‥
+@@MahoganyRedGyaradosHouse_Text_Teacher
+すきな　ばんぐみ？\nポケモンミュージック　かしら
+@@MahoganyRedGyaradosHouse_Text_Teacher_Rockets
+ラジオから　わらいごえが\nきこえて　くるの‥\pきみが　わるいわ
+## data/maps/LakeOfRage_House1_hns/scripts.inc
+@@HiddenPowerGuy_Text_Intro
+‥とおくから　よく　きた‥\pわしは　ここで　めいそう\nしておった　わしの　なかに\lあたらしい　ちからが\lめざめたのじゃ\pおまえの　ポケモンにも\nわけて　やろう\lうけとるが　よい
+@@HiddenPowerGuy_Text_Explanation
+わかるか？\nめざめるパワーじゃ！\pポケモンの　ちからを\nひきだして　こうげき　する\pおぼえて　おけ　タイプと　いりょくは\nつかう　ポケモンで　かわるのじゃ
+@@HiddenPowerGuy_Text_Meditating
+めいそう　ちゅうじゃ‥
+## data/maps/LakeOfRage_House2_hns/scripts.inc
+@@LakeOfRage_House2_Text_LakeHistory
+いかりのみずうみは　あばれた\nギャラドスが　つくった\lクレーター　なんだ\pそこに　あまみずが　たまって\nみずうみに　なったのさ\pおじいちゃんの　ひいひい\nおじいちゃんから\lつたわる　はなしだ\pむかしは　げんきな　コイキングが\nつれたんだけど‥\pいったい　どう　なって\nいるんだろう
+@@LakeOfRage_House2_Text_MenInBlack
+くろい　ふくの　おとこたちが\nきてから　みずうみが\lおかしいんだ
+@@LakeOfRage_House2_Text_LastMon
+さいごの　ポケモンを\nもらう　わけには　いかないよ！
+@@LakeOfRage_House2_Text_WorldsLargest
+いかりのみずうみが\nもとに　もどった\pコイキングも　もどって　きた\pせかい　いちの　コイキングを\nもつ　ゆめが　かなうかも\pそうだ‥　コイキング\n1ぴきに　2000円\lでかい　コイキングなら\l100000円　はらうぞ！
+@@LakeOfRage_House2_Text_ForMe
+で‥　コイキングは\nもって　きたかい？
+@@LakeOfRage_House2_Text_HaveMagikarp
+おっ　コイキング　だね！\nどれだけ　おおきいか\lみせて　もらおう
+@@LakeOfRage_House2_Text_BigPayout
+おお！　これは　すごい！\pまいった！\pほんの　きもち　だが\nうけとって　くれ
+@@LakeOfRage_House2_Text_Bonus
+だいじなのは　きろくさ\pそれは　おまけだと\nおもって　くれ！
+@@LakeOfRage_House2_Text_TooShort
+おお！　これは　すごい！\p‥と　いいたい　ところ　だが\nもっと　おおきいのを\lみた　ことが　ある\pまあ　それなりの\nかちは　あるな
+@@LakeOfRage_House2_Text_NotMagikarp
+なに？　それは\nコイキングじゃ　ないぞ！
+@@LakeOfRage_House2_Text_Refused
+そうか‥　みせられる　ほどの\nやつは　まだ　いないか\lまた　こんど　だな
+## data/maps/BlackthornCity_PokemonCenter_hns/scripts.inc
+@@BlackthornCity_PokemonCenter1FGentlemanText
+はるか　セキエイこうげんの\nおくに　ポケモンリーグが\lある\pぜんこくから　さいこうの\nトレーナーが　あつまる\lそうだ
+@@BlackthornCity_PokemonCenter1FTwinText
+どうしても　ポケモンに\nおぼえさせたい　わざが\lあったの\pだから　わざわすれおやじに\nひでんわざを　わすれさせて\lもらったの
+## data/maps/BlackthornCity_Mart_hns/scripts.inc
+@@BlackthornMart_Text_CooltrainerM
+げんきのかたまりは　かえないけど\nひんしの　ポケモンを\lかんぜんに　かいふく　する\pでも　わざの　PPは\nもどらないから　きをつけて
+@@BlackthornMart_Text_BlackBelt
+ゴールドスプレーは　よわい\nポケモンを　よせつけない\pむしよけスプレーの　なかで\nいちばん　ながく　きくぞ
+## data/maps/BlackthornCity_Gym_hns/scripts.inc
+@@BlackthornGym_Text_ClairIntroText
+わたしは　イブキ\pせかい　いちの\nドラゴンつかいよ\pポケモンリーグの　してんのうとも\nわたりあえる　じつりょくが\lあるわ\pそれでも　わたしに\nいどむ　つもり？\p‥いいわ　やりましょう！\pジムリーダー　として\nどんな　あいてにも　ぜんりょくで\lいくわよ！
+@@BlackthornGym_Text_ClairWinText
+まけた？\pしんじられない‥　なにかの\nまちがいよ‥
+@@BlackthornGym_Text_ClairText_GoToDragonsDen
+みとめないわ\pまけたけど　あなたは　まだ\nポケモンリーグに　いく\lじゅんびが　できてない\pそうだ　ドラゴンつかいの\nしれんを　うけなさい\pこの　ジムの　うらに\nりゅうのあなと　いう\lばしょが　あるわ\pその　まんなかに　ちいさな\nほこらが　あるから\lそこへ　いきなさい\pあまい　かんがえを　すてたと\nしめせたら　バッジに　ふさわしい\lトレーナーと　みとめて\lあげるわ！
+@@BlackthornGym_Text_ClairText_TooMuchToExpect
+どうしたの？\pあなたには\nむりな　ちゅうもん　かしら？
+@@BlackthornGym_Text_ClairText_YouKeptMeWaiting
+またせたわね！\pほら！　これを\nうけとりなさい！
+@@BlackthornGym_Text_ClairText_DescribeTM
+それは　ドラゴンクロー\pどんな　わざかは\nわかるでしょ
+@@BlackthornGym_Text_ClairText_League
+どうしたの？\pポケモンリーグへ\nいくんでしょ？\pばしょを　しらないの？\pここから　ワカバタウンへ\nいって\pそこから　ひがしへ　なみのり\nするの　みちは　とても\lけわしいわ\pポケモンリーグで　まけたら\nしょうちしないわよ！\pわたしが　あなたに　まけた\nことが　もっと　くやしく\lなるじゃない！\pぜんりょくで　いきなさい
+@@BlackthornGym_Text_ClairAfterLeague
+やったのね？\pもう　ジョウトの\nチャンピオンね
+@@BlackthornGym_Text_ClairRematchText
+やったのね？\pもう　ジョウトの\nチャンピオンね\pつよさは　しょうめい　したけど\nもう　いちど　わたしに\lかてるかしら？\pドラゴンつかい　として\nてかげんは　しないわ\pこんどこそ\pもう　いちど\nしょうぶ　する？
+@@BlackthornGym_Text_ClairRematchDefeatText
+まけた？\pまた？\pしんじられない‥　なにかの\nまちがいよ‥
+@@BlackthornGym_Text_CooltrainermCodySeenText
+やっと　ドラゴンタイプを\nつかう　ことを　ゆるされた！
+@@BlackthornGym_Text_CooltrainermCodyBeatenText
+くそっ！　カイリューさえ\nいれば！
+@@BlackthornGym_Text_CooltrainermCodyAfterBattleText
+ドラゴンつかいの　いちぞくは\nちょうろうの　ゆるしが　あって\lはじめて　ドラゴンポケモンを\lつかえるんだ
+@@BlackthornGym_Text_CooltrainerfFranSeenText
+なまえも　しらない　トレーナーを\nとおす　わけには　いかない！\pイブキさまが　かんかんに\nなっちゃう！
+@@BlackthornGym_Text_CooltrainerfFranBeatenText
+ああ‥　まけちゃった‥
+@@BlackthornGym_Text_CooltrainerfFranAfterBattleText
+どうしよう‥　イブキさまに\nおこられる‥
+@@BlackthornGym_Text_CooltrainermPaulSeenText
+ドラゴンと　たたかうのは\nはじめてか？\pどれほど　つよいか\nみせて　やる！
+@@BlackthornGym_Text_CooltrainermPaulBeatenText
+おれの　ドラゴンが\nまけた？
+@@BlackthornGym_Text_CooltrainermPaulAfterBattleText
+ワタルさまが　きみに\nまた　あいたいと　いった？\pまさか！
+@@BlackthornGym_Text_CooltrainermMikeSeenText
+おれが　まける　かくりつ？\n1パーセントも　ないね！
+@@BlackthornGym_Text_CooltrainermMikeBeatenText
+おかしいな
+@@BlackthornGym_Text_CooltrainermMikeAfterBattleText
+じぶんの　よわさが\nわかったよ\pおしえて　くれて\nありがとう！
+@@BlackthornGym_Text_CooltrainerfLolaSeenText
+ドラゴンは　せいなる\nポケモン\pいのちの　ちからに\nみちあふれて　いる\pほんきで　なければ\nかてないわよ
+@@BlackthornGym_Text_CooltrainerfLolaBeatenText
+おみごと！
+@@BlackthornGym_Text_CooltrainerfLolaAfterBattleText
+ドラゴンは　ドラゴンタイプの\nわざに　よわいのよ
+@@BlackthornGym_Text_GuideText
+よう！　みらいの　チャンピオン！\pながい　たび　だったが\nもうすこしだ！　まかせとけ！\pイブキは　ドラゴンマスターの\nワタルを　したって　いるが\lうみの　ドラゴンで　チームを\lくんで　じぶんらしさを\lだして　いる\pドラゴンは　こおりタイプの\nわざに　よわいが　かつには\lドラゴンか　フェアリーの\lわざも　ほしいところだ\pがんばれよ！
+@@BlackthornGym_Text_GuideGotoDragonsDen
+イブキに　かつとは\nすごいぞ！\pでも　ちょっと\nまけずぎらい　だからな\pバッジが　ほしけりゃ\nりゅうのあなへ　いく\lしか　ないみたいだな！
+@@BlackthornGym_Text_GuideWinText
+イブキに　かつとは\nすごいぞ！\pのこるは　ポケモンリーグへの\nちょうせん　だけだ\pチャンピオンへの　みちを\nすすんでるぞ！
+@@BlackthornGym_Text_GymStatue
+フスベシティ　ポケモンジム
+@@BlackthornGym_Text_GymStatueCertified
+フスベシティ　ポケモンジム\pイブキ　にんてい　トレーナー\n{PLAYER}
+## data/maps/BlackthornCity_House1_hns/scripts.inc
+@@BlackthornCity_House1_Text_Granny
+この　フスベには　ドラゴンを\nじざいに　あやつる\lトレーナーの　いちぞくが\lすんで　おるのじゃ\pだから　この　まちには\nドラゴンの　でんせつが\lたくさん　あるのじゃよ
+@@BlackthornCity_House1_Text_Dratini
+ミニリュウ『リュー！
+## data/maps/BlackthornCity_House2_hns/scripts.inc
+@@BlackthornCity_House2_Text_YouWillTradeWontYou
+ポケモン　あつめてるの！\n{STR_VAR_1}　もってない？\pぼくの　{STR_VAR_2}と\nこうかん　しない？
+@@BlackthornCity_House2_Text_MonYouTakeCare
+やったー！\n{STR_VAR_1}　ゲット！\p{STR_VAR_2}\nげんきでね！
+@@BlackthornCity_House2_Text_ThisIsntAMon
+えー　ちがうよ\nそれ　{STR_VAR_1}じゃ　ないもん
+@@BlackthornCity_House2_Text_YouWontTradeMe
+こうかん　しないの？\nざんねん‥
+@@BlackthornCity_House2_Text_After
+ねえ　まえの\nバリヤード　げんき？
+## data/maps/BlackthornCity_House3_hns/scripts.inc
+@@BlackthornCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove
+うーん‥\nああ　わしが\lわざわすれおやじ　じゃ\pポケモンに　わざを\nわすれさせる　ことが　できる\pわすれさせて　ほしいか？
+@@BlackthornCity_MoveDeletersHouse_Text_WhichMonShouldForget
+どの　ポケモンに\nわすれさせる？
+@@BlackthornCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten
+どの　わざを\nわすれさせる？
+@@BlackthornCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove
+{STR_VAR_1}は　わざを\nひとつしか　しらんから\lわすれさせられん‥
+@@BlackthornCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten
+ふむ！　{STR_VAR_1}の\n{STR_VAR_2}じゃな？\lわすれさせて　よいか？
+@@BlackthornCity_MoveDeletersHouse_Text_MonHasForgottenMove
+うまく　いったぞ！\p{STR_VAR_1}は\n{STR_VAR_2}を　すっかり\lわすれた
+@@BlackthornCity_MoveDeletersHouse_Text_ComeAgain
+わすれさせたい　わざが\nあれば　また　くるがよい
+@@BlackthornCity_MoveDeletersHouse_Text_EggCantForgetMoves
+なに？\nタマゴは　わざを\lしらんぞ
+@@BlackthornCity_MoveDeletersHouse_Text_CantForgetSurf
+ふむ！\p{STR_VAR_1}は　なみのりを\nわすれたく　ない　ようじゃ
+@@BlackthornCity_MoveRelearnersHouse_Text_SorryCantHelp
+すまんが　ちからに\nなれんな
+@@BlackthornCity_MoveRelearnersHouse_Text_ImTheMoveTutor
+わしは　わざおしえマニア\pポケモンが　おぼえる　わざを\nひとつ　のこらず　しっておる\lそれを　おしえて　やれる\pのぞみ　なら　おまえの\nポケモンに　わざを\lおしえて　やろう\pれいは　ハートのウロコ\nひとつじゃ　いま\lあつめて　おるのでな
+@@BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove
+おお！　それじゃ！\nまぎれもない\lハートのウロコ！\pわざを　おしえて\nほしいのじゃな？
+@@BlackthornCity_MoveRelearnersHouse_Text_TutorWhichMon
+どの　ポケモンに\nおしえる？
+@@BlackthornCity_MoveRelearnersHouse_Text_TeachWhichMove
+どの　わざを\nおしえる？
+@@BlackthornCity_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon
+すまん‥\pその　ポケモンに　おしえられる\nわざは　ない　ようじゃ
+@@BlackthornCity_MoveRelearnersHouse_Text_HandedOverHeartScale
+{PLAYER}は　ハートのウロコを\n1まい　わたした
+@@BlackthornCity_MoveRelearnersHouse_Text_ComeBackWithHeartScale
+わざを　おぼえさせたく　なったら\nハートのウロコを　もって\lまた　くるがよい
+@@BlackthornCity_MoveRelearnersHouse_Text_CantTeachEgg
+む？　タマゴに　おしえられる\nわざは　ひとつも　ないぞ
+## data/maps/PalletTown_RedsHouse_1F_hns/scripts.inc
+@@RedsHouse_Text_Mom1
+こんにちは！\pレッドは　ずっと\nるすに　してるの\pでんわも　くれないから\nどこで　なにを　しているか\lさっぱり　わからなくて\pたよりが　ないのは　げんきな\nしょうこ　って　いうけど\lやっぱり　しんぱいよ
+@@RedsHouse_Text_Mom2
+けがや　びょうきが　しんぱい\nだけど　おとこのこ　だもの\pやりたい　ことを　やってるのは\nほこらしいわ
+@@RedsHouse_Text_TV
+ジョウトでは　やってない\nばんぐみを　やってる‥
+## data/maps/PalletTown_RedsHouse_2F_hns/scripts.inc
+@@RedsHouse_Text_NES
+{PLAYER}は　ゲームきで\nあそんだ\pそろそろ　いかなきゃ！\nぐずぐず　してられない！
+@@RedsHouse_Text_PC
+ながい　あいだ　つかわれて\nいない　ようだ‥
+## data/maps/PalletTown_House2_hns/scripts.inc
+@@PalletTown_House2_Text_Hello
+ナナミ『こんにちは！　おとうとは\nトキワシティの\lジムリーダー　なの\pでも　しょっちゅう　まちを\nでるから　トレーナーが\lこまってるのよね
+@@PalletTown_House2_Text_OfferGrooming
+ナナミ『こんにちは！　ちょうど\nおちゃに　する　ところよ\pいっしょに　どう？\pあら　ポケモンが\nちょっと　よごれてるわね\p1ぴき　グルーミング\nして　あげましょうか？

@@ -1,0 +1,356 @@
+@@403
+{B_DEF_NAME_WITH_PREFIX}は　ひきずりだされた！\p
+@@404
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　じょうたいが　もとに　もどった！
+@@405
+{B_ATK_TRAINER_NAME_WITH_CLASS}は　{B_LAST_ITEM}を　つかった！
+@@406
+ボックスが　いっぱいで　もう　つかまえられない！\p
+@@407
+{B_SCR_NAME_WITH_PREFIX}は　こうげきを　かわした！
+@@408
+{B_SCR_NAME_WITH_PREFIX}の　{B_SCR_ABILITY}で　こうかが　なかった！
+@@409
+{B_EFF_NAME_WITH_PREFIX}は　{B_EFF_ABILITY}で　ひるまない！
+@@410
+{B_DEF_NAME_WITH_PREFIX}は　すでに　やけどを　おっている！
+@@411
+{B_DEF_NAME_WITH_PREFIX}の　のうりょくは　もう　さがらない！
+@@412
+{B_SCR_NAME_WITH_PREFIX}の　{B_SCR_ABILITY}で　{B_CURRENT_MOVE}は　ふせがれた！
+@@413
+{B_ATK_TEAM1}　チームの　{B_BUFF1}の　こうかが　きれた！
+@@414
+かべが　くだけた！
+@@415
+{B_SCR_NAME_WITH_PREFIX}は　{B_SCR_ABILITY}で　{B_BUFF1}が　なおった！
+@@416
+{B_ATK_NAME_WITH_PREFIX}は　にげられない！
+@@417
+{B_ATK_NAME_WITH_PREFIX}は　{B_BUFF1}を　てにいれた
+@@418
+{B_DEF_NAME_WITH_PREFIX}は　{B_BUFF2}を　てにいれた
+@@419
+{B_ATK_NAME_WITH_PREFIX}は　{B_BUFF1}を　てにいれた\p{B_DEF_NAME_WITH_PREFIX}は　{B_BUFF2}を　てにいれた
+@@420
+しかし　こうかは　なかった！
+@@422
+{B_ATK_NAME_WITH_PREFIX}は　ちからを　だしきれない　ようだ！
+@@423
+{B_SCR_NAME_WITH_PREFIX2}の　めが　ひかった！
+@@424
+{B_SCR_NAME_WITH_PREFIX}は　かまえを　とった！
+@@425
+{B_SCR_NAME_WITH_PREFIX}は　ひくく　うなりはじめた！
+@@426
+{B_SCR_NAME_WITH_PREFIX}は　まだまだ　やるきだ！
+@@427
+しんぱんの　はんていで　{B_PLAYER_MON1_NAME}は　あいての　{B_OPPONENT_MON1_NAME}に　かった！
+@@428
+しんぱんの　はんていで　{B_PLAYER_MON1_NAME}は　あいての　{B_OPPONENT_MON1_NAME}に　まけた！
+@@429
+しんぱんの　はんていで　{B_PLAYER_MON1_NAME}は　あいての　{B_OPPONENT_MON1_NAME}と　ひきわけた！
+@@430
+こうさんして　しょうぶを　やめますか？
+@@431
+こうさん　しました
+@@434
+{B_DEF_NAME_WITH_PREFIX}は　{B_DEF_ABILITY}で　こうげきを　こらえた！
+@@435
+{B_ATK_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　ちからが　みなぎった！
+@@436
+{B_ATK_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　ダメージを　うけた！
+@@437
+じゅうりょくが　つよくなった！
+@@438
+{B_DEF_NAME_WITH_PREFIX}は　めを　さました！
+@@439
+{B_ATK_TEAM2}　チームの　うしろから　おいかぜが　ふきはじめた！
+@@440
+{B_ATK_NAME_WITH_PREFIX}は　{B_ATK_TRAINER_NAME}の　もとへ　もどっていく！
+@@441
+{B_DEF_NAME_WITH_PREFIX}は　どうぐが　つかえなくなった！
+@@442
+{B_ATK_NAME_WITH_PREFIX}は　{B_LAST_ITEM}を　なげつけた！
+@@443
+{B_DEF_NAME_WITH_PREFIX}は　かいふくを　ふうじられた！
+@@444
+{B_ATK_NAME_WITH_PREFIX}は　こうげきと　ぼうぎょを　いれかえた！
+@@445
+{B_DEF_NAME_WITH_PREFIX}の　とくせいが　きかなくなった！
+@@446
+おまじないで　{B_ATK_TEAM2}　チームは　きゅうしょに　あたらなくなった！
+@@447
+{B_DEF_NAME_WITH_PREFIX}は　{B_DEF_ABILITY}に　なった！
+@@448
+{B_DEF_TEAM2}　チームの　あしもとに　どくびしが　ちらばった！
+@@449
+{B_ATK_NAME_WITH_PREFIX}は　あいてと　のうりょくへんかを　いれかえた！
+@@450
+{B_ATK_NAME_WITH_PREFIX}は　みずの　リングを　まとった！
+@@451
+{B_ATK_NAME_WITH_PREFIX}は　でんじりょくで　ういた！
+@@452
+{B_ATK_NAME_WITH_PREFIX}は　じくうを　ゆがめた！
+@@453
+{B_DEF_TEAM2}　チームの　まわりに　とがった　いわが　ただよいはじめた！
+@@454
+{B_DEF_NAME_WITH_PREFIX}は　マグマの　うずに　とじこめられた！
+@@455
+{B_ATK_NAME_WITH_PREFIX}の　すがたが　いっしゅんで　きえた！
+@@456
+{B_CURRENT_MOVE}が　{B_ATK_TEAM2}　チームを　まもった！
+@@457
+{B_ATK_NAME_WITH_PREFIX}は　ガードを　シェアした！
+@@458
+{B_ATK_NAME_WITH_PREFIX}は　パワーを　シェアした！
+@@459
+ぼうぎょと　とくぼうが　いれかわる　ふしぎな　くうかんを　つくりだした！
+@@460
+{B_ATK_NAME_WITH_PREFIX}は　からだが　かるくなった！
+@@461
+{B_DEF_NAME_WITH_PREFIX}は　うきあがった！
+@@462
+もちものの　こうかが　なくなる　ふしぎな　くうかんを　つくりだした！
+@@463
+{B_DEF_NAME_WITH_PREFIX}は　うちおとされて　じめんに　おちた！
+@@464
+{B_DEF_NAME_WITH_PREFIX}は　{B_BUFF1}タイプに　なった！
+@@465
+{B_DEF_NAME_WITH_PREFIX}は　ことばに　あまえることにした！
+@@466
+{B_DEF_NAME_WITH_PREFIX}の　のうりょくへんかが　もとに　もどった！
+@@467
+{B_ATK_NAME_WITH_PREFIX}と　{B_SCR_NAME_WITH_PREFIX2}の　いちが　いれかわった！
+@@468
+{B_ATK_NAME_WITH_PREFIX}は　{B_DEF_NAME_WITH_PREFIX2}と　おなじ　タイプに　なった！
+@@469
+{B_ATK_NAME_WITH_PREFIX}は　どうぐが　つかえるように　なった！
+@@470
+でんじふゆう
+@@471
+{B_SCR_NAME_WITH_PREFIX}の　{B_BUFF1}の　こうかが　きれた！
+@@472
+{B_ATK_NAME_WITH_PREFIX}は　テレキネシスから　かいほうされた！
+@@473
+{B_ATK_TEAM1}　チームの　おいかぜが　やんだ！
+@@474
+{B_ATK_TEAM1}　チームの　おまじないの　こうかが　きれた！
+@@475
+ゆがんだ　じくうが　もとに　もどった！
+@@476
+ワンダールームが　おわり　ぼうぎょと　とくぼうが　もとに　もどった！
+@@477
+マジックルームが　おわり　もちものの　こうかが　もとに　もどった！
+@@478
+どろあそびの　こうかが　うすれた
+@@479
+みずあそびの　こうかが　うすれた
+@@480
+じゅうりょくが　もとに　もどった！
+@@481
+みずの　リングが　{B_ATK_NAME_WITH_PREFIX2}の　たいりょくを　かいふくした！
+@@482
+あしもとの　でんきが　きえた
+@@483
+あしもとの　きりが　きえた
+@@484
+あしもとの　ふしぎな　かんじが　きえた！
+@@485
+あしもとの　くさが　きえた
+@@486
+{B_DEF_NAME_WITH_PREFIX}の　{B_DEF_ABILITY}で　{B_BUFF1}が　{B_BUFF2}あがった！
+@@487
+{B_DEF_NAME_WITH_PREFIX}の　{B_DEF_ABILITY}で　{B_BUFF1}が　さいだいまで　あがった！
+@@488
+{B_ATK_NAME_WITH_PREFIX}の　{B_ATK_ABILITY}で　{B_BUFF1}が　{B_BUFF2}あがった！
+@@489
+どくで　{B_ATK_NAME_WITH_PREFIX2}の　たいりょくが　すこし　かいふくした！
+@@490
+{B_DEF_NAME_WITH_PREFIX}は　いちゃもんを　つけられている！
+@@491
+{B_SCR_NAME_WITH_PREFIX}は　かたやぶりだ！
+@@492
+{B_SCR_NAME_WITH_PREFIX}は　はじけるような　オーラを　はなっている！
+@@493
+{B_SCR_NAME_WITH_PREFIX}は　もえさかる　オーラを　はなっている！
+@@494
+{B_SCR_NAME_WITH_PREFIX}は　ちょうしが　あがらない！
+@@495
+{B_ATK_NAME_WITH_PREFIX}は　ちょうしを　とりもどした！
+@@496
+{B_ATK_NAME_WITH_PREFIX}は　{B_ATK_ABILITY}の　ダメージを　うけた！
+@@497
+{B_ATK_NAME_WITH_PREFIX}は　ダメージを　うけた！
+@@498
+{B_SCR_NAME_WITH_PREFIX}は　みぶるいした！
+@@499
+{B_SCR_ABILITY}で　{B_SCR_NAME_WITH_PREFIX2}は　{B_EFF_NAME_WITH_PREFIX2}の　{B_BUFF1}を　よちした！
+@@500
+{B_ATK_NAME_WITH_PREFIX}は　{B_ATK_ABILITY}で　すこし　かいふくした！
+@@501
+あられが　ふりはじめた！
+@@502
+{B_ATK_NAME_WITH_PREFIX}は　{B_DEF_NAME_WITH_PREFIX2}の　{B_LAST_ITEM}を　おみとおしだ！
+@@503
+{B_EFF_TEAM1}　チームは　きんちょうして　きのみが　たべられない！
+@@504
+{B_ATK_NAME_WITH_PREFIX}は　{B_LAST_ITEM}を　しゅうかくした！
+@@505
+{B_ATK_NAME_WITH_PREFIX}は　{B_ATK_ABILITY}で　{B_BUFF1}タイプに　なった！
+@@506
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ABILITY}で　{B_EFF_NAME_WITH_PREFIX2}に　{B_LAST_ITEM}を　わたした！
+@@507
+とがった　いわが　{B_SCR_NAME_WITH_PREFIX2}に　くいこんだ！
+@@508
+{B_EFF_TEAM2}　チームの　あしもとの　どくびしが　きえた！
+@@509
+{B_SCR_NAME_WITH_PREFIX}は　どくを　あびた！
+@@510
+{B_SCR_NAME_WITH_PREFIX}は　もうどくを　あびた！
+@@511
+{B_SCR_NAME_WITH_PREFIX}は　ねばねばネットに　ひっかかった！
+@@512
+いやしのねがいが　{B_SCR_NAME_WITH_PREFIX2}に　とどいた！
+@@513
+{B_SCR_NAME_WITH_PREFIX}は　げんきを　とりもどした！
+@@514
+{B_SCR_NAME_WITH_PREFIX}は　しんぴてきな　つきあかりに　つつまれた！
+@@515
+{B_DEF_NAME_WITH_PREFIX2}の　{B_DEF_ABILITY}で　{B_ATK_NAME_WITH_PREFIX}の　{B_BUFF1}は　ふうじられた！
+@@516
+{B_ATK_NAME_WITH_PREFIX}は　{B_ATK_ABILITY}に　なった！
+@@517
+{B_DEF_NAME_WITH_PREFIX}の　{B_DEF_ABILITY}で　{B_BUFF1}が　{B_BUFF2}さがった！
+@@518
+{B_DEF_NAME_WITH_PREFIX}の　{B_BUFF1}は　もう　あがらない！
+@@519
+{B_DEF_NAME_WITH_PREFIX2}の　{B_DEF_ABILITY}で　{B_ATK_NAME_WITH_PREFIX}の　{B_CURRENT_MOVE}は　はねかえされた！
+@@520
+{B_ATK_NAME_WITH_PREFIX}は　{B_LAST_ABILITY}で　{B_DEF_NAME_WITH_PREFIX2}に　へんしんした！
+@@521
+{B_LAST_ITEM}の　こうかで　へんかわざが　だせない！\p
+@@522
+{B_ATK_NAME_WITH_PREFIX}は　じゅうりょくで　{B_CURRENT_MOVE}が　だせない！\p
+@@523
+{B_ATK_NAME_WITH_PREFIX}は　かいふくを　ふうじられている！\p
+@@524
+この　わざの　こうかは　まだ　できていません！\p
+@@525
+{B_DEF_TEAM2}　チームの　あしもとに　ねばねばネットが　ひろがった！
+@@526
+{B_DEF_NAME_WITH_PREFIX}の　じゅんばんは　あとまわしに　なった！
+@@527
+{B_ATK_NAME_WITH_PREFIX}は　どくびしを　ふきとばした！
+@@528
+{B_ATK_NAME_WITH_PREFIX}は　ねばねばネットを　ふきとばした！
+@@529
+{B_ATK_NAME_WITH_PREFIX}は　ステルスロックを　ふきとばした！
+@@530
+プラズマが　あたりに　ふりそそいだ！
+@@531
+{B_DEF_NAME_WITH_PREFIX2}の　のうりょくへんかが　ひっくりかえった！
+@@532
+あしもとに　きりが　たちこめた！
+@@533
+あしもとに　くさが　おいしげった！
+@@534
+あしもとに　でんきが　かけめぐった！
+@@535
+あしもとが　ふしぎな　かんじに　なった！
+@@536
+{B_DEF_NAME_WITH_PREFIX}の　わざに　でんきが　やどった！
+@@537
+{B_ATK_TRAINER_NAME}の　メガリングに　{B_ATK_NAME_WITH_PREFIX}の　{B_LAST_ITEM}が　はんのうした！
+@@538
+{B_ATK_NAME_WITH_PREFIX}は　メガ{B_BUFF1}に　メガシンカした！
+@@539
+{B_DEF_NAME_WITH_PREFIX}は　{B_ATK_NAME_WITH_PREFIX2}に　まとわりつかれた！
+@@540
+{B_DEF_NAME_WITH_PREFIX2}には　こうかが　ないようだ！
+@@541
+はじけた　ほのおが　{B_SCR_NAME_WITH_PREFIX2}に　あたった！
+@@542
+{B_DEF_NAME_WITH_PREFIX}は　{B_ATK_NAME_WITH_PREFIX2}から　{B_LAST_ITEM}を　もらった！
+@@543
+{B_DEF_NAME_WITH_PREFIX2}に　{B_BUFF1}タイプが　ついかされた！
+@@544
+{B_DEF_NAME_WITH_PREFIX}は　フェイントを　くらった！
+@@545
+{B_ATK_NAME_WITH_PREFIX}は　{B_CURRENT_MOVE}が　つかえない！
+@@546
+{B_DEF_NAME_WITH_PREFIX}は　ふんじんまみれに　なった！
+@@547
+ほのおが　ふんじんに　ひきうつり　ばくはつした！
+@@548
+{B_ATK_NAME_WITH_PREFIX}は　きのみを　たべていないので　ゲップが　できない！\p
+@@549
+{B_ATK_NAME_WITH_PREFIX}は　あいての　のうりょくアップを　うばいとった！
+@@550
+{B_DEF_NAME_WITH_PREFIX}は　じゅうりょくで　じめんに　おちた！
+@@551
+{B_DEF_NAME_WITH_PREFIX}は　ミストフィールドに　まもられている！
+@@552
+{B_ATK_NAME_WITH_PREFIX}は　グラスフィールドで　かいふくした！
+@@553
+{B_DEF_NAME_WITH_PREFIX}は　エレキフィールドに　まもられている！
+@@554
+{B_SCR_NAME_WITH_PREFIX}は　サイコフィールドに　まもられている！
+@@555
+{B_SCR_NAME_WITH_PREFIX}は　{B_LAST_ITEM}の　おかげで　こうかを　うけない！
+@@556
+{B_DEF_NAME_WITH_PREFIX}は　はなびらの　ベールに　つつまれた！
+@@557
+{B_DEF_NAME_WITH_PREFIX}は　アロマベールに　まもられている！
+@@558
+おめでとう　{B_PLAYER_NAME}！
+@@559
+{B_DEF_NAME_WITH_PREFIX}は　{B_ATK_NAME_WITH_PREFIX2}の　さいはいに　したがった！
+@@560
+{B_ATK_NAME_WITH_PREFIX}は　おとの　わざが　だせるように　なった！
+@@561
+じごくづきの　こうかで　{B_ATK_NAME_WITH_PREFIX2}は　わざが　だせない！\p
+@@562
+{B_ATK_NAME_WITH_PREFIX}は　とぎすまされた！
+@@563
+{B_LAST_ITEM}で　{B_ATK_NAME_WITH_PREFIX2}の　いりょくが　あがった！
+@@564
+{B_LAST_ITEM}が　{B_SCR_NAME_WITH_PREFIX2}への　ダメージを　よわめた！
+@@565
+{B_SCR_NAME_WITH_PREFIX}は　ふうせんで　ういている！
+@@566
+{B_DEF_NAME_WITH_PREFIX}の　ふうせんが　われた！
+@@567
+{B_EFF_NAME_WITH_PREFIX}の　{B_LAST_ITEM}は　やけてしまった！
+@@568
+{B_ATK_NAME_WITH_PREFIX}は　あいての　{B_LAST_ITEM}を　うばって　たべた！
+@@569
+{B_SCR_NAME_WITH_PREFIX}の　イリュージョンが　とけた！
+@@570
+{B_ATK_NAME_WITH_PREFIX}は　{B_DEF_NAME_WITH_PREFIX2}の　じょうたいいじょうを　なおした！
+@@571
+{B_ATK_NAME_WITH_PREFIX}は　もえつきた！
+@@572
+{B_ATK_NAME_WITH_PREFIX}の　{B_LAST_ABILITY}で　{B_SCR_NAME_WITH_PREFIX2}の　じょうたいいじょうが　なおった！
+@@573
+{B_SCR_NAME_WITH_PREFIX}の　{B_SCR_ABILITY}で　{B_BUFF1}が　{B_BUFF2}あがった！
+@@574
+{B_SCR_NAME_WITH_PREFIX}の　{B_SCR_ABILITY}は　のっとられた！
+@@575
+{B_ATK_NAME_WITH_PREFIX}は　ちからを　きゅうしゅうしている！
+@@576
+つぎの　ターン　だれも　にげられなくなった！
+@@577
+{B_DEF_NAME_WITH_PREFIX}は　{B_LAST_ITEM}で　メロメロに　なった！
+@@578
+{B_ATK_NAME_WITH_PREFIX}は　つめたい　ひかりに　つつまれた！
+@@579
+{B_SCR_NAME_WITH_PREFIX2}の　{B_LAST_ITEM}の　こうかで　のうりょくは　さがらない！
+@@580
+{B_ATK_TRAINER_NAME}の　つよい　おもいが　{B_ATK_NAME_WITH_PREFIX2}に　とどいた！
+@@581
+てんきの　えいきょうが　なくなった
+@@582
+{B_SCR_NAME_WITH_PREFIX}は　プレッシャーを　はなっている！
+@@583
+{B_SCR_NAME_WITH_PREFIX}は　ダークオーラを　はなっている！

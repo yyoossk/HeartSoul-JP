@@ -1,0 +1,407 @@
+## data/text/pkmn_center_nurse.inc
+@@gText_WouldYouLikeToRestYourPkmn
+こんにちは！\nポケモンセンターへ　ようこそ！\pここでは　ポケモンの　たいりょく\nかいふくを　いたします\pあなたの　ポケモンを\nやすませて　あげますか？
+@@gText_IllTakeYourPkmn
+それでは　すこしの　あいだ\nポケモンを　おあずかり　しますね
+@@gText_RestoredPkmnToFullHealth
+おまちどうさまでした！\pおあずかりした　ポケモンは\nみんな　げんきに　なりましたよ
+@@gText_WeHopeToSeeYouAgain
+またの　ごりようを\nおまちして　おります！
+@@gText_WelcomeCutShort
+こんにちは！\nポケモンセンターへ　ようこそ！\pここでは　ポケモンの　たいりょく\nかいふくを　いたします\pあなたの　ポケモンを‥
+@@gText_NoticesGoldCard
+そ‥　その　カードは‥\nもしかして‥　ゴールドカード！？\pきんいろが　まぶしい！\n4つの　ほしが　かがやいてる！\pシルバーカードの　トレーナーさんは\nなんにんか　みましたが\l{PLAYER}さんが　はじめての\lゴールドカードの　トレーナーです！\p{PLAYER}さん！　ぜひ　わたしに\nポケモンを　やすませてください！
+@@gText_YouWantTheUsual
+{PLAYER}さん！　おあいできて\nうれしいです！　いつもの　ですね？
+@@gText_IllTakeYourPkmn2
+それでは　すこしの　あいだ\nポケモンを　おあずかり　しますね
+@@gText_ThankYouForWaiting
+おまちどうさまでした！
+@@gText_WeHopeToSeeYouAgain2
+またの　ごりようを\nおまちして　おります！
+## data/text/obtain_item.inc
+@@gText_ObtainedTheItem
+{STR_VAR_2}を　てにいれた！
+@@gText_TheBagIsFull
+バッグが　いっぱいだ‥
+@@gText_PutItemInPocket
+{PLAYER}は　{STR_VAR_2}を\n{STR_VAR_3}ポケットに　しまった
+@@gText_PlayerFoundOneItem
+{PLAYER}は　{STR_VAR_2}を　みつけた！
+@@gText_TooBadBagIsFull
+ざんねん！\nバッグが　いっぱいだ‥
+@@gText_PlayerPutItemInBag
+{PLAYER}は　{STR_VAR_2}を\nバッグに　しまった
+@@gText_ObtainedTheDecor
+{STR_VAR_2}を　てにいれた！
+@@gText_NoRoomLeftForAnother
+ざんねん！　{STR_VAR_2}を\nおく　ばしょが　ない‥
+@@gText_TheDecorWasTransferredToThePC
+{STR_VAR_2}を\nパソコンに　おくった
+@@gText_ObtainedTheItems
+{STR_VAR_2}を　{STR_VAR_1}こ　てにいれた！
+@@gText_PlayerFoundItems
+{PLAYER}は　{STR_VAR_2}を\n{STR_VAR_1}こ　みつけた！
+@@gText_PutCoinsAwayInCoinCase
+{PLAYER}は　コインを\nコインケースに　しまった
+@@gText_FoundXCoins
+{PLAYER}は\n{STR_VAR_2}を　{STR_VAR_1}まい　みつけた！
+@@gText_FoundXItems
+{PLAYER}は\n{STR_VAR_2}を　{STR_VAR_1}こ　みつけた！
+@@gText_CoinCaseIsFull
+ざんねん！\nコインケースが　いっぱいだ‥
+@@gText_NothingToPutThemIn
+ざんねん！\nいれる　ものが　ない‥
+## data/text/save.inc
+@@gText_ConfirmSave
+いままでの　かつやくを\nレポートに　かきこみますか？
+@@gText_AlreadySavedFile
+まえの　レポートが　あります\nうわがき　しても　いいですか？
+@@gText_SavingDontTurnOff
+レポートを　かいています\nでんげんを　きらないで　ください
+@@gText_PlayerSavedGame
+{PLAYER}は\nレポートに　しっかり　かきのこした！
+@@gText_DifferentSaveFile
+ちゅうい！\pべつの　ぼうけんの　レポートが\nすでに　かかれています\pいま　レポートを　かくと　そちらの\nどうぐや　ポケモンが\lすべて　きえて　しまいます\pほんとうに　うわがきして\nレポートを　かきますか？
+@@gText_SaveError
+レポートの　エラーです\pバックアップメモリを\nこうかんして　ください
+@@gText_SavingDontTurnOffPower
+レポートを　かいています\nでんげんを　きらないで　ください
+## data/text/pc.inc
+@@Text_BootUpPC
+{PLAYER}は\nパソコンの　スイッチを　いれた！
+@@gText_WhichPCShouldBeAccessed
+どの　パソコンに　つなぎますか？
+@@gText_AccessedSomeonesPC
+だれかの　パソコンに　つないだ
+@@gText_StorageSystemOpened
+ポケモン　あずかりシステムを\nよびだした
+@@gText_AccessedPlayersPC
+{PLAYER}の　パソコンに　つないだ
+@@gText_AccessedLanettesPC
+マユミの　パソコンに　つないだ
+@@gText_AccessedBillsPC
+マサキの　パソコンに　つないだ
+## data/text/pc_transfer.inc
+@@gText_PkmnTransferredSomeonesPC
+{STR_VAR_2}は　だれかの\nパソコンに　てんそうされた！\pボックス『{STR_VAR_1}』に\nあずけられた！
+@@gText_PkmnTransferredLanettesPC
+{STR_VAR_2}は\n
+@@gText_PkmnTransferredSomeonesPCBoxFull
+だれかの　パソコンの　ボックス\n『{STR_VAR_3}』は　いっぱいだった\p{STR_VAR_2}は　ボックス\n『{STR_VAR_1}』に　てんそうされた！
+@@gText_PkmnTransferredLanettesPCBoxFull
+ボックス『{STR_VAR_3}』は\n
+@@gText_PkmnSentToPCAfterCatch
+{STR_VAR_2}は　{B_PC_CREATOR_NAME}\nパソコンに　おくられた！\pボックス『{STR_VAR_1}』に\nあずけられた！
+@@gText_PlayerObtainedTheMon
+{PLAYER}は\n{STR_VAR_1}を　てにいれた！
+@@gText_NoMoreRoomForPokemon
+もう　ポケモンを　あずける\nばしょが　ない！\pポケモンボックスが　いっぱいで\nもう　あずけられない！
+@@gText_NicknameThisPokemon
+てにいれた　{STR_VAR_1}に\nニックネームを　つけますか？
+## data/text/surf.inc
+@@gText_WantToUseSurf
+すいめんが　あおく　すんでいる‥\nなみのりを　つかいますか？
+@@gText_PlayerUsedSurf
+{STR_VAR_1}は\nなみのりを　つかった！
+@@Text_CurrentTooFast
+ながれが　はやすぎて\nなみのりが　つかえない‥
+## data/text/mart_clerk.inc
+@@gText_HowMayIServeYou
+いらっしゃいませ！\pなにに　いたしましょうか？
+@@gText_PleaseComeAgain
+まいど　ありがとう\nございました！
+@@gText_PlayerWhatCanIDoForYou
+{PLAYER}{STRING 5}さん　いらっしゃい！\pなにに　しましょうか？
+## data/text/move_relearner.inc
+@@MoveRelearner_Text_WouldLearnNewMoves
+やあ　わたしは　わざおもいだしやだ\nわざを　おぼえさせて　みるかい？
+@@MoveRelearner_Text_LevelUpMoves
+レベルアップの　わざ
+@@MoveRelearner_Text_EggMoves
+タマゴわざ
+@@MoveRelearner_Text_TMMoves
+わざマシンの　わざ
+@@MoveRelearner_Text_TutormoveMoves
+おしえわざ
+@@MoveRelearner_Text_SeeYa
+じゃあ　また！
+@@MoveRelearner_Text_AnythingElse
+ほかに　なにか　ようは　あるかね？
+@@MoveRelearner_Text_ChoosePkmn
+ポケモンを　えらんでおくれ
+@@MoveRelearner_Text_HaveNoPkmn
+ポケモンを　もっていないね
+@@MoveRelearner_Text_CantTeachMoveToEgg
+わるいね‥\nタマゴには　わざを　おしえられない
+@@MoveRelearner_Text_CantTeachMoveToPkmn
+わるいね‥\pその　ポケモンに　おしえられる\nわざは　ないようだ
+@@MoveRelearner_Text_LevelUpMoveLWR
+レベルアップわざ
+@@MoveRelearner_Text_EggMoveLWR
+タマゴわざ
+@@MoveRelearner_Text_TMMoveLWR
+わざマシンわざ
+@@MoveRelearner_Text_TutorMoveLWR
+おしえわざ
+@@MoveRelearner_Text_MoveLWR
+わざ
+@@MoveRelearner_Text_WhichXmoveShouldTeach
+どの　{STR_VAR_3}を　おしえようか？
+@@MoveRelearner_Text_ThankYouComeAgain
+ごりよう　ありがとう\nまた　きておくれ！
+## data/text/record_mix.inc
+@@Text_WouldYouLikeToMixRecords
+ほかの　トレーナーと\nレコードを　まぜますか？
+@@Text_WeHopeToSeeYouAgain
+またの　ごりようを\nおまちして　おります！
+## data/text/abnormal_weather.inc
+@@gText_AbnormalWeatherEnded_Rain
+はげしい　おおあめが\nやんだ　ようだ‥
+@@gText_AbnormalWeatherEnded_Sun
+つよい　ひざしが\nおさまった　ようだ‥
+## data/text/check_furniture.inc
+@@Text_PictureBookShelf
+ポケモンの　えほんが\nそろっている
+@@Text_BookShelf
+いろんな　ほんが\nぎっしり　つまっている
+@@Text_PokemonCenterBookShelf
+ポケモンの　ざっしだ！\nポケモンなかま‥\pポケモン　ハンドブック‥\nかわいい　ポケモン‥
+@@Text_Vase
+たかそうな　つぼだ‥\nなかを　のぞいてみた‥\pでも　なにも　なかった
+@@Text_EmptyTrashCan
+からっぽだ
+@@Text_ShopShelf
+たなには　ポケモングッズが\nずらりと　ならんでいる
+@@Text_Blueprint
+なにかの　せっけいず　かな？\nむずかしくて　わからない！
+## data/scripts/repel.inc
+@@Text_SprayWoreOff
+{STR_VAR_1}の　こうかが　きれた‥
+@@Text_SprayWoreOffAskUseAnother
+{STR_VAR_1}の　こうかが　きれた！\nもうひとつ　つかう？
+@@Text_SprayWoreOffAskUseX
+{STR_VAR_1}の　こうかが　きれた‥\n{STR_VAR_2}を　つかう？
+@@Text_SprayWoreOffUseX
+{PLAYER}は\n{STR_VAR_2}を　つかった
+## data/scripts/dexnav.inc
+@@sText_NotFoundNearby
+ちかくには　みつからなかった\nべつの　ばしょで　さがしてみよう！
+@@sText_TryMovingSlower
+ポケモンに　にげられた！\nもっと　ゆっくり　うごいてみよう
+@@sText_PokemonGotAway
+ポケモンに　にげられた！
+@@sText_LostSignal
+はんのうが　ない\nシグナルが　とぎれた！
+@@sText_TooDark
+くらすぎて　ポケモンを\nさがせない！
+## data/scripts/follower.inc
+@@gText_FollowerLovesYou
+{STR_VAR_1}は　あなたを\nうっとりと　みつめている！
+@@gText_FollowerLostInThought
+{STR_VAR_1}は　かんがえごとを\nしている　ようだ
+@@gText_FollowerDefault
+エラー404:　スクリプトが　ありません
+@@gText_WantsToFly
+{STR_VAR_1}は　そわそわと\nそらを　みあげている\pそらをとぶを　つかいますか？
+## data/scripts/mom_savings.inc
+@@Mom_Text_GiftCall_Item
+ママ『もしもし　げんき？\pあなたの　ちょきんで\nいいもの　かっちゃった！\pパソコンに　おくっておいたわ\nがんばってね！
+@@Mom_Text_GiftCall_Berry
+ママ『もしもし　げんき？\pおみせで　いい　きのみを\nみつけたの！\pパソコンに　おくっておいたわ\nがんばってね！
+@@Mom_Text_GiftCall_Decoration
+ママ『もしもし　げんき？\pあなたの　へやに　かわいい\nにんぎょうを　かったわよ！\pかえったら　もようがえを\nみてね　がんばってね！
+## data/scripts/players_house.inc
+@@PlayersHouse_2F_Text_ClockChange
+とけいを　みながら　Rボタンを\nおすと　じかんを　あわせられる
+@@PlayersHouse_1F_Text_YouShouldRestABit_PokecenterChallenge
+ママ『ごめんね　いまは\nポケセン　ちょうせんちゅう　でしょ！
+## data/scripts/config.inc
+@@Debug_FlagsAndVarNotSetBattleConfigMessage_Text
+つかえない　きのうです！\nフラグと　へんすうを\linclude/config/battle.hで　きめてね！
+## data/scripts/battle_frontier.inc
+@@BattleFrontier_DoYouWantToSeeTheListOfCaughtBannedSpecies
+つれていけない　ポケモンの\nリストを　みますか？
+## data/scripts/apricorn_tree.inc
+@@ApricornTree_Text_Intro
+ぼんぐりの　きだ！
+@@ApricornTree_Text_Empty
+ぼんぐりが　なっていない‥
+@@ApricornTree_Text_WantToPick
+‥{STR_VAR_1}が　{STR_VAR_2}こ　なっている！\n{STR_VAR_1}を\lとりますか？
+@@ApricornTree_Text_PickedTheApricorn
+{PLAYER}は\n{STR_VAR_1}を　{STR_VAR_2}こ　てにいれた
+@@ApricornTree_Text_PutAwayApricorn
+{PLAYER}は　{STR_VAR_1}を\nバッグの\l{STR_VAR_3}ポケットに　しまった
+@@ApricornTree_Text_PocketFull
+バッグの　{STR_VAR_3}ポケットが\nいっぱいだ\p{PLAYER}は\n{STR_VAR_1}を　あきらめた‥
+@@ApricornTree_Text_ApricornLeftUnpicked
+{PLAYER}は\n{STR_VAR_1}を　あきらめた‥
+## data/scripts/berry_tree.inc
+@@BerryTree_Text_Hns_NotRipe
+きのみの　きだ！\nまだ　みが　じゅくしていない
+@@BerryTree_Text_Hns_Picked
+{PLAYER}は\n{STR_VAR_1}を　{STR_VAR_2}こ　とった
+@@BerryTree_Text_Hns_BagFull
+バッグの　きのみポケットが\nいっぱいだ\p{STR_VAR_1}を　とれなかった
+@@BerryTree_Text_Hns_Sprouted
+きのみの　きが　とつぜん　めを　だした！
+## data/scripts/field_move_scripts.inc
+@@Text_WantToCut
+この　きは　いあいぎりで\nきれそうだ！\pいあいぎりを　つかいますか？
+@@Text_MonUsedFieldMove
+{STR_VAR_1}は\n{STR_VAR_2}を　つかった！
+@@Text_CantCut
+この　きは　いあいぎりで\nきれそうだ！
+@@Text_WantToSmash
+この　いわは　こわせそうだ\nいわくだきを　つかいますか？
+@@Text_CantSmash
+ごつごつした　いわだ　ポケモンの\nわざで　こわせるかも　しれない
+@@Text_WantToStrength
+おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない\pかいりきを　つかいますか？
+@@Text_MonUsedStrength
+{STR_VAR_1}は\nかいりきを　つかった！\p{STR_VAR_1}の　かいりきで\nいわが　うごかせるように　なった！
+@@Text_CantStrength
+おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない
+@@Text_StrengthActivated
+かいりきで　いわが\nうごかせるように　なっている
+@@Text_CantWaterfall
+ものすごい　いきおいで\nみずが　おちてくる！
+@@Text_WantToWaterfall
+おおきな　たきだ\nたきのぼりを　つかいますか？
+@@Text_MonUsedWaterfall
+{STR_VAR_1}は\nたきのぼりを　つかった！
+@@Text_CantDive
+ここは　うみが　ふかい　ポケモンの\nわざで　もぐれるかも　しれない
+@@Text_WantToDive
+ここは　うみが　ふかい\nダイビングを　つかいますか？
+@@Text_MonUsedDive
+{STR_VAR_1}は\nダイビングを　つかった！
+@@Text_CantSurface
+うえから　ひかりが　さしこむ\nポケモンの　わざで　うかべるかも
+@@Text_WantToSurface
+うえから　ひかりが　さしこむ\nダイビングを　つかいますか？
+@@Text_FailSweetScent
+ここには　なにも　いないようだ‥
+@@Text_WantToRockClimb
+けわしい　がけだ\nロッククライムを　つかいますか？
+@@Text_MonUsedRockClimb
+{STR_VAR_1}は\nロッククライムを　つかった！
+@@Text_CantRockClimb
+けわしい　がけだ　ポケモンの\nわざで　のぼれるかも　しれない
+## data/scripts/field_move_scripts_hns.inc
+@@Text_WantToCut
+この　きは　いあいぎりで\nきれそうだ！\pいあいぎりを　つかいますか？
+@@Text_MonUsedFieldMove
+{STR_VAR_1}は\n{STR_VAR_2}を　つかった！
+@@Text_CantCut
+この　きは　いあいぎりで\nきれそうだ！
+@@Text_MonUsedHeadbutt
+{STR_VAR_1}は\nずつきを　つかった！
+@@Text_WantToSmash
+この　いわは　こわせそうだ\nいわくだきを　つかいますか？
+@@Text_CantSmash
+ごつごつした　いわだ　ポケモンの\nわざで　こわせるかも　しれない
+@@Text_WantToHeadbutt
+この　きには　ポケモンが\nいるかも　ずつきを　つかいますか？
+@@Text_CantHeadbutt
+ちいさな　きだ　やせいの\nポケモンが　すんでいるかも
+@@Text_WantToStrength
+おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない\pかいりきを　つかいますか？
+@@Text_MonUsedStrength
+{STR_VAR_1}は\nかいりきを　つかった！
+@@Text_CantStrength
+おおきな　いわだ　ポケモンの\nわざで　うごかせるかも　しれない
+@@Text_StrengthActivated
+かいりきで　いわが\nうごかせるように　なっている
+@@Text_CantWaterfall
+ものすごい　いきおいで\nみずが　おちてくる！
+@@Text_WantToWaterfall
+おおきな　たきだ\nたきのぼりを　つかいますか？
+@@Text_MonUsedWaterfall
+{STR_VAR_1}は\nたきのぼりを　つかった！
+@@Text_CantWhirlpool
+みずが　ものすごい　いきおいで\nうずを　まいている
+@@Text_CantDive
+ここは　うみが　ふかい　ポケモンの\nわざで　もぐれるかも　しれない
+@@Text_WantToDive
+ここは　うみが　ふかい\nダイビングを　つかいますか？
+@@Text_MonUsedDive
+{STR_VAR_1}は\nうずしおを　つかった！
+@@Text_CantSurface
+うえから　ひかりが　さしこむ\nポケモンの　わざで　うかべるかも
+@@Text_WantToSurface
+うえから　ひかりが　さしこむ\nダイビングを　つかいますか？
+@@Text_FailSweetScent
+ここには　なにも　いないようだ‥
+@@Text_WantToRockClimb
+けわしい　がけだ\nロッククライムを　つかいますか？
+@@Text_MonUsedRockClimb
+{STR_VAR_1}は\nロッククライムを　つかった！
+@@Text_CantRockClimb
+けわしい　がけだ　ポケモンの\nわざで　のぼれるかも　しれない
+## data/scripts/day_care.inc
+@@Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon
+わしは　そだてやの　じいさんじゃ\pトレーナーの　だいじな　ポケモンを\nあずかって　そだてておる\pポケモンを　そだてて　ほしかったら\nばあさんに　はなしておくれ
+@@Route117_Text_DoYouWantEgg
+おお！　あんたか！\pあんたの　ポケモンを　そだてて\nいたら　なんと　まあ　おどろいた！\pポケモンが　タマゴを\nもっておったんじゃ！\pどこから　もってきたのかは\nわからんが　あんたの　ポケモンが\lもっておった　タマゴじゃ\pもちろん　ほしいじゃろ？
+@@Route117_Text_YourMonIsDoingFine
+おお！　あんたか！\n{STR_VAR_1}は　げんきに　しておるぞ
+@@Route117_Text_IllKeepIt
+そうか　それなら　わしが\nもらっておくよ！　ありがとう！
+@@Route117_Text_YouHaveNoRoomForIt
+てもちが　いっぱい　じゃのう‥\nあきを　つくってから　きておくれ
+@@Route117_Text_ReceivedEgg
+{PLAYER}は　そだてやの\nじいさんから　タマゴを　もらった！
+@@Route117_Text_TakeGoodCareOfIt
+だいじに　そだてて　おくれよ
+@@Route117_Text_FriendlyWithOtherTrainersMon
+ところで　{STR_VAR_1}じゃが\n{STR_VAR_2}の　{STR_VAR_3}と\lなかよく　しておったぞ\pメールを　もらって　いるのも\nみかけた　ような　きがするのう
+@@Route117_Text_SeeWifeIfYouWantToPickUpMon
+ポケモンを　ひきとりたかったら\nばあさんに　はなしておくれ
+@@Route117_Text_YourMonsAreDoingFine
+おお！　あんたか！\n{STR_VAR_1}と　{STR_VAR_2}は\lげんきに　しておるぞ
+@@Route117_Text_IWillKeepDoYouWantIt
+ほんとうに　もらっちまうぞ\nほしいんじゃろ？
+@@Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon
+わたしは　そだてやの　ばあさんだよ\pポケモンを　そだてて\nあげられるよ\pポケモンを　あずけて　みるかい？
+@@Route117_PokemonDayCare_Text_WhichMonShouldWeRaise
+どの　ポケモンを\nそだてようかね？
+@@Route117_PokemonDayCare_Text_WellRaiseYourMon
+それじゃあ　{STR_VAR_1}を\nしばらく　あずかるよ\pあとで　ひきとりに　きておくれ
+@@Route117_PokemonDayCare_Text_WeCanRaiseOneMore
+ポケモンは　2ひきまで　あずかれるよ\nもう　1ぴき　あずけるかい？
+@@Route117_PokemonDayCare_Text_HusbandWasLookingForYou
+じいさんが　あんたを\nさがしてたよ
+@@Route117_PokemonDayCare_Text_FineThenComeAgain
+おや　そうかい\nまた　おいで
+@@Route117_PokemonDayCare_Text_NotEnoughMoney
+おかねが　たりないよ‥
+@@Route117_PokemonDayCare_Text_TakeOtherOneBackToo
+もう　1ぴきも\nひきとるかい？
+@@Route117_PokemonDayCare_Text_ComeAgain
+そうかい\nまた　おいで
+@@Route117_PokemonDayCare_Text_GoodToSeeYou
+おや　あんたかい！　よく　きたね\nポケモンは　げんきに　しとるよ！
+@@Route117_PokemonDayCare_Text_YourMonHasGrownXLevels
+{STR_VAR_1}は　レベルが\n{STR_VAR_2}　あがったよ
+@@Route117_PokemonDayCare_Text_YourTeamIsFull
+てもちが　いっぱいだね\nあきを　つくってから　おいで
+@@Route117_PokemonDayCare_Text_TakeBackWhichMon
+どの　ポケモンを\nひきとるかい？
+@@Route117_PokemonDayCare_Text_ItWillCostX
+{STR_VAR_1}を　ひきとるなら\n{STR_VAR_2}円　いただくよ
+@@Route117_PokemonDayCare_Text_HeresYourMon
+はい　たしかに！\nあんたの　ポケモンだよ
+@@Route117_PokemonDayCare_Text_TookBackMon
+{PLAYER}は　そだてやの\nばあさんから\l{STR_VAR_1}を　ひきとった
+@@Route117_PokemonDayCare_Text_YouHaveJustOneMon
+おや？　ポケモンを　1ぴきしか\nもって　いないじゃないか\pまた　こんど　おいで
+@@Route117_PokemonDayCare_Text_TakeYourMonBack
+ポケモンを　ひきとるかい？
+@@Route117_PokemonDayCare_Text_WhatWillYouBattleWith
+その　ポケモンを　あずけたら\nなにで　たたかうんだい？\pまた　こんど　おいで
+@@Text_EggHatchHuh
+おや？
+@@Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne
+おや？\nまあまあ\pその　ポケモンを　あずけたら\nてもちが　1ぴきに　なっちまうよ\pもっと　ポケモンを　つかまえて\nきた　ほうが　いいと　おもうよ

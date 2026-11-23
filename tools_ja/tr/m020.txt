@@ -1,0 +1,245 @@
+## data/maps/NewSinjoh_hns/scripts.inc
+@@NewSinjoh_Text_SpringsSageAfter
+でんせつの　ポケモンが\nしずまって　から\lよく　なった\pシンジョウに　つりあいが\nもどったのじゃ
+@@NewSinjoh_Text_Sage2
+ときは　かわれど　オドシシは\nいまも　あつまる\lありがたい　ことじゃ
+@@NewSinjoh_Text_Daughter
+わーーーい！！\pみて　ママ！\nてばなし！\pスノーボーダー\nみたいでしょ！
+@@NewSinjoh_Text_Mother
+うちの　こ　かわいい\nでしょ！\pこの　リンクは　むかしから\nあるけど　こどもたちが　つかい\lだしたのは　あたらしい　ひとが\lきてから　なのよ
+@@NewSinjoh_Text_Welcome_Sign
+ニューシンジョウ
+@@NewSinjoh_Text_Resturant_Sign
+ファミリーカフェ
+@@NewSinjoh_Text_Cave_Sign
+おんせんの　どうくつ
+@@NewSinjoh_Text_Hiker
+しょうばいは　だいはんじょう！\nでも　まちの　ひとが　この\lむらに　きょうみを　もって\lから　ものの　ねだんが\lあがって　しまった
+@@NewSinjoh_Text_HikerAfter
+しょうばいは　だいはんじょう！\pそれに　あの　ぎんいろの　かみの\nひとが　チップを　はずむ　から\lねだんも　さがったよ！
+@@NewSinjoh_Text_OldLady4
+じもとの　ひとに\nしか　うらないよ！
+@@NewSinjoh_Text_OldLady4After
+いまでも　じもとの\nひとに　しか　うらないよ！
+## data/maps/SinjohRuins_hns/scripts.inc
+@@SinjohRuins_Text_StevenGotoStairs1
+ダイゴ『つまり　こういう\nことか
+@@SinjohRuins_Text_StevenGotoStairs2
+{PLAYER}くん　のこりの\nもじも　かいどく　できたよ‥\pやくが　ただしければ\nあの　かいだんの　うえの\lポケモンは　うちゅうで\lもっとも　つよい　そんざいだ\pそして　ホウエンリーグの\nもと　チャンピオン　として\lきみが　たちむかえる　ほど\lつよいか　たしかめるのが\lぼくの　つとめだ\pじゅんびが　できたら\nあの　おどりばに\lきて　くれ
+@@SinjohRuins_Text_HealParty
+ダイゴ『いく　まえに\nポケモンを　かいふく\lして　あげよう
+@@SinjohRuins_Text_StevenAfterPlate
+ダイゴ『がんばって\n{PLAYER}くん\pさあ　いって\nぼくも　すぐ　あとから　いく
+@@SinjohRuins_Text_StevenAfterBattle
+ダイゴ『ほかの　トレーナーに\nこんな　ふうに　まけるとは\pおどろいたよ\pこれを　うけとって\nさいごの　プレートだ
+@@SinjohRuins_Text_StevenReadytoBattle
+ダイゴ『{PLAYER}くん\pきみの　めに　けついを\nみた　ときから　こうなると\lかんじて　いたよ\pきみと　ポケモンの\nきずなを　ためさせて\lもらう\pじゅんびは　いいかい？
+@@SinjohRuins_Text_ChallengeSteven
+よし　{PLAYER}{KUN}　ほんきで\nいどむ　なら　かくご　したまえ！
+@@SinjohRuins_Text_StevenDefeat
+きみは‥\nじゅんびが　できている
+@@SinjohRuins_Text_Sign
+シンジョウいせき
+## data/maps/NewSinjoh_PokemonCenter_hns/scripts.inc
+@@NewSinjoh_PokemonCenter_Text_Skiier
+ゆきで　みちが\nわかりにくいの\pどこも　おなじに\nみえるのよ\pだから　この　ちずは\nとても　たすかるわ！\pなんて　きれいな\nちほう　かしら！
+@@NewSinjoh_Text_Artist
+この　かくれざとで\nすごい　インスピレーションを\lえたよ！\pこの　けしき　いきを　のむ\nほど　だと　おもわない？
+@@Text_ItemGiveaway
+そうか！\nきみも　げいじゅつか\lなんだね！\pせいかつの　こまかな　ところに\nきづける　ものが　ちょうど\lひとつ　あまってるんだ！
+@@NewSinjoh_Text_Artist_No
+まさか　かんこうきゃく\nぎらいの　ひと？\lうつくしさは　わかちあう\lものだよ
+@@Text_WasGiven_ZoomLensAlready
+その　レンズ\nたのしんで　ね！
+@@NewSinjoh_Text_FemAce
+ニューシンジョウには\nさいしんの　ものは\lあまり　ないの\pでも　ポケモンセンターは\nあるから　たすかるわ
+@@NewSinjoh_PokemonCenter_hns_Text_0
+{PLAYER}は　シンジョウの\nちずを　よく　みた
+## data/maps/SinjohRuins_Temple_hns/scripts.inc
+@@SinjohRuins_Temple_Text_Mon
+こだいの　センサーの\nようだ　なにを\lさがして　いるのだろう？
+@@SinjohRuins_Temple_Text_ScannerAlreadyDone
+この　センサーは　もう\nうごいて　いる
+@@SinjohRuins_Temple_Text_Responds
+しんでんが\nはんのう　した
+@@SinjohRuins_Temple_Text_Door
+みちが　ひらいた
+## data/maps/SinjohRuins_ArceusRoom_hns/scripts.inc
+@@SinjohRuins_ArceusRoom_Text_CryArceus
+アルセウス『ドドギュウーン！
+@@SinjohRuins_ArceusRoom_Text_CryArceus2
+アルセウス『ドドギュウーン！\pアルセウスは　よわっている‥\nつかまえられる　だろうか？
+@@SinjohRuins_ArceusRoom_Text_StevenCongrats
+ダイゴ『やったね\n{PLAYER}くん！\pいきを　のむ\nたたかい　だった\pきみの　ちからを　みて\nわかったよ\pまいこはんは　ぼくらの\nけんきゅうを　てつだわせる\lために　きみを　よこした\lのでは　ない\pでんせつの　ポケモンを\nしずめるに　ふさわしいのが\lきみ　だけ　だったからだ\pぼくの　チームでは\nむりだと　おもって\lいたんだろう\pいま　みた　ものを\nおもうと‥\pその　とおり　だったな\pぼくは　この　むらに\nよけいな　ちゅうもくを\lあつめて　しまった\pしばらく　むらの　ひとたちと\nすごす　ことに　するよ\pきみと　ポケモンも\nゆっくり　やすむと\lいい\pなにか　あれば\nむらに　いるよ\pふふふ　ぼくに\nなんの　ようが　ある\lかな？
+## data/maps/NewSinjoh_House1_hns/scripts.inc
+@@NewSinjoh_House1_Text_Looking4Celebi
+やあ　トレーナー！\pワカバタウンから\nはるばる　きたのかい？\pあちこち　たびを　して　きた\nきみに　たのみが　あるんだ\lぼくの　せかいで　いちばん\lすきな　ポケモンは\lまぼろしの　セレビィ　なんだ\pもし　もって　いたら\nみせて　くれないか？
+@@NewSinjoh_House1_Text_NicePokemonButNotCelebi
+すてきな　ポケモン\nだけど　ぼくが\lさがしてるのとは\lちがうんだ‥
+@@NewSinjoh_House1_OffersWooper
+それだ！　ほんものの\nいきた　セレビィだ！！\pきたの　はてまで　みせに\nきて　くれて　ほんとうに\lありがとう\pかのじょが　とおくの　ちほうへ\nりょこう　した　ときに\lつかまえすぎた　ポケモンが\lいるんだ\pおれいに　この　とくべつな\nウパーを　うけとって\l{PLAYER}
+@@NewSinjoh_House1_Text_Decline
+ざんねん\nみたかったなあ
+@@NewSinjoh_House1_Text_TakeCareOfWooper
+その　ウパーを\nだいじに　してね？
+@@NewSinjoh_House1_Text_GoodToSeeYouAgain
+また　あえて　うれしいよ\n{PLAYER}\pあの　ウパーは\nげんき　かい？
+@@NewSinjoh_House1_Bookshelf_Text
+パソコンゲームや\nまんがで　ぎっしりの\lほんだなだ！
+@@NewSinjoh_House1_Text_Eevee_Cry
+ブイ　ブイ？
+## data/maps/NewSinjoh_House2_hns/scripts.inc
+@@NewSinjoh_House2_DeskLady_Text
+こんにちは　ぼうや‥\pここは　ニューシンジョウの‥\nまあ　としょかん　みたいな\lところ　かしら\pむらの　れきしの　きろくや\nほかの　ちほうから　とりよせた\lほんを　しまって\lあるのよ‥
+@@NewSinjoh_Hosue2_Text_CryTorkoal
+コー？
+@@NewSinjoh_House2_Text_Bookshelf_North
+かわで　とじた　ふるい\nほんが　ぎっしり　つまっている\pしらない　ことばで\nかかれている
+@@NewSinjoh_House2_Text_Bookshelf_South
+ポケモンの　ほんが\nぎっしり　つまっている\pこっちは　あたらしくて\nみおぼえが　ある
+## data/maps/NewSinjoh_House3_hns/scripts.inc
+@@NewSinjoh_HauntedHouse_Text_TooEarlyNoReaction
+ふしぎな　けはいを\nかんじる‥\pしかし　なにも\nおこらない
+@@NewSinjoh_HauntedHouse_Text_StartScary
+ふしぎな　けはいを\nかんじる‥\pだれかに　みられて\nいる‥？
+@@NewSinjoh_HauntedHouse_Text_Log1
+けんきゅうにっし　9\n1975ねん　9がつ20にち\pひが　みじかく　なり\nかぜも　つよく　なってきた\pむらの　ひとは　あたたかく\nむかえて　くれた\pふゆの　あいだ　この　こやに\nとめて　くれる　そうだ\pむかし　かぞくが　すんでいた\nらしい　わたしも　よく\lかぞくの　ことを　おもう\pはるに　なれば　かえる\nゆうきが　でるかも\lしれない
+@@NewSinjoh_HauntedHouse_Text_Log2
+けんきゅうにっし　10\n1975ねん　10がつ20にち\pかんがえが　くらく\nなって　きた\pきせつの　かわりめの\nせいかも　しれない\pむらの　ひとは　いまも\nなかまの　ように　せっして\lくれる\pだが　つみの　いしきが\nそれに　こたえさせて\lくれない\pもう　ほとんど　こやから\nでない\pかぞくを　おもいだすと‥\nかおが　かわって　いる‥\lいせきで　うしなった\lポケモンの　かお　ばかりが‥\pときどき　ポケモンが　ここに\nいる　きが　する\lかがみに　うつり\lしせんを　かんじる\pはるに　なれば\nよく　なるだろう
+@@NewSinjoh_HauntedHouse_Text_Log3
+けんきゅうにっし　10\n1975ねん　11がつ1にち\pわたしは　ひとりでは　ない\nいや　ずっと　そうだったのかも\pポケモンが　ここに　いる‥\pおこって　いる\nのだと　おもう\pものが　なげられ\nとびらが　しまる\pおもい　はこが\nげんかんを　ふさいでいる\pだが　ほんとうは　でようと\nおもえば　でられる\pもう　わたしには\nなにも　ない\pかぞくの　ことを　かいたが\nおぼえて　いる　かぞくは\lポケモン　だけだ‥\pたべものが　つきかけて\nいるが　つみの　いしきが\lくうふくに　まさる\pしばらく　ここに\nいようと　おもう‥
+## data/maps/NewSinjoh_House4_hns/scripts.inc
+@@NewSinjoh_Cafe_Text_ResturantGreeting
+い　いらっしゃいませ！\nカフェへ　ようこそ！\lなにに　しますか？
+@@NewSinjoh_Cafe_Text_ResturantEnd
+また　どうぞ！
+@@NewSinjoh_Cafe_Text_BaldingMan
+この　カフェは　だれも\nおぼえて　いない　ほど\lむかしから　じもとの\lいっかが　やってるんだ\pあそこの　すえむすめは\nこんなに　おおぜいの　よそものに\lせっきゃく　するのに\lなれて　いないんだよ
+@@NewSinjoh_Cafe_Text_ScientistF
+この　のみもの　さいこー！\n‥‥‥‥\p‥‥‥‥\pあはは\p‥‥‥‥
+@@NewSinjoh_Cafe_Text_ScientistM
+どうりょうを　ゆるして\nください‥\pここの　のみものは　ホウエンの\nものより　つよくて‥\pとめたんですが　いきぬきが\nしたいって‥\pこの　ちょうさは\nみんな　たいへん　でして
+@@NewSinjoh_Cafe_Text_Gentleman
+なにを　じろじろ　みてる\nぼうず？\pおとこと　ポケモンが\nおなじ　テーブルで　くって\lなにが　わるい
+@@NewSinjoh_Text_Scyther
+ストラーイク！
+## data/maps/NewSinjoh_KimonoHideout_hns/scripts.inc
+@@NewSinjoh_KimonoHideout_Text_PlayerMeetsKimonos
+{PLAYER}さん\pどうぞ　こちらへ
+@@NewSinjoh_KimonoHideout_Text_PlayerMeetsMiharu
+ミハル『ニューシンジョウへ\nようこそ　{PLAYER}さん\pこの　むらは　なんだいも\nよその　めから　はなれて\lとても　つよい　ポケモンと\lおだやかに　くらして\lきました\pせいなる　しんでんで\nおきた　できごとと　まねかれざる\lきゃくの　ながれこみが\lわたくしたちが　まもって　きた\lつりあいを　みだそうと\lしています
+@@NewSinjoh_KimonoHideout_Text_PlayerMeetsShizuko
+シズコ『エンジュシティの\nいとこたちから　あなたと\lジョウトの　でんせつの\lポケモンの　つながり\lそして　トレーナーと　しての\lうでまえを　ききました\pこの　くるしい　ときに\nあなたなら　ちからに\lなって　くれると\lしんじて　います
+@@NewSinjoh_KimonoHideout_Text_PlayerMeetsYouko
+ヨウコ『50ばんどうろの\nきたの　シンジョウいせきへ\lいって　ください\pそこの　かがくしゃたちに　あい\nかれらを　まねいた　できごとを\lしらべて　ください\pふさわしく　ない　ものに\nでんせつの　ポケモンを\lみだされては　なりません
+@@NewSinjoh_KimonoHideout_Text_MiharuBeforeBattle
+ミハル『よそう　どおり\pいしの　チャンピオンが\nプレートを　あつめに\lあなたを　よこしたのですね\pわたくしたちは　なんびゃくねんも\nこの　プレートを\lまもって　きました\pすなおに　てばなす\nわけには　まいりません
+@@NewSinjoh_KimonoHideout_Text_MiharuAfter
+ミハル『あなたは\nふさわしい
+@@NewSinjoh_KimonoHideout_Text_MiharuFinal
+ミハル『むらの　ために\nほんとうに　ありがとう\l{PLAYER}さん\pこの　ごおんは\nわすれません
+@@NewSinjoh_KimonoHideout_Text_YoukoBeforeBattle
+ヨウコ『いとこたちは　あなたを\nとても　ほめていました\pほんとう　かしら？\pたしかめさせて　いただきます
+@@NewSinjoh_KimonoHideout_Text_YoukoAfter
+ヨウコ『いとこたちの\nいう　とおり　でした
+@@NewSinjoh_KimonoHideout_Text_YoukoFinal
+ヨウコ『はじめは\nうたがって　いました\pでも　あなたの　なしとげた\nことは　みとめざるを\lえません
+@@NewSinjoh_KimonoHideout_Text_ShizukoBeforeBattle
+シズコ『わたくしたちは\nおどりだけで　なく\lたたかいも　きたえて　います\pプレートを　てに　いれるには\nちからと　けついが\lひつようです
+@@NewSinjoh_KimonoHideout_Text_ShizukoAfter
+シズコ『あなたと　ポケモンの\nきずなは　とても　つよい\pこの　プレートを\nうけとる　しかくが　あります
+@@NewSinjoh_KimonoHideout_Text_ShizukoFinal
+シズコ『シンジョウの　ながい\nれきしの　なかでも　これを\lなしとげた　トレーナーは\lわずか　です\pおみごと\n{PLAYER}さん
+@@NewSinjoh_KimonoHideout_Text_OldMan
+まいこはんは　むらが\nできた　ときから\lみまもって　くださって　いる\pおおくを　ぎせいに\nしてきた　かたがたじゃ\pかみに　しゅくふく　され\nふつうの　トレーナーを\lこえた　ちからを\lおもちじゃ！\pつまり　たたかう　ときは\nこころして　かかれ　と\lいうことじゃ
+@@NewSinjoh_KimonoHideout_Text_OldManAfter
+むらの　チャンピオンたちに\nかつとは\pおぬしは　いったい\nなにもの　じゃ？
+## data/maps/SinjohRuins_House1_hns/scripts.inc
+@@SinjohRuins_Lab_Text_StevenIntroCutscene1
+ダイゴ『ん？
+@@SinjohRuins_Lab_Text_StevenIntroCutscene2
+ダイゴ『{PLAYER}くん！\pその　めは　どこに　いても\nわかるよ\pこんな　きたまで\nどうしたんだい？\p‥‥‥‥‥‥‥\pなるほど　ニューシンジョウの\nまいこはんが　ちょうさの\lてつだいに　よこしたのか\pそれなら　いままでの\nことを　はなそう
+@@SinjohRuins_Lab_Text_StevenIntroCutscene3
+ダイゴ『この　いせきの　ことを\nきいて　じぶんの　めで\lみたく　なったんだ\pデボン　コーポレーションで\nチームを　くんで\lちょうさに　きたんだよ\pなにが　うまって　いるか\nわからない\pもう　かなりの　ことが\nわかって　きたよ
+@@SinjohRuins_Lab_Text_StevenIntroCutscene4
+げんごがくしゃ『いせきの\nもじは　まだ　ぜんぶ\lかいどく　できて　いませんが\lわかった　ことも　あります\pふしぎな　プレートが\n17まい　あるんです\pいせきと　かんけいが\nあるようですが　まだ\l1まいしか　みつかって\lいません\pのこりは　すごい　ちからの\nポケモンと　トレーナーが\lまもって　いる　そうです
+@@SinjohRuins_Lab_Text_StevenIntroCutscene5
+ダイゴ『と　いうわけだ\n{PLAYER}くん\pのこりの　プレートを\nまもる　キングの　ポケモンは\lぼくの　チームには\lつよすぎる\pそれに　ぼくは　ここで\nけんきゅうを　みなければ\lならない\pでも　きみなら　できると\nおもう　てつだって\lくれるかい？
+@@SinjohRuins_Lab_Text_StevenIntroCutscene6
+ありがとう\pもじに　よると　プレートは\nシンジョウ　じゅうの\lキングの　ポケモンと\lつよい　トレーナーが\lもって　いる\pなにか　わかったら\nポケギアに　でんわ　するよ\pありがとう　{PLAYER}くん
+@@SinjohRuins_Lab_Text_StevenIntroCutsceneRefused
+ほんとうに？\pなにが　うまって　いるか\nわからないよ\pかんがえ　なおして\nくれないかい？
+@@SinjohRuins_Lab_Text_FinalPlateScene1
+ダイゴ『{PLAYER}くん！\p17まいの　プレートを\nあつめたら　なにが　おこるか\lわかった　きが　する\pなにかを‥\l‥‥‥‥‥‥‥‥‥‥
+@@SinjohRuins_Lab_Text_FinalPlateScene2
+ダイゴ『この　めで\nたしかめなくては！\pそとへ　{PLAYER}くん！
+@@SinjohRuins_Lab_Text_StevenFindPlates
+ダイゴ『やあ　{PLAYER}くん\pいままでに　プレートは\n{STR_VAR_1}まい　わるくないね\pぜんぶ　あつまったら　なにが\nおこるのか　きになるよ\pさて　なにを　みつけて\nくるかな
+@@SinjohRuins_Lab_Text_StevenFindPlates3
+ダイゴ『やあ　{PLAYER}くん\pいままでに　プレートは\n{STR_VAR_1}まい　わるくないね\pあの　へやは\nしらべたかい？\lなんとも　ふしぎだよ
+@@SinjohRuins_Lab_Text_StevenFindPlates9
+ダイゴ『やあ　{PLAYER}くん\pいままでに　プレートは\n{STR_VAR_1}まい　じゅんちょうだね\pひらいた　へやは　ホウエンちほうの\nある　へやに　とても\lにて　いるんだ\pそこにも　それぞれ\nでんせつの　ポケモンが\lいた\pでも　ホウエンで　みつかったのは\n3つ　だけ\pここには　すくなくとも\n6つ　ある\pつぎは　なにが\nみつかるかな
+@@SinjohRuins_Lab_Text_StevenAfterAll
+ダイゴ『{PLAYER}くん！\pこの　ちょうさは　いっしょうに\nいちどの　けいけん　だった\pこの　いせきの　ことを　きいた\nときから　かんじて　いたんだ\pなにか　すごい　ものが\nみつかると\pぼくの　よかんは\nよく　あたるんだ\pいろいろ　ありがとう\nチャンピオン\pこれから　どこへ\nいくんだい？\pまた　どこかで\nあえると　いいね
+@@SinjohRuins_Lab_Text_Geologist
+ちちゅうレーダーで　この\nたにに　6つの　ちかしつが\lあると　わかりました\p5つは　ちひょうに　ちかく\n1つは　もっと　ふかくに\lうまって　います
+@@SinjohRuins_Lab_Text_GeologistDuring
+ずっと　きかいを　したに\nむけて　ちかを　しらべて\lいました\pうえに　むけるべき\nだったのに！
+@@SinjohRuins_Lab_Text_GeologistAfter
+あの　プレートが　もっとも\nつよい　ポケモンと\lかんけい　していた？？\pもっと　しらべる\nじかんが　ほしかった
+@@SinjohRuins_Lab_Text_Linguist
+うう‥\nかいどく　する　もじが\lおおすぎる‥\pホウエンちほうには\nこんな　ものは　ないのに
+@@SinjohRuins_Lab_Text_LinguistDuring
+もじを　かいどく　した\nときは　おどろきました！\pダイゴさんに　いう　まえに\nなんども　たしかめましたよ！\pだって　ポケモンの\nかみさま　ですよ？\pしんじられません
+@@SinjohRuins_Lab_Text_LinguistAfter
+この　ちょうさは\nたのしかった　です\l{PLAYER}さん\pげんちの　ちょうさを\nしてくれて　ありがとう
+@@SinjohRuins_Lab_Text_Archaeologist
+この　ちいきに　ぶんめいが\nあった　ことで　れきしの\lとらえかたが　かわります\pみつかった　いぶつの\nおおくは　1000ねん\lいじょう　まえの　もの\pシンオウちほうの　いぶつと\nねんだいが　いっち　します\pでも　あなたが　みつけた　ふえは‥\nもっと　ふるい　ようです
+@@SinjohRuins_Lab_Text_ArchaeologistDuring
+あの　プレート‥\nシンオウちほうとの\lつながり‥\lあの　ふえ‥\lすべて　つじつまが\lあって　きた
+@@SinjohRuins_Lab_Text_ArchaeologistAfter
+あなたが　ほりおこす\nてつだいを　して　くれた\lものの　れきしてきな　かちは\lはかりしれません\l{PLAYER}さん\pほんとうに　ありがとう
+@@SinjohRuins_Lab_Text_Growlithe_Cry
+ガウ　ガウ！！
+@@SinjohRuins_Lab_Text_GrowlitheBall
+ガーディの　ボールの\nようだ‥\lそっとして　おこう
+@@SinjohRuins_Lab_Text_Biologist
+この　すばらしい　こたいを\nみて！\pこの　ガーディは　せかいの\nどこの　ガーディとも\lちがうの\pDNAの　ぶんせきで　ほかの\nちほうの　ガーディと\lそせんが　おなじと\lわかったわ\pでも　せいかくも　タイプも\nおおきく　ちがうの\pこだいの　シンオウの　きろくの\nガーディの　ようすと\lいっち　するわ\pむかしは　この　しゅが\nこだいの　シンオウまで\lひろく　すんで　いた\lのかも　しれない
+@@SinjohRuins_Lab_Text_BiologistDuring
+あの　かいだんの　うえの\nいきものが　ほんとうに\lポケモンの　かみさま　なら\lそれが　さいしょの\lそせん　なのかしら？
+@@SinjohRuins_Lab_Text_BiologistAfter
+この　ちょうさで　リージョン\nフォームや　しんかの\lわかれかたの　データが\lたくさん　あつまったわ\lありがとう　{PLAYER}
+@@SinjohRuins_Lab_Text_Hiker
+10ねん　おれは　この\nあれちを　あるいて　きた\pいや　20ねんだな\pそして　ある　ひ　おおきな\nいしの　はしらと　ぶきみな\lしんでんを　みつけたんだ\pそれが　シンジョウいせき\nだと　きいた\pそのころは　むらの\nことも　しらなかった\pなかまに　すこし\nはなした　だけ　なのに\lうわさは　すぐ　ひろまった\pこんなに　ちゅうもく\nされるとは　おもわなかった\pなんだか　ふくざつな\nきぶん　だよ
+@@SinjohRuins_Lab_Text_HikerDuringAfter
+ないしょ　だぞ　{PLAYER}\nここを　みつけた　とき\lやまの　うえの　しんでんも\lみて　いたんだ\pおれの　むねに\nしまって　おいた\pいせきの　ことは\nもう　しゃべりすぎたからな\pまあ　なんとか\nうまく　いった　みたいだな
+@@SinjohRuins_Lab_Text_Note1
+けんきゅうにっし　1\n1975ねん　5がつ3にち\pいせきの　ばしょに\nとうちゃく　した\pシロガネやまの　きびしい\nさむさが　ここまで\lつたわって　くる‥\pまもなく　はっくつはんが\nやまを　こえて　くる‥\lあしもとに　なにが　ねむるか\lたのしみで　ならない！
+@@SinjohRuins_Lab_Text_Note2
+けんきゅうにっし　2\n1975ねん　5がつ10にち\pいっしゅうかん　ほったが\nなにも　でない\pこおりは　おそろしく\nあつく　いわは　きかいを\lこわして　しまう\pカイリキーでも　きずひとつ\nつけられない\pここは　なんなのだ？\pかならず　つきとめる
+@@SinjohRuins_Lab_Text_Note3
+けんきゅうにっし　3\n1975ねん　5がつ14にち\pなにも　しなければ\nまえへは　すすめない\pわたしは　ただの\nさぎょういん\pだが　こおりを　くだく\nほうほうを　おもいついた\pいや　とかす\nほうほうだ\pほのおタイプの　ポケモンが\nたくさん　ひつようだ\pだが　シンオウから　どうやって\nここまで　つれて　くる？
+@@SinjohRuins_Lab_Text_Note4
+けんきゅうにっし　4\n1975ねん　5がつ21にち\pいそがしかった\pわたしの　かんがえで\nこおりを　とかせた\lだが　ほのおタイプは\lくにから　つれて　こなかった\pボスが　げんちで\nあつめろと　いったのだ\pちかくの　むらの\nおんせんで　みつけた‥\pそして　ひつようなだけ\nうばった‥\pほこれる　ことでは　ない\nだが　しんぽには　ぎせいが\lつきものだ\pこおりは　なくなった\pへやが　6つと　まんなかに\nふういん　された\lしんでんが　ある\pたてものの　つくりは　こだいの\nカンナギの　ひとびとの\lものかも　しれない‥\pわれらの　そせんだ　きたへ\nうつりすむ　まえの\pボスは　すぐに　しんでんを\nあけたがって　いる‥
+@@SinjohRuins_Lab_Text_Note5
+けんきゅうにっし　5\n1975ねん　6がつ2にち\pついに　あけた‥\pおおよろこび　すると\nおもって　いた‥\pだが　しんでんから\nふきだした　エネルギーで\lなかまを　うしなった\pあけるのを　てつだった\nポケモンも‥\lどうか　やすらかに‥\p‥‥‥‥‥‥‥‥‥\pとにかく\pしんでんは　ひらいたが\nなぞが　ふえた　だけだ\pなかには　でんせつの\nポケモンも　たからも\lなかった\pぶっしは　つきかけ\nせいかは　なにも\lない‥
+@@SinjohRuins_Lab_Text_Note6
+けんきゅうにっし　6\n1975ねん　6がつ10にち\pちょうさは　おわった\nほかの　ものは\lひきあげの　じゅんびを\lしている\pだが　わたしは\nできない\pこの　にんむを\nすてられない\lあれだけの　ものを\lうしなったのだ\pわたしは　ここに\nのこる
+@@SinjohRuins_Lab_Text_Note7
+けんきゅうにっし　7\n1975ねん　9がつ10にち\pここに　きて　なんかげつも\nたった\pほかの　ものは　さった\pいまは　わたしと　さぎょうの\nために　つかまえた\lポケモン　だけだ\pポケモンを　きたえて\nいる\pとくに　バクフーンを\pしんでんの　したに　なにが\nあるのか　つきとめねば
+@@SinjohRuins_Lab_Text_Note8
+けんきゅうにっし　8\n1975ねん　9がつ15にち\pしっぱい\p‥‥‥‥‥‥‥‥‥‥‥\pわたしの　ポケモンが‥\p6ぴき　ちからを　あわせて\nしんでんの　にせの　かべを\lうちやぶった\pだが　それは　まって\nいた‥\pきょじんの　ような\nなにかが‥\pときはなたれた　エネルギーは\nまえと　おなじ　だった\pポケモンは　みな\nやられた‥\pしかも　あの　かいぶつは\nかべを　また　ふさいだ\pもう　かえれない\nだれも　わたしと\lわからないだろう‥\pこの　ばしょが　わたしを\nかえて　しまった‥\pむらの　ひとと\nはなして　みよう\pかれらは　わたしの　した\nことを　しらない\pなかまは　とうに　さった\nから　ただの　まよった\lハイカーだと　おもうだろう\pもう　ここ　いがいに\nいばしょは　ない
+@@SinjohRuins_DisplayCase_Text
+みほんや　いぶつが\nきちんと　ならべられた\lかざりだなだ！
+@@SinjohRuins_WallSign_Text
+エックスせん　いんさつしつ
+@@SinjohRuins_Artifact_Text
+いせきの　なかで　みつかった\nいぶつだ！
+@@SinjohRuins_Lab_Text_PlayFlute
+てんかいのふえが\nはんのう　している\lふえを　ふきますか？
+@@SinjohRuins_Lab_Text_DropedItem
+キングの　{STR_VAR_1}が\nどうぐを　おとした‥
+@@SinjohRuins_Lab_Text_StevenName
+ダイゴ
+@@SinjohRuins_Lab_Text_StevenCall3Plates
+ダイゴ『{PLAYER}くん\pいま　いせきで\nゆれが　あった\pみんな　ぶじ　だから\nしんぱい　しないで\pおもしろい　ことに　いせきの\nしたの　ちかしつの　ひとつが\lひらいたんだ\pなかの　もようは　ホウエンの\nあるものを　おもいださせる\pじかんが　あったら\nみに　きて　くれ

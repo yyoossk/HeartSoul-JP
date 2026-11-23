@@ -1,0 +1,391 @@
+## data/maps/GoldenrodCity_RadioTower_1F_hns/scripts.inc
+@@RadioTower1F_Text_WrongAnswer
+あら‥　ざんねん！\nふせいかい　です\pまた　ちょうせん\nして　くださいね！
+@@RadioTower1F_Text_DeclineQuiz
+そうですか\nきが　かわったら\lまた　どうぞ
+@@RadioTower1F_Text_Lass
+DJの　ベンさんって\nすてき！\pあまい　こえに\nとろけちゃう！
+@@RadioTower1F_Text_Youngster
+ポケモンじっきょうの\nクルミちゃんが　すきなんだ\pこえしか　しらない\nけどね
+@@RadioTower1F_Text_GruntM3Seen
+ついに　ラジオとうを\nのっとったぞ！\pこれで　みんなに　ロケットだんの\nほんとうの　おそろしさを\lあじわわせて　やる！\pおれたちの　こわさを\nみせて　やる！
+@@RadioTower1F_Text_GruntM3Beaten
+つよすぎる！\nすみません　ボス‥
+@@RadioTower1F_Text_GruntM3After
+おまえ　つよすぎる\pけいかくが　だいなしに\nなるかも‥　みんなに\lしらせなくては‥
+@@RadioTower1F_Text_Directory
+1F　うけつけ\n2F　えいぎょうぶ\p3F　じんじぶ\n4F　せいさくぶ\p5F　きょくちょうしつ
+@@RadioTower1F_Text_GotRadio
+{PLAYER}は　ポケギアの\nラジオカードを　もらった！
+@@GoldenrodCity_RadioTower_1F_Text_LotteryCornerDrawTicket
+こちらは　ポケモン\nくじびきコーナー　です\pくじの　ばんごうと　あなたの\nポケモンの　IDが　あえば\lすてきな　しょうひんを\lさしあげます\pくじを　ひいて\nみますか？
+@@GoldenrodCity_RadioTower_1F_Text_ComeBackTomorrow
+また　あした\nおこし　ください
+@@GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain
+また　おこし　くださいね
+@@GoldenrodCity_RadioTower_1F_Text_PleasePickTicket
+くじを　1まい　どうぞ\n‥{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}‥{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}‥{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@GoldenrodCity_RadioTower_1F_Text_TicketNumberIsXPleaseWait
+くじの　ばんごうは\n{STR_VAR_1}です\pあなたの　ポケモンの　IDと\nあっているか　しらべますので\lしょうしょう　おまちください
+@@GoldenrodCity_RadioTower_1F_Text_TicketMatchesPartyMon
+おめでとう　ございます！\pてもちの　{STR_VAR_1}の\nIDが　くじの　ばんごうと\lあいました！
+@@GoldenrodCity_RadioTower_1F_Text_TicketMatchesPCMon
+おめでとう　ございます！\pパソコンに　あずけている\n{STR_VAR_1}の　IDが\lくじの　ばんごうと　あいました！
+@@GoldenrodCity_RadioTower_1F_Text_NoNumbersMatched
+ざんねんですが\nどの　ばんごうも　あいません
+@@GoldenrodCity_RadioTower_1F_Text_TwoDigitsMatched
+したの　2けたが　あったので\n3とう　です！\l{STR_VAR_1}を　どうぞ！
+@@GoldenrodCity_RadioTower_1F_Text_ThreeDigitsMatched
+したの　3けたが　あったので\n2とう　です！\l{STR_VAR_1}を　どうぞ！
+@@GoldenrodCity_RadioTower_1F_Text_FourDigitsMatched
+したの　4けたが　あったので\n1とう　です！\l{STR_VAR_1}を　どうぞ！
+@@GoldenrodCity_RadioTower_1F_Text_AllFiveDigitsMatched
+まあ！　5けた　ぜんぶ\nあいました！\pとくとう　です！\n{STR_VAR_1}を　どうぞ！
+@@GoldenrodCity_RadioTower_1F_Text_NoRoomForThis
+あら？\nもう　もてない　ようですね\pバッグを　かたづけてから\nまた　おこし　ください
+@@GoldenrodCity_RadioTower_1F_Text_PrizeWeveBeenHolding
+{PLAYER}さん　ですね？\nおまちして　おりました\pおあずかり　していた\nしょうひん　です
+@@GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain2
+また　おこし　くださいね
+## data/maps/GoldenrodCity_RadioTower_2F_hns/scripts.inc
+@@RadioTower2FBuenaPasswordIsHelpText
+ブエナ『え？　きょうの\nあいことば？\lもちろん　たすけて　よ！
+@@GoldenrodCity_RadioTower_2F_Text_SuperNerd
+ラジオは　どこでも\nきけるよ　きいてね！
+@@GoldenrodCity_RadioTower_2F_Text_Policeman
+ここから　さきは\nかんけいしゃ　いがい\lたちいり　きんし　です
+@@GoldenrodCity_RadioTower_2F_Text_Teacher
+ラジオの　こもりうたで\nポケモンが　ねむっちゃう\lことも　あるのよ
+@@GoldenrodCity_RadioTower_2F_Text_TeacherRockets
+どうして　ラジオとうを\nのっとったり　するの？
+@@GoldenrodCity_RadioTower_2F_Text_Jigglypuff
+プリン『プリィ‥
+@@GoldenrodCity_RadioTower_2F_Text_BlackBelt1
+わるいが　ここから　さきは\nかんけいしゃ　いがい\lとおせない\pまえは　こんな　こと\nなかったのに\pきょくちょうの\nようすが　へんなんだ‥
+@@GoldenrodCity_RadioTower_2F_Text_BlackBelt2
+どこでも　じゆうに\nみて　いって　くれ\pきょくちょうも　もとの\nやさしい　ひとに\lもどったよ
+@@GoldenrodCity_RadioTower_2F_Text_GruntM4Seen
+3ねんまえ　ロケットだんは\nかいさんに　おいこまれた\pだが　ここで\nふっかつ　するのだ！
+@@GoldenrodCity_RadioTower_2F_Text_GruntM4Beaten
+ぐわっ！　なまいきな！
+@@GoldenrodCity_RadioTower_2F_Text_GruntM4After
+ふっかつの　けいかくを\nじゃまは　させないぞ！
+@@GoldenrodCity_RadioTower_2F_Text_GruntM5Seen
+おれたちは　ポケモンを\nりようする　ロケットだん！\pわるい　ことが\nだいすきさ！　こわいか？
+@@GoldenrodCity_RadioTower_2F_Text_GruntM5Beaten
+ヒーロー　きどりか？
+@@GoldenrodCity_RadioTower_2F_Text_GruntM5After
+いつも　わるい　わけじゃない\nすきな　ことを　してる\lだけだ
+@@GoldenrodCity_RadioTower_2F_Text_GruntM6Seen
+おいおい！\nじゃまを　するな！
+@@GoldenrodCity_RadioTower_2F_Text_GruntM6Beaten
+ぐわー　まいった
+@@GoldenrodCity_RadioTower_2F_Text_GruntM6After
+かんぶたちが　ここを\nのっとろうと　している\pなにか　おおきな　けいかくが\nあるらしい　なんだろうな？
+@@GoldenrodCity_RadioTower_2F_Text_GruntF2Seen
+あははは！\pつまらない！　ここを\nのっとるのは　かんたん\lすぎたわ！\pさあ　たのしませて\nちょうだい！
+@@GoldenrodCity_RadioTower_2F_Text_GruntF2Beaten
+あ　あなた　なにもの？
+@@GoldenrodCity_RadioTower_2F_Text_GruntF2After
+まけた　ことは\nわすれないわよ！
+@@GoldenrodCity_RadioTower_2F_Text_BuenaShowPromo
+ブエナ『わたしの　あいことば\nショーを　きいてね！\pきょうの　あいことばが\nわかるわよ！
+@@GoldenrodCity_RadioTower_2F_Text_BuenaAskPassword
+ブエナ『はーい！\pきょうの　あいことば\nわかる？\pよし！　どれかな？
+@@GoldenrodCity_RadioTower_2F_Text_BuenaCorrect
+ブエナ『せいかい！\pしょうひんの　{STR_VAR_1}を\nどうぞ！
+@@GoldenrodCity_RadioTower_2F_Text_BuenaWrong
+ブエナ『ブブー！　ざんねん！\pまた　あした　ちょうせん\nしてね！
+@@GoldenrodCity_RadioTower_2F_Text_BuenaComeBack
+ブエナ『こたえないの？\nわかったら　またきてね！
+@@GoldenrodCity_RadioTower_2F_Text_BuenaAlreadyPlayed
+ブエナ『きょうは　もう\nこたえた　でしょ！\pまた　あした\nきいてね！
+@@GoldenrodCity_RadioTower_2F_Text_BuenaBagFull
+ブエナ『せいかい　だけど\nバッグが　いっぱいね！\pかたづけたら　また\nはなしかけてね！
+@@GoldenrodCity_RadioTower_2F_Text_SalesSign
+2F　えいぎょうぶ
+@@GoldenrodCity_RadioTower_2F_Text_OakTalkSign
+オーキドはかせの　ポケモンこうざ\pだいにんきの　ばんぐみ！
+@@GoldenrodCity_RadioTower_2F_Text_PokemonRadioSign
+いつでも　どこでも　ポケモンラジオ
+## data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc
+@@GoldenrodCity_RadioTower_3F_Text_CardKeySlot
+カードキーを　さしこむ\nところが　ある
+@@GoldenrodCity_RadioTower_3F_Text_InsertedCardKey
+{PLAYER}は　カードキーを\nさしこんだ
+@@GoldenrodCity_RadioTower_3F_Text_Open
+シャッターが　あいた
+@@GoldenrodCity_RadioTower_3F_Text_PersonnelSign
+3F　じんじぶ
+@@GoldenrodCity_RadioTower_3F_Text_PokemonMusicSign
+ポケモンミュージック　DJ　ベン
+@@GoldenrodCity_RadioTower_3F_Text_SuperNerd
+みつかっている　ポケモン\nぜんぶの　なきごえを\lろくおん　してるんだ\pたぶん　400しゅるいは\nあるね
+@@GoldenrodCity_RadioTower_3F_Text_GymGuideRockets
+トレーナーに　とって\nポケモンは　だいじな　あいぼう\pそれを　あやつろう　なんて\nロケットだんは　ひどい！
+@@GoldenrodCity_RadioTower_3F_Text_GymGuide
+ここでは　24じかん\nたのしい　ばんぐみを\lながして　いるんだ\pぼくも　24じかん\nがんばるぞ！
+@@GoldenrodCity_RadioTower_3F_Text_CooltrainerFPleaseSave
+ロケットだんの　ボスが\nへやに　とじこもって　いるの\pでも　きょくちょうなら\nあけられるわ\pきょくちょうは　5かいよ\pおねがい　たすけて！
+@@GoldenrodCity_RadioTower_3F_Text_CooltrainerFDirectorSafe
+きょくちょうは\nぶじかしら？
+@@GoldenrodCity_RadioTower_3F_Text_CooltrainerFHeroGift
+ありがとう！\nあなたは　わたしの　ヒーローよ！\pこれは　おれいの　しるし
+@@GoldenrodCity_RadioTower_3F_Text_CooltrainerFSunnyDay
+それは　にほんばれ\pしばらく　ほのおタイプの\nわざが　つよく　なるのよ
+@@GoldenrodCity_RadioTower_3F_Text_CooltrainerFMarvelous
+あなた　ほんとうに\nすてきだったわ！
+@@GoldenrodCity_RadioTower_3F_Text_GruntM7Seen
+きびしく　めいれい\nされている\pロケットだんに　さからう\nやつは　つぶせ　とな！
+@@GoldenrodCity_RadioTower_3F_Text_GruntM7Beaten
+なにっ！？
+@@GoldenrodCity_RadioTower_3F_Text_GruntM7After
+にんむに　しっぱい\nした‥\pアポロさまに\nおこられる‥
+@@GoldenrodCity_RadioTower_3F_Text_GruntM8Seen
+ポケモンに　わるい　ことを\nさせるのは　きもちいいぜ
+@@GoldenrodCity_RadioTower_3F_Text_GruntM8Beaten
+うそだろ！
+@@GoldenrodCity_RadioTower_3F_Text_GruntM8After
+まけて　きぶんが　わるい！\pくそっ！　やくたたずの\nポケモンめ！
+@@GoldenrodCity_RadioTower_3F_Text_GruntM9Seen
+なぜ　シャッターが　あいた？\nおまえの　しわざか？
+@@GoldenrodCity_RadioTower_3F_Text_GruntM9Beaten
+もう　だめだ！
+@@GoldenrodCity_RadioTower_3F_Text_GruntM9After
+なにっ！？　ちかつうろの\nなかまを　とっぱ　したのか？\pどうやって？
+@@GoldenrodCity_RadioTower_3F_Text_ScientistMarcSeen
+みしらぬ　こどもが\nなぜ　ここに？\pおまえは　だれだ？
+@@GoldenrodCity_RadioTower_3F_Text_ScientistMarcBeaten
+ちっ！　あまく\nみすぎたか！
+@@GoldenrodCity_RadioTower_3F_Text_ScientistMarcAfter
+ぶわははは‥\pここからなら　いくらでも\nつよい　でんぱを　だせる
+## data/maps/GoldenrodCity_RadioTower_4F_hns/scripts.inc
+@@GoldenrodCity_RadioTower_4F4_Text_Proton_Seen
+ランス『ちょっと　まちな！\pおまえ　ヤドンのいどで\nじゃまを　した　やつだな？\pなるほど‥　わたしを\nおこらせたくて　こんな\lことを　しているのか\lきを　つけたまえ！\pのぞみ　どおり　ロケットだん\nかんぶの　いかりを\lみせて　あげよう！
+@@GoldenrodCity_RadioTower_4F4_Text_Proton_Beaten
+ふう‥
+@@GoldenrodCity_RadioTower_4F4_Text_Proton_After
+ランス『こんかいは　まけたが‥\nおまえは　ロケットだんの\pいかりを　ふくらませた\nだけだ
+@@GoldenrodCity_RadioTower_4F4_Text_Fisher
+いせきで　ラジオを\nきいて　いたら\pへんな　ほうそうが\nきこえたんだ
+@@GoldenrodCity_RadioTower_4F4_Text_DJMary
+クルミ『なんで？　なんで\nこんな　めに　あうの？\pニャース　たすけて！
+@@GoldenrodCity_RadioTower_4F4_Text_DJMaryCleared
+クルミ『わあ！　あなたが\nたすけて　くれたのね！\pおれいに　これ\nうけとって？
+@@GoldenrodCity_RadioTower_4F4_Text_DJMaryPinkBow
+クルミ『あいての　こうげきを\nよけるのに　やくだつのよ
+@@GoldenrodCity_RadioTower_4F4_Text_DJMaryAfter
+クルミ『オーキドはかせの\nポケモンこうざ　きいてね！
+@@GoldenrodCity_RadioTower_4F4_Text_Meowth
+ニャース『ニャース‥
+@@GoldenrodCity_RadioTower_4F4_Text_GruntM10Seen
+きょくちょうを　たすける\nつもりか？\pむりだな　おれが\nおまえを　たおすからな！
+@@GoldenrodCity_RadioTower_4F4_Text_GruntM10Beaten
+そんな！　しんじられん！
+@@GoldenrodCity_RadioTower_4F4_Text_GruntM10After
+しんじられない！\nおれが　まけた！
+@@GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Seen
+とまれ！　おれは\nロケットだんの　ようさいと\lよばれる　おとこ！\pここから　さきへは\nいっぽも　とおさん！
+@@GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Beaten
+ようさいが　くずれた！
+@@GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2After
+みとめて　やる\nだから　ちゅうこくだ\pまだ　まにあう\nひきかえすんだな
+@@GoldenrodCity_RadioTower_4F4_Text_GruntF4Seen
+ポケモンが　かわいいか\nですって？\pわたしの　ポケモンが\nあんたのを　たおしたら‥\pかわいいと　おもって\nあげるわ！
+@@GoldenrodCity_RadioTower_4F4_Text_GruntF4Beaten
+いやー！\nほんと　やくたたず！
+@@GoldenrodCity_RadioTower_4F4_Text_GruntF4After
+うつくしい　わたしが\nだいすき！\pポケモン　なんて\nどうでも　いいわ
+@@GoldenrodCity_RadioTower_4F4_Text_ScientistRichSeen
+すばらしい\pこの　ラジオとうで\nわれらの　けいかくが\lじつげん　する
+@@GoldenrodCity_RadioTower_4F4_Text_ScientistRichBeaten
+ふむ‥\pおおきな　けいかくには\nじゃまが　つきものか
+@@GoldenrodCity_RadioTower_4F4_Text_ScientistRichAfter
+ほんとうに　ロケットだんを\nとめられると　おもって\lいるのか？
+@@GoldenrodCity_RadioTower_4F4_Text_ProductionSign
+4F　せいさくぶ
+@@GoldenrodCity_RadioTower_4F4_Text_Studio2Sign
+4F　だい2スタジオ
+## data/maps/GoldenrodCity_RadioTower_5F_hns/scripts.inc
+@@GoldenrodCity_RadioTower_5F_Text_FakeDirector1
+き　きみ！　たすけに\nきて　くれたのか？
+@@GoldenrodCity_RadioTower_5F_Text_FakeDirector2
+‥とでも　いうと\nおもったか？\pざんねん！　わたしは\nにせものだ！\pのっとりの　じゅんびの　ため\nほんものに　なりすまして\lいたのだ\pほんものの　きょくちょうの\nいばしょを　しりたいか？\pおしえて　やろう\nわたしに　かてたらな！
+@@GoldenrodCity_RadioTower_5F_Text_FakeDirectorWin
+わかった　わかった\nいばしょを　おしえよう
+@@GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter
+ボスは　きょくちょうを\nちかそうこに　とじこめた\pちかつうろの\nいちばん　おくだ\pわたしは　やさしいから\nちかそうこへ　いくための\lちかの　かぎを　やろう\pまあ　そこまで\nいけるとは　おもえんがな
+@@GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter2
+ボスは　きょくちょうを\nちかそうこに　とじこめた\pちかつうろの\nいちばん　おくだ\pちかの　かぎで\nちかそうこへ　いける\pまあ　そこまで\nいけるとは　おもえんがな
+@@GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Seen
+チョウジタウンの　アジトで\nあったわね\pボスに　しかられたけど\nもっと　つよく　なったわ\pあの　ときは　まけたけど\nこんどは　まけない
+@@GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Beaten
+うそでしょ！\pせいいっぱい　たたかったのに\nまた　まけた‥\pごめんなさい　サカキさま‥
+@@GoldenrodCity_RadioTower_5F_Text_ExecutiveF1After
+{PLAYER}　だったわね？\pあんたみたいな　こどもには\nロケットだんの　すばらしさは\lわからないでしょうね\pざんねんだわ　あなたの\nつよさは　みとめるのに
+@@GoldenrodCity_RadioTower_5F_Text_RocketBossSeen
+おや？　ここまで\nたどりつくとは\pなかなかの\nトレーナーの　ようですね\pわれわれは　この　ラジオとうを\nのっとり　ロケットだんの\lふっかつを　せんげん　します\pそうすれば　ひとりで\nしゅぎょう　ちゅうの　ボス\lサカキさまも　もどって\lくださる　でしょう\pかつての　えいこうを\nとりもどすのです‥\pわれわれの　かんぺきな\nけいかくを　じゃまは\lさせませんよ！
+@@GoldenrodCity_RadioTower_5F_Text_RocketBossBeaten
+そんな！　おゆるし\nください　サカキさま！
+@@GoldenrodCity_RadioTower_5F_Text_RocketBossAfter
+こんな　ことが‥\pわれわれの　ゆめは\nついえた\pわたしには　にが\nおもすぎたのですね\pかつての　サカキさまの　ように\nきょう　ここで\lロケットだんは　かいさん　します\pさらば
+@@GoldenrodCity_RadioTower_5F_Text_DirectorThanks
+きょくちょう『{PLAYER}くん\nありがとう！\pきみの　ゆうきが　ぜんこくの\nポケモンを　すくって　くれた\pささやかだが\nこれを　うけとって　くれ
+@@GoldenrodCity_RadioTower_5F_Text_DirectorClearWingExplanation
+むかし　この　コガネシティにも\nとうが　あったんだ\pだが　ふるくて\nがたがた　だった\pそこで　ラジオとうに\nたてかえたんだよ\pその　はねは　こうじの\nときに　ほりだした　ものだ\pむかしの　コガネには\nいろんな　ポケモンが\lすんでいたと　きいている\pもしかすると‥\pその　はねは　エンジュシティの\nスズのとうと　かんけいが\lあるのかも‥\pさて　そろそろ\nへやに　もどらねば
+@@GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation
+むかし　この　コガネシティにも\nとうが　あったんだ\pだが　ふるくて\nがたがた　だった\pそこで　ラジオとうに\nたてかえたんだよ\pその　はねは　こうじの\nときに　ほりだした　ものだ\pむかしの　コガネには\nいろんな　ポケモンが\lすんでいたと　きいている\pもしかすると‥\pその　はねは　タンバシティの\nちかくの　うずまきじまと\lかんけいが　あるのかも‥\pさて　そろそろ\nへやに　もどらねば
+@@GoldenrodCity_RadioTower_5F_Text_DirectorLegendary
+あっ！\pそうそう‥\pあげた　はねだが‥\nでんせつの　ポケモンに\lかんけいが　あると　おもう\pだが！　はね　だけでは\nでんせつの　ポケモンは\lあらわれないらしい\pほかにも　なにか　ひつよう\nらしいんだが‥\pなんだった　かな‥\pおもいだせない
+@@GoldenrodCity_RadioTower_5F_Text_DirectorFakeout
+なにか　きたい　したかね？\nこれが　いわゆる　ねこだまし\pこんどこそ　へやに\nもどらねば　じゃあね！
+@@GoldenrodCity_RadioTower_5F_Text_DirectorIntro
+きょくちょう『やあ　{PLAYER}くん！\pわたしは　ポケモンが\nだいすきでね\pその　あいを　つたえる　ために\nこの　ラジオとうを　たてたんだ\pみんなが　ばんぐみを\nたのしんで　くれると\lうれしいね
+@@GoldenrodCity_RadioTower_5F_Text_Ben
+ベン『ぼくらの　おんがく\nきいてるかい？
+@@GoldenrodCity_RadioTower_5F_Text_DirectorOfficeSign
+5F　きょくちょうしつ
+@@GoldenrodCity_RadioTower_5F_Text_Studio1Sign
+5F　だい1スタジオ
+## data/maps/GoldenrodCity_DepartmentStore_1F_hns/scripts.inc
+@@GoldenrodDeptStor1_Text_Receptionist
+コガネ　デパートへ\nようこそ
+@@GoldenrodDeptStore1_Text_Gentleman
+デパートは　しなぞろえが\nいいが\pゲームコーナーの　けいひんで\nしか　てに　はいらない\lものも　あるんだ
+@@GoldenrodDeptStore1_Text_PokefanF
+きょうも　かいもの\nするわよー！
+@@GoldenrodDeptStore1_Text_BugCatcher
+ママは　やすい　ものを\nさがすのが　うまいんだ\pいつも　やすく\nかって　くるよ
+@@GoldenrodDeptStore1_Text_Directory
+1F　サービスカウンター\nげんざいち\p2F　トレーナーズマーケット\p3F　バトルコレクション\p4F　くすりの　はこ\p5F　わざマシンコーナー\p6F　いこいの　ひろば\pおくじょう　てんぼうだい
+## data/maps/GoldenrodCity_DepartmentStore_2F_hns/scripts.inc
+@@GoldenrodDeptStore_Text_2FYoungster
+ポケギアには　でんわばんごうを\n100けん　とうろく　できる\pどの　ばんごうを　のこすか\nなやむなあ
+@@GoldenrodDeptStore_Text_2FCooltrainerF
+ゲームコーナーで\nケーシィを　もらったの\pいまでは　いちばんの\nあいぼうよ
+@@GoldenrodDeptStore_Text_2FGentleman
+この　デパートを　みると\nコガネは　だいとかいだと\lおもうよ\pこんなに　しなぞろえの\nいい　みせは　ほかに　ない
+@@GoldenrodDeptStore_Text_WhichDrinkWouldYouLike
+じどうはんばいき　だ\nどの　のみものに　する？
+@@GoldenrodDeptStore_Text_DrinkClankedDown
+ガコン！\p{STR_VAR_1}が\nでてきた
+@@GoldenrodDeptStore_Text_ExtraDrinkClankedDown
+ガコン！\pあたり！　{STR_VAR_1}が\nもう　1ぽん　でてきた！
+@@GoldenrodDeptStore_Text_NotEnoughMoney
+おかねが　たりない‥
+@@GoldenrodDeptStore_Text_DecidedAgainstBuyingDrink
+かうのを　やめた
+@@GoldenrodDeptStore_Text_2FDirectory
+たびの　おともに\p2F　トレーナーズマーケット
+## data/maps/GoldenrodCity_DepartmentStore_3F_hns/scripts.inc
+@@GoldenrodDeptStore_Text_3FSuperNerd
+ぼ　ぼ　ぼくは\nせっかち　なんだ！\pしょうぶでは　スピーダーで\nポケモンを　はやく　するよ
+@@GoldenrodDeptStore_Text_3FRocker
+よう！　しょうぶで\nスペシャルアップ　つかってる？\pすごいぜ　とくこうが\nぐーんと　あがるんだ！
+@@GoldenrodDeptStore_Text_3FDirectory
+しょうりを　めざす　かたへ\p3F　バトルコレクション
+## data/maps/GoldenrodCity_DepartmentStore_4F_hns/scripts.inc
+@@GoldenrodDeptStore_Text_4FCooltrainerM
+おれは　つよい　ポケモンが\nすきでね\pタウリンを　あたえて\nこうげきを　あげてるんだ
+@@GoldenrodDeptStore_Text_4FBugCatcher
+ブロムヘキシンは　ポケモンの\nぼうぎょを　あげるよ
+@@GoldenrodDeptStore_Text_4FGameboyKid
+つうしんケーブルで　こうかん\nしないと　しんか　しない\lポケモンが　いるって\lうわさが　あったんだ\pふん‥\pそんなの　デマさ\pうわさの　ポケモンは　しってる\nゴーリキー　ユンゲラー\lゴースト　それに　ゴローン\pでも　みんな　レベルアップで\nしんか　するんだよ
+@@GoldenrodDeptStore_Text_4FDirectory
+ポケモンを　パワーアップ！\p4F　くすりの　はこ
+## data/maps/GoldenrodCity_DepartmentStore_5F_hns/scripts.inc
+@@GoldenrodDeptStore_Text_5FReceptionistOhYourMon
+こんにちは\nあら　あなたの　ポケモン‥
+@@GoldenrodDeptStore_Text_5FReceptionistWait
+あら　その　わざマシンは\nもう　あげたわよ！
+@@GoldenrodDeptStore_Text_5FReceptionistPutInSomeMoreEffort
+うーん‥\nわるくは　ないけど\lよくも　ないわね\pトレーナーの　あなたが\nもっと　がんばらなきゃ
+@@GoldenrodDeptStore_Text_5FReceptionistThisMoveShouldBePerfect
+あなたに　とても\nなついて　いるわ\pこの　わざは　あなたたちに\nぴったりよ
+@@GoldenrodDeptStore_Text_5FLass
+ひるまに　ポケモンを　みて\nくれる　おねえさんが\lくるの\pわざマシンも\nくれるのよ！
+@@GoldenrodDeptStore_Text_5FPokefanM
+こうかんで　もらった\nポケモンの　なまえは\lかえられない\pなまえには　おやの\nおもいが　こもって\lいるからね
+@@GoldenrodDeptStore_Text_Girl
+おねえさんに　おんがえしを\nもらったの！\pわたしの　ポケモン\nなついてるのね！
+@@GoldenrodDeptStore_Text_5FDirectory
+ポケモンを　カスタマイズ\p5F　わざマシンコーナー
+## data/maps/GoldenrodCity_DepartmentStore_6F_hns/scripts.inc
+@@GoldenrodDeptStore6_Text_Whitney
+{PLAYER}！\nこんな　とこで　あうなんて！\pミルタンクの　ための\nかいものに　きたんよ\pまた　しょうぶ　したいなら\nかくとうどうじょうに　きてな！
+@@GoldenrodCity_DepartmentStore_6F_Text_YouWillTradeWontYou
+ポケモン　あつめてるの！\n{STR_VAR_1}　もってない？\pわたしの　{STR_VAR_2}と\nこうかん　しない？
+@@GoldenrodCity_DepartmentStore_6F_Text_MonYouTakeCare
+やったー！\n{STR_VAR_1}　ゲット！\p{STR_VAR_2}\nげんきでね！
+@@GoldenrodCity_DepartmentStore_6F_Text_ThisIsntAMon
+えー　ちがうよ\nそれ　{STR_VAR_1}じゃ　ないもん
+@@GoldenrodCity_DepartmentStore_6F_Text_YouWontTradeMe
+こうかん　しないの？\nざんねん‥
+@@GoldenrodCity_DepartmentStore_6F_Text_After
+ねえ　まえの\nワンリキー　げんき？
+@@GoldenrodDeptStore_Text_6FLass
+ラッキーチャンネル\nきいてる？\pあてたい　なら　たくさんの\nひとと　こうかん　して\lいろんな　IDを　あつめると\lいいんだって\pでも　いまは　むかしほど\nこうかん　できないのよね
+@@GoldenrodDeptStore_Text_6FSuperNerd
+つかれたら　じどうはんばいきの\nのみものを　どうぞ\pポケモンも\nよろこぶよ
+@@GoldenrodDeptStore_Text_6FDirectory
+かいものの　ひとやすみに！\p6F　いこいの　ひろば
+## data/maps/GoldenrodCity_DepartmentStore_7F_hns/scripts.inc
+@@GoldenrodDeptStore_Text_RoofPokefanF
+ふう　つかれた\pときどき　おくじょうで\nかいものの　ひとやすみ\lするのよ
+@@GoldenrodDeptStore_Text_RoofFisher
+え？　おとなが　むちゅうに\nなっちゃ　だめかい？\pにんぎょうを　ぜんぶ\nあつめる　ために\lまいにち　くるぞ！
+@@GoldenrodDeptStore_Text_RoofTwin
+ここでは　ときどき\nバーゲンを　やってるの
+@@GoldenrodDeptStore_Text_RoofSuperNerdOhWow
+うわあ！
+@@GoldenrodDeptStore_Text_RoofSuperNerdQuitBotheringMe
+じゃま　しないで\nくれる？
+@@GoldenrodDeptStore_Text_RoofPokefanM
+ほしい　ものが　あるんだが\nおかねが　たりなくて‥\pあつめた　きのみでも\nうろうかな‥
+@@GoldenrodDeptStore_Text_RoofTeacher
+まあ　なんでも　やすい！\pかいすぎて　バッグが\nぱんぱんよ！
+@@GoldenrodDeptStore_Text_RoofBugCatcher
+だいじな　ときに　かぎって\nポケモンが　まひや　どくに\lなるんだ‥\pだから　なんでもなおしを\nかいに　きたんだ\pまだ　のこってるかな？
+## data/maps/EcruteakCity_PokemonCenter_hns/scripts.inc
+@@EcruteakCity_PokemonCenter1F_Text_Bill1
+わい　マサキや\nあんたは　だれや？\pふーん　{PLAYER}か\nええ　ときに　きたな
+@@EcruteakCity_PokemonCenter1F_Text_Bill2
+いま　ポケモンあずかり\nシステムの　ちょうせいが\lおわった　とこや\pポケモンを　あずける\nパソコン　あるやろ？\pあれ　わいが\nつくったんやで！\pこれで　ジョウトと　カントーの\nポケモンセンター　ぜんぶで\lわいの　システムが　うごくで\pコガネに　かえって\nおやに　かお　みせな\lあかん　いつでも\lあそびに　きてや！\pほな　さいなら！
+@@EcruteakCity_PokemonCenter1F_Text_PokefanM
+まいこはんの　おどりは\nすばらしい\pポケモンの\nあつかいかたも　な
+@@EcruteakCity_PokemonCenter1F_Text_PokefanM_Mobile
+もっと　たくさんの　ひとと\nたたかいたい　だろ？\pトレーナーが　あつまる\nばしょが　あるらしい\pどこかって？\pアサギシティの\nすこし　さきさ
+@@EcruteakCity_PokemonCenter1F_Text_CooltrainerF
+ジムリーダーの　マツバさん\nすっごく　かっこいいの\pポケモンも　すごく\nつよいのよ
+@@EcruteakCity_PokemonCenter1F_Text_GymGuide
+いかりのみずうみ‥\pギャラドスの　たいりょう\nはっせい‥\pなにか　いんぼうの\nにおいが　する！
+## data/maps/EcruteakCity_Mart_hns/scripts.inc
+@@EcruteakMart_Text_SuperNerd
+ぼくの　イーブイは\nエーフィに　しんかした\pでも　ともだちの　イーブイは\nブラッキーに　なったんだ\pなんでだろう？　おなじ　ように\nそだてて　いたのに‥
+@@EcruteakMart_Text_Granny
+げんきのかけらを　つかうと\nひんしの　ポケモンが\lすぐ　げんきに　なるよ
+## data/maps/EcruteakCity_Theater_hns/scripts.inc
+@@EcruteakCity_Theater_Text_Rocket1
+ロケットだん『そんな　まじめな\nおどりは　やめろ！\lフラダンスでも　おどれよ！
+@@EcruteakCity_Theater_Text_KimonoRocket1
+まいこはん『‥そのような\nむりを　いわれましても\lこまります
+@@EcruteakCity_Theater_Text_Rocket2
+ロケットだん『はあ？\pおきゃくの　ようぼうを\nきけないって　いうのか？
+@@EcruteakCity_Theater_Text_Rocket3
+じゃあ　おれが　おどりかたを\nおしえて　やるよ\lすごいのを　みせて　やる\pわははは！
+@@EcruteakCity_Theater_Text_RocketSeen
+ん？　だれだ　おまえ？\nおれの　じゃまを　するのか？
+@@EcruteakCity_Theater_Text_RocketBeaten
+しまった！\nおれが　わるもの　みたいに\lなっちまった！
+@@EcruteakCity_Theater_Text_RocketAfter
+おっと！　だいじな\nにんむが　あるんだった！\lここで　あそんでたと\lばれたら　したっぱから\lやりなおしだ！\pもう　いかなきゃ！
+@@EcruteakCity_Theater_Text_KimonoRocket3
+{PLAYER}さん\nですね？　おみごと\lでした\pやさしく　つよく‥\nポケモンを　そだてるのも\lおじょうず‥\pあの　かたの　ひとを\nみる　めは　たしかですね‥\pおほほ！　ただの\nひとりごと　です\lおきに　なさらず
+@@EcruteakCity_Theater_Text_Kimono
+わたくしたち　まいこはんに\nとって　おどりは\lすべて　です\pいちにちも　おどりの　けいこを\nかかした　ことは\lありません\pポケモンも　おなじ\nひび　すこしずつ　ともに\lせいちょう　するのです
+@@EcruteakCity_Theater_Text_SurfGuyRocket
+あの　ロケットだんの　したっぱ\nまいこはんに　なにを\lして　いるんだ？\pきみ　トレーナー\nだろ？　たすけて\lあげて　くれ！
+@@EcruteakCity_Theater_Text_SurfGuyGiveSurf
+すばらしい！　その　としで\nなんと　ゆうかんな！\pいい　ものを　みせて\nもらった！　これを\lうけとって　くれ\pえんりょ　しないで！
+@@EcruteakCity_Theater_Text_SurfGuyGaveSurf
+それは　なみのり\nポケモンが　みずの　うえを\lらくらく　およげる　わざだ

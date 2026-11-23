@@ -1,0 +1,458 @@
+## data/maps/LavenderTown_House1_hns/scripts.inc
+@@LavenderTown_House1_Text_Guy
+フジろうじんは　ここに\nすんでるけど　いまは\lたましいのいえに　いるはずだ
+@@LavenderTown_House1_Text_Marowak2
+ガラガラは　おとなしいけど\nしあわせ　そうだ
+## data/maps/LavenderTown_House2_hns/scripts.inc
+@@LavenderSpeechHouse_Text_PokefanF
+シオンは　やまの　ふもとの\nちいさくて　しずかな　まち\pラジオとうが　できてから\nすこし　にぎやかに　なったわ
+## data/maps/LavenderTown_RadioStation_hns/scripts.inc
+@@LavenderTown_RadioStation_Text_Receptionist
+いらっしゃいませ！　この　かいは\nじゆうに　ごらん　ください
+@@LavenderTown_RadioStation_Text_Officer
+すみませんが　けんがく\nできるのは　1かい　だけです\pジョウトの　ラジオとうが　はんざい\nグループに　のっとられて　から\lけいびを　きょうか　して\lいるんです
+@@LavenderTown_RadioStation_Text_SuperNerd1
+この　ラジオとうでは　たくさんの\nひとが　はたらいて　いる\pいい　ばんぐみを　つくるために\nがんばってるんだろうな
+@@LavenderTown_RadioStation_Text_Gentleman
+ああ　だめだ　だめだ！\pはつでんしょが　とまってから\nほうそうが　できないんだ\pほうそう　できなければ\nこの　きょくを　つくった\lくろうが　みずの　あわだ\pもう　おしまいだ！
+@@LavenderTown_RadioStation_Text_Gentleman_ReturnedMachinePart
+おお！　きみが　はつでんしょの\nもんだいを　かいけつ　した\l{PLAYER}くん　だね？\pおかげで　しごとを\nうしなわずに　すんだよ\pきみは　いのちの\nおんじんだ！\pおれいに　これを\nうけとって　くれ
+@@LavendertownRadioStation_Text_Upgraded_Radio
+{PLAYER}は\nかくちょうカードを　もらった！
+@@LavenderTown_RadioStation_Text_Gentleman_GotExpnCard
+それが　あれば　カントーの\nラジオばんぐみも　きけるぞ\pがはははは！
+@@LavenderTown_RadioStation_Text_SuperNerd2
+やあ！\pぼくは　スーパー\nおんがく　ディレクター！\p
+@@LavenderTown_RadioStation_Text_SuperNerd2_GotExpnCard
+やあ！\pぼくは　スーパー\nおんがく　ディレクター！\pでんぱに　のる　すてきな\nメロディーは　ぼくの　しごと\pかたい　こと　いわずに\nおんがくを　きいてよ！
+@@LavenderTown_RadioStation_Text_Directory
+1F　うけつけ　2F　えいぎょうぶ\p3F　じんじぶ　4F　せいさくぶ\p5F　きょくちょうしつ
+@@LavenderTown_RadioStation_Text_PokeFluteSign
+ポケモンの　ふえの　しらべで\nポケモンも　げんきに！\lチャンネル20
+@@LavenderTown_RadioStation_Text_ReferenceLibrary
+うわあ！　ポケモンの　CDや\nビデオが　ぎっしりだ\pここは　しりょうしつ\nらしい
+## data/maps/LavenderTown_SoulHouse_hns/scripts.inc
+@@MrFuji_Text_Main
+フジ『ようこそ\pふむ‥　きみは　ポケモンを\nやさしく　あいじょうを\lこめて　そだてて　いる\lようじゃな\pここには　ポケモンを\nあいする　ひとが　なくなった\lポケモンを　とむらいに\lくるのじゃ\pなくなった　ポケモンの\nたましいを　なぐさめて\lあげて　おくれ\pきっと　よろこぶ\nじゃろう
+@@SoulHouse_Text_Teacher
+ここには　ほかにも\nポケモンの　おはかが\lあると　おもうわ\pフジさん　しか　はいれない\nへやが　たくさん　あるのよ
+@@SoulHouse_Text_Lass
+ママと　ポケモンの\nおはかまいりに　きたの‥
+@@SoulHouse_Text_Granny
+いっしょに　くらした\nポケモンたち‥\pまごの　ように\nかわいがって　いたよ‥
+## data/maps/CeladonCity_PokemonCenter_hns/scripts.inc
+@@CeladonCity_PokemonCenter1F_Text_CooltrainerF
+エリカさんは　くさポケモンの\nたつじん\pゆだん　すると\nいたい　めに　あうわよ
+@@CeladonCity_PokemonCenter1F_Text_Pharmacist
+ロケットだんの　アジトは\nゲームコーナーの　ちかに\lあるんだ\pおっと　それは　3ねんまえの\nはなし　だった
+@@Celadon_Text_Eusine1
+ミナキ『やあ！\pふるさとに　かえって\nきたんだ\pずいぶん　ひさしぶりだよ
+@@Celadon_Text_EusineLeaves
+{PLAYER}くん　きいたかい？\pスズのとうに　にじいろの\nポケモンが　あらわれたと\lいう　うわさが　あるんだ\pポケモンも　かいふく　したし\nいまから　エンジュへ　いくよ\pまたね　{PLAYER}くん！
+@@Celadon_Text_NoBeasts
+そうそう　{PLAYER}くん\pでんせつの　ポケモン　ライコウと\nエンテイは　つかまえたかい？\p‥‥‥‥‥‥\pそうか‥\pもし　1ぴきでも　つかまえたら\nおしえて　ほしいな\pたのんだよ　{PLAYER}くん！
+## data/maps/CeladonCity_House1_hns/scripts.inc
+@@CeladonCity_House1_Text_ChefEatathon
+いらっしゃい！\pいま　おおぐい　たいかいを\nやって　いるんだ\pわるいけど　いまは\nだせないんだ
+@@CeladonCity_House1_Text_Fisher1Snarfle
+‥がつがつ　もぐもぐ‥
+@@CeladonCity_House1_Text_Fisher1Concentration
+はなしかけるな！\pしゅうちゅうが\nきれる！
+@@CeladonCity_House1_Text_Fisher2GulpChew
+‥ごくん‥　もぐもぐ‥
+@@CeladonCity_House1_Text_Fisher2Quantity
+しつ　より　りょうだ！\pおなか　いっぱいなら\nしあわせ！
+@@CeladonCity_House1_Text_Fisher3MunchMunch
+むしゃ　むしゃ‥
+@@CeladonCity_House1_Text_Fisher3GoldenrodIsBest
+ここの　りょうりも　うまいが\nいちばん　うまいのは\lコガネだな
+@@CeladonCity_House1_Text_TeacherCrunchCrunch
+ぽりぽり‥　ぽりぽり‥
+@@CeladonCity_House1_Text_TeacherNoCoinCase
+ここでは　だれも　コインケースは\nくれないわよ\lジョウトで　さがしてね
+@@CeladonCity_House1_Text_TeacherKeepEating
+ぽりぽり‥　ぽりぽり‥\pまだ　たべられる！\pおかわり！
+@@CeladonCity_House1_Text_EatathonContestPoster
+おおぐい　たいかい！\nじかん　むせいげん！\pおわりなき　たたかい！\nいちばん　たべた　ひとは\lただ！
+## data/maps/CeladonCity_Apartments_1F_hns/scripts.inc
+@@CeladonMansion_Text_Manager
+かわいい　ポケモンが　いるから\nちっとも　さびしく　ないの\pニャースは　おかねまで\nもって　きて　くれるのよ
+@@CeladonMansion_Text_ManagersSuiteSign
+タマムシマンション\nかんりにんしつ
+## data/maps/CeladonCity_Apartments_2F_hns/scripts.inc
+@@CeladonMansion2F_Text_Computer
+{PLAYER}は　パソコンの\nスイッチを　いれた\p‥\pだれかが　メールを\nかいている　とちゅう　だった\p‥ぜひ　カントーへ\nあそびに　きてください\pずいぶん　かわったので\nおどろくと　おもいます\pジョウトに　いない\nポケモンも　たくさん　みられます\pプロデューサーへ\p‥
+@@CeladonMansion2F_Text_DevOfficeSign
+ハートアンドソウル\nかいはつしつ
+@@CeladonMansion2F_Text_LilDill
+みなさん　こんにちは\nパッチ15‥\pじゃなくて‥\pやあ　ぼくが\nゲームディレクター！\pマップや　タイルセット\nスクリプトなどを　つくったよ\pでも　ほかの　かいはつしゃや\nテストプレイヤーが　いなければ\lできなかった\pあそんで　くれて　ありがとう！\nハートアンドソウルを\lたのしんで　くれたかな？
+@@CeladonMansion2F_Text_InfiniteBacon
+この　ゲームを　ポケエメラルド\nエクスパンションで\lつくりなおして　いるんだ！
+@@CeladonMansion2F_Text_TixoRebel
+タマゴかじけんって\nしってる？\pテストプレイで　みつかった\nバグで　ポケモンが　ランダムに\lタマゴに　なっちゃったんだ！\pその　しゅうせいは\nぼくが　したんだよ！
+@@CeladonMansion2F_Text_Phant
+デメイクが　だいすき！\pソード　シールド　アルティメット\nプラスの　えいごばん\lあそんだ？　ぼくが\lほんやく　したんだ！\pつぎの　デメイクは\nアローラに　しようかな！
+@@CeladonMansion2F_Text_Exclsior
+ポケモンごとの　なみのりの\nグラフィックは　ぼくが\lいれたんだ！\pオープンソースの　プロジェクト\nだから　きみも　きのうを\lついか　できるよ！
+@@CeladonMansion2F_Text_DaniRaibow
+やあ！\pもんだいを　みつけるのが\nとくいで　ちいさな　ものなら\lなおせるよ\pジョーク　ききたい？\pワタルが　カイリューに\nりゅうのいぶきを　おしえようと\lした\pでも　カイリューは\nしんそくで　はやすぎて\lうけとれなかった！
+## data/maps/CeladonCity_Apartments_3F_hns/scripts.inc
+@@GameFreak_Text_GameDesigner
+そうなの？\pぼくは　ゲームデザイナー！\pずかんを　うめるのは\nたいへん　だけど\lあきらめないでね！
+@@GameFreak_Text_GameDesignerCompletedPokedex
+すごい！　ずかんを\nかんせい　させたんだね！\pおめでとう！
+@@GameFreak_Text_GraphicArtist
+ぼくは　グラフィッカー\pきみを　かいたのは\nぼくだよ！
+@@GameFreak_Text_GraphicArtistPrintDiploma
+ぼくは　グラフィッカー\pおや　ずかんを\nかんせい　させたの？\pしょうじょうを　いんさつ\nしてあげようか？
+@@GameFreak_Text_GraphicArtistRefused
+しょうじょうを　いんさつ\nしたく　なったら\lこえを　かけてね
+@@GameFreak_Text_GraphicArtistError
+なにか　おかしいな\nいんさつを　ちゅうし\lするよ
+@@GameFreak_Text_Programmer
+ぼく？　プログラマー\pスロットで\nあそんでね！
+@@GameFreak_Text_CharacterDesigner
+ふたごちゃん　かわいい\nでしょ？\pミカンちゃんも\nかわいいし\pだいすき！
+@@CeladonMansion3F_Text_DevRoomSign
+ゲームフリーク　かいはつしつ
+@@CeladonMansion3F_Text_Drawing
+かわいい　おんなのこの\nこまかい　イラストだ
+@@CeladonMansion3F_Text_GameProgram
+ゲームの　プログラムだ\nさわったら　ゲームに\lバグが　でるかも！
+@@CeladonMansion3F_Text_ReferenceMaterial
+しりょうが　ぎっしり\nつまっている\lポケモンにんぎょうも　ある
+## data/maps/CeladonCity_Apartments_RoofDay_hns/scripts.inc
+@@CeladonMansionRoof_Text_Fisher
+たかい　ところが\nだいすき　なんだ！\pおれと　おなじくらい\nたかい　ところが　すきなのは\lけむり　くらいだな！
+@@CeladonMansionRoof_Text_Graffiti
+かべに　らくがきが\nある‥\p{PLAYER}は\nひげを　かきたした！
+## data/maps/CeladonCity_Apartments_RoofHouse_hns/scripts.inc
+@@CeladonMansionRoofHouse_Text_PharmacistIntro
+こわい　はなしを\nしてあげよう‥
+@@CeladonMansionRoofHouse_Text_PharmacistNotNight
+いや　そとが　あかるい\nうちは　こわく　ないな\pひが　くれたら\nまた　おいで
+@@CeladonMansionRoofHouse_Text_PharmacistStory
+むかし　むかし　あたらしい\nじてんしゃを　かって\lもらった　おとこのこが\lいた‥\pすぐに　のって\nみたく　なった‥\pあんまり　たのしくて\nひが　くれたのにも\lきづかなかった‥\pまっくらな　よみちを\nかえって　いると　きゅうに\lじてんしゃが　おそく　なった！\pペダルが　おもく\nなったんだ！\pこぐのを　やめると　じてんしゃが\nうしろへ　さがりはじめた！\pまるで　のろわれた　じてんしゃが\nやみの　なかへ　ひきずりこもうと\lして　いるようだった！\p‥\p‥\pぎゃああああ！\pおとこのこは　サイクリングロードの\nのぼりざかを　はしって\lいたのさ！\p‥\nどきっ　どきっ！\pしんぼう　づよく　きいて　くれた\nおれいに　わざマシン82を\lあげよう！
+@@CeladonMansionRoofHouse_Text_PharmacistCurse
+わざマシン82は\nねごと\pポケモンが　ねむって　いる\nあいだ　ランダムに\lわざを　だすんだ\pでも　あの　こわい　はなしの\nあとで　ねむれる　かな？
+## data/maps/CeladonCity_GameCorner_hns/scripts.inc
+@@CeladonGameCorner_Text_PokefanM
+スロットは　ぜんぶ\nさいしんしき　だよ
+@@CeladonGameCorner_Text_Teacher
+ほしいのは　この　だいよ\pきのう　ぼろまけ　したから\nきょうは　でるはず
+@@CeladonGameCorner_Text_FishingGuru
+この　スロットは　でる\nきが　する‥\pだいに　よって　でかたが\nちがうんだ
+@@CeladonGameCorner_Text_Fisher1
+がはははは！\pコインが　どんどん\nでてくるぞ！\pん？　なんだ　ぼうず？\nあそびたいのか？\pおれの　うんを　わけて\nやろう！
+@@CeladonGameCorner_Text_Fisher2
+がはははは！\pひとに　いい　ことを　すると\nきもちが　いいな！
+@@CeladonGameCorner_Text_GymGuide
+よう！　みらいの　チャンピオン！\pきみも　スロットかい？\pけいひんの　ポケモンが\nほしくて　コインを\lためてるんだ\pでも　まだ　たりなくて‥
+@@CeladonGameCorner_Text_PokefanF
+ルーレット‥\pスロットより　かくりつが\nよみやすいから　すきなの\pでも　はいとうが\nずっと　すくないのよね
+@@CeladonGameCorner_Text_Gramps
+うーむ‥　あおに　ぜんぶ\nかけた　ほうが　かくりつは\lいいが‥　どうしたものか
+@@CeladonGameCorner_Text_Woman
+かちが　とまらない！
+## data/maps/CeladonCity_DepartmentStore_1F_hns/scripts.inc
+@@CeladonDeptStore_Text_1FReceptionist
+こんにちは！\nタマムシデパートへ　ようこそ！\pあんないばんは　かべに\nございます
+@@CeladonDeptStore_Text_1FGentleman
+この　デパートは　コガネシティの\nデパートと　おなじ\lチェーンなんだ\pどちらも　おなじ　ときに\nかいそう　されたんだよ
+@@CeladonDeptStore_Text_1FTeacher
+ここに　くるのは\nはじめて\pひろくて‥\pまいごに　なりそう
+@@CeladonDeptStore_Text_1FDirectory
+1F　サービスカウンター\p2F　トレーナーズマーケット\p3F　わざマシンショップ\p4F　ギフトショップ\p5F　くすりやさん\p6F　おくじょう　ひろば
+## data/maps/CeladonCity_DepartmentStore_2F_hns/scripts.inc
+@@CeladonDeptStore2F_Text_PokefanM
+さいきん　トレーナーに\nなったんだ\pむすこに　すすめられてね\pべんりな　どうぐが\nそろっていて　かんしん　したよ
+@@CeladonDeptStore2F_Text_Youngster
+パパ　どうぐの　なまえと\nつかいかたを　おぼえるのに\lくろう　してるんだ‥
+@@CeladonDeptStore2F_Text_Directory
+トレーナーの　ための\nこうきゅうひん！\p2F　トレーナーズマーケット
+## data/maps/CeladonCity_DepartmentStore_3F_hns/scripts.inc
+@@CeladonDeptStore3F_Text_Youngster
+この　わざマシン　どの\nポケモンに　つかおうかな‥
+@@CeladonDeptStore3F_Text_GameboyKid1
+しまった！　アップグレードを\nもたせた　まま　ポケモンを\lこうかん　しちゃった
+@@CeladonDeptStore3F_Text_GameboyKid2
+やった！　やっと\nポリゴンが　てに　はいる！\pスロットが　へただから\nコインが　たまらなくて‥\p‥あれ？\pこうかん　した　ポリゴンが\nべつの　ポケモンに\lなっちゃった！
+@@CeladonDeptStore3F_Text_SuperNerd
+わざマシンショップには\nめずらしい　わざも　あるよ
+@@CeladonDeptStore3F_Text_Directory
+3F　わざマシンショップ\pポケモンを　つよく　しよう！
+## data/maps/CeladonCity_DepartmentStore_4F_hns/scripts.inc
+@@CeladonDeptStore4F_Text_SuperNerd
+かのじょに　おくる\nサーフメールを　かいに　きたんだ\pえ　うりきれ？
+@@CeladonDeptStore4F_Text_Youngster
+ラブリーメールが　かえるのは\nここ　だけ\pだった　けどね\nうりきれ　だってさ
+@@CeladonDeptStore4F_Text_Directory
+おくりもので　きもちを\nつたえよう！\p4F　ギフトショップ
+## data/maps/CeladonCity_DepartmentStore_5F_hns/scripts.inc
+@@CeladonDeptStore_Text_5FReceptionistOhYourMon
+こんにちは\nあら　あなたの　ポケモン‥
+@@CeladonDeptStore_Text_5FReceptionistWait
+あら　その　わざマシンは\nもう　あげたわよ！
+@@CeladonDeptStore_Text_5FReceptionistPutInSomeMoreEffort
+うーん‥\nわるくは　ないけど\lよくも　ないわね\pトレーナーの　あなたが\nもっと　がんばらなきゃ
+@@CeladonDeptStore_Text_5FReceptionistItLooksEvilHowAboutThisTM
+わるそうな　かおね\nこの　わざマシンは　どう？
+@@CeladonDeptStore5_Text_Falkner
+{PLAYER}　こんな　ところで\nあうとは　おもわなかった\pとりポケモンの　どうぐを\nかいに　きたんだ\pまた　たたかいたいなら\nヤマブキシティの\lどうじょうに　いるよ
+@@CeladonDeptStore5F_Text_Gentleman
+ポケモンの　のうりょくを\nあげる　どうぐが　ほしいが\lおかねが　たりない‥
+@@CeladonDeptStore5F_Text_Sailor
+わざの　PPを　ふやせる\nポイントアップが　ほしい\lでも　うってないんだ‥
+@@CeladonDeptStore5F_Text_Teacher
+どうぐを　つかって　あげると\nポケモンは　よろこぶの\pでも　きらいな　どうぐも\nあるのよね‥
+@@CeladonDeptStore5F_Text_Directory
+5F　くすりやさん
+## data/maps/CeladonCity_DepartmentStore_RoofDay_hns/scripts.inc
+@@CeladonDeptStore6F_Text_Vending
+じどうはんばいき　だ！\nメニューは　これ
+@@CeladonDeptStore6F_Text_Clang
+ガコン！\p{STRING}が　でてきた
+@@CeladonDeptStore6F_Text_VendingNoMoney
+おっと　おかねが\nたりない‥
+@@CeladonDeptStore6F_Text_VendingNoSpace
+もう　もてない‥
+@@CeladonDeptStore6F_Text_SuperNerd
+あたりつきの\nじどうはんばいき‥\pいまどき　めずらしいな
+@@CeladonDeptStore6F_Text_Youngster
+あーあ！　ここには\nゲームが　ない！\pあそびたかったのに‥
+@@CeladonDeptStore6F_Text_Directory
+6F　おくじょう　ひろば\nじどうはんばいき
+## data/maps/CeladonCity_Gym_hns/scripts.inc
+@@CeladonCity_Gym_Text_ErikaBeforeBattle
+エリカ『こんにちは‥\nいい　おてんき　ですわね\lとても　きもちいい‥\p‥うとうと　して\nしまいそう‥\pわたくしは　エリカ\nタマムシジムの　リーダー\lですの\p‥まあ　ジョウトから\nいらしたの？　すてき‥\pあら　ごめんなさい　わたくしに\nちょうせん　なさる　のですね\pわかりました　でも\nまけませんわ
+@@CeladonCity_Gym_Text_ErikaBeaten
+エリカ『まあ！　まいりましたわ‥\pとても　おつよいのね‥\pレインボーバッジを\nさしあげますわ‥
+@@CeladonCity_Gym_Text_PlayerReceivedRainbowBadge
+{PLAYER}は\nレインボーバッジを　もらった
+@@CeladonCity_Gym_Text_Erika_GiveTM
+エリカ『すてきな\nしょうぶ　でしたわ\pかんどう　しましたの\nこの　わざマシンを\lうけとって　くださいな
+@@CeladonCity_Gym_Text_Erika_ExplainTM
+それは　ギガドレイン\pあたえた　ダメージの　はんぶんを\nすいとって　ポケモンを\lかいふく　する　すてきな　わざ\pよろしければ\nおつかい　くださいね‥
+@@CeladonCity_Gym_Text_ErikaAfterBattle
+エリカ『まけるのは\nくやしい　ものですわね‥\pでも　つよい　トレーナーが　いると\nしると　はげみに　なりますわ‥
+@@CeladonCity_Gym_Text_ErikaRematch
+エリカ『あら　こんにちは\pまあ　カントーの\nチャンピオン！\pまた　おあい　できて\nうれしいですわ\pきっと　すてきな\nたび　でしたのね\pチャンピオンも　ちょうせんは\nおすき　でしょう？\pもう　いちど\nしょうぶ　しませんこと？
+@@CeladonCity_Gym_Text_ErikaRematchDefeat
+エリカ『やはり　まけるのは\nくやしい　ものですわね‥\pでも　つよい　トレーナーが　いると\nしると　はげみに　なりますわ‥
+@@CeladonCity_Gym_Text_LassMichelleSeen
+おんなのこ　だけの　ジムって\nめずらしい　でしょ？
+@@CeladonCity_Gym_Text_LassMichelleBeaten
+もう　いやっ！
+@@CeladonCity_Gym_Text_LassMichelleAfter
+ちょっと　ゆだん\nした　だけよ！
+@@CeladonCity_Gym_Text_PicnickerTanyaSeen
+しょうぶ？　ちょっと\nこわいけど　いいわ！
+@@CeladonCity_Gym_Text_PicnickerTanyaBeaten
+え　もう　おわり？
+@@CeladonCity_Gym_Text_PicnickerTanyaAfter
+わあ　バッジ　いっぱい！\nかてない　わけだわ！
+@@CeladonCity_Gym_Text_BeautyJuliaSeen
+みていたのは　おはな？\nそれとも　わたし？
+@@CeladonCity_Gym_Text_BeautyJuliaBeaten
+しゃくに　さわるわ！
+@@CeladonCity_Gym_Text_BeautyJuliaAfter
+どうしたら　エリカさん\nみたいな　おしとやかな\lひとに　なれるかしら？
+@@CeladonCity_Gym_Text_TwinsJoAndZoe1Seen
+エリカさんに　おそわった\nわざを　みせて　あげる！
+@@CeladonCity_Gym_Text_TwinsJoAndZoe1Beaten
+ああ‥　まけちゃった‥
+@@CeladonCity_Gym_Text_TwinsJoAndZoe1After
+エリカさんが　かたきを\nうって　くれるもん！
+@@CeladonCity_Gym_Text_TwinsJoAndZoe2Seen
+エリカさんは　わたしたちが\nまもるの！
+@@CeladonCity_Gym_Text_TwinsJoAndZoe2Beaten
+かてなかった‥
+@@CeladonCity_Gym_Text_TwinsJoAndZoe2After
+エリカさんは　もっと\nもっと　つよいよ！
+@@CeladonCity_Gym_Text_GymStatue
+タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\nグリーン　レッド
+@@CeladonCity_Gym_Text_GymStatuePlayerWon
+タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+## data/maps/SaffronCity_PokemonCenter_hns/scripts.inc
+@@SaffronCity_PokemonCenter1F_Text_Teacher
+ジョウトの　ポケモンセンターって\nどんな　かんじ？\p‥へえ　カントーと\nあまり　かわらないのね\pじゃあ　あんしん　して\nジョウトに　いけるわ！
+@@SaffronCity_PokemonCenter1F_Text_Fisher
+イワヤマトンネルを\nとおって　きたんだが\pはつでんしょで　なにか\nさわぎが　あったぞ
+@@SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart
+ハナダに　へんな　どうくつが\nあるんだ\pプロの　やまおとこ　として\nしらべるべき　だが\lあそこは　おれでも　こわい
+@@SaffronCity_PokemonCenter1F_Text_Youngster
+シルフカンパニーの　ほんしゃと\nリニアの　えき‥\lヤマブキの　みどころだよ
+## data/maps/SaffronCity_Mart_hns/scripts.inc
+@@SaffronMart_Text_CooltrainerM
+シオンには　おおきな\nラジオとうが　あるぞ
+@@SaffronMart_Text_CooltrainerF
+つよく　なりたいけど\nまだまだ　なの‥\pいつか　おてほんを\nみせて　くれる？
+## data/maps/SaffronCity_TrainStation_hns/scripts.inc
+@@SaffronMagnetTrainStation_Text_OfficerTrainHasntComeIn
+でんしゃが　こない‥\pそうだ！　おきゃくさんを\nせおって　はこぼう！\pむりだな
+@@SaffronMagnetTrainStation_Text_OfficerComingAboard
+まもなく　コガネゆき\nしゅっぱつ　です\pごじょうしゃ\nなさいますか？
+@@SaffronMagnetTrainStation_Text_OfficerRightThisWay
+リニアパスを　はいけん\nします\pはい　どうぞ　こちらへ
+@@SaffronMagnetTrainStation_Text_OfficerNoRailPass
+もうしわけ　ありません\nリニアパスを　おもちで　ないですね
+@@SaffronMagnetTrainStation_Text_OfficerHopeToSeeYouAgain
+また　ごりよう　ください！
+@@SaffronMagnetTrainStation_Text_OfficerArrivedInSaffron
+ヤマブキに　とうちゃく\nしました\pまた　ごりよう\nください
+@@SaffronMagnetTrainStation_Text_Officer_TrainNotOperating
+もうしわけ　ありませんが\nリニアは　いま\lうんきゅう　しております
+@@SaffronMagnetTrainStation_Text_GymGuide
+リニアは　でんきと　じしゃくで\nものすごい　スピードを\pだす　さいしんしきの\nれっしゃ　なんだ\pでも　でんきが\nなければ‥
+@@SaffronMagnetTrainStation_Text_GymGuide_ReturnedPart
+ふう‥\pカントーと　ジョウトを\nなんかい　いったり\lきたり　したかな？
+@@SaffronMagnetTrainStation_Text_Teacher
+リニアの　えきが　できる　まえ\nここには　いえが　あったの\pものまねむすめ　という\nおんなのこが　すんでいたわ
+@@SaffronMagnetTrainStation_Text_Lass
+こんにちは　リニアパス\nもってる？　わたしは\lもってるわ\pリニアに　のる　ヤマブキの\nひとは　みんな　パスを\lもってるのよ
+## data/maps/SaffronCity_FightingDojo_hns/scripts.inc
+@@SaffronCity_FightingDojo_Text_Lickilicky
+ベロベルト『ベローン！
+@@SaffronCity_FightingDojo_Text_Machamp
+カイリキー『リキー！
+@@SaffronCity_FightingDojo_Text_Steelix
+ハガネール『ガガガッ！
+@@SaffronCity_FightingDojo_Text_Alakazam
+フーディン『フーディ！
+@@SaffronCity_FightingDojo_Text_Slowking
+ヤドキング『うーむ‥
+@@SaffronCity_FightingDojo_Text_Pidgeot
+ピジョット『ピジョー！
+@@SaffronCity_FightingDojo_Text_HP
+HP
+@@SaffronCity_FightingDojo_Text_Attack
+こうげき
+@@SaffronCity_FightingDojo_Text_Defense
+ぼうぎょ
+@@SaffronCity_FightingDojo_Text_SpecialAttack
+とくこう
+@@SaffronCity_FightingDojo_Text_SpecialDefense
+とくぼう
+@@SaffronCity_FightingDojo_Text_Speed
+すばやさ
+@@SaffronCity_FightingDojo_Text_WouldYouLikeToBattle
+{STR_VAR_1}と　たたかって\n{STR_VAR_2}の　どりょくちを\l3　あげますか？
+@@SaffronCity_FightingDojo_Text_BlackBelt
+かくとうどうじょうへ　ようこそ！\pここでは　たたかいで\nポケモンの　のうりょくを\lきたえる　ことが　できる！
+@@SaffronCity_FightingDojo_Text_Sign1
+ひだり　HP　ぼうぎょ　とくぼう
+@@SaffronCity_FightingDojo_Text_Sign2
+みぎ　こうげき　とくこう　すばやさ
+@@SaffronCity_FightingDojo_Text_Cooltrainer
+カントーの　バッジを　ぜんぶ\nもつ　トレーナーだけが\lVIPラウンジに　はいれる
+@@SaffronCity_FightingDojo_Ability_Finish_Text
+はい　できあがり！\nまいど！
+@@SaffronCity_FightingDojo_Ability_Text1
+いらっしゃい！　わたしは\nとくせいの　エキスパート！\pたったの　25000円で\nポケモンの　とくせいを\lあっというまに　いれかえます！\pとくせいを　いれかえたい\nポケモンは　いますか？
+@@SaffronCity_FightingDojo_Ability_Text_No
+わかりました　ごようの　ときは\nいつでも　どうぞ
+@@SaffronCity_FightingDojo_Ability_Text_Cant
+それは　できません\nこの　ポケモンには\lふたつめの　とくせいが　ない！
+@@SaffronCity_FightingDojo_Ability_Text_NoChampion
+いらっしゃい！　わたしは\nとくせいの　エキスパート！\pポケモンの　とくせいを\nあっというまに　いれかえます\pでも　ざんねん　こしが\nいたくて　きょうは\lはたらけないんです\pまた　あとで　きてください！
+@@SaffronCity_FightingDojo_SetZeroTextNoMoney
+おかねが　たりませんね\pおかねが　できたら\nまた　どうぞ
+## data/maps/SaffronCity_FightingDojoVIP_hns/scripts.inc
+@@SaffronCity_FightingDojoVIP_Text_Nurse1
+こんにちは！　どうじょうへ\nようこそ！\lポケモンを　かいふく　します
+@@SaffronCity_FightingDojoVIP_Text_Nurse2
+また　どうぞ！
+@@SaffronCity_FightingDojoVIP_Text_Scizor
+ハッサム『ハッサーム！
+@@SaffronCity_FightingDojoVIP_Text_Miltank
+ミルタンク『モーーー！
+@@SaffronCity_FightingDojoVIP_Text_Poliwhirl
+ニョロゾ『ニョロ　ニョロ！
+@@SaffronCity_FightingDojoVIP_Text_Dewgong
+ジュゴン『ジュゴーーン！
+@@SaffronCity_FightingDojoVIP_Text_Steelix
+ハガネール『ガガガーン！
+@@SaffronCity_FightingDojoVIP_Text_Kingdra
+キングドラ『ドラァ‥
+@@SaffronCity_FightingDojoVIP_Text_Onix
+イワーク『イワーーク！
+@@SaffronCity_FightingDojoVIP_Text_Starmie
+スターミー『ヘアッ！
+@@SaffronCity_FightingDojoVIP_Text_Victreebel
+ウツボット『ウツボー！
+@@SaffronCity_FightingDojoVIP_Text_Muk
+ベトベトン『ベトー‥
+@@SaffronCity_FightingDojoVIP_Text_Kadabra
+ユンゲラー『ユンゲラー！
+@@SaffronCity_FightingDojoVIP_Text_Magmar
+ブーバー『ブーバー！
+@@SaffronCity_FightingDojoVIP_Text_Raichu
+ライチュウ『ライ　チュウ！
+@@SaffronCity_FightingDojoVIP_Text_Machamp
+カイリキー『カイリキー！
+@@SaffronCity_FightingDojoVIP_Text_Chased
+たすけて！
+@@SaffronCity_FightingDojoVIP_Text_Statue
+かくとうどうじょう\nVIPラウンジ
+@@SaffronCity_FightingDojoVIP_Text_Falkner_Rematch
+してんのうを　たおしたんだね\nおめでとう！\pぼくも　ひこうタイプの\nポケモンを　もっと\lきたえて　きた\pまた　おおぞらの　ちからに\nたちむかえるかな？
+@@SaffronCity_FightingDojoVIP_Text_Falkner_RematchDefeat
+すごい‥　また　まけた\pさいこうの　とりつかいに\nなるため　もっと\lきたえるよ！
+@@SaffronCity_FightingDojoVIP_Text_Bugsy_Rematch
+わあ　いまは　ジョウトの\nチャンピオン　なんだね！\pほんとうに　すごいや！\pぼくは　けんきゅうで\nいそがしかったんだ\pあたらしい　はっけんを\nみせて　あげるよ\pもう　いちど\nしょうぶ　しない？
+@@SaffronCity_FightingDojoVIP_Text_Bugsy_RematchDefeat
+すごい　きみは　ほんとうの\nエキスパートだね\pぼくの　けんきゅうは\nまだ　みかんせいか‥
+@@SaffronCity_FightingDojoVIP_Text_Whitney_Rematch
+あっ！　あんたや！\pえー　いまは　ジョウトの\nチャンピオンなん？\pほんま　すごいわ！\pどれくらい　つよいか\nみてみたいわ\pもう　いっかい　しょうぶ\nしよっか？
+@@SaffronCity_FightingDojoVIP_Text_Whitney_RematchDefeat
+うわあああん！\pうわあああん！\p‥ひっく　ぐすっ‥\n‥いじわる！
+@@SaffronCity_FightingDojoVIP_Text_Morty_Rematch
+やあ　ジョウトの\nチャンピオン！　よく　きたね\pきみの　つよさは　わかってる\nでも　あれから　せいちょう\lしたかな？\pぼくも　ゴーストタイプと\nしゅぎょうを　つづけて　きた\pまた　かげを　のりこえられるか\nみせて　もらおう\pもう　いちど　しょうぶ\nするかい？
+@@SaffronCity_FightingDojoVIP_Text_Morty_RematchDefeat
+ぼくは　まだ\nみじゅくだ‥\pきみは　ぼくより　たくさんの\nものを　みてきた\pそれが　うらやましいよ‥
+@@SaffronCity_FightingDojoVIP_Text_Chuck_Rematch
+わははは！\nジョウトの　チャンピオン！\pまた　きたな！\pうでを　あげた\nようだな！\pどちらが　つよいか\nためすか？
+@@SaffronCity_FightingDojoVIP_Text_Chuck_RematchDefeat
+な？　なに？　まけた？\nまたか？
+@@SaffronCity_FightingDojoVIP_Text_Jasmine_Rematch
+‥おめでとう　ございます\nジョウトの　チャンピオン\pとても　つよく\nなられましたね‥\pわたしも　せいちょう\nできたでしょうか\pためして　みませんか？\pもう　いちど　しょうぶ\nして　いただけますか？
+@@SaffronCity_FightingDojoVIP_Text_Jasmine_RematchDefeat
+‥あなたは　つよさも\nやさしさも\pわたしより　うえの\nトレーナーです
+@@SaffronCity_FightingDojoVIP_Text_Pryce_Rematch
+おお　ジョウトの\nチャンピオン！\pきみの　うでは\nまことに　すばらしい\pかんしん　したぞ\pだが　いまでも　おたがいに\nまなぶ　ことは　おおい\pふゆの　トレーナー　ヤナギ\pまだ　おくのては　あるぞ\pもう　いちど\nしょうぶ　するか？
+@@SaffronCity_FightingDojoVIP_Text_Pryce_RematchDefeat
+うむ　またしても\nみごとな　うでまえ\pその　つよい　いしが　あれば\nどんな　こんなんも\lのりこえられよう
+@@SaffronCity_FightingDojoVIP_Text_Clair_Rematch
+やったのね？\pもう　ジョウトの\nチャンピオンね\pつよさは　しょうめい　したけど\nもう　いちど　わたしに\lかてるかしら？\pドラゴンつかい　として\nてかげんは　しないわ\pこんどこそ\pもう　いちど\nしょうぶ　する？
+@@SaffronCity_FightingDojoVIP_Text_Clair_RematchDefeat
+まけた？\pまた？\pしんじられない‥　なにかの\nまちがいよ‥
+@@SaffronCity_FightingDojoVIP_Text_Brock_Rematch
+タケシ『やあ　{PLAYER}！\pカントーの　チャンピオンに\nなったって　きいたよ\pすごいな！\pもっと　つよく　なったんだろうな\pもう　いちど\nしょうぶ　しないか？
+@@SaffronCity_FightingDojoVIP_Text_Brock_RematchDefeat
+タケシ『きみの　ポケモンが　また\nおれの　かたい　まもりを\lうちやぶった‥
+@@SaffronCity_FightingDojoVIP_Text_Misty_Rematch
+カスミ『すごい　いまは\nカントーの　チャンピオンね！\pたいした　ものだわ　{PLAYER}\nここまで　きたのね\pでも　ひかないわよ\pもう　いちど\nしょうぶ　する？
+@@SaffronCity_FightingDojoVIP_Text_Misty_RematchDefeat
+カスミ『ほんとうに\nつよいのね‥
+@@SaffronCity_FightingDojoVIP_Text_Surge_Rematch
+マチス『ユー　いまは　カントーの\nチャンピオンか！\pたいした　もんだ　ボーイ！\nだが　ミーも　まだまだだ！\pもう　いっちょ\nやるか？
+@@SaffronCity_FightingDojoVIP_Text_Surge_RematchDefeat
+マチス『アーウチ！\nあいかわらず　つよいな！
+@@SaffronCity_FightingDojoVIP_Text_Erika_Rematch
+エリカ『あら　こんにちは\pまあ　チャンピオン！\pまた　おあい　できて\nうれしいですわ\pきっと　すてきな\nたび　でしたのね\pチャンピオンも　ちょうせんは\nおすき　でしょう？\pもう　いちど\nしょうぶ　しませんこと？
+@@SaffronCity_FightingDojoVIP_Text_Erika_RematchDefeat
+エリカ『やはり　まけるのは\nくやしい　ものですわね‥\pでも　つよい　トレーナーが　いると\nしると　はげみに　なりますわ‥
+@@SaffronCity_FightingDojoVIP_Text_Sabrina_Rematch
+ナツメ『あら　チャンピオン\pあなたが　くるのを\nかんじて　いたわ\pちからが　おおきく\nなったわね\pいまも　あなたの　オーラを\nかんじる\pもう　いちど\nしょうぶ　する？
+@@SaffronCity_FightingDojoVIP_Text_Sabrina_RematchDefeat
+ナツメ『ポケモンへの　あいじょうが\nまた　わたしの　ちょうのうりょくを\lうわまわった‥
+@@SaffronCity_FightingDojoVIP_Text_Janine_Rematch
+ふふふふ‥\pすごい　やったのね！\pいまは　チャンピオン　なのね！\pほこらしいわ！　でも\nてかげんは　しないわよ\pもう　いちど\nしょうぶ　する？
+@@SaffronCity_FightingDojoVIP_Text_Janine_RematchDefeat
+アンズ『あいかわらず\nつよいのね！\pあなたの　かちよ‥
+@@SaffronCity_FightingDojoVIP_Text_Blaine_Rematch
+カツラ『おおっ！\pカントーの　チャンピオンに\nなったのか！\pもえるのう！\pうでは　ちょういっきゅうじゃ\pわしは　いつでも\nしょうぶ　だいかんげいじゃ\pもう　いちど\nしょうぶ　するか？
+@@SaffronCity_FightingDojoVIP_Text_Blaine_RematchDefeat
+カツラ『きみの　うでは\nまさに　ほのおじゃ！\pわしの　まもりを\nもやしつくした
+@@SaffronCity_FightingDojoVIP_Text_Blue_Rematch
+グリーン『へえ　チャンピオン\nさまか！\pずいぶん　えらく\nなったもんだな\pおれも　その　しょうごうを\nもってたんだぜ\lてかげんは　しないぞ\pその　ちょうしが　つづくか\nみせて　もらおう\pもう　いちど\nしょうぶ　するか？

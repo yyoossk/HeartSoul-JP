@@ -1,0 +1,388 @@
+## data/maps/NewBarkTown_Lab_hns/scripts.inc
+@@NewBarkTown_Lab_Text_LabMonEgg
+ウツギはかせが　しらべている\nポケモンの　タマゴだ
+@@NewBarkTown_Lab_Text_AideGivePotion
+{PLAYER}くん　おつかいの\nために　これを　どうぞ
+@@NewBarkTown_Lab_Text_AideAlwaysBusy
+ここは　3にん　しか　いないから\nいつも　いそがしいんだ
+@@NewBarkTown_Lab_Text_AideSave
+こまめに　レポートを\nかくのを　わすれずに！\pスタートボタンを　おして\nレポートを　えらんでね！
+@@NewBarkTown_Lab_Text_AideTheftTestimony
+そとで　おおきな　おとが\nしたんだ‥\pみに　いったら　ポケモンを\nぬすまれて　しまった\pそんな　ことを　する\nひとが　いるなんて！\p‥はあ‥　ぬすまれた　ポケモン\pいま　どうして　いるかな\pわるい　ひとに　そだてられた\nポケモンは　わるく　なるって\lいうけど‥
+@@NewBarkTown_Lab_Text_AideGiveBalls
+{PLAYER}くん！\pずかんづくりに\nこれを　つかって！
+@@NewBarkTown_Lab_Text_AideExplainBalls
+ずかんに　とうろく　するには\nポケモンを　つかまえなきゃ\pやせいの　ポケモンに\nモンスターボールを　なげて\lつかまえよう
+@@NewBarkTown_Lab_Text_Officer1
+ここで　ポケモンが\nぬすまれたと　きいてね‥\pいま　ウツギはかせから\nはなしを　きいて　いたんだ\pどうやら　あかい　かみの\nわかい　おとこ　らしい‥\pなに？\pそんな　トレーナーと\nしょうぶ　したって？\pなまえは　わかるかい？
+@@NewBarkTown_Lab_Text_Officer2_1
+よし！　{RIVAL}と　いうんだな？
+@@NewBarkTown_Lab_Text_Officer2
+そうさに　きょうりょく\nありがとう！
+@@NewBarkTown_Lab_Text_OfficerNo
+なまえくらい　わかるだろう！？
+@@NewBarkTown_Lab_Text_Elm_CallMe
+やあ　{PLAYER}くん！\pずかんは　すすんでるかい？\nいまは　いそがしいけど\lでんわを　くれれば　みてあげるよ！
+## data/maps/NewBarkTown_House2_hns/scripts.inc
+@@NewBarkTown_House2_Text_ElmsWife
+こんにちは　{PLAYER}くん！\nうちの　ひと　いつも　いそがしくて\lしんぱい　なのよ\pポケモンの　けんきゅうに\nむちゅうに　なると\lごはんも　わすれちゃうの
+@@NewBarkTown_House2_Text_ElmsSon
+おおきく　なったら\nパパの　てつだいを　するんだ！\pりっぱな　ポケモンはかせに\nなるんだ！
+## data/maps/NewBarkTown_House1_hns/scripts.inc
+@@NewBarkTown_House1_Text_NeighborsDaughter
+ピカチュウは　しんかした\nポケモン　なの\pウツギはかせの　はっけんには\nびっくり　したわ\pポケモンの　しんかの　けんきゅうで\nとても　ゆうめい　なのよ\p‥はあ‥\pわたしも　はかせ　みたいな\nけんきゅうしゃに　なりたいなあ‥
+@@NewBarkTown_House1_Text_Neighbor
+むすめは　どうしても\nウツギはかせの　じょしゅに\lなりたいって　いうの\pほんとうに　ポケモンが\nすきなのね！\pまあ　わたしも\nだいすき　だけど！
+## data/maps/NewBarkTown_PlayersHouse_1F_hns/scripts.inc
+@@NewBarkTown_PlayersHouse_1F_Text_MomAnythingElse
+ほかに　なにか\nようは　ある？
+@@NewBarkTown_PlayersHouse_1F_Text_CurrentSavings
+いま　{STR_VAR_2}\nあずかってるわよ
+@@NewBarkTown_PlayersHouse_1F_Text_EnableSaving
+かせいだ　おかねを\nすこし　ちょきん　しておく？
+@@NewBarkTown_PlayersHouse_1F_Text_SavingEnabled
+わかったわ！　しょうぶで\nかせいだ　おかねの　4ぶんの1を\lちょきん　しておくわね
+@@NewBarkTown_PlayersHouse_1F_Text_DisableSaving
+ちょきんを　やめる？
+@@NewBarkTown_PlayersHouse_1F_Text_SavingDisabled
+わかったわ　しばらく\nちょきんは　やめておくわね
+@@NewBarkTown_PlayersHouse_1F_Text_Goodbye
+きをつけてね！
+@@NewBarkTown_PlayersHouse_1F_Text_DepositSuccess
+ママ『いいわよ！\nちょきん　しておくわね
+@@NewBarkTown_PlayersHouse_1F_Text_WithdrawSuccess
+ママ『はい　どうぞ！
+@@NewBarkTown_PlayersHouse_1F_Text_NoMoneyToDeposit
+ママ『いまは　ちょきん　できる\nおかねが　ないみたいね
+@@NewBarkTown_PlayersHouse_1F_Text_NoMoneyToWithdraw
+ママ『まだ　ちょきんは\nないわよ
+@@NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou
+あら　{PLAYER}‥！　となりの\nウツギはかせが　あなたを\lさがしてたわよ\pなにか　たのみたい\nことが　あるんだって\pそうそう　わすれる　ところだった！\nポケギアが　しゅうりから\lもどって　きたわよ\pはい　どうぞ！
+@@NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear
+{PLAYER}は\nポケギアを　てにいれた
+@@NewBarkTown_PlayersHouse_1F_Text_ExplainPokeGear
+ママ『でんわばんごうは\nメモリーに　はいってるの\pかけたい　ひとの　なまえを\nえらぶだけ　ママの　ばんごうは\lもう　いれて　あるわよ\pべんりな　じだいに\nなったわよね？
+@@NewBarkTown_PlayersHouse_1F_Text_WearTheseRunningShoes
+それと　ランニングシューズも\nわすれないでね！
+@@NewBarkTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes
+{PLAYER}は　ランニングシューズに\nはきかえた
+@@NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes
+ママ『{PLAYER}　これを　はいて\nBボタンを　おすと\lはやく　はしれるわよ！
+@@NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting
+ママ『ウツギはかせが　まってるわよ\pはやく　いきなさい！
+@@NewBarkTown_PlayersHouse_1F_Text_MomsFriend
+こんにちは　{PLAYER}くん！\pおじゃま　してるわよ\pきいた？\pうちの　むすめ　どうしても\nウツギはかせの　じょしゅに\lなりたいって　いうの\pほんとうに　ポケモンが\nすきなのね！
+@@NewBarkTown_PlayersHouse_1F_Text_MomLeaving
+ママ『まあ　かわいい　ポケモン\nどこで　もらったの？\p‥\pそう　ぼうけんに　でるのね‥\nたいへん　そうだけど‥\pきを　つけてね\pポケモンは　ともだちよ\nちからを　あわせなきゃ　だめよ\pさあ　いってらっしゃい！\nママは　ずっと　おうえん\lしてるからね！
+## data/maps/NewBarkTown_PlayersHouse_2F_hns/scripts.inc
+@@NewBarkTown_PlayersHouse_2F_Text_NES
+{PLAYER}は　ファミコンで\nあそんだ\p‥よし！\nそろそろ　でかけよう！
+## data/maps/CherrygroveCity_PokemonCenter_hns/scripts.inc
+@@CherryGrove_Pokecenter_Text_Fisher
+すごいよ　ポケモンを\nいくらでも　あずけられて\lしかも　ただ　なんだ
+@@CherryGrove_Pokecenter_Text_Gentleman
+あの　パソコンは　どんな\nトレーナーでも　ただで　つかえる
+@@CherryGrove_Pokecenter_Text_Lass
+まってる　ときは　じかんが\nおそく　かんじるって　いうけど\lポケセンで　とけいを　みてると\lあっというまよ！
+@@CherryGrove_Pokecenter_Text_Chansey
+ラッキー『ラッキー！
+## data/maps/CherrygroveCity_Mart_hns/scripts.inc
+@@Cherrygrove_Pokemart_Text_CooltrainerM
+モンスターボールが\nうりきれ　なんだ！\pいつ　はいるのかな？
+@@Cherrygrove_Pokemart_Text_CooltrainerM_PokeBallsInStock
+モンスターボールが　はいった！\nこれで　ポケモンが\lつかまえられる！
+@@Cherrygrove_Pokemart_Text_Youngster
+くさむらを　あるいてたら\nむしポケモンに　どくを\lくらっちゃった！\pそのまま　すすんだら\nポケモンが　たおれちゃった\pどくけしを　もって\nおいた　ほうが　いいよ
+## data/maps/CherrygroveCity_House1_hns/scripts.inc
+@@CherrygroveCity_GymSpeechHouse_Text_PokefanM
+ポケモントレーナーとしての\nじつりょくを　ためしたいのか？\pだったら　ジョウトの\nポケモンジムを　まわって\lバッジを　あつめるといい
+@@CherrygroveCity_GymSpeechHouse_Text_BugCatcher
+おおきく　なったら\nジムリーダーに　なるんだ！\pともだちの　ポケモンと\nたたかわせて　きたえてるんだ！
+## data/maps/CherrygroveCity_House2_hns/scripts.inc
+@@CherrygroveCity_GuideHouse_Text_GuideGent
+わしも　わかい　ころは\nすごうでの　トレーナー　じゃった！\pひとつ　アドバイスじゃ\nポケモンを　たくさん\lつかまえるのじゃ！\pそして　みんな　やさしく\nあつかって　やるんじゃぞ！
+## data/maps/CherrygroveCity_House3_hns/scripts.inc
+@@CherrygroveCity_EvolutionHouse_Text_Youngster
+ポケモンは　しょうぶで　けいけんを\nつんで　すがたを　かえるんだ
+@@CherrygroveCity_EvolutionHouse_Text_Lass
+ポケモンが　かわる？\pそんなの　みたら\nびっくり　しちゃう！
+## data/maps/VioletCity_PokemonCenter_hns/scripts.inc
+@@VioletCity_PokeCenter_Text_ElmsAideFavor
+{PLAYER}くん　ひさしぶり\pウツギはかせに　きみを\nさがすように　たのまれたんだ\pまた　たのみたい　ことが\nあるんだって\pポケモンの　タマゴを\nあずかって　くれるかい？
+@@VioletCity_PokeCenter_Text_ElmsAideNoRoom
+{PLAYER}くん　ひさしぶり\pウツギはかせに　きみを\nさがすように　たのまれたんだ\pまた　たのみたい　ことが\nあるんだって\pポケモンの　タマゴを\nあずかって　くれるかい？\pあ　まって‥　まず　てもちに\nあきを　つくらないと
+@@VioletCity_PokeCenter_Text_ElmsAideGiveEgg
+タマゴの　なかで　そだたないと\nポケモンは　うまれないって\lわかったんだ\pそれに　げんきな　ポケモンと\nいっしょに　いないと\lかえらないんだ\p{PLAYER}くん　たよれるのは\nきみ　だけなんだ
+@@VioletCity_PokeCenter_Text_ElmsAideGiveItem
+そうそう　うまれたら　これが\nやくに　たつかも
+@@VioletCity_PokeCenter_Text_ElmsAideFullParty
+あれ　もう　ポケモンを\nもてないみたいだね\pタマゴの　ぶんの　あきを\nつくるまで　ここで　まってるよ
+@@VioletCity_PokeCenter_Text_ElmsAideEggToPC
+あれ　もう　ポケモンを\nもてないみたいだね\pだいじょうぶ　タマゴは\nマサキの　パソコンに\lおくって　おいたよ
+@@VioletCity_PokeCenter_Text_ElmsAideRefuse
+そ‥　そんな‥　ウツギはかせに\nたのまれたのに‥
+@@VioletCity_PokeCenter_Text_BooksAreGreat
+ポケモンが　かいふくする\nあいだ　ほんを　よむのが\lだいすきなの
+@@VioletCity_PokeCenter_Text_MobileAdapter
+タンバの　ともだちと\nつうしんで　たいせん　したんだ\pモバイルアダプタを　つなげば\nとおくの　ともだちとも\lつうしん　できるんだよ
+@@VioletCity_PokeCenter_Text_GameboyKid
+ポケモンを　パソコンに　あずける\nしくみは　マサキって　ひとが\lつくったんだって
+@@VioletCity_PokeCenter_Text_Gentleman
+3ねんほど　まえの　ことだ\pロケットだんが　ポケモンを\nつかって　わるさを　していた\pだが　せいぎは　かった\nひとりの　しょうねんが\lやつらを　かいさん　させたんだ
+@@VioletCity_PokeCenter_Text_Youngster
+ポケモンは　かしこいんだ\nみとめて　いない　トレーナーの\lいうことは　きかない\pちゃんと　ジムバッジが　ないと\nかってに　うごいちゃうんだ
+## data/maps/VioletCity_Mart_hns/scripts.inc
+@@VioletCity_Mart_Text_Granny
+つかまえた　ばかりの\nポケモンは　よわい　かもしれん\pでも　いつかは\nつよく　そだつんじゃ\pポケモンを　あいじょうを　こめて\nあつかう　ことが　だいじじゃよ
+@@VioletCity_Mart_Text_CooltrainerM
+ポケモンは　キズぐすりや\nどくけしを　もてるんだ\pでも　ひとが　つくった　どうぐの\nつかいかたは　しらない　みたいだね
+## data/maps/VioletCity_TrainerSchool_hns/scripts.inc
+@@VioletCity_TrainerSchool_Text_Twin
+ゲームボーイアドバンス　せだい\nじゃないけど　ポケモンの\lゲームが　だいすきなの！\pむかしの　ゲームでは　やせいの\nポケモンと　たくさん　たたかって\lけいけんちを　かせいだのよ\pでも　さいきんの　ゲームでは\nがくしゅうそうちで　レベルが\lあがりすぎちゃうの\pこの　ゲームの　がくしゅうそうちは\nちょうど　いい　レベルに　なるように\lちょうせい　されてるの\lたたかう　かずに　よっては\lすこし　たかめに　なるわ\pむかしながらの　1から4せだいの\nあそびかたが　したいなら\lがくしゅうそうちを　オフ\lいまどきの　あそびかたなら\lがくしゅうそうちを　オンにしてね\pあそびかたは　あなたが\nきめていいのよ！
+@@VioletCity_TrainerSchool_Text_EarlIntro
+アール　わたしです！\pポケモン　すばらしい　です！\pもっと　いい　トレーナーに\nなれるよう　おしえて　あげます！
+@@VioletCity_TrainerSchool_Text_Teacher
+さいしょは　よわくて\nつよく　なるまでに　ほかより\lずっと　けいけんちが　いる\lポケモンも　います\pたとえば　ヨーギラスは　とても\nよわいですが　たくさんの\lけいけんちを　つめば　やがて\lつよい　バンギラスに　なります\pそういう　ポケモンを　そだてるのは\nほんとうに　ねっしんな\lトレーナー　だけに\lしましょうね
+@@VioletCity_TrainerSchool_Text_TeachHowToWin
+グッド！　おしえて　あげます！\pしょうぶ　では　リストの\nいちばん　うえの　ポケモン\pさいしょに　でます！\nならびかえ　しょうぶ\lらくに　なる　かも！\pもっと　ききたい　ですか？
+@@VioletCity_TrainerSchool_Text_TeachMore
+では　ポケモンの　じょうずな\nそだてかた　しりたい　ですか？
+@@VioletCity_TrainerSchool_Text_TeachRaiseWell
+グッド！　おしえて　あげます！\pしょうぶに　すこしでも　でた\nポケモン　けいけんち\pもらえます\nリストの　いちばん　うえに\pよわい　ポケモン　おいて\nすぐ　いれかえ！\pこれで　よわい　ポケモン\nつよく　なります！
+@@VioletCity_TrainerSchool_Text_NoMoreToTeach
+オー！　かしこい　せいと\nですね！　もう　おしえる\lこと　ありません！\pもっと　しりたければ\nせいとに　きいて　ください！
+@@VioletCity_TrainerSchool_Text_Youngster1
+こうかんでしか　しんか　しないと\nおもわれていた　ポケモンも\pレベルアップで　しんか　するんだ\nゴーリキーと　ゴローンは\pレベル38　ユンゲラーと\nゴーストは　レベル42だよ\pメタルコートみたいに　もたせて\nレベルを　あげると\pしんか　する　ポケモンが\nいる　どうぐも　あるんだ
+@@VioletCity_TrainerSchool_Text_GameboyKid1
+その　ばしょで　とれる　おもな\nポケモンは　フィールドで\lみえるんだ！\pでも　どうろは　ひるも　よるも\nたしかめてね！
+@@VioletCity_TrainerSchool_Text_GameboyKid2
+ジョウトの　きのみは　かいふくや\nボールづくりに　つかえるの\pカントーの　きのみは　ポケモンの\nのうりょくを　さげるのに　いいの\pカントーの　どうじょうでは\nのうりょくを　ひとつずつ\lみがけるのよ
+@@VioletCity_TrainerSchool_Text_Youngster2
+あいては　タイプの　バランスが\nいい　チームを　つかって\lくるから　これからの　たびは\lもっと　きびしく　なるよ
+@@VioletCity_TrainerSchool_Text_Blackboard
+こくばんに　ひでんわざの\nことが　かいてある\pひでんわざは　つかえるように\nなれば　おぼえさせなくても\lつかえる
+@@VioletCity_TrainerSchool_Text_Notebook
+この　こどもの　ノートだ‥\pポケモンは　モンスターボールで\nつかまえよう\pてもちには　6ぴきまで\nつれて　いける\pつづきを　よむ？
+@@VioletCity_TrainerSchool_Text_Notebook1
+ボールを　なげる　まえに\nあいてを　よわらせよう\pどくや　やけどの　ポケモンは\nつかまえやすい\pつづきを　よむ？
+@@VioletCity_TrainerSchool_Text_Notebook2
+わざで　こんらん　することがある\pこんらんすると　じぶんを\nこうげき　することがある\pしょうぶから　でれば\nこんらんは　なおる\pつづきを　よむ？
+@@VioletCity_TrainerSchool_Text_Notebook3
+ポケモンを　つかまえて\nしょうぶに　つかう　ひとが\nポケモントレーナー\pトレーナーは　ポケモンジムを\nまわって　ほかの　トレーナーに\nかつ　ことを　めざす\pつぎの　ページは‥　まっしろだ！\pしょうねん『えへへ‥\pまだ　かいて　ないんだ‥
+@@VioletCity_TrainerSchool_Text_StickerMachine
+データを　シールに　して\nだしてくれる　すごい　きかいだ！
+## data/maps/VioletCity_House1_hns/scripts.inc
+@@VioletCity_House1_Text_YouWillTradeWontYou
+ポケモンを　あつめてるんだ！\n{STR_VAR_1}　もってる？\pぼくの　{STR_VAR_2}と\nこうかん　しない？
+@@VioletCity_House1_Text_MonYouTakeCare
+やった！　{STR_VAR_1}を\nてにいれたぞ！\p{STR_VAR_2}　げんきでね！
+@@VioletCity_House1_Text_ThisIsntAMon
+うーん　ちがうよ\nそれは　{STR_VAR_1}じゃない
+@@VioletCity_House1_Text_YouWontTradeMe
+こうかん　したくないの？\nざんねん‥
+@@VioletCity_House1_Text_After
+やあ　まえの　ぼくの\nイワーク　げんき？
+@@VioletCity_House1_Text_PokefanM
+こうかんで　もらった　ポケモンは\nはやく　そだつんだ\pでも　ちゃんと　ジムバッジが\nないと　いうことを\lきかない　ことも　あるぞ
+## data/maps/VioletCity_House2_hns/scripts.inc
+@@VioletCity_NicknameHouse_Text_Teacher
+あの　こ　すきな　たべものの\nなまえを　つけるのよ\pポケモンに　つける\nニックネームの　ことよ
+@@VioletCity_NicknameHouse_Text_Lass
+わたしの　ポッポは\nイチゴって　いうの！
+@@VioletCity_NicknameHouse_Text_Bird
+イチゴ『ピジョッ！
+## data/maps/VioletCity_Gym_hns/scripts.inc
+@@VioletGym_Text_Falkner_Intro
+わたしは　キキョウ\nポケモンジムの　リーダー　ハヤト！\pでんきで　ひこうタイプの\nポケモンを\pしびれさせる　なんて\nいわれるが‥　とりポケモンへの\lそんな　ぶじょくは　ゆるさない！\pすばらしい　とりポケモンの\nほんとうの　ちからを　みせて\lやる！
+@@VioletGym_Text_Falkner_WinLoss
+‥くそっ！　ちちが　だいじに\nしてきた　とりポケモンが‥\pわかった　これを　うけとれ\pポケモンリーグ　こうにんの\nウイングバッジだ
+@@VioletGym_Text_ReceivedZephyrBadge
+{PLAYER}は　ウイングバッジを\nもらった
+@@VioletGym_Text_Falkner_BadgeExplain
+ウイングバッジは　ポケモンの\nこうげきりょくを　あげる\pそれに　おぼえられる\nポケモンなら　いつでも\lフラッシュが　つかえる\pそれと　これも　うけとれ
+@@VioletGym_Text_Falkner_TMExplain
+わざマシンを　つかえば\nポケモンは　すぐに　あたらしい\lわざを　おぼえる\pその　わざマシンは　はねやすめ\pポケモンの　さいだいHPの\nはんぶんまで　かいふくする\pつまり　ポケモンを\nかいふく　させる　わざだ
+@@VioletGym_Text_Falkner_AfterFight
+この　さきの　まちにも\nポケモンジムが　ある\pその　ジムで　うでを\nためすと　いい\pわたしは　さいこうの　とりつかいに\nなるため　もっと　しゅぎょうする！
+@@VioletGym_Text_Falkner_Rematch
+してんのうに　かったそうだな\nおめでとう！\pわたしも　ひこうタイプの\nポケモンを　さらに　きたえた\pもう　いちど　おおぞらの\nちからに　いどめるか？
+@@VioletGym_Text_Falkner_RematchLoss
+なんと‥　また　まけたか\pさいこうの　とりつかいに\nなるため　もっと　しゅぎょうする！
+@@VioletGym_Text_BirdKeeperRod_Seen
+あいことばは　こんじょう！\pここの　ものは　とりポケモンの\nたつじんを　めざし　ひるも\lよるも　しゅぎょう　している\pかかって　こい！
+@@VioletGym_Text_BirdKeeperRod_Beaten
+ぐわあっ！
+@@VioletGym_Text_BirdKeeperRod_After
+ハヤトさんの　うでまえは\nほんものだ！\pおれに　かった　くらいで\nちょうしに　のるなよ！
+@@VioletGym_Text_BirdKeeperAbe_Seen
+ハヤトさんと　たたかう\nうでが　あるか　みせて　もらおう！
+@@VioletGym_Text_BirdKeeperAbe_Beaten
+そんな　ばかな！
+@@VioletGym_Text_BirdKeeperAbe_After
+しんまい　トレーナーに\nまけるなんて　なさけない‥
+@@VioletGym_Text_GymGuide_Intro
+よう！　げんきか？　おれは\nトレーナーじゃ　ないけど\lアドバイスは　できるぜ！\pしんじろ！　しんじれば\nチャンピオンの　ゆめも　かなう\pしんじたか？　じゃあ　きけ\pハヤトの　エースは　きのみが\nだいすきな　タフな　フクロウだ\pつよくは　ないが\nなかなか　たおれない\pでんきや　いわタイプの　わざが\nきくが　どろかけには\lきを　つけろ！\pもっと　しりたかったら\nポケモンじゅくに　いきな\pあそこの　せいとは\nほんとうに　くわしいぜ！
+@@VioletGym_Text_GymGuide_Win
+いい　しょうぶ　だった！\nこの　ちょうしなら　すぐに\lチャンピオンだ！
+@@VioletCity_Gym_Text_GymStatue
+キキョウシティ　ポケモンジム
+@@VioletCity_Gym_Text_GymStatueCertified
+キキョウシティ　ポケモンジム\pハヤト　にんてい　トレーナー\n{PLAYER}
+## data/maps/AzaleaTown_PokemonCenter_hns/scripts.inc
+@@AzaleaPokecenter_Text_Gentleman
+ポケモンは　ひでんわざを\nおぼえて　いるかね？\pひでんわざは　ポケモンが\nひんしでも　つかえるんじゃ
+@@AzaleaPokecenter_Text_UnusedPCExplanation
+ポケモンを　パソコンに　あずける\nしくみは　マサキって　ひとが\lつくったんだ\pマサキの　パソコンは　ボックス\nひとつに　30ぴき　あずけられる
+@@AzaleaPokecenter_Text_FishingGuru
+マサキの　パソコンは　ボックス\nひとつに　30ぴき　あずけられる
+@@AzaleaPokecenter_Text_PokefanF
+きのみって　しってる？\pわって　なかを　くりぬいて\nとくべつな　しかけを　つけるの\pそうすると　ポケモンが\nつかまえられるのよ\pモンスターボールが　できる　まえは\nみんな　きのみを　つかってたの
+@@AzaleaPokecenter_Text_FishingGuru
+マサキの　パソコンは　ボックス\nひとつに　30ぴき　あずけられる
+## data/maps/AzaleaTown_Mart_hns/scripts.inc
+@@AzaleaMart_Text_CooltrainerM
+スーパーボール　かえる？\nおれは　モンスターボールしか\lかえないんだ\pジムバッジを　もらうと\nかえる　どうぐが　ふえるらしい！\pガンテツさんに　とくべつな\nボールを　つくって　ほしいなあ
+@@AzaleaMart_Text_BugCatcher
+スーパーボールは　モンスターボールより\nポケモンが　つかまえやすいんだ\pでも　ガンテツさんの　ボールの\nほうが　いい　ときも　あるよ
+## data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc
+@@KurtsHouse_Text_BallAnyway
+とにかく　ボールを\nつくって　やろうか？
+@@KurtsHouse_Text_KurtGetStarted
+ガンテツ『さっそく　とりかかるぞ！
+@@KurtsHouse_Text_KurtMakingBallsMustWait
+ん？　だれじゃ　おまえさんは？\p{PLAYER}か　ボールを\nつくって　ほしいのか？\pわるいが　それは\nあとまわしじゃ\pロケットだんを　しっとるか？\nいや　しらんでも　いい\pおしえて　やろう\pロケットだんは　ポケモンを\nわるい　ことに　つかう\lあくどい　れんちゅうじゃ\p3ねん　まえに　かいさん\nした　はずじゃった\pそいつらが　いどで　ヤドンの\nシッポを　きって\lうっておるんじゃ！\pだから　わしが\nこらしめて　やる！\pまっとれ　ヤドン！\nガンテツが　いま　いくぞ！
+@@KurtsHouse_Text_KurtHonoredToMakeBalls
+ガンテツ『おお　{PLAYER}！\pいどでの　はたらき\nほんとうの　ヒーローの\lようじゃったぞ！\pきにいった！\pおまえさんの　ような\nトレーナーに　ボールを\lつくれるとは　こうえいじゃ\pいまは　これしか　ないが\nうけとって　くれ
+@@KurtsHouse_Text_KurtBallsFromApricorns
+ガンテツ『わしは　きのみから\nボールを　つくるんじゃ\pきから　あつめて\nもってきて　くれ\pボールに　して　やるぞ
+@@KurtsHouse_Text_KurtAskYouHaveAnApricorn
+ガンテツ『きのみを\nもってきたのか？\pよし！　ボールに\nして　やろう
+@@KurtsHouse_Text_KurtThatsALetdown
+ガンテツ『{STR_VAR_1}が\nないでは　ないか！
+@@KurtsHouse_Text_KurtFinishedPlural
+ガンテツ『{PLAYER}！\n{STR_VAR_1}が　できたぞ　ほれ！
+@@KurtsHouse_Text_KurtObtainedPlural
+{PLAYER}は\n{STR_VAR_1}を　{STR_VAR_2}こ　てにいれた！
+@@KurtsHouse_Text_KurtFinishedSingular
+ガンテツ『{PLAYER}！\n{STR_VAR_1}が　できたぞ　ほれ！
+@@KurtsHouse_Text_KurtObtainedSingular
+{PLAYER}は\n{STR_VAR_1}を　てにいれた！
+@@KurtsHouse_Text_KurtTurnedOutGreat
+ガンテツ『いい　できじゃ\pそれで　ポケモンを\nつかまえて　みろ
+@@KurtsHouse_Text_KurtWhatIsThat
+な‥　なんじゃ　それは？\pはじめて　みる\pモンスターボールの　ようじゃが\nどうやら　ちがう　ものらしい\pわしが　しらべて　やろう
+@@KurtsHouse_Text_KurtImCheckingItNow
+いま　しらべて　おる
+@@KurtsHouse_Text_KurtAhHaISee
+ほほう！　なるほど！　これは‥
+@@KurtsHouse_Text_KurtThisBallStartedToShake
+{PLAYER}！\pしらべていたら　この\nボールが　ゆれだしたぞ！\pなにか　あるに　ちがいない！
+@@KurtsHouse_Text_Kurt_Whatwasthat
+いまの　おとは　なんじゃ！？\pそとへ　でて\nしらべて　みよう！
+@@KurtsHouse_Text_GranddaughterSlowpokeGone
+ヤドンが　いなくなっちゃった‥\nわるい　ひとに　つれて\lいかれちゃったのかな？
+@@KurtsHouse_Text_GranddaughterLonely
+おじいちゃん　いなくなっちゃった‥\nさびしいよ‥
+@@KurtsHouse_Text_GranddaughterSlowpokeBack
+パパに　もらった　ヤドンが\nかえって　きた！\pシッポも　また\nはえてきてるの！
+@@KurtsHouse_Text_GranddaughterDad
+パパは　シルフで\nボールの　けんきゅうを\lしてるの\pわたしは　おじいちゃんと\nヤドンと　おるすばん
+@@KurtsHouse_Text_GranddaughterHelp
+いまは　おじいちゃんの\nおてつだいが　できるの！\pいい　ボールを　つくるから\nまっててね！
+@@KurtsHouse_Text_GranddaughterFun
+ボールづくりって　たのしい！
+@@KurtsHouse_Text_GranddaughterSound
+いまの　おと　ウバメのもりから\nきこえたの？？？？
+@@KurtsHouse_Text_Forest
+ウバメのもりは　もう　みてきた？\nすごく　ざわついてる　みたい
+@@KurtsHouse_Text_Slowpoke
+ヤドン『‥　あくび？
+@@KurtsHouse_Text_OakPhoto
+‥わかい　ころの\nオーキドはかせ？
+@@KurtsHouse_Text_CelebiStatue
+もりの　かみさまの\nぞうだ
+## data/maps/AzaleaTown_House1_hns/scripts.inc
+@@CharcoalKiln_Text_Boss1
+まちから　ヤドンが\nいなく　なって　しまった\pもりの　かみさまが\nおこって　いるのかも‥\pわるい　まえぶれかも　しれん\nいえに　いた　ほうが　いい
+@@CharcoalKiln_Text_Boss2
+ヤドンが　もどって　きた‥
+@@CharcoalKiln_Text_Boss3
+ヤドンが　もどって　きた‥\pだが　でしが　ウバメのもりから\nもどって　こない\pあの　なまけものは\nどこに　いるんだ？
+@@CharcoalKiln_Text_Boss4
+ロケットだんを　おいはらって\nひとりで　ウバメのもりへ\lいったのか？\pいい　どきょうだ！　きにいった\nうちで　しゅぎょう　しないか
+@@CharcoalKiln_Text_Apprentice1
+ヤドンたち　どこへ\nいっちゃったんだろう？\pどこかで　あそんでるのかな？
+@@CharcoalKiln_Text_Apprentice2
+ヤドンが　もどって　きた！
+@@CharcoalKiln_Text_Apprentice3
+ごめん　おれい　いうの\nわすれてた\pこれは　おれが　つくった\nもくたん　なんだ\pほのおタイプの　ポケモンに\nもたせると　よろこぶよ
+@@CharcoalKiln_Text_Apprentice4
+ヤドンも　もどったし\nカモネギまで　みつけて\lくれるなんて\pきみ　さいこうに\nかっこいいよ！
+@@CharcoalKiln_Text_Farfetchd
+カモネギ『クワッ！
+## data/maps/AzaleaTown_Gym_hns/scripts.inc
+@@AzaleaTown_Gym_Text_GymStatue
+ヒワダ　ポケモンジム
+@@AzaleaTown_Gym_Text_GymStatueCertified
+ヒワダタウン　ポケモンジム\pツクシ　にんてい　トレーナー\n{PLAYER}
+@@AzaleaTown_Gym_Text_BugsyIntro
+ぼく　ツクシ！\pむしポケモンの　ことなら\nだれにも　まけないよ！\pけんきゅうして　むしポケモンの\nけんいに　なるんだ！\pぼくが　まなんだ　ことを\nぜんぶ　みせて　あげるよ
+@@AzaleaTown_Gym_Text_BugsyBeaten
+わあ　すごい！　きみ\nポケモンの　はかせだね！\pぼくの　けんきゅうは\nまだ　とちゅう　なんだ\pわかった　きみの　かち\nこの　バッジを　あげる
+@@AzaleaTown_Gym_Text_ReceivedHiveBadge
+{PLAYER}は　インセクトバッジを\nもらった
+@@AzaleaTown_Gym_Text_HiveBadgeSpeech
+インセクトバッジの　こうか\nしってる？\pそれが　あれば　レベル30までの\nポケモンは　こうかんした\lポケモンでも　いうことを　きくよ\pいあいぎりを　おぼえた　ポケモンは\nたたかい　いがいでも\lつかえるように　なるんだ\pそれと　これも\nうけとって　ほしいな
+@@AzaleaTown_Gym_Text_FuryCutterSpeech
+わざマシン89は　とんぼがえり\pダメージを　あたえて　おなじ\nターンに　ポケモンを\lいれかえられるんだ！\pすごい　でしょ？\nぼくが　はっけん　したんだよ！
+@@AzaleaTown_Gym_Text_BugsyAdvice
+むしポケモンは　おくが　ふかいよ\nなぞが　いっぱい　あるんだ\pすきな　ポケモンを\nとことん　しらべてね
+@@AzaleaTown_Gym_Text_BugsyRematch
+わあ　いまや　ジョウトの\nチャンピオン　なんだね！\pきみの　うでまえ　ほんとうに\nすごいよ！\pぼくは　けんきゅうで\nいそがしかったんだ\pあたらしい　はっけんを\nみせる　じゅんびは　できてるよ\pもう　いちど　しょうぶ　しない？
+@@AzaleaTown_Gym_Text_BugsyRematchDefeat
+わあ　きみは　ほんとうに\nすごうでの　トレーナーだね\lぼくの　けんきゅうは　まだまだ‥
+@@AzaleaTown_Gym_Text_BugCatcherBennySeen
+むしポケモンは　はやく\nしんか　するから　そのぶん\lはやく　つよく　なるんだ
+@@AzaleaTown_Gym_Text_BugCatcherBennyBeaten
+しんか　する　だけじゃ\nだめなんだ！
+@@AzaleaTown_Gym_Text_BugCatcherBennyAfter
+ポケモンは　しんか　すると\nつよく　なるよ　ほんとだよ！
+@@AzaleaTown_Gym_Text_BugCatcherAlSeen
+むしポケモンは　かっこよくて\nつよいんだ！　しょうめい　してやる！
+@@AzaleaTown_Gym_Text_BugCatcherAlBeaten
+きみの　つよさが\nしょうめい　されちゃった‥
+@@AzaleaTown_Gym_Text_BugCatcherAlAfter
+こんなに　かっこいいのに\nおんなのこは　むしポケモンが\lきらいなんだ\pなんでだろう‥
+@@AzaleaTown_Gym_Text_BugCatcherJoshSeen
+ヤドンを　みんな　たすけたの？\nふう　すごいね！\pでも　ぼくの　そだった　ポケモンも\nなかなか　つよいよ！
+@@AzaleaTown_Gym_Text_BugCatcherJoshBeaten
+ううう‥！
+@@AzaleaTown_Gym_Text_BugCatcherJoshAfter
+もっと　いい　わざを\nおしえなきゃ‥
+@@AzaleaTown_Gym_Text_TwinsAmyMay1Seen
+エミ『こんにちは！　リーダーに\nちょうせん　するの？　むりよ！
+@@AzaleaTown_Gym_Text_TwinsAmyMay1Beaten
+エミとメイ『もう　ふたりとも\nまけちゃった！
+@@AzaleaTown_Gym_Text_TwinsAmyMay1After
+エミ『あなた　ほんとに　つよい！\pでも　ツクシくんは　もっと　つよいよ！\nストライクの　いあいぎりは\lほとんど　きゅうしょに　あたるの！
+@@AzaleaTown_Gym_Text_TwinsAmyMay2Seen
+メイ『リーダーに　あいたいの？\nがんばってね！\pツクシくんは　とっても　つよいの！\nストライクの　いあいぎりは\lいつも　きゅうしょに　あたる　みたい！
+@@AzaleaTown_Gym_Text_TwinsAmyMay2Beaten
+エミとメイ『もう　ふたりとも\nまけちゃった！
+@@AzaleaTown_Gym_Text_TwinsAmyMay2After
+メイ『わたしたちの　むしポケモン\nまけちゃった！　ざんねん\pでも　ツクシくんは\nまけないよ！\pクヌギダマが　いわタイプの\nポケモンを　あっというまに\lたおしちゃうの！
+@@AzaleaTown_Gym_Text_GymGuide
+よう　ちょうせんしゃ！\pツクシは　わかいが　むしポケモンの\nちしきは　ほんものだ\pおれの　アドバイス　なしじゃ\nきびしいぞ\pそうだな‥　ツクシの　みのむし\nポケモンは　いわタイプの\lよわてんを　おぎなう　わざを\lおぼえてる\pそれと　あの　いやな　きゅうしょ\nあたりも　わすれるな！\lがんばれよ！
+@@AzaleaTown_Gym_Text_GymGuideWin
+よくやった！　さいのう　ある\nわかい　トレーナーどうしの\lすばらしい　たたかい　だった\pきみ　みたいな　トレーナーが\nいれば　ポケモンの　みらいは\lあかるいな！
+## data/maps/GoldenrodCity_PokemonCenter_hns/scripts.inc
+@@GoldenrodCity_PokemonCenter_LinkNpc_Text_Intro
+つうしんコーナー\pつうしんの　しゅるいを\nえらんで　ください
+@@GoldenrodCity_PokemonCenter_LinkNpc_Text_BattleMode
+たいせんの　しゅるいを\nえらんで　ください
+@@GoldenrodCity_PokemonCenter_LinkNpc_Text_Goodbye
+さようなら
+@@GoldenrodCity_PokemonCenter_Text_LinkExplainer
+この　きかいで　ちかくの　ひとと\nこうかんや　たいせんが　できるの\pかがくの　ちからって\nすごいわね？
+@@GoldenrodCity_PokemonCenter_GrannyText
+だいとかいの　くらしが\nだいすきでね！\pあんた　みたいな　わかい\nトレーナーの　ころに\lひっこして　きたんじゃよ！

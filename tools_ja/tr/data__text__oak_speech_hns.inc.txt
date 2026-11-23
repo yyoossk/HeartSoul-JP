@@ -1,0 +1,22 @@
+@@gText_Oak_Welcome
+やあ！　またせて　しまったね！\pポケモンの　せかいへ　ようこそ！\pわたしの　なまえは　オーキド。\pみんなからは　ポケモンはかせと\nよばれて　おるよ。\p
+@@gText_Oak_Pokemon
+これが　「ポケモン」と　よばれる\nいきものじゃ。\p\n
+@@gText_Oak_MainSpeech
+この　せかいには　ポケモンと\nよばれる　いきものたちが\lいたるところに　すんでいる。\pひとと　ポケモンは　たすけあって\nいっしょに　くらしておる。\pポケモンと　あそぶ　ひともいれば\nポケモンで　しょうぶする　ひともいる。\pだが　わしたちは　ポケモンのことを\nまだ　ぜんぶ　しっているわけではない。\pまだまだ　なぞが　たくさん　ある。\nだから　わしは　まいにち\lポケモンの　けんきゅうを　しておるのじゃ。\p
+@@gText_Oak_AndYouAre
+ところで　きみは？
+@@gText_Oak_BoyOrGirl
+きみは　おとこのこ？\nそれとも　おんなのこ？
+@@gText_Oak_WhatChallenge
+どれくらいの　てごたえを\nのぞんで　いるのかな？
+@@gText_Oak_ChallengeSelected
+うむ！　きみに　ぴったりの\nてごたえじゃな！
+@@gText_Oak_WhatsYourName
+では　きみの　なまえを\nおしえてくれるかな？
+@@gText_Oak_SoItsPlayer
+ふむ……　{PLAYER}{KUN}　と　いうんだな！
+@@gText_Oak_YourePlayer
+{PLAYER}{KUN}！　じゅんびは　いいかな？\pいよいよ　きみだけの　ぼうけんが\nはじまるのじゃ！\p
+@@gText_Oak_AreYouReady
+たのしいことも　きびしい　しれんも\nまっているじゃろう。\pポケモンと　ともに　ゆめと\nぼうけんの　せかいが　まっておる！\lさあ　いくのじゃ！\pまた　あとで　あおう！\p

@@ -1,0 +1,490 @@
+## data/maps/GoldenrodCity_PokemonCenter_hns/scripts.inc
+@@GoldenrodCity_PokemonCenter_GameboyKidText1
+ここは　とくべつな\nポケモンセンター　なんだ\lやねが　きんで　できてるんだよ！
+@@GoldenrodCity_PokemonCenter_GameboyKidText2
+おとうとに　やねは　ほんものの\nきんだって　いったんだ\lなんでも　しんじちゃうんだ！
+@@GoldenrodCity_PokemonCenter_LassText
+レベルの　たかい　ポケモンが\nかならず　かつとは　かぎらないわ\pタイプで　ふりな　ことも\nあるものね\pいちばん　つよい　ポケモンなんて\nいないと　おもうの
+@@GoldenrodPokeCenter_LinkReceptionistPleaseAcceptGSBallText
+{PLAYER}さん　ですね？\pおめでとう　ございます！\pとくべつに　あなたの　ために\nGSボールが　とどいて　います！\pどうぞ　おうけとり　ください！
+@@GoldenrodPokeCenter_LinkReceptionistPleaseDoComeAgainText
+また　おこし　くださいね！
+@@GoldenrodCity_PokemonCenter_PokefanFDoYouHaveEonMailText
+あらまあ　にもつが\nおもそうね！\pそうだ！　ムゲンメールって\nもって　ないかしら？\pむすめが　ほしがってるの\pひとつ　ゆずって\nくれない？
+@@GoldenrodCity_PokemonCenter_AskGiveAwayAnEonMailText
+ムゲンメールを　あげますか？
+@@GoldenrodCity_PokemonCenter_PokefanFThisIsForYouText
+まあ　うれしい！\nありがとう！\pはい　おかえしに\nこれを　どうぞ！
+@@GoldenrodCity_PokemonCenter_PokefanFDaughterWillBeDelightedText
+むすめが　よろこぶわ！
+@@GoldenrodCity_PokemonCenter_PokefanFTooBadText
+あら？　もって　ないの？\nざんねんね
+@@GoldenrodCity_PokemonCenter_PokefanFAnotherTimeThenText
+あら‥　じゃあ\nまた　こんどね
+@@GoldenrodCity_PokemonCenter_PlayerGaveAwayTheEonMailText
+{PLAYER}は\nムゲンメールを　あげた
+## data/maps/GoldenrodCity_UndergroundEntrance_hns/scripts.inc
+@@GoldenrodUnderground1_Text_SuperNerd
+したの　かいで　しょうぶを\nしかけられたんだ\pあそこは　あらっぽいから\nきを　つけた　ほうが　いいよ
+@@GoldenrodUnderground1_Text_Teacher
+したの　かいには　おみせが\nあるけど‥　トレーナーも　いるの\pこわくて　いけないわ
+## data/maps/GoldenrodCity_UndergroundTunnel_hns/scripts.inc
+@@GoldenrodCity_UndergroundTunnel_Text_Kimono1
+くろい　ふくの　ロケットだんが\nうろうろ　していましたが‥\pなにごとかと　おもいました\nあなたが　ロケットだんと\lたたかったのですね？\lみごとです！\pあなたなら　でんせつの\nポケ‥　にも　たちむかえる\lかもしれません
+@@GoldenrodCity_UndergroundTunnel_Text_Kimono2
+ほほほ！　なんでも\nありません　わたくしは\lもう　いかなくては
+@@GoldenrodUnderground_Text_YoungerBrotherOffer
+ポケモンサロンへ　ようこそ！\pおれは　カットきょうだいの\nおとうとの　ほう　やすい　ほうだ\pたったの　300円で　ポケモンを\nかっこよく　して　やるぜ\pどうだい？
+@@GoldenrodUnderground_Text_YoungerBrotherAskWhich
+よし　どの　ポケモンに\nする？
+@@GoldenrodUnderground_Text_YoungerBrotherLookCool
+よし！　かっこよく\nして　やるぜ！
+@@GoldenrodUnderground_Text_YoungerBrotherAllDone
+ほら！　できあがり！
+@@GoldenrodUnderground_Text_YoungerBrotherDisappointed
+いらない？　ざんねんだな！
+@@GoldenrodUnderground_Text_YoungerBrotherShortOnFunds
+おかねが　ちょっと\nたりない　みたいだな
+@@GoldenrodUnderground_Text_YoungerBrotherOnePerDay
+カットは　1にち　1かい\nまで　なんだ\pわるいが　きょうは\nもう　おしまいだ
+@@GoldenrodUnderground_Text_OlderBrotherOffer
+いらっしゃい！\pポケモンサロンを　やってる\nものだ！\pおれは　カットきょうだいの\nあにの　ほう　うでの　いい　ほうだ\pたったの　500円で　ポケモンを\nうつくしく　して　やろう\pどうだい？
+@@GoldenrodUnderground_Text_OlderBrotherAskWhich
+どの　ポケモンに　する？
+@@GoldenrodUnderground_Text_OlderBrotherWatchItBeautiful
+よし！　うつくしく　なるのを\nみていてくれ！
+@@GoldenrodUnderground_Text_OlderBrotherAllDone
+はい！　できあがり！
+@@GoldenrodUnderground_Text_OlderBrotherThatsAShame
+そうかい？　ざんねんだ！
+@@GoldenrodUnderground_Text_OlderBrotherNeedMoreMoney
+それじゃ　おかねが\nたりないな
+@@GoldenrodUnderground_Text_OlderBrotherOnePerDay
+カットは　1にち　1かいだけ\nきょうは　もう　おしまいだ
+@@GoldenrodUnderground_Text_SupernerdEricSeen
+ゲームコーナーを\nおいだされちゃったよ\pポケモンを　つかって\nずるを　しようと　したら‥
+@@GoldenrodUnderground_Text_SupernerdEricBeaten
+‥ぶつぶつ‥
+@@GoldenrodUnderground_Text_SupernerdEricAfterBattle
+せいせいどうどう\nやるしか　ないか‥
+@@GoldenrodUnderground_Text_SupernerdTeruSeen
+しょうぶで　タイプの　あいしょうを\nかんがえてる？\pタイプの　ゆうりを　しってれば\nしょうぶは　うまく　いくよ
+@@GoldenrodUnderground_Text_SupernerdTeruBeaten
+いてて　いてて！
+@@GoldenrodUnderground_Text_SupernerdTeruAfterBattle
+タイプの　あいしょうは\nしってるんだ\pでも　ぼくは　ひとつの　タイプの\nポケモンしか　つかわないんだ
+@@GoldenrodUnderground_Text_PokemaniacIssacSeen
+ぼくの　ポケモン\nカット　したばかり　なんだ！\pどれだけ　つよいか\nみせて　あげる！
+@@GoldenrodUnderground_Text_PokemaniacIssacBeaten
+あいえーっ！
+@@GoldenrodUnderground_Text_PokemaniacIssacAfterBattle
+カット　して　あげると\nポケモンが　なついて　くれるよ
+@@GoldenrodUnderground_Text_PokemaniacDonaldSeen
+めずらしい　ポケモンを\nもってる　みたいだね\pみせて　よ！
+@@GoldenrodUnderground_Text_PokemaniacDonaldBeaten
+ぐああ！　まけた！\nむかつく！
+@@GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle
+ゆうべ　じてんしゃやの\nちかくを　あるいてたら\lやねの　うえから　みられてる\lような　きが　したんだ‥
+@@GoldenrodUnderground_Text_PokemaniacDonaldAfterBattleOld
+ずかんを　つくってるの？\nいい　こと　おしえて　あげる\p33ばんどうろの　やまおとこ\nアンソニーは　いい　ひとだよ\pめずらしい　ポケモンを　みたら\nでんわ　してくれるよ
+@@GoldenrodUnderground_Text_DoorsLocked
+とびらに　かぎが\nかかっている‥
+@@GoldenrodUnderground_Text_DoorIsOpen
+とびらは　あいている
+@@GoldenrodUnderground_Text_KeyOpenedDoor
+ちかの　かぎで\nとびらが　あいた
+@@GoldenrodUnderground_Text_NoEntry
+これより　さき\nたちいり　きんし
+## data/maps/GoldenrodCity_UndergroundSwitches_hns/scripts.inc
+@@GoldenrodCity_UndergroundSwitches_EventScript_AntiSoftLock_Text
+でられなく　なって\nいるかも　しれません\pいりぐちに　もどって\nスイッチを　もとに　もどしますか？
+@@GoldenrodUnderground_Text_SilverBefore
+まて！\pおまえを　みかけたから\nつけて　きたんだ\pロケットだんを　かたづける\nあいだ　うろちょろ　されちゃ\lめざわりだ\p‥まてよ　おまえ　まえに\nおれに　かったよな？\pあれは　まぐれだ\pチームを　きたえ　なおして\nきた　かりを　かえして　やる！
+@@GoldenrodUnderground_Text_SilverWin
+‥なぜだ‥　なぜ\nまけるんだ？\pいちばん　つよい\nポケモンを　あつめた\pてかげんも　していない\pなのに　なぜ　まける？
+@@GoldenrodUnderground_Text_SilverAfter
+‥わからない‥\pあの　ワタルって　やつの\nいった　ことは　ほんとうなのか？\pおれが　ポケモンを　だいじに\nしていない　だと？\pあいじょう‥\pしんらい‥\pそれが　おれに\nたりない　ものなのか？\pそれが　かてない\nりゆう　なのか？\pおれには‥　わからない\pだが　これで\nおわりじゃない\pいまは‥　こんな　ことで\nおわらない\pせかいで　いちばんの\nポケモントレーナーに　なる\lゆめは　あきらめない！
+@@GoldenrodUnderground_Text_SilverLoss
+ふん　これが　おれの\nほんとうの　ちからだ　よわむし\pロケットだんは　おれが\nつぶして　やる\pそして　あの　ワタルも\nふみつぶして　やる
+@@GoldenrodUnderground_Text_GruntM11Seen
+シャッターを　あければ\nべつの　シャッターが　しまる\pおもう　ところへは\nいけないだろうな！
+@@GoldenrodUnderground_Text_GruntM11Beaten
+くそっ！　まよって\nいるうちに　やられた！
+@@GoldenrodUnderground_Text_GruntM11After
+おれも　わからなく　なってきた‥\nはしの　スイッチを　さいしょに\lおすんだけど‥
+@@GoldenrodUnderground_Text_GruntM25Seen
+くはは！\pシャッターに　まよって\nいるな？\pおれに　かったら\nひみつを　おしえて　やる！
+@@GoldenrodUnderground_Text_GruntM25Beaten
+うう‥　しくじった
+@@GoldenrodUnderground_Text_GruntM25After
+よし　ヒントだ！\pスイッチを　おす　じゅんばんを\nかえて　みろ\pシャッターの　あきかたが\nかわるぞ
+@@GoldenrodUnderground_Text_BurglarDuncanSeen
+おたからを　よこしな！
+@@GoldenrodUnderground_Text_BurglarDuncanBeaten
+かんべん　してくれ！
+@@GoldenrodUnderground_Text_BurglarDuncanAfter
+ぬすんで　うる！　それが\nわるの　きほんだぜ　ぼうず！
+@@GoldenrodUnderground_Text_BurglarEddieSeen
+この　こうじは　かんせい\nまえに　なげだされたんだ\pのこった　おたからを\nさがしてる　ところさ
+@@GoldenrodUnderground_Text_BurglarEddieBeaten
+やりすぎだ！
+@@GoldenrodUnderground_Text_BurglarEddieAfter
+ちかそうこ？\pそんな　ところに\nなにしに　いくんだ？\pなにも　ないぜ
+@@GoldenrodUnderground_Text_GruntM13Seen
+まいごだろうと　かんけいない\pここに　きた　からには\nおまえは　えじきだ！
+@@GoldenrodUnderground_Text_GruntM13Beaten
+うぐっ！　かっこつけ\nやがって！
+@@GoldenrodUnderground_Text_GruntM13After
+ロケットだんに　さからうとは\nそうとう　きもが　すわってるな
+@@GoldenrodUnderground_Text_GruntF3Seen
+まいご？　いいえ\nちがうわね\pおびえた　かおを\nしていないもの\pこわがる　ことを\nおしえて　あげるわ！
+@@GoldenrodUnderground_Text_GruntF3Beaten
+よくも　やったわね？
+@@GoldenrodUnderground_Text_GruntF3After
+すきな　ところへ　いけば！\nかってに　しなさい！
+@@GoldenrodUnderground_Text_Switch1
+スイッチ1を　いれた
+@@GoldenrodUnderground_Text_Switch2
+スイッチ2を　いれた
+@@GoldenrodUnderground_Text_Switch3
+スイッチ3を　いれた
+@@GoldenrodUnderground_Text_Switch1Off
+スイッチ1を　きった
+@@GoldenrodUnderground_Text_Switch2Off
+スイッチ2を　きった
+@@GoldenrodUnderground_Text_Switch3Off
+スイッチ3を　きった
+## data/maps/GoldenrodCity_UndergroundStorage_hns/scripts.inc
+@@RadioTowerBasement_Text_GruntM24Seen
+どうやって　ここまで　きた？\pしかたない\nかたづけて　やる
+@@RadioTowerBasement_Text_GruntM24Beaten
+かたづけられた‥
+@@RadioTowerBasement_Text_GruntM24After
+ロケットだんは　サカキさまの\nかえりを　まちつづける\pそのためなら\nなんでも　するぞ
+@@RadioTowerBasement_Text_GruntM14Seen
+ここから　さきへは　いかせない！\pてきには　ようしゃ　しない\nガキでもな！
+@@RadioTowerBasement_Text_GruntM14Beaten
+ちくしょう！
+@@RadioTowerBasement_Text_GruntM14After
+まけた‥\pおゆるし　ください\nサカキさま！
+@@RadioTowerBasement_Text_GruntM15Seen
+ひゃっひゃっひゃ！\nだれかと　おもえば！\pじゅんびは　いいか？\nおれは　つよく　なったぞ！
+@@RadioTowerBasement_Text_GruntM15Beaten
+ひゃっひゃっひゃ！　つよいな！\pロケットだんは　ただの　しごと\nだけど　ひとを　きずつけてるって\lわかったよ\pもう　やめる\pほんとうに　ありがとう\nごめんなさい　サカキさま！
+@@RadioTowerBasement_Text_GruntM15After
+ひゃっひゃっひゃ！　たのしかった！\nおまえの　ことは　わすれないぜ！
+@@RadioTowerBasement_Text_DirectorIntro
+きょくちょう『だれだ？　なんだ？\nわたしを　たすけに　きたのか？\pありがとう！\pラジオとう！\pあっちは　どうなって　いる？\pロケットだんに　のっとられた？\pさあ　この　カードキーを\nもって　いきなさい
+@@RadioTowerBasement_Text_DirectorCardKey
+きょくちょう『それで　3かいの\nシャッターを　あけるんだ
+@@RadioTowerBasement_Text_DirectorAfter
+たのむ　たすけて　くれ\pやつらが　そうしんきを　にぎったら\nなにを　するか　わからない\pとくべつな　でんぱで　ポケモンを\nあやつる　つもりかも　しれない！\pたのめるのは　きみ　だけだ\pどうか　ラジオとうを\nすくって　くれ‥\pそして　ぜんこくの\nポケモンを！
+## data/maps/GoldenrodCity_DepartmentStoreBasement_hns/scripts.inc
+@@GoldenrodDeptStore_Text_BlackBeltMove
+ゴーリキー　その　いわを\nうごかすのを　てつだえ！
+@@GoldenrodDeptStore_Text_B1FBlackBelt1
+おい　ぼうず！　しごとの\nじゃまだ！\pおれたちは　ひとめに　つかない\nうらかたが　モットーなんだ！
+@@GoldenrodDeptStore_Text_B1FBlackBelt2
+ひとに　みられると\nやるきが　なくなるんだ\pほら　ぼうず　あっちへ\nいった　いった！
+@@GoldenrodDeptStore_Text_B1FBlackBelt3
+うっはっ！　うっはっ！\pなんの　ようだ　ぼうず？\lしごと　ちゅうだぞ！
+@@GoldenrodDeptStore_Text_B1FBlackBelt3After
+うっはっ！　うっはっ！\pゆかの　ものは\nがらくただ\pほしけりゃ　もっていけ！
+@@GoldenrodDeptStore_Text_B1FMachoke
+ゴーリキー『ゴーリッ！
+## data/maps/GoldenrodCity_Gym_hns/scripts.inc
+@@GoldenrodCity_Gym_Text_GymStatue
+コガネ　ポケモンジム
+@@GoldenrodCity_Gym_Text_GymStatueCertified
+コガネシティ　ポケモンジム\pアカネ　にんてい　トレーナー\n{PLAYER}
+@@GoldenrodCity_Gym_Text_WhitneyBefore
+はーい！　うち　アカネ！\pみんな　ポケモン　やってるから\nうちも　はじめたんよ！\pポケモンって　めっちゃ\nかわいいやん！\pしょうぶ　したいん？　いうとくけど\nうち　つよいで！
+@@GoldenrodCity_Gym_Text_WhitneyShouldntBeSoSerious
+ぐすっ‥\p‥うわあああん！\nいじわる！\pそんな　ほんきに　ならんでも\nええやん！　この‥　こどもー！
+@@GoldenrodCity_Gym_Text_WhitneyYouMeanie
+うわあああん！\pうわあああん！\p‥ひっく　ぐすっ‥\n‥いじわる！
+@@GoldenrodCity_Gym_Text_WhitneyWhatDoYouWant
+‥ぐすっ‥\pなに？　なんの　よう？\nバッジ？\pあ　そうか　わすれてたわ\nはい　レギュラーバッジ
+@@GoldenrodCity_Gym_Text_PlayerReceivedPlainBadge
+{PLAYER}は　レギュラーバッジを\nもらった
+@@GoldenrodCity_Gym_Text_WhitneyPlainBadge
+レギュラーバッジが　あると\nたたかい　いがいでも\lかいりきが　つかえるんよ\pそれと　ポケモンの\nぼうぎょも　あがるんよ\pそうそう　これも　あげる！
+@@GoldenrodCity_Gym_Text_WhitneyAttract
+メロメロや！\nポケモンの　みりょくを\lめいっぱい　いかす　わざよ\pうち　みたいな　かわいこちゃんに\nぴったり　やろ？
+@@GoldenrodCity_Gym_Text_WhitneyGoodCry
+あー　いっぱい　ないて\nすっきりした！
+@@GoldenrodCity_Gym_Text_WhitneyRematch
+あっ！　あんたや！\pえー　いまは　ジョウトの\nチャンピオンなん？\pほんま　すごいわ！\pどれくらい　つよいか\nみてみたいわ\pもう　いっかい　しょうぶ\nしよっか？
+@@GoldenrodCity_Gym_Text_WhitneyRematchDefeat
+うわあああん！\pうわあああん！\p‥ひっく　ぐすっ‥\n‥いじわる！
+@@GoldenrodCity_Gym_Text_LassCarrieSeen
+わたしの　ポケモンの\nかわいさに　だまされちゃ\lだめよ\pけっこう　つよいんだから！
+@@GoldenrodCity_Gym_Text_LassCarrieBeaten
+くやしい‥\nよわいと　おもったのに‥
+@@GoldenrodCity_Gym_Text_LassCarrieAfter
+わたしの　ポケモン\nわたしを　かわいいと\lおもってるかな？
+@@GoldenrodCity_Gym_Text_LassBridgetSeen
+つよい　ポケモンより\nかわいい　ポケモンが　すき\pでも　つよくて　かわいい\nポケモンも　いるのよ！
+@@GoldenrodCity_Gym_Text_LassBridgetBeaten
+やだ　やだ　やだ！
+@@GoldenrodCity_Gym_Text_LassBridgetAfter
+アカネちゃんに　かちたいけど‥\nおちこむわ\pへいき！　まけたら\nつぎ　もっと　がんばるの！
+@@GoldenrodCity_Gym_Text_BridgetWhitneyCries
+あらら　アカネちゃん\nなかせちゃった\pだいじょうぶ　すぐ　なきやむわ\nまけると　いつも　なくのよ
+@@GoldenrodCity_Gym_Text_BeautyVictoriaSeen
+あら　かわいい\nトレーナーさん！\pすきだけど\nてかげんは　しないわよ！
+@@GoldenrodCity_Gym_Text_BeautyVictoriaBeaten
+えっと‥　あら　もう　おわり？
+@@GoldenrodCity_Gym_Text_BeautyVictoriaAfter
+わたしに　かつなんて\nやるわね！　がんばってね！
+@@GoldenrodCity_Gym_Text_BeautySamanthaSeen
+ぜんりょくで　きなさい\nでないと　たおしちゃうわよ！
+@@GoldenrodCity_Gym_Text_BeautySamanthaBeaten
+いや！　ニャース\nごめんね！
+@@GoldenrodCity_Gym_Text_BeautySamanthaAfter
+ニャースには　どんな　タイプにも\nたちむかえる　わざを\lおしえたのに‥
+@@GoldenrodCity_Gym_Text_GymGuide
+よう！　みらいの　チャンピオン！\pこの　ジムは　ノーマルタイプの\nつかいて　アカネの　ジムだ\pかわいい　チームには\nきを　つけろ\pこの　ジムには　あたらしく\nみつかった　フェアリータイプを\lもつ　ポケモンも　いるぞ\pかくとうや　どくタイプが\nほしいなら　34ばんどうろを\lさがして　みな
+@@GoldenrodCity_Gym_Text_GymGuideWin
+かったのか？　すごい！\nおれは　ここの　おねえさんたちに\lみとれてたよ
+## data/maps/GoldenrodCity_FlowerShop_hns/scripts.inc
+@@GoldenrodCity_FlowerShop_Text_MintClerkNotReady
+ただいま　しなぎれ　です\pまた　あとで\nおこし　ください
+@@GoldenrodCity_FlowerShop_Text_Floria
+くねくね　うごく　きの　ことを\nおねえちゃんに　はなしたら\lあぶないって　いわれたの\pアカネさんに　かったら\nじょうろ　かして　くれるかな‥
+@@GoldenrodCity_FlowerShop_Text_Owner1
+36ばんどうろに　へんな\nきが　あるらしいの\pみずを　かけると\nおどりだすんだって‥\pあら　もちろん　だめよ！\pうちは　はなやさん　だから\nじょうろは　あるけど‥\pでも　かして　あげられないわ！\nあぶなすぎるもの！\pまあ　ジムリーダーの　アカネさんに\nかてたら　だいじょうぶ\lかもしれない　けど
+@@GoldenrodCity_FlowerShop_Text_Owner2
+36ばんどうろに　へんな\nきが　あるらしいの\pみずを　かけると\nおどりだすんだって‥\pあら　それ　コガネジムの\nレギュラーバッジ！\pアカネさんに　かったの！？\pそれなら　しんぱい\nないわね？\pしばらく　この　ゼニガメじょうろを\nかして　あげる\l‥\pやっぱり　あげるわ！
+@@GoldenrodCity_FlowerShop_Text_Owner3
+へんな　きは　36ばんどうろよ\nきを　つけてね！
+@@GoldenrodCity_FlowerShop_Text_Owner4
+ららら　らららら\nたっぷり　おみず　のんでね！
+@@GoldenrodCity_FlowerShop_Text_FloriaYouBeatWhitney
+わあ　アカネさんに　かったの？\nすごい！
+@@GoldenrodCity_FlowerShop_Text_FloriaItWasAMon
+やっぱり　ポケモン\nだったのね！
+## data/maps/GoldenrodCity_House1_hns/scripts.inc
+@@GoldenrodCity_NameRatersHouse_Text_AskToggleShinies
+いろちがいの　とくべつな　いろの\nせっていを　きりかえますか？
+@@GoldenrodCity_NameRatersHouse_Text_ToggleShinies
+いろちがいの　いろを\nきりかえました！\pパソコンの　ちょうせんビューアで\nせっていを　たしかめてね
+@@GoldenrodCity_NameRatersHouse_Text_RenameRival
+ニュースだ‥\pけいさつが　この　あかい\nかみの　しょうねんを\lさがしている！\pきみは　この　こどもの\nなまえを　しってるかね？
+@@GoldenrodCity_NameRatersHouse_Text_PleasedToRateMonNickname
+はいはい！　わたしは\nせいめい　はんだんし！\lなまえの　うらないしです！\pあなたの　ポケモンの　ニックネームを\nうらなって　さしあげましょう
+@@GoldenrodCity_NameRatersHouse_Text_CritiqueWhichMonNickname
+どの　ポケモンの　ニックネームを\nうらないますか？
+@@GoldenrodCity_NameRatersHouse_Text_FineNameSuggestBetterOne
+ふむ‥　{STR_VAR_1}　ですか？\nなかなか　いい　なまえを\lつけましたね\pでも！　もうすこし　いい　なまえを\nつけて　みませんか？
+@@GoldenrodCity_NameRatersHouse_Text_WhatShallNewNameBe
+よろしい　では　あたらしい\nニックネームは？
+@@GoldenrodCity_NameRatersHouse_Text_MonShallBeKnownAsName
+できました！　これからは　この\nポケモンは　{STR_VAR_1}です！\pまえより　ずっと　いい　なまえ！\nよかったですね！
+@@GoldenrodCity_NameRatersHouse_Text_DoVisitAgain
+そうですか\nまた　おこし　ください
+@@GoldenrodCity_NameRatersHouse_Text_NameNoDifferentYetSuperior
+できました！　これからは　この\nポケモンは　{STR_VAR_1}です！\pみためは　かわりませんが\nずっと　すぐれた　なまえです！\pよかったですね！
+@@GoldenrodCity_NameRatersHouse_Text_MagnificentName
+ふむ‥　{STR_VAR_1}　ですか！\pすばらしい　ニックネームです！\nけちの　つけようが　ありません！\pこれからも　{STR_VAR_1}を\nだいじに　して　くださいね
+@@GoldenrodCity_NameRatersHouse_Text_ThatIsMerelyAnEgg
+まあ　まあ\nそれは　ただの　タマゴですよ！
+## data/maps/GoldenrodCity_House2_hns/scripts.inc
+@@GoldenrodPPSpeechHouse_Text_Man
+しょうぶ　ちゅうに　ポケモンが\nわざを　だせなく　なった\lことが　あるんだ\pわざの　パワーポイント\nつまり　PPが\lなくなって　いたんだ
+@@GoldenrodPPSpeechHouse_Text_Lass
+げんきな　ポケモンでも　わざが\nだせない　ことが　あるの\pそんな　ときは　ポケモンセンターで\nかいふく　するか　どうぐを\lつかってね
+## data/maps/GoldenrodCity_House3_hns/scripts.inc
+@@GoldenrodHappinessRater_Text_PokefanM
+しょうぶに　まけて　ばかりで\nポケモンが　たおれて　しまう‥\pだから　ポケモンに\nなつかれないのかなあ‥
+@@GoldenrodHappinessRater_Text_Twin
+ポケモンに　どうぐを　つかうと\nすっごく　よろこぶの！
+## data/maps/GoldenrodCity_BillsHouse_hns/scripts.inc
+@@BillHouse_Text_TakeThisEevee
+マサキ『おお　{PLAYER}！　ひとつ\nたのみが　あるんや　この\lイーブイ　もらって　くれへん？\pわいが　システムの　しごとで\nるすの　あいだ　あずかってたんや\pだれかが　せわ　せなあかんけど\nわい　そとに　でるの\lすきや　ないねん\p{PLAYER}　こいつと　あそんで\nやって　くれるか？
+@@BillHouse_Text_CountingOnYou
+マサキ『そう　いうと　おもてたわ！\pさすがや！　ほんまもんやな！\pほな　たのんだで\pだいじに　したってな！
+@@BillHouse_Text_ReceivedEevee
+{PLAYER}は\nイーブイを　もらった！
+@@BillHouse_Text_EeveeMayEvolve
+マサキ『ウツギはかせが　いうには\nイーブイは　まだ　しられて　へん\lしんかを　するかも　しれんらしい
+@@BillHouse_Text_PartyFull
+おっと　まち　もう\nポケモン　もたれへんで
+@@BillHouse_Text_NoEevee
+そうか‥　どないしよ？
+@@BillHouse_Text_PopWontWork
+マサキ『うちの　おやじ\nぜんぜん　はたらかへんねん\lいちにちじゅう　あそんでばっかり\pほんま　あたま　いたいわ‥
+@@BillHouse_Text_MomBeforeEcruteak
+あら　ポケモンを　あつめてるの？\nむすこの　マサキは　くわしいわよ\pちょうど　エンジュシティの\nポケモンセンターに\lよばれて　いったのよ\pうちの　ひとは　よばれても\nいないのに　ゲームコーナーへ‥
+@@BillHouse_Text_MomAfterEcruteak
+うちの　ひと　むかしは\nポケモンマニアで　ゆうめい\lだったのよ\pマサキは　ちちおやに\nにたのね
+@@BillHouse_Text_SisterUsefulNumber
+あなた　トレーナー？\pやくに　たつ　でんわばんごうを\nおしえて　あげる
+@@BillHouse_Text_RecordedBillsNumber
+{PLAYER}は　マサキの\nでんわばんごうを　とうろく　した
+@@BillHouse_Text_SisterRefusedNumber
+あにが　パソコンで　ポケモンを\nあずける　システムを　つくったの\pマサキの　ばんごうを\nおしえようと　したのに‥
+@@BillHouse_Text_SisterPhoneFull
+もう　ばんごうを\nとうろく　できないわね
+@@BillHouse_Text_SisterStorageSystem
+おにいちゃんの　マサキが　パソコンで\nポケモンを　あずける　システムを\lつくったの
+## data/maps/GoldenrodCity_BikeShop_hns/scripts.inc
+@@GoldenrodCity_BikeShop_Text_Clerk2
+バッグで　とうろく　しておけば\nボタン　ひとつで　じてんしゃに\lのれるよ\pもっと　はやく　はしりたいなら\nまず　とまらないと　いけない！\pへんな　アドバイスに　きこえる\nけど　ギアは　とまっている\lときしか　かえられないんだ\pとまっている　ときに　Rボタンを\nおせば　つぎに　こいだ　とき\lもっと　はやく　はしれるよ！
+@@GoldenrodCity_BikeShop_Text_ClerkIntro
+‥はあ‥　ひっこして　きたけど\nじてんしゃが　うれないんだ\lなんで　だろう？\pじてんしゃに　のって\nせんでん　して　くれないか？
+@@GoldenrodCity_BikeShop_Text_ClerkAgreed
+ほんとうかい？　たすかるよ！\pなまえと　でんわばんごうを\nおしえて　くれたら\lじてんしゃを　かして　あげるよ
+@@GoldenrodCity_BikeShop_Text_BorrowedBicycle
+{PLAYER}は\nじてんしゃを　かりた
+@@GoldenrodCity_BikeShop_Text_Mainshop
+カントーから　ひっこして　きて\nしょうばいが　たいへんでね\lてつだって　くれて　ありがとう！\pうちの　とっきょの　ギアチェンジを\nみせびらかして　きてね\pじてんしゃで　とまっている\nときに　Rボタンを　おすだけ\pきをつけて！　すごく\nはやく　なるからね！
+@@GoldenrodCity_BikeShop_Text_Refused
+‥はあ‥　ひとの　やさしさが\nほしいなあ‥
+@@GoldenrodCity_BikeShop_Text_JustReleasedCompact
+しんはつばい！\pこうせいのうの　おりたたみ\nじてんしゃ！
+@@GoldenrodCity_BikeShop_Text_Bicycle
+ピカピカの　あたらしい\nじてんしゃだ！
+## data/maps/GoldenrodCity_GameCorner_hns/scripts.inc
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_TM44
+ねむる{CLEAR_TO 0x58}2000まい
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_TM90
+みがわり{CLEAR_TO 0x58}2000まい
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_TM75
+つるぎのまい{CLEAR_TO 0x58}3000まい
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_TM13
+れいとうビーム{CLEAR_TO 0x58}4000まい
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_TM24
+10まんボルト{CLEAR_TO 0x58}4000まい
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_TM35
+かえんほうしゃ{CLEAR_TO 0x58}4000まい
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_Cancel
+やめる
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_SoYourChoiceIsTM
+{STR_VAR_1}の\n{STR_VAR_2}で　よろしいですか？
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_YouAlreadyHaveThis
+その　どうぐは　もう\nおもちですね
+@@GoldenrodCity_GameCorner_PrizeRoom_Text_YouWantPrize
+{STR_VAR_1}で　よろしいですか？
+@@GoldenrodCity_GameCorner_Text_PlayerObtainedTheMon
+{PLAYER}は\n{STR_VAR_1}を　てにいれた！
+@@GoldenrodGamecorner_Text_GiveNicknameToThisMon
+{STR_VAR_1}に　ニックネームを　つける？
+@@GoldenrodCity_GameCorner_Text_PrizeVendorIntro
+いらっしゃいませ！\pコインを　すてきな　けいひんと\nこうかん　いたします！
+@@GoldenrodCity_GameCorner_Text_PrizeVendorWhichPrize
+どの　けいひんに\nなさいますか？
+@@GoldenrodCity_GameCorner_Text_PrizeVendorHereYouGo
+はい　どうぞ！
+@@GoldenrodCity_GameCorner_Text_PrizeVendorNeedMoreCoins
+もうしわけ　ありません！\nコインが　たりません
+@@GoldenrodCity_GameCorner_Text_PrizeVendorNoMoreRoom
+もうしわけ　ありません\nもう　もてないようです
+@@GoldenrodCity_GameCorner_Text_PrizeVendorQuit
+わかりました　コインを　ためて\nまた　おこし　ください！
+@@GoldenrodCity_GameCorner_Text_PrizeVendorNoCoinCase
+あら？　コインケースを\nおもちで　ないですね
+@@GoldenrodCity_GameCorner_Text_Pharmacist
+いつも　この　スロットで\nあそんでるんだ　ほかより\lよく　でる　きが　するんだ
+@@GoldenrodCity_GameCorner_Text_Woman
+かちが　とまらない！
+@@GoldenrodCity_GameCorner_Text_PokefanM1
+この　あたらしい　スロットが\nだいすきでね\pタマムシの　スロットより\nてごたえが　あるんだ
+@@GoldenrodCity_GameCorner_Text_CooltrainerM
+じんせいは　ギャンブルさ\nたおれるまで　まわすぞ！
+@@GoldenrodCity_GameCorner_Text_PokefanF
+ルーレット‥\pスロットより　かくりつが\nよみやすいから　すきなの\pでも　はいとうが\nずっと　すくないのよね
+@@GoldenrodCity_GameCorner_Text_CooltrainerF
+かつまで　やめないわ！
+@@GoldenrodCity_GameCorner_Text_Gentleman
+ポケモンに　れいとうビームを\nおしえたんだ\pコインを　あつめるのは\nたいへん　だったが\lその　かちは　あったよ
+@@GoldenrodCity_GameCorner_Text_PokefanM2
+スロットで　かてず\nルーレットでも　すっちまった\pあたまに　きて　ちかつうろに\nコインケースを\lすてちまったよ
+@@GoldenrodCity_GameCorner_Text_MoveTutorInside
+わははは！　コインが\nどんどん　たまるぞ！
+@@GoldenrodCity_GameCorner_Text_LeftTheirDrink
+だれかが　のみものを\nわすれて　いった\pあまい　においが　する
+@@GoldenrodCity_GameCorner_Text_VF_OptPlay
+あそぶ
+@@GoldenrodCity_GameCorner_Text_VF_OptGameInfo
+せつめい
+@@GoldenrodCity_GameCorner_Text_VF_OptQuit
+やめる
+@@GoldenrodCity_GameCorner_Text_VF_OptHowToPlay
+あそびかた
+@@GoldenrodCity_GameCorner_Text_VF_OptHint
+ヒント
+@@GoldenrodCity_GameCorner_Text_VF_OptAboutNotes
+メモに　ついて
+@@GoldenrodCity_GameCorner_Text_VF_OptReturn
+もどる
+@@GoldenrodCity_GameCorner_Text_VF_Welcome
+ビリリダマ　フリップへ　ようこそ！\p
+@@GoldenrodCity_GameCorner_Text_VF_PlayLevel
+ビリリダマ　フリップ　レベル{STR_VAR_1}で\nあそびますか？
+@@GoldenrodCity_GameCorner_Text_VF_GameClear
+ゲームクリア！\pかくれた　×2と　×3の\nカードを　ぜんぶ　みつけた！
+@@GoldenrodCity_GameCorner_Text_VF_ReceivedCoins
+コインを　{STR_VAR_1}まい\nてにいれた！
+@@GoldenrodCity_GameCorner_Text_VF_Advanced
+ゲームレベル{STR_VAR_1}に　あがった！
+@@GoldenrodCity_GameCorner_Text_VF_OhNo
+ざんねん！　コインは　0まい！
+@@GoldenrodCity_GameCorner_Text_VF_Dropped
+ゲームレベル{STR_VAR_1}に　さがった
+@@GoldenrodCity_GameCorner_Text_VF_CoinCap
+コインが　9999まいに　なった\nもう　これいじょう　ためられない
+@@GoldenrodCity_GameCorner_Text_VF_WhichInfo
+どの　せつめいを　みる？
+@@GoldenrodCity_GameCorner_Text_VF_HowToPlay
+ビリリダマ　フリップは　カードを\nめくって　すうじを　さがす　ゲーム\pカードには　1から3の　すうじと\nビリリダマが　かくれている\pさいしょに　めくった　すうじの\nぶんだけ　コインが　もらえる\pつぎからは　めくった　すうじを\nかけていく　2なら×2　3なら×3\pでも　ビリリダマを　めくったら\nゲームオーバー　その　かいの\lコインは　ぜんぶ　なくなる！\pいつでも　やめれば　それまでの\nコインは　もらえるよ\p×2と　×3の　カードを　ぜんぶ\nみつけると　クリアで\lつぎの　レベルへ　すすめる！
+@@GoldenrodCity_GameCorner_Text_VF_HintText
+ばんの　はしの　すうじは\nその　れつや　ぎょうに\pかくれている　すうじの\nヒントだよ\pすうじが　おおきいほど\nたかい　カードが　おおい\pビリリダマの　かずは　その\nれつに　いくつ　ひそんで　いるか\pふたつの　ごうけいから\nあんぜんな　カードを　さがそう！
+@@GoldenrodCity_GameCorner_Text_VF_AboutNotes
+メモモード　{L_BUTTON}{R_BUTTON}で　カードに\n1から3か　ビリリダマの　しるしを\lつけられる\pわかった　カードに　しるしを\nつけて　たしかに　なったら\lめくろう\pもう　いちど　つけると\nしるしは　きえるよ
+@@GoldenrodCity_GameCorner_Text_VF_NeedCoinCase
+あら？　コインケースを\nおもちで　ないですね
+@@GoldenrodCity_GameCorner_Text_VFAttendant1
+ビリリダマ　フリップで　あそぶ？\pテーブルの　むこうがわに\nまわってね
+@@GoldenrodCity_GameCorner_Text_VFAttendant2
+テーブルの　むこうがわだよ
+## data/maps/GoldenrodCity_TrainStation_hns/scripts.inc
+@@GoldenrodMagnetTrainStation_Text_OfficerTrainHasntComeIn
+でんしゃが　こない‥\pそうだ！　おきゃくさんを\nせおって　はこぼう！\pむりだな
+@@GoldenrodMagnetTrainStation_Text_OfficerRightThisWay
+リニアパスを　はいけん\nします\pはい　どうぞ　こちらへ
+@@GoldenrodMagnetTrainStation_Text_OfficerNoRailPass
+もうしわけ　ありません\nリニアパスを　おもちで　ないですね
+@@GoldenrodMagnetTrainStation_Text_GentlemanPresident
+わたしが　しゃちょうだ\pどんな　ポケモンより　はやい\nでんしゃを　つくるのが\lゆめ　だったんだ\pジョウトと　カントーが\nぐっと　ちかく　なったよ
+@@GoldenrodCity_TrainStation_Text_Boy
+リニアパス　もってきたよね？
+@@GoldenrodCity_TrainStation_Text_Psychic
+きみが　もってると\nおもったのに！
+## data/maps/GoldenrodCity_RadioTower_1F_hns/scripts.inc
+@@RadioTower1F_Text_Whitney1
+アカネ『はーい！\pうち　アカネ！\pクイズで　ラジオカードが\nもらえるって　きいて\lきたんやけど‥\pこの　クイズ　めっちゃ\nむずかしいねん！
+@@RadioTower1F_Text_Whitney2
+アカネ『すごい　やったやん！\pみっつめの　こたえ　ぜったい\nぼんぐりや　おもてたわ！\lあちゃー！\pそろそろ　ジムに\nもどらな！
+@@RadioTower1F_Text_ReceptionistWelcome
+いらっしゃいませ！
+@@RadioTower1F_Text_ReceptionistNoTours
+こんにちは　もうしわけ\nありませんが　きょうは\lけんがくは　して　おりません
+@@RadioTower1F_Text_RadioCardWomanOfferQuiz
+ただいま　とくべつ　クイズ\nキャンペーンを　おこなって　います\p5もん　せいかい　すると\nポケギアの　ラジオカードが\lもらえます\pいつでも　どこでも\nおんがくが　きけますよ\pクイズに　ちょうせん\nしますか？
+@@RadioTower1F_Text_QuizQuestion1
+だい1もん\pひるま　だけ　あらわれる\nポケモンは　いる？
+@@RadioTower1F_Text_QuizQuestion2
+せいかい！\nだい2もん\pつぎの　ことは　ただしい？\pショップでは　きのみは　かえない
+@@RadioTower1F_Text_QuizQuestion3
+だいせいかい！\nだい3もん\pボールしょくにんの　ガンテツは\nぼんぐりを　ざいりょうに　つかう？
+@@RadioTower1F_Text_QuizQuestion4
+ここまで　ぜんもん　せいかい！\nだい4もん\pキキョウジムの　リーダー\nハヤトは　とりポケモンつかい？
+@@RadioTower1F_Text_QuizQuestion5
+すごい！　また　せいかい！\nさいごの　もんだい\pコガネの　ゲームコーナーの\nスロットに　ヒトカゲは　いる？
+@@RadioTower1F_Text_QuizWin
+ピンポーン！　せいかい！\nおめでとう　ございます！\pしょうひんの　ラジオカードです！
+@@RadioTower1F_Text_PokegearRadio
+{PLAYER}の　ポケギアで\nラジオが　きけるように　なった！
+@@RadioTower1F_Text_TuneIn
+わたしたちの　ラジオばんぐみも\nきいて　くださいね

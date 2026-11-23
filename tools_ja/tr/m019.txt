@@ -1,0 +1,495 @@
+## data/maps/MelemeleIsle_hns/scripts.inc
+@@Alola_Melemele_Picnicker_Text_0
+この　しまじまは　めずらしい\nポケモンで　いっぱい！\pぜんぶ　つかまえる　ために\nモンスターボールを\lかいこまなきゃ！
+## data/maps/AlolaWater_hns/scripts.inc
+@@Alola_MelemeleSea_TrainerBattleSwimmer_Text_0
+ここは　ひろい　うみ！
+@@Alola_MelemeleSea_TrainerBattleSwimmer_Text_1
+いたた\nあしが　つった‥
+@@Alola_MelemeleSea_TrainerBattleSwimmer_Text_2
+ここは　ながれが　つよいんだ\nつよい　ポケモンが\lあつまるんだと　おもう！
+## data/maps/UlaulaIsle_hns/scripts.inc
+@@Alola_Ulaula_BattlePalossand_Text_0
+シロデーン！
+@@Alola_Ulaula_MtLanikalaSign_Text_0
+この　やまは　アローラしょとうで\nいちばん　たかい　やま\lなので　じもとの　ひとから\lラナキラマウンテンと\lしたしまれて　いる\pほんとうの　なまえは\nわすれさられて　しまった
+@@Alola_Ulaula_UlaulaSign_Text_0
+ウラウラじま
+@@Alola_Ulaula_Phant_outside_Text_0
+やあ　{PLAYER}！\pぼくは　ゲームの　この\nぶぶんを　つくった\lかいはつしゃだよ！\pアローラの　あじみを\nたのしんで　くれたかな\pいま　ウルトラエクリプスと　いう\nアローラの　デメイクを\lつくって　いるんだ
+@@Alola_Ulaula_Phant_outside_Text_1
+この　しまの　てっぺんの\nぼくの　いえに　あそびに\lきてね\lいい　ことが　あるよ！
+@@Alola_Ulaula_TrainerBattlePicnicker_Text_0
+びっくりした？\nきの　なかに　いたの！
+@@Alola_Ulaula_TrainerBattlePicnicker_Text_1
+また　かくれよう‥
+@@Alola_Ulaula_TrainerBattlePicnicker_Text_2
+なにか　あかい　ものが\nそらを　とんで　いくのを\lみた　きが　するの\pポケモン　だったのかな？
+@@Alola_Ulaula_TrainerBattleYoungster_Text_0
+よし　ぼくが　いちばんに\nラナキラマウンテンに\lのぼるんだ！
+@@Alola_Ulaula_TrainerBattleYoungster_Text_1
+ほんものの　ラナキラ\nマウンテンじゃ　ないのに‥
+@@Alola_Ulaula_TrainerBattleYoungster_Text_2
+とうさんは　この　やまの\nほんとうの　なまえを\lおしえて　くれなかった\pずっと　ラナキラマウンテンって\nよんでるんだ
+@@Alola_Ulaula_TrainerBattleHiker_Text_0
+こんな　けわしい　みちを\nこえて　きたとは\lつよいな！
+@@Alola_Ulaula_TrainerBattleHiker_Text_1
+うっ　もっと\nきたえるんだった‥
+@@Alola_Ulaula_TrainerBattleHiker_Text_2
+ウラウラじまは　ハイキングに\nさいこう！\pアローラしょとうで　いちばん\nたかいから　じもとでは\lラナキラマウンテンと\lよんでるんだ！
+@@Alola_Ulaula_TrainerBattleCooltrainer_Text_0
+この　どうくつ　すごく\nくさい！　きを　まぎらわしに\lしょうぶ　しよう！
+@@Alola_Ulaula_TrainerBattleCooltrainer_Text_1
+しょうしゅうざいを\nもって　くるんだった‥
+@@Alola_Ulaula_TrainerBattleCooltrainer_Text_2
+あの　どうくつに　はいるなら\nはなを　つまんだ　ほうが\lいいよ
+@@Alola_Ulaula_LassNPC_Text_0
+しまの　まわりの　うみは\nほんとうに　きれい\pいちにちじゅう　ここで\nなみを　ながめて\lいられるわ
+@@Alola_Ulaula_Bench_Heal_Text_0
+この　ベンチで\nやすみますか？
+@@Alola_Ulaula_Text_MoveTutorIntro
+ぐおお！\nがあっ！\pおまえ！\pほかの　れんちゅうに\nいわれて　きたのか？\lわしが　わざの　たつじんだと\lきいたのか？\p‥‥‥‥‥‥‥‥\pしまの　わざを\nおしえて　やれるが\lまずは　れいを　もらう\pハートのウロコ　5まいだ\pもって　おるか？
+@@Alola_Ulaula_Text_MoveTutorPaid
+つまが　これを\nだいすき　でな\pこれからは　いつでも\nおしえて　やろう
+@@Alola_Ulaula_Text_MoveTutorNoScales
+ハートのウロコ　5まいだ\n4まい　じゃない\pいわを　くだいて　みろ\nポケモンでも　こぶしでも！
+@@Alola_Ulaula_Text_MoveTutorChoose
+どの　わざに　する？
+@@Alola_Ulaula_Text_MoveTutorConfirm
+{STR_VAR_1}を\nおぼえたいのか？
+@@Alola_Ulaula_Text_MoveTutorWhichMon
+どの　ポケモンに\nおぼえさせる？
+@@Alola_Ulaula_Text_MoveTutorDone
+みごと！\pおまえの　ポケモンは\nしまの　ちえを　えた
+@@Alola_Ulaula_Text_MoveTutorComeBack
+しまは　にげは　せん\nいつでも　こい
+@@Alola_Ulaula_Text_TutorMove_Acrobatics
+アクロバット
+@@Alola_Ulaula_Text_TutorMove_AuroraVeil
+オーロラベール
+@@Alola_Ulaula_Text_TutorMove_BrutalSwing
+ぶんまわす
+@@Alola_Ulaula_Text_TutorMove_Bulldoze
+じならし
+@@Alola_Ulaula_Text_TutorMove_Confide
+ないしょばなし
+@@Alola_Ulaula_Text_TutorMove_DazzlingGleam
+マジカルシャイン
+@@Alola_Ulaula_Text_TutorMove_DragonTail
+ドラゴンテール
+@@Alola_Ulaula_Text_TutorMove_EchoedVoice
+エコーボイス
+@@Alola_Ulaula_Text_TutorMove_FlameCharge
+ニトロチャージ
+@@Alola_Ulaula_Text_TutorMove_FrostBreath
+こおりのいぶき
+@@Alola_Ulaula_Text_TutorMove_Infestation
+まとわりつく
+@@Alola_Ulaula_Text_TutorMove_LeechLife
+きゅうけつ
+@@Alola_Ulaula_Text_TutorMove_LowSweep
+ローキック
+@@Alola_Ulaula_Text_TutorMove_Psyshock
+サイコショック
+@@Alola_Ulaula_Text_TutorMove_Quash
+さきおくり
+@@Alola_Ulaula_Text_TutorMove_Round
+りんしょう
+@@Alola_Ulaula_Text_TutorMove_Scald
+ねっとう
+@@Alola_Ulaula_Text_TutorMove_SkyDrop
+フリーフォール
+@@Alola_Ulaula_Text_TutorMove_SludgeWave
+ヘドロウェーブ
+@@Alola_Ulaula_Text_TutorMove_SmackDown
+うちおとす
+@@Alola_Ulaula_Text_TutorMove_SmartStrike
+スマートホーン
+@@Alola_Ulaula_Text_TutorMove_Snarl
+バークアウト
+@@Alola_Ulaula_Text_TutorMove_Venoshock
+ベノムショック
+@@Alola_Ulaula_Text_TutorMove_VoltSwitch
+ボルトチェンジ
+@@Alola_Ulaula_Text_TutorMove_WildCharge
+ワイルドボルト
+@@Alola_Ulaula_Text_TutorMove_WorkUp
+ふるいたてる
+@@Alola_Ulaula_Text_TutorMove_Cancel
+やめる
+## data/maps/Melemele_PlayerHouse_hns/scripts.inc
+@@Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_0
+アローラ　{PLAYER}くん！
+@@Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_1
+よく　きて　くれた！\nわたしの　ヴィラへ　ようこそ！\pアローラしょとうと　アローラちほうの\nにている　ところを　しらべる\lあいだ　ここに　いるんだ\pとくに　リージョンフォームと\nいう　げんしょうに\lきょうみが　あってね
+@@Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_2
+きみは　なかなか\nたのもしそうだ\pアローラしょとうの　ちょうさを\nてつだって　もらうのに\lぴったりだ！\pしまじまを　くまなく　たんけん\nして　カントーの　ポケモンに\lにた　ポケモンを　みつけたら\lずかんを　みせに　きて　くれ！\pここで　しんちょくを\nまって　いるよ！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_0
+すごい！\nしまの　まもりがみを\lみたのか！\pすばらしいぞ　{PLAYER}くん\pあるいて　いたら\nこれを　みつけたんだ\pなにに　つかうかは\nわからないが　きみに\lあげよう
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_1
+まもりがみ　じきじきに\nおとずれるとは　アローラしょとうは\lほんとうに　とくべつなんだな！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_2
+けんきゅうを　てつだって\nくれて　ありがとう\l{PLAYER}くん！\pきみの　おかげで　アローラしょとうの\nりかいが　ずっと　ふかまった！\pこれからも　しまを　たんけん\nして　ひめられた　ひみつを\lみつけて　くれ！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_3
+アローラ　{PLAYER}くん！\pしまの　ぬしポケモンを\nぜんぶ　たおしたのかい？\pたいした　ものだ！\pそろそろ‥\pわたしたちも　しょうぶ\nしようじゃ　ないか？
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_4
+よし！\nてかげんは　しないよ！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_5
+すばらしい　{PLAYER}くん！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_6
+すごいね　{PLAYER}くん！\nほんとうに　つよい\lトレーナーだ！\pこの　しまじまの　ひみつを\nおしえるに　ふさわしい！\pアローラしょとうと　アローラちほうが\nそっくり　だと　きづいたのは\lわたしだけ　じゃ　ないんだ‥\pカプたち　まもりがみ　じしんが\nこの　しまを　おとずれて\lいるらしい\pしまの　うえを　とぶのを　みたら\nトーテムへ　いって　ごらん‥\lきみを　まって　いるかも！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_7
+どうしたんだ　{PLAYER}くん？\nさあ　たんけんに　いって\lおいで！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_8
+だいじょうぶ\n{PLAYER}くん！\pしょうぶの　じゅんびが\nできたら　また　おいで！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_9
+アローラ　{PLAYER}くん！\pアローラの　すがたの　ポケモンは\nぜんぶ　みつけた　ようだが\lぬしポケモンは　ぜんぶ\lたおしたかい？\pそれぞれの　しまの　ふしぎな\nはしらを　さがして　ごらん\lぬしポケモンが　まもって\lいる　はずだ！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_10
+やあ　{PLAYER}くん！\pアローラしょとうの　ちょうさは\nどうだい？\pどこかの　しまの　しんちょくを\nおしえて　くれるかい？
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_11
+メレメレじま
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_12
+アーカラじま
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_13
+ウラウラじま
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_14
+ポニじま
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_15
+いまは　いい
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_16
+ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_17
+すごいぞ　{PLAYER}くん！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_18
+メレメレじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_19
+ほかの　しまの　アローラの　すがたも\nぜんぶ　みつけた　ようだね！\pすばらしいぞ　{PLAYER}くん！\pじぶんを　ほこりに\nおもって　いいよ！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_20
+アローラの　すがたが　ぜんぶ\nアローラしょとうに　いると\lたしかめられたよ！\pもう　ひとつ　てつだって\nほしい　ことが　ある‥\pそれぞれの　しまの　トーテムを\nまもると　いわれる　ぬし\lポケモンを　しらべて　くれるかな？\pだが　きを　つけて！\nぬしポケモンは　ふつうの\lポケモンより　ずっと　つよい\pきみが　ふさわしい　あいてか\nだれかが　みて　いるかも\lしれないよ！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_21
+ほかの　しまも　たんけん　して\nしんちょくを　おしえてね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_22
+メレメレじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_23
+ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pメレメレじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pメレメレじまには　{COLOR RED}4{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}コラッタ{COLOR DARK_GRAY}　{COLOR RED}ラッタ{COLOR DARK_GRAY}　{COLOR RED}ニャース{COLOR DARK_GRAY}\n{COLOR RED}ペルシアン{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_24
+アーカラじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_25
+アローラの　すがたが　ぜんぶ\nアローラしょとうに　いると\lたしかめられたよ\pもう　ひとつ　てつだって\nほしい　ことが　ある‥\pそれぞれの　しまの　トーテムを\nまもると　いわれる　ぬし\lポケモンを　しらべて　くれるかな？\pだが　きを　つけて！\nぬしポケモンは　ふつうの\lポケモンより　ずっと　つよい\pきみが　ふさわしい　あいてか\nだれかが　みて　いるかも\lしれないよ！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_26
+アーカラじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_27
+ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pアーカラじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pアーカラじまには　{COLOR RED}4{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}ライチュウ{COLOR DARK_GRAY}　{COLOR RED}ガラガラ{COLOR DARK_GRAY}　{COLOR RED}ディグダ{COLOR DARK_GRAY}　{COLOR RED}ダグトリオ{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_28
+ウラウラじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_29
+ウラウラじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_30
+ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pウラウラじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pウラウラじまには　{COLOR RED}6{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}ロコン{COLOR DARK_GRAY}　{COLOR RED}キュウコン{COLOR DARK_GRAY}　{COLOR RED}サンド{COLOR DARK_GRAY}　{COLOR RED}サンドパン{COLOR DARK_GRAY}\n{COLOR RED}ベトベター{COLOR DARK_GRAY}　{COLOR RED}ベトベトン{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_31
+ポニじまに　すむ　アローラの\nすがたを　ぜんぶ　みつけたね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_32
+ポニじまの　アローラの　すがたは\nもう　ぜんぶ　みつけた\lみたいだね！\pよく　やった！\pほかの　しまも　たんけん　して\nしんちょくを　おしえてね！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_33
+ずかんを　みせて\nもらおう{PAUSE 15}‥{PAUSE 15}‥{PAUSE 15}‥\pポニじまの　アローラの　すがたは\nまだ　ぜんぶ　みつけて\lいない　ようだね\pポニじまには　{COLOR RED}4{COLOR DARK_GRAY}しゅるいの\nアローラの　すがたが　いる‥\p{COLOR RED}イシツブテ{COLOR DARK_GRAY}　{COLOR RED}ゴローン{COLOR DARK_GRAY}　{COLOR RED}ゴローニャ{COLOR DARK_GRAY}\n{COLOR RED}ナッシー{COLOR DARK_GRAY}だ\pさがし　つづけて　ぜんぶ\nつかまえたら　また　おいで！
+@@Alola_Melemele_SamsonOakVilla_Dialogue_Text_34
+だいじょうぶ\n{PLAYER}くん！\pアローラしょとうの　はっけんを\nおしえたく　なったら\lまた　おいで！
+## data/maps/Melemele_House_hns/scripts.inc
+@@Alola_Melemele_Pokecenter_Text_Swimmer
+ああ　しまの　ばしょが\nおぼえられない！\pいつも　ごちゃまぜに\nなっちゃう！\pこの　ちずが　あって\nたすかったわ！
+@@Alola_Melemele_Pokecenter_AceTrainer_Text_0
+めずらしい　ポケモンが\nいっぱい！　ぜんぶ\lつかまえるぞ！
+@@Alola_Melemele_Pokecenter_BugCatcher_Text_0
+しまで　みた　ことの　ない\nポケモンを　みつけたんだ！\pこの　コラッタも\nあたらしい　ともだち！
+@@Alola_Melemele_Pokecenter_Grubbin_Text_0
+グルル！
+@@Alola_Melemele_Pokecenter_Jessica_Text_WantToTrade
+ここの　{STR_VAR_2}は\nほんどの　ものとは　ちがうのよ\pわたしの　{STR_VAR_2}と\nこうかん　しない？
+@@Alola_Melemele_Pokecenter_Jessica_Text_TakeCare
+ありがとう！\nトリー　げんきでね！
+@@Alola_Melemele_Pokecenter_Jessica_Text_DeclineTrade
+こうかん　しないの？\nざんねん‥
+@@Alola_Melemele_Pokecenter_Jessica_Text_TradeCompleted
+ねえ　まえの\nトリー　げんき？
+@@Alola_Melemele_Pokecenter_Map_Text_0
+{PLAYER}は　アローラしょとうの\nちずを　よく　みた
+## data/maps/Melemele_House_2_hns/scripts.inc
+@@Alola_Pokemart_Cook_Text_0
+ここの　マラサダは　おいしいよ\nアローラの　ほんものと\lおなじだ！
+@@Alola_Pokemart_BaldMan_Text_0
+ひやけどめを　さがしてるんだ！\pしまは　ひざしが\nつよいからね！
+## data/maps/Melemele_House_3_hns/scripts.inc
+@@Melemele_House3_Woman_Text_0
+しまの　くらしは\nとても　のどか！\pカントーの　まごたちにも\nふねで　すぐ　あえるしね！
+@@Melemele_House3_Man_Text_0
+かんこうきゃく　ばかりだ！\pふどうさんやは　しずかな\nところと　いってたが‥\lアローラまで　いくより\lやすいから　くるんだな
+## data/maps/Melemele_House_4_hns/scripts.inc
+@@Melemele_House4_Man_Text_0
+アローラしょとうで\nバカンス　ちゅう！\pアローラちほう　そっくり\nなのに　カントーから\lちかい！\pりょひが　すごく\nうかったよ！
+@@Melemele_House4_Woman_Text_0
+かれが　アローラへ\nいこうって　いったの‥\pてっきり　アローラちほうだと\nおもってた　カントーの\lちいさな　しまじゃ　なくて
+## data/maps/Melemele_House_5_hns/scripts.inc
+@@Melemele_House5_Mom_Text_0
+むすこの　ヨウと\nアローラちほうへ\lひっこそうと　おもってるの\pまずは　この　しまで\nおためし　なのよ！
+@@Melemele_House5_Son_Text_0
+へへ‥　おにごっこ\nたのしい！
+@@Melemele_House5_Son_Text_1
+つかまえて　みろ\nニャース！
+@@Melemele_House5_Cat_Text_0
+ニャーーーーーオ！！
+## data/maps/Melemele_House_6_hns/scripts.inc
+@@Melemele_House6_Hiker_Text_0
+むすこと　アウトドアを\nたのしむ　ために　ここを\lかったのに‥\pむすこは　ゲームボーイ\nアドバンスで　あそんで\lばかりだ
+@@Melemele_House6_GameboyKid_Text_0
+ゲームボーイアドバンスで\nアローラちほうを　たんけん\lできる　ゲームが　あるんだ！\pほんもの　そっくり　なんだよ\pウルトラエクリプス\nつくったのは　ファントノミー！\pははっ　みて！\nこおりの　オンバーンに\lのってるんだ！
+## data/maps/Akala_House_hns/scripts.inc
+@@Alola_Akala_House_OldWoman_Text_0
+ネイティに　えさを　やるなと\nまいにち　いってるのに\lうちの　ひとは　きかないの！\pいつか　ぜったい　いえに\nつれて　かえって　くるわ！
+## data/maps/UlaUla_House_hns/scripts.inc
+@@Alola_Ulaula_House_Phant_Text_0
+ようこそ　{PLAYER}\pあそんで　くれて\nあらためて　ありがとう！
+@@Alola_Ulaula_House_Phant_Text_1
+じゅんびは　いいかな‥\nがんばって
+@@Alola_Ulaula_House_Phant_Text_2
+おめでとう　{PLAYER}！
+@@Alola_Ulaula_House_Phant_Text_3
+これを　もらう　しかくが\nあると　おもうよ
+@@Alola_Ulaula_House_Phant_Text_4
+ファントノミーから\nタマゴを　もらった！
+@@Alola_Ulaula_House_Phant_Text_5
+その　タマゴには　ぼくの\nいちばん　すきな　ポケモンが\lはいってる\pだいじに　してね‥
+@@Alola_Ulaula_House_Phant_Text_6
+だいじょうぶ　{PLAYER}\nじゅんびが　できたら\lまた　きてね‥
+@@Alola_Ulaula_House_Phant_Text_7
+アローラの　あじみを\nたのしんで　くれたかな\pいま　ウルトラエクリプスと　いう\nアローラの　デメイクを\lつくって　いるんだ
+@@Alola_Ulaula_House_Noivern_Text_0
+キィー！
+@@Alola_Ulaula_House_Typholosion_Text_0
+グワァ！
+## data/maps/Poni_Cave_hns/scripts.inc
+@@Alola_Poni_BattleGolem_Text_0
+ガアアッ！
+## data/maps/Akala_Forest_hns/scripts.inc
+@@Alola_AkalaForest_TrainerBattleBugCatcher1_Text_0
+しまには　かっこいい\nむしが　いっぱい！
+@@Alola_AkalaForest_TrainerBattleBugCatcher1_Text_1
+いたっ　さされた！
+@@Alola_AkalaForest_TrainerBattleBugCatcher1_Text_2
+しまは　ほかの　りくから\nとおいから　むしポケモンも\lかんきょうに　あわせて\lかわったんだね
+@@Alola_AkalaForest_TrainerBattleBugCatcher2_Text_0
+つかまえたの\nみてよ！
+@@Alola_AkalaForest_TrainerBattleBugCatcher2_Text_1
+あーあ　かまれた！
+@@Alola_AkalaForest_TrainerBattleBugCatcher2_Text_2
+アローラしょとうは　きこうが\nすこし　ちがうんだ‥\pだから　めずらしい　むし\nポケモンが　いるんだと　おもう
+@@Alola_Akala_BattleRaichu_Text_0
+ガアアッ！
+## data/maps/UlaUla_Cave_hns/scripts.inc
+@@Alola_Ulaula_BattleSandslash_Text_0
+グアアッ！
+## data/maps/UlaUla_Forest_hns/scripts.inc
+@@Alola_Ulaula_TotemBattle_Text_0
+グアアッ！
+@@Alola_Ulaula_TotemBattle_Text_1
+ぬしの　モジャンボを　たおした！\nどこかへ　にげて　いった‥
+@@Alola_Ulaula_TotemBattle_Text_2
+グアアッ！
+@@Alola_Ulaula_TotemBattle_Text_3
+ぬしの　オコリザルを　たおした！\nどこかへ　にげて　いった‥
+@@Alola_Ulaula_Totem_sign_Text_0
+トーテムから　つよい\nエネルギーが　でている‥\pトーテムに　さわって　ほかの\nしまへ　ワープしますか？
+@@Alola_Ulaula_Totem_sign_Text_1
+メレメレじま
+@@Alola_Ulaula_Totem_sign_Text_2
+アーカラじま
+@@Alola_Ulaula_Totem_sign_Text_3
+ウラウラじま
+@@Alola_Ulaula_Totem_sign_Text_4
+ポニじま
+@@Alola_Ulaula_Totem_sign_Text_5
+やめる
+@@Alola_Ulaula_Totem_sign_Text_6
+ふしぎな　トーテムが　たっている\nちからが　あふれでている‥
+@@Alola_Ulaula_BattleVsTapuBulu_Text_0
+ブルルー！
+## data/maps/UlaUla_Cave_2_hns/scripts.inc
+@@Alola_Ulaula_BattleMuk_Text_0
+ガアアッ！
+## data/maps/Akala_Cave_hns/scripts.inc
+@@Alola_Melemele_BattleMarowak_Text_0
+ガアッ！
+@@Alola_Melemele_BattleDugtrio_Text_0
+ダグ　ダグ！
+@@Alola_AkalaCave_TrainerBattleHiker_Text_0
+ここまで　のぼって　くるとは\nつよいに　ちがいない！
+@@Alola_AkalaCave_TrainerBattleHiker_Text_1
+おれより　つよい！
+@@Alola_AkalaCave_TrainerBattleHiker_Text_2
+あつすぎて　のぼるのを\nやめたんだ\pまるで　だれかが　ちょうじょうで\nひを　たいてる　みたいだ‥
+@@Alola_AkalaCave_TrainerBattlePicnicker_Text_0
+あるき　つかれちゃった\nしょうぶ　しましょ！
+@@Alola_AkalaCave_TrainerBattlePicnicker_Text_1
+ああ　すっきり　した！
+@@Alola_AkalaCave_TrainerBattlePicnicker_Text_2
+ふだんは　こんなに　つかれないけど\nこの　どうくつの　あつさは\lこたえるわ！
+@@Alola_AkalaCave_TrainerBattleCamper_Text_0
+みてよ！\nつよい　ポケモンを\lつかまえたんだ！
+@@Alola_AkalaCave_TrainerBattleCamper_Text_1
+わるくない　けど\nまだまだだね！
+@@Alola_AkalaCave_TrainerBattleCamper_Text_2
+ここ　あつくない？\nそれとも　ぼく　だけ？
+## data/maps/SnowsweptCavern_hns/scripts.inc
+@@Snowswept_Cavern_Text_DroppedItem
+カイリキーが　どうぐを\nおとした‥
+@@Snowswept_Text_Machamp_Cry
+リキーーッ！！
+@@Snowswept_Text_Machamp_Plate
+カイリキーが　てに　プレートを\nもっている　ようだ\pたたかいますか？
+## data/maps/NewSinjoh_HotSprings_hns/scripts.inc
+@@NewSinjoh_HotSprings_Text_MualaniBefore
+じもとの　ひとか　かんこうきゃくか\nですって？　しつれいね！\pしいて　いえば\nじもとの　ものよ\pうちの　いちぞくは　さいしょに\nこの　おんせんを　たのしんだ\lひとたちなの\pほら　その　あかしに\nしずくプレートも　あるわ
+@@NewSinjoh_HotSprings_Text_MualaniBeforeBattle
+まって‥\pでんせつの　ポケモンを　しずめる\nのに　しずくプレートが\lいるの？\pまいこはんが　みとめた　なら\nわたしも　みとめるわ\pでも　じぶんの　ちからで\nてに　いれなさい
+@@NewSinjoh_HotSprings_Text_MualaniDefeat
+みごとね
+@@NewSinjoh_HotSprings_Text_MualaniAfter
+この　プレートを　てばなすのは\nつらいけど\pじょうきょうが　かわれば\nわたしたちも　かわらなきゃ\lいけないわね\pプレートは　あなたの　ものよ
+@@NewSinjoh_HotSprings_Text_Sign1
+ニューシンジョウ\nおんせん
+@@NewSinjoh_HotSprings_Text_Sign2
+きけん\nやせいの　とうみん　あな
+@@NewSinjoh_HotSprings_Text_SkierF
+さむいの　きらい！\pおんせん　めあてで\nきたのよ！
+@@NewSinjoh_HotSprings_Text_SkierM
+スノーボードを　しに\nきたのに　かのじょは\lいちにちじゅう　おんせんに\lつかってたいって！
+@@NewSinjoh_HotSprings_Text_OldLady
+うちの　ひとは　ほっといて\pなやみも　とかして\nしまいなさい
+@@NewSinjoh_HotSprings_Text_CreepyMan
+うう‥\pこの　おゆは　こしに\nまほうの　ように　きく\pきみも　こしが　いたいなら\nここに　いっしょに\lつかって　いきなよ‥
+@@NewSinjoh_HotSprings_Text_PLATutorIntro
+こだいの　ちからが\nこの　おんせんに\lながれて　いる\pわすれられた　じだいの　わざを\nポケモンに　おしえられるぞ\pきょうみは　あるか？
+@@NewSinjoh_HotSprings_Text_PLATutorChoose
+どの　わざに　する？
+@@NewSinjoh_HotSprings_Text_PLATutorConfirm
+{STR_VAR_1}を\nおぼえたいのか？
+@@NewSinjoh_HotSprings_Text_PLATutorWhichMon
+どの　ポケモンに\nおぼえさせる？
+@@NewSinjoh_HotSprings_Text_PLATutorDone
+できた！　おまえの　ポケモンは\nこだいの　わざを\lみにつけた
+@@NewSinjoh_HotSprings_Text_PLATutorComeBack
+いつでも　くるがよい
+@@NewSinjoh_HotSprings_Text_PLAMove_VictoryDance
+しょうりのまい
+@@NewSinjoh_HotSprings_Text_PLAMove_MountainGale
+ひょうざんおろし
+@@NewSinjoh_HotSprings_Text_PLAMove_BitterMalice
+うらみつらみ
+@@NewSinjoh_HotSprings_Text_PLAMove_SpringtideStorm
+はるのあらし
+@@NewSinjoh_HotSprings_Text_PLAMove_LunarBlessing
+みかづきのいのり
+@@NewSinjoh_HotSprings_Text_PLAMove_BleakwindStorm
+こがらしあらし
+@@NewSinjoh_HotSprings_Text_PLAMove_WildboltStorm
+かみなりあらし
+@@NewSinjoh_HotSprings_Text_PLAMove_SandsearStorm
+ねっさのあらし
+@@NewSinjoh_HotSprings_Text_PLAMove_Shelter
+たてこもる
+@@NewSinjoh_HotSprings_Text_PLAMove_EsperWing
+オーラウイング
+@@NewSinjoh_HotSprings_Text_PLAMove_TakeHeart
+ブレイブチャージ
+@@NewSinjoh_HotSprings_Text_PLAMove_MysticalPower
+しんぴのちから
+@@NewSinjoh_HotSprings_Text_PLAMove_WaveCrash
+ウェーブタックル
+@@NewSinjoh_HotSprings_Text_PLAMove_PowerShift
+パワーシフト
+@@NewSinjoh_HotSprings_Text_PLAMove_Cancel
+やめる
+## data/maps/Route49_hns/scripts.inc
+@@Route49_Text_SkylarDefeat
+わかった　プレートは\nあげるよ
+@@Route49_Text_SkylarAfter
+あの　プレートは　かっこいい\nけど　きみが　せいせいどうどう\lかちとった　ものだ\pかわりに　おみやげやで\nなにか　かうよ
+@@Route49_Text_SkylarBeforeBattle
+え？\pプレートが　ほしい？\nでんせつの　ポケモンと\lかかわる　こだいの　ちからを\lひめた　いぶつ　だって？！\pそれなら　なおさら\nてばなせないよ\pしかたない\pしょうぶで　かちとって\nもらおう
+@@Route49_Text_SkylarBefore
+スキーで　すべってたら\nなにかに　ひっかかったんだ\pこの　ふしぎな　そらいろの\nプレート　だったよ\pおみやげに　とって\nおこうっと！
+@@Route49_Text_SkierM
+おい　ボードに\nきを　つけて！\pえ？　しょうぶ？\nむりむり　この　さかは\lけわしすぎる！
+@@Route49_Text_KimonoGirl
+あなたは‥\pあなたが　{PLAYER}さん\nですね？　エンジュシティの\lいとこたちから　あなたの\lことは　うかがって　います\pしまいたちが　あなたに\nあいたがって　います\lおじかんが　あれば\lこの　さきの　むらへ\lおこし　ください
+@@Route49_Text_Sign
+かんばんの　もじが\nかすれている\l49ばんどうろ
+## data/maps/Route50_hns/scripts.inc
+@@Route50_Text_BlackBelt1
+もっとも　きびしい　かんきょうで\nからだを　きたえ\lこころを　つよく　するのだ！
+@@Route50_Text_BlackBelt2
+ふう！\pおれは　あいつほど\nストイックじゃ　ないよ\pここでは　しゅぎょう\nくらいしか　やる　ことが\lないんだ
+@@Route50_Text_WesselBefore
+すごい　ビリリダマだ！\pでも　これは‥\nき　で　できてる？\pこの　どうろには　はがねタイプが\nおおいと　いう　わたしの\lかせつは　また　はずれた\pでは　なぜ　ここで\nこうてつプレートを\lみつけたのか？\pもっと　データを\nあつめねば！
+@@Route50_Text_WesselBeforeBattle
+この　プレートが　ほしい？\nまだ　ぶんせき　して\lいないのに！\pいいだろう　しょうぶで\nきめよう
+@@Route50_Text_WesselDefeat
+かせつが\nまちがって　いた‥
+@@Route50_Text_WesselAfter
+プレートは　もって　いけ\nその　はなしは　したくない
+@@Route50_Text_FinleyBefore
+むらの　ひとたちの\nたいどは　どうだい？\pよそものには　とても\nつめたい　ことが　ある\pでも　あたらしい　ひとと\nであうのは　じんせいの\lおおきな　よろこびだ\pいつか　チャンピオンの\nワタルに　あいたい\pかれは　わたしと　おなじ\nでんせつの　ドラゴンつかい\lわたしが　だれかって？\pわたしは　フィンリー\nりゅうのプレートの\lまもりて　だ
+@@Route50_Text_FinleyBeforeBattle
+まいこはんに　いわれて\nプレートを　あつめて　いる\lのだろう\pふさわしいと　いうが‥\nわたしの　ドラゴンに\lかてるかな？
+@@Route50_Text_FinleyDefeat
+わたしの　ドラゴンは\nよく　たたかった
+@@Route50_Text_FinleyAfter
+きみなら　ワタルにも\nかてるかも　しれないな‥
+## data/maps/NewSinjoh_hns/scripts.inc
+@@NewSinjoh_Text_TriggerNorthGate
+まいこはんたちを\nまたせない　ほうが　いい
+@@NewSinjoh_Text_Stantler_Cry
+オドシー！
+@@NewSinjoh_Text_Steven
+ダイゴ『おくさん　あちらの\nおんせんまで　おつれ\lしましょうか？\pばしょは　まだ　たくさん\nあいて　いるようです
+@@NewSinjoh_MilkMan_text_BuyMilk
+わたしは　ミルクマン\pわたしの　ミルクは\nおいしいよ\pきょう　ほしい　なら\n500円だ
+@@NewSinjoh_MilkMan_GotMilk
+はい　どうぞ！\nせかいが　もとめる　ものが\lはいってるよ
+@@NewSinjoh_MilkMan_NoMoney
+わるいね\nおかねが　あれば\lうって　あげるよ！
+@@NewSinjoh_MilkMan_NoRoom
+バッグが　いっぱい\nみたいだね
+@@NewSinjoh_MilkMan_NoSale
+いらないの？\nせかいに　ふさわしい\lものが　はいってるのに
+@@NewSinjoh_MilkMan_Text_WouldYouLikeAnother
+もう　1ぽん　どう？
+@@NewSinjoh_Text_GotMilk
+{PLAYER}は\nモーモーミルクを　てにいれた
+@@MilkMan_Battle_text
+わたしは　ミルクマン\pわたしの　ミルクは\nおいしいよ\pきょうは　とくべつ\nはいたつだ！
+@@NewSinjoh_MilkMan_text_Lose
+この　せかいは\nかんぺき　だろう？
+@@NewSinjoh_Text_TravelShopGreeting
+ちいさな　よろずやへ\nようこそ\lなにに　しますか？
+@@NewSinjoh_Text_TravelShopEnd
+また　どうぞ
+@@NewSinjoh_Text_TravelBrother_Greeting
+うちの　しなものは　ぜんぶ\nてづくりで　じもと　さんです！\pおおきな　まちから　とおすぎて\nフレンドリィショップが\lみせを　だして　くれないので\lあねが　この　みせを\lひらいたんです
+@@NewSinjoh_Text_Josh
+ここ　さいこう！\pこの　おんせんを　せかいに\nかくしてる　なんて\lもったいない！\pともだち　みんなに\nおしえるぞ！
+@@NewSinjoh_Text_Janice
+おんせんは　すてき　だけど\nじもとの　ひとに　にらまれて\lいる　きが　するの
+@@NewSinjoh_Text_JaniceAfter
+おんせんは　すてきだし\nじもとの　ひとも　はなして\lみたら　とても　やさしいの！
+@@NewSinjoh_Text_OldLady1
+いい　けしきほど　としよりの\nこころを　げんきに\lする　ものは　ないねえ
+@@NewSinjoh_Text_OldLady2
+まったく　かんこうきゃくが\nおんせんを　ひとりじめ　して！\pさいきんは　わるい\nことばかり　つづくよ！
+@@NewSinjoh_Text_OldLady2Steven
+まあ　すてきな\nわかもの！\pかんこうきゃくも　そう\nわるくは　ない　かもね
+@@NewSinjoh_Text_OldLady3
+あの　ひとは　どうして\nおきゃくさんに　あんなに\lしつれい　なのかしら？\pおんせんに　つかって\nおちつけば　いいのに\pばしょは　みんなの　ぶん\nたくさん　あるわ
+@@NewSinjoh_Text_OldLady3After
+みんな　おたがいに\nなれて　きたみたいね\pよかった！
+@@NewSinjoh_Text_SpringsSage
+あたらしい　ひとびとが　きてから\nむらは　わかれ　あらそいが\lたえぬ\pどちらの　たちばで　あれ\nつりあいが　みだれて\lいるのは　あきらかじゃ\pじもとの　ものにも\nかんこうきゃくにも\lやさしく　して　おくれ

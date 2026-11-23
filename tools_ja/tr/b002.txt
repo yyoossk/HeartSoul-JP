@@ -1,0 +1,198 @@
+## data/scripts/bug_contest.inc
+@@BugContest_Text_Judging0
+たいかいは　しゅうりょう　しました\nしんさを　うけて　のこしたい\lポケモンを　えらんで　ください
+@@BugContest_Text_Judging1
+それでは　つかまえた　ポケモンの\nしんさを　はじめます\p‥‥‥‥‥‥‥‥‥\n‥‥‥‥‥‥‥‥‥\pじゅんいが　きまりました！\nじゅんびは　いいですか？
+@@BugContest_Text_WrongChoiceMon
+しんさを　うけて　のこしたい\nポケモンを　えらんで　ください
+@@BugContest_Text_DidntCatch
+あら！　ポケモンを　つかまえて\nいませんね　しっかくです\pあずかった　ポケモンを\nおかえし　します
+@@BugContest_Text_TimesUp
+ピンポーン！　じかんぎれです！
+@@BugContest_Text_WhiteOut
+{PLAYER}は　たたかえる\nポケモンが　いなくなった！\l{PLAYER}は　たいかいを　きけんした
+@@BugContest_Text_First1
+だい3いは　エリートトレーナーの\nベリンダさん！　ぴちぴちの\lバタフリーを　つかまえました！
+@@BugContest_Text_First2
+だい2いは　むしとりしょうねんの\nショーンくん！　あばれる\lカイロスを　つかまえました！
+@@BugContest_Text_First3
+むしとりたいかい　ゆうしょうは‥\p{PLAYER}さん！　みごとな\n{STR_VAR_1}を　つかまえました！
+@@BugContest_Text_Second1
+だい3いは　エリートトレーナーの\nベリンダさん！　ぴちぴちの\lバタフリーを　つかまえました！
+@@BugContest_Text_Second2
+だい2いは　{PLAYER}さん！\nあばれる　{STR_VAR_1}を\lつかまえました！
+@@BugContest_Text_Second3
+むしとりたいかい　ゆうしょうは‥\pむしとりしょうねんの　ショーンくん！\nみごとな　カイロスを　つかまえました！
+@@BugContest_Text_Third1
+だい3いは　{PLAYER}さん！\nぴちぴちの　{STR_VAR_1}を\lつかまえました！
+@@BugContest_Text_Third2
+だい2いは　エリートトレーナーの\nベリンダさん！　あばれる\lバタフリーを　つかまえました！
+@@BugContest_Text_Third3
+むしとりたいかい　ゆうしょうは‥\pむしとりしょうねんの　ショーンくん！\nみごとな　カイロスを　つかまえました！
+@@BugContest_Text_TakePartInFuture
+ごさんか　ありがとう　ございました！\nまた　ぜひ　さんか　してくださいね
+@@BugContest_Text_TransferAndReturn
+えらんだ　むしポケモンは\nパソコンに　おくられます\lあずかった　ポケモンを　おかえしします
+## data/scripts/safari_zone.inc
+@@SafariZone_Text_PokeblockGone
+{STR_VAR_1}は　ぜんぶ\nたべられて　しまった！
+@@SafariZone_Text_WouldYouLikeToExit
+いますぐ　サファリゾーンから\nでますか？
+@@SafariZone_Text_TimesUp
+ピンポーン！　じかんぎれです！\nサファリゲームは　しゅうりょうです
+@@SafariZone_Text_OutOfBalls
+サファリボールが　なくなりました\nサファリゲームは　しゅうりょうです
+@@SafariZone_Text_PlacePokeblockOnFeeder
+{POKEBLOCK}おきばに\n{POKEBLOCK}を　おきますか？
+@@SafariZone_Text_PokeblockStillHere
+まえに　おいた　{STR_VAR_1}が\nまだ　のこっている
+@@SafariZone_Text_PokeblockWasPlaced
+{STR_VAR_1}を　{POKEBLOCK}おきばに\nおいた
+@@SafariZone_South_Text_StillHaveTimeExit
+まだ　じかんが　のこっています\nもう　サファリゾーンから　でますか？
+@@SafariZone_South_Text_EnjoyTheRestOfYourAdventure
+のこりの　ぼうけんを\nたのしんで　くださいね！
+@@SafariZone_South_Text_ExitEarlyThankYouForPlaying
+わかりました\pのこった　サファリボールは\nおかえし　いただきます\pごりよう　ありがとう　ございました\nまた　おまちしています
+@@SafariZone_South_Text_GoodLuck
+がんばって　くださいね！\pなにか　あったら　えんりょなく\nおこえかけ　ください！
+## data/text/move_tutors.inc
+@@MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce
+この　わざは　1かいしか\nおしえられないけど　いい？
+@@MoveTutor_Text_SwaggerTeach
+へへっ！　おれの　ポケモンは　さいこう！\nどんな　ポケモンより　かっこいいぜ！\pって　いばってたら　かいちょうに\nしかられちまってさ\pすっかり　いばれなく　なっちまった\pよかったら　おまえの　ポケモンに\nいばるを　おしえて　やるぜ
+@@MoveTutor_Text_SwaggerDeclined
+え？　いらないの？\nノリが　わるいなあ
+@@MoveTutor_Text_SwaggerWhichMon
+よーし！　どの　ポケモンに\nいばるを　おしえる？
+@@MoveTutor_Text_SwaggerTaught
+これからは　いばらずに\nポケモンを　ほめることに　するよ
+@@MoveTutor_Text_RolloutTeach
+ここから　あっちの　ほうに\nずーっと　まっすぐ　いけるの\lしってた？\pぼく　あっちまで　ころがって\nいけちゃうかも\pきみの　ポケモンも　ころがって\nみたいって　おもうかな？\pよかったら　ころがるを\nおしえて　あげるよ！
+@@MoveTutor_Text_RolloutDeclined
+はずかしがらなくて　いいのに\nいっしょに　ころがろうよ！
+@@MoveTutor_Text_RolloutWhichMon
+えへへ　いいよ！　ポケモンが\nぼくに　にてくると　いいな
+@@MoveTutor_Text_RolloutTaught
+くさの　うえを　ころがると\nしあわせな　きぶんに　なるんだ\lさあ　いっしょに　ころがろう！
+@@MoveTutor_Text_FuryCutterTeach
+つづけて　つかうほど　つよくなる\nわざが　あるんだよ\pむしタイプの　わざで\nすっごく　かっこいいんだ\pれんぞくぎりって　いうんだ\nポケモンに　おしえて　あげようか？
+@@MoveTutor_Text_FuryCutterDeclined
+きみとは　きが　あわないみたい
+@@MoveTutor_Text_FuryCutterWhichMon
+やったー！\nどの　ポケモンに　おしえる？
+@@MoveTutor_Text_FuryCutterTaught
+わざが　れんぞくで　あたるか\nみてるだけで　ドキドキするよ！
+@@MoveTutor_MimicTeach
+おお　わかいの！\pわしも　わかいんじゃが　この　まちの\nおとしよりの　しゃべりかたを\lまねして　おるのじゃ\pどうじゃ　わかいの？　ものまねの\nわざを　おしえて　やろうか？
+@@MoveTutor_MimicDeclined
+なんじゃ！　ものまねを\nおしえたかったのに！
+@@MoveTutor_Text_MimicWhichMon
+ふぉっふぉっ！　よかろう！\nおしえたい　ポケモンを\lみせて　おくれ
+@@MoveTutor_Text_MimicTaught
+ものまねは　おくの　ふかい\nわざじゃ\pわしの　ように　かんぺきに\nつかいこなせるかのう‥？
+@@MoveTutor_Text_MetronomeTeach
+ほしい　ものが　いっぱい　あるの！\nでも　おこづかい　つかっちゃった‥\pゆびを　ふると　おかねが　でてくる\nまほうが　あったら　いいのにね\pよかったら　あなたの　ポケモンに\nゆびをふるを　おしえて　あげる\pおかねは　でないけど　ポケモンが\nゆびを　ふるよ　いい？
+@@MoveTutor_Text_MetronomeDeclined
+そっか　きが　かわったら\nまた　きてね
+@@MoveTutor_Text_MetronomeWhichMon
+いいよ！　おしえて　あげる！\nどの　ポケモンに　おしえる？
+@@MoveTutor_Text_MetronomeTaught
+ポケモンが　メトロノームみたいに\nゆびを　ふると　いろんな　いいことが\lおきるの\pわたしたちも　つかえたら\nいいのにね
+@@MoveTutor_Text_SleepTalkTeach
+ふん！　うちの　ばあさんは\nめざめるパワーで　おきておる\pわしの　ように　ひるねして\nねごとでも　いえば　いいのに\pかわりに　あんたの　ポケモンに\nねごとを　おしえてやろうか？
+@@MoveTutor_Text_SleepTalkDeclined
+ふん　そうか　あんたも\nめざめるパワーで　おきていたいのか‥
+@@MoveTutor_Text_SleepTalkWhichMon
+ほう　わかって　おるのう！\nどの　ポケモンに　おしえる？
+@@MoveTutor_Text_SleepTalkTaught
+ばあさんの　コインの　てじなは\nいちども　うまく　いかんかった\pねごとで　でも　うまく　いけば\nうれしいんじゃがのう‥
+@@MoveTutor_Text_SubstituteTeach
+やねの　うえから　ひろい　せかいを\nながめていると‥\pじぶんが　なんにんも　いて　いろんな\nじんせいを　たのしめたら　いいなって\lおもうの\pもちろん　むりな　はなしよね\nうふふ‥\pそうだ！　ポケモンに　みがわりを\nおぼえさせて　みない？
+@@MoveTutor_Text_SubstituteDeclined
+あら　いらないの？\pポケモンが　じぶんの　コピーを\nつくれる　わざ　なのよ
+@@MoveTutor_Text_SubstituteWhichMon
+うふふ‥\nどの　ポケモンに　みがわりを\lおしえる？
+@@MoveTutor_Text_SubstituteTaught
+にんげんは　じぶんの　じんせいを\nおもいっきり　たのしまなきゃ！\pあなたも　そう　なれると　いいわね！
+@@MoveTutor_Text_DynamicPunchTeach
+もう　やってられない！\pぜんぜん　だめだ！\pかくとうタイプの　トレーナーだから\nどんなに　がんばっても\lジムで　かてない！\pくそっ！　パンチ！　パンチ！　パンチ！\nパンチ！　パンチ！　パンチ！\pな　なんだよ　そんな　めで　みるなよ！\nじめんを　なぐってる　だけだって！\pそれとも　おまえの　ポケモンに\nばくれつパンチを　おしえてほしいか？
+@@MoveTutor_Text_DynamicPunchDeclined
+くそう！　おまえまで　ばかにするのか？\nパンチ！　パンチ！　パンチ！
+@@MoveTutor_Text_DynamicPunchWhichMon
+え？　いいの？　おまえ　いいやつだな！\nどの　ポケモンに　おしえる？
+@@MoveTutor_Text_DynamicPunchTaught
+その　ばくれつパンチで\nハナダジムで　かってくれよ！
+@@MoveTutor_Text_DoubleEdgeTeach
+はあ‥\pジムリーダーって\nほんとうに　すてきなの\pでも　そのぶん\nライバルも　おおいのよ\pすてみタックルの　ような　みりょく！\nわたしなんて　めにも　とまらない\pおねがい　あなたの　ポケモンに\nすてみタックルを　おしえさせて！
+@@MoveTutor_Text_DoubleEdgeDeclined
+そう‥\nあなたにまで　ことわられるなんて‥
+@@MoveTutor_Text_DoubleEdgeWhichMon
+じゃあ　どの　ポケモンに\nすてみタックルを　おしえる？
+@@MoveTutor_Text_DoubleEdgeTaught
+もう　こいに　いきるのは　やめ！\nわたし　つよく　なるわ！
+@@MoveTutor_Text_ExplosionTeach
+こんな　いなかで　くすぶってる\nつもりは　ないぜ\pみてろよ　とかいに　でて\nだいヒット　して　やるんだ\pほんきで　にんきの　だいばくはつを\nおこして　やるぜ！\pきいてたんなら　おまえの　ポケモンに\nだいばくはつを　おしえて　やるよ！
+@@MoveTutor_Text_ExplosionDeclined
+ぐあっ！　いなかもんだから\nことわるのか？
+@@MoveTutor_Text_ExplosionWhichMon
+よし！　だいばくはつだ！\nどの　ポケモンが　ばくはつしたい？
+@@MoveTutor_Text_ExplosionTaught
+ながいこと　ポケモンに　だいばくはつを\nおしえてきたけど　おれ　じしんは\lまだ　ばくはつ　できてない‥\pほんとうは　ここに　いたいのかもな‥
+@@MoveTutor_Text_HeadbuttTeach
+なに　してるかって？\pずつきで　きを　ゆらしてるんだ\pきみの　ポケモンも　ずつき\nしたいって　おもうかな？\pよかったら　ずつきを\nおしえて　あげるよ！　たのしいよ！
+@@MoveTutor_Text_HeadbuttWhichMon
+えへへ　いいよ！　ポケモンが\nぼくに　にてくると　いいな
+@@MoveTutor_Text_HeadbuttDeclined
+はずかしがらなくて　いいのに\nいっしょに　ずつきしようよ！
+@@MoveTutor_Text_HeadbuttTaught
+ずつきで　きを　ゆらすんだ\nときどき　ねてる　ポケモンが　おちてくるよ
+## data/text/pokedex_rating.inc
+@@PokedexRating_Text_HowIsPokedexComingAlong
+オーキド『よく　きたな！\nずかんの　ほうは　どうじゃ？\pどれ　みせて　ごらん
+@@PokedexRating_Text_SeenXOwnedY
+ずかんの　すすみぐあいは‥\pみつけた　ポケモン　{STR_VAR_1}ひき\nつかまえた　ポケモン　{STR_VAR_2}ひき\p{FONT_NORMAL}オーキドはかせの　ひょうか:
+@@PokedexRating_Text_LessThan10
+まだまだ　これからじゃな\pくさむらを　みかけたら　かたっぱし\nから　はいって　ポケモンを　さがそう！
+@@PokedexRating_Text_LessThan20
+なかなか　ちょうしが　でてきた\nようじゃな！\pじょしゅに　フラッシュの　ひでんマシンを\nわたしておいた　もらいに　いくのじゃ！
+@@PokedexRating_Text_LessThan30
+ずかんの　ページが　まだ\nすこし　さびしいのう！\pほかの　しゅるいの　ポケモンも\nつかまえて　みるのじゃ！
+@@PokedexRating_Text_LessThan40
+うむ　がんばって　いるのが\nよく　わかるぞ！\pじょしゅに　ダウジングマシンを\nわたしておいた　かならず　もらうのじゃ！
+@@PokedexRating_Text_LessThan50
+ずかん　なかなか　いい　ちょうしじゃ！\pじょしゅに　おまもりこばんを\nわたしておいた　もらって　おくのじゃ！
+@@PokedexRating_Text_LessThan60
+おお　ついに　50しゅるいを\nこえたか！\pじょしゅに　がくしゅうそうちを\nわたしておいた　もらいに　いくのじゃ！
+@@PokedexRating_Text_LessThan70
+ほっほう！　なかなか　りっぱな\nずかんに　なってきたぞ！
+@@PokedexRating_Text_LessThan80
+よし　よし！\pつりを　すれば　もっと　たくさん\nポケモンが　あつまるはずじゃ！
+@@PokedexRating_Text_LessThan90
+すばらしい！　さては‥　きみは\nものを　あつめるのが　すきじゃな？
+@@PokedexRating_Text_LessThan100
+かんしんした！\nさぞ　たいへん　だったじゃろう！
+@@PokedexRating_Text_LessThan110
+ついに　100しゅるいを　こえたか！\nなんと　すごい　うでまえじゃ！
+@@PokedexRating_Text_LessThan120
+しんかした　すがたの　ポケモンまで\nそろっとるのう！　すばらしい！
+@@PokedexRating_Text_LessThan130
+みごとじゃ！　ともだちと　こうかん\nして　もっと　あつめよう！
+@@PokedexRating_Text_LessThan140
+すばらしい！\nきみは　もう　りっぱな　プロじゃな！
+@@PokedexRating_Text_LessThan150
+もう　いうことは　なにもない！\nいまや　きみが　ポケモンはかせじゃ！
+@@PokedexRating_Text_Complete
+ずかんが　ついに　かんせいした！\nおめでとう！！
+@@PokedexRating_Text_NationalDexSeenXOwnedY
+そして　ぜんこくずかんは‥\pみつけた　ポケモン　{STR_VAR_1}ひき\nつかまえた　ポケモン　{STR_VAR_2}ひき
+@@PokedexRating_Text_LookForwardToFilledNationalDex
+ぜんこくずかんが　うまるのを\nたのしみに　しておるぞ！
+@@PokedexRating_Text_YouveCompletedDex
+ついに‥\pついに　ずかんを\nかんせい　させたのか！\pすばらしい！\nまさに　だいかいきょじゃ！
+@@PokedexRating_Text_Wroooaaarrr
+うおおおおおおおおっ！
+@@PokedexRating_Text_ThankYouMadeDreamReality
+{PLAYER}！　ありがとう！\nほんとうに　ありがとう！\lわしの　ゆめを　かなえて　くれた！
+@@PokedexRating_Text_LoveSeeingYourPokedex
+オーキド『おお　よく　きたな！\pどうじゃ　ずかんの　ほうは\nすすんでおるか？\pわはは！\pほんとうは　わかっておるが\nみるのが　たのしみでのう！\pどれどれ‥

@@ -1,0 +1,336 @@
+## data/maps/NewBarkTown_hns/scripts.inc
+@@NewBarkTown_Text_ElmName
+ウツギはかせ
+@@NewBarkTown_Text_LabSign
+ウツギ　ポケモンけんきゅうじょ
+@@NewBarkTown_Text_Door
+かぎが　かかっている
+@@NewBarkTown_Text_Wooper
+ウパー『ウパーッ
+@@NewBarkTown_Text_FatManState2
+わあ　すごい　ポケギアだね！\nママに　かってもらったの？
+@@NewBarkTown_Text_FatManState3
+よう　{PLAYER}！\pウツギはかせが　あたらしい\nポケモンを　はっけん　したらしいよ
+@@NewBarkTown_Text_LassState2
+まって　{PLAYER}！\pポケモンを　もたずに　でかけたら\nあぶないわよ！\pとなりまちへの　みちの　くさむら\nからは　やせいの　ポケモンが\lとびだしてくるの
+@@NewBarkTown_Text_LassState3
+まあ！　かわいい　ポケモンね！\nわたしも　ほしいなあ！
+@@NewBarkTown_Text_LassState4
+あら　{PLAYER}！　また　おでかけ？\pでかける　ときは　ママに\nいってから　いきなさいね
+@@NewBarkTown_Text_LassState5
+ポケギアで　ママに　でんわして\nげんきだって　しらせて　あげてね\p
+@@NewBarkTown_Text_Silver1
+‥‥‥\pここが　うわさの\nウツギ　ポケモンけんきゅうじょか‥
+@@NewBarkTown_Text_Silver2
+‥なに　じろじろ　みてるんだよ？
+@@NewBarkTown_Text_Sign
+ワカバタウン\pあたらしい　はじまりの\nかぜが　ふく　まち
+@@NewBarkTown_Text_PlayersHouse
+{PLAYER}の　いえ
+@@NewBarkTown_Text_ElmsHouse
+ウツギはかせの　いえ
+## data/maps/CherrygroveCity_hns/scripts.inc
+@@CherrygroveCity_Text_GuideGentIntro
+きみ　しんまいの　トレーナー\nじゃろ？　みれば　わかるぞ！\pなあに　だれだって\nさいしょは　しんまいじゃ！\pよかったら　すこし\nおしえて　あげよう
+@@CherrygroveCity_Text_GuideGentTourStart
+よし　それじゃ！\nついて　きなさい！
+@@CherrygroveCity_Text_GuideGentPokecenter
+これが　ポケモンセンターじゃ\pポケモンの　たいりょくを\nあっというまに　かいふく　してくれる\pこれから　なんども　おせわに\nなるから　おぼえて　おくのじゃぞ
+@@CherrygroveCity_Text_GuideGentMart
+これは　フレンドリィショップじゃ\pやせいの　ポケモンを　つかまえる\nボールや　べんりな　どうぐを\lうっておる
+@@CherrygroveCity_Text_GuideGentRoute30
+こっちに　いくと　30ばんどうろじゃ\pトレーナーたちが　じまんの\nポケモンで　しょうぶして　おるぞ
+@@CherrygroveCity_Text_GuideGentSea
+みての　とおり　うみじゃ\pみずの　なかに　しか\nいない　ポケモンも　おるぞ
+@@CherrygroveCity_Text_GuideGentMap
+ここは‥\pわしの　いえじゃ！\nつきあって　くれて　ありがとう\pそうそう　みちに　まよったら\nポケギアの　マップを　みるのじゃ！\pたびの　ぶじを　いのって　おるぞ！
+@@CherrygroveCity_Text_GuideGentDecline
+そうか‥　わしの　たのしみ\nなんじゃが‥\pまあ　いい　いつでも\nきて　おくれ
+@@CherrygroveCity_Text_RivalSeen
+‥‥‥‥‥‥‥‥\pおまえ　けんきゅうじょで\nポケモンを　もらったな\pもったいない\nおまえみたいな　よわそうな　やつに\p‥‥‥‥‥‥‥‥\pわからないのか？\nおれも　いい　ポケモンを\lもってるんだよ\pおしえて　やるぜ！
+@@CherrygroveCity_Text_SilverWin
+ふん　かって　うれしいか？
+@@CherrygroveCity_Text_RivalAfter
+‥‥‥‥‥‥‥‥\pおれが　だれか\nしりたいか？\pおれは　せかいで　いちばん\nつよい　ポケモントレーナーに\lなる　おとこだ
+@@CherrygroveCity_Text_RivalID
+かえせよ！\nおれの　トレーナーカードだ！\pしまった！\nなまえを　みられた‥
+@@CherrygroveCity_Text_TeacherHaveMapCard
+ポケモンと　いっしょなら\nどこに　いっても　たのしいわ
+@@CherrygroveCity_Text_YoungsterNoPokedex
+ポケモンじいさんの　いえは\nまだ　もっと　さきだよ
+@@CherrygroveCity_Text_YoungsterHavePokedex
+どうろで　トレーナーと\nしょうぶ　したんだ\pポケモンが　まけて　ぼろぼろ！\nポケモンセンターに\lつれていかなきゃ
+@@CherrygroveCity_Text_MysticWaterGuyBefore
+つかまえた　ポケモンが\nどうぐを　もってたんだ\pしんぴのしずく　だと　おもう\pおれは　いらないから\nほしいかい？
+@@CherrygroveCity_Text_MysticWaterGuyAfter
+さて　つりの　つづきだ
+@@CherrygroveCity_Text_CitySign
+ヨシノシティ\pかわいい　はなの\nかおりが　する　まち
+@@CherrygroveCity_Text_GuideGentsHouseSign
+ガイドじいさんの　いえ
+@@CherryGroveCity_Text_Staryu
+ヒトデマン『ヘアッ
+@@CherryGroveCity_Text_Corsola
+サニーゴ『サニー！　ゴー！
+@@CherryGroveCity_Text_Krabby
+クラブ『クラァ！
+## data/maps/VioletCity_hns/scripts.inc
+@@VioletCity_Text_LiquidJustice
+まわりを　みて　ごらん！\pくさむらを　いちにちじゅう\nあるきまわらなくても\lここで　つかまえられる\lポケモンが　すぐ　わかるんだ！
+@@VioletCity_Text_EarlAsksIfYouBeatFalkner
+ハロー！\nトレーナー　あなた　ですか？\pジムリーダーと\nしょうぶ　かちましたか？
+@@VioletCity_Text_VeryNiceIndeed
+オー　ラ　ラ！\nとっても　ベリーナイス！
+@@VioletCity_Text_FollowEarl
+そうですか？　では\nおべんきょう　しましょう！\lついて　きてください！
+@@VioletCity_Text_HereTeacherIAm
+ここ　わたしの　じゅく\nここで　べんきょう　いいこと！
+@@VioletCity_Text_Lass
+マダツボミのとうには\nゆうれいが　でるって　うわさよ\pゴーストタイプの　わざは\nイワークや　イシツブテみたいな\pかたい　ポケモンの\nまもりを　すりぬけるんだって
+@@VioletCity_Text_Boy
+ねえ　きみ　ポケモントレーナー？\pポケモンじゅくに　いけば\nあたらしい　ことが　まなべるかもよ！
+@@VioletCity_Text_Gramps
+キキョウジムの　ハヤトは\nりっぱな　トレーナーじゃ！\pちちおやの　ジムを　ついで\nよく　やって　おる
+@@VioletCity_Text_Youngster
+さきの　ほうに　くねくね\nうごく　きが　あったんだ！\pさわると　くねくね\nおどりだすんだ！　すごいよ！
+@@VioletCity_Text_Sign
+キキョウシティ\pなつかしい　かおりの　まち
+@@VioletCity_Text_GymSign
+キキョウシティ　ポケモンジム\pジムリーダー　ハヤト\nゆうがな　ひこうポケモンつかい
+@@VioletCity_Text_SproutTowerSign
+マダツボミのとう\pポケモンの　みちを　あゆもう
+@@VioletCity_Text_EarlsAcademySign
+アールの　ポケモンじゅく
+@@VioletCity_Text_Pichu
+ピチュー『ピチュー！
+@@VioletCity_Text_Bellsprout
+マダツボミ『マダーッ
+@@VioletCity_Text_Rattata
+コラッタ『コラッタ！
+@@VioletCity_Text_ElmName
+ウツギはかせ
+@@VioletCity_Text_Elm_Call
+ウツギ『もしもし　{PLAYER}くん？\nタマゴの　ことで　わかったことが\lあるんだ！\pじょしゅが　キキョウシティの\nポケモンセンターに　いるから\pはなしを　きいて　くれるかい？
+@@VioletCity_Text_Kimono_Girl1
+あらまあ‥\nその　タマゴは‥！
+@@VioletCity_Text_Kimono_Girl2
+なるほど‥\pポケモンじいさんから　ウツギはかせへ\nそして　ウツギはかせから\lあなたへ　わたったのですね\pよく　わかりました‥
+@@VioletCity_Text_Kimono_Girl3
+その　タマゴは　ほんとうに\nだいじな　タマゴです\pどうか　たいせつに　してください\nよろしいですね？
+@@VioletCity_Text_Kimono_Girl4
+たのみましたよ
+## data/maps/AzaleaTown_hns/scripts.inc
+@@AzaleaTown_Text_RivalBefore
+‥ひとつ　きくぞ\pロケットだんが　ふっかつしたって\nほんとうか？\pなに？　おまえが　たおした？\nふん　うそを　つくな\pじょうだんじゃ　ないって？\nだったら　うでまえを　みせてみろ
+@@AzaleaTown_Text_RivalWin
+‥ふん！　つかえない　ポケモンだ！\pいいか　おまえが　かったのは\nおれの　ポケモンが　よわかった\lからだ
+@@AzaleaTown_Text_RivalAfter
+おれは　よわい　やつが　きらいだ\pポケモンも　トレーナーも\nだれだろうと　かんけいない\pおれは　つよくなって\nよわい　やつを　ぶっつぶす\pロケットだんも　おなじだ\pやつらは　むれると\nえらそうに　する\pだが　ひとりに　なれば　よわい\nおれは　やつらが　だいきらいだ\pおまえも　じゃまするな\nおまえみたいな　よわい　やつは\lめざわりなだけだ
+@@AzaleaTown_Text_RivalLoss
+‥ふん！　やっぱり　うそだったな
+@@AzaleaTown_Text_Rocket1
+なかは　あぶないから\nおれが　みはりを　してるのさ\pおれって　しんせつだろ？
+@@AzaleaTown_Text_Rocket2
+ヤドンのシッポって　しってるか？\nうまいらしいぜ！\pいい　こと　きいたろ？
+@@AzaleaTown_Text_GrampsBefore
+まちから　ヤドンが\nいなくなって　しまった‥\pどこかで　シッポが\nうられて　おるらしい
+@@AzaleaTown_Text_GrampsAfter
+ヤドンたちが　もどってきた\pあいつらの　ことじゃ\nどこかで　ぼんやり　して\lおっただけ　かもしれんな
+@@AzaleaTown_Text_Teacher
+ガンテツさんに　ボールを\nつくって　もらいに　きたの？\pそういう　ひと　おおいのよ
+@@AzaleaTown_Text_Youngster
+ヒワダを　ぬけると\nウバメのもりだよ\pでも　ほそい　きが　じゃまで\nとおれないんだ\pすみやきの　おじさんの\nポケモンなら　きを　きれるよ
+@@AzaleaTown_Text_Slowpoke1
+ヤドン『‥‥‥‥‥‥‥\p‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥あくび？
+@@AzaleaTown_Text_Kurt1
+ウバメのもりが　ざわめいとる！\pいったい　なにが\nおきとるんじゃ？
+@@AzaleaTown_Text_Kurt2
+{PLAYER}！\nGSボールを　かえすぞ！
+@@AzaleaTown_Text_Kurt3
+ウバメのもりが　なぜ\nざわめいとるのか\lみてきて　くれんか？
+@@AzaleaTown_Text_Sign
+ヒワダタウン\nひとと　ポケモンが\lなかよく　くらす　まち
+@@AzaleaTown_Text_KurtsHouseSign
+ガンテツの　いえ
+@@AzaleaTown_Text_GymSign
+ヒワダタウン\nポケモンジム\pジムリーダー　ツクシ\pあるく　むしポケモン\nだいひゃっか
+@@AzaleaTown_Text_SlowpokeWellSign
+ヤドンのいど\pべつめい　あまごいの　いど\pヤドンの　あくびで　あめが\nふると　しんじられている\p400ねん　まえ　ヤドンの\nあくびで　ひでりが　おわったと\lきろくに　のこっている
+@@AzaleaTown_Text_CharcoalKilnSign
+すみやきごや
+@@AzaleaTown_Text_IlexForestSign
+ウバメのもり\pゲートから　おはいりください
+## data/maps/GoldenrodCity_hns/scripts.inc
+@@GoldenrodCity_Text_Beauty
+ここは　コガネジムよ！\pリーダーの　アカネは\nいま　いないの\lラジオとうに　いるかも
+@@GoldenrodCity_Text_Woman
+まえは　アカネの　ジムで\nしゅぎょう　してたけど\lあの　なきごえで　あたまが\lいたく　なっちゃって
+@@GoldenrodCity_Text_HikerDay
+ゲームコーナーに　はいった　ときは\nよる　だったのに‥\lおれ　どれだけ　いたんだ！？
+@@GoldenrodCity_Text_HikerNight
+ゲームコーナーに　はいった　ときは\nひるま　だったのに‥\lおれ　どれだけ　いたんだ！？
+@@GoldenrodCity_Text_Snubbull
+ブルー『ブルーッ！
+@@GoldenrodCity_Text_ElmName
+ウツギはかせ
+@@GoldenrodCity_Text_ElmCall
+ウツギ『もしもし　{PLAYER}くん？\nタマゴは　もう　かえったかい？\pかえったら　けんきゅうじょに\nつれてきてね！　ぜひ\lみたいんだ！
+@@GoldenrodCity_Text_PokefanM
+ふるくて　ギシギシいう　とうの\nかわりに　あたらしい\lラジオとうを　たてたんだ
+@@GoldenrodCity_Text_Youngster1
+あたらしい　じてんしゃやが\nあるって　きいたけど\lどこにも　みつからないんだ
+@@GoldenrodCity_Text_CooltrainerF1
+あの　くろい　ふくの　ひと\nロケットだんの　かっこう　してる？\pへんなの！
+@@GoldenrodCity_Text_CooltrainerF1_Cleared
+あの　くろい　ふくの　ひと\nほんとうに　ロケットだん　だったの？\lしんじられない！
+@@GoldenrodCity_Text_CooltrainerF2
+コガネシティの　ラジオとうは\nまちの　シンボルなの\pいま　キャンペーンを\nやってるのよ\pクイズに　ごうかく　したら\nあたらしい　ラジオが　もらえるの
+@@GoldenrodCity_Text_CooltrainerF2_GotCard
+あら　あなたの　ポケギア\nもう　ラジオに　なってるのね！
+@@GoldenrodCity_Text_Youngster2
+えへへへ‥\pデパートの　ちかで　あそんでたら\nおこられちゃった
+@@GoldenrodCity_Text_Lass
+なかに　いる　ひとが　ポケモンの\nニックネームを　うらなって　くれるの\pなまえを　かえる　ことも　できるのよ
+@@GoldenrodCity_Text_Gramps
+ふう！　この　まちは　ひろすぎて\nなにも　みつからんわい
+@@GoldenrodCity_Text_RocketScout1
+ここが　ラジオとうか‥
+@@GoldenrodCity_Text_RocketScout2
+なんだ　ガキ？\nさっさと　うせろ！
+@@GoldenrodCity_Text_Rocket1
+じゃまだ　どけ！\nあっちへ　いけ！
+@@GoldenrodCity_Text_Rocket2
+ラジオとうを　のっとる‥\pなに？　おまえには\nかんけい　ないだろ！
+@@GoldenrodCity_Text_Rocket3
+ポケモン？　かねもうけの\nどうぐに　すぎないさ！
+@@GoldenrodCity_Text_Rocket4
+おれたちの　ゆめが\nもうすぐ　かなう‥\pながく　くるしい\nたたかい　だった‥
+@@GoldenrodCity_Text_Rocket5
+おい　ガキ！　ここは\nおまえの　くる　ところじゃない！\lさっさと　きえろ！
+@@GoldenrodCity_Text_Rocket6
+ロケットだんの　おそろしさを\nあじわわせて　やる！
+@@GoldenrodCity_Text_StationSign
+コガネシティ　えき
+@@GoldenrodCity_Text_RadioTowerSign
+コガネシティ　ラジオとう
+@@GoldenrodCity_Text_DeptStoreSign
+ポケモングッズ　ずらり　かんび！\pコガネシティ　デパート
+@@GoldenrodCity_Text_GymSign
+コガネシティ　ポケモンジム\nジムリーダー　アカネ\pダイナマイト　プリティ　ギャル！
+@@GoldenrodCity_Text_CitySign
+コガネシティ\pはなやかで　にぎやかな　まち
+@@GoldenrodCity_Text_BikeShopSign
+せかいは　サイクリングロード！\nじてんしゃや
+@@GoldenrodCity_Text_GameCornerSign
+あそびの　ひろば！\pコガネシティ　ゲームコーナー
+@@GoldenrodCity_Text_NameRaterSign
+せいめい　はんだんし\pポケモンの　ニックネームを\nうらないます
+@@GoldenrodCity_Text_UndergroundNorthSign
+ちかつうろ　いりぐち
+@@GoldenrodCity_Text_UndergroundSouthSign
+ちかつうろ　いりぐち
+@@GoldenrodCity_Text_FlowerShopSign
+はなが　いっぱい　フラワーショップ
+@@GoldenrodCity_Text_MoveTutorAsk
+おまえの　ポケモンに　すっごい\nわざを　おしえて　やれるぞ！\pおしえて　やろうか？
+@@GoldenrodCity_Text_MoveTutorCost
+コイン　1000まい　いただくが\nいいかい？
+@@GoldenrodCity_Text_MoveTutorDecline
+ええー‥　すごい　わざ　なのに！
+@@GoldenrodCity_Text_MoveTutorWhich
+わははは！　こうかい　させないぞ！\pどの　わざを　おしえる？
+@@GoldenrodCity_Text_MoveTutorNoCash
+ざんねん\nいえから　おかねを　もってくるか‥
+@@GoldenrodCity_Text_MoveTutorUnderstand
+この　わざの　よさが　わかれば\nおまえも　いちにんまえの\lトレーナーだ
+@@GoldenrodCity_Text_MoveTutorFarewell
+わははは！　さらばだ！
+@@GoldenrodCity_Text_MoveTutorBut
+で‥　でも‥
+@@GoldenrodCity_Text_MoveTutorNotEnoughCoins
+‥コインが　たりないぞ‥
+## data/maps/EcruteakCity_hns/scripts.inc
+@@EcruteakCity_Text_Silver1
+ドサッ！！
+@@EcruteakCity_Text_Silver2
+{RIVAL}『なぜだ‥？　なんで\nおれが　ただの　まいこはん\lなんかに　まけるんだ‥？
+@@EcruteakCity_Text_Silver3
+{RIVAL}『みてたのか\n{PLAYER}‥\pああ　そうだよ！\pまいこはん　5にんに　かつのが\nこんなに　むずかしいとはな‥\pこてんぱんに　やられたよ‥\p‥‥\pおまえも　おなじ　りゆうで\nきたんだろ？\pロケットだんを　たおした\nくらいで　いい　きに　なるなよ！\pこの　まいこはんたちは\nとんでもなく　つよい\pかてるもんなら　かってみろ\pだが　おれは　もどらない\nおまえが　かつ　ところなんか\lみたくないからな
+@@EcruteakCity_Text_Eevee
+イーブイ『ブイーッ！
+@@EcruteakCity_Text_Vulpix
+ロコン『コーン！
+@@EcruteakCity_Text_UnusedMissingDaughter
+ああ‥　どうしましょう‥\pむすめが　いなく　なったの\pまさか‥　やけたとうに\nいったんじゃ‥\pちかづいちゃ　だめって\nいったのに‥\pあそこでは　ひとが\nきえるって‥\pああ　どうしたら‥？
+@@EcruteakCity_Text_Gramps1
+エンジュには　むかし\nひがしと　にしに　ひとつずつ\lとうが　あったんじゃ
+@@EcruteakCity_Text_Gramps2
+おお　ぼうや　まいこはん\nみたいに　おどれるように\lなったかな？\pかぶれんじょうに　いけば\nかわった　じいさんが　いいものを\lくれる　らしいぞ
+@@EcruteakCity_Text_Lass1
+これから　かぶれんじょうで\nおどりの　れんしゅう　なの\lいっしょに　どう？
+@@EcruteakCity_Text_Lass2
+ここに　あった　とうはね‥\pおばあちゃんの　はなしだと\nもっと　ずっと　たかかったんだって\pいまは　ゆうれいが\nでるって　うわさよ
+@@EcruteakCity_Text_Lass2_ReleasedBeasts
+おおきな　ポケモンが　3びき\nばらばらの　ほうこうに\lかけていったの　あれは　なに？
+@@EcruteakCity_Text_Fisher
+アサギの　とうだいの\nうわさを　きいたんだ\pとうだいの　あかりの　かわりを\nしている　ポケモンが　びょうきに\lなったらしい　たいへんそうだ
+@@EcruteakCity_Text_Fisher_JasmineReturned
+アサギの　とうだいの　ポケモンが\nげんきに　なったんだって\pこれで　また　よるも　ふねが\nあんぜんに　でられるな
+@@EcruteakCity_Text_Youngster
+いかりのみずうみで　ポケモンが\nあばれてるって　きいたよ\lみてみたいなあ
+@@EcruteakCity_Text_Gramps3
+とおい　むかし‥\pこの　とうは　かじで　もえた\nなもなき　ポケモンが　3びき\lとうの　なかで　いのちを　おとした\pにじいろの　ポケモンが　そらから\nまいおりて　3びきを\lよみがえらせた‥\pエンジュジムの　リーダーに\nつたわる　でんせつじゃ\pわし？\pわしも　むかしは\nトレーナー　じゃった　ほっほっほ！
+@@EcruteakCity_Text_SageGym
+ジムリーダーの　マツバさんは\nいま　いません\lやけたとうに　いるかも　しれません
+@@EcruteakCity_Text_Sign
+エンジュシティ\nむかしと　いまが\lであう　れきしの　まち
+@@EcruteakCity_Text_TinTowerSign
+スズのとう\pでんせつの　ポケモンが\nまいおりると　いわれている
+@@EcruteakCity_Text_OfficeSign
+スズのとう　せきしょ\pみとめられた　もの　いがい\nたちいり　きんし
+@@EcruteakCity_Text_GymSign
+エンジュシティ　ポケモンジム\nジムリーダー　マツバ\pみらいを　みとおす\nしんぴの　みこ
+@@EcruteakCity_Text_DanceTheaterSign
+エンジュ　かぶれんじょう
+@@EcruteakCity_Text_BurnedTowerSign
+やけたとう\pなぞの　かじで　やけおちた\pあぶないので\nちかづかないで　ください
+## data/maps/OlivineCity_hns/scripts.inc
+@@OlivineCity_Text_BaobaName
+バオバ
+@@OlivineCity_Text_Baoba
+{PLAYER}くん！\pえんちょうの　バオバだ\pまたせて　わるかったね\nついに　サファリゾーンが\lオープン　したんだ！\pばしょは　わかるかな？\pタンバシティの　どうくつの\nなかに　ゲートが　あるだろう？\pそこを　ぬけて　すこし　あるけば\nすぐに　サファリゾーンが\lみえて　くるはずだ！\pちょっと　とおいけど\nぜひ　あそびに　きてね！
+@@OlivineCity_Text_SilverEncounter
+また　おまえか？\nそう　けいかい　するなよ\pおまえ　みたいな　よわい\nやつは　あいてに　しない\pよわいと　いえば　この　まちの\nジムリーダーは　いなくて\lとうだいで　びょうきの\lポケモンの　せわを　してるらしい\pふん！　くだらない！\nびょうきの　ポケモンなんか\lほうって　おけば　いい！\pたたかえない　ポケモンに\nかちなんか　ない！\pおまえも　とうだいで\nしゅぎょう　したら　どうだ？\pすこしは　ましな\nトレーナーに　なれるかもな！
+@@OlivineCity_Text_CafeSign
+アサギ　しょくどう\nうみの　おとこが　ちからの　つく\lりょうりを　たべる　みせ
+@@OlivineCity_Text_EonTicketWoman1
+わたしの　なまえは　クルミ！\pなんて　うそ！　でも　クルミちゃんの\nラジオばんぐみ　だいすきなの！
+@@OlivineCity_Text_EonTicketWoman2
+あなた　{PLAYER}さん　でしょ！！！\pうそ！　チャンピオンだわ！\pクルミちゃんの　ラジオで\nあなたの　こと　きいたの！\pはい　これ　どうぞ！
+@@OlivineCity_Text_EonTicketWoman3
+チャンピオンに　あえるなんて\nしんじられない！！！
+@@OlivineCity_Text_Sailor1
+よるの　くらい　みちは\nあぶない\pだが　まっくらな　よるの\nうみは　もっと　きけんだ！\pとうだいの　あかりが　なければ\nふねは　だせないのさ
+@@OlivineCity_Text_YoungsterPokegear
+きみが　もってる　それ\nポケギア　だよね？\lすごい　かっこいい
+@@OlivineCity_Text_YoungsterPokedex
+わあ　ポケモンずかん\nもってるんだ！\pほんとに　すごいなあ
+@@OlivineCity_Text_Sailor2
+リーグの　ひょうかでは　ミカンは\n6ばんめに　つよい\lジムリーダー　なんだと！\pはっ！　ばかばかしい\pヤナギさんじゃ　ミカンの\nはがねポケモンに　まったく\lかなわないって　いうのに！\pおやくしょ　しごとだよ\pミカンは　ほんとうに\nおそろしい　あいてだぜ！
+@@OlivineCity_Text_Sign
+アサギシティ\pいこくに　いちばん\nちかい　みなと
+@@OlivineCity_Text_PortSign
+アサギこう\nこうそくせん　のりば
+@@OlivineCity_Text_GymSign
+アサギシティ　ポケモンジム\nジムリーダー　ミカン\pこうてつの　まもりの　おんなのこ
+@@OlivineCity_Text_LighthouseSign
+アサギの　とうだい\nべつめい　かがやきの　とうだい
+@@OlivineCity_Text_BattleTowerSign
+この　さき\nトレーナーヒルと　バトルテント\pただいま　オープン！
+@@OlivineCity_Text_Machoke
+ゴーリキー『ゴーリッ！
+## data/maps/CianwoodCity_hns/scripts.inc
+@@CianwoodCity_Text_ChucksWifeEasierToFly
+うみを　わたって　きたの？\pたいへん　だったでしょう\pポケモンが　そらをとぶを\nつかえたら　らくなのに‥
+@@CianwoodCity_Text_ChucksWifeBeatChuck
+でも　この　まちの　ジムバッジが\nないと　そらをとぶは　つかえないの\pここの　ジムリーダーに\nかったら　わたしの　ところに　きてね\pいい　ものを　あげるわ

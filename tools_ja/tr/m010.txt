@@ -1,0 +1,346 @@
+## data/maps/EcruteakCity_Theater_hns/scripts.inc
+@@EcruteakCity_Theater_Text_SurfGuyAfter
+まいこはんは　おどりだけで　なく\nポケモンの　うでも　たしかなんだ\pでも　ただしい　りゆうが\nなければ　たたかわない\pほんきを　だされたら\nきみでも　かてるか　どうか‥
+@@EcruteakCity_Theater_Text_Psyduck
+コダック『グワッ　グワッ！
+@@EcruteakCity_Theater_Text_BoyBefore
+ひいいいっ！
+@@EcruteakCity_Theater_Text_Boy
+ぼくが　ヒーローに\nなる　はずだったのに‥！\lまいこはんと　なかよく\lなる　チャンスが‥！
+@@EcruteakCity_Theater_Text_Granny
+あの　ひとは　いつも\nコダックと　いっしょ\pなみのりも　おどりも\nできる　ポケモンが\lほしいんだって\pシンクロナイズド　スイミングでも\nさせる　つもりかしら？
+@@EcruteakCity_Theater_Text_GrannyBefore
+あいたた‥！\nおなかが　いたい！\pこの　いたみさえ　なければ\nあんな　やつ　ゆるさない\lのに‥！
+@@EcruteakCity_Theater_Text_Gramps
+まいこはんは　ほんとうに\nうつくしい‥\pだが　きびしい　しゅぎょうを\nつまねば　ならん\pひとまえに　でる　まえに\nしきたりも　おぼえなければ\pだが　すきな　ことなら\nなんでも　できるものじゃ
+@@EcruteakCity_Theater_Text_GrampsBefore
+あいたた‥！\nこしが　いたい！\pこの　いたみさえ　なければ\nあんな　やつ　ゆるさない\lのに‥！
+@@EcruteakCity_Theater_Text_Girl
+まいこはんは　わたしの\nおねえさんたち！　いつか\lわたしも　ああ　なるの！
+@@EcruteakCity_Theater_Text_GirlBefore
+へんな　おどり\nおもしろーい！
+@@EcruteakCity_Theater_Text_FancyPanel
+はなで　かざられた\nきれいな　パネルだ
+@@EcruteakCity_Theater_Text_ZukiSeen
+ようこそ　わたくしは　ズキ\nキキョウシティで　いちど\lおあい　しましたね\p{STR_VAR_1}を　よびもどすには\nポケモンと　ただしい　きずなを\lもつ　ひとが　ひつよう　でした\pそこで　みこみの　ある　ひとに\nふしぎな　タマゴを　わたすよう\lポケモンじいさんに\lたのんだのです\pタマゴは　ポケモンじいさんから\nウツギはかせへ　そして\lあなたへ　わたりました\pでも　こころが　きよい　だけでは\nこの　ポケモンの　ちからに\lたちむかえ　ません
+@@EcruteakCity_Theater_Text_ZukiSeenAgain
+あなたが　よい　トレーナーか\nためさせて　いただきます\pよろしいですか？\n{PLAYER}さん
+@@EcruteakCity_Theater_Text_ZukiNo
+かまいません‥\nじゅんびが　できるまで\lおまち　しております
+@@EcruteakCity_Theater_Text_NaokoSeen
+あなたは　とても　つよい\nウバメのもりで　たすけて\lいただきましたね\pわたくしは　ナオコ\nみちに　まよいやすいのです\pヤドンのいどで　ガンテツさんが\nこまって　いたとき　ロケットだんを\lたおす　ところも　みました\pあなたと　ポケモンに\nちょうせん　させてください！
+@@EcruteakCity_Theater_Text_MikiSeen
+なかなかの　トレーナーですね\nここで　ロケットだんを\lおいはらって　くれたこと\lおぼえて　います\pありがとう　ございました\pでも　わたくしも　トレーナー\nしる　ものは　いわず　です！\pまいこはんの　ミキ！\pあなたと　ポケモンに\nちょうせん　させてください！
+@@EcruteakCity_Theater_Text_SayoSeen
+すばらしい　こころいき！\nこおりの　うえから\lおして　だして　くれましたね\pぞうりで　すべる　わたくしは\nまいこはんの　サヨ！\pりゅうのあなで　ちょうろうの\nしれんに　ごうかく　したのを\lきいて　いました\pあなたと　ポケモンに\nちょうせん　させてください！
+@@EcruteakCity_Theater_Text_KuniSeen
+わたくしが　さいごです\pコガネの　ちかつうろでは\nたよりに　なりました\pちかでも　まいおどる\nクニとは　わたくしのこと！\pラジオとうを　のっとる　ロケットだんの\nけいかくを　あなたが　とめるのを\lみて　いました\pさあ　ちからを　みせて！\nあなたと　ポケモンに\lちょうせん　させてください！
+@@EcruteakCity_Theater_Text_ZukiDone
+わたくしたちの　めに\nくるいは　ありませんでした\lあなたこそ　ふさわしい‥\pどうぞ　おうけとり\nください
+@@EcruteakCity_Theater_Text_GirlHooh
+おねえさんたち！\nスズのとうの　うえに\lおおきな　ポケモンの\lかげが　みえたの！\pもしかして‥
+@@EcruteakCity_Theater_Text_GirlLugia
+おねえさんたち！\nうずまきじまの　うみに\lおおきな　ポケモンの\lかげが　みえたの！\pもしかして‥
+@@EcruteakCity_Theater_Text_ZukiHooh
+ズキ『{PLAYER}さん！\nスズのとうで　おまち\lして　おります！
+@@EcruteakCity_Theater_Text_ZukiLugia
+ズキ『{PLAYER}さん！\nうずまきじまで　おまち\lして　おります！
+@@EcruteakCity_Theater_Text_KimonoDone
+おどりの　けいこを\nして　おります
+@@EcruteakCity_Theater_Text_ZukiAfterAll
+せんじつは　ありがとう\nございました\pひとと　ひとの　きずなは\nポケモンと　ともに　そだつと\lしめして　くださいましたね\pきたいに　こたえて　くださり\nかんしゃ　して　おります\l{PLAYER}さん！\pなにか　まなんだ　ことが　あれば\nポケモンじいさんと\lウツギはかせに　おれいを‥
+@@EcruteakCity_Theater_Text_KimonoGirlsBeforeBattle
+じゅんびが　できたら\nまんなかの　ズキに\lはなしかけて　ください
+## data/maps/EcruteakCity_House1_hns/scripts.inc
+@@EcruteakLugiaSpeechHouse_Text_Gramps
+わしが　わかい　ころの\nはなしじゃ\pそらが　とつぜん　まっくらに\nなった　きょだいな　とりの\lポケモンが　たいようを\lさえぎって　いたのじゃ\pあれは　なんと　いう\nポケモン　だったのかのう？\pとりの　ようで　りゅうの\nようでも　あった
+@@EcruteakLugiaSpeechHouse_Text_Youngster
+そんなに　おおきな\nポケモンが　ほんとうに　いるの？\pいるなら　きっと\nすごく　つよいんだろうな
+## data/maps/EcruteakCity_House2_hns/scripts.inc
+@@Ecruteak_Text_ItemfinderAdventure
+ほう　ポケモンと\nぼうけん　ちゅう　かね？\pぼうけんと　いえば\nたからさがし　だろう？\pそうだろう？\nそうだろう？
+@@Ecruteak_Text_ItemfinderTrueSpirit
+よし！　ぼうけんの\nこころを　わかってるな\pきにいった！\nこれを　もって　いきなさい
+@@Ecruteak_Text_ItemfinderExplanation
+めに　みえない　どうぐが\nあちこちに　おちて　いる\pダウジングマシンで　ちかくに\nどうぐが　あるか　しらべられる\pばしょ　までは　わからないから\nじぶんで　さがすんだ\pそうそう　エンジュの　やけたとうに\nどうぐが　あるらしいぞ
+@@Ecruteak_Text_ItemfinderToEachHisOwn
+そうか‥　ひとそれぞれ\nだな‥
+@@Ecruteak_Text_ItemFinderMan
+エンジュは　とても　ふるい　まち\nいくつもの　せだいが　こういう\lほんで　れきしを　つたえて　きた
+@@Ecruteak_Text_HistoryBook
+エンジュの　れきし\pよみますか？
+@@Ecruteak_Text_TwoTowers
+エンジュには　ふたつの\nとうが　あった\pそれぞれの　とうには\nつよい　とりポケモンが\lすんで　いた\pしかし　かたほうの　とうは\nもえて　しまった\pそれいらい　2ひきの　ポケモンは\nすがたを　みせていない‥\pつづきを　よむ？
+@@Ecruteak_Text_ThreeMon
+エンジュには　まちを　かけまわる\n3びきの　ポケモンも　いた\pみず　かみなり　ほのおから\nうまれたと　いわれている\pしかし　あふれる　ちからを\nおさえきれず\pかぜの　ように　そうげんへ\nかけさって　いったという
+## data/maps/EcruteakCity_SageOffice1_hns/scripts.inc
+@@EcruteakCity_SageOffice1_Text_Sign
+とうの　つばさの　もとに\nある　ものに　スズの　すずは\lすんだ　ねを　ひびかせる
+@@EcruteakTinTowerEntrance_Text_SageNoBadge
+スズのとうは　ふさわしく\nない　ものは　はいれません\pもうしわけ　ないが\nおひきとり　ください
+@@EcruteakTinTowerEntrance_Text_SageWithBadge
+スズのとうは　エンジュジムの\nバッジを　もたない　かたは\lはいれません\pおお！\pエンジュジムの　バッジ！\nどうぞ　おとおり　ください
+@@EcruteakTinTowerEntrance_Text_SageNoClearBell
+たいへんな　ことが\nおきました\pもうしわけ　ないが\nおひきとり　ください\p‥こころを　いやす　もの‥\pさんにんの　けんじゃの\nことばは　まことに\lむずかしい‥
+@@EcruteakTinTowerEntrance_Text_SageHearsClearBell1
+たいへんな　ことが\nおきました\pもうしわけ　ないが\nおひきとり　ください\p‥‥‥‥‥‥‥‥‥‥
+@@EcruteakTinTowerEntrance_Text_SageHearsClearBell2
+おお！\pその　とうめいなスズの　ね！\pな‥　なんと　うつくしい！\pこれほど　きれいな　おとは\nきいた　ことが　ない！\pスズの　ねいろは　もつ　ものの\nこころを　うつすと　いいます\pあなたなら‥\pスズのとうを　のぼれる\nかもしれません\pどうぞ　おすすみ　ください
+@@EcruteakTinTowerEntrance_Text_SagePleaseDoGoOn
+どうぞ　おすすみ　ください
+@@EcruteakTinTowerEntrance_Text_SageDone
+スズの　ねいろは　もつ　ものの\nこころを　うつすと　いいます\pあなたは‥\nまことに　ふさわしい
+@@EcruteakTinTowerEntrance_Text_WanderingSage
+この　さきの　スズのとうは\nかみがかった　うつくしさの\l9そうの　とう\pみる　ものの　こころを\nいやして　くれます
+@@EcruteakTinTowerEntrance_Text_WanderingSageClearBell
+スズのとうが　ゆれた！\nポケモンが　とうの\lうえに　もどったに\lちがいない！
+@@EcruteakTinTowerEntrance_Text_Gramps
+ふたつの　とう‥\nふたつの　ポケモン‥\pだが　ひとつが　もえた　とき\n2ひきとも　とびさり\lにどと　もどらなかった
+## data/maps/BellchimeTrail_hns/scripts.inc
+@@BellchimeTrail_Text_Morty
+マツバ『でんせつの　ポケモンは\nぼくを　えらばなかった‥\pでも　それで　ぼくの　みらいが\nなくなった　わけじゃない\pあたらしい　みらいを　みつける\nまで　しゅぎょうを　つづけるよ\pまた　たたかいたければ\nかくとうどうじょうに　おいで
+## data/maps/EcruteakCity_Gym_hns/scripts.inc
+@@EcruteakCity_Gym_Text_GymStatue
+エンジュシティ　ポケモンジム
+@@EcruteakCity_Gym_Text_GymStatueCertified
+エンジュシティ　ポケモンジム\pマツバ　にんてい　トレーナー\n{PLAYER}
+@@MortyIntroText
+よく　きたね\pここ　エンジュでは　むかしから\nポケモンが　あがめられて　きた\pほんとうの　トレーナーの　まえには\nにじいろの　ポケモンが\lまいおりると　いわれている\pぼくは　その　いいつたえを\nしんじて　ここで　ひそかに\lしゅぎょうを　してきた\pおかげで　ひとに　みえない\nものが　みえる　ように　なった\pあと　すこし‥\pあと　すこしで　にじいろの\nポケモンに　であう　みらいが\lみえそう　なんだ\pきみは　その　ために\nてつだって　もらうよ！
+@@MortyWinLossText
+ぼくは　まだ\nみじゅくだ‥\pわかった　この　バッジは\nきみの　ものだ
+@@Text_ReceivedFogBadge
+{PLAYER}は\nファントムバッジを　もらった
+@@MortyText_FogBadgeSpeech
+ファントムバッジが　あると\nレベル50までの　ポケモンが\lいうことを　きく\pそれに　なみのりを　おぼえた\nポケモンが　いつでも\lなみのりを　つかえる\pこれも　うけとって　ほしい
+@@MortyText_ShadowBallSpeech
+それは　シャドーボール\nダメージを　あたえ　とくぼうを\lさげる　ことが　ある\pきみに　あうなら\nつかって　くれ
+@@MortyFightDoneText
+そうか‥\pきみは　とおくまで\nたびを　して　きたんだね\pぼくより　たくさんの\nものを　みてきた\pそれが　うらやましいよ‥
+@@MortyRematchText
+やあ　ジョウトの\nチャンピオン！　よく　きたね\pきみの　つよさは　わかってる\nでも　あれから　せいちょう\lしたかな？\pぼくも　あれから　ゴーストタイプと\nしゅぎょうを　つづけて　きた\pまた　かげを　のりこえられるか\nみせて　もらおう\pもう　いちど　しょうぶ\nするかい？
+@@Morty_RematchDefeatText
+ぼくは　まだ\nみじゅくだ‥\pきみは　ぼくより　たくさんの\nものを　みてきた\pそれが　うらやましいよ‥
+@@SageJeffreySeenText
+はるを　ポケモンと\nすごした\pそして　なつ　あき　ふゆ‥\pまた　はるが　きた\nながい　つきあい　じゃ
+@@SageJeffreyBeatenText
+かちも　まけも\nどちらも　しっておる
+@@SageJeffreyAfterBattleText
+ポケモンは　どこから\nきたのじゃろう？
+@@SagePingSeenText
+われらの　ポケモンに\nダメージを　あたえられるかな？
+@@SagePingBeatenText
+おお！　みごと！
+@@SagePingAfterBattleText
+われらは　ゴーストタイプの\nポケモンを　つかう\pノーマルタイプの　わざは\nきかんのじゃ！
+@@MediumMarthaSeenText
+かつのは　わたしよ！
+@@MediumMarthaBeatenText
+ま‥　ま‥　まけた！
+@@MediumMarthaAfterBattleText
+いちばん　かちたいと\nおもった　ものが\lかつのよ！
+@@MediumGraceSeenText
+くらい　ろうかに\nまよって　いるの？\lヒントが　ほしいなら\lわたしに　かちなさい！
+@@MediumGraceBeatenText
+な‥　なに？
+@@MediumGraceAfterBattleText
+いいわ　かげの　ひみつを\nおしえて　あげる\pみちは　めの　まえに\nあるのよ！
+@@EcruteakCity_GymGuideText
+よう　みらいの　チャンピオン！\nもう　すぐ　はんぶんだ！\pここの　トレーナーは　ゴーストと\nあくタイプの　ポケモンを　つかう\pマツバは　ゴーストタイプの\nつかいてだが　ふしぎな\lシカには　きを　つけろ\pへんな　あくむを　みせると\nいわれているぞ‥
+@@EcruteakCity_GymGuideWinText
+ふう　{PLAYER}　よく\nやったな！\pおれは　こわくて　すみで\nふるえてたよ！
+@@EcruteakCity_GymClosedText
+ジムリーダーの　マツバは\nいま　るす　です\pすみませんが\nおひきとり　ください\pほっほっほ
+## data/maps/OlivineCity_PokemonCenter_hns/scripts.inc
+@@OlivineCity_Text_PokecenterFisher
+となりの　アサギしょくどうの\nふなのりは　きまえが　いい\pおれの　ポケモンに\nかいりきを　おしえて　くれた\pいまじゃ　おおきな　いわも\nへっちゃらで　うごかせるぜ
+@@OlivineCity_Text_PokecenterTeacher
+うみの　むこうの\nタンバシティに　いる　ひとが\pいつも　めずらしい　ポケモンを\nじまん　していたわ
+## data/maps/OlivineCity_Gym_hns/scripts.inc
+@@OlivineCity_Gym_Text_Gent
+きっと　くると\nおもって　いたよ\pジムリーダーを　たすけて　くれて\nありがとう　でも　しょうぶは\lべつの　はなしだ\pがんばりなさい！
+@@OlivineCity_Gym_Text_Gent2
+みごとだ！\nこれからも　いろんな　ばしょへ\lたびを　つづけなさい\pなみのりが　つかえるなら\nいかりのみずうみに\lいって　みては　どうかな？
+@@OlivineCity_Gym_Text_Lass
+うふふ‥\nあなたの　じつりょくは\lとうだいで　みたわ\pその　ちからを　ミカンさんに\nみせて　あげて！　がんばって！
+@@OlivineCity_Gym_Text_Lass2
+すごいわ‥\nそれだけ　さいのうが　あるなら\lもっと　うえを　めざさなきゃ\pチョウジタウンには\nいった？
+@@OlivineCity_Gym_Text_GymGuideText
+ミカンは　あたらしく　みつかった\nはがねタイプの　つかいてだ\pきりふだが　ひとつ　じゃなく\nふたつ　あることで　ゆうめいだ\pひとつめは　わざで　こうげきを\nあげる　はがねの　むしだ\pほのおに　よわいが　つよい\nこうげきを　こらえる　ことが\lある\pふたつめは　つよい　わざを\nたくさん　もつ　きょだいな\lてつの　へびだ\pこころして　かかれ\pおそそうに　みえるが　おどろく\nほど　はやく　せんせいを\lとるのを　みた　ことが　ある
+@@OlivineCity_Gym_Text_GymGuideWinText
+すごかったぜ\pはがねタイプか‥\pみちとの　そうぐう　だったな！
+@@OlivineCity_Gym_Text_GymGuidePreText
+ジムリーダーの　ミカンは\nとうだいに　いるんだ\pびょうきの　ポケモンを\nかんびょう　しているらしい\pつよい　トレーナーには\nやさしさも　ひつようだな
+@@OlivineCity_Gym_Text_JasmineSteelTypeIntro
+‥とうだいでは\nありがとう　ございました‥\pでも　これは　べつです\nじこしょうかい　させて\lください\pわたしは　ジムリーダーの　ミカン\nはがねタイプを　つかいます\p‥はがねタイプって\nごぞんじですか？\pさいきん　みつかった\nばかりの　タイプなんです\p‥あの‥　はじめても\nいいですか？
+@@OlivineCity_Gym_Text_JasmineBetterTrainer
+‥あなたは　つよさも　やさしさも\nわたしより　うえの\lトレーナーです\pポケモンリーグの　きまりに\nしたがい　この　バッジを\lおわたし　します
+@@OlivineCity_Gym_Text_ReceivedMineralBadge
+{PLAYER}は\nスチールバッジを　もらった
+@@OlivineCity_Gym_Text_JasmineBadgeSpeech
+スチールバッジは　ポケモンの\nとくぼうを　あげます\p‥あの‥\nこれも　どうぞ‥
+@@OlivineCity_Gym_Text_JasmineIronTailSpeech
+‥その　わざマシンで\nアイアンテールを\lおしえられます
+@@OlivineCity_Gym_Text_JasmineGoodLuck
+あの‥　なんと　いえば\nいいか‥　がんばって\lください‥
+@@OlivineCity_Gym_Text_JasmineRematchText
+‥おめでとう　ございます\nジョウトの　チャンピオン\pとても　つよく\nなられましたね‥\pわたしも　せいちょう\nできたでしょうか\pためして　みませんか？\pもう　いちど　しょうぶ\nして　いただけますか？
+@@OlivineCity_Gym_Text_JasmineRematchDefeatText
+‥あなたは　つよさも　やさしさも\nわたしより　うえの\lトレーナーです
+@@OlivineCity_Gym_Text_GymStatue
+アサギシティ　ポケモンジム
+@@OlivineCity_Gym_Text_GymStatueCertified
+アサギシティ　ポケモンジム\pミカン　にんてい　トレーナー\n{PLAYER}
+@@OlivineCity_Gym_Text_JasmineWantToTrade
+‥あの　{PLAYER}さん‥\nおねがいが　あるんです\pこの　ハガネールは　ちいさな\nイワーク　だった　ころから\lそだてて　きました\pでも　テツは　あなたの　ような\nトレーナーと　いた　ほうが\lしあわせ　だと　おもうんです\pあなたの　ポケモンと\nテツを　こうかん　して\lくれませんか？
+@@OlivineCity_Gym_Text_JasmineTakeCare
+‥ありがとう\nテツを　よろしく‥
+@@OlivineCity_Gym_Text_JasmineDeclineTrade
+‥あ‥　いいんです\nわかりました‥
+@@OlivineCity_Gym_Text_JasmineTradeCompleted
+‥テツは　げんき\nですか？\lだいじに　してあげてね‥
+## data/maps/OlivineCity_Cafe_hns/scripts.inc
+@@OlivineCity_Cafe_Text_Jasmine
+あ‥　こんにちは\n{PLAYER}さん\pまえの　おさらは　ぜんぶ\nわたしの　では　なくて‥\pえっと‥\pじつは　まえに　ここに\nすわってた　ひとが\lたくさん　たべて‥\pまた　しょうぶ　するなら\nヤマブキシティの\lかくとうどうじょうへ\lきて　ください
+@@OlivineCity_Text_CafeSailorStrength
+はっ！　おまえの　ポケモン\nひょろひょろ　だな！\pいわを　どかす　ちからも\nなさそうだ\pほら　これで　かいりきを\nおしえて　やれ！
+@@OlivineCity_Text_CafeSailorGotStrength
+うみの　うえで　たよれるのは\nじぶん　だけだ！\pおれは　この　にくたいが\nじまんさ！　おまえも\lきたえろよ！
+@@OlivineCity_Text_CafeFishingGuru
+アサギしょくどうの　メニューは\nおれ　みたいな　たくましい\lふなのり　むけの　ものばかり！
+@@OlivineCity_Text_CafeSailor
+この　まちに　くると　いつも\nアサギしょくどうに　よるんだ\pどれを　たべても　ちからが\nわいてくる　とまらない！
+## data/maps/OlivineCity_Mart_hns/scripts.inc
+@@OlivineCity_Text_MartCooltrainerF
+あなたの　ポケモン　ひとを\nのせて　みずを　わたる\lわざを　もう　おぼえてる？
+@@OlivineCity_Text_MartLass
+わたしの　バタフリーは\nうみの　むこうの　かれから\lきたの\pかれからの　メールを\nもって　きたのよ\pなんて　かいてあるか\nしりたい？\pえーと‥　ないしょ！
+## data/maps/OlivineCity_House1_hns/scripts.inc
+@@OlivineCity_House1_Text_YouWillTradeWontYou
+ポケモン　あつめてるの！\n{STR_VAR_1}　もってない？\pぼくの　{STR_VAR_2}と\nこうかん　しない？
+@@OlivineCity_House1_Text_MonYouTakeCare
+やったー！\n{STR_VAR_1}　ゲット！\p{STR_VAR_2}\nげんきでね！
+@@OlivineCity_House1_Text_ThisIsntAMon
+えー　ちがうよ\nそれ　{STR_VAR_1}じゃ　ないもん
+@@OlivineCity_House1_Text_YouWontTradeMe
+こうかん　しないの？\nざんねん‥
+@@OlivineCity_House1_Text_After
+ねえ　まえの\nビリリダマ　げんき？
+## data/maps/OlivineCity_House2_hns/scripts.inc
+@@OlivineCity_Text_PunishmentBro
+タンバへ　いく　とちゅうに\nむじんとうが　4つ　あるんだ\pわるい　こは　おしおきで\nそこへ　つれて　いかれるぞ！
+@@OlivineCity_Text_PunishmentBoy
+わるい　ことを　すると\nいつも　にいちゃんが\lおどかすんだ
+## data/maps/OlivineCity_House3_hns/scripts.inc
+@@OlivineCity_Text_OfferGoodRod
+アサギは　うみの　まち！\pうみ　ならば\nさかなが　いる！\pわしは　ここで　30ねん\nつりを　しておる\pおまえさんも　うみに　むかって\nつりを　して　みんか？
+@@OlivineCity_Text_GiveGoodRod
+わっはっは！\nあたらしい　つりびとの\lたんじょうじゃ！
+@@OlivineCity_Text_GaveGoodRod
+さかなは　うみ　だけで　なく\nみずの　ある　ところなら\lどこにでも　おる\pところで　ずかんには　ポケモンの\nつりの　グループが　でておる\pばしょが　ちがっても　にた\nさかなが　つれる　ことが\lあるぞ
+@@OlivineCity_Text_DontWantGoodRod
+なんじゃと？　つりが\nきらいじゃと！？\lしんじられん！
+@@OlivineCity_Text_HaveGoodRod
+ちょうしは　どうじゃ？\nおおものは　つれたか？
+## data/maps/OlivineCity_PortOutside_hns/scripts.inc
+@@OlivineCity_PortOutside_Text_Sabrina
+ナツメ『なんとなく　うみが\nみたく　なったの\pかくとうどうじょうで\nあいましょう
+@@OlivineCity_PortOutside_Text_PortFisherman1
+こうそくせん　アクアごうは\nげつようと　きんようだけ\lカントーへ　でていたが\lいまは　ほとんど　いつでも\lでているよ！
+@@OlivineCity_PortOutside_Text_Fisherman2
+おう　つり　ちゅうだ
+## data/maps/OlivineCity_PortInside_hns/scripts.inc
+@@OlivineCity_PortInside_Text_Nationaldex1
+オーキド『やあ！\n{PLAYER}　チャンピオンの\lふうかくが　でてきたな！\pずかんも　いまの　きみに\nふさわしく　せねばな\pちょっと　ずかんを\nかして　おくれ\pぜんこくモードを\nつけて　あげよう
+@@OlivineCity_PortInside_Text_Nationaldex2
+{PLAYER}の　ずかんに\nぜんこくモードが　ついた！
+@@OlivineCity_PortInside_Text_Nationaldex3
+オーキド『ぜんこくずかんを\nかんせい　させるのは\lかんたんでは　ないが‥\pきみなら　きっと　ほんきで\nとりくんで　くれると\lしんじて　おるぞ！
+@@OlivineCity_PortInside_Text_Nationaldex4
+おっと　もう　こんな　じかんか！\pコガネの　ラジオとうで\nばんぐみの　しゅうろくが\lあるんじゃ\pきみは　カントーへ\nいくのじゃろう？\pマサラタウンに　きたら\nわしの　けんきゅうじょにも\lよって　おくれ！
+@@OlivinePort_Text_NoPass
+{PLAYER}は　{STR_VAR_1}を\nみせようと　した‥\p‥しかし　{STR_VAR_1}が\nない！\pもうしわけ　ありません\n{STR_VAR_1}を　おもちの\lかたしか　のれません
+@@OlivinePort_Text_SailorGetOnBoard
+まもなく　しゅっこう　です\nごじょうせん　ください
+@@OlivinePort_Text_CantBoard
+もうしわけ　ありません\nいまは　のれません
+@@OlivinePort_Text_WhereSail
+どちらへ　いかれますか？
+@@OlivinePort_Text_AskBoard
+こうそくせん　アクアごうへ\nようこそ\pきょう　ごじょうせん\nですか？
+@@OlivinePort_Text_AskTicket
+ふねの　チケットを\nはいけん　します
+@@OlivinePort_Text_ComeAgain
+また　おこし　ください！
+@@OlivinePort_Text_FlashTicket
+{PLAYER}は　ふねの　チケットを\nみせた\pはい　たしかに！\nありがとう　ございます！
+@@OlivinePort_Text_NoTicket
+{PLAYER}は　ふねの　チケットを\nみせようと　した‥\p‥しかし　チケットが\nない！\pもうしわけ　ありません\nふねの　チケットを　おもちの\lかたしか　のれません
+@@OlivinePort_Text_FishingGuru1
+ここでは　シェルダーが\nかんたんに　つれる\pほかでは　けっこう\nめずらしいんだ
+@@OlivinePort_Text_FishingGuru2
+つりざおは　いくつ\nもってる？\pつりざおで　つれる\nポケモンが　ちがうぞ
+@@OlivinePort_Text_Youngster
+アクアごうは　ジェットで\nなみの　うえを\lすべるように　はしるんだ！
+@@OlivinePort_Text_CooltrainerF
+カントーには　ポケモンが\nたくさん　いるの\pいって　みたいな‥
+@@OlivinePort_Text_SailorBeforeHOF
+うみに　おちたら　あぶない\nですから　はいれません
+## data/maps/OlivineCity_Lighthouse_hns/scripts.inc
+@@OlivineLighthouse_Text_1FSailor
+この　とうだいでは\nトレーナーが　しゅぎょう\lしている\pなかで　まちかまえて　いるから\nのぼるのは　たいへんだぞ
+@@OlivineLighthouse_Text_1FPokefanF
+むかしは　ポケモンが　よるの\nアサギの　うみを　てらして\lいたの\pとうだいは　その　けだかい\nポケモンを　たたえて\lたてられたのよ
+@@OlivineLighthouse_Text_SailorHueySeen
+うみの　おとこは　いつでも\nしょうぶに　うえてるぜ！
+@@OlivineLighthouse_Text_SailorHueyBeaten
+うぐっ！\nまけた！
+@@OlivineLighthouse_Text_SailorHueyAfter
+すごい　ちからだ！\nおれと　うみに　でないか？
+@@OlivineLighthouse_Text_HueyRegister
+すごい　ちからだ！\nおれと　うみに　でないか？
+@@OlivineLighthouse_Text_HueyRematchIntro
+うみの　おとこは　いつでも\nしょうぶに　うえてるぜ！
+@@OlivineLighthouse_Text_HueyRematchDefeat
+うぐっ！\nまけた！
+@@OlivineLighthouse_Text_HueyPostRematch
+すごい　ちからだ！\nおれと　うみに　でないか？
+@@OlivineLighthouse_Text_GentlemanAlfredSeen
+む？　ここは　あそび\nばでは　ないぞ
+@@OlivineLighthouse_Text_GentlemanAlfredBeaten
+おお！　ほんきの\nようだな
+@@OlivineLighthouse_Text_GentlemanAlfredAfter
+うえには　とうだいを\nてらす　ポケモンが　いる\pだが　いまは　びょうきで\nふつうの　ほうほうでは\lなおらない　らしい
+@@OlivineLighthouse_Text_BirdKeeperTheoSeen
+なにしに　きた？\nけんぶつ　なら\lかえって　くれ！
+@@OlivineLighthouse_Text_BirdKeeperTheoBeaten
+きみも　びょうきの　ポケモンを\nしんぱい　してるんだね‥
+@@OlivineLighthouse_Text_BirdKeeperTheoAfter
+どうやって　のぼるんだ？\pびょうきの　ポケモンに\nあいたいのに　のぼれない‥
+@@OlivineLighthouse_Text_SailorTerrellSeen
+ふなのりは　やさしくて\nつよい　きみは　どうだ？
+@@OlivineLighthouse_Text_SailorTerrellBeaten
+きみは　やさしくて\nつよい‥
+@@OlivineLighthouse_Text_SailorTerrellAfter
+アサギに　もどる　たびに\nジムに　よるんだ\pいつのまにか　ジムリーダーの\nポケモンの　タイプが\lかわってたよ
+@@OlivineLighthouse_Text_GentlemanPrestonSeen
+せかいを　たびして　ポケモンを\nきたえて　いる\lきみと　たたかいたい
+@@OlivineLighthouse_Text_GentlemanPrestonBeaten
+‥はあ‥　もっと\nきたえねば‥
+@@OlivineLighthouse_Text_GentlemanPrestonAfter
+ミカンは　むかし　イワークの\nような　いわタイプの\lポケモンを　つかって　いた
+@@OlivineLighthouse_Text_SailorKentSeen
+ミカンさんは　ここの　ポケモンが\nしんぱいで　たまらないんだ\pさいきんは　わらいも\nしない
+@@OlivineLighthouse_Text_SailorKentBeaten
+おれも　わらえないよ‥
+@@OlivineLighthouse_Text_SailorKentAfter
+びょうき　と　いえば\nタンバに　いい\lくすりやが　あるらしい
+@@OlivineLighthouse_Text_LassConnieSeen
+ミカンさんは　この　まちの\nジムリーダー\pわたしが　つれもどすの\pじゃまは　させないわ！
+@@OlivineLighthouse_Text_LassConnieBeaten
+きゃあ！\nわたしの　ポケモン！
+@@OlivineLighthouse_Text_LassConnieAfter
+そうよね　じぶんの　ポケモンが\nけがを　したら\lだれだって　しんぱいよね\pミカンさんが　ジムに　もどれる\nように　ここの　ポケモンの\lために　いのるわ
+@@OlivineLighthouse_Text_SailorErnestSeen
+ミカンさんと　たたかい\nたかったけど　いまは\lそれどころ　じゃない\pじゃあ　きみは　どうだ？
+@@OlivineLighthouse_Text_SailorErnestBeaten
+うわわ！\nかなわない！

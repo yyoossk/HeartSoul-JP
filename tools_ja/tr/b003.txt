@@ -1,0 +1,313 @@
+## data/text/match_call_hns.inc
+@@MatchCall_HNS_Joey_General1
+よう　{PLAYER}！\nげんきに　してる？\pポケモンの　ちょうしは　どう？\pおれの　{STR_VAR_3}は\nあいかわらず　やるきまんまんだよ\pこいつ　1ぴきしか　いないけど\nこいつと　いっしょに\lすごい　トレーナーに　なるんだ！
+@@MatchCall_HNS_Joey_General2
+よう　{PLAYER}！\nちょっと　いい？\pおれの　{STR_VAR_3}\nまえより　かっこよく　なったぜ！\pおまえの　てもちに　こいつほど\nかっこいい　ポケモンは\lいないんじゃないかな！
+@@MatchCall_HNS_Joey_General3
+よう　{PLAYER}！\nげんきに　してる？\pいま　{STR_VAR_3}の　わざを\nしらべて　さくせんを\lかんがえてるんだ\pいい　さくせんが　うかんだら\nしょうぶしようぜ！
+@@MatchCall_HNS_Joey_Battle
+よう　{PLAYER}！\pまた　あつまって\nしょうぶしようぜ！\pこんどは　まえとは\nちがうからな！
+@@MatchCall_HNS_Wade_General1
+{PLAYER}　やあ！\pポケモンの　ちょうしは　どうだい？\pおれの　ポケモンは\nげんきが　ありあまってて\pこまって　しまうんだ\pなかでも　{STR_VAR_3}が\nいちばん　てに　おえない\pあいてを　するだけで\nくたくたさ
+@@MatchCall_HNS_Wade_General2
+{PLAYER}　やあ！\nいい　てんきだね\pポケモン　そだってるかい？\pおれの　ポケモンは　そだつのが\nちょっと　はやすぎて\lおいつけないよ！\p{STR_VAR_3}は\nとくに　はやくてね\pこれから　たいへんそうだ
+@@MatchCall_HNS_Wade_General3
+{PLAYER}　やあ！\pそうそう　このまえ　やせいの\n{STR_VAR_3}を\lいっぱつで　たおしたんだ\pあっけなく　たおれちゃって\nちょっと　かわいそうに\lなったよ
+@@MatchCall_HNS_Wade_FoundItem
+{PLAYER}　やあ！\pいろんな　きのみを\nみつけたんだ\pよかったら\nわけて　あげるよ\p31ばんどうろで\nまってるよ
+@@MatchCall_HNS_Wade_Battle
+{PLAYER}　やあ！\pポケモンしょうぶ\nしたく　ないかい？\pこんどは　まえみたいには\nいかないぞ！
+@@MatchCall_HNS_Ralph_General1
+よう　{PLAYER}！\nつりの　ほうは　どうだい？\pポケモンを　だいじに\nしてるかい？\pあいぼうには　やさしく\nしなきゃ　だめだぞ！
+@@MatchCall_HNS_Ralph_General2
+よう　{PLAYER}！\pこどもと　いるより\n{STR_VAR_3}と　いる\lじかんの　ほうが　ながくてな\pちょっと　さびしい\nはなしだよな
+@@MatchCall_HNS_Ralph_General3
+よう　{PLAYER}！\nきいてくれよ！\pさっき　やせいの\n{STR_VAR_3}を　たおしたんだ\pむすこに　はなしたら\nそんなの　かんたんだって\lばかに　されちまった\pまったく　なまいきに\nなりやがって‥
+@@MatchCall_HNS_Ralph_Battle
+よう　{PLAYER}！\pまってたぞ\nしょうぶしよう！
+@@MatchCall_HNS_Liz_General1
+はーい　{PLAYER}！\nひまだったから\lでんわ　しちゃった\pで　ポケモンは　げんき？\pわたしは　{STR_VAR_3}を\nまいにち　キキョウの\lポケモンセンターに　つれてくの\pだから　すっごく\nげんきなのよ！\pうけつけの　ひとと\nともだちに　なっちゃった！
+@@MatchCall_HNS_Liz_General2
+はーい　{PLAYER}！\nきいて　きいて\pわたしの　{STR_VAR_3}\nすっごく　かわいいの！\pいつも　すりすり\nしてくるのよ！
+@@MatchCall_HNS_Liz_General3
+はーい　{PLAYER}！\nねえ　きいてよ！\pキキョウジムの　ハヤトって\nかっこいいと　おもわない？\pでも　しゅぎょうの　たびに\nでてる　おとうさんは\lハヤトより　もっと\lかっこいいんだって\pあって　みたいなあ！
+@@MatchCall_HNS_Liz_Battle
+はーい　{PLAYER}！\pまってたのよ\nしょうぶしましょ！
+@@MatchCall_HNS_Anthony_General1
+やあ　{PLAYER}！\pポケモンは　あいかわらず\nげんき　いっぱいかい？\pおれと　{STR_VAR_3}は\nげんきが　ありあまってる\pだから　まいにち　やまに\nのぼって　ちからを\lはっさん　してるのさ
+@@MatchCall_HNS_Anthony_General2
+やあ　{PLAYER}！\pこのまえ　{STR_VAR_3}が\nきのみを　たべてるのを\lみてたんだ\pおいしそうに　たべてたから\nおれも　たべて　みたんだ\pひとが　たべて　いいのか\nわからないけど\lうまかったよ！
+@@MatchCall_HNS_Anthony_General3
+やあ　{PLAYER}！\pさいきん　やせいの\n{STR_VAR_3}に\lよく　でくわすんだ\pかんたんに\nかたづけられるけどね
+@@MatchCall_HNS_Anthony_Battle
+やあ　{PLAYER}！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Todd_General1
+よう　{PLAYER}！\nどうしてる？\pポケモンって　どうやって\nそだててる？\pおれは　そだてやに\nあずけたり\pどうぐで　きたえたり\nいろいろ　してるよ
+@@MatchCall_HNS_Todd_General2
+よう　{PLAYER}！\nどうしてる？\pおれの　{STR_VAR_3}\nだんだん　おれに\lにてきたんだ\pますます　かわいく\nなってきたよ！
+@@MatchCall_HNS_Todd_General3
+よう　{PLAYER}！\nどうしてる？\pあのさ\pもう　{STR_VAR_3}なんか\nらくしょうで　たおせるんだ\pそろそろ　コガネジムに\nちょうせん　しようかな
+@@MatchCall_HNS_Todd_Battle
+よう　{PLAYER}！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Gina_General1
+はーい　{PLAYER}！\nげんき？\pポケモンは　まだ\nつよいままかしら？\pわたしは　まいにち\n{STR_VAR_3}と　とっくん　してるわ
+@@MatchCall_HNS_Gina_General2
+はーい　{PLAYER}！\nげんき？\pわたしと　{STR_VAR_3}\nどんどん　いきが\lあってきたのよ
+@@MatchCall_HNS_Gina_General3
+はーい　{PLAYER}！\nげんき？\pやせいの　{STR_VAR_3}と\nたたかって　ぎりぎりで\lたおせたの\pちょうしが　でてきたわ！
+@@MatchCall_HNS_Gina_Battle
+はーい　{PLAYER}！\pまってたのよ\nしょうぶしましょ！
+@@MatchCall_HNS_Irwin_General1
+あ　もしもし　{PLAYER}？\nなかよしの　アーウィンだよ！\pこのまえ　すっごい\nしょうぶを　みたんだ！\pぼくも　あんな　しょうぶが\nしてみたいなあ\pあ　そうか！　あいてが\nいれば　できるんだ！
+@@MatchCall_HNS_Irwin_General2
+あ　もしもし　{PLAYER}？\nなかよしの　アーウィンだよ！\pえへへ　すぐ　でんわ\nしちゃった！\pぼくたち　いい　ともだちに\nなれると　おもうんだ！
+@@MatchCall_HNS_Irwin_General3
+あ　もしもし　{PLAYER}？\nなかよしの　アーウィンだよ！\pきみの　ぼうけんの　はなしを\nきくと　たましいが　ふるえるよ！\pほんとうだよ！
+@@MatchCall_HNS_Irwin_Battle
+あ　もしもし　{PLAYER}？\nなかよしの　アーウィンだよ！\pまってたんだ\nしょうぶしよう！
+@@MatchCall_HNS_Arnie_General1
+よう　{PLAYER}！\nちょうし　どう？\pきみの　ポケモン　まえより\nずっと　つよく　なってるんだろうな
+@@MatchCall_HNS_Arnie_General2
+よう　{PLAYER}！\nちょうし　どう？\pおれは　いつも\n{STR_VAR_3}と　いっしょさ！\pかわいくて\nだいすきなんだ！
+@@MatchCall_HNS_Arnie_General3
+よう　{PLAYER}！\nちょうし　どう？\pはなしは　かわるけど\nはじめて　{STR_VAR_3}を\lみたんだ\pわりと　かんたんに\nたおせたよ
+@@MatchCall_HNS_Arnie_Battle
+よう　{PLAYER}！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Alan_General1
+もしもし　{PLAYER}！\nアランだよ！\p{PLAYER}は　ポケモンを\nちゃんと　そだててる？\pほんで　よんだんだけど\nつかまえた　ポケモンは\lあいじょうを　こめて\lそだてなきゃ　いけないんだって
+@@MatchCall_HNS_Alan_General2
+もしもし　{PLAYER}！\nアランだよ！\pぼくの　{STR_VAR_3}\nけいさん　どおりに\lつよく　なってるよ！
+@@MatchCall_HNS_Alan_General3
+もしもし　{PLAYER}！\nアランだよ！\pそういえば　このまえ　やせいの\n{STR_VAR_3}を\lたおしたんだ\pよしゅうが\nやくに　たったよ！
+@@MatchCall_HNS_Alan_FoundItem
+もしもし　{PLAYER}！\nアランだよ！\pへへへ　いいもの\nひろっちゃった！\pきみに　あげるよ！\p36ばんどうろまで\nとりに　きてよ！
+@@MatchCall_HNS_Alan_Battle
+もしもし　{PLAYER}！\nアランだよ！\pまってたんだ\nしょうぶしよう！
+@@MatchCall_HNS_Dana_General1
+もしもし　{PLAYER}！\nダナよ！\pわたしの　{STR_VAR_3}\nげんきが　よすぎて\lちょっと　こわいくらい\pあなたの　ポケモンは\nどう？
+@@MatchCall_HNS_Dana_General2
+もしもし　{PLAYER}！\nダナよ！\pわたしの　{STR_VAR_3}\nどんどん　きれいに\lなってるの！\pしゃしん　とりまくってるわ！
+@@MatchCall_HNS_Dana_General3
+もしもし　{PLAYER}！\nダナよ！\pやせいの　{STR_VAR_3}を\nあっというまに　たおしたの\pこのまえ　あなたに　しょうぶの\nコツを　おしえてもらった\lおかげかもね
+@@MatchCall_HNS_Dana_FoundItem
+もしもし　{PLAYER}！\nダナよ！\pあのね\nいい　もの　もらったの！\pやくそく　どおり　あなたに\nあげるわ　きっと　よろこぶわよ\pとりに　きてね！\n38ばんどうろで　まってるわ！
+@@MatchCall_HNS_Dana_Battle
+もしもし　{PLAYER}！\nダナよ！\pまってたのよ\nしょうぶしましょ！
+@@MatchCall_HNS_Chad_General1
+もしもし　{PLAYER}！\nチャドです！\pポケモンの　ちょうしは\nどう？\pオーキドはかせと　しりあいなら\nもちろん　ポケモンも\lげんき　だよね！\pぼくの　ポケモンも　げんきだよ\pなにしろ　ぼくは\nポケモンはかせを\lめざしてるからね
+@@MatchCall_HNS_Chad_General2
+もしもし　{PLAYER}！\nチャドです！\pさいきん　やせいの\n{STR_VAR_3}の\lかんさつを　はじめたんだ\pかんさつで　いろんな\nことが　わかって\lきたんだよ\pはやく　オーキドはかせ\nみたいな　ポケモン\lけんきゅうしゃに　なりたいな
+@@MatchCall_HNS_Chad_General3
+もしもし　{PLAYER}！\nチャドです！\pオーキドはかせの　じょしゅに\nしてもらえるように\lいっしょうけんめい　べんきょうするよ！
+@@MatchCall_HNS_Chad_Battle
+もしもし　{PLAYER}！\nチャドです！\pまってたよ\nしょうぶしよう！
+@@MatchCall_HNS_Derek_General1
+よう　{PLAYER}！\nデレクだよ！\pきいてくれよ！\pかわいい　{STR_VAR_3}が\nぼくを　みて　にっこり\lわらったんだ！\pきっと　ぼくたちの　こころが\nひとつに　なったからだね！
+@@MatchCall_HNS_Derek_General2
+よう　{PLAYER}！\nデレクだよ！\pきいて　きいて\pぼくの　{STR_VAR_3}\nほっぺを　つまむと\lうれしそうに　わらうんだ\pでも　ほかの　ひとには\nぜったい　わらわないんだよ\pぼくって　とくべつ　なんだな
+@@MatchCall_HNS_Derek_General3
+よう　{PLAYER}！\nデレクだよ！\pきみの　ピカチュウは\nげんき？\pこんど　あつまって　ピカチュウ\nじまん　しようよ！
+@@MatchCall_HNS_Derek_FoundItem
+よう　{PLAYER}！\nデレクだよ！\pきみに　きんのたまを\nあげたいんだ\p39ばんどうろに　いるから\nとりに　きてよ！
+@@MatchCall_HNS_Derek_Battle
+よう　{PLAYER}！\nデレクだよ！\pまってたんだ\nしょうぶしよう！
+@@MatchCall_HNS_Tully_General1
+よう　{PLAYER}！\nタリーだ！\pたびの　ほうは\nどうだい？\pおれの　つりは\nもうしぶん　ないぜ！
+@@MatchCall_HNS_Tully_General2
+よう　{PLAYER}！\nタリーだ！\pおれの　{STR_VAR_3}\nまた　おおきく　なったんだ\pつかまえた　ときは\nこれっぽっち　だったのに\lいまじゃ　こーんなに　でかいぜ
+@@MatchCall_HNS_Tully_General3
+よう　{PLAYER}！\nタリーだ！\pそうそう　やせいの\n{STR_VAR_3}を　たおしたんだ\pこーんなに　でかかったぜ\pへへ　でんわじゃ\nわからないか‥
+@@MatchCall_HNS_Tully_FoundItem
+よう　{PLAYER}！\nタリーだ！\pみずべで　ちょっと\nいいもの　ひろったんだ\pやくそく　どおり\nおまえに　やるよ\p42ばんどうろで\nまってるぜ
+@@MatchCall_HNS_Tully_Battle
+よう　{PLAYER}！\nタリーだ！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Brent_General1
+よう　{PLAYER}！\nブレントだ！\pそういえば　このまえ　おまえが\nポケモンセンターから\lでてくるのを　みたぜ\pこまめに　かいふく\nさせてるんだな\lかんしんするよ\pへへ　おれの　{STR_VAR_3}は\nタフだから　ポケモンセンターには\lあんまり　いかなくて　いいんだ
+@@MatchCall_HNS_Brent_General2
+よう　{PLAYER}！\nブレントだ！\pそういえば　このまえ　こうかんで\nすごく　めずらしい\lポケモンを　てにいれたんだ\pなにか　しりたい？\pへへ　ひみつだよ！
+@@MatchCall_HNS_Brent_General3
+よう　{PLAYER}！\nブレントだ！\pしってたか‥？\pマサキって　もともと\nコガネの　しゅっしんなんだ\pで　どうやら　しょうぶは\nあんまり　とくい\lじゃないらしいぜ
+@@MatchCall_HNS_Brent_Battle
+よう　{PLAYER}！\nブレントだ！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Tiffany_General1
+もしもし　{PLAYER}！\nティファニーよ！\pポケモンは　げんき？\pまいにち　ポケモンセンターに\nつれていって　あげてね\pむりは　させちゃ　だめよ\pわたしの　{STR_VAR_3}が\nかわいくて　げんきなのは\lまいにち　ポケモンセンターに\lつれていってるからなの
+@@MatchCall_HNS_Tiffany_General2
+もしもし　{PLAYER}！\nティファニーよ！\pわたしの　{STR_VAR_3}\nかわいいと　おもわない？\pいつも　いっしょに　ねてるの\nふわふわで　あったかいのよ！
+@@MatchCall_HNS_Tiffany_General3
+もしもし　{PLAYER}！\nティファニーよ！\pそうそう　このまえ　やせいの\n{STR_VAR_3}と\lたたかったんだけど‥\pわたしの　ピッピが\nたおれそうに　なったの！\pひどいと　おもわない？\nいじわるな　{STR_VAR_3}\lなんて　きらい！
+@@MatchCall_HNS_Tiffany_Battle
+もしもし　{PLAYER}！\nティファニーよ！\pまってたのよ\nしょうぶしましょ！
+@@MatchCall_HNS_Vance_General1
+よう　{PLAYER}！\nバンスだ！\pおまえも　ポケモンも\nげんきか？\pおれの　{STR_VAR_3}は\nでんせつの　とりポケモンに\pたちむかって　かてるくらい\nつよく　なりそうだぜ！
+@@MatchCall_HNS_Vance_General2
+よう　{PLAYER}！\nバンスだ！\pおれの　{STR_VAR_3}\nもっと　タフに　なったぜ\pついに　とびたったって\nかんじだ！
+@@MatchCall_HNS_Vance_General3
+よう　{PLAYER}！\nバンスだ！\p{STR_VAR_3}なんか\nらくしょうで　たおせるぜ！\p‥え？　おまえもか？\nすごいじゃないか！
+@@MatchCall_HNS_Vance_Battle
+よう　{PLAYER}！\nバンスだ！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Wilton_General1
+よう　{PLAYER}！\nウィルトンだ！\pポケモンは\nそだったかい？\pおれの　{STR_VAR_3}は\nずいぶん　おおきく　なったぜ
+@@MatchCall_HNS_Wilton_General2
+よう　{PLAYER}！\nウィルトンだ！\pおれの　{STR_VAR_3}\nりっぱに　なったぞ！\pおれの　つりの　うでも\nあがったぜ！
+@@MatchCall_HNS_Wilton_General3
+よう　{PLAYER}！\nウィルトンだ！\pやせいの　{STR_VAR_3}を\nたおしたんだ‥\pでも　やせいの　ポケモンを\nたおすより　つりの　ほうが\lたのしいな
+@@MatchCall_HNS_Wilton_FoundItem
+よう　{PLAYER}！\nウィルトンだ！\pつりを　してたら\nどうぐが　ひっかかったんだ\p44ばんどうろまで\nとりに　きなよ
+@@MatchCall_HNS_Wilton_Battle
+よう　{PLAYER}！\nウィルトンだ！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Kenji_General1
+よう　{PLAYER}！\nケンジだ！\p{PLAYER}！　いい　てんき\nだな　おい！
+@@MatchCall_HNS_Kenji_General2
+よう　{PLAYER}！\nケンジだ！\pまだ　たびを\nつづけて　いるのか？\pおれは　いまも\nしゅぎょう　ひとすじだ\pうおおおおおっ！
+@@MatchCall_HNS_Kenji_General3
+よう　{PLAYER}！\nケンジだ！\pいま　しゅぎょうちゅう　なんだ\pすまんが　また\nかけなおして　くれ\pうおおおおおっ！
+@@MatchCall_HNS_Kenji_Battle
+よう　{PLAYER}！\nケンジだ！\pいま　きゅうけいちゅうだ！\pひまなら　よって\nいかないか？
+@@MatchCall_HNS_Kenji_FoundItem
+よう　{PLAYER}！\nケンジだ！\pしゅぎょうの　きゅうけいちゅう\nなんだが\pいい　ものを　みつけた\nほしけりゃ　とりに　こい！
+@@MatchCall_HNS_Parry_General1
+よう　{PLAYER}！\nパリーだ！\pポケモン　ちょうし　いいか？\pおれと　{STR_VAR_3}は\nすこぶる　ごきげんだぜ！\lがっはっは！
+@@MatchCall_HNS_Parry_General2
+よう　{PLAYER}！\nパリーだ！\pいまの　おれの　{STR_VAR_3}に\nかなう　やつは　いないぜ
+@@MatchCall_HNS_Parry_General3
+よう　{PLAYER}！\nパリーだ！\pおう　やせいの　{STR_VAR_3}を\nたおしたぜ！\pそれは　いいんだが\nほんとは　つかまえたかった‥
+@@MatchCall_HNS_Parry_Battle
+よう　{PLAYER}！\nパリーだ！\pまた　しょうぶ\nしてくれるよな？
+@@MatchCall_HNS_Erin_General1
+もしもし　{PLAYER}！\nエリンよ！\pポケモン　そだててる？\pわたしの　{STR_VAR_3}は\nちょうし　いいわよ！
+@@MatchCall_HNS_Erin_General2
+もしもし　{PLAYER}！\nエリンよ！\pわたしの　{STR_VAR_3}\nまえより　ずっと\lつよく　なったの！
+@@MatchCall_HNS_Erin_General3
+もしもし　{PLAYER}！\nエリンよ！\pあのね　さっき\n{STR_VAR_3}と　たたかって\lかったの！\pポケモン　ちゃんと\nそだてて　きたもんね！
+@@MatchCall_HNS_Erin_Battle
+もしもし　{PLAYER}！\nエリンよ！\pポケモンを　いっしょうけんめい\nそだててるの！\pまた　しょうぶしに　きてね！
+@@MatchCall_HNS_Jack_General1
+よう　{PLAYER}！\nジャックだよ！\pポケモンの　ちょうしは　どう？\pぼくの　{STR_VAR_3}\nこうきしんが　つよすぎて\lこまっちゃうよ\pぼくに　にたのかな‥
+@@MatchCall_HNS_Jack_General2
+よう　{PLAYER}！\nジャックだよ！\pぼくの　{STR_VAR_3}\nどんどん　かしこく\lなってるんだ\pきみの　ポケモンより\nかしこいかもね！
+@@MatchCall_HNS_Jack_General3
+よう　{PLAYER}！\nジャックだよ！\pしってた？\pあめの　ときは\nかみなりが　かならず　あたるんだ\pともだちが　いい　コツを\nきいたらしいんだ\lおしえて　もらったら\lすぐ　でんわするね
+@@MatchCall_HNS_Jack_Battle
+よう　{PLAYER}！\nジャックだよ！\pまってたんだ\nしょうぶしよう！
+@@MatchCall_HNS_Beverly_General1
+もしもし　{PLAYER}！\nビバリーよ！\pポケモン　しあわせに\nしてる？\pうちの　{STR_VAR_3}は\nげんきで　まいにち\lたくさん　たべるのよ
+@@MatchCall_HNS_Beverly_General2
+もしもし　{PLAYER}！\nビバリーよ！\pうちの　{STR_VAR_3}を\nおめかし　させたら\lもっと　かわいく　なったの！
+@@MatchCall_HNS_Beverly_General3
+もしもし　{PLAYER}！\nビバリーよ！\pポケモンは\nぜっこうちょう　かしら？\pまた　ポケモンの　おはなし\nしましょうね
+@@MatchCall_HNS_Beverly_FoundItem
+もしもし　{PLAYER}！\nビバリーよ！\pしゅじんが　きんのたまを\nもらってきたの\pたすけて　もらった\nおれいに　ひとつ\lあげるわ\pしぜんこうえんに　いるから\nよかったら　きてちょうだい
+@@MatchCall_HNS_Beverly_Battle
+もしもし　{PLAYER}！\nビバリーよ！\pまってたのよ\nしょうぶしましょ！
+@@MatchCall_HNS_Huey_General1
+よう　{PLAYER}！\nヒューイだ！\pちょうしは　どうだ？
+@@MatchCall_HNS_Huey_General2
+よう　{PLAYER}！\nヒューイだ！\pまた　いつか\nしょうぶしようぜ\pかつまで　なんどでも\nいどむからな
+@@MatchCall_HNS_Huey_Battle
+よう　{PLAYER}！\nヒューイだ！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Gaven_General1
+よう　{PLAYER}！\nギャビンだ！\pポケモンの　ちょうしは　どう？\pおれの　{STR_VAR_3}は\nあいかわらず　さいこうだ\pこの　ちょうしで\nいっしょに　チャンピオンを\lめざそうぜ！
+@@MatchCall_HNS_Gaven_General2
+よう　{PLAYER}！\nギャビンだ！\pおれの　{STR_VAR_3}\nおもってたより　すごいかも\pこいつより　いい　ポケモンには\nもう　であえないだろうな
+@@MatchCall_HNS_Gaven_General3
+よう　{PLAYER}！\nギャビンだ！\pおまえに　かつ　ほうほうばかり\nかんがえてるよ
+@@MatchCall_HNS_Gaven_Battle
+よう　{PLAYER}！\nギャビンだ！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Beth_General1
+もしもし　{PLAYER}！\nベスよ！\pあなた　ポケモンセンターに\nよく　いくほう？\pわたしは　まいにち　いくわ\nポケモンの　けんこうに\lきを　くばるのは\lトレーナーの　きほんよ
+@@MatchCall_HNS_Beth_General2
+もしもし　{PLAYER}！\nベスよ！\pわたしの　かわいい\n{STR_VAR_3}　おぼえてる？\p{STR_VAR_3}は\nとっても　あしが　はやいの\pほんきで　はしってる　ときに\nせなかに　のると\lすっごく　きもちいいのよ
+@@MatchCall_HNS_Beth_General3
+もしもし　{PLAYER}！\nベスよ！\pまた　いつか\nしょうぶしましょうね！
+@@MatchCall_HNS_Beth_Battle
+もしもし　{PLAYER}！\nベスよ！\pまってたのよ\nしょうぶしましょ！
+@@MatchCall_HNS_Jose_General1
+よう　{PLAYER}！\nホセだ！\pポケモン　まだ\nげんき　いっぱいか？\pおれの　{STR_VAR_3}は\nげんきが　ありすぎて\pいったん　とんでいくと\nしばらく　もどって\lこないんだ
+@@MatchCall_HNS_Jose_General2
+よう　{PLAYER}！\nホセだ！\pきいてくれよ　おれの\n{STR_VAR_3}の　ねぎ\lすっごく　いい　においが\lするんだ\pあの　においを　かぐと\nはらが　へってくるぜ！
+@@MatchCall_HNS_Jose_General3
+よう　{PLAYER}！\nホセだ！\pこのまえ　おれの　カモネギが\n{STR_VAR_3}を　たおしたんだ\pカモネギが　ねぎを\nふりまわす　ところ\lみせたかったなあ\pすごかったぜ！
+@@MatchCall_HNS_Jose_FoundItem
+よう　{PLAYER}！\nホセだ！\pおれの　カモネギが\nくちばしに　きれいな\lものを　くわえてたんだ\pやくそく　どおり\nおまえに　やるよ\p27ばんどうろで\nまってるから　とりに　こいよ
+@@MatchCall_HNS_Jose_Battle
+よう　{PLAYER}！\nホセだ！\pまってたぜ\nしょうぶしよう！
+@@MatchCall_HNS_Reena_General1
+もしもし　{PLAYER}\nリーナよ\pねえ　ポケモンは　げんき？\pなに？　ばっちり？\nそう‥\pなに？　わたしの　ポケモン？\pもちろん　ばっちりよ！\nなんて　しつもん　するのよ？
+@@MatchCall_HNS_Reena_General2
+もしもし　{PLAYER}\nリーナよ\pねえ　あなた‥\pわたしの　{STR_VAR_3}\nおぼえてる？\pそう　あの　すてきな\n{STR_VAR_3}よ\pわたしに　ぴったりだと\nおもわない？
+@@MatchCall_HNS_Reena_General3
+もしもし　{PLAYER}\nリーナよ\pたまたま　わたしに　かったから\nって　いい　きに　ならないでよ‥\pあれは　まぐれよ！
+@@MatchCall_HNS_Reena_Battle
+もしもし　{PLAYER}\nリーナよ\pまってたのよ\nしょうぶしましょ！
+@@MatchCall_HNS_Alex_General1
+よう　{PLAYER}！\nアレックスだ！\pわが　こうきな　ポケモンは\nひに　ひに　みがかれていく\p{STR_VAR_3}は\nほんとうに　つよく　なったぞ！
+@@MatchCall_HNS_Alex_General2
+よう　{PLAYER}！\pほかの　ちほうには　おうさまや\nじょおうさまが　いるらしい\lなんで　カントーには\pおうぞくが　いないんだ？
+@@MatchCall_HNS_Alex_Battle
+よう　{PLAYER}！\nアレックスだ！\pわが　こうきな　ポケモンは\nさいせんの　じゅんび\lばんたんだ！　13ばんどうろへ　こい！
+@@MatchCall_HNS_Riley_General1
+よう　{PLAYER}！\nライリーだ\pサイクリングロードは　さいこうだぜ\nかおに　かぜを　うける\lかんじが　たまらない\p{STR_VAR_3}も\nスピードが　だいすきさ！
+@@MatchCall_HNS_Riley_General2
+よう　{PLAYER}！\pジョウトの　やつらも\nわるくないな\lみなおしたぜ\pでも　ちょうしに\nのるなよ！
+@@MatchCall_HNS_Riley_Battle
+よう　{PLAYER}！\nライリーだ\pサイクリングロードに\nこいよ！　さいせんだ！
+@@MatchCall_HNS_Trevor_General1
+もしもし　{PLAYER}！\nトレバーだよ\pおもいでの　ばしょで　とっくん\nすると　ポケモンが\lなつきやすいって　しってた？\p{STR_VAR_3}も\nここが　すきみたい
+@@MatchCall_HNS_Trevor_General2
+もしもし　{PLAYER}！\pポケモンが　なついているほど\nいりょくが　あがる\pわざが　あるんだって！
+@@MatchCall_HNS_Trevor_Battle
+もしもし　{PLAYER}！\nトレバーだよ\pぼくの　なかまは　しょうぶの\nじゅんび　ばっちり！\l14ばんどうろに　きてね！
+@@MatchCall_HNS_Kyle_General1
+だれだ！？\nおれが　かけたのか？\pカイルだ　わすれるなよ！
+@@MatchCall_HNS_Kyle_General2
+よう　{PLAYER}！\pおぼえてるか？\nつりの　ひけつを
+@@MatchCall_HNS_Kyle_Battle
+よう　{PLAYER}！\nカイルだ\pつよい　ポケモンを\nつりあげたぜ！\p12ばんどうろで\nしょうぶだ！
+@@MatchCall_HNS_Carter_General1
+もしもし　{PLAYER}！\nカーターだよ\pめずらしい　さいしょの\nポケモンを　あつめてるんだ\p{STR_VAR_3}が\nいちばん　あたらしい　じまんさ！
+@@MatchCall_HNS_Carter_General2
+もしもし　{PLAYER}！\pいろんな　ちほうの\nさいしょの　ポケモンが\lいるって　しってた？\pぜんぶ　あつめたいんだ！
+@@MatchCall_HNS_Carter_Battle
+もしもし　{PLAYER}！\nカーターだよ\pあたらしい　ポケモンを\nみせたいんだ！\l14ばんどうろに　きてね！
+@@MatchCall_HNS_Hillary_General1
+もしもし　{PLAYER}\nヒラリーせんせいよ\pどうして　がっこうに\nきていないの？
+@@MatchCall_HNS_Hillary_General2
+もしもし　{PLAYER}\pしゅくだいを　しないで\nゲームを　しているの？
+@@MatchCall_HNS_Hillary_Battle
+もしもし　{PLAYER}\nヒラリーよ\pわたしの　ポケモンは\nつぎの　レベルに　しんきゅうしたわ！\p15ばんどうろで　ためして　ごらん！
+@@MatchCall_HNS_Rob_General1
+よう　{PLAYER}！\nロブだよ！\pトキワのもりは　かっこいい\nむしで　いっぱいだ！
+@@MatchCall_HNS_Rob_General2
+よう　{PLAYER}！\pトキワのもりで　むしタイプの\nジムリーダーを　みたんだ！
+@@MatchCall_HNS_Rob_Battle
+よう　{PLAYER}！\nロブだよ！\pぼくの　むしチーム\nいままでで　いちばん　つよいよ！\p2ばんどうろで　さいせんだ！
+@@MatchCall_HNS_Nicole_General1
+もしもし　{PLAYER}！\nニコルよ！\pきょうは　なみが　さいこう！\nわたしの　ポケモンは\lうみで　およぐのが　だいすきなの\p{STR_VAR_3}\nとっても　はやく　なってるわ！
+@@MatchCall_HNS_Nicole_General2
+もしもし　{PLAYER}！\pポケモンと　およぐのは\nさいこうの　うんどうよ
+@@MatchCall_HNS_Nicole_Battle
+もしもし　{PLAYER}！\nニコルよ！\pみずポケモンが　しょうぶ\nしたくて　うずうずしてるの！\p20ばんすいどうに　きてね！
+@@MatchCall_HNS_Billy_General1
+よう　{PLAYER}！\nビリーだよ\pじゅぎょうで　しょうぶの\nさくせんを　べんきょうしてるんだ\p{STR_VAR_3}と\nれんしゅう　してるよ！
+@@MatchCall_HNS_Billy_General2
+よう　{PLAYER}！\pもうすぐ　テストだけど\nしょうぶの　ほうが　いいなあ\pべんきょうが　すべてじゃ\nないよね？
+@@MatchCall_HNS_Billy_Battle
+よう　{PLAYER}！\nビリーだよ\pあたらしい　わざを\nおぼえたんだ！\l15ばんどうろに　きてね！
+@@MatchCall_HNS_Kenny_General1
+やあ　{PLAYER}！\nケニーだ\pやまって　ほんとうに　ぜんぶ\nうみや　かわが　つくったのかな？
+@@MatchCall_HNS_Kenny_General2
+やあ　{PLAYER}！\pケニーだ\nニビの　はくぶつかんに　いったよ！\pカントーちほうは　むかし\nぜんぶ　うみの　そこ\lだったって　しってた？
+@@MatchCall_HNS_Kenny_Battle
+やあ　{PLAYER}！\nケニーだ\pやまで　みっちり\nきたえて　きたぞ！\p13ばんどうろで\nしょうぶだ！
+@@MatchCall_HNS_Joel_General1
+よう　{PLAYER}！\nジョエルだ\pしょうぶで　かっこよく\nみえるように　れんしゅうしてる\p{STR_VAR_3}も\nはでな　わざを　おぼえたぜ！
+@@MatchCall_HNS_Joel_General2
+よう　{PLAYER}！\pジョエルだ\nサイクリングロードで\lじこが　あったんだ\pあんぜんが　いちばん\nかっこいいんだぜ
+@@MatchCall_HNS_Joel_Battle
+よう　{PLAYER}！\nジョエルだ\pみためも　しょうぶも\nかっこよく　なったぜ！\lサイクリングロードに　こい！
+@@MatchCall_HNS_Charles_General1
+よう　{PLAYER}！\nチャールズだ\pイッシュでは　ちょっとした\nプレイボーイだったんだ\pいまは　ハイウェイの\nスターさ！
+@@MatchCall_HNS_Charles_General2
+よう　{PLAYER}！\pよるの　サイクリングロードは\nかくべつだぜ\pがいとうと　かぜ‥\nこれが　じゆうって　やつさ！
+@@MatchCall_HNS_Charles_Battle
+よう　{PLAYER}！\nチャールズだ\pハイウェイスターが\nリベンジを　ねらってるぜ！\lサイクリングロードに　こい！

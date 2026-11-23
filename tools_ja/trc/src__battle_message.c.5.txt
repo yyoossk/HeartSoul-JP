@@ -1,0 +1,128 @@
+@@794
+{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}はい\nいいえ
+@@795
+{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}どれと\nいれかえる？
+@@800
+サファリボール
+@@801
+のこり:　$
+@@802
+ねむり
+@@803
+どく
+@@804
+やけど
+@@805
+まひ
+@@806
+こおり
+@@807
+こんらん
+@@808
+メロメロ
+@@809
+　と　
+@@814
+は
+@@815
+は
+@@816
+ダメタマゴ
+@@817
+ミツル
+@@818
+{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}かち
+@@819
+{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}まけ
+@@820
+{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}ひきわけ
+@@821
+は
+@@823
+バトルトーナメント
+@@824
+1かいせん
+@@825
+2かいせん
+@@826
+じゅんけっしょう
+@@827
+けっしょう
+@@828
+ちたいの　ルーキー！\p
+@@829
+ゆうしょうの　ゆめは　かなうのか！？\p
+@@830
+もと　チャンピオン！\p
+@@831
+ぜんかいの　チャンピオン！\p
+@@832
+むはいの　チャンピオン！\p
+@@834
+VS
+@@836
+こころ
+@@837
+わざ
+@@838
+からだ
+@@839
+{B_BUFF1}{CLEAR 13}はんてい{CLEAR 13}{B_BUFF2}
+@@840
+{B_TRAINER1_NAME_WITH_CLASS}は　{B_OPPONENT_MON1_NAME}を　くりだした！\p{B_TRAINER2_NAME_WITH_CLASS}は　{B_OPPONENT_MON2_NAME}を　くりだした！
+@@841
+{B_TRAINER2_NAME_WITH_CLASS}は　{B_BUFF1}を　くりだした！
+@@842
+{B_TRAINER1_NAME_WITH_CLASS}と　{B_TRAINER2_NAME_WITH_CLASS}が　しょうぶを　しかけてきた！\p
+@@843
+{B_PARTNER_NAME_WITH_CLASS}は　{B_PLAYER_MON2_NAME}を　くりだした！　ゆけっ！　{B_PLAYER_MON1_NAME}！
+@@844
+{B_PARTNER_NAME_WITH_CLASS}は　{B_PLAYER_MON1_NAME}を　くりだした！　ゆけっ！　{B_PLAYER_MON2_NAME}！
+@@845
+{B_PARTNER_NAME_WITH_CLASS}は　{B_PLAYER_MON1_NAME}を　くりだした！
+@@846
+{B_PARTNER_NAME_WITH_CLASS}は　{B_PLAYER_MON2_NAME}を　くりだした！
+@@847
+{B_PARTNER_NAME_WITH_CLASS}は　{B_PLAYER_MON1_NAME}を　ひっこめた！
+@@848
+{B_PARTNER_NAME_WITH_CLASS}は　{B_PLAYER_MON2_NAME}を　ひっこめた！
+@@849
+しんぱん『3ターンで　きまらなければ　はんていに　うつります！
+@@850
+しんぱん『そこまで！　はんていで　しょうしゃを　きめます！
+@@851
+しんぱん『はんてい　その1　こころ！　いちばん　きあいを　みせた　ポケモンは！\p
+@@852
+しんぱん『はんてい　その2　わざ！　いちばん　わざを　うまく　つかった　ポケモンは！\p
+@@853
+しんぱん『はんてい　その3　からだ！　いちばん　げんきな　ポケモンは！\p
+@@854
+しんぱん『はんてい　{B_BUFF1}たい{B_BUFF2}！　{B_PLAYER_NAME}の　{B_PLAYER_MON1_NAME}の　かち！\p
+@@855
+しんぱん『はんてい　{B_BUFF1}たい{B_BUFF2}！　{B_TRAINER1_NAME}の　{B_OPPONENT_MON1_NAME}の　かち！\p
+@@856
+しんぱん『はんてい　3たい3！　ひきわけ！\p
+@@857
+しんぱん『{B_PLAYER_MON1_NAME}　たい　{B_OPPONENT_MON1_NAME}！　はじめ！
+@@858
+{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS}は　にげだした！
+@@859
+{B_TRAINER1_NAME_WITH_CLASS}に　まけた！
+@@860
+{B_TRAINER1_NAME_WITH_CLASS}と　ひきわけた！
+@@861
+たいせんを　フロンティアパスに\nきろくしますか？
+@@862
+{B_PLAYER_NAME}の　たいせんの　けっかを\nフロンティアパスに　きろくした
+@@863
+{B_LINK_OPPONENT1_NAME}が　しょうぶを　しかけてきた！\p
+@@864
+{B_LINK_OPPONENT1_NAME}と　{B_LINK_OPPONENT2_NAME}が　しょうぶを　しかけてきた！\p
+@@865
+みかた
+@@866
+あいて
+@@867
+みかた
+@@868
+あいて

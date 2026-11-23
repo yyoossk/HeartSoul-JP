@@ -1,0 +1,427 @@
+## data/maps/IlexForest_hns/scripts.inc
+@@IlexForest_Text_Shrine
+ウバメのもりの　ほこら‥\pもりの　かみさまを\nまつって　いる‥
+@@IlexForest_Text_ShrineCelebiEvent
+ウバメのもりの　ほこら‥\pもりの　かみさまを\nまつって　いる‥\pおや？　これは　なんだろう？\pあなが　ある\nGSボールが　ぴったり\lはいりそうだ\pGSボールを　おいて　みますか？
+@@IlexForest_Text_InsertGSBall
+{PLAYER}は　GSボールを\nおいた
+@@IlexForest_Text_KurtCaughtCelebi
+ふう　すごかったのう！\p{PLAYER}　みごと\nだったぞ　ありがとう！\pやはり　ほこらの　いいつたえは\nほんとう　だったんじゃ\pいい　もの　みせて\nもらった\pもっと　いい　ボールを\nつくる　きに　なったわい！\pわしは　いくぞ！
+@@IlexForest_Text_BugCatcherWayneSeen
+こっそり　ちかよるなよ！\pポケモンが　にげちゃった\nじゃないか！
+@@IlexForest_Text_BugCatcherWayneBeaten
+はじめて　みる\nポケモン　だったのに‥
+@@IlexForest_Text_BugCatcherWayneAfter
+ずつきを　したら　みた　ことの\nない　ポケモンが　きから\lおちて　きたんだ\pほかの　ところでも\nずつきを　して　みよう
+@@IlexForest_Text_Kimono_Girl1
+まいこはん　まいこはん\nひとりぼっち\lくらい　ウバメのもりで\lまいごの　まいこはん
+@@IlexForest_Text_Kimono_Girl2
+キキョウシティで　あった？\nきの　せい　でしょう\pそれより　この　もりの\nでぐちを　おしえて\lくださる？
+@@IlexForest_Text_Kimono_Girl3
+あらあら‥　あなたも\nまよって　いるのでは\lありませんか？
+@@IlexForest_Text_Kimono_Girl4
+まあ！　でぐちへ\nあんない　して　くださるの？\pなんて　かしこい\nポケモン　でしょう！
+@@IlexForest_Text_Kimono_Girl5
+では　ごきげんよう
+## data/maps/NationalPark_Normal_hns/scripts.inc
+@@NationalPark_Normal_Text_Lass
+みて！　わたしの\nバッグ　みて！\pずかんから　すきな　ポケモンを\nいんさつ　して　はったの
+@@NationalPark_Normal_Text_PokefanF
+むすめから　もらった\nメールなの　げんきが\lでるのよ
+@@NationalPark_Normal_Text_Teacher1
+はい　ちゅうもく！\p‥あら　いつも　せんせいの\nくせが　でちゃう\pあなた　ポケモン\nトレーナーね\pがんばってる　あなたに\nこれを　あげるわ
+@@NationalPark_Normal_Text_Teacher1_QuickClaw
+その　せんせいのツメを\nポケモンに　もたせてね\pときどき　さきに\nこうげき　できるわ
+@@NationalPark_Normal_Text_Youngster1
+ずかんから　いんさつ\nした　シールで\lあそんでるんだ
+@@NationalPark_Normal_Text_Youngster2
+かったら　あいての\nずかんシールが　もらえるんだ
+@@NationalPark_Normal_Text_Teacher2
+こうえんを　さんぽ　するけど\nくさむらには　はいらないの\pトレーナーが　いつも\nしょうぶを　したがるから‥\pたくさん　たたかって\nきたのね　ポケモンを\lかいふく　して　あげる
+@@NationalPark_Normal_Text_Persian
+ペルシアン『フシャーッ！
+@@NationalPark_Normal_Text_SchoolboyJack1_Seen
+ポケモンの　せかいは　ふかい\pまだ　わからない　ことが\nたくさん　ある\pでも　きみよりは\nしってるよ！
+@@NationalPark_Normal_Text_SchoolboyJack1_Beaten
+な　な　なんで？
+@@NationalPark_Normal_Text_SchoolboyJack_After
+まなぶ　ことは　たくさん\nある\pたとえば‥\pわざマシンは　92しゅるい\pこうかん　した　ポケモンは\nレベルが　あがりやすい
+@@NationalPark_Normal_Text_JackRegister
+まなぶ　ことは　たくさん\nある\pたとえば‥\pわざマシンは　92しゅるい\pこうかん　した　ポケモンは\nレベルが　あがりやすい
+@@NationalPark_Normal_Text_JackRematchIntro
+まえに　たたかって　から\nたくさん　まなんだよ！\lいくぞ！
+@@NationalPark_Normal_Text_JackRematchDefeat
+な　な　なんで？
+@@NationalPark_Normal_Text_JackPostRematch
+まなぶ　ことは　たくさん\nある\pたとえば‥\pわざマシンは　92しゅるい\pこうかん　した　ポケモンは\nレベルが　あがりやすい
+@@NationalPark_Normal_Text_PokefanFBeverly1_Seen
+わたしの　ポケモンは\nほんとうに　かわいいの\pどれだけ　じまんの　こたちか\nおしえて　あげるわ
+@@NationalPark_Normal_Text_PokefanFBeverly1_Beaten
+じまんでは　まけないけど‥
+@@NationalPark_Normal_Text_PokefanFBeverly_After
+あなたの　ポケモンも\nとっても　かわいいわね
+@@NationalPark_Normal_Text_PokefanmWilliam_Seen
+きらわれても　ポケモンを\nあいする\pそれが　ファンと\nいう　ものだ
+@@NationalPark_Normal_Text_PokefanmWilliam_Beaten
+お　おれの　ポケモンが！
+@@NationalPark_Normal_Text_PokefanmWilliam_After
+しょうぶには　まけたが\nかわいさでは　おれの\lポケモンが　いちばんだ
+@@NationalPark_Normal_Text_LassKrise_Seen
+なに？　どうして\nじっと　みてるの？\pあ　しょうぶ？
+@@NationalPark_Normal_Text_LassKrise_Beaten
+‥うーん‥
+@@NationalPark_Normal_Text_LassKrise_After
+わたしが　かわいいから\nみてたと　おもったのに！
+@@NationalPark_Normal_Text_Sign_RelaxationSquare
+いこいの　ひろば\nしぜんこうえん
+@@NationalPark_Normal_Text_Sign_BattleNotice
+なんの　はりがみ　だろう？\pしょうぶは　くさむらの\nなかで　おねがいします\pしぜんこうえん　かんりじむしょ
+@@NationalPark_Normal_Text_TrainerTips
+おトクな　けいじばん\pメールを　ひらいて　スタートを\nおすと　いんさつ　できる
+@@NationalPark_Normal_Text_BeverlyRegister
+あなたの　ポケモンも\nとっても　かわいいわね
+@@NationalPark_Normal_Text_BeverlyHasItem
+あら　こんにちは！\nあなたに　あげる　ものが\lあるの\pかんしゃの　しるしに\nうけとってね！
+@@NationalPark_Normal_Text_BeverlyGaveItem
+わたしと　かわいい　ポケモンで\nおうえん　してるわ！
+@@NationalPark_Normal_Text_BeverlyNoRoom
+あら　バッグが\nいっぱいね\pあけてから\nまた　きてね
+## data/maps/NationalPark_BugContest_hns/scripts.inc
+@@NationalPark_BugContest_Text_Trash
+なにも　ない
+@@NationlParkBugContest_Text_EnjoyTheContest
+かかりいん『たいかいを\nたのしんで　ください！
+@@NationalParkBugContest_Text_Attendant
+かかりいん『たいかいを\nおわりに　しますか？
+@@NationalParkBugContest_Text_ContestantBelinda
+ベリンダ『わたしが　かつの！\nじゃま　しないで
+@@NationalParkBugContest_Text_Contestant2A
+エド『ぼくの　パラセクトは\nキノコのほうしで\lポケモンを　ねむらせるんだ
+@@NationalParkBugContest_Text_ContestantShaun
+ショーン『かち　まけは\nきにしてない\pめずらしい　ポケモンを\nさがしてる　だけさ
+@@NationalParkBugContest_Text_Contestant6A
+バリー『むしポケモンは\nさきに　よわらせて\pそれから　ボールを\nなげると　いいよ
+@@NationalParkBugContest_Text_Contestant7A
+シンディ『むしポケモン\nだいすき\pきみも　すき\nなんでしょ？
+@@NationalParkBugContest_Text_Contestant8A
+ジョシュ『あかちゃんの\nころから　むしポケモンを\lあつめてるんだ\pまける　わけが　ない！
+@@NationalParkBugContest_Text_Contestant9A
+サミュエル『しゃべってる\nひまが　あったら\lむしポケモンを　さがしなよ
+@@NationalParkBugContest_Text_Contestant10A
+キップ『むしポケモンの\nことは　たくさん\lべんきょう　したんだ\pぜったい　ゆうしょうだ
+@@NationalParkBugContest_Text_Sign_RelaxationSquare
+いこいの　ひろば\nしぜんこうえん
+@@NationalParkBugContest_Text_Sign_BattleNotice
+なんの　はりがみ　だろう？\pしょうぶは　くさむらの\nなかで　おねがいします\pしぜんこうえん　かんりじむしょ
+@@NationalParkBugContest_Text_TrainerTips
+むしとりたいかいの　ときは\nしぜんこうえんに　でる\lポケモンが　ちがいます
+## data/maps/BurnedTower_1F_hns/scripts.inc
+@@BurnedTower_1FEusineIntroText
+ミナキ『わたしは　ミナキ\pスイクンと　いう　ポケモンを\nおいかけて　いるんだ\pきみは‥？\p{PLAYER}くん？\nよろしく！\pこの　やけたとうに　スイクンが\nいるかも　しれないと　きいて\lしらべに　きたんだ\pでも　いったい　どこに\nいるんだろう？
+@@BurnedTower_1FEusineText
+ミナキ『この　やけたとうに\nスイクンが　いるかも\lしれないと　きいて\lしらべに　きたんだ\pでも　いったい　どこに\nいるんだろう？
+@@BurnedTower_1FMortyText
+マツバ『エンジュの　ジムリーダーは\nでんせつの　ポケモンと\lいわれる　スイクン　エンテイ\lライコウを　しらべねば\lならないんだ\pミナキくんが　いるから\nいっしょに　とうを\lしらべる　ことにしたよ
+@@BurnedTowerSilver_BeforeText
+‥‥‥‥‥‥‥‥‥‥\p‥なんだ　おまえか\pここに　でんせつの　ポケモンが\nすんでると　きいて\lきたんだが\pなにも　いない　じゃないか！\pこんな　ぼろい　ところまで\nきて　なにも　なし？\lふざけるな！\pぜんぶ　おまえの\nせいだ！
+@@BurnedTowerSilver_WinText
+‥ふん！\pおれの　ポケモンが\nよわすぎる　から\lまけただけだ\pなさけない
+@@BurnedTowerSilver_AfterText1
+‥まあ　いい\pどうせ　おまえに　でんせつの\nポケモンは　つかまえられない
+@@BurnedTowerSilver_LossText
+‥ふん！\pだから　よわい　やつとは\nたたかいたく　ないんだ\lじかんの　むだだ
+@@BurnedTowerSilver_AfterText2
+ふん！\pあなに　おちる　なんて\nたいした　てんさいだな！\pざまあみろ！
+@@BurnedTower_Text_NardSeen
+しんぱい　するな！\pほのおの　ほんとうの　ちからを\nいちばん　しってるのは\lおれたち　ひふきやろうだ！
+@@BurnedTower_Text_NardBeaten
+あつい　しょうぶ\nありがとう！
+@@BurnedTower_Text_NardAfter
+この　とうが　もえたのは\nかみなりが　おちた　からだ\pおれの　はく　ほのおなんか\nちっぽけな　もんさ‥
+@@BurnedTower_Text_RichardoSeen
+やけたとうで　ぬすみの\nれんしゅう　ちゅうだ！\lまねするなよ！
+@@BurnedTower_Text_RichardoBeaten
+ぷしゅーーーー
+@@BurnedTower_Text_RichardoAfter
+わるい　ことは　おれに\nむいて　ないのかも‥
+## data/maps/BurnedTower_B1F_hns/scripts.inc
+@@BurnedTowerB1FEusineText
+ミナキ『おどろいた！\pスイクンが　めの　まえを\nかけぬけて　いった！\p10ねん　おいつづけて\nついに　みる　ことが\lできた！\pむねが　いっぱいだ！\p{PLAYER}くん　きみの\nおかげだ！\pありがとう！\pエンジュの　でんせつの\nポケモンは　えらばれた\lにんげんを　ためすために\lちかづくと　きいた\pわたしは　スイクンを\nおいかける\p{PLAYER}くん　また\nあおう！\pさらばだ！
+## data/maps/CliffEdgeGate_hns/scripts.inc
+@@CliffEdgeGate_Text_IntroOpen
+しってた？　すぐ　そこに\nサファリゾーンが　あるのよ\pすっごく　たのしいの！\nいろんな　ポケモンが\lいて　つかまえ　ほうだい！\pいかない　りゆうは\nないでしょ？\lすぐ　そこよ
+@@CliffEdgeGate_Text_Expectations
+みんなが　たのしみに　して\nくれて　うれしいけど\pうけつけの　ひと\nちょっと　おおげさ　かも‥\pきたい　しすぎないでね！
+@@CliffEdgeGate_Text_SignOpen
+なにもかも　ワクワク！\nたんけん　して　ポケモンを\lみつけよう！\lえんちょう　バオバの\lサファリゾーン　かいえん！
+## data/maps/MtMortar_1F_North_hns/scripts.inc
+@@MountMortar2_Text_PokemaniacMillerSeen
+こんどは　まけないぞ！
+@@MountMortar2_Text_PokemaniacMillerBeaten
+こんな　こどもに\nまけた‥？
+@@MountMortar2_Text_PokemaniacMillerAfter
+まえに　からての　おとこが\nしょうぶを　しかけて\lきたんだ\pとんでもなく　つよくて\nこてんぱんに　された\pしゅぎょうの　ためと\nいって　おくへ　いったよ\pどう　してるかな？
+@@MountMortar2_Text_SupernerdMarkusSeen
+おーい！　ヒュー！
+@@MountMortar2_Text_SupernerdMarkusBeaten
+ひとちがい　だった‥
+@@MountMortar2_Text_SupernerdMarkusAfter
+すりばちやまを　たんけんに\nきたけど　あいぼうと\lはぐれちゃった‥\pたきのぼりを　おぼえた\nシードラを　つれた\lトレーナーに　あわなかった？
+## data/maps/MtMortar_2F_hns/scripts.inc
+@@MtMortar_2F_Text_SupernerdHughSeen
+よう！　マーカス！
+@@MtMortar_2F_Text_SupernerdHughBeaten
+ごめん　ひとちがいだ
+@@MtMortar_2F_Text_SupernerdHughAfter
+すりばちやまを　しらべてるけど\nあいぼうが　いなく\lなっちゃった\pかいりきを　つかえる\nヤドンを　つれた\lトレーナーを　みなかった？
+## data/maps/MtMortar_B1F_hns/scripts.inc
+@@MountMortar4_Text_KiyoIntro
+おい！\pわしは　カラテおう！\nくらやみで　ひとり\lしゅぎょう　しておる！\pきさま！　しょうぶだ！\nうおおおおっ！
+@@MountMortar4_Text_KiyoWin
+うおおおお！\nまけた！
+@@MountMortar4_Text_KiyoTyrogueReward
+わ‥　わしの　まけだ‥\pしゅぎょうが　まだ\nたりなかった‥\pだが　まけは　まけ\nみとめよう\pわしに　かった　あかしに\nめずらしい　かくとう\lポケモンを　やろう
+@@MountMortar4_Text_ReceiveTyrogue
+{PLAYER}は\nバルキーを　もらった
+@@MountMortar4_Text_KiyoGotTyrogue
+バルキーは　かくとうタイプ\pつよい　ポケモンに\nしんか　するぞ\pしゅぎょうに　はげめ\nわしも　つづける\pさらばだ！
+@@MountMortar4_Text_KiyoFullParty
+てもちに　あきが　ないぞ！
+## data/maps/LakeOfRage_hns/scripts.inc
+@@LakeOfRage_Text_Pryce
+{PLAYER}\pここでも　さむさが　わしの\nこころを　ひきしめる\pまた　たたかいたければ\nかくとうどうじょうへ　くるがよい
+@@LakeOfRage_Text_Dragonite
+カイリュー『ギャオーッ！
+@@LakeOfRage_Text_LanceForcedToEvolve
+この　みずうみには\nギャラドス　しか　いない‥\pコイキングが　むりやり\nしんか　させられて　いる‥
+@@LakeOfRage_Text_LanceIntro1
+きみも　うわさを　ききつけて\nきたのか？\pきみが　{PLAYER}くん？　わたしは\nワタル　きみと　おなじ\lトレーナーだ
+@@LakeOfRage_Text_LanceIntro2
+この　ひとから　うわさを\nきいたんだ\pそれで　しらべに\nきたのだが‥
+@@LakeOfRage_Text_LanceIntro3
+{PLAYER}くん　さっきの\nたたかいかた　みせて\lもらったよ\pかなりの　うでの\nトレーナー　だね\pよければ　ちょうさを\nてつだって　くれないか？
+@@LakeOfRage_Text_LanceRadioSignal
+ワタル『ありがとう！\pみずうみの　コイキングは\nむりやり　しんか　させられて\lいる　ようだ\pチョウジから　でている\nなぞの　でんぱが\lげんいんだ\pまって　いるよ\n{PLAYER}くん
+@@LakeOfRage_Text_LanceRefused
+そうか‥　きが　かわったら\nてつだって　くれ
+@@LakeOfRage_Text_LanceAskHelp
+ワタル『ん？　てつだって\nくれるのかい？
+@@LakeOfRage_Text_GyaradosCry
+ギャラドス『ギャオース！
+@@LakeOfRage_Text_Gramps
+ギャラドスが\nいかって　おる！\pふきつな　まえぶれじゃ！
+@@LakeOfRage_Text_GrampsCleared
+わはは！　コイキングが\nつれるぞ！
+@@LakeOfRage_Text_SuperNerd
+この　みずうみは　あばれる\nギャラドスが　つくったと\lきいたよ\pいまの　たいりょう\nはっせいと　かんけい\lあるのかな？
+@@LakeOfRage_Text_CooltrainerF
+めの　さっかく？\nみずうみで　あかい\lギャラドスを　みたの‥\pギャラドスって　ふつうは\nあおい　はず　でしょ？
+@@LakeOfRage_Text_FisherAndreSeen
+つった　ばかりの\nポケモンで　しょうぶだ！
+@@LakeOfRage_Text_FisherAndreBeaten
+つりは　めいじんでも\nトレーナーと　しては\lへたっぴ‥
+@@LakeOfRage_Text_FisherAndreAfter
+つりでは　まけないぞ！\nいちにちじゅう　つってるからな
+@@LakeOfRage_Text_FisherRaymondSeen
+なにを　やっても　おなじ\nポケモンしか　つれない‥
+@@LakeOfRage_Text_FisherRaymondBeaten
+いとが　からまった‥
+@@LakeOfRage_Text_FisherRaymondAfter
+なんで　いい　ポケモンが\nつれないんだ？
+@@LakeOfRage_Text_CooltrainermAaronSeen
+トレーナーは　めが　あったら\nしょうぶ　しなければ\lならない\pそれが　さだめだ
+@@LakeOfRage_Text_CooltrainermAaronBeaten
+ふう‥\nいい　しょうぶだった
+@@LakeOfRage_Text_CooltrainermAaronAfter
+ポケモンも　トレーナーも\nたたかいを　かさねて\lつよく　なるんだ
+@@LakeOfRage_Text_CooltrainerfLoisSeen
+あかい　ギャラドスは\nどうしたの？\pいなく　なった？\pもう！　むだあし\nだったの？\pそうだ　しょうぶ\nしましょう！
+@@LakeOfRage_Text_CooltrainerfLoisBeaten
+やるわね！
+@@LakeOfRage_Text_CooltrainerfLoisAfter
+そういえば　ピンクの\nバタフリーを　みたわ
+@@LakeOfRage_Text_MeetWesley
+スイ『やあ　はじめまして\pぼくは　しゅうの　きょうだいの\nひとり！　すきな　ようびが\lわかるかな？
+@@LakeOfRage_Text_WesleyGivesGift
+よろしく　おみやげを\nどうぞ
+@@LakeOfRage_Text_WesleyGaveGift
+スイ『くろおびは　かくとうわざの\nいりょくを　あげるんだ
+@@LakeOfRage_Text_WesleyWednesday
+スイ『ぼくを　みつけた\nなら　ほかの　きょうだいにも\lあったんだね\pそれとも　ただの\nぐうぜん　かな？
+@@LakeOfRage_Text_WesleyNotWednesday
+スイ『ちょっと　ちがうな‥
+@@LakeOfRage_Text_Sign
+いかりのみずうみ\nまたの　なを　ギャラドスこ
+@@LakeOfRage_Text_FishingGuruSign
+つりの　めいじんの　いえ
+## data/maps/LakeOfRageLowTide_hns/scripts.inc
+@@LakeOfRageLowTide_Text_Sage
+この　どうくつには\nふつうの　トレーナーでは\lかなわない　ポケモンが\lいるのじゃ
+## data/maps/IcePath_1F_hns/scripts.inc
+@@IcePath_1F_Text_Leave
+まいこはん『‥‥‥‥‥‥‥
+@@IcePath_1F_Text_Stuck1
+あらあら‥　{PLAYER}さん？\nこんな　ところで　あうなんて！\pじつは‥　ぞうりが　こおりに\nはりついて　うごけないの\pつまり　ぞうりが　じめんと\nいっしょに　こおって\lしまったのです\pうふふ\pわらいごとでは\nありませんね\pうしろに　まわって\nせなかを　おして\lくださる？
+@@IcePath_1F_Text_Stuck2
+あらあら‥　{PLAYER}さん？\nこんな　ところで　あうなんて！\pじつは‥　ぞうりが　こおりに\nはりついて　うごけないの\pつまり　ぞうりが　じめんと\nいっしょに　こおって\lしまったのです\pうふふ\pわらいごとでは\nありませんね\lせなかを　おして　くださる？
+@@IcePath_1F_Text_Shove
+‥‥えいっ！‥‥
+@@IcePath_1F_Text_Cruel
+いじわる　しないで\nおして　くださるわよね？
+@@IcePath_1F_Text_Thanks
+ほんとうに　おやさしい\nありがとう　ございます！
+## data/maps/IcePath_B1F_hns/scripts.inc
+@@IcePath_B1F_Text_PuzzleSkipButton
+この　パズルを\nとばしますか？
+@@IcePath_B1F_Text_Sign
+きけん　こおりに　ひび\nじてんしゃで　いそげ\lギアの　きりかえは\l‥を　おす\lかんばんの　もじが　きえている‥
+## data/maps/IcePath_B3F_hns/scripts.inc
+@@IcePath_B3F_Text_Swinub
+ウリムー『ウリィー！
+@@IcePath_B3F_Text_SwinubBerry
+ウリムーに　きのみを\nあげますか？
+@@IcePath_B3F_Text_SwinubAteBerry
+ウリムーは　ナナシのみを\nおいしそうに　たべた！
+@@IcePath_B3F_Text_SwinubTurnedAway
+ウリムーは　きに\nいらない　ようだ！
+@@IcePath_B3F_Text_Delibird
+デリバード『デリーーッ！
+@@IcePath_B3F_Text_DelibirdBerry
+デリバードに　きのみを\nあげますか？
+@@IcePath_B3F_Text_DelibirdAteBerry
+デリバードは　ナナシのみを\nおいしそうに　たべた！
+@@IcePath_B3F_Text_DelibirdTurnedAway
+デリバードは　きに\nいらない　ようだ！
+## data/maps/DragonsDen_Cavern_hns/scripts.inc
+@@DragonsDen_Text_Clair
+{PLAYER}‥　きたのね\pわたしに　ついて　こられる\nなら　ヤマブキの\lかくとうどうじょうに　きなさい
+@@DragonsDen_Cavern_Text_Clair_GiveTM
+イブキ『まって！\pわるかったわ\nおわびに　これを\lうけとって
+@@DragonsDen_Cavern_Text_Clair_ExplainTM
+りゅうのはどうは\nえっと‥　まあ　いいわ！\pなにか　ものすごい\nエネルギーよ\pいらないなら\nうけとらなくて　いいわ
+@@DragonsDen_Cavern_Text_ClairWhatsTheMatter
+どうしたの？\nポケモンリーグへ\lいくんでしょ？\pチャンピオンに　なったら\nどの　ジムリーダーとも\lさいせん　できるわ\pポケモンリーグへ\nいきなさい\pばしょは　しってる？\pここから　ワカバタウンへ\nいって\pそこから　ひがしへ　なみのり\nすれば　ポケモンリーグよ\pみちは　とても\nけわしいわ\pポケモンリーグで　まけたら\nしょうちしないわよ！\pわたしが　あなたに　まけた\nことが　もっと　くやしく\lなるじゃない！\pぜんりょくで　いきなさい
+@@DragonsDen_Cavern_Text_DragonShrineSign
+りゅうのほこら\pりゅうのあなに　すんでいたと\nいわれる　ドラゴンポケモンを\pまつった　ほこら
+@@DragonsDen_Cavern_Text_SilverTraining1
+‥\nなに？　{PLAYER}？\p‥いや　いまは\nたたかわない‥\pおれの　ポケモンは　まだ\nおまえに　かてない\pいまは　むりを\nさせられない\pさいきょうの　トレーナーに\nなるには　しゅぎょうが\lひつようなんだ‥
+@@DragonsDen_Cavern_Text_SilverTraining2
+‥\pふう‥\pおれの　じゃまを\nするなよ‥
+@@DragonsDen_Cavern_Text_CooltrainermDarinSeen
+きさま！　かってに\nはいるとは！
+@@DragonsDen_Cavern_Text_CooltrainermDarinBeaten
+つ　つよい！
+@@DragonsDen_Cavern_Text_CooltrainermDarinAfter
+この　さきの　ほこらには\nドラゴンつかいの　いちぞくの\lちょうろうが　いるんだ\pかってに　はいっては\nならない！
+@@DragonsDen_Cavern_Text_CooltrainerfCaraSeen
+ここに　はいっちゃ\nだめよ！
+@@DragonsDen_Cavern_Text_CooltrainerfCaraBeaten
+きゃあ　まけちゃった！
+@@DragonsDen_Cavern_Text_CooltrainerfCaraAfter
+もうすぐ　ちょうろうから\nドラゴンを　つかう\lゆるしを　もらえるの\pそしたら　りっぱな\nドラゴンつかいに　なって\lちょうろうに　みとめて\lもらうわ
+@@DragonsDen_Cavern_Text_TwinsLeaandPia1Seen
+しらない　ひとだ
+@@DragonsDen_Cavern_Text_TwinsLeaandPia1Beaten
+いたーい
+@@DragonsDen_Cavern_Text_TwinsLeaandPia1After
+ワタルさまと　たたかってる\nみたい　だった
+@@DragonsDen_Cavern_Text_TwinsLeaandPia2Seen
+だれ？
+@@DragonsDen_Cavern_Text_TwinsLeaandPia2Beaten
+いじわる
+@@DragonsDen_Cavern_Text_TwinsLeaandPia2After
+いいつけちゃうから\pちょうろうに\nおこられるよ
+## data/maps/DragonsDen_Shrine_hns/scripts.inc
+@@DragonsDen_Shrine_Text_ElderGreeting
+ふむ‥　よく　きたな\pきた　わけは　いわずとも\nわかる　イブキに　いわれて\lきたのじゃろう？\pあの　こは　てが　かかる‥\nすまんが　おぬしを\lためさねば　ならん\pなに　いくつか　しつもんに\nこたえる　だけじゃ\lよいか？
+@@DragonsDen_Shrine_Text_Question1
+おぬしに　とって\nポケモンとは　なにか？
+@@DragonsDen_Shrine_Text_Question2
+しょうぶに　かつ　ために\nだいじな　ものは？
+@@DragonsDen_Shrine_Text_Question3
+どんな　トレーナーと\nたたかいたいか？
+@@DragonsDen_Shrine_Text_Question4
+ポケモンを　そだてる　うえで\nいちばん　だいじな　ことは？
+@@DragonsDen_Shrine_Text_Question5
+つよい　ポケモン　よわい\nポケモン　だいじなのは\lどちらじゃ？
+@@DragonsDen_Shrine_Text_WrongAnswer1
+はて？　よく\nきこえなんだが‥
+@@DragonsDen_Shrine_Text_WrongAnswer2
+なんと　いったのじゃ？
+@@DragonsDen_Shrine_Text_RightAnswer
+ふむ　なるほど‥
+@@DragonsDen_Shrine_Text_PassedTest
+ふむ‥　わかった‥\pおぬしは　ポケモンを\nだいじに　して　おる\pまことに　あっぱれ\pその　しんねんこそ\nだいじ　なのじゃ！\p{PLAYER}　その　きもちを\nわすれるで　ないぞ\pポケモンリーグでも\nきっと　ささえと　なろう
+@@DragonsDen_Shrine_Text_ClairYouPassed
+どう　だったの？\pきくまでも　ないわね\nだめ　だったんでしょ？\p‥‥‥‥‥‥‥‥‥‥\p‥え？　ごうかく？
+@@DragonsDen_Shrine_Text_ClairThatCantBe
+そんな　はず　ないわ！
+@@DragonsDen_Shrine_Text_ClairYoureLying
+うそよ！\pわたし　だって\nみとめられて　ないのに！
+@@DragonsDen_Shrine_Text_MustIInformLance
+イブキ！\pこの　こは　うでも　こころも\nもうしぶん　ない！\pまけを　みとめ\nライジングバッジを　わたすのじゃ！\p‥それとも　ワタルに\nしらせねば　ならんか？
+@@DragonsDen_Shrine_Text_IUnderstand
+わ‥　わかりました‥
+@@DragonsDen_Shrine_Text_HereRisingBadge
+はい　ライジングバッジよ‥\pはやく！　うけとって！
+@@DragonsDen_Shrine_Text_PlayerReceivedRisingBadge
+{PLAYER}は\nライジングバッジを　もらった
+@@DragonsDen_Shrine_Text_RisingBadgeExplanation
+ライジングバッジが　あると\nポケモンが　たきを　のぼる\lわざを　つかえるの\pそれに　すべての　ポケモンが\nあなたを　トレーナーと　みとめて\lいうことを　きくわ
+@@DragonsDen_Shrine_Text_ElderScoldsClair
+イブキ‥\pおぬしに　なくて　この　こに\nある　ものが　なにか\lよく　かんがえるのじゃ
+@@DragonsDen_Shrine_Text_ComeAgain
+きたく　なったら\nまた　くるがよい
+@@DragonsDen_Shrine_Text_SilverIsInTraining
+おぬしと　おなじ　としごろの\nしょうねんが　ここで\lしゅぎょう　しておる\pむかしの　イブキに　よく\nにておる　すこし\lしんぱいじゃ‥
+@@DragonsDen_Shrine_Text_Elder2
+ちょうろうに　みとめられた\nトレーナーは　ひさしぶりじゃ\pワタルさま　いらいの\nことじゃな
+@@DragonsDen_Shrine_Text_Elder3
+わかき　ワタルさまを\nしって　おるか？\pちょうろうの　わかい　ころに\nそっくり　なのじゃ\pちすじ　じゃのう
+@@DragonsDen_Shrine_Text_TakeThisDratini
+ふむ‥　よく　きたな\pちょうど　よい\nところへ　きた\pおぬしに　わたす\nものが　ある\pおぬしを　みとめた　あかしに\nこの　ミニリュウを　うけとれ
+@@DragonsDen_Shrine_Text_SymbolicDragon
+ドラゴンポケモンは　われら\nいちぞくの　しるし\pおぬしは　それを\nたくすに　ふさわしいと\lしめしたのじゃ
+@@DragonsDen_Shrine_Text_ClairsGrandfather
+イブキは　おぬしから\nたいせつな　ことを\lまなんだ　ようじゃ\pそふ　として\nれいを　いう
+## data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc
+@@WhirlIslands_LugiaChamber_Text_Kimono_AfterNotCaught
+ルギアを　よびだした\nだけで　なく　たおして\lしまわれるとは‥\pもう　わたくしたちが\nいう　ことは　ありません\lたびの　ごぶじを‥
+@@WhirlIslands_LugiaChamber_Text_Kimono_AfterCaught
+ルギアを　よびだした\nだけで　なく　つかまえて\lしまわれるとは‥\pもう　わたくしたちが\nいう　ことは　ありません\lたびの　ごぶじを‥
+@@WhirlIslands_LugiaChamber_Text_Zuki_Before
+ズキ『さあ　ルギアの　もとへ
+@@WhirlIslands_LugiaChamber_Text_Naoko_Before
+ナオコ『さあ　ルギアの　もとへ
+@@WhirlIslands_LugiaChamber_Text_Miki_Before
+ミキ『さあ　ルギアの　もとへ
+@@WhirlIslands_LugiaChamber_Text_Sayo_Before
+サヨ『さあ　ルギアの　もとへ
+@@WhirlIslands_LugiaChamber_Text_Kuni_Before
+クニ『さあ　ルギアの　もとへ
+@@WhirlIslands_LugiaChamber_Text_Kimono_Opening
+まいこはん『そう\nここが　ルギアを　むかえる\lばしょ\pわたくしたちが　なんにちも\nけいこ　した　まいと　あなたに\lたくした　うみなりのスズの\lねいろが　ひとつに　なるとき\lルギアは　ふたたび\lたきつぼの　おくから\lあらわれるのです
+@@WhirlIslands_LugiaChamber_Text_Kimono_Closing1
+あれこそ　ルギア‥\nこだいから　この　しまじまを\lまもる　もの‥\pおおくの　ひとが　なんども\nこころみ　やぶれて　きました‥\p{PLAYER}さん　うみなりのスズと\nかんぜんに　ひとつに　なった\lあなたの　こころが　ついに\lよびだしたのです‥\n{PLAYER}さん　わかりますか？\pルギアは‥　ずっと　あなたの\nような　ひとを　まって\lいたのでしょう\pそう　おもいませんか？
+@@WhirlIslands_LugiaChamber_Text_Kimono_After
+まいこはん『きょう\nあなたは　しめされましたね\l{PLAYER}さん
+## data/maps/TinTower_1F_hns/scripts.inc
+@@TinTower_1F_Sage1_Text
+いいつたえに　よると‥\nポケモンと　ひとの　こころが\pかよいあう　とき　てんから\nにじいろの　ポケモンが\lまいおりる‥\pでんせつの　ポケモンが　ひとを\nためして　いると　いうことか？
+@@TinTower_1F_Sage2_Text
+カネのとうが　もえた　とき\nなもなき　3びきの　ポケモンが\lいのちを　おとしたと　いう\pいたましい　ことじゃ\pしかし‥\pにじいろの　ポケモン‥\nすなわち‥\pホウオウが　そらから　まいおり\n3びきに　あたらしい\lいのちを　あたえた\pそれが‥\nスイクン　エンテイ　ライコウ\pそう　いわれて　おる
+@@TinTower_1F_Sage3_Text
+ふたつの　とうは　ポケモンと\nひとの　ゆうじょうと\pきぼうを　はぐくむ　ために\nたてられたと　いう\lそれは　700ねん　まえの　こと\pだが　その　ねがいは\nいまも　たいせつじゃ
+@@TinTower_1F_Sage4_Text1
+ホウオウが　この　スズのとうに\nまいおりた　ようじゃ！
+@@TinTower_1F_Sage4_Text2
+でんせつの　ポケモンは\n3つの　ちからを　あらわす\lと　いわれて　おる‥\pとうに　おちた　かみなり\nとうを　やいた　ほのお\pそして　ひを　けした　あめ‥
+@@TinTower_1F_Sage6_Text2
+でんせつの　ポケモンの　なかで\nスイクンが　もっとも　ホウオウに\lちかいと　いわれて　おる\pアンノーンと　いう\nポケモンとも　かかわりが\lあるかも　しれん\pアンノーンは　スイクンと\nきょうりょく　しあって\lいるに　ちがいない
+@@TinTower_1F_EusineHoOh_Text
+やっぱり\pきみなら　にじいろの\nポケモンに　あえると\lおもって　いたよ\pわたしの　よそう　どおりだ\nわたしの　けんきゅうも\lまんざら　じゃないな\pこれからも　ポケモンを\nけんきゅう　して\lゆうめいな　ポケモンマニアに\lなるぞ！
+@@TinTower_1F_EusineSuicune_Text
+ミナキ『すごい！\nすごすぎる！\lこんな　しょうぶは\lはじめて　みた\pほんとうに　かんどう　した\nスイクンも　つよかったが\lきみは　もっと　すごかった\pスイクンの　ふしぎな　ちからは\nにじいろの　ポケモンを\lよぶと　きいた\pもしかしたら　きょうの\nできごとで　その　ポケモンが\lあらわれるかも　しれない\pでんせつを　もっと\nしらべて　みるよ\pすばらしい　しょうぶを\nありがとう\pまた　あおう！
+## data/maps/TinTower_RoofDay_hns/scripts.inc
+@@TinTower_RoofDay_Text_Kimono_AfterNotCaught
+ホウオウを　よびだした\nだけで　なく　たおして\lしまわれるとは‥\pもう　わたくしたちが\nいう　ことは　ありません\lたびの　ごぶじを‥

@@ -1,0 +1,360 @@
+## data/maps/SaffronCity_FightingDojoVIP_hns/scripts.inc
+@@SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat
+グリーン『なに？\pなんで　また　まけるんだ？
+## data/maps/SaffronCity_Gym_hns/scripts.inc
+@@SaffronCity_Gym_Text_SabrinaIntro
+ナツメ『あなたが　くるのは\nわかっていた‥\p3ねんまえ　あなたが　くるのを\nよちして　いたの\pわたしの　バッジが\nめあて　なのね\pたたかいは　すきじゃ　ないけど\nふさわしい　ものに　バッジを\lわたすのが　リーダーの\lつとめ\pのぞむ　なら\nちょうのうりょくを\lみせて　あげる！
+@@SaffronCity_Gym_Text_SabrinaWinLoss
+ナツメ『あなたの　ちから‥\pわたしの　よち　を\nはるかに　こえている‥\pみらいを　かんぜんに　よむ\nことは　できない　のかも‥\pいいわ　あなたの　かち\nゴールドバッジを　あげる
+@@SaffronCity_Gym_Text_ReceivedMarshBadge
+{PLAYER}は\nゴールドバッジを　もらった
+@@SaffronCity_Gym_Text_MarshBadgeInfo
+ナツメ『ゴールドバッジは　あなたの\nせんざいてきな　ちからを\lひきだすわ‥\pあなたの　ちからは\nよめなかったけど　これだけは\lたしかよ\pあなたは　みんなに　あいされる\nチャンピオンに　なるわ！
+@@SaffronCity_Gym_Text_Sabrina_GiveTM
+これも　うけとって
+@@SaffronCity_Gym_Text_Sabrina_ExplainTM
+それは　スキルスワップ\pあいての　とくせいを　うばって\nじぶんの　とくせいを\lあたえる　わざよ\pかしこく　つかってね‥
+@@SaffronCity_Gym_Text_SabrinaPostBattle
+ナツメ『ポケモンへの　あいじょうが\nわたしの　ちょうのうりょくを\lうわまわった‥\pあいの　ちからも　きっと\nちょうのうりょくの　ひとつ‥
+@@SaffronCity_Gym_Text_SabrinaRematch
+ナツメ『あら　カントーの\nチャンピオン\pあなたが　くるのを\nかんじて　いたわ\pちからが　おおきく\nなったわね\pいまも　あなたの　オーラを\nかんじる\pもう　いちど\nしょうぶ　する？
+@@SaffronCity_Gym_Text_SabrinaRematchDefeat
+ナツメ『ポケモンへの　あいじょうが\nまた　わたしの　ちょうのうりょくを\lうわまわった‥
+@@SaffronCity_Gym_Text_MediumRebeccaSeen
+あなたが　たおした　ものたちの\nちからが　わたしに　あつまる！
+@@SaffronCity_Gym_Text_MediumRebeccaBeaten
+つよい‥　つよすぎる‥
+@@SaffronCity_Gym_Text_MediumRebeccaAfter
+あなたの　ちからの\nみなもとは　なに？
+@@SaffronCity_Gym_Text_PsychicFranklinSeen
+ちょうのうりょくとは\nこころの　ちからだ
+@@SaffronCity_Gym_Text_PsychicFranklinBeaten
+きみの　こころの　ほうが\nつよい！
+@@SaffronCity_Gym_Text_PsychicFranklinAfter
+きみは　うでだけで　なく\nこころも　きたえたんだね
+@@SaffronCity_Gym_Text_MediumDorisSeen
+ふふふふ‥　はっきり\nみえるわ\pあなたの　こころが\nみえる！
+@@SaffronCity_Gym_Text_MediumDorisBeaten
+こころを　よんだのに\nまけた‥
+@@SaffronCity_Gym_Text_MediumDorisAfter
+しまった！　あなたに　まけると\nよちしたのを　わすれてた
+@@SaffronCity_Gym_Text_PsychicJaredSeen
+となりの　かくとうどうじょうは\nむかし　この　まちの\lジム　だったんだ
+@@SaffronCity_Gym_Text_PsychicJaredBeaten
+かなわなかった‥
+@@SaffronCity_Gym_Text_PsychicJaredAfter
+かくとうどうじょうの　しはん\nカラテおうは　ナツメさんに\lこてんぱんに　されたんだ
+@@SaffronCity_Gym_Text_GymGuideIntro
+よう　みらいの　チャンピオン！\pきみほどの　うでなら\nエスパータイプの　たいさくは\lいわなくても　わかるよな？\pきたい　してるぞ！\pがんばれよ！
+@@SaffronCity_Gym_Text_GymGuideWin
+また　すばらしい\nしょうぶ　だったな！
+@@SaffronCity_Gym_Text_GymStatue
+ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\nグリーン　レッド
+@@SaffronCity_Gym_Text_GymStatuePlayerWon
+ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+## data/maps/SaffronCity_SilphCo_hns/scripts.inc
+@@SaffronCity_SilphCo_Text_Refused
+そうか‥
+@@SaffronCity_SilphCo_Text_Steven1
+もしもし‥\nでんぱが　わるいな‥\lちちしだい　だと　おもう\lそうか‥\nでは　これで　また　あとで
+@@SaffronCity_SilphCo_Text_Steven2
+ダイゴ『きみは‥　その　めを\nおぼえているよ\pめが　かがやく　トレーナーは\nかならず　おぼえて　いるんだ\pずかんを　もってるね！　きみも\nポケモンを　さがして　いるんだ\lそうだな‥\pちからに　なれると　おもう\pめの　まえに　いしが　あると\nしよう　どの　いろを\lえらぶ？
+@@SaffronCity_SilphCo_Text_Steven3
+ただしい　えらびだ！\n{STR_VAR_1}を　あげよう！
+@@SaffronCity_SilphCo_Text_Steven4
+だいじに　して　くれ\nそれが　ぼくには\lなにより　うれしい
+@@SilphCo_Text_Sign1
+シルフカンパニー\n1F　うけつけ
+@@SilphCo_Text_Sign2
+シルフカンパニー\nエレベーター　ていし　ちゅう
+@@SilphCo_Text_Receptionist
+いらっしゃいませ　こちらは\nシルフカンパニー　ほんしゃビル\lです
+@@SilphCo_Text_Officer
+うえの　かいは　しゃいん　いがい\nはいれません\pでも　とおくから　きて\nくれたので\pちょっとした　おみやげを\nどうぞ
+@@SilphCo_Text_Officer_GotUpGrade
+シルフカンパニーの\nさいしん　せいひん　です\pまだ　どこにも\nうって　いませんよ
+## data/maps/SaffronCity_CopyCatsHouse_1F_hns/scripts.inc
+@@CopycatsHouse1F_Text_PokefanM
+むすめは　ひとの　まねを\nするのが　すきでね\pそれで　まわりから　ものまね\nむすめと　よばれて　いるんだ
+@@CopycatsHouse1F_Text_PokefanF
+むすめは　ほんとうに\nじぶんかって‥\pともだちも　すくないのよ
+@@CopycatsHouse1F_Text_PokefanF_ReturnedPart
+3ねんまえ　おとこのこに　もらった\nポケモンにんぎょうを　さいきん\lなくして　しまったの\pそれから　ものまねが\nもっと　うまく　なって‥
+@@CopycatsHouse1F_Text_Blissey
+ハピナス『ハピー！
+## data/maps/SaffronCity_CopyCatsHouse_2F_hns/scripts.inc
+@@Copycat_Text_Male_1
+{PLAYER}『やあ！\nポケモン　すき？\p{PLAYER}『え　いや\nいま　きいたのは　こっち\p{PLAYER}『え？　へんな　こ！
+@@Copycat_Text_QuickMimicking
+ものまねむすめ『え？\nまねを　やめろ？\pでも　いちばん　すきな\nあそび　なのに！
+@@Copycat_Text_Male_2
+{PLAYER}『やあ！\nだいじな　ポケモンにんぎょうを\lなくしたって　きいたよ\p{PLAYER}『みつけたら\nリニアパスを　くれるの？\p{PLAYER}『さがして　くるよ\pクチバシティに　いった　ときに\nなくしたと　おもうの？
+@@Copycat_Text_Worried
+ものまねむすめ『え？\pかってに　きめるな？\pでも　ほんとうに　しんぱいなの‥\nだれかに　ひろわれたら\lどうしよう？
+@@Copycat_Text_GiveDoll
+ものまねむすめ『やった！\nわたしの　ピッピにんぎょう！\pみぎあしの　ぬいめが\nやぶれてるでしょ？\lそれが　しょうこ！
+@@Copycat_Text_GivePass
+はい　やくそく　どおり\nリニアパスを　あげる！
+@@Copycat_Text_ExplainPass
+ものまねむすめ『それは\nリニアの　パスよ\pえきを　つくるのに　まえの\nいえを　こわした　とき\lてつどうがいしゃの\lひとが　くれたの
+@@Copycat_Text_Male_3
+{PLAYER}『やあ！\nリニアパス　ありがとう！\p{PLAYER}『え？\p{PLAYER}『ぼくの　まねを\nするの　そんなに　たのしい？
+@@Copycat_Text_ItsAScream
+ものまねむすめ『もちろん！\nさいこうよ！
+@@Copycat_Text_Dodrio1
+ドードリオ『ギー　ギーッ！
+@@Copycat_Text_Dodrio2
+かがみよ　かがみ\nせかいで　いちばん\lうつくしいのは　だあれ？
+@@Copycat_Text_2FDoll
+めずらしい　ポケモンだ！\nあれ？\pただの　にんぎょうだ‥
+## data/maps/SaffronCity_House1_hns/scripts.inc
+@@MrPsychic_Text_1
+‥\p‥\p‥\p‥わかった！\pきみが　ほしいのは\nこれだ！
+@@MrPsychic_Text_2
+わざマシン29は\nサイコキネシス\pあいての　とくぼうを\nさげる　ことが　ある
+## data/maps/FuchsiaCity_PokemonCenter_hns/scripts.inc
+@@FuchsiaCity_PokemonCenter1F_Text_CooltrainerM
+おっ！　あたらしい　タイプの\nずかんを　もってるね\pオーキドはかせに\nもらったのかい？
+@@FuchsiaCity_PokemonCenter1F_Text_CooltrainerF
+ジムで　びっくり\nしちゃった\pそっくりな　おんなのこが\nいっぱい　いたの
+@@FuchsiaCity_PokemonCenter1F_Text_JanineImpersonator1
+わたしは　アンズ！\nちちんぷいぷい‥　ドロン！
+@@FuchsiaCity_PokemonCenter1F_Text_JanineImpersonator2
+ほら？　そっくり\nでしょ！
+## data/maps/FuchsiaCity_Mart_hns/scripts.inc
+@@FuchsiaMart_Text_Fisher
+むかしの　サファリゾーンの\nおみやげは　もっと\lよかったな‥
+@@FuchsiaMart_Text_CooltrainerF
+むかしの　サファリゾーンの\nえんちょうの　まごが\lこの　まちに　すんでるわ
+## data/maps/FuchsiaCity_House1_hns/scripts.inc
+@@FuchsiaCity_House1_Text_BillsOlderSister
+おじいちゃんは　ハナダの　みさきの\nおとうとの　マサキの\lいえに　いるわ
+@@FuchsiaCity_House1_Text_Youngster
+サイクリングロードで\nへんな　のろい\lポケモンを　みたよ
+## data/maps/FuchsiaCity_House2_hns/scripts.inc
+@@FuchsiaCity_House2_Text_WardensGranddaughter1
+おじいちゃんは　サファリゾーンの\nえんちょう‥\pだったの‥\pりょこうに　いくと　いって\nひとりで　かいがいへ\lいっちゃった\pサファリゾーンも　あっさり\nやめちゃったの
+@@FuchsiaCity_House2_Text_WardensGranddaughter2
+サファリゾーンが　しまって\nがっかり　した　ひとも\lおおいけど　おじいちゃんは\lがんこ　だから‥
+@@FuchsiaCity_House2_Text_WardenPhoto
+ポケモンに　かこまれて\nにっこり　わらう\lおじいさんの　しゃしんだ
+@@FuchsiaCity_House2_Text_SafariZonePhoto
+めずらしい　ポケモンが\nあそぶ　ひろい　そうげんの\lしゃしんだ
+## data/maps/FuchsiaCity_Gym_hns/scripts.inc
+@@FuchsiaCity_Gym_Text_Janine_DisappointYou
+ふふふふ‥\pがっかり　させて\nごめんね‥\pなーんて　うそ！\pわたしが　ほんもの！\pセキチクジムの　アンズとは\nわたしの　こと！
+@@FuchsiaCity_Gym_Text_Janine_ToughOne
+アンズ『つよいのね　あなたの\nかち　だわ‥\pはい　ピンクバッジ\nうけとって
+@@FuchsiaCity_Gym_Text_ReceivedSoulBadge
+{PLAYER}は\nピンクバッジを　もらった
+@@FuchsiaCity_Gym_Text_Janine_GiveTM
+アンズ『ほんとうに　つよい！\nとくべつな　プレゼントが\lあるの！
+@@FuchsiaCity_Gym_Text_Janine_ExplainTM
+それは　どくづき\nあいてを　どくに　する\lことも　ある　つよい\lどくタイプの　わざよ
+@@FuchsiaCity_Gym_Text_Janine_ApplyMyself
+アンズ『もっと　しゅぎょう　して\nうでを　みがくわ\pちちうえよりも　あなたよりも\nつよく　なりたいの！
+@@FuchsiaCity_Gym_Text_LassAlice_Before
+ふふふ！\pわたしが　ジムリーダーの\nアンズ！\pなーんてね！\nひっかかった！
+@@FuchsiaCity_Gym_Text_LassAlice_Beaten
+だまされた　でしょ‥
+@@FuchsiaCity_Gym_Text_LassAlice_After
+ほんものの　リーダーを\nどうやって　みわけるの？
+@@FuchsiaCity_Gym_Text_LassLinda_Before
+だまされたわね！\nあはは！
+@@FuchsiaCity_Gym_Text_LassLinda_Beaten
+うう‥　まけた‥\nよわく　ないのね‥
+@@FuchsiaCity_Gym_Text_LassLinda_After
+どう？　わたしの　へんそう\nかんぺき　だった　でしょ？
+@@FuchsiaCity_Gym_Text_PicnickerCindy_Before
+わたしが　アンズ！\pどうして　ほんものだと\nわかったの？\pしょうぶよ！
+@@FuchsiaCity_Gym_Text_PicnickerCindy_Beaten
+くやしい！\nかちたかったのに！
+@@FuchsiaCity_Gym_Text_PicnickerCindy_After
+つかれて　きた\nでしょ
+@@FuchsiaCity_Gym_Text_CamperBarry_Before
+わははは！\pそうとも！\nおれが　アンズだ！
+@@FuchsiaCity_Gym_Text_CamperBarry_Beaten
+へんそうは　ばっちり\nだったのに！　くそっ！
+@@FuchsiaCity_Gym_Text_CamperBarry_After
+なあ　おれの　へんそう\nかわいかった　だろ？
+@@FuchsiaCity_Gym_Text_GymStatue
+セキチク　ポケモンジム\nリーダー　アンズ\pかった　トレーナー\nグリーン　レッド
+@@FuchsiaCity_Gym_Text_GymStatuePlayerWon
+セキチク　ポケモンジム\nリーダー　アンズ\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+@@FuchsiaCity_Gym_Text_Guide
+よう　みらいの　チャンピオン！\pおっと！　まわりを\nよく　みて　みろ\pトレーナーが　みんな　リーダーの\nアンズに　そっくりだ\pどれが　ほんものの\nアンズ　だろうな？
+@@FuchsiaCity_Gym_Text_GuideWin
+すごい　しょうぶ　だったな\nジョウトの　トレーナー！
+## data/maps/FuchsiaCity_Route15_Gate_hns/scripts.inc
+@@Route15FuchsiaGate_Text_Officer
+ずかんを　つくってるの？\nたいした　もんだ\pあきらめるなよ！
+## data/maps/CinnabarIsland_PokemonCenter_hns/scripts.inc
+@@CinnabarIsland_PokemonCenter1F_Text_CooltrainerF
+グレンジムの　カツラさんは\nふたごじまの　どうくつで\lひとりで　くらしてるらしいわ‥
+@@CinnabarIsland_PokemonCenter1F_Text_Fisher
+かざんが　ふんか　してから\n1ねんに　なるな
+## data/maps/IndigoPlateau_PokemonCenter_hns/scripts.inc
+@@IndigoPlateau_Text_ShigyNinja
+ここまで　きたね\nおめでとう！\pなんねんも　たくさんの\nトレーナーを　みてきたけど\lみんな　すばらしく　こせいてき\pここまで　きた　じぶんを\nほこりに　おもって　いいよ！\pさあ　いって　こい！
+@@IndigoPlateau_Text_Blackbelt
+ポケモンリーグは　いま\nちょうせんしゃを\lうけつけて　いません\pまた　あとで\nきて　ください
+@@IndigoPlateau_Text_CooltrainerM
+ポケモンリーグでは　してんのうが\nきみを　ためす\pぜんいんに　かたなければ\nならない　まけたら\lさいしょから　やりなおしだ！
+@@IndigoPlateau_Text_RivalEntrance1
+まて\pいまから　ポケモンリーグに\nちょうせん　する　だと？\pそうは　させない\pきたえ　ぬいた　おれの\nポケモンで　たたきのめす\p{PLAYER}！\nしょうぶだ！
+@@IndigoPlateau_Text_RivalWin
+‥\pわかった‥　まけたよ‥
+@@IndigoPlateau_Text_RivalAfter
+‥くそっ‥　まだ　かてない‥\pおれは‥　もっと　ポケモンの\nことを　かんがえなきゃ‥\pふん！　まけるんじゃ\nねえぞ！
+@@IndigoPlateau_Text_TeleportGuy1
+おっ！　してんのうに\nちょうせん　するのか？\lじゅんびは　いいのかい？\pもっと　きたえたいなら\nぼくの　ケーシィが\lてつだうよ\pテレポートで　いえまで\nおくって　くれる\pいま　いえに　かえる？
+@@IndigoPlateau_Text_TeleportGuyYes
+よし　よし　じぶんの　いえを\nあたまに　うかべて‥
+@@IndigoPlateau_Text_TeleportGuyNo
+よし　よし\nがんばってね！
+@@IndigoPlateau_Text_Abra
+ケーシィ『ケーシィ‥
+## data/maps/PokemonLeague_WillsRoom_hns/scripts.inc
+@@PokemonLeague_WillsRoom_Text_Before
+ポケモンリーグへ　ようこそ\n{PLAYER}くん\pじこしょうかい　させて\nもらおう　わたしは　イツキ\pせかいじゅうで　しゅぎょうを　して\nエスパーポケモンを\lきたえて　きた\pそして　ついに\nしてんのうに　えらばれた\pわたしは　まだまだ\nつよく　なる！\pまける　わけには\nいかない！
+@@PokemonLeague_WillsRoom_Text_Beaten
+そ‥　そんな‥\nしんじられない‥
+@@PokemonLeague_WillsRoom_Text_Defeat
+まけても　わたしは\nみちを　かえない\pすべての　トレーナーの　うえに\nたつまで　たたかいつづける！\pさあ　{PLAYER}くん　さきへ　すすみ\nしてんのうの　ほんとうの\lおそろしさを　あじわいたまえ
+@@PokemonLeague_WillsRoom_Text_RematchBefore
+イツキ『やあ　おかえり\pこの　さいかいは\nよち　していたよ\pわたしと　エスパーポケモンも\nしんか　して　あたらしい\lせんじゅつを　みにつけた\pさくせんも　ちからも　ました\nしょうぶを　かくご　したまえ\pきみの　よちが　わたしに\nかなうか　みせて　もらおう
+## data/maps/PokemonLeague_KogasRoom_hns/scripts.inc
+@@PokemonLeague_KogasRoom_Text_RematchBefore
+キョウ『ファファファ！\pもどったか\nゆうかんな　ちょうせんしゃよ\pせっしゃの　にんじゅつは\nさらに　みがかれた\pあらたな　わなが\nまって　おるぞ\pどく　ねむり　そのほか‥\nかくご　いたせ！\pファファファ！\pせいちょうを\nみせて　みよ！
+@@PokemonLeague_KogasRoom_Text_Before
+ファファファ！\pせっしゃ　してんのうの\nキョウ！\pかげに　いきる\nにんじゃで　ござる！\pせっしゃの　ふくざつな\nせんぽうで　きさまを\lまどわし　たおす！\pこんらん　ねむり　どく‥\pせっしゃの　わなに\nかかるが　よい！\pファファファ！\pポケモンは　ちから　だけ\nでは　ないと　すぐに\lわかるで　ござろう！
+@@PokemonLeague_KogasRoom_Text_Beaten
+むう！\nみごと　なり！
+@@PokemonLeague_KogasRoom_Text_Defeat
+せっしゃの　すべてを\nぶつけたが\pやぶれた　うでを\nみがかねば\pつぎの　へやへ　すすみ\nきさまの　ちからを\lためすが　よい！
+## data/maps/PokemonLeague_BrunosRoom_hns/scripts.inc
+@@PokemonLeague_BrunosRoom_Text_RematchBefore
+シバ『よく　もどった\nわかき　せんしよ\pきびしい　しゅぎょうで\nおれたちは　さらに\lつよく　なった\pおれの　いわの　ような　いしは\nいっそう　かたく　ゆるがない\pさらなる　しれんに\nたちむかう　かくごは\lあるか？\pしゅぎょうの　せいかを\nみせて　みろ\pウー　ハーッ！
+@@PokemonLeague_BrunosRoom_Text_Before
+おれは　してんのうの　シバ！\pおれたちの　かのうせいを\nしんじて　つねに　げんかいまで\lきたえて　いる\pだから　つよく　なれたのだ\pおれたちの　ちからに\nたえられるか？\pむ？　おそれが　みえない\nいい　めだ\lしょうぶに　ぴったりだ！\pいくぞ　{PLAYER}！　おれたちの\nあっとうてきな　ちからに\lひれふすが　いい！\pウー　ハーッ！
+@@PokemonLeague_BrunosRoom_Text_Beaten
+なぜだ？　なぜ\nまけたのだ？
+@@PokemonLeague_BrunosRoom_Text_Defeat
+まけた　おれに　なにも\nいう　しかくは　ない‥\pつぎの　しれんに\nむかえ！
+## data/maps/PokemonLeague_KarensRoom_hns/scripts.inc
+@@PokemonLeague_KarensRoom_Text_RematchBefore
+カリン『あら　また　あなた\pわたしの　しんねん\nわすれて　ないわよね\pほんとうの　つよさは\nポケモンを　しんじる\lこころから　うまれる\pあれから　わたしと\nポケモンの　きずなは\lもっと　ふかく　なった\pこわれない　きずなで\nむすばれた　チームに\lいどむ　かくごは　いい？\pあなたと　ポケモンの\nきずなの　ちからを\lみせて　ちょうだい
+@@PokemonLeague_KarensRoom_Text_Before
+わたしは　してんのうの　カリン\pあなたが　{PLAYER}？\nおもしろい　わね\pわたしは　あくタイプの\nポケモンが　すき\pワイルドで　タフな　ところに\nひかれるの　それに\lとても　つよい\pあなたに　かてる　かしら？\nせいぜい　たのしませて\pさあ　はじめましょう
+@@PokemonLeague_KarensRoom_Text_Beaten
+あら　やるじゃない\nそういう　トレーナー\lすきよ
+@@PokemonLeague_KarensRoom_Text_Defeat
+つよい　ポケモン\pよわい　ポケモン\pそんなの　ひとの\nかってな　おもいこみ\pほんとうに　うでの　ある\nトレーナー　なら　すきな\lポケモンで　かつべき\pあなたの　スタイル　すきよ\nだいじな　ことが\lわかってる\pさあ　いって\nチャンピオンが　まってるわ
+## data/maps/PokemonLeague_ChampionsRoom_hns/scripts.inc
+@@PokemonLeague_ChampionsRoom_Text_RematchBattleIntro
+ワタル『よく　もどった！\pきみは　ジョウトで\nじつりょくを　しめした\pバッジを　8こ　あつめ\nわたしにも　いちど\lかった\pだが　ここからは\nおおぶたい\pカントーリーグだ！\pカントーには　カントーの\nしれんと　チャンピオンが　いる\pここでは　わたしが\nさいごの　しれん\lかつて　ない　つよい　チーム\lで　あいてを　しよう\pこれこそ　しんの　しれん\pカントーの　チャンピオンを\nきめる　たたかいだ\pあらたな　しれんに\nたちむかう　かくごは\lできているか？\pもういちど　しめして　みよ\pジョウトを　せいした\nちからを　みせて　くれ\lチャンピオン！
+@@PokemonLeague_ChampionsRoom_Text_BattleIntro
+ワタル『まって　いたよ\p{PLAYER}くん！\pきみの　うでなら　いずれ\nここまで　くると\lおもって　いた\pもう　ことばは\nいらない\pどちらが　つよいか\nたたかって　きめよう\pさいきょうの　トレーナー　として\nポケモンリーグ　チャンピオン　として‥\pドラゴンつかい　ワタル\nきみの　ちょうせんを　うけよう！
+@@PokemonLeague_ChampionsRoom_Text_BattleWin
+‥おわった\pだが　ふしぎな\nきぶんだ\pまけて　くやしく　ない\nむしろ　うれしい\pあたらしい　チャンピオンの\nたんじょうを　みとどけられた\lのだから！
+@@PokemonLeague_ChampionsRoom_Text_BattleAfter
+‥ふう\pほんとうに　つよく\nなったな　{PLAYER}くん\pきみの　ポケモンは　きみの\nつよく　まっすぐな　こころに\lこたえたんだ\pトレーナー　として\nこれからも　ポケモンと\lともに　つよく　なるだろう
+@@PokemonLeague_ChampionsRoom_Text_MaryOhNoOak
+クルミ『ああ！　もう\nおわっちゃった！\pオーキドはかせが\nのんびり　してるから‥
+@@PokemonLeague_ChampionsRoom_Text_OakCongratulations
+オーキド『おお　{PLAYER}！\pひさしぶり　じゃのう\pずいぶん　たくましく\nなったな\pジョウトリーグ　せいは\nみごとじゃ！\pポケモンへの　ねつい\nしんらい　あいじょうが\lこれを　なしとげたのじゃ\pポケモンたちも\nすばらしかった\pきみを　トレーナーと　して\nしんじて　がんばったのじゃ\pおめでとう　{PLAYER}！
+@@PokemonLeague_ChampionsRoom_Text_RematchOakCongratulations
+オーキド『おお　{PLAYER}！\pウツギくんが　きみを　たびに\nおくりだして　から\lずっと　みまもって　きたぞ\pずいぶん　たくましく\nなったのう\pジョウトに　つづき　カントー\nリーグまで　せいするとは\lたいした　ものじゃ\pじぶんを　こえたな！\pポケモンが　きみを　ふかく\nしんじて　いるのは\lあきらかじゃ\pその　しんらいこそ\nせいこうの　どだいじゃった\pじゃが　わすれるな\nトレーナーの　たびに\lおわりは　ない\pしょうり　おめでとう\n{PLAYER}！
+@@PokemonLeague_ChampionsRoom_Text_MaryInterview
+クルミ『あたらしい　ジョウトの\nチャンピオンに\lインタビュー　しましょう！
+@@PokemonLeague_ChampionsRoom_Text_RematchMaryInterview
+クルミ『あたらしい　カントーの\nチャンピオンに\lインタビュー　しましょう！
+@@PokemonLeague_ChampionsRoom_Text_Noisy
+ワタル『すこし　さわがしく\nなって　きたな‥\p{PLAYER}くん\nいっしょに　きて　くれ
+@@PokemonLeague_ChampionsRoom_Text_MaryNoInterview
+クルミ『あっ　まって！\nインタビュー　まだ　なのに！
+@@PokemonLeague_ChampionsRoom_Text_RematchMaryNoInterview
+クルミ『ちょっと！　また\nインタビューを\lすっぽかす　きー！？
+## data/maps/PokemonLeague_HallOfFame_hns/scripts.inc
+@@PokemonLeague_HallOfFame_LanceText
+ワタル『ここに　くるのは\nひさしぶりだ\pここは　リーグ　チャンピオンを\nえいえんに　たたえる　ばしょ\pゆうかんな　ポケモンたちも\nともに　きろく　される\pきょう　ここに　あたらしい\nチャンピオンが　たんじょう　した\pすべての　ポケモンに\nおもいやりと　しんらいを\lもつ　トレーナー\pねばりづよさと　けついで\nかちぬいた　トレーナー\pいだいな　うつわを\nもつ　あたらしい\lチャンピオン！\p{PLAYER}くん　きみと\nパートナーたちを　チャンピオン\lとして　きろく　しよう！
+@@PokemonLeague_HallOfFame_Rematch_LanceText
+ワタル『ついこの　あいだ\nここで　きみを　ジョウトの\lチャンピオンと　して\lむかえた　ばかりだ\pそして　また　ここ\nさいこうの　トレーナーと\lポケモンを　たたえる\lせいなる　ばしょに　いる\pきょう　きみは　ジョウト\nだけで　なく　カントーでも\lわたしの　さいきょうの\lチームを　やぶった\pポケモンへの　おもいやりと\nしんらい‥　その　きずなが\lなんども　きみを\lしょうりへ　みちびいた\pねばりづよく　ゆるぎない\nけつい‥　それこそ　きみの\lトレーナーと　しての\lしんの　すがただ\pきみには　いだいな\nいや　さいこうの\lトレーナーの　うつわが　ある\p{PLAYER}くん　きみと　しんらい\nする　パートナーたちを\lふたたび　チャンピオンと\lして　きろく　しよう
+## data/maps/Gate_Route29_Route46_hns/scripts.inc
+@@Gate_Route29_Route46_Text_Officer
+だんさは　のぼれない\pでも　とびおりて\nちかみち　できるよ
+@@Gate_Route29_Route46_Text_Youngster
+ここから　さきは　ちがう\nしゅるいの　ポケモンが　でる\pぜんぶ　つかまえたいなら\nあちこち　さがさないとね
+## data/maps/Gate_Route31_VioletCity_hns/scripts.inc
+@@Gate_Route31_VioletCity_Text_Policeman
+やあ！　マダツボミのとうには\nいったかい？
+@@Gate_Route31_VioletCity_Text_CooltrainerF
+すっごく　かわいい\nポケモンを　みたの\pピカチュウに\nそっくり　だったわ！
+## data/maps/Gate_RuinsOfAlph_Route32_hns/scripts.inc
+@@Gate_RuinsOfAlph_Route32_Text_PokefanM
+いせきを　しらべてるの？\nみらいの　かがくしゃ　だね
+@@Gate_RuinsOfAlph_Route32_Text_Youngster
+いしの　パネルに\nえが　かいてある\pうごかして　みたけど\nなんだろう？
+## data/maps/Gate_RuinsOfAlph_Route36_hns/scripts.inc
+@@Gate_RuinsOfAlph_Route36_Text_Officer
+アルフのいせき\pみて　さわれる\nかんこうち\pいしの　パズルに\nちょうせん　しよう！
+@@Gate_RuinsOfAlph_Route36_Text_PokefanM
+いせきを　しらべてるの？\pみらいの　かがくしゃ　だね
+@@Gate_RuinsOfAlph_Route36_Text_Youngster
+いしの　パネルに\nえが　かいてある\pうごかして　みたけど\nなんだろう？
+## data/maps/Gate_AzaleaTown_IlexForest_hns/scripts.inc
+@@Gate_AzaleaTown_IlexForest_Text_Officer
+ウバメのもりは　ひろい\nきを　つけて！\lまいごに　ならないように
+@@Gate_AzaleaTown_IlexForest_Text_Granny
+ウバメのもりは　もりの\nかみさまが　みまもって\lおる\pいたずら　するで\nないぞ！
+## data/maps/Gate_IlexForest_Route34_hns/scripts.inc
+@@Route34IlexForestGate_Text_Lass
+もりの　かみさまの\nほこらを　みた？\pときを　こえて\nもりを　みまもって\lいるんだって\pきっと　くさタイプの\nポケモンだと　おもうわ
+@@Route34IlexForestGate_Text_Butterfree
+バタフリー『フリー！
+## data/maps/Gate_GoldenrodCity_Route35_hns/scripts.inc
+@@Route35GoldenrodGate_Text_RandyAskFavor
+ちょっと　きみ！\nたのみを　きいて　くれない？\pこの　メールを　もった　ポケモンを\nともだちに　とどけて　ほしいんだ\p31ばんどうろに　いるよ
+@@Route35GoldenrodGate_Text_RandyThanks
+いいの？　たすかる！\nありがとう！\pともだちは　いつも\nねている　ふとった　やつさ\pすぐ　わかるよ！
+@@Route35GoldenrodGate_Text_ReceivedMonWithMail
+{PLAYER}は　メールを\nもった　ポケモンを\lあずかった
+@@Route35GoldenrodGate_Text_RandyWeirdTree
+ともだちに　あったら　その\nポケモンを　せんとうに\lしておいてね！\p31ばんどうろだよ！\pそうそう　へんな　きが\nみちを　ふさいでたな\pもう　なくなったかな？
+@@Route35GoldenrodGate_Text_CantCarryMoreMon
+もう　ポケモンを\nもてないね‥
+@@Route35GoldenrodGate_Text_RandyNeverMind
+そうか‥　じゃあ\nいいよ‥
+@@Route35GoldenrodGate_Text_ThanksForDelivery
+ありがとう！　とどけて\nくれたんだね！\pおれいに　これを\nどうぞ！
+@@Route35GoldenrodGate_Text_RandyMyPalSnoozing
+あいつ　ねてた　だろ？\nへへ　いった　とおり\lだろ？
+@@Route35GoldenrodGate_Text_PokefanF_TreeBlocking
+へんな　きが　みちを\nふさいでるの\pはなしかけると\nくねくね　うごくのよ\pだれかが　ゼニガメじょうろで\nみずを　かけたら　あばれだした\lらしいわ
+@@Route35GoldenrodGate_Text_PokefanF_Lullaby
+ラジオで　ながれる\nポケモンの　こもりうたが\lすきなの
+@@Route35GoldenrodGate_Text_Fisher
+せかいには　なんしゅるいの\nポケモンが　いるんだろう\p3ねんまえ　オーキドはかせは\n150しゅるい　いると\lいっていた\pでも　さいきん　400しゅるい\nいじょう　いると　きいたよ！
+## data/maps/Gate_NationalPark_hns/scripts.inc
+@@Route35NationalParkGate_Text_OfficerAskToParticipate
+こんにちは　トレーナーさん！\nきょうは　むしとりたいかい\lです\pルールは　かんたん\pてもちの　ポケモン　1ぴきで\nむしポケモンを　つかまえて\lしんさを　うけます\pさんか　しますか？
+@@Route35NationalParkGate_Text_OfficerGiveSportBalls
+たいかい　ちゅうに　ポケモンが\nえた　けいけんちは　でる　ときに\lもとに　もどります\pたいかい　ようの\nパークボールです
+@@Route35NationalParkGate_Text_ReceivedSportBalls
+{PLAYER}は\nパークボールを　うけとった
+@@Route35NationalParkGate_Text_OfficerExplainRules
+いちばん　つよい　むしポケモンを\nつかまえた　ひとが\lゆうしょう　です\pパークボールが　なくなったら\nおしまい　です\pポケモンは　5ひきまで\nつかまえられますが　さいごの\l1ぴき　だけが　しんさされます\pいちばん　つよい　むしポケモンを\nつかまえて　きてください！
+@@Route35NationalParkGate_Text_OfficerAskToUseFirstMon
+てもちが　2ひき　いじょう\nなら　せんとうの　ポケモンで\lさんか　して　もらいます\pよろしい　ですか？
+@@Route35NationalParkGate_Text_OfficerHoldYourMon
+では　ほかの　ポケモンは\nたいかい　ちゅう\lおあずかり　します
+@@Route35NationalParkGate_Text_MonLeftWithHelper
+{PLAYER}は　ポケモンを\nかかりいんに　あずけた
+@@Route35NationalParkGate_Text_ChooseMonAndComeBack
+たいかいに　つかう　ポケモンを\nえらんでから　また\lきて　ください
+@@Route35NationalParkGate_Text_TakePartInFuture
+わかりました　また\nさんか　してくださいね
+@@Route35NationalParkGate_Text_FirstMonCantBattle
+あら‥　せんとうの　ポケモンが\nたたかえない　ようですね\pつかいたい　ポケモンと\nいれかえてから\lまた　きて　ください
+@@Route35NationalParkGate_Text_MakeRoom
+あら‥　てもちも　パソコンの\nボックスも　いっぱい　ですね\pつかまえた　むしポケモンを\nいれる　ばしょが　ありません\pてもちか　ボックスを\nあけてから　また\lきて　ください

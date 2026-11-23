@@ -1,0 +1,414 @@
+## data/maps/PalletTown_House2_hns/scripts.inc
+@@PalletTown_House2_Text_WhichMon
+ナナミ『どの　こを\nきれいに　する？
+@@PalletTown_House2_Text_Alright
+ナナミ『わかったわ\nすぐ　きれいに　するわね
+@@PalletTown_House2_Text_AllDone
+ナナミ『はい　できあがり！\pほら　{STR_VAR_1}\nきれいに　なったでしょ？\pほんとうに　かわいい\nポケモンね
+@@PalletTown_House2_Text_AlreadyGroomed
+ナナミ『いつも　この　じかんに\nおちゃを　してるの\lいっしょに　どうぞ
+@@PalletTown_House2_Text_Refused
+ナナミ『グルーミングは\nいらないの？\pじゃあ　おちゃだけ\nしましょう
+@@PalletTown_House2_Text_CantGroomEgg
+ナナミ『あら　ごめんね\nタマゴは　さすがに\lグルーミング　できないわ
+## data/maps/PalletTown_Lab_hns/scripts.inc
+@@PalletTown_Lab_Text_OakLabDexCheck
+ずかんの　ほうは\nどうかな？
+@@PalletTown_Lab_Text_OakWelcomeKanto
+オーキド『おお　{PLAYER}！\nはるばる　カントーまで\lよく　きたな\pこちらの　トレーナーは\nどうじゃ？　てごわいじゃろう？
+@@PalletTown_Lab_Text_OakLabGoodbye
+ちかくに　きたら\nまた　よって　おくれ
+@@PalletTown_Lab_Text_OakOpenMtSilver
+オーキド『なんと！　すばらしい！\pカントーの　ジムバッジを\nあつめたのか　みごとじゃ！\pわしの　みこんだ　とおりじゃった\pよし　{PLAYER}　シロガネやまへ\nいけるように　てはいして\lおこう\pシロガネやまは　やせいの\nポケモンが　たくさん　すむ\lおおきな　やまじゃ\pふつうの　トレーナーには\nきけん　なので　たちいり\lきんしじゃが　きみは\lとくべつじゃ\pセキエイこうげんへ　いきなさい\nそこから　シロガネやまへ\lいけるぞ
+@@PalletTown_Lab_Text_OakOpenIndigoPlateau
+そうそう　セキエイこうげんと\nいえば　バッジを　16こ\lあつめた　きみの\lちょうせんを　カントーリーグが\lまた　うけつけて　くれるぞ\pじゃが　ワタルと　してんのうは\nこんどは　てかげん\lせんぞ\pがんばるのじゃぞ\n{PLAYER}！
+@@PalletTown_Lab_Text_OakNoKantoBadges
+オーキド『む？　カントーの\nジムバッジを　あつめて\lおらんのか？\pカントーの　ジムリーダーも\nジョウトに　まけず　つよいぞ\pちょうせん　してみる\nことを　すすめるぞ
+@@PalletTown_Lab_Text_OakYesKantoBadges
+オーキド『おお　カントーの\nジムバッジを　あつめて\lおるのか\pたいへん　じゃろうが\nきっと　いい　けいけんに\lなるぞ\pぜんぶ　あつめたら\nわしに　あいに　きなさい\pおくりものを　よういして\nおこう\pがんばれよ　{PLAYER}！
+@@PalletTown_Lab_Text_OaksAssistant1
+はかせの　ポケモンこうざは\nカントーでは　ほうそう\lされて　ないんだ\pざんねん‥　ききたいのに
+@@PalletTown_Lab_Text_OaksAssistant2
+きみが　ずかんを\nうめて　くれるので\lはかせの　けんきゅうも\lじゅんちょうだよ
+@@PalletTown_Lab_Text_OaksAssistant3
+ないしょ　だけど\nオーキドはかせの　ポケモンこうざは\lなまほうそう　じゃ　ないんだ
+@@PalletTown_Lab_Text_OaksLabPC
+パソコンに　メールが\nとどいている\p‥\pオーキドはかせ　けんきゅうの\nほうは　いかが　ですか？\pわたしは　あいかわらず\nがんばって　います\p{PLAYER}くんが　ひょうばんに\nなって　いると　ききました\pうれしい　かぎりです\pワカバタウンの　ウツギより
+## data/maps/ViridianCity_PokemonCenter_hns/scripts.inc
+@@ViridianCity_PokemonCenter_Text_1FCooltrainerM
+トキワの　ジムリーダーは\nいったい　どこに　いるんだ？\lちょうせん　したいのに
+@@ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned
+トキワジムには　ジムトレーナーが\nいないんだ\pリーダーは　てしたなしで\nかつのが　ほうしん　らしい
+@@ViridianCity_PokemonCenter_Text_1FCooltrainerF
+グレンの　ジムが　なくなったって\nきいたわ\pジムリーダーの　カツラさんは\nどう　なったのかしら
+@@ViridianCity_PokemonCenter_Text_1FBugCatcher
+ぼくの　ゆめは\nジムリーダーに　なること！
+## data/maps/ViridianCity_Mart_hns/scripts.inc
+@@ViridianMart_Text_Lass
+ここの　ジムリーダー\nすっごく　かっこいいの
+@@ViridianMart_Text_CooltrainerM
+グレンに　いった　ことある？\pここから　ずっと　みなみの\nしまだよ
+## data/maps/ViridianCity_House1_hns/scripts.inc
+@@ViridianCity_House1_Text_PokefanM
+ポケモンの　なまえ\nよく　かんがえて　つけてる？\pいい　ニックネームが　あると\nこうかんが　もっと\lたのしく　なるよ
+@@ViridianCity_House1_Text_Lass
+オニスズメの　スズと\nコラッタの　ラッタンよ
+@@ViridianCity_House1_Text_Speary
+スズ『チュ　チュン！
+@@ViridianCity_House1_Text_Rattey
+ラッタン『キキィ！
+## data/maps/ViridianCity_Gym_hns/scripts.inc
+@@ViridianCity_Gym_Text_BlueGotoDojo
+グリーン『もう　きたのか？\pまた　おれと　やりたいなら\nかくとうどうじょうに　こい！
+@@ViridianCity_Gym_Text_LeaderBlue_Before
+グリーン『よう！\nやっと　きたな？\pグレンでは　そんな　きぶんじゃ\nなかったが\pいまなら　あいて\nしてやるぜ\p‥\pジョウトの　ジムを\nぜんぶ　せいは　した　だと？\pへっ！　ジョウトの　ジムも\nたいした　こと　ないな\pまあ　きにするな\pおまえが　つよいか　どうか\nいま　たたかえば　わかる\pじゅんびは　いいか？\nジョウトの　チャンピオン！
+@@ViridianCity_Gym_Text_LeaderBlue_Win
+グリーン『なに？\pなんで　おれが　おまえに\nまけるんだ？\p‥\pちっ　わかったよ‥\nほら　グリーンバッジだ
+@@ViridianCity_Gym_Text_ReceivedEarthBadge
+{PLAYER}は\nグリーンバッジを　もらった
+@@ViridianCity_Gym_Text_LeaderBlue_After
+グリーン『‥\pわかった　おれの　まちがい\nだった　おまえは　ほんもの\lいい　トレーナーだ\pだが　いつか\nおまえを　たおす\pわすれるなよ！
+@@ViridianCity_Gym_Text_LeaderBlue_GiveTM
+これを　もってけ
+@@ViridianCity_Gym_Text_LeaderBlue_ExplainTM
+それは　トリックルーム\pたたかいの　ポケモンの\nすばやさが　ぎゃくに　なる\lおそい　ほうが　さきに\lうごくんだ\pたたかいを　ひっくりかえす\nのに　つかえ
+@@ViridianCity_Gym_Text_LeaderBlue_Epilogue
+グリーン『いいか\pおれが　おまえを　たおすまで\nまけるんじゃ　ねえぞ\lわかったな？
+@@ViridianCity_Gym_Text_Guide
+よう！　みらいの　チャンピオン！\pちょうしは　どうだ？\nのってる　みたいだな\pここの　ジムリーダーは\n3ねんまえに　チャンピオンと\lたたかった　おとこだ\pあまく　ないぞ\pぜんりょくで　いけ！
+@@ViridianCity_Gym_Text_Guide_Win
+いやあ　ほんとうに\nつよいな‥\pかんどうの　しょうぶ\nだった　なみだが\lでて　きたよ
+@@ViridianCity_Gym_Text_GymStatue
+トキワ　ポケモンジム\nリーダー　グリーン\pかった　トレーナー\nグリーン　レッド
+@@ViridianCity_Gym_Text_GymStatuePlayerWon
+トキワ　ポケモンジム\nリーダー　グリーン\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+## data/maps/PewterCity_PokemonCenter_hns/scripts.inc
+@@PewterCity_PokemonCenter1F_Text_Teacher
+‥そうなの　グレンの\nジムが　なくなったのよ\pほんとうに　びっくり\pなに？　でんわ　ちゅうよ\nあっちへ　いって！
+@@PewterCity_PokemonCenter1F_Text_Jigglypuff
+プリン『プーウ　ププー
+@@PewterCity_PokemonCenter_Text_WantToTrade
+いい　{STR_VAR_1}を　さがして\nあちこち　たびを　してるんだ\pぼくの　{STR_VAR_2}と\nこうかん　しない？
+@@PewterCity_PokemonCenter_Text_TakeCare
+ほんとうに　ありがとう！\n{STR_VAR_1}を　だいじにね！
+@@PewterCity_PokemonCenter_Text_DeclineTrade
+だめ？　ざんねん‥\nぼくの　ゴースト\lきにいると　おもうのに
+@@PewterCity_PokemonCenter_Text_NotRequestedMon
+うーん　それは　{STR_VAR_1}じゃ\nないね　ほしいのは\lそれじゃ　ないんだ
+@@PewterCity_PokemonCenter_Text_TradeCompleted
+ゴーストは　どう？\nいたずらずき　だろ！
+@@PewterCity_PokemonCenter1F_Text_BugCatcher
+プリンの　うたを　きくと\nたいていの　ポケモンは\lねむく　なるんだ\pねむって　いる　ときにしか\nつかえない　わざも\lいくつか　あるよ
+## data/maps/PewterCity_Mart_hns/scripts.inc
+@@PewterCity_Mart_Text_Youngster
+やあ！　ぼくの\nギャラドスを　みてよ！\pコイキングから　そだてたんだ\nこんなに　つよく　なるなんて\lしんじられないよ
+@@PewterCity_Mart_Text_SuperNerd
+むかし　コイキングを　うる\nへんな　おじさんが　いてね\pいかりのみずうみの\nコイキングは　ゆうしゅうだって\lいってたよ
+## data/maps/PewterCity_House1_hns/scripts.inc
+@@PewterCity_House1_Text_SuperNerd
+ニドラン　おて！
+@@PewterCity_House1_Text_Nidoran
+ニドラン『ガウ　ガウ！
+## data/maps/PewterCity_House2_hns/scripts.inc
+@@PewterCity_House2_Text_Gramps
+ラジオを　つけて　うたたねするのが\nすきでのう‥\l‥グーグー‥
+## data/maps/PewterCity_Gym_hns/scripts.inc
+@@PewterCity_Gym_Text_Brock_Intro
+タケシ『ほう　ジョウトから\nちょうせんしゃが　くるとは\lめずらしい\pおれは　ニビジムリーダーの\nタケシ\pいわタイプの　ポケモンの\nエキスパートだ\pおれの　ポケモンに　ぶつりこうげきは\nほとんど　きかない\lダメージを　あたえるのは\lたいへんだぞ\pさあ　こい！
+@@PewterCity_Gym_Text_Brock_WinLoss
+タケシ『きみの　ポケモンの　こうげきが\nおれの　かたい　まもりを\lうちやぶった‥\pおもった　より　つよいな‥\pさあ　この　バッジを\nうけとって　くれ
+@@PewterCity_Gym_Text_ReceivedBoulderBadge
+{PLAYER}は\nグレーバッジを　もらった
+@@PewterCity_Gym_Text_Brock_GiveTM
+ほら　この　わざマシンも\nもって　いけ
+@@PewterCity_Gym_Text_Brock_ExplainTM
+それは　いわなだれ\pあいてに　いわを　おとし\nひるませる　ことも　ある\pあいての　うごきを\nとめるのに　つかえ
+@@PewterCity_Gym_Text_Brock_BoulderBadge
+タケシ『{PLAYER}　ありがとう\nくやしいけど　たのしい\lしょうぶ　だったよ\pその　グレーバッジで　ポケモンは\nもっと　つよく　なるぞ
+@@PewterCity_Gym_Text_Brock_FightDone
+タケシ『せかいは　ひろい\nきみの　ような　つよい\lトレーナーは　まだ　いる\pみてろよ　おれも\nもっと　つよく　なる
+@@PewterCity_Gym_Text_CamperJerry_Seen
+この　ジムの　トレーナーは\nいわタイプを　つかう\pいわタイプは\nぼうぎょが　たかい\pしょうぶは　ながびくかもな\nかくごは　いいか？
+@@PewterCity_Gym_Text_CamperJerry_Beaten
+かたなきゃ　いけないのに‥
+@@PewterCity_Gym_Text_CamperJerry_AfterBattle
+おい　ジョウトの　トレーナー！\nタケシさんは　つよいぞ\lあまく　みると　いたい\lめに　あうぞ
+@@PewterCity_Gym_Text_Guide
+よう！　みらいの　チャンピオン！\nいわの　ように　かたい\lかつやくだな\pカントーの　ジムリーダーにも\nちょうせん　してるのか？\pジョウトの　ジムリーダー　と\nおなじく　つよくて　ねっしんな\lひとたちだぞ
+@@PewterCity_Gym_Text_Guide_Win
+よう！　みらいの　チャンピオン！\nこの　ジムは　らくしょう\lだったな\pきみの　たたかいぶりには\nほんとうに　しげき　されたよ
+@@PewterCity_Gym_Text_GymStatue
+ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\nグリーン　レッド
+@@PewterCity_Gym_Text_GymStatuePlayerWon
+ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+@@PewterCity_Gym_Text_BrockWantToTrade
+タケシ『やあ　{PLAYER}\nやまで　しゅぎょう　ちゅうに\lこの　ウソハチを　みつけたんだ\pかわいいけど　べつの\nトレーナーが　あってる\lきがするんだ\p{STR_VAR_1}と　おれの\n{STR_VAR_2}を　こうかん\lしないか？
+@@PewterCity_Gym_Text_BrockTakeCare
+タケシ『ありがとう！\nウッディを　よろしくな！
+@@PewterCity_Gym_Text_BrockDeclineTrade
+タケシ『だめか？　いいさ\nウッディと　しゅぎょうを\lつづけるよ
+@@PewterCity_Gym_Text_BrockNotRequestedMon
+タケシ『それは　{STR_VAR_1}じゃ\nないな　ほしいのは\lそれじゃ　ないんだ
+@@PewterCity_Gym_Text_BrockTradeCompleted
+タケシ『ウッディは　げんきか？\nウソハチは　みかけより\lたくましいぞ！
+## data/maps/PewterCity_Museum_1F_hns/scripts.inc
+@@PewterCity_Museum_1F_Text_Recptionist
+いらっしゃいませ！\pおおきな　てんじひんは\nほかの　はくぶつかんに\lかしだし　ちゅう　です\pですので　いまは\nにゅうかんりょうは　むりょう！\pどうぞ　おすすみ　ください
+@@PewterCity_Museum_1F_Text_FossilWoman
+あなた　つよい\nトレーナー　みたいね\pあっちの　カウンターの　かせきは\nあまり　つかいみちが　ないの\pぎんいろの　かみの　へんな\nひとが　たくさん　おいて\lいったのよ\pよかったら　もって\nいって　いいわ
+@@PewterCity_Museum_1F_Text_FossilWomanAfter
+アルフのいせきの　けんきゅういんと\nよく　けんきゅうを\lきょうゆう　してるの\pパソコンで　かせきを\nおくりあう　ことも　あるのよ！
+@@PewterCity_Museum_1F_Text_Oldman
+ながいき　した　ことに\nかんしゃ　せねばな\pドラゴンの　ほねが\nみられる　とは　おもわなんだ！
+@@PewterCity_Museum_1F_Text_Bones
+こだいの　ドラゴンポケモンの\nほね
+## data/maps/PewterCity_Museum_2F_hns/scripts.inc
+@@PewterCity_Museum_2F_Text_Nerd
+たんじょうのしまに　いんせきが\nおちたと　いわれている\pこの　はくぶつかんに\nかざりたいんだけど‥\pふしぎな　エネルギーを　だして\nもちだせない　らしいんだ‥
+@@PewterCity_Museum_2F_Text_AskedDaddyToCatchPikachu
+ピカチュウ　ほしい！\nかわいいんだもん！\pパパに　つかまえてって\nたのんだの！
+@@PewterCity_Museum_2F_Text_PikachuSoonIPromise
+うん　ピカチュウ　すぐ\nつかまえて　くるよ！
+@@PewterCity_Museum_2F_Text_SpaceShuttle
+スペースシャトル
+@@PewterCity_Museum_2F_Text_MeteoriteThatFellOnMtMoon
+おつきみやまに　おちた　いんせき\nつきのいしと　かんがえられている
+## data/maps/CeruleanCity_PokemonCenter_hns/scripts.inc
+@@CeruleanCity_PokemonCenter1F_Text_SuperNerd
+しょうぶ　には　つかまえた\nばかりの　ポケモンより\pよわくても　そだててきた\nポケモンを　つかいたいな
+@@CeruleanCity_PokemonCenter1F_Text_GymGuide
+リニアは　じそく　550キロ\nいじょうで　はしる\lカントーと　ジョウトを\lあっというまに　むすぶんだ\pジョウトへ　いくのが\nほんとうに　らくに　なったよ
+## data/maps/CeruleanCity_Mart_hns/scripts.inc
+@@CeruleanMart_Text_CooltrainerM
+ハナダの　みさきへ　いく\nとちゅうには　トレーナーが\lたくさん　いるぞ\pほかの　トレーナーと\nうでを　くらべたいんだ
+@@CeruleanMart_Text_CooltrainerF
+ハナダの　みさきの　トレーナーに\nかてるのは　まちでも\lカスミさん　くらいよ
+## data/maps/CeruleanCity_House2_hns/scripts.inc
+@@CeruleanPolice_Text_FishingGuru
+あやしい　やつが　うろついて\nいるらしい\pどろぼう　だったら\nゆるさんぞ
+@@CeruleanPolice_Text_PokefanF
+まえに　ごうとうに\nはいられた　ことが　あるの
+@@CeruleanPolice_Text_Diglett
+ディグダ『ディグ　ディグ
+## data/maps/CeruleanCity_House3_hns/scripts.inc
+@@CeruleanHouse_Text_Granny
+うちの　ひとは　こうかんで\nもらった　ポケモンと\lしあわせに　くらしてるのよ
+@@CeruleanHouse_Text_Gramps
+ああ‥　しあわせじゃ‥
+@@CeruleanHouse_Text_Kangaskhan
+ガルーラ『ガルッ　ガルーッ
+@@CeruleanHouse_Text_Zubat
+ズバット『ズバッ　ズバー
+## data/maps/CeruleanCity_Gym_hns/scripts.inc
+@@CeruleanCity_Gym_Text_GymStatue
+ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\nグリーン　レッド
+@@CeruleanCity_Gym_Text_GymStatuePlayerWon
+ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+@@CeruleanGym_Text_Note
+しばらく　るすに　します\nジムリーダー　カスミ\pカスミさんが　いないので\nわたしたちも　でかけます\lジムトレーナー
+@@CeruleanGym_Text_GruntIntro
+おっと！　ごめんよ！\nけが　ない　だろ？\pおれ　いそがしい\nはなしてる　ひま　ない\lだれかに　みられると\lまずい
+@@CeruleanGym_Text_GruntBigMistake
+しまった！　もう　みられた！\nおれ　おおしっぱい！
+@@CeruleanGym_Text_GruntBye
+おい　おまえ！　おれを\nみたこと　わすれろ\lいいな？\pなにも　みてない　きいてない\nしらない\pいいな？　じゃあな！\nなにもなし！\pバイバイ！
+@@CeruleanGym_Text_Note1
+しばらく　るすに　します\nジムリーダー　カスミ\pカスミさんが　いないので\nわたしたちも　でかけます\lジムトレーナー
+@@CeruleanGym_Text_MistyIntro
+カスミ『まってたわよ\nこの　おじゃまむし！\pジョウトの　バッジを\nたくさん　もってる　みたい\lだけど　わたしを　あまく\lみないでね\pわたしの　みずポケモンは\nつよいわよ！
+@@CeruleanGym_Text_MistyWinLoss
+カスミ『ほんとうに\nつよいのね‥\pみとめて　あげるわ‥\pはい　ブルーバッジよ
+@@CeruleanGym_Text_ReceivedBadge
+{PLAYER}は\nブルーバッジを　もらった
+@@CeruleanGym_Text_MistyFightDone
+カスミ『ジョウトには　つよい\nトレーナーが　たくさん\lいるの？　あなた　みたいな\pわたしも　いつか　たびに　でて\nつよい　トレーナーと\lたたかう　つもりよ
+@@CeruleanGym_Text_MistyRematch
+カスミ『すごい　いまは\nカントーの　チャンピオンね！\pたいした　ものだわ　{PLAYER}\nここまで　きたのね\pでも　ひかないわよ\pもう　いちど\nしょうぶ　する？
+@@CeruleanGym_Text_MistyRematchDefeat
+カスミ『ほんとうに\nつよいのね‥
+@@CeruleanGym_Text_SwimmerfDianaSeen
+るすに　してて　ごめんね\nさあ　はじめましょう！
+@@CeruleanGym_Text_SwimmerfDianaBeaten
+まいった！\nあなたの　かちよ！
+@@CeruleanGym_Text_SwimmerfDianaAfter
+しずかに　およいで\nいるわね
+@@CeruleanGym_Text_SwimmerfBrianaSeen
+わたしの　ゆうがな　およぎに\nみとれないでね
+@@CeruleanGym_Text_SwimmerfBrianaBeaten
+あら　あっさり\nかたづけられちゃった‥
+@@CeruleanGym_Text_SwimmerfBrianaAfter
+わたしに　かったからって\nいい　きに　ならないで\pゆだん　したら　カスミさんに\nやられちゃうわよ
+@@CeruleanGym_Text_SwimmermParkerSeen
+ぶくぶく‥\pおれが　さいしょだ！\nかかって　こい！
+@@CeruleanGym_Text_SwimmermParkerBeaten
+そんな‥
+@@CeruleanGym_Text_SwimmermParkerAfter
+カスミさんは　ここ　なんねんかで\nずっと　つよく　なった\pゆだん　すると\nやられるぞ！
+@@CeruleanGym_Text_GuideIntro
+よう！　みらいの　チャンピオン！\pカスミが　いないから　おれも\nあそびに　いってたんだ\pへへへ
+@@CeruleanGym_Text_GuideWin
+ほう　つよさを\nみせつけたな\pあいかわらず　すごい\nしょうぶ　だったぜ！
+@@CeruleanGym_Text_Misty_GiveTM
+はい　これも\nあげるわ
+@@CeruleanGym_Text_Misty_ExplainTM
+みずのはどうの\nわざマシンよ\pダメージを　あたえて\nこんらん　させる　ことも\lあるのよ！
+## data/maps/VermilionCity_PokemonCenter_hns/scripts.inc
+@@VermilionCity_PokemonCenter1F_Text_FishingGuru
+ディグダのあなの　まえで\nポケモンが　ねむってるんだ\pつかまえる　チャンス　だけど\nどうやって　おこせば\lいいんだろう？
+@@VermilionCity_PokemonCenter1F_Text_FishingGuru_FoughtSnorlax
+ディグダのあなの　まえで\nポケモンが　ねむって\lいたんだが\pいなく　なった\nみたいだな
+@@VermilionCity_PokemonCenter1F_Text_Sailor
+こうそくせんは　トレーナーと\nであって　たたかうのに\lもってこいの　ばしょだ
+@@VermilionCity_PokemonCenter1F_Text_BugCatcher
+あれ？　みた　ことの　ない\nバッジを　もってるね\pそうか　ジョウトの\nバッジ　なんだね
+## data/maps/VermilionCity_Mart_hns/scripts.inc
+@@VermilionMart_Text_SuperNerd
+ロケットだんは　もう\nカントーには　いない\pそれだけで　うれしいよ
+@@VermilionMart_Text_Beauty
+ヤマブキで　かいものを\nしようかしら
+## data/maps/VermilionCity_PortOutside_hns/scripts.inc
+@@VermilionCity_PortOutside_Text_Fisher
+ジョウトから　きたのか？\nあっちの　つりは\lどうだい‥\pジョウトには　あかい\nギャラドスが　いるのか！？
+## data/maps/VermilionCity_PortInside_hns/scripts.inc
+@@VermilionPortPassage_Text_Teacher
+こうそくせんは　まいにち\nでて　いるのよ！
+@@VermilionPort_Text_SuperNerd
+ジョウトから　きたの？\pあっちには　めずらしい\nポケモンが　たくさん\lいるんだって
+@@VermilionPort_Text_SailorCantSail
+はつでんしょに　どろぼうが\nはいったので　はんにんが\lみつかるまで　しゅっこう\lできません
+@@VermilionPort_Text_NoPass
+{PLAYER}は　{STR_VAR_1}を\nみせようと　した‥\p‥しかし　{STR_VAR_1}が\nない！\pもうしわけ　ありません\n{STR_VAR_1}を　おもちの\lかたしか　のれません
+@@VermilionPort_Text_SailorGetOnBoard
+まもなく　しゅっこう　です\nごじょうせん　ください
+@@VermilionPort_Text_CantBoard
+もうしわけ　ありません\nいまは　のれません
+@@VermilionPort_Text_WhereSail
+どちらへ　いかれますか？
+@@VermilionPort_Text_AskBoard
+こうそくせん　アクアごうへ\nようこそ\pきょう　ごじょうせん\nですか？
+@@VermilionPort_Text_AskTicket
+ふねの　チケットを\nはいけん　します
+@@VermilionPort_Text_ComeAgain
+また　おこし　ください！
+@@VermilionPort_Text_FlashTicket
+{PLAYER}は　ふねの　チケットを\nみせた\pはい　たしかに！\nありがとう　ございます！
+@@VermilionPort_Text_NoTicket
+{PLAYER}は　ふねの　チケットを\nみせようと　した‥\p‥しかし　チケットが\nない！\pもうしわけ　ありません\nふねの　チケットを　おもちの\lかたしか　のれません
+## data/maps/VermilionCity_Gym_hns/scripts.inc
+@@VermilionGym_Text_LtSurgeIntro
+マチス『ヘイ　ボーイ！\pたいした　もんだ\nミーに　ちょうせん　するのは\lかしこく　ないが\lどきょうは　あるね！\pでんきポケモンなら\nミーが　ナンバーワン！\pせんじょうで　まけた　ことは\nいちども　ない\pせんそうの　てきの　ように\nしびれさせて　やるぜ！
+@@VermilionGym_Text_LtSurgeWinLoss
+マチス『アーウチ！\nユー　つよいね！\pオーケー　ボーイ\nオレンジバッジを　やろう！
+@@VermilionGym_Text_ReceivedThunderBadge
+{PLAYER}は\nオレンジバッジを　もらった
+@@VermilionGym_Text_ThunderBadgeInfo
+マチス『オレンジバッジで\nポケモンの　すばやさが\lあがる\pミーに　かった\nあかしだ\pほこりを　もって\nつけてな？
+@@VermilionGym_Text_LtSurge_GiveTM
+それと　この　わざマシンも\nやろう　せんそうで\lやくに　たったぜ！
+@@VermilionGym_Text_LtSurge_ExplainTM
+それは　でんげきは\pかならず　あたる\nおどろきの　わざだ！
+@@VermilionGym_Text_LtSurgeThunderstone
+それと　この　いしも　やろう\nほんものの　かみなりの\lちからが　あるぜ！
+@@VermilionGym_Text_LtSurgePostBattle
+マチス『ヘイ　ボーイ！\nまだ　がんばってるか？\pミーと　ポケモンも\nまだまだ　やってるぜ！
+@@VermilionGym_Text_SurgeRematch
+マチス『ユー　いまは　カントーの\nチャンピオンか！\pたいした　もんだ　ボーイ！\nだが　ミーも　まだまだだ！\pもう　いっちょ\nやるか？
+@@VermilionGym_Text_SurgeRematchDefeat
+マチス『アーウチ！\nあいかわらず　つよいな！
+@@VermilionGym_Text_GentlemanGregorySeen
+マチスさんを　たおしに\nきたのか？\pそうは　させんぞ！
+@@VermilionGym_Text_GentlemanGregoryBeaten
+もうしわけ　ありません\nマチスさん！
+@@VermilionGym_Text_GentlemanGregoryAfter
+ぐんたいに　いた　ころ\nマチスさんに　いのちを\lすくわれたのだ
+@@VermilionGym_Text_GuitaristVincentSeen
+マチスさんは　でんきポケモンの\nおれの　さいのうを\lみとめて　くれた\pおれに　かてると\nおもうか？
+@@VermilionGym_Text_GuitaristVincentBeaten
+うわ　しびれた！
+@@VermilionGym_Text_GuitaristVincentAfter
+ははおやには　しごとを　やめるな\nって　いわれたけど\lそっちでも　うまく　いかない\lときは　どうすれば　いいんだ？
+@@VermilionGym_Text_JugglerHortonSeen
+きみを　たおして　やる！\nしびれる　かくごを　しろ！
+@@VermilionGym_Text_JugglerHortonBeaten
+ぐわー！\nちからで　まけた‥
+@@VermilionGym_Text_JugglerHortonAfter
+ぼくに　かったからって\nあんしん　するなよ‥\pマチスさんは　つよいぞ
+@@VermilionCity_Gym_Text_GymGuyAdvice
+よう！\nみらいの　チャンピオン！\pマチスには　あだなが\nあるんだ\pイナズマアメリカン\nって　よばれてる！\pでんきポケモンの\nエキスパートだ\pひこうや　みずタイプの\nポケモンは　でんきタイプに\lよわいぞ\pまひにも　きをつけろ\pマチスは　とても\nようじんぶかい\pかぎを　かけて　とじこもって\nいるから　たどりつくのは\lかんたんじゃ　ないぞ
+@@VermilionCity_Gym_Text_GymGuyPostVictory
+ふう！　しびれる\nしょうぶ　だったな！\pおれも　どきどき\nしたよ
+@@VermilionCity_Gym_Text_GymStatue
+クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\nグリーン　レッド
+@@VermilionCity_Gym_Text_GymStatuePlayerWon
+クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\nグリーン　レッド　{PLAYER}
+@@VermilionCity_Gym_Text_NopeOnlyTrashHere
+ない！\nゴミしか　はいって　いない
+@@VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened
+おや！　ゴミの　したに\nスイッチが　ある！　おしてみた！\pひとつめの　でんきロックが\nはずれた！
+@@VermilionCity_Gym_Text_SecondLockOpened
+ふたつめの　でんきロックが\nはずれた！　とびらが　ひらいた！
+@@VermilionCity_Gym_Text_OnlyTrashLocksWereReset
+ない！\nゴミしか　はいって　いない\pあっ！\nでんきロックが　もとに\lもどって　しまった！
+## data/maps/VermilionCity_FanClub_hns/scripts.inc
+@@PokemonFanClub_Text_Chairman_Intro
+わしは　ポケモンだいすき\nクラブの　かいちょうじゃ\pそだてた　ポケモンは\n150ぴき　いじょう！\pポケモンには　うるさいぞ\pわしの　ポケモンの　はなしを\nききに　きたのかね？
+@@PokemonFanClub_Text_Chairman_Rapidash
+よし！　では　きくがよい！\pわしの　だいすきな　ギャロップ‥\pこいつが‥　かわいくて‥\nかしこくて‥　たまらんのじゃ\lそれに‥　すごくて‥　そう\lおもうじゃろ？‥\lたまらん‥　ワイルドで‥\lうつくしくて‥　やさしくて‥\lだいすきじゃ！\pねている　ときに‥　だきしめると\nあったかくて‥\lそれに‥　すばらしく‥\lうっとり‥　まさに　かみ‥\pおっと！　もう　こんな　じかん！\nひきとめて　しまったな！
+@@PokemonFanClub_Text_Chairman_Gift
+はなしを　きいて　くれて\nありがとう　これを　あげよう！
+@@PokemonFanClub_Text_Chairman_Candy
+それは　ポケモンを　つよく\nする　ふしぎなアメじゃ\pわしは　しょうぶで　ポケモンを\nきたえる　ほうが　すきなので\lおまえさんに　あげよう
+@@PokemonFanClub_Text_Chairman_MoreTales
+やあ　{PLAYER}！\pまた　わしの　ポケモンの\nはなしを　ききに　きたか？\pちがう？　そうか‥\nまだ　はなしたい　ことが\lあったのに‥
+@@PokemonFanClub_Text_Chairman_Disappointed
+ざんねんじゃ‥\pききたく　なったら\nまた　くるがよい
+@@PokemonFanClub_Text_Receptionist
+かいちょうは　ポケモンの\nことに　なると　ねっしん\lなんです‥
+@@PokemonFanClub_Text_ClefairyGuy_Adorable
+ピッピが　ゆびをふるを\nつかう　ときの\lゆびの　ふりかたが　すき\pかわいいんだ！
+@@PokemonFanClub_Text_ClefairyGuy_MakingDo
+ピッピが　すきだけど\nつかまえられ　なくて\pだから　ひろった\nピッピにんぎょうで\lがまん　してるんだ
+@@PokemonFanClub_Text_ClefairyGuy_ReturnDoll
+そうか　この　にんぎょうを\nなくした　こが\lかなしんでるんだね‥\pわかった　この　ピッピにんぎょうを\nその　こに　かえして\lあげて　くれる？\pほんものの　ピッピとは　いつか\nじぶんで　ともだちに　なるよ\lしんぱい　しないで！
+@@PokemonFanClub_Text_ClefairyGuy_GoingToGetOne
+みてて　よ　ほんものの\nピッピと　ともだちに\lなるからね
+@@PokemonFanClub_Text_Teacher
+わたしの　かわいい\nベイリーフを　みて！\pあたまの　はっぱが\nかわいいでしょ！
+@@PokemonFanClub_Text_ClefairyDoll
+ピッピだ！　あれ？\pなんだ　ピッピにんぎょうか
+@@PokemonFanClub_Text_Bayleef
+ベイリーフ『リー　リーフ！
+@@PokemonFanClub_Text_Listen
+ほかの　トレーナーの　はなしは\nしずかに　ききましょう
+@@PokemonFanClub_Text_Bragging
+じまん　されたら\nじまんで　かえせ！
+## data/maps/VermilionCity_House1_hns/scripts.inc
+@@VermilionCity_House1_Text_FishingDude
+わしは　つりきょうだいの\nいちばん　うえじゃ\pいかりのみずうみの\nつりの　めいじんに\lあったかね？\pせかい　いちの　コイキングを\nみるのが　ゆめ　なんじゃ\pよければ　つかまえた\nコイキングを　みせて\lやって　くれんか？\pゆめの　コイキングが\nつれるかも　しれんぞ
+@@VermilionCity_House1_Text_Photo
+つりを　している\nひとたちの　しゃしんだ‥\pとても　たのしそうだ‥
+## data/maps/VermilionCity_House2_hns/scripts.inc
+@@VermilionCity_House2_Text_PokefanF
+リニアって　しってる？\pジョウトの　コガネへ\nいく　てつどうよ
+@@VermilionCity_House2_Text_Youngster
+ヤマブキへ　リニアを\nみに　いきたいな
+## data/maps/VermilionCity_House3_hns/scripts.inc
+@@VermilionCity_House3_Text_Gentleman
+ディグダが　ながい　としつきを\nかけて　おおきな　トンネルを\lほったんじゃ\pその　トンネルは\nとおくの　まちに　つづいて\lおる
+## data/maps/LavenderTown_PokemonCenter_hns/scripts.inc
+@@LavenderTown_PokemonCenter1F_Text_Gentleman
+シオンの　きたには\nイワヤマトンネルが　ある\lぬければ　はつでんしょだ
+@@LavenderTown_PokemonCenter1F_Text_Teacher
+ポケモンの　ふえの\nおんがくを　ながす\lばんぐみが　あるのよ\pあら？　あなたの　ラジオ\nかくちょうカードが\lないと　きけないわね\pこの　まちの　ラジオとうで\nもらえるかも？
+@@LavenderTown_PokemonCenter1F_Text_Youngster
+はつでんしょが　とまってると\nリニアも　うごかない‥\pラジオとうも\nほうそう　できないんだ‥
+@@LavenderTown_PokemonCenter1F_Text_Youngster_ReturnedMachinePart
+ラジオとうの　きょくちょうが\nよろこんでたよ\pはつでんしょが　また　うごいて\nほうそうが　さいかい\lできたって
+## data/maps/LavenderTown_Mart_hns/scripts.inc
+@@LavenderMart_Text_PokefanM
+どうくつを　たんけん　するなら\nむしよけスプレーは\lひっすだ\pたんけんは　すきだけど\nまだ　ぜんぶの　どうくつには\lいけて　ないんだ
+@@LavenderMart_Text_Rocker
+ジョウトの　ヒワダタウンに\nとくせいの　ボールを　つくる\lしょくにんが　いるらしい\pほしいなあ
+## data/maps/LavenderTown_House1_hns/scripts.inc
+@@LavenderTown_House1_Text_Girl
+しんじられる？\pポケモンの　せわに\nあきちゃう　ひとが\lいるのよ\pおじいちゃんは　そんな\nかわいそうな　ポケモンを\lひきとって　せわを\lしているの

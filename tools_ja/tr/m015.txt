@@ -1,0 +1,381 @@
+## data/maps/Gate_NationalPark_hns/scripts.inc
+@@Route35NationalParkGate_Text_EggAsFirstMon
+あら‥　せんとうが\nタマゴ　ですね\pつかいたい　ポケモンと\nいれかえてから\lまた　きて　ください
+@@Route35NationalParkGate_Text_ContestIsOver
+きょうの　たいかいは\nおわりました　また\lさんか　してくださいね
+@@Route35NationalParkGate_Text_Rocker
+とりポケモンが　だいすき！\nゆうべ　こうえんで　あくタイプの\lとりを　みつけたんだ！
+@@Route35NationalParkGate_Text_BC2
+でっかい　ストライクを\nつかまえたぞ！
+@@Route35NationalParkGate_Text_Beauty
+かれったら　いつも\nゆうしょう　するのよ！
+@@Route35NationalParkGate_Text_WeHoldContests
+こうえんでは　たいかいを\nていきてきに　ひらいて　います\lぜひ　ちょうせん　して　ください
+@@Route35NationalParkGate_Text_YoungsterWonders
+つぎの　むしとりたいかいは\nいつかな？
+@@Route35NationalParkGate_Text_ContestExplanation
+むしとりたいかいは　かようび\nもくようび　どようびに\lひらかれます\pさんか　する　だけで\nしょうひんが　もらえて\pさいごに　もっていた\nむしポケモンも　もらえます
+## data/maps/Gate_EcruteakCity_Route38_hns/scripts.inc
+@@Route38_Text_EcruteakGateOfficer
+どこから　きたって？\pワカバタウン？\pウツギはかせが\nすんでる　ところだね？\pとおくから　よく\nきたね
+## data/maps/Gate_EcruteakCity_Route42_hns/scripts.inc
+@@Route42_Text_EcruteakGateOfficer
+すりばちやまの　なかは\nめいろ　みたいだ\pまよわない　ように\nきを　つけて
+## data/maps/Gate_MahoganyTown_Route43_hns/scripts.inc
+@@Route43MahoganyGate_Text_Officer
+さいきん　ここを　とおるのは\nいかりのみずうみへ\lいく　ひと　ばかりだ
+@@Route43MahoganyGate_Text_Officer_RocketsCleared
+さいきんは　いかりのみずうみに\nいく　ひとは　いないな
+## data/maps/Gate_Route43_hns/scripts.inc
+@@Gate_Route43_Rocket_Text_TollFee
+まちな　ぼうず！\pここを　とおるには\nつうこうりょう　500円だ
+@@Gate_Route43_Rocket_Text_ThankYou
+まいど　どうも！
+@@Gate_Route43_Rocket_Text_AllYouGot
+じゃあ　もってる　ぶん\nはらって　もらおう
+@@Gate_Route43_Rocket_Text_KickOut
+うわ！\pすっからかん　じゃないか！\pちょっと　かわいそうに\nなって　きた\pしかたない　とおれ‥\pもう　ひとりの　みはりには\nないしょ　だぞ？
+@@Gate_Route43_Rocket_Text_MakingABundle
+へへへ　ぼろもうけだ\pみんな　いかりのみずうみの\nようすを　みたがってるからな
+@@Route43Gate_Text_OfficerFoundTM
+くろい　ふくの　ならずものに\nもちばを　おいだされて\lしまった\pやつらが　これを\nおいて　いったんだ\pきみが　わるいから\nもって　いって　くれないか？
+@@Gate_Route43_Text_ReceivedTM30
+{PLAYER}は\nわざマシン36を　もらった
+@@Gate_Route43_Text_OfficerAvoidGrass
+くさむらを　あるきたく　ないなら\nこの　ゲートを　つかうといい
+## data/maps/SlateportCity_BattleTentLobby_hns/scripts.inc
+@@SlateportCity_BattleTentLobby_hns_Text_CouldntFindMonForMe
+なんかさ　じぶんに　あう\nポケモンが　いなくてさ\pだから　かかりの　ひとに\nもんく　いおうと　したわけ\pでも　ぜんぜん　きいて\nくれなくてさ　まじ　さいあく！\pちょっと　あんた！\nだまって　これ　うけとって！
+@@SlateportCity_BattleTentLobby_hns_Text_ExplainTorment
+それ　わざマシン41\nいちゃもん　ってわけ\pあいてに　おなじ　わざを\nつづけて　ださせない\lってこと\pべつに　あんたに\nいちゃもん　つけてる\lわけじゃ　ないからね！
+@@SlateportCity_BattleTentLobby_hns_Text_IllTryUsingBugMons
+むしポケモンは　あんまり\nすきじゃ　ないけど\lきぶんてんかんに　つかって\lみようかな\pすきに　なるかも\nしれないし！
+@@SlateportCity_BattleTentLobby_hns_Text_BattleEvenWithoutToughMons
+ここでは　つよい　ポケモンが\nいなくても　すきなだけ\lたたかえるよ
+@@SlateportCity_BattleTentLobby_hns_Text_NiceIfMoreSelection
+もっと　えらべる　ポケモンが\nおおければ　いいのに
+## data/maps/VerdanturfTown_BattleTentLobby_hns/scripts.inc
+@@VerdanturfTown_BattleTentLobby_hns_Text_MonsReluctantToUseDislikedMoves
+ポケモンは　きらいな　わざを\nつかいたがらない\pどんなに　つよくても\nかんけい　ない\pたとえば　おだやかな　せいかくの\nポケモンは　あいてを\lきずつけるのを　いやがる\pちからを　だしきれない　なら\nきらいな　わざを　むりに\lつかわされて　いるのかもね
+@@VerdanturfTown_BattleTentLobby_hns_Text_GentleMonsScaryIfAngry
+おねえちゃん　ふだんは\nやさしいけど　おこると\lすっごく　こわいの！\pやさしい　ポケモンも\nおこったら　きっと　こわいよ！
+@@VerdanturfTown_BattleTentLobby_hns_Text_AttractionRunsDeep
+ポケモンへの　わたしの　おもい‥\nとても　ふかいの‥\pあら　みてた？\nまあ　いいわ\pこの　わざマシン\nあなたの　ポケモンに　どう？
+@@VerdanturfTown_BattleTentLobby_hns_Text_AttractionMutual
+ポケモンへの　わたしの　おもい‥\nきっと　りょうおもいよ！\pおもった　とおりに\nたたかって　くれるもの！
+@@VerdanturfTown_BattleTentLobby_hns_Text_TaughtWhatKindsOfMoves
+ポケモンに　どんな　わざを\nおぼえさせてる？\pかいふくや　まもりの　わざが\nあると　ゆうりに　なると\lおもうよ
+@@VerdanturfTown_BattleTentLobby_hns_Text_ScottCanMeetToughTrainers
+エニシダ『やあ　{PLAYER}{KUN}！\nここで　あえると　おもってたよ\pバトルテントは　つよい\nトレーナーに　であえる　ばしょ\pルールや　たたかいかたは\nかんけい　ない\p{PLAYER}{KUN}　ぜんりょくを\nだして　くれよ！
+@@VerdanturfTown_BattleTentLobby_hns_Text_ScottVisitRegularly
+エニシダ『どんな　じょうきょう　でも\nつよい　トレーナーの　たたかいが\lみたくて　よく　くるんだ
+## data/maps/FallarborTown_BattleTentLobby_hns/scripts.inc
+@@FallarborTown_BattleTentLobby_hns_Text_MakeThinkImJustKid
+ふふふふふ\pただの　こどもだと\nおもわせて　ゆだん\lさせるの\pそこで　びっくり　させて\nタイトルを　いただくわ！
+@@FallarborTown_BattleTentLobby_hns_Text_FallarborTentMyFavorite
+バトルテントって　いろんな\nしゅもくが　あるでしょ？\pわたしは　あかい\nテントが　いちばん　すき\pポケモンを　しんじて　かとうと\nする　トレーナーって\lすてきだと　おもうの
+@@FallarborTown_BattleTentLobby_hns_Text_CameToCampOut
+テントが　あると　きいて\nキャンプに　きたんだが\pさいきんの　テントは\nごうかなんだな！\pせっかく　だから\nたたかって　いくか！
+@@FallarborTown_BattleTentLobby_hns_Text_ScottLookingForSomeone
+エニシダ『やあ　{PLAYER}{KUN}！\nバトルテントに　きたんだね！\pこの　あたりの　ひとは\nのんびり　している\pでも　ぼくが　さがしてる\nのは‥\pなんて　いえば　いいかな？\pかちたいと　いう　きもちに\nあふれた　ひと\pそんな　トレーナーが\nいたら　すぐにでも‥\pおっと！　なんでもない！\nがんばってね！
+@@FallarborTown_BattleTentLobby_hns_Text_ScottMakeChallenge
+エニシダ『ぼくの　あいてなんか\nしてないで　ちょうせん\lしてきたら？
+## data/maps/ReceptionGate_hns/scripts.inc
+@@ReceptionGate_Text_Janine
+アンズ『ちちうえに　おべんとうを\nとどけに　いく　ところなの\pしてんのうは　ひるも　よるも\nやすむ　ひまが　ないの\lたいへん　なのよ\pまた　しょうぶ　するなら\nあとで　どうじょうに　いるわ
+@@VictoryRoadGate_Text_Officer
+みとめられた　トレーナー\nだけが　とおれます
+@@VictoryRoadGate_Text_Kimono
+ごめんなさい　でんせつの\nポケモンを　だれかが\lしずめるまで　ここは\lとおれません‥
+@@VictoryRoadGate_Text_NotEnoughBadges
+ジョウトの　ジムバッジが\nそろって　いませんね\pもうしわけ　ありませんが\nとおす　わけには　いきません
+@@VictoryRoadGate_Text_EightBadges
+おお！　ジョウトの\nバッジが　8こ！\pどうぞ　おとおり　ください！
+@@VictoryRoadGate_Text_LeftBlackBelt
+こっちは　シロガネやまへ\nつづいている\pおそろしく　つよい\nポケモンが　いるぞ
+@@VictoryRoadGate_Text_RightBlackBelt
+ポケモンリーグへ　いくのか？\pしてんのうは　こわいほど\nつよいぞ　まちかまえてる！
+## data/maps/Route39_FarmHouse_hns/scripts.inc
+@@Route39_Text_FarmerMSickCow
+うちの　ミルタンクが\nミルクを　だして　くれねえだ\pこの　ぼくじょうの\nミルクは　ゆうめいでな\pみんな　のみたがるだよ\pきのみを　たくさん\nたべさせりゃ　ミルクを\lだすと　おもうだが
+@@Route39_Text_FarmerMBuyMilk
+うちの　モーモーミルク\nどうだべ？\pじまんの　いっぴんだ\pポケモンに　のませりゃ\nHPが　かいふく　するだよ！\pたったの　500円で\nゆずって　やるだ
+@@Route39_Text_FarmerMGotMilk
+ほれ！\nえんりょ　なく　のんでけろ！
+@@Route39_Text_FarmerMNoMoney
+わりいな\nかねが　なけりゃ　うれねえだ！
+@@Route39_Text_FarmerMNoRoom
+バッグが　いっぱい\nみてえだな
+@@Route39_Text_FarmerMNoSale
+いらねえだか？\nまた　きてけろ
+@@Route39FarmHouse_Text_WouldYouLikeAnother
+もう　1ぽん　どうだ？
+@@Route39_Text_GotMilk
+{PLAYER}は\nモーモーミルクを　てにいれた
+@@Route39_Text_FarmerMMilking
+さて　ちちしぼりに\nいくだ
+@@Route39_Text_FarmerFInTrouble
+うちの　ミルクは　カントーにも\nでてるのよ\pだから　ミルタンクが　ミルクを\nださないと　こまるのよ
+@@Route39_Text_FarmerFHealedMiltank
+ミルタンクを　なおして\nくれたのね\lまた　モーモーミルクを\lだすように　なったわ\pおれいに　これを\nどうぞ
+@@Route39_Text_FarmerFSnatchSpeech
+それは　よこどり\pあいてが　つかう　まえに\nわざを　よこどり　する\lずるい　わざよ\pふたり　いじょうが　よこどりを\nつかうと　いちばん　おそい\lポケモンだけが　よこどり\lできるの\pうまく　つかってね\nタイミングが　だいじよ
+## data/maps/Route39_Barn_hns/scripts.inc
+@@Route39_Text_BarnTwinMoomooIsSick
+モーモーが　びょうき‥\pオレンのみが\nたくさん　いるの
+@@Route39_Text_BarnTwinFeedingMoomoo
+モーモー　げんきに\nなった！　ありがとう！
+@@Route39_Text_MoomooWeakMoo
+ミルタンク『‥モー‥
+@@Route39_Text_BarnCryIsWeak
+なきごえに　げんきが　ない‥\nミルタンクに　オレンのみを\lあげますか？
+@@Route39_Text_MoomooHappyMoo
+ミルタンク『モーー！
+@@Route39_Text_BarnGaveBerry
+{PLAYER}は　ミルタンクに\nオレンのみを　あげた
+@@Route39_Text_BarnLittleHealthier
+ミルタンクが　すこし\nげんきに　なった！
+@@Route39_Text_BarnQuiteHealthy
+ミルタンクが　かなり\nげんきに　なった！
+@@Route39_Text_BarnTotallyHealthy
+ミルタンクが　すっかり\nげんきに　なった！
+@@Route39_Text_BarnNoBerries
+{PLAYER}は　オレンのみを\nもって　いない‥
+@@Route39_Text_BarnRefusedBerry
+{PLAYER}は　オレンのみを\nあげなかった\pミルタンクは\nかなしそうだ
+## data/maps/Route30_House_hns/scripts.inc
+@@Route30_BerryHouse_Text_MonEatBerries
+この　みちを　きたへ　すすむと\nポケモンじいさんの　いえが\lあるよ\pでも　その　まえに　きのみの\nことを　おしえて　あげよう！\pポケモンは　きのみを　たべると\nげんきに　なるんだ\pもたせて　おけば　たたかいの\nなかで　じぶんで　たべるよ\pヒワダタウンの　ガンテツさんは\nきのみから　ボールを\lつくって　くれる\pほら　ひとつ\nわけて　あげよう！
+@@Route30_BerryHouse_Text_CheckTrees
+きのみの　きを　しらべて　ごらん\nなんじかんか　すると\lまた　なるよ
+## data/maps/Route30_MrPokemonsHouse_hns/scripts.inc
+@@MrPokemonHouse_Text_Intro1
+やあ　やあ！　きみが\n{PLAYER}くん　だね\pウツギはかせから\nくると　きいて　いたよ
+@@MrPokemonHouse_Text_Intro2
+これを　ウツギはかせに\nしらべて　ほしいんだ
+@@MrPokemonHouse_Text_GotEgg
+{PLAYER}は\nふしぎな　タマゴを　もらった
+@@MrPokemonHouse_Text_Intro3
+しりあいの　ふうふが\nあずかりやを　やっていてね\pその　タマゴを\nもらったんだ\pきょうみが　わいたので\nウツギはかせに　メールを\lおくったんだよ\pポケモンの　しんかなら\nウツギはかせが　いちにんしゃ\lだからね
+@@MrPokemonHouse_Text_Intro4
+ここに　いる　オーキドはかせも\nみとめて　いるよ
+@@MrPokemonHouse_Text_Intro5
+わたしの　よそうが　ただしければ\nウツギはかせなら\lわかる　はずだ
+@@MrPokemonHouse_Text_Heal
+ウツギはかせの　ところへ\nもどるのかい？\pほら　ポケモンを\nやすませて　あげよう
+@@MrPokemonHouse_Text_DependingOnYou
+たのんだよ！
+@@MrPokemonHouse_Text_AlwaysNewDiscoveries
+じんせいは　たのしい！\nいつも　あたらしい\lはっけんが　あるからね
+@@MrPokemonHouse_Text_OakIntro
+オーキド『ほう！　きみが\n{PLAYER}くんか！\pわしは　オーキド！\nポケモンの　けんきゅうしゃじゃ\pふるい　ともだちの\nポケモンじいさんを\lたずねて　きたのじゃ\pウツギくんの　つかいで　くると\nきいて　まって　いたのじゃよ\pおや！　これは\nめずらしい　ポケモン！\pどれどれ‥\nふむ　なるほど！\pウツギくんが　つかいに\nポケモンを　もたせた\lわけが　わかったぞ\pウツギくんや　わしの　ような\nけんきゅうしゃに　とって\lポケモンは　ともだちじゃ\pきみなら　ポケモンを　だいじに\nすると　おもったのじゃろう\p‥そうじゃ！\pきみは　たのもしそうじゃ\nわしを　てつだって\lくれんか？\pほれ　これが　さいしんばんの\nポケモンずかんじゃ\pみたり　つかまえたり　した\nポケモンの　データを\lじどうで　きろく　する\pハイテクな　ずかんじゃ！\pすみか　しんかの　しかた\nわざも　わかるぞ
+@@MrPokemonHouse_Text_GetDex
+{PLAYER}は\nポケモンずかんを　もらった！
+@@MrPokemonHouse_Text_OakParting
+いろんな　ポケモンに　あって\nずかんを　かんせい\lさせて　おくれ！\pおっと　ながいを\nしてしまった\pいつもの　ラジオばんぐみで\nコガネへ　いかねば\p{PLAYER}くん\nたのんだぞ！
+@@MrPokemonHouse_Text_GimmeTheScale
+む？　その　ウロコ！\nそれは　なんだい？\lあかい　ギャラドス？\pめずらしい！\nほ　ほしい‥\p{PLAYER}くん\nこうかん　して　くれないか？\pオーキドはかせに　もらった\nがくしゅうそうちを\lあげるよ
+@@MrPokemonHouse_Text_Disappointed
+ざんねんだ\nとても　めずらしい\lものなのに
+@@MrPokemonHouse_Text_ExpShare
+きみに　とくべつな\nものも　あるんだ
+@@MrPokemonHouse_Text_ForeignMagazines
+がいこくの　ざっしが\nぎっしり　つまっている\pタイトルも\nよめない‥
+@@MrPokemonHouse_Text_BrokenComputer
+おおきな　コンピューターだ\nうーん　こわれている
+@@MrPokemonHouse_Text_StrangeCoins
+ふしぎな　コインが\nやまもり！\pがいこくの　もの\nかもしれない‥
+@@MrPokemonHouse_Text_GotExpShare
+{PLAYER}は\nがくしゅうそうちを　もらった！
+## data/maps/Route32_PokemonCenter_hns/scripts.inc
+@@Route32_Pokecenter_Text_FishingGuruQuestion
+ここは　いい　つりばだ\pつりを　してる　ひとを\nみたかい？　きみは　どうだ？\pわしの　つりざおを\nひとつ　やろうか？
+@@Route32_Pokecenter_Text_FishingGuruYes
+へへ　そう　こなくちゃ\pこれで　きみも\nつりびとだ！
+@@Route32_Pokecenter_Text_FishingGuruGiveRod
+つりは　いいぞ！\pうみでも　かわでも　みずが\nあったら　つりざおを\lつかって　みな
+@@Route32_Pokecenter_Text_FishingGuruNo
+そうか‥　ざんねんだ‥
+@@Route32_Pokecenter_Text_FishingGuruAfter
+よう　ぼうず\nつれてるか？
+@@Route32_Pokecenter_Text_CooltrainerF
+ポケモンに　なにを\nもたせようかな？\pこうげきりょくが　あがる\nどうぐ　とか‥
+## data/maps/RuinsOfAlph_Lab_hns/scripts.inc
+@@RuinsOfAlph_Lab_Text_Scientist1
+いせきは　およそ　1500ねん\nまえの　もの\pでも　なぜ　だれが\nつくったのかは\lわかって　いないんだ
+@@RuinsOfAlph_Lab_Text_Scientist2
+いせきの　かべには　ふしぎな\nもようが　かいてある\pあれが　いせきの　なぞを\nとく　かぎに　ちがいない
+@@RuinsOfAlph_Lab_Text_Fossils
+いせきで　みつかった\nかせき\lまだ　どこかに\lあるかも‥
+@@RuinsOfAlph_Lab_Text_DeviceForTalkingToPokemon
+ポケモンと　はなす　そうちを\nかいはつ　しているんだ\pでも　なかなか\nうまく　いかなくて‥
+@@RuinsOfAlph_Lab_Text_DevelopingNewBalls
+あたらしい　モンスターボールを\nかいはつ　しているけど‥\pなかなか　すすまないんだ‥
+@@RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls
+ついに　あたらしい\nボールが　できたぞ！\pリピートボールは　まえに\nつかまえた　ことの　ある\lポケモンを　つかまえやすい\pタイマーボールは　たたかいが\nながいほど　つかまえやすく\lなる\pどちらも　デボン\nコーポレーションの　じしんさく！\pぜひ　つかって　みて！
+@@RuinsOfAlph_Lab_Text_IMadePokenav
+ポケナビを　つくったのは\nぼくだ！\pぎじゅつしゃ　として\nこんな　すごい　ものを\lつくれて　しあわせだ！
+@@RuinsOfAlph_Lab_Text_WowThatsAPokenav
+おお！\nそれは　ポケナビ！\pポケモンの　きもちを　しりたい\nという　しゃちょうの\lおもいから　うまれたんだ\pきのうを　くわしく\nせつめい　しようか？\pいや　つかって　みれば\nわかるよ
+@@RuinsOfAlph_Lab_Text_DeviceToVisualizePokemonDreams
+ポケモンの　ゆめを　えいぞうに\nする　そうちを　かいはつ\lしているんだ‥\pでも　うまく　いかない
+@@RuinsOfAlph_Lab_Text_DevelopDeviceToResurrectFossils
+かせきから　ポケモンを\nふっかつ　させる　そうちを\lかいはつ　していたんだ‥\pそして　せいこう　した！
+@@RuinsOfAlph_Lab_Text_WantToBringFossilBackToLife
+まって！　きみが\nもってる　それ‥\lポケモンの　かせきかい？\pその　ポケモンを\nふっかつ　させたくないか？\pぼくが　かいはつ　した\nかせきさいせいきで\lできるよ
+@@RuinsOfAlph_Lab_Text_OhIsThatSo
+あら　そうかい？\pぼくの　ぎじゅつは\nずばぬけて　いるのにな
+@@RuinsOfAlph_Lab_Text_OhIsThatSo2
+おや　その　かせきは\nもって　いないね\lみつけたら　また　おいで
+@@RuinsOfAlph_Lab_Text_TwoFossilsPickOne
+おお　これは　おどろいた！\nかせきを　いくつも\lもってるのかい？\pざんねんだけど　この　きかいは\nいちどに　1ぴき　しか\lふっかつ　できない\pどの　かせきを\nふっかつ　させる？
+@@RuinsOfAlph_Lab_Text_HandedFossilToResearcher
+よし！\nさっそく　やろう\p{PLAYER}は　{STR_VAR_1}を\nけんきゅういんに　わたした
+@@RuinsOfAlph_Lab_Text_FossilRegeneratorTakesTime
+ぼくの　かせきさいせいきは\nすばらしい\pでも　ひとつ　けってんが\nあって　じかんが\lかかるんだ\pだから‥　しばらく　そのへんを\nさんぽ　して　きたら\lどうかな？
+@@RuinsOfAlph_Lab_Text_FossilizedMonBroughtBackToLife
+おまたせ！\pかせきの　ポケモンが\nふっかつ　したよ！\pかせきは　こだいの　ポケモン\n{STR_VAR_2}　だった！
+@@RuinsOfAlph_Lab_Text_ReceivedMonFromResearcher
+{PLAYER}は　けんきゅういんから\n{STR_VAR_2}を　うけとった
+@@RuinsOfAlph_Lab_Text_TooManyPokemon
+おっと　ポケモンが\nいっぱいだね\lこの　こを　いれる\lばしょが　ないよ
+@@RuinsOfAlph_Lab_Text_DevelopNewPokenavFeature
+ポケナビの　あたらしい　きのうを\nかいはつ　してるんだけど‥\pうまく　いかない
+@@RuinsOfAlph_Lab_Text_WhatToWorkOnNext
+さて　つぎは　なにを\nかいはつ　しようかな\pうちの　かいしゃは　ひらめきを\nかたちに　させて　くれる\pぎじゅつしゃに　とって\nこれ　いじょうの\lかんきょうは　ないよ
+## data/maps/Route34_DayCare_hns/scripts.inc
+@@Route34_DayCare_Text_Bookshelf1
+ベビィポケモン　だいずかん！\pだい1かん　とくせいの　すべて
+@@Route34_DayCare_Text_Bookshelf2
+ベビィポケモン　だいずかん！\pだい2かん　よくある　タイプ
+@@Route34_DayCare_Text_Bookshelf3
+ベビィポケモン　だいずかん！\pだい3かん　ベビィの　なきごえ
+@@Route34_DayCare_Text_Bookshelf4
+ベビィポケモン　だいずかん！\pだい4かん　かわいい　しぐさ
+@@Route34_DayCare_Text_ClerkBefore
+ぼくは　あずかりやの\nふうふの　むすこです\pトレーナーの　ポケモンと\nいっしょに　へんな　タマゴが\lみつかったけど　いらないって‥\pきみに　あげたいけど‥\nだいじに　して　くれるか\lどうやって　わかる　かな？
+@@Route34_DayCare_Text_ClerkNoRoom
+どっちみち　もう　ポケモンを\nもてない　みたいだね
+@@Route34_DayCare_Text_ClerkQuestion
+しつもんに　こたえて\nこの　へんなタマゴを\lどう　おもう？
+@@Route34_DayCare_Text_Rejection
+うーん　この　タマゴは\nきみ　むけ　じゃないね\pベビィポケモンに　くわしく\nない　ひとに　こんな\lだいじな　タマゴを　わたすのは\lむせきにん　だからね！
+@@Route34_DayCare_Text_ReceivedOddEgg
+{PLAYER}は\nへんなタマゴを　もらった
+@@Route34_DayCare_Text_TakeCare
+きみなら　まかせられると\nおもってたよ\lだいじに　してね！
+@@Route34_DayCare_Text_ClerkAfter
+ここでは　タマゴを\nよく　みかけるけど\pあの　タマゴは\nなにか　ちがったな
+@@Route34_DayCare_Text_Ditto
+メタモン『メタッ！
+@@Route34_DayCare_Text_ClosedForChallenge
+ごめんね　てもち　せいげんの\nちょうせん　ちゅうは\lポケモンを　あずかれないんだ！
+@@Route34_Text_SeeWifeIfYoudLikeMeToRaiseMon
+わしは　あずかりやの\nじいさん\pトレーナーの　だいじな\nポケモンを　あずかって\lそだてて　おる\pポケモンを　あずけたい\nなら　ばあさんに\lはなしかけて　おくれ
+@@Route34_Text_DoYouWantEgg
+おお　きみか！\pあずかった　ポケモンを\nそだてて　いたら\lなんと　おどろいた！\pポケモンが　タマゴを\nもって　いたんじゃ！\pどこから　きたのか\nわからんが　たしかに\lもって　おった\pほしい　じゃろう？
+@@Route34_Text_YourMonIsDoingFine
+おお　きみか！　よく　きたな\n{STR_VAR_1}は　げんき　じゃよ
+@@Route34_Text_IllKeepIt
+そうか　では\nわしが　もらって　おこう\lありがとう！
+@@Route34_Text_YouHaveNoRoomForIt
+もてない　ようじゃな‥\nあけてから　また　おいで
+@@Route34_Text_ReceivedEgg
+{PLAYER}は　あずかりやの\nじいさんから　タマゴを\lもらった
+@@Route34_Text_TakeGoodCareOfIt
+だいじに　するんじゃぞ
+@@Route34_Text_FriendlyWithOtherTrainersMon
+ところで　きみの　{STR_VAR_1}\n{STR_VAR_2}の　{STR_VAR_3}と\lなかよく　して　おったぞ\pメールを　もらって　いる\nところも　みたかも　しれん
+@@Route34_Text_SeeWifeIfYouWantToPickUpMon
+ポケモンを　ひきとる　なら\nばあさんに　はなしかけて\lおくれ
+@@Route34_Text_YourMonsAreDoingFine
+おお　きみか！　{STR_VAR_1}も\n{STR_VAR_2}も　げんき　じゃよ
+@@Route34_Text_IWillKeepDoYouWantIt
+ほんとうに　もらって\nしまうぞ　ほしいじゃろう？
+@@Route34_DayCare_Text_WouldYouLikeUsToRaiseAMon
+わたしは　あずかりやの\nばあさんよ\pポケモンを　そだてて\nあげられるわ\pあずけて　みる？
+@@Route34_DayCare_Text_WhichMonShouldWeRaise
+どの　ポケモンを\nそだてる？
+@@Route34_DayCare_Text_WellRaiseYourMon
+はい　{STR_VAR_1}を\nしばらく　あずかるわね\pあとで　むかえに\nきてね
+@@Route34_DayCare_Text_WeCanRaiseOneMore
+ポケモンは　2ひきまで\nあずかれるわ\lもう　1ぴき　あずける？
+@@Route34_DayCare_Text_HusbandWasLookingForYou
+じいさんが　あなたを\nさがして　いたわよ
+@@Route34_DayCare_Text_FineThenComeAgain
+そう　じゃあ\nまた　きてね
+@@Route34_DayCare_Text_NotEnoughMoney
+おかねが　たりないわね‥
+@@Route34_DayCare_Text_TakeOtherOneBackToo
+もう　1ぴきも\nひきとる？
+@@Route34_DayCare_Text_ComeAgain
+そう\nまた　きてね
+@@Route34_DayCare_Text_GoodToSeeYou
+あら　あなた！　よく　きたわね\nポケモンは　すくすく\lそだってるわよ！
+@@Route34_DayCare_Text_YourMonHasGrownXLevels
+{STR_VAR_1}は　レベルが\n{STR_VAR_2}　あがったわ
+@@Route34_DayCare_Text_YourTeamIsFull
+てもちが　いっぱいね\nあけてから　また　きてね
+@@Route34_DayCare_Text_TakeBackWhichMon
+どの　ポケモンを\nひきとる？
+@@Route34_DayCare_Text_ItWillCostX
+{STR_VAR_1}を　ひきとるなら\n{STR_VAR_2}円　いただくわ
+@@Route34_DayCare_Text_HeresYourMon
+はい！\nポケモンを　かえすわね
+@@Route34_DayCare_Text_TookBackMon
+{PLAYER}は　あずかりやの\nばあさんから　{STR_VAR_1}を\lひきとった
+@@Route34_DayCare_Text_YouHaveJustOneMon
+あら？　ポケモンが\n1ぴき　しか　いないわね\pまた　こんど\nきてね
+@@Route34_DayCare_Text_TakeYourMonBack
+ポケモンを　ひきとる？
+@@Route34_DayCare_Text_WhatWillYouBattleWith
+その　ポケモンを　あずけたら\nなにで　たたかうの？\pまた　こんど\nきてね
+@@Route34_DayCare_Text_YoullBeLeftWithJustOne
+あら？\nまあ　まあ\pその　ポケモンを　あずけたら\n1ぴきに　なっちゃうわよ\pもっと　つかまえて　きた\nほうが　いいと　おもうわ
+## data/maps/Route28_House_hns/scripts.inc
+@@Route28House_Text_Celebrity1
+あら　みつかっちゃった\pわたしの　ことは\nだれにも　いわないで\pないしょに　して　くれる\nおれいに　これを　あげる\lおねがい？
+@@Route28House_Text_Celebrity2
+トップスターも　らくじゃ\nないの\pどこへ　いっても\nおいかけられて\pそっと　して\nおいて　ほしいのに‥
+@@Route28House_Text_Fearow
+オニドリル『ドリィー！
+## data/maps/SafariZoneGate_PokemonCenter_hns/scripts.inc
+@@SafariZoneGate_PokemonCenter_Text_NPC1
+ポケモンセンターに　くる　ひとは\nポケモンを　だいじに　する\lひとが　おおい\pそう　おもわない？
+@@SafariZoneGate_PokemonCenter_Text_NPC2
+やまを　ながく　あるいて\nたおれそうな　ときに\lポケモンセンターを\lみつけると‥\pまるで　てんごくに\nいる　きぶんだよ！
+@@SafariZoneGate_PokemonCenter_Text_SafariSong
+サファリ　サファリ　たのしいな\nサファリ　サファリ　おもしろい\pポケモン　いっぱい\nまってるよ！\p‥ぼくが　つくった　うた\nサファリゾーンで　うたうんだ
+## data/maps/SafariZoneGate_SafariZoneEntrance_hns/scripts.inc
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaBeachDone
+ありがとう　{PLAYER}くん！\nこの　おかねで　サファリレベルを\lあげて　つぎは　しげみ\lエリアの　めずらしい\lポケモンを　みせて！
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaBrushDone
+ありがとう　{PLAYER}くん！\nこの　おかねで　サファリレベルを\lあげて　つぎは　やま\lエリアの　めずらしい\lポケモンを　みせて！
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaMountainDone
+ありがとう　{PLAYER}くん！\nこの　おかねで　サファリレベルを\lあげて　つぎは　どうくつ\lエリアの　めずらしい\lポケモンを　みせて！
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaCaveDone
+ありがとう　{PLAYER}くん！\nこれで　ぜんぶだ\pデボンの　ねらいが　わかったから\nうちの　サファリも　まけずに\lやって　いける\lおれいに　これを　どうぞ
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaWrong
+それは　ちがう　だろう！
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaBeach
+やあ　{PLAYER}くん！\pセキチクの　サファリゾーンの\nはまべ　エリアの　めずらしい\lポケモンを　みせに\lきて　くれたかい？
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaBrush
+やあ　{PLAYER}くん！\pセキチクの　サファリゾーンの\nしげみ　エリアの　めずらしい\lポケモンを　みせに\lきて　くれたかい？
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaMountain
+やあ　{PLAYER}くん！\pセキチクの　サファリゾーンの\nやま　エリアの　めずらしい\lポケモンを　みせに\lきて　くれたかい？
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaCave
+やあ　{PLAYER}くん！\pセキチクの　サファリゾーンの\nどうくつ　エリアの　めずらしい\lポケモンを　みせに\lきて　くれたかい？
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaDeclined
+どうしよう？\nこれじゃ　デボンに\lおいつけない！
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaLastMon
+さいごの　ポケモンは\nもらえないよ！
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaDone
+やあ　{PLAYER}くん！\pきみの　おかげで　サファリゾーンは\nだいはんじょうだ！\pきみを　サファリゾーンの\nオーナーに　しようかな‥\pいや　それは　ないか\nあはははは
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaWelcome
+やあ　{PLAYER}くん！\nまって　いたよ\lどうだい？\pここは　できた　ばかりの\nサファリゾーン　なんだ‥\pまだまだ　ひろがるよ！\pいまは　2つの　エリアが　ひらいて\nあと　4つ　つくって　いる！\pサファリゾーンを　たのしんで！\nほかの　エリアが　できたら\lでんわ　するよ！
+@@SafariZoneGate_SafariZoneEntrance_Text_BaobaPokeblocks
+おっと！\nわすれる　ところだった\pポロックは　うちの　サファリゾーン\nに　かかせないから\lこれを　もって　いって！
+@@SafariZoneGate_SafariZoneEntrance_Text_Baoba
+やあ　{PLAYER}くん！\pサファリゾーンは\nたのしんでるかい？
+@@SafariZoneGate_SafariZoneEntrance_Text_Boy
+ポロックおきばって\nしってる？\pポロックを　おくと　かくれ\nとくせいの　ポケモンが\lでて　くるんだ！\pポロックの　しゅるいで\nポケモンの　せいかくも\lかわるよ\pしかも　ポロック　しだいで\nこたいちが　さいこうの\lポケモンが　よってくる！\pかべの　ひょうに\nくわしく　かいて　あるよ
