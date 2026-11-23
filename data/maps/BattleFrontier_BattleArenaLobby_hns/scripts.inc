@@ -454,12 +454,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules_hns:
 	.string "みっつめの　はんていは\nからだ　しょうぶの　おわりに\lHPが　どれだけ\lのこったかで　きまります\pしょうぶの　はじめと\nおわりの　HPを　くらべて\lはんてい　します$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon_hns:
-	.string "A victory snatched from the ARENA\n"
-	.string "TYCOON, and a seven-TRAINER sweep!\p"
-	.string "We congratulate you on your most\n"
-	.string "splendid challenge!$"
+	.string "アリーナキャプテンから　しょうりを\nうばい　7にん　かちぬき！\pみごとな　ちょうせん\nおめでとう　ございます！$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints_hns:
-	.string "My dear challenger, in recognition of\n"
-	.string "your indefatigable spirit, please\l"
-	.string "accept these Battle Point(s).$"
+	.string "ちょうせんしゃよ　その\nふくつの　とうしを　たたえ\lバトルポイントを\lおうけとり　ください$"

@@ -453,42 +453,31 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer_hns:
 	step_end
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection_hns:
-	.string "First, we will hold your POKéMON for\n"
-	.string "safekeeping.\p"
-	.string "You may then choose from our\n"
-	.string "selection of POKéMON.$"
+	.string "まず　あなたの　ポケモンを\nおあずかり　します\pそれから　こちらの　ポケモンから\nえらんで　ください$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons_hns:
-	.string "Thank you for competing!\n"
-	.string "Let us restore your POKéMON!$"
+	.string "おつかれさま　でした！\nポケモンを　かいふく\lします！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent_hns:
-	.string "The 2nd match is next!\n"
-	.string "Are you ready?$"
+	.string "つぎは　2せんめ！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent_hns:
-	.string "The 3rd match is next!\n"
-	.string "Are you ready?$"
+	.string "つぎは　3せんめ！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent_hns:
-	.string "The 4th match is next!\n"
-	.string "Are you ready?$"
+	.string "つぎは　4せんめ！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent_hns:
-	.string "The 5th match is next!\n"
-	.string "Are you ready?$"
+	.string "つぎは　5せんめ！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent_hns:
-	.string "The 6th match is next!\n"
-	.string "Are you ready?$"
+	.string "つぎは　6せんめ！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent_hns:
-	.string "Finally, the 7th match is next!\n"
-	.string "Are you ready?$"
+	.string "いよいよ　つぎは　7せんめ！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame_hns:
-	.string "Would you like to save and quit\n"
-	.string "the game?$"
+	.string "レポートを　かいて\nゲームを　おわりますか？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge_hns:
 	.string "Would you like to retire from your\n"

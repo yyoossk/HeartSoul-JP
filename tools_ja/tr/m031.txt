@@ -1,0 +1,167 @@
+## data/maps/BattleFrontier_BattleArenaLobby_hns/scripts.inc
+@@BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon_hns
+アリーナキャプテンから　しょうりを\nうばい　7にん　かちぬき！\pみごとな　ちょうせん\nおめでとう　ございます！
+@@BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints_hns
+ちょうせんしゃよ　その\nふくつの　とうしを　たたえ\lバトルポイントを\lおうけとり　ください
+## data/maps/BattleFrontier_BattleArenaCorridor_hns/scripts.inc
+@@BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn_hns
+しょうぶは　となりの\nへやで　おこないます\lどうぞ　おすすみ　ください！
+## data/maps/BattleFrontier_BattleArenaBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward_hns
+しんぱん『トレーナー　{PLAYER}！\nまえへ！
+@@BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward_hns
+しんぱん『トレーナー　{STR_VAR_1}！\nまえへ！
+@@BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin_hns
+しんぱん『3たいけつ\nはじめ！
+@@BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer_hns
+しんぱん『しょうしゃ　{PLAYER}！
+@@BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent_hns
+しんぱん『しょうしゃ　{STR_VAR_1}！
+@@BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored_hns
+ポケモンを　かいふく\nいたします
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent_hns
+つぎは　2にんめの　あいて！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent_hns
+つぎは　3にんめの　あいて！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent_hns
+つぎは　4にんめの　あいて！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent_hns
+つぎは　5にんめの　あいて！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent_hns
+つぎは　6にんめの　あいて！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent_hns
+つぎは　7にんめの　あいて！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown_hns
+レポートを　かいて\nゲームを　おわりますか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge_hns
+3たいけつトーナメントの\nちょうせんを　リタイア\lしますか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait_hns
+レポートを　かいて　います\nおまち　ください
+@@BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle_hns
+さいごの　しょうぶを\nフロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon_hns
+ちょうせんしゃよ！\pその　うでまえ　まことに\nみごと！\pわれらが　リーダー\nアリーナキャプテンと\lたたかって　いただきます！
+@@BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon_hns
+アリーナキャプテンとの\nしょうぶ！\lかくごは　いいですか？
+@@BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta_hns
+しんぱん『アリーナキャプテン！\nコゴミの　にゅうじょう！
+@@BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger_hns
+コゴミ『やあ！\nこんにちは！\p‥まって　あなたが\nちょうせんしゃ？
+@@BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight_hns
+そうなの？　ふーん‥\nふむふむ‥
+@@BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy_hns
+なんて　いうか‥\nはっきり　いって\lよわそうに　みえる\lほんとに　だいじょうぶ？\pふーん‥\pまあ　いいわ！\nさいしょは　かるく\lいこう！
+@@BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle_hns
+よし！　わたしの　とうしに\nひを　つけて　みせて！
+@@BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll_hns
+コゴミ『いたた　ちょっと　まって！\nやっぱり　つよいじゃない！\pきにいった！\nフロンティアパスを　みせて
+@@BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol_hns
+フロンティアパスに\nガッツシンボルが\lきざまれた！
+@@BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime_hns
+ふーん‥\pつぎは　たのしく　なりそう！\nたのしみに　してるね！
+@@BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain_hns
+コゴミ『やあ！　こんにちは！\nやっと　かちあがって\lきたのね！\pまちくたびれて\nしんぱい　しちゃった！\lまた　あえるのを\lたのしみに　してたんだ！
+@@BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady_hns
+‥　‥　‥\nじゃあ　じゅんびは　いい？
+@@BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort_hns
+てかげんは　ゆるさないよ！\nぼこぼこに　される\lかくごを　して！
+@@BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted_hns
+しんぱん！\nはじめて！
+@@BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway_hns
+コゴミ『がーっ！　ふっとばされた！\nフロンティアパスを　みせて！
+@@BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine_hns
+ガッツシンボルが\nきんいろに　かがやいた！
+@@BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose_hns
+あーっ！\nくやしい！\pつぎ　たたかったら　まけない！\nわすれないでよ！　バイバイ！
+## data/maps/BattleFrontier_BattleFactoryLobby_hns/scripts.inc
+@@BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle_hns
+トレーナーの　ちしきが\nためされる　ばしょ！\pバトルファクトリーへ\nようこそ！\pわたしは　シングルの\nこうかんバトルの\lあんないがかり　です
+@@BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge_hns
+シングルの　こうかんバトルに\nちょうせん　しますか？
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge_hns
+シングルの　こうかんバトルは\nレンタルポケモン　だけで\lたたかう　シングルバトル\lです\pまず　この　ための　ポケモンを\n3びき　おかしします\pその　レンタルポケモンで\nシングルバトルを　します\pかったら　レンタルポケモンを\n1ぴき　こうかん　できます\pたたかいと　こうかんを\nくりかえし　7れんしょう\lすると　バトルポイントが\lもらえます\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかないと　しっかく\nと　なります
+@@BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit_hns
+また　の　おこしを\nおまち　して　おります
+@@BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode_hns
+どちらに　ちょうせん\nしますか？\lレベル50か　オープンレベルか
+@@BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge_hns
+はじめる　まえに　レポートを\nかきます　よろしいですか？
+@@BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping_hns
+では　ちょうせん　ちゅうは\nあなたの　ポケモンを\lおあずかり　します
+@@BattleFrontier_BattleFactoryLobby_Text_StepThisWay_hns
+こちらへ　どうぞ
+@@BattleFrontier_BattleFactoryLobby_Text_ReturnMons_hnsSaveResults_hns
+さんか　ありがとう\nございました！\pレンタルポケモンと　ひきかえに\nあなたの　ポケモンを\lおかえし　します\pけっかも　レポート\nします　おまち　ください
+@@BattleFrontier_BattleFactoryLobby_Text_ReturnMons_hns
+レンタルポケモンと　ひきかえに\nあなたの　ポケモンを\lおかえし　します
+@@BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins_hns
+おめでとう　ございます！\nこうかんバトル　7れんしょう\lです！
+@@BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints_hnsForStreak_hns
+7れんしょうを　たたえ\nバトルポイントを\lさしあげます
+@@BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints_hns
+おや　おや　おや！\pバトルポイントが\nいっぱい　です\pバトルポイントを\nつかってから　また\lおこし　ください
+@@BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume_hns
+おまち　して　おりました！\pちょうせんを　さいかい\nする　まえに　レポートを\lかきます
+@@BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting_hns
+ざんねん　ですが　まえかい\nレポートを　かかずに\lやめましたね\pその　ため　ちょうせんは\nしっかく　です
+@@BattleFrontier_BattleFactoryLobby_Text_WellReturnMons_hns
+あなたの　ポケモンを\nおかえし　します
+@@BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem_hns
+{PLAYER}は　しょうひんの\n{STR_VAR_1}を　もらった
+@@BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle_hns
+トレーナーの　ちしきが\nためされる　ばしょ！\pバトルファクトリーへ\nようこそ！\pわたしは　ダブルの\nこうかんバトルの\lあんないがかり　です
+@@BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge_hns
+ダブルの　こうかんバトルに\nちょうせん　しますか？
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge_hns
+ダブルの　こうかんバトルは\nレンタルポケモン　だけで\lたたかう　ダブルバトル\lです\pまず　この　ための　ポケモンを\n3びき　おかしします\pその　レンタルポケモンで\nダブルバトルを　します\pかったら　レンタルポケモンを\n1ぴき　こうかん　できます\pたたかいと　こうかんを\nくりかえし　7れんしょう\lすると　バトルポイントが\lもらえます\pちゅうだん　する　ときは\nレポートを　かいて　ください\pかかずに　ちゅうだん　すると\nしっかく　と　なります
+@@BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead_hns
+ファクトリーヘッドを　たおし\n7れんしょう！\lおめでとう　ございます！
+@@BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints_hns
+その　ゆたかな　ちしきと\nするどい　ちせいを　たたえ\lバトルポイントを\lさしあげます
+@@BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave_hns
+レンタルポケモンと　あなたの\nポケモンを　こうかん　します\pバトルデータを　レポート\nするので　おまち　ください
+@@BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch_hns
+さいごの　バトルファクトリーの\nしょうぶを　フロンティアパスに\lきろく　しますか？
+@@BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves_hns
+やあ！\nきみ！\pそだてた　ポケモンが　いらない\nから　ここは　かんたんだと\lおもってないか？\pそう　かんたんには\nかてないぞ\pポケモンと　わざの　ちしきが\nないと　かちつづけるのは\lむずかしいよ
+@@BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon_hns
+よわい　ポケモンと\nこうかん　しちゃった‥\lいいと　おもったのに‥\pこてんぱんに　された‥
+@@BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons_hns
+ぜんぜん　うまく\nいかないなあ\pたたかい　ちゅうに　あいての\nポケモンが　いいか　どうか\lよく　みないと　だめだね
+@@BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints_hns
+ここの　かかりいんが　つぎの\nあいての　ヒントを　くれる\lだろ？\pいい　おとな　なのに\nその　ヒントが\lよく　わからないんだ
+@@BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried_hns
+あたし　つよいけど　すぐ\nあきるから　こうかんと\lしょうぶを　なんども\lくりかえしてたの\pそしたら　レンタルポケモンが\nいろいろ　かわるって\lきづいたの
+@@BattleFrontier_BattleFactoryLobby_Text_RulesAreListed_hns
+こうかんバトルの　ルールが\nかいてある
+@@BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading_hns
+どの　こうもくを\nよみますか？
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules_hns
+こうかんバトルで　つかえる\nポケモンは　3びき　だけ\pレンタルでも　こうかんでも\nおなじ　ポケモンを　2ひき\lいじょう　いれられません
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules_hns
+こうかん　できるのは\nいま　たおした　トレーナー\lだけ　です\pその　トレーナーが　つかった\nポケモン　だけと　こうかん\lできます
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules_hns
+しょうぶに　かつ　たびに\nたおした　あいての　ポケモンと\l1ぴき　こうかん　できます\p7にんめの　トレーナーとは\nこうかん　できません
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules_hns
+こうかんで　きを　つける\nことが　2つ　あります\pひとつめ　もらう　ポケモンの\nのうりょくは　みられません\pふたつめ　チームの　ポケモンは\nかりた　じゅんに\lならんで　います\pこうかん　しても　この\nじゅんばんは　かわりません
+@@BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules_hns
+オープンレベルでは　レンタル\nポケモンも　あいての\lポケモンも　みな\lレベル100　です
+## data/maps/BattleFrontier_BattleFactoryPreBattleRoom_hns/scripts.inc
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection_hns
+まず　あなたの　ポケモンを\nおあずかり　します\pそれから　こちらの　ポケモンから\nえらんで　ください
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons_hns
+おつかれさま　でした！\nポケモンを　かいふく\lします！
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent_hns
+つぎは　2せんめ！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent_hns
+つぎは　3せんめ！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent_hns
+つぎは　4せんめ！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent_hns
+つぎは　5せんめ！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent_hns
+つぎは　6せんめ！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent_hns
+いよいよ　つぎは　7せんめ！\nじゅんびは　いいですか？
+@@BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame_hns
+レポートを　かいて\nゲームを　おわりますか？

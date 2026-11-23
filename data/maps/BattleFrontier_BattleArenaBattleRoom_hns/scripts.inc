@@ -484,146 +484,100 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter_hns:
 	step_end
 
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward_hns:
-	.string "REFEREE: TRAINER {PLAYER}!\n"
-	.string "Step forward, please!$"
+	.string "しんぱん『トレーナー　{PLAYER}！\nまえへ！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward_hns:
-	.string "REFEREE: TRAINER {STR_VAR_1}!\n"
-	.string "Step forward, please!$"
+	.string "しんぱん『トレーナー　{STR_VAR_1}！\nまえへ！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin_hns:
-	.string "REFEREE: Set KO Tourney!\n"
-	.string "Begin!$"
+	.string "しんぱん『3たいけつ\nはじめ！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer_hns:
-	.string "REFEREE: The winner is {PLAYER}!$"
+	.string "しんぱん『しょうしゃ　{PLAYER}！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent_hns:
-	.string "REFEREE: The winner is {STR_VAR_1}!$"
+	.string "しんぱん『しょうしゃ　{STR_VAR_1}！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored_hns:
-	.string "Your POKéMON will be restored to\n"
-	.string "full health.$"
+	.string "ポケモンを　かいふく\nいたします$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent_hns:
-	.string "Next up, your second opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　2にんめの　あいて！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent_hns:
-	.string "Next up, your third opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　3にんめの　あいて！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent_hns:
-	.string "Next up, your fourth opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　4にんめの　あいて！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent_hns:
-	.string "Next up, your fifth opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　5にんめの　あいて！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent_hns:
-	.string "Next up, your sixth opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　6にんめの　あいて！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent_hns:
-	.string "Next up, your seventh opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "つぎは　7にんめの　あいて！\nじゅんびは　いいですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown_hns:
-	.string "Would you like to save the game and\n"
-	.string "shut down now?$"
+	.string "レポートを　かいて\nゲームを　おわりますか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge_hns:
-	.string "Would you like to retire from your\n"
-	.string "Set KO Tourney challenge?$"
+	.string "3たいけつトーナメントの\nちょうせんを　リタイア\lしますか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait_hns:
-	.string "I am saving your game data.\n"
-	.string "Please wait.$"
+	.string "レポートを　かいて　います\nおまち　ください$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle_hns:
-	.string "Would you like to record your last\n"
-	.string "battle on your FRONTIER PASS?$"
+	.string "さいごの　しょうぶを\nフロンティアパスに\lきろく　しますか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon_hns:
-	.string "My dear challenger!\p"
-	.string "Your skill level is truly astounding!\p"
-	.string "We now would like you to face our\n"
-	.string "leader, the ARENA TYCOON!$"
+	.string "ちょうせんしゃよ！\pその　うでまえ　まことに\nみごと！\pわれらが　リーダー\nアリーナキャプテンと\lたたかって　いただきます！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon_hns:
-	.string "A battle with the ARENA TYCOON!\n"
-	.string "Are you prepared?$"
+	.string "アリーナキャプテンとの\nしょうぶ！\lかくごは　いいですか？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta_hns:
-	.string "REFEREE: The ARENA TYCOON!\n"
-	.string "Make way for GRETA!$"
+	.string "しんぱん『アリーナキャプテン！\nコゴミの　にゅうじょう！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger_hns:
-	.string "GRETA: Hey!\n"
-	.string "Howdy!\p"
-	.string "…Wait, are you the challenger?$"
+	.string "コゴミ『やあ！\nこんにちは！\p‥まって　あなたが\nちょうせんしゃ？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight_hns:
-	.string "Is that right? Hmm…\n"
-	.string "Hmhm…$"
+	.string "そうなの？　ふーん‥\nふむふむ‥$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy_hns:
-	.string "I don't know how to say it, but…\n"
-	.string "To put it bluntly, you look pretty weak.\l"
-	.string "Are you sure you're up for me?\p"
-	.string "Hmm…\p"
-	.string "Well, all right!\n"
-	.string "We'll take things easy to start with!$"
+	.string "なんて　いうか‥\nはっきり　いって\lよわそうに　みえる\lほんとに　だいじょうぶ？\pふーん‥\pまあ　いいわ！\nさいしょは　かるく\lいこう！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle_hns:
-	.string "Okay! Let's see you ignite my passion\n"
-	.string "for battle!$"
+	.string "よし！　わたしの　とうしに\nひを　つけて　みせて！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll_hns:
-	.string "GRETA: Ow, wait a second!\n"
-	.string "You are tough after all!\p"
-	.string "I like you!\n"
-	.string "Let's see your FRONTIER PASS.$"
+	.string "コゴミ『いたた　ちょっと　まって！\nやっぱり　つよいじゃない！\pきにいった！\nフロンティアパスを　みせて$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol_hns:
-	.string "The Guts Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "フロンティアパスに\nガッツシンボルが\lきざまれた！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime_hns:
-	.string "Hmm…\p"
-	.string "It's going to be fun the next time!\n"
-	.string "I'm looking forward to it!$"
+	.string "ふーん‥\pつぎは　たのしく　なりそう！\nたのしみに　してるね！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain_hns:
-	.string "GRETA: Hey! Howdy!\n"
-	.string "You finally won your way up to me!\p"
-	.string "I was getting worried waiting for you!\n"
-	.string "I was really looking forward to seeing\l"
-	.string "you again!$"
+	.string "コゴミ『やあ！　こんにちは！\nやっと　かちあがって\lきたのね！\pまちくたびれて\nしんぱい　しちゃった！\lまた　あえるのを\lたのしみに　してたんだ！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady_hns:
-	.string "… … …\n"
-	.string "So, are you ready?$"
+	.string "‥　‥　‥\nじゃあ　じゅんびは　いい？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort_hns:
-	.string "I won't allow a halfhearted effort!\n"
-	.string "Be ready for a thrashing!$"
+	.string "てかげんは　ゆるさないよ！\nぼこぼこに　される\lかくごを　して！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted_hns:
-	.string "Come on, REFEREE!\n"
-	.string "Let's get this started!$"
+	.string "しんぱん！\nはじめて！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway_hns:
-	.string "GRETA: Gaaah! Blown away!\n"
-	.string "Let's see your FRONTIER PASS!$"
+	.string "コゴミ『がーっ！　ふっとばされた！\nフロンティアパスを　みせて！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine_hns:
-	.string "The Guts Symbol took on\n"
-	.string "a golden shine!$"
+	.string "ガッツシンボルが\nきんいろに　かがやいた！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose_hns:
-	.string "Arrrgh!\n"
-	.string "This is so infuriating!\p"
-	.string "If we ever battle again, I won't lose!\n"
-	.string "Don't you forget it! Bye-bye!$"
+	.string "あーっ！\nくやしい！\pつぎ　たたかったら　まけない！\nわすれないでよ！　バイバイ！$"
