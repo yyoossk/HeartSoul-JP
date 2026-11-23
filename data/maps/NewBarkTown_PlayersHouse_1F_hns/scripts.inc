@@ -166,7 +166,7 @@ NewBarkTown_PlayersHouse_1F_Text_EnableSaving:
 	.string "かせいだ　おかねを\nすこし　ちょきん　しておく？$"
 
 NewBarkTown_PlayersHouse_1F_Text_SavingEnabled:
-	.string "わかったわ！　しょうぶで\nかせいだ　おかねの　25％を\lちょきん　しておくわね$"
+	.string "わかったわ！　しょうぶで\nかせいだ　おかねの　4ぶんの1を\lちょきん　しておくわね$"
 
 NewBarkTown_PlayersHouse_1F_Text_DisableSaving:
 	.string "ちょきんを　やめる？$"
