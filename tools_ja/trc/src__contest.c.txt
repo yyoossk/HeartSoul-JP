@@ -1,0 +1,96 @@
+@@0
+つうしんたいきちゅう！
+@@1
+{STR_VAR_1}ばんめの　アピール！\nどの　わざに　する？
+@@2
+{STR_VAR_1}ばんめの　アピール！\nでも　さんか　できない！
+@@3
+{STR_VAR_1}の\n{STR_VAR_2}！
+@@4
+{STR_VAR_1}は　ようすを\nみて　いる{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@5
+アピールの　じかんが\nおわりました！{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@6
+しんさいんが　{STR_VAR_1}に\nきたい　している{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@7
+コンボが　きまった！{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@8
+コンボが　うまく\nきまった！{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@9
+コンボが　ばっちり\nきまった！{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@10
+{STR_VAR_1}は　きんちょう\nして　うごけない{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@11
+でも　ちょうしは\nあがらなかった…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@12
+ちょうしが　わるくて\nアピールが　よわく　なった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@13
+{STR_VAR_1}には\nきかなかった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@14
+{STR_VAR_1}は　おなじ　アピールで\nがっかり　させた{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@15
+{STR_VAR_1}の　{STR_VAR_3}が\nだいうけ！{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@16
+{STR_VAR_1}の　{STR_VAR_3}は\nいまいち…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@17
+{STR_VAR_1}の　{STR_VAR_3}で\nかいじょうが　もりあがった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@18
+{STR_VAR_1}は　つぎの　ターン\nアピール　できない…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@19
+かんきゃくの　ちゅうもくを\nあつめた{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@20
+かんきゃくは　まだ\n{STR_VAR_3}に　むちゅう{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@21
+{STR_VAR_1}の\n{STR_VAR_2}は　むし　された{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@22
+かっこよさ
+@@23
+かっこよさ
+@@24
+かっこいい　わざ
+@@25
+はずかしさ
+@@26
+うつくしさ
+@@27
+うつくしさ
+@@28
+うつくしい　わざ
+@@29
+ふあん
+@@30
+かわいさ
+@@31
+かわいさ
+@@32
+かわいい　わざ
+@@33
+なまけ
+@@34
+かしこさ
+@@35
+かしこさ
+@@36
+かしこい　わざ
+@@37
+ためらい
+@@38
+たくましさ
+@@39
+たくましさ
+@@40
+たくましい　わざ
+@@41
+おそれ
+@@43
+{STR_VAR_1}は　まったく\nめだたなかった…{PAUSE_UNTIL_PRESS}
+@@44
+{STR_VAR_1}は　あまり\nめだたなかった…{PAUSE_UNTIL_PRESS}
+@@45
+{STR_VAR_1}は　すこし\nちゅうもく　された{PAUSE_UNTIL_PRESS}
+@@46
+{STR_VAR_1}は　かなり\nちゅうもく　された{PAUSE_UNTIL_PRESS}
+@@47
+{STR_VAR_1}は　かいじょうの\nちゅうもくを　ひとりじめ{PAUSE_UNTIL_PRESS}
+@@48
+{STR_VAR_1}は　まだ\nアピール　して　いない{PAUSE_UNTIL_PRESS}

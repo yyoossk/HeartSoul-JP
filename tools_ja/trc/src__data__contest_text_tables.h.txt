@@ -1,0 +1,116 @@
+@@0
+ほかの　ポケモンを\nきに　する　ように　なった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@1
+{STR_VAR_1}は　このあと\nアピール　できない{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@2
+すこし　おちついた{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@3
+ほかの　ポケモンが\nきに　ならなく　なった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@4
+ほかの　ポケモンを\nあまり　きに　しなく　なった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@5
+ほかの　ポケモンを\nきに　しなく　なった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@6
+ほかの　ポケモンを\nおどろかせようと　した{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@7
+ほかの　ポケモンを\nまどわせようと　した{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@8
+しんさいんが　{STR_VAR_1}から\nめを　そらした{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@9
+つぎの　ポケモンを\nきんちょう　させようと　した{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@10
+{STR_VAR_1}は\nきんちょう　した{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@11
+まって　いる　ポケモンを\nきんちょう　させようと　した{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@12
+ちょうしの　いい　ポケモンを\nちょうはつ　した{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@13
+{STR_VAR_1}は\nちょうしを　とりもどした{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@14
+ちょうしの　いい　ポケモンの\nじゃまを　しようと　した{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@15
+めだつ　{STR_VAR_1}が\nさらに　はりきった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@16
+めだたない　{STR_VAR_1}が\nがんばった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@17
+まえの　ポケモンと\nおなじ　くらい　がんばった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@18
+{STR_VAR_1}の　アピールは\nうまく　いかなかった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@19
+まえの　ポケモンと\nおなじ　くらい　がんばった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@20
+{STR_VAR_1}の　アピールは\nうまく　いかなかった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@21
+{STR_VAR_1}の　アピールは\nうまく　いかなかった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@22
+{STR_VAR_1}の　アピールは\nすこし　うまく　いった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@23
+{STR_VAR_1}の　アピールは\nかなり　うまく　いった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@24
+{STR_VAR_1}の　アピールは\nばっちり　きまった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@25
+{STR_VAR_1}の　アピールは\nだいしっぱい{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@26
+{STR_VAR_1}の　アピールは\nあまり　うまく　いかなかった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@27
+{STR_VAR_1}の　アピールは\nすこし　うまく　いった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@28
+{STR_VAR_1}の　アピールは\nかなり　うまく　いった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@29
+{STR_VAR_1}の　アピールは\nとても　うまく　いった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@30
+{STR_VAR_1}の　アピールは\nばっちり　きまった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@31
+まえの　ポケモンと　おなじ\nタイプ　いいかんじ！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@32
+まえの　ポケモンと　ちがう\nタイプ　いいかんじ！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@33
+まえの　ポケモンより\nずっと　めだった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@34
+まえの　ポケモンほど\nうまく　いかなかった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@35
+{STR_VAR_1}の　ちょうしが\nいつもより　あがった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@36
+{STR_VAR_1}は　ちょうしが　よくて\nすごい　アピールに　なった！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@37
+つぎの　アピールの\nじゅんばんが　まえに　なった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@38
+つぎの　アピールの\nじゅんばんが　うしろに　なった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@39
+つぎの　ターンの\nじゅんばんが　いれかわった{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}
+@@40
+{STR_VAR_1}は　なんとか\nめを　そらした{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@41
+{STR_VAR_1}は　なんとか\nみないで　すんだ{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@42
+{STR_VAR_1}は　そんな　ことでは\nどうじない{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@43
+{STR_VAR_1}は　すこし\nきが　ちった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@44
+ほかの　ポケモンを\nおどろかせようと　した{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@45
+{STR_VAR_1}は　きが　ちって\nしたを　むいた{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@46
+{STR_VAR_1}は　きが　ちって\nふりかえった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@47
+{STR_VAR_1}は　おもわず\nこえを　あげた{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@48
+{STR_VAR_1}は　おもわず\nとびあがった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@49
+{STR_VAR_1}は　きが　ちって\nつまずいた{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@50
+でも　しっぱい　した{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@51
+でも　あいてを　きんちょう\nさせられなかった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@52
+でも　だれも　きんちょう\nさせられなかった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@53
+でも　むし　された…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@54
+でも　ちょうしは\nあがらなかった…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@55
+ちょうしが　わるくて\nアピールが　よわく　なった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@56
+{STR_VAR_1}には\nきかなかった{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
+@@57
+かんきゃくの　ちゅうもくを\nあつめた{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}
