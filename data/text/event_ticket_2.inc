@@ -35,16 +35,10 @@ FarawayIsland_Entrance_Text_SailorReturn:
 	.string "ハギじいさんは　ほんとうに\n"
 	.string "きまぐれで　こまるよ‥\p"
 	.string "アサギに　もどりますか？$"
-#else
-	.string "Do you want to return to LILYCOVE?$"
-#endif
 
 BirthIsland_Harbor_Text_SailorReturn:
 	.string "へんな　かたちの　しま　だね\n"
 	.string "アサギに　もどりますか？$"
-#else
-	.string "Do you want to return to LILYCOVE?$"
-#endif
 
 EventTicket_Text_OddTicketsWhereTo:
 	.string "Is it you who brought those\n"

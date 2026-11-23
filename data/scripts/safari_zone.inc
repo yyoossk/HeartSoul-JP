@@ -201,9 +201,6 @@ Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "また　きて　ください\p"
 	.string "{POKEBLOCK}ケースは　あそこの\n"
 	.string "おとこのこから　もらえますよ$"
-#else
-	.string "the LILYCOVE CONTEST HALL.$"
-#endif
 
 SafariZone_South_Text_StillHaveTimeExit:
 	.string "まだ　じかんが　のこっています\nもう　サファリゾーンから　でますか？$"
