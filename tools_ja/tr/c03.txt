@@ -1,0 +1,254 @@
+## data/text/pokedex_rating.inc
+@@gBirchDexRatingText_LessThan20
+こつが　わかって　きた\nようだね　でも　ここからが\lむずかしいぞ
+@@gBirchDexRatingText_LessThan30
+とくていの　ばしょに　しか\nでない　ポケモンも　いる\lねばりづよく　さがそう
+@@gBirchDexRatingText_LessThan40
+かずは　まだまだ　だけど\nずかんらしく　なって\lきたね
+@@gBirchDexRatingText_LessThan50
+なかなか　いい　ちょうしだ\nこの　ちょうしで\lがんばって
+@@gBirchDexRatingText_LessThan60
+つりざおは　つかってる？\nうみには　ポケモンが\lたくさん　いるよ
+@@gBirchDexRatingText_LessThan70
+つかまえる　だけじゃなく\nしんかも　させて\lみたら　どうだい？
+@@gBirchDexRatingText_LessThan80
+すばらしい　ずかんに\nなりそうだ\lそんな　きが　するよ
+@@gBirchDexRatingText_LessThan90
+こんなに　あつめた　とは‥\nすごい　さいのうだ！
+@@gBirchDexRatingText_LessThan100
+サファリゾーンには　いった？\pそこでしか　つかまえられない\nポケモンも　いるらしいよ
+@@gBirchDexRatingText_LessThan110
+ついに　100しゅるいを\nこえたね\pりっぱな　ずかんだ！
+@@gBirchDexRatingText_LessThan120
+いわくだきで　みつかる\nポケモンも　いるかも\lしれないよ
+@@gBirchDexRatingText_LessThan130
+ほかの　ひとと　こうかん\nして　もっと　ポケモンを\lあつめよう
+@@gBirchDexRatingText_LessThan140
+トレーナーに　こころから\nなつくと　しんかする\lポケモンが　いるらしい
+@@gBirchDexRatingText_LessThan150
+ホウエンちほうに　こんなに\nたくさんの　ポケモンが\lいたなんて　しらなかったよ
+@@gBirchDexRatingText_LessThan160
+ときどき　ポケモンが\nおおはっせい　する\lことが　ある\pそういう　チャンスは\nのがさないようにね
+@@gBirchDexRatingText_LessThan170
+きみの　ずかんを　みれば\nホウエンちほうの　ポケモンが\lよく　わかるよ
+@@gBirchDexRatingText_LessThan180
+きみは　もう　りっぱな\nポケモンはかせ　だと\lいっても　いいね！
+@@gBirchDexRatingText_LessThan190
+ここまで　そろった\nずかんとは　まさに\lプロの　しごとだね！
+@@gBirchDexRatingText_LessThan200
+ずかん　かんせいまで\nあと　すこしだ\lほねの　ずいまで　かんじるよ！
+@@gBirchDexRatingText_DexCompleted
+おめでとう！\nずかんが　かんせい　したね！
+@@gBirchDexRatingText_OnANationwideBasis
+ふむふむ‥\nぜんこくで　みると‥\pみつけた　ポケモンが\n{STR_VAR_1}ひき\lつかまえた　ポケモンが\l{STR_VAR_2}ひき　だね‥
+@@gElmDexRatingText_GoFindMrPokemon
+ウツギ『おお　{PLAYER}{KUN}！\pポケモンじいさんの　いえは\nもう　みつけた？\p30ばんどうろに　あるから\nすぐ　わかるよ！
+@@gElmDexRatingText_Robbery
+ウツギ『{PLAYER}{KUN}！\pすぐ　もどって　きて！\nたいへんな　ことが\lおきたんだ！
+@@gElmDexRatingText_AreYouCurious
+ウツギ『おお　{PLAYER}{KUN}！\pずかんの　ようすが\nきに　なるのかい？
+@@gElmDexRatingText_AreYouCuriousNational
+ウツギ『おお　{PLAYER}{KUN}！\pぜんこくずかんの　ようすが\nきに　なるのかい？
+@@gJohtoDexRatingText_LessThan10
+くさむらで　ポケモンを\nさがして　ごらん！
+@@gJohtoDexRatingText_LessThan20
+よしよし　ボールの　つかいかたは\nわかった　ようだね
+@@gJohtoDexRatingText_LessThan35
+なかなか　うまく　なったけど\nまだまだ　さきは　ながいよ
+@@gJohtoDexRatingText_LessThan50
+うん　いい　ペースで\nつかまえて　いるね！
+@@gJohtoDexRatingText_LessThan65
+がんばって　いるのが\nわかるよ　ずかんも\lかたちに　なって　きた
+@@gJohtoDexRatingText_LessThan80
+よく　そだてて　いるね\nバトル　だけでは　しんか\pしない　ポケモンも　いるのは\nしってる　よね？
+@@gJohtoDexRatingText_LessThan95
+つりざおは　もってる？\nつりで　しか　みつからない\pポケモンも　いるんだよ！
+@@gJohtoDexRatingText_LessThan110
+すばらしい！　きみは\nあつめるのが　とくい\lみたいだね！
+@@gJohtoDexRatingText_LessThan125
+きまった　じかんに　しか\nでて　こない　ポケモンも\lいるんだ
+@@gJohtoDexRatingText_LessThan140
+ずかんが　どんどん\nうまって　きたね\lこの　ちょうしで！
+@@gJohtoDexRatingText_LessThan155
+かんしん　したよ\nつかまえる　だけじゃなく\pしんかも　させて　いるんだね
+@@gJohtoDexRatingText_LessThan170
+ガンテツさんの　つくる\nとくせいボールを　うまく\pつかえば　もっと　うまく\nポケモンを　つかまえられるよ！
+@@gJohtoDexRatingText_LessThan185
+ポケモンを　こうかん　すると\nじょうほうも　こうかん　できる\pともだちは　ほんとうに\nたよりに　なるよ！
+@@gJohtoDexRatingText_LessThan200
+ポケモンの　こうかんは　してる？\nひとりで　あつめるのは\lたいへん　だからね！
+@@gJohtoDexRatingText_LessThan215
+すごい！　200しゅるいに\nとどいたね！\lすばらしい　ずかんだ！
+@@gJohtoDexRatingText_LessThan230
+きみの　じつりょくは　よく\nわかった　なにも\lしんぱい　ないよ\pこれまで　どおり　ポケモンを\nつかまえて　いこう
+@@gJohtoDexRatingText_LessThan245
+ずかんは　かんせいに\nむかって　じゅんちょう　だね\pこの　ずかんは　きみの\nぼうけんの　にっき　とも\lいえるね
+@@gJohtoDexRatingText_LessThan260
+こんなに　たくさんの\nポケモンを　みつけたんだ！\lぼくの　けんきゅうも\lおおいに　たすかったよ！
+@@gJohtoDexRatingText_LessThan275
+みごとだ！　きみは　いつか\nりっぱな　ポケモンはかせに\pなれる　さいのうが　あるよ！
+@@gJohtoDexRatingText_LessThanMaxDex
+すごい　ずかんだ！\nもう　プロに　なれるよ！
+@@gJohtoDexRatingText_Complete
+わあ！\nジョウトずかんが　かんせい\lして　いる！\p{PLAYER}の　おかげで\nジョウトずかんが\lかんせい　したよ！\pすごい‥\nほんとうに　よく　やったね！
+@@gNationalDexRatingText_LessThan100
+ゴールは　まだ　とおいけど\nあきらめないで！\lこの　ちょうしで！
+@@gNationalDexRatingText_LessThan150
+きまった　じかんに　しか\nでない　ポケモンも　いるのを\lわすれないでね！
+@@gNationalDexRatingText_LessThan200
+いわを　くだくと　かくれていた\nポケモンが　とびだして\pくる　ことが　あるよ！
+@@gNationalDexRatingText_LessThan250
+こんなに　たくさんの\nポケモンを　あつめられた\lなんて　すばらしい！\pみちは　まだ　ながい\nこの　ちょうしで　がんばって！
+@@gNationalDexRatingText_LessThan300
+きに　ずつきを　すると\nポケモンが　おちて　くる\lことが　あるよ！
+@@gNationalDexRatingText_LessThan350
+ジョウトちほうに　いない\nポケモンの　おおくは\pサファリゾーンに　あつまって\nいるんだ
+@@gNationalDexRatingText_LessThan400
+せかいじゅうに　めずらしい\nポケモンが　いる　かくれた\pばしょが　あるんだ　ぜんぶ\nさがして　みよう！
+@@gNationalDexRatingText_LessThan435
+わあ　ここまで\nきたんだね‥！\lじつは　ちょっと　びっくり！
+@@gNationalDexRatingText_LessThan465
+ここが　ふんばりどころ！\nくじけちゃ　だめだよ！
+@@gNationalDexRatingText_LessThan475
+あと　すこし！\nきみには　おおいに\lきたい　してるよ！
+@@gNationalDexRatingText_LessThanMaxDex
+こんなに　すごい　トレーナーは\nいままで　みたこと　ないよ！
+@@gNationalDexRatingText_Complete
+すばらしい！　みごとな\nぜんこくずかんだ！\pすごい‥{PAUSE 10}\pきみは　ぼくの　きたいに\nみごとに　こたえて　くれた！\pいや　それいじょうだ　{PLAYER}\nきみは　すごい　トレーナーに\lなったね！\pありがとう　{PLAYER}！
+## data/text/pokemon_news.inc
+@@gPokeNewsTextSlateport_Upcoming
+こんにちは！\nポケモンニュースの　じかんです\pカイナの　にんきもの\nハッスルおやじが　また\lニュースに　なって　います！\p「あと　{STR_VAR_1}にちで\nめちゃくちゃ　がんばる！」\lとの　こと　です\pなにを　がんばるのかは\nおしえて　くれませんでしたが\l「おかねを　ためて　おくと\lいいよ‥」との　こと\pその　ひは　カイナに　いくと\nよさそう　ですね\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextSlateport_Ongoing
+こんにちは！\nポケモンニュースの　じかんです\pみなさん　おまちかねの\nニュースです！\pカイナの　ハッスルおやじが\nいちばで　めちゃくちゃ\lがんばって　います！\pリゾチウムと　タウリンが\nとっても　おやすい\lそうです！\pカイナシティへ　いって\nおもいきり　かいものを\lしては　いかが？\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextSlateport_Ending
+こんにちは！\nポケモンニュースの　じかんです\pみなさん　おまちかねの\nニュースです！\pカイナの　ハッスルおやじが\nいちばで　めちゃくちゃ\lがんばって　います！\pリゾチウムと　タウリンが\nとっても　おやすい\lそうです！\pハッスルおやじに　よると\nしょうひんは　まだ\lたっぷり　あるとの　こと\pカイナシティへ　たのしい\nかいものに　いっては\lいかが？\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextGameCorner_Upcoming
+こんにちは！\nポケモンニュースの　じかんです\pちかづいて　きました！\nいよいよ　です！\pゲームコーナーの　サービスデーが\nあと　{STR_VAR_1}にちで　やって\lきます！\pいつも　ついて　いない　ひとも\nこの　ひは　ついて　いる\lかも？\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextGameCorner_Ongoing
+こんにちは！\nポケモンニュースの　じかんです\pきました！\nついに　きました！\pゲームコーナーの　サービスデー\nです！\pスロットや　ルーレットで\nついて　いるかも？\pばしょは　キンセツシティ！\nここ　ですよ！\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextGameCorner_Ending
+こんにちは！\nポケモンニュースの　じかんです\pきました！\nついに　きました！\pゲームコーナーの　サービスデー\nです！\pスロットや　ルーレットで\nついて　いるかも？\pじかんは　もう　わずか！\nばしょは　キンセツシティ　です\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextLilycove_Upcoming
+こんにちは！\nポケモンニュースの　じかんです\pミナモデパートから\nすてきな　ニュースが\lとどきました\pデパートの　ばくやすセールが\nあと　{STR_VAR_1}にちで　はじまります！\pずっと　ほしかった　あれや\nこれが　てに　はいるかも！\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextLilycove_Ongoing
+こんにちは！\nポケモンニュースの　じかんです\pみなさん　おまちかねの\nニュースです！\pミナモデパートの\nばくやすセールが\lついに　はじまりました！\pゆめに　まで　みた\nあれや　これや‥\pうんめいの　であいが\nあるかも　しれません！\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextLilycove_Ending
+こんにちは！\nポケモンニュースの　じかんです\pみなさん　おまちかねの\nニュースです！\pミナモデパートの\nばくやすセールが\lついに　はじまりました！\pゆめに　まで　みた\nあれや　これや‥\pうんめいの　であいが\nあるかも　しれません！\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextBlendMaster_Upcoming
+こんにちは！\nポケモンニュースの　じかんです\p{POKEBLOCK}を　つくる　みなさんに\nビッグニュース　です\pでんせつの　ブレンドマスターが\nあと　{STR_VAR_1}にちで\lミナモシティに　あらわれます！\pブレンドマスターは　きのみ\nブレンダーの　うでまえが\lホウエン　いちと　いわれて\lいます\pすごい　{POKEBLOCK}を　つくりたい\nひと　マスターの　わざを\lみたい　ひとは　きのみを\lためて　おきましょう\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextBlendMaster_Ongoing
+こんにちは！\nポケモンニュースの　じかんです\p{POKEBLOCK}を　つくる　みなさんに\nビッグニュース　です\pでんせつの　ブレンドマスターが\nついに　あらわれました！\pブレンドマスターは　ミナモの\nコンテストかいじょうで　きのみ\lブレンダーを　まわして　います\pすごい　{POKEBLOCK}を　つくりたい\nひと　マスターの　わざを\lみたい　ひとは　いそいで\lミナモへ！\pいじょう　ポケモンニュース\nでした
+@@gPokeNewsTextBlendMaster_Ending
+こんにちは！\nポケモンニュースの　じかんです\pすごい！\nすごすぎます！\pきのみブレンダーが\nめが　まわる　ほどの\lはやさで　まわって　います！\pブレンドマスターは\nうわさ　どおりの　うでまえ\lでした！\pブレンドマスターは　まもなく\nミナモを　さります\pまだ　マスターの　わざを\nみて　いない　ひとは\lいますぐ　ミナモへ！\pいじょう　ポケモンニュース\nでした
+## data/scripts/secret_base.inc
+@@SecretBase_Text_TreeCanBeClimbed
+つるが　おりて　くれば\nこの　きに　のぼれそうだ
+@@SecretBase_Text_TreeUseSecretPower
+つるが　おりて　くれば\nこの　きに　のぼれそうだ\pひみつのちからを\nつかいますか？
+@@SecretBase_Text_VineDroppedDown
+ふとい　つるが\nおりて　きた！
+@@SecretBase_Text_ClumpOfGrass
+この　くさを　どかせば\nなかに　はいれそうだ
+@@SecretBase_Text_ClumpUseSecretPower
+この　くさを　どかせば\nなかに　はいれそうだ\pひみつのちからを\nつかいますか？
+@@SecretBase_Text_DiscoveredSmallEntrance
+ちいさな　いりぐちを\nみつけた！
+@@SecretBase_Text_AllDecorationsWillBeReturned
+ひみつきちの　もようがえグッズは\nすべて　パソコンに\lもどります\pよろしい　ですか？
+@@SecretBase_Text_WantToRegisterSecretBase
+{STR_VAR_1}の　ひみつきちを\nとうろく　しますか？
+@@SecretBase_Text_AlreadyRegisteredDelete
+すでに　とうろく　されて\nいます　けしますか？
+@@SecretBase_Text_TooManyBasesDeleteSome
+とうろく　できるのは\n10かしょ　までです\pほかの　ばしょを\nとうろく　するなら\lどれかを　けして　ください
+@@SecretBase_Text_RegistrationCompleted
+とうろく　しました
+@@SecretBase_Text_DataUnregistered
+とうろくを　けしました
+@@SecretBase_Text_BootUpPC
+{PLAYER}は\nパソコンの　スイッチを　いれた
+@@SecretBase_Text_WhatWouldYouLikeToDo
+なにを　しますか？
+@@SecretBase_Text_RegistryInfo
+とうろく　した　ひみつきちは\nあいての　トレーナーが\lひっこさない　かぎり\lきえません\pとうろくを　けすと\nほかの　ひみつきちに\lかわる　ことが　あります\pひみつきちは　10かしょ\nまで　とうろく　できます
+@@SecretBase_Text_BattleTowerShield
+バトルタワーで　{STR_VAR_1}かい\nれんしょう　した　あかしの\l{STR_VAR_2}の　たて
+@@SecretBase_Text_ToyTV
+ほんものそっくりの\nおもちゃの　テレビ\lまちがえて　しまいそうだ
+@@SecretBase_Text_SeedotTV
+タネボーの　かたちの\nおもちゃの　テレビ\lいまにも　ころがりそうだ‥
+@@SecretBase_Text_SkittyTV
+エネコの　かたちの\nおもちゃの　テレビ\lいまにも　あるきだしそうだ‥
+@@SecretBase_Text_WouldYouLikeToMoveBases
+ひみつきちは　ひとつしか\nつくれません\p{STR_VAR_1}の　ちかくの\nひみつきちから\lひっこし　しますか？
+@@SecretBase_Text_MovingCompletedUseSecretPower
+ひっこし　しました\pひみつのちからを\nつかいますか？
+## data/scripts/secret_power_tm.inc
+@@Route111_Text_MakingRoomUseTMToMakeYourOwn
+え？\nなにを　してるのかって？\pポケモンの　わざで　ここに\nじぶんの　へやを　つくろうと\lおもってるんだ\pそうだ！　この　わざマシンを\nあげるよ　きみも　じぶんの\lへやを　つくって　みたら？
+@@Route111_Text_ExplainSecretPower
+つるが　おりて　きそうな\nおおきな　きを　さがすんだ\pその　きの　まえで\nひみつのちからを　つかうと\lつるが　おりて　きて\lのぼれる　ように　なる\pすきな　ものを　おける\nひろい　ばしょが　あるよ\pじぶんだけの　ひみつの　へや‥\nひみつきち　だ！\pきみも　つくって　みなよ\pそれと　ひみつきちは\nきの　うえ　だけじゃない\pちいさな　くぼみの　ある\nいわかべにも　ひみつのちからを\lつかって　みて\pぼくも　ほかの　ばしょを\nさがして　みる　じゃあね！
+@@Route111_Text_DontWantThis
+あれ　いらないの？\nきが　かわったら　いってね
+@@Route111_Text_DontHaveAnyRoom
+あれ　もう　もてない\nみたいだね\pあずかって　おくから\nまた　とりに　きてね
+## data/scripts/shared_secret_base.inc
+@@SecretBase_Text_SmallIndentInWall
+かべに　ちいさな　くぼみが\nある
+@@SecretBase_Text_IndentUseSecretPower
+かべに　ちいさな　くぼみが\nある\pひみつのちからを\nつかいますか？
+@@SecretBase_Text_DiscoveredSmallCavern
+ちいさな　ほらあなを\nみつけた！
+@@SecretBase_Text_WantToMakeYourSecretBaseHere
+ここに　ひみつきちを\nつくりますか？
+## data/text/secret_base_trainers.inc
+@@SecretBase_Text_Trainer0Intro
+もう　ひみつきちは\nつくった？\pあちこち　まわってから\nここに　きめたんだ\pせっかく　きたんだから\nしょうぶ　しない？
+@@SecretBase_Text_Trainer0AcceptBattle
+よし！\nいくよ！
+@@SecretBase_Text_Trainer0DeclineBattle
+え？\nいまは　だめなの‥
+@@SecretBase_Text_Trainer0Defeated
+うわー！　つよすぎる！\nまけたことは‥　ないしょに\lしてね！
+@@SecretBase_Text_Trainer0PostBattle
+ぼくの　ひみつきち　どう？\nまた　あした　あそびに　きてね
+@@SecretBase_Text_Trainer0PreChampion
+もう　ひみつきちは\nつくった？\pあちこち　まわってから\nここに　きめたんだ\pゆっくり　して　いってね！
+@@SecretBase_Text_Trainer5Intro
+ひみつきちを　つくれる\nばしょは　たくさん　あるけど\pわたしは　ここが　いちばん\nすき　いい　ところ　でしょ？\pあ　しょうぶ　する？
+@@SecretBase_Text_Trainer5AcceptBattle
+よし　いくわよ！
+@@SecretBase_Text_Trainer5DeclineBattle
+そう‥\nいまは　だめなのね
+@@SecretBase_Text_Trainer5Defeated
+うーん‥　まけちゃった‥\nでも　だれにも　いわないで！\lひみつ　だからね！
+@@SecretBase_Text_Trainer5PostBattle
+また　この　あたりに\nきたら　よってね
+@@SecretBase_Text_Trainer5PreChampion
+ひみつきちを　つくれる\nばしょは　たくさん　あるけど\pわたしは　ここが　いちばん\nすき　いい　ところ　でしょ？
+@@SecretBase_Text_Trainer1Intro
+ここは　にんきの　ばしょで\nいつも　ふさがってるんだ\pあっ！　きみも　ここを\nねらってた？\pじゃあ　ぼくに　かったら\nここを　ゆずって　あげるよ
+@@SecretBase_Text_Trainer1AcceptBattle
+よし！\nひみつきちを　まもるぞ！
+@@SecretBase_Text_Trainer1DeclineBattle
+え？　そうなの？\nここには　きょうみ　ないの？
+@@SecretBase_Text_Trainer1Defeated
+もう　だめだ！\nこうさん！
+@@SecretBase_Text_Trainer1PostBattle
+わかった　いつか　ひっこしたら\nここは　きみの　ものだ！
+@@SecretBase_Text_Trainer1PreChampion
+ここは　にんきの　ばしょで\nいつも　ふさがってるんだ\pあくのを　ずっと　まってて\nやっと　つかえたんだ！
+@@SecretBase_Text_Trainer6Intro
+わたしの　ポケモンラボへ\nようこそ\pここで　ひそかに　バトルの\nけんきゅうを　しているの\pわたしの　つよさを\nためして　みる？
+@@SecretBase_Text_Trainer6AcceptBattle
+ぜんりょくで　いくわ！
+@@SecretBase_Text_Trainer6DeclineBattle
+あら\nじゃあ　また　こんどね！
+@@SecretBase_Text_Trainer6Defeated
+うーん‥　まだまだ　ね\nもっと　べんきょう　しなきゃ
+@@SecretBase_Text_Trainer6PostBattle
+しょうぶ　して　くれて\nありがとう　また　あしたも\lきてね
+@@SecretBase_Text_Trainer6PreChampion
+わたしの　ポケモンラボへ\nようこそ\pここで　ひそかに　バトルの\nけんきゅうを　しているの
+@@SecretBase_Text_Trainer2Intro
+おおきな　やしきも　いいけど\nこういう　ばしょの　ほうが\lすきなんだ\pいろんな　ひとが　あそびに\nきて　くれるからね\pそれで　しょうぶ　しない？

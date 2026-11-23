@@ -1,123 +1,77 @@
 SecretBase_Text_Trainer0Intro:
-	.string "Have you made a SECRET BASE already?\p"
-	.string "I went here, there, everywhere before\n"
-	.string "choosing this place.\p"
-	.string "Since you're already here, how would\n"
-	.string "you like to battle?$"
+	.string "もう　ひみつきちは\nつくった？\pあちこち　まわってから\nここに　きめたんだ\pせっかく　きたんだから\nしょうぶ　しない？$"
 
 SecretBase_Text_Trainer0AcceptBattle:
-	.string "Okay!\n"
-	.string "Here we come!$"
+	.string "よし！\nいくよ！$"
 
 SecretBase_Text_Trainer0DeclineBattle:
-	.string "Hunh?\n"
-	.string "Oh, you can't now…$"
+	.string "え？\nいまは　だめなの‥$"
 
 SecretBase_Text_Trainer0Defeated::
-	.string "Waaargh! You're too strong!\n"
-	.string "About me losing… Please keep it secret!$"
+	.string "うわー！　つよすぎる！\nまけたことは‥　ないしょに\lしてね！$"
 
 SecretBase_Text_Trainer0PostBattle:
-	.string "What do you think of my SECRET BASE?\n"
-	.string "Come visit me again tomorrow.$"
+	.string "ぼくの　ひみつきち　どう？\nまた　あした　あそびに　きてね$"
 
 SecretBase_Text_Trainer0PreChampion:
-	.string "Have you made a SECRET BASE already?\p"
-	.string "I went here, there, everywhere before\n"
-	.string "choosing this place.\p"
-	.string "Feel free to hang out!$"
+	.string "もう　ひみつきちは\nつくった？\pあちこち　まわってから\nここに　きめたんだ\pゆっくり　して　いってね！$"
 
 SecretBase_Text_Trainer5Intro:
-	.string "There're a lot of places where\n"
-	.string "you can make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?\p"
-	.string "Oh, would you like to have a battle?$"
+	.string "ひみつきちを　つくれる\nばしょは　たくさん　あるけど\pわたしは　ここが　いちばん\nすき　いい　ところ　でしょ？\pあ　しょうぶ　する？$"
 
 SecretBase_Text_Trainer5AcceptBattle:
-	.string "Okay, here goes!$"
+	.string "よし　いくわよ！$"
 
 SecretBase_Text_Trainer5DeclineBattle:
-	.string "Oh…\n"
-	.string "You can't now, okay.$"
+	.string "そう‥\nいまは　だめなのね$"
 
 SecretBase_Text_Trainer5Defeated::
-	.string "Hmmm… It's our loss…\n"
-	.string "But don't tell anyone!\l"
-	.string "It's a confidential secret!$"
+	.string "うーん‥　まけちゃった‥\nでも　だれにも　いわないで！\lひみつ　だからね！$"
 
 SecretBase_Text_Trainer5PostBattle:
-	.string "If you're in this area again,\n"
-	.string "I hope you'll visit me.$"
+	.string "また　この　あたりに\nきたら　よってね$"
 
 SecretBase_Text_Trainer5PreChampion:
-	.string "There're a lot of places where you can\n"
-	.string "make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?$"
+	.string "ひみつきちを　つくれる\nばしょは　たくさん　あるけど\pわたしは　ここが　いちばん\nすき　いい　ところ　でしょ？$"
 
 SecretBase_Text_Trainer1Intro:
-	.string "This is a popular spot.\n"
-	.string "It's always taken.\p"
-	.string "Oh! Were you thinking about\n"
-	.string "taking this spot, too?\p"
-	.string "I'll tell you what, you can have this\n"
-	.string "spot if you can beat me.$"
+	.string "ここは　にんきの　ばしょで\nいつも　ふさがってるんだ\pあっ！　きみも　ここを\nねらってた？\pじゃあ　ぼくに　かったら\nここを　ゆずって　あげるよ$"
 
 SecretBase_Text_Trainer1AcceptBattle:
-	.string "Okay!\n"
-	.string "I'm going to defend my SECRET BASE!$"
+	.string "よし！\nひみつきちを　まもるぞ！$"
 
 SecretBase_Text_Trainer1DeclineBattle:
-	.string "Hunh? Is that right?\n"
-	.string "You're not interested in this spot?$"
+	.string "え？　そうなの？\nここには　きょうみ　ないの？$"
 
 SecretBase_Text_Trainer1Defeated::
-	.string "I can't keep going!\n"
-	.string "I surrender!$"
+	.string "もう　だめだ！\nこうさん！$"
 
 SecretBase_Text_Trainer1PostBattle:
-	.string "Okay, when I move one day,\n"
-	.string "this place will be yours!$"
+	.string "わかった　いつか　ひっこしたら\nここは　きみの　ものだ！$"
 
 SecretBase_Text_Trainer1PreChampion:
-	.string "This is a popular spot.\n"
-	.string "It's always taken.\p"
-	.string "I waited a long time for it to open.\n"
-	.string "I finally got to use it!$"
+	.string "ここは　にんきの　ばしょで\nいつも　ふさがってるんだ\pあくのを　ずっと　まってて\nやっと　つかえたんだ！$"
 
 SecretBase_Text_Trainer6Intro:
-	.string "Welcome to my POKéMON LAB.\p"
-	.string "I carry out research on battling in\n"
-	.string "secrecy.\p"
-	.string "Would you like to see how strong I am?$"
+	.string "わたしの　ポケモンラボへ\nようこそ\pここで　ひそかに　バトルの\nけんきゅうを　しているの\pわたしの　つよさを\nためして　みる？$"
 
 SecretBase_Text_Trainer6AcceptBattle:
-	.string "I'm going to go all out!$"
+	.string "ぜんりょくで　いくわ！$"
 
 SecretBase_Text_Trainer6DeclineBattle:
-	.string "Oh.\n"
-	.string "Some other time, then!$"
+	.string "あら\nじゃあ　また　こんどね！$"
 
 SecretBase_Text_Trainer6Defeated::
-	.string "Hmm… I've still got lots to learn.\n"
-	.string "I have to study some more.$"
+	.string "うーん‥　まだまだ　ね\nもっと　べんきょう　しなきゃ$"
 
 SecretBase_Text_Trainer6PostBattle:
-	.string "Thanks for battling with me.\n"
-	.string "Please come back again tomorrow.$"
+	.string "しょうぶ　して　くれて\nありがとう　また　あしたも\lきてね$"
 
 SecretBase_Text_Trainer6PreChampion:
-	.string "Welcome to my POKéMON LAB.\p"
-	.string "I carry out research on battling in\n"
-	.string "secrecy.$"
+	.string "わたしの　ポケモンラボへ\nようこそ\pここで　ひそかに　バトルの\nけんきゅうを　しているの$"
 
 SecretBase_Text_Trainer2Intro:
-	.string "A big mansion is nice, but I like this\n"
-	.string "sort of place more.\p"
-	.string "I like it because all kinds of people\n"
-	.string "come visit me.\p"
-	.string "So, how would you like a battle?$"
+	.string "おおきな　やしきも　いいけど\nこういう　ばしょの　ほうが\lすきなんだ\pいろんな　ひとが　あそびに\nきて　くれるからね\pそれで　しょうぶ　しない？$"
 
 SecretBase_Text_Trainer2AcceptBattle:
 	.string "That's the way!$"

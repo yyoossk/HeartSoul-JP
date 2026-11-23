@@ -11,102 +11,67 @@ gBirchDexRatingText_LessThan10::
 	.string "くさむらに　もっと　はいって\nよく　さがして　ごらん$"
 
 gBirchDexRatingText_LessThan20::
-	.string "I guess you're getting the hang\n"
-	.string "of it. But, it gets harder from here.$"
+	.string "こつが　わかって　きた\nようだね　でも　ここからが\lむずかしいぞ$"
 
 gBirchDexRatingText_LessThan30::
-	.string "Some POKéMON only appear in\n"
-	.string "certain areas.\l"
-	.string "You must be persistent.$"
+	.string "とくていの　ばしょに　しか\nでない　ポケモンも　いる\lねばりづよく　さがそう$"
 
 gBirchDexRatingText_LessThan40::
-	.string "Well, it could use more quantity,\n"
-	.string "but this is looking more like\l"
-	.string "a POKéDEX now.$"
+	.string "かずは　まだまだ　だけど\nずかんらしく　なって\lきたね$"
 
 gBirchDexRatingText_LessThan50::
-	.string "This is coming along pretty good.\n"
-	.string "Keep up the effort.$"
+	.string "なかなか　いい　ちょうしだ\nこの　ちょうしで\lがんばって$"
 
 gBirchDexRatingText_LessThan60::
-	.string "Are you using any RODS?\n"
-	.string "There are many POKéMON in the sea.$"
+	.string "つりざおは　つかってる？\nうみには　ポケモンが\lたくさん　いるよ$"
 
 gBirchDexRatingText_LessThan70::
-	.string "Instead of just catching POKéMON,\n"
-	.string "how about making them evolve, too?$"
+	.string "つかまえる　だけじゃなく\nしんかも　させて\lみたら　どうだい？$"
 
 gBirchDexRatingText_LessThan80::
-	.string "This is going to be a fantastic\n"
-	.string "POKéDEX.\l"
-	.string "That's the feeling I'm getting.$"
+	.string "すばらしい　ずかんに\nなりそうだ\lそんな　きが　するよ$"
 
 gBirchDexRatingText_LessThan90::
-	.string "You've collected this many…\n"
-	.string "Your talent is remarkable!$"
+	.string "こんなに　あつめた　とは‥\nすごい　さいのうだ！$"
 
 gBirchDexRatingText_LessThan100::
-	.string "Have you visited the SAFARI ZONE?\p"
-	.string "I hear there are some POKéMON that\n"
-	.string "can only be caught there.$"
+	.string "サファリゾーンには　いった？\pそこでしか　つかまえられない\nポケモンも　いるらしいよ$"
 
 gBirchDexRatingText_LessThan110::
-	.string "You've finally reached\n"
-	.string "the 100-kind mark.\p"
-	.string "This is an impressive POKéDEX!$"
+	.string "ついに　100しゅるいを\nこえたね\pりっぱな　ずかんだ！$"
 
 gBirchDexRatingText_LessThan120::
-	.string "There might be POKéMON that can be\n"
-	.string "found using ROCK SMASH.$"
+	.string "いわくだきで　みつかる\nポケモンも　いるかも\lしれないよ$"
 
 gBirchDexRatingText_LessThan130::
-	.string "You should get some more POKéMON\n"
-	.string "by trading with others.$"
+	.string "ほかの　ひとと　こうかん\nして　もっと　ポケモンを\lあつめよう$"
 
 gBirchDexRatingText_LessThan140::
-	.string "I've heard of POKéMON that evolve\n"
-	.string "when they come to fully love their\l"
-	.string "TRAINERS.$"
+	.string "トレーナーに　こころから\nなつくと　しんかする\lポケモンが　いるらしい$"
 
 gBirchDexRatingText_LessThan150::
-	.string "I had no idea that there were so\n"
-	.string "many POKéMON species in the HOENN\l"
-	.string "region.$"
+	.string "ホウエンちほうに　こんなに\nたくさんの　ポケモンが\lいたなんて　しらなかったよ$"
 
 gBirchDexRatingText_LessThan160::
-	.string "On occasion, some POKéMON appear\n"
-	.string "in large numbers like outbreaks.\p"
-	.string "Don't miss opportunities like\n"
-	.string "those.$"
+	.string "ときどき　ポケモンが\nおおはっせい　する\lことが　ある\pそういう　チャンスは\nのがさないようにね$"
 
 gBirchDexRatingText_LessThan170::
-	.string "One can get a very good idea about\n"
-	.string "the POKéMON of the HOENN region\l"
-	.string "by looking through your POKéDEX.$"
+	.string "きみの　ずかんを　みれば\nホウエンちほうの　ポケモンが\lよく　わかるよ$"
 
 gBirchDexRatingText_LessThan180::
-	.string "I would say you already qualify as\n"
-	.string "a POKéMON PROFESSOR, and a good\l"
-	.string "one, too!$"
+	.string "きみは　もう　りっぱな\nポケモンはかせ　だと\lいっても　いいね！$"
 
 gBirchDexRatingText_LessThan190::
-	.string "With a POKéDEX this complete,\n"
-	.string "you're a real professional at this!$"
+	.string "ここまで　そろった\nずかんとは　まさに\lプロの　しごとだね！$"
 
 gBirchDexRatingText_LessThan200::
-	.string "You're very close to completing\n"
-	.string "this POKéDEX.\l"
-	.string "I can feel it in my bones!$"
+	.string "ずかん　かんせいまで\nあと　すこしだ\lほねの　ずいまで　かんじるよ！$"
 
 gBirchDexRatingText_DexCompleted::
-	.string "Congratulations!\n"
-	.string "Your POKéDEX is complete!$"
+	.string "おめでとう！\nずかんが　かんせい　したね！$"
 
 gBirchDexRatingText_OnANationwideBasis::
-	.string "Hmhm…\n"
-	.string "On a nationwide basis…\p"
-	.string "You've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+	.string "ふむふむ‥\nぜんこくで　みると‥\pみつけた　ポケモンが\n{STR_VAR_1}ひき\lつかまえた　ポケモンが\l{STR_VAR_2}ひき　だね‥$"
 
 @ FRLG
 
@@ -185,153 +150,99 @@ PokedexRating_Text_LoveSeeingYourPokedex::
 @ HnS (mostly directly copied from HGSS)
 
 gElmDexRatingText_GoFindMrPokemon::
-	.string "PROF. ELM: Ah, {PLAYER}{KUN}!\p"
-	.string "Have you found MR. POKéMON's\n"
-	.string "home yet? It is on ROUTE 30,\p"
-	.string "you can't miss it!$"
+	.string "ウツギ『おお　{PLAYER}{KUN}！\pポケモンじいさんの　いえは\nもう　みつけた？\p30ばんどうろに　あるから\nすぐ　わかるよ！$"
 
 gElmDexRatingText_Robbery::
-	.string "PROF. ELM: {PLAYER}{KUN}!\p"
-	.string "Get here quick! Something\n"
-	.string "awful has happened!$"
+	.string "ウツギ『{PLAYER}{KUN}！\pすぐ　もどって　きて！\nたいへんな　ことが\lおきたんだ！$"
 
 gElmDexRatingText_AreYouCurious::
-	.string "PROF. ELM: Ah, {PLAYER}{KUN}!\p"
-	.string "Are you curious about how your\n"
-	.string "POKéDEX is coming along?$"
+	.string "ウツギ『おお　{PLAYER}{KUN}！\pずかんの　ようすが\nきに　なるのかい？$"
 
 gElmDexRatingText_AreYouCuriousNational::
-	.string "PROF. ELM: Ah, {PLAYER}{KUN}!\p"
-	.string "Are you curious about how your\n"
-	.string "National POKéDEX is coming along?$"
+	.string "ウツギ『おお　{PLAYER}{KUN}！\pぜんこくずかんの　ようすが\nきに　なるのかい？$"
 
 gJohtoDexRatingText_LessThan10::
-	.string "Look for POKéMON in grassy areas!$"
+	.string "くさむらで　ポケモンを\nさがして　ごらん！$"
 
 gJohtoDexRatingText_LessThan20::
-	.string "Good. I see you understand how to\n"
-	.string "use Poké Balls.$"
+	.string "よしよし　ボールの　つかいかたは\nわかった　ようだね$"
 
 gJohtoDexRatingText_LessThan35::
-	.string "You're getting good at this,\n"
-	.string "but you have a long way to go.$"
+	.string "なかなか　うまく　なったけど\nまだまだ　さきは　ながいよ$"
 
 gJohtoDexRatingText_LessThan50::
-	.string "Hmm, you're catching POKéMON at a\n"
-	.string "decent pace!$"
+	.string "うん　いい　ペースで\nつかまえて　いるね！$"
 
 gJohtoDexRatingText_LessThan65::
-	.string "You're trying--I can see that.\n"
-	.string "Your POKéDEX is coming together.$"
+	.string "がんばって　いるのが\nわかるよ　ずかんも\lかたちに　なって　きた$"
 
 gJohtoDexRatingText_LessThan80::
-	.string "You're training them well. You know\n"
-	.string "some POKéMON don't evolve just by\p"
-	.string "battling with others, right?$"
+	.string "よく　そだてて　いるね\nバトル　だけでは　しんか\pしない　ポケモンも　いるのは\nしってる　よね？$"
 
 gJohtoDexRatingText_LessThan95::
-	.string "Do you have a Fishing Rod?\n"
-	.string "There are some POKéMON that can\p"
-	.string "only be found by fishing!$"
+	.string "つりざおは　もってる？\nつりで　しか　みつからない\pポケモンも　いるんだよ！$"
 
 gJohtoDexRatingText_LessThan110::
-	.string "Excellent! You seem to be good at\n"
-	.string "collecting things!$"
+	.string "すばらしい！　きみは\nあつめるのが　とくい\lみたいだね！$"
 
 gJohtoDexRatingText_LessThan125::
-	.string "Some POKéMON only appear during\n"
-	.string "certain times of the day.$"
+	.string "きまった　じかんに　しか\nでて　こない　ポケモンも\lいるんだ$"
 
 gJohtoDexRatingText_LessThan140::
-	.string "Your POKéDEX is really filling up.\n"
-	.string "Keep up the good work!$"
+	.string "ずかんが　どんどん\nうまって　きたね\lこの　ちょうしで！$"
 
 gJohtoDexRatingText_LessThan155::
-	.string "I'm impressed.\n"
-	.string "You're evolving POKéMON, not just\p"
-	.string "catching them.$"
+	.string "かんしん　したよ\nつかまえる　だけじゃなく\pしんかも　させて　いるんだね$"
 
 gJohtoDexRatingText_LessThan170::
-	.string "If you can learn how to use the\n"
-	.string "custom Poké Balls made by Kurt\p"
-	.string "effectively, you'll be able to catch\n"
-	.string "POKéMON better!$"
+	.string "ガンテツさんの　つくる\nとくせいボールを　うまく\pつかえば　もっと　うまく\nポケモンを　つかまえられるよ！$"
 
 gJohtoDexRatingText_LessThan185::
-	.string "When you trade POKéMON, you can\n"
-	.string "also trade information. Your\p"
-	.string "friends can really help you!$"
+	.string "ポケモンを　こうかん　すると\nじょうほうも　こうかん　できる\pともだちは　ほんとうに\nたよりに　なるよ！$"
 
 gJohtoDexRatingText_LessThan200::
-	.string "Are you trading your POKéMON?\n"
-	.string "It's tough to do this alone!$"
+	.string "ポケモンの　こうかんは　してる？\nひとりで　あつめるのは\lたいへん　だからね！$"
 
 gJohtoDexRatingText_LessThan215::
-	.string "Wow! You've reached 200!\n"
-	.string "Your POKéDEX is looking great!$"
+	.string "すごい！　200しゅるいに\nとどいたね！\lすばらしい　ずかんだ！$"
 
 @ Taken from Platinum
 gJohtoDexRatingText_LessThan230::
-	.string "You've proven yourself capable.\n"
-    .string "There's nothing to worry about.\p"
-    .string "Keep catching POKéMON the way\n"
-    .string "you've been doing so far.$"
+	.string "きみの　じつりょくは　よく\nわかった　なにも\lしんぱい　ないよ\pこれまで　どおり　ポケモンを\nつかまえて　いこう$"
 
 @ Taken from Platinum
 gJohtoDexRatingText_LessThan245::
-	.string "Your POKéDEX is well on the way to\n"
-	.string "being filled up.\p"
-	.string "This POKéDEX can be considered a\n"
-	.string "journal of your adventure.$"
+	.string "ずかんは　かんせいに\nむかって　じゅんちょう　だね\pこの　ずかんは　きみの\nぼうけんの　にっき　とも\lいえるね$"
 
 gJohtoDexRatingText_LessThan260::
-	.string "You've found so many POKéMON!\n"
-	.string "You've really helped my studies!$"
+	.string "こんなに　たくさんの\nポケモンを　みつけたんだ！\lぼくの　けんきゅうも\lおおいに　たすかったよ！$"
 
 gJohtoDexRatingText_LessThan275::
-	.string "Magnificent! You have the ability\n"
-	.string "to become a great POKéMON\p"
-	.string "Professor someday!$"
+	.string "みごとだ！　きみは　いつか\nりっぱな　ポケモンはかせに\pなれる　さいのうが　あるよ！$"
 
 gJohtoDexRatingText_LessThanMaxDex::
-	.string "Your POKéDEX is amazing!\n"
-	.string "You're ready to turn professional!$"
+	.string "すごい　ずかんだ！\nもう　プロに　なれるよ！$"
 
 gJohtoDexRatingText_Complete::
-	.string "Wow!\n"
-	.string "That is a complete Johto POKéDEX!\p"  
-	.string "Thanks to you, {PLAYER}, the Johto\n"
-	.string "POKéDEX is complete!\p"
-	.string "Wow...\n"
-	.string "You've done an incredible job!$"
+	.string "わあ！\nジョウトずかんが　かんせい\lして　いる！\p{PLAYER}の　おかげで\nジョウトずかんが\lかんせい　したよ！\pすごい‥\nほんとうに　よく　やったね！$"
 
 gNationalDexRatingText_LessThan100::
-	.string "The goal may be far away, but don't\n"
-	.string "give up yet! Keep going!$"
+	.string "ゴールは　まだ　とおいけど\nあきらめないで！\lこの　ちょうしで！$"
 
 gNationalDexRatingText_LessThan150::
-	.string "Don't forget, some POKéMON only\n"
-	.string "appear at certain times of the day!$"
+	.string "きまった　じかんに　しか\nでない　ポケモンも　いるのを\lわすれないでね！$"
 
 gNationalDexRatingText_LessThan200::
-	.string "If you break rocks, some POKéMON\n"
-	.string "that were hiding there might come\p"
-	.string "jumping out!$"
+	.string "いわを　くだくと　かくれていた\nポケモンが　とびだして\pくる　ことが　あるよ！$"
 
 gNationalDexRatingText_LessThan250::
-	.string "That's wonderful you've been able\n"
-	.string "to gather this many POKéMON!\p"
-	.string "The path ahead is long. Keep up the\n"
-	.string "great work!$"
+	.string "こんなに　たくさんの\nポケモンを　あつめられた\lなんて　すばらしい！\pみちは　まだ　ながい\nこの　ちょうしで　がんばって！$"
 
 gNationalDexRatingText_LessThan300::
-	.string "If you Headbutt a tree, sometimes\n"
-	.string "a POKéMON might fall out!$"
+	.string "きに　ずつきを　すると\nポケモンが　おちて　くる\lことが　あるよ！$"
 
 gNationalDexRatingText_LessThan350::
-	.string "A lot of POKéMON not found in the\n"
-	.string "Johto region like to congregate\p"
-	.string "at the Safari Zone$"
+	.string "ジョウトちほうに　いない\nポケモンの　おおくは\pサファリゾーンに　あつまって\nいるんだ$"
 
 gNationalDexRatingText_LessThan400::
 @	.string "Music on the radio might also\n"
@@ -342,27 +253,16 @@ gNationalDexRatingText_LessThan400::
 	.string "them all!$"
 
 gNationalDexRatingText_LessThan435::
-	.string "Wow, you've gotten so far...!\n"
-	.string "I'm actually a little surprised!$"
+	.string "わあ　ここまで\nきたんだね‥！\lじつは　ちょっと　びっくり！$"
 
 gNationalDexRatingText_LessThan465::
-	.string "This is a critical moment!\n"
-	.string "You can't become discouraged!$"
+	.string "ここが　ふんばりどころ！\nくじけちゃ　だめだよ！$"
 
 gNationalDexRatingText_LessThan475::
-	.string "Just a little more!\n"
-	.string "I've got high expectations for you!$"
+	.string "あと　すこし！\nきみには　おおいに\lきたい　してるよ！$"
 
 gNationalDexRatingText_LessThanMaxDex::
-	.string "I have never before in all my years\n"
-	.string "seen such an incredible Trainer!$"
+	.string "こんなに　すごい　トレーナーは\nいままで　みたこと　ないよ！$"
 
 gNationalDexRatingText_Complete::
-	.string "Excellent! That is an amazing\n"
-	.string "National POKéDEX!\p"
-	.string "Wow...{PAUSE 10}\p"
-	.string "You've lived up to my\n"
-	.string "expectations wonderfully!\p"
-	.string "No, you've exceeded them, {PLAYER}.\n"
-	.string "You've become an amazing Trainer!\p"
-	.string "Thank you, {PLAYER}!$"
+	.string "すばらしい！　みごとな\nぜんこくずかんだ！\pすごい‥{PAUSE 10}\pきみは　ぼくの　きたいに\nみごとに　こたえて　くれた！\pいや　それいじょうだ　{PLAYER}\nきみは　すごい　トレーナーに\lなったね！\pありがとう　{PLAYER}！$"

@@ -1,26 +1,20 @@
 SecretBase_Text_TreeCanBeClimbed:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.$"
+	.string "つるが　おりて　くれば\nこの　きに　のぼれそうだ$"
 
 SecretBase_Text_TreeUseSecretPower:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.\p"
-	.string "Use the SECRET POWER?$"
+	.string "つるが　おりて　くれば\nこの　きに　のぼれそうだ\pひみつのちからを\nつかいますか？$"
 
 SecretBase_Text_VineDroppedDown:
-	.string "A thick vine dropped down!$"
+	.string "ふとい　つるが\nおりて　きた！$"
 
 SecretBase_Text_ClumpOfGrass:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.$"
+	.string "この　くさを　どかせば\nなかに　はいれそうだ$"
 
 SecretBase_Text_ClumpUseSecretPower:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.\p"
-	.string "Use the SECRET POWER?$"
+	.string "この　くさを　どかせば\nなかに　はいれそうだ\pひみつのちからを\nつかいますか？$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
-	.string "Discovered a small entrance!$"
+	.string "ちいさな　いりぐちを\nみつけた！$"
 
 	.include "data/text/secret_base_trainers.inc"
 
@@ -673,66 +667,46 @@ SecretBase_EventScript_CushionInteract::
 	end
 
 SecretBase_Text_AllDecorationsWillBeReturned:
-	.string "All decorations and furniture in your\n"
-	.string "SECRET BASE will be returned to your PC.\p"
-	.string "Is that okay?$"
+	.string "ひみつきちの　もようがえグッズは\nすべて　パソコンに\lもどります\pよろしい　ですか？$"
 
 SecretBase_Text_WantToRegisterSecretBase:
-	.string "Do you want to register\n"
-	.string "{STR_VAR_1}'s SECRET BASE?$"
+	.string "{STR_VAR_1}の　ひみつきちを\nとうろく　しますか？$"
 
 SecretBase_Text_AlreadyRegisteredDelete:
-	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
+	.string "すでに　とうろく　されて\nいます　けしますか？$"
 
 SecretBase_Text_TooManyBasesDeleteSome:
-	.string "Up to 10 locations can be registered.\p"
-	.string "Delete a location if you want to\n"
-	.string "register another location.$"
+	.string "とうろく　できるのは\n10かしょ　までです\pほかの　ばしょを\nとうろく　するなら\lどれかを　けして　ください$"
 
 SecretBase_Text_RegistrationCompleted:
-	.string "Registration completed.$"
+	.string "とうろく　しました$"
 
 SecretBase_Text_DataUnregistered:
-	.string "Data has been unregistered.$"
+	.string "とうろくを　けしました$"
 
 SecretBase_Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}は\nパソコンの　スイッチを　いれた$"
 
 SecretBase_Text_WhatWouldYouLikeToDo:
-	.string "What would you like to do?$"
+	.string "なにを　しますか？$"
 
 SecretBase_Text_RegistryInfo:
-	.string "Once registered, a SECRET BASE will not\n"
-	.string "disappear unless the other TRAINER\l"
-	.string "moves it to a different location.\p"
-	.string "If a SECRET BASE is deleted from the\n"
-	.string "registered list, another one may take\l"
-	.string "its place.\p"
-	.string "Up to ten SECRET BASE locations\n"
-	.string "may be registered.$"
+	.string "とうろく　した　ひみつきちは\nあいての　トレーナーが\lひっこさない　かぎり\lきえません\pとうろくを　けすと\nほかの　ひみつきちに\lかわる　ことが　あります\pひみつきちは　10かしょ\nまで　とうろく　できます$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "A shield of {STR_VAR_2} that marks winning\n"
-	.string "{STR_VAR_1} times in a row at the BATTLE TOWER.$"
+	.string "バトルタワーで　{STR_VAR_1}かい\nれんしょう　した　あかしの\l{STR_VAR_2}の　たて$"
 
 SecretBase_Text_ToyTV:
-	.string "A realistic toy TV. It could be easily\n"
-	.string "mistaken for the real thing.$"
+	.string "ほんものそっくりの\nおもちゃの　テレビ\lまちがえて　しまいそうだ$"
 
 SecretBase_Text_SeedotTV:
-	.string "A toy TV shaped like a SEEDOT.\n"
-	.string "It looks ready to roll away on its own…$"
+	.string "タネボーの　かたちの\nおもちゃの　テレビ\lいまにも　ころがりそうだ‥$"
 
 SecretBase_Text_SkittyTV:
-	.string "A toy TV shaped like a SKITTY.\n"
-	.string "It looks ready to stroll away…$"
+	.string "エネコの　かたちの\nおもちゃの　テレビ\lいまにも　あるきだしそうだ‥$"
 
 SecretBase_Text_WouldYouLikeToMoveBases:
-	.string "You may only make one SECRET BASE.\p"
-	.string "Would you like to move from the SECRET\n"
-	.string "BASE near {STR_VAR_1}?$"
+	.string "ひみつきちは　ひとつしか\nつくれません\p{STR_VAR_1}の　ちかくの\nひみつきちから\lひっこし　しますか？$"
 
 SecretBase_Text_MovingCompletedUseSecretPower:
-	.string "Moving completed.\p"
-	.string "Would you like to use the SECRET POWER?$"
+	.string "ひっこし　しました\pひみつのちからを\nつかいますか？$"
