@@ -21,8 +21,8 @@ data/scripts/test_signpost.inc
 data/scripts/profile_man.inc
 data/text/questionnaire.inc
 data/scripts/lilycove_lady.inc
-data/text/match_call.inc
 data/text/tv.inc
 data/text/apprentice.inc
+data/text/match_call.inc
 data/scripts/mauville_man.inc
 data/text/mauville_man.inc

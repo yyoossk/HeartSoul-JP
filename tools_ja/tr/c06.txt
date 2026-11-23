@@ -1,0 +1,137 @@
+## data/text/tv.inc
+@@LilycoveCity_ContestLobby_Text_InterviewRequest
+あら　こんにちは！　ポケモン\nコンテストに　でて　いた\lかた　ですよね？\lポケモンを　みれば　わかります\pわたしは　きしゃです\nポケモンコンテストの\lきじを　かいて　います\pよろしければ　いくつか\nしつもんに　こたえて\lいただけますか？
+@@LilycoveCity_ContestLobby_Text_DescribeContest
+こたえて　くださるんですね？\nありがとう　ございます\pさきほど　でた　コンテストを\nひとことで　いうと\lどんな　かんじ　でしたか？
+@@LilycoveCity_ContestLobby_Text_WhatImageWhenYouHearX
+なるほど\nとても　ために　なる\lおことば　ですね\pコンテストの　ようすが\nよく　つたわります\pさいごの　しつもん　です\p『{STR_VAR_2}』と　きいて\nどんな　イメージが\lうかびますか？
+@@LilycoveCity_ContestLobby_Text_ThatsAllForInterview
+なるほど！\p『{STR_VAR_2}』は　そういう\nイメージ　なんですね\pありがとう　ございました！\nいい　ヒントを　いただきました\pこれで　いい　きじが\nかけそう　です\pもしかしたら　この　きじが\nテレビで　ながれるかも\lたのしみに　して　いてね！
+@@LilycoveCity_ContestLobby_Text_PleaseDoShareStoryWithMe
+あら　ざんねん‥\pでは　いい　はなしが\nあったら　ぜひ\lおしえて　くださいね
+@@LilycoveCity_ContestLobby_Text_LookingForwardToNextContest
+つぎの　ポケモンコンテストも\nたのしみに　しています
+@@gTVBravoTrainerText00
+イエイ！\nブラボー！トレーナーの　じかんだ！\pきょうは　{STR_VAR_1}の\nポケモンを　しょうかい　するよ！\pこの　ポケモンは\n{STR_VAR_2}ぶもんの\l{STR_VAR_3}ランクの　じつりょくだ！
+@@gTVBravoTrainerText01
+しょうかい　しよう！\n{STR_VAR_1}の　{STR_VAR_2}！\p{STR_VAR_2}と　いう　なまえ‥\pなまえ　からして\n『{STR_VAR_3}』って　かんじが\lただよって　くる！
+@@gTVBravoTrainerText02
+さて　トレーナーの　{STR_VAR_1}が\nこの　ポケモンを　コンテストに\lだした　とき　あいぼうへの\lあつい　ことばを　もらったよ
+@@gTVBravoTrainerText03
+コンテストの　あとで　きくと\n{STR_VAR_1}は　まんめんの\lえがおで　こたえた\l『{STR_VAR_2}！』\pそう　{STR_VAR_1}の　ポケモンは\nコンテストで　{STR_VAR_3}い\lだったんだ\pいまの　{STR_VAR_1}に\nぴったりの　ことばだね！
+@@gTVBravoTrainerText04
+コンテストの　あとで　きくと\n{STR_VAR_1}は　すこし\lくやしそうに　こたえた\l『{STR_VAR_2}』\pそう　{STR_VAR_1}の　ポケモンは\nコンテストで　{STR_VAR_3}い\lだったんだ\p{STR_VAR_1}の　くやしさが\nよく　つたわって　くるね！
+@@gTVBravoTrainerText05
+{STR_VAR_1}が　{STR_VAR_2}を\nどう　イメージ　してるか\lしりたく　ない？\pもちろん　きいて　みたよ！\pこたえは　ひとことに\nまとまって　いた\l『{STR_VAR_3}！』\pそれが　{STR_VAR_1}に　とっての\n{STR_VAR_2}　なんだ！
+@@gTVBravoTrainerText06
+{STR_VAR_1}が　さいごに\nつかった　わざ　{STR_VAR_2}は\lまさに　『{STR_VAR_3}』！
+@@gTVBravoTrainerText07
+ブラボー　{STR_VAR_1}！\nブラボー　{STR_VAR_2}！\p{STR_VAR_1}の　これからの\nかつやくに　きたい　しよう！\pそろそろ　じかんだ！\nまた　つぎの　ほうそうで！
+@@gTVBravoTrainerText08
+トレーナーの　{STR_VAR_1}を\nしょうかい！
+@@BattleFrontier_BattleTowerLobby_Text_InterviewRequest
+こんにちは！　いま　バトルを\nした　トレーナーさん\lですよね？\pわたし　いろんな　トレーナーに\nインタビュー　して　いるんです\pバトルの　かんそうを\nすこし　きかせて\lもらえませんか？
+@@BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut
+いいんですか？　ほんとに？\nありがとう　ございます！\lでは　えーと‥\pきょうの　バトルタワーは\nどう　でしたか？\pバトルに　まんぞく　しましたか？\nそれとも　ふまん　ですか？
+@@BattleFrontier_BattleTowerLobby_Text_SorryWeDisturbedYou
+あら‥\nおじゃま　しました\pまた　バトルタワーに　きた\nときに　インタビューさせて\lくださいね
+@@BattleFrontier_BattleTowerLobby_Text_ObviousYouHadGreatBattle
+そう　でしょうね！\pその　まんぞくそうな\nかおを　みれば‥\pいい　バトルを　したのが\nよく　わかります
+@@BattleFrontier_BattleTowerLobby_Text_DifficultToMakeBattleTurnOutAsPlanned
+そう　ですか‥\pバトルを　おもいどおりに\nすすめるのは　たしかに\lむずかしい　ですよね
+@@BattleFrontier_BattleTowerLobby_Text_DescribeYourBattle
+あの　もう　ひとつ\nきいても　いいですか？\pこの　バトルの　かんそうを\nひとことで　いうと\lどうなりますか？
+@@BattleFrontier_BattleTowerLobby_Text_ThatsGreatLine
+わあ　すごく　かっこいい！\pすてきな　ことば　ですね！\nつぎも　がんばって　ください\pまた　おあい　しましょう！
+@@BattleFrontier_BattleTowerLobby_Text_SilentType
+そう　ですか‥\pでも　くちかずが　すくない\nのも　かっこいい　ですね\pまた　かんそうを\nきかせて　くださいね！
+@@BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle
+つぎの　バトルも\nたのしみに　しています！
+@@BravoTrainerBattleTower_Text_Intro
+イエイ！\nブラボー！トレーナーの　じかんだ！\pきょうは　バトルタワーに\nちょうせん　した　{STR_VAR_1}を\lしょうかい　するよ！\p{STR_VAR_1}が　ちょうせんに\nつれて　いったのは\lすごうでの　{STR_VAR_2}！
+@@BravoTrainerBattleTower_Text_NewRecord
+この　コンビは　{STR_VAR_1}で\n{STR_VAR_2}れんしょうの\lしんきろくを　うちたてた！\lブラボー　トレーナー！
+@@BravoTrainerBattleTower_Text_Lost
+コンビは　{STR_VAR_2}せんめで\nついに　{STR_VAR_1}に\lやぶれた　おしい！\pでも　こんな　はやくに\n{STR_VAR_1}に　あたるなんて\lうんが　わるかったね\p{STR_VAR_1}との　しょうぶの\nかんそうを　トレーナーに\lきいて　みたよ
+@@BravoTrainerBattleTower_Text_Won
+コンビは　{STR_VAR_1}の\n{STR_VAR_2}を　かんぷなきまでに\lたおして　ゆうしょう！\lブラボー　トレーナー！\p{STR_VAR_1}まで　たおすとは‥\nしんじられない！\lただ　ただ　すごい！\pえいこうの　しゅんかんの\nかんそうを　トレーナーに\lきいて　みたよ
+@@BravoTrainerBattleTower_Text_LostFinal
+れんしょうの　すえ　コンビは\nさいごの　かべ　{STR_VAR_1}の\l{STR_VAR_2}に　やぶれた\pおしい！\pでも　{STR_VAR_1}と\n{STR_VAR_2}の　ような\lゆうめいな　コンビは\lめったに　いない\pゆうめい　コンビとの\nしょうぶの　かんそうを\lトレーナーに　きいて　みたよ
+@@BravoTrainerBattleTower_Text_Satisfied
+トレーナーの　ことばは\n『まんぞく　です！』\pさわやかな　こたえ　だね！\nブラボー　トレーナー！\pまんぞく　いくまで\nバトルが　できるって\lさいこう　だよね！\pどれだけ　まんぞく　したかは\nこの　ことばで　わかったよ
+@@BravoTrainerBattleTower_Text_Unsatisfied
+トレーナーの　ことばは\n『まんぞく　してません‥』\pその　とき　トレーナーは\nちょっと　おちこんで\lいたよ\pでも　かんぜんに\nまんぞく　できる　バトルは\lなかなか　ないよね？\pどれだけ　ふまん　だったかは\nこの　ことばで　わかったよ
+@@BravoTrainerBattleTower_Text_None1
+なし
+@@BravoTrainerBattleTower_Text_None2
+なし
+@@BravoTrainerBattleTower_Text_None3
+なし
+@@BravoTrainerBattleTower_Text_None4
+なし
+@@BravoTrainerBattleTower_Text_ResponseSatisfied
+『{STR_VAR_1}』\nすばらしい　ことば　だね！\p{STR_VAR_2}の　よろこびが\nよく　あらわれて　いる\pさいごの　{STR_VAR_3}との\nバトルは　まさに\l『{STR_VAR_1}』　だった！
+@@BravoTrainerBattleTower_Text_ResponseUnsatisfied
+『{STR_VAR_1}』\nぴったりの　ことば　だね！\pさいごの　{STR_VAR_3}との\nバトルは　まさに\l『{STR_VAR_1}』　だった！\p{STR_VAR_2}の　くやしさが\nよく　つたわって　くるね！
+@@BravoTrainerBattleTower_Text_Outro
+ブラボー　{STR_VAR_1}！\nブラボー　{STR_VAR_2}！\p{STR_VAR_1}の　これからの\nかつやくに　きたい　しよう！\pそろそろ　じかんだ！\nまた　つぎの　ほうそうで！
+@@SlateportCity_PokemonFanClub_Text_InterviewRequestHasName
+わあ！\pあなた　{STR_VAR_1}を\nとっても　かわいがって\lいるのね\pなまえは　{STR_VAR_2}　なのね\pひとつ　おねがいが\nあるんだけど\pわたし　テレビの　きしゃで\nポケモンの　アンケートを\lとって　いるの\pかんたんな　しつもんに\nこたえて　もらえない？
+@@SlateportCity_PokemonFanClub_Text_HereGoesQuickAnswers
+よかった！　ありがとう！\pじゃあ　いくわね\nすぐ　こたえて　くれれば\lいいからね
+@@SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon
+はじめて　{STR_VAR_1}に\nあった　とき　どう\lおもった？\pその　ときの　きもちを\nことばに　すると？
+@@SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike
+あなたの　{STR_VAR_1}は\nとても　だいじに　されてるわね\pあなたの　すきな　もので\nたとえると　なにかしら？
+@@SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon
+これも　あなたの　だいすきな\n{STR_VAR_1}の　しつもんよ\p{STR_VAR_1}の　どんな\nところに　ひかれたの？
+@@SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou
+なるほど　よく　わかるわ\pつぎの　しつもんは\nちょっと　むずかしいかも\pいくわよ‥\pあなたに　とって\nポケモンって　なに？
+@@SlateportCity_PokemonFanClub_Text_ThatsAllForInterview
+なるほど！\pふむふむ‥\pよし！\nきょうりょく　ありがとう\pおはなし　できて　たのしかったし\nいろいろ　べんきょうに\lなったわ\pこの　インタビューが\nテレビで　ながれるかも\lチェック　してね！\pじゃあ　これで　おしまい\nばいばい！
+@@SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe
+そう‥\pポケモンの　ことを　はなし\nたく　なったら　いつでも\lここに　いるからね！
+@@SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews
+この　しごとは　たのしいわ\nインタビューで　ポケモンの\lことが　わかるもの
+@@SlateportCity_PokemonFanClub_Text_InterviewRequest
+こんにちは　あなた　{STR_VAR_1}と\nとっても　なかよし\lみたいね\pじつは　わたし\nテレビの　きしゃなの\pあちこち　まわって　ポケモンの\nことを　インタビュー\lしてるの\pあなたの　{STR_VAR_1}の\nこと　すこし　きかせて\lもらえない？
+@@SlateportCity_PokemonFanClub_Text_TellMeAnythingAboutYourMon
+わあ　ありがとう！\pじゃあ　あなたの　{STR_VAR_1}の\nこと　なんでも\lおしえて　ちょうだい
+@@SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2
+わあ‥\nおもしろい　おはなしね\pあなた　{STR_VAR_1}と\nほんとうに　なかよしね\pいい　テレビの\nはなしに　なりそうだわ\pきっと　たのしい　ばんぐみに\nするから　みのがさないでね\pじゃあ　これで　おしまい\nばいばい！
+@@gTVFanClubOpinionsText00
+われら　ポケモン　だいすきクラブ！\pほうそう　スタート！\pこの　ばんぐみでは\nみんなの　いけんを　わたしが\lかわりに　さけんで　あげる！\lすごい　きかく　でしょ？\pきょうは　ポケモン　だいすき\nクラブに　いった　きしゃからの\lレポートを　おとどけ！\pさて　きょうの\nポケモンファンは　だれかな？\p‥　‥　‥　‥　‥　‥　‥　‥\p{STR_VAR_1}！\pでは　{STR_VAR_1}の\n{STR_VAR_2}の　{STR_VAR_3}への\lおもいを　きいて　みよう！\pそして　その　あいの　ことばを\nテレビで　おおごえで\lさけんじゃうよ！\pそれっ！\pさけぶぞー！
+@@gTVFanClubOpinionsText01
+{STR_VAR_1}に　きいた\n『はじめて　{STR_VAR_2}を\lみた　とき　どう\lおもいましたか？』\p『{STR_VAR_3}！』\pイエーイ！　いい　さけびだ！\pむかしの　ことを\nおもいだす　ねえ？
+@@gTVFanClubOpinionsText02
+{STR_VAR_1}に　きいた\n『{STR_VAR_2}を　なにかに\lたとえると‥』\p‥　‥　‥　‥　‥　‥　‥　‥\p『{STR_VAR_3}！』\pおおっと　これは\nユニークな　はっそう！\pトレーナーの　{STR_VAR_2}への\nあつい　おもいが\lつたわって　くるね
+@@gTVFanClubOpinionsText03
+さて　つぎは‥\n{STR_VAR_1}は　{STR_VAR_2}の\lどこに　ひかれたのかな？\p‥　‥　‥　‥　‥　‥　‥　‥\p『{STR_VAR_3}！』\pおお！　なんて\nすばらしい　せんげん！\pトレーナーの　{STR_VAR_2}への\nあいが　ビンビン　つたわる！
+@@gTVFanClubOpinionsText04
+ん？　まだ　あるぞ\nみて　みよう！\pえーと‥\p{STR_VAR_1}に　きいた\n『ポケモンとは？』\p‥　‥　‥　‥　‥　‥\p『{STR_VAR_3}！』\pブラボー！\pきょう　いちばんの\nさけびだ！\p『{STR_VAR_3}！』\pなんども　さけびたく\nなるね！\pいい　さけびが　でた　ところで\nそろそろ　おわかれの　じかん！\pさいごに　もういちど\nさけぼう！　みんな　いっしょに！\p『{STR_VAR_3}！』
+@@gTVFanClubText00
+われら　ポケモン　だいすきクラブ！\pほうそう　スタート！\pきょうは　ポケモン\nアンケートコーナーから\lスタート！\pポケモンと　トレーナーが\nおりなす　ものがたり　きょうは\lどんな　ドラマが　まってるかな？\pえーと‥\pこれだ！\pこの　おてがみから\nいって　みよう！\p{STR_VAR_1}から　だいすきな\n{STR_VAR_2}に　ついての\lおてがみ　だよ！\p{STR_VAR_2}への　あいを\nどれだけ　あつく　かたって\lくれるかな！　ふむふむ‥
+@@gTVFanClubText01
+うおお！\nなんて　すごい　おてがみ！
+@@gTVFanClubText02
+きに　いったから\nもう　いちど　よむよ！
+@@gTVFanClubText03
+いい　おてがみは\nなんど　よんでも　いい！
+@@gTVFanClubText04
+『{STR_VAR_3}』の　ところが\nぐっと　こころに　くるね！\pこころの　こもった\nすばらしい　おてがみだ！
+@@gTVFanClubText05
+とくに　『{STR_VAR_3}』の\nところ！\p『{STR_VAR_3}』の　つかいかたが\nたまらない！
+@@gTVFanClubText06
+ところで　どうでも　いいけど\n『{STR_VAR_3}』って\lいい　ことば　だよね\pさいきん　かいわで\n『{STR_VAR_3}』を\lよく　つかってるんだ
+@@gTVFanClubText07
+この　おてがみに　てんすうを\nつけるなら　{STR_VAR_3}てん！\pつぎは　もっと　いい\nおてがみを　まってるよ\l{STR_VAR_1}！\pおっと　もう　こんな　じかん？\nまた　つぎの　ほうそうで！
+@@SlateportCity_OceanicMuseum_1F_Text_InterviewRequest
+あら？\nポケモンは　すき　かしら？\pわたし　テレビきょくの\nしごとで　きて　いるの\pさいきん　あった　ポケモンと\nトレーナーの　はなしを\lあつめて　いるのよ\pよかったら　あなたの　ことを\nなにか　おしえて　くれない？
+@@SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort
+さいきん　あった　ポケモンと\nトレーナーの　はなしを\lあつめて　いるのよ\pよかったら　あなたの　ことを\nなにか　おしえて　くれない？
+@@SlateportCity_OceanicMuseum_1F_Text_TellMeExperienceInvolvingPokemon
+おしえて　くれるの？\nありがとう！\pじゃあ　さいきん　あった\nポケモンに　まつわる\lおもしろい　ことを\lなんでも　おしえて
+@@SlateportCity_OceanicMuseum_1F_Text_LetMeKnowIfYouHaveStory
+そう‥\pおもしろい　はなしが\nあったら　ぜひ\lおしえてね
+@@SlateportCity_OceanicMuseum_1F_Text_ThatsAllForInterview
+まあ　すてきな　おはなし！\pかならず　テレビで\nながして　もらうわね\pいつか　ほうそう　される\nはずだから　たのしみに\lしててね

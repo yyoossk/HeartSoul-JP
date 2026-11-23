@@ -1,517 +1,209 @@
 LilycoveCity_ContestLobby_Text_InterviewRequest:
-	.string "Oh, hello! You were in a POKéMON\n"
-	.string "CONTEST, weren't you?\l"
-	.string "It's easy to tell from your POKéMON.\p"
-	.string "I'm a reporter. I'm working on a story\n"
-	.string "on POKéMON CONTESTS.\p"
-	.string "If I may, would you be willing to answer\n"
-	.string "a few questions?$"
+	.string "あら　こんにちは！　ポケモン\nコンテストに　でて　いた\lかた　ですよね？\lポケモンを　みれば　わかります\pわたしは　きしゃです\nポケモンコンテストの\lきじを　かいて　います\pよろしければ　いくつか\nしつもんに　こたえて\lいただけますか？$"
 
 LilycoveCity_ContestLobby_Text_DescribeContest:
-	.string "Oh, you will?\n"
-	.string "Thank you.\p"
-	.string "Briefly, how would you describe the\n"
-	.string "CONTEST you just entered?$"
+	.string "こたえて　くださるんですね？\nありがとう　ございます\pさきほど　でた　コンテストを\nひとことで　いうと\lどんな　かんじ　でしたか？$"
 
 LilycoveCity_ContestLobby_Text_WhatImageWhenYouHearX:
-	.string "Ah, I see.\n"
-	.string "That's a very edifying comment.\p"
-	.string "You get a good feel for what\n"
-	.string "the CONTEST was like.\p"
-	.string "I've got one last question.\p"
-	.string "When you hear the word “{STR_VAR_2},”\n"
-	.string "what image do you get?$"
+	.string "なるほど\nとても　ために　なる\lおことば　ですね\pコンテストの　ようすが\nよく　つたわります\pさいごの　しつもん　です\p『{STR_VAR_2}』と　きいて\nどんな　イメージが\lうかびますか？$"
 
 LilycoveCity_ContestLobby_Text_ThatsAllForInterview:
-	.string "I see!\p"
-	.string "So that's how you imagine the concept\n"
-	.string "of “{STR_VAR_2}” to be.\p"
-	.string "Thank you!\n"
-	.string "You've given me some good ideas.\p"
-	.string "I think I can write a good story on\n"
-	.string "POKéMON CONTESTS now.\p"
-	.string "Maybe, just maybe, this story will even\n"
-	.string "make it to television.\l"
-	.string "I hope you'll look forward to it!$"
+	.string "なるほど！\p『{STR_VAR_2}』は　そういう\nイメージ　なんですね\pありがとう　ございました！\nいい　ヒントを　いただきました\pこれで　いい　きじが\nかけそう　です\pもしかしたら　この　きじが\nテレビで　ながれるかも\lたのしみに　して　いてね！$"
 
 LilycoveCity_ContestLobby_Text_PleaseDoShareStoryWithMe:
-	.string "Oh, too bad…\p"
-	.string "Well, if you come across a good story,\n"
-	.string "please do share it with me.$"
+	.string "あら　ざんねん‥\pでは　いい　はなしが\nあったら　ぜひ\lおしえて　くださいね$"
 
 LilycoveCity_ContestLobby_Text_LookingForwardToNextContest:
-	.string "I'll be looking forward to your next\n"
-	.string "POKéMON CONTEST.$"
+	.string "つぎの　ポケモンコンテストも\nたのしみに　しています$"
 
 gTVBravoTrainerText00::
-	.string "Yeah!\n"
-	.string "It's BRAVO TRAINER time!\p"
-	.string "Today, we're going to profile a POKéMON\n"
-	.string "belonging to {STR_VAR_1}.\p"
-	.string "Now, this POKéMON boasts a {STR_VAR_3}\n"
-	.string "Rank in the {STR_VAR_2} Category.$"
+	.string "イエイ！\nブラボー！トレーナーの　じかんだ！\pきょうは　{STR_VAR_1}の\nポケモンを　しょうかい　するよ！\pこの　ポケモンは\n{STR_VAR_2}ぶもんの\l{STR_VAR_3}ランクの　じつりょくだ！$"
 
 gTVBravoTrainerText01::
-	.string "Introducing {STR_VAR_2} the\n"
-	.string "{STR_VAR_1}!\p"
-	.string "The nickname {STR_VAR_2}…\p"
-	.string "Even the nickname exudes an air that\n"
-	.string "proclaims “{STR_VAR_3}”!$"
+	.string "しょうかい　しよう！\n{STR_VAR_1}の　{STR_VAR_2}！\p{STR_VAR_2}と　いう　なまえ‥\pなまえ　からして\n『{STR_VAR_3}』って　かんじが\lただよって　くる！$"
 
 gTVBravoTrainerText02::
-	.string "Anyway, when the TRAINER {STR_VAR_1}\n"
-	.string "entered the POKéMON in a CONTEST,\l"
-	.string "we managed to get a few impassioned\l"
-	.string "quotes about the trusty partner.$"
+	.string "さて　トレーナーの　{STR_VAR_1}が\nこの　ポケモンを　コンテストに\lだした　とき　あいぼうへの\lあつい　ことばを　もらったよ$"
 
 gTVBravoTrainerText03::
-	.string "Asked about the CONTEST afterwards,\n"
-	.string "{STR_VAR_1} happily replied with a huge\l"
-	.string "grin, “{STR_VAR_2}!”\p"
-	.string "Well, sure, {STR_VAR_1}'s POKéMON came in\n"
-	.string "number {STR_VAR_3} in the CONTEST.\p"
-	.string "That line perfectly suits {STR_VAR_1}\n"
-	.string "right now, I'd say!$"
+	.string "コンテストの　あとで　きくと\n{STR_VAR_1}は　まんめんの\lえがおで　こたえた\l『{STR_VAR_2}！』\pそう　{STR_VAR_1}の　ポケモンは\nコンテストで　{STR_VAR_3}い\lだったんだ\pいまの　{STR_VAR_1}に\nぴったりの　ことばだね！$"
 
 gTVBravoTrainerText04::
-	.string "Asked about the CONTEST afterwards,\n"
-	.string "{STR_VAR_1} replied with a tinge of\l"
-	.string "bitterness, “{STR_VAR_2}.”\p"
-	.string "Well, sure, {STR_VAR_1}'s POKéMON came in\n"
-	.string "number {STR_VAR_3} in the CONTEST.\p"
-	.string "{STR_VAR_1}'s disappointment comes across\n"
-	.string "loud and clear, I'd say!$"
+	.string "コンテストの　あとで　きくと\n{STR_VAR_1}は　すこし\lくやしそうに　こたえた\l『{STR_VAR_2}』\pそう　{STR_VAR_1}の　ポケモンは\nコンテストで　{STR_VAR_3}い\lだったんだ\p{STR_VAR_1}の　くやしさが\nよく　つたわって　くるね！$"
 
 gTVBravoTrainerText05::
-	.string "Wouldn't you also like to know what\n"
-	.string "{STR_VAR_1} imagines {STR_VAR_2} to be?\p"
-	.string "You bet we did!\n"
-	.string "So we asked, of course!\p"
-	.string "The answer is all perfectly condensed:\n"
-	.string "“{STR_VAR_3}!”\p"
-	.string "That's what the concept of {STR_VAR_2}\n"
-	.string "represents to {STR_VAR_1}!$"
+	.string "{STR_VAR_1}が　{STR_VAR_2}を\nどう　イメージ　してるか\lしりたく　ない？\pもちろん　きいて　みたよ！\pこたえは　ひとことに\nまとまって　いた\l『{STR_VAR_3}！』\pそれが　{STR_VAR_1}に　とっての\n{STR_VAR_2}　なんだ！$"
 
 gTVBravoTrainerText06::
-	.string "The last move {STR_VAR_2} used by\n"
-	.string "the {STR_VAR_1} is entirely about\l"
-	.string "“{STR_VAR_3}”!$"
+	.string "{STR_VAR_1}が　さいごに\nつかった　わざ　{STR_VAR_2}は\lまさに　『{STR_VAR_3}』！$"
 
 gTVBravoTrainerText07::
-	.string "Bravo, {STR_VAR_1}!\n"
-	.string "Bravo, {STR_VAR_2}!\p"
-	.string "I hope we can count on seeing\n"
-	.string "{STR_VAR_1} scale even greater heights!\p"
-	.string "That's all the time we have!\n"
-	.string "Until next time, see you!$"
+	.string "ブラボー　{STR_VAR_1}！\nブラボー　{STR_VAR_2}！\p{STR_VAR_1}の　これからの\nかつやくに　きたい　しよう！\pそろそろ　じかんだ！\nまた　つぎの　ほうそうで！$"
 
 gTVBravoTrainerText08::
-	.string "Introducing the TRAINER's {STR_VAR_1}!$"
+	.string "トレーナーの　{STR_VAR_1}を\nしょうかい！$"
 
 BattleFrontier_BattleTowerLobby_Text_InterviewRequest::
-	.string "Hello! You're the TRAINER who just had\n"
-	.string "a battle, right?\p"
-	.string "I'm gathering interviews with TRAINERS\n"
-	.string "all over the place.\p"
-	.string "May I get a few words from you about\n"
-	.string "your impressions on battling?$"
+	.string "こんにちは！　いま　バトルを\nした　トレーナーさん\lですよね？\pわたし　いろんな　トレーナーに\nインタビュー　して　いるんです\pバトルの　かんそうを\nすこし　きかせて\lもらえませんか？$"
 
 BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut::
-	.string "You will? Really?\n"
-	.string "Thank you!\l"
-	.string "Then, uh…\p"
-	.string "How did things turn out in\n"
-	.string "the BATTLE TOWER today?\p"
-	.string "Were you satisfied with the battle?\n"
-	.string "Or are you unhappy?$"
+	.string "いいんですか？　ほんとに？\nありがとう　ございます！\lでは　えーと‥\pきょうの　バトルタワーは\nどう　でしたか？\pバトルに　まんぞく　しましたか？\nそれとも　ふまん　ですか？$"
 
 BattleFrontier_BattleTowerLobby_Text_SorryWeDisturbedYou::
-	.string "Oh…\n"
-	.string "Sorry we disturbed you.\p"
-	.string "Please give us an interview the next\n"
-	.string "time you visit the BATTLE TOWER.$"
+	.string "あら‥\nおじゃま　しました\pまた　バトルタワーに　きた\nときに　インタビューさせて\lくださいね$"
 
 BattleFrontier_BattleTowerLobby_Text_ObviousYouHadGreatBattle::
-	.string "Well, of course!\p"
-	.string "That unmistakable look of satisfaction\n"
-	.string "on your face…\p"
-	.string "It's obvious that you've had a great\n"
-	.string "battle.$"
+	.string "そう　でしょうね！\pその　まんぞくそうな\nかおを　みれば‥\pいい　バトルを　したのが\nよく　わかります$"
 
 BattleFrontier_BattleTowerLobby_Text_DifficultToMakeBattleTurnOutAsPlanned::
-	.string "Oh, I see…\p"
-	.string "Well, it certainly is difficult to make a\n"
-	.string "battle turn out exactly as planned.$"
+	.string "そう　ですか‥\pバトルを　おもいどおりに\nすすめるのは　たしかに\lむずかしい　ですよね$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeYourBattle::
-	.string "Oh, oh, may I ask one more question?\p"
-	.string "If you were to describe your\n"
-	.string "impressions about this battle with\l"
-	.string "one saying, what would it be?$"
+	.string "あの　もう　ひとつ\nきいても　いいですか？\pこの　バトルの　かんそうを\nひとことで　いうと\lどうなりますか？$"
 
 BattleFrontier_BattleTowerLobby_Text_ThatsGreatLine::
-	.string "Oh, that is stunningly cool!\p"
-	.string "That's a great line!\n"
-	.string "I hope you'll do great next time, too.\p"
-	.string "I hope to see you again!$"
+	.string "わあ　すごく　かっこいい！\pすてきな　ことば　ですね！\nつぎも　がんばって　ください\pまた　おあい　しましょう！$"
 
 BattleFrontier_BattleTowerLobby_Text_SilentType::
-	.string "Oh, I see…\p"
-	.string "Still, being the silent type is also\n"
-	.string "cool, isn't it?\p"
-	.string "I hope you'll give me the opportunity\n"
-	.string "to share your thoughts again!$"
+	.string "そう　ですか‥\pでも　くちかずが　すくない\nのも　かっこいい　ですね\pまた　かんそうを\nきかせて　くださいね！$"
 
 BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle::
-	.string "I'll be looking forward to your\n"
-	.string "next battle!$"
+	.string "つぎの　バトルも\nたのしみに　しています！$"
 
 BravoTrainerBattleTower_Text_Intro::
-	.string "Yeah!\n"
-	.string "It's BRAVO TRAINER time!\p"
-	.string "Today, we're going to profile {STR_VAR_1},\n"
-	.string "who took the BATTLE TOWER challenge!\p"
-	.string "For the challenge, {STR_VAR_1} entered\n"
-	.string "one wicked {STR_VAR_2}.$"
+	.string "イエイ！\nブラボー！トレーナーの　じかんだ！\pきょうは　バトルタワーに\nちょうせん　した　{STR_VAR_1}を\lしょうかい　するよ！\p{STR_VAR_1}が　ちょうせんに\nつれて　いったのは\lすごうでの　{STR_VAR_2}！$"
 
 BravoTrainerBattleTower_Text_NewRecord::
-	.string "The pair set a new record of {STR_VAR_2} wins\n"
-	.string "in a row in {STR_VAR_1} competition!\l"
-	.string "Bravo, TRAINER!$"
+	.string "この　コンビは　{STR_VAR_1}で\n{STR_VAR_2}れんしょうの\lしんきろくを　うちたてた！\lブラボー　トレーナー！$"
 
 BravoTrainerBattleTower_Text_Lost::
-	.string "The twosome finally succumbed to\n"
-	.string "{STR_VAR_1} in match number {STR_VAR_2}.\l"
-	.string "Nice try, TRAINER!\p"
-	.string "But, hey, it's just bad luck to run into\n"
-	.string "{STR_VAR_1} so early in the challenge.\p"
-	.string "We asked the TRAINER for impressions\n"
-	.string "on the match with {STR_VAR_1}.$"
+	.string "コンビは　{STR_VAR_2}せんめで\nついに　{STR_VAR_1}に\lやぶれた　おしい！\pでも　こんな　はやくに\n{STR_VAR_1}に　あたるなんて\lうんが　わるかったね\p{STR_VAR_1}との　しょうぶの\nかんそうを　トレーナーに\lきいて　みたよ$"
 
 BravoTrainerBattleTower_Text_Won::
-	.string "The twosome won it all by defeating\n"
-	.string "{STR_VAR_1}'s {STR_VAR_2} thoroughly.\l"
-	.string "Bravo, TRAINER!\p"
-	.string "Knocking off even {STR_VAR_1}…\n"
-	.string "It defies belief! Simply astounding!\p"
-	.string "We asked the TRAINER for impressions\n"
-	.string "on the moment of glory.$"
+	.string "コンビは　{STR_VAR_1}の\n{STR_VAR_2}を　かんぷなきまでに\lたおして　ゆうしょう！\lブラボー　トレーナー！\p{STR_VAR_1}まで　たおすとは‥\nしんじられない！\lただ　ただ　すごい！\pえいこうの　しゅんかんの\nかんそうを　トレーナーに\lきいて　みたよ$"
 
 BravoTrainerBattleTower_Text_LostFinal::
-	.string "After a string of wins, the pair finally\n"
-	.string "succumbed to {STR_VAR_1}'s {STR_VAR_2},\l"
-	.string "their final hurdle.\p"
-	.string "Nice try, TRAINER!\p"
-	.string "Still, you have to give credit.\n"
-	.string "You don't see many famous combinations\l"
-	.string "like {STR_VAR_1} and {STR_VAR_2}.\p"
-	.string "We asked the TRAINER for impressions\n"
-	.string "on battling the celebrity pair.$"
+	.string "れんしょうの　すえ　コンビは\nさいごの　かべ　{STR_VAR_1}の\l{STR_VAR_2}に　やぶれた\pおしい！\pでも　{STR_VAR_1}と\n{STR_VAR_2}の　ような\lゆうめいな　コンビは\lめったに　いない\pゆうめい　コンビとの\nしょうぶの　かんそうを\lトレーナーに　きいて　みたよ$"
 
 BravoTrainerBattleTower_Text_Satisfied::
-	.string "This is what the TRAINER had to say:\n"
-	.string "“I'm satisfied!”\p"
-	.string "Now isn't that a refreshing reply?\n"
-	.string "Bravo, TRAINER!\p"
-	.string "Isn't it out-and-out awesome to be\n"
-	.string "able to battle to full satisfaction?\p"
-	.string "I found out exactly how satisfied\n"
-	.string "when I heard the TRAINER say this:$"
+	.string "トレーナーの　ことばは\n『まんぞく　です！』\pさわやかな　こたえ　だね！\nブラボー　トレーナー！\pまんぞく　いくまで\nバトルが　できるって\lさいこう　だよね！\pどれだけ　まんぞく　したかは\nこの　ことばで　わかったよ$"
 
 BravoTrainerBattleTower_Text_Unsatisfied::
-	.string "This is what the TRAINER had to say:\n"
-	.string "“I'm not satisfied…”\p"
-	.string "Our TRAINER was obviously a little down\n"
-	.string "when that was uttered.\p"
-	.string "Still, it's not easy to be able to battle\n"
-	.string "with complete satisfaction, am I right?\p"
-	.string "Anyway, I found out how dissatisfied\n"
-	.string "our TRAINER was when I heard this:$"
+	.string "トレーナーの　ことばは\n『まんぞく　してません‥』\pその　とき　トレーナーは\nちょっと　おちこんで\lいたよ\pでも　かんぜんに\nまんぞく　できる　バトルは\lなかなか　ないよね？\pどれだけ　ふまん　だったかは\nこの　ことばで　わかったよ$"
 
 BravoTrainerBattleTower_Text_None1::
-	.string "None$"
+	.string "なし$"
 
 BravoTrainerBattleTower_Text_None2::
-	.string "None$"
+	.string "なし$"
 
 BravoTrainerBattleTower_Text_None3::
-	.string "None$"
+	.string "なし$"
 
 BravoTrainerBattleTower_Text_None4::
-	.string "None$"
+	.string "なし$"
 
 BravoTrainerBattleTower_Text_Response::
 	.string "“{STR_VAR_1}.”$"
 
 BravoTrainerBattleTower_Text_ResponseSatisfied::
-	.string "“{STR_VAR_1}.”\n"
-	.string "Now isn't that great?\p"
-	.string "It really expresses {STR_VAR_2}'s joy,\n"
-	.string "I'd say.\p"
-	.string "That battle with {STR_VAR_3} at the\n"
-	.string "end… It really was what you'd call\l"
-	.string "“{STR_VAR_1}”!$"
+	.string "『{STR_VAR_1}』\nすばらしい　ことば　だね！\p{STR_VAR_2}の　よろこびが\nよく　あらわれて　いる\pさいごの　{STR_VAR_3}との\nバトルは　まさに\l『{STR_VAR_1}』　だった！$"
 
 BravoTrainerBattleTower_Text_ResponseUnsatisfied::
-	.string "“{STR_VAR_1}.”\n"
-	.string "Now isn't that fitting?\p"
-	.string "That battle with {STR_VAR_3} at the\n"
-	.string "end… You can't describe it as anything\l"
-	.string "else but “{STR_VAR_1}”!\p"
-	.string "{STR_VAR_2}'s disappointment comes across\n"
-	.string "loud and clear, I'd say!$"
+	.string "『{STR_VAR_1}』\nぴったりの　ことば　だね！\pさいごの　{STR_VAR_3}との\nバトルは　まさに\l『{STR_VAR_1}』　だった！\p{STR_VAR_2}の　くやしさが\nよく　つたわって　くるね！$"
 
 BravoTrainerBattleTower_Text_Outro::
-	.string "Bravo, {STR_VAR_1}!\n"
-	.string "Bravo, {STR_VAR_2}!\p"
-	.string "I hope we can count on seeing\n"
-	.string "{STR_VAR_1} scale even greater heights!\p"
-	.string "That's all the time we have!\n"
-	.string "Until next time, see you!$"
+	.string "ブラボー　{STR_VAR_1}！\nブラボー　{STR_VAR_2}！\p{STR_VAR_1}の　これからの\nかつやくに　きたい　しよう！\pそろそろ　じかんだ！\nまた　つぎの　ほうそうで！$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
-	.string "Wow!\p"
-	.string "It's plain to see that you lavish your\n"
-	.string "love on your {STR_VAR_1}.\p"
-	.string "Okay, it's named {STR_VAR_2}.\p"
-	.string "Can I ask you a favor?\p"
-	.string "I'm a TV reporter, and I'm running\n"
-	.string "a survey on POKéMON.\p"
-	.string "Would you be willing to answer a few\n"
-	.string "simple questions for me?$"
+	.string "わあ！\pあなた　{STR_VAR_1}を\nとっても　かわいがって\lいるのね\pなまえは　{STR_VAR_2}　なのね\pひとつ　おねがいが\nあるんだけど\pわたし　テレビの　きしゃで\nポケモンの　アンケートを\lとって　いるの\pかんたんな　しつもんに\nこたえて　もらえない？$"
 
 SlateportCity_PokemonFanClub_Text_HereGoesQuickAnswers:
-	.string "Great! Thank you!\p"
-	.string "Okay, here goes.\n"
-	.string "I just need quick answers, okay?$"
+	.string "よかった！　ありがとう！\pじゃあ　いくわね\nすぐ　こたえて　くれれば\lいいからね$"
 
 SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon:
-	.string "When you first met {STR_VAR_1},\n"
-	.string "what did you feel?\p"
-	.string "How would you describe your feelings\n"
-	.string "at the time?$"
+	.string "はじめて　{STR_VAR_1}に\nあった　とき　どう\lおもった？\pその　ときの　きもちを\nことばに　すると？$"
 
 SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike:
-	.string "Your {STR_VAR_1} is cared for lovingly.\p"
-	.string "If you were to liken it to something\n"
-	.string "that you like, what would it be?$"
+	.string "あなたの　{STR_VAR_1}は\nとても　だいじに　されてるわね\pあなたの　すきな　もので\nたとえると　なにかしら？$"
 
 SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon:
-	.string "This question also relates to your\n"
-	.string "beloved {STR_VAR_1}.\p"
-	.string "What was it about {STR_VAR_1} that\n"
-	.string "attracted you?$"
+	.string "これも　あなたの　だいすきな\n{STR_VAR_1}の　しつもんよ\p{STR_VAR_1}の　どんな\nところに　ひかれたの？$"
 
 SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou:
-	.string "Okay, that makes sense.\p"
-	.string "The next question might be a little\n"
-	.string "on the tough side.\p"
-	.string "Here goes…\p"
-	.string "What do POKéMON mean to you?$"
+	.string "なるほど　よく　わかるわ\pつぎの　しつもんは\nちょっと　むずかしいかも\pいくわよ‥\pあなたに　とって\nポケモンって　なに？$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview:
-	.string "I see!\p"
-	.string "Hmhm…\p"
-	.string "Okay!\n"
-	.string "Thanks for helping me out.\p"
-	.string "It was fun and enlightening\n"
-	.string "chatting with you.\p"
-	.string "It's possible that our interview will\n"
-	.string "end up on TV. Tune in and check!\p"
-	.string "Okay, that's all.\n"
-	.string "Bye-bye!$"
+	.string "なるほど！\pふむふむ‥\pよし！\nきょうりょく　ありがとう\pおはなし　できて　たのしかったし\nいろいろ　べんきょうに\lなったわ\pこの　インタビューが\nテレビで　ながれるかも\lチェック　してね！\pじゃあ　これで　おしまい\nばいばい！$"
 
 SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe:
-	.string "Oh, okay…\p"
-	.string "Well, if you get the urge to tell me\n"
-	.string "about POKéMON, I'll be here!$"
+	.string "そう‥\pポケモンの　ことを　はなし\nたく　なったら　いつでも\lここに　いるからね！$"
 
 SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews:
-	.string "I enjoy this job--you get to learn\n"
-	.string "about POKéMON by doing interviews.$"
+	.string "この　しごとは　たのしいわ\nインタビューで　ポケモンの\lことが　わかるもの$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequest:
-	.string "Hi, you seem to be very close to your\n"
-	.string "{STR_VAR_1}.\p"
-	.string "Do you know what?\n"
-	.string "I'm a TV reporter.\p"
-	.string "I travel around interviewing people\n"
-	.string "about POKéMON.\p"
-	.string "I'm wondering if you'd be willing to tell\n"
-	.string "me a little about your {STR_VAR_1}?$"
+	.string "こんにちは　あなた　{STR_VAR_1}と\nとっても　なかよし\lみたいね\pじつは　わたし\nテレビの　きしゃなの\pあちこち　まわって　ポケモンの\nことを　インタビュー\lしてるの\pあなたの　{STR_VAR_1}の\nこと　すこし　きかせて\lもらえない？$"
 
 SlateportCity_PokemonFanClub_Text_TellMeAnythingAboutYourMon:
-	.string "Wow, thank you!\p"
-	.string "Okay, then, please tell me anything\n"
-	.string "you'd like about your {STR_VAR_1}.$"
+	.string "わあ　ありがとう！\pじゃあ　あなたの　{STR_VAR_1}の\nこと　なんでも\lおしえて　ちょうだい$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2:
-	.string "Wow…\n"
-	.string "That's an interesting account.\p"
-	.string "You really are tight with {STR_VAR_1},\n"
-	.string "aren't you?\p"
-	.string "I get the feeling that your account\n"
-	.string "will make a great TV story.\p"
-	.string "I promise that I'll turn this into\n"
-	.string "an entertaining show.\l"
-	.string "Keep your eyes out for it.\p"
-	.string "Okay, that's all.\n"
-	.string "Bye-bye!$"
+	.string "わあ‥\nおもしろい　おはなしね\pあなた　{STR_VAR_1}と\nほんとうに　なかよしね\pいい　テレビの\nはなしに　なりそうだわ\pきっと　たのしい　ばんぐみに\nするから　みのがさないでね\pじゃあ　これで　おしまい\nばいばい！$"
 
 gTVFanClubOpinionsText00::
-	.string "WE ARE THE POKéMON FAN CLUB!\p"
-	.string "We're on the air!\p"
-	.string "On this program, we get your opinions,\n"
-	.string "and I shout them out on your behalf!\l"
-	.string "Isn't it a fantastic program concept?\p"
-	.string "Today, we bring you this report from\n"
-	.string "our reporter, who we sent out to the\l"
-	.string "POKéMON FAN CLUB.\p"
-	.string "So, just who is today's featured\n"
-	.string "POKéMON fan?\p"
-	.string "… … … … … … … …\p"
-	.string "{STR_VAR_1}!\p"
-	.string "So, let's hear what {STR_VAR_1} has to\n"
-	.string "say about {STR_VAR_3} the {STR_VAR_2}.\p"
-	.string "And, I will shout those words of love\n"
-	.string "out loud on TV!\p"
-	.string "Hoo-hah!\p"
-	.string "Let's shout!$"
+	.string "われら　ポケモン　だいすきクラブ！\pほうそう　スタート！\pこの　ばんぐみでは\nみんなの　いけんを　わたしが\lかわりに　さけんで　あげる！\lすごい　きかく　でしょ？\pきょうは　ポケモン　だいすき\nクラブに　いった　きしゃからの\lレポートを　おとどけ！\pさて　きょうの\nポケモンファンは　だれかな？\p‥　‥　‥　‥　‥　‥　‥　‥\p{STR_VAR_1}！\pでは　{STR_VAR_1}の\n{STR_VAR_2}の　{STR_VAR_3}への\lおもいを　きいて　みよう！\pそして　その　あいの　ことばを\nテレビで　おおごえで\lさけんじゃうよ！\pそれっ！\pさけぶぞー！$"
 
 gTVFanClubOpinionsText01::
-	.string "We asked {STR_VAR_1}, “When you first\n"
-	.string "laid eyes on your {STR_VAR_2}, what was\l"
-	.string "your initial thought?”\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Yeahah! That's a mighty fine shout!\p"
-	.string "Doesn't it bring back memories of those\n"
-	.string "days long gone by?$"
+	.string "{STR_VAR_1}に　きいた\n『はじめて　{STR_VAR_2}を\lみた　とき　どう\lおもいましたか？』\p『{STR_VAR_3}！』\pイエーイ！　いい　さけびだ！\pむかしの　ことを\nおもいだす　ねえ？$"
 
 gTVFanClubOpinionsText02::
-	.string "We asked {STR_VAR_1}, “If you were to\n"
-	.string "liken your {STR_VAR_2} to something,\l"
-	.string "it would be…”\p"
-	.string "… … … … … … … …\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Whoah-oh, now that's an original idea!\p"
-	.string "You sure can sense the intensity of\n"
-	.string "feeling the TRAINER has for\l"
-	.string "{STR_VAR_2}.$"
+	.string "{STR_VAR_1}に　きいた\n『{STR_VAR_2}を　なにかに\lたとえると‥』\p‥　‥　‥　‥　‥　‥　‥　‥\p『{STR_VAR_3}！』\pおおっと　これは\nユニークな　はっそう！\pトレーナーの　{STR_VAR_2}への\nあつい　おもいが\lつたわって　くるね$"
 
 gTVFanClubOpinionsText03::
-	.string "And let's see…\n"
-	.string "What was it about that {STR_VAR_2}\l"
-	.string "that so attracted {STR_VAR_1}?\p"
-	.string "… … … … … … … …\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Whoa! Such a spectacular declaration!\p"
-	.string "The TRAINER's love for the {STR_VAR_2}\n"
-	.string "comes across loud and clear!$"
+	.string "さて　つぎは‥\n{STR_VAR_1}は　{STR_VAR_2}の\lどこに　ひかれたのかな？\p‥　‥　‥　‥　‥　‥　‥　‥\p『{STR_VAR_3}！』\pおお！　なんて\nすばらしい　せんげん！\pトレーナーの　{STR_VAR_2}への\nあいが　ビンビン　つたわる！$"
 
 gTVFanClubOpinionsText04::
-	.string "Hm? Oh, there's still more.\n"
-	.string "Let's check it out!\p"
-	.string "Let me see, now…\p"
-	.string "We asked {STR_VAR_1}, “What do POKéMON\n"
-	.string "mean to you?”\p"
-	.string "… … … … … …\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Bravo!\p"
-	.string "That's the best shout I've had all day!\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "It makes you want to shout it out loud\n"
-	.string "again and again!\p"
-	.string "Now that we've had a great shout, it's\n"
-	.string "time to say good-bye until next time!\p"
-	.string "So, let's all have one last shout!\n"
-	.string "All together now…\p"
-	.string "“{STR_VAR_3}!”$"
+	.string "ん？　まだ　あるぞ\nみて　みよう！\pえーと‥\p{STR_VAR_1}に　きいた\n『ポケモンとは？』\p‥　‥　‥　‥　‥　‥\p『{STR_VAR_3}！』\pブラボー！\pきょう　いちばんの\nさけびだ！\p『{STR_VAR_3}！』\pなんども　さけびたく\nなるね！\pいい　さけびが　でた　ところで\nそろそろ　おわかれの　じかん！\pさいごに　もういちど\nさけぼう！　みんな　いっしょに！\p『{STR_VAR_3}！』$"
 
 gTVFanClubText00::
-	.string "WE ARE THE POKéMON FAN CLUB!\p"
-	.string "We're on the air!\p"
-	.string "Today, we'll get rolling with the\n"
-	.string "POKéMON SURVEY CORNER.\p"
-	.string "Out of all the tales woven by POKéMON\n"
-	.string "and TRAINERS, what startling new drama\l"
-	.string "will grab our attention today?\p"
-	.string "Let me see…\p"
-	.string "This one!\p"
-	.string "We'll start with this letter!\p"
-	.string "It's a letter from {STR_VAR_1} about a\n"
-	.string "beloved {STR_VAR_2}.\p"
-	.string "Let's see how passionately our writer\n"
-	.string "can express love for the {STR_VAR_2}!\l"
-	.string "Hmhm…$"
+	.string "われら　ポケモン　だいすきクラブ！\pほうそう　スタート！\pきょうは　ポケモン\nアンケートコーナーから\lスタート！\pポケモンと　トレーナーが\nおりなす　ものがたり　きょうは\lどんな　ドラマが　まってるかな？\pえーと‥\pこれだ！\pこの　おてがみから\nいって　みよう！\p{STR_VAR_1}から　だいすきな\n{STR_VAR_2}に　ついての\lおてがみ　だよ！\p{STR_VAR_2}への　あいを\nどれだけ　あつく　かたって\lくれるかな！　ふむふむ‥$"
 
 gTVFanClubText01::
-	.string "Whoah!\n"
-	.string "What an amazing letter!$"
+	.string "うおお！\nなんて　すごい　おてがみ！$"
 
 gTVFanClubText02::
-	.string "I loved it, so here it is again!$"
+	.string "きに　いったから\nもう　いちど　よむよ！$"
 
 gTVFanClubText03::
-	.string "A great letter bears reading over\n"
-	.string "and over!$"
+	.string "いい　おてがみは\nなんど　よんでも　いい！$"
 
 gTVFanClubText04::
-	.string "The bit “{STR_VAR_3},” that really\n"
-	.string "accentuates emotional impact!\p"
-	.string "It's a great letter that has real\n"
-	.string "heartfelt depth!$"
+	.string "『{STR_VAR_3}』の　ところが\nぐっと　こころに　くるね！\pこころの　こもった\nすばらしい　おてがみだ！$"
 
 gTVFanClubText05::
-	.string "Especially that “{STR_VAR_3}” bit!\p"
-	.string "I love how “{STR_VAR_3}” is used!$"
+	.string "とくに　『{STR_VAR_3}』の\nところ！\p『{STR_VAR_3}』の　つかいかたが\nたまらない！$"
 
 gTVFanClubText06::
-	.string "By the way, and it's not important,\n"
-	.string "but “{STR_VAR_3}” is a great saying.\p"
-	.string "I've been using “{STR_VAR_3}” a lot\n"
-	.string "in conversations lately.$"
+	.string "ところで　どうでも　いいけど\n『{STR_VAR_3}』って\lいい　ことば　だよね\pさいきん　かいわで\n『{STR_VAR_3}』を\lよく　つかってるんだ$"
 
 gTVFanClubText07::
-	.string "If I had to score this letter,\n"
-	.string "I'd give it {STR_VAR_3} points.\p"
-	.string "Next time, I'll be expecting an even\n"
-	.string "better letter, {STR_VAR_1}!\p"
-	.string "A-whoops, will you look at the time?\n"
-	.string "Time to say good-bye until next time!$"
+	.string "この　おてがみに　てんすうを\nつけるなら　{STR_VAR_3}てん！\pつぎは　もっと　いい\nおてがみを　まってるよ\l{STR_VAR_1}！\pおっと　もう　こんな　じかん？\nまた　つぎの　ほうそうで！$"
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequest:
-	.string "Oh?\n"
-	.string "Do you perhaps like POKéMON?\p"
-	.string "I'm on assignment with the TV network.\p"
-	.string "I'm gathering stories on POKéMON and\n"
-	.string "TRAINERS that occurred recently.\p"
-	.string "If you don't mind, could you tell me\n"
-	.string "something about yourself?$"
+	.string "あら？\nポケモンは　すき　かしら？\pわたし　テレビきょくの\nしごとで　きて　いるの\pさいきん　あった　ポケモンと\nトレーナーの　はなしを\lあつめて　いるのよ\pよかったら　あなたの　ことを\nなにか　おしえて　くれない？$"
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort:
-	.string "I'm gathering stories on POKéMON and\n"
-	.string "TRAINERS that occurred recently.\p"
-	.string "If you don't mind, could you tell me\n"
-	.string "something about yourself?$"
+	.string "さいきん　あった　ポケモンと\nトレーナーの　はなしを\lあつめて　いるのよ\pよかったら　あなたの　ことを\nなにか　おしえて　くれない？$"
 
 SlateportCity_OceanicMuseum_1F_Text_TellMeExperienceInvolvingPokemon:
-	.string "Oh, you will?\n"
-	.string "Thank you!\p"
-	.string "Then, please, tell me anything of\n"
-	.string "interest that you experienced recently\l"
-	.string "involving POKéMON.$"
+	.string "おしえて　くれるの？\nありがとう！\pじゃあ　さいきん　あった\nポケモンに　まつわる\lおもしろい　ことを\lなんでも　おしえて$"
 
 SlateportCity_OceanicMuseum_1F_Text_LetMeKnowIfYouHaveStory:
-	.string "Oh, I see…\p"
-	.string "Well, if you do have an interesting\n"
-	.string "story to tell, please let me know.$"
+	.string "そう‥\pおもしろい　はなしが\nあったら　ぜひ\lおしえてね$"
 
 SlateportCity_OceanicMuseum_1F_Text_ThatsAllForInterview:
-	.string "Oh, what an uplifting story!\p"
-	.string "I'll be sure to get your story told\n"
-	.string "on television.\p"
-	.string "It should be aired sometime, I think,\n"
-	.string "so please look forward to it.$"
+	.string "まあ　すてきな　おはなし！\pかならず　テレビで\nながして　もらうわね\pいつか　ほうそう　される\nはずだから　たのしみに\lしててね$"
 
 SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory:
 	.string "Hmmm…\n"
