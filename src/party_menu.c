@@ -2525,6 +2525,16 @@ static void DisplayPartyPokemonBarDetail(u8 windowId, const u8 *str, u8 color, c
     AddTextPrinterParameterized3(windowId, FONT_SMALL, align[0], align[1], sFontColorTable[color], 0, str);
 }
 
+// Japanese build: print numbers (HP) with the narrow Latin glyphs so they fit the box like the original layout
+static void DisplayPartyPokemonBarDetailEng(u8 windowId, const u8 *str, u8 color, const u8 *align)
+{
+    u8 buf[32];
+    buf[0] = EXT_CTRL_CODE_BEGIN;
+    buf[1] = EXT_CTRL_CODE_ENG;
+    StringCopy(buf + 2, str);
+    DisplayPartyPokemonBarDetail(windowId, buf, color, align);
+}
+
 static void DisplayPartyPokemonBarDetailToFit(u8 windowId, const u8 *str, u8 color, const u8 *align, u32 width)
 {
     AddTextPrinterParameterized3(windowId, GetFontIdToFit(str, FONT_SMALL, 0, width), align[0], align[1], sFontColorTable[color], 0, str);
@@ -2616,7 +2626,7 @@ static void DisplayParty4DigitsHP(struct PartyMenuBox *menuBox, const u8 *str, c
 
     memcpy(newAligns, origAlings, sizeof(newAligns));
     newAligns[0] -= toSub; // x, so that the hp fits
-    DisplayPartyPokemonBarDetail(menuBox->windowId, str, 0, newAligns);
+    DisplayPartyPokemonBarDetailEng(menuBox->windowId, str, 0, newAligns);
 }
 
 static void DisplayPartyPokemonHP(u16 hp, u16 maxhp, struct PartyMenuBox *menuBox)
@@ -2630,7 +2640,7 @@ static void DisplayPartyPokemonHP(u16 hp, u16 maxhp, struct PartyMenuBox *menuBo
     if (fourDigits)
         DisplayParty4DigitsHP(menuBox, gStringVar1, &menuBox->infoRects->dimensions[12], 10);
     else
-        DisplayPartyPokemonBarDetail(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[12]);
+        DisplayPartyPokemonBarDetailEng(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[12]);
 }
 
 static void DisplayPartyPokemonMaxHPCheck(struct Pokemon *mon, struct PartyMenuBox *menuBox, u8 c)
@@ -2655,7 +2665,7 @@ static void DisplayPartyPokemonMaxHP(u16 maxhp, struct PartyMenuBox *menuBox)
     if (fourDigits)
         DisplayParty4DigitsHP(menuBox, gStringVar1, &menuBox->infoRects->dimensions[16], 5);
     else
-        DisplayPartyPokemonBarDetail(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[16]);
+        DisplayPartyPokemonBarDetailEng(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[16]);
 }
 
 static void DisplayPartyPokemonHPBarCheck(struct Pokemon *mon, struct PartyMenuBox *menuBox)
