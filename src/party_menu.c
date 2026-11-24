@@ -418,6 +418,12 @@ static void Task_HandleStopLearningMoveYesNoInput(u8);
 static void Task_TryLearningNextMoveAfterText(u8);
 static void BufferMonStatsToTaskData(struct Pokemon *, s16 *);
 static void UpdateMonDisplayInfoAfterRareCandy(u8, struct Pokemon *);
+static void ItemUseCB_RareCandyOnce(u8 taskId, TaskFunc task);
+static void Task_UseNextCandy(u8 taskId);
+static EWRAM_DATA u8 sCandyUsesLeft = 0;
+static EWRAM_DATA u8 sCandyQuantity = 0;
+static EWRAM_DATA u8 sCandyMax = 0;
+static EWRAM_DATA TaskFunc sCandyResumeTask = NULL;
 static void Task_DisplayLevelUpStatsPg1(u8);
 static void DisplayLevelUpStatsPg1(u8);
 static void Task_DisplayLevelUpStatsPg2(u8);
@@ -5902,7 +5908,7 @@ static void UNUSED DisplayExpPoints(u8 taskId, TaskFunc task, u8 holdEffectParam
     gTasks[taskId].func = task;
 }
 
-void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
+static void ItemUseCB_RareCandyOnce(u8 taskId, TaskFunc task)
 {
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
     struct PartyMenuInternal *ptr = sPartyMenuInternal;
@@ -5928,6 +5934,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         u32 targetSpecies = SPECIES_NONE;
         bool32 canStopEvo = TRUE;
 
+        sCandyUsesLeft = 0; // HnS JP: stop using more candies
         // Resets values to 0 so other means of teaching moves doesn't overwrite levels
         sInitialLevel = 0;
         sFinalLevel = 0;
@@ -5988,9 +5995,108 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
             StringExpandPlaceholders(gStringVar4, gText_PkmnGainedExp);
             DisplayPartyMenuMessage(gStringVar4, FALSE);
             ScheduleBgCopyTilemapToVram(2);
-            gTasks[taskId].func = task;
+            if (sCandyUsesLeft != 0 && CheckBagHasItem(gSpecialVar_ItemId, 1))
+                gTasks[taskId].func = Task_UseNextCandy;
+            else
+                gTasks[taskId].func = task;
         }
     }
+}
+
+// HnS JP: choose how many Rare Candies / Exp. Candies to use at once.
+// The candies are still used one at a time through the normal path (level-up stats, new moves),
+// and the chain stops at an evolution, at the level cap, or when there is no effect.
+static const u8 sText_CandyHowMany[] = _("いくつ　つかいますか？\n×{STR_VAR_1}");
+
+static u32 CountCandiesInBag(enum Item item)
+{
+    u32 n = 0;
+    while (n < 99 && CheckBagHasItem(item, n + 1))
+        n++;
+    return n;
+}
+
+static void PrintCandyQuantityPrompt(void)
+{
+    ConvertIntToDecimalStringN(gStringVar1, sCandyQuantity, STR_CONV_MODE_LEADING_ZEROS, 2);
+    StringExpandPlaceholders(gStringVar4, sText_CandyHowMany);
+    DrawStdFrameWithCustomTileAndPalette(WIN_MSG, FALSE, 0x4F, 13);
+    FillWindowPixelBuffer(WIN_MSG, PIXEL_FILL(1));
+    AddTextPrinterParameterized2(WIN_MSG, FONT_NORMAL, gStringVar4, TEXT_SKIP_DRAW, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+    CopyWindowToVram(WIN_MSG, COPYWIN_FULL);
+    ScheduleBgCopyTilemapToVram(2);
+}
+
+static void Task_ChooseCandyQuantity(u8 taskId)
+{
+    s16 qty = sCandyQuantity;
+
+    if (AdjustQuantityAccordingToDPadInput(&qty, sCandyMax) == TRUE)
+    {
+        sCandyQuantity = qty;
+        PrintCandyQuantityPrompt();
+    }
+    else if (JOY_NEW(A_BUTTON))
+    {
+        sCandyUsesLeft = sCandyQuantity - 1;
+        ItemUseCB_RareCandyOnce(taskId, sCandyResumeTask);
+    }
+    else if (JOY_NEW(B_BUTTON))
+    {
+        PlaySE(SE_SELECT);
+        sCandyUsesLeft = 0;
+        ClearStdWindowAndFrameToTransparent(WIN_MSG, FALSE);
+        ClearWindowTilemap(WIN_MSG);
+        DisplayPartyMenuStdMessage(PARTY_MSG_USE_ON_WHICH_MON);
+        gTasks[taskId].func = Task_HandleChooseMonInput;
+    }
+}
+
+static void Task_UseNextCandy(u8 taskId)
+{
+    if (IsPartyMenuTextPrinterActive() != TRUE)
+    {
+        if (sCandyUsesLeft != 0 && CheckBagHasItem(gSpecialVar_ItemId, 1))
+        {
+            sCandyUsesLeft--;
+            ItemUseCB_RareCandyOnce(taskId, sCandyResumeTask);
+        }
+        else
+        {
+            sCandyUsesLeft = 0;
+            gTasks[taskId].func = Task_ReturnToChooseMonAfterText;
+        }
+    }
+}
+
+void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
+{
+    struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+    u32 level = GetMonData(mon, MON_DATA_LEVEL);
+    u32 max = CountCandiesInBag(gSpecialVar_ItemId);
+
+    sCandyUsesLeft = 0;
+    sCandyResumeTask = task;
+    if (GetItemHoldEffectParam(gSpecialVar_ItemId) == 0) // Rare Candy: one level each
+    {
+        u32 cap = (B_RARE_CANDY_CAP || gSaveBlock3Ptr->challengeSettings.tx_Challenges_LevelCap) ? GetCurrentLevelCap() : MAX_LEVEL;
+        if (cap > MAX_LEVEL)
+            cap = MAX_LEVEL;
+        if (level >= cap)
+            max = 1;
+        else if (max > cap - level)
+            max = cap - level;
+    }
+    if (gPartyMenu.menuType != PARTY_MENU_TYPE_FIELD || max < 2)
+    {
+        ItemUseCB_RareCandyOnce(taskId, task);
+        return;
+    }
+    PlaySE(SE_SELECT);
+    sCandyMax = max;
+    sCandyQuantity = 1;
+    PrintCandyQuantityPrompt();
+    gTasks[taskId].func = Task_ChooseCandyQuantity;
 }
 
 static void UpdateMonDisplayInfoAfterRareCandy(u8 slot, struct Pokemon *mon)
@@ -6128,6 +6234,7 @@ static void PartyMenuTryEvolution(u8 taskId)
 
     if (targetSpecies != SPECIES_NONE)
     {
+        sCandyUsesLeft = 0; // HnS JP: an evolution ends a multi-candy use
         GetEvolutionTargetSpecies(mon, EVO_MODE_NORMAL, ITEM_NONE, NULL, &canStopEvo, DO_EVO);
         FreePartyPointers();
         if (GetItemFieldFunc(gSpecialVar_ItemId) == ItemUseOutOfBattle_RareCandy && gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD && CheckBagHasItem(gSpecialVar_ItemId, 1))
@@ -6139,7 +6246,9 @@ static void PartyMenuTryEvolution(u8 taskId)
     }
     else
     {
-        if (gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD && CheckBagHasItem(gSpecialVar_ItemId, 1))
+        if (sCandyUsesLeft != 0 && gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD && CheckBagHasItem(gSpecialVar_ItemId, 1))
+            gTasks[taskId].func = Task_UseNextCandy;
+        else if (gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD && CheckBagHasItem(gSpecialVar_ItemId, 1))
             gTasks[taskId].func = Task_ReturnToChooseMonAfterText;
         else
             gTasks[taskId].func = Task_ClosePartyMenuAfterText;
