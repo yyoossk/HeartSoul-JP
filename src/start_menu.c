@@ -507,8 +507,8 @@ static void ShowPyramidFloorWindow(void)
 
 #define CLOCK_WINDOW_WIDTH 48
 
-static const u8 sText_AM[] = _("ごぜん");
-static const u8 sText_PM[] = _("ごご");
+static const u8 sText_AM[] = _("AM");
+static const u8 sText_PM[] = _("PM");
 
 static void ShowTimeWindow(void)
 {
@@ -1684,7 +1684,7 @@ static void Task_QuickOpenFromField(u8 taskId)
         PlayRainStoppingSoundEffect();
         CleanupOverworldWindowsAndTilemaps();
         if (task->tQuickBag)
-            SetMainCallback2(CB2_BagMenuFromStartMenu);
+            SetMainCallback2(CB2_BagMenuFromFieldQuick);
         else
             SetMainCallback2(CB2_PartyMenuFromStartMenu);
         DestroyTask(taskId);

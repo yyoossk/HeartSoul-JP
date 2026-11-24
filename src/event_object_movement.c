@@ -6310,6 +6310,11 @@ bool8 FollowablePlayerMovement_Step(struct ObjectEvent *objectEvent, struct Spri
     {
         objectEvent->movementActionId = GetWalkFastMovementAction(direction);
     }
+    else if (gSprites[gPlayerAvatar.spriteId].data[4] == MOVE_SPEED_FAST_2)
+    {
+        // HnS JP: keep up with the faster running shoes
+        objectEvent->movementActionId = GetWalkFasterMovementAction(direction);
+    }
     else
     {
         objectEvent->movementActionId = GetWalkNormalMovementAction(direction);
@@ -7461,7 +7466,8 @@ static void InitMovementNormal(struct ObjectEvent *objectEvent, struct Sprite *s
 
 static void StartRunningAnim(struct ObjectEvent *objectEvent, struct Sprite *sprite, enum Direction direction)
 {
-    InitNpcForMovement(objectEvent, sprite, direction, MOVE_SPEED_FAST_1);
+    // HnS JP: running shoes are faster (same step speed as the Acro Bike / water currents)
+    InitNpcForMovement(objectEvent, sprite, direction, MOVE_SPEED_FAST_2);
     SetStepAnimHandleAlternation(objectEvent, sprite, GetRunningDirectionAnimNum(objectEvent->facingDirection));
 }
 
