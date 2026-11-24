@@ -185,3 +185,42 @@ EventScript_StartMenuPC::
 	playse SE_PC_OFF
 	releaseall
 	end
+
+@ HnS JP: "わすれる" in the party menu (VAR_0x8004 = party slot)
+EventScript_PartyMenuForgetMove::
+	lockall
+	special GetNumMovesSelectedMonHas
+	goto_if_eq VAR_RESULT, 1, EventScript_PartyMenuForgetMove_End
+	fadescreen FADE_TO_BLACK
+	special MoveDeleterChooseMoveToForget
+	fadescreen FADE_FROM_BLACK
+	goto_if_eq VAR_0x8005, MAX_MON_MOVES, EventScript_PartyMenuForgetMove_End
+	special BufferMoveDeleterNicknameAndMove
+	msgbox Text_PartyMenuForgetMove_Confirm, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_PartyMenuForgetMove_End
+	checkitem ITEM_HM_SURF
+	goto_if_eq VAR_RESULT, TRUE, EventScript_PartyMenuForgetMove_Do
+	special IsLastMonThatKnowsSurf
+	goto_if_eq VAR_RESULT, TRUE, EventScript_PartyMenuForgetMove_Surf
+EventScript_PartyMenuForgetMove_Do:
+	special MoveDeleterForgetMove
+	playfanfare MUS_MOVE_DELETED
+	waitfanfare
+	msgbox Text_PartyMenuForgetMove_Done, MSGBOX_DEFAULT
+EventScript_PartyMenuForgetMove_End:
+	releaseall
+	end
+
+EventScript_PartyMenuForgetMove_Surf:
+	msgbox Text_PartyMenuForgetMove_Surf, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Text_PartyMenuForgetMove_Confirm:
+	.string "{STR_VAR_1}の　{STR_VAR_2}を\nわすれさせますか？$"
+
+Text_PartyMenuForgetMove_Done:
+	.string "{STR_VAR_1}は　{STR_VAR_2}を\nきれいに　わすれた！$"
+
+Text_PartyMenuForgetMove_Surf:
+	.string "{STR_VAR_1}の　{STR_VAR_2}を　わすれると\nみずの　うえで　うごけなく　なります$"

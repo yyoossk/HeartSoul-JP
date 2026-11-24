@@ -733,6 +733,8 @@ struct
     [MENU_CHANGE_ABILITY]  = {COMPOUND_STRING("とくせいを　かえる"),  CursorCb_ChangeAbility},
     [MENU_PKMN_FOLLOWER]   = {COMPOUND_STRING("つれあるく"), CursorCb_PkmnFollower},
     [MENU_NICKNAME]        = {COMPOUND_STRING("なまえ"), CursorCb_Nickname},
+    [MENU_FORGET_MOVE]     = {COMPOUND_STRING("わすれる"), CursorCb_ForgetMove},
+    [MENU_OTHERS]          = {COMPOUND_STRING("そのほか"), CursorCb_Others},
 };
 
 static const u8 sPartyMenuAction_SummarySwitchCancel[] = {MENU_SUMMARY, MENU_SWITCH, MENU_CANCEL1};

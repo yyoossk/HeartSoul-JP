@@ -8,6 +8,7 @@
 #include "battle_interface.h"
 #include "battle_pike.h"
 #include "battle_pyramid.h"
+#include "event_scripts.h"
 #include "battle_pyramid_bag.h"
 #include "bg.h"
 #include "contest.h"
@@ -119,6 +120,8 @@ enum {
     MENU_CHANGE_ABILITY,
     MENU_PKMN_FOLLOWER,
     MENU_NICKNAME,
+    MENU_FORGET_MOVE,
+    MENU_OTHERS,
     MENU_FIELD_MOVES
 };
 
@@ -141,6 +144,7 @@ enum {
     ACTIONS_TAKEITEM_TOSS,
     ACTIONS_ROTOM_CATALOG,
     ACTIONS_ZYGARDE_CUBE,
+    ACTIONS_OTHERS, // HnS JP: なまえ / わすれる
 };
 
 enum {
@@ -471,6 +475,10 @@ static void BlitBitmapToPartyWindow_LeftColumn(u8, u8, u8, u8, u8, bool8);
 static void BlitBitmapToPartyWindow_RightColumn(u8, u8, u8, u8, u8, bool8);
 static void CursorCb_Summary(u8);
 static void CursorCb_Nickname(u8);
+static void CursorCb_ForgetMove(u8);
+static void CursorCb_Others(u8);
+static bool32 CanNicknameFromPartyMenu(struct Pokemon *mon);
+static bool32 CanForgetMoveFromPartyMenu(struct Pokemon *mon);
 static void CursorCb_Switch(u8);
 static void CursorCb_Cancel1(u8);
 static void CursorCb_Item(u8);
@@ -2924,6 +2932,15 @@ static void SetPartyMonSelectionActions(struct Pokemon *mons, u8 slotId, u8 acti
         sPartyMenuInternal->numActions = 0;
         SetPartyMonLearnMoveSelectionActions(mons, slotId);
     }
+    else if (action == ACTIONS_OTHERS)
+    {
+        sPartyMenuInternal->numActions = 0;
+        if (CanNicknameFromPartyMenu(&mons[slotId]))
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_NICKNAME);
+        if (CanForgetMoveFromPartyMenu(&mons[slotId]))
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FORGET_MOVE);
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
+    }
     else
     {
         sPartyMenuInternal->numActions = sPartyMenuActionCounts[action];
@@ -2951,6 +2968,21 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
      && CanBoxMonRelearnAnyMove(&mons[slotId].box))
     {
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_SUB_MOVES);
+    }
+
+    // HnS JP: keep room in the 8-line menu for the entries that follow the field moves
+    // (いれかえ, もちもの, つれあるく, そのほか, やめる); field moves past the room are dropped
+    // (そらをとぶ / フラッシュ are listed first, the others can also be used by pressing A in the field).
+    {
+        s32 tail = 1
+                 + ((CanNicknameFromPartyMenu(&mons[slotId]) || CanForgetMoveFromPartyMenu(&mons[slotId])) ? 1 : 0)
+                 + ((slotId == GetFirstLiveMonIndex()) ? 1 : 0)
+                 + (!InBattlePike() ? (1 + ((GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE) ? 1 : 0)) : 0);
+        s32 room = (s32)ARRAY_COUNT(sPartyMenuInternal->actions) - sPartyMenuInternal->numActions - tail;
+        if (room < 0)
+            room = 0;
+        if (room < maxFieldMoves)
+            maxFieldMoves = room;
     }
 
     if (HMsOverwriteOptionActive() && slotId == 0)
@@ -2984,21 +3016,6 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     }
     else
     {
-        for (i = 0; i < MAX_MON_MOVES; i++)
-        {
-            for (j = 0; j != FIELD_MOVES_COUNT; j++)
-            {
-                if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == FieldMove_GetMoveId(j))
-                {
-                    if (FieldMove_GetMoveId(j) != MOVE_FLY && FieldMove_GetMoveId(j) != MOVE_FLASH && numFieldMoves < maxFieldMoves)
-                    {
-                        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + MENU_FIELD_MOVES);
-                        numFieldMoves++;
-                    }
-                    break;
-                }
-            }
-        }
         // HnS JP: the first Pokémon can also use そらをとぶ / フラッシュ whenever the HM is in the Bag,
         // even if no Pokémon can learn it (no HM slave needed).
         if (numFieldMoves < maxFieldMoves
@@ -3013,6 +3030,21 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         {
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLASH + MENU_FIELD_MOVES);
             numFieldMoves++;
+        }
+        for (i = 0; i < MAX_MON_MOVES; i++)
+        {
+            for (j = 0; j != FIELD_MOVES_COUNT; j++)
+            {
+                if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == FieldMove_GetMoveId(j))
+                {
+                    if (FieldMove_GetMoveId(j) != MOVE_FLY && FieldMove_GetMoveId(j) != MOVE_FLASH && numFieldMoves < maxFieldMoves)
+                    {
+                        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + MENU_FIELD_MOVES);
+                        numFieldMoves++;
+                    }
+                    break;
+                }
+            }
         }
     }
 
@@ -3032,12 +3064,10 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_PKMN_FOLLOWER);
     }
 
-    // HnS JP (kit port): "なまえ" — only for your own (non-traded) Pokémon, and only if the window has room.
+    // HnS JP: "そのほか" opens なまえ (kit port) / わすれる
     if (sPartyMenuInternal->numActions + 2 <= ARRAY_COUNT(sPartyMenuInternal->actions)
-     && !GetMonData(&mons[slotId], MON_DATA_IS_EGG)
-     && GetMonData(&mons[slotId], MON_DATA_OT_ID) == GetPlayerIDAsU32()
-     && !InBattlePike())
-        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_NICKNAME);
+     && (CanNicknameFromPartyMenu(&mons[slotId]) || CanForgetMoveFromPartyMenu(&mons[slotId])))
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_OTHERS);
 
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
 }
@@ -3215,6 +3245,48 @@ static void CB2_PartyMenuNickname(void)
 {
     gSpecialVar_0x8004 = gPartyMenu.slotId;
     ChangePokemonNicknameWithCallback(CB2_ReturnToPartyMenuFromNickname);
+}
+
+static bool32 CanNicknameFromPartyMenu(struct Pokemon *mon)
+{
+    return !GetMonData(mon, MON_DATA_IS_EGG)
+        && GetMonData(mon, MON_DATA_OT_ID) == GetPlayerIDAsU32()
+        && !InBattlePike();
+}
+
+static bool32 CanForgetMoveFromPartyMenu(struct Pokemon *mon)
+{
+    return gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD
+        && !GetMonData(mon, MON_DATA_IS_EGG)
+        && GetMonData(mon, MON_DATA_MOVE2) != MOVE_NONE
+        && !InBattlePike() && !InBattlePyramid_();
+}
+
+static void CursorCb_Others(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    SetPartyMonSelectionActions(gPlayerParty, gPartyMenu.slotId, ACTIONS_OTHERS);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    DisplayPartyMenuStdMessage(PARTY_MSG_DO_WHAT_WITH_MON);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+
+static void FieldCallback_ForgetMove(void)
+{
+    gSpecialVar_0x8004 = GetCursorSelectionMonId();
+    ScriptContext_SetupScript(EventScript_PartyMenuForgetMove);
+}
+
+static void CursorCb_ForgetMove(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
+    gPostMenuFieldCallback = FieldCallback_ForgetMove;
+    gPartyMenu.exitCallback = CB2_ReturnToField;
+    Task_ClosePartyMenu(taskId);
 }
 
 static void CursorCb_Nickname(u8 taskId)

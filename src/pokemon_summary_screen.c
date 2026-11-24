@@ -3988,6 +3988,25 @@ static void PrintEggMemo(void)
         text = gText_OddEggFoundByCouple;
     }
 
+    // HnS JP: add a rough number of steps left until the Egg hatches
+    if (sMonSummaryScreen->summary.sanity != 1)
+    {
+        static const u8 sText_EggStepsLeft[] = _("\nあと　やく　{STR_VAR_1}ほで　かえりそう");
+        static const u8 sText_EggStepsSoon[] = _("\nあと　すこし　あるけば　かえりそう");
+        u32 cycleSteps = (P_EGG_CYCLE_LENGTH >= GEN_8) ? 128 : 256;
+        u32 steps = sum->friendship * cycleSteps;
+
+        StringCopy(gStringVar4, text);
+        if (steps == 0)
+            StringAppend(gStringVar4, sText_EggStepsSoon);
+        else
+        {
+            ConvertIntToDecimalStringN(gStringVar1, steps, STR_CONV_MODE_LEFT_ALIGN, 5);
+            StringExpandPlaceholders(gStringVar3, sText_EggStepsLeft);
+            StringAppend(gStringVar4, gStringVar3);
+        }
+        text = gStringVar4;
+    }
     PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_MEMO), text, 0, 1, 0, 0);
 }
 
