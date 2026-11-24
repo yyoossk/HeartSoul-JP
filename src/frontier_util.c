@@ -3294,23 +3294,44 @@ static void JpSpeechToString(u8 *dest, const u8 *const *src, u16 columns, u16 ro
     *dest = EOS;
 }
 
-// HnS JP: the speech of the 300 original Frontier trainers comes from the Japanese Emerald.
+// HnS JP: the speech of the original Frontier and Battle Tent trainers comes from the Japanese Emerald.
+struct JpSpeechSource
+{
+    const struct BattleFrontierTrainer *trainers;
+    u32 count;
+    const u8 *const (*speech)[3][6];
+};
+
+static const struct JpSpeechSource sJpSpeechSources[] =
+{
+    {gBattleFrontierTrainers, ARRAY_COUNT(sJpFrontierSpeech), sJpFrontierSpeech},
+    {gSlateportBattleTentTrainers, ARRAY_COUNT(sJpSlateportTentSpeech), sJpSlateportTentSpeech},
+    {gVerdanturfBattleTentTrainers, ARRAY_COUNT(sJpVerdanturfTentSpeech), sJpVerdanturfTentSpeech},
+    {gFallarborBattleTentTrainers, ARRAY_COUNT(sJpFallarborTentSpeech), sJpFallarborTentSpeech},
+};
+
 static const u8 *const *GetJpFrontierSpeech(const u16 *words)
 {
-    const u8 *start = (const u8 *)gBattleFrontierTrainers;
     const u8 *ptr = (const u8 *)words;
-    u32 trainerId, offset;
+    u32 i;
 
-    if (ptr < start || ptr >= start + sizeof(struct BattleFrontierTrainer) * ARRAY_COUNT(sJpFrontierSpeech))
+    for (i = 0; i < ARRAY_COUNT(sJpSpeechSources); i++)
+    {
+        const u8 *start = (const u8 *)sJpSpeechSources[i].trainers;
+        u32 trainerId, offset;
+
+        if (ptr < start || ptr >= start + sizeof(struct BattleFrontierTrainer) * sJpSpeechSources[i].count)
+            continue;
+        trainerId = (ptr - start) / sizeof(struct BattleFrontierTrainer);
+        offset = (ptr - start) % sizeof(struct BattleFrontierTrainer);
+        if (offset == offsetof(struct BattleFrontierTrainer, speechBefore))
+            return sJpSpeechSources[i].speech[trainerId][0];
+        if (offset == offsetof(struct BattleFrontierTrainer, speechWin))
+            return sJpSpeechSources[i].speech[trainerId][1];
+        if (offset == offsetof(struct BattleFrontierTrainer, speechLose))
+            return sJpSpeechSources[i].speech[trainerId][2];
         return NULL;
-    trainerId = (ptr - start) / sizeof(struct BattleFrontierTrainer);
-    offset = (ptr - start) % sizeof(struct BattleFrontierTrainer);
-    if (offset == offsetof(struct BattleFrontierTrainer, speechBefore))
-        return sJpFrontierSpeech[trainerId][0];
-    if (offset == offsetof(struct BattleFrontierTrainer, speechWin))
-        return sJpFrontierSpeech[trainerId][1];
-    if (offset == offsetof(struct BattleFrontierTrainer, speechLose))
-        return sJpFrontierSpeech[trainerId][2];
+    }
     return NULL;
 }
 
