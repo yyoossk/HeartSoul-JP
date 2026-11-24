@@ -1130,7 +1130,7 @@ static vu16 *GetFoeBarCapTile(u32 healthboxSpriteId)
 static bool32 CanTouchFoeBarCap(u32 healthboxSpriteId)
 {
     enum BattlerId battler = gSprites[healthboxSpriteId].hMain_Battler;
-    return !UseGen4BattleUI() && !IsOnPlayerSide(battler) && GetBattlerCoordsIndex(battler) == BATTLE_COORDS_SINGLES;
+    return !UseGen4BattleUI() && !IsOnPlayerSide(battler);
 }
 
 static void HideFoeBarCap(u32 healthboxSpriteId)
@@ -1269,7 +1269,7 @@ void SwapHpBarsWithHpText(void)
         if (gSprites[gHealthboxSpriteIds[i]].callback == SpriteCallbackDummy
          && !(gBattleTypeFlags & BATTLE_TYPE_SAFARI)
          && (IsOnPlayerSide(i) ? GetBattlerCoordsIndex(i) != BATTLE_COORDS_SINGLES
-                               : (GetBattlerCoordsIndex(i) == BATTLE_COORDS_SINGLES && !UseGen4BattleUI()))) // HnS JP (kit port): START also shows a single foe's HP as numbers
+                               : !UseGen4BattleUI())) // HnS JP (kit port): START also shows the foes' HP as numbers
         {
             s32 currHp = GetMonData(mon, MON_DATA_HP);
             s32 maxHp = GetMonData(mon, MON_DATA_MAX_HP);
