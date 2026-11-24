@@ -667,6 +667,7 @@ gSpecials::
 	def_special IsNuzlockeNicknamingActive
 	def_special IsRandomMovesActivated
 	def_special IsPokecenterChallengeActivated
+	def_special IsFasterJoyOn
 	def_special IsOneTypeChallengeActive
 	def_special CheckRadioStation
 	def_special Special_BuenaPasswordShowMultichoice

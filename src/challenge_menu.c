@@ -2425,6 +2425,18 @@ u8 GetCurrentTrainerEVs(void)
     }
 }
 
+// HnS JP: read the はやいかいふく option itself (the engine flag can be out of date in older saves)
+bool8 IsFasterJoyOn(void)
+{
+    if (gSaveBlock3Ptr->challengeSettings.evenFasterJoy == 0)
+    {
+        FlagSet(FLAG_EVEN_FASTER_JOY);
+        return TRUE;
+    }
+    FlagClear(FLAG_EVEN_FASTER_JOY);
+    return FALSE;
+}
+
 bool8 IsPokecenterChallengeActivated(void)
 {
     return gSaveBlock3Ptr->challengeSettings.tx_Challenges_PkmnCenter;

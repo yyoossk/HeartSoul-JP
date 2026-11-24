@@ -12,6 +12,7 @@ bool8 IsPartyLimitChallengeActive(void);
 u8 GetCurrentTrainerIVs(void);
 u8 GetCurrentTrainerEVs(void);
 bool8 IsPokecenterChallengeActivated(void);
+bool8 IsFasterJoyOn(void);
 bool8 IsOneTypeChallengeActive(void);
 bool8 DoesSpeciesPassOneTypeChallenge(u16 species);
 u32 GetBaseStatEqualizerValue(void);
