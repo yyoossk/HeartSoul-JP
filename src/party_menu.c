@@ -68,6 +68,7 @@
 #include "text.h"
 #include "text_window.h"
 #include "trade.h"
+#include "tv.h"
 #include "union_room.h"
 #include "window.h"
 #include "constants/battle.h"
@@ -117,6 +118,7 @@ enum {
     MENU_CHANGE_FORM,
     MENU_CHANGE_ABILITY,
     MENU_PKMN_FOLLOWER,
+    MENU_NICKNAME,
     MENU_FIELD_MOVES
 };
 
@@ -462,6 +464,7 @@ static void ShiftMoveSlot(struct BoxPokemon *, u8, u8);
 static void BlitBitmapToPartyWindow_LeftColumn(u8, u8, u8, u8, u8, bool8);
 static void BlitBitmapToPartyWindow_RightColumn(u8, u8, u8, u8, u8, bool8);
 static void CursorCb_Summary(u8);
+static void CursorCb_Nickname(u8);
 static void CursorCb_Switch(u8);
 static void CursorCb_Cancel1(u8);
 static void CursorCb_Item(u8);
@@ -3019,6 +3022,13 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_PKMN_FOLLOWER);
     }
 
+    // HnS JP (kit port): "なまえ" — only for your own (non-traded) Pokémon, and only if the window has room.
+    if (sPartyMenuInternal->numActions + 2 <= ARRAY_COUNT(sPartyMenuInternal->actions)
+     && !GetMonData(&mons[slotId], MON_DATA_IS_EGG)
+     && GetMonData(&mons[slotId], MON_DATA_OT_ID) == GetPlayerIDAsU32()
+     && !InBattlePike())
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_NICKNAME);
+
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
 }
 
@@ -3180,6 +3190,27 @@ static void CursorCb_Summary(u8 taskId)
 {
     PlaySE(SE_SELECT);
     sPartyMenuInternal->exitCallback = CB2_ShowPokemonSummaryScreen;
+    Task_ClosePartyMenu(taskId);
+}
+
+static void CB2_ReturnToPartyMenuFromNickname(void)
+{
+    if (gStringVar2[0] != EOS)
+        SetMonData(&gPlayerParty[gPartyMenu.slotId], MON_DATA_NICKNAME, gStringVar2);
+    gPaletteFade.bufferTransferDisabled = TRUE;
+    InitPartyMenu(gPartyMenu.menuType, KEEP_PARTY_LAYOUT, gPartyMenu.action, TRUE, PARTY_MSG_DO_WHAT_WITH_MON, Task_TryCreateSelectionWindow, gPartyMenu.exitCallback);
+}
+
+static void CB2_PartyMenuNickname(void)
+{
+    gSpecialVar_0x8004 = gPartyMenu.slotId;
+    ChangePokemonNicknameWithCallback(CB2_ReturnToPartyMenuFromNickname);
+}
+
+static void CursorCb_Nickname(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    sPartyMenuInternal->exitCallback = CB2_PartyMenuNickname;
     Task_ClosePartyMenu(taskId);
 }
 

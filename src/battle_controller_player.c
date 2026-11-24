@@ -1766,13 +1766,14 @@ static void MoveSelectionDisplayMoveDescription(enum BattlerId battler)
         acc = 0;
     }
 
-    u8 pwr_num[3], acc_num[3];
-    u8 cat_desc[7] = _("ぶんるい:");
-    u8 pwr_desc[7] = _("いりょく:");
-    u8 acc_desc[7] = _("めいちゅう:");
-    u8 cat_start[] = _("{CLEAR_TO 0x03}");
-    u8 pwr_start[] = _("{CLEAR_TO 0x38}");
-    u8 acc_start[] = _("{CLEAR_TO 0x6C}");
+    // HnS JP: Japanese glyphs are 8px wide, so the English layout ("ぶんるい:" + "いりょく:" + "めいちゅう:")
+    // ran past the window and the numbers were cut off. Layout: [category icon] いりょく 80  めいちゅう 100
+    // with the numbers in narrow Latin digits. (Buffers hold 3 digits + EOS.)
+    static const u8 sPowerLabel[] = _("{CLEAR_TO 34}いりょく{CLEAR_TO 67}");
+    static const u8 sAccuracyLabel[] = _("{CLEAR_TO 86}めいちゅう{CLEAR_TO 127}");
+    static const u8 sLatinOn[] = {EXT_CTRL_CODE_BEGIN, EXT_CTRL_CODE_ENG, EOS};
+    static const u8 sLatinOff[] = {EXT_CTRL_CODE_BEGIN, EXT_CTRL_CODE_JPN, EOS};
+    u8 pwr_num[4], acc_num[4];
     LoadMessageBoxAndBorderGfx();
     DrawStdWindowFrame(B_WIN_MOVE_DESCRIPTION, FALSE);
     if (pwr < 2)
@@ -1783,20 +1784,20 @@ static void MoveSelectionDisplayMoveDescription(enum BattlerId battler)
         StringCopy(acc_num, gText_BattleSwitchWhich5);
     else
         ConvertIntToDecimalStringN(acc_num, acc, STR_CONV_MODE_LEFT_ALIGN, 3);
-    StringCopy(gDisplayedStringBattle, cat_start);
-    StringAppend(gDisplayedStringBattle, cat_desc);
-    StringAppend(gDisplayedStringBattle, pwr_start);
-    StringAppend(gDisplayedStringBattle, pwr_desc);
+    StringCopy(gDisplayedStringBattle, sPowerLabel);
+    StringAppend(gDisplayedStringBattle, sLatinOn);
     StringAppend(gDisplayedStringBattle, pwr_num);
-    StringAppend(gDisplayedStringBattle, acc_start);
-    StringAppend(gDisplayedStringBattle, acc_desc);
+    StringAppend(gDisplayedStringBattle, sLatinOff);
+    StringAppend(gDisplayedStringBattle, sAccuracyLabel);
+    StringAppend(gDisplayedStringBattle, sLatinOn);
     StringAppend(gDisplayedStringBattle, acc_num);
+    StringAppend(gDisplayedStringBattle, sLatinOff);
     StringAppend(gDisplayedStringBattle, gText_NewLine);
     StringAppend(gDisplayedStringBattle, GetMoveDescription(move));
     BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MOVE_DESCRIPTION);
 
     if (gCategoryIconSpriteId == 0xFF)
-        gCategoryIconSpriteId = CreateSprite(&gSpriteTemplate_CategoryIcons, 38, 64, 1);
+        gCategoryIconSpriteId = CreateSprite(&gSpriteTemplate_CategoryIcons, 24, 64, 1);
 
     StartSpriteAnim(&gSprites[gCategoryIconSpriteId], cat);
 

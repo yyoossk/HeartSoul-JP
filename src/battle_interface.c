@@ -179,6 +179,7 @@ enum
 static const u8 *GetHealthboxElementGfxPtr(u8);
 static u8 *AddTextPrinterAndCreateWindowOnHealthbox(const u8 *, u32, u32, u32, u32 *, bool32);
 static u8 *AddTextPrinterAndCreateWindowOnHealthboxToFit(const u8 *, u32, u32, u32, u32 *, u32, bool32);
+static u8 *AddNumberTextOnHealthbox(const u8 *, u32, u32, u32, u32 *, bool32);
 
 static void RemoveWindowOnHealthbox(u32 windowId);
 static void UpdateHpTextInHealthboxInDoubles(u32 healthboxSpriteId, u32 maxOrCurrent, s16 currHp, s16 maxHp);
@@ -918,7 +919,7 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
         if (GetIndicatorPalTag(battler) != TAG_NONE)
             xPos -= 5;
 
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, xPos, 3, 2, &windowId, FALSE);
+        windowTileData = AddNumberTextOnHealthbox(text, xPos, 3, 2, &windowId, FALSE);
         spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
 
         if (IsOnPlayerSide(battler))
@@ -979,7 +980,7 @@ static void PrintHpOnHealthbox(u32 spriteId, s16 currHp, s16 maxHp, u32 bgColor,
         u32 rightTile = 0xB00;
         u32 leftTile = 0x3A0;
 
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(txtPtr - 6, 0, 5, bgColor, &windowId, TRUE);
+        windowTileData = AddNumberTextOnHealthbox(txtPtr - 6, 0, 5, bgColor, &windowId, TRUE);
         HpTextIntoHealthboxObject(objVram + rightTile, windowTileData, 4);
         RemoveWindowOnHealthbox(windowId);
 
@@ -988,7 +989,7 @@ static void PrintHpOnHealthbox(u32 spriteId, s16 currHp, s16 maxHp, u32 bgColor,
             x = 9, tilesCount = 3;
         else
             x = 6, tilesCount = 2, leftTile += 0x20;
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, x, 5, bgColor, &windowId, TRUE);
+        windowTileData = AddNumberTextOnHealthbox(text, x, 5, bgColor, &windowId, TRUE);
         HpTextIntoHealthboxObject(objVram + leftTile, windowTileData, tilesCount);
         RemoveWindowOnHealthbox(windowId);
     }
@@ -1062,7 +1063,7 @@ static void UpdateOpponentHpTextDoubles(u32 healthboxSpriteId, u32 barSpriteId, 
 }
 
 // Same with this one.
-static void UpdateOpponentHpTextSingles(u32 healthboxSpriteId, s16 value, u32 maxOrCurrent)
+static UNUSED void UpdateOpponentHpTextSingles(u32 healthboxSpriteId, s16 value, u32 maxOrCurrent)
 {
     u8 text[32];
     u32 var, i;
@@ -1106,12 +1107,63 @@ void UpdateHpTextInHealthbox(u32 healthboxSpriteId, u32 maxOrCurrent, s16 currHp
         }
         else // Opponent
         {
-            UpdateOpponentHpTextSingles(healthboxSpriteId, currHp, HP_CURRENT);
-            UpdateOpponentHpTextSingles(healthboxSpriteId, maxHp, HP_MAX);
+            // HnS JP: same drawing as the START toggle so the numbers stay in one place.
+            UpdateHpTextInHealthboxInDoubles(healthboxSpriteId, maxOrCurrent, currHp, maxHp);
         }
         break;
     }
     }
+}
+
+// HnS JP (kit port): when a single foe's HP is shown as numbers, the right end cap of the HP bar
+// (drawn in the healthbox frame itself) is hidden, and put back when the bar returns.
+static EWRAM_DATA u16 sFoeBarCapTile[MAX_BATTLERS_COUNT][TILE_SIZE_4BPP / 2] = {0};
+static EWRAM_DATA bool8 sFoeBarCapSaved[MAX_BATTLERS_COUNT] = {0};
+
+// OBJ VRAM ignores 8-bit writes, so the tile is handled as halfwords.
+static vu16 *GetFoeBarCapTile(u32 healthboxSpriteId)
+{
+    u32 spriteId2 = gSprites[healthboxSpriteId].oam.affineParam;
+    return (vu16 *)(OBJ_VRAM0 + (gSprites[spriteId2].oam.tileNum + 19) * TILE_SIZE_4BPP);
+}
+
+static bool32 CanTouchFoeBarCap(u32 healthboxSpriteId)
+{
+    enum BattlerId battler = gSprites[healthboxSpriteId].hMain_Battler;
+    return !UseGen4BattleUI() && !IsOnPlayerSide(battler) && GetBattlerCoordsIndex(battler) == BATTLE_COORDS_SINGLES;
+}
+
+static void HideFoeBarCap(u32 healthboxSpriteId)
+{
+    enum BattlerId battler = gSprites[healthboxSpriteId].hMain_Battler;
+    vu16 *tile;
+    u32 i;
+
+    if (!CanTouchFoeBarCap(healthboxSpriteId))
+        return;
+    tile = GetFoeBarCapTile(healthboxSpriteId);
+    if ((tile[2 * 2] & 0xF) != 8) // cap not there (already hidden)
+        return;
+    for (i = 0; i < TILE_SIZE_4BPP / 2; i++)
+        sFoeBarCapTile[battler][i] = tile[i];
+    sFoeBarCapSaved[battler] = TRUE;
+    // pixel columns 0-1 of rows 1-6 hold the cap: paint them with the box background (colour 2)
+    for (i = 1; i <= 6; i++)
+        tile[i * 2] = (tile[i * 2] & 0xFF00) | 0x22;
+}
+
+static void RestoreFoeBarCap(u32 healthboxSpriteId)
+{
+    enum BattlerId battler = gSprites[healthboxSpriteId].hMain_Battler;
+    vu16 *tile;
+    u32 i;
+
+    if (!CanTouchFoeBarCap(healthboxSpriteId) || !sFoeBarCapSaved[battler])
+        return;
+    tile = GetFoeBarCapTile(healthboxSpriteId);
+    for (i = 0; i < TILE_SIZE_4BPP / 2; i++)
+        tile[i] = sFoeBarCapTile[battler][i];
+    sFoeBarCapSaved[battler] = FALSE;
 }
 
 static void UpdateHpTextInHealthboxInDoubles(u32 healthboxSpriteId, u32 maxOrCurrent, s16 currHp, s16 maxHp)
@@ -1134,6 +1186,8 @@ static void UpdateHpTextInHealthboxInDoubles(u32 healthboxSpriteId, u32 maxOrCur
     }
     else // Opponent
     {
+        if (gBattleSpritesDataPtr->battlerData[battler].hpNumbersNoBars)
+            HideFoeBarCap(healthboxSpriteId);
         UpdateOpponentHpTextDoubles(healthboxSpriteId, barSpriteId, maxHp, HP_MAX);
         UpdateOpponentHpTextDoubles(healthboxSpriteId, barSpriteId, currHp, HP_CURRENT);
     }
@@ -1213,8 +1267,9 @@ void SwapHpBarsWithHpText(void)
     {
         struct Pokemon *mon = GetBattlerMon(i);
         if (gSprites[gHealthboxSpriteIds[i]].callback == SpriteCallbackDummy
-         && IsOnPlayerSide(i)
-         && (GetBattlerCoordsIndex(i) != BATTLE_COORDS_SINGLES || !IsOnPlayerSide(i)))
+         && !(gBattleTypeFlags & BATTLE_TYPE_SAFARI)
+         && (IsOnPlayerSide(i) ? GetBattlerCoordsIndex(i) != BATTLE_COORDS_SINGLES
+                               : (GetBattlerCoordsIndex(i) == BATTLE_COORDS_SINGLES && !UseGen4BattleUI()))) // HnS JP (kit port): START also shows a single foe's HP as numbers
         {
             s32 currHp = GetMonData(mon, MON_DATA_HP);
             s32 maxHp = GetMonData(mon, MON_DATA_MAX_HP);
@@ -1267,6 +1322,7 @@ void SwapHpBarsWithHpText(void)
                 }
                 else // text to bars
                 {
+                    RestoreFoeBarCap(gHealthboxSpriteIds[i]);
                     UpdateStatusIconInHealthbox(gHealthboxSpriteIds[i]);
                     UpdateHealthboxAttribute(gHealthboxSpriteIds[i], mon, HEALTHBOX_HEALTH_BAR);
                     if (gBattleTypeFlags & BATTLE_TYPE_SAFARI)
@@ -2544,6 +2600,29 @@ static u8 *AddTextPrinterAndCreateWindowOnHealthboxWithFont(const u8 *str, u32 x
 static u8 *AddTextPrinterAndCreateWindowOnHealthbox(const u8 *str, u32 x, u32 y, u32 bgColor, u32 *windowId, bool32 isHP)
 {
     return AddTextPrinterAndCreateWindowOnHealthboxWithFont(str, x, y, bgColor, windowId, FONT_SMALL, isHP);
+}
+
+// HnS JP: the Gen 4 style healthbox has fixed-width slots for the level and HP numbers.
+// Japanese-mode digits are 8px wide and get cut off ("Lv10", "231/3"), so print the numbers with
+// the narrow Latin digits, like the English version does.
+static u8 *AddNumberTextOnHealthbox(const u8 *str, u32 x, u32 y, u32 bgColor, u32 *windowId, bool32 isHP)
+{
+    u8 buffer[24];
+    u32 i;
+
+    buffer[0] = EXT_CTRL_CODE_BEGIN;
+    buffer[1] = EXT_CTRL_CODE_ENG;
+    StringCopyN(buffer + 2, str, sizeof(buffer) - 3);
+    buffer[sizeof(buffer) - 1] = EOS;
+    // Padding spaces become the Latin "spacer" (digit-wide blank), as in the English version.
+    for (i = 2; i < sizeof(buffer) && buffer[i] != EOS; i++)
+    {
+        if (buffer[i] == CHAR_EXTRA_SYMBOL)
+            i++;
+        else if (buffer[i] == CHAR_SPACER)
+            buffer[i] = 0x77;
+    }
+    return AddTextPrinterAndCreateWindowOnHealthbox(buffer, x, y, bgColor, windowId, isHP);
 }
 
 static u8 *AddTextPrinterAndCreateWindowOnHealthboxToFit(const u8 *str, u32 x, u32 y, u32 bgColor, u32 *windowId, u32 width, bool32 isHP)
