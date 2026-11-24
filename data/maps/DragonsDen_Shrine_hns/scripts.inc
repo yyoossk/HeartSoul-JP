@@ -191,7 +191,7 @@ DragonsDen_Shrine_Text_Question4:
 	.string "ポケモンを　そだてる　うえで\nいちばん　だいじな　ことは？$"
 
 DragonsDen_Shrine_Text_Question5:
-	.string "つよい　ポケモン　よわい\nポケモン　だいじなのは\lどちらじゃ？$"
+	.string "つよい　ポケモンと　よわい　ポケモン\nだいじなのは　どちらじゃ？$"
 
 DragonsDen_Shrine_Text_WrongAnswer1:
 	.string "はて？　よく\nきこえなんだが‥$"
