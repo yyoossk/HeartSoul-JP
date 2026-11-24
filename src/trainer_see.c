@@ -1034,6 +1034,19 @@ void TryPrepareSecondApproachingTrainer(void)
 #define sYOffset    data[4]
 #define sFldEffId   data[7]
 
+// Hasep: when the icon sprite can't be created (no free sprite or no free
+// sprite tiles), the effect never reaches FieldEffectStop, so it stays in the
+// active list and a script's waitfieldeffect waits forever. Seen in the Johto
+// Safari Zone: 11 Pokémon objects plus 6 overworld wild Pokémon left 10 free
+// sprite tiles, and talking to the follower (EventScript_FollowerGeneric,
+// waitfieldeffect FLDEFF_EMOTE) froze the game. Without a sprite the icon is
+// simply not shown.
+static u8 IconSpriteNotCreated(u8 fldEffId)
+{
+    FieldEffectActiveListRemove(fldEffId);
+    return 0;
+}
+
 u8 FldEff_ExclamationMarkIcon(void)
 {
     u8 spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x53);
@@ -1042,6 +1055,10 @@ u8 FldEff_ExclamationMarkIcon(void)
     {
         SetIconSpriteData(&gSprites[spriteId], FLDEFF_EXCLAMATION_MARK_ICON, 0);
         UpdateSpritePaletteByTemplate(&sSpriteTemplate_ExclamationQuestionMark, &gSprites[spriteId]);
+    }
+    else
+    {
+        return IconSpriteNotCreated(FLDEFF_EXCLAMATION_MARK_ICON);
     }
 
     return 0;
@@ -1056,7 +1073,7 @@ u8 FldEff_QuestionMarkIcon(void)
         u8 emotion = gFieldEffectArguments[7];
         spriteId = CreateSpriteAtEnd(&sSpriteTemplate_Emote, 0, 0, 0x52);
         if (spriteId == MAX_SPRITES)
-            return 0;
+            return IconSpriteNotCreated(FLDEFF_EMOTE);
         SetIconSpriteData(&gSprites[spriteId], FLDEFF_EMOTE, emotion); // Set animation based on emotion
         UpdateSpritePaletteByTemplate(&sSpriteTemplate_Emote, &gSprites[spriteId]);
         return 0;
@@ -1067,6 +1084,10 @@ u8 FldEff_QuestionMarkIcon(void)
     {
         SetIconSpriteData(&gSprites[spriteId], FLDEFF_QUESTION_MARK_ICON, 1);
         UpdateSpritePaletteByTemplate(&sSpriteTemplate_ExclamationQuestionMark, &gSprites[spriteId]);
+    }
+    else
+    {
+        return IconSpriteNotCreated(FLDEFF_QUESTION_MARK_ICON);
     }
 
     return 0;
@@ -1083,6 +1104,10 @@ u8 FldEff_HeartIcon(void)
         SetIconSpriteData(sprite, FLDEFF_HEART_ICON, 0);
         UpdateSpritePaletteByTemplate(&sSpriteTemplate_HeartIcon, sprite);
     }
+    else
+    {
+        return IconSpriteNotCreated(FLDEFF_HEART_ICON);
+    }
 
     return 0;
 }
@@ -1097,6 +1122,10 @@ u8 FldEff_DoubleExclMarkIcon(void)
 
         SetIconSpriteData(sprite, FLDEFF_DOUBLE_EXCL_MARK_ICON, 2);
         UpdateSpritePaletteByTemplate(&sSpriteTemplate_ExclamationQuestionMark, sprite);
+    }
+    else
+    {
+        return IconSpriteNotCreated(FLDEFF_DOUBLE_EXCL_MARK_ICON);
     }
 
     return 0;
@@ -1113,6 +1142,10 @@ u8 FldEff_XIcon(void)
         SetIconSpriteData(sprite, FLDEFF_X_ICON, 3);
         UpdateSpritePaletteByTemplate(&sSpriteTemplate_ExclamationQuestionMark, sprite);
     }
+    else
+    {
+        return IconSpriteNotCreated(FLDEFF_X_ICON);
+    }
 
     return 0;
 }
@@ -1123,6 +1156,8 @@ u8 FldEff_SmileyFaceIcon(void)
 
     if (spriteId != MAX_SPRITES)
         SetIconSpriteData(&gSprites[spriteId], FLDEFF_SMILEY_FACE_ICON, 3);
+    else
+        return IconSpriteNotCreated(FLDEFF_SMILEY_FACE_ICON);
 
     return 0;
 }
