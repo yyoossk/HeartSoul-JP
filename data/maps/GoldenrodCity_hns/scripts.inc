@@ -304,7 +304,7 @@ GoldenrodCity_Text_Snubbull:
 	.string "ブルー『ブルーッ！$"
 
 GoldenrodCity_Text_MrMime:
-	.string "............................$"
+	.string "‥‥‥‥‥‥‥‥‥‥‥‥‥‥$"
 
 GoldenrodCity_Text_ElmName:
 	.string "ウツギはかせ$"

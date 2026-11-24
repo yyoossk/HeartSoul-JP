@@ -346,7 +346,7 @@ DragonsDen_Shrine_Text_ElderScoldsClair:
 	.string "イブキ‥\pおぬしに　なくて　この　こに\nある　ものが　なにか\lよく　かんがえるのじゃ$"
 
 DragonsDen_Shrine_Text_Speechless:
-    .string "..................................$"
+    .string "‥‥‥‥‥‥‥‥‥‥‥‥‥‥$"
 
 DragonsDen_Shrine_Text_ComeAgain:
 	.string "きたく　なったら\nまた　くるがよい$"

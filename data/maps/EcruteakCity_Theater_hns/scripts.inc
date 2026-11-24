@@ -894,7 +894,7 @@ EcruteakCity_Theater_Movement_KuniWalkBack:
 	step_end
 
 EcruteakCity_Theater_Text_KimonoGirlBeaten:
-	.string "...$"
+	.string "‥$"
 
 EcruteakCity_Theater_Text_ZukiSeen:
 	.string "ようこそ　わたくしは　ズキ\nキキョウシティで　いちど\lおあい　しましたね\p{STR_VAR_1}を　よびもどすには\nポケモンと　ただしい　きずなを\lもつ　ひとが　ひつよう　でした\pそこで　みこみの　ある　ひとに\nふしぎな　タマゴを　わたすよう\lポケモンじいさんに\lたのんだのです\pタマゴは　ポケモンじいさんから\nウツギはかせへ　そして\lあなたへ　わたりました\pでも　こころが　きよい　だけでは\nこの　ポケモンの　ちからに\lたちむかえ　ません$"

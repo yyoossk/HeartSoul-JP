@@ -26,7 +26,7 @@ LavenderTown_House1_Text_Girl:
 LavenderTown_House1_Text_Guy:
 	.string "フジろうじんは　ここに\nすんでるけど　いまは\lたましいのいえに　いるはずだ$"
 LavenderTown_House1_Text_Marowak:
-	.string ".............................$"
+	.string "‥‥‥‥‥‥‥‥‥‥‥‥‥‥$"
 
 LavenderTown_House1_Text_Marowak2:
 	.string "ガラガラは　おとなしいけど\nしあわせ　そうだ$"

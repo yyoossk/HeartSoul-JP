@@ -130,7 +130,7 @@ static const u8 sCreditsText_Nettorizo[]                       = _("Nettorizo");
 
 static const u8 sCreditsText_Engine[]                          = _("Engine");
 static const u8 sCreditsText_Pret[]                            = _("pokeemerald - Pret");
-static const u8 sCreditsText_Resetes12[]                       = _("Modern Emerald - Resetes12");
+static const u8 sCreditsText_Resetes12[]                       = _("Modern Emerald-Resetes12");
 static const u8 sCreditsText_PokeemeraldExpansion[]            = _("Pokeemerald Expansion");
 
 static const u8 sCreditsText_Maps[]                            = _("Maps");

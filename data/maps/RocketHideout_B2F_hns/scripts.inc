@@ -561,7 +561,7 @@ RocketHideout_B2F_Movement_DragoniteFinalExit:
 	step_end
 
 RocketHideout_B2F_Text_GruntLoss:
-    .string "....................$"
+    .string "‥‥‥‥‥‥‥‥‥‥$"
 
 RocketHideout_B2F_Text_ArianaLoss:
 	.string "ちっ　ほんとうに\nつよいのね　ざんねん\pロケットだんに　はいれば\nかんぶに　なれたのに$"
