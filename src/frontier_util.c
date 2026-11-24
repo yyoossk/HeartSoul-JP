@@ -3267,8 +3267,73 @@ u16 GetRandomFrontierMonFromSet(u16 trainerId)
     return monId;
 }
 
+#include "data/battle_frontier/battle_frontier_speech_jp.h"
+
+// Same layout as ConvertEasyChatWordsToString, from Japanese word strings.
+static void JpSpeechToString(u8 *dest, const u8 *const *src, u16 columns, u16 rows)
+{
+    u16 i, j;
+
+    for (i = 0; i < rows; i++)
+    {
+        for (j = 0; j < columns - 1; j++)
+        {
+            if (*src != NULL)
+            {
+                dest = StringCopy(dest, *src);
+                *dest++ = CHAR_SPACE;
+            }
+            src++;
+        }
+        if (*src != NULL)
+            dest = StringCopy(dest, *src);
+        src++;
+        *dest++ = CHAR_NEWLINE;
+    }
+    dest--;
+    *dest = EOS;
+}
+
+// HnS JP: the speech of the 300 original Frontier trainers comes from the Japanese Emerald.
+static const u8 *const *GetJpFrontierSpeech(const u16 *words)
+{
+    const u8 *start = (const u8 *)gBattleFrontierTrainers;
+    const u8 *ptr = (const u8 *)words;
+    u32 trainerId, offset;
+
+    if (ptr < start || ptr >= start + sizeof(struct BattleFrontierTrainer) * ARRAY_COUNT(sJpFrontierSpeech))
+        return NULL;
+    trainerId = (ptr - start) / sizeof(struct BattleFrontierTrainer);
+    offset = (ptr - start) % sizeof(struct BattleFrontierTrainer);
+    if (offset == offsetof(struct BattleFrontierTrainer, speechBefore))
+        return sJpFrontierSpeech[trainerId][0];
+    if (offset == offsetof(struct BattleFrontierTrainer, speechWin))
+        return sJpFrontierSpeech[trainerId][1];
+    if (offset == offsetof(struct BattleFrontierTrainer, speechLose))
+        return sJpFrontierSpeech[trainerId][2];
+    return NULL;
+}
+
 void FrontierSpeechToString(const u16 *words)
 {
+    const u8 *const *jpWords = GetJpFrontierSpeech(words);
+
+    if (jpWords != NULL)
+    {
+        JpSpeechToString(gStringVar4, jpWords, 3, 2);
+        if (GetStringWidth(FONT_NORMAL, gStringVar4, -1) > 204u)
+        {
+            s32 i = 0;
+
+            JpSpeechToString(gStringVar4, jpWords, 2, 3);
+            while (gStringVar4[i++] != CHAR_NEWLINE)
+                ;
+            while (gStringVar4[i] != CHAR_NEWLINE)
+                i++;
+            gStringVar4[i] = CHAR_PROMPT_SCROLL;
+        }
+        return;
+    }
     ConvertEasyChatWordsToString(gStringVar4, words, 3, 2);
     if (GetStringWidth(FONT_NORMAL, gStringVar4, -1) > 204u)
     {
