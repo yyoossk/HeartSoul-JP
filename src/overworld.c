@@ -1729,12 +1729,24 @@ const struct BlendSettings gTimeOfDayBlend[] =
 
 #define MORNING_HOUR_MIDDLE (MORNING_HOUR_BEGIN + ((MORNING_HOUR_END - MORNING_HOUR_BEGIN) / 2))
 
+// HnS JP: time-of-day option (0 = follow the clock)
+static const u8 sForcedTimeOfDayHours[] = {0, 7, 13, 22};
+
+static u32 GetForcedTimeOfDayHours(void)
+{
+    if (sHoursOverride)
+        return sHoursOverride;
+    return sForcedTimeOfDayHours[gSaveBlock3Ptr->challengeSettings.timeOfDayMode];
+}
+
 void UpdateTimeOfDay(void)
 {
     s32 hours, minutes;
+    u32 forced;
     RtcCalcLocalTime();
-    hours = sHoursOverride ? sHoursOverride : gLocalTime.hours;
-    minutes = sHoursOverride ? 0 : gLocalTime.minutes;
+    forced = GetForcedTimeOfDayHours();
+    hours = forced ? forced : gLocalTime.hours;
+    minutes = forced ? 0 : gLocalTime.minutes;
 
     if (IsBetweenHours(hours, MORNING_HOUR_BEGIN, MORNING_HOUR_MIDDLE)) // night->morning
     {
@@ -1807,8 +1819,10 @@ void UpdateTimeOfDay(void)
 // The apparent hour of day, honouring the debug time-of-day override.
 u32 GetTimeOfDayHours(void)
 {
+    u32 forced;
     RtcCalcLocalTime();
-    return sHoursOverride ? sHoursOverride : gLocalTime.hours;
+    forced = GetForcedTimeOfDayHours();
+    return forced ? forced : gLocalTime.hours;
 }
 
 // Whether a map type is naturally lit/outside

@@ -50,6 +50,7 @@ enum {
     ITEM_MAIN_FISHING,
     ITEM_MAIN_UNIT_TYPE,
     ITEM_MAIN_MATCHCALL,
+    ITEM_MAIN_TIMEOFDAY,
     ITEM_MAIN_FRAMETYPE,
     ITEM_MAIN_COUNT,
 };
@@ -310,6 +311,18 @@ static const u8 *const sDesc_MatchCall[] = {
     COMPOUND_STRING("トレーナーから　でんわが\nかかって　きます"),
     COMPOUND_STRING("でんわは　かかって　きません\nイベントは　おこります"),
 };
+static const u8 *const sChoices_TimeOfDay[] = {
+    COMPOUND_STRING("じどう"),
+    COMPOUND_STRING("あさ"),
+    COMPOUND_STRING("ひる"),
+    COMPOUND_STRING("よる"),
+};
+static const u8 *const sDesc_TimeOfDay[] = {
+    COMPOUND_STRING("とけいの　じかんに　あわせて\nあさ・ひる・よるが　かわります"),
+    COMPOUND_STRING("いつも　あさに　なります\nでる　ポケモンも　かわります"),
+    COMPOUND_STRING("いつも　ひるに　なります\nでる　ポケモンも　かわります"),
+    COMPOUND_STRING("いつも　よるに　なります\nでる　ポケモンも　かわります"),
+};
 static const u8 *const sDesc_FrameType[] = {
     COMPOUND_STRING("まどの　わくを\nえらびます"),
 };
@@ -430,6 +443,12 @@ static const struct OptionMenuItem sTabItems_Main[] = {
         .descriptions = sDesc_MatchCall,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
+    },
+    [ITEM_MAIN_TIMEOFDAY] = {
+        .name         = COMPOUND_STRING("じかんたい"),
+        .descriptions = sDesc_TimeOfDay,
+        .numChoices   = 4,
+        .choiceNames  = sChoices_TimeOfDay,
     },
     [ITEM_MAIN_FRAMETYPE] = {
         .name         = COMPOUND_STRING("ウインドウ"),
@@ -1071,6 +1090,7 @@ static void Task_Save(u8 taskId)
     FlagSet(FLAG_EVEN_FASTER_JOY);
     cs->unitSystem         = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_UNIT_TYPE);
     cs->disableMatchCall   = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_MATCHCALL);
+    cs->timeOfDayMode      = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_TIMEOFDAY);
 
     cs->fastIntro          = *GetSelectionPtr(TAB_BATTLE, ITEM_BATTLE_FAST_INTRO);
     cs->fastBattle         = *GetSelectionPtr(TAB_BATTLE, ITEM_BATTLE_FAST_BATTLES);
@@ -1178,6 +1198,7 @@ void CB2_InitOptionMenu(void)
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_FISHING)        = cs->fishing;
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_UNIT_TYPE)      = cs->unitSystem;
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_MATCHCALL)    = cs->disableMatchCall;
+        *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_TIMEOFDAY)    = cs->timeOfDayMode;
 
         *GetSelectionPtr(TAB_BATTLE, ITEM_BATTLE_FAST_INTRO)      = cs->fastIntro;
         *GetSelectionPtr(TAB_BATTLE, ITEM_BATTLE_FAST_BATTLES)    = cs->fastBattle;
