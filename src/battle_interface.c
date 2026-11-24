@@ -1124,13 +1124,16 @@ static EWRAM_DATA bool8 sFoeBarCapSaved[MAX_BATTLERS_COUNT] = {0};
 static vu16 *GetFoeBarCapTile(u32 healthboxSpriteId)
 {
     u32 spriteId2 = gSprites[healthboxSpriteId].oam.affineParam;
-    return (vu16 *)(OBJ_VRAM0 + (gSprites[spriteId2].oam.tileNum + 19) * TILE_SIZE_4BPP);
+    u32 capTile = IsOnPlayerSide(gSprites[healthboxSpriteId].hMain_Battler) ? 20 : 19;
+    return (vu16 *)(OBJ_VRAM0 + (gSprites[spriteId2].oam.tileNum + capTile) * TILE_SIZE_4BPP);
 }
 
 static bool32 CanTouchFoeBarCap(u32 healthboxSpriteId)
 {
     enum BattlerId battler = gSprites[healthboxSpriteId].hMain_Battler;
-    return !UseGen4BattleUI() && !IsOnPlayerSide(battler);
+    if (IsOnPlayerSide(battler)) // HnS JP: the player's box only needs it in the Gen4 doubles layout
+        return UseGen4BattleUI() && GetBattlerCoordsIndex(battler) != BATTLE_COORDS_SINGLES;
+    return TRUE;
 }
 
 static void HideFoeBarCap(u32 healthboxSpriteId)
@@ -1142,6 +1145,19 @@ static void HideFoeBarCap(u32 healthboxSpriteId)
     if (!CanTouchFoeBarCap(healthboxSpriteId))
         return;
     tile = GetFoeBarCapTile(healthboxSpriteId);
+    if (UseGen4BattleUI())
+    {
+        // Gen4 box: pixel column 0 of rows 1-6 holds the cap (colour 1, edges colour 4)
+        if ((tile[2 * 2] & 0xF) != 1) // cap not there (already hidden)
+            return;
+        for (i = 0; i < TILE_SIZE_4BPP / 2; i++)
+            sFoeBarCapTile[battler][i] = tile[i];
+        sFoeBarCapSaved[battler] = TRUE;
+        // copy the box colour from pixel column 1 of the same row
+        for (i = 1; i <= 6; i++)
+            tile[i * 2] = (tile[i * 2] & 0xFFF0) | ((tile[i * 2] >> 4) & 0xF);
+        return;
+    }
     if ((tile[2 * 2] & 0xF) != 8) // cap not there (already hidden)
         return;
     for (i = 0; i < TILE_SIZE_4BPP / 2; i++)
@@ -1171,7 +1187,15 @@ static void UpdateHpTextInHealthboxInDoubles(u32 healthboxSpriteId, u32 maxOrCur
     u32 barSpriteId = gSprites[healthboxSpriteId].data[5];
     enum BattlerId battler = gSprites[healthboxSpriteId].hMain_Battler;
 
-    if (IsOnPlayerSide(battler))
+    if (IsOnPlayerSide(battler) && UseGen4BattleUI())
+    {
+        // HnS JP: the Gen4 doubles box has no row for the numbers, so print them in the bar like the foes
+        if (gBattleSpritesDataPtr->battlerData[battler].hpNumbersNoBars)
+            HideFoeBarCap(healthboxSpriteId);
+        UpdateOpponentHpTextDoubles(healthboxSpriteId, barSpriteId, maxHp, HP_MAX);
+        UpdateOpponentHpTextDoubles(healthboxSpriteId, barSpriteId, currHp, HP_CURRENT);
+    }
+    else if (IsOnPlayerSide(battler))
     {
         if (gBattleSpritesDataPtr->battlerData[gSprites[healthboxSpriteId].data[6]].hpNumbersNoBars) // don't print text if only bars are visible
         {
@@ -1269,7 +1293,7 @@ void SwapHpBarsWithHpText(void)
         if (gSprites[gHealthboxSpriteIds[i]].callback == SpriteCallbackDummy
          && !(gBattleTypeFlags & BATTLE_TYPE_SAFARI)
          && (IsOnPlayerSide(i) ? GetBattlerCoordsIndex(i) != BATTLE_COORDS_SINGLES
-                               : !UseGen4BattleUI())) // HnS JP (kit port): START also shows the foes' HP as numbers
+                               : TRUE)) // HnS JP (kit port): START also shows the foes' HP as numbers
         {
             s32 currHp = GetMonData(mon, MON_DATA_HP);
             s32 maxHp = GetMonData(mon, MON_DATA_MAX_HP);
@@ -1298,9 +1322,11 @@ void SwapHpBarsWithHpText(void)
                         FillSpriteRectColor(gHealthboxSpriteIds[i], 32, 16, 32, 8, HEALTHBOX_BG_INDEX);
                         FillSpriteRectColor(gSprites[gHealthboxSpriteIds[i]].oam.affineParam, 0, 16, 32, 8, HEALTHBOX_BG_INDEX);
                     }
+                    RestoreFoeBarCap(gHealthboxSpriteIds[i]);
                     UpdateStatusIconInHealthbox(gHealthboxSpriteIds[i]);
                     UpdateHealthboxAttribute(gHealthboxSpriteIds[i], mon, HEALTHBOX_HEALTH_BAR);
-                    CpuCopy32(GetHealthboxElementGfxPtr(HEALTHBOX_GFX_FRAME_END_BAR), (void *)(OBJ_VRAM0 + 0x680 + gSprites[gHealthboxSpriteIds[i]].oam.tileNum * TILE_SIZE_4BPP), 32);
+                    if (!UseGen4BattleUI()) // HnS JP: the Gen4 box keeps its own frame; this offset is the Gen3 layout
+                        CpuCopy32(GetHealthboxElementGfxPtr(HEALTHBOX_GFX_FRAME_END_BAR), (void *)(OBJ_VRAM0 + 0x680 + gSprites[gHealthboxSpriteIds[i]].oam.tileNum * TILE_SIZE_4BPP), 32);
                 }
             }
             else
