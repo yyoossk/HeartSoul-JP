@@ -173,10 +173,15 @@ EventScript_AccessFakeHallOfFame::
 	goto EventScript_AccessFakePC_AfterLeague
 	end
 
+@ HnS JP: used away from a real PC (Box Link item / start menu), so do not run
+@ DoPCTurnOffEffect, which would paint a PC metatile in front of the player.
 EventScript_AccessPokemonBoxLink::
+EventScript_StartMenuPC::
+	lockall
 	playse SE_PC_LOGIN
 	msgbox gText_StorageSystemOpened, MSGBOX_DEFAULT
 	special ShowPokemonStorageSystemPC
 	waitstate
-	goto EventScript_TurnOffPC
+	playse SE_PC_OFF
+	releaseall
 	end
