@@ -88,7 +88,7 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_IncrementBattleNum::
 	waitmovement 0
 	applymovement LOCALID_FALLARBOR_TENT_BATTLE_HNS_PLAYER, FallarborTown_BattleTentBattleRoom_hns_Movement_PlayerFaceAttendant
 	waitmovement 0
-	msgbox BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored_hns, MSGBOX_DEFAULT
 	special LoadPlayerParty
 	special SavePlayerParty
 	frontier_setpartyorder FRONTIER_PARTY_SIZE
