@@ -34,7 +34,7 @@ enum {
 #define VERSION_BANNER_RIGHT_X 162
 #define VERSION_BANNER_Y 2
 #if IS_HNS
-#define VERSION_BANNER_Y_GOAL 64 // HnS JP: below the taller Japanese logo
+#define VERSION_BANNER_Y_GOAL 69 // HnS JP: below the taller Japanese logo
 #else
 #define VERSION_BANNER_Y_GOAL 66
 #endif
