@@ -30,8 +30,13 @@ enum {
 };
 
 #define VERSION_BANNER_RIGHT_TILEOFFSET 64
+#if IS_HNS
+#define VERSION_BANNER_LEFT_X 88  // HnS JP: centred on the screen
+#define VERSION_BANNER_RIGHT_X 152
+#else
 #define VERSION_BANNER_LEFT_X 98
 #define VERSION_BANNER_RIGHT_X 162
+#endif
 #define VERSION_BANNER_Y 2
 #if IS_HNS
 #define VERSION_BANNER_Y_GOAL 69 // HnS JP: below the taller Japanese logo
