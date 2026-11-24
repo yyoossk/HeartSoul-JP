@@ -501,7 +501,9 @@ static bool32 Fishing_DoesFirstMonInPartyHaveSuctionCupsOrStickyHold(void)
 
 static bool32 Fishing_RollForBite(u32 rod, bool32 isStickyHold)
 {
-    return ((RandomUniform(RNG_FISHING_BITE, 1, 100)) <= CalculateFishingBiteOdds(rod, isStickyHold));
+    // HnS JP (kit port): a rod always gets a bite (maps with no fishing data still say "not even a nibble").
+    (void)CalculateFishingBiteOdds(rod, isStickyHold);
+    return TRUE;
 }
 
 static u32 CalculateFishingBiteOdds(u32 rod, bool32 isStickyHold)

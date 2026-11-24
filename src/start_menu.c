@@ -1644,3 +1644,60 @@ void Script_ForceSaveGame(struct ScriptContext *ctx)
     gMenuCallback = SaveCallback;
     sSaveDialogCallback = SaveSavingMessageCallback;
 }
+
+// HnS JP (kit port): L opens the party and R opens the Bag straight from the field.
+// It runs exactly the same path as choosing ポケモン / バッグ in the start menu, so on exit the
+// start menu is shown as usual. Only allowed where the normal start menu is used.
+#define tQuickBag   data[0]
+#define tQuickState data[1]
+static void Task_QuickOpenFromField(u8 taskId)
+{
+    struct Task *task = &gTasks[taskId];
+
+    if (task->tQuickState == 0)
+    {
+        FadeScreen(FADE_TO_BLACK, 0);
+        task->tQuickState = 1;
+        return;
+    }
+    if (!gPaletteFade.active)
+    {
+        PlayRainStoppingSoundEffect();
+        CleanupOverworldWindowsAndTilemaps();
+        if (task->tQuickBag)
+            SetMainCallback2(CB2_BagMenuFromStartMenu);
+        else
+            SetMainCallback2(CB2_PartyMenuFromStartMenu);
+        DestroyTask(taskId);
+    }
+}
+
+bool8 TryQuickOpenFromField(bool8 bag)
+{
+    u8 taskId;
+
+    if (IsOverworldLinkActive() == TRUE
+     || InUnionRoom() == TRUE
+     || GetSafariZoneFlag() == TRUE
+     || GetBugContestFlag() == TRUE
+     || InBattlePike()
+     || CurrentBattlePyramidLocation() != PYRAMID_LOCATION_NONE
+     || InMultiPartnerRoom())
+        return FALSE;
+    if (!bag && FlagGet(FLAG_SYS_POKEMON_GET) != TRUE)
+        return FALSE;
+    if (FuncIsActiveTask(Task_QuickOpenFromField))
+        return FALSE;
+
+    FreezeObjectEvents();
+    PlayerFreeze();
+    StopPlayerAvatar();
+    LockPlayerFieldControls();
+    PlaySE(SE_WIN_OPEN);
+    taskId = CreateTask(Task_QuickOpenFromField, 80);
+    gTasks[taskId].tQuickBag = bag;
+    gTasks[taskId].tQuickState = 0;
+    return TRUE;
+}
+#undef tQuickBag
+#undef tQuickState

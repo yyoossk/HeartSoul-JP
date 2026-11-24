@@ -417,7 +417,7 @@ extern const u8 Common_EventScript_MoveRelearner[];
 
 // Text
 // General
-static const u8 sDebugText_Arrow[] =          _("{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Arrow[] =          _("{CLEAR_TO 110}{RIGHT_ARROW_2}");
 static const u8 sDebugText_True[] =          _("TRUE");
 static const u8 sDebugText_False[] =         _("FALSE");
 static const u8 sDebugText_Colored_True[] =  _("{COLOR GREEN}TRUE");
@@ -478,14 +478,14 @@ static const u8 sDebugText_Sound_Music_ID_Gbs[] =       _("Music ID: {STR_VAR_3}
 
 const u8 *const gText_DigitIndicator[] =
 {
-    COMPOUND_STRING("{LEFT_ARROW}+1{RIGHT_ARROW}        "),
-    COMPOUND_STRING("{LEFT_ARROW}+10{RIGHT_ARROW}       "),
-    COMPOUND_STRING("{LEFT_ARROW}+100{RIGHT_ARROW}      "),
-    COMPOUND_STRING("{LEFT_ARROW}+1000{RIGHT_ARROW}     "),
-    COMPOUND_STRING("{LEFT_ARROW}+10000{RIGHT_ARROW}    "),
-    COMPOUND_STRING("{LEFT_ARROW}+100000{RIGHT_ARROW}   "),
-    COMPOUND_STRING("{LEFT_ARROW}+1000000{RIGHT_ARROW}  "),
-    COMPOUND_STRING("{LEFT_ARROW}+10000000{RIGHT_ARROW} "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+1{RIGHT_ARROW_2}        "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+10{RIGHT_ARROW_2}       "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+100{RIGHT_ARROW_2}      "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+1000{RIGHT_ARROW_2}     "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+10000{RIGHT_ARROW_2}    "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+100000{RIGHT_ARROW_2}   "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+1000000{RIGHT_ARROW_2}  "),
+    COMPOUND_STRING("{LEFT_ARROW_2}+10000000{RIGHT_ARROW_2} "),
 };
 
 static const s32 sPowersOfTen[] =
@@ -735,7 +735,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Main[] =
     { COMPOUND_STRING("Player…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_Player, },
     { COMPOUND_STRING("Scripts…"),      DebugAction_OpenSubMenu, sDebugMenu_Actions_Scripts, },
     { COMPOUND_STRING("Trainers…"),     DebugAction_OpenSubMenuTrainers, sDebugMenu_Actions_Trainers, },
-    { COMPOUND_STRING("Flags & Vars…"), DebugAction_OpenSubMenuFlagsVars, sDebugMenu_Actions_Flags, },
+    { COMPOUND_STRING("Flags ・ Vars…"), DebugAction_OpenSubMenuFlagsVars, sDebugMenu_Actions_Flags, },
     { COMPOUND_STRING("Sound…"),        DebugAction_OpenSubMenu, sDebugMenu_Actions_Sound, },
     { COMPOUND_STRING("ROM Info…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_ROMInfo2, },
     { COMPOUND_STRING("Cancel"),        DebugAction_Cancel, },
@@ -4985,7 +4985,7 @@ static void Debug_Display_FriendshipInfo(s32 oldFriendship, s32 newFriendship, u
     ConvertIntToDecimalStringN(gStringVar1, oldFriendship, STR_CONV_MODE_LEADING_ZEROS, 3);
     ConvertIntToDecimalStringN(gStringVar2, newFriendship, STR_CONV_MODE_LEADING_ZEROS, 3);
     StringCopy(gStringVar3, gText_DigitIndicator[digit]);
-    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Friendship:\n{STR_VAR_1} {RIGHT_ARROW} {STR_VAR_2}\n\n{STR_VAR_3}"));
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Friendship:\n{STR_VAR_1} {RIGHT_ARROW_2} {STR_VAR_2}\n\n{STR_VAR_3}"));
     AddTextPrinterParameterized(windowId, DEBUG_MENU_FONT, gStringVar4, 0, 0, 0, NULL);
 }
 

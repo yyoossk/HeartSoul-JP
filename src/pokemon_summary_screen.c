@@ -584,7 +584,7 @@ static const struct WindowTemplate sSummaryTemplate[] =
     },
     [PSS_LABEL_WINDOW_PROMPT_RELEARN] = {
         .bg = 0,
-        .tilemapLeft = (P_ENABLE_MOVE_RELEARNERS) ? 18 : 22,
+        .tilemapLeft = (P_ENABLE_MOVE_RELEARNERS) ? 18 : 21,
         .tilemapTop = 2,
         .width = 11,
         .height = 2,
@@ -1960,6 +1960,16 @@ static void Task_HandleInput(u8 taskId)
         }
         else if (JOY_NEW(B_BUTTON))
         {
+            StopPokemonAnimations();
+            PlaySE(SE_SELECT);
+            BeginCloseSummaryScreen(taskId);
+        }
+        else if (JOY_NEW(START_BUTTON) && sMonSummaryScreen->currPageIndex == PSS_PAGE_BATTLE_MOVES && ShouldShowMoveRelearner())
+        {
+            // HnS JP (kit port): relearn moves from the summary screen (party Pokémon only).
+            gSpecialVar_0x8004 = sMonSummaryScreen->curMonIndex;
+            gRelearnMode = RELEARN_MODE_PSS_PAGE_BATTLE_MOVES;
+            sMonSummaryScreen->callback = CB2_InitLearnMove;
             StopPokemonAnimations();
             PlaySE(SE_SELECT);
             BeginCloseSummaryScreen(taskId);
@@ -4971,6 +4981,8 @@ static void KeepMoveSelectorVisible(u8 firstSpriteId)
 static inline bool32 ShouldShowMoveRelearner(void)
 {
     return (P_SUMMARY_SCREEN_MOVE_RELEARNER
+         && !sMonSummaryScreen->isBoxMon
+         && (sMonSummaryScreen->mode == SUMMARY_MODE_NORMAL || sMonSummaryScreen->mode == SUMMARY_MODE_RELEARNER_BATTLE)
          && !sMonSummaryScreen->lockMovesFlag
          && sMonSummaryScreen->mode != SUMMARY_MODE_BOX_CURSOR
          && sMonSummaryScreen->hasRelearnableMoves
