@@ -275,6 +275,8 @@ static const u8 gText_ContinueMenuPlayer[] = _("なまえ");
 static const u8 gText_ContinueMenuTime[] = _("プレイじかん");
 static const u8 gText_ContinueMenuPokedex[] = _("ずかん");
 static const u8 gText_ContinueMenuBadges[] = _("バッジ");
+static const u8 sText_ContinueMenuHiki[] = _("ひき");
+static const u8 sText_ContinueMenuKo[] = _("こ");
 
 #define MENU_LEFT 2
 #define MENU_TOP_WIN0 1
@@ -2215,6 +2217,7 @@ static void MainMenu_FormatSavegamePokedex(void)
         StringExpandPlaceholders(gStringVar4, gText_ContinueMenuPokedex);
         AddTextPrinterParameterized3(2, FONT_NORMAL, 0, 33, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4);
         ConvertIntToDecimalStringN(str, dexCount, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringAppend(str, sText_ContinueMenuHiki);
         AddTextPrinterParameterized3(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, str, 100), 33, sTextColor_MenuInfo, TEXT_SKIP_DRAW, str);
     }
 }
@@ -2232,7 +2235,8 @@ static void MainMenu_FormatSavegameBadges(void)
     }
     StringExpandPlaceholders(gStringVar4, gText_ContinueMenuBadges);
     AddTextPrinterParameterized3(2, FONT_NORMAL, 0x6C, 33, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4);
-    ConvertIntToDecimalStringN(str, badgeCount, STR_CONV_MODE_LEADING_ZEROS, 2);
+    ConvertIntToDecimalStringN(str, badgeCount, STR_CONV_MODE_LEFT_ALIGN, 2);
+    StringAppend(str, sText_ContinueMenuKo);
     AddTextPrinterParameterized3(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, str, 0xD0), 33, sTextColor_MenuInfo, TEXT_SKIP_DRAW, str);
 }
 
