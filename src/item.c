@@ -205,8 +205,8 @@ u8 *CopyItemNameHandlePlural(enum Item itemId, u8 *dst, u32 quantity)
     }
     else
     {
-        u8 *end = StringCopy(dst, GetItemName(itemId));
-        return StringCopy(end, sText_s);
+        // 日本語版では複数形の「s」を付けない
+        return StringCopy(dst, GetItemName(itemId));
     }
 }
 
