@@ -551,7 +551,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen_hns:
 	.string "ぼうけんしゃよ　もんだいが\nあります！\pちょうせん　できる　ポケモンが\n3びき　いない　ようです\pポケモンの　どうぐも\nすべて　はずして　ください\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50_hns:
-	.string "ぼうけんしゃよ　もんだいが\nあります！\pちょうせん　できる　ポケモンが\n3びき　いない　ようです\pちがう　ポケモン　3びきで\nどれも　レベル50　いか\lで　なければ　なりません\pポケモンの　どうぐも\nすべて　はずして　ください\pタマゴ{STR_VAR_1}$"
+	.string "ぼうけんしゃよ　もんだいが\nあります！\pちょうせん　できる　ポケモンが\n3びき　いない　ようです\pちがう　ポケモン　3びきで\nどれも　レベル50　いかで\lなければ　なりません\pポケモンの　どうぐも\nすべて　はずして　ください\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsEnd_hns:
 	.string "じゅんびが　できたら\nこえを　かけて　ください$"

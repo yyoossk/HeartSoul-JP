@@ -394,7 +394,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhichChallenge_hns:
 	.string "バトルホールは　レベル50と\nオープンレベルの　2つ\lどちらに　ちょうせん\lしますか？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50_hns:
-	.string "ふう‥\pちょうせんに　ひつような\nポケモンが　3びき\lそろって　いません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pどれも　レベル50　いか\nで　なければ　なりません\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}$"
+	.string "ふう‥\pちょうせんに　ひつような\nポケモンが　3びき\lそろって　いません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pどれも　レベル50　いかで\nなければ　なりません\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsEnd_hns:
 	.string "じゅんびが　ととのったら\nまた　おこし　ください$"

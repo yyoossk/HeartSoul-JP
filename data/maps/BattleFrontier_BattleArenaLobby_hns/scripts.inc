@@ -385,7 +385,7 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsEnd_hns:
 	.string "じゅんびが　できたら\nまた　おこし　ください$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50_hns:
-	.string "ちょうせんしゃよ！\pエントリーに　ひつような\nポケモンが　3びき\lいません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pどれも　レベル50　いか\nで　なければ　なりません\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}$"
+	.string "ちょうせんしゃよ！\pエントリーに　ひつような\nポケモンが　3びき\lいません\pちがう　しゅるいの　ポケモンが\n3びき　ひつようです\pどれも　レベル50　いかで\nなければ　なりません\pもたせる　どうぐも\nおなじ　もので　あっては\lなりません\pタマゴ{STR_VAR_1}$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena_hns:
 	.string "それでは　バトルアリーナへ\nごあんない　いたします$"
