@@ -3077,7 +3077,7 @@ bool8 ScrCmd_checkfieldmove(struct ScriptContext *ctx)
             }
         }
     }
-    if (gSpecialVar_Result == PARTY_SIZE && HMsOverwriteOptionActive())
+    if (gSpecialVar_Result == PARTY_SIZE) // HnS JP: owning the TM/HM is always enough (no HM slave needed)
     {
         // No party mon knows the move or can learn it, which a challenge run (mono-type,
         // randomized moves, etc.) can make permanent. Owning the TM/HM is enough: let the first
@@ -3142,7 +3142,7 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
             }
         }
     }
-    if (gSpecialVar_Result == PARTY_SIZE && HMsOverwriteOptionActive())
+    if (gSpecialVar_Result == PARTY_SIZE) // HnS JP: owning the TM/HM is always enough (no HM slave needed)
     {
         // No party mon knows the move or can learn it, which a challenge run (mono-type,
         // randomized moves, etc.) can make permanent. Owning the TM/HM is enough: let the first

@@ -1688,8 +1688,8 @@ bool8 PartyHasMonWithSurf(void)
             }
             // Challenge runs (mono-type, randomized moves, etc.) can lock the player out of
             // every Surf learner, so owning HM03 is enough on its own.
-            if (HMsOverwriteOptionActive())
-                return TRUE;
+            // HnS JP: owning HM03 is always enough (no HM slave needed)
+            return TRUE;
         }
     }
     return FALSE;

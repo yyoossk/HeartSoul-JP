@@ -2999,13 +2999,17 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
                 }
             }
         }
-        if (numFieldMoves < maxFieldMoves && CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES), MOVE_FLY))
+        // HnS JP: the first Pokémon can also use そらをとぶ / フラッシュ whenever the HM is in the Bag,
+        // even if no Pokémon can learn it (no HM slave needed).
+        if (numFieldMoves < maxFieldMoves
+         && (CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES), MOVE_FLY)
+          || (slotId == 0 && CheckBagHasItem(ITEM_HM02, 1))))
         {
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLY + MENU_FIELD_MOVES);
             numFieldMoves++;
         }
         if (numFieldMoves < maxFieldMoves && CheckBagHasItem(ITEM_HM05, 1)
-         && CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES), MOVE_FLASH))
+         && (CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES), MOVE_FLASH) || slotId == 0))
         {
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLASH + MENU_FIELD_MOVES);
             numFieldMoves++;
