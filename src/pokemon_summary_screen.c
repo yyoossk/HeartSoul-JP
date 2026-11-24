@@ -25,6 +25,7 @@
 #include "menu_helpers.h"
 #include "mon_markings.h"
 #include "move_relearner.h"
+#include "randomizer.h"
 #include "naming_screen.h"
 #include "party_menu.h"
 #include "palette.h"
@@ -4982,6 +4983,7 @@ static inline bool32 ShouldShowMoveRelearner(void)
 {
     return (P_SUMMARY_SCREEN_MOVE_RELEARNER
          && !sMonSummaryScreen->isBoxMon
+         && !IsRandomMovesActivated() // like the Blackthorn relearner: off with random moves
          && (sMonSummaryScreen->mode == SUMMARY_MODE_NORMAL || sMonSummaryScreen->mode == SUMMARY_MODE_RELEARNER_BATTLE)
          && !sMonSummaryScreen->lockMovesFlag
          && sMonSummaryScreen->mode != SUMMARY_MODE_BOX_CURSOR
