@@ -2043,6 +2043,8 @@ static void CheckBattleTypeFlag(void)
         gSpecialVar_Result = FALSE;
 }
 
+static const u8 sText_JpComma[] = _("・");
+
 static void AppendCaughtBannedMonSpeciesName(u16 species, u8 count, s32 numBannedMonsCaught)
 {
     if (count == 1)
@@ -2050,10 +2052,8 @@ static void AppendCaughtBannedMonSpeciesName(u16 species, u8 count, s32 numBanne
     else if (numBannedMonsCaught == count)
         StringAppend(gStringVar1, gText_SpaceAndSpace);
     else if (numBannedMonsCaught > count)
-        StringAppend(gStringVar1, gText_CommaSpace);
-    if (count == 3)
-        StringAppend(gStringVar1, gText_NewLine2);
-    else if (count == 6)
+        StringAppend(gStringVar1, sText_JpComma);
+    if (count == 3 || count == 5)
         StringAppend(gStringVar1, gText_LineBreak);
     StringAppend(gStringVar1, GetSpeciesName(species));
 }
@@ -2204,6 +2204,7 @@ static void CheckPartyIneligibility(void)
             StringAppend(gStringVar1, gText_FrontierFacilityIncluding);
             for (i = 0; i < totalPartyBanned; i++)
                 AppendCaughtBannedMonSpeciesName(partyBanned[i], i+1, totalPartyBanned);
+            StringAppend(gStringVar1, gText_FrontierFacilityIncludingEnd);
         }
         gSpecialVar_0x8005 = totalCaughtBanned;
     }

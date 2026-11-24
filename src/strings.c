@@ -998,9 +998,10 @@ ALIGNED(4) const u8 gText_FrontierFacilityRoomsCleared[] = _("クリアした　
 ALIGNED(4) const u8 gText_FrontierFacilityKOsStreak[] = _("れんぞくKO:{STR_VAR_2}");
 ALIGNED(4) const u8 gText_FrontierFacilityFloorsCleared[] = _("クリアした　かい:{STR_VAR_2}");
 ALIGNED(4) const u8 gText_123Dot[][3] = {_("1."), _("2."), _("3.")};
-const u8 gText_FrontierFacilityTotalCaughtSpeciesBanned[] = _("つかまえた　ポケモンのうち　{STR_VAR_2}しゅるいは\nさんかできません");
-const u8 gText_FrontierFacilityIncluding[] = _("\pさんかできないのは");
-const u8 gText_FrontierFacilityAreInelegible[] = _("です");
+const u8 gText_FrontierFacilityTotalCaughtSpeciesBanned[] = _("と　つかまえた　ポケモンのうち\n{STR_VAR_2}しゅるいは　さんか　できません");
+const u8 gText_FrontierFacilityIncluding[] = _("\pさんか　できないのは\n");
+const u8 gText_FrontierFacilityAreInelegible[] = _("は　さんか　できません");
+const u8 gText_FrontierFacilityIncludingEnd[] = _("　など　です");
 
 const u8 gText_YesNo[] = _("はい\nいいえ");
 const u8 gText_SelectorArrow3[] = _("▶");
