@@ -152,6 +152,9 @@ static u8 SaveOverwriteInputCallback(void);
 static u8 SaveSavingMessageCallback(void);
 static u8 SaveDoSaveCallback(void);
 static u8 SaveSuccessCallback(void);
+static u8 SaveWaitCallback(void);
+#define SAVE_WAIT_FRAMES (60 * 11)
+static u16 sSaveWaitFrames;
 static u8 SaveReturnSuccessCallback(void);
 static u8 SaveErrorCallback(void);
 static u8 SaveReturnErrorCallback(void);
@@ -1362,11 +1365,33 @@ static u8 SaveDoSaveCallback(void)
         saveStatus = TrySavingData(SAVE_NORMAL);
     }
 
-    if (saveStatus == SAVE_STATUS_OK)
+    if (saveStatus == SAVE_STATUS_OK && gSaveBlock3Ptr->challengeSettings.saveWaitOff == 0)
+    {
+        sSaveWaitFrames = SAVE_WAIT_FRAMES;
+        sSaveDialogCallback = SaveWaitCallback;
+        return SAVE_IN_PROGRESS;
+    }
+    else if (saveStatus == SAVE_STATUS_OK)
         ShowSaveMessage(gText_PlayerSavedGame, SaveSuccessCallback);
     else
         ShowSaveMessage(gText_SaveError, SaveErrorCallback);
 
+    SaveStartTimer();
+    return SAVE_IN_PROGRESS;
+}
+
+// Optional wait after writing the save, so frontends that flush the save
+// file on an interval (RetroArch: every 10 seconds by default) have written
+// the finished report before "saved" is shown and the player quits.
+
+static u8 SaveWaitCallback(void)
+{
+    if (sSaveWaitFrames != 0)
+    {
+        sSaveWaitFrames--;
+        return SAVE_IN_PROGRESS;
+    }
+    ShowSaveMessage(gText_PlayerSavedGame, SaveSuccessCallback);
     SaveStartTimer();
     return SAVE_IN_PROGRESS;
 }

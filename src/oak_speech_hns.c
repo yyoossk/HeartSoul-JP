@@ -622,6 +622,7 @@ static void Task_NewGameHnsSpeech_FadeOutToChallengeMenu(u8 taskId)
         gSaveBlock3Ptr->challengeSettings.autorunSurf        = savedOptions.autorunSurf;
         gSaveBlock3Ptr->challengeSettings.fishing            = savedOptions.fishing;
         gSaveBlock3Ptr->challengeSettings.evenFasterJoy      = savedOptions.evenFasterJoy;
+        gSaveBlock3Ptr->challengeSettings.saveWaitOff        = savedOptions.saveWaitOff;
         gSaveBlock3Ptr->challengeSettings.unitSystem         = savedOptions.unitSystem;
         gSaveBlock3Ptr->challengeSettings.disableMatchCall   = savedOptions.disableMatchCall;
         gSaveBlock3Ptr->challengeSettings.fastIntro          = savedOptions.fastIntro;
