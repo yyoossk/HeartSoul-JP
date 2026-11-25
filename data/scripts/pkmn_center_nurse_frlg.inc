@@ -12,7 +12,13 @@ EventScript_AfterWhiteOutHeal_Frlg::
 	end
 
 EventScript_PkmnCenterNurse_Frlg::
+.if IS_HNS
+	@ KJ: follow the はやいかいふく option (same check as the Johto nurse)
+	specialvar VAR_RESULT, IsFasterJoyOn
+	goto_if_eq VAR_RESULT, TRUE, EventScript_PkmnCenterNurse_HealPkmnFast_Frlg
+.else
 	goto_if_set FLAG_EVEN_FASTER_JOY, EventScript_PkmnCenterNurse_HealPkmnFast_Frlg
+.endif
 	message Text_WelcomeWantToHealPkmn_Frlg
 	waitmessage
 	multichoice 19, 8, MULTI_YESNO, FALSE | (TRUE << 1)
