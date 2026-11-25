@@ -6313,9 +6313,9 @@ bool8 FollowablePlayerMovement_Step(struct ObjectEvent *objectEvent, struct Spri
     }
     else if (gSprites[gPlayerAvatar.spriteId].data[4] == MOVE_SPEED_FAST_2)
     {
-        // HnS JP: keep up with the faster running shoes. Use the same step
-        // speed as the player (6 frames per tile); the 4-frame "faster" walk
-        // finished early and then stopped, so the follower stuttered.
+        // HnS JP: keep up with the faster running shoes at the same step speed
+        // as the player (the "faster" walk moved in 2 frames and then waited,
+        // which made the follower stutter)
         objectEvent->movementActionId = GetRideWaterCurrentMovementAction(direction);
     }
     else
@@ -7468,7 +7468,7 @@ static void InitMovementNormal(struct ObjectEvent *objectEvent, struct Sprite *s
     // MOVE_SPEED_FASTER, but its animation table uses the "faster" slots for
     // entering its Poké Ball, which made it burst apart. Use the walk-fast
     // animation instead.
-    if (objectEvent->localId == OBJ_EVENT_ID_FOLLOWER && speed >= MOVE_SPEED_FASTER)
+    if (objectEvent->localId == OBJ_EVENT_ID_FOLLOWER && speed >= MOVE_SPEED_FAST_2)
         SetStepAnimHandleAlternation(objectEvent, sprite, GetMoveDirectionFastAnimNum(objectEvent->facingDirection));
     else
         SetStepAnimHandleAlternation(objectEvent, sprite, functions[speed](objectEvent->facingDirection));

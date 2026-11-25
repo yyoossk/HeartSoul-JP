@@ -120,7 +120,7 @@ void SetDefaultChallengeSettings(void)
     gSaveblock3.challengeSettings.followerLargeEnable = 0;
     gSaveblock3.challengeSettings.autoRun = 1;
     gSaveblock3.challengeSettings.autorunSurf = 1;
-    gSaveblock3.challengeSettings.autorunDive = 1;
+    gSaveblock3.challengeSettings.saveWaitOff = 1;
     gSaveblock3.challengeSettings.fishing = 0;
     gSaveblock3.challengeSettings.evenFasterJoy = 1;
     gSaveblock3.challengeSettings.fastIntro = 1;

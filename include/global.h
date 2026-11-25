@@ -256,7 +256,7 @@ struct ChallengeSettings
     u8 followerEnable:1;
     u8 followerLargeEnable:1;
     u8 autorunSurf:1;
-    u8 autorunDive:1;
+    u8 saveWaitOff:1; // was autorunDive (unused); 0 = wait after saving
     u8 fishing:1;
     u8 evenFasterJoy:1;
     u8 unitSystem:1;
