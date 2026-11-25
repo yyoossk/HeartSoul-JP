@@ -2244,8 +2244,8 @@ const u16 gMonIconPalettes[][16] =
 };
 
 #if IS_HNS
-const u16 gTitleScreenBgPalettes[]         = INCBIN_U16("graphics/title_screen/hns/pokemon_logo.gbapal",
-                                                        "graphics/title_screen/hns/rayquaza_and_clouds.gbapal");
+// HnS JP: banks 0-3 = logo, banks 4-14 = title background (Lugia, lighthouse, Suicune)
+const u16 gTitleScreenBgPalettes[]         = INCBIN_U16("graphics/title_screen/hns/title_bg.gbapal");
 const u16 gTitleScreenEmeraldVersionPal[]  = INCBIN_U16("graphics/title_screen/hns/emerald_version.gbapal");
 const u32 gTitleScreenCloudsTilemap[]      = INCBIN_U32("graphics/title_screen/clouds.bin.smolTM");
 const u32 gTitleScreenPokemonLogoGfx[]     = INCBIN_U32("graphics/title_screen/hns/pokemon_logo.8bpp.smol");
