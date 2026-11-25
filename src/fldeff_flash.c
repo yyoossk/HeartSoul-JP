@@ -98,6 +98,12 @@ static void FieldCallback_Flash(void)
     gTasks[taskId].data[9] = (uintptr_t)FldEff_UseFlash;
 }
 
+// HnS JP: use Flash from the start menu (gPartyMenu.slotId is set by the caller).
+void StartMenu_UseFlash(void)
+{
+    FieldCallback_Flash();
+}
+
 static void FldEff_UseFlash(void)
 {
     PlaySE(SE_M_REFLECT);

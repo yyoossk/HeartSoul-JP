@@ -7955,6 +7955,9 @@ u8 CanLearnTeachableMove(u16 species, enum Move move)
     teachableLearnset = GetSpeciesTeachableLearnset(species);
     if (species == SPECIES_EGG)
         return FALSE;
+    // HnS JP: every Pokémon can learn every HM move.
+    if (IsMoveHM(move))
+        return TRUE;
     for (u32 i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
     {
         if (teachableLearnset[i] == move)

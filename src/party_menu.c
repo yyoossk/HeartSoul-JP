@@ -3003,12 +3003,12 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
                 }
             }
         }
-        if (CheckBagHasItem(ITEM_HM02, 1) && numFieldMoves < maxFieldMoves && !hasFlyAlready)
+        if (CheckBagHasItem(ITEM_HM02, 1) && IsFieldMoveUnlocked(FIELD_MOVE_FLY) && numFieldMoves < maxFieldMoves && !hasFlyAlready)
         {
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLY + MENU_FIELD_MOVES);
             numFieldMoves++;
         }
-        if (CheckBagHasItem(ITEM_HM05, 1) && numFieldMoves < maxFieldMoves && !hasFlashAlready)
+        if (CheckBagHasItem(ITEM_HM05, 1) && IsFieldMoveUnlocked(FIELD_MOVE_FLASH) && numFieldMoves < maxFieldMoves && !hasFlashAlready)
         {
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLASH + MENU_FIELD_MOVES);
             numFieldMoves++;
@@ -3018,14 +3018,14 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     {
         // HnS JP: the first Pokémon can also use そらをとぶ / フラッシュ whenever the HM is in the Bag,
         // even if no Pokémon can learn it (no HM slave needed).
-        if (numFieldMoves < maxFieldMoves
+        if (numFieldMoves < maxFieldMoves && IsFieldMoveUnlocked(FIELD_MOVE_FLY)
          && (CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES), MOVE_FLY)
           || (slotId == 0 && CheckBagHasItem(ITEM_HM02, 1))))
         {
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLY + MENU_FIELD_MOVES);
             numFieldMoves++;
         }
-        if (numFieldMoves < maxFieldMoves && CheckBagHasItem(ITEM_HM05, 1)
+        if (numFieldMoves < maxFieldMoves && CheckBagHasItem(ITEM_HM05, 1) && IsFieldMoveUnlocked(FIELD_MOVE_FLASH)
          && (CanLearnTeachableMove(GetMonData(&mons[slotId], MON_DATA_SPECIES), MOVE_FLASH) || slotId == 0))
         {
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLASH + MENU_FIELD_MOVES);

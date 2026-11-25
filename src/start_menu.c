@@ -29,6 +29,9 @@
 #include "overworld.h"
 #include "palette.h"
 #include "party_menu.h"
+#include "field_move.h"
+#include "fldeff.h"
+#include "region_map.h"
 #include "pokedex.h"
 #include "pokenav.h"
 #include "bug_contest.h"
@@ -74,6 +77,8 @@ enum
     MENU_ACTION_DEXNAV,
     MENU_ACTION_RETIRE_BUG_CONTEST,
     MENU_ACTION_PC,
+    MENU_ACTION_FLY,
+    MENU_ACTION_FLASH,
 };
 
 // Save status
@@ -94,7 +99,7 @@ EWRAM_DATA static u8 sStartClockWindowId = 0;
 EWRAM_DATA static u8 sBattlePyramidFloorWindowId = 0;
 EWRAM_DATA static u8 sStartMenuCursorPos = 0;
 EWRAM_DATA static u8 sNumStartMenuActions = 0;
-EWRAM_DATA static u8 sCurrentStartMenuActions[9] = {0};
+EWRAM_DATA static u8 sCurrentStartMenuActions[10] = {0};
 EWRAM_DATA static s8 sInitStartMenuData[2] = {0};
 
 EWRAM_DATA static u8 (*sSaveDialogCallback)(void) = NULL;
@@ -119,6 +124,8 @@ static bool8 StartMenuDebugCallback(void);
 static bool8 StartMenuDexNavCallback(void);
 static bool8 StartMenuBugContestRetireCallback(void);
 static bool8 StartMenuPCCallback(void);
+static bool8 StartMenuFlyCallback(void);
+static bool8 StartMenuFlashCallback(void);
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);
@@ -207,6 +214,8 @@ static const struct WindowTemplate sWindowTemplate_PyramidPeak = {
 
 static const u8 sText_MenuDebug[] = _("DEBUG");
 static const u8 sText_MenuPC[] = _("パソコン");
+static const u8 sText_MenuFly[] = _("そらをとぶ");
+static const u8 sText_MenuFlash[] = _("フラッシュ");
 
 static const struct MenuAction sStartMenuItems[] =
 {
@@ -227,6 +236,8 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
     [MENU_ACTION_RETIRE_BUG_CONTEST] = {gText_MenuRetire, {.u8_void = StartMenuBugContestRetireCallback}},
     [MENU_ACTION_PC]              = {sText_MenuPC,      {.u8_void = StartMenuPCCallback}},
+    [MENU_ACTION_FLY]             = {sText_MenuFly,     {.u8_void = StartMenuFlyCallback}},
+    [MENU_ACTION_FLASH]           = {sText_MenuFlash,   {.u8_void = StartMenuFlashCallback}},
 };
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -356,6 +367,34 @@ static void AddStartMenuAction(u8 action)
     AppendToList(sCurrentStartMenuActions, &sNumStartMenuActions, action);
 }
 
+static s32 GetFirstUsableFieldMoveMon(void)
+{
+    u32 i;
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        u32 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG);
+        if (species != SPECIES_NONE && species != SPECIES_EGG && GetMonData(&gPlayerParty[i], MON_DATA_HP) != 0)
+            return i;
+    }
+    return -1;
+}
+
+static bool32 CanUseFlyFromStartMenu(void)
+{
+    return FlagGet(FLAG_SYS_POKEMON_GET)
+        && IsFieldMoveUnlocked(FIELD_MOVE_FLY)
+        && GetFirstUsableFieldMoveMon() >= 0
+        && SetUpFieldMove_Fly();
+}
+
+static bool32 CanUseFlashFromStartMenu(void)
+{
+    return FlagGet(FLAG_SYS_POKEMON_GET)
+        && IsFieldMoveUnlocked(FIELD_MOVE_FLASH)
+        && GetFirstUsableFieldMoveMon() >= 0
+        && gMapHeader.cave == TRUE && !FlagGet(FLAG_SYS_USE_FLASH);
+}
+
 static void BuildNormalStartMenu(void)
 {
     if (FlagGet(FLAG_SYS_POKEDEX_GET) == TRUE)
@@ -375,6 +414,14 @@ static void BuildNormalStartMenu(void)
 
     if (FlagGet(FLAG_SYS_POKENAV_GET) == TRUE)
         AddStartMenuAction(MENU_ACTION_POKENAV);
+
+    // HnS JP: そらをとぶ / フラッシュ straight from the start menu once the badge is won.
+    // Shown only where they can be used (a dark cave never allows Fly, so the menu
+    // never holds both and still fits on screen).
+    if (CanUseFlyFromStartMenu())
+        AddStartMenuAction(MENU_ACTION_FLY);
+    if (CanUseFlashFromStartMenu())
+        AddStartMenuAction(MENU_ACTION_FLASH);
 
     AddStartMenuAction(MENU_ACTION_PLAYER);
     AddStartMenuAction(MENU_ACTION_SAVE);
@@ -748,7 +795,8 @@ static bool8 HandleStartMenuInput(void)
             && gMenuCallback != StartMenuSafariZoneRetireCallback
             && gMenuCallback != StartMenuBugContestRetireCallback
             && gMenuCallback != StartMenuBattlePyramidRetireCallback
-            && gMenuCallback != StartMenuPCCallback)
+            && gMenuCallback != StartMenuPCCallback
+            && gMenuCallback != StartMenuFlashCallback)
         {
            FadeScreen(FADE_TO_BLACK, 0);
         }
@@ -1647,6 +1695,30 @@ static bool8 StartMenuPCCallback(void)
     RemoveExtraStartMenuWindows();
     HideStartMenu();
     ScriptContext_SetupScript(EventScript_StartMenuPC);
+    return TRUE;
+}
+
+static bool8 StartMenuFlyCallback(void)
+{
+    if (!gPaletteFade.active)
+    {
+        PlayRainStoppingSoundEffect();
+        RemoveExtraStartMenuWindows();
+        CleanupOverworldWindowsAndTilemaps();
+        gPartyMenu.slotId = GetFirstUsableFieldMoveMon();
+        gFlyMapFromStartMenu = TRUE;
+        SetMainCallback2(CB2_OpenFlyMap);
+        return TRUE;
+    }
+    return FALSE;
+}
+
+static bool8 StartMenuFlashCallback(void)
+{
+    RemoveExtraStartMenuWindows();
+    HideStartMenu();
+    gPartyMenu.slotId = GetFirstUsableFieldMoveMon();
+    StartMenu_UseFlash();
     return TRUE;
 }
 

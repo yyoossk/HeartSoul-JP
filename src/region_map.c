@@ -2381,6 +2381,8 @@ bool32 IsEventIslandMapSecId(mapsec_u8_t mapSecId)
     return FALSE;
 }
 
+EWRAM_DATA bool8 gFlyMapFromStartMenu = FALSE;
+
 void CB2_OpenFlyMap(void)
 {
     switch (gMain.state)
@@ -3008,10 +3010,15 @@ static void CB_ExitFlyMap(void)
                 SetFlyDestination(tempRegionMap);
                 ReturnToFieldFromFlyMapSelect();
             }
+            else if (gFlyMapFromStartMenu)
+            {
+                SetMainCallback2(CB2_ReturnToFieldWithOpenMenu);
+            }
             else
             {
                 SetMainCallback2(CB2_ReturnToPartyMenuFromFlyMap);
             }
+            gFlyMapFromStartMenu = FALSE;
             TRY_FREE_AND_SET_NULL(sFlyMap);
             FreeAllWindowBuffers();
         }
