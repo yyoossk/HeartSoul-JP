@@ -21,6 +21,8 @@
 #include "field_control_avatar.h"
 #include "field_effect.h"
 #include "field_move.h"
+#include "safari_zone.h"
+#include "bug_contest.h"
 #include "field_player_avatar.h"
 #include "field_screen_effect.h"
 #include "field_specials.h"
@@ -4472,8 +4474,21 @@ bool32 SetUpFieldMove_Fly(void)
 
     if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
         return TRUE;
-    else
-        return FALSE;
+
+    // HnS JP: そらをとぶ also works in caves, dungeons and indoors. Not inside the Battle
+    // Frontier / Battle Tents / Battle Pyramid, link rooms, the S.S. Aqua, the Pokémon League,
+    // the Safari Zone or the Bug-Catching Contest.
+    if ((gMapHeader.mapType == MAP_TYPE_INDOOR || gMapHeader.mapType == MAP_TYPE_UNDERGROUND)
+     && gMapHeader.regionMapSectionId != MAPSEC_BATTLE_FRONTIER
+     && gMapHeader.regionMapSectionId != MAPSEC_TRAINER_HILL
+     && gMapHeader.regionMapSectionId != MAPSEC_DYNAMIC
+     && gMapHeader.regionMapSectionId != MAPSEC_SS_AQUA
+     && gMapHeader.regionMapSectionId != MAPSEC_INDIGO_PLATEAU
+     && !GetSafariZoneFlag()
+     && !GetBugContestFlag())
+        return TRUE;
+
+    return FALSE;
 }
 
 void CB2_ReturnToPartyMenuFromFlyMap(void)

@@ -79,6 +79,7 @@ enum
     MENU_ACTION_PC,
     MENU_ACTION_FLY,
     MENU_ACTION_FLASH,
+    MENU_ACTION_HM,
 };
 
 // Save status
@@ -126,6 +127,11 @@ static bool8 StartMenuBugContestRetireCallback(void);
 static bool8 StartMenuPCCallback(void);
 static bool8 StartMenuFlyCallback(void);
 static bool8 StartMenuFlashCallback(void);
+static bool8 StartMenuHMCallback(void);
+static void RedrawStartMenuFrom(s8 state);
+static void LeaveHMSubmenu(void);
+EWRAM_DATA static bool8 sInHMSubmenu = FALSE;
+EWRAM_DATA static u8 sHMSavedCursorPos = 0;
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);
@@ -216,6 +222,7 @@ static const u8 sText_MenuDebug[] = _("DEBUG");
 static const u8 sText_MenuPC[] = _("パソコン");
 static const u8 sText_MenuFly[] = _("そらをとぶ");
 static const u8 sText_MenuFlash[] = _("フラッシュ");
+static const u8 sText_MenuHM[] = _("ひでんわざ");
 
 static const struct MenuAction sStartMenuItems[] =
 {
@@ -238,6 +245,7 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_PC]              = {sText_MenuPC,      {.u8_void = StartMenuPCCallback}},
     [MENU_ACTION_FLY]             = {sText_MenuFly,     {.u8_void = StartMenuFlyCallback}},
     [MENU_ACTION_FLASH]           = {sText_MenuFlash,   {.u8_void = StartMenuFlashCallback}},
+    [MENU_ACTION_HM]              = {sText_MenuHM,      {.u8_void = StartMenuHMCallback}},
 };
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -416,11 +424,13 @@ static void BuildNormalStartMenu(void)
         AddStartMenuAction(MENU_ACTION_POKENAV);
 
     // HnS JP: そらをとぶ / フラッシュ straight from the start menu once the badge is won.
-    // Shown only where they can be used (a dark cave never allows Fly, so the menu
-    // never holds both and still fits on screen).
-    if (CanUseFlyFromStartMenu())
+    // Shown only where they can be used.
+    // When both can be used they are grouped under ひでんわざ so the menu still fits.
+    if (CanUseFlyFromStartMenu() && CanUseFlashFromStartMenu())
+        AddStartMenuAction(MENU_ACTION_HM);
+    else if (CanUseFlyFromStartMenu())
         AddStartMenuAction(MENU_ACTION_FLY);
-    if (CanUseFlashFromStartMenu())
+    else if (CanUseFlashFromStartMenu())
         AddStartMenuAction(MENU_ACTION_FLASH);
 
     AddStartMenuAction(MENU_ACTION_PLAYER);
@@ -796,7 +806,8 @@ static bool8 HandleStartMenuInput(void)
             && gMenuCallback != StartMenuBugContestRetireCallback
             && gMenuCallback != StartMenuBattlePyramidRetireCallback
             && gMenuCallback != StartMenuPCCallback
-            && gMenuCallback != StartMenuFlashCallback)
+            && gMenuCallback != StartMenuFlashCallback
+            && gMenuCallback != StartMenuHMCallback)
         {
            FadeScreen(FADE_TO_BLACK, 0);
         }
@@ -804,8 +815,18 @@ static bool8 HandleStartMenuInput(void)
         return FALSE;
     }
 
+    if (JOY_NEW(B_BUTTON) && sInHMSubmenu)
+    {
+        // Back from the ひでんわざ list to the start menu.
+        PlaySE(SE_SELECT);
+        LeaveHMSubmenu();
+        RedrawStartMenuFrom(1);
+        return FALSE;
+    }
+
     if (JOY_NEW(START_BUTTON | B_BUTTON))
     {
+        LeaveHMSubmenu();
         RemoveExtraStartMenuWindows();
         HideStartMenu();
         return TRUE;
@@ -1698,6 +1719,39 @@ static bool8 StartMenuPCCallback(void)
     return TRUE;
 }
 
+static void RedrawStartMenuFrom(s8 state)
+{
+    RemoveExtraStartMenuWindows();
+    ClearStdWindowAndFrame(GetStartMenuWindowId(), TRUE);
+    RemoveStartMenuWindow();
+    sInitStartMenuData[0] = state;
+    sInitStartMenuData[1] = 0;
+    while (!InitStartMenuStep())
+        ;
+}
+
+static bool8 StartMenuHMCallback(void)
+{
+    sHMSavedCursorPos = sStartMenuCursorPos;
+    sInHMSubmenu = TRUE;
+    sNumStartMenuActions = 0;
+    AddStartMenuAction(MENU_ACTION_FLY);
+    AddStartMenuAction(MENU_ACTION_FLASH);
+    sStartMenuCursorPos = 0;
+    RedrawStartMenuFrom(2); // skip rebuilding the action list
+    gMenuCallback = HandleStartMenuInput;
+    return FALSE;
+}
+
+static void LeaveHMSubmenu(void)
+{
+    if (sInHMSubmenu)
+    {
+        sInHMSubmenu = FALSE;
+        sStartMenuCursorPos = sHMSavedCursorPos;
+    }
+}
+
 static bool8 StartMenuFlyCallback(void)
 {
     if (!gPaletteFade.active)
@@ -1707,6 +1761,7 @@ static bool8 StartMenuFlyCallback(void)
         CleanupOverworldWindowsAndTilemaps();
         gPartyMenu.slotId = GetFirstUsableFieldMoveMon();
         gFlyMapFromStartMenu = TRUE;
+        LeaveHMSubmenu();
         SetMainCallback2(CB2_OpenFlyMap);
         return TRUE;
     }
@@ -1715,6 +1770,7 @@ static bool8 StartMenuFlyCallback(void)
 
 static bool8 StartMenuFlashCallback(void)
 {
+    LeaveHMSubmenu();
     RemoveExtraStartMenuWindows();
     HideStartMenu();
     gPartyMenu.slotId = GetFirstUsableFieldMoveMon();
