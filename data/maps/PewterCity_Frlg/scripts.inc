@@ -956,7 +956,7 @@ PewterCity_Text_CitySign::
 	.string "ニビは　はいいろ　いしの　いろ$"
 
 PewterCity_Text_OhPlayer::
-	.string "Oh, {PLAYER}{KUN}!$"
+	.string "あっ！　{PLAYER}{KUN}$"
 
 PewterCity_Text_AskedToDeliverThis::
 	.string "まにあって　よかった……\n"

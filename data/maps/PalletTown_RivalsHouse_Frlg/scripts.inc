@@ -166,14 +166,16 @@ PalletTown_RivalsHouse_EventScript_Picture::
 	end
 
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
-	.string "DAISY: Hi, {PLAYER}!\p"
-	.string "My brother, {RIVAL}, is out at\n"
-	.string "Grandpa's LAB.$"
+	.string "あ　うハコにえィあ　におィい　ゆヤあろわくかあだFぬくむあぞあ　かあヤGぬくむクぞい　かあmGぬくむクぞあ　かあンGぬくむオぞあ　かえがFぬくそ　かHぬくけえネぽあ　ゼぱのくア　　フいそ　ぇHぬくけえフいゆガあむすィい　かあゲっのくゆギあむゆぞäあか　TFぬくそ　ぶIぬくけおむすィ　　かあJFぬくそ　BIぬくけえゆポ　らハコむえィか　かえJFぬくよすィびあむすィピあかあ／Fぬくそ　OIぬくけえネビあぅ　あぇゆビあビ　ゆワ　そ　kIぬくけえフいそ　ほJぬくけえフいそ　０Iぬくけえフいそ　ぉJぬくけえよすィr　の　ィすィむ　ィ　　かあんGぬくむ　ィあ　かあぎGぬくむ　ィい　かあぢGぬくむ　ィう　かあぴGぬくむ　ィえ　かあカGぬくむ　ィお　かあタGぬくむ　ィか　かあハGぬくいそ　ぷKぬくけえフいそ　ひKぬくけえフいそ　ÖJぬくけえフいそ　YJぬくけえフいそ　‘Jぬくけえフいそ　ヂJぬくけえフいそ　ナJぬくけえフいそ　cHぬくけえフいそ　オHぬくけえネばノああ　むすィ　　かあcGぬくぽあ　ドぱのくア　　ウい　にクぞい　りそ　ぽあ　ゴぱのくア　　りし　でノああ　そ　ガHぬくは　ィノあはあィあ　はいィずあけけフいそ　ポHぬくけえフいそ　８Hぬくけえフいそ　すIぬくけいいそ　ろIぬくけういそ　ャKぬくけういナナミ“こんにちは\n"
+	.string "{PLAYER}{KUN}！\p"
+	.string "おとうとの　{RIVAL}なら\n"
+	.string "おじいちゃんの　けんきゅうじょよ$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
-	.string "DAISY: {PLAYER}, I heard you had\n"
-	.string "a battle against {RIVAL}.\p"
-	.string "I wish I'd seen that!$"
+	.string "ナナミ“{PLAYER}{KUN}\n"
+	.string "{RIVAL}と\l"
+	.string "しょうぶ　したんですってね\p"
+	.string "みたかったわ！$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
 	.string "オーキドの　おじいちゃん\n"
@@ -208,13 +210,12 @@ PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
 	.string "ポケモンの　ほん　ばかりだ$"
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
-	.string "DAISY: Hi, {PLAYER}!\n"
-	.string "Good timing.\p"
-	.string "I'm about to have some tea.\n"
-	.string "Would you like to join me?\p"
-	.string "Oh, but look.\n"
-	.string "Your POKéMON are a little dirty.\p"
-	.string "Would you like me to groom one?$"
+	.string "ナナミ“こんにちは　{PLAYER}{KUN}\n"
+	.string "ちょうど　よかったわ！\l"
+	.string "これから　おちゃの　じかんなの\p"
+	.string "あら？　あなたの　ポケモン\n"
+	.string "すこし　よごれちゃってる　みたい！\l"
+	.string "けづくろい　しましょうか？$"
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
 	.string "けづくろい　しないの？\n"
@@ -240,14 +241,14 @@ PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 	.string "It's such a cute POKéMON.$"
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
-	.string "Oh, sorry. I honestly can't\n"
-	.string "groom an EGG.$"
+	.string "んー…\n"
+	.string "タマゴは　けづくろい　できないわ$"
 
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
-	.string "DAISY: Your POKéMON grow to love\n"
-	.string "you if you raise them with love.\p"
-	.string "For example, {PLAYER}, may I see\n"
-	.string "your first POKéMON?$"
+	.string "ナナミ“ポケモンも\n"
+	.string "たいせつに　そだてて　いると\l"
+	.string "なついて　くれるのよ\p"
+	.string "{PLAYER}{KUN}の　ポケモンは……$"
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
 	.string "これいじょうは　ない　くらい\n"
@@ -273,10 +274,10 @@ PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet::
 	.string "だれでも　このくらい　なのよ$"
 
 PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
-	.string "{PLAYER}, I don't like the way it\n"
-	.string "glares at you.\p"
-	.string "Could you try being a little nicer\n"
-	.string "to it?$"
+	.string "{PLAYER}{KUN}の　こと\n"
+	.string "すこし　にらんで　いるみたい…\l"
+	.string "もうすこし　かわいがって\l"
+	.string "あげられない　かしら？$"
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
 	.string "……あの　いいづらいん　だけど\p"

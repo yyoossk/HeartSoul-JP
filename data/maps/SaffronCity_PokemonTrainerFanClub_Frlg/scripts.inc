@@ -384,8 +384,8 @@ SaffronCity_PokemonTrainerFanClub_EventScript_BlackBeltOnlyNonFan::
 	end
 
 SaffronCity_PokemonTrainerFanClub_Text_HuhYou::
-	.string "Huh?\n"
-	.string "You…$"
+	.string "あれ？\n"
+	.string "きみは……$"
 
 SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow::
 	.string "もしかして\n"

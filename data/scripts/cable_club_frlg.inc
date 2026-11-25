@@ -1715,5 +1715,5 @@ Text_WirelessClubUndergoingAdjustments::
 	.string "ただいま　ちょうせいちゅう　です$"
 
 Text_AppearsToBeUndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "ただいま　ちょうせい　ちゅう　の\n"
+	.string "ようだ……$"
