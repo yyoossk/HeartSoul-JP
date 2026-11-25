@@ -2447,7 +2447,9 @@ static const struct NamingScreenTemplate sPCBoxNamingTemplate =
 static const struct NamingScreenTemplate sMonNamingScreenTemplate =
 {
     .copyExistingString = FALSE,
-    .maxChars = POKEMON_NAME_LENGTH,
+    // HnS JP: 5 letters, like the Japanese games; longer nicknames ran past
+    // the name boxes on the party and summary screens.
+    .maxChars = 5,
     .iconFunction = 3,
     .addGenderIcon = TRUE,
     .initialPage = KBPAGE_LETTERS_UPPER,
