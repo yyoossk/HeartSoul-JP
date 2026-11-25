@@ -1123,11 +1123,7 @@ static void PrintMoneyOnCard(void)
     ConvertIntToDecimalStringN(gStringVar1, sData->trainerCard.money, STR_CONV_MODE_LEFT_ALIGN, MAX_MONEY_DIGITS);
 #if IS_HNS
     {
-        u8 *ptr = gStringVar4;
-        ptr = StringExpandPlaceholders(ptr, gText_PokedollarVar1);
-        *ptr++ = CHAR_SLASH;
-        ConvertIntToDecimalStringN(gStringVar2, Mom_GetBalance(), STR_CONV_MODE_LEFT_ALIGN, 6);
-        StringCopy(ptr, gStringVar2);
+        StringExpandPlaceholders(gStringVar4, gText_PokedollarVar1);
     }
 #else
     StringExpandPlaceholders(gStringVar4, gText_PokedollarVar1);
@@ -1219,13 +1215,13 @@ static void PrintTimeOnCard(void)
         x = 128;
         y = 89;
     }
-    totalWidth = width + 30;
+    totalWidth = width + 40;
     x -= totalWidth;
 
     FillWindowPixelRect(WIN_CARD_TEXT, PIXEL_FILL(0), x, y, totalWidth, 15);
     ConvertIntToDecimalStringN(gStringVar4, hours, STR_CONV_MODE_RIGHT_ALIGN, 3);
     AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, x, y, sTrainerCardTextColors, TEXT_SKIP_DRAW, gStringVar4);
-    x += 18;
+    x += 24;
     AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, x, y, sTimeColonTextColors[sData->timeColonInvisible], TEXT_SKIP_DRAW, gText_Colon2);
     x += width;
     ConvertIntToDecimalStringN(gStringVar4, minutes, STR_CONV_MODE_LEADING_ZEROS, 2);

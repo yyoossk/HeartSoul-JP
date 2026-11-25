@@ -205,40 +205,40 @@ Route34_Text_TrainerTips:
 	.string "トレーナーの　こころえ\pきのみの　きは　1にちに　なんども\nあたらしい　みを　つける\pどの　きに　どの　きのみが\nなるか　おぼえて　おこう$"
 
 Route34_Text_CooltrainerIrene_Seen:
-	.string "アイリーン『あなた　だれ！？$"
+	.string "マリサ『あなた　だれ！？$"
 
 Route34_Text_CooltrainerIrene_Beaten:
-	.string "アイリーン『ああっ！　つよすぎる！$"
+	.string "マリサ『ああっ！　つよすぎる！$"
 
 Route34_Text_CooltrainerIrene_After1:
-	.string "アイリーン『おねえちゃんの　ケイトが\nしかえし　してくれるわ！$"
+	.string "マリサ『おねえちゃんの　マリアが\nしかえし　してくれるわ！$"
 
 Route34_Text_CooltrainerIrene_After2:
-	.string "アイリーン『すてきな　はまべ\nでしょ？\pわたしたちの　ひみつの\nかくれがなの！$"
+	.string "マリサ『すてきな　はまべ\nでしょ？\pわたしたちの　ひみつの\nかくれがなの！$"
 
 Route34_Text_CooltrainerJenn_Seen:
-	.string "ジェン『な‥　なに？\nなにしてるの？$"
+	.string "マリカ『な‥　なに？\nなにしてるの？$"
 
 Route34_Text_CooltrainerJenn_Beaten:
-	.string "ジェン『ごめんね　アイリーン！\nおねえちゃん！$"
+	.string "マリカ『ごめんね　マリサ！\nおねえちゃん！$"
 
 Route34_Text_CooltrainerJenn_After1:
-	.string "ジェン『ちょうしに　のらないでよ！\nケイトねえさんは　つよいんだから！$"
+	.string "マリカ『ちょうしに　のらないでよ！\nマリアねえさんは　つよいんだから！$"
 
 Route34_Text_CooltrainerJenn_After2:
-	.string "ジェン『ひなたぼっこは\nからだを　じょうぶに　するの$"
+	.string "マリカ『ひなたぼっこは\nからだを　じょうぶに　するの$"
 
 Route34_Text_CooltrainerKate_Seen:
-	.string "ケイト『いもうとたちの　かりは\nかえさせて　もらうわ！$"
+	.string "マリア『いもうとたちの　かりは\nかえさせて　もらうわ！$"
 
 Route34_Text_CooltrainerKate_Beaten:
-	.string "ケイト『うそ！　まけるなんて$"
+	.string "マリア『うそ！　まけるなんて$"
 
 Route34_Text_CooltrainerKate_GiveSoftSand:
-	.string "ケイト『あなた　つよいわね\nいいわけ　できないわ‥\pはい　これ　あげる！$"
+	.string "マリア『あなた　つよいわね\nいいわけ　できないわ‥\pはい　これ　あげる！$"
 
 Route34_Text_CooltrainerKate_After:
-	.string "ケイト『いきなり　ごめんなさいね\pここで　ひとに　あうなんて\nおもわなかったから\lびっくり　しちゃった$"
+	.string "マリア『いきなり　ごめんなさいね\pここで　ひとに　あうなんて\nおもわなかったから\lびっくり　しちゃった$"
 
 
 Route34_Text_Sign_DayCare:

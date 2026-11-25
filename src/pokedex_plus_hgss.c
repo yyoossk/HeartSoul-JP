@@ -141,42 +141,42 @@ static const u8 sText_Stats_Defense[] = _("ぼう");
 static const u8 sText_Stats_Speed[] = _("すば");
 static const u8 sText_Stats_SpAttack[] = _("とくこ");
 static const u8 sText_Stats_SpDefense[] = _("とくぼ");
-static const u8 sText_Stats_EV_Plus1[] = _("{UP_ARROW_2}");
-static const u8 sText_Stats_EV_Plus2[] = _("{UP_ARROW_2}{UP_ARROW_2}");
-static const u8 sText_Stats_EV_Plus3[] = _("{UP_ARROW_2}{UP_ARROW_2}{UP_ARROW_2}");
+static const u8 sText_Stats_EV_Plus1[] = _("1");
+static const u8 sText_Stats_EV_Plus2[] = _("2");
+static const u8 sText_Stats_EV_Plus3[] = _("3");
 static const u8 sText_Stats_EvStr1Str2[] = _("{STR_VAR_1}{STR_VAR_2}");
-static const u8 sText_Stats_MoveSelectedMax[] = _("{STR_VAR_1} / {STR_VAR_2}");
+static const u8 sText_Stats_MoveSelectedMax[] = _("{STR_VAR_1}/{STR_VAR_2}");
 static const u8 sText_Stats_MoveLevel[] = _("Lv.");
 static const u8 sText_Stats_Gender_0[] = _("♂");
-static const u8 sText_Stats_Gender_12_5[] = _("♀ 1/7 ♂"); //_("♀ 12,5 / 87,5 ♂");
-static const u8 sText_Stats_Gender_25[] = _("♀ 1/3 ♂");     //_("♀ 25 / 75 ♂");
-static const u8 sText_Stats_Gender_50[] = _("♀ 1/1 ♂");     //_("♀ 50 / 50 ♂");
-static const u8 sText_Stats_Gender_75[] = _("♀ 3/1 ♂");     //_("♀ 75 / 25 ♂");
-static const u8 sText_Stats_Gender_87_5[] = _("♀ 7/1 ♂");
+static const u8 sText_Stats_Gender_12_5[] = _("♀1/7♂"); //_("♀ 12,5 / 87,5 ♂");
+static const u8 sText_Stats_Gender_25[] = _("♀1/3♂");     //_("♀ 25 / 75 ♂");
+static const u8 sText_Stats_Gender_50[] = _("♀1/1♂");     //_("♀ 50 / 50 ♂");
+static const u8 sText_Stats_Gender_75[] = _("♀3/1♂");     //_("♀ 75 / 25 ♂");
+static const u8 sText_Stats_Gender_87_5[] = _("♀7/1♂");
 static const u8 sText_Stats_Gender_100[] = _("♀");
-static const u8 sText_Stats_CatchRate[] = _("ほかく{0x5B}:");
+static const u8 sText_Stats_CatchRate[] = _("ほかく");
 static const u8 sText_Stats_CatchRate_Legend[] = _("でんせつ");
-static const u8 sText_Stats_CatchRate_VeryHard[] = _("とても　むずかしい");
+static const u8 sText_Stats_CatchRate_VeryHard[] = _("とてもむずかしい");
 static const u8 sText_Stats_CatchRate_Difficult[] = _("むずかしい");
 static const u8 sText_Stats_CatchRate_Medium[] = _("ふつう");
 static const u8 sText_Stats_CatchRate_Relaxed[] = _("かんたん");
-static const u8 sText_Stats_CatchRate_Easy[] = _("とても　かんたん");
-static const u8 sText_Stats_ExpYield[] = _("けいけんち:");
-static const u8 sText_Stats_EggCycles[] = _("ふかほすう:");
-static const u8 sText_Stats_EggCycles_VeryFast[] = _("{EMOJI_BOLT}{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_EggCycles_Fast[] = _("{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_EggCycles_Normal[] = _("{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_EggCycles_Slow[] = _("{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_Growthrate[] = _("せいちょう:");
-static const u8 sText_Stats_Friendship[] = _("なつきど:");
-static const u8 sText_Stats_Friendship_BigAnger[] = _("{EMOJI_BIGANGER}");
-static const u8 sText_Stats_Friendship_Neutral[] = _("{EMOJI_NEUTRAL}");
-static const u8 sText_Stats_Friendship_Happy[] = _("{EMOJI_HAPPY}");
-static const u8 sText_Stats_Friendship_BigSmile[] = _("{EMOJI_BIGSMILE}");
+static const u8 sText_Stats_CatchRate_Easy[] = _("とてもかんたん");
+static const u8 sText_Stats_ExpYield[] = _("けいけんち");
+static const u8 sText_Stats_EggCycles[] = _("ふかほすう");
+static const u8 sText_Stats_EggCycles_VeryFast[] = _("とてもはやい");
+static const u8 sText_Stats_EggCycles_Fast[] = _("はやい");
+static const u8 sText_Stats_EggCycles_Normal[] = _("ふつう");
+static const u8 sText_Stats_EggCycles_Slow[] = _("おそい");
+static const u8 sText_Stats_Growthrate[] = _("せいちょう");
+static const u8 sText_Stats_Friendship[] = _("なつきど");
+static const u8 sText_Stats_Friendship_BigAnger[] = _("ひくい");
+static const u8 sText_Stats_Friendship_Neutral[] = _("ふつう");
+static const u8 sText_Stats_Friendship_Happy[] = _("たかい");
+static const u8 sText_Stats_Friendship_BigSmile[] = _("とても　たかい");
 static const u8 sText_Stats_MEDIUM_FAST[] = _("ふつう");
 static const u8 sText_Stats_ERRATIC[] = _("ふあんてい");
 static const u8 sText_Stats_FLUCTUATING[] = _("ばらつき");
-static const u8 sText_Stats_MEDIUM_SLOW[] = _("やや　おそい");
+static const u8 sText_Stats_MEDIUM_SLOW[] = _("ややおそい");
 static const u8 sText_Stats_FAST[] = _("はやい");
 static const u8 sText_Stats_SLOW[] = _("おそい");
 static const u8 sText_Stats_ContestHeart[] = _("H");
@@ -209,19 +209,19 @@ static const u8 sText_EVO_Buttons_Decapped_PE[] = _("{DPAD_UPDOWN}しんか　{A
 static const u8 sText_EVO_Name[] = _("{STR_VAR_3}:");
 static const u8 sText_EVO_PreEvo[] = _("{STR_VAR_1}は　{STR_VAR_2}から　しんか");
 static const u8 sText_EVO_PreEvo_PE_Mega[] = _("{STR_VAR_1}は　{STR_VAR_2}で　メガシンカ");
-static const u8 sText_EVO_LEVEL_SILCOON[] = _("{LV_2}{UP_ARROW}で　{STR_VAR_2}　カラサリスの　せいかく");
-static const u8 sText_EVO_LEVEL_CASCOON[] = _("{LV_2}{UP_ARROW}で　{STR_VAR_2}　マユルドの　せいかく");
-static const u8 sText_EVO_MOVE[] = _("{LV_2}{UP_ARROW}　{STR_VAR_2}を　おぼえて　いる");
-static const u8 sText_EVO_LEVEL_RAIN[] = _("あめの　ときに　{LV_2}{UP_ARROW}で　{STR_VAR_2}");
+static const u8 sText_EVO_LEVEL_SILCOON[] = _("レベルアップで　{STR_VAR_2}　カラサリスの　せいかく");
+static const u8 sText_EVO_LEVEL_CASCOON[] = _("レベルアップで　{STR_VAR_2}　マユルドの　せいかく");
+static const u8 sText_EVO_MOVE[] = _("レベルアップ　{STR_VAR_2}を　おぼえて　いる");
+static const u8 sText_EVO_LEVEL_RAIN[] = _("あめの　ときに　レベルアップで　{STR_VAR_2}");
 static const u8 sText_EVO_TRADE_SPECIFIC_MON[] = _("{STR_VAR_2}と　つうしんこうかん");
 static const u8 sText_EVO_CRITICAL_HITS[] = _("シングルバトルで　きゅうしょに\n{STR_VAR_2}かい　あてる");
 static const u8 sText_EVO_SCRIPT_TRIGGER_DMG[] = _("{STR_VAR_2}いじょうの　ダメージを　うける");
 static const u8 sText_EVO_DARK_SCROLL[] = _("あくのかけじくを　つかう");
 static const u8 sText_EVO_WATER_SCROLL[] = _("みずのかけじくを　つかう");
-static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("{STR_VAR_2}を　20かい　つかって　{LV_2}{UP_ARROW}");
-static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("はんどう{STR_VAR_2}で　{LV_2}{UP_ARROW}　オス");
-static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("はんどう{STR_VAR_2}で　{LV_2}{UP_ARROW}　メス");
-static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("{STR_VAR_2}を　もつ　{STR_VAR_3}を　3かい　たおして　{LV_2}{UP_ARROW}");
+static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("{STR_VAR_2}を　20かい　つかって　レベルアップ");
+static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("はんどう{STR_VAR_2}で　レベルアップ　オス");
+static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("はんどう{STR_VAR_2}で　レベルアップ　メス");
+static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("{STR_VAR_2}を　もつ　{STR_VAR_3}を　3かい　たおして　レベルアップ");
 static const u8 sText_EVO_NONE[] = _("{STR_VAR_1}は　しんか　しない");
 
 static const u8 sText_FORMS_Buttons_PE[] = _("{A_BUTTON}すがたモード　{START_BUTTON}しんか");
@@ -229,7 +229,7 @@ static const u8 sText_FORMS_Buttons_Decapped_PE[] = _("{START_BUTTON}しんか")
 static const u8 sText_FORMS_Buttons_Submenu_PE[] = _("{DPAD_NONE}すがた　{A_BUTTON}みる　{START_BUTTON}しんか");
 static const u8 sText_FORMS_Buttons_Submenu_Decapped_PE[] = _("{START_BUTTON}しんか");
 static const u8 sText_FORMS_NONE[] = _("{STR_VAR_1}には　べつの　すがたは　ない");
-static const u8 sText_PlusSymbol[] = _("+");
+static const u8 sText_PlusSymbol[] = _("");
 
 // static .rodata graphics
 
@@ -3126,17 +3126,19 @@ static void CreateInterfaceSprites(u8 page)
 
     if ((!IsNationalPokedexEnabled() || sPokedexView->dexMode == DEX_MODE_HOENN) && (page == PAGE_MAIN || page == PAGE_SEARCH_RESULTS))
     {
+        // HnS JP: the Japanese labels are too wide for the numbers to sit beside
+        // them, so each number goes on the line under its label.
         // Hoenn text
         CreateSprite(&sHoennNationalTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 40 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET - 6, 1);
         // Hoenn seen
         CreateSprite(&sSeenOwnTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 45 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET + 6, 1);
         // Hoenn own
-        spriteId = CreateSprite(&sSeenOwnTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 55 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET + 7, 1);
+        spriteId = CreateSprite(&sSeenOwnTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 58, 1);
         StartSpriteAnim(&gSprites[spriteId], 1);
 
         // Hoenn seen value - 100s
         drawNextDigit = FALSE;
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET, 45 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
+        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET, 42, 1);
         digitNum = sPokedexView->seenCount / 100;
         StartSpriteAnim(&gSprites[spriteId], digitNum);
         if (digitNum != 0)
@@ -3145,7 +3147,7 @@ static void CreateInterfaceSprites(u8 page)
             gSprites[spriteId].invisible = TRUE;
 
         // Hoenn seen value - 10s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 7, 45 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
+        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 6, 42, 1);
         digitNum = (sPokedexView->seenCount % 100) / 10;
         if (digitNum != 0 || drawNextDigit)
             StartSpriteAnim(&gSprites[spriteId], digitNum);
@@ -3153,13 +3155,13 @@ static void CreateInterfaceSprites(u8 page)
             gSprites[spriteId].invisible = TRUE;
 
         // Hoenn seen value - 1s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 14, 45 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
+        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 12, 42, 1);
         digitNum = (sPokedexView->seenCount % 100) % 10;
         StartSpriteAnim(&gSprites[spriteId], digitNum);
 
         // Hoenn owned value - 100s
         drawNextDigit = FALSE;
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET, 55 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
+        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET, 62, 1);
         digitNum = sPokedexView->ownCount / 100;
         StartSpriteAnim(&gSprites[spriteId], digitNum);
         if (digitNum != 0)
@@ -3168,7 +3170,7 @@ static void CreateInterfaceSprites(u8 page)
             gSprites[spriteId].invisible = TRUE;
 
         // Hoenn owned value - 10s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 7, 55 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
+        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 6, 62, 1);
         digitNum = (sPokedexView->ownCount % 100) / 10;
         if (digitNum != 0 || drawNextDigit)
             StartSpriteAnim(&gSprites[spriteId], digitNum);
@@ -3176,7 +3178,7 @@ static void CreateInterfaceSprites(u8 page)
             gSprites[spriteId].invisible = TRUE;
 
         // Hoenn owned value - 1s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 14, 55 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
+        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 12, 62, 1);
         digitNum = (sPokedexView->ownCount % 100) % 10;
         StartSpriteAnim(&gSprites[spriteId], digitNum);
     }
@@ -4891,7 +4893,7 @@ static void LoadTilesetTilemapHGSS(u8 page)
 static u8 ShowCategoryIcon(enum DamageCategory category)
 {
     if (sPokedexView->categoryIconSpriteId == 0xFF)
-        sPokedexView->categoryIconSpriteId = CreateSprite(&gSpriteTemplate_CategoryIcons, 139, 90, 0);
+        sPokedexView->categoryIconSpriteId = CreateSprite(&gSpriteTemplate_CategoryIcons, 142, 90, 0);
 
     gSprites[sPokedexView->categoryIconSpriteId].invisible = FALSE;
     StartSpriteAnim(&gSprites[sPokedexView->categoryIconSpriteId], category);
@@ -5313,8 +5315,8 @@ static void PrintStatsScreen_Moves_Top(u8 taskId)
     u32 selected = sPokedexView->moveSelected;
     enum Move move = GetSelectedMove(species, selected);
     //Moves selected from move max
-    ConvertIntToDecimalStringN(gStringVar1, (selected+1), STR_CONV_MODE_RIGHT_ALIGN, 3);
-    ConvertIntToDecimalStringN(gStringVar2, sPokedexView->movesTotal, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    ConvertIntToDecimalStringN(gStringVar1, (selected+1), STR_CONV_MODE_LEFT_ALIGN, 3);
+    ConvertIntToDecimalStringN(gStringVar2, sPokedexView->movesTotal, STR_CONV_MODE_LEFT_ALIGN, 3);
     StringExpandPlaceholders(gStringVar1, sText_Stats_MoveSelectedMax);
     PrintStatsScreenTextSmallWhite(WIN_STATS_MOVES_TOP, gStringVar1, moves_x-1, moves_y+1);
 
@@ -5405,24 +5407,22 @@ static void PrintStatsScreen_Moves_Description(u8 taskId)
 
 static void PrintStatsScreen_Moves_BottomText(u8 taskId)
 {
-    u8 moves_x = 8;
     u8 moves_y = 3;
 
     if (gTasks[taskId].data[5] == 0)
     {
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Power,  moves_x, moves_y);
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Accuracy2,  moves_x + 66, moves_y);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Power,  6, moves_y);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Accuracy2,  77, moves_y);
     }
     else
     {
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Appeal,  moves_x, moves_y);
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Jam,  moves_x + 66, moves_y);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Appeal,  6, moves_y);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gText_Jam,  77, moves_y);
     }
 }
 
 static void PrintStatsScreen_Moves_Bottom(u8 taskId)
 {
-    u8 moves_x = 8;
     u8 moves_y = 3;
 
     //Contest
@@ -5441,8 +5441,8 @@ static void PrintStatsScreen_Moves_Bottom(u8 taskId)
         if (power < 2)
             StringCopy(gStringVar1, gText_ThreeDashes);
         else
-            ConvertIntToDecimalStringN(gStringVar1, power, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar1, moves_x + 45, moves_y);
+            ConvertIntToDecimalStringN(gStringVar1, power, STR_CONV_MODE_LEFT_ALIGN, 3);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar1, GetStringRightAlignXOffset(FONT_SMALL, gStringVar1, 76), moves_y);
         //Physical/Special/Status Category
         DestroyCategoryIcon();
         ShowCategoryIcon(GetMoveCategory(move));
@@ -5451,8 +5451,8 @@ static void PrintStatsScreen_Moves_Bottom(u8 taskId)
         if (accuracy == 0)
             StringCopy(gStringVar1, gText_ThreeDashes);
         else
-            ConvertIntToDecimalStringN(gStringVar1, accuracy, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar1,  moves_x + 114, moves_y);
+            ConvertIntToDecimalStringN(gStringVar1, accuracy, STR_CONV_MODE_LEFT_ALIGN, 3);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar1, GetStringRightAlignXOffset(FONT_SMALL, gStringVar1, 139), moves_y);
     }
     else //Appeal + Jam
     {
@@ -5464,7 +5464,7 @@ static void PrintStatsScreen_Moves_Bottom(u8 taskId)
         ConvertIntToDecimalStringN(gStringVar1, contest_appeal, STR_CONV_MODE_RIGHT_ALIGN, 1);
         StringCopy(gStringVar2, sText_PlusSymbol);
         StringAppend(gStringVar2, gStringVar1);
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar2, moves_x + 45, moves_y);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar2, GetStringRightAlignXOffset(FONT_SMALL, gStringVar2, 76), moves_y);
 
         //Jam
         contest_effectValue = gContestEffects[GetMoveContestEffect(move)].jam;
@@ -5473,7 +5473,7 @@ static void PrintStatsScreen_Moves_Bottom(u8 taskId)
         ConvertIntToDecimalStringN(gStringVar1, contest_jam, STR_CONV_MODE_RIGHT_ALIGN, 1);
         StringCopy(gStringVar2, sText_Stats_Minus);
         StringAppend(gStringVar2, gStringVar1);
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar2,  moves_x + 119, moves_y);
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar2, GetStringRightAlignXOffset(FONT_SMALL, gStringVar2, 139), moves_y);
     }
 }
 
@@ -5568,12 +5568,9 @@ static u8* PrintMonStatsToggle_EV_Arrows(u8 *dest, u8 value)
 
 static void PrintStatsScreen_Left(u8 taskId)
 {
-    u8 base_x = 8;
-    u8 x_offset_column = 43;
+    u8 base_x = 6;
+    u8 x_offset_column = 46;
     u8 column = 0;
-    u8 base_x_offset = 70;
-    u8 base_x_first_row = 23;
-    u8 base_x_second_row = 43;
     u8 base_y_offset = 11;
     u8 base_i = 0;
     u8 base_y = 5;
@@ -5585,34 +5582,23 @@ static void PrintStatsScreen_Left(u8 taskId)
     u8 differentEVs = 0;
 
     //Base stats
+    // HnS JP: Japanese glyphs are 8 px wide, so lay the two columns out by hand
+    // and right-align the numbers so nothing overlaps.
     if (gTasks[taskId].data[5] == 0)
     {
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_HP, base_x, base_y + base_y_offset*base_i);
-        ConvertIntToDecimalStringN(strBase, sPokedexView->sPokemonStats.baseHP, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, strBase, base_x+base_x_first_row, base_y + base_y_offset*base_i);
-
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_Speed, base_x+base_x_second_row, base_y + base_y_offset*base_i);
-        ConvertIntToDecimalStringN(strBase, sPokedexView->sPokemonStats.baseSpeed, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, strBase, base_x+base_x_offset, base_y + base_y_offset*base_i);
-
-        base_i++;
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_Attack, base_x, base_y + base_y_offset*base_i);
-        ConvertIntToDecimalStringN(strBase, sPokedexView->sPokemonStats.baseAttack, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, strBase, base_x+base_x_first_row, base_y + base_y_offset*base_i);
-
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_SpAttack, base_x+base_x_second_row, base_y + base_y_offset*base_i);
-        ConvertIntToDecimalStringN(strBase, sPokedexView->sPokemonStats.baseSpAttack, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, strBase, base_x+base_x_offset, base_y + base_y_offset*base_i);
-
-        base_i++;
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_Defense, base_x, base_y + base_y_offset*base_i);
-        ConvertIntToDecimalStringN(strBase, sPokedexView->sPokemonStats.baseDefense, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, strBase, base_x+base_x_first_row, base_y + base_y_offset*base_i);
-
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_SpDefense, base_x+base_x_second_row, base_y + base_y_offset*base_i);
-        ConvertIntToDecimalStringN(strBase, sPokedexView->sPokemonStats.baseSpDefense, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, strBase, base_x+base_x_offset, base_y + base_y_offset*base_i);
-        base_i++;
+        static const u8 *const labels[6] = {sText_Stats_HP, sText_Stats_Speed, sText_Stats_Attack, sText_Stats_SpAttack, sText_Stats_Defense, sText_Stats_SpDefense};
+        u32 values[6] = {sPokedexView->sPokemonStats.baseHP, sPokedexView->sPokemonStats.baseSpeed, sPokedexView->sPokemonStats.baseAttack, sPokedexView->sPokemonStats.baseSpAttack, sPokedexView->sPokemonStats.baseDefense, sPokedexView->sPokemonStats.baseSpDefense};
+        u32 i;
+        for (i = 0; i < 6; i++)
+        {
+            u32 labelX = (i % 2 == 0) ? 6 : 47;
+            u32 rightX = (i % 2 == 0) ? 45 : 94;
+            ConvertIntToDecimalStringN(strBase, values[i], STR_CONV_MODE_LEFT_ALIGN, 3);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, labels[i], labelX, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, strBase, GetStringRightAlignXOffset(FONT_SMALL, strBase, rightX), base_y + base_y_offset*base_i);
+            if (i % 2 == 1)
+                base_i++;
+        }
     }
     else //EV increases
     {
@@ -5757,17 +5743,17 @@ static void PrintStatsScreen_Left(u8 taskId)
         //Catch rate
         PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate, base_x, base_y + base_y_offset*base_i);
         if (catchRate <= 10)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Legend, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Legend, GetStringRightAlignXOffset(FONT_SMALL, sText_Stats_CatchRate_Legend, total_x), base_y + base_y_offset*base_i);
         else if (catchRate <= 70)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_VeryHard, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_VeryHard, GetStringRightAlignXOffset(FONT_SMALL, sText_Stats_CatchRate_VeryHard, total_x), base_y + base_y_offset*base_i);
         else if (catchRate <= 100)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Difficult, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Difficult, GetStringRightAlignXOffset(FONT_SMALL, sText_Stats_CatchRate_Difficult, total_x), base_y + base_y_offset*base_i);
         else if (catchRate <= 150)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Medium, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Medium, GetStringRightAlignXOffset(FONT_SMALL, sText_Stats_CatchRate_Medium, total_x), base_y + base_y_offset*base_i);
         else if (catchRate <= 200)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Relaxed, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Relaxed, GetStringRightAlignXOffset(FONT_SMALL, sText_Stats_CatchRate_Relaxed, total_x), base_y + base_y_offset*base_i);
         else
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Easy, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Easy, GetStringRightAlignXOffset(FONT_SMALL, sText_Stats_CatchRate_Easy, total_x), base_y + base_y_offset*base_i);
         base_i++;
 
         //Growth rate
@@ -5802,8 +5788,8 @@ static void PrintStatsScreen_Left(u8 taskId)
     {
         //Exp Yield
         PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_ExpYield, base_x, base_y + base_y_offset*base_i);
-        ConvertIntToDecimalStringN(gStringVar1, sPokedexView->sPokemonStats.expYield, STR_CONV_MODE_RIGHT_ALIGN, 3);
-        PrintStatsScreenTextSmall(WIN_STATS_LEFT, gStringVar1, base_x + base_x_offset, base_y + base_y_offset*base_i);
+        ConvertIntToDecimalStringN(gStringVar1, sPokedexView->sPokemonStats.expYield, STR_CONV_MODE_LEFT_ALIGN, 3);
+        PrintStatsScreenTextSmall(WIN_STATS_LEFT, gStringVar1, GetStringRightAlignXOffset(FONT_SMALL, gStringVar1, total_x), base_y + base_y_offset*base_i);
         base_i++;
 
         //Friendship
@@ -5837,31 +5823,20 @@ static void PrintStatsScreen_Left(u8 taskId)
         if (sPokedexView->sPokemonStats.eggGroup1 == EGG_GROUP_NO_EGGS_DISCOVERED || sPokedexView->sPokemonStats.eggGroup2 == EGG_GROUP_NO_EGGS_DISCOVERED) //Species without eggs (legendaries etc)
         {
             PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_EggCycles, base_x, base_y + base_y_offset*base_i);
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, gText_ThreeDashes, 78, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, gText_ThreeDashes, GetStringRightAlignXOffset(FONT_SMALL, gText_ThreeDashes, total_x), base_y + base_y_offset*base_i);
         }
         else
         {
             PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_EggCycles, base_x, base_y + base_y_offset*base_i);
             if (sPokedexView->sPokemonStats.eggCycles <= 10)
-            {
                 StringCopy(strEV, sText_Stats_EggCycles_VeryFast);
-                align_x = 76;
-            }
             else if (sPokedexView->sPokemonStats.eggCycles <= 20)
-            {
                 StringCopy(strEV, sText_Stats_EggCycles_Fast);
-                align_x = 85;
-            }
             else if (sPokedexView->sPokemonStats.eggCycles <= 30)
-            {
                 StringCopy(strEV, sText_Stats_EggCycles_Normal);
-                align_x = 76;
-            }
             else
-            {
                 StringCopy(strEV, sText_Stats_EggCycles_Slow);
-                align_x = 67;
-            }
+            align_x = GetStringRightAlignXOffset(FONT_SMALL, strEV, total_x);
             PrintStatsScreenTextSmall(WIN_STATS_LEFT, strEV, align_x, base_y + base_y_offset*base_i);
         }
         base_i++;
@@ -6724,7 +6699,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
         u32 speciesNameCharWidth = GetFontAttribute(GetSpeciesNameFontId(speciesNameWidthInChars), FONTATTR_MAX_LETTER_WIDTH);
 
         u32 speciesNameWidth = (speciesNameWidthInChars * speciesNameCharWidth);
-        u32 base_x_offset = speciesNameWidth + base_x + depth_offset; // for evo method info
+        u32 base_x_offset = speciesNameWidth + base_x + depth_offset + 6; // for evo method info (HnS JP: small gap after the name)
         u32 maxScreenWidth = 230 - base_x_offset;
 
         for (u32 j = 0; j < MAX_EVOLUTION_ICONS; j++)
@@ -6765,11 +6740,15 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                 break;
             case EVO_LEVEL:
             case EVO_LEVEL_BATTLE_ONLY:
-                StringCopy(gStringVar4, COMPOUND_STRING("{LV_2}{UP_ARROW}"));
                 if (evolutions[i].param > 1)
                 {
+                    StringCopy(gStringVar4, COMPOUND_STRING("Lv"));
                     ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEFT_ALIGN, EVO_SCREEN_LVL_DIGITS); //level
                     StringAppend(gStringVar4, gStringVar2);
+                }
+                else
+                {
+                    StringCopy(gStringVar4, COMPOUND_STRING("レベルアップ"));
                 }
                 if ((enum EvolutionMethods)evolutions[i].method == EVO_LEVEL_BATTLE_ONLY)
                     StringAppend(gStringVar4, COMPOUND_STRING("バトルちゅう"));
@@ -6808,7 +6787,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
             {
                 if (j == 0)
                 {
-                    StringAppend(gStringVar4, COMPOUND_STRING(", "));
+                    StringAppend(gStringVar4, COMPOUND_STRING("　"));
                 }
 
                 enum EvolutionConditions condition = evolutions[i].params[j].condition;
@@ -6823,7 +6802,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                     }
                     break;
                 case IF_MIN_FRIENDSHIP:
-                    StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}なつきど"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("なつきど　たかい"));
                     break;
                 case IF_ATK_GT_DEF:
                     StringAppend(gStringVar4, COMPOUND_STRING("こうげきが　うえ"));
@@ -6880,19 +6859,19 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                     StringAppend(gStringVar4, gStringVar2);
                     break;
                 case IF_MIN_BEAUTY:
-                    StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}うつくしさ"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("うつくしさ　たかい"));
                     break;
                 case IF_MIN_COOLNESS:
-                    StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}かっこよさ"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("かっこよさ　たかい"));
                     break;
                 case IF_MIN_SMARTNESS:
-                    StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}かしこさ"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("かしこさ　たかい"));
                     break;
                 case IF_MIN_TOUGHNESS:
-                    StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}たくましさ"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("たくましさ　たかい"));
                     break;
                 case IF_MIN_CUTENESS:
-                    StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}かわいさ"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("かわいさ　たかい"));
                     break;
                 // Gen 4
                 case IF_SPECIES_IN_PARTY:
@@ -6934,10 +6913,6 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                 case IF_REGION:
                 case IF_NOT_REGION:
                 {
-                    if (condition == IF_REGION)
-                        StringAppend(gStringVar4, COMPOUND_STRING("ばしょ"));
-                    else if (condition == IF_NOT_REGION)
-                        StringAppend(gStringVar4, COMPOUND_STRING("いがい"));
 
                     switch ((enum Region)evolutions[i].params[j].arg1)
                     {
@@ -6953,9 +6928,13 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                     case REGION_KALOS: StringAppend(gStringVar4, COMPOUND_STRING("カロス")); break;
                     case REGION_ALOLA: StringAppend(gStringVar4, COMPOUND_STRING("アローラ")); break;
                     case REGION_GALAR: StringAppend(gStringVar4, COMPOUND_STRING("ガラル")); break;
-                    case REGION_HISUI: StringAppend(gStringVar4, COMPOUND_STRING("シンジョウ")); break;
+                    case REGION_HISUI: StringAppend(gStringVar4, COMPOUND_STRING("ヒスイ")); break;
                     case REGION_PALDEA: StringAppend(gStringVar4, COMPOUND_STRING("パルデア")); break;
                     }
+                    if (condition == IF_REGION)
+                        StringAppend(gStringVar4, COMPOUND_STRING("で"));
+                    else
+                        StringAppend(gStringVar4, COMPOUND_STRING("いがい"));
                     break;
                 }
                 // Gen 8
@@ -7039,7 +7018,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
 
                 if (evolutions[i].params[j+1].condition != CONDITIONS_END)
                 {
-                    StringAppend(gStringVar4, COMPOUND_STRING(", "));
+                    StringAppend(gStringVar4, COMPOUND_STRING("　"));
                 }
             }
         }
@@ -7051,7 +7030,6 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
 
         u32 fontHeight = GetFontAttribute(fontId, FONTATTR_MAX_LETTER_HEIGHT);
 
-        StringAppend(gStringVar4, COMPOUND_STRING("."));
         BreakStringAutomatic(gStringVar4, maxScreenWidth, MAX_EVO_METHOD_LINES, fontId, HIDE_SCROLL_PROMPT);
 
         PrintInfoScreenTextSmall(gStringVar4, fontId, base_x_offset, base_y + base_y_offset*(*depth_i) + numLines); //Print actual instructions

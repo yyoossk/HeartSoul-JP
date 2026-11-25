@@ -48,6 +48,7 @@ enum {
     ITEM_MAIN_AUTORUN,
     ITEM_MAIN_AUTORUN_SURF,
     ITEM_MAIN_FISHING,
+    ITEM_MAIN_FASTER_JOY,
     ITEM_MAIN_UNIT_TYPE,
     ITEM_MAIN_MATCHCALL,
     ITEM_MAIN_TIMEOFDAY,
@@ -303,6 +304,10 @@ static const u8 *const sDesc_Fishing[] = {
     COMPOUND_STRING("つりで　じどうで\nひきあげます"),
     COMPOUND_STRING("つりで　じぶんで\nひきあげます"),
 };
+static const u8 *const sDesc_FasterJoy[] = {
+    COMPOUND_STRING("ジョーイさんが\nはやく　かいふく　します"),
+    COMPOUND_STRING("ジョーイさんが　いつもどおりに\nかいふく　します"),
+};
 static const u8 *const sDesc_UnitType[] = {
     COMPOUND_STRING("きのみと　ポケモンの　おもさなどを\nkgと　mで　しめす"),
     COMPOUND_STRING("きのみと　ポケモンの　おもさなどを\nポンドと　インチで　しめす"),
@@ -429,6 +434,12 @@ static const struct OptionMenuItem sTabItems_Main[] = {
     [ITEM_MAIN_FISHING] = {
         .name         = COMPOUND_STRING("かんたんつり"),
         .descriptions = sDesc_Fishing,
+        .numChoices   = 2,
+        .choiceNames  = sChoices_OnOff,
+    },
+    [ITEM_MAIN_FASTER_JOY] = {
+        .name         = COMPOUND_STRING("はやいかいふく"),
+        .descriptions = sDesc_FasterJoy,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
@@ -1085,9 +1096,11 @@ static void Task_Save(u8 taskId)
     cs->autoRun            = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_AUTORUN);
     cs->autorunSurf        = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_AUTORUN_SURF);
     cs->fishing            = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_FISHING);
-    // HnS JP: fast Pokémon Center healing is always on (no option)
-    cs->evenFasterJoy      = 0;
-    FlagSet(FLAG_EVEN_FASTER_JOY);
+    cs->evenFasterJoy      = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_FASTER_JOY);
+    if (cs->evenFasterJoy == 0)
+        FlagSet(FLAG_EVEN_FASTER_JOY);
+    else
+        FlagClear(FLAG_EVEN_FASTER_JOY);
     cs->unitSystem         = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_UNIT_TYPE);
     cs->disableMatchCall   = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_MATCHCALL);
     cs->timeOfDayMode      = *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_TIMEOFDAY);
@@ -1196,6 +1209,7 @@ void CB2_InitOptionMenu(void)
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_AUTORUN)        = cs->autoRun;
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_AUTORUN_SURF)   = cs->autorunSurf;
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_FISHING)        = cs->fishing;
+        *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_FASTER_JOY)     = cs->evenFasterJoy;
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_UNIT_TYPE)      = cs->unitSystem;
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_MATCHCALL)    = cs->disableMatchCall;
         *GetSelectionPtr(TAB_MAIN, ITEM_MAIN_TIMEOFDAY)    = cs->timeOfDayMode;

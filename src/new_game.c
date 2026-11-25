@@ -122,7 +122,7 @@ void SetDefaultChallengeSettings(void)
     gSaveblock3.challengeSettings.autorunSurf = 1;
     gSaveblock3.challengeSettings.autorunDive = 1;
     gSaveblock3.challengeSettings.fishing = 0;
-    gSaveblock3.challengeSettings.evenFasterJoy = 0; // HnS JP: fast healing is always on
+    gSaveblock3.challengeSettings.evenFasterJoy = 1;
     gSaveblock3.challengeSettings.fastIntro = 1;
     gSaveblock3.challengeSettings.fastBattle = 0;
     gSaveblock3.challengeSettings.optionStyle = 0;

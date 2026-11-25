@@ -7462,14 +7462,31 @@ static void InitMovementNormal(struct ObjectEvent *objectEvent, struct Sprite *s
 
     memcpy(functions, sDirectionAnimFuncsBySpeed, sizeof sDirectionAnimFuncsBySpeed);
     InitNpcForMovement(objectEvent, sprite, direction, speed);
-    SetStepAnimHandleAlternation(objectEvent, sprite, functions[speed](objectEvent->facingDirection));
+    // HnS JP: a follower Pokémon keeps up with the faster running shoes using
+    // MOVE_SPEED_FASTER, but its animation table uses the "faster" slots for
+    // entering its Poké Ball, which made it burst apart. Use the walk-fast
+    // animation instead.
+    if (objectEvent->localId == OBJ_EVENT_ID_FOLLOWER && speed >= MOVE_SPEED_FASTER)
+        SetStepAnimHandleAlternation(objectEvent, sprite, GetMoveDirectionFastAnimNum(objectEvent->facingDirection));
+    else
+        SetStepAnimHandleAlternation(objectEvent, sprite, functions[speed](objectEvent->facingDirection));
 }
 
 static void StartRunningAnim(struct ObjectEvent *objectEvent, struct Sprite *sprite, enum Direction direction)
 {
     // HnS JP: running shoes are faster (same step speed as the Acro Bike / water currents)
     InitNpcForMovement(objectEvent, sprite, direction, MOVE_SPEED_FAST_2);
-    SetStepAnimHandleAlternation(objectEvent, sprite, GetRunningDirectionAnimNum(objectEvent->facingDirection));
+    // A fast step lasts only 4 frames, shorter than the first frame of the
+    // running animation, so the legs never moved. Show the left and right
+    // leg frames on alternate steps instead.
+    if (!objectEvent->inanimate)
+    {
+        u8 animNum = GetRunningDirectionAnimNum(objectEvent->facingDirection);
+        bool32 secondLeg = (sprite->animNum == animNum && sprite->animCmdIndex < 2);
+
+        sprite->animNum = animNum;
+        SeekSpriteAnim(sprite, secondLeg ? 2 : 0);
+    }
 }
 
 static bool8 UpdateMovementNormal(struct ObjectEvent *objectEvent, struct Sprite *sprite)

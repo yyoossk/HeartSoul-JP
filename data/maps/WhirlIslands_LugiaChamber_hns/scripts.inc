@@ -550,15 +550,15 @@ WhirlIslands_LugiaChamber_Movement_Kimono_Dance_Shift_Right2:
 	step_end
 
 WhirlIslands_LugiaChamber_Text_Zuki_Before::
-	.string "ズキ『さあ　ルギアの　もとへ$"
+	.string "タマオ『さあ　ルギアの　もとへ$"
 WhirlIslands_LugiaChamber_Text_Naoko_Before::
-	.string "ナオコ『さあ　ルギアの　もとへ$"
+	.string "コウメ『さあ　ルギアの　もとへ$"
 WhirlIslands_LugiaChamber_Text_Miki_Before::
-	.string "ミキ『さあ　ルギアの　もとへ$"
+	.string "サツキ『さあ　ルギアの　もとへ$"
 WhirlIslands_LugiaChamber_Text_Sayo_Before::
-	.string "サヨ『さあ　ルギアの　もとへ$"
+	.string "サクラ『さあ　ルギアの　もとへ$"
 WhirlIslands_LugiaChamber_Text_Kuni_Before::
-	.string "クニ『さあ　ルギアの　もとへ$"
+	.string "コモモ『さあ　ルギアの　もとへ$"
 
 WhirlIslands_LugiaChamber_Text_Kimono_Opening::
 	.string "まいこはん『そう\nここが　ルギアを　むかえる\lばしょ\pわたくしたちが　なんにちも\nけいこ　した　まいと　あなたに\lたくした　うみなりのスズの\lねいろが　ひとつに　なるとき\lルギアは　ふたたび\lたきつぼの　おくから\lあらわれるのです$"

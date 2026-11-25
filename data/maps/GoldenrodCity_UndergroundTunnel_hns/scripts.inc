@@ -394,7 +394,7 @@ GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle:
 	.string "ゆうべ　じてんしゃやの\nちかくを　あるいてたら\lやねの　うえから　みられてる\lような　きが　したんだ‥$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattleOld:
-	.string "ずかんを　つくってるの？\nいい　こと　おしえて　あげる\p33ばんどうろの　やまおとこ\nアンソニーは　いい　ひとだよ\pめずらしい　ポケモンを　みたら\nでんわ　してくれるよ$"
+	.string "ずかんを　つくってるの？\nいい　こと　おしえて　あげる\p33ばんどうろの　やまおとこ\nツトムは　いい　ひとだよ\pめずらしい　ポケモンを　みたら\nでんわ　してくれるよ$"
 
 GoldenrodUnderground_Text_DoorsLocked:
 	.string "とびらに　かぎが\nかかっている‥$"

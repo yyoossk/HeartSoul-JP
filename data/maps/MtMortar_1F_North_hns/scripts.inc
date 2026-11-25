@@ -55,7 +55,7 @@ MountMortar2_Text_PokemaniacMillerAfter:
 	.string "まえに　からての　おとこが\nしょうぶを　しかけて\lきたんだ\pとんでもなく　つよくて\nこてんぱんに　された\pしゅぎょうの　ためと\nいって　おくへ　いったよ\pどう　してるかな？$"
 
 MountMortar2_Text_SupernerdMarkusSeen:
-	.string "おーい！　ヒュー！$"
+	.string "おーい！　タカフミ！$"
 
 MountMortar2_Text_SupernerdMarkusBeaten:
 	.string "ひとちがい　だった‥$"

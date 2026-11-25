@@ -544,15 +544,15 @@ TinTower_RoofDay_Movement_Kimono_Dance_Shift_Right2:
 	step_end
 
 TinTower_RoofDay_Text_Zuki_Before::
-	.string "ズキ『さあ　ホウオウの　もとへ$"
+	.string "タマオ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Naoko_Before::
-	.string "ナオコ『さあ　ホウオウの　もとへ$"
+	.string "コウメ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Miki_Before::
-	.string "ミキ『さあ　ホウオウの　もとへ$"
+	.string "サツキ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Sayo_Before::
-	.string "サヨ『さあ　ホウオウの　もとへ$"
+	.string "サクラ『さあ　ホウオウの　もとへ$"
 TinTower_RoofDay_Text_Kuni_Before::
-	.string "クニ『さあ　ホウオウの　もとへ$"
+	.string "コモモ『さあ　ホウオウの　もとへ$"
 
 TinTower_RoofDay_Text_Kimono_Opening::
 	.string "まいこはん『そう\nここが　ホウオウを　むかえる\lばしょ\pわたくしたちが　なんにちも\nけいこ　した　まいと\pあなたに　たくした　とうめいな\nスズの　ねいろが　ひとつに\lなるとき　ホウオウは\lふたたび　おおぞらから\lまいおりるのです$"
