@@ -37,7 +37,7 @@ MtMortar_2F_EventScript_Nerd::
 	end
 
 MtMortar_2F_Text_SupernerdHughSeen::
-	.string "よう！　マーカス！$"
+	.string "よう！　ガクジ！$"
 
 MtMortar_2F_Text_SupernerdHughBeaten:
 	.string "ごめん　ひとちがいだ$"
