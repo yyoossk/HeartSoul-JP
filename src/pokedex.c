@@ -4467,7 +4467,6 @@ static u8* ConvertMonWeightToMetricString(u32 weight)
 
     weightString[index++] = CHAR_k;
     weightString[index++] = CHAR_g;
-    weightString[index++] = CHAR_PERIOD;
     weightString[index++] = EOS;
     return weightString;
 }
@@ -4505,7 +4504,8 @@ static u8* ConvertMeasurementToMetricString(u32 num, u32* index)
     string[(*index)++] = CHAR_0 + ((num % 1000) % 100) / 10;
     string[(*index)++] = CHAR_DEC_SEPARATOR;
     string[(*index)++] = CHAR_0 + ((num % 1000) % 100) % 10;
-    string[(*index)++] = CHAR_SPACE;
+    // HnS JP: no space before the unit (Japanese spaces are 8 px wide and
+    // pushed "kg" off the screen)
 
     return string;
 }
