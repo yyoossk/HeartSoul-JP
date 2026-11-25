@@ -1,5 +1,5 @@
 EventScript_SetDefeatedEliteFourFlagsVars::
-	clearflag FLAG_HIDE_POSTGAME_GOSSIPERS
+	clearflag FLAG_KJ_HIDE_POSTGAME_GOSSIPERS
 	call EventScript_ResetEliteFour
 	special Script_UpdateTrainerFanClubGameClear
 	specialvar VAR_RESULT, IsNationalPokedexEnabled
@@ -12,9 +12,9 @@ EventScript_SetReadyTryGiveNationalDexScene::
 	return
 
 EventScript_ResetLegendaries::
-	clearflag FLAG_LUGIA_FLEW_AWAY
-	clearflag FLAG_HO_OH_FLEW_AWAY
-	clearflag FLAG_DEOXYS_FLEW_AWAY
+	clearflag FLAG_KJ_LUGIA_FLEW_AWAY
+	clearflag FLAG_KJ_HO_OH_FLEW_AWAY
+	clearflag FLAG_KJ_DEOXYS_FLEW_AWAY
 	return
 
 EventScript_ResetEliteFourEnd::
@@ -22,11 +22,11 @@ EventScript_ResetEliteFourEnd::
 	end
 
 EventScript_ResetEliteFour::
-	clearflag FLAG_DEFEATED_LORELEI
-	clearflag FLAG_DEFEATED_BRUNO
-	clearflag FLAG_DEFEATED_AGATHA
-	clearflag FLAG_DEFEATED_LANCE
-	clearflag FLAG_DEFEATED_CHAMP
+	clearflag FLAG_KJ_DEFEATED_LORELEI
+	clearflag FLAG_KJ_DEFEATED_BRUNO
+	clearflag FLAG_KJ_DEFEATED_AGATHA
+	clearflag FLAG_KJ_DEFEATED_LANCE
+	clearflag FLAG_KJ_DEFEATED_CHAMP
 	cleartrainerflag TRAINER_CHAMPION_FIRST_SQUIRTLE
 	cleartrainerflag TRAINER_CHAMPION_FIRST_BULBASAUR
 	cleartrainerflag TRAINER_CHAMPION_FIRST_CHARMANDER

@@ -36,7 +36,7 @@ int GameClear(void)
 
     SetContinueGameWarpStatus();
 
-    if (IS_HNS)
+    if (IS_HNS && FlagGet(FLAG_KJ_JOHTO_STARTED))
         SetContinueGameWarpToHealLocation(HEAL_LOCATION_NEW_BARK_TOWN_HNS);
     else if (gSaveBlock2Ptr->playerGender == MALE)
         SetContinueGameWarpToHealLocation(HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F);
@@ -101,6 +101,14 @@ bool8 EnterHallOfFame(void)
     int i;
     bool8 gaveAtLeastOneRibbon;
     HealPlayerParty();
+#if IS_HNS
+    if (!FlagGet(FLAG_KJ_JOHTO_STARTED)) // カントー＆ジョウト: カントーの殿堂入り
+    {
+        gHasHallOfFameRecords = FlagGet(FLAG_KJ_KANTO_CHAMPION);
+        FlagSet(FLAG_KJ_KANTO_CHAMPION);
+    }
+    else
+#endif
     if (FlagGet(FLAG_SYS_GAME_CLEAR) == TRUE)
     {
         gHasHallOfFameRecords = TRUE;

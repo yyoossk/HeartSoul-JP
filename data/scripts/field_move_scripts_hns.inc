@@ -2,7 +2,9 @@
 EventScript_CutTree::
 	lockall
 	goto_if_unset FLAG_RECEIVED_HM_CUT, EventScript_CheckTreeCantCut
+	goto_if_set FLAG_BADGE10_GET, KJ_FieldMoveBadgeOk_1 @ カントー＆ジョウト: カントーのバッジでも
 	goto_if_unset FLAG_BADGE02_GET, EventScript_CheckTreeCantCut
+KJ_FieldMoveBadgeOk_1:
 	checkpartymove MOVE_CUT
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CheckTreeCantCut
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
@@ -64,7 +66,9 @@ EventScript_UseRockSmash::
 EventScript_RockSmash::
 	lockall
 	checkpartymove MOVE_ROCK_SMASH
+	goto_if_set FLAG_BADGE14_GET, KJ_FieldMoveBadgeOk_2 @ カントー＆ジョウト: カントーのバッジでも
 	goto_if_unset FLAG_BADGE01_GET, EventScript_CantSmashRock
+KJ_FieldMoveBadgeOk_2:
 	goto_if_unset FLAG_RECEIVED_HM_ROCK_SMASH, EventScript_CantSmashRock
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSmashRock
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
@@ -316,7 +320,9 @@ Text_CantHeadbutt:
 
 EventScript_StrengthBoulder::
 	lockall
+	goto_if_set FLAG_BADGE12_GET, KJ_FieldMoveBadgeOk_3 @ カントー＆ジョウト: カントーのバッジでも
 	goto_if_unset FLAG_BADGE03_GET, EventScript_CantStrength
+KJ_FieldMoveBadgeOk_3:
 	checkitem ITEM_HM_STRENGTH
 	goto_if_eq VAR_RESULT, FALSE, EventScript_CantStrength
 	goto_if_set FLAG_SYS_USE_STRENGTH, EventScript_CheckActivatedBoulder
@@ -374,7 +380,9 @@ Text_StrengthActivated:
 
 EventScript_UseWaterfall::
 	lockall
+	goto_if_set FLAG_BADGE15_GET, KJ_FieldMoveBadgeOk_4 @ カントー＆ジョウト: カントーのバッジでも
 	goto_if_unset FLAG_BADGE08_GET, EventScript_CantWaterfall
+KJ_FieldMoveBadgeOk_4:
 	checkpartymove MOVE_WATERFALL
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantWaterfall
 	bufferpartymonnick STR_VAR_1, VAR_RESULT

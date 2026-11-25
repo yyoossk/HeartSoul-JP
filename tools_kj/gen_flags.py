@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import symscan as S, kanto_maps as K
 LIST = 'tools_kj/kj_flags.txt'
 KEEP = re.compile(r'FLAG_(TEMP_|SYS_|BADGE|WORLD_MAP_|HIDE_ARTICUNO|HIDE_ZAPDOS|HIDE_MOLTRES|HIDE_MEWTWO|DONT_TRANSITION_MUSIC|HIDE_MAP_NAME_POPUP|SAFE_FOLLOWER|OPENED_START_MENU|EVEN_FASTER_JOY|NURSE_UNION_ROOM_REMINDER|KJ_|UNUSED|ENABLE_MULTI_CORRIDOR)')
-files = S.files() + [f'data/maps/{m}/map.json' for m in K.kanto_maps()]
+files = S.files() + ['data/scripts/hall_of_fame_frlg.inc'] + [f'data/maps/{m}/map.json' for m in K.kanto_maps()]
 names = set(open(LIST).read().split()) if os.path.exists(LIST) else set()
 for f in files:
     for n in re.findall(r'\bFLAG_\w+', open(f).read()):
