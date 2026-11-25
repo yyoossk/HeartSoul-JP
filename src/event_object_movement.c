@@ -7468,7 +7468,17 @@ static void StartRunningAnim(struct ObjectEvent *objectEvent, struct Sprite *spr
 {
     // HnS JP: running shoes are faster (same step speed as the Acro Bike / water currents)
     InitNpcForMovement(objectEvent, sprite, direction, MOVE_SPEED_FAST_2);
-    SetStepAnimHandleAlternation(objectEvent, sprite, GetRunningDirectionAnimNum(objectEvent->facingDirection));
+    // A fast step lasts only 4 frames, shorter than the first frame of the
+    // running animation, so the legs never moved. Show the left and right
+    // leg frames on alternate steps instead.
+    if (!objectEvent->inanimate)
+    {
+        u8 animNum = GetRunningDirectionAnimNum(objectEvent->facingDirection);
+        bool32 secondLeg = (sprite->animNum == animNum && sprite->animCmdIndex < 2);
+
+        sprite->animNum = animNum;
+        SeekSpriteAnim(sprite, secondLeg ? 2 : 0);
+    }
 }
 
 static bool8 UpdateMovementNormal(struct ObjectEvent *objectEvent, struct Sprite *sprite)
