@@ -6,11 +6,13 @@ import symscan as S, kanto_maps as K
 LIST = 'tools_kj/kj_flags.txt'
 KEEP = re.compile(r'FLAG_(TEMP_|SYS_|BADGE|WORLD_MAP_|HIDE_ARTICUNO|HIDE_ZAPDOS|HIDE_MOLTRES|HIDE_MEWTWO|DONT_TRANSITION_MUSIC|HIDE_MAP_NAME_POPUP|SAFE_FOLLOWER|OPENED_START_MENU|EVEN_FASTER_JOY|NURSE_UNION_ROOM_REMINDER|KJ_|UNUSED|ENABLE_MULTI_CORRIDOR)')
 files = S.files() + ['data/scripts/hall_of_fame_frlg.inc'] + [f'data/maps/{m}/map.json' for m in K.kanto_maps()]
-names = set(open(LIST).read().split()) if os.path.exists(LIST) else set()
+# セーブの並びを変えないため、前からあるフラグの順番はそのまま。新しいフラグは後ろに足す
+names = open(LIST).read().split() if os.path.exists(LIST) else []
+found = set()
 for f in files:
     for n in re.findall(r'\bFLAG_\w+', open(f).read()):
-        if not KEEP.match(n): names.add(n)
-names = sorted(names)
+        if not KEEP.match(n): found.add(n)
+names += sorted(found - set(names))
 open(LIST, 'w').write('\n'.join(names) + '\n')
 pat = re.compile(r'\b(' + '|'.join(re.escape(n) for n in names) + r')\b')
 for f in files:

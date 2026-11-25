@@ -148,7 +148,7 @@ Route25_BillsHouse_hns_NoPokemon::
 
 
 Route25_BillsHouse_SetPlayerMale::
-	setvar VAR_OBJ_GFX_ID_2, OBJ_EVENT_GFX_GOLD_NORMAL_HNS
+	setvar VAR_OBJ_GFX_ID_2, OBJ_EVENT_GFX_RED_NORMAL
 	return
 
 Route25_BillsHouse_SetPlayerFemale::

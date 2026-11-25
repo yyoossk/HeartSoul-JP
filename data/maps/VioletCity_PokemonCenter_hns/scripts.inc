@@ -140,7 +140,11 @@ VioletCity_PokeCenter_Text_GameboyKid:
 	.string "ポケモンを　パソコンに　あずける\nしくみは　マサキって　ひとが\lつくったんだって$"
 
 VioletCity_PokeCenter_Text_Gentleman:
-	.string "3ねんほど　まえの　ことだ\pロケットだんが　ポケモンを\nつかって　わるさを　していた\pだが　せいぎは　かった\nひとりの　しょうねんが\lやつらを　かいさん　させたんだ$"
+	.string "3ねんほど　まえの　ことだ\p"
+	.string "ロケットだんが　ポケモンを\nつかって　わるさを　していた\p"
+	.string "だが　せいぎは　かった\nひとりの　しょうねんが\lやつらを　かいさん　させたんだ\p"
+	.string "ん？　きみの　かお‥\nどこかで　みた　ような‥\p"
+	.string "まさか　カントーの　チャンピオン\n{PLAYER}くん　かい！？$"
 
 VioletCity_PokeCenter_Text_Youngster:
 	.string "ポケモンは　かしこいんだ\nみとめて　いない　トレーナーの\lいうことは　きかない\pちゃんと　ジムバッジが　ないと\nかってに　うごいちゃうんだ$"

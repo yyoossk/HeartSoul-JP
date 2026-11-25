@@ -13,7 +13,13 @@ SITES = [
     ('RocketHideout_B4F_Frlg', 'RocketHideout_B4F_EventScript_Grunt1', (1, 0), 2, 'HIDEOUT', 'KJ_EventScript_JJ_HideoutLiftKey'),
     ('PokemonTower_7F_Frlg', 'PokemonTower_7F_EventScript_Grunt1', (0, 1), 3, 'TOWER', None),
     ('SilphCo_11F_Frlg', 'SilphCo_11F_EventScript_Grunt1', (1, 0), 4, 'SILPH', None),
+    # ジョウト（3ねんご）
+    ('SlowpokeWell_B1F_hns', 'SlowpokeWell_B1F_EventScript_Grunt22F', (1, 0), 5, 'WELL', None),
+    ('RocketHideout_B2F_hns', 'RocketHideout_B2F_EventScript_Grunt16', (1, 0), 6, 'MAHOGANY', None),
+    ('GoldenrodCity_RadioTower_3F_hns', 'GoldenrodRaidoTower3_EventScript_Grunt8', (-1, 0), 7, 'RADIO', None),
 ]
+# ジョウトでは　もとの　だんいんと　おなじ　ときだけ　でる（この　フラグが　たって　いたら　かくす）
+STORY = {'WELL': 'FLAG_HIDE_AZALEA_TOWN_ROCKETS', 'MAHOGANY': 'FLAG_HIDE_MAHOGANY_ROCKETS', 'RADIO': 'FLAG_HIDE_GOLDENROD_ROCKETS'}
 TEXT = {
  1: ('ムサシ“ちょっと　まったー！\\pコジロウ“この　やまの　カセキは\\nロケットだんが　いただくぜ！\\pムサシ“じゃまする　こは\\nおしおき　よ！$',
      'ムサシ“うそ！\\nまけちゃった……$',
@@ -24,6 +30,15 @@ TEXT = {
  3: ('ムサシ“あーら　また　あったわね\\pコジロウ“この　タワーは\\nロケットだんが　いただいたぜ！$',
      'ムサシ“もう！\\nなんで　かてないのよ！$',
      'コジロウ“フジろうじんは\\nかえして　やるよ……\\pムサシ・コジロウ“やなかんじー！$'),
+ 5: ('ムサシ“ちょっと　まったー！\\pコジロウ“ヤドンの　シッポは\\nロケットだんの　だいじな\\lしきんげん　なのさ！\\pムサシ“あら‥？　あんた\\nもしかして‥\\pコジロウ“3ねんまえの\\nあの　ジャリボーイ！？\\pムサシ“ここで　あったが\\n3ねんめ！　おしおき　よ！$',
+     'コジロウ“3ねん　たっても\\nかてないのか……$',
+     'ムサシ“きょうの　ところは\\nひいて　あげるわ！\\pムサシ・コジロウ“やなかんじー！$'),
+ 6: ('ムサシ“また　あんたね\\nジャリボーイ！\\pコジロウ“この　アジトの\\nひみつは　わたさないぜ！$',
+     'ムサシ“もう！\\nなんで　かてないのよ！$',
+     'コジロウ“いかりのみずうみの\\nけいかくも　だいなしだ……\\pムサシ・コジロウ“やなかんじー！$'),
+ 7: ('ムサシ“ここまで　きたのね！\\pコジロウ“ラジオとうは\\nロケットだんが　いただいたぜ！\\pムサシ“サカキさまに　とどける\\nこの　でんぱ‥\\lじゃまは　させないわ！$',
+     'コジロウ“また　まけた……$',
+     'ムサシ“こんどこそ‥\\nこんどこそ　かつんだから！\\pムサシ・コジロウ“やなかんじー！$'),
  4: ('ムサシ“こんな　ところまで\\nきたのね！\\pコジロウ“しゃちょうしつへは\\nいかせないぜ！$',
      'コジロウ“また　まけた……$',
      'ムサシ“サカキさまに\\nおこられちゃう……\\pムサシ・コジロウ“やなかんじー！$'),
@@ -45,6 +60,17 @@ for mp, grunt, (dx, dy), n, key, after in SITES:
                                    'trainer_sight_or_berry_tree_id': '0', 'script': f'KJ_EventScript_JJ_{key}_Kojiro'})
         objs.append(ko)
     open(p, 'w').write(json.dumps(j, indent=2, ensure_ascii=False) + '\n')
+    if key in STORY:
+        out += [f'KJ_EventScript_JJ_Sync_{key}::',
+                f'\tgoto_if_set {STORY[key]}, KJ_EventScript_JJ_Hide_{key}',
+                f'\tgoto_if_defeated TRAINER_KJ_JJ_{n}, KJ_EventScript_JJ_Hide_{key}',
+                f'\tclearflag {flag}', '\tend', '',
+                f'KJ_EventScript_JJ_Hide_{key}::', f'\tsetflag {flag}', '\tend', '']
+        sp = f'data/maps/{mp}/scripts.inc'; t = open(sp).read()
+        line = f'\tmap_script MAP_SCRIPT_ON_TRANSITION, KJ_EventScript_JJ_Sync_{key}\n'
+        if line not in t:
+            t = t.replace(f'{mp}_MapScripts::\n', f'{mp}_MapScripts::\n' + line, 1)
+            open(sp, 'w').write(t)
     intro, defeat, post = TEXT[n]
     out += [f'KJ_EventScript_JJ_{key}::',
             f'\ttrainerbattle_single TRAINER_KJ_JJ_{n}, KJ_Text_JJ_{key}_Intro, KJ_Text_JJ_{key}_Defeat, KJ_EventScript_JJ_{key}_After',
@@ -73,7 +99,8 @@ out += ['KJ_EventScript_JJ_HideoutLiftKey::',
         'Common_Movement_JumpInPlaceDownKj::', '\tjump_in_place_down', '\tjump_in_place_down', '\tstep_end', '']
 open('data/scripts/kj_jj.inc', 'w').write('\n'.join(out))
 # フラグの一覧に足す
-lst = 'tools_kj/kj_flags.txt'; names = set(open(lst).read().split())
-names |= {f'FLAG_HIDE_JJ_{s[4]}' for s in SITES}
-open(lst, 'w').write('\n'.join(sorted(names)) + '\n')
+# セーブの並びを変えないため、新しいフラグは後ろに足す
+lst = 'tools_kj/kj_flags.txt'; names = open(lst).read().split()
+names += [f for f in (f'FLAG_HIDE_JJ_{s[4]}' for s in SITES) if f not in names]
+open(lst, 'w').write('\n'.join(names) + '\n')
 print('ok')

@@ -145,7 +145,7 @@
       "flag": "FLAG_HIDE_AZALEA_TOWN_ROCKETS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F_HNS",
+      "graphics_id": "OBJ_EVENT_GFX_KJ_MUSASHI",
       "x": 21,
       "y": 5,
       "elevation": 0,
@@ -154,8 +154,9 @@
       "movement_range_y": 6,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
-      "script": "SlowpokeWell_B1F_EventScript_Grunt22F",
-      "flag": "FLAG_HIDE_AZALEA_TOWN_ROCKETS"
+      "script": "KJ_EventScript_JJ_WELL",
+      "flag": "FLAG_KJ_HIDE_JJ_WELL",
+      "local_id": "LOCALID_KJ_MUSASHI_WELL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROTON_HNS",
@@ -365,6 +366,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "AzaleaTown_EventScript_Slowpoke",
       "flag": "FLAG_HIDE_AZALEA_TOWN_TAILED_SLOWPOKES"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KJ_KOJIRO",
+      "x": 20,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 6,
+      "movement_range_y": 6,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KJ_EventScript_JJ_WELL_Kojiro",
+      "flag": "FLAG_KJ_HIDE_JJ_WELL",
+      "local_id": "LOCALID_KJ_KOJIRO_WELL"
     }
   ],
   "warp_events": [

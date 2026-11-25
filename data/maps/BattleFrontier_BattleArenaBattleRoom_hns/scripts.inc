@@ -25,7 +25,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_SetPlayerGfx_hns::
 	return
 
 BattleFrontier_BattleArenaBattleRoom_EventScript_SetPlayerGfx_hnsMale_hns::
-	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_GOLD_NORMAL_HNS
+	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_RED_NORMAL
 	return
 
 BattleFrontier_BattleArenaBattleRoom_EventScript_SetPlayerGfx_hnsFemale_hns::

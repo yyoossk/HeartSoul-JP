@@ -18,7 +18,7 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_SetObjGfx_hns::
 	tower_setpartnergfx
 	checkplayergender
 	goto_if_eq VAR_RESULT, FEMALE, BattleFrontier_BattleTowerMultiCorridor_EventScript_SetPlayerGfxFemale_hns
-	setvar VAR_OBJ_GFX_ID_F, OBJ_EVENT_GFX_GOLD_NORMAL_HNS
+	setvar VAR_OBJ_GFX_ID_F, OBJ_EVENT_GFX_RED_NORMAL
 	return
 
 BattleFrontier_BattleTowerMultiCorridor_EventScript_SetPlayerGfxFemale_hns::

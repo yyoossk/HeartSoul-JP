@@ -441,7 +441,7 @@ LilycoveCity_ContestLobby_EventScript_SetPlayerGfx_hns::
 	return
 
 LilycoveCity_ContestLobby_EventScript_SetPlayerGfxBrendan_hns::
-	setvar VAR_OBJ_GFX_ID_3, OBJ_EVENT_GFX_GOLD_NORMAL_HNS
+	setvar VAR_OBJ_GFX_ID_3, OBJ_EVENT_GFX_RED_NORMAL
 	return
 
 LilycoveCity_ContestLobby_EventScript_SetPlayerGfxMay_hns::

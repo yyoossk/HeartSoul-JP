@@ -60,7 +60,10 @@ SaffronCity_Gym_EventScript_Sabrina_Defeated::
 	end
 
 SaffronCity_Gym_Text_SabrinaIntro:
-	.string "ナツメ『あなたが　くるのは\nわかっていた‥\p3ねんまえ　あなたが　くるのを\nよちして　いたの\pわたしの　バッジが\nめあて　なのね\pたたかいは　すきじゃ　ないけど\nふさわしい　ものに　バッジを\lわたすのが　リーダーの\lつとめ\pのぞむ　なら\nちょうのうりょくを\lみせて　あげる！$"
+	.string "ナツメ『あなたが　また\nくるのは　わかっていた‥\p"
+	.string "3ねんぶりね　{PLAYER}\p"
+	.string "あの　とき　あなたに　まけてから\nいまも　わたしの　よちは\lあなたの　みらいを　よめないの\p"
+	.string "のぞむ　なら\nもう　いちど　ちょうのうりょくを\lみせて　あげる！$"
 
 SaffronCity_Gym_Text_SabrinaWinLoss:
 	.string "ナツメ『あなたの　ちから‥\pわたしの　よち　を\nはるかに　こえている‥\pみらいを　かんぜんに　よむ\nことは　できない　のかも‥\pいいわ　あなたの　かち\nゴールドバッジを　あげる$"
@@ -123,7 +126,9 @@ SaffronCity_Gym_Text_PsychicJaredAfter:
 	.string "かくとうどうじょうの　しはん\nカラテおうは　ナツメさんに\lこてんぱんに　されたんだ$"
 
 SaffronCity_Gym_Text_GymGuideIntro:
-	.string "よう　みらいの　チャンピオン！\pきみほどの　うでなら\nエスパータイプの　たいさくは\lいわなくても　わかるよな？\pきたい　してるぞ！\pがんばれよ！$"
+	.string "よう　チャンピオン！\p"
+	.string "きみほどの　うでなら\nエスパータイプの　たいさくは\lいわなくても　わかるよな？\p"
+	.string "きたい　してるぞ！\pがんばれよ！$"
 
 SaffronCity_Gym_Text_GymGuideWin:
 	.string "また　すばらしい\nしょうぶ　だったな！$"
@@ -142,7 +147,7 @@ SaffronCity_Gym_EventScript_GymStatuePostVictory::
 
 
 SaffronCity_Gym_Text_GymStatue::
-	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\nグリーン　レッド$"
+	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"

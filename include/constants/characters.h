@@ -269,6 +269,7 @@
 #define PLACEHOLDER_ID_KYOGRE        0xC
 #define PLACEHOLDER_ID_GROUDON       0xD
 #define PLACEHOLDER_ID_REGION        0xE
+#define PLACEHOLDER_ID_KANTO_RIVAL   0xF // カントー＆ジョウト: カントーのライバル（ジョウトに入っても）
 
 // battle placeholders are located in battle_message.h
 

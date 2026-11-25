@@ -25,7 +25,10 @@ for b in re.split(r'(?m)^(?==== )', extra):
     if m: byname[m.group(1)] = b; names.append(m.group(1))
 n = len(names)
 total = HNS_COUNT + n
-mx = max(FLAG_SPLIT, (total + 7) // 8 * 8)
+# セーブの並び（後ろのフラグの番号）を変えないため、トレーナーの数は KJ_RESERVED_MAX まで決まった枠を取る
+KJ_RESERVED_MAX = 1112
+assert total <= KJ_RESERVED_MAX, 'トレーナーの枠が足りない'
+mx = KJ_RESERVED_MAX
 h = ['#ifndef GUARD_CONSTANTS_OPPONENTS_KJ_H', '#define GUARD_CONSTANTS_OPPONENTS_KJ_H',
      '// カントー＆ジョウト: FRLG のトレーナー（tools_kj/gen_trainers.py で作成）',
      f'#define KJ_TRAINERS_START {HNS_COUNT}', f'#define KJ_TRAINERS_COUNT {n}',

@@ -45,7 +45,7 @@ MtSilver_SummitDay_EventScript_RedPostOBC::
 MtSilver_SummitDay_EventScript_RedOnDefeat::
 	playse SE_M_BLIZZARD
 	setrespawn HEAL_LOCATION_NEW_BARK_TOWN_HNS
-	msgbox MtSilver_SummitDay_Text_Red, MSGBOX_DEFAULT
+	msgbox MtSilver_SummitDay_Text_HibikiAfter, MSGBOX_DEFAULT
 	special GivePartyMonLandRibbon
 	closemessage
 	fadescreenswapbuffers FADE_TO_BLACK
@@ -63,10 +63,15 @@ MtSilver_SummitDay_EventScript_RedOnDefeat::
 	end
 
 MtSilver_SummitDay_Text_Red:
-	.string "‥‥‥‥‥‥‥‥‥‥‥‥\n"
-	.string "‥‥‥‥‥‥‥‥‥‥‥‥$"
+	.string "‥‥！\n{PLAYER}さん　ですよね？\p"
+	.string "ぼくは　ヒビキ\nワカバタウンから　きました\p"
+	.string "カントーの　チャンピオンの\n{PLAYER}さんと　いつか\lたたかって　みたかったんだ！\p"
+	.string "さあ　しょうぶ　です！$"
 
 MtSilver_SummitDay_Text_RedBeaten:
-	.string "‥！$"
+	.string "‥‥　まいったなあ！\nやっぱり　つよいや！$"
 
-
+MtSilver_SummitDay_Text_HibikiAfter:
+	.string "ありがとう　{PLAYER}さん！\p"
+	.string "もっと　もっと　つよく　なって\nまた　あいに　いきます！\p"
+	.string "かあさんに　よろしく！$"

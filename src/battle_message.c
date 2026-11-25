@@ -3010,6 +3010,11 @@ static const u8 *BattleStringGetOpponentNameByTrainerId(u16 trainerId, u8 *text,
 
         if (trainerClass == TRAINER_CLASS_RIVAL_EARLY_FRLG || trainerClass == TRAINER_CLASS_RIVAL_LATE_FRLG || trainerClass == TRAINER_CLASS_CHAMPION_FRLG)
             toCpy = GetExpandedPlaceholder(PLACEHOLDER_ID_RIVAL);
+#if IS_HNS
+        // カントー＆ジョウト: トキワの　ジムリーダーは　カントーの　ライバル
+        else if (trainerId == TRAINER_BLUE_HNS || trainerId == TRAINER_BLUE_2_HNS || trainerId == TRAINER_BLUE_POSTOBC_HNS)
+            toCpy = GetExpandedPlaceholder(PLACEHOLDER_ID_KANTO_RIVAL);
+#endif
         else
         {
             toCpy = GetTrainerNameFromId(trainerId);

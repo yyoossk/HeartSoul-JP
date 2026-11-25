@@ -191,7 +191,12 @@ TohjoFalls_GiovanniRoom_Text_Radio:
 	.string "ラジオ『‥　‥\nこちら　ロケットだん！\l3ねんの　じゅんびを　へて\lわれわれは　ふっかつ　した！\lサカキさま！　きこえますか？\lやりました！\lボスは　どこに？\lきいて　おられますか？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniIntro:
-	.string "サカキ『‥\pなぜ　おまえが　ここに\nきたのかは　しらんが\pここは　おまえの　ような\nこどもの　くる　ところでは\lないと　いっておこう\pおまえの　その　かお‥\n3ねんまえ　わたしの　まえに\lたった　こどもを　おもいだす‥\pおなじ　めを　している‥\p‥\pわたしは　なかまの　よびかけに\nこたえて　コガネシティへ\lむかう　ところだ\lじゃまを　する　つもりか？$"
+	.string "サカキ『‥\p"
+	.string "おまえは‥　{PLAYER}！\p"
+	.string "まさか　また　おまえが\nわたしの　まえに　たつとはな\p"
+	.string "3ねんまえ　わたしを　たおした\nおまえの　その　め‥\lすこしも　かわって　いないな\p‥\p"
+	.string "わたしは　なかまの　よびかけに\nこたえて　コガネシティへ\lむかう　ところだ\l"
+	.string "じゃまを　する　つもりか？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle:
 	.string "かつての　なかまが\nわたしを　まって　いる‥\l3ねんまえの　しっぱいは\lくりかえさん！$"
@@ -200,4 +205,6 @@ TohjoFalls_GiovanniRoom_Text_GiovanniDefeat:
 	.string "おまえは　いったい\nなにものだ？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniAfter:
-	.string "サカキ『なぜだ‥？\nこの　3ねんは\lむだ　だったのか‥？\pなぜ　おまえの　ような　こどもに\nまた　ゆめを　うちくだかれる\lのだ？\pロケットだんの　だいじな　ゆめは\nまぼろしに　すぎなく\lなって　しまった‥$"
+	.string "サカキ『なぜだ‥？\nこの　3ねんは\lむだ　だったのか‥？\p"
+	.string "またしても　おまえに\nゆめを　うちくだかれる　とは‥\p"
+	.string "ロケットだんの　だいじな　ゆめは\nまぼろしに　すぎなく\lなって　しまった‥$"

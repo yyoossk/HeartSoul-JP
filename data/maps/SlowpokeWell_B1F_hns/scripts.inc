@@ -1,4 +1,5 @@
 SlowpokeWell_B1F_hns_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, KJ_EventScript_JJ_Sync_WELL
 	.byte 0
 
 SlowpokeWell_B1F_EventScript_Item_Super_Potion_1::
@@ -102,7 +103,12 @@ SlowpokeWell_B1F_Text_ProtonBeaten:
 	.string "きょうは　まあまあ　だが\nつぎは　こうは　いかんぞ！$"
 
 SlowpokeWell_B1F_Text_ProtonAfter:
-	.string "そう　ロケットだんは\n3ねんまえに　かいさん　した\pボスは　すがたを\nけした\pだが　われわれは　うらで\nかつどうを　つづけて　きた！\pおまえ　ていどの　じゃまは\nにんむの　さまたげにも\lならん\pこれから　おこる　ことを\nせいぜい　おそれる\lことだな！$"
+	.string "そう　ロケットだんは\n3ねんまえに　かいさん　した\p"
+	.string "おまえの　せいでな　{PLAYER}！\p"
+	.string "ボスは　すがたを\nけした\p"
+	.string "だが　われわれは　うらで\nかつどうを　つづけて　きた！\p"
+	.string "こんどは　おまえ　ひとりに\nじゃま　される\lわれわれでは　ないぞ\p"
+	.string "これから　おこる　ことを\nせいぜい　おそれる\lことだな！$"
 
 SlowpokeWell_B1F_Text_GruntM2Seen:
 	.string "ひゃっひゃっひゃ！\nヤドンのシッポを　とるのを\lやめろ　だと？\pばかを　いうな！\nいうことを　きいたら\lロケットだんの　なが　すたる！$"

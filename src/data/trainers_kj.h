@@ -23371,3 +23371,219 @@
             },
         },
     },
+#line 8610
+    [DIFFICULTY_NORMAL][TRAINER_KJ_JJ_5] =
+    {
+#line 8611
+        .trainerName = _("ムサシとコジロウ"),
+#line 8612
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
+#line 8613
+        .trainerPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+#line 8614
+        .gender = TRAINER_GENDER_FEMALE,
+#line 8615
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+#line 8616
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
+#line 8617
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 0
+        .trainerBackPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 8619
+            .species = SPECIES_MEOWTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8621
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8620
+            .lvl = 16,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8623
+            .species = SPECIES_ARBOK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8625
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8624
+            .lvl = 17,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8627
+            .species = SPECIES_WEEZING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8629
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8628
+            .lvl = 17,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },
+#line 8631
+    [DIFFICULTY_NORMAL][TRAINER_KJ_JJ_6] =
+    {
+#line 8632
+        .trainerName = _("ムサシとコジロウ"),
+#line 8633
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
+#line 8634
+        .trainerPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+#line 8635
+        .gender = TRAINER_GENDER_FEMALE,
+#line 8636
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+#line 8637
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
+#line 8638
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 0
+        .trainerBackPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+        .partySize = 4,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 8640
+            .species = SPECIES_MEOWTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8642
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8641
+            .lvl = 26,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8644
+            .species = SPECIES_ARBOK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8646
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8645
+            .lvl = 27,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8648
+            .species = SPECIES_WEEZING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8650
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8649
+            .lvl = 27,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8652
+            .species = SPECIES_WOBBUFFET,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8654
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8653
+            .lvl = 28,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },
+#line 8656
+    [DIFFICULTY_NORMAL][TRAINER_KJ_JJ_7] =
+    {
+#line 8657
+        .trainerName = _("ムサシとコジロウ"),
+#line 8658
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
+#line 8659
+        .trainerPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+#line 8660
+        .gender = TRAINER_GENDER_FEMALE,
+#line 8661
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+#line 8662
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
+#line 8663
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 0
+        .trainerBackPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+        .partySize = 5,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 8665
+            .species = SPECIES_MEOWTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8667
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8666
+            .lvl = 31,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8669
+            .species = SPECIES_ARBOK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8671
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8670
+            .lvl = 32,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8673
+            .species = SPECIES_WEEZING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8675
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8674
+            .lvl = 32,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8677
+            .species = SPECIES_VICTREEBEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8679
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8678
+            .lvl = 32,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8681
+            .species = SPECIES_WOBBUFFET,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8683
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8682
+            .lvl = 33,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },

@@ -289,7 +289,10 @@ VermilionCity_Gym_EventScript_Surge_Defeated::
 	end
 
 VermilionGym_Text_LtSurgeIntro:
-	.string "マチス『ヘイ　ボーイ！\pたいした　もんだ\nミーに　ちょうせん　するのは\lかしこく　ないが\lどきょうは　あるね！\pでんきポケモンなら\nミーが　ナンバーワン！\pせんじょうで　まけた　ことは\nいちども　ない\pせんそうの　てきの　ように\nしびれさせて　やるぜ！$"
+	.string "マチス『ヘイ　{PLAYER}！\nひさしぶりだな　ボーイ！\p"
+	.string "カントーの　チャンピオンが\nジョウトから　もどって　きたか！\p"
+	.string "でんきポケモンなら\nミーが　ナンバーワン！\p"
+	.string "3ねんまえの　リベンジだ！\nしびれさせて　やるぜ！$"
 
 VermilionGym_Text_LtSurgeWinLoss:
 	.string "マチス『アーウチ！\nユー　つよいね！\pオーケー　ボーイ\nオレンジバッジを　やろう！$"
@@ -353,11 +356,11 @@ VermilionCity_Gym_Text_GymGuyPostVictory::
 	.string "ふう！　しびれる\nしょうぶ　だったな！\pおれも　どきどき\nしたよ$"
 
 VermilionCity_Gym_Text_GymStatue::
-	.string "クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\nグリーン　レッド$"
+	.string "クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-	.string "クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "クチバ　ポケモンジム\nリーダー　マチス\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
 	.string "ない！\nゴミしか　はいって　いない$"

@@ -258,10 +258,10 @@ FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 FuchsiaCity_Gym_Text_GymStatue::
-	.string "セキチク　ポケモンジム\nリーダー　アンズ\pかった　トレーナー\nグリーン　レッド$"
+	.string "セキチク　ポケモンジム\nリーダー　アンズ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-	.string "セキチク　ポケモンジム\nリーダー　アンズ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "セキチク　ポケモンジム\nリーダー　アンズ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 FuchsiaCity_Gym_Text_Guide:
 	.string "よう　みらいの　チャンピオン！\pおっと！　まわりを\nよく　みて　みろ\pトレーナーが　みんな　リーダーの\nアンズに　そっくりだ\pどれが　ほんものの\nアンズ　だろうな？$"

@@ -56,10 +56,10 @@ SeafoamIslands_Gym_EventScript_GymStatuePostVictory::
 	end
 
 SeafoamIslands_Gym_Text_GymStatue::
-	.string "グレン　ポケモンジム\nリーダー　カツラ\pかった　トレーナー\nグリーン　レッド$"
+	.string "グレン　ポケモンジム\nリーダー　カツラ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 SeafoamIslands_Gym_Text_GymStatuePlayerWon::
-	.string "グレン　ポケモンジム\nリーダー　カツラ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "グレン　ポケモンジム\nリーダー　カツラ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 SeafoamIslands_Gym_Text_Blaine_GiveTM:
 	.string "これも　もって　いけ！$"
@@ -68,7 +68,12 @@ SeafoamIslands_Gym_Text_Blaine_ExplainTM:
 	.string "その　わざマシンは\nすごいぞ　オーバーヒートじゃ！\pすさまじい　ねつで　あいてを\nこがすが　そのあと\lとくこうが　さがる\pつぎの　あいてが　やけどなおしを\nもってると　いいのう！\lうおおーっ！$"
 
 SeafoamIslands_Gym_Text_BlaineIntro:
-	.string "カツラ『うおおーっ！\pグレンの　ジムが\nやけて　しもうた\pかざんの　せいで　わしと\nほのおポケモンは\lいえなし　じゃ\pうおおーっ！\pじゃが　この　どうくつで\nジムリーダーに\lふっかつ　したぞ！\pわしに　かてたら\nバッジを　やろう\pはっ！　やけどなおしを\nよういして　おけい！$"
+	.string "カツラ『うおおーっ！\n{PLAYER}では　ないか！\p"
+	.string "グレンの　ジムが\nやけて　しもうた\p"
+	.string "かざんの　せいで　わしと\nほのおポケモンは\lいえなし　じゃ\p"
+	.string "じゃが　この　どうくつで\nジムリーダーに\lふっかつ　したぞ！\p"
+	.string "3ねんまえの　リベンジじゃ！\p"
+	.string "はっ！　やけどなおしを\nよういして　おけい！$"
 
 SeafoamIslands_Gym_Text_BlaineWinLoss:
 	.string "カツラ『みごと！\nもえつきた‥\pクリムゾンバッジを\nやろう！$"

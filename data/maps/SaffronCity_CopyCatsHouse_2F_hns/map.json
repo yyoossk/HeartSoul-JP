@@ -97,7 +97,7 @@
     },
     {
       "local_id": "LOCALID_GOLD",
-      "graphics_id": "OBJ_EVENT_GFX_GOLD_NORMAL_HNS",
+      "graphics_id": "OBJ_EVENT_GFX_RED_NORMAL",
       "x": 3,
       "y": 4,
       "elevation": 0,

@@ -1,4 +1,5 @@
 GoldenrodCity_RadioTower_3F_hns_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, KJ_EventScript_JJ_Sync_RADIO
 	map_script MAP_SCRIPT_ON_LOAD, GoldenrodCity_RadioTower_3F_OnLoad
 	.byte 0
 

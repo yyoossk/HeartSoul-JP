@@ -20,8 +20,8 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_SetPlayerGfx::
 	return
 
 FallarborTown_BattleTentBattleRoom_hns_EventScript_SetPlayerGfxMale::
-	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_GOLD_NORMAL_HNS
-	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_GOLD_NORMAL_HNS
+	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_RED_NORMAL
+	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_RED_NORMAL
 	return
 
 FallarborTown_BattleTentBattleRoom_hns_EventScript_SetPlayerGfxFemale::

@@ -1084,7 +1084,7 @@ static void AddHnsSpeechObjects(u8 taskId)
     gSprites[monSpriteId].oam.priority = 0;
     gSprites[monSpriteId].invisible = TRUE;
     gTasks[taskId].tMonSpriteId = monSpriteId;
-    goldSpriteId = CreateTrainerSprite(FacilityClassToPicIndex(FACILITY_CLASS_GOLD_HNS), 120, 60, 0, NULL);
+    goldSpriteId = CreateTrainerSprite(FacilityClassToPicIndex(FACILITY_CLASS_RED), 120, 60, 0, NULL);
     gSprites[goldSpriteId].callback = SpriteCB_Null;
     gSprites[goldSpriteId].invisible = TRUE;
     gSprites[goldSpriteId].oam.priority = 0;

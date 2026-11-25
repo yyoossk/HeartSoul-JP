@@ -31,7 +31,8 @@ CopycatsHouse1F_Text_PokefanF:
 	.string "むすめは　ほんとうに\nじぶんかって‥\pともだちも　すくないのよ$"
 
 CopycatsHouse1F_Text_PokefanF_ReturnedPart:
-	.string "3ねんまえ　おとこのこに　もらった\nポケモンにんぎょうを　さいきん\lなくして　しまったの\pそれから　ものまねが\nもっと　うまく　なって‥$"
+	.string "3ねんまえ　{PLAYER}くんに　もらった\nポケモンにんぎょうを　さいきん\lなくして　しまったの\p"
+	.string "それから　ものまねが\nもっと　うまく　なって‥$"
 
 CopycatsHouse1F_Text_Blissey:
 	.string "ハピナス『ハピー！$"

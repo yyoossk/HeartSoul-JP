@@ -1441,7 +1441,7 @@ static void SetUpPlacingDecorationPlayerAvatar(u8 taskId, struct PlaceDecoration
 
 #if IS_HNS
     if (gSaveBlock2Ptr->playerGender == MALE)
-        sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_GOLD_DECORATING_HNS, SpriteCallbackDummy, x, 72, 0);
+        sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_RED_NORMAL, SpriteCallbackDummy, x, 72, 0);
     else
         sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_KRIS_DECORATING_HNS, SpriteCallbackDummy, x, 72, 0);
 #else
@@ -2372,7 +2372,7 @@ static void SetUpPuttingAwayDecorationPlayerAvatar(void)
     
 #if IS_HNS
     if (gSaveBlock2Ptr->playerGender == MALE)
-        sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_GOLD_DECORATING_HNS, SpriteCallbackDummy, 136, 72, 0);
+        sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_RED_NORMAL, SpriteCallbackDummy, 136, 72, 0);
     else
         sDecor_CameraSpriteObjectIdx2 = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_KRIS_DECORATING_HNS, SpriteCallbackDummy, 136, 72, 0);
 #else

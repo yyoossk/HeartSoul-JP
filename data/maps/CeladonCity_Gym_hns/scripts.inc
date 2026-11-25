@@ -31,7 +31,12 @@ CeladonCity_Gym_EventScript_Erika_Defeated::
 	end
 
 CeladonCity_Gym_Text_ErikaBeforeBattle:
-	.string "エリカ『こんにちは‥\nいい　おてんき　ですわね\lとても　きもちいい‥\p‥うとうと　して\nしまいそう‥\pわたくしは　エリカ\nタマムシジムの　リーダー\lですの\p‥まあ　ジョウトから\nいらしたの？　すてき‥\pあら　ごめんなさい　わたくしに\nちょうせん　なさる　のですね\pわかりました　でも\nまけませんわ$"
+	.string "エリカ『あら‥　{PLAYER}さん？\p"
+	.string "まあ　おひさしぶり\nですわね‥\p"
+	.string "ジョウトから　もどって\nいらしたの？　すてき‥\p"
+	.string "あれから　3ねん‥\nわたくしも　くさポケモンも\lせいちょう　しましたのよ\p"
+	.string "もう　いちど　おあいて\nいただけますか？\p"
+	.string "まけませんわよ$"
 
 CeladonCity_Gym_Text_ErikaBeaten:
 	.string "エリカ『まあ！　まいりましたわ‥\pとても　おつよいのね‥\pレインボーバッジを\nさしあげますわ‥$"
@@ -139,7 +144,7 @@ CeladonCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeladonCity_Gym_Text_GymStatue::
-	.string "タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\nグリーン　レッド$"
+	.string "タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 CeladonCity_Gym_Text_GymStatuePlayerWon::
-	.string "タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"

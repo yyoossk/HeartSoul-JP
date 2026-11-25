@@ -39,10 +39,16 @@ PewterCity_Gym_EventScript_Brock_Defeated::
 
 
 PewterCity_Gym_Text_Brock_Intro:
-	.string "タケシ『ほう　ジョウトから\nちょうせんしゃが　くるとは\lめずらしい\pおれは　ニビジムリーダーの\nタケシ\pいわタイプの　ポケモンの\nエキスパートだ\pおれの　ポケモンに　ぶつりこうげきは\nほとんど　きかない\lダメージを　あたえるのは\lたいへんだぞ\pさあ　こい！$"
+	.string "タケシ『おお　{PLAYER}じゃないか！\nひさしぶりだな！\p"
+	.string "ジョウトを　たびして\nきたんだって？\p"
+	.string "3ねんまえ　おまえに　まけてから\nおれも　ずっと　しゅぎょう\lして　きたんだ\p"
+	.string "いわタイプの　かたい　まもり‥\nもう　いちど　ためさせて\lもらうぞ\p"
+	.string "さあ　こい！$"
 
 PewterCity_Gym_Text_Brock_WinLoss:
-	.string "タケシ『きみの　ポケモンの　こうげきが\nおれの　かたい　まもりを\lうちやぶった‥\pおもった　より　つよいな‥\pさあ　この　バッジを\nうけとって　くれ$"
+	.string "タケシ『やっぱり　つよいな\n{PLAYER}‥\p"
+	.string "あの　ときより　ずっと\nつよく　なってる\p"
+	.string "さあ　この　バッジを\nうけとって　くれ$"
 
 PewterCity_Gym_Text_ReceivedBoulderBadge:
 	.string "{PLAYER}は\nグレーバッジを　もらった$"
@@ -97,10 +103,10 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_GymStatue::
-	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\nグリーン　レッド$"
+	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 PewterCity_Gym_EventScript_Brock_Trade::
 	goto_if_set FLAG_PEWTER_GYM_NPC_TRADE_COMPLETED, PewterCity_Gym_EventScript_BrockTradeCompleted

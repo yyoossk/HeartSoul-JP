@@ -43,7 +43,8 @@ ViridianCity_Gym_EventScript_BlueGotoDojo::
 	end
 
 ViridianCity_Gym_Text_BlueGotoDojo:
-	.string "グリーン『もう　きたのか？\pまた　おれと　やりたいなら\nかくとうどうじょうに　こい！$"
+	.string "{KANTO_RIVAL}『もう　きたのか？\p"
+	.string "また　おれと　やりたいなら\nかくとうどうじょうに　こい！$"
 
 ViridianCity_Gym_EventScript_BlueAtDojo::
 	msgbox ViridianCity_Gym_Text_LeaderBlue_Epilogue, MSGBOX_DEFAULT
@@ -52,16 +53,27 @@ ViridianCity_Gym_EventScript_BlueAtDojo::
 	end
 
 ViridianCity_Gym_Text_LeaderBlue_Before:
-	.string "グリーン『よう！\nやっと　きたな？\pグレンでは　そんな　きぶんじゃ\nなかったが\pいまなら　あいて\nしてやるぜ\p‥\pジョウトの　ジムを\nぜんぶ　せいは　した　だと？\pへっ！　ジョウトの　ジムも\nたいした　こと　ないな\pまあ　きにするな\pおまえが　つよいか　どうか\nいま　たたかえば　わかる\pじゅんびは　いいか？\nジョウトの　チャンピオン！$"
+	.string "{KANTO_RIVAL}『よう　{PLAYER}！\nやっと　きたな？\p"
+	.string "グレンでは　そんな　きぶんじゃ\nなかったが\p"
+	.string "いまなら　あいて\nしてやるぜ\p‥\p"
+	.string "ジョウトの　ジムを\nぜんぶ　せいは　した　だと？\p"
+	.string "へっ！　さすが\nおれの　ライバルだぜ\p"
+	.string "だが　3ねんまえの　おれと\nおなじだと　おもうなよ\p"
+	.string "じゅんびは　いいか？\n{PLAYER}！$"
 
 ViridianCity_Gym_Text_LeaderBlue_Win:
-	.string "グリーン『なに？\pなんで　おれが　おまえに\nまけるんだ？\p‥\pちっ　わかったよ‥\nほら　グリーンバッジだ$"
+	.string "{KANTO_RIVAL}『なに？\p"
+	.string "なんで　また　おれが\nおまえに　まけるんだ？\p‥\p"
+	.string "ちっ　わかったよ‥\nほら　グリーンバッジだ$"
 
 ViridianCity_Gym_Text_ReceivedEarthBadge:
 	.string "{PLAYER}は\nグリーンバッジを　もらった$"
 
 ViridianCity_Gym_Text_LeaderBlue_After:
-	.string "グリーン『‥\pわかった　おれの　まちがい\nだった　おまえは　ほんもの\lいい　トレーナーだ\pだが　いつか\nおまえを　たおす\pわすれるなよ！$"
+	.string "{KANTO_RIVAL}『‥\p"
+	.string "やっぱり　おまえは\nつよいな　{PLAYER}\p"
+	.string "だが　いつか　かならず\nおまえを　たおす\p"
+	.string "わすれるなよ！$"
 
 ViridianCity_Gym_Text_LeaderBlue_GiveTM:
 	.string "これを　もってけ$"
@@ -70,7 +82,8 @@ ViridianCity_Gym_Text_LeaderBlue_ExplainTM:
 	.string "それは　トリックルーム\pたたかいの　ポケモンの\nすばやさが　ぎゃくに　なる\lおそい　ほうが　さきに\lうごくんだ\pたたかいを　ひっくりかえす\nのに　つかえ$"
 
 ViridianCity_Gym_Text_LeaderBlue_Epilogue:
-	.string "グリーン『いいか\pおれが　おまえを　たおすまで\nまけるんじゃ　ねえぞ\lわかったな？$"
+	.string "{KANTO_RIVAL}『いいか\p"
+	.string "おれが　おまえを　たおすまで\nまけるんじゃ　ねえぞ\lわかったな？$"
 
 
 ViridianCity_Gym_EventScript_GymGuy::
@@ -102,8 +115,8 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 ViridianCity_Gym_Text_GymStatue::
-	.string "トキワ　ポケモンジム\nリーダー　グリーン\pかった　トレーナー\nグリーン　レッド$"
+	.string "トキワ　ポケモンジム\nリーダー　{KANTO_RIVAL}\pかった　トレーナー\nまだ　いない$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-	.string "トキワ　ポケモンジム\nリーダー　グリーン\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "トキワ　ポケモンジム\nリーダー　{KANTO_RIVAL}\pかった　トレーナー\n{PLAYER}$"
 

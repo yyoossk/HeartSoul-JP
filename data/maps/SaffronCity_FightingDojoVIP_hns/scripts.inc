@@ -799,8 +799,12 @@ SaffronCity_FightingDojoVIP_Text_Blaine_RematchDefeat:
 	.string "カツラ『きみの　うでは\nまさに　ほのおじゃ！\pわしの　まもりを\nもやしつくした$"
 
 SaffronCity_FightingDojoVIP_Text_Blue_Rematch:
-	.string "グリーン『へえ　チャンピオン\nさまか！\pずいぶん　えらく\nなったもんだな\pおれも　その　しょうごうを\nもってたんだぜ\lてかげんは　しないぞ\pその　ちょうしが　つづくか\nみせて　もらおう\pもう　いちど\nしょうぶ　するか？$"
+	.string "{KANTO_RIVAL}『へえ　ジョウトの\nチャンピオンにも　なったのか！\p"
+	.string "カントーと　ジョウト\nりょうほうの　チャンピオン‥\lたいした　もんだぜ\p"
+	.string "てかげんは　しないぞ\p"
+	.string "もう　いちど\nしょうぶ　するか？$"
 
 SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat:
-	.string "グリーン『なに？\pなんで　また　まけるんだ？$"
+	.string "{KANTO_RIVAL}『なに？\p"
+	.string "なんで　また　まけるんだ？$"
 

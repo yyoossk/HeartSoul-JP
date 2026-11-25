@@ -150,7 +150,7 @@
       "flag": "FLAG_HIDE_MAHOGANY_ROCKETS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_HNS",
+      "graphics_id": "OBJ_EVENT_GFX_KJ_MUSASHI",
       "x": 5,
       "y": 2,
       "elevation": 0,
@@ -159,8 +159,9 @@
       "movement_range_y": 6,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
-      "script": "RocketHideout_B2F_EventScript_Grunt16",
-      "flag": "FLAG_HIDE_MAHOGANY_ROCKETS"
+      "script": "KJ_EventScript_JJ_MAHOGANY",
+      "flag": "FLAG_KJ_HIDE_JJ_MAHOGANY",
+      "local_id": "LOCALID_KJ_MUSASHI_MAHOGANY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_HNS",
@@ -230,6 +231,20 @@
       "script": "RocketHideout_B3F_EventScript_Murkrow",
       "flag": "FLAG_HIDE_ROCKETHIDEOUT2_MURKROWGATE",
       "local_id": "LOCALID_ROCKETHIDEOUT2_MURKROWGATE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KJ_KOJIRO",
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 6,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KJ_EventScript_JJ_MAHOGANY_Kojiro",
+      "flag": "FLAG_KJ_HIDE_JJ_MAHOGANY",
+      "local_id": "LOCALID_KJ_KOJIRO_MAHOGANY"
     }
   ],
   "warp_events": [

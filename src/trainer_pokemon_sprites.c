@@ -358,7 +358,7 @@ u16 PlayerGenderToFrontTrainerPicId_Debug(enum Gender gender, bool8 getClass)
         if (gender != MALE)
             return gFacilityClassToPicIndex[IS_HNS ? FACILITY_CLASS_KRIS_HNS : FACILITY_CLASS_MAY];
         else
-            return gFacilityClassToPicIndex[IS_HNS ? FACILITY_CLASS_GOLD_HNS : FACILITY_CLASS_BRENDAN];
+            return gFacilityClassToPicIndex[IS_HNS ? FACILITY_CLASS_RED : FACILITY_CLASS_BRENDAN] /* カントー＆ジョウト: サトシはレッドの絵 */;
     }
     return gender;
 }

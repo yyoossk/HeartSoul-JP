@@ -160,10 +160,10 @@ CeruleanCity_Gym_EventScript_GymGuyAfter::
 	end
 
 CeruleanCity_Gym_Text_GymStatue::
-	.string "ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\nグリーン　レッド$"
+	.string "ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-	.string "ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\nグリーン　レッド　{PLAYER}$"
+	.string "ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\n{KANTO_RIVAL}　{PLAYER}$"
 
 CeruleanGym_Text_Note:
 	.string "しばらく　るすに　します\nジムリーダー　カスミ\pカスミさんが　いないので\nわたしたちも　でかけます\lジムトレーナー$"
@@ -216,7 +216,10 @@ CeruleanGym_Text_Note1:
 	.string "しばらく　るすに　します\nジムリーダー　カスミ\pカスミさんが　いないので\nわたしたちも　でかけます\lジムトレーナー$"
 
 CeruleanGym_Text_MistyIntro:
-	.string "カスミ『まってたわよ\nこの　おじゃまむし！\pジョウトの　バッジを\nたくさん　もってる　みたい\lだけど　わたしを　あまく\lみないでね\pわたしの　みずポケモンは\nつよいわよ！$"
+	.string "カスミ『あら　{PLAYER}じゃない！\nまってたわよ！\p"
+	.string "ジョウトの　バッジも\nたくさん　もってる　みたいね\p"
+	.string "でも　3ねんまえと　おなじだと\nおもったら　おおまちがいよ！\p"
+	.string "わたしの　みずポケモンは\nつよく　なったんだから！$"
 
 CeruleanGym_Text_MistyWinLoss:
 	.string "カスミ『ほんとうに\nつよいのね‥\pみとめて　あげるわ‥\pはい　ブルーバッジよ$"
@@ -261,7 +264,8 @@ CeruleanGym_Text_SwimmermParkerAfter:
 	.string "カスミさんは　ここ　なんねんかで\nずっと　つよく　なった\pゆだん　すると\nやられるぞ！$"
 
 CeruleanGym_Text_GuideIntro:
-	.string "よう！　みらいの　チャンピオン！\pカスミが　いないから　おれも\nあそびに　いってたんだ\pへへへ$"
+	.string "よう！　チャンピオン！\p"
+	.string "カスミが　いないから　おれも\nあそびに　いってたんだ\pへへへ$"
 
 CeruleanGym_Text_GuideWin:
 	.string "ほう　つよさを\nみせつけたな\pあいかわらず　すごい\nしょうぶ　だったぜ！$"

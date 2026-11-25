@@ -80,7 +80,7 @@
       "flag": "FLAG_HIDE_GOLDENROD_ROCKETS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_HNS",
+      "graphics_id": "OBJ_EVENT_GFX_KJ_MUSASHI",
       "x": 25,
       "y": 5,
       "elevation": 0,
@@ -89,8 +89,23 @@
       "movement_range_y": 4,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "GoldenrodRaidoTower3_EventScript_Grunt8",
-      "flag": "FLAG_HIDE_GOLDENROD_ROCKETS"
+      "script": "KJ_EventScript_JJ_RADIO",
+      "flag": "FLAG_KJ_HIDE_JJ_RADIO",
+      "local_id": "LOCALID_KJ_MUSASHI_RADIO"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_KJ_KOJIRO",
+      "x": 26,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
+      "movement_range_x": 4,
+      "movement_range_y": 4,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KJ_EventScript_JJ_RADIO_Kojiro",
+      "flag": "FLAG_KJ_HIDE_JJ_RADIO",
+      "local_id": "LOCALID_KJ_KOJIRO_RADIO"
     }
   ],
   "warp_events": [

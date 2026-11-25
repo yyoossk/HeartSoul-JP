@@ -496,6 +496,18 @@ static const u8 *ExpandPlaceholder_RivalName(void)
         return (IS_FRLG ? gText_ExpandedPlaceholder_Red : gText_ExpandedPlaceholder_Brendan);
 }
 
+static const u8 *ExpandPlaceholder_KantoRival(void)
+{
+#if IS_HNS
+    static const u8 sText_KjShigeru[] = _("シゲル");
+    if (gSaveBlock1Ptr->kjKantoRivalName[0] != EOS)
+        return gSaveBlock1Ptr->kjKantoRivalName;
+    return sText_KjShigeru;
+#else
+    return ExpandPlaceholder_RivalName();
+#endif
+}
+
 static const u8 *ExpandPlaceholder_Version(void)
 {
     return gText_ExpandedPlaceholder_Emerald;
@@ -562,6 +574,7 @@ const u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_KYOGRE]       = ExpandPlaceholder_Kyogre,
         [PLACEHOLDER_ID_GROUDON]      = ExpandPlaceholder_Groudon,
         [PLACEHOLDER_ID_REGION]       = ExpandPlaceholder_Region,
+        [PLACEHOLDER_ID_KANTO_RIVAL]  = ExpandPlaceholder_KantoRival,
     };
 
     if (id >= ARRAY_COUNT(funcs))

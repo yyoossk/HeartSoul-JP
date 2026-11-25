@@ -1626,7 +1626,7 @@ static void NamingScreen_CreateRivalIcon(void)
         StartSpriteAnim(&gSprites[spriteId], ANIM_STD_GO_SOUTH);
         return;
     }
-    CopyObjectGraphicsInfoToSpriteTemplate(OBJ_EVENT_GFX_GOLD_NORMAL_HNS, SpriteCallbackDummy, &template, &tables_p);
+    CopyObjectGraphicsInfoToSpriteTemplate(OBJ_EVENT_GFX_RED_NORMAL, SpriteCallbackDummy, &template, &tables_p);
 #else
     CopyObjectGraphicsInfoToSpriteTemplate(OBJ_EVENT_GFX_RED_NORMAL, SpriteCallbackDummy, &template, &tables_p);
 #endif

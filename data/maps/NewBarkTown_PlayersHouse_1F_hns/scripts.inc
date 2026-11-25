@@ -52,7 +52,7 @@ NewBarkTown_PlayersHouse_1F_EventScript_Mom_Regular::
 	playbgm MUS_HG_FOLLOW_ME_1, FALSE
 	specialvar VAR_RESULT, IsPokecenterChallengeActivated
 	goto_if_eq VAR_RESULT, TRUE, NewBarkTown_PlayersHouse_1F_EventScript_Mom_PokecenterChallenge
-	msgbox NewBarkTown_PlayersHouse_1F_Text_KjMomRest, MSGBOX_DEFAULT
+	call NewBarkTown_PlayersHouse_1F_EventScript_KjMomTalk
 	closemessage
 	call Common_EventScript_OutOfCenterPartyHeal
 	incrementgamestat GAME_STAT_RESTED_AT_HOME
@@ -343,3 +343,29 @@ NewBarkTown_PlayersHouse_1F_Text_KjMomRest:
 
 NewBarkTown_PlayersHouse_1F_EventScript_KjReturn::
 	return
+
+NewBarkTown_PlayersHouse_1F_EventScript_KjMomTalk::
+	goto_if_set FLAG_DEFEATED_RED, NewBarkTown_PlayersHouse_1F_EventScript_KjMomMetHibiki
+	goto_if_set FLAG_SYS_GAME_CLEAR, NewBarkTown_PlayersHouse_1F_EventScript_KjMomHibikiSilver
+	msgbox NewBarkTown_PlayersHouse_1F_Text_KjMomRest, MSGBOX_DEFAULT
+	return
+
+NewBarkTown_PlayersHouse_1F_EventScript_KjMomHibikiSilver::
+	msgbox NewBarkTown_PlayersHouse_1F_Text_KjMomHibikiSilver, MSGBOX_DEFAULT
+	return
+
+NewBarkTown_PlayersHouse_1F_EventScript_KjMomMetHibiki::
+	msgbox NewBarkTown_PlayersHouse_1F_Text_KjMomMetHibiki, MSGBOX_DEFAULT
+	return
+
+NewBarkTown_PlayersHouse_1F_Text_KjMomHibikiSilver:
+	.string "ヒビキのママ『あら　{PLAYER}くん！\p"
+	.string "ヒビキったら　シロガネやまに\nこもって　しゅぎょう\lしてるらしいの\p"
+	.string "もし　あったら　たまには\nかえって　きなさいって\lつたえてね！\p"
+	.string "つかれたでしょう？\nすこし　やすんで　いって！$"
+
+NewBarkTown_PlayersHouse_1F_Text_KjMomMetHibiki:
+	.string "ヒビキのママ『あら　{PLAYER}くん！\nヒビキに　あったの？\p"
+	.string "そう‥　げんきに　してたのね\p"
+	.string "あのこったら　{PLAYER}くんと\nしょうぶ　できて　きっと\lうれしかったと　おもうわ\p"
+	.string "つかれたでしょう？\nすこし　やすんで　いって！$"

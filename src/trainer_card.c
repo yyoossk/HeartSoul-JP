@@ -353,7 +353,7 @@ static const u8 sTrainerPicFacilityClass[][GENDER_COUNT] =
     },
     [CARD_TYPE_HNS] =
     {
-        [MALE]   = FACILITY_CLASS_GOLD_HNS,
+        [MALE]   = FACILITY_CLASS_RED, // カントー＆ジョウト: サトシはレッドの絵
         [FEMALE] = FACILITY_CLASS_KRIS_HNS
     },
 };

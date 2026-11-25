@@ -2,9 +2,9 @@
 #define GUARD_CONSTANTS_OPPONENTS_KJ_H
 // カントー＆ジョウト: FRLG のトレーナー（tools_kj/gen_trainers.py で作成）
 #define KJ_TRAINERS_START 653
-#define KJ_TRAINERS_COUNT 379
+#define KJ_TRAINERS_COUNT 382
 #define KJ_TRAINER_FLAG_SPLIT 864
-#define KJ_MAX_TRAINERS_COUNT 1032
+#define KJ_MAX_TRAINERS_COUNT 1112
 #define TRAINER_YOUNGSTER_BEN                              653
 #define TRAINER_YOUNGSTER_CALVIN                           654
 #define TRAINER_YOUNGSTER_JOSH                             655
@@ -384,4 +384,7 @@
 #define TRAINER_KJ_JJ_2                                    1029
 #define TRAINER_KJ_JJ_3                                    1030
 #define TRAINER_KJ_JJ_4                                    1031
+#define TRAINER_KJ_JJ_5                                    1032
+#define TRAINER_KJ_JJ_6                                    1033
+#define TRAINER_KJ_JJ_7                                    1034
 #endif

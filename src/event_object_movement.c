@@ -833,8 +833,8 @@ static const u16 *const sObjectPaletteTagSets[] = {
 
 #if IS_HNS
 static const u16 sObjectPaletteTagsHns0[] = {
-    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_GOLD_HNS,
-    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_GOLD_REFLECTION_HNS,
+    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_PLAYER_RED_REFLECTION,
     [PALSLOT_NPC_1]             = OBJ_EVENT_PAL_TAG_NPC_1_HNS,
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2_HNS,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3_HNS,
@@ -846,8 +846,8 @@ static const u16 sObjectPaletteTagsHns0[] = {
 };
 
 static const u16 sObjectPaletteTagsHns1[] = {
-    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_GOLD_HNS,
-    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_GOLD_REFLECTION_HNS,
+    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_PLAYER_RED_REFLECTION,
     [PALSLOT_NPC_1]             = OBJ_EVENT_PAL_TAG_NPC_1_HNS,
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2_HNS,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3_HNS,
@@ -859,8 +859,8 @@ static const u16 sObjectPaletteTagsHns1[] = {
 };
 
 static const u16 sObjectPaletteTagsHns2[] = {
-    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_GOLD_HNS,
-    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_GOLD_REFLECTION_HNS,
+    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_PLAYER_RED_REFLECTION,
     [PALSLOT_NPC_1]             = OBJ_EVENT_PAL_TAG_NPC_1_HNS,
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2_HNS,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3_HNS,
@@ -872,8 +872,8 @@ static const u16 sObjectPaletteTagsHns2[] = {
 };
 
 static const u16 sObjectPaletteTagsHns3[] = {
-    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_GOLD_HNS,
-    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_GOLD_REFLECTION_HNS,
+    [PALSLOT_PLAYER]            = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    [PALSLOT_PLAYER_REFLECTION] = OBJ_EVENT_PAL_TAG_PLAYER_RED_REFLECTION,
     [PALSLOT_NPC_1]             = OBJ_EVENT_PAL_TAG_NPC_1_HNS,
     [PALSLOT_NPC_2]             = OBJ_EVENT_PAL_TAG_NPC_2_HNS,
     [PALSLOT_NPC_3]             = OBJ_EVENT_PAL_TAG_NPC_3_HNS,
@@ -3607,9 +3607,7 @@ u8 LoadPlayerObjectEventPalette(enum Gender gender)
     {
     default:
     case MALE:
-#if IS_HNS
-        paletteTag = OBJ_EVENT_PAL_TAG_GOLD_HNS;
-#elif IS_FRLG
+#if IS_HNS || IS_FRLG // カントー＆ジョウト: サトシはレッドの絵
         paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED;
 #else
         paletteTag = OBJ_EVENT_PAL_TAG_BRENDAN;
