@@ -100,3 +100,31 @@ KJ_Text_SailorDeparting::
 KJ_Text_ThreeYearsLater::
 	.string "……　それから\n"
 	.string "３ねんの　つきひが　ながれた……$"
+
+@ ポケギアの　ヒビキの　ママ
+MatchCall_Text_KjMom1::
+	.string "ヒビキのママ『もしもし\n"
+	.string "{PLAYER}くん？\p"
+	.string "ジョウトの　たびは　どう？\p"
+	.string "つかれたら　いつでも\n"
+	.string "うちで　やすんで　いってね！$"
+
+MatchCall_Text_KjMom2::
+	.string "ヒビキのママ『{PLAYER}くん\n"
+	.string "げんき？\p"
+	.string "さっき　マサラタウンの\n"
+	.string "おかあさんから　でんわが\l"
+	.string "あったのよ\p"
+	.string "あなたの　ことを　とても\n"
+	.string "しんぱい　してたわ\p"
+	.string "たまには　でんわして\n"
+	.string "あげてね！$"
+
+MatchCall_Text_KjMom3::
+	.string "ヒビキのママ『{PLAYER}くん！\n"
+	.string "ジョウトの　チャンピオン\l"
+	.string "おめでとう！\p"
+	.string "ヒビキが　きいたら\n"
+	.string "きっと　くやしがるわね\p"
+	.string "あのこ　いまごろ\n"
+	.string "どこに　いるのかしら‥$"

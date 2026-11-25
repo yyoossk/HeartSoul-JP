@@ -75,13 +75,21 @@ PalletTown_Lab_Text_OakLabDexCheck:
 	.string "ずかんの　ほうは\nどうかな？$"
 
 PalletTown_Lab_Text_OakWelcomeKanto:
-	.string "オーキド『おお　{PLAYER}！\nはるばる　カントーまで\lよく　きたな\pこちらの　トレーナーは\nどうじゃ？　てごわいじゃろう？$"
+	.string "オーキド『おお　{PLAYER}！\nジョウトから　かえって\lきたのか！\p"
+	.string "3ねんぶりの　カントーは\nどうじゃ？\p"
+	.string "ジムリーダーたちも\nきみに　あいたがって　おったぞ$"
 
 PalletTown_Lab_Text_OakLabGoodbye:
 	.string "ちかくに　きたら\nまた　よって　おくれ$"
 
 PalletTown_Lab_Text_OakOpenMtSilver:
-	.string "オーキド『なんと！　すばらしい！\pカントーの　ジムバッジを\nあつめたのか　みごとじゃ！\pわしの　みこんだ　とおりじゃった\pよし　{PLAYER}　シロガネやまへ\nいけるように　てはいして\lおこう\pシロガネやまは　やせいの\nポケモンが　たくさん　すむ\lおおきな　やまじゃ\pふつうの　トレーナーには\nきけん　なので　たちいり\lきんしじゃが　きみは\lとくべつじゃ\pセキエイこうげんへ　いきなさい\nそこから　シロガネやまへ\lいけるぞ$"
+	.string "オーキド『なんと！　すばらしい！\p"
+	.string "カントーと　ジョウトの\nジムバッジを　16こ\lそろえたのか　みごとじゃ！\p"
+	.string "わしの　みこんだ　とおりじゃった\p"
+	.string "よし　{PLAYER}　シロガネやまへ\nいけるように　てはいして\lおこう\p"
+	.string "シロガネやまは　やせいの\nポケモンが　たくさん　すむ\lおおきな　やまじゃ\p"
+	.string "ふつうの　トレーナーには\nきけん　なので　たちいり\lきんしじゃが　きみは\lとくべつじゃ\p"
+	.string "セキエイこうげんへ　いきなさい\nそこから　シロガネやまへ\lいけるぞ$"
 
 PalletTown_Lab_Text_OakOpenIndigoPlateau:
 	.string "そうそう　セキエイこうげんと\nいえば　バッジを　16こ\lあつめた　きみの\lちょうせんを　カントーリーグが\lまた　うけつけて　くれるぞ\pじゃが　ワタルと　してんのうは\nこんどは　てかげん\lせんぞ\pがんばるのじゃぞ\n{PLAYER}！$"

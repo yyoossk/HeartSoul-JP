@@ -115,6 +115,62 @@ T = {
  (M('SaffronCity_FightingDojoVIP_hns'), 'SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat'): [
   '{KANTO_RIVAL}『なに？\\p',
   'なんで　また　まけるんだ？$'],
+ # ---------------- 3ねんまえの　してんのう（ワタル・シバ）と　キョウ
+ (M('LakeOfRage_hns'), 'LakeOfRage_Text_LanceIntro1'): [
+  'きみも　うわさを　ききつけて\\nきたのか？\\p‥\\p',
+  'きみは　{PLAYER}くん！\\nおぼえて　いるかい？\\lワタルだ\\p',
+  '3ねんまえ　セキエイこうげんで\\nきみに　まけた　してんのうさ$'],
+ (M('LakeOfRage_hns'), 'LakeOfRage_Text_LanceIntro3'): [
+  '{PLAYER}くん　さっきの\\nたたかいかた　みせて\\lもらったよ\\p',
+  'あの　ときより　さらに\\nつよく　なったね\\p',
+  'よければ　ちょうさを\\nてつだって　くれないか？$'],
+ (M('PokemonLeague_BrunosRoom_hns'), 'PokemonLeague_BrunosRoom_Text_Before'): [
+  'おれは　してんのうの　シバ！\\p',
+  'む？　おまえは　{PLAYER}！\\p',
+  '3ねんまえ　おれを　たおした\\nあの　トレーナーか！\\p',
+  'あれから　おれは\\nさらに　げんかいまで\\lきたえて　きた\\p',
+  'こんどこそ　おれたちの\\nちからに　ひれふすが　いい！\\p',
+  'いくぞ　{PLAYER}！\\pウー　ハーッ！$'],
+ (M('PokemonLeague_KogasRoom_hns'), 'PokemonLeague_KogasRoom_Text_Before'): [
+  'ファファファ！\\p',
+  'せっしゃ　してんのうの\\nキョウ！\\p',
+  'かつては　セキチクの\\nジムリーダー　だった　おとこ‥\\p',
+  'そなた　{PLAYER}で　ござるな\\p',
+  '3ねんまえの　せっしゃとは\\nちがう　ところを\\lみせて　しんぜよう！\\p',
+  'こんらん　ねむり　どく‥\\nせっしゃの　わなに\\lかかるが　よい！\\p',
+  'ファファファ！$'],
+ (M('PokemonLeague_ChampionsRoom_hns'), 'PokemonLeague_ChampionsRoom_Text_BattleIntro'): [
+  'ワタル『まって　いたよ\\p',
+  '{PLAYER}くん！\\p',
+  '3ねんまえ　カントーの\\nチャンピオンに　なった　きみなら\\lここまで　くると\\lおもって　いた\\p',
+  'もう　ことばは\\nいらない\\p',
+  'どちらが　つよいか\\nたたかって　きめよう\\p',
+  'ドラゴンつかい　ワタル\\nきみの　ちょうせんを　うけよう！$'],
+ # ---------------- マサラタウン（ジョウトの　あと）：レッドの　いえ＝サトシの　いえ
+ (M('PalletTown_RedsHouse_1F_hns'), 'RedsHouse_Text_Mom1'): [
+  '{PLAYER}！　おかえりなさい！\\p',
+  'ジョウトに　いってたん\\nですって？\\p',
+  'でんわも　くれないから\\nどこで　なにを　しているか\\lさっぱり　わからなくて\\p',
+  'たよりが　ないのは　げんきな\\nしょうこ　って　いうけど\\lやっぱり　しんぱいよ\\p',
+  'でも　げんきそうで\\nあんしん　したわ$'],
+ (M('PalletTown_RedsHouse_1F_hns'), 'RedsHouse_Text_Mom2'): [
+  'けがや　びょうきが　しんぱい\\nだけど　おとこのこ　だもの\\p',
+  'やりたい　ことを　やってるのは\\nほこらしいわ\\p',
+  'ヒビキくんの　おかあさんにも\\nよろしくね！$'],
+ (M('PalletTown_hns'), 'PalletTown_Text_RedsHouseSign'): ['{PLAYER}の　いえ$'],
+ (M('PalletTown_Lab_hns'), 'PalletTown_Lab_Text_OakWelcomeKanto'): [
+  'オーキド『おお　{PLAYER}！\\nジョウトから　かえって\\lきたのか！\\p',
+  '3ねんぶりの　カントーは\\nどうじゃ？\\p',
+  'ジムリーダーたちも\\nきみに　あいたがって　おったぞ$'],
+ (M('PalletTown_Lab_hns'), 'PalletTown_Lab_Text_OakOpenMtSilver'): [
+  'オーキド『なんと！　すばらしい！\\p',
+  'カントーと　ジョウトの\\nジムバッジを　16こ\\lそろえたのか　みごとじゃ！\\p',
+  'わしの　みこんだ　とおりじゃった\\p',
+  'よし　{PLAYER}　シロガネやまへ\\nいけるように　てはいして\\lおこう\\p',
+  'シロガネやまは　やせいの\\nポケモンが　たくさん　すむ\\lおおきな　やまじゃ\\p',
+  'ふつうの　トレーナーには\\nきけん　なので　たちいり\\lきんしじゃが　きみは\\lとくべつじゃ\\p',
+  'セキエイこうげんへ　いきなさい\\nそこから　シロガネやまへ\\lいけるぞ$'],
+ (M('PalletTown_hns'), 'PalletTown_Text_BluesHouseSign'): ['{KANTO_RIVAL}の　いえ$'],
 }
 
 CINNABAR_OLD = ('だれだ　おまえ？\\pまあ　みれば　トレーナーだって\\nことは　わかるけどな‥\\pおれの　なまえは　グリーン\\p'

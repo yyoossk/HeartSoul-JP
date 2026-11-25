@@ -22,10 +22,16 @@ PalletTown_RedsHouse_1F_EventScript_TV::
 	end
 
 RedsHouse_Text_Mom1:
-	.string "こんにちは！\pレッドは　ずっと\nるすに　してるの\pでんわも　くれないから\nどこで　なにを　しているか\lさっぱり　わからなくて\pたよりが　ないのは　げんきな\nしょうこ　って　いうけど\lやっぱり　しんぱいよ$"
+	.string "{PLAYER}！　おかえりなさい！\p"
+	.string "ジョウトに　いってたん\nですって？\p"
+	.string "でんわも　くれないから\nどこで　なにを　しているか\lさっぱり　わからなくて\p"
+	.string "たよりが　ないのは　げんきな\nしょうこ　って　いうけど\lやっぱり　しんぱいよ\p"
+	.string "でも　げんきそうで\nあんしん　したわ$"
 
 RedsHouse_Text_Mom2:
-	.string "けがや　びょうきが　しんぱい\nだけど　おとこのこ　だもの\pやりたい　ことを　やってるのは\nほこらしいわ$"
+	.string "けがや　びょうきが　しんぱい\nだけど　おとこのこ　だもの\p"
+	.string "やりたい　ことを　やってるのは\nほこらしいわ\p"
+	.string "ヒビキくんの　おかあさんにも\nよろしくね！$"
 
 RedsHouse_Text_TV:
 	.string "ジョウトでは　やってない\nばんぐみを　やってる‥$"

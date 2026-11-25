@@ -35,10 +35,10 @@ PalletTown_Text_Sign:
 	.string "マサラタウン\pマサラは　まっしろ\nはじまりの　いろ$"
 
 PalletTown_Text_RedsHouseSign:
-	.string "レッドの　いえ$"
+	.string "{PLAYER}の　いえ$"
 
 PalletTown_Text_OaksLabSign:
 	.string "オーキド\nポケモンけんきゅうじょ$"
 
 PalletTown_Text_BluesHouseSign:
-	.string "グリーンの　いえ$"
+	.string "{KANTO_RIVAL}の　いえ$"

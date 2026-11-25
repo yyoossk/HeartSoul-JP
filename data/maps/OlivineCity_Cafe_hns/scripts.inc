@@ -22,7 +22,7 @@ OlivineCity_EventScript_SailorA::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_HM_STRENGTH, OlivineCity_EventScript_SailorA2
 	msgbox OlivineCity_Text_CafeSailorStrength, MSGBOX_DEFAULT
-	giveitem ITEM_HM_STRENGTH
+	call KJ_EventScript_GiveHM_STRENGTH
 	setflag FLAG_RECEIVED_HM_STRENGTH
 OlivineCity_EventScript_SailorA2::
 	msgbox OlivineCity_Text_CafeSailorGotStrength, MSGBOX_DEFAULT

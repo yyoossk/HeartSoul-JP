@@ -66,7 +66,13 @@ PokemonLeague_KogasRoom_Text_RematchBefore:
 	.string "キョウ『ファファファ！\pもどったか\nゆうかんな　ちょうせんしゃよ\pせっしゃの　にんじゅつは\nさらに　みがかれた\pあらたな　わなが\nまって　おるぞ\pどく　ねむり　そのほか‥\nかくご　いたせ！\pファファファ！\pせいちょうを\nみせて　みよ！$"
 
 PokemonLeague_KogasRoom_Text_Before:
-	.string "ファファファ！\pせっしゃ　してんのうの\nキョウ！\pかげに　いきる\nにんじゃで　ござる！\pせっしゃの　ふくざつな\nせんぽうで　きさまを\lまどわし　たおす！\pこんらん　ねむり　どく‥\pせっしゃの　わなに\nかかるが　よい！\pファファファ！\pポケモンは　ちから　だけ\nでは　ないと　すぐに\lわかるで　ござろう！$"
+	.string "ファファファ！\p"
+	.string "せっしゃ　してんのうの\nキョウ！\p"
+	.string "かつては　セキチクの\nジムリーダー　だった　おとこ‥\p"
+	.string "そなた　{PLAYER}で　ござるな\p"
+	.string "3ねんまえの　せっしゃとは\nちがう　ところを\lみせて　しんぜよう！\p"
+	.string "こんらん　ねむり　どく‥\nせっしゃの　わなに\lかかるが　よい！\p"
+	.string "ファファファ！$"
 
 PokemonLeague_KogasRoom_Text_Beaten:
 	.string "むう！\nみごと　なり！$"

@@ -66,7 +66,12 @@ PokemonLeague_BrunosRoom_Text_RematchBefore:
 	.string "シバ『よく　もどった\nわかき　せんしよ\pきびしい　しゅぎょうで\nおれたちは　さらに\lつよく　なった\pおれの　いわの　ような　いしは\nいっそう　かたく　ゆるがない\pさらなる　しれんに\nたちむかう　かくごは\lあるか？\pしゅぎょうの　せいかを\nみせて　みろ\pウー　ハーッ！$"
 
 PokemonLeague_BrunosRoom_Text_Before:
-	.string "おれは　してんのうの　シバ！\pおれたちの　かのうせいを\nしんじて　つねに　げんかいまで\lきたえて　いる\pだから　つよく　なれたのだ\pおれたちの　ちからに\nたえられるか？\pむ？　おそれが　みえない\nいい　めだ\lしょうぶに　ぴったりだ！\pいくぞ　{PLAYER}！　おれたちの\nあっとうてきな　ちからに\lひれふすが　いい！\pウー　ハーッ！$"
+	.string "おれは　してんのうの　シバ！\p"
+	.string "む？　おまえは　{PLAYER}！\p"
+	.string "3ねんまえ　おれを　たおした\nあの　トレーナーか！\p"
+	.string "あれから　おれは\nさらに　げんかいまで\lきたえて　きた\p"
+	.string "こんどこそ　おれたちの\nちからに　ひれふすが　いい！\p"
+	.string "いくぞ　{PLAYER}！\pウー　ハーッ！$"
 
 PokemonLeague_BrunosRoom_Text_Beaten:
 	.string "なぜだ？　なぜ\nまけたのだ？$"

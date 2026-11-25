@@ -277,3 +277,4 @@
 	.include "data/scripts/kj_new_game.inc"
 	.include "data/scripts/kj_johto.inc"
 	.include "data/scripts/kj_jj.inc"
+	.include "data/scripts/kj_johto_hm.inc"

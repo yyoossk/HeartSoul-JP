@@ -1734,6 +1734,9 @@ extern const u8 MatchCall_Text_Norman9[];
 extern const u8 MatchCall_Text_Mom1[];
 extern const u8 MatchCall_Text_Mom2[];
 extern const u8 MatchCall_Text_Mom3[];
+extern const u8 MatchCall_Text_KjMom1[]; // カントー＆ジョウト
+extern const u8 MatchCall_Text_KjMom2[];
+extern const u8 MatchCall_Text_KjMom3[];
 extern const u8 MatchCall_Text_Baoba1[];
 extern const u8 MatchCall_Text_Baoba2[];
 extern const u8 MatchCall_HNS_Joey_General1[];

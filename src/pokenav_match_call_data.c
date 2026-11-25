@@ -227,10 +227,11 @@ static const struct MatchCallBirch sProfBirchMatchCallHeader =
     .name = COMPOUND_STRING("ウツギはかせ")
 };
 
+// カントー＆ジョウト: ポケギアの　ママは　ヒビキの　ママ
 static const match_call_text_data_t sMomTextScripts[] = {
-    { MatchCall_Text_Mom3, ALWAYS_AVAILABLE,            NO_FLAG_TO_SET },
-    { MatchCall_Text_Mom3, FLAG_DEFEATED_CIANWOOD_GYM,  NO_FLAG_TO_SET },
-    { MatchCall_Text_Mom3, FLAG_SYS_GAME_CLEAR,         NO_FLAG_TO_SET },
+    { MatchCall_Text_KjMom1, ALWAYS_AVAILABLE,            NO_FLAG_TO_SET },
+    { MatchCall_Text_KjMom2, FLAG_DEFEATED_CIANWOOD_GYM,  NO_FLAG_TO_SET },
+    { MatchCall_Text_KjMom3, FLAG_SYS_GAME_CLEAR,         NO_FLAG_TO_SET },
     MATCH_CALL_TEXT_END
 };
 
@@ -240,7 +241,7 @@ static const struct MatchCallStructNPC sMomMatchCallHeader =
     .mapSec = MAPSEC_NEW_BARK_TOWN,
     .flag = ALWAYS_AVAILABLE,
     .desc = COMPOUND_STRING("おだやかで　やさしい"),
-    .name = COMPOUND_STRING("おかあさん"),
+    .name = COMPOUND_STRING("ヒビキのママ"),
     .textData = sMomTextScripts
 };
 

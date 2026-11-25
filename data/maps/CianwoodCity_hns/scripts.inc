@@ -39,7 +39,7 @@ CianwoodCity_EventScript_Flytrigger::
 	applymovement LOCALID_CIANWOOD_CHUCKSWIFE, CianwoodCity_Movement_ChucksWife
 	waitmovement 0
 	msgbox CianwoodCity_Text_ChucksWifeGiveHM, MSGBOX_DEFAULT
-	giveitem ITEM_HM_FLY
+	call KJ_EventScript_GiveHM_FLY
 	msgbox CianwoodCity_Text_ChucksWifeFlySpeech, MSGBOX_DEFAULT
 	closemessage
 	setvar VAR_GETFLY, 2
@@ -76,7 +76,7 @@ CianwoodCity_EventScript_ChucksWife::
 
 CianwoodCity_EventScript_ChucksWifeGiveFly::
 	msgbox CianwoodCity_Text_ChucksWifeGiveHM, MSGBOX_DEFAULT
-	giveitem ITEM_HM_FLY
+	call KJ_EventScript_GiveHM_FLY
 	msgbox CianwoodCity_Text_ChucksWifeFlySpeech, MSGBOX_DEFAULT
 	closemessage
 	release

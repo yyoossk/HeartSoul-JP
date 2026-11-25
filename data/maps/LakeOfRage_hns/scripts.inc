@@ -242,13 +242,17 @@ LakeOfRage_Text_LanceForcedToEvolve:
 	.string "この　みずうみには\nギャラドス　しか　いない‥\pコイキングが　むりやり\nしんか　させられて　いる‥$"
 
 LakeOfRage_Text_LanceIntro1:
-	.string "きみも　うわさを　ききつけて\nきたのか？\pきみが　{PLAYER}くん？　わたしは\nワタル　きみと　おなじ\lトレーナーだ$"
+	.string "きみも　うわさを　ききつけて\nきたのか？\p‥\p"
+	.string "きみは　{PLAYER}くん！\nおぼえて　いるかい？\lワタルだ\p"
+	.string "3ねんまえ　セキエイこうげんで\nきみに　まけた　してんのうさ$"
 
 LakeOfRage_Text_LanceIntro2:
 	.string "この　ひとから　うわさを\nきいたんだ\pそれで　しらべに\nきたのだが‥$"
 
 LakeOfRage_Text_LanceIntro3:
-	.string "{PLAYER}くん　さっきの\nたたかいかた　みせて\lもらったよ\pかなりの　うでの\nトレーナー　だね\pよければ　ちょうさを\nてつだって　くれないか？$"
+	.string "{PLAYER}くん　さっきの\nたたかいかた　みせて\lもらったよ\p"
+	.string "あの　ときより　さらに\nつよく　なったね\p"
+	.string "よければ　ちょうさを\nてつだって　くれないか？$"
 
 LakeOfRage_Text_LanceRadioSignal:
 	.string "ワタル『ありがとう！\pみずうみの　コイキングは\nむりやり　しんか　させられて\lいる　ようだ\pチョウジから　でている\nなぞの　でんぱが\lげんいんだ\pまって　いるよ\n{PLAYER}くん$"
