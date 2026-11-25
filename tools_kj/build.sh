@@ -4,6 +4,7 @@ set -e
 cd "$(dirname "$0")/.."
 python3 -I tools_kj/gen_includes.py
 python3 -I tools_kj/gen_tilesets.py
+python3 -I tools_kj/add_jj.py
 python3 -I tools_kj/gen_trainers.py
 python3 -I tools_kj/gen_vars.py
 python3 -I tools_kj/patch_frlg_scripts.py

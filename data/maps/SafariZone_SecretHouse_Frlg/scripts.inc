@@ -11,6 +11,9 @@ SafariZone_SecretHouse_EventScript_Attendant::
 	giveitem_msg SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant, ITEM_HM03
 	setflag FLAG_KJ_RECEIVED_HM_SURF @ カントー＆ジョウト
 	setflag FLAG_KJ_RECEIVED_HM_SURF @ カントー＆ジョウト
+	setflag FLAG_KJ_RECEIVED_HM_SURF @ カントー＆ジョウト
+	setflag FLAG_KJ_RECEIVED_HM_SURF @ カントー＆ジョウト
+	setflag FLAG_KJ_RECEIVED_HM_SURF @ カントー＆ジョウト
 	msgbox SafariZone_SecretHouse_Text_ExplainSurf
 	setflag FLAG_KJ_GOT_HM03
 	release

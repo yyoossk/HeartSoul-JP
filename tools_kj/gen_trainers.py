@@ -18,6 +18,11 @@ for f in srcs:
     if f.endswith('_hns.inc'): continue
     used |= set(re.findall(r'\bTRAINER_\w+', open(f).read()))
 names = [n for n in order if n in used and n != 'TRAINER_NONE']
+# カントー＆ジョウト専用のトレーナー（ムサシとコジロウ）
+extra = open('src/data/trainers_kj_extra.party').read()
+for b in re.split(r'(?m)^(?==== )', extra):
+    m = re.match(r'=== (TRAINER_\w+) ===', b)
+    if m: byname[m.group(1)] = b; names.append(m.group(1))
 n = len(names)
 total = HNS_COUNT + n
 mx = max(FLAG_SPLIT, (total + 7) // 8 * 8)
@@ -28,5 +33,12 @@ h = ['#ifndef GUARD_CONSTANTS_OPPONENTS_KJ_H', '#define GUARD_CONSTANTS_OPPONENT
 h += [f'#define {nm:50s} {HNS_COUNT + i}' for i, nm in enumerate(names)]
 h += ['#endif', '']
 open('include/constants/opponents_kj.h', 'w').write('\n'.join(h))
-open('src/data/trainers_kj.party', 'w').write(''.join(byname[nm] for nm in names))
+# 名前は日本版ファイアレッドの名前に（tools_kj/jp/trainer_names.json）
+import json
+JPN = json.load(open('tools_kj/jp/trainer_names.json'))
+def jp_name(nm, b):
+    j = JPN.get(nm)
+    if not j or j in ('みてい', 'ダミー'): return b
+    return re.sub(r'(?m)^Name: .*$', 'Name: ' + j, b, count=1)
+open('src/data/trainers_kj.party', 'w').write(''.join(jp_name(nm, byname[nm]) for nm in names))
 print('kj trainers', n, 'total', total, 'max', mx, 'extra flag bits', max(0, mx - FLAG_SPLIT))

@@ -285,6 +285,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WorkerM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WorkerF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketF;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KjMusashi;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KjKojiro;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GBAKid;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SuperNerd;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Biker;
@@ -883,6 +885,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BLAINE]                   = &gObjectEventGraphicsInfo_Blaine,
     [OBJ_EVENT_GFX_GIOVANNI]                 = &gObjectEventGraphicsInfo_Giovanni,
     [OBJ_EVENT_GFX_MOM_FRLG]                 = &gObjectEventGraphicsInfo_MomFrlg,
+    [OBJ_EVENT_GFX_KJ_MUSASHI]               = &gObjectEventGraphicsInfo_KjMusashi,
+    [OBJ_EVENT_GFX_KJ_KOJIRO]                = &gObjectEventGraphicsInfo_KjKojiro,
     [OBJ_EVENT_GFX_CELIO]                    = &gObjectEventGraphicsInfo_Celio,
     [OBJ_EVENT_GFX_TEACHY_TV_HOST]           = &gObjectEventGraphicsInfo_TeachyTVHost,
     [OBJ_EVENT_GFX_GYM_GUY]                  = &gObjectEventGraphicsInfo_GymGuy,

@@ -583,7 +583,9 @@
 #define OBJ_EVENT_GFX_SKIER_F_HNS               545
 #define OBJ_EVENT_GFX_SKIER_M_HNS               546
 #define OBJ_EVENT_GFX_ALOLA_OAK_HNS             547
-#define NUM_OBJ_EVENT_GFX                        548
+#define OBJ_EVENT_GFX_KJ_MUSASHI                 548 // カントー＆ジョウト
+#define OBJ_EVENT_GFX_KJ_KOJIRO                  549
+#define NUM_OBJ_EVENT_GFX                        550
 
 
 // These are dynamic object gfx ids.
@@ -817,6 +819,7 @@
 #endif //OW_FOLLOWERS_POKEBALLS
 // Used as a placeholder follower graphic
 #define OBJ_EVENT_PAL_TAG_SUBSTITUTE              0x7611
+#define OBJ_EVENT_PAL_TAG_KJ_ROCKET_DUO           0x7620 // カントー＆ジョウト: ムサシ・コジロウ
 #define OBJ_EVENT_PAL_TAG_LIGHT                   0x8001
 #define OBJ_EVENT_PAL_TAG_LIGHT_2                 0x8002
 #define OBJ_EVENT_PAL_TAG_EMOTES                  0x8003

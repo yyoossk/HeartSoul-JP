@@ -39,7 +39,8 @@
       tools_kj/jp/: walk.py（pokefirered と日本版のスクリプトを並べてたどり、会話の番地を求める）→ fill.py → apply_jp.py
 - [x] 研究所で御三家を選び、ライバル戦（シゲル）まで動く
 - [x] オープニング：名前入力に サトシ（最初から入っている）、つづけて ライバルの名前（シゲル）を入れる
-- [ ] 初代御三家・シゲル・ムサシとコジロウ
+- [x] ムサシとコジロウ：Pokémon Ash Gray 4.5.3 から取り出した絵（歩く絵 2・戦闘の絵）。おつきみやまB2F・ロケット団アジトB4F・ポケモンタワー7F・シルフ11F（tools_kj/add_jj.py、src/data/trainers_kj_extra.party）
+- [x] カントーのトレーナーの名前を日本版ファイアレッドの名前に（tools_kj/jp/trainer_names.json）
 - [x] ひでんわざをカントーのバッジでも使えるように（src/field_move.c・field_move_scripts_hns.inc。ひでんマシンをもらうと hns のフラグも立てる）
 - [x] 殿堂入り → オーキドから ふねのチケット → クチバの港の船員 → 3年後 ワカバの自分の部屋（data/scripts/kj_johto.inc、src/kj.c）
       カントーの殿堂入りは FLAG_KJ_KANTO_CHAMPION（FLAG_SYS_GAME_CLEAR はジョウトの殿堂入り用に残す）

@@ -276,3 +276,4 @@
 	.include "data/text/trainer_card_frlg.inc"
 	.include "data/scripts/kj_new_game.inc"
 	.include "data/scripts/kj_johto.inc"
+	.include "data/scripts/kj_jj.inc"

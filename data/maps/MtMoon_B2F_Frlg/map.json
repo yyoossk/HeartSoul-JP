@@ -78,7 +78,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_KJ_MUSASHI",
       "x": 12,
       "y": 20,
       "elevation": 3,
@@ -87,8 +87,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "MtMoon_B2F_EventScript_Grunt1",
-      "flag": "FLAG_KJ_HIDE_MISC_KANTO_ROCKETS"
+      "script": "KJ_EventScript_JJ_MTMOON",
+      "flag": "FLAG_KJ_HIDE_JJ_MTMOON",
+      "local_id": "LOCALID_KJ_MUSASHI_MTMOON"
     },
     {
       "type": "object",
@@ -173,6 +174,21 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon_B2F_EventScript_ItemAntidote",
       "flag": "FLAG_KJ_HIDE_MT_MOON_B2F_ANTIDOTE"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_KJ_KOJIRO",
+      "x": 13,
+      "y": 20,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KJ_EventScript_JJ_MTMOON_Kojiro",
+      "flag": "FLAG_KJ_HIDE_JJ_MTMOON",
+      "local_id": "LOCALID_KJ_KOJIRO_MTMOON"
     }
   ],
   "warp_events": [

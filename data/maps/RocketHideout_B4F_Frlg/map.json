@@ -49,7 +49,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_KJ_MUSASHI",
       "x": 4,
       "y": 2,
       "elevation": 3,
@@ -58,8 +58,9 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "RocketHideout_B4F_EventScript_Grunt1",
-      "flag": "FLAG_KJ_HIDE_MISC_KANTO_ROCKETS"
+      "script": "KJ_EventScript_JJ_HIDEOUT",
+      "flag": "FLAG_KJ_HIDE_JJ_HIDEOUT",
+      "local_id": "LOCALID_KJ_MUSASHI_HIDEOUT"
     },
     {
       "local_id": "LOCALID_LIFT_KEY",
@@ -145,6 +146,21 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_ItemCalcium",
       "flag": "FLAG_KJ_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_KJ_KOJIRO",
+      "x": 5,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "KJ_EventScript_JJ_HIDEOUT_Kojiro",
+      "flag": "FLAG_KJ_HIDE_JJ_HIDEOUT",
+      "local_id": "LOCALID_KJ_KOJIRO_HIDEOUT"
     }
   ],
   "warp_events": [

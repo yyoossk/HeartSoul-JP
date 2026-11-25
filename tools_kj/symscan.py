@@ -15,7 +15,7 @@ COMMON = ['data/scripts/item_ball_scripts_frlg.inc','data/scripts/silphco_doors.
           'data/scripts/fame_checker_frlg.inc','data/text/fame_checker_frlg.inc','data/scripts/move_tutors_frlg.inc',
           'data/scripts/cable_club_frlg.inc','data/scripts/mystery_event_club.inc','data/scripts/seagallop.inc',
           'data/scripts/trainer_card_frlg.inc','data/text/trainer_card_frlg.inc',
-          'data/scripts/kj_new_game.inc','data/scripts/kj_johto.inc']
+          'data/scripts/kj_new_game.inc','data/scripts/kj_johto.inc','data/scripts/kj_jj.inc']
 def files():
     return [f'data/maps/{m}/scripts.inc' for m in K.kanto_maps()] + COMMON
 if __name__ == '__main__':

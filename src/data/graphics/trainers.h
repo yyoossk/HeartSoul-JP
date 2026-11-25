@@ -434,6 +434,8 @@ const u32 gTrainerFrontPic_ProfessorOakFrlg[] = INCBIN_U32("graphics/trainers/fr
 const u16 gTrainerPalette_ProfessorOakFrlg[] = INCBIN_U16("graphics/trainers/palettes/professor_oak_frlg.gbapal");
 
 const u32 gTrainerFrontPic_RocketGruntFFrlg[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_f_frlg.4bpp.smol");
+const u32 gTrainerFrontPic_KjRocketDuo[] = INCBIN_U32("graphics/trainers/front_pics/kj_rocket_duo.4bpp.smol");
+const u16 gTrainerPalette_KjRocketDuo[] = INCBIN_U16("graphics/trainers/palettes/kj_rocket_duo.gbapal");
 const u16 gTrainerPalette_RocketGruntFFrlg[] = INCBIN_U16("graphics/trainers/palettes/rocket_grunt_f_frlg.gbapal");
 
 const u32 gTrainerFrontPic_PsychicFFrlg[] = INCBIN_U32("graphics/trainers/front_pics/psychic_f_frlg.4bpp.smol");
@@ -819,6 +821,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_FRONT_SIS_AND_BRO_FRLG, gTrainerFrontPic_SisAndBroFrlg, gTrainerPalette_SisAndBroFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_PROFESSOR_OAK_FRLG, gTrainerFrontPic_ProfessorOakFrlg, gTrainerPalette_ProfessorOakFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_ROCKET_GRUNT_F_FRLG, gTrainerFrontPic_RocketGruntFFrlg, gTrainerPalette_RocketGruntFFrlg),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_KJ_ROCKET_DUO, gTrainerFrontPic_KjRocketDuo, gTrainerPalette_KjRocketDuo),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_PSYCHIC_F_FRLG, gTrainerFrontPic_PsychicFFrlg, gTrainerPalette_PsychicFFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_CRUSH_GIRL_FRLG, gTrainerFrontPic_CrushGirlFrlg, gTrainerPalette_CrushGirlFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_TUBER_F_FRLG, gTrainerFrontPic_TuberFFrlg, gTrainerPalette_TuberFFrlg),

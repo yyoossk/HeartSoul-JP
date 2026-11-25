@@ -10,7 +10,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_BEN] =
     {
 #line 2
-        .trainerName = _("BEN"),
+        .trainerName = _("ヒロト"),
 #line 3
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 4
@@ -58,7 +58,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_CALVIN] =
     {
 #line 19
-        .trainerName = _("CALVIN"),
+        .trainerName = _("カズキ"),
 #line 20
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 21
@@ -94,7 +94,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_JOSH] =
     {
 #line 32
-        .trainerName = _("JOSH"),
+        .trainerName = _("タロウ"),
 #line 33
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 34
@@ -154,7 +154,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_TIMMY] =
     {
 #line 53
-        .trainerName = _("TIMMY"),
+        .trainerName = _("シンゴ"),
 #line 54
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 55
@@ -202,7 +202,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_JOEY] =
     {
 #line 70
-        .trainerName = _("JOEY"),
+        .trainerName = _("タケオ"),
 #line 71
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 72
@@ -250,7 +250,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_DAN] =
     {
 #line 87
-        .trainerName = _("DAN"),
+        .trainerName = _("アツシ"),
 #line 88
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 89
@@ -286,7 +286,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_CHAD] =
     {
 #line 100
-        .trainerName = _("CHAD"),
+        .trainerName = _("カツユキ"),
 #line 101
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 102
@@ -334,7 +334,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_TYLER] =
     {
 #line 117
-        .trainerName = _("TYLER"),
+        .trainerName = _("マサノブ"),
 #line 118
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 119
@@ -370,7 +370,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_EDDIE] =
     {
 #line 130
-        .trainerName = _("EDDIE"),
+        .trainerName = _("ヤスユキ"),
 #line 131
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 132
@@ -406,7 +406,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_DILLON] =
     {
 #line 143
-        .trainerName = _("DILLON"),
+        .trainerName = _("ヨシト"),
 #line 144
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 145
@@ -454,7 +454,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_YASU] =
     {
 #line 160
-        .trainerName = _("YASU"),
+        .trainerName = _("ヒロノブ"),
 #line 161
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 162
@@ -514,7 +514,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_DAVE] =
     {
 #line 181
-        .trainerName = _("DAVE"),
+        .trainerName = _("シンタ"),
 #line 182
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 183
@@ -562,7 +562,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_RICK] =
     {
 #line 198
-        .trainerName = _("RICK"),
+        .trainerName = _("シンイチ"),
 #line 199
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 200
@@ -610,7 +610,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_DOUG] =
     {
 #line 215
-        .trainerName = _("DOUG"),
+        .trainerName = _("オサム"),
 #line 216
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 217
@@ -670,7 +670,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_SAMMY] =
     {
 #line 236
-        .trainerName = _("SAMMY"),
+        .trainerName = _("タツヒロ"),
 #line 237
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 238
@@ -706,7 +706,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_COLTON] =
     {
 #line 249
-        .trainerName = _("COLTON"),
+        .trainerName = _("ヒサシ"),
 #line 250
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 251
@@ -766,7 +766,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_GREG] =
     {
 #line 270
-        .trainerName = _("GREG"),
+        .trainerName = _("ヒロユキ"),
 #line 271
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 272
@@ -838,7 +838,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_JAMES] =
     {
 #line 295
-        .trainerName = _("JAMES"),
+        .trainerName = _("ミキヤ"),
 #line 296
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 297
@@ -886,7 +886,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_KENT] =
     {
 #line 312
-        .trainerName = _("KENT"),
+        .trainerName = _("トモミチ"),
 #line 313
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 314
@@ -934,7 +934,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_ROBBY] =
     {
 #line 329
-        .trainerName = _("ROBBY"),
+        .trainerName = _("ノリオ"),
 #line 330
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 331
@@ -994,7 +994,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_CALE] =
     {
 #line 350
-        .trainerName = _("CALE"),
+        .trainerName = _("ケンスケ"),
 #line 351
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 352
@@ -1066,7 +1066,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_KEIGO] =
     {
 #line 375
-        .trainerName = _("KEIGO"),
+        .trainerName = _("テツジ"),
 #line 376
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 377
@@ -1126,7 +1126,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_ELIJAH] =
     {
 #line 396
-        .trainerName = _("ELIJAH"),
+        .trainerName = _("ノブユキ"),
 #line 397
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 398
@@ -1162,7 +1162,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_BRENT] =
     {
 #line 409
-        .trainerName = _("BRENT"),
+        .trainerName = _("ヨウイチ"),
 #line 410
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 411
@@ -1210,7 +1210,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_CONNER] =
     {
 #line 426
-        .trainerName = _("CONNER"),
+        .trainerName = _("ヒロミチ"),
 #line 427
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 428
@@ -1270,7 +1270,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_JANICE] =
     {
 #line 447
-        .trainerName = _("JANICE"),
+        .trainerName = _("エリ"),
 #line 448
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 449
@@ -1318,7 +1318,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_SALLY] =
     {
 #line 464
-        .trainerName = _("SALLY"),
+        .trainerName = _("ミナ"),
 #line 465
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 466
@@ -1366,7 +1366,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_ROBIN] =
     {
 #line 481
-        .trainerName = _("ROBIN"),
+        .trainerName = _("シホ"),
 #line 482
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 483
@@ -1402,7 +1402,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_CRISSY] =
     {
 #line 494
-        .trainerName = _("CRISSY"),
+        .trainerName = _("メイ"),
 #line 495
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 496
@@ -1462,7 +1462,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_MIRIAM] =
     {
 #line 515
-        .trainerName = _("MIRIAM"),
+        .trainerName = _("ルリ"),
 #line 516
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 517
@@ -1510,7 +1510,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_IRIS] =
     {
 #line 532
-        .trainerName = _("IRIS"),
+        .trainerName = _("ナホ"),
 #line 533
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 534
@@ -1546,7 +1546,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_RELI] =
     {
 #line 545
-        .trainerName = _("RELI"),
+        .trainerName = _("アミ"),
 #line 546
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 547
@@ -1594,7 +1594,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_ALI] =
     {
 #line 562
-        .trainerName = _("ALI"),
+        .trainerName = _("サヤ"),
 #line 563
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 564
@@ -1654,7 +1654,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_HALEY] =
     {
 #line 583
-        .trainerName = _("HALEY"),
+        .trainerName = _("マキ"),
 #line 584
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 585
@@ -1714,7 +1714,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_ANN] =
     {
 #line 604
-        .trainerName = _("ANN"),
+        .trainerName = _("カヤ"),
 #line 605
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 606
@@ -1762,7 +1762,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_DAWN] =
     {
 #line 621
-        .trainerName = _("DAWN"),
+        .trainerName = _("ユカ"),
 #line 622
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 623
@@ -1810,7 +1810,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_PAIGE] =
     {
 #line 638
-        .trainerName = _("PAIGE"),
+        .trainerName = _("マイ"),
 #line 639
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 640
@@ -1858,7 +1858,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_ANDREA] =
     {
 #line 655
-        .trainerName = _("ANDREA"),
+        .trainerName = _("ミキ"),
 #line 656
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 657
@@ -1918,7 +1918,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_MEGAN] =
     {
 #line 676
-        .trainerName = _("MEGAN"),
+        .trainerName = _("マミ"),
 #line 677
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 678
@@ -2002,7 +2002,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_JULIA] =
     {
 #line 705
-        .trainerName = _("JULIA"),
+        .trainerName = _("マユ"),
 #line 706
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 707
@@ -2050,7 +2050,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_KAY] =
     {
 #line 722
-        .trainerName = _("KAY"),
+        .trainerName = _("アコ"),
 #line 723
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 724
@@ -2098,7 +2098,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LASS_LISA] =
     {
 #line 739
-        .trainerName = _("LISA"),
+        .trainerName = _("ユミ"),
 #line 740
         .trainerClass = TRAINER_CLASS_LASS_FRLG,
 #line 741
@@ -2146,7 +2146,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_EDMOND] =
     {
 #line 756
-        .trainerName = _("EDMOND"),
+        .trainerName = _("カツヤ"),
 #line 757
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 758
@@ -2194,7 +2194,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_TREVOR] =
     {
 #line 773
-        .trainerName = _("TREVOR"),
+        .trainerName = _("サンジ"),
 #line 774
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 775
@@ -2242,7 +2242,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_LEONARD] =
     {
 #line 790
-        .trainerName = _("LEONARD"),
+        .trainerName = _("ダイキ"),
 #line 791
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 792
@@ -2278,7 +2278,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_DUNCAN] =
     {
 #line 803
-        .trainerName = _("DUNCAN"),
+        .trainerName = _("ヒデフミ"),
 #line 804
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 805
@@ -2338,7 +2338,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_HUEY] =
     {
 #line 824
-        .trainerName = _("HUEY"),
+        .trainerName = _("タツロウ"),
 #line 825
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 826
@@ -2386,7 +2386,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_DYLAN] =
     {
 #line 841
-        .trainerName = _("DYLAN"),
+        .trainerName = _("ツヨシ"),
 #line 842
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 843
@@ -2446,7 +2446,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_PHILLIP] =
     {
 #line 862
-        .trainerName = _("PHILLIP"),
+        .trainerName = _("ユウサク"),
 #line 863
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 864
@@ -2482,7 +2482,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SAILOR_DWAYNE] =
     {
 #line 875
-        .trainerName = _("DWAYNE"),
+        .trainerName = _("タツヒコ"),
 #line 876
         .trainerClass = TRAINER_CLASS_SAILOR_FRLG,
 #line 877
@@ -2530,7 +2530,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_LIAM] =
     {
 #line 892
-        .trainerName = _("LIAM"),
+        .trainerName = _("トシカズ"),
 #line 893
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 894
@@ -2589,7 +2589,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_SHANE] =
     {
 #line 914
-        .trainerName = _("SHANE"),
+        .trainerName = _("トモヒロ"),
 #line 915
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 916
@@ -2637,7 +2637,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_ETHAN] =
     {
 #line 931
-        .trainerName = _("ETHAN"),
+        .trainerName = _("ヨシハル"),
 #line 932
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 933
@@ -2673,7 +2673,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_RICKY] =
     {
 #line 944
-        .trainerName = _("RICKY"),
+        .trainerName = _("ユウタ"),
 #line 945
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 946
@@ -2709,7 +2709,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_JEFF] =
     {
 #line 957
-        .trainerName = _("JEFF"),
+        .trainerName = _("コウタ"),
 #line 958
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 959
@@ -2757,7 +2757,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_CHRIS] =
     {
 #line 974
-        .trainerName = _("CHRIS"),
+        .trainerName = _("マサシ"),
 #line 975
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 976
@@ -2805,7 +2805,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_DREW] =
     {
 #line 991
-        .trainerName = _("DREW"),
+        .trainerName = _("ノリヒロ"),
 #line 992
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 993
@@ -2877,7 +2877,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_DIANA] =
     {
 #line 1016
-        .trainerName = _("DIANA"),
+        .trainerName = _("コズエ"),
 #line 1017
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1018
@@ -2913,7 +2913,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_NANCY] =
     {
 #line 1029
-        .trainerName = _("NANCY"),
+        .trainerName = _("サツキ"),
 #line 1030
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1031
@@ -2961,7 +2961,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_ISABELLE] =
     {
 #line 1046
-        .trainerName = _("ISABELLE"),
+        .trainerName = _("ナズナ"),
 #line 1047
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1048
@@ -3021,7 +3021,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_KELSEY] =
     {
 #line 1067
-        .trainerName = _("KELSEY"),
+        .trainerName = _("ミサ"),
 #line 1068
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1069
@@ -3069,7 +3069,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_ALICIA] =
     {
 #line 1084
-        .trainerName = _("ALICIA"),
+        .trainerName = _("エミカ"),
 #line 1085
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1086
@@ -3141,7 +3141,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_CAITLIN] =
     {
 #line 1109
-        .trainerName = _("CAITLIN"),
+        .trainerName = _("サチエ"),
 #line 1110
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1111
@@ -3177,7 +3177,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_HEIDI] =
     {
 #line 1122
-        .trainerName = _("HEIDI"),
+        .trainerName = _("チカコ"),
 #line 1123
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1124
@@ -3225,7 +3225,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_CAROL] =
     {
 #line 1139
-        .trainerName = _("CAROL"),
+        .trainerName = _("ヒロコ"),
 #line 1140
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1141
@@ -3273,7 +3273,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_SOFIA] =
     {
 #line 1156
-        .trainerName = _("SOFIA"),
+        .trainerName = _("ミノリ"),
 #line 1157
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1158
@@ -3333,7 +3333,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_MARTHA] =
     {
 #line 1177
-        .trainerName = _("MARTHA"),
+        .trainerName = _("トモコ"),
 #line 1178
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1179
@@ -3381,7 +3381,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_TINA] =
     {
 #line 1194
-        .trainerName = _("TINA"),
+        .trainerName = _("アサエ"),
 #line 1195
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 1196
@@ -3429,7 +3429,7 @@
     [DIFFICULTY_NORMAL][TRAINER_POKEMANIAC_MARK] =
     {
 #line 1211
-        .trainerName = _("MARK"),
+        .trainerName = _("モトフミ"),
 #line 1212
         .trainerClass = TRAINER_CLASS_POKEMANIAC_FRLG,
 #line 1213
@@ -3477,7 +3477,7 @@
     [DIFFICULTY_NORMAL][TRAINER_POKEMANIAC_HERMAN] =
     {
 #line 1228
-        .trainerName = _("HERMAN"),
+        .trainerName = _("ダイスケ"),
 #line 1229
         .trainerClass = TRAINER_CLASS_POKEMANIAC_FRLG,
 #line 1230
@@ -3525,7 +3525,7 @@
     [DIFFICULTY_NORMAL][TRAINER_POKEMANIAC_COOPER] =
     {
 #line 1245
-        .trainerName = _("COOPER"),
+        .trainerName = _("キヨハル"),
 #line 1246
         .trainerClass = TRAINER_CLASS_POKEMANIAC_FRLG,
 #line 1247
@@ -3585,7 +3585,7 @@
     [DIFFICULTY_NORMAL][TRAINER_POKEMANIAC_STEVE] =
     {
 #line 1266
-        .trainerName = _("STEVE"),
+        .trainerName = _("トシオ"),
 #line 1267
         .trainerClass = TRAINER_CLASS_POKEMANIAC_FRLG,
 #line 1268
@@ -3633,7 +3633,7 @@
     [DIFFICULTY_NORMAL][TRAINER_POKEMANIAC_WINSTON] =
     {
 #line 1283
-        .trainerName = _("WINSTON"),
+        .trainerName = _("ミツグ"),
 #line 1284
         .trainerClass = TRAINER_CLASS_POKEMANIAC_FRLG,
 #line 1285
@@ -3669,7 +3669,7 @@
     [DIFFICULTY_NORMAL][TRAINER_POKEMANIAC_DAWSON] =
     {
 #line 1296
-        .trainerName = _("DAWSON"),
+        .trainerName = _("ノゾム"),
 #line 1297
         .trainerClass = TRAINER_CLASS_POKEMANIAC_FRLG,
 #line 1298
@@ -3729,7 +3729,7 @@
     [DIFFICULTY_NORMAL][TRAINER_POKEMANIAC_ASHTON] =
     {
 #line 1317
-        .trainerName = _("ASHTON"),
+        .trainerName = _("サチオ"),
 #line 1318
         .trainerClass = TRAINER_CLASS_POKEMANIAC_FRLG,
 #line 1319
@@ -3777,7 +3777,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_JOVAN] =
     {
 #line 1334
-        .trainerName = _("JOVAN"),
+        .trainerName = _("キミタカ"),
 #line 1335
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1336
@@ -3825,7 +3825,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_MIGUEL] =
     {
 #line 1351
-        .trainerName = _("MIGUEL"),
+        .trainerName = _("ミツハル"),
 #line 1352
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1353
@@ -3885,7 +3885,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_AIDAN] =
     {
 #line 1372
-        .trainerName = _("AIDAN"),
+        .trainerName = _("イクオ"),
 #line 1373
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1374
@@ -3985,7 +3985,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_GLENN] =
     {
 #line 1413
-        .trainerName = _("GLENN"),
+        .trainerName = _("スギオ"),
 #line 1414
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1415
@@ -4045,7 +4045,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_LESLIE] =
     {
 #line 1434
-        .trainerName = _("LESLIE"),
+        .trainerName = _("スエオ"),
 #line 1435
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1436
@@ -4088,7 +4088,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_ERIK] =
     {
 #line 1451
-        .trainerName = _("ERIK"),
+        .trainerName = _("ハジメ"),
 #line 1452
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1453
@@ -4148,7 +4148,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_AVERY] =
     {
 #line 1472
-        .trainerName = _("AVERY"),
+        .trainerName = _("サダハル"),
 #line 1473
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1474
@@ -4220,7 +4220,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_DEREK] =
     {
 #line 1497
-        .trainerName = _("DEREK"),
+        .trainerName = _("ヨシアキ"),
 #line 1498
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1499
@@ -4256,7 +4256,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SUPER_NERD_ZAC] =
     {
 #line 1510
-        .trainerName = _("ZAC"),
+        .trainerName = _("ノブヒロ"),
 #line 1511
         .trainerClass = TRAINER_CLASS_SUPER_NERD_FRLG,
 #line 1512
@@ -4304,7 +4304,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_MARCOS] =
     {
 #line 1527
-        .trainerName = _("MARCOS"),
+        .trainerName = _("カツト"),
 #line 1528
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1529
@@ -4364,7 +4364,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_FRANKLIN] =
     {
 #line 1548
-        .trainerName = _("FRANKLIN"),
+        .trainerName = _("シゲオ"),
 #line 1549
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1550
@@ -4412,7 +4412,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_NOB] =
     {
 #line 1565
-        .trainerName = _("NOB"),
+        .trainerName = _("ゴロウ"),
 #line 1566
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1567
@@ -4484,7 +4484,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_WAYNE] =
     {
 #line 1590
-        .trainerName = _("WAYNE"),
+        .trainerName = _("コウサク"),
 #line 1591
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1592
@@ -4520,7 +4520,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_ALAN] =
     {
 #line 1603
-        .trainerName = _("ALAN"),
+        .trainerName = _("マサノリ"),
 #line 1604
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1605
@@ -4582,7 +4582,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_BRICE] =
     {
 #line 1628
-        .trainerName = _("BRICE"),
+        .trainerName = _("ハルノブ"),
 #line 1629
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1630
@@ -4642,7 +4642,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_CLARK] =
     {
 #line 1649
-        .trainerName = _("CLARK"),
+        .trainerName = _("カズノリ"),
 #line 1650
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1651
@@ -4704,7 +4704,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_TRENT] =
     {
 #line 1674
-        .trainerName = _("TRENT"),
+        .trainerName = _("ケンサク"),
 #line 1675
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1676
@@ -4752,7 +4752,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_DUDLEY] =
     {
 #line 1691
-        .trainerName = _("DUDLEY"),
+        .trainerName = _("トクオ"),
 #line 1692
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1693
@@ -4833,7 +4833,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_ALLEN] =
     {
 #line 1724
-        .trainerName = _("ALLEN"),
+        .trainerName = _("イサム"),
 #line 1725
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1726
@@ -4876,7 +4876,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_ERIC] =
     {
 #line 1741
-        .trainerName = _("ERIC"),
+        .trainerName = _("ダイチ"),
 #line 1742
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1743
@@ -4924,7 +4924,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_LENNY] =
     {
 #line 1758
-        .trainerName = _("LENNY"),
+        .trainerName = _("カツヒト"),
 #line 1759
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1760
@@ -4996,7 +4996,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_OLIVER] =
     {
 #line 1783
-        .trainerName = _("OLIVER"),
+        .trainerName = _("コダマ"),
 #line 1784
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1785
@@ -5056,7 +5056,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_LUCAS] =
     {
 #line 1804
-        .trainerName = _("LUCAS"),
+        .trainerName = _("サブロウ"),
 #line 1805
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 1806
@@ -5118,7 +5118,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_JARED] =
     {
 #line 1829
-        .trainerName = _("JARED"),
+        .trainerName = _("エイジ"),
 #line 1830
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 1831
@@ -5199,7 +5199,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_MALIK] =
     {
 #line 1862
-        .trainerName = _("MALIK"),
+        .trainerName = _("トキヤ"),
 #line 1863
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 1864
@@ -5261,7 +5261,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_ERNEST] =
     {
 #line 1887
-        .trainerName = _("ERNEST"),
+        .trainerName = _("ジロウ"),
 #line 1888
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 1889
@@ -5380,7 +5380,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_ALEX] =
     {
 #line 1936
-        .trainerName = _("ALEX"),
+        .trainerName = _("マサツグ"),
 #line 1937
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 1938
@@ -5461,7 +5461,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_LAO] =
     {
 #line 1969
-        .trainerName = _("LAO"),
+        .trainerName = _("キンジ"),
 #line 1970
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 1971
@@ -5523,7 +5523,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_HIDEO] =
     {
 #line 1994
-        .trainerName = _("HIDEO"),
+        .trainerName = _("カツハル"),
 #line 1995
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 1996
@@ -5559,7 +5559,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_RUBEN] =
     {
 #line 2007
-        .trainerName = _("RUBEN"),
+        .trainerName = _("ジュン"),
 #line 2008
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2009
@@ -5640,7 +5640,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_BILLY] =
     {
 #line 2040
-        .trainerName = _("BILLY"),
+        .trainerName = _("ケイタ"),
 #line 2041
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2042
@@ -5676,7 +5676,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_NIKOLAS] =
     {
 #line 2053
-        .trainerName = _("NIKOLAS"),
+        .trainerName = _("ショウジ"),
 #line 2054
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2055
@@ -5738,7 +5738,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_JAXON] =
     {
 #line 2078
-        .trainerName = _("JAXON"),
+        .trainerName = _("トモアキ"),
 #line 2079
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2080
@@ -5800,7 +5800,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_WILLIAM] =
     {
 #line 2103
-        .trainerName = _("WILLIAM"),
+        .trainerName = _("テツヤ"),
 #line 2104
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2105
@@ -5919,7 +5919,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_LUKAS] =
     {
 #line 2152
-        .trainerName = _("LUKAS"),
+        .trainerName = _("キョウスケ"),
 #line 2153
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2154
@@ -6019,7 +6019,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_ISAAC] =
     {
 #line 2193
-        .trainerName = _("ISAAC"),
+        .trainerName = _("セイジ"),
 #line 2194
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2195
@@ -6100,7 +6100,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_GERALD] =
     {
 #line 2226
-        .trainerName = _("GERALD"),
+        .trainerName = _("タクロウ"),
 #line 2227
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 2228
@@ -6162,7 +6162,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BURGLAR_QUINN] =
     {
 #line 2251
-        .trainerName = _("QUINN"),
+        .trainerName = _("ミノブ"),
 #line 2252
         .trainerClass = TRAINER_CLASS_BURGLAR_FRLG,
 #line 2253
@@ -6222,7 +6222,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BURGLAR_RAMON] =
     {
 #line 2272
-        .trainerName = _("RAMON"),
+        .trainerName = _("ジンパチ"),
 #line 2273
         .trainerClass = TRAINER_CLASS_BURGLAR_FRLG,
 #line 2274
@@ -6258,7 +6258,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BURGLAR_DUSTY] =
     {
 #line 2285
-        .trainerName = _("DUSTY"),
+        .trainerName = _("ノブオ"),
 #line 2286
         .trainerClass = TRAINER_CLASS_BURGLAR_FRLG,
 #line 2287
@@ -6306,7 +6306,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BURGLAR_ARNIE] =
     {
 #line 2302
-        .trainerName = _("ARNIE"),
+        .trainerName = _("トヨジ"),
 #line 2303
         .trainerClass = TRAINER_CLASS_BURGLAR_FRLG,
 #line 2304
@@ -6354,7 +6354,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BURGLAR_SIMON] =
     {
 #line 2319
-        .trainerName = _("SIMON"),
+        .trainerName = _("ヤスノブ"),
 #line 2320
         .trainerClass = TRAINER_CLASS_BURGLAR_FRLG,
 #line 2321
@@ -6390,7 +6390,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BURGLAR_LEWIS] =
     {
 #line 2332
-        .trainerName = _("LEWIS"),
+        .trainerName = _("エイタ"),
 #line 2333
         .trainerClass = TRAINER_CLASS_BURGLAR_FRLG,
 #line 2334
@@ -6438,7 +6438,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ENGINEER_BAILY] =
     {
 #line 2349
-        .trainerName = _("BAILY"),
+        .trainerName = _("フミオ"),
 #line 2350
         .trainerClass = TRAINER_CLASS_ENGINEER_FRLG,
 #line 2351
@@ -6486,7 +6486,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ENGINEER_BRAXTON] =
     {
 #line 2366
-        .trainerName = _("BRAXTON"),
+        .trainerName = _("ヨシオ"),
 #line 2367
         .trainerClass = TRAINER_CLASS_ENGINEER_FRLG,
 #line 2368
@@ -6522,7 +6522,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ENGINEER_BERNIE] =
     {
 #line 2379
-        .trainerName = _("BERNIE"),
+        .trainerName = _("ノブヒコ"),
 #line 2380
         .trainerClass = TRAINER_CLASS_ENGINEER_FRLG,
 #line 2381
@@ -6582,7 +6582,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_DALE] =
     {
 #line 2400
-        .trainerName = _("DALE"),
+        .trainerName = _("タカフミ"),
 #line 2401
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2402
@@ -6642,7 +6642,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_BARNY] =
     {
 #line 2421
-        .trainerName = _("BARNY"),
+        .trainerName = _("カズヒコ"),
 #line 2422
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2423
@@ -6702,7 +6702,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_NED] =
     {
 #line 2442
-        .trainerName = _("NED"),
+        .trainerName = _("トモカズ"),
 #line 2443
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2444
@@ -6762,7 +6762,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_CHIP] =
     {
 #line 2463
-        .trainerName = _("CHIP"),
+        .trainerName = _("ケイイチ"),
 #line 2464
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2465
@@ -6810,7 +6810,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_HANK] =
     {
 #line 2480
-        .trainerName = _("HANK"),
+        .trainerName = _("カズホ"),
 #line 2481
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2482
@@ -6846,7 +6846,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_ELLIOT] =
     {
 #line 2493
-        .trainerName = _("ELLIOT"),
+        .trainerName = _("アキヒコ"),
 #line 2494
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2495
@@ -6918,7 +6918,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_RONALD] =
     {
 #line 2518
-        .trainerName = _("RONALD"),
+        .trainerName = _("カズオ"),
 #line 2519
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2520
@@ -6990,7 +6990,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_CLAUDE] =
     {
 #line 2543
-        .trainerName = _("CLAUDE"),
+        .trainerName = _("ヒデユキ"),
 #line 2544
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2545
@@ -7038,7 +7038,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_WADE] =
     {
 #line 2560
-        .trainerName = _("WADE"),
+        .trainerName = _("イサオ"),
 #line 2561
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2562
@@ -7134,7 +7134,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_NOLAN] =
     {
 #line 2593
-        .trainerName = _("NOLAN"),
+        .trainerName = _("タカノリ"),
 #line 2594
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2595
@@ -7182,7 +7182,7 @@
     [DIFFICULTY_NORMAL][TRAINER_FISHERMAN_ANDREW] =
     {
 #line 2610
-        .trainerName = _("ANDREW"),
+        .trainerName = _("カツノリ"),
 #line 2611
         .trainerClass = TRAINER_CLASS_FISHERMAN_FRLG,
 #line 2612
@@ -7230,7 +7230,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_LUIS] =
     {
 #line 2627
-        .trainerName = _("LUIS"),
+        .trainerName = _("ヨウヘイ"),
 #line 2628
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2629
@@ -7278,7 +7278,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_RICHARD] =
     {
 #line 2644
-        .trainerName = _("RICHARD"),
+        .trainerName = _("ハルキ"),
 #line 2645
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2646
@@ -7326,7 +7326,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_REECE] =
     {
 #line 2661
-        .trainerName = _("REECE"),
+        .trainerName = _("ヒトキ"),
 #line 2662
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2663
@@ -7386,7 +7386,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_MATTHEW] =
     {
 #line 2682
-        .trainerName = _("MATTHEW"),
+        .trainerName = _("クニヒコ"),
 #line 2683
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2684
@@ -7434,7 +7434,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_DOUGLAS] =
     {
 #line 2699
-        .trainerName = _("DOUGLAS"),
+        .trainerName = _("タツオ"),
 #line 2700
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2701
@@ -7506,7 +7506,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_DAVID] =
     {
 #line 2724
-        .trainerName = _("DAVID"),
+        .trainerName = _("ケンイチ"),
 #line 2725
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2726
@@ -7566,7 +7566,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_TONY] =
     {
 #line 2745
-        .trainerName = _("TONY"),
+        .trainerName = _("エイイチ"),
 #line 2746
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2747
@@ -7614,7 +7614,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_AXLE] =
     {
 #line 2762
-        .trainerName = _("AXLE"),
+        .trainerName = _("タモツ"),
 #line 2763
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2764
@@ -7698,7 +7698,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_BARRY] =
     {
 #line 2791
-        .trainerName = _("BARRY"),
+        .trainerName = _("ガクジ"),
 #line 2792
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2793
@@ -7746,7 +7746,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_DEAN] =
     {
 #line 2808
-        .trainerName = _("DEAN"),
+        .trainerName = _("レツジ"),
 #line 2809
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2810
@@ -7782,7 +7782,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_DARRIN] =
     {
 #line 2821
-        .trainerName = _("DARRIN"),
+        .trainerName = _("テルユキ"),
 #line 2822
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2823
@@ -7854,7 +7854,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_SPENCER] =
     {
 #line 2846
-        .trainerName = _("SPENCER"),
+        .trainerName = _("トシヒロ"),
 #line 2847
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2848
@@ -7902,7 +7902,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_JACK] =
     {
 #line 2863
-        .trainerName = _("JACK"),
+        .trainerName = _("ヒデノリ"),
 #line 2864
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2865
@@ -7938,7 +7938,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_JEROME] =
     {
 #line 2876
-        .trainerName = _("JEROME"),
+        .trainerName = _("モリオ"),
 #line 2877
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2878
@@ -7986,7 +7986,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_MALE_ROLAND] =
     {
 #line 2893
-        .trainerName = _("ROLAND"),
+        .trainerName = _("マサトシ"),
 #line 2894
         .trainerClass = TRAINER_CLASS_SWIMMER_M_FRLG,
 #line 2895
@@ -8046,7 +8046,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_KOJI] =
     {
 #line 2914
-        .trainerName = _("KOJI"),
+        .trainerName = _("テツロウ"),
 #line 2915
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 2916
@@ -8106,7 +8106,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_LUKE] =
     {
 #line 2935
-        .trainerName = _("LUKE"),
+        .trainerName = _("テル"),
 #line 2936
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 2937
@@ -8154,7 +8154,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_CAMRON] =
     {
 #line 2952
-        .trainerName = _("CAMRON"),
+        .trainerName = _("クニオ"),
 #line 2953
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 2954
@@ -8202,7 +8202,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_RAUL] =
     {
 #line 2969
-        .trainerName = _("RAUL"),
+        .trainerName = _("ジョウ"),
 #line 2970
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 2971
@@ -8250,7 +8250,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_ISAIAH] =
     {
 #line 2986
-        .trainerName = _("ISAIAH"),
+        .trainerName = _("エイスケ"),
 #line 2987
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 2988
@@ -8298,7 +8298,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_ZEEK] =
     {
 #line 3003
-        .trainerName = _("ZEEK"),
+        .trainerName = _("タツキ"),
 #line 3004
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 3005
@@ -8334,7 +8334,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_JAMAL] =
     {
 #line 3016
-        .trainerName = _("JAMAL"),
+        .trainerName = _("チカラ"),
 #line 3017
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 3018
@@ -8406,7 +8406,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CUE_BALL_COREY] =
     {
 #line 3041
-        .trainerName = _("COREY"),
+        .trainerName = _("センゴ"),
 #line 3042
         .trainerClass = TRAINER_CLASS_CUE_BALL_FRLG,
 #line 3043
@@ -8454,7 +8454,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GAMER_HUGO] =
     {
 #line 3058
-        .trainerName = _("HUGO"),
+        .trainerName = _("カンジ"),
 #line 3059
         .trainerClass = TRAINER_CLASS_GAMER_FRLG,
 #line 3060
@@ -8502,7 +8502,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GAMER_JASPER] =
     {
 #line 3075
-        .trainerName = _("JASPER"),
+        .trainerName = _("モキチ"),
 #line 3076
         .trainerClass = TRAINER_CLASS_GAMER_FRLG,
 #line 3077
@@ -8550,7 +8550,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GAMER_DIRK] =
     {
 #line 3092
-        .trainerName = _("DIRK"),
+        .trainerName = _("ヨリト"),
 #line 3093
         .trainerClass = TRAINER_CLASS_GAMER_FRLG,
 #line 3094
@@ -8598,7 +8598,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GAMER_DARIAN] =
     {
 #line 3109
-        .trainerName = _("DARIAN"),
+        .trainerName = _("ケンキチ"),
 #line 3110
         .trainerClass = TRAINER_CLASS_GAMER_FRLG,
 #line 3111
@@ -8646,7 +8646,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GAMER_STAN] =
     {
 #line 3126
-        .trainerName = _("STAN"),
+        .trainerName = _("ケイシ"),
 #line 3127
         .trainerClass = TRAINER_CLASS_GAMER_FRLG,
 #line 3128
@@ -8706,7 +8706,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GAMER_RICH] =
     {
 #line 3147
-        .trainerName = _("RICH"),
+        .trainerName = _("ソウキ"),
 #line 3148
         .trainerClass = TRAINER_CLASS_GAMER_FRLG,
 #line 3149
@@ -8754,7 +8754,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BEAUTY_BRIDGET] =
     {
 #line 3164
-        .trainerName = _("BRIDGET"),
+        .trainerName = _("セイコ"),
 #line 3165
         .trainerClass = TRAINER_CLASS_BEAUTY_FRLG,
 #line 3166
@@ -8826,7 +8826,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BEAUTY_TAMIA] =
     {
 #line 3189
-        .trainerName = _("TAMIA"),
+        .trainerName = _("レイコ"),
 #line 3190
         .trainerClass = TRAINER_CLASS_BEAUTY_FRLG,
 #line 3191
@@ -8874,7 +8874,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BEAUTY_LORI] =
     {
 #line 3206
-        .trainerName = _("LORI"),
+        .trainerName = _("ヒトミ"),
 #line 3207
         .trainerClass = TRAINER_CLASS_BEAUTY_FRLG,
 #line 3208
@@ -8910,7 +8910,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BEAUTY_LOLA] =
     {
 #line 3219
-        .trainerName = _("LOLA"),
+        .trainerName = _("アユミ"),
 #line 3220
         .trainerClass = TRAINER_CLASS_BEAUTY_FRLG,
 #line 3221
@@ -8970,7 +8970,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BEAUTY_SHEILA] =
     {
 #line 3240
-        .trainerName = _("SHEILA"),
+        .trainerName = _("クニミ"),
 #line 3241
         .trainerClass = TRAINER_CLASS_BEAUTY_FRLG,
 #line 3242
@@ -9018,7 +9018,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_FEMALE_TIFFANY] =
     {
 #line 3257
-        .trainerName = _("TIFFANY"),
+        .trainerName = _("ハルコ"),
 #line 3258
         .trainerClass = TRAINER_CLASS_SWIMMER_F_FRLG,
 #line 3259
@@ -9054,7 +9054,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_FEMALE_NORA] =
     {
 #line 3270
-        .trainerName = _("NORA"),
+        .trainerName = _("リリカ"),
 #line 3271
         .trainerClass = TRAINER_CLASS_SWIMMER_F_FRLG,
 #line 3272
@@ -9114,7 +9114,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_FEMALE_MELISSA] =
     {
 #line 3291
-        .trainerName = _("MELISSA"),
+        .trainerName = _("メグミ"),
 #line 3292
         .trainerClass = TRAINER_CLASS_SWIMMER_F_FRLG,
 #line 3293
@@ -9162,7 +9162,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BEAUTY_GRACE] =
     {
 #line 3308
-        .trainerName = _("GRACE"),
+        .trainerName = _("アキエ"),
 #line 3309
         .trainerClass = TRAINER_CLASS_BEAUTY_FRLG,
 #line 3310
@@ -9210,7 +9210,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BEAUTY_OLIVIA] =
     {
 #line 3325
-        .trainerName = _("OLIVIA"),
+        .trainerName = _("ナオコ"),
 #line 3326
         .trainerClass = TRAINER_CLASS_BEAUTY_FRLG,
 #line 3327
@@ -9258,7 +9258,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_FEMALE_ANYA] =
     {
 #line 3342
-        .trainerName = _("ANYA"),
+        .trainerName = _("ナオミ"),
 #line 3343
         .trainerClass = TRAINER_CLASS_SWIMMER_F_FRLG,
 #line 3344
@@ -9342,7 +9342,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_FEMALE_ALICE] =
     {
 #line 3371
-        .trainerName = _("ALICE"),
+        .trainerName = _("エツコ"),
 #line 3372
         .trainerClass = TRAINER_CLASS_SWIMMER_F_FRLG,
 #line 3373
@@ -9390,7 +9390,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_FEMALE_CONNIE] =
     {
 #line 3388
-        .trainerName = _("CONNIE"),
+        .trainerName = _("マユコ"),
 #line 3389
         .trainerClass = TRAINER_CLASS_SWIMMER_F_FRLG,
 #line 3390
@@ -9450,7 +9450,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SWIMMER_FEMALE_SHIRLEY] =
     {
 #line 3409
-        .trainerName = _("SHIRLEY"),
+        .trainerName = _("アサミ"),
 #line 3410
         .trainerClass = TRAINER_CLASS_SWIMMER_F_FRLG,
 #line 3411
@@ -9510,7 +9510,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PSYCHIC_JOHAN] =
     {
 #line 3430
-        .trainerName = _("JOHAN"),
+        .trainerName = _("カズヤ"),
 #line 3431
         .trainerClass = TRAINER_CLASS_PSYCHIC_FRLG,
 #line 3432
@@ -9582,7 +9582,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PSYCHIC_TYRON] =
     {
 #line 3455
-        .trainerName = _("TYRON"),
+        .trainerName = _("イサミ"),
 #line 3456
         .trainerClass = TRAINER_CLASS_PSYCHIC_FRLG,
 #line 3457
@@ -9630,7 +9630,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PSYCHIC_CAMERON] =
     {
 #line 3472
-        .trainerName = _("CAMERON"),
+        .trainerName = _("カオル"),
 #line 3473
         .trainerClass = TRAINER_CLASS_PSYCHIC_FRLG,
 #line 3474
@@ -9690,7 +9690,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PSYCHIC_PRESTON] =
     {
 #line 3493
-        .trainerName = _("PRESTON"),
+        .trainerName = _("ヒロム"),
 #line 3494
         .trainerClass = TRAINER_CLASS_PSYCHIC_FRLG,
 #line 3495
@@ -9726,7 +9726,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ROCKER_LUCA] =
     {
 #line 3506
-        .trainerName = _("LUCA"),
+        .trainerName = _("アヤキ"),
 #line 3507
         .trainerClass = TRAINER_CLASS_ROCKER_FRLG,
 #line 3508
@@ -9774,7 +9774,7 @@
     [DIFFICULTY_NORMAL][TRAINER_JUGGLER_DALTON] =
     {
 #line 3523
-        .trainerName = _("DALTON"),
+        .trainerName = _("テリー"),
 #line 3524
         .trainerClass = TRAINER_CLASS_JUGGLER_FRLG,
 #line 3525
@@ -9822,7 +9822,7 @@
     [DIFFICULTY_NORMAL][TRAINER_JUGGLER_NELSON] =
     {
 #line 3540
-        .trainerName = _("NELSON"),
+        .trainerName = _("ナミオ"),
 #line 3541
         .trainerClass = TRAINER_CLASS_JUGGLER_FRLG,
 #line 3542
@@ -9894,7 +9894,7 @@
     [DIFFICULTY_NORMAL][TRAINER_JUGGLER_KIRK] =
     {
 #line 3565
-        .trainerName = _("KIRK"),
+        .trainerName = _("ジョージ"),
 #line 3566
         .trainerClass = TRAINER_CLASS_JUGGLER_FRLG,
 #line 3567
@@ -9966,7 +9966,7 @@
     [DIFFICULTY_NORMAL][TRAINER_JUGGLER_SHAWN] =
     {
 #line 3590
-        .trainerName = _("SHAWN"),
+        .trainerName = _("マイク"),
 #line 3591
         .trainerClass = TRAINER_CLASS_JUGGLER_FRLG,
 #line 3592
@@ -10014,7 +10014,7 @@
     [DIFFICULTY_NORMAL][TRAINER_JUGGLER_GREGORY] =
     {
 #line 3607
-        .trainerName = _("GREGORY"),
+        .trainerName = _("コリン"),
 #line 3608
         .trainerClass = TRAINER_CLASS_JUGGLER_FRLG,
 #line 3609
@@ -10057,7 +10057,7 @@
     [DIFFICULTY_NORMAL][TRAINER_JUGGLER_KAYDEN] =
     {
 #line 3624
-        .trainerName = _("KAYDEN"),
+        .trainerName = _("レン"),
 #line 3625
         .trainerClass = TRAINER_CLASS_JUGGLER_FRLG,
 #line 3626
@@ -10093,7 +10093,7 @@
     [DIFFICULTY_NORMAL][TRAINER_JUGGLER_NATE] =
     {
 #line 3637
-        .trainerName = _("NATE"),
+        .trainerName = _("トニー"),
 #line 3638
         .trainerClass = TRAINER_CLASS_JUGGLER_FRLG,
 #line 3639
@@ -10141,7 +10141,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TAMER_PHIL] =
     {
 #line 3654
-        .trainerName = _("PHIL"),
+        .trainerName = _("シュンペイ"),
 #line 3655
         .trainerClass = TRAINER_CLASS_TAMER_FRLG,
 #line 3656
@@ -10189,7 +10189,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TAMER_EDGAR] =
     {
 #line 3671
-        .trainerName = _("EDGAR"),
+        .trainerName = _("コウキ"),
 #line 3672
         .trainerClass = TRAINER_CLASS_TAMER_FRLG,
 #line 3673
@@ -10249,7 +10249,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TAMER_JASON] =
     {
 #line 3692
-        .trainerName = _("JASON"),
+        .trainerName = _("ヒロ"),
 #line 3693
         .trainerClass = TRAINER_CLASS_TAMER_FRLG,
 #line 3694
@@ -10285,7 +10285,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TAMER_COLE] =
     {
 #line 3705
-        .trainerName = _("COLE"),
+        .trainerName = _("アキラ"),
 #line 3706
         .trainerClass = TRAINER_CLASS_TAMER_FRLG,
 #line 3707
@@ -10333,7 +10333,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TAMER_VINCENT] =
     {
 #line 3722
-        .trainerName = _("VINCENT"),
+        .trainerName = _("ユウト"),
 #line 3723
         .trainerClass = TRAINER_CLASS_TAMER_FRLG,
 #line 3724
@@ -10381,7 +10381,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_SEBASTIAN] =
     {
 #line 3739
-        .trainerName = _("SEBASTIAN"),
+        .trainerName = _("ケイスケ"),
 #line 3740
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3741
@@ -10429,7 +10429,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_PERRY] =
     {
 #line 3756
-        .trainerName = _("PERRY"),
+        .trainerName = _("キヨヒコ"),
 #line 3757
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3758
@@ -10513,7 +10513,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_ROBERT] =
     {
 #line 3785
-        .trainerName = _("ROBERT"),
+        .trainerName = _("ツバサ"),
 #line 3786
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3787
@@ -10585,7 +10585,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_DONALD] =
     {
 #line 3810
-        .trainerName = _("DONALD"),
+        .trainerName = _("イクミ"),
 #line 3811
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3812
@@ -10621,7 +10621,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_BENNY] =
     {
 #line 3823
-        .trainerName = _("BENNY"),
+        .trainerName = _("アキマサ"),
 #line 3824
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3825
@@ -10669,7 +10669,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_EDWIN] =
     {
 #line 3840
-        .trainerName = _("EDWIN"),
+        .trainerName = _("モトキ"),
 #line 3841
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3842
@@ -10741,7 +10741,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_CHESTER] =
     {
 #line 3865
-        .trainerName = _("CHESTER"),
+        .trainerName = _("タイシ"),
 #line 3866
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3867
@@ -10801,7 +10801,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_WILTON] =
     {
 #line 3886
-        .trainerName = _("WILTON"),
+        .trainerName = _("ユウスケ"),
 #line 3887
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3888
@@ -10849,7 +10849,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_RAMIRO] =
     {
 #line 3903
-        .trainerName = _("RAMIRO"),
+        .trainerName = _("ハルト"),
 #line 3904
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3905
@@ -10885,7 +10885,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_JACOB] =
     {
 #line 3916
-        .trainerName = _("JACOB"),
+        .trainerName = _("ススム"),
 #line 3917
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3918
@@ -10957,7 +10957,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_ROGER] =
     {
 #line 3941
-        .trainerName = _("ROGER"),
+        .trainerName = _("トモヒコ"),
 #line 3942
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3943
@@ -11017,7 +11017,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_CARTER] =
     {
 #line 3962
-        .trainerName = _("CARTER"),
+        .trainerName = _("タカヒロ"),
 #line 3963
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3964
@@ -11077,7 +11077,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_MITCH] =
     {
 #line 3983
-        .trainerName = _("MITCH"),
+        .trainerName = _("ツカサ"),
 #line 3984
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 3985
@@ -11149,7 +11149,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_BECK] =
     {
 #line 4008
-        .trainerName = _("BECK"),
+        .trainerName = _("トシアキ"),
 #line 4009
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 4010
@@ -11197,7 +11197,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIRD_KEEPER_MARLON] =
     {
 #line 4025
-        .trainerName = _("MARLON"),
+        .trainerName = _("アサト"),
 #line 4026
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER_FRLG,
 #line 4027
@@ -11257,7 +11257,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_KOICHI] =
     {
 #line 4046
-        .trainerName = _("KOICHI"),
+        .trainerName = _("タケノリ"),
 #line 4047
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4048
@@ -11309,7 +11309,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_MIKE] =
     {
 #line 4063
-        .trainerName = _("MIKE"),
+        .trainerName = _("ノボル"),
 #line 4064
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4065
@@ -11375,7 +11375,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_HIDEKI] =
     {
 #line 4084
-        .trainerName = _("HIDEKI"),
+        .trainerName = _("タイキ"),
 #line 4085
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4086
@@ -11427,7 +11427,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_AARON] =
     {
 #line 4101
-        .trainerName = _("AARON"),
+        .trainerName = _("タツマ"),
 #line 4102
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4103
@@ -11465,7 +11465,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_HITOSHI] =
     {
 #line 4114
-        .trainerName = _("HITOSHI"),
+        .trainerName = _("イワオ"),
 #line 4115
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4116
@@ -11531,7 +11531,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_ATSUSHI] =
     {
 #line 4135
-        .trainerName = _("ATSUSHI"),
+        .trainerName = _("テツヒサ"),
 #line 4136
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4137
@@ -11583,7 +11583,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_KIYO] =
     {
 #line 4152
-        .trainerName = _("KIYO"),
+        .trainerName = _("タクマ"),
 #line 4153
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4154
@@ -11621,7 +11621,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_TAKASHI] =
     {
 #line 4165
-        .trainerName = _("TAKASHI"),
+        .trainerName = _("シロウ"),
 #line 4166
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4167
@@ -11687,7 +11687,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BLACK_BELT_DAISUKE] =
     {
 #line 4186
-        .trainerName = _("DAISUKE"),
+        .trainerName = _("タダシ"),
 #line 4187
         .trainerClass = TRAINER_CLASS_BLACK_BELT_FRLG,
 #line 4188
@@ -12338,7 +12338,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_TED] =
     {
 #line 4426
-        .trainerName = _("TED"),
+        .trainerName = _("ノブヒサ"),
 #line 4427
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4428
@@ -12386,7 +12386,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_CONNOR] =
     {
 #line 4443
-        .trainerName = _("CONNOR"),
+        .trainerName = _("ユヅル"),
 #line 4444
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4445
@@ -12486,7 +12486,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_JERRY] =
     {
 #line 4484
-        .trainerName = _("JERRY"),
+        .trainerName = _("ヒデオ"),
 #line 4485
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4486
@@ -12546,7 +12546,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_JOSE] =
     {
 #line 4505
-        .trainerName = _("JOSE"),
+        .trainerName = _("トモノリ"),
 #line 4506
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4507
@@ -12608,7 +12608,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_RODNEY] =
     {
 #line 4530
-        .trainerName = _("RODNEY"),
+        .trainerName = _("マサヒロ"),
 #line 4531
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4532
@@ -12644,7 +12644,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_BEAU] =
     {
 #line 4543
-        .trainerName = _("BEAU"),
+        .trainerName = _("カズユキ"),
 #line 4544
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4545
@@ -12744,7 +12744,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_TAYLOR] =
     {
 #line 4584
-        .trainerName = _("TAYLOR"),
+        .trainerName = _("ソウスケ"),
 #line 4585
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4586
@@ -12863,7 +12863,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_JOSHUA] =
     {
 #line 4633
-        .trainerName = _("JOSHUA"),
+        .trainerName = _("シュウイチ"),
 #line 4634
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4635
@@ -12911,7 +12911,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_PARKER] =
     {
 #line 4650
-        .trainerName = _("PARKER"),
+        .trainerName = _("ヒデキ"),
 #line 4651
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4652
@@ -12959,7 +12959,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_ED] =
     {
 #line 4667
-        .trainerName = _("ED"),
+        .trainerName = _("スグル"),
 #line 4668
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4669
@@ -13040,7 +13040,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_TRAVIS] =
     {
 #line 4700
-        .trainerName = _("TRAVIS"),
+        .trainerName = _("ヨシヤ"),
 #line 4701
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4702
@@ -13088,7 +13088,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_BRAYDON] =
     {
 #line 4717
-        .trainerName = _("BRAYDON"),
+        .trainerName = _("アオバ"),
 #line 4718
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4719
@@ -13148,7 +13148,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SCIENTIST_IVAN] =
     {
 #line 4738
-        .trainerName = _("IVAN"),
+        .trainerName = _("ヨシタカ"),
 #line 4739
         .trainerClass = TRAINER_CLASS_SCIENTIST_FRLG,
 #line 4740
@@ -13196,7 +13196,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BOSS_GIOVANNI] =
     {
 #line 4755
-        .trainerName = _("GIOVANNI"),
+        .trainerName = _("サカキ"),
 #line 4756
         .trainerClass = TRAINER_CLASS_BOSS_FRLG,
 #line 4757
@@ -13256,7 +13256,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BOSS_GIOVANNI_2] =
     {
 #line 4776
-        .trainerName = _("GIOVANNI"),
+        .trainerName = _("サカキ"),
 #line 4777
         .trainerClass = TRAINER_CLASS_BOSS_FRLG,
 #line 4778
@@ -13328,7 +13328,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_GIOVANNI] =
     {
 #line 4801
-        .trainerName = _("GIOVANNI"),
+        .trainerName = _("サカキ"),
 #line 4802
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 4803
@@ -13449,7 +13449,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT] =
     {
 #line 4851
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4852
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4853
@@ -13497,7 +13497,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_2] =
     {
 #line 4868
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4869
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4870
@@ -13557,7 +13557,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_3] =
     {
 #line 4889
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4890
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4891
@@ -13605,7 +13605,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_4] =
     {
 #line 4906
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4907
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4908
@@ -13653,7 +13653,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_5] =
     {
 #line 4923
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4924
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4925
@@ -13701,7 +13701,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_6] =
     {
 #line 4940
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4941
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4942
@@ -13749,7 +13749,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_7] =
     {
 #line 4957
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4958
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4959
@@ -13797,7 +13797,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_8] =
     {
 #line 4974
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4975
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4976
@@ -13845,7 +13845,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_9] =
     {
 #line 4991
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 4992
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 4993
@@ -13893,7 +13893,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_10] =
     {
 #line 5008
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5009
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5010
@@ -13972,7 +13972,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_11] =
     {
 #line 5039
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5040
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5041
@@ -14044,7 +14044,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_12] =
     {
 #line 5064
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5065
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5066
@@ -14106,7 +14106,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_13] =
     {
 #line 5089
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5090
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5091
@@ -14224,7 +14224,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_14] =
     {
 #line 5137
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5138
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5139
@@ -14284,7 +14284,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_15] =
     {
 #line 5158
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5159
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5160
@@ -14332,7 +14332,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_16] =
     {
 #line 5175
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5176
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5177
@@ -14392,7 +14392,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_17] =
     {
 #line 5196
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5197
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5198
@@ -14452,7 +14452,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_18] =
     {
 #line 5217
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5218
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5219
@@ -14500,7 +14500,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_19] =
     {
 #line 5234
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5235
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5236
@@ -14560,7 +14560,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_20] =
     {
 #line 5255
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5256
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5257
@@ -14608,7 +14608,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_21] =
     {
 #line 5272
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5273
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5274
@@ -14680,7 +14680,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_23] =
     {
 #line 5297
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5298
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5299
@@ -14728,7 +14728,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_24] =
     {
 #line 5314
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5315
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5316
@@ -14812,7 +14812,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_25] =
     {
 #line 5343
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5344
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5345
@@ -14872,7 +14872,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_26] =
     {
 #line 5364
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5365
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5366
@@ -14920,7 +14920,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_27] =
     {
 #line 5381
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5382
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5383
@@ -14980,7 +14980,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_28] =
     {
 #line 5402
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5403
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5404
@@ -15016,7 +15016,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_29] =
     {
 #line 5415
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5416
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5417
@@ -15052,7 +15052,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_30] =
     {
 #line 5428
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5429
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5430
@@ -15100,7 +15100,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_31] =
     {
 #line 5445
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5446
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5447
@@ -15160,7 +15160,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_32] =
     {
 #line 5466
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5467
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5468
@@ -15260,7 +15260,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_33] =
     {
 #line 5507
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5508
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5509
@@ -15308,7 +15308,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_34] =
     {
 #line 5524
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5525
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5526
@@ -15356,7 +15356,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_35] =
     {
 #line 5541
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5542
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5543
@@ -15428,7 +15428,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_36] =
     {
 #line 5566
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5567
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5568
@@ -15488,7 +15488,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_37] =
     {
 #line 5587
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5588
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5589
@@ -15548,7 +15548,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_38] =
     {
 #line 5608
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5609
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5610
@@ -15608,7 +15608,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_39] =
     {
 #line 5629
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5630
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5631
@@ -15644,7 +15644,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_40] =
     {
 #line 5642
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5643
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5644
@@ -15728,7 +15728,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TEAM_ROCKET_GRUNT_41] =
     {
 #line 5671
-        .trainerName = _("GRUNT"),
+        .trainerName = _("したっぱ"),
 #line 5672
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
 #line 5673
@@ -15788,7 +15788,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_SAMUEL] =
     {
 #line 5692
-        .trainerName = _("SAMUEL"),
+        .trainerName = _("タクヤ"),
 #line 5693
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 5694
@@ -15909,7 +15909,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_GEORGE] =
     {
 #line 5742
-        .trainerName = _("GEORGE"),
+        .trainerName = _("カズマ"),
 #line 5743
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 5744
@@ -16030,7 +16030,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_COLBY] =
     {
 #line 5792
-        .trainerName = _("COLBY"),
+        .trainerName = _("シュウ"),
 #line 5793
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 5794
@@ -16151,7 +16151,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_ROLANDO] =
     {
 #line 5842
-        .trainerName = _("ROLANDO"),
+        .trainerName = _("アサオ"),
 #line 5843
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 5844
@@ -16272,7 +16272,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_YUJI] =
     {
 #line 5892
-        .trainerName = _("YUJI"),
+        .trainerName = _("カズシ"),
 #line 5893
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 5894
@@ -16393,7 +16393,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_WARREN] =
     {
 #line 5942
-        .trainerName = _("WARREN"),
+        .trainerName = _("レイジ"),
 #line 5943
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 5944
@@ -16514,7 +16514,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_MARY] =
     {
 #line 5992
-        .trainerName = _("MARY"),
+        .trainerName = _("アヤカ"),
 #line 5993
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 5994
@@ -16635,7 +16635,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_CAROLINE] =
     {
 #line 6042
-        .trainerName = _("CAROLINE"),
+        .trainerName = _("コトミ"),
 #line 6043
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 6044
@@ -16756,7 +16756,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_ALEXA] =
     {
 #line 6092
-        .trainerName = _("ALEXA"),
+        .trainerName = _("サヤカ"),
 #line 6093
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 6094
@@ -16877,7 +16877,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOLTRAINER_NAOMI] =
     {
 #line 6142
-        .trainerName = _("NAOMI"),
+        .trainerName = _("カナコ"),
 #line 6143
         .trainerClass = TRAINER_CLASS_COOLTRAINER_FRLG,
 #line 6144
@@ -16998,7 +16998,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_LORELEI] =
     {
 #line 6192
-        .trainerName = _("LORELEI"),
+        .trainerName = _("カンナ"),
 #line 6193
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 6194
@@ -17123,7 +17123,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_BRUNO] =
     {
 #line 6243
-        .trainerName = _("BRUNO"),
+        .trainerName = _("シバ"),
 #line 6244
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 6245
@@ -17248,7 +17248,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_AGATHA] =
     {
 #line 6294
-        .trainerName = _("AGATHA"),
+        .trainerName = _("キクコ"),
 #line 6295
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 6296
@@ -17373,7 +17373,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_LANCE] =
     {
 #line 6345
-        .trainerName = _("LANCE"),
+        .trainerName = _("ワタル"),
 #line 6346
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 6347
@@ -17498,7 +17498,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_BROCK] =
     {
 #line 6396
-        .trainerName = _("BROCK"),
+        .trainerName = _("タケシ"),
 #line 6397
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 6398
@@ -17557,7 +17557,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_MISTY] =
     {
 #line 6418
-        .trainerName = _("MISTY"),
+        .trainerName = _("カスミ"),
 #line 6419
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 6420
@@ -17621,7 +17621,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_LT_SURGE] =
     {
 #line 6444
-        .trainerName = _("LT. SURGE"),
+        .trainerName = _("マチス"),
 #line 6445
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 6446
@@ -17704,7 +17704,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_ERIKA] =
     {
 #line 6478
-        .trainerName = _("ERIKA"),
+        .trainerName = _("エリカ"),
 #line 6479
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 6480
@@ -17787,7 +17787,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_KOGA] =
     {
 #line 6512
-        .trainerName = _("KOGA"),
+        .trainerName = _("キョウ"),
 #line 6513
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 6514
@@ -17889,7 +17889,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_BLAINE] =
     {
 #line 6554
-        .trainerName = _("BLAINE"),
+        .trainerName = _("カツラ"),
 #line 6555
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 6556
@@ -17991,7 +17991,7 @@
     [DIFFICULTY_NORMAL][TRAINER_LEADER_SABRINA] =
     {
 #line 6596
-        .trainerName = _("SABRINA"),
+        .trainerName = _("ナツメ"),
 #line 6597
         .trainerClass = TRAINER_CLASS_LEADER_FRLG,
 #line 6598
@@ -18093,7 +18093,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GENTLEMAN_THOMAS] =
     {
 #line 6638
-        .trainerName = _("THOMAS"),
+        .trainerName = _("スコット"),
 #line 6639
         .trainerClass = TRAINER_CLASS_GENTLEMAN_FRLG,
 #line 6640
@@ -18141,7 +18141,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GENTLEMAN_ARTHUR] =
     {
 #line 6655
-        .trainerName = _("ARTHUR"),
+        .trainerName = _("ケント"),
 #line 6656
         .trainerClass = TRAINER_CLASS_GENTLEMAN_FRLG,
 #line 6657
@@ -18189,7 +18189,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GENTLEMAN_TUCKER] =
     {
 #line 6672
-        .trainerName = _("TUCKER"),
+        .trainerName = _("オルソン"),
 #line 6673
         .trainerClass = TRAINER_CLASS_GENTLEMAN_FRLG,
 #line 6674
@@ -19791,7 +19791,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_PATRICIA] =
     {
 #line 7282
-        .trainerName = _("PATRICIA"),
+        .trainerName = _("コトネ"),
 #line 7283
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7284
@@ -19827,7 +19827,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_CARLY] =
     {
 #line 7295
-        .trainerName = _("CARLY"),
+        .trainerName = _("トミコ"),
 #line 7296
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7297
@@ -19863,7 +19863,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_HOPE] =
     {
 #line 7308
-        .trainerName = _("HOPE"),
+        .trainerName = _("アイリ"),
 #line 7309
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7310
@@ -19899,7 +19899,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_PAULA] =
     {
 #line 7321
-        .trainerName = _("PAULA"),
+        .trainerName = _("ヒイナ"),
 #line 7322
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7323
@@ -19935,7 +19935,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_LAUREL] =
     {
 #line 7334
-        .trainerName = _("LAUREL"),
+        .trainerName = _("ソノコ"),
 #line 7335
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7336
@@ -19983,7 +19983,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_JODY] =
     {
 #line 7351
-        .trainerName = _("JODY"),
+        .trainerName = _("サオリ"),
 #line 7352
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7353
@@ -20019,7 +20019,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_TAMMY] =
     {
 #line 7364
-        .trainerName = _("TAMMY"),
+        .trainerName = _("ミコト"),
 #line 7365
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7366
@@ -20055,7 +20055,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_RUTH] =
     {
 #line 7377
-        .trainerName = _("RUTH"),
+        .trainerName = _("ヒトエ"),
 #line 7378
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7379
@@ -20091,7 +20091,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_KARINA] =
     {
 #line 7390
-        .trainerName = _("KARINA"),
+        .trainerName = _("カヨコ"),
 #line 7391
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7392
@@ -20127,7 +20127,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_JANAE] =
     {
 #line 7403
-        .trainerName = _("JANAE"),
+        .trainerName = _("シズル"),
 #line 7404
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7405
@@ -20163,7 +20163,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_ANGELICA] =
     {
 #line 7416
-        .trainerName = _("ANGELICA"),
+        .trainerName = _("ウキエ"),
 #line 7417
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7418
@@ -20223,7 +20223,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_EMILIA] =
     {
 #line 7437
-        .trainerName = _("EMILIA"),
+        .trainerName = _("サワコ"),
 #line 7438
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7439
@@ -20259,7 +20259,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_JENNIFER] =
     {
 #line 7450
-        .trainerName = _("JENNIFER"),
+        .trainerName = _("ヤエコ"),
 #line 7451
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7452
@@ -20295,7 +20295,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_AMANDA] =
     {
 #line 7463
-        .trainerName = _("AMANDA"),
+        .trainerName = _("フミカ"),
 #line 7464
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7465
@@ -20343,7 +20343,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_STACY] =
     {
 #line 7480
-        .trainerName = _("STACY"),
+        .trainerName = _("キリエ"),
 #line 7481
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7482
@@ -20379,7 +20379,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CHANNELER_TASHA] =
     {
 #line 7493
-        .trainerName = _("TASHA"),
+        .trainerName = _("ホタル"),
 #line 7494
         .trainerClass = TRAINER_CLASS_CHANNELER_FRLG,
 #line 7495
@@ -20439,7 +20439,7 @@
     [DIFFICULTY_NORMAL][TRAINER_HIKER_JEREMY] =
     {
 #line 7514
-        .trainerName = _("JEREMY"),
+        .trainerName = _("ナルオ"),
 #line 7515
         .trainerClass = TRAINER_CLASS_HIKER_FRLG,
 #line 7516
@@ -20487,7 +20487,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_ALMA] =
     {
 #line 7531
-        .trainerName = _("ALMA"),
+        .trainerName = _("ワカバ"),
 #line 7532
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7533
@@ -20547,7 +20547,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_SUSIE] =
     {
 #line 7552
-        .trainerName = _("SUSIE"),
+        .trainerName = _("ミサキ"),
 #line 7553
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7554
@@ -20631,7 +20631,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_VALERIE] =
     {
 #line 7581
-        .trainerName = _("VALERIE"),
+        .trainerName = _("ホノカ"),
 #line 7582
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7583
@@ -20679,7 +20679,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_GWEN] =
     {
 #line 7598
-        .trainerName = _("GWEN"),
+        .trainerName = _("ノゾミ"),
 #line 7599
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7600
@@ -20751,7 +20751,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_VIRGIL] =
     {
 #line 7623
-        .trainerName = _("VIRGIL"),
+        .trainerName = _("ユウヤ"),
 #line 7624
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 7625
@@ -20832,7 +20832,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_FLINT] =
     {
 #line 7656
-        .trainerName = _("FLINT"),
+        .trainerName = _("テルオ"),
 #line 7657
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 7658
@@ -20880,7 +20880,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_MISSY] =
     {
 #line 7673
-        .trainerName = _("MISSY"),
+        .trainerName = _("クミコ"),
 #line 7674
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7675
@@ -20928,7 +20928,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_IRENE] =
     {
 #line 7690
-        .trainerName = _("IRENE"),
+        .trainerName = _("ミズキ"),
 #line 7691
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7692
@@ -20988,7 +20988,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_DANA] =
     {
 #line 7711
-        .trainerName = _("DANA"),
+        .trainerName = _("ミユキ"),
 #line 7712
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7713
@@ -21048,7 +21048,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_ARIANA] =
     {
 #line 7732
-        .trainerName = _("ARIANA"),
+        .trainerName = _("カナミ"),
 #line 7733
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7734
@@ -21120,7 +21120,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_LEAH] =
     {
 #line 7757
-        .trainerName = _("LEAH"),
+        .trainerName = _("エミ"),
 #line 7758
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7759
@@ -21168,7 +21168,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CAMPER_JUSTIN] =
     {
 #line 7774
-        .trainerName = _("JUSTIN"),
+        .trainerName = _("マサミチ"),
 #line 7775
         .trainerClass = TRAINER_CLASS_CAMPER_FRLG,
 #line 7776
@@ -21216,7 +21216,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_YAZMIN] =
     {
 #line 7791
-        .trainerName = _("YAZMIN"),
+        .trainerName = _("ユイカ"),
 #line 7792
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7793
@@ -21276,7 +21276,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_KINDRA] =
     {
 #line 7812
-        .trainerName = _("KINDRA"),
+        .trainerName = _("サチコ"),
 #line 7813
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7814
@@ -21336,7 +21336,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_BECKY] =
     {
 #line 7833
-        .trainerName = _("BECKY"),
+        .trainerName = _("アイミ"),
 #line 7834
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7835
@@ -21384,7 +21384,7 @@
     [DIFFICULTY_NORMAL][TRAINER_PICNICKER_CELIA] =
     {
 #line 7850
-        .trainerName = _("CELIA"),
+        .trainerName = _("アキコ"),
 #line 7851
         .trainerClass = TRAINER_CLASS_PICNICKER_FRLG,
 #line 7852
@@ -21420,7 +21420,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GENTLEMAN_BROOKS] =
     {
 #line 7863
-        .trainerName = _("BROOKS"),
+        .trainerName = _("スミス"),
 #line 7864
         .trainerClass = TRAINER_CLASS_GENTLEMAN_FRLG,
 #line 7865
@@ -21456,7 +21456,7 @@
     [DIFFICULTY_NORMAL][TRAINER_GENTLEMAN_LAMAR] =
     {
 #line 7876
-        .trainerName = _("LAMAR"),
+        .trainerName = _("パーカー"),
 #line 7877
         .trainerClass = TRAINER_CLASS_GENTLEMAN_FRLG,
 #line 7878
@@ -21504,7 +21504,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TWINS_ELI_ANNE] =
     {
 #line 7893
-        .trainerName = _("ELI & ANNE"),
+        .trainerName = _("リナとカナ"),
 #line 7894
         .trainerClass = TRAINER_CLASS_TWINS_FRLG,
 #line 7895
@@ -21552,7 +21552,7 @@
     [DIFFICULTY_NORMAL][TRAINER_COOL_COUPLE_RAY_TYRA] =
     {
 #line 7910
-        .trainerName = _("RAY & TYRA"),
+        .trainerName = _("シンとカヨ"),
 #line 7911
         .trainerClass = TRAINER_CLASS_COOL_COUPLE_FRLG,
 #line 7912
@@ -21614,7 +21614,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNG_COUPLE_GIA_JES] =
     {
 #line 7935
-        .trainerName = _("GIA & JES"),
+        .trainerName = _("アユとシゲ"),
 #line 7936
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE_FRLG,
 #line 7937
@@ -21662,7 +21662,7 @@
     [DIFFICULTY_NORMAL][TRAINER_TWINS_KIRI_JAN] =
     {
 #line 7952
-        .trainerName = _("KIRI & JAN"),
+        .trainerName = _("キリとエナ"),
 #line 7953
         .trainerClass = TRAINER_CLASS_TWINS_FRLG,
 #line 7954
@@ -21710,7 +21710,7 @@
     [DIFFICULTY_NORMAL][TRAINER_CRUSH_KIN_RON_MYA] =
     {
 #line 7969
-        .trainerName = _("RON & MYA"),
+        .trainerName = _("テツとチカ"),
 #line 7970
         .trainerClass = TRAINER_CLASS_CRUSH_KIN_FRLG,
 #line 7971
@@ -21762,7 +21762,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNG_COUPLE_LEA_JED] =
     {
 #line 7986
-        .trainerName = _("LEA & JED"),
+        .trainerName = _("カホとジン"),
 #line 7987
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE_FRLG,
 #line 7988
@@ -21810,7 +21810,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SIS_AND_BRO_LIA_LUC] =
     {
 #line 8003
-        .trainerName = _("LIA & LUC"),
+        .trainerName = _("マナとコウ"),
 #line 8004
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO_FRLG,
 #line 8005
@@ -21858,7 +21858,7 @@
     [DIFFICULTY_NORMAL][TRAINER_SIS_AND_BRO_LIL_IAN] =
     {
 #line 8020
-        .trainerName = _("LIL & IAN"),
+        .trainerName = _("チサとカツ"),
 #line 8021
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO_FRLG,
 #line 8022
@@ -21906,7 +21906,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_ANTHONY] =
     {
 #line 8037
-        .trainerName = _("ANTHONY"),
+        .trainerName = _("シュンスケ"),
 #line 8038
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 8039
@@ -21954,7 +21954,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BUG_CATCHER_CHARLIE] =
     {
 #line 8054
-        .trainerName = _("CHARLIE"),
+        .trainerName = _("マナブ"),
 #line 8055
         .trainerClass = TRAINER_CLASS_BUG_CATCHER_FRLG,
 #line 8056
@@ -22014,7 +22014,7 @@
     [DIFFICULTY_NORMAL][TRAINER_YOUNGSTER_JOHNSON] =
     {
 #line 8075
-        .trainerName = _("JOHNSON"),
+        .trainerName = _("ユウリ"),
 #line 8076
         .trainerClass = TRAINER_CLASS_YOUNGSTER_FRLG,
 #line 8077
@@ -22074,7 +22074,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_RICARDO] =
     {
 #line 8096
-        .trainerName = _("RICARDO"),
+        .trainerName = _("ヤスキ"),
 #line 8097
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 8098
@@ -22155,7 +22155,7 @@
     [DIFFICULTY_NORMAL][TRAINER_BIKER_JAREN] =
     {
 #line 8129
-        .trainerName = _("JAREN"),
+        .trainerName = _("リョウ"),
 #line 8130
         .trainerClass = TRAINER_CLASS_BIKER_FRLG,
 #line 8131
@@ -22203,7 +22203,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_LORELEI_2] =
     {
 #line 8146
-        .trainerName = _("LORELEI"),
+        .trainerName = _("カンナ"),
 #line 8147
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 8148
@@ -22328,7 +22328,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_BRUNO_2] =
     {
 #line 8197
-        .trainerName = _("BRUNO"),
+        .trainerName = _("シバ"),
 #line 8198
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 8199
@@ -22453,7 +22453,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_AGATHA_2] =
     {
 #line 8248
-        .trainerName = _("AGATHA"),
+        .trainerName = _("キクコ"),
 #line 8249
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 8250
@@ -22578,7 +22578,7 @@
     [DIFFICULTY_NORMAL][TRAINER_ELITE_FOUR_LANCE_2] =
     {
 #line 8299
-        .trainerName = _("LANCE"),
+        .trainerName = _("ワタル"),
 #line 8300
         .trainerClass = TRAINER_CLASS_ELITE_FOUR_FRLG,
 #line 8301
@@ -23128,6 +23128,246 @@
                 MOVE_AERIAL_ACE,
                 MOVE_EARTHQUAKE,
             },
+            },
+        },
+    },
+#line 8526
+    [DIFFICULTY_NORMAL][TRAINER_KJ_JJ_1] =
+    {
+#line 8527
+        .trainerName = _("ムサシとコジロウ"),
+#line 8528
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
+#line 8529
+        .trainerPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+#line 8530
+        .gender = TRAINER_GENDER_FEMALE,
+#line 8531
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+#line 8532
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
+#line 8533
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 0
+        .trainerBackPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 8535
+            .species = SPECIES_EKANS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8537
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8536
+            .lvl = 14,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8539
+            .species = SPECIES_MEOWTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8541
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8540
+            .lvl = 14,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8543
+            .species = SPECIES_KOFFING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8545
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8544
+            .lvl = 14,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },
+#line 8547
+    [DIFFICULTY_NORMAL][TRAINER_KJ_JJ_2] =
+    {
+#line 8548
+        .trainerName = _("ムサシとコジロウ"),
+#line 8549
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
+#line 8550
+        .trainerPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+#line 8551
+        .gender = TRAINER_GENDER_FEMALE,
+#line 8552
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+#line 8553
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
+#line 8554
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 0
+        .trainerBackPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 8556
+            .species = SPECIES_KOFFING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8558
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8557
+            .lvl = 25,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8560
+            .species = SPECIES_MEOWTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8562
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8561
+            .lvl = 25,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8564
+            .species = SPECIES_EKANS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8566
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8565
+            .lvl = 25,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },
+#line 8568
+    [DIFFICULTY_NORMAL][TRAINER_KJ_JJ_3] =
+    {
+#line 8569
+        .trainerName = _("ムサシとコジロウ"),
+#line 8570
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
+#line 8571
+        .trainerPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+#line 8572
+        .gender = TRAINER_GENDER_FEMALE,
+#line 8573
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+#line 8574
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
+#line 8575
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 0
+        .trainerBackPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 8577
+            .species = SPECIES_MEOWTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8579
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8578
+            .lvl = 27,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8581
+            .species = SPECIES_ARBOK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8583
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8582
+            .lvl = 27,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8585
+            .species = SPECIES_WEEZING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8587
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8586
+            .lvl = 27,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },
+#line 8589
+    [DIFFICULTY_NORMAL][TRAINER_KJ_JJ_4] =
+    {
+#line 8590
+        .trainerName = _("ムサシとコジロウ"),
+#line 8591
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET_FRLG,
+#line 8592
+        .trainerPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+#line 8593
+        .gender = TRAINER_GENDER_FEMALE,
+#line 8594
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+#line 8595
+        .battleType = TRAINER_BATTLE_TYPE_SINGLES,
+#line 8596
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+#line 0
+        .trainerBackPic = TRAINER_PIC_FRONT_KJ_ROCKET_DUO,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 8598
+            .species = SPECIES_WEEZING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8600
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8599
+            .lvl = 31,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8602
+            .species = SPECIES_ARBOK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8604
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8603
+            .lvl = 31,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+#line 8606
+            .species = SPECIES_MEOWTH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 8608
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 8607
+            .lvl = 31,
+            .ball = POKEBALL_COUNT,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
         },
     },
