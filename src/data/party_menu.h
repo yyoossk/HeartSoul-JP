@@ -735,6 +735,7 @@ struct
     [MENU_NICKNAME]        = {COMPOUND_STRING("なまえ"), CursorCb_Nickname},
     [MENU_FORGET_MOVE]     = {COMPOUND_STRING("わすれる"), CursorCb_ForgetMove},
     [MENU_OTHERS]          = {COMPOUND_STRING("そのほか"), CursorCb_Others},
+    [MENU_RELEARN]         = {COMPOUND_STRING("おもいだす"), CursorCb_LearnMovesSubMenu},
 };
 
 static const u8 sPartyMenuAction_SummarySwitchCancel[] = {MENU_SUMMARY, MENU_SWITCH, MENU_CANCEL1};

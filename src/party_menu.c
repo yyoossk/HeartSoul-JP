@@ -124,6 +124,7 @@ enum {
     MENU_NICKNAME,
     MENU_FORGET_MOVE,
     MENU_OTHERS,
+    MENU_RELEARN,
     MENU_FIELD_MOVES
 };
 
@@ -481,6 +482,7 @@ static void CursorCb_ForgetMove(u8);
 static void CursorCb_Others(u8);
 static bool32 CanNicknameFromPartyMenu(struct Pokemon *mon);
 static bool32 CanForgetMoveFromPartyMenu(struct Pokemon *mon);
+static bool32 CanRelearnFromPartyMenu(struct Pokemon *mon);
 static void CursorCb_Switch(u8);
 static void CursorCb_Cancel1(u8);
 static void CursorCb_Item(u8);
@@ -2929,7 +2931,7 @@ static void SetPartyMonSelectionActions(struct Pokemon *mons, u8 slotId, u8 acti
     {
         SetPartyMonFieldSelectionActions(mons, slotId);
     }
-    else if (action == ACTIONS_MOVES_SUB && P_PARTY_MOVE_RELEARNER)
+    else if (action == ACTIONS_MOVES_SUB)
     {
         sPartyMenuInternal->numActions = 0;
         SetPartyMonLearnMoveSelectionActions(mons, slotId);
@@ -2941,6 +2943,8 @@ static void SetPartyMonSelectionActions(struct Pokemon *mons, u8 slotId, u8 acti
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_NICKNAME);
         if (CanForgetMoveFromPartyMenu(&mons[slotId]))
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FORGET_MOVE);
+        if (CanRelearnFromPartyMenu(&mons[slotId]))
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_RELEARN);
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
     }
     else
@@ -2977,7 +2981,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     // (そらをとぶ / フラッシュ are listed first, the others can also be used by pressing A in the field).
     {
         s32 tail = 1
-                 + ((CanNicknameFromPartyMenu(&mons[slotId]) || CanForgetMoveFromPartyMenu(&mons[slotId])) ? 1 : 0)
+                 + ((CanNicknameFromPartyMenu(&mons[slotId]) || CanForgetMoveFromPartyMenu(&mons[slotId]) || CanRelearnFromPartyMenu(&mons[slotId])) ? 1 : 0)
                  + ((slotId == GetFirstLiveMonIndex()) ? 1 : 0)
                  + (!InBattlePike() ? (1 + ((GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE) ? 1 : 0)) : 0);
         s32 room = (s32)ARRAY_COUNT(sPartyMenuInternal->actions) - sPartyMenuInternal->numActions - tail;
@@ -3068,7 +3072,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
 
     // HnS JP: "そのほか" opens なまえ (kit port) / わすれる
     if (sPartyMenuInternal->numActions + 2 <= ARRAY_COUNT(sPartyMenuInternal->actions)
-     && (CanNicknameFromPartyMenu(&mons[slotId]) || CanForgetMoveFromPartyMenu(&mons[slotId])))
+     && (CanNicknameFromPartyMenu(&mons[slotId]) || CanForgetMoveFromPartyMenu(&mons[slotId]) || CanRelearnFromPartyMenu(&mons[slotId])))
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_OTHERS);
 
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
@@ -3262,6 +3266,15 @@ static bool32 CanForgetMoveFromPartyMenu(struct Pokemon *mon)
         && !GetMonData(mon, MON_DATA_IS_EGG)
         && GetMonData(mon, MON_DATA_MOVE2) != MOVE_NONE
         && !InBattlePike() && !InBattlePyramid_();
+}
+
+static bool32 CanRelearnFromPartyMenu(struct Pokemon *mon)
+{
+    return gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD
+        && !GetMonData(mon, MON_DATA_IS_EGG)
+        && GetMonData(mon, MON_DATA_SPECIES) != SPECIES_NONE
+        && !InBattlePike() && !InBattlePyramid_()
+        && CanBoxMonRelearnAnyMove(&mon->box);
 }
 
 static void CursorCb_Others(u8 taskId)
