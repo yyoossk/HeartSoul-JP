@@ -478,6 +478,7 @@ NewBarkTown_Lab_EventScript_ElmLeague::
 
 NewBarkTown_Lab_EventScript_ElmSSTicket::
 	msgbox NewBarkTown_Lab_Text_ElmGiveTicket1, MSGBOX_DEFAULT
+	removeitem ITEM_SS_TICKET
 	giveitem ITEM_SS_TICKET
 	msgbox NewBarkTown_Lab_Text_ElmGiveTicket2, MSGBOX_DEFAULT
 	closemessage
@@ -654,7 +655,15 @@ NewBarkTown_Lab_Text_ShouldntTouch:
 	.string "さわらない　ほうが\nよさそうだ！$"
 
 NewBarkTown_Lab_Text_ElmIntro:
-	.string "ウツギ『{PLAYER}くん！\nまってたよ！\pきみに　たのみが\nあったんだ\pいま　あたらしい　ポケモンの\nけんきゅうを　しているんだけど\l{PLAYER}くんに　てつだって\lもらえないかと　おもってね\pじつは‥\pがっかいで　はっぴょう\nしたい　ろんぶんを\lかいているんだ\pでも　まだ　よく　わからない\nところが　あってね\pそこで！\pさいきん　つかまえた　ポケモンを\nきみに　そだてて　ほしいんだ$"
+	.string "ウツギ『やあ！　きみが\n{PLAYER}くん　だね！\p"
+	.string "オーキドはかせから\nはなしは　きいて　いるよ\p"
+	.string "カントーの　チャンピオンに\nなった　トレーナー　だって！\p"
+	.string "じつは　きみに　たのみが\nあったんだ\p"
+	.string "いま　あたらしい　ポケモンの\nけんきゅうを　しているんだけど\l{PLAYER}くんに　てつだって\lもらえないかと　おもってね\p"
+	.string "がっかいで　はっぴょう\nしたい　ろんぶんを\lかいているんだ\p"
+	.string "でも　まだ　よく　わからない\nところが　あってね\p"
+	.string "そこで！\p"
+	.string "さいきん　つかまえた　ポケモンを\nきみに　そだてて　ほしいんだ$"
 
 NewBarkTown_Lab_Text_ElmAccepted:
 	.string "ありがとう　{PLAYER}くん！\nほんとうに　たすかるよ！$"
@@ -672,7 +681,9 @@ NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 	.string "ねえ　きいてよ\pわたしの　しりあいに\nポケモンじいさんって　ひとが\lいるんだけど\pへんな　ものを　みつけては\nだいはっけんだと\lさわいでるんだ\pその　ひとから　こんどこそ\nほんものだって　メールが\lきたんだ\pきに　なるけど\nポケモンの　けんきゅうで\lいそがしいし‥\pそうだ！\nいい　ことを　おもいついた！\p{PLAYER}くん　かわりに\nいって　くれないかい？$"
 
 NewBarkTown_Lab_Text_ElmChooseAPokemon:
-	.string "この　ボールの　なかの　ポケモンを\n1ぴき　そだてて　ほしいんだ\p{PLAYER}くんが　その　ポケモンの\nさいしょの　パートナーさ！\pさあ　えらんで！$"
+	.string "この　ボールの　なかの　ポケモンを\n1ぴき　そだてて　ほしいんだ\p"
+	.string "{PLAYER}くんの　ジョウトでの\nあたらしい　パートナーさ！\p"
+	.string "さあ　えらんで！$"
 
 NewBarkTown_Lab_Text_ElmWhereGoing:
 	.string "ウツギ『まって！　どこへ\nいくんだい？$"
@@ -735,7 +746,15 @@ NewBarkTown_Lab_Text_ElmAfterTheft3:
 	.string "ウツギ『これ？$"
 
 NewBarkTown_Lab_Text_ElmAfterTheft4:
-	.string "でも‥　これって　ポケモンの\nタマゴかな？\pもし　そうなら\nだいはっけんだ！\pウツギ『なに！？\pオーキドはかせが　きみに\nポケモンずかんを　くれた！？\p{PLAYER}くん　ほんとうかい？\nす‥　すごいじゃないか！\pはかせは　トレーナーの　さいのうを\nみぬく　めが　すばらしいんだ\pすごいよ　{PLAYER}くん　きみは\nチャンピオンに　なれる\lかも　しれないね\pポケモンとも　なかよく\nやれてる　みたいだし\pポケモンジムに　ちょうせん\nしてみると　いい\pいちばん　ちかい　ジムは\nキキョウシティだよ\p‥{PLAYER}くん　チャンピオンへの\nみちは　ながいよ\pでかける　まえに　ママに\nちゃんと　はなして　おいてね$"
+	.string "でも‥　これって　ポケモンの\nタマゴかな？\p"
+	.string "もし　そうなら\nだいはっけんだ！\p"
+	.string "ウツギ『なに！？\p"
+	.string "オーキドはかせが　きみの\nポケモンずかんを　ジョウトでも\lつかえる　ように　してくれた！？\p"
+	.string "さすが　オーキドはかせだ！\p"
+	.string "カントーの　チャンピオンの\nきみなら　ジョウトの　ジムも\lきっと　のりこえられるよ\p"
+	.string "いちばん　ちかい　ジムは\nキキョウシティだよ\p"
+	.string "‥{PLAYER}くん　ジョウトの\nたびも　ながいよ\p"
+	.string "マサラタウンの　おかあさんにも\nちゃんと　れんらく　しておいてね$"
 
 NewBarkTown_Lab_Text_ElmStudyingEgg:
 	.string "ウツギ『あきらめないで！\nタマゴの　ことが　わかったら\lでんわ　するよ！$"
@@ -783,14 +802,28 @@ NewBarkTown_Lab_Text_KimonoWaiting:
 	.string "ウツギ『まいこはんたちが\nエンジュの　かぶれんじょうで\lまっているよ$"
 
 NewBarkTown_Lab_Text_League:
-	.string "ウツギ『あはは‥\nよく　やったね！\pあの　めずらしい　タマゴの\nせいで　いろいろ　たいへん\lだったね？\pまいこはんたちが　わたしの\nことを　なにか　いってた？\pわたしは　なにも\nしていないよ\pきみが　じぶんで　きめて\nやりとげたんだ\pここまで　やったなら\nもう　リーグに　ちょうせん\lできるはずだ！\pセキエイこうげんを\nめざすと　いい！\pいきかたは　わかるかい？\n27ばんどうろから　26ばんどうろへ\pそこから　まっすぐ　きただよ！$"
+	.string "ウツギ『あはは‥\nよく　やったね！\p"
+	.string "あの　めずらしい　タマゴの\nせいで　いろいろ　たいへん\lだったね？\p"
+	.string "まいこはんたちが　わたしの\nことを　なにか　いってた？\p"
+	.string "わたしは　なにも\nしていないよ\p"
+	.string "きみが　じぶんで　きめて\nやりとげたんだ\p"
+	.string "ここまで　やったなら\nジョウトの　ポケモンリーグにも\lちょうせん　できるはずだ！\p"
+	.string "3ねん　まえとは　ちがう\nしてんのうが　セキエイこうげんで\lまって　いるよ！\p"
+	.string "いきかたは　わかるかい？\n27ばんどうろから　26ばんどうろへ\p"
+	.string "そこから　まっすぐ　きただよ！$"
 
 
 NewBarkTown_Lab_Text_ElmGiveTicket1:
-	.string "ウツギ『{PLAYER}くん！\nまってたよ！\pわたしたい　ものが　あって\nでんわ　したんだ\pほら　ふねのチケットだよ\pこれで　カントーでも\nポケモンが　つかまえられるね$"
+	.string "ウツギ『{PLAYER}くん！\nまってたよ！\p"
+	.string "ジョウトの　チャンピオン\nおめでとう！\p"
+	.string "おいわいに　わたしたい\nものが　あって　でんわ　したんだ\p"
+	.string "ほら　ふねのチケットだよ\p"
+	.string "これで　いつでも\nカントーに　かえれるね$"
 
 NewBarkTown_Lab_Text_ElmGiveTicket2:
-	.string "ふねは　アサギシティから\nでているよ\pでも　{PLAYER}くんは\nもう　しってるよね\pなにしろ　ポケモンと\nいろんな　ところを\lたびして　きたんだから\pカントーの　オーキドはかせに\nよろしく　つたえてね！$"
+	.string "ふねは　アサギシティから\nでているよ\p"
+	.string "3ねんぶりの　カントーは\nきっと　すこし　かわって　いるよ\p"
+	.string "マサラタウンの　おかあさんと\nオーキドはかせに\lよろしく　つたえてね！$"
 
 NewBarkTown_Lab_Text_LabMonEgg:
 	.string "ウツギはかせが　しらべている\nポケモンの　タマゴだ$"
@@ -811,7 +844,8 @@ NewBarkTown_Lab_Text_AideGiveBalls:
 	.string "{PLAYER}くん！\pずかんづくりに\nこれを　つかって！$"
 
 NewBarkTown_Lab_Text_AideExplainBalls:
-	.string "ずかんに　とうろく　するには\nポケモンを　つかまえなきゃ\pやせいの　ポケモンに\nモンスターボールを　なげて\lつかまえよう$"
+	.string "{PLAYER}くんには\nいうまでも　ないけど\p"
+	.string "ジョウトの　ポケモンも\nどんどん　つかまえて\lずかんに　とうろく　してね！$"
 
 NewBarkTown_Lab_Text_Officer1:
 	.string "ここで　ポケモンが\nぬすまれたと　きいてね‥\pいま　ウツギはかせから\nはなしを　きいて　いたんだ\pどうやら　あかい　かみの\nわかい　おとこ　らしい‥\pなに？\pそんな　トレーナーと\nしょうぶ　したって？\pなまえは　わかるかい？$"

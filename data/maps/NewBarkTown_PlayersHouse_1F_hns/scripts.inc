@@ -52,7 +52,7 @@ NewBarkTown_PlayersHouse_1F_EventScript_Mom_Regular::
 	playbgm MUS_HG_FOLLOW_ME_1, FALSE
 	specialvar VAR_RESULT, IsPokecenterChallengeActivated
 	goto_if_eq VAR_RESULT, TRUE, NewBarkTown_PlayersHouse_1F_EventScript_Mom_PokecenterChallenge
-	msgbox PlayersHouse_1F_Text_YouShouldRestABit, MSGBOX_DEFAULT
+	msgbox NewBarkTown_PlayersHouse_1F_Text_KjMomRest, MSGBOX_DEFAULT
 	closemessage
 	call Common_EventScript_OutOfCenterPartyHeal
 	incrementgamestat GAME_STAT_RESTED_AT_HOME
@@ -178,16 +178,16 @@ NewBarkTown_PlayersHouse_1F_Text_Goodbye:
 	.string "きをつけてね！$"
 
 NewBarkTown_PlayersHouse_1F_Text_DepositSuccess:
-	.string "ママ『いいわよ！\nちょきん　しておくわね$"
+	.string "いいわよ！\nちょきん　しておくわね$"
 
 NewBarkTown_PlayersHouse_1F_Text_WithdrawSuccess:
-	.string "ママ『はい　どうぞ！$"
+	.string "はい　どうぞ！$"
 
 NewBarkTown_PlayersHouse_1F_Text_NoMoneyToDeposit:
-	.string "ママ『いまは　ちょきん　できる\nおかねが　ないみたいね$"
+	.string "いまは　ちょきん　できる\nおかねが　ないみたいね$"
 
 NewBarkTown_PlayersHouse_1F_Text_NoMoneyToWithdraw:
-	.string "ママ『まだ　ちょきんは\nないわよ$"
+	.string "まだ　ちょきんは\nないわよ$"
 
 NewBarkTown_PlayersHouse_1F_EventScript_MomsIntroTrigger1::
 	lock
@@ -245,6 +245,7 @@ NewBarkTown_PlayersHouse_1F_EventScript_GivePokeGear::
 	return
 	
 NewBarkTown_PlayersHouse_1F_EventScript_GiveRunningShoes::
+	goto_if_set FLAG_SYS_B_DASH, NewBarkTown_PlayersHouse_1F_EventScript_KjReturn
 	msgbox NewBarkTown_PlayersHouse_1F_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
 	waitmessage
 	closemessage
@@ -295,13 +296,20 @@ NewBarkTown_PlayersHouse_1F_MovementFaceLeft:
 	step_end
 
 NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
-	.string "あら　{PLAYER}‥！　となりの\nウツギはかせが　あなたを\lさがしてたわよ\pなにか　たのみたい\nことが　あるんだって\pそうそう　わすれる　ところだった！\nポケギアが　しゅうりから\lもどって　きたわよ\pはい　どうぞ！$"
+	.string "あら　{PLAYER}くん　おはよう！\nよく　ねむれた？\p"
+	.string "わたしは　ヒビキの　ははです\nきのうは　ふねの　たびで\lつかれて　いたものね\p"
+	.string "ヒビキは　いま　たびに　でてて\nるすだから　あのこの　へやを\lつかって　ちょうだいね\p"
+	.string "そうそう　となりの　ウツギはかせが\nあなたを　まってるわよ\p"
+	.string "それと　これ！\nヒビキの　おさがり　だけど\lポケギアよ\p"
+	.string "ジョウトを　たびするなら\nきっと　やくに　たつわ\pはい　どうぞ！$"
 
 NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear:
 	.string "{PLAYER}は\nポケギアを　てにいれた$"
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainPokeGear:
-	.string "ママ『でんわばんごうは\nメモリーに　はいってるの\pかけたい　ひとの　なまえを\nえらぶだけ　ママの　ばんごうは\lもう　いれて　あるわよ\pべんりな　じだいに\nなったわよね？$"
+	.string "ヒビキのママ『でんわばんごうは\nメモリーに　はいってるの\p"
+	.string "かけたい　ひとの　なまえを\nえらぶだけ　わたしの　ばんごうも\lいれて　おいたわよ\p"
+	.string "こまった　ときは\nいつでも　でんわしてね！$"
 
 NewBarkTown_PlayersHouse_1F_Text_WearTheseRunningShoes:
 	.string "それと　ランニングシューズも\nわすれないでね！$"
@@ -310,13 +318,28 @@ NewBarkTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes:
 	.string "{PLAYER}は　ランニングシューズに\nはきかえた$"
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes:
-	.string "ママ『{PLAYER}　これを　はいて\nBボタンを　おすと\lはやく　はしれるわよ！$"
+	.string "ヒビキのママ『{PLAYER}くん　これを\nはいて　Bボタンを　おすと\lはやく　はしれるわよ！$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting:
-	.string "ママ『ウツギはかせが　まってるわよ\pはやく　いきなさい！$"
+	.string "ヒビキのママ『ウツギはかせが\nまってるわよ\p"
+	.string "けんきゅうじょは\nすぐ　となりよ！$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
-	.string "こんにちは　{PLAYER}くん！\pおじゃま　してるわよ\pきいた？\pうちの　むすめ　どうしても\nウツギはかせの　じょしゅに\lなりたいって　いうの\pほんとうに　ポケモンが\nすきなのね！$"
+	.string "こんにちは　{PLAYER}くん！\p"
+	.string "わたしは　となりの　いえの　もの\nヒビキくんの　おかあさんと\lおしゃべり　しに　きているの\p"
+	.string "きいた？\nうちの　むすめ　どうしても\lウツギはかせの　じょしゅに\lなりたいって　いうの\p"
+	.string "ほんとうに　ポケモンが\nすきなのね！$"
 
 NewBarkTown_PlayersHouse_1F_Text_MomLeaving:
-	.string "ママ『まあ　かわいい　ポケモン\nどこで　もらったの？\p‥\pそう　ぼうけんに　でるのね‥\nたいへん　そうだけど‥\pきを　つけてね\pポケモンは　ともだちよ\nちからを　あわせなきゃ　だめよ\pさあ　いってらっしゃい！\nママは　ずっと　おうえん\lしてるからね！$"
+	.string "ヒビキのママ『まあ　かわいい　ポケモン！\nウツギはかせに　もらったの？\p‥\p"
+	.string "そう　ジョウトを　たびするのね\p"
+	.string "うちの　ヒビキも\n{PLAYER}くんと　おなじ　ころに\lたびに　でたのよ\p"
+	.string "もし　どこかで　あったら\nよろしくね！\p"
+	.string "さあ　いってらっしゃい！\nいつでも　やすみに　きてね！$"
+
+NewBarkTown_PlayersHouse_1F_Text_KjMomRest:
+	.string "ヒビキのママ『あら　{PLAYER}くん！\nおかえりなさい\p"
+	.string "つかれたでしょう？\nすこし　やすんで　いって！$"
+
+NewBarkTown_PlayersHouse_1F_EventScript_KjReturn::
+	return

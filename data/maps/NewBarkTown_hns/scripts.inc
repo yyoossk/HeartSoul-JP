@@ -234,22 +234,26 @@ NewBarkTown_Text_Wooper:
 	.string "ウパー『ウパーッ$"
 
 NewBarkTown_Text_FatManState2:
-	.string "わあ　すごい　ポケギアだね！\nママに　かってもらったの？$"
+	.string "あれ？　その　ポケギア\nヒビキの　じゃない？$"
 
 NewBarkTown_Text_FatManState3:
 	.string "よう　{PLAYER}！\pウツギはかせが　あたらしい\nポケモンを　はっけん　したらしいよ$"
 
 NewBarkTown_Text_LassState2:
-	.string "まって　{PLAYER}！\pポケモンを　もたずに　でかけたら\nあぶないわよ！\pとなりまちへの　みちの　くさむら\nからは　やせいの　ポケモンが\lとびだしてくるの$"
+	.string "まって　{PLAYER}くん！\p"
+	.string "ウツギはかせが　あなたを\nまってるわよ\p"
+	.string "でかける　まえに　けんきゅうじょに\nよって　いってね！$"
 
 NewBarkTown_Text_LassState3:
 	.string "まあ！　かわいい　ポケモンね！\nわたしも　ほしいなあ！$"
 
 NewBarkTown_Text_LassState4:
-	.string "あら　{PLAYER}！　また　おでかけ？\pでかける　ときは　ママに\nいってから　いきなさいね$"
+	.string "あら　{PLAYER}くん！　また　おでかけ？\p"
+	.string "でかける　ときは\nヒビキの　おかあさんに\lあいさつ　して　いきなさいね$"
 
 NewBarkTown_Text_LassState5:
-	.string "ポケギアで　ママに　でんわして\nげんきだって　しらせて　あげてね\p"
+	.string "ヒビキの　おかあさん\nさみしがってたわよ\p"
+	.string "ときどき　かおを　みせて\nあげてね$"
 
 NewBarkTown_Text_Silver1:
 	.string "‥‥‥\pここが　うわさの\nウツギ　ポケモンけんきゅうじょか‥$"
@@ -269,7 +273,7 @@ NewBarkTown_EventScript_ElmsHouseMailbox::
 	end
 
 NewBarkTown_Text_PlayersHouse:
-	.string "{PLAYER}の　いえ$"
+	.string "ヒビキの　いえ$"
 
 NewBarkTown_Text_ElmsHouse:
 	.string "ウツギはかせの　いえ$"
