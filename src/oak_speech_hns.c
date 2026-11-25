@@ -54,6 +54,15 @@ static u8 sHnsSpeechMainTaskId;
 
 // Static function declarations
 static void Task_NewGameHnsSpeech_Init(u8);
+static void Task_Kj_AskRivalName(u8);
+static void Task_Kj_WaitRivalIntro(u8);
+static void Task_Kj_StartRivalNaming(u8);
+static void Task_Kj_RivalNameSaid(u8);
+static void Task_Kj_WaitRivalNameSaid(u8);
+static EWRAM_DATA bool8 sKjNamingRival = FALSE;
+static const u8 sText_Kj_DefaultRival[] = _("シゲル");
+static const u8 sText_Kj_RivalIntro[] = _("ところで　わしの　まごも\nきみと　おなじ　としでな\pきみとは　ちいさい　ころからの\nライバル　なのじゃが……\pえーと……　なまえは\nなんと　いったかのう？$");
+static const u8 sText_Kj_RivalNameSaid[] = _("そうじゃ　そうじゃ！\nおもいだしたぞ！\p{RIVAL}と　いう　なまえじゃった！$");
 static void AddHnsSpeechObjects(u8);
 static void Task_NewGameHnsSpeech_WaitToShowProfessor(u8);
 static void NewGameHnsSpeech_StartFadeInTarget1OutTarget2(u8, u8);
@@ -206,7 +215,7 @@ static const struct MenuAction sMenuActions_Gender[] = {
 };
 
 static const u8 *const sMalePresetNames[] = {
-    COMPOUND_STRING("ゴールド"),
+    COMPOUND_STRING("サトシ"), // カントー＆ジョウト
 };
 
 static const u8 *const sFemalePresetNames[] = {
@@ -712,7 +721,7 @@ static void Task_NewGameHnsSpeech_ProcessNameYesNoMenu(u8 taskId)
     {
     case 0:
         PlaySE(SE_SELECT);
-        gTasks[taskId].func = Task_NewGameHnsSpeech_ChallengeDisclaimer;
+        gTasks[taskId].func = Task_Kj_AskRivalName; // カントー＆ジョウト: つぎに ライバルの なまえ
         break;
     case MENU_B_PRESSED:
     case 1:
@@ -1321,8 +1330,61 @@ static void Task_NewGameHnsSpeech_ReturnFromNamingScreenShowTextbox(u8 taskId)
     if (gTasks[taskId].tTimer-- <= 0)
     {
         DrawDialogFrameWithCustomTile(0, TRUE, HNS_DLG_BASE_TILE_NUM);
-        gTasks[taskId].func = Task_NewGameHnsSpeech_SoItsPlayerName;
+        if (sKjNamingRival)
+        {
+            sKjNamingRival = FALSE;
+            gTasks[taskId].func = Task_Kj_RivalNameSaid;
+        }
+        else
+        {
+            gTasks[taskId].func = Task_NewGameHnsSpeech_SoItsPlayerName;
+        }
     }
+}
+
+// カントー＆ジョウト: カントーのライバル（シゲル）の なまえを きめる
+static void Task_Kj_AskRivalName(u8 taskId)
+{
+    FillWindowPixelBuffer(0, PIXEL_FILL(GetFontAttribute(FONT_NORMAL, FONTATTR_COLOR_BACKGROUND)));
+    StringExpandPlaceholders(gStringVar4, sText_Kj_RivalIntro);
+    AddTextPrinterForMessage(TRUE);
+    gTasks[taskId].func = Task_Kj_WaitRivalIntro;
+}
+
+static void Task_Kj_WaitRivalIntro(u8 taskId)
+{
+    if (!RunTextPrintersAndIsPrinter0Active())
+    {
+        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        gTasks[taskId].func = Task_Kj_StartRivalNaming;
+    }
+}
+
+static void Task_Kj_StartRivalNaming(u8 taskId)
+{
+    if (!gPaletteFade.active)
+    {
+        FreeAllWindowBuffers();
+        FreeAndDestroyMonPicSprite(gTasks[taskId].data[5]); // tMonSpriteId
+        StringCopy(gSaveBlock1Ptr->kjKantoRivalName, sText_Kj_DefaultRival);
+        sKjNamingRival = TRUE;
+        DestroyTask(taskId);
+        DoNamingScreen(NAMING_SCREEN_RIVAL, gSaveBlock1Ptr->kjKantoRivalName, 1, 0, 0, 0, CB2_NewGameHnsSpeech_ReturnFromNamingScreen);
+    }
+}
+
+static void Task_Kj_RivalNameSaid(u8 taskId)
+{
+    FillWindowPixelBuffer(0, PIXEL_FILL(GetFontAttribute(FONT_NORMAL, FONTATTR_COLOR_BACKGROUND)));
+    StringExpandPlaceholders(gStringVar4, sText_Kj_RivalNameSaid);
+    AddTextPrinterForMessage(TRUE);
+    gTasks[taskId].func = Task_Kj_WaitRivalNameSaid;
+}
+
+static void Task_Kj_WaitRivalNameSaid(u8 taskId)
+{
+    if (!RunTextPrintersAndIsPrinter0Active())
+        gTasks[taskId].func = Task_NewGameHnsSpeech_ChallengeDisclaimer;
 }
 
 static void LoadMainMenuWindowFrameTiles(u8 bgId, u16 tileOffset)

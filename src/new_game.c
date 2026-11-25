@@ -219,7 +219,7 @@ static const u8 gText_KjDefaultKantoRival[] = _("シゲル");
 
 void NewGameInitData(void)
 {
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
     u8 rivalName[PLAYER_NAME_LENGTH + 1];
 #endif
     struct ChallengeSettings savedChallenge = gSaveBlock3Ptr->challengeSettings;
@@ -228,6 +228,8 @@ void NewGameInitData(void)
 
 #if IS_FRLG
     StringCopy(rivalName, gSaveBlock1Ptr->rivalName);
+#elif IS_HNS
+    StringCopy(rivalName, gSaveBlock1Ptr->kjKantoRivalName); // カントー＆ジョウト: オープニングで決めた名前
 #endif
     gDifferentSaveFile = TRUE;
     gSaveBlock2Ptr->encryptionKey = 0;
@@ -309,7 +311,9 @@ void NewGameInitData(void)
         FlagSet(FLAG_EVEN_FASTER_JOY);
 
 #if IS_HNS
-    StringCopy(gSaveBlock1Ptr->kjKantoRivalName, gText_KjDefaultKantoRival);
+    if (rivalName[0] == EOS || rivalName[0] == 0)
+        StringCopy(rivalName, gText_KjDefaultKantoRival);
+    StringCopy(gSaveBlock1Ptr->kjKantoRivalName, rivalName);
     StringCopy(gSaveBlock2Ptr->rivalName, gText_ExpandedPlaceholder_Silver);
     InitMomSavings();
 #endif

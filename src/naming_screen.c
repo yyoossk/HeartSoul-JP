@@ -1619,6 +1619,13 @@ static void NamingScreen_CreateRivalIcon(void)
     u8 spriteId;
 
 #if IS_HNS
+    if (sNamingScreen->monSpecies == 1) // カントー＆ジョウト: カントーのライバル（オープニング）
+    {
+        spriteId = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_BLUE, SpriteCallbackDummy, 56, 37, 0);
+        gSprites[spriteId].oam.priority = 3;
+        StartSpriteAnim(&gSprites[spriteId], ANIM_STD_GO_SOUTH);
+        return;
+    }
     CopyObjectGraphicsInfoToSpriteTemplate(OBJ_EVENT_GFX_GOLD_NORMAL_HNS, SpriteCallbackDummy, &template, &tables_p);
 #else
     CopyObjectGraphicsInfoToSpriteTemplate(OBJ_EVENT_GFX_RED_NORMAL, SpriteCallbackDummy, &template, &tables_p);
@@ -2424,7 +2431,7 @@ void NameRival(void)
 // Initial pages below are pointless, they're overwritten with KBPAGE_LETTERS_UPPER in MainState_FadeIn()
 static const struct NamingScreenTemplate sPlayerNamingScreenTemplate =
 {
-    .copyExistingString = FALSE,
+    .copyExistingString = TRUE,
     .maxChars = PLAYER_NAME_LENGTH,
     .iconFunction = 1,
     .addGenderIcon = FALSE,
@@ -2479,7 +2486,7 @@ static const struct NamingScreenTemplate sCodeScreenTemplate =
 
 static const struct NamingScreenTemplate sRivalNamingScreenTemplate =
 {
-    .copyExistingString = FALSE,
+    .copyExistingString = TRUE,
     .maxChars = PLAYER_NAME_LENGTH,
     .iconFunction = 6,
     .addGenderIcon = FALSE,
