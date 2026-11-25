@@ -352,8 +352,7 @@ CinnabarIsland_EventScript_GymSign_Kj::
 	end
 
 CinnabarIsland_Text_DoorIsLocked::
-	.string "　ぉぉぬくア　　ヒいた\n"
-	.string "ハコにえィく　におィう　ゆモあそ　デぉぬくけえフいそ　Iぉぬくけいいそ　zぉぬくけういそ　すゃぬくけういノにえィく　におィ　　ゆモあそ　ほゃぬくけえヒいドアには\n"
+	.string "ドアには\n"
 	.string "カギが　かかって　いた…！$"
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::

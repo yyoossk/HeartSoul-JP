@@ -410,7 +410,7 @@ CeruleanCity_Text_GruntIntro::
 	.string "……　……　え　おれ？\p"
 	.string "……　ただの　とおり　すがりだ\n"
 	.string "ぜーんぜん　あやしくないよ！\l"
-	.string "……　……　あやしい？{0xFC}{0x0B}{0x1B}{0x01}$"
+	.string "……　……　あやしい？{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}$"
 
 CeruleanCity_Text_GruntDefeat::
 	.string "だんいん“ひょえー　まいった！\n"

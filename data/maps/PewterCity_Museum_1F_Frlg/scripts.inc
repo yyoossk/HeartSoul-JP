@@ -189,12 +189,7 @@ PewterCity_Museum_1F_EventScript_KabutopsFossil::
 	end
 
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
-	.string "　けÜぬくア　　ヒいた\n"
-	.string "ててひり\n"
-	.string "てひり\n"
-	.string "ひり\n"
-	.string "そ　göぬくけいいそ　aäぬくけいいハコろセいかあレÜぬくそ　\l"
-	.string "äぬくけえばツああ　むすィ　　かあミÜぬくるセいウえ　でツああ　そ　０öぬくは　ィツあはあィあ　はいィずあけけフいそ　Uöぬくけえフいそ　Aöぬくけえフいそ　せüぬくけいいノにえィズ　におィこ　にかィう　ゆゴあそ　ろüぬくけえゆザあヒいノにえィジ　におィこ　にかィう　ゆゴあそ　づüぬくけえゆザあヒいはいはい　こどもは　\n"
+	.string "はいはい　こどもは\n"
 	.string "けんがくりょう　５０えん　です\p"
 	.string "けんがく　しますか？$"
 

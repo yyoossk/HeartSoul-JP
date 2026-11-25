@@ -79,7 +79,7 @@ CeruleanCity_Gym_Text_MistyIntro::
 	.string "なにを　かんがえてる？\p"
 	.string "わたしの　ポリシーはね…\p"
 	.string "みず　タイプ　ポケモンで　せめて\n"
-	.string "せめて　…せめまくる　ことよ！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "せめて　…せめまくる　ことよ！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
 	.string "わざマシン０３は　みずのはどうを\n"

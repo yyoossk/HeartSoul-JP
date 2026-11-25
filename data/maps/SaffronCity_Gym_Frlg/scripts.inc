@@ -104,7 +104,7 @@ SaffronCity_Gym_Text_SabrinaIntro_Kj::
 	.string "たたかうの　すき　じゃない　けど\n"
 	.string "あなたが　のぞむ　なら\l"
 	.string "わたしの　ちから\l"
-	.string "みせて　あげる！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "みせて　あげる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
 	.string "まける　なんて…！\n"

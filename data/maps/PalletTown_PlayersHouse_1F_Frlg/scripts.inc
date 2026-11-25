@@ -54,8 +54,7 @@ PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale::
 	return
 
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
-	.string "　ハコろクいかあ{0xFC}{0xBC}ぬくッむすィ　　きあvBぬくむすィあ　きあÜBぬくネぽあ　ゼぱのくア　　フいそ　オCぬくけえうそ　７Cぬくけえうそ　\n"
-	.string "CぬくけえネえÖでのくそ　ゆDぬくけえフいノむしィい　かあれCぬくそ　UDぬくけえヒいッむすィ　　きあづCぬくむすィあ　きあぴCぬくヒいそ　セDぬくけえうそ　ブDぬくけえうおかあさん“…　そうね\n"
+	.string "おかあさん“…　そうね\n"
 	.string "おとこのこは　いつか\l"
 	.string "たびに　でるもの　なのよ\l"
 	.string "うん…　テレビの　はなしよ！\p"

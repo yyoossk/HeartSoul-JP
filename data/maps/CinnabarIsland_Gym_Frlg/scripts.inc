@@ -717,7 +717,7 @@ CinnabarIsland_Gym_Text_BlaineIntro::
 	.string "ほのおで　やいて　こがしまくる\l"
 	.string "つわもの　ばかり　なのだー！\p"
 	.string "うおおーす！\n"
-	.string "やけどなおしの　よういは　いいか！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "やけどなおしの　よういは　いいか！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
 	.string "わしは　もえつきた！\p"

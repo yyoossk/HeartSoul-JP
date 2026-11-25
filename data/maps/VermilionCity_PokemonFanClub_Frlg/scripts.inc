@@ -119,7 +119,7 @@ VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 	end
 
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
-	.string "いグらはくえYよはくあへらはくうボよはく　えグるはくいえダろはくいえJわはくい　ハコろだいかあゆらねくそ　öりねくけおむすィあ　かあぁらねくそ　ちろねくけえフいそ　んろねくけえフいそ　ニるねくけえばタああ　むすィ　　かあミらねくるだいでタああ　そ　ニれねくは　ィタあはあィあ　はいィずあけけそ　ィれねくけえフいそ　ヒろねくけえフいハコろわくかあゼらねくそ　ルろねくけえフいにえィあ　におィあ　ゆモあそ　Xろねくけえフいハコろう　かあOらねくそ　ドりねくけえネぽお　ゼぱのくア　　るい　フいそ　／りねくけえネぽお　ゼぱのくア　　れう　フいハコろい　かあえりねくそ　エりねくけえネぽか　ゼぱのくア　　るう　フいそ　ムりねくけえネぽか　ゼぱのくア　　れい　フいハコぃ０の　　　そ　iりねくけえKフいハコぃ０カ　　　そ　xりねくけえKフいそ　ドろねくけういそ　♀ろねくけういみてよ！　うちの　ピカチュウ\n"
+	.string "みてよ！　うちの　ピカチュウ\n"
 	.string "なんて　かわいい　しっぽ！$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::

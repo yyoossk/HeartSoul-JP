@@ -100,7 +100,7 @@ PokemonLeague_AgathasRoom_Text_Intro::
 	.string "ポケモンは　たたかわせる　ものさ\p"
 	.string "{PLAYER}…！　あんたにも\n"
 	.string "ホントの　たたかいって　ものを\l"
-	.string "おしえて　やる！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "おしえて　やる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_AgathasRoom_Text_RematchIntro::
 	.string "あたしは　してんのうの　キクコ！\p"
@@ -114,7 +114,7 @@ PokemonLeague_AgathasRoom_Text_RematchIntro::
 	.string "ポケモンは　たたかわせる　ものさ\p"
 	.string "{PLAYER}…！　あんたにも\n"
 	.string "ホントの　たたかいって　ものを\l"
-	.string "おしえて　やる！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "おしえて　やる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_AgathasRoom_Text_Defeat::
 	.string "ほっほう！\n"

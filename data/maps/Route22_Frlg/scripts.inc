@@ -234,8 +234,7 @@ Route22_EventScript_LeagueGateSign::
 	end
 
 Route22_Text_EarlyRivalIntro::
-	.string "　ペジぬくア　　うシう‘あ　　ソゾぬくうシう’あ　　ソゾぬくうシう♂あ　　ソゾぬくうつつつつつつつ\n"
-	.string "そ　ばダぬくけうい{RIVAL}“あーッ！　{PLAYER}！\p"
+	.string "{RIVAL}“あーッ！　{PLAYER}！\p"
 	.string "ポケモン　リーグに　いくのか？\n"
 	.string "やめとけ！\p"
 	.string "おまえ　どうせ\n"

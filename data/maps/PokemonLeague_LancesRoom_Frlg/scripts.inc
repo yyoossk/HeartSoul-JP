@@ -179,7 +179,7 @@ PokemonLeague_LancesRoom_Text_Intro::
 	.string "そろそろ　はじめよう！\p"
 	.string "それとも　いまから\n"
 	.string "シッポ　まいて　かえるかい！\l"
-	.string "{PLAYER}！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "{PLAYER}！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LancesRoom_Text_RematchIntro::
 	.string "そうか！\n"
@@ -197,7 +197,7 @@ PokemonLeague_LancesRoom_Text_RematchIntro::
 	.string "そろそろ　はじめよう！\p"
 	.string "それとも　いまから\n"
 	.string "シッポ　まいて　かえるかい！\l"
-	.string "{PLAYER}！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "{PLAYER}！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LancesRoom_Text_Defeat::
 	.string "うう…！\p"

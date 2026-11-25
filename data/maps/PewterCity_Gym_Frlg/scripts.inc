@@ -94,7 +94,7 @@ PewterCity_Gym_Text_BrockIntro::
 	.string "まけると　わかってて　たたかうか！\l"
 	.string "ポケモン　トレーナーの　さがだな\l"
 	.string "いいだろう！\l"
-	.string "かかって　こい！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "かかって　こい！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PewterCity_Gym_Text_BrockDefeat::
 	.string "きみを\n"
@@ -103,7 +103,7 @@ PewterCity_Gym_Text_BrockDefeat::
 	.string "ポケモン　リーグ　こうにん\l"
 	.string "グレー　バッジを　さずけよう！\p"
 	.string "{PLAYER}は　タケシから\n"
-	.string "グレー　バッジを　もらった！{0xFC}{0x17}{0xFC}{0x0B}{0x04}{0x01}{0xFC}{0x08}{0xFE}{0xFC}{0x08}{0x56}{0xFC}{0x18}\p"
+	.string "グレー　バッジを　もらった！{0xFC}{0x17}{PLAY_BGM}{MUS_OBTAIN_BADGE}{0xFC}{0x08}{0xFE}{0xFC}{0x08}{0x56}{0xFC}{0x18}\p"
 	.string "グレー　バッジを　つけてると\n"
 	.string "それだけで\l"
 	.string "きみの　ポケモンは　つよくなる！\p"

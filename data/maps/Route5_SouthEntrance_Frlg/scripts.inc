@@ -84,10 +84,6 @@ Route5_SouthEntrance_Movement_BlockPlayerEntry::
 	step_end
 
 Route5_SouthEntrance_Text_ThirstyOnGuardDuty::
-	.string "　RQねくア　　うつ\n"
-	.string "つつ\n"
-	.string "ら\n"
-	.string "ち\n"
 	.string "わたし　まじめな　けいびいん\n"
 	.string "はー…\l"
 	.string "のどが　かわいた！\l"

@@ -84,9 +84,7 @@ ViridianCity_Mart_EventScript_Youngster::
 	end
 
 ViridianCity_Mart_Text_YouCameFromPallet::
-	.string "　ホ▶ぬくア　　そ　x▶ぬくけえにキぞあ　でスああ　そ　ぬ:ぬくは　ィスあはあィあ　はいィずあけけにオぞお　ヒいちちちちぁ\n"
-	.string "ふふふふぃ\n"
-	.string "ハコむキぞあ　かあ,▶ぬくゆガあむすィい　かあゲっのくヌヂごのくニョ？▶ぬくそ　フぃのくけえフい　　え　す　せ　つ　　　フいそ　ぅ:ぬくけえフいそ　ど:ぬくけいいそ　チ:ぬくけいいお！　きみは\n"
+	.string "お！　きみは\n"
 	.string "マサラ　タウンから　きたんだね？$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::

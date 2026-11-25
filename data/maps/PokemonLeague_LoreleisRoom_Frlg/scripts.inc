@@ -103,7 +103,7 @@ PokemonLeague_LoreleisRoom_Text_Intro::
 	.string "あんたの　ポケモン\l"
 	.string "ぜんぜん　うごけ　ないんだから\p"
 	.string "…　あははッ！\n"
-	.string "じゃ　かくごは　いいかしら！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "じゃ　かくごは　いいかしら！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
 	.string "ポケモン　リーグへ　ようこそ！\p"
@@ -118,7 +118,7 @@ PokemonLeague_LoreleisRoom_Text_RematchIntro::
 	.string "あんたの　ポケモン\l"
 	.string "ぜんぜん　うごけ　ないんだから\p"
 	.string "…　あははッ！\n"
-	.string "じゃ　かくごは　いいかしら！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "じゃ　かくごは　いいかしら！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
 	.string "…　なんて　ことなの！$"

@@ -84,10 +84,6 @@ Route7_EastEntrance_Movement_BlockPlayerEntry::
 	step_end
 
 Route7_EastEntrance_Text_ThirstyOnGuardDuty::
-	.string "　bTねくア　　うち\n"
-	.string "ちち\n"
-	.string "よ\n"
-	.string "つ\n"
 	.string "わたし　まじめな　けいびいん\n"
 	.string "はー…\l"
 	.string "のどが　かわいた！\l"

@@ -98,7 +98,7 @@ FuchsiaCity_Gym_Text_KogaIntro::
 	.string "ねむって　しまったら　むていこう\p"
 	.string "…　しのびの　わざの　ごくい！\n"
 	.string "どくポケモンの　おそろしさ！\l"
-	.string "うけて　みるが　よい！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "うけて　みるが　よい！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
 	.string "ふん…！\n"

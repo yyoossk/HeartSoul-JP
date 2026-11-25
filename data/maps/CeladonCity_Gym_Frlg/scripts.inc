@@ -97,7 +97,7 @@ CeladonCity_Gym_Text_ErikaIntro::
 	.string "…　あら　やだ\n"
 	.string "しあいの　もうしこみ　ですの？\p"
 	.string "そんな…\n"
-	.string "わたくし　まけませんわよ{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "わたくし　まけませんわよ{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CeladonCity_Gym_Text_ErikaDefeat::
 	.string "…！\n"

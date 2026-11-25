@@ -17,6 +17,9 @@ static inline enum Region GetRegionForSectionId(u32 sectionId)
         return REGION_JOHTO;
     if (sectionId >= KANTO_MAPSEC_START && sectionId <= KANTO_MAPSEC_END)
         return REGION_KANTO;
+    // カントー＆ジョウト: ファイアレッドの　カントーの　ばしょ（サントアンヌごう〜10ばんどうろの　センター）
+    if (sectionId >= MAPSEC_S_S_ANNE && sectionId <= MAPSEC_ROUTE_10_POKECENTER)
+        return REGION_KANTO;
     if (sectionId >= ALOLA_MAPSEC_START && sectionId <= ALOLA_MAPSEC_END)
         return REGION_ALOLA;
     return REGION_HOENN;

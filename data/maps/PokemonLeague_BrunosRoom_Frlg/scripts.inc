@@ -124,7 +124,7 @@ PokemonLeague_BrunosRoom_Text_Intro::
 	.string "{PLAYER}と　いったな！\p"
 	.string "おれたちの　スーパー　パワーを\n"
 	.string "うけて　みるが　いい！\p"
-	.string "ウー！　ハーッ！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "ウー！　ハーッ！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_RematchIntro::
 	.string "おれは　してんのうの　シバ！\p"
@@ -138,7 +138,7 @@ PokemonLeague_BrunosRoom_Text_RematchIntro::
 	.string "{PLAYER}よ…！\p"
 	.string "おれたちの　スーパー　パワーを\n"
 	.string "うけて　みるが　いい！\p"
-	.string "ウー！　ハーッ！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "ウー！　ハーッ！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_Defeat_Kj::
 	.string "どうした　ことだ！\n"

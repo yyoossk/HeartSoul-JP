@@ -117,7 +117,7 @@ ViridianCity_Gym_Text_GiovanniIntro::
 	.string "では…\p"
 	.string "いま　いちど！\n"
 	.string "さいきょうの　トレーナー\l"
-	.string "サカキの　うでまえを　みよ！{0xFC}{0x0B}{0x1B}{0x01}$"
+	.string "サカキの　うでまえを　みよ！{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}$"
 
 ViridianCity_Gym_Text_GiovanniDefeat::
 	.string "はー　はーッ！\n"
@@ -125,7 +125,7 @@ ViridianCity_Gym_Text_GiovanniDefeat::
 	.string "きみの　かちだ！\l"
 	.string "いま…\l"
 	.string "その　あかしに\l"
-	.string "グリーン　バッジを　わたそう！{0xFC}{0x17}{0xFC}{0x0B}{0x04}{0x01}{0xFC}{0x08}{0xFE}{0xFC}{0x08}{0x56}{0xFC}{0x18}$"
+	.string "グリーン　バッジを　わたそう！{0xFC}{0x17}{PLAY_BGM}{MUS_OBTAIN_BADGE}{0xFC}{0x08}{0xFE}{0xFC}{0x08}{0x56}{0xFC}{0x18}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
 	.string "このような　まけかたを　しては\n"

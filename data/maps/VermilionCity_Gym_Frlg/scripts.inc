@@ -296,7 +296,7 @@ VermilionCity_Gym_Text_LtSurgeIntro::
 	.string "みんな　ビリビリ　シビレて\n"
 	.string "うごけナーイ！\p"
 	.string "ユーも　おなじ　みち　たどる\n"
-	.string "ちがい　ナーイ！{0xFC}{0x0B}{0x56}{0x01}$"
+	.string "ちがい　ナーイ！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
 	.string "ヘイ！\n"

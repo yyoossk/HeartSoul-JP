@@ -94,7 +94,7 @@ ViridianCity_School_EventScript_ExitBlackboard::
 	end
 
 ViridianCity_School_Text_TryingToMemorizeNotes::
-	.string "　ハコそ　ワwぬくけえネぽい　ヅぱのくア　　フいハコそ　ベwぬくけえネぽあ　ゼぱのくア　　フいノそ　♂wぬくけえそ　るyぬくけおむすィ　　かあJvぬくそ　そxぬくけえそ　るyぬくけおむすィ　　かあJvぬくそ　ケxぬくけえそ　るyぬくけおむすィ　　かあJvぬくそ　／xぬくけえぽい　ヅぱのくア　　Mあそ　ぐyぬくけえヒいヒいノそ　ぽyぬくけえおavぬくいヌァyぬくニムきあそう　の　ィすィむ　ィ　　かあゃwぬくむ　ィあ　かあっwぬくむ　ィい　かあフwぬくむ　ィう　かあぢwぬくむ　ィえ　かあセwぬくむ　ィお　かあレwぬくむ　ィァ　かあレwぬくいそ　ズyぬくけえおavぬくいそ　Oyぬくけえおavぬくいそ　なzぬくけえおavぬくいそ　っzぬくけえおavぬくいそ　ブzぬくけえおavぬくいヒいふー\n"
+	.string "ふー\n"
 	.string "ノートの　なかの　こと\l"
 	.string "わたし　ぜんぶ　おぼえるの$"
 
