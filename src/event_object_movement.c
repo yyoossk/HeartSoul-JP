@@ -6313,8 +6313,10 @@ bool8 FollowablePlayerMovement_Step(struct ObjectEvent *objectEvent, struct Spri
     }
     else if (gSprites[gPlayerAvatar.spriteId].data[4] == MOVE_SPEED_FAST_2)
     {
-        // HnS JP: keep up with the faster running shoes
-        objectEvent->movementActionId = GetWalkFasterMovementAction(direction);
+        // HnS JP: keep up with the faster running shoes. Use the same step
+        // speed as the player (6 frames per tile); the 4-frame "faster" walk
+        // finished early and then stopped, so the follower stuttered.
+        objectEvent->movementActionId = GetRideWaterCurrentMovementAction(direction);
     }
     else
     {

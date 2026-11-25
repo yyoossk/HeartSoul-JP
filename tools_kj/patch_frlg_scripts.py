@@ -12,7 +12,7 @@ for f in S.files():
 HM = {'01': 'CUT', '03': 'SURF', '04': 'STRENGTH', '05': 'FLASH'}
 for f in S.files():
     s = open(f).read()
-    t = re.sub(r'(?m)^(\tgiveitem_msg [^\n]*ITEM_HM(0[1345])\b[^\n]*\n)(?!\tsetflag FLAG_RECEIVED_HM_)',
+    t = re.sub(r'(?m)^(\tgiveitem_msg [^\n]*ITEM_HM(0[1345])\b[^\n]*\n)(?!\tsetflag FLAG_(?:KJ_)?RECEIVED_HM_)',
                lambda m: m.group(1) + f'\tsetflag FLAG_RECEIVED_HM_{HM[m.group(2)]} @ カントー＆ジョウト\n', s)
     if t != s: open(f, 'w').write(t); n += 1
 # カントーの殿堂入りは FLAG_SYS_GAME_CLEAR（ジョウトの殿堂入り）ではなく FLAG_KJ_KANTO_CHAMPION

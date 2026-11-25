@@ -20,10 +20,6 @@ Route2_EastBuilding_EventScript_Aide::
 	goto_if_eq VAR_RESULT, FALSE, Aide_EventScript_NoRoomForItem
 	giveitem_msg Route2_EastBuilding_Text_ReceivedHM05FromAide, ITEM_HM05
 	setflag FLAG_KJ_RECEIVED_HM_FLASH @ カントー＆ジョウト
-	setflag FLAG_KJ_RECEIVED_HM_FLASH @ カントー＆ジョウト
-	setflag FLAG_KJ_RECEIVED_HM_FLASH @ カントー＆ジョウト
-	setflag FLAG_KJ_RECEIVED_HM_FLASH @ カントー＆ジョウト
-	setflag FLAG_KJ_RECEIVED_HM_FLASH @ カントー＆ジョウト
 	setflag FLAG_KJ_GOT_HM05
 	msgbox Route2_EastBuilding_Text_ExplainHM05
 	release
