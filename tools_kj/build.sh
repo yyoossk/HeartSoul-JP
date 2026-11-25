@@ -12,6 +12,7 @@ python3 -I tools_kj/johto_texts.py
 python3 -I tools_kj/hibiki.py
 python3 -I tools_kj/three_years.py
 python3 -I tools_kj/johto_hm.py
+python3 -I tools_kj/kanto_fix.py
 python3 -I tools_kj/prune_common.py
 python3 -I tools_kj/fix_labels.py
 python3 -I tools_kj/gen_flags.py

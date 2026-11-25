@@ -58,8 +58,7 @@ CinnabarIsland_Gym_EventScript_DefeatedBlaine::
 	setflag FLAG_KJ_DEFEATED_BLAINE
 	setflag FLAG_BADGE15_GET
 	setrespawn HEAL_LOCATION_CINNABAR_ISLAND
-	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 1
-	clearflag FLAG_KJ_HIDE_CINNABAR_BILL
+	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 4 @ カントー＆ジョウト: ナナシマへは　いかない
 	set_gym_trainers_frlg 7
 	goto CinnabarIsland_Gym_EventScript_GiveTM38
 	end

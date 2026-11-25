@@ -1,6 +1,21 @@
 import json
 import re
 
+import os as _kj_os, json as _kj_json
+def _kj_frlg_map_ids():
+    ids = set()
+    lst = 'data/maps/kj_frlg_maps.txt'
+    if not _kj_os.path.exists(lst): return ids
+    for n in open(lst).read().split():
+        p = f'data/maps/{n}/map.json'
+        if _kj_os.path.exists(p): ids.add(_kj_json.load(open(p))['id'])
+    return ids
+KJ_FRLG_MAP_IDS = _kj_frlg_map_ids()
+def _kj_cond(version, map_name):
+    if version == "FIRERED" and map_name in KJ_FRLG_MAP_IDS:
+        return "#if defined(FIRERED) || defined(POKEMON_HNS)"
+    return f"#ifdef {version}"
+
 class Config:
     def __init__(self, config_file_name, rtc_constants_file_name, encounters_json_data):
         self.times_of_day = None
@@ -171,7 +186,7 @@ class WildEncounterAssembler:
             elif "_Hns" in shared_label or "_hns" in shared_label:
                 version = "POKEMON_HNS"
 
-            self.WriteLine(f"#ifdef {version}")
+            self.WriteLine(_kj_cond(version, map_data.get("kjMapName", "")))
 
             self.WriteLine("{", 1)
             self.WriteLine(f".mapGroup = {map_group},", 2)
@@ -237,6 +252,7 @@ class WildEncounterAssembler:
                     headers["data"][shared_label][time] = {}
                 headers["data"][shared_label]["mapGroup"] = map_group
                 headers["data"][shared_label]["mapNum"] = map_num
+                headers["data"][shared_label]["kjMapName"] = map_encounters.get("map", "")
 
                 version = "EMERALD"
                 if "FireRed" in shared_label:
@@ -245,7 +261,7 @@ class WildEncounterAssembler:
                     version = "LEAFGREEN"
                 elif "_Hns" in shared_label or "_hns" in shared_label:
                     version = "POKEMON_HNS"
-                self.WriteLine(f"#ifdef {version}")
+                self.WriteLine(_kj_cond(version, map_encounters.get("map", "")))
                 for mon_type in self.config.mon_types:
                     if mon_type not in map_encounters:
                         headers["data"][shared_label][mon_type] = "NULL"
