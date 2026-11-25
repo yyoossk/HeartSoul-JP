@@ -7461,7 +7461,14 @@ static void InitMovementNormal(struct ObjectEvent *objectEvent, struct Sprite *s
 
     memcpy(functions, sDirectionAnimFuncsBySpeed, sizeof sDirectionAnimFuncsBySpeed);
     InitNpcForMovement(objectEvent, sprite, direction, speed);
-    SetStepAnimHandleAlternation(objectEvent, sprite, functions[speed](objectEvent->facingDirection));
+    // HnS JP: a follower Pokémon keeps up with the faster running shoes using
+    // MOVE_SPEED_FASTER, but its animation table uses the "faster" slots for
+    // entering its Poké Ball, which made it burst apart. Use the walk-fast
+    // animation instead.
+    if (objectEvent->localId == OBJ_EVENT_ID_FOLLOWER && speed >= MOVE_SPEED_FASTER)
+        SetStepAnimHandleAlternation(objectEvent, sprite, GetMoveDirectionFastAnimNum(objectEvent->facingDirection));
+    else
+        SetStepAnimHandleAlternation(objectEvent, sprite, functions[speed](objectEvent->facingDirection));
 }
 
 static void StartRunningAnim(struct ObjectEvent *objectEvent, struct Sprite *sprite, enum Direction direction)
