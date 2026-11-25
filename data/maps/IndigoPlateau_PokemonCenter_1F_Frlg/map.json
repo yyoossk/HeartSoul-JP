@@ -87,7 +87,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "IndigoPlateau_PokemonCenter_1F_EventScript_BlackBelt",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     },
     {
       "type": "object",
@@ -101,7 +101,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "IndigoPlateau_PokemonCenter_1F_EventScript_PokemonJournal",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     },
     {
       "type": "object",
@@ -115,7 +115,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "IndigoPlateau_PokemonCenter_1F_EventScript_CooltrainerM",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     },
     {
       "type": "object",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "IndigoPlateau_PokemonCenter_1F_EventScript_PokemonJournal",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     }
   ],
   "warp_events": [

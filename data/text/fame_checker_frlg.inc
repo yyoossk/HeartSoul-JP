@@ -801,687 +801,690 @@ gFameCheckerFlavorTextOriginLocation_ProfOak0:: @ 0x81B0C45
 	.string "PALLET TOWN$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak1::
-	.string "RESEARCH LAB$"
+	.string "けんきゅうじょ$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak2::
-	.string "RESEARCH LAB$"
+	.string "けんきゅうじょ$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak3::
-	.string "VIRIDIAN CITY$"
+	.string "トキワシティ$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak4::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak5::
-	.string "RESEARCH LAB$"
+	.string "けんきゅうじょ$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy0::
-	.string "RESEARCH LAB$"
+	.string "けんきゅうじょ$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy1::
-	.string "VERMILION CITY$"
+	.string "クチバシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy2::
-	.string "WATER LABYRINTH$"
+	.string "みずのめいろ$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy3::
-	.string "VIRIDIAN CITY$"
+	.string "トキワシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy4::
-	.string "CELADON MANSION$"
+	.string "タマムシマンション$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy5::
-	.string "FOUR ISLAND$"
+	.string "４のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Brock0::
-	.string "PEWTER CITY$"
+	.string "ニビシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Brock1::
-	.string "PEWTER GYM$"
+	.string "ニビシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Brock2::
-	.string "PEWTER CITY$"
+	.string "ニビシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Brock3::
-	.string "ROUTE 4$"
+	.string "４ばんどうろ$"
 
 gFameCheckerFlavorTextOriginLocation_Brock4::
-	.string "MT. MOON$"
+	.string "オツキミやま$"
 
 gFameCheckerFlavorTextOriginLocation_Brock5::
-	.string "PEWTER MUSEUM$"
+	.string "ニビはくぶつかん$"
 
 gFameCheckerFlavorTextOriginLocation_Misty0::
-	.string "CERULEAN CITY$"
+	.string "ハナダシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Misty1::
-	.string "CERULEAN GYM$"
+	.string "ハナダシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Misty2::
-	.string "CERULEAN GYM$"
+	.string "ハナダシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Misty3::
-	.string "SEAFOAM ISLANDS$"
+	.string "ふたごじま$"
 
 gFameCheckerFlavorTextOriginLocation_Misty4::
-	.string "CERULEAN CAPE$"
+	.string "ハナダのみさき$"
 
 gFameCheckerFlavorTextOriginLocation_Misty5::
-	.string "CERULEAN CITY$"
+	.string "ハナダシティ$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge0::
-	.string "VERMILION CITY$"
+	.string "クチバシティ$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge1::
-	.string "VERMILION GYM$"
+	.string "クチバシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge2::
-	.string "VERMILION GYM$"
+	.string "クチバシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge3::
-	.string "VERMILION GYM$"
+	.string "クチバシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge4::
-	.string "VERMILION GYM$"
+	.string "クチバシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge5::
-	.string "VERMILION CITY$"
+	.string "クチバシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Erika0::
-	.string "CELADON CITY$"
+	.string "タマムシシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Erika1::
-	.string "CELADON GYM$"
+	.string "タマムシシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Erika2::
-	.string "CELADON GYM$"
+	.string "タマムシシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Erika3::
-	.string "CELADON GYM$"
+	.string "タマムシシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Erika4::
-	.string "CELADON GYM$"
+	.string "タマムシシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Erika5::
-	.string "CELADON MANSION$"
+	.string "タマムシマンション$"
 
 gFameCheckerFlavorTextOriginLocation_Koga0::
-	.string "FUCHSIA CITY$"
+	.string "セキチクシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Koga1::
-	.string "FUCHSIA GYM$"
+	.string "セキチクシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Koga2::
-	.string "FUCHSIA GYM$"
+	.string "セキチクシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Koga3::
-	.string "FUCHSIA CITY$"
+	.string "セキチクシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Koga4::
-	.string "FUCHSIA CITY$"
+	.string "セキチクシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Koga5::
-	.string "SAFARI ZONE$"
+	.string "サファリゾーン$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina0::
-	.string "SAFFRON CITY$"
+	.string "ヤマブキシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina1::
-	.string "THREE ISLAND$"
+	.string "３のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina2::
-	.string "SAFFRON GYM$"
+	.string "ヤマブキシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina3::
-	.string "SAFFRON GYM$"
+	.string "ヤマブキシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina4::
-	.string "SAFFRON CITY$"
+	.string "ヤマブキシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina5::
-	.string "SAFFRON GYM$"
+	.string "ヤマブキシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine0::
-	.string "CINNABAR ISLAND$"
+	.string "グレンじま$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine1::
-	.string "CINNABAR GYM$"
+	.string "グレンじまジム$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine2::
-	.string "CINNABAR GYM$"
+	.string "グレンじまジム$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine3::
-	.string "CINNABAR ISLAND$"
+	.string "グレンじま$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine4::
-	.string "CINNABAR GYM$"
+	.string "グレンじまジム$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine5::
-	.string "RESORT GORGEOUS$"
+	.string "ゴージャスリゾート$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei0::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei1::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei2::
-	.string "FOUR ISLAND$"
+	.string "４のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei3::
-	.string "FIVE ISLAND$"
+	.string "５のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei4::
-	.string "FOUR ISLAND$"
+	.string "４のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei5::
-	.string "FOUR ISLAND$"
+	.string "４のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno0::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno1::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno2::
-	.string "SAFFRON CITY$"
+	.string "ヤマブキシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno3::
-	.string "EMBER SPA$"
+	.string "ともしびおんせん$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno4::
-	.string "TWO ISLAND$"
+	.string "２のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno5::
-	.string "SEVAULT CANYON$"
+	.string "しっぽうけいこく$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha0::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha1::
-	.string "INDIGO PLATEAU$"
+	.string "セキエイこうげん$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha2::
-	.string "INDIGO PLATEAU$"
+	.string "セキエイこうげん$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha3::
-	.string "SEVEN ISLAND$"
+	.string "７のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha4::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha5::
-	.string "SIX ISLAND$"
+	.string "６のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Lance0::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Lance1::
-	.string "POKéMON LEAGUE$"
+	.string "ポケモンリーグ$"
 
 gFameCheckerFlavorTextOriginLocation_Lance2::
-	.string "SAFFRON CITY$"
+	.string "ヤマブキシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Lance3::
-	.string "CELADON DEPT.$"
+	.string "タマムシデパート$"
 
 gFameCheckerFlavorTextOriginLocation_Lance4::
-	.string "INDIGO PLATEAU$"
+	.string "セキエイこうげん$"
 
 gFameCheckerFlavorTextOriginLocation_Lance5::
-	.string "INDIGO PLATEAU$"
+	.string "セキエイこうげん$"
 
 gFameCheckerFlavorTextOriginLocation_Bill0::
-	.string "CERULEAN CITY$"
+	.string "ハナダシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Bill1::
-	.string "CERULEAN CITY$"
+	.string "ハナダシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Bill2::
-	.string "FUCHSIA CITY$"
+	.string "セキチクシティ$"
 
 gFameCheckerFlavorTextOriginLocation_Bill3::
-	.string "ONE ISLAND$"
+	.string "１のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Bill4::
-	.string "ONE ISLAND$"
+	.string "１のしま$"
 
 gFameCheckerFlavorTextOriginLocation_Bill5::
-	.string "ONE ISLAND$"
+	.string "１のしま$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji0::
-	.string "LAVENDER TOWN$"
+	.string "シオンタウン$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji1::
-	.string "POKéMON TOWER$"
+	.string "ポケモンタワー$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji2::
-	.string "LAVENDER TOWN$"
+	.string "シオンタウン$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji3::
-	.string "LAVENDER TOWN$"
+	.string "シオンタウン$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji4::
-	.string "CINNABAR GYM$"
+	.string "グレンじまジム$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji5::
-	.string "CINNABAR ISLAND$"
+	.string "グレンじま$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni0::
-	.string "ROCKET HIDEOUT$"
+	.string "ロケットだんアジト$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni1::
-	.string "SILPH CO.$"
+	.string "シルフカンパニー$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni2::
-	.string "SILPH CO.$"
+	.string "シルフカンパニー$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni3::
-	.string "VIRIDIAN GYM$"
+	.string "トキワシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni4::
-	.string "VIRIDIAN GYM$"
+	.string "トキワシティジム$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni5::
-	.string "ROCKET WAREHOUSE$"
+	.string "ロケットだんそうこ$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak1::
-	.string "PROF. OAK$"
+	.string "オーキドはかせ$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak2::
-	.string "AIDE$"
+	.string "じょしゅ$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak3::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak4::
-	.string "AGATHA$"
+	.string "キクコ$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak5::
-	.string "AIDE$"
+	.string "じょしゅ$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy0::
-	.string "AIDE$"
+	.string "じょしゅ$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy1::
-	.string "WOMAN$"
+	.string "じょせい$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy2::
-	.string "MAN$"
+	.string "おじさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy3::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy4::
-	.string "OLD LADY$"
+	.string "おばあさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy5::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock1::
-	.string "BROCK$"
+	.string "タケシ$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock2::
-	.string "YOUNG MAN$"
+	.string "せいねん$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock3::
-	.string "BOY$"
+	.string "しょうねん$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock4::
-	.string "MAN$"
+	.string "おじさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock5::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty1::
-	.string "MISTY$"
+	.string "カスミ$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty2::
-	.string "LUIS$"
+	.string "ヨウヘイ$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty3::
-	.string "YOUNG MAN$"
+	.string "せいねん$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty4::
-	.string "DAME$"
+	.string "カップルのじょせい$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty5::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge1::
-	.string "LT. SURGE$"
+	.string "マチス$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge2::
-	.string "TUCKER$"
+	.string "オルソン$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge3::
-	.string "TUCKER$"
+	.string "オルソン$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge4::
-	.string "DWAYNE$"
+	.string "タツヒコ$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge5::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika1::
-	.string "ERIKA$"
+	.string "エリカ$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika2::
-	.string "LOLA$"
+	.string "ユミ$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika3::
-	.string "TAMIA$"
+	.string "レイコ$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika4::
-	.string "ERIKA$"
+	.string "エリカ$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika5::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga1::
-	.string "KOGA$"
+	.string "キョウ$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga2::
-	.string "KIRK$"
+	.string "ジョージ$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga3::
-	.string "CHARINE$"
+	.string "アンズ$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga4::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga5::
-	.string "MAN$"
+	.string "おじさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina1::
-	.string "YOUNG MAN$"
+	.string "せいねん$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina2::
-	.string "SABRINA$"
+	.string "ナツメ$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina3::
-	.string "SABRINA$"
+	.string "ナツメ$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina4::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina5::
-	.string "TYRON$"
+	.string "イサミ$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine0::
-	.string "SIGN$"
+	.string "かんばん$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine1::
-	.string "BLAINE$"
+	.string "カツラ$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine2::
-	.string "DEREK$"
+	.string "ヨシアキ$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine3::
-	.string "WOMAN$"
+	.string "じょせい$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine4::
-	.string "PHOTO$"
+	.string "しゃしん$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine5::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei0::
-	.string "LORELEI$"
+	.string "カンナ$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei1::
-	.string "LORELEI$"
+	.string "カンナ$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei2::
-	.string "OLD MAN$"
+	.string "おじいさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei3::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei4::
-	.string "LITTLE GIRL$"
+	.string "おんなのこ$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei5::
-	.string "OLD LADY$"
+	.string "おばあさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno0::
-	.string "BRUNO$"
+	.string "シバ$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno1::
-	.string "BRUNO$"
+	.string "シバ$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno2::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno3::
-	.string "CRUSHER$"
+	.string "かくとうか$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno4::
-	.string "WOMAN$"
+	.string "じょせい$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno5::
-	.string "CRUSHER$"
+	.string "かくとうか$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha0::
-	.string "AGATHA$"
+	.string "キクコ$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha1::
-	.string "CRUSHER$"
+	.string "かくとうか$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha2::
-	.string "CRUSHER$"
+	.string "かくとうか$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha3::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha4::
-	.string "AGATHA$"
+	.string "キクコ$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha5::
-	.string "OLD LADY$"
+	.string "おばあさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance0::
-	.string "LANCE$"
+	.string "ワタル$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance1::
-	.string "LANCE$"
+	.string "ワタル$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance2::
-	.string "WOMAN$"
+	.string "じょせい$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance3::
-	.string "LITTLE GIRL$"
+	.string "おんなのこ$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance4::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance5::
-	.string "YOUNG MAN$"
+	.string "せいねん$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill0::
 	.string "{RIVAL}$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill1::
-	.string "LITTLE BOY$"
+	.string "おとこのこ$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill2::
-	.string "OLD MAN$"
+	.string "おじいさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill3::
-	.string "CELIO$"
+	.string "ニシキ$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill4::
-	.string "CELIO$"
+	.string "ニシキ$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill5::
-	.string "CELIO$"
+	.string "ニシキ$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji0::
-	.string "LITTLE GIRL$"
+	.string "おんなのこ$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji1::
-	.string "TEAM ROCKET$"
+	.string "ロケットだん$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji2::
-	.string "MAGAZINE$"
+	.string "ざっし$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji3::
-	.string "MAN$"
+	.string "おじさん$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji4::
-	.string "PHOTO$"
+	.string "しゃしん$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji5::
-	.string "POKéMON JOURNAL$"
+	.string "ポケモンジャーナル$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni0::
-	.string "GIOVANNI$"
+	.string "サカキ$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni1::
-	.string "SCIENTIST$"
+	.string "けんきゅういん$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni2::
-	.string "SCIENTIST$"
+	.string "けんきゅういん$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni3::
-	.string "GIOVANNI$"
+	.string "サカキ$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni4::
-	.string "MAN$"
+	.string "おじさん$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni5::
-	.string "GIDEON$"
+	.string "スミオ$"
 
 PokemonJournal_Text_SpecialFeatureBrock::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: PEWTER GYM\n"
-	.string "LEADER BROCK!\p"
-	.string "BROCK rarely laughs, but is said to\n"
-	.string "be unable to stop if he starts.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ニビシティの　ジムリーダー\n"
+	.string "タケシ　とくしゅう！\p"
+	.string "タケシは　めったに　わらわないが\n"
+	.string "いちど　わらいだすと\l"
+	.string "とまらなく　なる　らしい！$"
 
 PokemonJournal_Text_SpecialFeatureMisty::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: CERULEAN GYM\n"
-	.string "LEADER MISTY!\p"
-	.string "MISTY is said to worship LORELEI\n"
-	.string "of the ELITE FOUR.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ハナダシティの　ジムリーダー\n"
+	.string "カスミ　とくしゅう！\p"
+	.string "カスミは　さいきん\n"
+	.string "してんのうの　ひとり　カンナに\l"
+	.string "とても　あこがれている　らしい！$"
 
 PokemonJournal_Text_SpecialFeatureLtSurge::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: VERMILION GYM\n"
-	.string "LEADER LT. SURGE!\p"
-	.string "LT. SURGE is rumored to have been\n"
-	.string "a pilot while home in America.\p"
-	.string "He used the electricity generated\n"
-	.string "by POKéMON to power his plane.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "クチバシティの　ジムリーダー\n"
+	.string "マチス　とくしゅう！\p"
+	.string "マチスは　アメリカに　いたとき\n"
+	.string "ポケモンに　はつでん　させて\l"
+	.string "ひこうきを　とばしていた　らしい！$"
 
 PokemonJournal_Text_SpecialFeatureErika::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: CELADON GYM\n"
-	.string "LEADER ERIKA!\p"
-	.string "Rumor has it that if you peek into\n"
-	.string "CELADON GYM, you can often\l"
-	.string "see ERIKA snoozing.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "タマムシシティの　ジムリーダー\n"
+	.string "エリカ　とくしゅう！\p"
+	.string "タマムシジムを　のぞくと\n"
+	.string "よく　エリカが\l"
+	.string "ひるねを　している　らしい！$"
 
 PokemonJournal_Text_SpecialFeatureKoga::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: FUCHSIA GYM\n"
-	.string "LEADER KOGA!\p"
-	.string "KOGA is said to have a thorough\n"
-	.string "knowledge of medicine.\p"
-	.string "He even concocts medicine to nurse\n"
-	.string "his POKéMON to health.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "セキチクシティの　ジムリーダー\n"
+	.string "キョウ　とくしゅう！\p"
+	.string "キョウは　くすりにも　くわしく\n"
+	.string "ポケモンが　きずつくと　みずから\l"
+	.string "くすりを　つくって　いやすらしい！$"
 
 PokemonJournal_Text_SpecialFeatureSabrina::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: SAFFRON GYM\n"
-	.string "LEADER SABRINA!\p"
-	.string "People say that SABRINA can\n"
-	.string "communicate with her POKéMON\l"
-	.string "during battle without speaking.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ヤマブキシティの　ジムリーダー\n"
+	.string "ナツメ　とくしゅう！\p"
+	.string "ナツメは　しょうぶの　とき\n"
+	.string "ポケモンに　こえを　かけなくても\l"
+	.string "きもちが　つたわる　らしい$"
 
 PokemonJournal_Text_SpecialFeatureBlaine::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: CINNABAR GYM\n"
-	.string "LEADER BLAINE!\p"
-	.string "BLAINE is said to remove his dark\n"
-	.string "shades only when he is thinking up\l"
-	.string "new quiz questions.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "グレンじまの　ジムリーダー\n"
+	.string "カツラ　とくしゅう！\p"
+	.string "カツラは　クイズを\n"
+	.string "かんがえる　とき　だけ\l"
+	.string "くろいメガネを　はずす　らしい！$"
 
 PokemonJournal_Text_SpecialFeatureLorelei::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's LORELEI!\p"
-	.string "Known for her logical, calculated,\n"
-	.string "and cool battling style, LORELEI\l"
-	.string "has a surprising secret!$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ポケモンリーグの　してんのう\n"
+	.string "カンナ　とくしゅう！\p"
+	.string "カンナは　ちえを　めぐらせて\n"
+	.string "クールに　たたかうが\l"
+	.string "いがいな　いちめんも　あるらしい？$"
 
 PokemonJournal_Text_SpecialFeatureBruno::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's BRUNO!\p"
-	.string "BRUNO apparently joined the ELITE\n"
-	.string "FOUR out of his burning ambition to\l"
-	.string "battle the best TRAINERS.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ポケモンリーグの　してんのう\n"
+	.string "シバ　とくしゅう！\p"
+	.string "シバは　つよい　トレーナーと\n"
+	.string "しょうぶ　したい　いっしんで\l"
+	.string "してんのうに　なった　らしい$"
 
 PokemonJournal_Text_SpecialFeatureAgatha::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's AGATHA!\p"
-	.string "In her youth, AGATHA and PROF.\n"
-	.string "OAK were rivals who vied for\l"
-	.string "supremacy as TRAINERS.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ポケモンリーグの　してんのう\n"
+	.string "キクコ　とくしゅう！\p"
+	.string "キクコは　わかい　とき\n"
+	.string "オーキドはかせと　ライバルで\l"
+	.string "つよさを　きそって　いたらしい！$"
 
 PokemonJournal_Text_SpecialFeatureLance::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's LANCE!\p"
-	.string "LANCE's grandfather is thought to\n"
-	.string "be the elder of a famous clan of\l"
-	.string "dragon masters.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ポケモンリーグの　してんのう\n"
+	.string "ワタル　とくしゅう！\p"
+	.string "ワタルの　おじいさんは\n"
+	.string "ドラゴンづかいで　ゆうめいな\l"
+	.string "いちぞくの　ちょうろう　らしい！$"
 
 PokemonJournal_Text_SpecialFeatureProfOak::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature: PROF. OAK,\n"
-	.string "the POKéMON Researcher!\p"
-	.string "PROF. OAK reportedly lives with his\n"
-	.string "grandchildren DAISY and {RIVAL}.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ポケモンの　けんきゅうしゃ\n"
+	.string "オーキドはかせ　とくしゅう！\p"
+	.string "オーキドはかせは\n"
+	.string "おまごさんの　ナナミさん\l"
+	.string "{RIVAL}さんと\l"
+	.string "さんにんで　くらして　いるらしい！$"
 
 PokemonJournal_Text_SpecialFeatureDaisyOak::
-	.string "This is a POKéMON JOURNAL from\n"
-	.string "years ago…\p"
-	.string "POKéMON JOURNAL\n"
-	.string "CONTEST Special!\p"
-	.string "The Spring POKéMON CONTEST's\n"
-	.string "Grand Champion is DAISY OAK of\l"
-	.string "PALLET TOWN!$"
+	.string "なんねんも　まえの\n"
+	.string "ポケモン　ジャーナルだ！\p"
+	.string "ポケモン　ジャーナル\n"
+	.string "コンテスト　とくしゅう！\p"
+	.string "はるの　ポケモンコンテスト\n"
+	.string "そうごう　ゆうしょうは\l"
+	.string "マサラタウンの　ナナミちゃん！$"
 
 PokemonJournal_Text_SpecialFeatureMrFuji::
-	.string "POKéMON JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "MR. FUJI of POKéMON HOUSE!\p"
-	.string "Editor: The shy MR. FUJI turned\n"
-	.string "down our interview requests.\p"
-	.string "He is a kindly man who is adored\n"
-	.string "and respected in LAVENDER TOWN.$"
+	.string "ポケモン　ジャーナル！\p"
+	.string "ポケモンハウスに　すむ\n"
+	.string "フジろうじん　とくしゅう！\p"
+	.string "インタビューは　にがての　ようで\n"
+	.string "ことわられて　しまいましたが\l"
+	.string "シオンの　ひとたちに　したわれる\l"
+	.string "やさしそうな　かた　でした\p"
+	.string "…へんしゅうぶ$"

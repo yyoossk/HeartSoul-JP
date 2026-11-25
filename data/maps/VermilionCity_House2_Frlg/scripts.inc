@@ -6,7 +6,7 @@ VermilionCity_House2_EventScript_Elyssa::
 	faceplayer
 	setvar VAR_0x8008, INGAME_TRADE_FARFETCHD
 	call EventScript_GetInGameTradeSpeciesInfo
-	goto_if_set FLAG_DID_CH_DING_TRADE, VermilionCity_House2_EventScript_AlreadyTraded
+	goto_if_set FLAG_KJ_DID_CH_DING_TRADE, VermilionCity_House2_EventScript_AlreadyTraded
 	msgbox VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, VermilionCity_House2_EventScript_DeclineTrade
 	call EventScript_ChooseMonForInGameTrade
@@ -15,7 +15,7 @@ VermilionCity_House2_EventScript_Elyssa::
 	goto_if_ne VAR_RESULT, VAR_0x8009, VermilionCity_House2_EventScript_NotRequestedMon
 	call EventScript_DoInGameTrade
 	msgbox VermilionCity_House2_Text_ThankYou
-	setflag FLAG_DID_CH_DING_TRADE
+	setflag FLAG_KJ_DID_CH_DING_TRADE
 	release
 	end
 
@@ -36,22 +36,23 @@ VermilionCity_House2_EventScript_AlreadyTraded::
 	end
 
 VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon::
-	.string "Hi!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "ねー　きみ\n"
+	.string "{STR_VAR_1}　もってる？\p"
+	.string "わたしの　{STR_VAR_2}と\n"
+	.string "とりかえて　くれない？$"
 
 VermilionCity_House2_Text_ThatsTooBad::
-	.string "That's too bad.$"
+	.string "イヤなら　しょーがないな$"
 
 VermilionCity_House2_Text_ThisIsNoMon::
-	.string "…This is no {STR_VAR_1}.\p"
-	.string "If you get one, please trade it\n"
-	.string "to me!$"
+	.string "……　これ\n"
+	.string "{STR_VAR_1}じゃ　ないわー\p"
+	.string "てに　いれたら\n"
+	.string "ぜったい　とりかえてよねっ！$"
 
 VermilionCity_House2_Text_ThankYou::
-	.string "Thank you!$"
+	.string "ありがとね$"
 
 VermilionCity_House2_Text_HowIsMyOldMon::
-	.string "How is my old {STR_VAR_2}?\p"
-	.string "My {STR_VAR_1} is doing great!$"
+	.string "{STR_VAR_2}　げんき？\n"
+	.string "わたしの　{STR_VAR_1}は　げんきよ$"

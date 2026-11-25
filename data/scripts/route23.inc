@@ -212,31 +212,38 @@ Route23_Movement_WalkDown::
 	step_end
 
 Text_OnlySkilledTrainersAllowedThrough::
-	.string "Only truly skilled TRAINERS are\n"
-	.string "allowed through.\p"
-	.string "You don't have the {STR_VAR_1}\n"
-	.string "yet!$"
+	.string "ここから　さきは\n"
+	.string "ほんとうに　つよい\l"
+	.string "ポケモントレーナーだけ\l"
+	.string "とおれます\p"
+	.string "あなたは　{STR_VAR_1}　バッジを\n"
+	.string "まだ　もって　ませんね！$"
 
 Text_CantLetYouPass::
-	.string "Rules are rules.\n"
-	.string "I can't let you pass.$"
+	.string "きまり　ですから\n"
+	.string "とおす　わけには　いきません！$"
 
 Text_OhThatsBadgeGoRightAhead::
-	.string "Oh! That is the {STR_VAR_1}!\n"
-	.string "Go right ahead.$"
+	.string "おおーッ！\n"
+	.string "それは　たしかに\l"
+	.string "{STR_VAR_1}　バッジ！\l"
+	.string "どうぞ　とおって　ください！$"
 
 Text_OnlyPassWithBadgeDontHaveYet::
-	.string "You can pass here only if you have\n"
-	.string "the {STR_VAR_1}.\p"
-	.string "You don't have the {STR_VAR_1}\n"
-	.string "yet.\p"
-	.string "You have to have it to get to\n"
-	.string "the POKéMON LEAGUE.$"
+	.string "ここから　さきは……\n"
+	.string "{STR_VAR_1}　バッジを\l"
+	.string "もった　もの　だけが　すすめる！\p"
+	.string "きみは　まだ\n"
+	.string "{STR_VAR_1}　バッジを　もっていない\p"
+	.string "ポケモン　リーグを　めざす　なら\n"
+	.string "でなおして　きなさい$"
 
 Text_OnlyPassWithBadgeOhGoAhead::
-	.string "You can pass here only if you have\n"
-	.string "the {STR_VAR_1}.\p"
-	.string "Oh! That is the {STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\p"
-	.string "Okay, then.\n"
-	.string "Please, go right ahead.$"
+	.string "ここから　さきは……\n"
+	.string "{STR_VAR_1}　バッジを\l"
+	.string "もった　もの　だけが　すすめる！\p"
+	.string "むむッ……！\n"
+	.string "それは　{STR_VAR_1}　バッジ！{0xFC}{0x17}{0xFC}{0x0B}{0x01}{0x01}{0xFC}{0x08}{0x60}{0xFC}{0x18}\p"
+	.string "わかった……！\n"
+	.string "この　さきへ　すすみなさい！$"
 

@@ -22,11 +22,11 @@ VermilionCity_Movement_ExitSSAnne::
 
 VermilionCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_VERMILION_CITY
-	call_if_set FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
+	call_if_set FLAG_KJ_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
 	end
 
 VermilionCity_EventScript_HideOaksAide::
-	setflag FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
+	setflag FLAG_KJ_HIDE_VERMILION_CITY_OAKS_AIDE
 	return
 
 VermilionCity_EventScript_Woman::
@@ -55,14 +55,14 @@ VermilionCity_EventScript_FerrySailor::
 	end
 
 VermilionCity_EventScript_CheckHasMysticTicket::
-	goto_if_unset FLAG_ENABLE_SHIP_NAVEL_ROCK, EventScript_SetResultFalse
+	goto_if_unset FLAG_KJ_ENABLE_SHIP_NAVEL_ROCK, EventScript_SetResultFalse
 	checkitem ITEM_MYSTIC_TICKET
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
 	goto EventScript_SetResultTrue
 	end
 
 VermilionCity_EventScript_CheckHasAuroraTicket::
-	goto_if_unset FLAG_ENABLE_SHIP_BIRTH_ISLAND, EventScript_SetResultFalse
+	goto_if_unset FLAG_KJ_ENABLE_SHIP_BIRTH_ISLAND, EventScript_SetResultFalse
 	checkitem ITEM_AURORA_TICKET
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
 	goto EventScript_SetResultTrue
@@ -90,7 +90,7 @@ VermilionCity_EventScript_ChooseSeagallopDestRainbowPass::
 VermilionCity_EventScript_HasMysticTicket::
 	call VermilionCity_EventScript_CheckHasAuroraTicket
 	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasMysticAndAuroraTickets
-	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
+	call_if_unset FLAG_KJ_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
 	message VermilionCity_Text_BoardSeagallopFerry
 	waitmessage
 	multichoice 17, 6, MULTI_SEVII_NAVEL, FALSE
@@ -102,12 +102,12 @@ VermilionCity_EventScript_HasMysticTicket::
 	end
 
 VermilionCity_EventScript_ShowMysticTicket::
-	setflag FLAG_SHOWN_MYSTIC_TICKET
+	setflag FLAG_KJ_SHOWN_MYSTIC_TICKET
 	msgbox VermilionCity_Text_OhMysticTicketTakeYouToNavelRock
 	return
 
 VermilionCity_EventScript_HasAuroraTicket::
-	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
+	call_if_unset FLAG_KJ_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
 	message VermilionCity_Text_BoardSeagallopFerry
 	waitmessage
 	multichoice 13, 6, MULTI_SEVII_BIRTH, FALSE
@@ -119,13 +119,13 @@ VermilionCity_EventScript_HasAuroraTicket::
 	end
 
 VermilionCity_EventScript_ShowAuroraTicket::
-	setflag FLAG_SHOWN_AURORA_TICKET
+	setflag FLAG_KJ_SHOWN_AURORA_TICKET
 	msgbox VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland
 	return
 
 VermilionCity_EventScript_HasMysticAndAuroraTickets::
-	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
-	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
+	call_if_unset FLAG_KJ_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
+	call_if_unset FLAG_KJ_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
 	message VermilionCity_Text_BoardSeagallopFerry
 	waitmessage
 	multichoice 13, 5, MULTI_SEVII_NAVEL_BIRTH, FALSE
@@ -192,7 +192,7 @@ VermilionCity_EventScript_CheckTicket::
 	waitmovement 0
 	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_CheckSeagallopPresentTrigger
 	msgbox VermilionCity_Text_DoYouHaveATicket
-	goto_if_unset FLAG_GOT_SS_TICKET, VermilionCity_EventScript_DontHaveSSTicket
+	goto_if_unset FLAG_KJ_GOT_SS_TICKET, VermilionCity_EventScript_DontHaveSSTicket
 	msgbox VermilionCity_Text_FlashedSSTicket
 	setvar VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER, 1
 	releaseall
@@ -220,7 +220,7 @@ VermilionCity_EventScript_Sailor::
 VermilionCity_EventScript_OaksAide::
 	lock
 	faceplayer
-	setflag FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION
+	setflag FLAG_KJ_TALKED_TO_OAKS_AIDE_IN_VERMILION
 	msgbox VermilionCity_Text_Route2AideHasPackageForYou
 	release
 	end
@@ -264,131 +264,148 @@ VermilionCity_EventScript_HarborSign::
 	end
 
 VermilionCity_Text_GrimerMultipliesInSludge::
-	.string "We're careful about pollution here.\p"
-	.string "We've heard GRIMER multiplies in\n"
-	.string "toxic sludge.$"
+	.string "わたし　スポーツの　あとは\n"
+	.string "あせで　ベトベター！\p"
+	.string "…しってる？　ベトベターって\n"
+	.string "うみの　ヘドロから　うまれたの$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
-	.string "Did you see the S.S. ANNE moored\n"
-	.string "in the harbor?$"
+	.string "みたかね！　いま　みなとに\n"
+	.string "サント・アンヌごう　という\l"
+	.string "ふねが　きとるぞ！$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
-	.string "So, the S.S. ANNE has departed?\p"
-	.string "She'll be back in VERMILION about\n"
-	.string "this time next year.$"
+	.string "おお！　サント・アンヌごう\n"
+	.string "しゅっぱつ　して　いったか！\p"
+	.string "つぎに　クチバに　くる　のは\n"
+	.string "らいねんの　いまごろ　じゃな…$"
 
 VermilionCity_Text_BuildingOnThisLand::
-	.string "I'm putting up a building on this\n"
-	.string "plot of land. I own it all.\p"
-	.string "My POKéMON is tamping the land\n"
-	.string "to lay the foundation.$"
+	.string "わし　じぬし！\n"
+	.string "この　しかくの　ばしょ\l"
+	.string "ぜーんぶ　わしの　とち！\p"
+	.string "ここに　ビル　たてようと　おもって\n"
+	.string "ポケモンに　じならし　させとる！$"
 
 VermilionCity_Text_Machop::
-	.string "MACHOP: Guoh! Gogogoh!$"
+	.string "ワンリキー“ごおーっ　ごごごー$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-	.string "A MACHOP is stomping the land flat.$"
+	.string "ワンリキーは　うなりながら\n"
+	.string "じめんを　ならしている！$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-	.string "The S.S. ANNE is a famous luxury\n"
-	.string "cruise ship.\p"
-	.string "It visits VERMILION once a year.$"
+	.string "サント・アンヌごうは\n"
+	.string "ゆうめいな　ごうか　きゃくせん！\p"
+	.string "１ねんに　１ど　だけ\n"
+	.string "クチバこう　に　とまるんだ！$"
 
 VermilionCity_Text_CitySign::
-	.string "VERMILION CITY\n"
-	.string "The Port of Exquisite Sunsets$"
+	.string "ここは　クチバ　シティ\n"
+	.string "クチバは　オレンジ　ゆうやけのいろ$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
-	.string "NOTICE!\p"
-	.string "ROUTE 12 may be blocked off by a\n"
-	.string "sleeping POKéMON.\p"
-	.string "Detour through ROCK TUNNEL to\n"
-	.string "LAVENDER TOWN.\p"
-	.string "VERMILION POLICE$"
+	.string "…　おしらせの　チラシだ！\p"
+	.string "さいきん…　１２ばん　どうろに\n"
+	.string "いねむり　ポケモンが　しゅつぼつ\l"
+	.string "とおれない　ことが　あります！\p"
+	.string "そういう　とき　シオン　タウンへ\n"
+	.string "いく　かたは　イワヤマトンネルを\l"
+	.string "とおって　ください！\p"
+	.string "…　クチバ　けいさつ　より$"
 
 VermilionCity_Text_PokemonFanClubSign::
-	.string "POKéMON FAN CLUB\n"
-	.string "All POKéMON fans welcome!$"
+	.string "こちら　ポケモン　だいすき　クラブ\n"
+	.string "ポケモンずき　だれでも　かんげい！$"
 
 VermilionCity_Text_GymSign_Kj::
-	.string "クチバシティ　ポケモンジム\nリーダー　マチス\lイナズマ　アメリカン！$"
+	.string "クチバ　シティ　ポケモン　ジム\n"
+	.string "リーダー　マチス\l"
+	.string "イナズマ　アメリカン！$"
 
 VermilionCity_Text_VermilionHarbor::
-	.string "VERMILION HARBOR$"
+	.string "クチバ　みなと　いりぐち$"
 
 VermilionCity_Text_WelcomeToTheSSAnne::
-	.string "Welcome to the S.S. ANNE!$"
+	.string "ようこそ　サント・アンヌ　ごうへ！$"
 
 VermilionCity_Text_DoYouHaveATicket::
-	.string "Welcome to the S.S. ANNE!\p"
-	.string "Excuse me, do you have a ticket?$"
+	.string "ようこそ　サント・アンヌ　ごうへ！\p"
+	.string "ちょっと　まって！\n"
+	.string "おきゃくさん　チケットは？$"
 
 VermilionCity_Text_FlashedSSTicket::
-	.string "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p"
-	.string "{FONT_MALE}Great!\n"
-	.string "Welcome to the S.S. ANNE!$"
+	.string "{PLAYER}は　せんいんに\n"
+	.string "ふねのチケットを　みせた！\p"
+	.string "はい！　けっこう　です！\n"
+	.string "ようこそ　サント・アンヌ　ごうへ！$"
 
 VermilionCity_Text_DontHaveNeededSSTicket::
-	.string "{FONT_NORMAL}{PLAYER} doesn't have the needed\n"
-	.string "S.S. TICKET.\p"
-	.string "{FONT_MALE}Sorry!\p"
-	.string "You need a ticket to get aboard.$"
+	.string "{PLAYER}は　せんいんに\n"
+	.string "チケットを　みせようとした…\l"
+	.string "チケットが…　ない…！\p"
+	.string "…もうしわけ　ありません！\p"
+	.string "はいれる　のは\n"
+	.string "チケットの　ある　かた　だけです$"
 
 VermilionCity_Text_TheShipSetSail::
-	.string "The ship set sail.$"
+	.string "ふねは　しゅっこうしました$"
 
 VermilionCity_Text_BoardSeagallopTriPass::
-	.string "Ah, you have a TRI-PASS.\p"
-	.string "Would you like to board\n"
-	.string "a SEAGALLOP ferry?$"
+	.string "トライパスを　おもち　なのですね！\n"
+	.string "せんようせん　シーギャロップに\l"
+	.string "おのりに　なりますか？$"
 
 VermilionCity_Text_Seagallop7Departing::
-	.string "Okay, everything's in order.\p"
-	.string "SEAGALLOP HI-SPEED 7 will be\n"
-	.string "departing immediately.$"
+	.string "では　どうぞ！\n"
+	.string "シーギャロップ　ハイスピード７は\l"
+	.string "すぐに　しゅっこう　しますよ！$"
 
 VermilionCity_Text_BoardSeagallopRainbowPass::
-	.string "Ah, you have a RAINBOW PASS.\p"
-	.string "Would you like to board\n"
-	.string "a SEAGALLOP ferry?$"
+	.string "レインボーパスを　おもち　ですね！\n"
+	.string "せんようせん　シーギャロップに\l"
+	.string "おのりに　なりますか？$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
-	.string "Oh! That's a MYSTICTICKET!\n"
-	.string "Now that is rare.\p"
-	.string "We'll be happy to take you to\n"
-	.string "NAVEL ROCK anytime.$"
+	.string "それは　しんぴのチケット…！\n"
+	.string "わかりました\p"
+	.string "あなたを　へそのいわへ\n"
+	.string "いつでも　おつれ　しましょう！$"
 
 VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::
-	.string "Oh! That's an AURORATICKET!\n"
-	.string "Now that is rare.\p"
-	.string "We'll be happy to take you to\n"
-	.string "BIRTH ISLAND anytime.$"
+	.string "それは　オーロラチケット…！\n"
+	.string "わかりました\p"
+	.string "あなたを　たんじょうのしまへ\n"
+	.string "いつでも　おつれ　しましょう！$"
 
 VermilionCity_Text_BoardSeagallopFerry::
-	.string "Would you like to board\n"
-	.string "a SEAGALLOP ferry?$"
+	.string "せんようせん　シーギャロップに\n"
+	.string "おのりに　なりますか？$"
 
 VermilionCity_Text_Seagallop10Departing::
-	.string "Okay, everything's in order for you\n"
-	.string "to board a special ferry.\p"
-	.string "SEAGALLOP HI-SPEED 10 will be\n"
-	.string "departing immediately.$"
+	.string "では　どうぞ！\p"
+	.string "とくべつ　せんようせん\n"
+	.string "シーギャロップ　ハイスピード１０\l"
+	.string "はっしん　します！$"
 
 VermilionCity_Text_Seagallop12Departing::
-	.string "Okay, everything's in order for you\n"
-	.string "to board a special ferry.\p"
-	.string "SEAGALLOP HI-SPEED 12 will be\n"
-	.string "departing immediately.$"
+	.string "では　どうぞ！\p"
+	.string "とくべつ　せんようせん\n"
+	.string "シーギャロップ　ハイスピード１２\l"
+	.string "はっしん　します！$"
 
 VermilionCity_Text_Route2AideHasPackageForYou::
-	.string "Oh, hello, {PLAYER}!\n"
-	.string "How are you doing?\p"
-	.string "It's me, one of PROF. OAK's AIDES.\p"
-	.string "Did you meet the other AIDE?\p"
-	.string "He had a package from PROF. OAK\n"
-	.string "for you, {PLAYER}.\p"
-	.string "He said he'd look for you around\n"
-	.string "ROUTE 2, {PLAYER}.\p"
-	.string "If you're in the ROUTE 2 area,\n"
-	.string "please look for him.$"
+	.string "あ　{PLAYER}{KUN}！\n"
+	.string "げんきに　やってますか？\l"
+	.string "ぼくですよ\l"
+	.string "オーキドはかせの　じょしゅ　です！\p"
+	.string "ほかの　じょしゅには　あいました？\n"
+	.string "はかせから　{PLAYER}{KUN}への\l"
+	.string "おくりものを　もって\l"
+	.string "でかけた　はずなんだけど…\p"
+	.string "２ばんどうろ　あたりで\n"
+	.string "{PLAYER}{KUN}を　さがす　って\l"
+	.string "いってたから　そのへんかな？\p"
+	.string "もし　２ばんどうろに　いったら\n"
+	.string "さがして　みてよ！$"
 

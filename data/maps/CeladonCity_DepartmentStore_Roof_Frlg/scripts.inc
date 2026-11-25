@@ -112,7 +112,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_AskGiveAllDrinks::
 CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater::
 	setvar VAR_0x8008, ITEM_FRESH_WATER
 	setvar VAR_0x8009, ITEM_TM16
-	goto_if_set FLAG_GOT_TM16_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
+	goto_if_set FLAG_KJ_GOT_TM16_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
 	msgbox CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis
 	goto CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink
 	end
@@ -120,7 +120,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveFreshWater::
 CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop::
 	setvar VAR_0x8008, ITEM_SODA_POP
 	setvar VAR_0x8009, ITEM_TM20
-	goto_if_set FLAG_GOT_TM20_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
+	goto_if_set FLAG_KJ_GOT_TM20_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
 	msgbox CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis
 	goto CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink
 	end
@@ -128,7 +128,7 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveSodaPop::
 CeladonCity_DepartmentStore_Roof_EventScript_GiveLemonade::
 	setvar VAR_0x8008, ITEM_LEMONADE
 	setvar VAR_0x8009, ITEM_TM33
-	goto_if_set FLAG_GOT_TM33_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
+	goto_if_set FLAG_KJ_GOT_TM33_FROM_THIRSTY_GIRL, CeladonCity_DepartmentStore_Roof_EventScript_NotThirstyAfterAll
 	msgbox CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis
 	goto CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink
 	end
@@ -154,17 +154,17 @@ CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink::
 	end
 
 CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM16::
-	setflag FLAG_GOT_TM16_FROM_THIRSTY_GIRL
+	setflag FLAG_KJ_GOT_TM16_FROM_THIRSTY_GIRL
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ExplainTM16
 	return
 
 CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM20::
-	setflag FLAG_GOT_TM20_FROM_THIRSTY_GIRL
+	setflag FLAG_KJ_GOT_TM20_FROM_THIRSTY_GIRL
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ExplainTM20
 	return
 
 CeladonCity_DepartmentStore_Roof_EventScript_ExplainTM33::
-	setflag FLAG_GOT_TM33_FROM_THIRSTY_GIRL
+	setflag FLAG_KJ_GOT_TM33_FROM_THIRSTY_GIRL
 	msgbox CeladonCity_DepartmentStore_Roof_Text_ExplainTM33
 	return
 
@@ -281,84 +281,92 @@ CeladonCity_DepartmentStore_Roof_EventScript_ExitVendingMachine::
 	end
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink::
-	.string "I'm thirsty!\n"
-	.string "I want something to drink!\p"
-	.string "{FONT_NORMAL}Give her a drink?$"
+	.string "えーん…！\n"
+	.string "おにいちゃん！\l"
+	.string "ジュース　のみたいよー！\p"
+	.string "のみものを　あげますか？$"
 
 CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
-	.string "Give her which drink?$"
+	.string "どれを　あげますか？$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
-	.string "Yay!\p"
-	.string "FRESH WATER!\p"
-	.string "Thank you!\n"
-	.string "You can have this from me!$"
+	.string "わーい！\p"
+	.string "おいしいみず　くれるの？\p"
+	.string "ごちそう　さま！\p"
+	.string "おれいに　わたしの　たからもの\n"
+	.string "これ　あげるね！$"
 
 Text_ReceivedItemFromLittleGirl::
-	.string "{PLAYER} received a {STR_VAR_2}\n"
-	.string "from the little girl.$"
+	.string "{PLAYER}は　おんなのこ　から\n"
+	.string "{STR_VAR_2}を　もらった！$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
-	.string "TM16 contains LIGHT SCREEN.\p"
-	.string "It's a move that weakens the power\n"
-	.string "of special attacks by your foe.$"
+	.string "わざマシン１６の　なかは\n"
+	.string "ひかりのかべ　なの！\p"
+	.string "とくしゅこうげきの　ダメージを\n"
+	.string "よわく　して　くれるの$"
 
 CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
-	.string "Yay!\p"
-	.string "SODA POP!\p"
-	.string "Thank you!\n"
-	.string "You can have this from me!$"
+	.string "わーい！\p"
+	.string "サイコソーダ　くれるの？\p"
+	.string "ごちそうさま！\p"
+	.string "おれいに　わたしの　たからもの\n"
+	.string "これ　あげるね！$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
-	.string "TM20 contains SAFEGUARD.\p"
-	.string "It's a move that prevents status\n"
-	.string "problems among your POKéMON.$"
+	.string "わざマシン２０の　なかは\n"
+	.string "しんぴのまもり　なの！\p"
+	.string "じょうたいいじょうを\n"
+	.string "ふせいで　くれるの$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
-	.string "Yay!\p"
-	.string "LEMONADE!\p"
-	.string "Thank you!\n"
-	.string "You can have this from me!$"
+	.string "わーい！\p"
+	.string "ミックスオレ　くれるの？\p"
+	.string "ごちそうさま！\p"
+	.string "おれいに　わたしの　たからもの\n"
+	.string "これ　あげるね！$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
-	.string "TM33 contains REFLECT.\p"
-	.string "It's a move that weakens the power\n"
-	.string "of physical attacks by your foe.$"
+	.string "わざマシン３３の　なかは\n"
+	.string "リフレクター　なの！\p"
+	.string "ぶつりこうげきの　ダメージを\n"
+	.string "よわく　して　くれるの$"
 
 CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis::
-	.string "You don't have space for this!$"
+	.string "にもつ　いっぱいよ！$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
-	.string "No, thank you!\n"
-	.string "I'm not thirsty after all!$"
+	.string "うーん！\n"
+	.string "やっぱり　がまん　する！$"
 
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
-	.string "My sister is a TRAINER, believe it\n"
-	.string "or not.\p"
-	.string "But, she's so immature, she drives\n"
-	.string "me nuts!$"
+	.string "ウチの　いもうと　あれでも\n"
+	.string "ポケモン　トレーナーの　はしくれ！\p"
+	.string "だけど…\n"
+	.string "わがままで　イヤんなっちゃうよ$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
-	.string "I'm thirsty!\n"
-	.string "I want something to drink!$"
+	.string "えーん…！\n"
+	.string "おにいちゃん！\l"
+	.string "ジュース　のみたいよー！$"
 
 CeladonCity_DepartmentStore_Roof_Text_FloorSign::
-	.string "ROOFTOP SQUARE:\n"
-	.string "VENDING MACHINES$"
+	.string "おくじょう　…　いこいの　ひろば\n"
+	.string "　　　　　　…　じどう　はんばいき$"
 
 CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave::
-	.string "A vending machine!\n"
-	.string "What does it have?$"
+	.string "じどう　はんばいき　だ！\n"
+	.string "ほしい　のみものは…　…$"
 
 CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney::
-	.string "Oops, not enough money!$"
+	.string "おかねが　たりないぞ！$"
 
 CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut::
-	.string "A can of {STR_VAR_1} popped out!$"
+	.string "{STR_VAR_1}が　でてきた！$"
 
 CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff::
-	.string "There's no more room for stuff!$"
+	.string "これ　いじょう　もてない！$"
 
 CeladonCity_DepartmentStore_Roof_Text_NotThirsty::
-	.string "Not thirsty!$"
+	.string "やっぱり　やめた！$"
 

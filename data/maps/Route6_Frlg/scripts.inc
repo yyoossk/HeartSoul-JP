@@ -6,59 +6,79 @@ Route6_EventScript_UndergroundPathSign::
 	end
 
 Route6_Text_RickyIntro::
-	.string "だれだ？\nたちぎき　するなよ！$"
+	.string "だれだ！\n"
+	.string "ぼくらの　ひそひそ　ばなしを\l"
+	.string "ぬすみ　ぎき　してる　やつは！$"
 
 Route6_Text_RickyDefeat::
-	.string "ぜんぜん　かてない！$"
+	.string "なぜか　かてないんだ$"
 
 Route6_Text_RickyPostBattle::
-	.string "ひそひそ‥\nひそひそ‥$"
+	.string "…　…　ひそ　ひそ…$"
 
 Route6_Text_NancyIntro::
-	.string "ちょっと！\nないしょばなし　ちゅうよ！$"
+	.string "ちょっと　そこの　きみ！\n"
+	.string "ひとの　たち　ばなしを\l"
+	.string "ぬすみ　ぎき　するもんじゃないわ$"
 
 Route6_Text_NancyDefeat::
-	.string "もう！\nまけるのって　だいきらい$"
+	.string "やん！\n"
+	.string "やられる　なんて　なさけないわ$"
 
 Route6_Text_NancyPostBattle::
-	.string "ひそひそ‥\nひそひそ‥$"
+	.string "…　…　ひそ　ひそ…$"
 
 Route6_Text_KeigoIntro::
-	.string "この　へんは　むしが\nあまり　いないなあ$"
+	.string "この　へんまで　くると\n"
+	.string "あんまり　むしも　いないんだ$"
 
 Route6_Text_KeigoDefeat::
-	.string "うそ！\nじょうだん　でしょ！$"
+	.string "そんな　バカなあー$"
 
 Route6_Text_KeigoPostBattle::
-	.string "むしが　すきだから\nトキワの　もりに　もどるよ$"
+	.string "ぼく　やっぱり\n"
+	.string "むし　ポケモン　すきだし\l"
+	.string "トキワの　もりに　かえろうかな$"
 
 Route6_Text_JeffIntro::
-	.string "え？\nぼくに　なにか　よう？$"
+	.string "なんだい\n"
+	.string "おれに　なんか　よう？$"
 
 Route6_Text_JeffDefeat::
-	.string "くやしい‥\nきみには　かてなかった‥$"
+	.string "なさけない\n"
+	.string "うられた　ケンカに　まけた$"
 
 Route6_Text_JeffPostBattle::
-	.string "もっと　ポケモンを　つれて\nあるこう　そのほうが　あんしんだ$"
+	.string "もっと　たくさん\n"
+	.string "ポケモン　もって　あるいてた\l"
+	.string "ほうが　あんしんだな$"
 
 Route6_Text_IsabelleIntro::
-	.string "わたし？\nいいわよ　あいて　したげる！$"
+	.string "わたし？\n"
+	.string "…　…　…　うーん\l"
+	.string "つきあっても　いいかな$"
 
 Route6_Text_IsabelleDefeat::
-	.string "ぜんぜん　だめだった‥$"
+	.string "…　どうも\n"
+	.string "うまく　いかないわ$"
 
 Route6_Text_IsabellePostBattle::
-	.string "もっと　つよく　なりたいな\nひけつは　なに？$"
+	.string "あたしも　つよく　なりたいの\n"
+	.string "コツを　おしえて　くれない　かしら$"
 
 Route6_Text_ElijahIntro::
-	.string "みかけない　かおだね\nきみ　つよいの？$"
+	.string "おや？　みかけない　かお　だ！\n"
+	.string "つよいのかな？$"
 
 Route6_Text_ElijahDefeat::
-	.string "きみ　つよすぎ！$"
+	.string "そりゃ　ないよ$"
 
 Route6_Text_ElijahPostBattle::
-	.string "ぼくの　ポケモンが　よわいのかな？\nそれとも　ぼくが　へたなのかな？\lどっちだと　おもう？$"
+	.string "ポケモンが　よわいのか\n"
+	.string "ぼくの　うでが　わるいのか…\l"
+	.string "どっちだと　おもう？$"
 
 Route6_Text_UndergroundPathSign_Kj::
-	.string "ちかつうろ\nハナダシティ　ー　クチバシティ$"
+	.string "ここから　ちかつうろ\n"
+	.string "ハナダ　シティ　…　クチバ　シティ$"
 

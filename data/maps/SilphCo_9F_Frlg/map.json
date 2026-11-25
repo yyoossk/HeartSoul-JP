@@ -29,7 +29,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "SilphCo_9F_EventScript_Ed",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -43,7 +43,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "SilphCo_9F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -71,7 +71,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "SilphCo_9F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     }
   ],
   "warp_events": [
@@ -119,7 +119,7 @@
       "y": 14,
       "elevation": 3,
       "item": "ITEM_MAX_POTION",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_9F_MAX_POTION",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_9F_MAX_POTION",
       "quantity": 1,
       "underfoot": false
     },
@@ -257,7 +257,7 @@
       "y": 8,
       "elevation": 0,
       "item": "ITEM_CALCIUM",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_9F_CALCIUM",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_9F_CALCIUM",
       "quantity": 1,
       "underfoot": false
     },

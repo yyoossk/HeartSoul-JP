@@ -10,7 +10,7 @@ VermilionCity_Gym_Frlg_MapScripts::
 
 VermilionCity_Gym_OnLoad_Kj::
 	call_if_set FOUND_FIRST_SWITCH, VermilionCity_Gym_EventScript_SetOneBeamOff_Kj
-	call_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_SetBeamsOff_Kj
+	call_if_set FLAG_KJ_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_SetBeamsOff_Kj
 	end
 
 VermilionCity_Gym_EventScript_SetOneBeamOff_Kj::
@@ -44,7 +44,7 @@ VermilionCity_Gym_OnTransition_Kj::
 	end
 
 VermilionCity_Gym_EventScript_InitTrashCans_Kj::
-	goto_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, Common_EventScript_NopReturn
+	goto_if_set FLAG_KJ_FOUND_BOTH_VERMILION_GYM_SWITCHES, Common_EventScript_NopReturn
 	special SetVermilionTrashCans
 	copyvar VAR_TEMP_0, SWITCH1_ID
 	copyvar VAR_TEMP_1, SWITCH2_ID
@@ -143,7 +143,7 @@ VermilionCity_Gym_EventScript_TrashCan15_Kj::
 VermilionCity_Gym_EventScript_TrashCan_Kj::
 	copyvar SWITCH1_ID, VAR_TEMP_0
 	copyvar SWITCH2_ID, VAR_TEMP_1
-	goto_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_LocksAlreadyOpen_Kj
+	goto_if_set FLAG_KJ_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_LocksAlreadyOpen_Kj
 	goto_if_set FOUND_FIRST_SWITCH, VermilionCity_Gym_EventScript_TrySwitchTwo_Kj
 	goto_if_eq SWITCH1_ID, TRASH_CAN_ID, VermilionCity_Gym_EventScript_FoundSwitchOne_Kj
 	msgbox VermilionCity_Gym_Text_NopeOnlyTrashHere_Kj
@@ -179,7 +179,7 @@ VermilionCity_Gym_EventScript_FoundSwitchTwo_Kj::
 	special DrawWholeMapView
 	playse SE_UNLOCK
 	waitse
-	setflag FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES
+	setflag FLAG_KJ_FOUND_BOTH_VERMILION_GYM_SWITCHES
 	releaseall
 	end
 
@@ -204,23 +204,23 @@ VermilionCity_Gym_EventScript_SetBeamsOn_Kj::
 VermilionCity_Gym_EventScript_LtSurge::
 	famechecker FAMECHECKER_LTSURGE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeDefeat, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
-	goto_if_unset FLAG_GOT_TM34_FROM_SURGE, VermilionCity_Gym_EventScript_GiveTM34
+	goto_if_unset FLAG_KJ_GOT_TM34_FROM_SURGE, VermilionCity_Gym_EventScript_GiveTM34
 	msgbox VermilionCity_Gym_Text_LtSurgePostBattle
 	release
 	end
 
 VermilionCity_Gym_EventScript_DefeatedLtSurge::
 	famechecker FAMECHECKER_LTSURGE, 1
-	call_if_unset FLAG_GOT_HM05, VermilionCity_Gym_EventScript_ShowOaksAide
-	clearflag FLAG_HIDE_FAME_CHECKER_LT_SURGE_JOURNAL
-	setflag FLAG_DEFEATED_LT_SURGE
+	call_if_unset FLAG_KJ_GOT_HM05, VermilionCity_Gym_EventScript_ShowOaksAide
+	clearflag FLAG_KJ_HIDE_FAME_CHECKER_LT_SURGE_JOURNAL
+	setflag FLAG_KJ_DEFEATED_LT_SURGE
 	setflag FLAG_BADGE11_GET
 	set_gym_trainers_frlg 3
 	goto VermilionCity_Gym_EventScript_GiveTM34
 	end
 
 VermilionCity_Gym_EventScript_ShowOaksAide::
-	clearflag FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
+	clearflag FLAG_KJ_HIDE_VERMILION_CITY_OAKS_AIDE
 	return
 
 VermilionCity_Gym_EventScript_GiveTM34::
@@ -228,7 +228,7 @@ VermilionCity_Gym_EventScript_GiveTM34::
 	checkitemspace ITEM_TM34
 	goto_if_eq VAR_RESULT, FALSE, VermilionCity_Gym_EventScript_NoRoomForTM34
 	giveitem_msg VermilionCity_Gym_Text_ReceivedTM34FromLtSurge, ITEM_TM34
-	setflag FLAG_GOT_TM34_FROM_SURGE
+	setflag FLAG_KJ_GOT_TM34_FROM_SURGE
 	msgbox VermilionCity_Gym_Text_ExplainTM34
 	release
 	end
@@ -263,7 +263,7 @@ VermilionCity_Gym_EventScript_DefeatedTucker::
 VermilionCity_Gym_EventScript_GymGuy_Kj::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_LT_SURGE, VermilionCity_Gym_EventScript_GymGuyPostVictory_Kj
+	goto_if_set FLAG_KJ_DEFEATED_LT_SURGE, VermilionCity_Gym_EventScript_GymGuyPostVictory_Kj
 	msgbox VermilionCity_Gym_Text_GymGuyAdvice_Kj
 	release
 	end
@@ -286,74 +286,153 @@ VermilionCity_Gym_EventScript_GymStatuePostVictory_Kj::
 	end
 
 VermilionCity_Gym_Text_LtSurgeIntro::
-	.string "ヘイ　ボーイ！　ここで\nなにを　しているんだ？\pユーの　ちいさな　ちからでは\nせんじょうで　いきのこれないぞ！\pいいか　ボーイ　せんそうでは\nでんきポケモンに　たすけられた！\pてきを　しびれさせて\nうごけなく　したのさ！\pユーも　おなじ　めに\nあわせて　やる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "ヘーイ！\n"
+	.string "プア　リトル　キッド！\p"
+	.string "ユーの　ハンパな　パワーでは\n"
+	.string "せんじょうじゃ　いき　のこれないネ\p"
+	.string "ミーは　せんそうで\n"
+	.string "エレクトリック　ポケモン　つかって\l"
+	.string "いき　のびたネ！\p"
+	.string "みんな　ビリビリ　シビレて\n"
+	.string "うごけナーイ！\p"
+	.string "ユーも　おなじ　みち　たどる\n"
+	.string "ちがい　ナーイ！{0xFC}{0x0B}{0x56}{0x01}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-	.string "ひとつ　アドバイスだ　ボーイ！\pでんきは　たしかに　つよい！\pだが　じめんタイプの\nポケモンには　きかないぞ！$"
+	.string "ヘイ！\n"
+	.string "それから　ユーに　アドバイス！\p"
+	.string "エレクトリック　パワー\n"
+	.string "ビリビリ　つよいネー！\p"
+	.string "でも　じめん　タイプには\n"
+	.string "パワー　すいとられて　しまって\l"
+	.string "ぜんぜん　きかないヨー！$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-	.string "オレンジバッジは　ポケモンの\nすばやさを　あげる！\pそれに　いつでも　そらを　とぶが\nつかえる　ように　なるぞ　ボーイ！\pユーは　とくべつだ　ボーイ！\nこれを　うけとれ！$"
+	.string "オレンジ　バッジ　もってる　だけで\n"
+	.string "ユーの　ポケモン　スピード　アップ\p"
+	.string "アーンド！　そらをとぶ　わざは\n"
+	.string "ファイト　ない　ときも\l"
+	.string "つかえる　ように　なるヨ！\p"
+	.string "ユーは　スペシャル！\n"
+	.string "これは　ミーの　きもちネ！$"
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
-	.string "{PLAYER}は　マチスから\nわざマシン34を　もらった$"
+	.string "{PLAYER}は　マチスから\n"
+	.string "わざマシン３４を　もらった！$"
 
 VermilionCity_Gym_Text_ExplainTM34::
-	.string "わざマシン34は　でんげきは！\pでんきタイプの　ポケモンに\nおしえて　やれ！$"
+	.string "わざマシン３４は\n"
+	.string "でんき　ビリビリ　でんげきは\p"
+	.string "エレクトリック　ポケモンに\n"
+	.string "おしえて　くだサーイ！$"
 
 VermilionCity_Gym_Text_MakeRoomInYourBag::
-	.string "ヘイ　ボーイ　バッグを\nあけて　おけ！$"
+	.string "フル　オブ　ユア　リュック！\n"
+	.string "あなた　もてませーん！$"
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
-	.string "オー　ノー！　ショッキング！\pユーは　ほんものだ　ボーイ！\pよし　オレンジバッジを\nもって　いけ！$"
+	.string "オー　ノー！\p"
+	.string "ユーの　つよさ　トゥルース！\n"
+	.string "つまり　ほんもの　ネー！\p"
+	.string "オッケー！\n"
+	.string "オレンジ　バッジ　やるヨ！$"
 
 VermilionCity_Gym_Text_TuckerIntro::
-	.string "ぐんたいに　いた　ころ\nマチスは　きびしい　じょうかん\lだった\pほんとうに　きびしい\nひと　だったよ$"
+	.string "ぐんたいに　いた　ころは\n"
+	.string "マチス　しょうさに\l"
+	.string "ビシ！ビシ！　きたえられたぜ！$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
-	.string "まいった！\nきみは　つよい！$"
+	.string "うむ！\n"
+	.string "なかなかの　うでまえだ$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
-	.string "あの　ドアを　あけるのは\nかんたんじゃ　ないよ\pマチスは　ぐんたいでも\nようじんぶかい　ことで\lゆうめい　だったんだ$"
+	.string "へやが　あかないのか？\p"
+	.string "マチス　の　ようじん　ぶかさは\n"
+	.string "ぐんたいでも　ゆうめい　だったぜ！$"
 
 VermilionCity_Gym_Text_BailyIntro::
-	.string "ぼくは　かるいけど\nでんきには　つよいんだ！\pだから　この　ジムに\nはいったのさ！$"
+	.string "おれは　たいりょく　ないけど\n"
+	.string "でんきの　あつかいを　かわれて\l"
+	.string "ここに　きたのだ！$"
 
 VermilionCity_Gym_Text_BailyDefeat::
-	.string "しびれた！$"
+	.string "ひゅー！　しびれた！$"
 
 VermilionCity_Gym_Text_BailyPostBattle::
-	.string "わかった　おしえるよ！\pマチスは　ドアの　スイッチを\nなにかの　なかに　かくしたって\lいってた$"
+	.string "わかった　いうよー！\p"
+	.string "マチスは　へやの　スイッチを\n"
+	.string "なにかの…\l"
+	.string "そこに　かくしたと　いってたな$"
 
 VermilionCity_Gym_Text_DwayneIntro::
-	.string "ここは　こどもの　くる\nところじゃ　ないぞ！\lつよくても　だめだ！$"
+	.string "いくら　ポケモン　うまい　からって\n"
+	.string "ここは　こどもが\l"
+	.string "くる　ところ　じゃないぜ！$"
 
 VermilionCity_Gym_Text_DwayneDefeat::
-	.string "うわ！\nおどろいた！$"
+	.string "ほー　おどろきだ！$"
 
 VermilionCity_Gym_Text_DwaynePostBattle::
-	.string "ジムの　しかけは　マチスが\nじぶんで　つくったんだ\pいたるところに\nにじゅうの　ロックが　ある\lヒントを　やろう\pひとつめの　ロックを　あけたら\nふたつめは　すぐ　となりだ$"
+	.string "マチス　しょうさは\n"
+	.string "じぶんで　トラップを　つくって\l"
+	.string "へやを　２じゅう　ロック　してるぜ\l"
+	.string "…　ヒントを　あげよう！\p"
+	.string "だい１　ロックを　はずしたら\n"
+	.string "だい２　ロックは　すぐ　そばだ\l"
+	.string "ふたつの　ロックは\l"
+	.string "となりあわせに　あるぜ$"
 
 VermilionCity_Gym_Text_GymGuyAdvice_Kj::
-	.string "よう！\nみらいの　チャンピオン！\pマチスには　あだなが　ある\pみんなは　かれを\nイナズマ　アメリカン　と　よぶ！\pでんきポケモンの\nエキスパートだ\pとりや　みずタイプの　ポケモンは\nでんきタイプに　よわい\pまひにも　きを　つけろ\pマチスは　とても　ようじんぶかい\pじぶんを　とじこめて　いるから\nたどりつくのは　たいへんだぞ$"
+	.string "おーす！\n"
+	.string "みらいの　チャンピオン！\p"
+	.string "マチス　しょうさの　あだなは\n"
+	.string "イナズマ　アメリカン！\p"
+	.string "でんき　ポケモン　つかわせたら\n"
+	.string "アメリカ　ナンバー１　らしいぜ！\p"
+	.string "ひこう　タイプ　みず　タイプは\n"
+	.string "あいしょうが　わるいぜ！\p"
+	.string "マヒ　させられないよう\n"
+	.string "きを　つけな！\p"
+	.string "それと　マチスは　ようじん　ぶかい！\n"
+	.string "かれの　へやは　ロック　されて\l"
+	.string "かんたんには　はいれないぜ！$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory_Kj::
-	.string "ふう！\nしびれる　しあい　だったな！$"
+	.string "ふー　こくさい　じあいに\n"
+	.string "きんちょー　したぜ$"
 
 VermilionCity_Gym_Text_GymStatue_Kj::
-	.string "クチバ　ポケモンジム\nリーダー　マチス\pにんてい　トレーナー\n{RIVAL}$"
+	.string "クチバ　ポケモン　ジム\n"
+	.string "マチス　にんてい　トレーナー！\l"
+	.string "{RIVAL}$"
 
 VermilionCity_Gym_Text_GymStatuePlayerWon_Kj::
-	.string "クチバ　ポケモンジム\nリーダー　マチス\pにんてい　トレーナー\n{RIVAL}　{PLAYER}$"
+	.string "クチバ　ポケモン　ジム\n"
+	.string "マチス　にんてい　トレーナー！\l"
+	.string "{RIVAL}　{PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere_Kj::
-	.string "ない！\nゴミしか　ない$"
+	.string "ガサゴソ…！\n"
+	.string "なかは　ゴミ　ばっかり！$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened_Kj::
-	.string "あっ！　ゴミの　したに\nスイッチが　ある！　おしてみよう！\pひとつめの　でんきロックが\nひらいた！$"
+	.string "ガサゴソ…！\n"
+	.string "おっと！　ゴミばこの　そこに\l"
+	.string "スイッチが　あった！\l"
+	.string "おして　みよう！　…　ポチッとな\p"
+	.string "でんどうドアの\n"
+	.string "だい１　ロックが　はずれた！$"
 
 VermilionCity_Gym_Text_SecondLockOpened_Kj::
-	.string "ふたつめの　でんきロックが\nひらいた！　ドアが　ひらいた！$"
+	.string "でんどうドアの\n"
+	.string "だい２　ロックが　はずれた！\p"
+	.string "おおきな　でんどうドアが\n"
+	.string "かんぜんに　ひらいた！$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset_Kj::
-	.string "ない！\nゴミしか　ない\pあっ！\nでんきロックが　もどって　しまった！$"
+	.string "ガサゴソ…！\n"
+	.string "なかは　ゴミ　ばっかり！\l"
+	.string "あッ！　でんどうドアの\l"
+	.string "ロックが　もどって　しまった！$"
 

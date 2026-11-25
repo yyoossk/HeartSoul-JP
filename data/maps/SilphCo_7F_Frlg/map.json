@@ -30,7 +30,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SILPH_RIVAL"
+      "flag": "FLAG_KJ_HIDE_SILPH_RIVAL"
     },
     {
       "type": "object",
@@ -58,7 +58,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "SilphCo_7F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -72,7 +72,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "SilphCo_7F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -86,7 +86,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "SilphCo_7F_EventScript_Grunt3",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -143,7 +143,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "SilphCo_7F_EventScript_Joshua",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -157,7 +157,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_7F_EventScript_ItemCalcium",
-      "flag": "FLAG_HIDE_SILPH_CO_7F_CALCIUM"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_7F_CALCIUM"
     },
     {
       "type": "object",
@@ -171,7 +171,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_7F_EventScript_ItemTM08",
-      "flag": "FLAG_HIDE_SILPH_CO_7F_TM08"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_7F_TM08"
     }
   ],
   "warp_events": [
@@ -341,7 +341,7 @@
       "y": 11,
       "elevation": 0,
       "item": "ITEM_ZINC",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_7F_ZINC",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_7F_ZINC",
       "quantity": 1,
       "underfoot": false
     },

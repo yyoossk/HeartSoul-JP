@@ -4,7 +4,7 @@ CeruleanCity_Frlg_MapScripts::
 
 CeruleanCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_CERULEAN_CITY
-	call_if_unset FLAG_GOT_SS_TICKET, CeruleanCity_EventScript_BlockExits
+	call_if_unset FLAG_KJ_GOT_SS_TICKET, CeruleanCity_EventScript_BlockExits
 	end
 
 CeruleanCity_EventScript_BlockExits::
@@ -54,7 +54,7 @@ CeruleanCity_EventScript_Rival::
 	call_if_eq VAR_TEMP_1, 2, CeruleanCity_EventScript_RivalStartExitRight
 	msgbox CeruleanCity_Text_OhRightLittlePresentAsFavor
 	setvar VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1
-	setflag FLAG_GOT_FAME_CHECKER
+	setflag FLAG_KJ_GOT_FAME_CHECKER
 	giveitem ITEM_FAME_CHECKER
 	msgbox CeruleanCity_Text_ExplainFameCheckerSmellYa
 	closemessage
@@ -184,7 +184,7 @@ CeruleanCity_EventScript_GruntDefeated::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject LOCALID_CERULEAN_GRUNT
 	fadescreenswapbuffers FADE_FROM_BLACK
-	setflag FLAG_GOT_TM28_FROM_ROCKET
+	setflag FLAG_KJ_GOT_TM28_FROM_ROCKET
 	release
 	end
 
@@ -236,7 +236,7 @@ CeruleanCity_EventScript_Policeman::
 CeruleanCity_EventScript_LittleBoy::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_SS_TICKET, CeruleanCity_EventScript_LittleBoySlowbroMoved
+	goto_if_set FLAG_KJ_GOT_SS_TICKET, CeruleanCity_EventScript_LittleBoySlowbroMoved
 	msgbox CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree
 	release
 	end
@@ -358,98 +358,189 @@ CeruleanCity_EventScript_GymSign_Kj::
 	end
 
 CeruleanCity_Text_RivalIntro::
-	.string "{RIVAL}『よう！　{PLAYER}！\pまだ　こんな　ところで\nもたもた　してるのか？\pおれは　つよくて　かしこい\nポケモンを　たくさん　つかまえたぜ！\pどれ　おまえの　ポケモンを\nみせて　みろよ　{PLAYER}！$"
+	.string "{RIVAL}“よう　{PLAYER}！\p"
+	.string "こんな　とこ\n"
+	.string "うろちょろ　してたのか！\p"
+	.string "おれ　なんか　つよいの　すごいの\n"
+	.string "いろいろ　つかまえ　ちゃって\l"
+	.string "ぜっこうちょう　だぜ！\p"
+	.string "…　どれどれ　{PLAYER}は\n"
+	.string "なんか　つかまえた？\l"
+	.string "みせて　みろよ！$"
 
 CeruleanCity_Text_RivalDefeat::
-	.string "おい！\nもう　いいだろ！\lおまえの　かちだよ！$"
+	.string "なんだよー！\n"
+	.string "ムキに　なっちゃって！\l"
+	.string "…　わかった　わかった！$"
 
 CeruleanCity_Text_RivalPostBattle::
-	.string "{RIVAL}『なあ　しってるか？\pマサキの　ところで\nめずらしい　ポケモンを\lみせて　もらったんだ\pおかげで　ずかんが\nだいぶ　うまったぜ！\pマサキは　せかいてきに　ゆうめいな\nポケモンマニア　だからな\pパソコンの　ポケモン\nあずかりシステムを　つくったのも\lあいつ　なんだぜ\pおまえも　つかってるんだから\nおれいを　いって　こいよ\pじゃあ　そろそろ　いくぜ！\nあばよ！$"
+	.string "{RIVAL}“へへーんッ！\p"
+	.string "おれ　マサキの　うちに　いって\n"
+	.string "めずらしい　ポケモン　たくさん\l"
+	.string "みせて　もらっちゃった　もんね！\p"
+	.string "おかげで　ポケモン　ずかんの\n"
+	.string "ページが　ふえたぜ！\p"
+	.string "なにしろ　マサキは　ゆうめいな\n"
+	.string "ポケモン　マニア　だからな！\p"
+	.string "パソコン　つうしんの\n"
+	.string "ポケモン　あずかり　システム！\l"
+	.string "あれも　マサキが　つくったんだぜ\p"
+	.string "おまえも　つかってるんなら\n"
+	.string "いちど　おれいに　いけば？\p"
+	.string "おっと　みちくさ　くってる\n"
+	.string "ばあい　じゃ　ないぜ！\l"
+	.string "…　じゃな　バイビー！$"
 
 CeruleanCity_Text_OhRightLittlePresentAsFavor::
-	.string "ああ　そうだった\pおまえ　かわいそうにな\nいつも　おれの　あとを\lのろのろ　ついて　くるし\pだから　ちょっと　した\nプレゼントを　やるよ$"
+	.string "そうそう！\p"
+	.string "おれに　いつも　さき　こされて\n"
+	.string "おまえも　かわいそー　だから\l"
+	.string "これを　めぐんで　やるぜ！$"
 
 CeruleanCity_Text_ExplainFameCheckerSmellYa::
-	.string "おまえみたいな　ウワサずきには\nぴったりだろ\pおれは　ひとの　ことなんか\nきょうみ　ないから　いらないんだ\pじゃ　こんどこそ　ほんとに\nいくからな　あばよ！$"
+	.string "うわさずきの　おまえには\n"
+	.string "それが　ピッタリ　だぜ！\l"
+	.string "おれさまは　たにん　なんかに\l"
+	.string "きょうみ　ないからなー\p"
+	.string "じゃな　こんどこそ　バイビー！$"
 
 CeruleanCity_Text_GruntIntro::
-	.string "おい！　はいって　くるな！\nおまえの　にわじゃ　ないぞ！\p‥え？\nおれ？\pおれは　ただの　とおりすがりだ！\nしんじて　くれないのか？{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}$"
+	.string "あ　こら！\n"
+	.string "ひとんちの　にわ　はいるなよ！\l"
+	.string "……　……　え　おれ？\p"
+	.string "……　ただの　とおり　すがりだ\n"
+	.string "ぜーんぜん　あやしくないよ！\l"
+	.string "……　……　あやしい？{0xFC}{0x0B}{0x1B}{0x01}$"
 
 CeruleanCity_Text_GruntDefeat::
-	.string "したっぱ『まいった！\nおとなしく　でて　いくよ！$"
+	.string "だんいん“ひょえー　まいった！\n"
+	.string "もう　しないよ！\l"
+	.string "みのがして　くれい！$"
 
 CeruleanCity_Text_OkayIllReturnStolenTM::
-	.string "‥わかったよ\nぬすんだ　わざマシンを　かえすよ$"
+	.string "……　わかった！\n"
+	.string "ぬすんだ　もの　かえすよ$"
 
 CeruleanCity_Text_RecoveredTM28FromGrunt::
-	.string "{PLAYER}は　したっぱから\nわざマシン28を　とりかえした$"
+	.string "{PLAYER}は　ロケットだんいんから\n"
+	.string "わざマシン２８を　とりかえした！$"
 
 CeruleanCity_Text_BetterGetMovingBye::
-	.string "そろそろ　いかなきゃ！\nじゃあな！$"
+	.string "そ　それじゃ……！\n"
+	.string "おれは　たいさん　するから！\l"
+	.string "……　……　ばいばーい！$"
 
 CeruleanCity_Text_MakeRoomForThisCantRun::
-	.string "これを　うけとれ！\nわたすまで　いけないんだよ！$"
+	.string "にもつが　いっぱいだ！\p"
+	.string "……　これ　わたさないと\n"
+	.string "おれ　にげられないよ！$"
 
 CeruleanCity_Text_TrainerLifeIsToughIsntIt::
-	.string "きみも　トレーナー？\pあつめたり　たたかったり‥\nたいへんな　まいにちだよね$"
+	.string "きみも　ポケモン　やってるか！\n"
+	.string "あつめたり　たたかったり\l"
+	.string "いろいろ　たいへん　だな！$"
 
 CeruleanCity_Text_YouCanCutDownSmallTrees::
-	.string "ちいさな　きは　いあいぎりで\nきれるって　しってた？\pおみせの　まえの　ちいさな　きも\nいあいぎりで　きれるんだよ\pでも　まわりみちも\nあると　おもうよ$"
+	.string "ほそい　きは　いあいぎりで\n"
+	.string "きれるって　しってた？\p"
+	.string "みせの　まえの　ほそいきも\n"
+	.string "いあいぎりで　きれるんだよ！\p"
+	.string "でも　どこか　まわりみち　すると\n"
+	.string "いける　らしい　けど…$"
 
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
-	.string "あの　ヤドランが　いなければ\nちいさな　きを　いあいぎりで\lきれるんだけど\pそうすれば　むこうがわに\nいけるのにね\pでも　まわりみちも\nあると　おもうよ$"
+	.string "あの　ヤドランが　いなければ\n"
+	.string "きを　きって\l"
+	.string "むこうに　いけるのに…\p"
+	.string "でも　どこか　まわりみち　すると\n"
+	.string "いける　らしい　けど…$"
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
-	.string "ポケモンの　ずかんを\nつくってるの？　おもしろそう$"
+	.string "ほほう…！\n"
+	.string "ポケモンの　ずかんを　つくってる？\l"
+	.string "それは　たのしそう　だなあ！$"
 
 CeruleanCity_Text_PeopleHereWereRobbed::
-	.string "ここの　ひとたちが\nどろぼうに　はいられた\pロケットだんの　しわざに\nちがいない！\pけいさつも　ロケットだんには\nてを　やいて　いるんだ！$"
+	.string "かわいそーな　ことに\p"
+	.string "この　いえは\n"
+	.string "ドロボーに　はいられたんだ！\l"
+	.string "はんにんは　わかっとる！\l"
+	.string "ロケットだんの　しわざだ！\p"
+	.string "けいさつ　としても\n"
+	.string "ロケットだんの　あくじ　には\l"
+	.string "ほとほと　こまっとるのだ！$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
-	.string "よし！　ヤドラン！\nソニックブーム！$"
+	.string "さあ　ヤドラン！\n"
+	.string "ソニック　ブーム　だすのよ！$"
 
 CeruleanCity_Text_SlowbroPayAttention::
-	.string "ほら　ヤドラン　ちゃんと\nきいて！$"
+	.string "…やどらーん　ってば\l"
+	.string "わたしの　いうこと　きいて！$"
 
 CeruleanCity_Text_SlowbroPunch::
-	.string "ヤドラン　パンチ！$"
+	.string "ヤドラン！　そこで　パーンチ！$"
 
 CeruleanCity_Text_NoYouBlewItAgain::
-	.string "ああ！\nまた　しっぱいだ！$"
+	.string "…　がっくし　また　ダメ！$"
 
 CeruleanCity_Text_SlowbroWithdraw::
-	.string "ヤドラン　からにこもる！$"
+	.string "ヤドラン！　からに　こもるの！$"
 
 CeruleanCity_Text_HardToControlMonsObedience::
-	.string "ちがう！　そうじゃない！\nポケモンを　あやつるのは\lむずかしいなあ！\pポケモンが　いうことを　きくかは\nトレーナーの　うで　しだい$"
+	.string "あん　…ちがーう！\l"
+	.string "ポケモンって　むずかしいわ！\p"
+	.string "ポケモンが\n"
+	.string "いうこと　きくか　どうかは\l"
+	.string "ひとの　うでまえ　しだい　なんだもの$"
 
 CeruleanCity_Text_SlowbroTookSnooze::
-	.string "ヤドランは　いねむりを\nはじめた‥$"
+	.string "ヤドランは　ひるね　してる…$"
 
 CeruleanCity_Text_SlowbroLoafingAround::
-	.string "ヤドランは　なまけて　いる‥$"
+	.string "ヤドランは　なまけてる…$"
 
 CeruleanCity_Text_SlowbroTurnedAway::
-	.string "ヤドランは　そっぽを　むいた‥$"
+	.string "ヤドランは　そっぽを　むいた！$"
 
 CeruleanCity_Text_SlowbroIgnoredOrders::
-	.string "ヤドランは　いうことを\nきかない‥$"
+	.string "ヤドランは　しらんぷり　した…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
-	.string "まっかな　じてんしゃが\nほしいなあ\pよごれない　ように\nいえに　かざって　おくんだ$"
+	.string "わたしも　じてんしゃ　ほしい！\n"
+	.string "まっかな　じてんしゃ！\p"
+	.string "それで　よごすの　いや　だから\n"
+	.string "おうちに　かざるわ！$"
 
 CeruleanCity_Text_ThisIsCeruleanCave_Kj::
-	.string "ここは　ハナダの　どうくつ\pなかには　おそろしく　つよい\nポケモンが　すんで　いる\pとくべつな　トレーナーしか\nはいる　ことは　ゆるされない\pまず　ポケモンリーグの\nチャンピオンに　なれる　くらい\lつよく　なければ　ならない\pそして　なにか　おおきな　ことを\nなしとげて　いなければ　ならない$"
+	.string "ここは…　ハナダのどうくつ！\n"
+	.string "こわい　ほど　つよい　ポケモンが\l"
+	.string "せいそく　してるぞ！\p"
+	.string "この　どうくつ　には\n"
+	.string "ポケモン　リーグ　にんてい\l"
+	.string "チャンピオンに　なれるほど　つよく\p"
+	.string "また　いだいな　しごとを\n"
+	.string "なしとげた　トレーナーしか\l"
+	.string "はいれないのだ！$"
 
 CeruleanCity_Text_CitySign::
-	.string "ハナダシティ\nハナダは　みずいろ\lしんぴの　いろ$"
+	.string "ここは　ハナダシティ\n"
+	.string "ハナダは　みずいろ　しんぴのいろ$"
 
 CeruleanCity_Text_TrainerTipsHeldItems::
-	.string "トレーナー　ワンポイント\pポケモンには　どうぐを\nもたせる　ことが　できる\pもたせた　どうぐを　ポケモンが\nバトルで　つかう　ことも　ある$"
+	.string "…　おとくな　けいじばん！\p"
+	.string "ポケモンには　どうぐを\n"
+	.string "もたせる　ことが　できます！\p"
+	.string "どうぐを　もたせておくと\n"
+	.string "ポケモンが　それを\l"
+	.string "つかう　ことも　あります！$"
 
 CeruleanCity_Text_BikeShopSign_Kj::
-	.string "くさむらも　どうくつも　らくらく！\nじてんしゃや$"
+	.string "くさむらも　どうくつも　スイスイ！\n"
+	.string "…　…　ミラクル・サイクル$"
 
 CeruleanCity_Text_GymSign_Kj::
-	.string "ハナダシティ　ポケモンジム\nリーダー　カスミ\l「おてんばな　にんぎょ」$"
+	.string "ハナダ　シティ　ポケモン　ジム\n"
+	.string "リーダー　カスミ\l"
+	.string "おてんば　にんぎょ$"
 

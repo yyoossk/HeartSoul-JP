@@ -6,12 +6,12 @@ Route25_SeaCottage_Frlg_MapScripts::
 	.byte 0
 
 Route25_SeaCottage_OnTransition::
-	call_if_unset FLAG_HELPED_BILL_IN_SEA_COTTAGE, Route25_SeaCottage_EventScript_HideClefairyBill
-	call_if_set FLAG_GOT_SS_TICKET, Route25_SeaCottage_EventScript_SetReturnedAfterSSTicket
+	call_if_unset FLAG_KJ_HELPED_BILL_IN_SEA_COTTAGE, Route25_SeaCottage_EventScript_HideClefairyBill
+	call_if_set FLAG_KJ_GOT_SS_TICKET, Route25_SeaCottage_EventScript_SetReturnedAfterSSTicket
 	end
 
 Route25_SeaCottage_EventScript_HideClefairyBill::
-	clearflag FLAG_HIDE_BILL_CLEFAIRY
+	clearflag FLAG_KJ_HIDE_BILL_CLEFAIRY
 	setobjectxyperm LOCALID_BILL_HUMAN, 3, 3
 	return
 
@@ -23,8 +23,8 @@ Route25_SeaCottage_EventScript_Bill::
 	lock
 	faceplayer
 	goto_if_set RETURN_AFTER_SS_TICKET, Route25_SeaCottage_EventScript_BillGoLookAtPC
-	goto_if_set FLAG_GOT_SS_TICKET, Route25_SeaCottage_EventScript_BillGoToSSAnne
-	goto_if_set FLAG_HELPED_BILL_IN_SEA_COTTAGE, Route25_SeaCottage_EventScript_BillGiveSSTicket
+	goto_if_set FLAG_KJ_GOT_SS_TICKET, Route25_SeaCottage_EventScript_BillGoToSSAnne
+	goto_if_set FLAG_KJ_HELPED_BILL_IN_SEA_COTTAGE, Route25_SeaCottage_EventScript_BillGiveSSTicket
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route25_SeaCottage_EventScript_BillAskForHelpMale
 	goto_if_eq VAR_RESULT, FEMALE, Route25_SeaCottage_EventScript_BillAskForHelpFemale
@@ -99,9 +99,9 @@ Route25_SeaCottage_EventScript_BillGiveSSTicket::
 	checkitemspace ITEM_SS_TICKET
 	goto_if_eq VAR_RESULT, FALSE, Route25_SeaCottage_EventScript_NoRoomForSSTicket
 	giveitem_msg Route25_SeaCottage_Text_ReceivedSSTicketFromBill, ITEM_SS_TICKET, 1, MUS_RG_OBTAIN_KEY_ITEM
-	setflag FLAG_GOT_SS_TICKET_DUP
-	setflag FLAG_HIDE_NUGGET_BRIDGE_ROCKET
-	setflag FLAG_GOT_SS_TICKET
+	setflag FLAG_KJ_GOT_SS_TICKET_DUP
+	setflag FLAG_KJ_HIDE_NUGGET_BRIDGE_ROCKET
+	setflag FLAG_KJ_GOT_SS_TICKET
 	setflag FLAG_SYS_PC_LANETTE
 	goto Route25_SeaCottage_EventScript_BillGoToSSAnne
 	end
@@ -154,7 +154,7 @@ Route25_SeaCottage_EventScript_RunCellSeparator::
 	msgbox Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator
 	closemessage
 	clearflag BILL_IN_TELEPORTER
-	setflag FLAG_HELPED_BILL_IN_SEA_COTTAGE
+	setflag FLAG_KJ_HELPED_BILL_IN_SEA_COTTAGE
 	special SpawnCameraObject
 	applymovement LOCALID_CAMERA, Route25_SeaCottage_Movement_CameraPanToTeleporters
 	waitmovement 0
@@ -185,7 +185,7 @@ Route25_SeaCottage_EventScript_RunCellSeparator::
 	waitdooranim
 	fadeinbgm 0
 	addobject LOCALID_BILL_HUMAN
-	clearflag FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE
+	clearflag FLAG_KJ_HIDE_BILL_HUMAN_SEA_COTTAGE
 	delay 50
 	playfanfare MUS_LEVEL_UP
 	applymovement LOCALID_BILL_HUMAN, Route25_SeaCottage_Movement_BillExitTeleporter
@@ -296,110 +296,113 @@ Route25_SeaCottage_Movement_BillExitTeleporter::
 	step_end
 
 Route25_SeaCottage_Text_ImBillHelpMeOutPal::
-	.string "Hiya! I'm a POKéMON…\n"
-	.string "…No I'm not!\p"
-	.string "Call me BILL!\n"
-	.string "I'm a true-blue POKéMANIAC!\p"
-	.string "Hey!\n"
-	.string "What's with that skeptical look?\p"
-	.string "I'm not joshing you, pal.\p"
-	.string "I screwed up an experiment and got\n"
-	.string "combined with a POKéMON!\p"
-	.string "So, how about it?\n"
-	.string "Help me out here!$"
+	.string "こんちわ！\n"
+	.string "ぼく　ポケモン…！\l"
+	.string "…　ちゃうわい！\p"
+	.string "わいは　マサキ！\n"
+	.string "ひと　よんで　ポケモンマニアや！\l"
+	.string "あッ　なんや　そのめは？\l"
+	.string "あんさん　しんよう　してへんな\p"
+	.string "ホントやで！\n"
+	.string "じっけんに　しっぱい　して\l"
+	.string "ポケモンと　くっついて　もうたんや\p"
+	.string "なッ！\n"
+	.string "たすけて　くれへん？$"
 
 Route25_SeaCottage_Text_ImBillHelpMeOutLady::
-	.string "Hiya! I'm a POKéMON…\n"
-	.string "…No I'm not!\p"
-	.string "Call me BILL!\n"
-	.string "I'm a true-blue POKéMANIAC!\p"
-	.string "Hey!\n"
-	.string "What's with that skeptical look?\p"
-	.string "I'm not joshing you, lady.\p"
-	.string "I screwed up an experiment and got\n"
-	.string "combined with a POKéMON!\p"
-	.string "So, how about it?\n"
-	.string "Help me out here!$"
+	.string "こんちわ！\n"
+	.string "ぼく　ポケモン…！\l"
+	.string "…　ちゃうわい！\p"
+	.string "わいは　マサキ！\n"
+	.string "ひと　よんで　ポケモンマニアや！\l"
+	.string "あッ　なんや　そのめは？\l"
+	.string "ねえさん　しんよう　してへんな\p"
+	.string "ホントやで！\n"
+	.string "じっけんに　しっぱい　して\l"
+	.string "ポケモンと　くっついて　もうたんや\p"
+	.string "なッ！\n"
+	.string "たすけて　くれへん？$"
 
 Route25_SeaCottage_Text_RunCellSeparationOnPC::
-	.string "Wait till I get inside the\n"
-	.string "TELEPORTER.\p"
-	.string "When I do, go to my PC and run\n"
-	.string "the Cell Separation System.$"
+	.string "わいが\n"
+	.string "てんそう　マシンに　はいるさかい\l"
+	.string "ぶんり　プログラムを　たのむで！\l"
+	.string "そうや　そこの　パソコンや！$"
 
 Route25_SeaCottage_Text_NoPleaseChief::
-	.string "No!?\n"
-	.string "Now don't be so cold!\p"
-	.string "Come on, you gotta help a guy in\n"
-	.string "deep, deep trouble!\p"
-	.string "What do you say, chief?\n"
-	.string "Please?\l"
-	.string "Okay?\l"
-	.string "All right!$"
+	.string "そんなあ…\n"
+	.string "つめたい　こと　いわんといて\l"
+	.string "よッ…　いろおとこ！\l"
+	.string "にくいねーッ\l"
+	.string "だいとうりょう！\l"
+	.string "ほな！　オッケー　やな！\l"
+	.string "きまりや！$"
 
 Route25_SeaCottage_Text_NoPleaseBeautiful::
-	.string "No!?\n"
-	.string "Now don't be so cold!\p"
-	.string "Come on, you gotta help a guy in\n"
-	.string "deep, deep trouble!\p"
-	.string "What do you say, beautiful?\n"
-	.string "Please?\l"
-	.string "Okay?\l"
-	.string "All right!$"
+	.string "そんなあ…\n"
+	.string "つめたい　こと　いわんといて\l"
+	.string "よッ…　いいおんな！\l"
+	.string "にくいねーッ\l"
+	.string "ミス　カントー！\l"
+	.string "ほな！　オッケー　やな！\l"
+	.string "きまりや！$"
 
 Route25_SeaCottage_Text_ThanksBudTakeThis::
-	.string "BILL: Yeehah!\n"
-	.string "Thanks, bud! I owe you one!\p"
-	.string "So, did you come to see my\n"
-	.string "POKéMON collection?\p"
-	.string "You didn't?\n"
-	.string "That's a bummer.\p"
-	.string "I've got to thank you…\n"
-	.string "Oh, here, maybe this'll do.$"
+	.string "マサキ“やあー！\n"
+	.string "おおきに　おおきに　たすかったわ！\p"
+	.string "で…　あんさん！\n"
+	.string "わての　ポケモン　コレクション\l"
+	.string "みに　きたの　ちゃうんか？\l"
+	.string "なんや　おもろないなー\l"
+	.string "ああ　そや！\p"
+	.string "おれい　っちゅーのも\n"
+	.string "なんやけど…　これ　やるわ！$"
 
 Route25_SeaCottage_Text_ThanksLadyTakeThis::
-	.string "BILL: Yeehah!\n"
-	.string "Thanks, lady! I owe you one!\p"
-	.string "So, did you come to see my\n"
-	.string "POKéMON collection?\p"
-	.string "You didn't?\n"
-	.string "That's a bummer.\p"
-	.string "I've got to thank you…\n"
-	.string "Oh, here, maybe this'll do.$"
+	.string "マサキ“やあー！\n"
+	.string "おおきに　おおきに　たすかったわ！\p"
+	.string "で…　ねえさん！\n"
+	.string "わての　ポケモン　コレクション\l"
+	.string "みに　きたの　ちゃうんか？\l"
+	.string "なんや　おもろないなー\l"
+	.string "ああ　そや！\p"
+	.string "おれい　っちゅーのも\n"
+	.string "なんやけど…　これ　やるわ！$"
 
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill::
-	.string "{PLAYER} received an S.S. TICKET\n"
-	.string "from BILL.$"
+	.string "{PLAYER}は　マサキから\n"
+	.string "ふねのチケットを　もらった！$"
 
 Route25_SeaCottage_Text_YouveGotTooMuchStuff::
-	.string "You've got too much stuff!$"
+	.string "にもつ　いっぱいで　もてへんよ$"
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
-	.string "That cruise ship S.S. ANNE is in\n"
-	.string "VERMILION CITY.\p"
-	.string "I hear there are lots of TRAINERS\n"
-	.string "on board, too.\p"
-	.string "They invited me to their party, but\n"
-	.string "I can't stand fancy do's.\p"
-	.string "Why don't you go instead of me?\n"
-	.string "Go on and have a good time.$"
+	.string "いま　クチバの　みなとに\n"
+	.string "サント・アンヌごうが　きとんのや\l"
+	.string "ポケモン　トレーナーも\l"
+	.string "ぎょうさん　くる　らしいで\p"
+	.string "チケット　もろたのは　ええんやけど\n"
+	.string "パーティとか　すきや　ないからな\l"
+	.string "かわりに　いって　あそんでえな$"
 
 Route25_SeaCottage_Text_CheckOutRareMonsOnPC::
-	.string "BILL: Feel like checking out some\n"
-	.string "of my rare POKéMON on my PC?\p"
-	.string "Go on, check out my PC.$"
+	.string "マサキ“そや！\p"
+	.string "わての　ポケモン　コレクション\n"
+	.string "ちびっと　だけ　みせたろか？\l"
+	.string "わての　パソコン　みてみぃ$"
 
 Route25_SeaCottage_Text_TeleporterIsDisplayed::
-	.string "TELEPORTER is displayed on the PC\n"
-	.string "monitor.$"
+	.string "パソコンの　がめんに\n"
+	.string "てんそうマシンと　でてます！$"
 
 Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator::
-	.string "{PLAYER} initiated the TELEPORTER's\n"
-	.string "Cell Separator.$"
+	.string "{PLAYER}は　てんそうマシンの\n"
+	.string "ぶんり　プログラムを　きどう　した！$"
 
 Route25_SeaCottage_Text_BillsFavoriteMonList::
-	.string "BILL's favorite POKéMON list!$"
+	.string "マサキくんの\n"
+	.string "おきにいり　ポケモン　リスト！$"
 
 Route25_SeaCottage_Text_SeeWhichMon::
-	.string "Which POKéMON do you want to see?$"
+	.string "どれを　みせて　もらい　ますか？$"
 

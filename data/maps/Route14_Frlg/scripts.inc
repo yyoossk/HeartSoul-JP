@@ -6,158 +6,163 @@ Route14_EventScript_RouteSign::
 	end
 
 Route14_Text_CarterIntro::
-	.string "You need to use TMs to teach good\n"
-	.string "moves to POKéMON.$"
+	.string "つよい　ポケモンに　するなら\n"
+	.string "やっぱり　わざマシンで\l"
+	.string "いい　わざを　おしえないとね！$"
 
 Route14_Text_CarterDefeat::
-	.string "Not good enough quite yet.$"
+	.string "まだまだって　かんじだ$"
 
 Route14_Text_CarterPostBattle::
-	.string "You have some HMs, right? POKéMON\n"
-	.string "can't forget those moves easily.$"
+	.string "きみ　ひでんマシンも　もってるね\n"
+	.string "あれで　おぼえた　わざは\l"
+	.string "ポケモンは　２どと　わすれないよ$"
 
 Route14_Text_MitchIntro::
-	.string "My bird POKéMON should be ready\n"
-	.string "for battle.$"
+	.string "ぼくの　とり　ポケモン\n"
+	.string "そろそろ…\l"
+	.string "たたかわせて　みようか！$"
 
 Route14_Text_MitchDefeat::
-	.string "Not ready yet!$"
+	.string "まだ　はやかった$"
 
 Route14_Text_MitchPostBattle::
-	.string "My bird POKéMON need to learn\n"
-	.string "better moves.$"
+	.string "もっと　つよい　わざ\n"
+	.string "おしえて　から　たたかわせよう$"
 
 Route14_Text_BeckIntro::
-	.string "They have TMs on sale at the\n"
-	.string "CELADON DEPT. STORE.\p"
-	.string "TMs aren't really rare, but not\n"
-	.string "many people have HMs.$"
+	.string "わざマシンは\n"
+	.string "タマムシ　デパート　でも　かえる！\l"
+	.string "でも　ひでんマシン　もってる\l"
+	.string "ひとは　すくないね$"
 
 Route14_Text_BeckDefeat::
-	.string "Aww, bummer!$"
+	.string "もう　ダサダサ$"
 
 Route14_Text_BeckPostBattle::
-	.string "Try teaching POKéMON a move that's\n"
-	.string "the same type as it.\p"
-	.string "That apparently boosts the power\n"
-	.string "of the move.$"
+	.string "ポケモンの　タイプと　おなじ\n"
+	.string "タイプの　わざを　おしえると\l"
+	.string "わざの　いりょくが\l"
+	.string "おおきくなる　らしいよ$"
 
 Route14_Text_MarlonIntro::
-	.string "Have you taught your bird POKéMON\n"
-	.string "how to FLY?\p"
-	.string "You'll be able to soar with it into\n"
-	.string "the sky!$"
+	.string "きみの　とり　ポケモンは\n"
+	.string "きみを　のせて　そらを　とぶ\l"
+	.string "わざは　おぼえたかい？$"
 
 Route14_Text_MarlonDefeat::
-	.string "Shot down in flames!$"
+	.string "ぼろまけ！$"
 
 Route14_Text_MarlonPostBattle::
-	.string "Bird POKéMON are my one true love.\n"
-	.string "I don't want to raise anything else.$"
+	.string "ぼくらは　とりポケモンが\n"
+	.string "だいすき　だから…\l"
+	.string "それしか　そだてたく　ないよ$"
 
 Route14_Text_DonaldIntro::
-	.string "Have you heard the legend of the\n"
-	.string "winged mirages?$"
+	.string "まぼろしの　つばさ　という\n"
+	.string "はなし　きいた　こと　ある？$"
 
 Route14_Text_DonaldDefeat::
-	.string "Why?\n"
-	.string "Why'd I lose?$"
+	.string "どうして　まけたかな$"
 
 Route14_Text_DonaldPostBattle::
-	.string "Well, the winged mirages are the\n"
-	.string "legendary bird POKéMON.\p"
-	.string "There are three of them: ARTICUNO,\n"
-	.string "ZAPDOS, and MOLTRES.$"
+	.string "でんせつに　でてくる\n"
+	.string "とり　ポケモンの　ことで\l"
+	.string "フリーザー　サンダー　ファイヤーの\l"
+	.string "３しゅるい　いる！$"
 
 Route14_Text_BennyIntro::
-	.string "I'm not into it, but okay.\n"
-	.string "Let's go!$"
+	.string "きが　のらない　けど…\n"
+	.string "しょうが　ない！　やるか！$"
 
 Route14_Text_BennyDefeat::
-	.string "I knew it!$"
+	.string "ああ…　やっぱりな$"
 
 Route14_Text_BennyPostBattle::
-	.string "Winning, losing… It's insignificant\n"
-	.string "under this huge sky.$"
+	.string "そらの　ひろさに　くらべたら\n"
+	.string "かち　まけ　なんて\l"
+	.string "どうって　こと　ないのさ！$"
 
 Route14_Text_LukasIntro::
-	.string "C'mon, c'mon.\n"
-	.string "Let's go, let's go, let's go!$"
+	.string "おれ　おれは　せっかちだ！\n"
+	.string "はやく　はやく　はやく　しろ！$"
 
 Route14_Text_LukasDefeat::
-	.string "Arrg!\n"
-	.string "Lost! Get lost!$"
+	.string "まけた　まけた\n"
+	.string "おわりだ　じゃあな$"
 
 Route14_Text_LukasPostBattle::
-	.string "What, what, what?\n"
-	.string "What do you want still?$"
+	.string "なんだ　なんだ　なんだ！\n"
+	.string "まだ　ようじが　ある　ある　のか！$"
 
 Route14_Text_IsaacIntro::
-	.string "I need to burn some time.\n"
-	.string "Shut up and battle.$"
+	.string "ちょうど　いいぜ！\n"
+	.string "つべこべ　いわずに　あいて　しな$"
 
 Route14_Text_IsaacDefeat::
-	.string "What?\n"
-	.string "You!?$"
+	.string "なんだ　こらあ！$"
 
 Route14_Text_IsaacPostBattle::
-	.string "Raising POKéMON is a drag, man.$"
+	.string "どうも　ちまちまと\n"
+	.string "そだてる　のは　にがてだぜ！$"
 
 Route14_Text_GeraldIntro::
-	.string "We ride out here because of the\n"
-	.string "wide-open spaces.$"
+	.string "この　あたりは\n"
+	.string "たてものが　すくねえ　から\l"
+	.string "よく　はしりに　くるぜ！$"
 
 Route14_Text_GeraldDefeat::
-	.string "Wipeout!$"
+	.string "おっと　こけちまった！$"
 
 Route14_Text_GeraldPostBattle::
-	.string "It's cool you made your POKéMON so\n"
-	.string "strong.\p"
-	.string "Might is right!\n"
-	.string "And you know it!$"
+	.string "よく　そこまで　そだてたな！\n"
+	.string "なんにしても…\p"
+	.string "つよいって　ことは\n"
+	.string "たいした　もんだぜ！$"
 
 Route14_Text_MalikIntro::
-	.string "POKéMON battle?\n"
-	.string "Cool! Rumble!$"
+	.string "ポケモン　たいけつか！\n"
+	.string "おもしろい！　つきあうぜ！$"
 
 Route14_Text_MalikDefeat::
-	.string "Blown away!$"
+	.string "なっとく　いかねえ$"
 
 Route14_Text_MalikPostBattle::
-	.string "You know who'd win, you and me\n"
-	.string "one-on-one!$"
+	.string "おれと　おまえの\n"
+	.string "ちょくせつ　たいけつ　だったら\l"
+	.string "おれが　かつぜ！$"
 
 Route14_Text_RouteSign::
-	.string "ROUTE 14\n"
-	.string "West to FUCHSIA CITY$"
+	.string "ここは　１４ばん　どうろ\n"
+	.string "にし　…　セキチク　シティ$"
 
 Route14_Text_KiriIntro::
-	.string "KIRI: JAN, let's try really,\n"
-	.string "really hard together.$"
+	.string "キリ“エナちゃん\n"
+	.string "がんばろうね$"
 
 Route14_Text_KiriDefeat::
-	.string "KIRI: Whimper…\n"
-	.string "We lost, didn't we?$"
+	.string "キリ“くすん\n"
+	.string "まけちゃったね$"
 
 Route14_Text_KiriPostBattle::
-	.string "KIRI: Did we lose because of me?$"
+	.string "キリ“わたしの　せいで\n"
+	.string "まけちゃったのかな$"
 
 Route14_Text_KiriNotEnoughMons::
-	.string "KIRI: We can battle if you have\n"
-	.string "two POKéMON.$"
+	.string "キリ“ポケモンさん　２ひき　いれば\n"
+	.string "いっしょに　たたかえるよ$"
 
 Route14_Text_JanIntro::
-	.string "JAN: KIRI, here we go!\n"
-	.string "We have to try hard!$"
+	.string "エナ“キリ　いくよ！\n"
+	.string "がんばろ！$"
 
 Route14_Text_JanDefeat::
-	.string "JAN: Eeeeh!\n"
-	.string "No fair!$"
+	.string "エナ“もー　くやしー！$"
 
 Route14_Text_JanPostBattle::
-	.string "JAN: KIRI, don't cry!\n"
-	.string "We'll just try harder next time.$"
+	.string "エナ“キリ　なかないの！\n"
+	.string "また　がんばれば　いいでしょ$"
 
 Route14_Text_JanNotEnoughMons::
-	.string "JAN: You want to battle?\n"
-	.string "You don't have enough POKéMON.$"
+	.string "エナ“しょうぶ　するの？\n"
+	.string "でも　ポケモン　たりないよ！$"

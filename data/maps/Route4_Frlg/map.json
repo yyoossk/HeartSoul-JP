@@ -68,7 +68,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route4_EventScript_ItemTM05",
-      "flag": "FLAG_HIDE_ROUTE4_TM05"
+      "flag": "FLAG_KJ_HIDE_ROUTE4_TM05"
     },
     {
       "type": "object",
@@ -168,7 +168,7 @@
       "y": 2,
       "elevation": 3,
       "item": "ITEM_GREAT_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE4_GREAT_BALL",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE4_GREAT_BALL",
       "quantity": 1,
       "underfoot": false
     },
@@ -178,7 +178,7 @@
       "y": 4,
       "elevation": 3,
       "item": "ITEM_PERSIM_BERRY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE4_PERSIM_BERRY",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE4_PERSIM_BERRY",
       "quantity": 1,
       "underfoot": false
     },
@@ -188,7 +188,7 @@
       "y": 17,
       "elevation": 3,
       "item": "ITEM_RAZZ_BERRY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE4_RAZZ_BERRY",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE4_RAZZ_BERRY",
       "quantity": 1,
       "underfoot": false
     }

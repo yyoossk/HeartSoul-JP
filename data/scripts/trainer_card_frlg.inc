@@ -65,12 +65,12 @@ CeladonCity_GameCorner_EventScript_NotEnoughMoneyForPhoto::
 FourIsland_House2_EventScript_StickerMan::
 	lock
 	specialvar VAR_0x8008, StickerManGetBragFlags
-	goto_if_unset FLAG_MET_STICKER_MAN, FourIsland_House2_EventScript_MeetStickerMan
-	goto_if_set FLAG_MET_STICKER_MAN, FourIsland_House2_EventScript_StickerManAskForBrag
+	goto_if_unset FLAG_KJ_MET_STICKER_MAN, FourIsland_House2_EventScript_MeetStickerMan
+	goto_if_set FLAG_KJ_MET_STICKER_MAN, FourIsland_House2_EventScript_StickerManAskForBrag
 	end
 
 FourIsland_House2_EventScript_MeetStickerMan::
-	setflag FLAG_MET_STICKER_MAN
+	setflag FLAG_KJ_MET_STICKER_MAN
 	msgbox FourIsland_House2_Text_WishICouldShowOffStickers
 	applymovement LOCALID_STICKER_MAN, Common_Movement_FacePlayer
 	waitmovement 0

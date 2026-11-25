@@ -12,7 +12,7 @@ PokemonLeague_LoreleisRoom_OnResume::
 	end
 
 PokemonLeague_LoreleisRoom_OnLoad::
-	call_if_set FLAG_DEFEATED_LORELEI, PokemonLeague_LoreleisRoom_EventScript_SetDoorOpen
+	call_if_set FLAG_KJ_DEFEATED_LORELEI, PokemonLeague_LoreleisRoom_EventScript_SetDoorOpen
 	call_if_eq VAR_MAP_SCENE_POKEMON_LEAGUE, 1, PokemonLeague_LoreleisRoom_EventScript_CloseEntry
 	end
 
@@ -51,15 +51,15 @@ PokemonLeague_LoreleisRoom_EventScript_Lorelei::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_LORELEI, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_DEFEATED_LORELEI, PokemonLeague_LoreleisRoom_EventScript_PostBattle
+	goto_if_set FLAG_KJ_DEFEATED_LORELEI, PokemonLeague_LoreleisRoom_EventScript_PostBattle
 	famechecker FAMECHECKER_LORELEI, 0
 	famechecker FAMECHECKER_LORELEI, 1
-	call_if_unset FLAG_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Intro
-	call_if_set FLAG_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_RematchIntro
+	call_if_unset FLAG_KJ_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Intro
+	call_if_set FLAG_KJ_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_RematchIntro
 	setflag FLAG_TEMP_3
 	setflag FLAG_TEMP_5
-	call_if_unset FLAG_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Battle
-	call_if_set FLAG_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Rematch
+	call_if_unset FLAG_KJ_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Battle
+	call_if_set FLAG_KJ_IS_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Rematch
 	clearflag FLAG_TEMP_5
 	goto PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei
 	end
@@ -86,42 +86,48 @@ PokemonLeague_LoreleisRoom_EventScript_PostBattle::
 	end
 
 PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
-	setflag FLAG_DEFEATED_LORELEI
+	setflag FLAG_KJ_DEFEATED_LORELEI
 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_LoreleisRoom_Text_PostBattle
 	release
 	end
 
 PokemonLeague_LoreleisRoom_Text_Intro::
-	.string "Welcome to the POKéMON LEAGUE.\p"
-	.string "I am LORELEI of the ELITE FOUR.\p"
-	.string "No one can best me when it comes\n"
-	.string "to icy POKéMON.\p"
-	.string "Freezing moves are powerful.\p"
-	.string "Your POKéMON will be at my mercy\n"
-	.string "when they are frozen solid.\p"
-	.string "Hahaha!\n"
-	.string "Are you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "ポケモン　リーグへ　ようこそ！\p"
+	.string "わたしが　してんのうの　カンナ！\p"
+	.string "こおり　ポケモン　つかわせたら\n"
+	.string "みぎに　でる　ものは　いないわ\p"
+	.string "あいてを　こおらせるって\n"
+	.string "とっても　きょうりょくよ！\p"
+	.string "だって　こおっちゃったら\n"
+	.string "あんたの　ポケモン\l"
+	.string "ぜんぜん　うごけ　ないんだから\p"
+	.string "…　あははッ！\n"
+	.string "じゃ　かくごは　いいかしら！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
-	.string "Welcome to the POKéMON LEAGUE.\p"
-	.string "I, LORELEI of the ELITE FOUR,\n"
-	.string "have returned!\p"
-	.string "You know how it goes.\n"
-	.string "No one can best me when it comes\l"
-	.string "to icy POKéMON.\p"
-	.string "Freezing moves are powerful.\p"
-	.string "Your POKéMON will be at my mercy\n"
-	.string "when they are frozen solid.\p"
-	.string "Hahaha!\n"
-	.string "Are you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "ポケモン　リーグへ　ようこそ！\p"
+	.string "してんのうの　カンナ\n"
+	.string "かえって　きたわ…！\p"
+	.string "わかってる　でしょ\n"
+	.string "こおり　ポケモン　つかわせたら\l"
+	.string "みぎに　でる　ものは　いないわ\p"
+	.string "あいてを　こおらせるって\n"
+	.string "とっても　きょうりょくよ！\p"
+	.string "だって　こおっちゃったら\n"
+	.string "あんたの　ポケモン\l"
+	.string "ぜんぜん　うごけ　ないんだから\p"
+	.string "…　あははッ！\n"
+	.string "じゃ　かくごは　いいかしら！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
-	.string "…Things shouldn't be this way!$"
+	.string "…　なんて　ことなの！$"
 
 PokemonLeague_LoreleisRoom_Text_PostBattle::
-	.string "You're better than I thought.\n"
-	.string "Go on ahead.\p"
-	.string "You only got a taste of the\n"
-	.string "POKéMON LEAGUE's power.$"
+	.string "すこしは　できる　みたいね！\n"
+	.string "わかった…！\l"
+	.string "つぎの　へやに　すすむと　いいわ！\p"
+	.string "ポケモン　リーグ　しんの　パワーは\n"
+	.string "まだまだ…！\l"
+	.string "こんな　ものじゃ　ないわよ！$"
 

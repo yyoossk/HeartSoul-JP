@@ -29,7 +29,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "RocketHideout_B3F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_MISC_KANTO_ROCKETS"
     },
     {
       "type": "object",
@@ -43,7 +43,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "RocketHideout_B3F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_MISC_KANTO_ROCKETS"
     },
     {
       "type": "object",
@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B3F_EventScript_ItemRareCandy",
-      "flag": "FLAG_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY"
+      "flag": "FLAG_KJ_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY"
     },
     {
       "type": "object",
@@ -71,7 +71,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B3F_EventScript_ItemTM21",
-      "flag": "FLAG_HIDE_ROCKET_HIDEOUT_B3F_TM21"
+      "flag": "FLAG_KJ_HIDE_ROCKET_HIDEOUT_B3F_TM21"
     },
     {
       "type": "object",
@@ -85,7 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B3F_EventScript_ItemBlackGlasses",
-      "flag": "FLAG_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES"
+      "flag": "FLAG_KJ_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES"
     }
   ],
   "warp_events": [
@@ -112,7 +112,7 @@
       "y": 3,
       "elevation": 3,
       "item": "ITEM_NUGGET",
-      "flag": "FLAG_HIDDEN_ITEM_ROCKET_HIDEOUT_B3F_NUGGET",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROCKET_HIDEOUT_B3F_NUGGET",
       "quantity": 1,
       "underfoot": false
     }

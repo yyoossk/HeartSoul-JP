@@ -4,18 +4,18 @@ PewterCity_Gym_Frlg_MapScripts::
 PewterCity_Gym_EventScript_Brock_Kj::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
-	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
+	goto_if_unset FLAG_KJ_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
 	msgbox PewterCity_Gym_Text_BrockPostBattle
 	release
 	end
 
 PewterCity_Gym_EventScript_DefeatedBrock::
 	famechecker FAMECHECKER_BROCK, 1
-	setflag FLAG_DEFEATED_BROCK
+	setflag FLAG_KJ_DEFEATED_BROCK
 	setflag FLAG_BADGE09_GET
 	setvar VAR_MAP_SCENE_PEWTER_CITY, 1
-	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
-	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
+	setflag FLAG_KJ_HIDE_PEWTER_CITY_GYM_GUIDE
+	clearflag FLAG_KJ_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	set_gym_trainers_frlg 1
 	goto PewterCity_Gym_EventScript_GiveTM39
 	end
@@ -25,7 +25,7 @@ PewterCity_Gym_EventScript_GiveTM39::
 	checkitemspace ITEM_TM39
 	goto_if_eq VAR_RESULT, FALSE, PewterCity_Gym_EventScript_NoRoomForTM39
 	giveitem_msg PewterCity_Gym_Text_ReceivedTM39FromBrock, ITEM_TM39
-	setflag FLAG_GOT_TM39_FROM_BROCK
+	setflag FLAG_KJ_GOT_TM39_FROM_BROCK
 	msgbox PewterCity_Gym_Text_ExplainTM39
 	release
 	end
@@ -43,7 +43,7 @@ PewterCity_Gym_EventScript_Liam::
 PewterCity_Gym_EventScript_GymGuy_Kj::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_BROCK, PewterCity_Gym_EventScript_GymGuyPostVictory
+	goto_if_set FLAG_KJ_DEFEATED_BROCK, PewterCity_Gym_EventScript_GymGuyPostVictory
 	msgbox PewterCity_Gym_Text_LetMeTakeYouToTheTop, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, PewterCity_Gym_EventScript_GymGuyTakeMeToTop
 	goto_if_eq VAR_RESULT, NO, PewterCity_Gym_EventScript_GymGuyDontTakeMeToTop
@@ -82,115 +82,126 @@ PewterCity_Gym_EventScript_GymStatuePostVictory_Kj::
 	end
 
 PewterCity_Gym_Text_BrockIntro::
-	.string "So, you're here. I'm BROCK.\n"
-	.string "I'm PEWTER's GYM LEADER.\p"
-	.string "My rock-hard willpower is evident\n"
-	.string "even in my POKéMON.\p"
-	.string "My POKéMON are all rock hard, and\n"
-	.string "have true-grit determination.\p"
-	.string "That's right - my POKéMON are all\n"
-	.string "the ROCK type!\p"
-	.string "Fuhaha! You're going to challenge\n"
-	.string "me knowing that you'll lose?\p"
-	.string "That's the TRAINER's honor that\n"
-	.string "compels you to challenge me.\p"
-	.string "Fine, then!\n"
-	.string "Show me your best!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "きたな！\n"
+	.string "おれは　ニビ　ポケモン　ジム\l"
+	.string "リーダーの　タケシ！\p"
+	.string "おれの　かたい　いしは\n"
+	.string "おれの　ポケモンにも　あらわれる！\l"
+	.string "かたくて　がまん　づよい！\p"
+	.string "そう！　つかうのは\n"
+	.string "いわ　タイプ　ばっかりだ！\p"
+	.string "ふはは！\n"
+	.string "まけると　わかってて　たたかうか！\l"
+	.string "ポケモン　トレーナーの　さがだな\l"
+	.string "いいだろう！\l"
+	.string "かかって　こい！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PewterCity_Gym_Text_BrockDefeat::
-	.string "I took you for granted, and so\n"
-	.string "I lost.\p"
-	.string "As proof of your victory, I confer\n"
-	.string "on you this…the official POKéMON\l"
-	.string "LEAGUE BOULDERBADGE.\p"
-	.string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
-	.string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-	.string "{FONT_MALE}Just having the BOULDERBADGE makes\n"
-	.string "your POKéMON more powerful.\p"
-	.string "It also enables the use of the\n"
-	.string "move FLASH outside of battle.\p"
-	.string "Of course, a POKéMON must know the\n"
-	.string "move FLASH to use it.$"
+	.string "きみを\n"
+	.string "みくびって　いた　ようだ\p"
+	.string "ぼくに　かった　あかしに\n"
+	.string "ポケモン　リーグ　こうにん\l"
+	.string "グレー　バッジを　さずけよう！\p"
+	.string "{PLAYER}は　タケシから\n"
+	.string "グレー　バッジを　もらった！{0xFC}{0x17}{0xFC}{0x0B}{0x04}{0x01}{0xFC}{0x08}{0xFE}{0xFC}{0x08}{0x56}{0xFC}{0x18}\p"
+	.string "グレー　バッジを　つけてると\n"
+	.string "それだけで\l"
+	.string "きみの　ポケモンは　つよくなる！\p"
+	.string "フラッシュ　という　わざを\n"
+	.string "もっている　ポケモンは\l"
+	.string "たたかって　なくても　フラッシュを\l"
+	.string "つかえる　ように　なる！$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
-	.string "Wait!\n"
-	.string "Take this with you.$"
+	.string "あと…　そうだ！\n"
+	.string "これを　きみに　あげよう！$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
-	.string "{PLAYER} received TM39\n"
-	.string "from BROCK.$"
+	.string "{PLAYER}は　タケシから\n"
+	.string "わざマシン３９を　もらった！$"
 
 PewterCity_Gym_Text_ExplainTM39::
-	.string "A TM, Technical Machine, contains a\n"
-	.string "technique for POKéMON.\p"
-	.string "Using a TM teaches the move it\n"
-	.string "contains to a POKéMON.\p"
-	.string "A TM is good for only one use.\p"
-	.string "So, when you use one, pick the\n"
-	.string "POKéMON carefully.\p"
-	.string "Anyways…\n"
-	.string "TM39 contains ROCK TOMB.\p"
-	.string "It hurls boulders at the foe and\n"
-	.string "lowers its SPEED.$"
+	.string "わざマシンを　つかうと　ポケモンは\n"
+	.string "すぐ　その　わざを　おぼえる！\l"
+	.string "ただし　マシンは　つかい　すてだ！\l"
+	.string "どの　ポケモンに　おぼえさせるか\l"
+	.string "よく　かんがえた　ほうが　いい\p"
+	.string "ところで…\n"
+	.string "わざマシン３９には\l"
+	.string "がんせきふうじ　が　はいっている！\p"
+	.string "いわを　あいてに　なげつけて\n"
+	.string "すばやさを　さげて　しまう\l"
+	.string "おもしろい　わざだ！$"
 
 PewterCity_Gym_Text_BrockPostBattle::
-	.string "There are all kinds of TRAINERS in\n"
-	.string "this huge world of ours.\p"
-	.string "You appear to be very gifted as a\n"
-	.string "POKéMON TRAINER.\p"
-	.string "So let me make a suggestion.\p"
-	.string "Go to the GYM in CERULEAN and test\n"
-	.string "your abilities.$"
+	.string "この　ひろい　せかいでは\n"
+	.string "いろんな　やつが　ポケモンで\l"
+	.string "たたかいを　くりひろげてる！\p"
+	.string "きみには\n"
+	.string "ポケモン　トレーナーの\l"
+	.string "さいのうが　ある　ようだ！\p"
+	.string "ハナダ　シティの　ジムにも　いき\n"
+	.string "きみの　ちからを\l"
+	.string "ためして　みると　いい$"
 
 PewterCity_Gym_Text_DontHaveRoomForThis::
-	.string "You don't have room for this.$"
+	.string "もちものが　いっぱいだ$"
 
 PewterCity_Gym_Text_LiamIntro::
-	.string "Stop right there, kid!\p"
-	.string "You're ten thousand light-years \n"
-	.string "from facing BROCK!$"
+	.string "まちなー！\p"
+	.string "こどもが　なんの　ようだ！\n"
+	.string "タケシさんに　ちょうせん　なんて\l"
+	.string "１００００こうねん　はやいんだよ！$"
 
 PewterCity_Gym_Text_LiamDefeat::
-	.string "Darn!\p"
-	.string "Light-years isn't time…\n"
-	.string "It measures distance!$"
+	.string "しまった！\p"
+	.string "１００００こうねんは…　…\n"
+	.string "じかん　じゃない！\l"
+	.string "…　…　きょり　だ！$"
 
 PewterCity_Gym_Text_LiamPostBattle::
-	.string "You're pretty hot.\n"
-	.string "…But not as hot as BROCK!$"
+	.string "おまえ　なかなか　やるな！\n"
+	.string "タケシさん　ほどじゃ　ないけどな$"
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
-	.string "Hiya!\n"
-	.string "Do you want to dream big?\p"
-	.string "Do you dare to dream of becoming\n"
-	.string "the POKéMON champ?\p"
-	.string "I'm no TRAINER, but I can advise\n"
-	.string "you on how to win.\p"
-	.string "Let me take you to the top!$"
+	.string "おっす！\n"
+	.string "ポケモン　チャンピオンを\l"
+	.string "めざして　みないか？\p"
+	.string "おれは　トレーナー　じゃない\n"
+	.string "しかし　かつ　ために　ばっちり\l"
+	.string "アドバイス　できるぜ！\p"
+	.string "な…！　いっしょに\n"
+	.string "ポケモン　チャンピオン　めざそうぜ$"
 
 PewterCity_Gym_Text_LetsGetHappening::
-	.string "All right!\n"
-	.string "Let's get happening!$"
+	.string "よっしゃーッ！\n"
+	.string "じゃ　さっそく…！$"
 
 PewterCity_Gym_Text_TryDifferentPartyOrders::
-	.string "The first POKéMON out in a match is\n"
-	.string "at the left of the POKéMON LIST.\p"
-	.string "By changing the order of POKéMON,\n"
-	.string "you may gain an advantage.\p"
-	.string "Try different orders to suit your\n"
-	.string "opponent's party.$"
+	.string "しょうぶの　さいしょに　とびだす\n"
+	.string "ポケモンは…\l"
+	.string "ポケモン　リストの\l"
+	.string "ひだりがわの　やつだ！\p"
+	.string "リストの　じゅんばんを　かえれば\n"
+	.string "ゆうりに　なることも　ある！\l"
+	.string "ためして　みなよ！$"
 
 PewterCity_Gym_Text_ItsFreeLetsGetHappening::
-	.string "It's a free service!\n"
-	.string "Let's get happening!$"
+	.string "えんりょは　いらんぜ！\n"
+	.string "じゃ　さっそく…！$"
 
 PewterCity_Gym_Text_YoureChampMaterial::
-	.string "Just as I thought!\n"
-	.string "You're POKéMON champ material!$"
+	.string "さすがだな！\n"
+	.string "この　ちょうしで　めざせ！\l"
+	.string "ポケモン　チャンピオン！$"
 
 PewterCity_Gym_Text_GymStatue_Kj::
-	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{RIVAL}$"
+	.string "ニビ　ポケモン　ジム\n"
+	.string "タケシ　にんてい　トレーナー！\l"
+	.string "{RIVAL}$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon_Kj::
-	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{RIVAL}　{PLAYER}$"
+	.string "ニビ　ポケモン　ジム\n"
+	.string "タケシ　にんてい　トレーナー！\l"
+	.string "{RIVAL}　{PLAYER}$"
 

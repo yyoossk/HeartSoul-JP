@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Woman",
-      "flag": "FLAG_HIDE_SAFFRON_FAN_CLUB_WOMAN"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_FAN_CLUB_WOMAN"
     },
     {
       "local_id": "LOCALID_TRAINER_FAN_CLUB_ROCKER",
@@ -105,7 +105,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Rocker",
-      "flag": "FLAG_HIDE_SAFFRON_FAN_CLUB_ROCKER"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_FAN_CLUB_ROCKER"
     },
     {
       "local_id": "LOCALID_TRAINER_FAN_CLUB_BEAUTY",
@@ -120,7 +120,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Beauty",
-      "flag": "FLAG_HIDE_SAFFRON_FAN_CLUB_BEAUTY"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_FAN_CLUB_BEAUTY"
     },
     {
       "local_id": "LOCALID_TRAINER_FAN_CLUB_BLACK_BELT",
@@ -135,7 +135,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_PokemonTrainerFanClub_EventScript_BlackBelt",
-      "flag": "FLAG_HIDE_SAFFRON_FAN_CLUB_BLACKBELT"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_FAN_CLUB_BLACKBELT"
     },
     {
       "type": "object",
@@ -149,7 +149,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_PokemonTrainerFanClub_EventScript_PokemonJournalBruno",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     },
     {
       "type": "object",
@@ -163,7 +163,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_PokemonTrainerFanClub_EventScript_PokemonJournalBruno",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     }
   ],
   "warp_events": [

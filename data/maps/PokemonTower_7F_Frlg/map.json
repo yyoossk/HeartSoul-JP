@@ -29,7 +29,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PokemonTower_7F_EventScript_MrFuji",
-      "flag": "FLAG_HIDE_TOWER_FUJI"
+      "flag": "FLAG_KJ_HIDE_TOWER_FUJI"
     },
     {
       "local_id": "LOCALID_POKEMON_TOWER_GRUNT1",
@@ -44,7 +44,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "PokemonTower_7F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_TOWER_ROCKET_1"
+      "flag": "FLAG_KJ_HIDE_TOWER_ROCKET_1"
     },
     {
       "local_id": "LOCALID_POKEMON_TOWER_GRUNT2",
@@ -59,7 +59,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "PokemonTower_7F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_TOWER_ROCKET_2"
+      "flag": "FLAG_KJ_HIDE_TOWER_ROCKET_2"
     },
     {
       "local_id": "LOCALID_POKEMON_TOWER_GRUNT3",
@@ -74,7 +74,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "PokemonTower_7F_EventScript_Grunt3",
-      "flag": "FLAG_HIDE_TOWER_ROCKET_3"
+      "flag": "FLAG_KJ_HIDE_TOWER_ROCKET_3"
     }
   ],
   "warp_events": [
@@ -94,7 +94,7 @@
       "y": 4,
       "elevation": 3,
       "item": "ITEM_SOOTHE_BELL",
-      "flag": "FLAG_HIDDEN_ITEM_POKEMON_TOWER_7F_SOOTHE_BELL",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_POKEMON_TOWER_7F_SOOTHE_BELL",
       "quantity": 1,
       "underfoot": true
     }

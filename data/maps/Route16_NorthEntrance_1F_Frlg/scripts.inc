@@ -4,7 +4,7 @@ Route16_NorthEntrance_1F_Frlg_MapScripts::
 
 Route16_NorthEntrance_1F_OnTransition::
 	clearflag FLAG_SYS_ON_CYCLING_ROAD
-	call_if_set FLAG_GOT_BICYCLE, Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger
+	call_if_set FLAG_KJ_GOT_BICYCLE, Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger
 	end
 
 Route16_NorthEntrance_1F_EventScript_DisableNeedBikeTrigger::
@@ -114,18 +114,24 @@ Route16_NorthEntrance_1F_EventScript_OldMan::
 	end
 
 Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad::
-	.string "No pedestrians are allowed on\n"
-	.string "CYCLING ROAD!$"
+	.string "　１nねくア　　うち\n"
+	.string "ちち\n"
+	.string "ちちち\n"
+	.string "ちちちち\n"
+	.string "て\n"
+	.string "そ　てoねくけいいサイクリング　ロードは\n"
+	.string "あるいて　すすむと　キケンです！\l"
+	.string "じてんしゃに　のって　きてね$"
 
 Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse::
-	.string "CYCLING ROAD is a downhill course\n"
-	.string "by the sea. It's a great ride.$"
+	.string "サイクリング　ロードは\n"
+	.string "うみを　いく　さかみち！\l"
+	.string "かけおりると　きもち　いいよ！$"
 
 Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp::
-	.string "Excuse me!\n"
-	.string "Wait up, please!$"
+	.string "ちょっと　きみ　きみ！$"
 
 Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort::
-	.string "How'd you get in?\n"
-	.string "Good effort!$"
+	.string "こんな　とこ　よく　きた！\n"
+	.string "ごくろうな　こっちゃ！$"
 

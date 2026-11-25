@@ -2,8 +2,8 @@ PokemonMansion_EventScript_SecretSwitch::
 	msgbox PokemonMansion_Text_PressSecretSwitch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, PokemonMansion_EventScript_DontPressSwitch
 	msgbox PokemonMansion_Text_WhoWouldnt
-	goto_if_set FLAG_POKEMON_MANSION_SWITCH_STATE, PokemonMansion_EventScript_ResetSwitch
-	setflag FLAG_POKEMON_MANSION_SWITCH_STATE
+	goto_if_set FLAG_KJ_POKEMON_MANSION_SWITCH_STATE, PokemonMansion_EventScript_ResetSwitch
+	setflag FLAG_KJ_POKEMON_MANSION_SWITCH_STATE
 	switch VAR_0x8004
 	case 0, PokemonMansion_EventScript_PressSwitch_1F
 	case 1, PokemonMansion_EventScript_PressSwitch_2F
@@ -12,7 +12,7 @@ PokemonMansion_EventScript_SecretSwitch::
 	end
 
 PokemonMansion_EventScript_ResetSwitch::
-	clearflag FLAG_POKEMON_MANSION_SWITCH_STATE
+	clearflag FLAG_KJ_POKEMON_MANSION_SWITCH_STATE
 	switch VAR_0x8004
 	case 0, PokemonMansion_EventScript_ResetSwitch_1F
 	case 1, PokemonMansion_EventScript_ResetSwitch_2F

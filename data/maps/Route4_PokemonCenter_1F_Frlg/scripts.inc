@@ -23,7 +23,7 @@ Route4_PokemonCenter_1F_EventScript_Gentleman::
 Route4_PokemonCenter_1F_EventScript_MagikarpSalesman::
 	lock
 	faceplayer
-	goto_if_set FLAG_BOUGHT_MAGIKARP, Route4_PokemonCenter_1F_EventScript_AlreadyBoughtMagikarp
+	goto_if_set FLAG_KJ_BOUGHT_MAGIKARP, Route4_PokemonCenter_1F_EventScript_AlreadyBoughtMagikarp
 	showmoneybox 0, 0
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route4_PokemonCenter_1F_EventScript_AskBuyMagikarpMale
@@ -93,7 +93,7 @@ Route4_PokemonCenter_1F_EventScript_EndPurchaseMagikarp::
 	end
 
 Route4_PokemonCenter_1F_EventScript_BoughtMagikarp::
-	setflag FLAG_BOUGHT_MAGIKARP
+	setflag FLAG_KJ_BOUGHT_MAGIKARP
 	release
 	end
 
@@ -149,56 +149,56 @@ Route4_PokemonCenter_1F_EventScript_Newspaper::
 	end
 
 Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
-	.string "Okay, set six POKé BALLS in my\n"
-	.string "belt…\p"
-	.string "Yeah, that'll do it. At most, you\n"
-	.string "can have six POKéMON with you.$"
+	.string "ボールを　ベルトに　セット\n"
+	.string "１　２　３　４　５　６…　と！\p"
+	.string "うん…　つれて　いける\n"
+	.string "ポケモンは　６ひき　までだ$"
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
-	.string "TEAM ROCKET attacks CERULEAN\n"
-	.string "citizens…\p"
-	.string "Not a day goes by without TEAM\n"
-	.string "ROCKET being in the news.$"
+	.string "ハナダ　シティの　みんか\n"
+	.string "おそわれる…　か！\p"
+	.string "しんぶんに　ロケットだんの\n"
+	.string "じけんが　のらない　ひは　ないな$"
 
 Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
-	.string "MAN: Hello there, laddie!\n"
-	.string "Have I got a deal just for you!\p"
-	.string "I'll let you have a secret POKéMON\n"
-	.string "- a MAGIKARP - for just ¥500!\p"
-	.string "So, you'll buy it, am I right?$"
+	.string "おじさん“ぼっちゃん\n"
+	.string "あ・な・た・だけに…！\l"
+	.string "いい　おはなしが　ありまして\p"
+	.string "ひみつの　ポケモン　コイキングが\n"
+	.string "なんと　たったの　５００円！\l"
+	.string "どうだい　かうかね？$"
 
 Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500::
-	.string "MAN: Hello there, sweetie pie!\n"
-	.string "Have I got a deal just for you!\p"
-	.string "I'll let you have a secret POKéMON\n"
-	.string "- a MAGIKARP - for just ¥500!\p"
-	.string "So, you'll buy it, am I right?$"
+	.string "おじさん“じょうちゃん\n"
+	.string "あ・な・た・だけに…！\l"
+	.string "いい　おはなしが　ありまして\p"
+	.string "ひみつの　ポケモン　コイキングが\n"
+	.string "なんと　たったの　５００円！\l"
+	.string "どうだい　かうかね？$"
 
 Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp::
-	.string "{PLAYER} paid an outrageous ¥500\n"
-	.string "and bought the MAGIKARP…$"
+	.string "{PLAYER}は　コイキングを\n"
+	.string "５００円も　だして　かった！$"
 
 Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou::
-	.string "No? You say no? I'm only doing this\n"
-	.string "as a favor to you!$"
+	.string "そお？　ざんねんだねえ…$"
 
 Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon::
-	.string "There's no more room for any more\n"
-	.string "POKéMON, it looks like.$"
+	.string "ポケモン　いっぱいで　もてないな$"
 
 Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney::
-	.string "You'll need more money than that!$"
+	.string "おかね　たりない　みたいだねえ$"
 
 Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
-	.string "MAN: Well, I don't give refunds.\n"
-	.string "You knew what you were getting!$"
+	.string "おじさん“そうそう　ポケモンの\n"
+	.string "へんぴんは　おことわり　だからな$"
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
-	.string "Sometimes, you'll have too many\n"
-	.string "POKéMON with you to add any more.\p"
-	.string "In that case, you should just\n"
-	.string "store some using any PC.$"
+	.string "ポケモンを　たくさん　つかまえて\n"
+	.string "もちきれない　ときは\p"
+	.string "パソコン　つうしんで\n"
+	.string "あずけると　いいよ$"
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
-	.string "It's a newspaper.$"
+	.string "しんぶんだ！$"
 

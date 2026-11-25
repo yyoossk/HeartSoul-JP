@@ -3,7 +3,7 @@ SilphCo_8F_Frlg_MapScripts::
 	.byte 0
 
 SilphCo_8F_OnLoad::
-	call_if_unset FLAG_SILPH_8F_DOOR, EventScript_Close8FDoor
+	call_if_unset FLAG_KJ_SILPH_8F_DOOR, EventScript_Close8FDoor
 	end
 
 SilphCo_8F_EventScript_WorkerM::
@@ -39,51 +39,53 @@ SilphCo_8F_EventScript_Grunt2::
 	end
 
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-	.string "I wonder if SILPH is finished…$"
+	.string "シルフは　のっとられて\n"
+	.string "…　おわりかな$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
-	.string "Thanks for saving us!$"
+	.string "ありがとう　たすかった！$"
 
 SilphCo_8F_Text_Grunt1Intro::
-	.string "That's as far as you'll go!$"
+	.string "ここから　さきは　いかせ　ないぜ！$"
 
 SilphCo_8F_Text_Grunt1Defeat::
-	.string "Not enough grit!$"
+	.string "きあいが　たりんか$"
 
 SilphCo_8F_Text_Grunt1PostBattle::
-	.string "If you don't turn back…\n"
-	.string "I'll call for backup!$"
+	.string "はやく　ひきかえさないと\n"
+	.string "…　なかまを　よぶぜ！$"
 
 SilphCo_8F_Text_ParkerIntro::
-	.string "You're causing us problems!$"
+	.string "すき　かって　やられちゃ\n"
+	.string "こまるんだぜ！$"
 
 SilphCo_8F_Text_ParkerDefeat::
-	.string "Huh?\n"
-	.string "I lost?$"
+	.string "…？　まけたのか$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-	.string "So, what do you think of SILPH\n"
-	.string "BUILDING's maze?$"
+	.string "どうだね？\n"
+	.string "めいろの　ような\l"
+	.string "シルフ　ビルの　かんそうは？$"
 
 SilphCo_8F_Text_Grunt2Intro::
-	.string "I am one of the four ROCKET\n"
-	.string "BROTHERS!$"
+	.string "おれこそは\n"
+	.string "ロケット　４きょうだいの　ひとり！$"
 
 SilphCo_8F_Text_Grunt2Defeat::
-	.string "Whoo!\n"
-	.string "Oh, Brothers!$"
+	.string "にいさん　まけたよ$"
 
 SilphCo_8F_Text_Grunt2PostBattle::
-	.string "I'll leave you up to my brothers.$"
+	.string "まあ　いい\n"
+	.string "あにきが　かたきを　とって　くれる$"
 
 SilphCo_8F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "8F$"
+	.string "シルフ　カンパニー　ほんしゃ\n"
+	.string "８かい$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
-	.string "TEAM ROCKET's BOSS is terribly\n"
-	.string "cruel!\p"
-	.string "To him, POKéMON are just tools to\n"
-	.string "be used.\p"
-	.string "What will happen if that tyrant\n"
-	.string "takes over our company…$"
+	.string "ロケットだんの　ボスは\n"
+	.string "ひどい　やつだぜ…！\p"
+	.string "ポケモンを　どうぐの　ようにしか\n"
+	.string "かんがえちゃ　いないんだ！\p"
+	.string "あんなやつに　この　かいしゃを\n"
+	.string "のっとられたら…$"

@@ -3,7 +3,7 @@ SSAnne_CaptainsOffice_Frlg_MapScripts::
 
 SSAnne_CaptainsOffice_EventScript_Captain::
 	lock
-	goto_if_set FLAG_GOT_HM01, SSAnne_CaptainsOffice_EventScript_AlreadyGotCut
+	goto_if_set FLAG_KJ_GOT_HM01, SSAnne_CaptainsOffice_EventScript_AlreadyGotCut
 	msgbox SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	message SSAnne_CaptainsOffice_Text_RubbedCaptainsBack
@@ -17,7 +17,7 @@ SSAnne_CaptainsOffice_EventScript_Captain::
 	msgbox SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut
 	giveitem_msg SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain, ITEM_HM01, 1, MUS_RG_OBTAIN_KEY_ITEM
 	msgbox SSAnne_CaptainsOffice_Text_ExplainCut
-	setflag FLAG_GOT_HM01
+	setflag FLAG_KJ_GOT_HM01
 	setvar VAR_MAP_SCENE_VERMILION_CITY, 1
 	release
 	end
@@ -47,55 +47,60 @@ SSAnne_CaptainsOffice_EventScript_Book::
 	end
 
 SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick::
-	.string "CAPTAIN: Ooargh…\n"
-	.string "I feel hideous…\l"
-	.string "Urrp! Seasick…$"
+	.string "　ハろがいかあぜぱにくそ　ナぱにくけえMうヌズぱにくニぅ　あぇえづぜのくりぇ　ぽあ　ゴぱのくア　　そ　Fぱにくけえでウああ　そ　ナぴにくは　ィウあはあィあ　はいィずあけけそ　ェぴにくけえるがいにンぞあ　フいそ　けぷにくけえネぽあ　ゼぱのくア　　フいぽあ　ゴぱのくア　　そ　,ぴにくけえフいそ　ひぷにくけういそ　ぃぷにくけういせんちょう“おえー…！\n"
+	.string "ふなよいで…　すっかり　ダウンだ\l"
+	.string "くるしい…　…　うえ！$"
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
-	.string "{PLAYER} rubbed the CAPTAIN's\n"
-	.string "back!\p"
-	.string "Rub-rub…\n"
-	.string "Rub-rub…$"
+	.string "{PLAYER}は　せんちょうの\n"
+	.string "せなかを　さすって　あげた！\p"
+	.string "すりすり…　すりすり…\n"
+	.string "すりすり…　すりすり…$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
-	.string "CAPTAIN: Whew! Thank you!\n"
-	.string "I'm feeling much better now.\p"
-	.string "You want to see my hidden CUT\n"
-	.string "technique?\p"
-	.string "I could show you my prized CUT\n"
-	.string "technique if I weren't so ill…\p"
-	.string "I know! You can have this!\n"
-	.string "This HIDDEN MACHINE!\p"
-	.string "Teach CUT to your POKéMON, and\n"
-	.string "you can see it CUT anytime!$"
+	.string "せんちょう“ふう…　ありがとう\n"
+	.string "だいぶ　ラクに　なった　みたいだ\p"
+	.string "…なになに　なんだ\n"
+	.string "ひでんの　わざを　みに　きたのか\p"
+	.string "げんきな　ときなら　じまんの\n"
+	.string "いあいぎりを　みせるんだがなあ…\p"
+	.string "そうだ！\n"
+	.string "かわりに　これを　あげよう！\p"
+	.string "これを　きみの\n"
+	.string "ポケモンに　おしえれば\l"
+	.string "たたかって　いない　ときでも\l"
+	.string "いつでも　いあいぎりが　みられる！$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
-	.string "{PLAYER} obtained HM01\n"
-	.string "from the CAPTAIN!$"
+	.string "{PLAYER}は　せんちょう　から\n"
+	.string "ひでんマシン０１を　もらった！$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-	.string "Using CUT, you can chop down\n"
-	.string "small trees.\p"
-	.string "Why not try it with the trees\n"
-	.string "around VERMILION CITY?$"
+	.string "いあいぎりを　つかえば\n"
+	.string "ほそい　きも　きれる！\p"
+	.string "ためしに…　クチバシティに　ある\n"
+	.string "きでも　きって　みたまえ$"
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
-	.string "CAPTAIN: …Whew!\p"
-	.string "Now that I'm not sick anymore,\n"
-	.string "I guess it's time.\p"
-	.string "The S.S. ANNE will set sail soon!\p"
-	.string "Farewell, until our return to\n"
-	.string "VERMILION CITY!$"
+	.string "せんちょう“…ふう！\p"
+	.string "らくに　なったし…\n"
+	.string "そろそろ　じかんだ！\p"
+	.string "もうすぐ　サント・アンヌは\n"
+	.string "しゅっぱつ　するよ！\p"
+	.string "また　クチバに　くる　ときまで\n"
+	.string "ごきげんよう！$"
 
 SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
-	.string "Oh, no!\n"
-	.string "You have no room for this!$"
+	.string "なんとー！\n"
+	.string "にもつが　いっぱいだ！$"
 
 SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
-	.string "Yuck!\n"
-	.string "Shouldn't have looked!$"
+	.string "あんまり　みないほうが\n"
+	.string "いい　みたいだ…$"
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
-	.string "How to Conquer Seasickness…\n"
-	.string "The CAPTAIN's reading this!$"
+	.string "ふなよい　しない\n"
+	.string "ふなのり　にゅうもん…\l"
+	.string "…これは\l"
+	.string "せんちょうが　よんでいる　ほんだ！$"
 

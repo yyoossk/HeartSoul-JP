@@ -274,3 +274,4 @@
 	.include "data/scripts/seagallop.inc"
 	.include "data/scripts/trainer_card_frlg.inc"
 	.include "data/text/trainer_card_frlg.inc"
+	.include "data/scripts/kj_new_game.inc"

@@ -6,5 +6,6 @@ Route7_EventScript_UndergroundPathSign::
 	end
 
 Route7_Text_UndergroundPathSign_Kj::
-	.string "ちかつうろ\nタマムシシティ　ー　シオンタウン$"
+	.string "ここから　ちかつうろ\n"
+	.string "タマムシ　…　シオン$"
 

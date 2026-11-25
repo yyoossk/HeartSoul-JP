@@ -14,7 +14,7 @@ Route18_EastEntrance_2F_EventScript_Haden::
 	faceplayer
 	setvar VAR_0x8008, INGAME_TRADE_LICKITUNG
 	call EventScript_GetInGameTradeSpeciesInfo
-	goto_if_set FLAG_DID_MARC_TRADE, Route18_EastEntrance_2F_EventScript_AlreadyTraded
+	goto_if_set FLAG_KJ_DID_MARC_TRADE, Route18_EastEntrance_2F_EventScript_AlreadyTraded
 	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Route18_EastEntrance_2F_EventScript_DeclineTrade
 	call EventScript_ChooseMonForInGameTrade
@@ -23,7 +23,7 @@ Route18_EastEntrance_2F_EventScript_Haden::
 	goto_if_ne VAR_RESULT, VAR_0x8009, Route18_EastEntrance_2F_EventScript_NotRequestedMon
 	call EventScript_DoInGameTrade
 	msgbox Trade_Text_HeyThanks
-	setflag FLAG_DID_MARC_TRADE
+	setflag FLAG_KJ_DID_MARC_TRADE
 	release
 	end
 
@@ -44,12 +44,10 @@ Route18_EastEntrance_2F_EventScript_AlreadyTraded::
 	end
 
 Route18_EastEntrance_2F_Text_PalletTownInWest::
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "PALLET TOWN is in the west.$"
+	.string "ぼうえんきょうを　のぞいた！\p"
+	.string "にしに　マサラ　タウンが　みえる$"
 
 Route18_EastEntrance_2F_Text_PeopleSwimming::
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "There are people swimming.$"
+	.string "ぼうえんきょうを　のぞいた！\p"
+	.string "およいでる　ひとが　みえる！$"
 

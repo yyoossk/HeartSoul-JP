@@ -4,7 +4,7 @@ PalletTown_PlayersHouse_1F_Frlg_MapScripts::
 PalletTown_PlayersHouse_1F_EventScript_Mom::
 	lock
 	faceplayer
-	goto_if_set FLAG_BEAT_RIVAL_IN_OAKS_LAB, PalletTown_PlayersHouse_1F_EventScript_MomHeal
+	goto_if_set FLAG_KJ_BEAT_RIVAL_IN_OAKS_LAB, PalletTown_PlayersHouse_1F_EventScript_MomHeal
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale
 	call_if_eq VAR_RESULT, FEMALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale
@@ -54,39 +54,48 @@ PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale::
 	return
 
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
-	.string "MOM: …Right.\n"
-	.string "All boys leave home someday.\l"
-	.string "It said so on TV.\p"
-	.string "Oh, yes. PROF. OAK, next door, was\n"
-	.string "looking for you.$"
+	.string "　ハコろクいかあ{0xFC}{0xBC}ぬくッむすィ　　きあvBぬくむすィあ　きあÜBぬくネぽあ　ゼぱのくア　　フいそ　オCぬくけえうそ　７Cぬくけえうそ　\n"
+	.string "CぬくけえネえÖでのくそ　ゆDぬくけえフいノむしィい　かあれCぬくそ　UDぬくけえヒいッむすィ　　きあづCぬくむすィあ　きあぴCぬくヒいそ　セDぬくけえうそ　ブDぬくけえうおかあさん“…　そうね\n"
+	.string "おとこのこは　いつか\l"
+	.string "たびに　でるもの　なのよ\l"
+	.string "うん…　テレビの　はなしよ！\p"
+	.string "そういえば\n"
+	.string "となりの　オーキドはかせが\l"
+	.string "あなたを　よんでたわよ$"
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
-	.string "MOM: …Right.\n"
-	.string "All girls dream of traveling.\l"
-	.string "It said so on TV.\p"
-	.string "Oh, yes. PROF. OAK, next door, was\n"
-	.string "looking for you.$"
+	.string "おかあさん“…　そうね\n"
+	.string "おんなのこって　いつも\l"
+	.string "たびを　ゆめみて　いるものよ\l"
+	.string "うん…　テレビの　はなしよ！\p"
+	.string "そういえば\n"
+	.string "となりの　オーキドはかせが\l"
+	.string "あなたを　よんでたわよ$"
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
-	.string "MOM: {PLAYER}!\n"
-	.string "You should take a quick rest.$"
+	.string "おかあさん“{PLAYER}…！\n"
+	.string "すこし　やすんで　いったら\l"
+	.string "どうかしら…？\l"
+	.string "…　…　…$"
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
-	.string "MOM: Oh, good! You and your\n"
-	.string "POKéMON are looking great.\l"
-	.string "Take care now!$"
+	.string "おかあさん“あらあら！\n"
+	.string "あなたも　ポケモンも\l"
+	.string "げんき　いっぱいね！\l"
+	.string "それじゃ　きを　つけて！\l"
+	.string "いってらっしゃい！$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
-	.string "There's a movie on TV.\n"
-	.string "Four boys are walking on railroad\l"
-	.string "tracks.\p"
-	.string "…I better go, too.$"
+	.string "テレビで　えいがを　やってる！\n"
+	.string "おとこのこが　４にん\l"
+	.string "せんろのうえを　あるいてる…\p"
+	.string "…　ぼくも　もう　いかなきゃ！$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad::
-	.string "There's a movie on TV.\n"
-	.string "A girl with her hair in pigtails is\l"
-	.string "walking up a brick road.\p"
-	.string "…I better go, too.$"
+	.string "テレビで　えいがを　やってる！\n"
+	.string "おさげの　おんなのこが\l"
+	.string "れんがの　みちを　あるいてる…\p"
+	.string "…もう　いかなきゃ！$"
 
 PalletTown_PlayersHouse_1F_Text_OopsWrongSide::
-	.string "Oops, wrong side…$"
+	.string "みえない……$"

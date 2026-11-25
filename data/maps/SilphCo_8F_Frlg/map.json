@@ -29,7 +29,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "SilphCo_8F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -43,7 +43,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "SilphCo_8F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "SilphCo_8F_EventScript_Parker",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -85,7 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_8F_EventScript_ItemIron",
-      "flag": "FLAG_HIDE_SILPH_CO_8F_IRON"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_8F_IRON"
     },
     {
       "type": "object",
@@ -193,7 +193,7 @@
       "y": 10,
       "elevation": 0,
       "item": "ITEM_NUGGET",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_8F_NUGGET",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_8F_NUGGET",
       "quantity": 1,
       "underfoot": false
     },

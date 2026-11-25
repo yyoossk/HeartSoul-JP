@@ -4,7 +4,7 @@ VermilionCity_House1_Frlg_MapScripts::
 VermilionCity_House1_EventScript_FishingGuru::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_OLD_ROD, VermilionCity_House1_EventScript_AlreadyGotOldRod
+	goto_if_set FLAG_KJ_GOT_OLD_ROD, VermilionCity_House1_EventScript_AlreadyGotOldRod
 	msgbox VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, VermilionCity_House1_EventScript_GiveOldRod
 	msgbox VermilionCity_House1_Text_OhThatsSoDisappointing
@@ -22,7 +22,7 @@ VermilionCity_House1_EventScript_GiveOldRod::
 	additem ITEM_OLD_ROD
 	msgbox VermilionCity_House1_Text_TakeThisAndFish
 	msgreceiveditem VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru, ITEM_OLD_ROD
-	setflag FLAG_GOT_OLD_ROD
+	setflag FLAG_KJ_GOT_OLD_ROD
 	msgbox VermilionCity_House1_Text_FishingIsAWayOfLife
 	release
 	end
@@ -33,36 +33,37 @@ VermilionCity_House1_EventScript_NoRoomForOldRod::
 	end
 
 VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish::
-	.string "I'm the FISHING GURU!\p"
-	.string "I simply looove fishing!\n"
-	.string "I can't bear to go without.\p"
-	.string "Tell me, do you like to fish?$"
+	.string "わしは　つりおやじ　じゃ！\p"
+	.string "もう　しぬほど\n"
+	.string "つりが　すき　なんだが\p"
+	.string "きみは　つり　すき　かな？$"
 
 VermilionCity_House1_Text_TakeThisAndFish::
-	.string "Grand! I like your style.\n"
-	.string "I think we can be friends.\p"
-	.string "Take this and fish, young friend!$"
+	.string "そうか！\n"
+	.string "きみとは　きが　あいそうだ！\p"
+	.string "これ　あげるから\n"
+	.string "きみも　つり　まくりなさいよ！$"
 
 VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru::
-	.string "{PLAYER} received an OLD ROD from\n"
-	.string "the FISHING GURU.$"
+	.string "{PLAYER}は　つりおやじから\n"
+	.string "ボロのつりざおを　もらった！$"
 
 VermilionCity_House1_Text_FishingIsAWayOfLife::
-	.string "Fishing is a way of life!\n"
-	.string "It is like the finest poetry.\p"
-	.string "From the seas to rivers, go out\n"
-	.string "and land the big one, my friend.$"
+	.string "つり　こそ\n"
+	.string "さいこうの　ロマン　だ！\p"
+	.string "うみでも　かわでも！\p"
+	.string "えんりょ　なく\n"
+	.string "つりざおを　つかって　くれい！$"
 
 VermilionCity_House1_Text_OhThatsSoDisappointing::
-	.string "Oh…\n"
-	.string "That's so disappointing…$"
+	.string "なんじゃ…　がっかりだ$"
 
 VermilionCity_House1_Text_HowAreTheFishBiting::
-	.string "Hello there, {PLAYER}!\p"
-	.string "How are the fish biting?$"
+	.string "やー　{PLAYER}{KUN}！\p"
+	.string "つり　まくっとる　かね！$"
 
 VermilionCity_House1_Text_NoRoomForNiceGift::
-	.string "Oh, no!\p"
-	.string "I had a nice gift for you, but you\n"
-	.string "have no room for it!$"
+	.string "ありゃー！\p"
+	.string "いいもの　あげようと　したのに\n"
+	.string "にもつが　いっぱいじゃ！$"
 

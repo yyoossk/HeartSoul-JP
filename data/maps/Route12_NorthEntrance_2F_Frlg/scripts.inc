@@ -12,7 +12,7 @@ Route12_NorthEntrance_2F_EventScript_RightBinoculars::
 Route12_NorthEntrance_2F_EventScript_Lass::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_TM27, Route12_NorthEntrance_2F_EventScript_ExplainTM27
+	goto_if_set FLAG_KJ_GOT_TM27, Route12_NorthEntrance_2F_EventScript_ExplainTM27
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route12_NorthEntrance_2F_EventScript_TakeTMMale
 	call_if_eq VAR_RESULT, FEMALE, Route12_NorthEntrance_2F_EventScript_TakeTMFemale
@@ -20,7 +20,7 @@ Route12_NorthEntrance_2F_EventScript_Lass::
 	goto_if_eq VAR_RESULT, FALSE, Route12_NorthEntrance_2F_EventScript_NoRoomForTM27
 	giveitem_msg Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl, ITEM_TM27
 	msgbox Route12_NorthEntrance_2F_Text_ExplainTM27
-	setflag FLAG_GOT_TM27
+	setflag FLAG_KJ_GOT_TM27
 	release
 	end
 
@@ -44,37 +44,40 @@ Route12_NorthEntrance_2F_EventScript_ExplainTM27::
 
 @ Male and female text identical, differ (presumably) in JP
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
-	.string "My POKéMON's ashes are stored in\n"
-	.string "POKéMON TOWER.\p"
-	.string "You can have this TM.\n"
-	.string "I don't need it anymore…$"
+	.string "わたしが　かわいがってた　ポケモン\n"
+	.string "いまは　ポケモン　タワーで\l"
+	.string "ねむってるの……\p"
+	.string "……　そうだ　わたしの　わざマシン\n"
+	.string "おにいちゃんに　あげるわ\l"
+	.string "わたし……　もう　いらない　から$"
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
-	.string "My POKéMON's ashes are stored in\n"
-	.string "POKéMON TOWER.\p"
-	.string "You can have this TM.\n"
-	.string "I don't need it anymore…$"
+	.string "わたしが　かわいがってた　ポケモン\n"
+	.string "いまは　ポケモン　タワーで\l"
+	.string "ねむってるの……\p"
+	.string "……　そうだ　わたしの　わざマシン\n"
+	.string "おねえちゃんに　あげるわ\l"
+	.string "わたし……　もう　いらない　から$"
 
 Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
-	.string "{PLAYER} received TM27\n"
-	.string "from the little girl.$"
+	.string "{PLAYER}は　おんなのこから\n"
+	.string "わざマシン２７を　もらった！$"
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-	.string "TM27 is a move called RETURN…\p"
-	.string "If you treat your POKéMON good,\n"
-	.string "it will return your love by working\l"
-	.string "its hardest in battle.$"
+	.string "わざマシン２７は\n"
+	.string "おんがえし　という　わざなの……\p"
+	.string "ポケモンを　たいせつに　していれば\n"
+	.string "しょうぶの　ときに\l"
+	.string "きっと　こたえてくれるよ！$"
 
 Route12_NorthEntrance_2F_Text_DontHaveRoomForThis::
-	.string "You don't have room for this.$"
+	.string "にもつ　いっぱいで　もてないよ$"
 
 Route12_NorthEntrance_2F_Text_TheresManFishing::
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "There's a man fishing!$"
+	.string "ぼうえんきょうを　のぞいた！\p"
+	.string "つりを　してる　おじさんだ！$"
 
 Route12_NorthEntrance_2F_Text_ItsPokemonTower::
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "It's POKéMON TOWER!$"
+	.string "ぼうえんきょうを　のぞいた！\p"
+	.string "ポケモン　タワーが　みえる！$"
 

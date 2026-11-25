@@ -3,8 +3,8 @@ SilphCo_3F_Frlg_MapScripts::
 	.byte 0
 
 SilphCo_3F_OnLoad::
-	call_if_unset FLAG_SILPH_3F_DOOR_1, EventScript_Close3FDoor1
-	call_if_unset FLAG_SILPH_3F_DOOR_2, EventScript_Close3FDoor2
+	call_if_unset FLAG_KJ_SILPH_3F_DOOR_1, EventScript_Close3FDoor1
+	call_if_unset FLAG_KJ_SILPH_3F_DOOR_2, EventScript_Close3FDoor2
 	end
 
 SilphCo_3F_EventScript_WorkerM::
@@ -35,36 +35,42 @@ SilphCo_3F_EventScript_Grunt::
 	end
 
 SilphCo_3F_Text_WhatAmIToDo::
-	.string "I work for SILPH CO.\n"
-	.string "What am I to do?$"
+	.string "ぼく　シルフ　カンパニーの\n"
+	.string "しゃいんです…　おろおろ$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
-	.string "{PLAYER}!\n"
-	.string "You and your POKéMON saved us!$"
+	.string "{PLAYER}{KUN}と\n"
+	.string "ポケモンの　おかげで\l"
+	.string "ほんと　たすかったよ$"
 
 SilphCo_3F_Text_GruntIntro::
-	.string "Quit messing with us, kid!$"
+	.string "おれたちの　じゃまを　する\n"
+	.string "やつは　じゃま　なのだ！$"
 
 SilphCo_3F_Text_GruntDefeat::
-	.string "I give up!$"
+	.string "まいった！$"
 
 SilphCo_3F_Text_GruntPostBattle::
-	.string "A hint? You can open doors with\n"
-	.string "a CARD KEY!$"
+	.string "…　では　ヒントだ！\n"
+	.string "しまってる　ドアの　カギは\l"
+	.string "カード　キーで　あけられる$"
 
 SilphCo_3F_Text_JoseIntro::
-	.string "I support TEAM ROCKET more than\n"
-	.string "I support SILPH CO.!$"
+	.string "わたしは\n"
+	.string "シルフ　カンパニーより\l"
+	.string "ロケットだんに　みかた　する！$"
 
 SilphCo_3F_Text_JoseDefeat::
-	.string "You really got me!$"
+	.string "やるねえ！$"
 
 SilphCo_3F_Text_JosePostBattle::
-	.string "Humph…\p"
-	.string "TEAM ROCKET said that if I helped\n"
-	.string "them, they'd let me study POKéMON.$"
+	.string "…　なに\p"
+	.string "ロケットだんの　れんちゅうが\n"
+	.string "おもう　ぞんぶん\l"
+	.string "ポケモンの　けんきゅうを\l"
+	.string "させて　くれるって　いったんでね$"
 
 SilphCo_3F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "3F$"
+	.string "シルフ　カンパニー　ほんしゃ\n"
+	.string "３かい$"
 

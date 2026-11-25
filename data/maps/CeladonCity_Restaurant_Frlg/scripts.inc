@@ -12,12 +12,12 @@ CeladonCity_Restaurant_EventScript_Woman::
 CeladonCity_Restaurant_EventScript_CoinCaseMan::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_COIN_CASE, CeladonCity_Restaurant_EventScript_AlreadyGotCoinCase
+	goto_if_set FLAG_KJ_GOT_COIN_CASE, CeladonCity_Restaurant_EventScript_AlreadyGotCoinCase
 	msgbox CeladonCity_Restaurant_Text_TakeThisImBusted
 	checkitemspace ITEM_COIN_CASE
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_Restaurant_EventScript_NoRoomForCoinCase
 	giveitem_msg CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan, ITEM_COIN_CASE
-	setflag FLAG_GOT_COIN_CASE
+	setflag FLAG_KJ_GOT_COIN_CASE
 	release
 	end
 
@@ -40,39 +40,43 @@ CeladonCity_Restaurant_EventScript_FatMan::
 	end
 
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
-	.string "Hi!\p"
-	.string "Sorry, but we're taking a break\n"
-	.string "right now.$"
+	.string "らっしゃい！\p"
+	.string "じょうれん　ばかりで　わるいね！$"
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
-	.string "My POKéMON are weak, so I often\n"
-	.string "have to go to the DRUGSTORE.$"
+	.string "うちで　かってる　ポケモン…\n"
+	.string "たいりょく　ないから　いつも\l"
+	.string "デパートで　おくすり　かって　くるの$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
-	.string "Psst! There's a basement under the\n"
-	.string "GAME CORNER, I hear.$"
+	.string "ひそひそ…　むしゃ　むしゃ…\n"
+	.string "…　ゲーム　コーナーの　したに\l"
+	.string "ちかしつが　ある　らしいね…$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
-	.string "Munch…\p"
-	.string "The man at that table lost it all\n"
-	.string "at the slots.$"
+	.string "もぐもぐ…！\p"
+	.string "あそこの　テーブルの　おっさん\n"
+	.string "スロットで　おかね　ぜんぶ\l"
+	.string "つかっちゃった　らしいよ！$"
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-	.string "Go ahead! Laugh!\n"
-	.string "I'm flat-out busted!\p"
-	.string "No more slots for me!\n"
-	.string "I'm going straight!\p"
-	.string "Here!\n"
-	.string "I won't be needing this anymore!$"
+	.string "うおう…　わらってくれ！\p"
+	.string "ゲーム　コーナーで　すって\n"
+	.string "いちもん　なしに　なっちまった！\p"
+	.string "もう　スロットは　やらん！\n"
+	.string "じみちに　はたらくぞ！\p"
+	.string "…　というわけで\n"
+	.string "これは　おまえに　やる！$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
-	.string "{PLAYER} received a COIN CASE\n"
-	.string "from the man.$"
+	.string "{PLAYER}は　おっさん　から\n"
+	.string "コインケースを　もらった！$"
 
 CeladonCity_Restaurant_Text_MakeRoomForThis::
-	.string "Make room for this!$"
+	.string "にもつが　いっぱい　だぜ$"
 
 CeladonCity_Restaurant_Text_ThoughtIdWinItBack::
-	.string "I always thought I was going to\n"
-	.string "win it back…$"
+	.string "あーあ！\n"
+	.string "いつか　かならず　かてる！\l"
+	.string "と　おもったのに　この　ざまだ…！$"
 

@@ -34,11 +34,14 @@ PewterCity_Mart_Items::
 	end
 
 PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy::
-	.string "あやしい　おじさんに\nへんな　さかなポケモンを\lかわされちゃった！\pすごく　よわいのに\n500えんも　したんだ！$"
+	.string "インチキ　くさい　おじさんから\n"
+	.string "なんだか　ヘンな　ポケモンを\l"
+	.string "かっちゃったよ！\p"
+	.string "すっげー　よわいの！\n"
+	.string "５００円も　したのに…$"
 
 PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently::
-	.string "Good things can happen if you raise\n"
-	.string "POKéMON diligently.\p"
-	.string "Even the weak ones can surprise\n"
-	.string "you if you don't give up on them.$"
+	.string "よわい　ポケモンでも\n"
+	.string "いっしょうけんめい　そだてれば\l"
+	.string "いいこと　あるさ！$"
 

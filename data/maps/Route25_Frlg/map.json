@@ -161,7 +161,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route25_EventScript_ItemTM43",
-      "flag": "FLAG_HIDE_ROUTE25_TM43"
+      "flag": "FLAG_KJ_HIDE_ROUTE25_TM43"
     },
     {
       "type": "object",
@@ -231,7 +231,7 @@
       "y": 2,
       "elevation": 3,
       "item": "ITEM_ELIXIR",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE25_ELIXIR",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE25_ELIXIR",
       "quantity": 1,
       "underfoot": false
     },
@@ -241,7 +241,7 @@
       "y": 6,
       "elevation": 3,
       "item": "ITEM_ETHER",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE25_ETHER",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE25_ETHER",
       "quantity": 1,
       "underfoot": false
     },
@@ -251,7 +251,7 @@
       "y": 8,
       "elevation": 3,
       "item": "ITEM_ORAN_BERRY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE25_ORAN_BERRY",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE25_ORAN_BERRY",
       "quantity": 1,
       "underfoot": false
     },
@@ -261,7 +261,7 @@
       "y": 3,
       "elevation": 3,
       "item": "ITEM_BLUK_BERRY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE25_BLUK_BERRY",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE25_BLUK_BERRY",
       "quantity": 1,
       "underfoot": false
     }

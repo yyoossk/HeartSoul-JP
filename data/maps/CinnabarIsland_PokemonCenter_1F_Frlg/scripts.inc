@@ -36,14 +36,14 @@ CinnabarIsland_PokemonCenter_1F_EventScript_Bill::
 	playbgm MUS_FOLLOW_ME, 1
 	savebgm MUS_FOLLOW_ME
 	setflag FLAG_DONT_TRANSITION_MUSIC
-	setflag FLAG_HIDE_CINNABAR_POKECENTER_BILL
+	setflag FLAG_KJ_HIDE_CINNABAR_POKECENTER_BILL
 	delay 20
 	call_if_eq VAR_FACING, DIR_SOUTH, CinnabarIsland_PokemonCenter_1F_EventScript_ExitWithBillSouth
 	call_if_eq VAR_FACING, DIR_EAST, CinnabarIsland_PokemonCenter_1F_EventScript_ExitWithBillEast
 	call_if_eq VAR_FACING, DIR_WEST, CinnabarIsland_PokemonCenter_1F_EventScript_ExitWithBillWest
 	removeobject LOCALID_CINNABAR_POKEMON_CENTER_BILL
 	setvar VAR_MAP_SCENE_CINNABAR_ISLAND_2, 1
-	clearflag FLAG_HIDE_CINNABAR_BILL
+	clearflag FLAG_KJ_HIDE_CINNABAR_BILL
 	warp MAP_CINNABAR_ISLAND, 14, 11
 	waitstate
 	release
@@ -140,40 +140,37 @@ CinnabarIsland_PokemonCenter_1F_Movement_PlayerExitWest::
 	step_end
 
 CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
-	.string "I came to visit the CINNABAR GYM,\n"
-	.string "but the door is locked tight.\p"
-	.string "There should be a key for it\n"
-	.string "somewhere.\p"
-	.string "Could it be in that burned-out\n"
-	.string "mansion?\p"
-	.string "The GYM LEADER's friend used to\n"
-	.string "live there, they say.$"
+	.string "グレンジムに　きたのに\n"
+	.string "とびらが　あかなくて　はいれないの\l"
+	.string "きっと　どこかに　カギが\l"
+	.string "ある　はずよね\p"
+	.string "ジムリーダーの　ともだちが\n"
+	.string "むかし　すんでたって　いう\l"
+	.string "あの　やしきかしら…？$"
 
 CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
-	.string "Do you have lots of friends?\p"
-	.string "Linking up with the usual friends\n"
-	.string "is fun, of course.\p"
-	.string "But how about visiting the\n"
-	.string "UNION ROOM every so often?\p"
-	.string "Who knows, you may end up making\n"
-	.string "new friends.\p"
-	.string "I think it would be worth your time\n"
-	.string "to check the UNION ROOM.$"
+	.string "きみには　ともだちは　いるかな？\p"
+	.string "いつもの　なかまと\n"
+	.string "つうしんも　いいが…\p"
+	.string "たまには　ユニオンルームへ\n"
+	.string "いって　みては　どうかな？\l"
+	.string "もっと　なかまが　ふえるだろう！\p"
+	.string "はいって　みる　かちは\n"
+	.string "あると　おもうがね$"
 
 CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves::
-	.string "POKéMON can still learn techniques\n"
-	.string "after canceling evolution.\p"
-	.string "Evolution can wait until new moves\n"
-	.string "have been learned.$"
+	.string "しんかキャンセル　した　あとも\n"
+	.string "ポケモンは　わざを　おぼえるよ\p"
+	.string "わざを　おぼえさせて　いってから\n"
+	.string "しんか　させるのも　コツさ$"
 
 CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland::
-	.string "BILL: Hey, you kept me waiting!\n"
-	.string "Ready to set sail to ONE ISLAND?$"
+	.string "マサキ“おッ　まっとったで！\n"
+	.string "さっそく　１のしまに　いこか？$"
 
 CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet::
-	.string "Oh, you're still not done yet?$"
+	.string "なんや　まだかいな$"
 
 CinnabarIsland_PokemonCenter_1F_Text_LetsGo::
-	.string "Well, that's it.\n"
-	.string "Let's go!$"
+	.string "ほな　レッツゴーや！$"
 

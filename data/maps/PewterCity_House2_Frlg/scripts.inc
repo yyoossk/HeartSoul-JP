@@ -10,16 +10,15 @@ PewterCity_House2_EventScript_LittleBoy::
 	end
 
 PewterCity_House2_Text_MonsLearnTechniquesAsTheyGrow::
-	.string "POKéMON learn new techniques as\n"
-	.string "they grow.\p"
-	.string "But some moves must be taught to\n"
-	.string "them by people.$"
+	.string "ポケモンを　そだてて　いくと\n"
+	.string "わざを　おぼえる！\p"
+	.string "しかし　ひとから　おそわらなければ\n"
+	.string "おぼえない　わざも　あるぞ$"
 
 PewterCity_House2_Text_MonsEasierCatchIfStatused::
-	.string "A POKéMON becomes easier to \n"
-	.string "catch if it has a status problem.\p"
-	.string "Sleep, poison, burn, or paralysis…\n"
-	.string "Those are all effective.\p"
-	.string "But catching POKéMON is never\n"
-	.string "a sure thing!$"
+	.string "ねむり　どく　やけど　まひ…\n"
+	.string "ポケモンの　たいちょうが　わるいと\l"
+	.string "つかまえ　やすいよ\l"
+	.string "でも…　かならず　とれる\l"
+	.string "わけじゃ　ないみたい$"
 

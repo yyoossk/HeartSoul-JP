@@ -3,28 +3,28 @@ Route20_Frlg_MapScripts::
 	.byte 0
 
 Route20_OnTransition_Kj::
-	call_if_unset FLAG_STOPPED_SEAFOAM_B3F_CURRENT, Route20_EventScript_ResetSeafoamBouldersForB3F
-	call_if_unset FLAG_STOPPED_SEAFOAM_B4F_CURRENT, Route20_EventScript_ResetSeafoamBouldersForB4F
+	call_if_unset FLAG_KJ_STOPPED_SEAFOAM_B3F_CURRENT, Route20_EventScript_ResetSeafoamBouldersForB3F
+	call_if_unset FLAG_KJ_STOPPED_SEAFOAM_B4F_CURRENT, Route20_EventScript_ResetSeafoamBouldersForB4F
 	end
 
 Route20_EventScript_ResetSeafoamBouldersForB3F::
-	clearflag FLAG_HIDE_SEAFOAM_1F_BOULDER_1
-	clearflag FLAG_HIDE_SEAFOAM_1F_BOULDER_2
-	setflag FLAG_HIDE_SEAFOAM_B1F_BOULDER_1
-	setflag FLAG_HIDE_SEAFOAM_B1F_BOULDER_2
-	setflag FLAG_HIDE_SEAFOAM_B2F_BOULDER_1
-	setflag FLAG_HIDE_SEAFOAM_B2F_BOULDER_2
-	setflag FLAG_HIDE_SEAFOAM_B3F_BOULDER_1
-	setflag FLAG_HIDE_SEAFOAM_B3F_BOULDER_2
+	clearflag FLAG_KJ_HIDE_SEAFOAM_1F_BOULDER_1
+	clearflag FLAG_KJ_HIDE_SEAFOAM_1F_BOULDER_2
+	setflag FLAG_KJ_HIDE_SEAFOAM_B1F_BOULDER_1
+	setflag FLAG_KJ_HIDE_SEAFOAM_B1F_BOULDER_2
+	setflag FLAG_KJ_HIDE_SEAFOAM_B2F_BOULDER_1
+	setflag FLAG_KJ_HIDE_SEAFOAM_B2F_BOULDER_2
+	setflag FLAG_KJ_HIDE_SEAFOAM_B3F_BOULDER_1
+	setflag FLAG_KJ_HIDE_SEAFOAM_B3F_BOULDER_2
 	return
 
 Route20_EventScript_ResetSeafoamBouldersForB4F::
-	clearflag FLAG_HIDE_SEAFOAM_B3F_BOULDER_3
-	clearflag FLAG_HIDE_SEAFOAM_B3F_BOULDER_4
-	clearflag FLAG_HIDE_SEAFOAM_B3F_BOULDER_5
-	clearflag FLAG_HIDE_SEAFOAM_B3F_BOULDER_6
-	setflag FLAG_HIDE_SEAFOAM_B4F_BOULDER_1
-	setflag FLAG_HIDE_SEAFOAM_B4F_BOULDER_2
+	clearflag FLAG_KJ_HIDE_SEAFOAM_B3F_BOULDER_3
+	clearflag FLAG_KJ_HIDE_SEAFOAM_B3F_BOULDER_4
+	clearflag FLAG_KJ_HIDE_SEAFOAM_B3F_BOULDER_5
+	clearflag FLAG_KJ_HIDE_SEAFOAM_B3F_BOULDER_6
+	setflag FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_1
+	setflag FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_2
 	return
 
 Route20_EventScript_SeafoamIslandsSign::
@@ -32,122 +32,124 @@ Route20_EventScript_SeafoamIslandsSign::
 	end
 
 Route20_Text_BarryIntro::
-	.string "The water is shallow here.\n"
-	.string "There are many people swimming.$"
+	.string "とおあさに　なってる　から\n"
+	.string "およいでる　ひとも　おおいよ！$"
 
 Route20_Text_BarryDefeat::
-	.string "Splash!$"
+	.string "うーみーッ！$"
 
 Route20_Text_BarryPostBattle::
-	.string "I wish I could ride my POKéMON.\n"
-	.string "I bet you're not tired.$"
+	.string "きみは　ポケモンに　のってて\n"
+	.string "つかれ　ないから　いいなあ$"
 
 Route20_Text_ShirleyIntro::
-	.string "SEAFOAM is a quiet getaway.\n"
-	.string "I'm vacationing here.$"
+	.string "ふたごじまに\n"
+	.string "リゾートに　きてるの　わたし$"
 
 Route20_Text_ShirleyDefeat::
-	.string "Quit it!$"
+	.string "ちょっと　やめてよ$"
 
 Route20_Text_ShirleyPostBattle::
-	.string "There's a huge cavern underneath\n"
-	.string "this island.$"
+	.string "ふたごじまの　ちかに\n"
+	.string "しょうにゅうどうが　あるんだって$"
 
 Route20_Text_TiffanyIntro::
-	.string "I love floating with the fishes\n"
-	.string "here among the waves.$"
+	.string "なみまに　ぷかぷか　うかぶ\n"
+	.string "…　あたしは　おさかな$"
 
 Route20_Text_TiffanyDefeat::
-	.string "Yowch!$"
+	.string "うー　まんぼう！$"
 
 Route20_Text_TiffanyPostBattle::
-	.string "Want to float with me?$"
+	.string "あなた　いっしょに\n"
+	.string "…　ぷかぷか　しない？$"
 
 Route20_Text_IreneIntro::
-	.string "Are you on vacation, too?$"
+	.string "きみも　リゾートに　きてるの？$"
 
 Route20_Text_IreneDefeat::
-	.string "No mercy at all!$"
+	.string "てかげん　なしね$"
 
 Route20_Text_IrenePostBattle::
-	.string "SEAFOAM used to be a single island\n"
-	.string "in the distant past.$"
+	.string "ふたごじまは　むかしは\n"
+	.string "ふたつの　しま　だった　らしいね$"
 
 Route20_Text_DeanIntro::
-	.string "Check out my buff physique!$"
+	.string "みよーッ！\n"
+	.string "きたえ　あげた　この　からだ！$"
 
 Route20_Text_DeanDefeat::
-	.string "Wimpy!$"
+	.string "ふにゃふにゃだ$"
 
 Route20_Text_DeanPostBattle::
-	.string "I should've been buffing up my\n"
-	.string "POKéMON, not me!$"
+	.string "じぶんの　からだ　より\n"
+	.string "ポケモンを　きたえる　べきだった$"
 
 Route20_Text_DarrinIntro::
-	.string "Why are you riding a POKéMON?\n"
-	.string "Can't you swim?$"
+	.string "ポケモンに　のってる　なんて\n"
+	.string "もしかして　およげない　とか？$"
 
 Route20_Text_DarrinDefeat::
-	.string "Ouch!\n"
-	.string "Torpedoed!$"
+	.string "うー　ぶくぶく$"
 
 Route20_Text_DarrinPostBattle::
-	.string "Riding a POKéMON sure looks fun!$"
+	.string "ポケモンに　のって　いくのも\n"
+	.string "たのしそうだなあ$"
 
 Route20_Text_RogerIntro::
-	.string "I rode my bird POKéMON here.$"
+	.string "とり　ポケモンに　つかまって\n"
+	.string "ここまで　きたよ$"
 
 Route20_Text_RogerDefeat::
-	.string "Oh, no!\n"
-	.string "Now what am I to do?$"
+	.string "あ！　こまったな$"
 
 Route20_Text_RogerPostBattle::
-	.string "My birds are exhausted.\n"
-	.string "They can't FLY me back!$"
+	.string "とりが　へばちゃって　もどれないぞ\n"
+	.string "…　どうしよう$"
 
 Route20_Text_NoraIntro::
-	.string "My boyfriend gave me big pearls.$"
+	.string "かれに\n"
+	.string "おっきな　しんじゅ　もらったわ！$"
 
 Route20_Text_NoraDefeat::
-	.string "Oh, no!\n"
-	.string "My pearls were in them!$"
+	.string "やーん！\n"
+	.string "しんじゅ　いり　なのに…$"
 
 Route20_Text_NoraPostBattle::
-	.string "Will my pearls grow bigger inside\n"
-	.string "CLOYSTER?$"
+	.string "パルシェン　もっと　そだてたら\n"
+	.string "しんじゅも　おっきく　なるかしら$"
 
 Route20_Text_MissyIntro::
-	.string "I swam here from CINNABAR ISLAND.\n"
-	.string "It wasn't easy, I tell you.$"
+	.string "グレン　じま　から\n"
+	.string "およいで　きたけど…　きついわ！$"
 
 Route20_Text_MissyDefeat::
-	.string "I'm so disappointed!$"
+	.string "がっかり$"
 
 Route20_Text_MissyPostBattle::
-	.string "POKéMON have taken over an\n"
-	.string "abandoned mansion on CINNABAR.\p"
-	.string "They call it the POKéMON MANSION\n"
-	.string "now.$"
+	.string "グレン　じまの\n"
+	.string "だれも　すんでない　おやしき\l"
+	.string "いつからか　ポケモンが　すみついて\l"
+	.string "ポケモン　やしきと　よばれてる$"
 
 Route20_Text_MelissaIntro::
-	.string "CINNABAR, in the west, has a LAB\n"
-	.string "for POKéMON.\p"
-	.string "My daddy works there.$"
+	.string "にしに　ある　グレン　じまは\n"
+	.string "ポケモン　けんきゅうの　しま！\l"
+	.string "あそこで　パパも　はたらいてるわ$"
 
 Route20_Text_MelissaDefeat::
-	.string "Wait!\n"
-	.string "You're supposed to wait!$"
+	.string "まってよ　もう！$"
 
 Route20_Text_MelissaPostBattle::
-	.string "CINNABAR is a volcanic island.\p"
-	.string "I heard it rose out of the sea\n"
-	.string "when a volcano erupted.$"
+	.string "グレンは　かざんの　ふんかで\n"
+	.string "もりあがって　できたって　きいたわ$"
 
 Route20_Text_SeafoamIslands::
-	.string "SEAFOAM ISLANDS$"
+	.string "ふたごじま$"
 
 Route20_Text_MistyTrainsHere::
-	.string "Strong TRAINERS and WATER POKéMON\n"
-	.string "are common sights in these parts.\p"
-	.string "They say that MISTY of the\n"
-	.string "CERULEAN GYM trains here.$"
+	.string "この　あたりは\n"
+	.string "つよい　トレーナーや\l"
+	.string "みずポケモンが　おおいから\l"
+	.string "ハナダシティの　カスミも\l"
+	.string "しゅぎょうに　きていると　いうぜ$"

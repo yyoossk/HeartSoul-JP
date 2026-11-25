@@ -27,7 +27,7 @@ Route5_SouthEntrance_EventScript_GuardTrigger::
 	textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
-	goto_if_set FLAG_GOT_TEA, Route5_SouthEntrance_EventScript_GiveTea
+	goto_if_set FLAG_KJ_GOT_TEA, Route5_SouthEntrance_EventScript_GiveTea
 	msgbox Route5_SouthEntrance_Text_ThirstyOnGuardDuty
 	closemessage
 	applymovement LOCALID_PLAYER, Route5_SouthEntrance_Movement_BlockPlayerEntry
@@ -84,28 +84,39 @@ Route5_SouthEntrance_Movement_BlockPlayerEntry::
 	step_end
 
 Route5_SouthEntrance_Text_ThirstyOnGuardDuty::
-	.string "I'm on guard duty.\n"
-	.string "Gee, I'm thirsty, though!\p"
-	.string "Oh, wait there, the road's closed.$"
+	.string "　RQねくア　　うつ\n"
+	.string "つつ\n"
+	.string "ら\n"
+	.string "ち\n"
+	.string "わたし　まじめな　けいびいん\n"
+	.string "はー…\l"
+	.string "のどが　かわいた！\l"
+	.string "おっと　そっちは\l"
+	.string "いま　つうこう　きんしだよ$"
 
 Route5_SouthEntrance_Text_ThatTeaLooksTasty::
-	.string "Oh, that TEA…\n"
-	.string "It looks awfully tasty…$"
+	.string "あ　それは\l"
+	.string "おいしそうな　おちゃ…$"
 
 Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards::
-	.string "Huh? I can have this drink?\n"
-	.string "Gee, thanks!\l"
-	.string "… …\l"
-	.string "Glug, glug…\l"
-	.string "… …\l"
-	.string "Gulp…\l"
-	.string "If you want to go to SAFFRON\l"
-	.string "CITY…\l"
-	.string "… …\l"
-	.string "You can go on through.\p"
-	.string "I'll share this TEA with the other\n"
-	.string "guards!$"
+	.string "…　…\l"
+	.string "え？\l"
+	.string "ぼくに　くれる？\l"
+	.string "サンキュー！\n"
+	.string "…　…\l"
+	.string "ゴクゴク…\l"
+	.string "…\l"
+	.string "ゴクゴク…　…\l"
+	.string "ヤマブキ　シティに\l"
+	.string "いく　なら…\l"
+	.string "…\l"
+	.string "…　…\l"
+	.string "とおって　いいよ\l"
+	.string "おちゃを\l"
+	.string "むこうの　ゲートの\l"
+	.string "けいびいんにも　わけてあげよう…$"
 
 Route5_SouthEntrance_Text_HiHowsItGoing::
-	.string "Hi, how's it going?$"
+	.string "あ…\n"
+	.string "この　あいだは　どーも！$"
 

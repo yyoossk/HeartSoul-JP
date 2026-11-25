@@ -30,7 +30,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_Giovanni",
-      "flag": "FLAG_HIDE_HIDEOUT_GIOVANNI"
+      "flag": "FLAG_KJ_HIDE_HIDEOUT_GIOVANNI"
     },
     {
       "local_id": "LOCALID_SILPH_SCOPE",
@@ -45,7 +45,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_SilphScope",
-      "flag": "FLAG_HIDE_SILPH_SCOPE"
+      "flag": "FLAG_KJ_HIDE_SILPH_SCOPE"
     },
     {
       "type": "object",
@@ -59,7 +59,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "RocketHideout_B4F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_MISC_KANTO_ROCKETS"
     },
     {
       "local_id": "LOCALID_LIFT_KEY",
@@ -74,7 +74,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_LiftKey",
-      "flag": "FLAG_HIDE_LIFT_KEY"
+      "flag": "FLAG_KJ_HIDE_LIFT_KEY"
     },
     {
       "type": "object",
@@ -88,7 +88,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_Grunt3",
-      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_MISC_KANTO_ROCKETS"
     },
     {
       "type": "object",
@@ -102,7 +102,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_MISC_KANTO_ROCKETS"
     },
     {
       "type": "object",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_ItemTM49",
-      "flag": "FLAG_HIDE_ROCKET_HIDEOUT_B4F_TM49"
+      "flag": "FLAG_KJ_HIDE_ROCKET_HIDEOUT_B4F_TM49"
     },
     {
       "type": "object",
@@ -130,7 +130,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_ItemMaxEther",
-      "flag": "FLAG_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER"
+      "flag": "FLAG_KJ_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER"
     },
     {
       "type": "object",
@@ -144,7 +144,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout_B4F_EventScript_ItemCalcium",
-      "flag": "FLAG_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM"
+      "flag": "FLAG_KJ_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM"
     }
   ],
   "warp_events": [
@@ -178,7 +178,7 @@
       "y": 6,
       "elevation": 3,
       "item": "ITEM_NEST_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NEST_BALL",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NEST_BALL",
       "quantity": 1,
       "underfoot": false
     },
@@ -188,7 +188,7 @@
       "y": 6,
       "elevation": 3,
       "item": "ITEM_NET_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NET_BALL",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NET_BALL",
       "quantity": 1,
       "underfoot": false
     }

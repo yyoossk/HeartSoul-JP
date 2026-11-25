@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryRoad_1F_EventScript_ItemRareCandy",
-      "flag": "FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY"
+      "flag": "FLAG_KJ_HIDE_VICTORY_ROAD_1F_RARE_CANDY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryRoad_1F_EventScript_ItemTM02",
-      "flag": "FLAG_HIDE_VICTORY_ROAD_1F_TM02"
+      "flag": "FLAG_KJ_HIDE_VICTORY_ROAD_1F_TM02"
     },
     {
       "local_id": "LOCALID_VICTORY_ROAD_1F_BOULDER",
@@ -141,7 +141,7 @@
       "y": 12,
       "elevation": 0,
       "item": "ITEM_ULTRA_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL",
       "quantity": 1,
       "underfoot": false
     },
@@ -151,7 +151,7 @@
       "y": 1,
       "elevation": 0,
       "item": "ITEM_FULL_RESTORE",
-      "flag": "FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_FULL_RESTORE",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_VICTORY_ROAD_1F_FULL_RESTORE",
       "quantity": 1,
       "underfoot": false
     }

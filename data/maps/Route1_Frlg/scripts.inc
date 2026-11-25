@@ -4,7 +4,7 @@ Route1_Frlg_MapScripts::
 Route1_EventScript_MartClerk::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_POTION_ON_ROUTE_1, Route1_EventScript_AlreadyGotPotion
+	goto_if_set FLAG_KJ_GOT_POTION_ON_ROUTE_1, Route1_EventScript_AlreadyGotPotion
 	msgbox Route1_Text_WorkAtPokeMartTakeSample
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	checkitemspace ITEM_POTION
@@ -17,7 +17,7 @@ Route1_EventScript_MartClerk::
 	additem ITEM_POTION
 	msgbox Route1_Text_PutPotionAway
 	call EventScript_RestorePrevTextColor
-	setflag FLAG_GOT_POTION_ON_ROUTE_1
+	setflag FLAG_KJ_GOT_POTION_ON_ROUTE_1
 	release
 	end
 
@@ -35,30 +35,32 @@ Route1_EventScript_RouteSign::
 	end
 
 Route1_Text_WorkAtPokeMartTakeSample::
-	.string "Hi!\n"
-	.string "I work at a POKéMON MART.\p"
-	.string "It's part of a convenient chain\n"
-	.string "selling all sorts of items.\p"
-	.string "Please, visit us in VIRIDIAN CITY.\p"
-	.string "I know, I'll give you a sample.\n"
-	.string "Here you go!$"
+	.string "わたし　フレンドリィ　ショップの\n"
+	.string "てんいん　です\p"
+	.string "べんりな　どうぐや　ですから\n"
+	.string "トキワ　シティで\l"
+	.string "ぜひ　よって　くださいね！\p"
+	.string "そうだ！\n"
+	.string "みほんを　さしあげましょう\l"
+	.string "…　どうぞ！$"
 
 Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
-	.string "Please come see us if you need\n"
-	.string "POKé BALLS for catching POKéMON.$"
+	.string "ポケモンを　つかまえる\n"
+	.string "モンスターボール　かう　ときも\l"
+	.string "ショップへ　いらして　ください！$"
 
 Route1_Text_PutPotionAway::
-	.string "{PLAYER} put the POTION away in\n"
-	.string "the BAG's ITEMS POCKET.$"
+	.string "{PLAYER}は　キズぐすりを　バッグの\n"
+	.string "どうぐポケットに　しまった！$"
 
 Route1_Text_CanJumpFromLedges::
-	.string "See those ledges along the road?\p"
-	.string "It's a bit scary, but you can jump\n"
-	.string "from them.\p"
-	.string "You can get back to PALLET TOWN\n"
-	.string "quicker that way.$"
+	.string "みちに　だんさが　あるだろ！\p"
+	.string "とび　おりるのは\n"
+	.string "ちょっと　こわいけど…\p"
+	.string "マサラ　タウンに　かえる　ときは\n"
+	.string "はやく　かえれて　いいよ$"
 
 Route1_Text_RouteSign::
-	.string "ROUTE 1\n"
-	.string "PALLET TOWN - VIRIDIAN CITY$"
+	.string "ここは　１ばん　どうろ\n"
+	.string "マサラ　タウン　…　トキワ　シティ$"
 

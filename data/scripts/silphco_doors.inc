@@ -349,165 +349,165 @@ EventScript_Open11FDoor::
 SilphCo_2F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 1
-	setvar VAR_0x8004, FLAG_SILPH_2F_DOOR_1
-	goto_if_set FLAG_SILPH_2F_DOOR_1, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_2F_DOOR_1
+	goto_if_set FLAG_KJ_SILPH_2F_DOOR_1, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_2F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 2
-	setvar VAR_0x8004, FLAG_SILPH_2F_DOOR_2
-	goto_if_set FLAG_SILPH_2F_DOOR_2, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_2F_DOOR_2
+	goto_if_set FLAG_KJ_SILPH_2F_DOOR_2, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_3F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 3
-	setvar VAR_0x8004, FLAG_SILPH_3F_DOOR_1
-	goto_if_set FLAG_SILPH_3F_DOOR_1, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_3F_DOOR_1
+	goto_if_set FLAG_KJ_SILPH_3F_DOOR_1, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_3F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 4
-	setvar VAR_0x8004, FLAG_SILPH_3F_DOOR_2
-	goto_if_set FLAG_SILPH_3F_DOOR_2, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_3F_DOOR_2
+	goto_if_set FLAG_KJ_SILPH_3F_DOOR_2, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_4F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 5
-	setvar VAR_0x8004, FLAG_SILPH_4F_DOOR_1
-	goto_if_set FLAG_SILPH_4F_DOOR_1, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_4F_DOOR_1
+	goto_if_set FLAG_KJ_SILPH_4F_DOOR_1, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_4F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 6
-	setvar VAR_0x8004, FLAG_SILPH_4F_DOOR_2
-	goto_if_set FLAG_SILPH_4F_DOOR_2, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_4F_DOOR_2
+	goto_if_set FLAG_KJ_SILPH_4F_DOOR_2, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_5F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 7
-	setvar VAR_0x8004, FLAG_SILPH_5F_DOOR_1
-	goto_if_set FLAG_SILPH_5F_DOOR_1, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_5F_DOOR_1
+	goto_if_set FLAG_KJ_SILPH_5F_DOOR_1, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_5F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 8
-	setvar VAR_0x8004, FLAG_SILPH_5F_DOOR_2
-	goto_if_set FLAG_SILPH_5F_DOOR_2, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_5F_DOOR_2
+	goto_if_set FLAG_KJ_SILPH_5F_DOOR_2, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_5F_EventScript_Door3::
 	lockall
 	setvar VAR_TEMP_1, 9
-	setvar VAR_0x8004, FLAG_SILPH_5F_DOOR_3
-	goto_if_set FLAG_SILPH_5F_DOOR_3, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_5F_DOOR_3
+	goto_if_set FLAG_KJ_SILPH_5F_DOOR_3, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_6F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 10
-	setvar VAR_0x8004, FLAG_SILPH_6F_DOOR
-	goto_if_set FLAG_SILPH_6F_DOOR, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_6F_DOOR
+	goto_if_set FLAG_KJ_SILPH_6F_DOOR, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_7F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 11
-	setvar VAR_0x8004, FLAG_SILPH_7F_DOOR_1
-	goto_if_set FLAG_SILPH_7F_DOOR_1, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_7F_DOOR_1
+	goto_if_set FLAG_KJ_SILPH_7F_DOOR_1, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_7F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 12
-	setvar VAR_0x8004, FLAG_SILPH_7F_DOOR_2
-	goto_if_set FLAG_SILPH_7F_DOOR_2, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_7F_DOOR_2
+	goto_if_set FLAG_KJ_SILPH_7F_DOOR_2, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_7F_EventScript_Door3::
 	lockall
 	setvar VAR_TEMP_1, 13
-	setvar VAR_0x8004, FLAG_SILPH_7F_DOOR_3
-	goto_if_set FLAG_SILPH_7F_DOOR_3, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_7F_DOOR_3
+	goto_if_set FLAG_KJ_SILPH_7F_DOOR_3, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_8F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 14
-	setvar VAR_0x8004, FLAG_SILPH_8F_DOOR
-	goto_if_set FLAG_SILPH_8F_DOOR, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_8F_DOOR
+	goto_if_set FLAG_KJ_SILPH_8F_DOOR, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 15
-	setvar VAR_0x8004, FLAG_SILPH_9F_DOOR_1
-	goto_if_set FLAG_SILPH_9F_DOOR_1, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_9F_DOOR_1
+	goto_if_set FLAG_KJ_SILPH_9F_DOOR_1, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 16
-	setvar VAR_0x8004, FLAG_SILPH_9F_DOOR_2
-	goto_if_set FLAG_SILPH_9F_DOOR_2, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_9F_DOOR_2
+	goto_if_set FLAG_KJ_SILPH_9F_DOOR_2, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door3::
 	lockall
 	setvar VAR_TEMP_1, 17
-	setvar VAR_0x8004, FLAG_SILPH_9F_DOOR_3
-	goto_if_set FLAG_SILPH_9F_DOOR_3, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_9F_DOOR_3
+	goto_if_set FLAG_KJ_SILPH_9F_DOOR_3, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door4::
 	lockall
 	setvar VAR_TEMP_1, 18
-	setvar VAR_0x8004, FLAG_SILPH_9F_DOOR_4
-	goto_if_set FLAG_SILPH_9F_DOOR_4, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_9F_DOOR_4
+	goto_if_set FLAG_KJ_SILPH_9F_DOOR_4, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_10F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 19
-	setvar VAR_0x8004, FLAG_SILPH_10F_DOOR
-	goto_if_set FLAG_SILPH_10F_DOOR, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_10F_DOOR
+	goto_if_set FLAG_KJ_SILPH_10F_DOOR, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_11F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 20
-	setvar VAR_0x8004, FLAG_SILPH_11F_DOOR
-	goto_if_set FLAG_SILPH_11F_DOOR, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_KJ_SILPH_11F_DOOR
+	goto_if_set FLAG_KJ_SILPH_11F_DOOR, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 EventScript_TryUnlockDoor::
-	goto_if_set FLAG_HIDE_SILPH_CO_5F_CARD_KEY, EventScript_OpenDoor
+	goto_if_set FLAG_KJ_HIDE_SILPH_CO_5F_CARD_KEY, EventScript_OpenDoor
 	goto EventScript_NeedCardKey
 	end
 
@@ -544,12 +544,12 @@ EventScript_OpenDoor::
 	end
 
 Text_CardKeyOpenedDoor::
-	.string "Bingo!\n"
-	.string "The CARD KEY opened the door!$"
+	.string "…ピンポーン！\n"
+	.string "カードキーで　ロック　をはずした！$"
 
 Text_ItNeedsCardKey::
-	.string "No!\n"
-	.string "It needs a CARD KEY!$"
+	.string "…だめだ！\n"
+	.string "カードキーが　ないと　あかない！$"
 
 Text_TheDoorIsOpen::
-	.string "The door is open…$"
+	.string "ドアは　あいている…$"

@@ -3,8 +3,8 @@ EventScript_AfterWhiteOutHeal_Frlg::
 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox gText_FirstShouldRestoreMonsHealth
 	call EventScript_PkmnCenterNurse_TakeAndHealPkmn_Frlg
-	call_if_unset FLAG_DEFEATED_BROCK, EventScript_AfterWhiteOutHealMsgPreFirstBoss
-	call_if_set FLAG_DEFEATED_BROCK, EventScript_AfterWhiteOutHealMsg
+	call_if_unset FLAG_KJ_DEFEATED_BROCK, EventScript_AfterWhiteOutHealMsgPreFirstBoss
+	call_if_set FLAG_KJ_DEFEATED_BROCK, EventScript_AfterWhiteOutHealMsg
 	applymovement VAR_LAST_TALKED, Movement_Bow
 	waitmovement 0
 	fadedefaultbgm
@@ -97,16 +97,18 @@ Movement_Bow::
 	step_end
 
 Text_WelcomeWantToHealPkmn_Frlg::
-	.string "Welcome to our POKéMON CENTER!\p"
-	.string "Would you like me to heal your\n"
-	.string "POKéMON back to perfect health?$"
+	.string "ようこそ！\n"
+	.string "ポケモンセンターへ\p"
+	.string "ここでは　ポケモンの\n"
+	.string "たいりょく　かいふくを　いたします$"
 
 Text_TakeYourPkmnForFewSeconds_Frlg::
-	.string "Okay, I'll take your POKéMON for a\n"
-	.string "few seconds.$"
+	.string "それでは\n"
+	.string "おあずかり　いたします！$"
 
 Text_WeHopeToSeeYouAgain_Frlg::
-	.string "We hope to see you again!$"
+	.string "またの\n"
+	.string "ごりようを　おまちしてます！$"
 
 Text_RestoredPkmnToFullHealth_Frlg::
 	.string "Thank you for waiting.\n"

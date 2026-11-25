@@ -22,6 +22,8 @@
                      番号 864 以降のトレーナーフラグは ENGINE_FLAGS のうしろ（KJ_TRAINER_FLAGS_START、TRAINER_FLAG_ID）
 - gen_vars.py     ……FRLG の変数（42）を hns の空き変数（34）とジョウト専用の変数（8、KJ_SHARED_VARS_LIST）に割り当てる
                      ジョウト編に入るとき KJ_SHARED_VARS_LIST を 0 に戻す（まだ）
+- gen_flags.py    ……FRLG のフラグ（496）を FLAG_KJ_* にして、拡張フラグ（KJ_FRLG_FLAGS_START〜）に置く
+                     （hns の flags_hns.h では FRLG のフラグ名の多くが 0 になっていたため）
 - gen_tilesets.py ……使う FRLG タイルセット（51）を src/data/tilesets/kj_frlg.h に（属性は ALIGNED(4)）
 - patch_frlg_scripts.py ……FRLG のバッジ 1〜8 → hns のカントーのバッジ 9〜16
 - prune_common.py ……共通スクリプトからセブンアイランドの分を除く
@@ -33,7 +35,9 @@
 ## 進み具合
 - [x] FRLG カントー入りでビルドが通る（ROM 31.0MB 使用）
 - [x] ニューゲームがマサラタウンの自分の部屋から始まる。1階・外・オーキドのイベントまで動く
-- [ ] 会話の日本語化（FRLG の英語のまま。日本版ファイアレッドの文にする）
+- [x] 会話の日本語化：日本版ファイアレッドから取り出して入れた（2881 文。残りは看板などの共通文・通信クラブ）
+      tools_kj/jp/: walk.py（pokefirered と日本版のスクリプトを並べてたどり、会話の番地を求める）→ fill.py → apply_jp.py
+- [x] 研究所で御三家を選び、ライバル戦（シゲル）まで動く
 - [ ] オープニング（名前入力にサトシ・ライバルの名前入力）
 - [ ] 初代御三家・シゲル・ムサシとコジロウ
 - [ ] ひでんわざをカントーのバッジで使えるように

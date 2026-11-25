@@ -29,7 +29,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "SilphCo_5F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -43,7 +43,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "SilphCo_5F_EventScript_Dalton",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -71,7 +71,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "SilphCo_5F_EventScript_Beau",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -85,7 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "SilphCo_5F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -99,7 +99,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_5F_EventScript_ItemProtein",
-      "flag": "FLAG_HIDE_SILPH_CO_5F_PROTEIN"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_5F_PROTEIN"
     },
     {
       "type": "object",
@@ -113,7 +113,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_5F_EventScript_ItemTM01",
-      "flag": "FLAG_HIDE_SILPH_CO_5F_TM01"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_5F_TM01"
     },
     {
       "type": "object",
@@ -127,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_5F_EventScript_ItemCardKey",
-      "flag": "FLAG_HIDE_SILPH_CO_5F_CARD_KEY"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_5F_CARD_KEY"
     },
     {
       "type": "object",
@@ -203,7 +203,7 @@
       "y": 16,
       "elevation": 0,
       "item": "ITEM_ELIXIR",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_5F_ELIXIR",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_5F_ELIXIR",
       "quantity": 1,
       "underfoot": false
     },
@@ -333,7 +333,7 @@
       "y": 9,
       "elevation": 0,
       "item": "ITEM_PP_UP",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_5F_PP_UP",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_5F_PP_UP",
       "quantity": 1,
       "underfoot": false
     },

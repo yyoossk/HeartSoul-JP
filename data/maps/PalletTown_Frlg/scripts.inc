@@ -7,7 +7,7 @@ PalletTown_Frlg_MapScripts::
 
 PalletTown_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_PALLET_TOWN
-	call_if_set FLAG_PALLET_LADY_NOT_BLOCKING_SIGN, PalletTown_EventScript_TryReadySignLady
+	call_if_set FLAG_KJ_PALLET_LADY_NOT_BLOCKING_SIGN, PalletTown_EventScript_TryReadySignLady
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 0, PalletTown_EventScript_SetSignLadyPos
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 1, PalletTown_EventScript_SetSignLadyDone
 	end
@@ -23,7 +23,7 @@ PalletTown_EventScript_SetSignLadyDone::
 	return
 
 PalletTown_EventScript_SetSignLadyPos::
-	goto_if_set FLAG_PALLET_LADY_NOT_BLOCKING_SIGN, PalletTown_EventScript_MoveSignLadyToRouteEntrance
+	goto_if_set FLAG_KJ_PALLET_LADY_NOT_BLOCKING_SIGN, PalletTown_EventScript_MoveSignLadyToRouteEntrance
 	setobjectxyperm LOCALID_PALLET_SIGN_LADY, 5, 15
 	setobjectmovementtype LOCALID_PALLET_SIGN_LADY, MOVEMENT_TYPE_FACE_UP
 	return
@@ -71,7 +71,7 @@ PalletTown_EventScript_OakRatingScene::
 	waitdooranim
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 7
 	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 3
-	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
+	setflag FLAG_KJ_HIDE_OAK_IN_PALLET_TOWN
 	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 12
 	waitstate
 	releaseall
@@ -210,9 +210,9 @@ PalletTown_EventScript_OakTrigger::
 	closedoor 16, 13
 	waitdooranim
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1
-	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
+	clearflag FLAG_KJ_HIDE_OAK_IN_HIS_LAB
 	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1
-	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
+	setflag FLAG_KJ_HIDE_OAK_IN_PALLET_TOWN
 	setflag FLAG_DONT_TRANSITION_MUSIC
 	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 12
 	waitstate
@@ -449,100 +449,107 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	end
 
 PalletTown_Text_OakDontGoOut::
-	.string "OAK: Hey! Wait!\n"
-	.string "Don't go out!$"
+	.string "オーキド“おーい！\n"
+	.string "まてー！　まつんじゃあ！$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-	.string "OAK: It's unsafe!\n"
-	.string "Wild POKéMON live in tall grass!\p"
-	.string "You need your own POKéMON for\n"
-	.string "your protection.\p"
-	.string "I know!\n"
-	.string "Here, come with me!$"
+	.string "オーキド“あぶない　とこだった！\n"
+	.string "くさむらでは\l"
+	.string "やせいの　ポケモンが　とびだす！\p"
+	.string "こちらも　ポケモンを\n"
+	.string "もって　いれば\l"
+	.string "たたかえるのだが…\l"
+	.string "そうじゃ！\p"
+	.string "…　ちょっと\n"
+	.string "わしに　ついて　きなさい！$"
 
 PalletTown_Text_RaisingMonsToo::
-	.string "I'm raising POKéMON, too.\p"
-	.string "When they get strong, they can\n"
-	.string "protect me.$"
+	.string "わたしも\n"
+	.string "ポケモンを　そだててるの！\p"
+	.string "つよく　なれば\n"
+	.string "ガードマンの　かわりに　なるしね$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-	.string "Technology is incredible!\p"
-	.string "You can now store and recall items\n"
-	.string "and POKéMON as data via PC.$"
+	.string "かがくの　ちからって　すげー！\p"
+	.string "いまは　パソコンつうしんで\n"
+	.string "どうぐや　ポケモンを\l"
+	.string "データにして　おくれるんだと$"
 
 PalletTown_Text_OakPokemonResearchLab::
-	.string "OAK POKéMON RESEARCH LAB$"
+	.string "ここは　オーキド　はかせの\n"
+	.string "ポケモン　けんきゅうじょ$"
 
 PalletTown_Text_PlayersHouse::
-	.string "{PLAYER}'s house$"
+	.string "ここは　{PLAYER}　のいえ$"
 
 PalletTown_Text_RivalsHouse::
-	.string "{RIVAL}'s house$"
+	.string "ここは　{RIVAL}　のいえ$"
 
 PalletTown_Text_TownSign::
-	.string "PALLET TOWN\n"
-	.string "Shades of your journey await!$"
+	.string "ここは　マサラ　タウン\n"
+	.string "マサラは　まっしろ　はじまりのいろ$"
 
 PalletTown_Text_OakLetMeSeePokedex::
-	.string "OAK: Ah, {PLAYER}!\n"
-	.string "You're back, are you?\p"
-	.string "How much have you filled in your\n"
-	.string "POKéDEX?\p"
-	.string "May I see it?\p"
-	.string "Let's see…$"
+	.string "オーキド“おお　{PLAYER}！\n"
+	.string "かえって　きて　おったのか\p"
+	.string "ポケモンずかんは\n"
+	.string "どのくらい　あつまったのか\l"
+	.string "みせて　くれんか？\p"
+	.string "どれどれ……$"
 
 PalletTown_Text_CaughtXPuttingInHonestEffort::
-	.string "You've caught {STR_VAR_2}…\p"
-	.string "Hm, it looks as if you're putting\n"
-	.string "in an honest effort.\p"
-	.string "When you manage to fill it some\n"
-	.string "more, come show me, please.$"
+	.string "つかまえたかず　{STR_VAR_2}…\p"
+	.string "うん　なかなか\n"
+	.string "がんばって　おるよう　じゃな！\p"
+	.string "もっと　たくさん　うまったら\n"
+	.string "ぜひ　わしに　みせにきてくれ！$"
 
 PalletTown_Text_CaughtXImpressiveFollowMe::
-	.string "You've caught… {STR_VAR_2}!?\n"
-	.string "Now, this is impressive!\p"
-	.string "There's something I wanted to ask\n"
-	.string "of you, {PLAYER}.\p"
-	.string "Come.\n"
-	.string "Follow me.$"
+	.string "つかまえたかず　{STR_VAR_2}…\n"
+	.string "おお　これなら　いい！\p"
+	.string "じつは……　{PLAYER}に\n"
+	.string "おねがいが　あるんじゃ\l"
+	.string "ちょっと　ついて　きてくれ！$"
 
 PalletTown_Text_OakYouEnjoyingTraveling::
-	.string "OAK: Ah, {PLAYER}!\n"
-	.string "You seem to be enjoying traveling.\p"
-	.string "Knowing you, {PLAYER}, I can easily\n"
-	.string "imagine you going out to even more\l"
-	.string "exotic locales.\p"
-	.string "Good for you, good for you.\n"
-	.string "Hohoho.$"
+	.string "オーキド“おお　{PLAYER}！\n"
+	.string "たびを　たのしんで　おるようじゃな\p"
+	.string "{PLAYER}の　ことじゃ\n"
+	.string "もっと　いろいろな　ところに\l"
+	.string "でかけて　いくんじゃろう\p"
+	.string "よきかな　よきかな……\n"
+	.string "ほっほっほ$"
 
 @ For the NPC in Pallet Town that talks about the Trainer Tips sign
 PalletTown_Text_HmmIsThatRight::
-	.string "Hmm…\n"
-	.string "Is that right…$"
+	.string "ふーん…\n"
+	.string "そうなんだぁ$"
 
 PalletTown_Text_OhLookLook::
-	.string "Oh!\n"
-	.string "Look, look!$"
+	.string "あ！　みてみて！$"
 
 PalletTown_Text_ReadItReadIt::
-	.string "Read it, read it!$"
+	.string "よんで　よんで！$"
 
 @ Used by sign
 PalletTown_Text_PressStartToOpenMenu::
-	.string "TRAINER TIPS\p"
-	.string "Press START to open the MENU!$"
+	.string "…　おとくな　けいじばん！\p"
+	.string "スタート　ボタンを　おすと\n"
+	.string "メニューが　ひらきます！$"
 
 PalletTown_Text_SignsAreUsefulArentThey::
-	.string "Signs are useful, aren't they?$"
+	.string "かんばんって　ためになるね！$"
 
 PalletTown_Text_LookCopiedTrainerTipsSign::
-	.string "Look, look!\p"
-	.string "I copied what it said on one of\n"
-	.string "those TRAINER TIPS signs!$"
+	.string "みてみて！\p"
+	.string "おとくな　けいじばんに\n"
+	.string "かいて　あったこと\l"
+	.string "まねして　かいて　みたの！$"
 
 @ Used by NPC
 PalletTown_Text_PressStartToOpenMenuCopy::
-	.string "TRAINER TIPS!\p"
-	.string "Press START to open the MENU!$"
+	.string "…　おとくな　けいじばん！\p"
+	.string "スタート　ボタンを　おすと\n"
+	.string "メニューが　ひらきます！$"
 
 

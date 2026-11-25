@@ -32,7 +32,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_CREDITS_RIVAL"
+      "flag": "FLAG_KJ_HIDE_CREDITS_RIVAL"
     },
     {
       "local_id": "LOCALID_CREDITS_PROF_OAK",
@@ -46,7 +46,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_CREDITS_OAK"
+      "flag": "FLAG_KJ_HIDE_CREDITS_OAK"
     }
   ],
   "warp_events": [

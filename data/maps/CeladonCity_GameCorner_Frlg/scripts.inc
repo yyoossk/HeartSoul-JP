@@ -3,7 +3,7 @@ CeladonCity_GameCorner_Frlg_MapScripts::
 	.byte 0
 
 CeladonCity_GameCorner_OnLoad::
-	call_if_unset FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_HideRocketHideout
+	call_if_unset FLAG_KJ_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_HideRocketHideout
 	end
 
 CeladonCity_GameCorner_EventScript_HideRocketHideout::
@@ -35,7 +35,7 @@ CeladonCity_GameCorner_EventScript_CoinsClerk::
 	end
 
 CeladonCity_GameCorner_EventScript_BuyCoins::
-	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_ClerkNoCoinCase
+	goto_if_unset FLAG_KJ_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_ClerkNoCoinCase
 	goto_if_eq VAR_0x8009, 0, CeladonCity_GameCorner_EventScript_Buy50Coins
 	goto_if_eq VAR_0x8009, 1, CeladonCity_GameCorner_EventScript_Buy500Coins
 	end
@@ -118,9 +118,9 @@ CeladonCity_GameCorner_EventScript_Woman1::
 CeladonCity_GameCorner_EventScript_Fisher::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_10_COINS_FROM_GAMBLER, CeladonCity_GameCorner_EventScript_FisherAlreadyGotCoins
+	goto_if_set FLAG_KJ_GOT_10_COINS_FROM_GAMBLER, CeladonCity_GameCorner_EventScript_FisherAlreadyGotCoins
 	msgbox CeladonCity_GameCorner_Text_DoYouWantToPlay
-	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_GamblerNoCoinCase
+	goto_if_unset FLAG_KJ_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_GamblerNoCoinCase
 	checkcoins VAR_TEMP_1
 	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 10, CeladonCity_GameCorner_EventScript_FisherNoRoomForCoins
 	addcoins 10
@@ -128,7 +128,7 @@ CeladonCity_GameCorner_EventScript_Fisher::
 	msgbox CeladonCity_GameCorner_Text_Received10CoinsFromMan
 	playse SE_SHOP
 	waitse
-	setflag FLAG_GOT_10_COINS_FROM_GAMBLER
+	setflag FLAG_KJ_GOT_10_COINS_FROM_GAMBLER
 	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
 	end
 
@@ -151,7 +151,7 @@ CeladonCity_GameCorner_EventScript_FisherAlreadyGotCoins::
 CeladonCity_GameCorner_EventScript_GymGuy::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_ERIKA, CeladonCity_GameCorner_EventScript_GymGuyPostVictory
+	goto_if_set FLAG_KJ_DEFEATED_ERIKA, CeladonCity_GameCorner_EventScript_GymGuyPostVictory
 	msgbox CeladonCity_GameCorner_Text_GymGuyAdvice
 	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
 	end
@@ -178,9 +178,9 @@ CeladonCity_GameCorner_EventScript_OldMan::
 CeladonCity_GameCorner_EventScript_Scientist::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_20_COINS_FROM_GAMBLER, CeladonCity_GameCorner_EventScript_ScientistAlreadyGotCoins
+	goto_if_set FLAG_KJ_GOT_20_COINS_FROM_GAMBLER, CeladonCity_GameCorner_EventScript_ScientistAlreadyGotCoins
 	msgbox CeladonCity_GameCorner_Text_WantSomeCoins
-	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_GamblerNoCoinCase
+	goto_if_unset FLAG_KJ_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_GamblerNoCoinCase
 	checkcoins VAR_TEMP_1
 	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 20, CeladonCity_GameCorner_EventScript_ScientistNoRoomForCoins
 	addcoins 20
@@ -188,7 +188,7 @@ CeladonCity_GameCorner_EventScript_Scientist::
 	msgbox CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy
 	playse SE_SHOP
 	waitse
-	setflag FLAG_GOT_20_COINS_FROM_GAMBLER
+	setflag FLAG_KJ_GOT_20_COINS_FROM_GAMBLER
 	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
 	end
 
@@ -205,9 +205,9 @@ CeladonCity_GameCorner_EventScript_ScientistAlreadyGotCoins::
 CeladonCity_GameCorner_EventScript_Gentleman::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_20_COINS_FROM_GAMBLER_2, CeladonCity_GameCorner_EventScript_GentlemanAlreadyGotCoins
+	goto_if_set FLAG_KJ_GOT_20_COINS_FROM_GAMBLER_2, CeladonCity_GameCorner_EventScript_GentlemanAlreadyGotCoins
 	msgbox CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo
-	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_GamblerNoCoinCase
+	goto_if_unset FLAG_KJ_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_GamblerNoCoinCase
 	checkcoins VAR_TEMP_1
 	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 20, CeladonCity_GameCorner_EventScript_GentlemanNoRoomForCoins
 	addcoins 20
@@ -215,7 +215,7 @@ CeladonCity_GameCorner_EventScript_Gentleman::
 	msgbox CeladonCity_GameCorner_Text_Received20CoinsFromMan
 	playse SE_SHOP
 	waitse
-	setflag FLAG_GOT_20_COINS_FROM_GAMBLER_2
+	setflag FLAG_KJ_GOT_20_COINS_FROM_GAMBLER_2
 	goto CeladonCity_GameCorner_EventScript_FaceSlotMachine
 	end
 
@@ -240,7 +240,7 @@ CeladonCity_GameCorner_EventScript_DontPlaySlotMachine::
 	end
 
 CeladonCity_GameCorner_EventScript_SlotMachine::
-	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_SlotMachineNoCoinCase
+	goto_if_unset FLAG_KJ_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_SlotMachineNoCoinCase
 	msgbox CeladonCity_GameCorner_Text_SlotMachineWantToPlay, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_EventScript_DontPlaySlotMachine
 	setfieldeffectargument 0, LOCALID_PLAYER
@@ -393,7 +393,7 @@ CeladonCity_GameCorner_EventScript_SlotMachineNoCoinCase::
 CeladonCity_GameCorner_EventScript_Poster::
 	lockall
 	msgbox CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt
-	call_if_unset FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_OpenRocketHideout
+	call_if_unset FLAG_KJ_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_OpenRocketHideout
 	releaseall
 	end
 
@@ -405,7 +405,7 @@ CeladonCity_GameCorner_EventScript_OpenRocketHideout::
 	setmetatile 16, 3, METATILE_GameCorner_PurpleWall_StairsTop, 1
 	setmetatile 17, 3, METATILE_GameCorner_PurpleWall_stairsBottom, 1
 	special DrawWholeMapView
-	setflag FLAG_OPENED_ROCKET_HIDEOUT
+	setflag FLAG_KJ_OPENED_ROCKET_HIDEOUT
 	return
 
 CeladonCity_GameCorner_EventScript_RocketGrunt::
@@ -465,150 +465,160 @@ CeladonCity_GameCorner_EventScript_UnusableSlotMachine3::
 	end
 
 CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor::
-	.string "Welcome!\p"
-	.string "You can exchange your COINS for\n"
-	.string "fabulous prizes next door.$"
+	.string "いらっしゃいませ！\p"
+	.string "ゲームで　ためた　コインは\n"
+	.string "そとの　こうかんじょで\l"
+	.string "すきな　けいひんと　かえてね！$"
 
 CeladonCity_GameCorner_Text_WelcomeBuySomeCoins::
-	.string "Welcome to ROCKET GAME CORNER!\p"
-	.string "Do you need some game COINS?\n"
-	.string "Would you like to buy some?$"
+	.string "いらっしゃいませ！\n"
+	.string "ロケット　ゲーム　コーナーです\p"
+	.string "ゲームよう　コイン　ですね！\n"
+	.string "なんまい　かいますか？$"
 
 CeladonCity_GameCorner_Text_ComePlaySometime::
-	.string "No?\n"
-	.string "Please come play sometime!$"
+	.string "…　いりませんか！\n"
+	.string "それでは　また　どうぞ！$"
 
 CeladonCity_GameCorner_Text_SorryDontHaveCoinCase::
-	.string "Oh, I'm sorry.\n"
-	.string "You don't have a COIN CASE.$"
+	.string "あれ？　コインを　いれる\n"
+	.string "コインケースが　ないよ！$"
 
 CeladonCity_GameCorner_Text_CoinCaseIsFull::
-	.string "Whoops!\n"
-	.string "Your COIN CASE is full.$"
+	.string "おっと…！\n"
+	.string "そんなに　コイン　はいらないよ！$"
 
 CeladonCity_GameCorner_Text_CantAffordCoins::
-	.string "You can't afford the COINS.$"
+	.string "おかね　たりないよ！$"
 
 CeladonCity_GameCorner_Text_HereAreYourCoins::
-	.string "Thank you.\n"
-	.string "Here are your COINS!$"
+	.string "はい！　まいど　あり！\n"
+	.string "コインを　どうぞ！$"
 
 CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace::
-	.string "Keep this quiet.\p"
-	.string "It's rumored that this place is run\n"
-	.string "by TEAM ROCKET.$"
+	.string "…　ここだけの　はなし…\p"
+	.string "この　ゲーム　じょうは\n"
+	.string "ロケットだんの　おみせ　らしい…\l"
+	.string "みんな　うわさ　しちょる…$"
 
 CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds::
-	.string "I think these machines have\n"
-	.string "different odds.$"
+	.string "ばしょに　よって　よく　でる\n"
+	.string "スロットが　あるようね$"
 
 CeladonCity_GameCorner_Text_DoYouWantToPlay::
-	.string "Kid, do you want to play?$"
+	.string "…　なんだ\n"
+	.string "ゲーム　やりたいのか？$"
 
 CeladonCity_GameCorner_Text_Received10CoinsFromMan::
-	.string "{PLAYER} received 10 COINS\n"
-	.string "from the man.$"
+	.string "{PLAYER}は　おじさんから\n"
+	.string "コイン　１０まい　もらった！$"
 
 CeladonCity_GameCorner_Text_DontNeedMyCoins::
-	.string "You don't need my COINS!$"
+	.string "やっぱり　やるの　やめた！$"
 
 CeladonCity_GameCorner_Text_WinsComeAndGo::
-	.string "Wins seem to come and go.\n"
-	.string "Nothing's a sure thing.$"
+	.string "かつ　ときは　かつんだけど\n"
+	.string "まける　ときは　まけちゃうんだな$"
 
 CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
-	.string "These slot games…\n"
-	.string "Win or lose, it's only by luck.$"
+	.string "スロット　ゲームは　たのしい！\n"
+	.string "じかんが　たつのを　わすれるわ！$"
 
 CeladonCity_GameCorner_Text_GymGuyAdvice::
-	.string "Hey!\p"
-	.string "You have better things to do,\n"
-	.string "champ in the making!\p"
-	.string "CELADON GYM's LEADER is ERIKA.\p"
-	.string "She is a user of GRASS-type\n"
-	.string "POKéMON, and at one with nature.\p"
-	.string "She might appear docile because of\n"
-	.string "her flower arranging…\p"
-	.string "But she's not one to be taken\n"
-	.string "lightly!$"
+	.string "おお…！\p"
+	.string "こんな　ところで\n"
+	.string "あぶら　うってて　いいのか！\l"
+	.string "みらいの　チャンピオン！\p"
+	.string "タマムシの　リーダー　エリカは\n"
+	.string "しぜんと　こころを　かよわす\l"
+	.string "しょくぶつ　ポケモンの　つかいて！\p"
+	.string "おはな　なんか　いけてる　から\n"
+	.string "おとなしそうに　みえるが\l"
+	.string "てごわい　あいてに　なるぞ！$"
 
 CeladonCity_GameCorner_Text_RareMonsForCoins::
-	.string "They offer rare POKéMON that can\n"
-	.string "be exchanged for your COINS.\p"
-	.string "But, I just can't seem to win!$"
+	.string "いい　ポケモンが　けいひんに\n"
+	.string "あったからよー\p"
+	.string "がんばってるんだが\n"
+	.string "ぜんぜん　だめだ！$"
 
 CeladonCity_GameCorner_Text_SoEasyToGetHooked::
-	.string "Games are scary!\n"
-	.string "It's so easy to get hooked!$"
+	.string "ひょー…　ゲームは　こわい！\n"
+	.string "ちょっと　いきぬきの　つもりが\l"
+	.string "むちゅうに　なっちまう！$"
 
 CeladonCity_GameCorner_Text_WantSomeCoins::
-	.string "What's up?\n"
-	.string "Want some COINS?$"
+	.string "…　なんだよ？\n"
+	.string "コイン　わけて　やろうか？$"
 
 CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy::
-	.string "{PLAYER} received 20 COINS\n"
-	.string "from the nice guy.$"
+	.string "{PLAYER}は　おにいさんから\n"
+	.string "コイン　２０まい　もらった！$"
 
 CeladonCity_GameCorner_Text_YouHaveLotsOfCoins::
-	.string "You have lots of COINS!$"
+	.string "いっぱい　もってる　じゃん$"
 
 CeladonCity_GameCorner_Text_NeedMoreCoinsForMonIWant::
-	.string "Darn! I need more COINS for the\n"
-	.string "POKéMON I want!$"
+	.string "くそ　でないな！\n"
+	.string "ほしい　けいひんが　あるのに$"
 
 CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo::
-	.string "Hey, what? You're throwing me off!\n"
-	.string "Here are some COINS, so shoo!$"
+	.string "わ　ちょっと！\n"
+	.string "…　てもとが　くるう\l"
+	.string "コイン　あげるから\l"
+	.string "あっち　いってくれ$"
 
 CeladonCity_GameCorner_Text_Received20CoinsFromMan::
-	.string "{PLAYER} received 20 COINS\n"
-	.string "from the man.$"
+	.string "{PLAYER}は　おじさんから\n"
+	.string "コイン　２０まい　もらった！$"
 
 CeladonCity_GameCorner_Text_YouveGotPlentyCoins::
-	.string "You've got plenty of your own\n"
-	.string "COINS!$"
+	.string "コイン　いっぱい　あるじゃん$"
 
 CeladonCity_GameCorner_Text_WatchReelsClosely::
-	.string "The trick is to watch the reels\n"
-	.string "closely.$"
+	.string "スロットの　えがらを　よおく　みて\n"
+	.string "ボタンを　おすのが　コツだよ$"
 
 CeladonCity_GameCorner_Text_GruntIntro::
-	.string "I'm guarding this poster!\n"
-	.string "Go away, or else!$"
+	.string "おれは\n"
+	.string "この　ポスターを　みはってるのだ\l"
+	.string "じゃまを　すると\l"
+	.string "いたいめに　あわせるぞ！$"
 
 CeladonCity_GameCorner_Text_GruntDefeat::
-	.string "Dang!$"
+	.string "ち　ちくしょう！$"
 
 CeladonCity_GameCorner_Text_GruntPostBattle::
-	.string "The TEAM ROCKET HIDEOUT might\n"
-	.string "be discovered!\p"
-	.string "I better tell BOSS!$"
+	.string "このままでは　ロケットだん\n"
+	.string "アジトの　そんざいが　ばれちまう\l"
+	.string "ボスに　れんらく　しなくては！$"
 
 CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt::
-	.string "Hey!\p"
-	.string "A switch behind the poster!?\n"
-	.string "Let's push it!$"
+	.string "あ！\p"
+	.string "ポスターの　うらに\n"
+	.string "ひみつの　スイッチを　みつけた\l"
+	.string "おしてみよう！　…ポチッとな！$"
 
 CeladonCity_GameCorner_Text_CoinCaseIsRequired::
-	.string "A COIN CASE is required…$"
+	.string "コインケースを　もっていない！$"
 
 CeladonCity_GameCorner_Text_DontHaveCoinCase::
-	.string "Oops!\n"
-	.string "Don't have the COIN CASE!$"
+	.string "しまった！\n"
+	.string "コインケースを　もっていない！$"
 
 CeladonCity_GameCorner_Text_SlotMachineWantToPlay::
-	.string "A slot machine!\n"
-	.string "Want to play?$"
+	.string "スロットマシーンが　ある！\n"
+	.string "あそびますか？$"
 
 CeladonCity_GameCorner_Text_OutOfOrder::
-	.string "OUT OF ORDER\n"
-	.string "This is broken.$"
+	.string "こしょう　ちゅう！\n"
+	.string "…　ざんねん　だけど　こわれてる$"
 
 CeladonCity_GameCorner_Text_OutToLunch::
-	.string "OUT TO LUNCH\n"
-	.string "This is reserved.$"
+	.string "おしょくじ　ちゅう！\n"
+	.string "…　の　フダが　かけてある！$"
 
 CeladonCity_GameCorner_Text_SomeonesKeys::
-	.string "Someone's keys!\n"
-	.string "They'll be back.$"
+	.string "カギが　おいてある…\n"
+	.string "きっと　これは　だれかの　だいだ！$"
 

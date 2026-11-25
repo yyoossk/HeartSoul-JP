@@ -50,7 +50,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_RocketGrunt1",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "type": "object",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_RocketGrunt2",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "type": "object",
@@ -78,7 +78,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_RocketGrunt3",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "type": "object",
@@ -92,7 +92,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_RocketGrunt4",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "type": "object",
@@ -106,7 +106,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_RocketGrunt5",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "local_id": "LOCALID_SAFFRON_DOOR_GUARD_GRUNT",
@@ -121,7 +121,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_DoorGuardGrunt",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "type": "object",
@@ -135,7 +135,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_RocketGrunt7",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "type": "object",
@@ -149,7 +149,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_RocketGrunt6",
-      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_ROCKETS"
     },
     {
       "type": "object",
@@ -163,7 +163,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_Youngster",
-      "flag": "FLAG_HIDE_SAFFRON_CIVILIANS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_CIVILIANS"
     },
     {
       "type": "object",
@@ -177,7 +177,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_WorkerM",
-      "flag": "FLAG_HIDE_SAFFRON_CIVILIANS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_CIVILIANS"
     },
     {
       "type": "object",
@@ -191,7 +191,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_Man",
-      "flag": "FLAG_HIDE_SAFFRON_CIVILIANS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_CIVILIANS"
     },
     {
       "type": "object",
@@ -205,7 +205,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_Boy",
-      "flag": "FLAG_HIDE_SAFFRON_CIVILIANS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_CIVILIANS"
     },
     {
       "type": "object",
@@ -219,7 +219,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_Pidgeot",
-      "flag": "FLAG_HIDE_SAFFRON_CIVILIANS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_CIVILIANS"
     },
     {
       "type": "object",
@@ -233,7 +233,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_Lass",
-      "flag": "FLAG_HIDE_SAFFRON_CIVILIANS"
+      "flag": "FLAG_KJ_HIDE_SAFFRON_CIVILIANS"
     },
     {
       "type": "object",
@@ -247,7 +247,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity_EventScript_BattleGirl",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     }
   ],
   "warp_events": [

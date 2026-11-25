@@ -58,7 +58,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "local_id": "LOCALID_SILPH_CO_11F_GRUNT1",
@@ -73,7 +73,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "SilphCo_11F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -87,7 +87,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_11F_EventScript_ItemZinc",
-      "flag": "FLAG_HIDE_SILPH_CO_11F_ZINC"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_11F_ZINC"
     },
     {
       "local_id": "LOCALID_SILPH_CO_11F_GRUNT2",
@@ -102,7 +102,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "SilphCo_11F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     }
   ],
   "warp_events": [
@@ -187,7 +187,7 @@
       "y": 18,
       "elevation": 0,
       "item": "ITEM_REVIVE",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_11F_REVIVE",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_11F_REVIVE",
       "quantity": 1,
       "underfoot": false
     },

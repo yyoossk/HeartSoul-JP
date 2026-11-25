@@ -72,7 +72,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_ProfOak",
-      "flag": "FLAG_HIDE_OAK_IN_HIS_LAB"
+      "flag": "FLAG_KJ_HIDE_OAK_IN_HIS_LAB"
     },
     {
       "local_id": "LOCALID_BULBASAUR_BALL",
@@ -87,7 +87,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall",
-      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+      "flag": "FLAG_KJ_HIDE_BULBASAUR_BALL"
     },
     {
       "local_id": "LOCALID_SQUIRTLE_BALL",
@@ -102,7 +102,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_SquirtleBall",
-      "flag": "FLAG_HIDE_SQUIRTLE_BALL"
+      "flag": "FLAG_KJ_HIDE_SQUIRTLE_BALL"
     },
     {
       "local_id": "LOCALID_CHARMANDER_BALL",
@@ -117,7 +117,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_CharmanderBall",
-      "flag": "FLAG_HIDE_CHARMANDER_BALL"
+      "flag": "FLAG_KJ_HIDE_CHARMANDER_BALL"
     },
     {
       "local_id": "LOCALID_OAKS_LAB_RIVAL",
@@ -132,7 +132,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_Rival",
-      "flag": "FLAG_HIDE_RIVAL_IN_LAB"
+      "flag": "FLAG_KJ_HIDE_RIVAL_IN_LAB"
     },
     {
       "local_id": "LOCALID_POKEDEX_1",
@@ -147,7 +147,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_Pokedex",
-      "flag": "FLAG_HIDE_POKEDEX"
+      "flag": "FLAG_KJ_HIDE_POKEDEX"
     },
     {
       "local_id": "LOCALID_POKEDEX_2",
@@ -162,7 +162,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_Pokedex",
-      "flag": "FLAG_HIDE_POKEDEX"
+      "flag": "FLAG_KJ_HIDE_POKEDEX"
     }
   ],
   "warp_events": [

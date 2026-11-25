@@ -3,7 +3,7 @@ PokemonMansion_3F_Frlg_MapScripts::
 	.byte 0
 
 PokemonMansion_3F_OnLoad::
-	call_if_set FLAG_POKEMON_MANSION_SWITCH_STATE, PokemonMansion_EventScript_PressSwitch_3F
+	call_if_set FLAG_KJ_POKEMON_MANSION_SWITCH_STATE, PokemonMansion_EventScript_PressSwitch_3F
 	end
 
 PokemonMansion_3F_EventScript_Statue::
@@ -31,27 +31,31 @@ PokemonMansion_3F_EventScript_Braydon::
 	end
 
 PokemonMansion_1F_Text_SimonIntro::
-	.string "This place is, like, huge!$"
+	.string "それに　しても\n"
+	.string "でっけー　やしき　だねえ！$"
 
 PokemonMansion_1F_Text_SimonDefeat::
-	.string "Ayah!$"
+	.string "どろどろ　ぼーん！$"
 
 PokemonMansion_1F_Text_SimonPostBattle::
-	.string "I wonder where my partner went.$"
+	.string "…　あいぼうが　いたんだ\n"
+	.string "どこ　いったんだろ？$"
 
 PokemonMansion_1F_Text_BraydonIntro::
-	.string "My mentor once lived here.$"
+	.string "ここは　かつて\n"
+	.string "わたしの　せんせいが　すんでいた$"
 
 PokemonMansion_1F_Text_BraydonDefeat::
-	.string "Whew!\n"
-	.string "Overwhelming!$"
+	.string "なんと　つよい$"
 
 PokemonMansion_1F_Text_BraydonPostBattle::
-	.string "So, you're stuck?\n"
-	.string "Try jumping off over there!$"
+	.string "いきたい　ばしょに　いけなくて\n"
+	.string "こまってるのか…　そこから\l"
+	.string "おもいきって　とびおりて　みろ！$"
 
 PokemonMansion_1F_Text_MewGaveBirthToMewtwo::
-	.string "Diary: Feb. 6\n"
-	.string "MEW gave birth.\p"
-	.string "We named the newborn MEWTWO.$"
+	.string "にっき　２がつ６か\n"
+	.string "ミュウが　こどもを　うむ\p"
+	.string "うまれた　ばかりの　ジュニアを\n"
+	.string "ミュウツーと　よぶことに…$"
 

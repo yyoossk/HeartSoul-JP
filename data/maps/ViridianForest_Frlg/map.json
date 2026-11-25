@@ -99,7 +99,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianForest_EventScript_ItemPokeBall",
-      "flag": "FLAG_HIDE_VIRIDIAN_FOREST_POKE_BALL"
+      "flag": "FLAG_KJ_HIDE_VIRIDIAN_FOREST_POKE_BALL"
     },
     {
       "type": "object",
@@ -113,7 +113,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianForest_EventScript_ItemAntidote",
-      "flag": "FLAG_HIDE_VIRIDIAN_FOREST_ANTIDOTE"
+      "flag": "FLAG_KJ_HIDE_VIRIDIAN_FOREST_ANTIDOTE"
     },
     {
       "type": "object",
@@ -127,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianForest_EventScript_ItemPotion",
-      "flag": "FLAG_HIDE_VIRIDIAN_FOREST_POTION"
+      "flag": "FLAG_KJ_HIDE_VIRIDIAN_FOREST_POTION"
     },
     {
       "type": "object",
@@ -169,7 +169,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianForest_EventScript_ItemPotion2",
-      "flag": "FLAG_HIDE_VIRIDIAN_FOREST_POTION_2"
+      "flag": "FLAG_KJ_HIDE_VIRIDIAN_FOREST_POTION_2"
     }
   ],
   "warp_events": [
@@ -272,7 +272,7 @@
       "y": 22,
       "elevation": 3,
       "item": "ITEM_POTION",
-      "flag": "FLAG_HIDDEN_ITEM_VIRIDIAN_FOREST_POTION",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_VIRIDIAN_FOREST_POTION",
       "quantity": 1,
       "underfoot": false
     },
@@ -282,7 +282,7 @@
       "y": 57,
       "elevation": 0,
       "item": "ITEM_ANTIDOTE",
-      "flag": "FLAG_HIDDEN_ITEM_VIRIDIAN_FOREST_ANTIDOTE",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_VIRIDIAN_FOREST_ANTIDOTE",
       "quantity": 1,
       "underfoot": false
     }

@@ -29,7 +29,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "SilphCo_10F_EventScript_Travis",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "SilphCo_10F_EventScript_Grunt",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -71,7 +71,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_10F_EventScript_ItemCarbos",
-      "flag": "FLAG_HIDE_SILPH_CO_10F_CARBOS"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_10F_CARBOS"
     },
     {
       "type": "object",
@@ -85,7 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_10F_EventScript_ItemUltraBall",
-      "flag": "FLAG_HIDE_SILPH_CO_10F_ULTRA_BALL"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_10F_ULTRA_BALL"
     },
     {
       "type": "object",
@@ -99,7 +99,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_10F_EventScript_ItemRareCandy",
-      "flag": "FLAG_HIDE_SILPH_CO_10F_RARE_CANDY"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_10F_RARE_CANDY"
     }
   ],
   "warp_events": [
@@ -186,7 +186,7 @@
       "y": 9,
       "elevation": 0,
       "item": "ITEM_HP_UP",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_10F_HP_UP",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_10F_HP_UP",
       "quantity": 1,
       "underfoot": false
     },

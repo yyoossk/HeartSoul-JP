@@ -5,7 +5,7 @@ LavenderTown_Frlg_MapScripts::
 LavenderTown_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_LAVENDER_TOWN
 	setvar VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR, 1
-	setflag FLAG_HIDE_SS_ANNE_RIVAL
+	setflag FLAG_KJ_HIDE_SS_ANNE_RIVAL
 	end
 
 LavenderTown_EventScript_LittleGirl::
@@ -47,42 +47,46 @@ LavenderTown_EventScript_PokemonTowerSign::
 	end
 
 LavenderTown_Text_DoYouBelieveInGhosts::
-	.string "Do you believe in ghosts?$"
+	.string "あなた\n"
+	.string "ゆうれいは　いると　おもう？$"
 
 LavenderTown_Text_SoThereAreBelievers::
-	.string "Really?\n"
-	.string "So there are believers…$"
+	.string "…ふーん\n"
+	.string "しんじてる　ひとって　いるんだ$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-	.string "Hahaha, I guess not.\p"
-	.string "That white hand on your shoulder…\n"
-	.string "I'm just imagining it.$"
+	.string "あはは　そうよね！\p"
+	.string "あなたの　みぎかたに\n"
+	.string "しろい　てが　おかれてる　なんて\l"
+	.string "…あたしの　みまちがいよね$"
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-	.string "This town is known as the grave\n"
-	.string "site of POKéMON.\p"
-	.string "Memorial services are held in\n"
-	.string "POKéMON TOWER.$"
+	.string "ここは　ポケモンの　おはかで\n"
+	.string "ゆうめいな　タウンだ…\p"
+	.string "かっていた　ポケモンが　しんだとき\n"
+	.string "ポケモン　タワーに　もっていって\l"
+	.string "めいふくを　いのるのさ…$"
 
 LavenderTown_Text_GhostsAppearedInTower::
-	.string "Ghosts appeared in POKéMON TOWER.\p"
-	.string "I think they're the spirits of\n"
-	.string "POKéMON that the ROCKETS killed.$"
+	.string "さいきん　ポケモン　タワーに\n"
+	.string "ゆうれいが　でる　らしいんだ…\p"
+	.string "どうも　ロケットだんに　ころされた\n"
+	.string "ポケモンの　ゆうれい　らしい…$"
 
 LavenderTown_Text_TownSign::
-	.string "LAVENDER TOWN\n"
-	.string "The Noble Purple Town$"
+	.string "ここは　シオン　タウン\n"
+	.string "シオンは　むらさき　とうとい　いろ$"
 
 LavenderTown_Text_SilphScopeNotice::
-	.string "New SILPH SCOPE!\n"
-	.string "Make the Invisible Plain to See!\p"
-	.string "SILPH CO.$"
+	.string "みえない　ポケモンも　よくみえる？\n"
+	.string "しん　せいひん！　シルフスコープ！\p"
+	.string "…　シルフ　カンパニー$"
 
 LavenderTown_Text_VolunteerPokemonHouse::
-	.string "LAVENDER VOLUNTEER\n"
-	.string "POKéMON HOUSE$"
+	.string "ここは　あいの　ボランティア\n"
+	.string "ポケモン　ハウス$"
 
 LavenderTown_Text_PokemonTowerSign::
-	.string "POKéMON TOWER\n"
-	.string "Becalm the Spirits of POKéMON$"
+	.string "ここは　ポケモンの　れいはい　とう\n"
+	.string "ポケモン　タワー$"
 

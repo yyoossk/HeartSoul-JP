@@ -4,8 +4,8 @@ CeruleanCity_BikeShop_Frlg_MapScripts::
 CeruleanCity_BikeShop_EventScript_Clerk::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_BICYCLE, CeruleanCity_BikeShop_EventScript_AlreadyGotBicycle
-	goto_if_set FLAG_GOT_BIKE_VOUCHER, CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher
+	goto_if_set FLAG_KJ_GOT_BICYCLE, CeruleanCity_BikeShop_EventScript_AlreadyGotBicycle
+	goto_if_set FLAG_KJ_GOT_BIKE_VOUCHER, CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher
 	showmoneybox 0, 0
 	message CeruleanCity_BikeShop_Text_WelcomeToBikeShop
 	waitmessage
@@ -33,7 +33,7 @@ CeruleanCity_BikeShop_EventScript_ClerkGoodbye::
 CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher::
 	msgbox CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo
 	msgreceiveditem CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle, ITEM_BICYCLE, 1, MUS_RG_OBTAIN_KEY_ITEM
-	setflag FLAG_GOT_BICYCLE
+	setflag FLAG_KJ_GOT_BICYCLE
 	additem ITEM_BICYCLE
 	removeitem ITEM_BIKE_VOUCHER
 	msgbox CeruleanCity_BikeShop_Text_ThankYouComeAgain
@@ -58,7 +58,7 @@ CeruleanCity_BikeShop_EventScript_Woman::
 CeruleanCity_BikeShop_EventScript_Youngster::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_BICYCLE, CeruleanCity_BikeShop_EventScript_YoungsterHaveBike
+	goto_if_set FLAG_KJ_GOT_BICYCLE, CeruleanCity_BikeShop_EventScript_YoungsterHaveBike
 	msgbox CeruleanCity_BikeShop_Text_BikesCoolButExpensive
 	release
 	end
@@ -73,35 +73,53 @@ CeruleanCity_BikeShop_EventScript_Bicycle::
 	end
 
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
-	.string "いらっしゃい！\nじてんしゃやへ　ようこそ\pきみに　ぴったりの\nじてんしゃが　あるよ！$"
+	.string "はい　はい！　いらっしゃい！\n"
+	.string "ここは　ミラクル　じてんしゃや！\p"
+	.string "ほりだしもの　あるよー！\n"
+	.string "かってくー？$"
 
 CeruleanCity_BikeShop_Text_SorryYouCantAffordIt::
-	.string "ごめんね！\nおかねが　たりないよ！$"
+	.string "おきゃくさん！\n"
+	.string "おかねが　たりませんなー！$"
 
 CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
-	.string "あっ　それは‥\pじてんしゃの　ひきかえけん！\pよし！\nはい　どうぞ！$"
+	.string "あー　それは…！\p"
+	.string "じてんしゃ　ひきかえけん！\p"
+	.string "…わかりました！\n"
+	.string "ささっ　これを　どうぞ！$"
 
 CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle::
-	.string "{PLAYER}は　ひきかえけんを\nじてんしゃと　こうかんした$"
+	.string "{PLAYER}は　ひきかえけんで\n"
+	.string "じてんしゃを　もらった！$"
 
 CeruleanCity_BikeShop_Text_ThankYouComeAgain::
-	.string "ありがとう！\nまた　きてね！$"
+	.string "また　よろしく！\n"
+	.string "ありがとう　ございました！$"
 
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
-	.string "あたらしい　じてんしゃは\nどう？　のりごこちは　いい？\pサイクリングロードや\nどうくつでも　はしれるよ！$"
+	.string "やあ　こんちは！　じてんしゃの\n"
+	.string "のりごこちは　いかが　です？\p"
+	.string "あの　じてんしゃ　なら\n"
+	.string "サイクリング　ロードは　もちろん\l"
+	.string "どうくつ　だって　はしれちゃうよ！$"
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
-	.string "You better make room for your\n"
-	.string "BICYCLE!$"
+	.string "じてんしゃを　もっていけないよ$"
 
 CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
-	.string "ぼくは　ふつうの　じてんしゃで\nじゅうぶん\pだって　マウンテンバイクには\nかいものかごが　つけられないもん$"
+	.string "うーん…！\n"
+	.string "やっぱり　ママチャリ　かしら？\p"
+	.string "マウンテン　バイクに\n"
+	.string "かいものカゴ　にあわない　もん$"
 
 CeruleanCity_BikeShop_Text_BikesCoolButExpensive::
-	.string "この　じてんしゃ　かっこいいけど\nすごく　たかいんだよな！$"
+	.string "この　みせの　じてんしゃ\n"
+	.string "ものは　いいけど　たかいよ！\l"
+	.string "ぼくには　かえないね$"
 
 CeruleanCity_BikeShop_Text_WowYourBikeIsCool::
-	.string "わあ\nきみの　じてんしゃ　かっこいい！$"
+	.string "きみの　じてんしゃ　かっこいい\n"
+	.string "うらやましいなあ$"
 
 @ Unused
 CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
@@ -110,5 +128,5 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
 	.string "おりたたみ　じてんしゃ！$"
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle::
-	.string "ぴかぴかの　じてんしゃだ！$"
+	.string "ピッカピカの　じてんしゃだ！$"
 

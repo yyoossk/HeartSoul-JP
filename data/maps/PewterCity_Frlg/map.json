@@ -55,7 +55,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PewterCity_EventScript_MuseumGuide",
-      "flag": "FLAG_HIDE_PEWTER_MUSEUM_GUIDE"
+      "flag": "FLAG_KJ_HIDE_PEWTER_MUSEUM_GUIDE"
     },
     {
       "type": "object",
@@ -98,7 +98,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PewterCity_EventScript_GymGuide",
-      "flag": "FLAG_HIDE_PEWTER_CITY_GYM_GUIDE"
+      "flag": "FLAG_KJ_HIDE_PEWTER_CITY_GYM_GUIDE"
     },
     {
       "type": "object",
@@ -127,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PewterCity_EventScript_RunningShoesAide",
-      "flag": "FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY"
+      "flag": "FLAG_KJ_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY"
     }
   ],
   "warp_events": [
@@ -293,7 +293,7 @@
       "y": 3,
       "elevation": 3,
       "item": "ITEM_POKE_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_PEWTER_CITY_POKE_BALL",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_PEWTER_CITY_POKE_BALL",
       "quantity": 1,
       "underfoot": false
     }

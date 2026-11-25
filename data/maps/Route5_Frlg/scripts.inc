@@ -6,5 +6,6 @@ Route5_EventScript_UndergroundPathSign_Kj::
 	end
 
 Route5_Text_UndergroundPathSign_Kj::
-	.string "ちかつうろ\nハナダシティ　-　クチバシティ$"
+	.string "ここから　ちか　つうろ\n"
+	.string "ハナダ　シティ　…　クチバ　シティ$"
 

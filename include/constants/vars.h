@@ -339,7 +339,7 @@
 #define TESTING_VAR_UNUSED_7                (TESTING_VARS_START + 0x7)
 #endif // TESTING
 
-#if IS_HNS
+#ifdef POKEMON_HNS // カントー＆ジョウト（IS_HNS より前に読まれることがあるため）
 #include "constants/vars_kj.h"
 #endif
 

@@ -128,7 +128,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VermilionCity_EventScript_OaksAide",
-      "flag": "FLAG_HIDE_VERMILION_CITY_OAKS_AIDE"
+      "flag": "FLAG_KJ_HIDE_VERMILION_CITY_OAKS_AIDE"
     }
   ],
   "warp_events": [
@@ -288,7 +288,7 @@
       "y": 11,
       "elevation": 3,
       "item": "ITEM_MAX_ETHER",
-      "flag": "FLAG_HIDDEN_ITEM_VERMILION_CITY_MAX_ETHER",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_VERMILION_CITY_MAX_ETHER",
       "quantity": 1,
       "underfoot": false
     }

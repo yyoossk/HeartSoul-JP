@@ -3,8 +3,8 @@ SilphCo_4F_Frlg_MapScripts::
 	.byte 0
 
 SilphCo_4F_OnLoad::
-	call_if_unset FLAG_SILPH_4F_DOOR_1, EventScript_Close4FDoor1
-	call_if_unset FLAG_SILPH_4F_DOOR_2, EventScript_Close4FDoor2
+	call_if_unset FLAG_KJ_SILPH_4F_DOOR_1, EventScript_Close4FDoor1
+	call_if_unset FLAG_KJ_SILPH_4F_DOOR_2, EventScript_Close4FDoor2
 	end
 
 SilphCo_4F_EventScript_WorkerM::
@@ -40,47 +40,49 @@ SilphCo_4F_EventScript_Grunt2::
 	end
 
 SilphCo_4F_Text_CantYouSeeImHiding::
-	.string "Sssh!\n"
-	.string "Can't you see I'm hiding?$"
+	.string "びくびく…　こわくて\n"
+	.string "ここに　かくれてるんだ…$"
 
 SilphCo_4F_Text_TeamRocketIsGone::
-	.string "Huh?\n"
-	.string "TEAM ROCKET is gone?$"
+	.string "え…\n"
+	.string "ロケットだん　もう　いないの？$"
 
 SilphCo_4F_Text_Grunt1Intro::
-	.string "TEAM ROCKET has taken control\n"
-	.string "of SILPH CO.!$"
+	.string "シルフ　カンパニーは\n"
+	.string "ロケットだんが　せんきょした！$"
 
 SilphCo_4F_Text_Grunt1Defeat::
-	.string "Arrgh!$"
+	.string "ぐぐぐ…$"
 
 SilphCo_4F_Text_Grunt1PostBattle::
-	.string "Fwahahaha!\n"
-	.string "My BOSS has been after this place!$"
+	.string "がはは！\n"
+	.string "ボスは　まえから\l"
+	.string "ここを　ねらってたのだ$"
 
 SilphCo_4F_Text_RodneyIntro::
-	.string "My POKéMON is my loyal servant.$"
+	.string "ポケモンは\n"
+	.string "おれの　ちゅうじつな　こぶんだぜ！$"
 
 SilphCo_4F_Text_RodneyDefeat::
-	.string "Darn!\n"
-	.string "You weak POKéMON!$"
+	.string "くそ！\n"
+	.string "なさけない　ポケモンめ$"
 
 SilphCo_4F_Text_RodneyPostBattle::
-	.string "The doors are electronically\n"
-	.string "locked.\p"
-	.string "It takes a CARD KEY to open the\n"
-	.string "doors here.$"
+	.string "この　ビルの　ドアは　ぜんぶ\n"
+	.string "でんし　ロック　されてるぜ！\l"
+	.string "カードキーが　ないと　あかないぜ！$"
 
 SilphCo_4F_Text_Grunt2Intro::
-	.string "Intruder spotted!$"
+	.string "ふしんな　やつを　はっけん！$"
 
 SilphCo_4F_Text_Grunt2Defeat::
-	.string "Who are you?$"
+	.string "おまえ　なにものだ$"
 
 SilphCo_4F_Text_Grunt2PostBattle::
-	.string "I better tell the BOSS on 11F!$"
+	.string "１１かいに　いる\n"
+	.string "ボスに　れんらく　しなくては！$"
 
 SilphCo_4F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "4F$"
+	.string "シルフ　カンパニー　ほんしゃ\n"
+	.string "４かい$"
 

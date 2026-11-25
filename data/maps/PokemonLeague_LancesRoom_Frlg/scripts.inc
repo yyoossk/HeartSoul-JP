@@ -12,7 +12,7 @@ PokemonLeague_LancesRoom_OnResume::
 
 PokemonLeague_LancesRoom_OnLoad::
 	call_if_eq VAR_MAP_SCENE_POKEMON_LEAGUE, 4, PokemonLeague_LancesRoom_EventScript_CloseEntry
-	call_if_set FLAG_DEFEATED_LANCE, PokemonLeague_LancesRoom_EventScript_SetDoorOpen
+	call_if_set FLAG_KJ_DEFEATED_LANCE, PokemonLeague_LancesRoom_EventScript_SetDoorOpen
 	end
 
 PokemonLeague_LancesRoom_EventScript_CloseEntry::
@@ -100,15 +100,15 @@ PokemonLeague_LancesRoom_EventScript_Lance::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_LANCE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_DEFEATED_LANCE, PokemonLeague_LancesRoom_EventScript_PostBattle
+	goto_if_set FLAG_KJ_DEFEATED_LANCE, PokemonLeague_LancesRoom_EventScript_PostBattle
 	famechecker FAMECHECKER_LANCE, 0
 	famechecker FAMECHECKER_LANCE, 1
 	call_if_unset FLAG_SYS_GAME_CLEAR, PokemonLeague_LancesRoom_EventScript_Intro
 	call_if_set FLAG_SYS_GAME_CLEAR, PokemonLeague_LancesRoom_EventScript_RematchIntro
 	setflag FLAG_TEMP_3
 	setflag FLAG_TEMP_5
-	call_if_unset FLAG_IS_CHAMPION, PokemonLeague_LancesRoom_EventScript_Battle
-	call_if_set FLAG_IS_CHAMPION, PokemonLeague_LancesRoom_EventScript_Rematch
+	call_if_unset FLAG_KJ_IS_CHAMPION, PokemonLeague_LancesRoom_EventScript_Battle
+	call_if_set FLAG_KJ_IS_CHAMPION, PokemonLeague_LancesRoom_EventScript_Rematch
 	clearflag FLAG_TEMP_5
 	goto PokemonLeague_LancesRoom_EventScript_DefeatedLance
 	end
@@ -137,7 +137,7 @@ PokemonLeague_LancesRoom_EventScript_PostBattle::
 PokemonLeague_LancesRoom_EventScript_DefeatedLance::
 	setvar VAR_0x8004, 0
 	special Script_TryGainNewFanFromCounterFrlg
-	setflag FLAG_DEFEATED_LANCE
+	setflag FLAG_KJ_DEFEATED_LANCE
 	call PokemonLeague_EventScript_OpenDoorLance
 	msgbox PokemonLeague_LancesRoom_Text_PostBattle
 	closemessage
@@ -165,54 +165,59 @@ PokemonLeague_LancesRoom_Movement_LanceMoveOutOfWayRight::
 	step_end
 
 PokemonLeague_LancesRoom_Text_Intro::
-	.string "Ah! I've heard about you,\n"
-	.string "{PLAYER}!\p"
-	.string "I lead the ELITE FOUR.\p"
-	.string "You can call me LANCE the dragon\n"
-	.string "TRAINER.\p"
-	.string "You know that dragons are\n"
-	.string "mythical POKéMON.\p"
-	.string "They're hard to catch and raise,\n"
-	.string "but their powers are superior.\p"
-	.string "They're virtually indestructible.\n"
-	.string "There's no being clever with them.\p"
-	.string "Well, are you ready to lose?\p"
-	.string "Your LEAGUE challenge ends with\n"
-	.string "me, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "そうか！　きみが　{PLAYER}！\p"
+	.string "おれは　してんのうの　たいしょう！\n"
+	.string "ドラゴン　つかいの　ワタルだ！\p"
+	.string "しってるだろ　ドラゴンは\n"
+	.string "せいなる　でんせつの　いきものだ！\p"
+	.string "つかまえるのが　むずかしいけど\n"
+	.string "うまく　そだてりゃ\l"
+	.string "つよさは　てんか　いっぴんだ\p"
+	.string "からだも　じょうぶ　だし\n"
+	.string "こてさきの　こうげきも　むださ！\l"
+	.string "…　さてと！\l"
+	.string "そろそろ　はじめよう！\p"
+	.string "それとも　いまから\n"
+	.string "シッポ　まいて　かえるかい！\l"
+	.string "{PLAYER}！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_LancesRoom_Text_RematchIntro::
-	.string "Ah!\n"
-	.string "So, you've returned, {PLAYER}!\p"
-	.string "I lead the ELITE FOUR.\p"
-	.string "You can call me LANCE the dragon\n"
-	.string "TRAINER.\p"
-	.string "You know that dragons are\n"
-	.string "mythical POKéMON.\p"
-	.string "They're hard to catch and raise,\n"
-	.string "but their powers are superior.\p"
-	.string "They're virtually indestructible.\n"
-	.string "There's no being clever with them.\p"
-	.string "Well, are you ready to lose?\p"
-	.string "Your LEAGUE challenge ends with\n"
-	.string "me, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "そうか！\n"
+	.string "また　きたんだな　{PLAYER}！\p"
+	.string "おれは　してんのうの　たいしょう！\n"
+	.string "ドラゴン　つかいの　ワタルだ！\p"
+	.string "しってるだろ　ドラゴンは\n"
+	.string "せいなる　でんせつの　いきものだ！\p"
+	.string "つかまえるのが　むずかしいけど\n"
+	.string "うまく　そだてりゃ\l"
+	.string "つよさは　てんか　いっぴんだ\p"
+	.string "からだも　じょうぶ　だし\n"
+	.string "こてさきの　こうげきも　むださ！\l"
+	.string "…　さてと！\l"
+	.string "そろそろ　はじめよう！\p"
+	.string "それとも　いまから\n"
+	.string "シッポ　まいて　かえるかい！\l"
+	.string "{PLAYER}！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_LancesRoom_Text_Defeat::
-	.string "That's it!\p"
-	.string "I hate to admit it, but you are a\n"
-	.string "POKéMON master!$"
+	.string "うう…！\p"
+	.string "くやしいが　きみの\n"
+	.string "ポケモンの　うでは　ほんものだ！$"
 
 PokemonLeague_LancesRoom_Text_PostBattle::
-	.string "I still can't believe my dragons\n"
-	.string "lost to you, {PLAYER}.\p"
-	.string "You are now the POKéMON LEAGUE\n"
-	.string "CHAMPION!\p"
-	.string "…Or, you would have been, but\n"
-	.string "you have one more challenge left.\p"
-	.string "There is one more TRAINER to face!\n"
-	.string "His name is…\p"
-	.string "{RIVAL}!\p"
-	.string "He beat the ELITE FOUR before\n"
-	.string "you.\p"
-	.string "He is the real POKéMON LEAGUE\n"
-	.string "CHAMPION.$"
+	.string "ドラゴン　ぐんだんが\n"
+	.string "まける　なんて　しんじられない\l"
+	.string "{PLAYER}！\p"
+	.string "これからは　きみが\n"
+	.string "ポケモン　リーグ　チャンピオンだ！\l"
+	.string "…　…　…\l"
+	.string "…　と　いいたい　とこだが\p"
+	.string "じつは　きみは　もう　ひとり\n"
+	.string "たたかわなくては　ならない！\l"
+	.string "その　トレーナーの　なまえは…\p"
+	.string "{RIVAL}だ！\n"
+	.string "かれは…　きみ　よりも　はやく！\l"
+	.string "おれたち　してんのうに　かった！\p"
+	.string "いまや　かれこそ　ポケモン　リーグ\n"
+	.string "しんの　チャンピオン　なのだ！$"
 

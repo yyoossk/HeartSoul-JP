@@ -3,9 +3,9 @@ SilphCo_5F_Frlg_MapScripts::
 	.byte 0
 
 SilphCo_5F_OnLoad::
-	call_if_unset FLAG_SILPH_5F_DOOR_1, EventScript_Close5FDoor1
-	call_if_unset FLAG_SILPH_5F_DOOR_2, EventScript_Close5FDoor2
-	call_if_unset FLAG_SILPH_5F_DOOR_3, EventScript_Close5FDoor3
+	call_if_unset FLAG_KJ_SILPH_5F_DOOR_1, EventScript_Close5FDoor1
+	call_if_unset FLAG_KJ_SILPH_5F_DOOR_2, EventScript_Close5FDoor2
+	call_if_unset FLAG_KJ_SILPH_5F_DOOR_3, EventScript_Close5FDoor3
 	end
 
 SilphCo_5F_EventScript_WorkerM::
@@ -58,83 +58,93 @@ SilphCo_5F_EventScript_Dalton::
 	end
 
 SilphCo_5F_Text_RocketsInUproarAboutIntruder::
-	.string "TEAM ROCKET is in an uproar over\n"
-	.string "some intruder.\p"
-	.string "That's you, right?$"
+	.string "だれか　ビルに　しのび　こんだと\n"
+	.string "ロケットだんが　さわいでる\l"
+	.string "…　きみの　こと　らしいね$"
 
 SilphCo_5F_Text_YoureOurHeroThankYou::
-	.string "TEAM ROCKET took off!\n"
-	.string "You're our hero! Thank you!$"
+	.string "ロケットだんは　にげたよ！\n"
+	.string "きみが　おっぱらったのかい\l"
+	.string "…　ありがとう！$"
 
 SilphCo_5F_Text_Grunt1Intro::
-	.string "I heard a kid was wandering\n"
-	.string "around.$"
+	.string "こどもが　うろついてると\n"
+	.string "さっき　れんらくが　あったぜ！$"
 
 SilphCo_5F_Text_Grunt1Defeat::
-	.string "Boom!$"
+	.string "ばったり…$"
 
 SilphCo_5F_Text_Grunt1PostBattle::
-	.string "It's not smart to pick a fight with\n"
-	.string "TEAM ROCKET!$"
+	.string "ロケットだんに\n"
+	.string "たてつかない　ほうが\l"
+	.string "みのため　だぜ$"
 
 SilphCo_5F_Text_BeauIntro::
-	.string "We study POKé BALL technology on\n"
-	.string "this floor.$"
+	.string "この　フロアは\n"
+	.string "モンスターボールの\l"
+	.string "けんきゅう　セクションだ！$"
 
 SilphCo_5F_Text_BeauDefeat::
-	.string "Dang!\n"
-	.string "Blast it!$"
+	.string "ちくしょう！$"
 
 SilphCo_5F_Text_BeauPostBattle::
-	.string "We worked on the ultimate POKé\n"
-	.string "BALL which would catch anything.$"
+	.string "ここでは…\n"
+	.string "でんせつの　ポケモンさえ　とれる\l"
+	.string "きゅうきょくの　モンスターボールを\l"
+	.string "けんきゅう　してたのだ$"
 
 SilphCo_5F_Text_DaltonIntro::
-	.string "Whaaat?\p"
-	.string "There shouldn't be any children\n"
-	.string "here!$"
+	.string "おかしいな？\n"
+	.string "こどもが　はいって　これる\l"
+	.string "わけが　ないんだが$"
 
 SilphCo_5F_Text_DaltonDefeat::
-	.string "Oh, goodness!$"
+	.string "こりゃ　いかん$"
 
 SilphCo_5F_Text_DaltonPostBattle::
-	.string "You're only on 5F.\n"
-	.string "It's a long way to my BOSS!$"
+	.string "ここは　５かい…\n"
+	.string "ボスの　いる　ところ　まで\l"
+	.string "まだまだ　あるぜ！$"
 
 SilphCo_5F_Text_Grunt2Intro::
-	.string "Show TEAM ROCKET a little respect!$"
+	.string "ロケットだん　あいてに\n"
+	.string "なめた　まねして　くれるぜ$"
 
 SilphCo_5F_Text_Grunt2Defeat::
-	.string "Cough…\n"
-	.string "Cough…$"
+	.string "ふん　たまたまだ！$"
 
 SilphCo_5F_Text_Grunt2PostBattle::
-	.string "Which reminds me.\p"
-	.string "KOFFING evolves into WEEZING!$"
+	.string "たまたま…　おもいだした！\p"
+	.string "タマタマは\n"
+	.string "ナッシーに　しんか　するぞ$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
-	.string "It's a POKéMON REPORT!\p"
-	.string "POKéMON LAB created PORYGON,\n"
-	.string "the first virtual-reality POKéMON.$"
+	.string "…　ポケモン　レポートだ！\p"
+	.string "ポケモン　けんきゅうじょ　では\n"
+	.string "じんこうの　ポケモン\l"
+	.string "ポリゴンを　つくる　ことに\l"
+	.string "せいこう　した…　…$"
 
 SilphCo_5F_Text_Over350TechniquesConfirmed::
-	.string "It's a POKéMON REPORT!\p"
-	.string "Over 350 POKéMON techniques have\n"
-	.string "been confirmed.$"
+	.string "…　ポケモン　レポートだ！\p"
+	.string "ポケモンが　つかう　わざは\n"
+	.string "げんざい　わかって　いるだけで\l"
+	.string "３５０しゅるい　いじょうある$"
 
 SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
-	.string "It's a POKéMON REPORT!\p"
-	.string "Some POKéMON have been confirmed\n"
-	.string "to evolve when they are traded.$"
+	.string "…　ポケモン　レポートだ！\p"
+	.string "つうしん　こうかん　すると\n"
+	.string "しんかする　ポケモンが\l"
+	.string "いることが　かくにん　された$"
 
 SilphCo_5F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "5F$"
+	.string "シルフ　カンパニー　ほんしゃ\n"
+	.string "５かい$"
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::
-	.string "Those thugs that took over our\n"
-	.string "building…\p"
-	.string "Their BOSS said he was looking for\n"
-	.string "strong POKéMON.\p"
-	.string "I hope our PRESIDENT managed to\n"
-	.string "avoid trouble…$"
+	.string "この　ビルに　のりこんできた\n"
+	.string "やつらの　ボスは\l"
+	.string "めずらしい　つよい　ポケモンを\l"
+	.string "もとめて　いるって　いってた\p"
+	.string "しゃちょうに　ひがいが\n"
+	.string "なければ　いいのだが…$"

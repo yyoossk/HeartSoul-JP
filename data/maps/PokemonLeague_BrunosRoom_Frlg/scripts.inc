@@ -11,7 +11,7 @@ PokemonLeague_BrunosRoom_OnResume_Kj::
 	end
 
 PokemonLeague_BrunosRoom_OnLoad::
-	call_if_set FLAG_DEFEATED_BRUNO, PokemonLeague_BrunosRoom_EventScript_SetDoorOpen
+	call_if_set FLAG_KJ_DEFEATED_BRUNO, PokemonLeague_BrunosRoom_EventScript_SetDoorOpen
 	call_if_eq VAR_MAP_SCENE_POKEMON_LEAGUE, 2, PokemonLeague_BrunosRoom_EventScript_CloseEntry
 	end
 
@@ -46,15 +46,15 @@ PokemonLeague_BrunosRoom_EventScript_Bruno_Kj::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_BRUNO, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_DEFEATED_BRUNO, PokemonLeague_BrunosRoom_EventScript_PostBattle
+	goto_if_set FLAG_KJ_DEFEATED_BRUNO, PokemonLeague_BrunosRoom_EventScript_PostBattle
 	famechecker FAMECHECKER_BRUNO, 0
 	famechecker FAMECHECKER_BRUNO, 1
 	call_if_unset FLAG_SYS_GAME_CLEAR, PokemonLeague_BrunosRoom_EventScript_Intro
 	call_if_set FLAG_SYS_GAME_CLEAR, PokemonLeague_BrunosRoom_EventScript_RematchIntro
 	setflag FLAG_TEMP_3
 	setflag FLAG_TEMP_5
-	call_if_unset FLAG_IS_CHAMPION, PokemonLeague_BrunosRoom_EventScript_Battle
-	call_if_set FLAG_IS_CHAMPION, PokemonLeague_BrunosRoom_EventScript_Rematch
+	call_if_unset FLAG_KJ_IS_CHAMPION, PokemonLeague_BrunosRoom_EventScript_Battle
+	call_if_set FLAG_KJ_IS_CHAMPION, PokemonLeague_BrunosRoom_EventScript_Rematch
 	clearflag FLAG_TEMP_5
 	goto PokemonLeague_BrunosRoom_EventScript_DefeatedBruno
 	end
@@ -86,7 +86,7 @@ PokemonLeague_BrunosRoom_EventScript_PostBattle::
 	end
 
 PokemonLeague_BrunosRoom_EventScript_DefeatedBruno::
-	setflag FLAG_DEFEATED_BRUNO
+	setflag FLAG_KJ_DEFEATED_BRUNO
 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_BrunosRoom_Text_PostBattle
 	closemessage
@@ -113,35 +113,39 @@ PokemonLeague_BrunosRoom_EventScript_BrunoLookAwayDown::
 	return
 
 PokemonLeague_BrunosRoom_Text_Intro::
-	.string "I am BRUNO of the ELITE FOUR!\p"
-	.string "Through rigorous training, people\n"
-	.string "and POKéMON can become stronger\l"
-	.string "without limit.\p"
-	.string "I've lived and trained with my\n"
-	.string "fighting POKéMON!\l"
-	.string "And that will never change!\p"
-	.string "{PLAYER}!\p"
-	.string "We will grind you down with our\n"
-	.string "superior power!\p"
-	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "おれは　してんのうの　シバ！\p"
+	.string "ひとも　ポケモンも\n"
+	.string "たたかい　きたえれば\l"
+	.string "どこまでも　つよくなる！\p"
+	.string "おれは　そんな　きたえ　ぬかれた\n"
+	.string "かくとうポケモン　たちと\l"
+	.string "ともに　いきてきた！\l"
+	.string "そして　これからもな！\p"
+	.string "{PLAYER}と　いったな！\p"
+	.string "おれたちの　スーパー　パワーを\n"
+	.string "うけて　みるが　いい！\p"
+	.string "ウー！　ハーッ！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_BrunosRoom_Text_RematchIntro::
-	.string "I am BRUNO of the ELITE FOUR!\p"
-	.string "Through rigorous training, people\n"
-	.string "and POKéMON can become stronger\l"
-	.string "without limit.\p"
-	.string "I've lived and trained with my\n"
-	.string "fighting POKéMON!\l"
-	.string "And that will never change!\p"
-	.string "{PLAYER}!\p"
-	.string "We will grind you down with our\n"
-	.string "superior power!\p"
-	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "おれは　してんのうの　シバ！\p"
+	.string "ひとも　ポケモンも\n"
+	.string "たたかい　きたえれば\l"
+	.string "どこまでも　つよくなる！\p"
+	.string "おれは　そんな　きたえ　ぬかれた\n"
+	.string "かくとうポケモン　たちと\l"
+	.string "ともに　いきてきた！\l"
+	.string "そして　これからもな！\p"
+	.string "{PLAYER}よ…！\p"
+	.string "おれたちの　スーパー　パワーを\n"
+	.string "うけて　みるが　いい！\p"
+	.string "ウー！　ハーッ！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_BrunosRoom_Text_Defeat_Kj::
-	.string "なぜだ？\nなぜ　まけたのだ？$"
+	.string "どうした　ことだ！\n"
+	.string "…　おれが　まけるとは！$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle::
-	.string "My job is done.\n"
-	.string "Go face your next challenge.$"
+	.string "まけちまったら\n"
+	.string "おれの　でばんは　おわりだ！\l"
+	.string "くそッ！　つぎに　いって　くれ！$"
 

@@ -14,14 +14,14 @@ SafariZone_East_EventScript_AreaSign::
 	end
 
 SafariZone_East_Text_RestHouse::
-	.string "REST HOUSE$"
+	.string "きゅうけい　ハウス　…　いこい$"
 
 SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk::
-	.string "TRAINER TIPS\p"
-	.string "The remaining time declines only\n"
-	.string "while you walk.$"
+	.string "…　おとくな　けいじばん！\p"
+	.string "のこり　じかんは\n"
+	.string "あるく　ごとに　へって　いく！$"
 
 SafariZone_East_Text_AreaSign::
-	.string "AREA 1\n"
-	.string "WEST: CENTER AREA$"
+	.string "ここは　だい１　エリア\n"
+	.string "にし　…　ちゅうおう　ひろば$"
 

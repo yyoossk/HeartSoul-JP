@@ -29,7 +29,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "SilphCo_4F_EventScript_Grunt2",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -43,7 +43,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "SilphCo_4F_EventScript_Grunt1",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "SilphCo_4F_EventScript_Rodney",
-      "flag": "FLAG_HIDE_SILPH_ROCKETS"
+      "flag": "FLAG_KJ_HIDE_SILPH_ROCKETS"
     },
     {
       "type": "object",
@@ -85,7 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_4F_EventScript_ItemMaxRevive",
-      "flag": "FLAG_HIDE_SILPH_CO_4F_MAX_REVIVE"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_4F_MAX_REVIVE"
     },
     {
       "type": "object",
@@ -99,7 +99,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_4F_EventScript_ItemEscapeRope",
-      "flag": "FLAG_HIDE_SILPH_CO_4F_ESCAPE_ROPE"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_4F_ESCAPE_ROPE"
     },
     {
       "type": "object",
@@ -113,7 +113,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_4F_EventScript_ItemFullHeal",
-      "flag": "FLAG_HIDE_SILPH_CO_4F_FULL_HEAL"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_4F_FULL_HEAL"
     },
     {
       "type": "object",
@@ -127,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_4F_EventScript_ItemTM41",
-      "flag": "FLAG_HIDE_SILPH_CO_4F_TM41"
+      "flag": "FLAG_KJ_HIDE_SILPH_CO_4F_TM41"
     }
   ],
   "warp_events": [
@@ -253,7 +253,7 @@
       "y": 20,
       "elevation": 0,
       "item": "ITEM_IRON",
-      "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_4F_IRON",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SILPH_CO_4F_IRON",
       "quantity": 1,
       "underfoot": false
     },

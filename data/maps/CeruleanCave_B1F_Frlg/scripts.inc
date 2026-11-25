@@ -14,7 +14,7 @@ CeruleanCave_B1F_EventScript_TryRemoveMewtwo::
 	return
 
 CeruleanCave_B1F_OnTransition::
-	call_if_unset FLAG_FOUGHT_MEWTWO, CeruleanCave_B1F_EventScript_ShowMewtwo
+	call_if_unset FLAG_KJ_FOUGHT_MEWTWO, CeruleanCave_B1F_EventScript_ShowMewtwo
 	end
 
 CeruleanCave_B1F_EventScript_ShowMewtwo::
@@ -41,12 +41,12 @@ CeruleanCave_B1F_EventScript_Mewtwo::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, CeruleanCave_B1F_EventScript_DefeatedMewtwo
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, CeruleanCave_B1F_EventScript_RanFromMewtwo
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, CeruleanCave_B1F_EventScript_RanFromMewtwo
-	setflag FLAG_FOUGHT_MEWTWO
+	setflag FLAG_KJ_FOUGHT_MEWTWO
 	release
 	end
 
 CeruleanCave_B1F_EventScript_DefeatedMewtwo::
-	setflag FLAG_FOUGHT_MEWTWO
+	setflag FLAG_KJ_FOUGHT_MEWTWO
 	goto EventScript_RemoveStaticMon
 	end
 
@@ -56,5 +56,5 @@ CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	end
 
 CeruleanCave_B1F_Text_Mew::
-	.string "Mew!$"
+	.string "ミュー$"
 

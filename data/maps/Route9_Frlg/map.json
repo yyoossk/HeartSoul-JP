@@ -181,7 +181,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route9_EventScript_ItemTM40",
-      "flag": "FLAG_HIDE_ROUTE9_TM40"
+      "flag": "FLAG_KJ_HIDE_ROUTE9_TM40"
     },
     {
       "type": "object",
@@ -195,7 +195,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route9_EventScript_ItemBurnHeal",
-      "flag": "FLAG_HIDE_ROUTE9_BURN_HEAL"
+      "flag": "FLAG_KJ_HIDE_ROUTE9_BURN_HEAL"
     }
   ],
   "warp_events": [],
@@ -215,7 +215,7 @@
       "y": 7,
       "elevation": 0,
       "item": "ITEM_ETHER",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE9_ETHER",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE9_ETHER",
       "quantity": 1,
       "underfoot": false
     },
@@ -225,7 +225,7 @@
       "y": 2,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE9_RARE_CANDY",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE9_RARE_CANDY",
       "quantity": 1,
       "underfoot": false
     },
@@ -235,7 +235,7 @@
       "y": 2,
       "elevation": 3,
       "item": "ITEM_CHESTO_BERRY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE9_CHESTO_BERRY",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_ROUTE9_CHESTO_BERRY",
       "quantity": 1,
       "underfoot": false
     }

@@ -11,7 +11,7 @@ PokemonLeague_AgathasRoom_OnResume::
 	end
 
 PokemonLeague_AgathasRoom_OnLoad::
-	call_if_set FLAG_DEFEATED_AGATHA, PokemonLeague_AgathasRoom_EventScript_SetDoorOpen
+	call_if_set FLAG_KJ_DEFEATED_AGATHA, PokemonLeague_AgathasRoom_EventScript_SetDoorOpen
 	call_if_eq VAR_MAP_SCENE_POKEMON_LEAGUE, 3, PokemonLeague_AgathasRoom_EventScript_CloseEntry
 	end
 
@@ -46,7 +46,7 @@ PokemonLeague_AgathasRoom_EventScript_Agatha::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_AGATHA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_DEFEATED_AGATHA, PokemonLeague_AgathasRoom_EventScript_PostBattle
+	goto_if_set FLAG_KJ_DEFEATED_AGATHA, PokemonLeague_AgathasRoom_EventScript_PostBattle
 	famechecker FAMECHECKER_AGATHA, 0
 	famechecker FAMECHECKER_AGATHA, 4
 	famechecker FAMECHECKER_OAK, 4
@@ -54,8 +54,8 @@ PokemonLeague_AgathasRoom_EventScript_Agatha::
 	call_if_set FLAG_SYS_GAME_CLEAR, PokemonLeague_AgathasRoom_EventScript_RematchIntro
 	setflag FLAG_TEMP_3
 	setflag FLAG_TEMP_5
-	call_if_unset FLAG_IS_CHAMPION, PokemonLeague_AgathasRoom_EventScript_Battle
-	call_if_set FLAG_IS_CHAMPION, PokemonLeague_AgathasRoom_EventScript_Rematch
+	call_if_unset FLAG_KJ_IS_CHAMPION, PokemonLeague_AgathasRoom_EventScript_Battle
+	call_if_set FLAG_KJ_IS_CHAMPION, PokemonLeague_AgathasRoom_EventScript_Rematch
 	clearflag FLAG_TEMP_5
 	goto PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha
 	end
@@ -82,50 +82,49 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle::
 	end
 
 PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
-	setflag FLAG_DEFEATED_AGATHA
+	setflag FLAG_KJ_DEFEATED_AGATHA
 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_AgathasRoom_Text_PostBattle
 	release
 	end
 
 PokemonLeague_AgathasRoom_Text_Intro::
-	.string "I am AGATHA of the ELITE FOUR.\p"
-	.string "I hear OAK's taken a lot of\n"
-	.string "interest in you, child.\p"
-	.string "That old duff was once tough and\n"
-	.string "handsome.\p"
-	.string "But that was decades ago.\n"
-	.string "He's a shadow of his former self.\p"
-	.string "Now he just wants to fiddle with\n"
-	.string "his POKéDEX.\p"
-	.string "He's wrong.\n"
-	.string "POKéMON are for battling!\p"
-	.string "{PLAYER}! I'll show you how a real\n"
-	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "あたしは　してんのうの　キクコ！\p"
+	.string "あんた　オーキドの　ジジイに\n"
+	.string "かわいがられてんだって！\p"
+	.string "ジジイ　むかしは　つよくて\n"
+	.string "いい　おとこ　だった！\l"
+	.string "いまじゃ　みる　かげも　ないがね！\p"
+	.string "ポケモン　ずかん\n"
+	.string "つくってる　ようじゃ　だめだ！\l"
+	.string "ポケモンは　たたかわせる　ものさ\p"
+	.string "{PLAYER}…！　あんたにも\n"
+	.string "ホントの　たたかいって　ものを\l"
+	.string "おしえて　やる！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_AgathasRoom_Text_RematchIntro::
-	.string "I am AGATHA of the ELITE FOUR.\p"
-	.string "You're the child that OAK's taken\n"
-	.string "under his wing, aren't you?\p"
-	.string "That old duff was once tough and\n"
-	.string "handsome.\p"
-	.string "But that was decades ago.\n"
-	.string "He's a shadow of his former self.\p"
-	.string "Now he just wants to fiddle with\n"
-	.string "his POKéDEX.\p"
-	.string "He's wrong.\n"
-	.string "POKéMON are for battling!\p"
-	.string "{PLAYER}! I'll show you how a real\n"
-	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "あたしは　してんのうの　キクコ！\p"
+	.string "あんた　オーキドの　ジジイに\n"
+	.string "かわいがられてる　こだね！\p"
+	.string "ジジイ　むかしは　つよくて\n"
+	.string "いい　おとこ　だった！\l"
+	.string "いまじゃ　みる　かげも　ないがね！\p"
+	.string "ポケモン　ずかん\n"
+	.string "つくってる　ようじゃ　だめだ！\l"
+	.string "ポケモンは　たたかわせる　ものさ\p"
+	.string "{PLAYER}…！　あんたにも\n"
+	.string "ホントの　たたかいって　ものを\l"
+	.string "おしえて　やる！{0xFC}{0x0B}{0x56}{0x01}$"
 
 PokemonLeague_AgathasRoom_Text_Defeat::
-	.string "Oh, my!\n"
-	.string "You're something special, child!$"
+	.string "ほっほう！\n"
+	.string "たいした　もんだよ！$"
 
 PokemonLeague_AgathasRoom_Text_PostBattle::
-	.string "You win!\p"
-	.string "I see what the old duff sees in\n"
-	.string "you now.\p"
-	.string "I have nothing else to say.\n"
-	.string "Run along now, child!$"
+	.string "あんたの　かち　だ！\n"
+	.string "ジジイが　めを　つける　だけの\l"
+	.string "ことは　ある！\p"
+	.string "もう　これ　いじょう\n"
+	.string "あたしが　いう　ことは　ない！\l"
+	.string "つぎの　へやに　すすみな！$"
 

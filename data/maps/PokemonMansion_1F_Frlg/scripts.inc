@@ -4,7 +4,7 @@ PokemonMansion_1F_Frlg_MapScripts::
 	.byte 0
 
 PokemonMansion_1F_OnLoad::
-	call_if_set FLAG_POKEMON_MANSION_SWITCH_STATE, PokemonMansion_EventScript_PressSwitch_1F
+	call_if_set FLAG_KJ_POKEMON_MANSION_SWITCH_STATE, PokemonMansion_EventScript_PressSwitch_1F
 	end
 
 PokemonMansion_1F_OnTransition::
@@ -32,26 +32,28 @@ PokemonMansion_1F_EventScript_Johnson::
 	end
 
 PokemonMansion_1F_Text_TedIntro::
-	.string "Who are you?\n"
-	.string "There shouldn't be anyone here.$"
+	.string "だれも　いない　はずの\n"
+	.string "いえを　あるき　まわる\l"
+	.string "きみは　だれだね？$"
 
 PokemonMansion_1F_Text_TedDefeat::
-	.string "Ouch!$"
+	.string "まいったな$"
 
 PokemonMansion_1F_Text_TedPostBattle::
-	.string "A key? I don't know what you're\n"
-	.string "talking about.$"
+	.string "…　なに？\n"
+	.string "カギを　さがして　いるのか\l"
+	.string "さあ　しらないねえ…$"
 
 PokemonMansion_1F_Text_JohnsonIntro::
-	.string "W-w-waah! You startled me!\n"
-	.string "I thought you were a ghost.$"
+	.string "びっ　びっくりした！\n"
+	.string "おばけ　かと　おもった$"
 
 PokemonMansion_1F_Text_JohnsonDefeat::
-	.string "Tch!\n"
-	.string "I can't get any wins.$"
+	.string "ちぇ\n"
+	.string "てんで　かてないや$"
 
 PokemonMansion_1F_Text_JohnsonPostBattle::
-	.string "I was exploring here by myself,\n"
-	.string "but I feel spooked.\p"
-	.string "I ought to go soon.$"
+	.string "ひとりで　たんけん　してたら\n"
+	.string "こわく　なっちゃった\p"
+	.string "もう　かえろうかな？$"
 

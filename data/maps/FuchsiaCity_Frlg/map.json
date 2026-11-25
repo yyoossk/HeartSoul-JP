@@ -255,7 +255,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FuchsiaCity_EventScript_Lass",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     }
   ],
   "warp_events": [
@@ -433,7 +433,7 @@
       "y": 26,
       "elevation": 3,
       "item": "ITEM_MAX_REVIVE",
-      "flag": "FLAG_HIDDEN_ITEM_FUCHSIA_CITY_MAX_REVIVE",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_FUCHSIA_CITY_MAX_REVIVE",
       "quantity": 1,
       "underfoot": false
     }

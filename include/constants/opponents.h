@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_OPPONENTS_H
 
 #include "constants/battle_partner.h"
-#if IS_HNS
+#ifdef POKEMON_HNS // カントー＆ジョウト
 #include "constants/opponents_kj.h"
 #else
 #include "constants/opponents_frlg.h"

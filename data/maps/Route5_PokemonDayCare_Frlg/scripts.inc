@@ -4,65 +4,66 @@ Route5_PokemonDayCare_Frlg_MapScripts::
 	.byte 0
 
 Route5_PokemonDayCare_Text_WantMeToRaiseMon::
-	.string "I run the DAY-CARE service.\p"
-	.string "Would you like me to raise one of\n"
-	.string "your POKéMON?$"
+	.string "わたしは　そだてやさん\n"
+	.string "なにか　そだてて　みるかね？$"
 
 Route5_PokemonDayCare_Text_ComeAgain::
-	.string "Come again.$"
+	.string "また　きなさいよ$"
 
 Route5_PokemonDayCare_Text_WhichMonShouldIRaise::
-	.string "Which POKéMON should I raise?$"
+	.string "それでは\n"
+	.string "なにを　そだてて　みるかね？$"
 
 Route5_PokemonDayCare_Text_ComeAnytimeYouLike::
-	.string "Fine.\n"
-	.string "Come anytime you like.$"
+	.string "そうか　それじゃ\n"
+	.string "また　きなさいよ$"
 
 Route5_PokemonDayCare_Text_LookAfterMonForAWhile::
-	.string "Fine, I'll look after your\n"
-	.string "{STR_VAR_1} for a while.$"
+	.string "わかった\n"
+	.string "しばらく　{STR_VAR_1}を　あずかろう$"
 
 Route5_PokemonDayCare_Text_ComeSeeMeInAWhile::
-	.string "Come see me in a while.$"
+	.string "てきとうに　じかんが　たったら\n"
+	.string "また　きなさい$"
 
 Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime::
-	.string "You're back already?\p"
-	.string "Your {STR_VAR_1} needs to spend\n"
-	.string "some more time with me.$"
+	.string "なんだ　もう　きたのか\n"
+	.string "おまえの　{STR_VAR_1}は…\p"
+	.string "まだ　じかんが　かかるぞ$"
 
 Route5_PokemonDayCare_Text_OweMeXForMonsReturn::
-	.string "You owe me ¥{STR_VAR_2} for the return\n"
-	.string "of this POKéMON.$"
+	.string "…で　ポケモンを　ひきとるなら\n"
+	.string "りょうきんは　{STR_VAR_2}円　だよ$"
 
 Route5_PokemonDayCare_Text_ThankYouHeresMon::
-	.string "Thank you!\n"
-	.string "Here's your POKéMON.$"
+	.string "ほい　たしかに！\n"
+	.string "じゃ　ポケモン　つれて　いきなよ$"
 
 Route5_PokemonDayCare_Text_PlayerGotMonBack::
-	.string "{PLAYER} got {STR_VAR_1} back\n"
-	.string "from the DAY-CARE MAN.$"
+	.string "{PLAYER}は　そだてやさんから\n"
+	.string "{STR_VAR_1}を　ひきとった！$"
 
 Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou::
-	.string "Oh? You only have one POKéMON\n"
-	.string "with you.$"
+	.string "おや？　ポケモンが\n"
+	.string "１ぴきしか　いないようだな$"
 
 Route5_PokemonDayCare_Text_WhatWillYouBattleWith::
-	.string "If you leave me that POKéMON,\n"
-	.string "what will you battle with?$"
+	.string "おや？　そのポケモン　いなくなると\n"
+	.string "たたかえなく　なって　しまうぞ$"
 
 Route5_PokemonDayCare_Text_MonHasGrownByXLevels::
-	.string "Your {STR_VAR_1} has grown a lot.\n"
-	.string "Yes, quite a lot, I'd say.\p"
-	.string "Let me see…\n"
-	.string "By level, it's grown by {STR_VAR_2}.\p"
-	.string "Aren't I great?$"
+	.string "おまえの　{STR_VAR_1}\n"
+	.string "ずいぶんと　せいちょうしたぞ\p"
+	.string "そうだな　レベルで　いうと\n"
+	.string "{STR_VAR_2}　くらい　そだってるな\p"
+	.string "やっぱり　わたしは　てんさいだ！$"
 
 Route5_PokemonDayCare_Text_YouveGotNoRoomForIt::
-	.string "You can't take this POKéMON back\n"
-	.string "if you've got no room for it.$"
+	.string "だけど　つれていくには\n"
+	.string "ポケモンが　いっぱいのようだな$"
 
 Route5_PokemonDayCare_Text_DontHaveEnoughMoney::
-	.string "You don't have enough money.$"
+	.string "かねが　たらんな$"
 
 Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours::
 	.string "きみの\n"

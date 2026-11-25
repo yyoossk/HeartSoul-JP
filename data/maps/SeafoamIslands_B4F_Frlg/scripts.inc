@@ -19,20 +19,20 @@ SeafoamIslands_B4F_EventScript_TryRemoveArticuno::
 	return
 
 SeafoamIslands_B4F_OnTransition::
-	call_if_unset FLAG_FOUGHT_ARTICUNO, SeafoamIslands_B4F_EventScript_ShowArticuno
-	call_if_unset FLAG_STOPPED_SEAFOAM_B4F_CURRENT, SeafoamIslands_B4F_EventScript_CheckStoppedCurrent
-	call_if_set FLAG_STOPPED_SEAFOAM_B4F_CURRENT, SeafoamIslands_B4F_EventScript_SetNoCurrentLayout
+	call_if_unset FLAG_KJ_FOUGHT_ARTICUNO, SeafoamIslands_B4F_EventScript_ShowArticuno
+	call_if_unset FLAG_KJ_STOPPED_SEAFOAM_B4F_CURRENT, SeafoamIslands_B4F_EventScript_CheckStoppedCurrent
+	call_if_set FLAG_KJ_STOPPED_SEAFOAM_B4F_CURRENT, SeafoamIslands_B4F_EventScript_SetNoCurrentLayout
 	end
 
 SeafoamIslands_B4F_EventScript_CheckStoppedCurrent::
 	setvar NUM_BOULDERS_PRESENT, 0
-	call_if_unset FLAG_HIDE_SEAFOAM_B4F_BOULDER_1, SeafoamIslands_B4F_EventScript_AddBoulderPresent
-	call_if_unset FLAG_HIDE_SEAFOAM_B4F_BOULDER_2, SeafoamIslands_B4F_EventScript_AddBoulderPresent
+	call_if_unset FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_1, SeafoamIslands_B4F_EventScript_AddBoulderPresent
+	call_if_unset FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_2, SeafoamIslands_B4F_EventScript_AddBoulderPresent
 	call_if_eq NUM_BOULDERS_PRESENT, 2, SeafoamIslands_B4F_EventScript_StoppedCurrent
 	return
 
 SeafoamIslands_B4F_EventScript_StoppedCurrent::
-	setflag FLAG_STOPPED_SEAFOAM_B4F_CURRENT
+	setflag FLAG_KJ_STOPPED_SEAFOAM_B4F_CURRENT
 	return
 
 SeafoamIslands_B4F_EventScript_SetNoCurrentLayout::
@@ -45,8 +45,8 @@ SeafoamIslands_B4F_EventScript_ShowArticuno::
 
 SeafoamIslands_B4F_OnLoad::
 	setvar NUM_BOULDERS_PRESENT, 0
-	call_if_unset FLAG_HIDE_SEAFOAM_B4F_BOULDER_1, SeafoamIslands_B4F_EventScript_AddBoulderPresent
-	call_if_unset FLAG_HIDE_SEAFOAM_B4F_BOULDER_2, SeafoamIslands_B4F_EventScript_AddBoulderPresent
+	call_if_unset FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_1, SeafoamIslands_B4F_EventScript_AddBoulderPresent
+	call_if_unset FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_2, SeafoamIslands_B4F_EventScript_AddBoulderPresent
 	goto_if_eq NUM_BOULDERS_PRESENT, 2, SeafoamIslands_B4F_EventScript_SetCalmWaterNearStairs
 	end
 
@@ -88,8 +88,8 @@ SeafoamIslands_B4F_Movement_EnterOnCurrent::
 SeafoamIslands_B4F_EventScript_EnterByFalling::
 	lockall
 	setvar NUM_BOULDERS_PRESENT, 0
-	call_if_unset FLAG_HIDE_SEAFOAM_B4F_BOULDER_1, SeafoamIslands_B4F_EventScript_AddBoulderPresent
-	call_if_unset FLAG_HIDE_SEAFOAM_B4F_BOULDER_2, SeafoamIslands_B4F_EventScript_AddBoulderPresent
+	call_if_unset FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_1, SeafoamIslands_B4F_EventScript_AddBoulderPresent
+	call_if_unset FLAG_KJ_HIDE_SEAFOAM_B4F_BOULDER_2, SeafoamIslands_B4F_EventScript_AddBoulderPresent
 	goto_if_eq NUM_BOULDERS_PRESENT, 2, SeafoamIslands_B4F_EventScript_CurrentBlocked
 	getplayerxy VAR_0x8008, VAR_0x8009
 	call_if_lt VAR_0x8008, 9, SeafoamIslands_B4F_EventScript_RideCurrentFar
@@ -171,12 +171,12 @@ SeafoamIslands_B4F_EventScript_Articuno::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, SeafoamIslands_B4F_EventScript_DefeatedArticuno
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, SeafoamIslands_B4F_EventScript_RanFromArticuno
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, SeafoamIslands_B4F_EventScript_RanFromArticuno
-	setflag FLAG_FOUGHT_ARTICUNO
+	setflag FLAG_KJ_FOUGHT_ARTICUNO
 	release
 	end
 
 SeafoamIslands_B4F_EventScript_DefeatedArticuno::
-	setflag FLAG_FOUGHT_ARTICUNO
+	setflag FLAG_KJ_FOUGHT_ARTICUNO
 	goto EventScript_RemoveStaticMon
 	end
 
@@ -194,31 +194,30 @@ SeafoamIslands_B4F_EventScript_FastCurrentSign::
 	end
 
 Text_RockSlideTeach::
-	.string "When you're up on a rocky mountain\n"
-	.string "like this, rockslides are a threat.\p"
-	.string "Can you imagine?\n"
-	.string "Boulders tumbling down on you?\p"
-	.string "That'd be, like, waaaaaaaaaaah!\n"
-	.string "Total terror!\p"
-	.string "You don't seem to be scared.\n"
-	.string "Want to try using ROCK SLIDE?$"
+	.string "こんな　いわやまに　いたら\n"
+	.string "いわが　うえから\l"
+	.string "ゴロゴロ　おちてきて　ギャー！\p"
+	.string "って　なったら　こわいな…\p"
+	.string "きみは　へいき　そうな\n"
+	.string "かお　してるね\l"
+	.string "いわなだれ…　つかって　みる？$"
 
 Text_RockSlideDeclined::
-	.string "Oh, so you are scared after all.$"
+	.string "やっぱ　こわいの？$"
 
 Text_RockSlideWhichMon::
-	.string "Which POKéMON should I teach\n"
-	.string "ROCK SLIDE?$"
+	.string "どの　ポケモンに\n"
+	.string "いわなだれを　おしえたら　いい？$"
 
 Text_RockSlideTaught::
-	.string "It might be scary to use it in this\n"
-	.string "tunnel…$"
+	.string "この　トンネルで\n"
+	.string "つかったら　こわいかも…$"
 
 SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow::
-	.string "Hint: Boulders might change the\n"
-	.string "flow of water.$"
+	.string "ヒント　いわで　ながれを\n"
+	.string "せきとめられるかも…$"
 
 SeafoamIslands_B4F_Text_DangerFastCurrent::
-	.string "DANGER\n"
-	.string "Fast current!$"
+	.string "キケン！\n"
+	.string "ながれが　はやい！$"
 

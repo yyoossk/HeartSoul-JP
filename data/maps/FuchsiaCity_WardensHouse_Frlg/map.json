@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FuchsiaCity_WardensHouse_EventScript_ItemRareCandy",
-      "flag": "FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY"
+      "flag": "FLAG_KJ_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY"
     },
     {
       "type": "object",
@@ -71,7 +71,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga",
-      "flag": "FLAG_HIDE_FAME_CHECKER_KOGA_JOURNAL"
+      "flag": "FLAG_KJ_HIDE_FAME_CHECKER_KOGA_JOURNAL"
     }
   ],
   "warp_events": [

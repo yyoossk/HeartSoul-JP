@@ -30,7 +30,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SS_ANNE"
+      "flag": "FLAG_KJ_HIDE_SS_ANNE"
     }
   ],
   "warp_events": [
@@ -78,7 +78,7 @@
       "y": 28,
       "elevation": 3,
       "item": "ITEM_LAVA_COOKIE",
-      "flag": "FLAG_HIDDEN_ITEM_SSANNE_EXTERIOR_LAVA_COOKIE",
+      "flag": "FLAG_KJ_HIDDEN_ITEM_SSANNE_EXTERIOR_LAVA_COOKIE",
       "quantity": 1,
       "underfoot": false
     }

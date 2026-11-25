@@ -3,13 +3,13 @@ CinnabarIsland_Gym_Frlg_MapScripts::
 	.byte 0
 
 CinnabarIsland_Gym_OnLoad::
-	goto_if_set FLAG_DEFEATED_BLAINE, CinnabarIsland_Gym_OnLoadOpenAllDoors
-	call_if_set FLAG_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_OnLoadOpenDoor1
-	call_if_set FLAG_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_OnLoadOpenDoor2
-	call_if_set FLAG_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_OnLoadOpenDoor3
-	call_if_set FLAG_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_OnLoadOpenDoor4
-	call_if_set FLAG_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_OnLoadOpenDoor5
-	call_if_set FLAG_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_OnLoadOpenDoor6
+	goto_if_set FLAG_KJ_DEFEATED_BLAINE, CinnabarIsland_Gym_OnLoadOpenAllDoors
+	call_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_OnLoadOpenDoor1
+	call_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_OnLoadOpenDoor2
+	call_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_OnLoadOpenDoor3
+	call_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_OnLoadOpenDoor4
+	call_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_OnLoadOpenDoor5
+	call_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_OnLoadOpenDoor6
 	end
 
 CinnabarIsland_Gym_OnLoadOpenAllDoors::
@@ -48,18 +48,18 @@ CinnabarIsland_Gym_OnLoadOpenDoor6::
 CinnabarIsland_Gym_EventScript_Blaine::
 	famechecker FAMECHECKER_BLAINE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_BlaineIntro, CinnabarIsland_Gym_Text_BlaineDefeat, CinnabarIsland_Gym_EventScript_DefeatedBlaine, NO_MUSIC
-	goto_if_unset FLAG_GOT_TM38_FROM_BLAINE, CinnabarIsland_Gym_EventScript_GiveTM38
+	goto_if_unset FLAG_KJ_GOT_TM38_FROM_BLAINE, CinnabarIsland_Gym_EventScript_GiveTM38
 	msgbox CinnabarIsland_Gym_Text_BlainePostBattle
 	release
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedBlaine::
 	famechecker FAMECHECKER_BLAINE, 1
-	setflag FLAG_DEFEATED_BLAINE
+	setflag FLAG_KJ_DEFEATED_BLAINE
 	setflag FLAG_BADGE15_GET
 	setrespawn HEAL_LOCATION_CINNABAR_ISLAND
 	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 1
-	clearflag FLAG_HIDE_CINNABAR_BILL
+	clearflag FLAG_KJ_HIDE_CINNABAR_BILL
 	set_gym_trainers_frlg 7
 	goto CinnabarIsland_Gym_EventScript_GiveTM38
 	end
@@ -69,7 +69,7 @@ CinnabarIsland_Gym_EventScript_GiveTM38::
 	checkitemspace ITEM_TM38
 	goto_if_eq VAR_RESULT, FALSE, CinnabarIsland_Gym_EventScript_NoRoomForTM38
 	giveitem_msg CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine, ITEM_TM38
-	setflag FLAG_GOT_TM38_FROM_BLAINE
+	setflag FLAG_KJ_GOT_TM38_FROM_BLAINE
 	msgbox CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove
 	release
 	end
@@ -90,7 +90,7 @@ CinnabarIsland_Gym_EventScript_Avery::
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedAvery::
-	call_if_unset FLAG_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_EventScript_Quiz2CompleteTrainer
+	call_if_unset FLAG_KJ_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_EventScript_Quiz2CompleteTrainer
 	release
 	end
 
@@ -105,7 +105,7 @@ CinnabarIsland_Gym_EventScript_Derek::
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedDerek::
-	call_if_unset FLAG_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_EventScript_Quiz4CompleteTrainer
+	call_if_unset FLAG_KJ_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_EventScript_Quiz4CompleteTrainer
 	release
 	end
 
@@ -119,7 +119,7 @@ CinnabarIsland_Gym_EventScript_Zac::
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedZac::
-	call_if_unset FLAG_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_EventScript_Quiz6CompleteTrainer
+	call_if_unset FLAG_KJ_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_EventScript_Quiz6CompleteTrainer
 	release
 	end
 
@@ -133,7 +133,7 @@ CinnabarIsland_Gym_EventScript_Quinn::
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedQuinn::
-	call_if_unset FLAG_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_EventScript_Quiz1CompleteTrainer
+	call_if_unset FLAG_KJ_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_EventScript_Quiz1CompleteTrainer
 	release
 	end
 
@@ -147,7 +147,7 @@ CinnabarIsland_Gym_EventScript_Ramon::
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedRamon::
-	call_if_unset FLAG_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_EventScript_Quiz3CompleteTrainer
+	call_if_unset FLAG_KJ_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_EventScript_Quiz3CompleteTrainer
 	release
 	end
 
@@ -161,7 +161,7 @@ CinnabarIsland_Gym_EventScript_Dusty::
 	end
 
 CinnabarIsland_Gym_EventScript_DefeatedDusty::
-	call_if_unset FLAG_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_EventScript_Quiz5CompleteTrainer
+	call_if_unset FLAG_KJ_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_EventScript_Quiz5CompleteTrainer
 	release
 	end
 
@@ -172,7 +172,7 @@ CinnabarIsland_Gym_EventScript_Quiz5CompleteTrainer::
 CinnabarIsland_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_BLAINE, CinnabarIsland_Gym_EventScript_GymGuyPostVictory
+	goto_if_set FLAG_KJ_DEFEATED_BLAINE, CinnabarIsland_Gym_EventScript_GymGuyPostVictory
 	msgbox CinnabarIsland_Gym_Text_GymGuyAdvice
 	release
 	end
@@ -229,7 +229,7 @@ CinnabarIsland_Gym_EventScript_IncorrectAnswer::
 
 CinnabarIsland_Gym_EventScript_Quiz1Correct::
 	call CinnabarIsland_Gym_EventScript_CorrectAnswer
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz1Complete
 	releaseall
 	end
@@ -239,7 +239,7 @@ CinnabarIsland_Gym_EventScript_Quiz1Complete::
 	waitse
 	call CinnabarIsland_Gym_EventScript_OpenDoor1
 	special DrawWholeMapView
-	setflag FLAG_CINNABAR_GYM_QUIZ_1
+	setflag FLAG_KJ_CINNABAR_GYM_QUIZ_1
 	return
 
 CinnabarIsland_Gym_EventScript_DoorAlreadyOpen::
@@ -258,7 +258,7 @@ CinnabarIsland_Gym_EventScript_BattleQuinn::
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_QuinnIntro
 	trainerbattle_no_intro TRAINER_BURGLAR_QUINN, CinnabarIsland_Gym_Text_QuinnDefeat
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz1Complete
 	releaseall
 	end
@@ -305,7 +305,7 @@ CinnabarIsland_Gym_EventScript_Quiz2::
 
 CinnabarIsland_Gym_EventScript_Quiz2Correct::
 	call CinnabarIsland_Gym_EventScript_CorrectAnswer
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz2Complete
 	releaseall
 	end
@@ -315,7 +315,7 @@ CinnabarIsland_Gym_EventScript_Quiz2Complete::
 	waitse
 	call CinnabarIsland_Gym_EventScript_OpenDoor2
 	special DrawWholeMapView
-	setflag FLAG_CINNABAR_GYM_QUIZ_2
+	setflag FLAG_KJ_CINNABAR_GYM_QUIZ_2
 	return
 
 CinnabarIsland_Gym_EventScript_Quiz2Incorrect::
@@ -330,7 +330,7 @@ CinnabarIsland_Gym_EventScript_BattleAvery::
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_AveryIntro
 	trainerbattle_no_intro TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryDefeat
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz2Complete
 	releaseall
 	end
@@ -386,7 +386,7 @@ CinnabarIsland_Gym_EventScript_Quiz3::
 
 CinnabarIsland_Gym_EventScript_Quiz3Correct::
 	call CinnabarIsland_Gym_EventScript_CorrectAnswer
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz3Complete
 	releaseall
 	end
@@ -396,7 +396,7 @@ CinnabarIsland_Gym_EventScript_Quiz3Complete::
 	waitse
 	call CinnabarIsland_Gym_EventScript_OpenDoor3
 	special DrawWholeMapView
-	setflag FLAG_CINNABAR_GYM_QUIZ_3
+	setflag FLAG_KJ_CINNABAR_GYM_QUIZ_3
 	return
 
 CinnabarIsland_Gym_EventScript_Quiz3Incorrect::
@@ -411,7 +411,7 @@ CinnabarIsland_Gym_EventScript_BattleRamon::
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_RamonIntro
 	trainerbattle_no_intro TRAINER_BURGLAR_RAMON, CinnabarIsland_Gym_Text_RamonDefeat
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz3Complete
 	releaseall
 	end
@@ -458,7 +458,7 @@ CinnabarIsland_Gym_EventScript_Quiz4::
 
 CinnabarIsland_Gym_EventScript_Quiz4Correct::
 	call CinnabarIsland_Gym_EventScript_CorrectAnswer
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz4Complete
 	releaseall
 	end
@@ -468,7 +468,7 @@ CinnabarIsland_Gym_EventScript_Quiz4Complete::
 	waitse
 	call CinnabarIsland_Gym_EventScript_OpenDoor4
 	special DrawWholeMapView
-	setflag FLAG_CINNABAR_GYM_QUIZ_4
+	setflag FLAG_KJ_CINNABAR_GYM_QUIZ_4
 	return
 
 CinnabarIsland_Gym_EventScript_Quiz4Incorrect::
@@ -483,7 +483,7 @@ CinnabarIsland_Gym_EventScript_BattleDerek::
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_DerekIntro
 	trainerbattle_no_intro TRAINER_SUPER_NERD_DEREK, CinnabarIsland_Gym_Text_DerekDefeat
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz4Complete
 	releaseall
 	end
@@ -530,7 +530,7 @@ CinnabarIsland_Gym_EventScript_Quiz5::
 
 CinnabarIsland_Gym_EventScript_Quiz5Correct::
 	call CinnabarIsland_Gym_EventScript_CorrectAnswer
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz5Complete
 	releaseall
 	end
@@ -540,7 +540,7 @@ CinnabarIsland_Gym_EventScript_Quiz5Complete::
 	waitse
 	call CinnabarIsland_Gym_EventScript_OpenDoor5
 	special DrawWholeMapView
-	setflag FLAG_CINNABAR_GYM_QUIZ_5
+	setflag FLAG_KJ_CINNABAR_GYM_QUIZ_5
 	return
 
 CinnabarIsland_Gym_EventScript_Quiz5Incorrect::
@@ -555,7 +555,7 @@ CinnabarIsland_Gym_EventScript_BattleDusty::
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_DustyIntro
 	trainerbattle_no_intro TRAINER_BURGLAR_DUSTY, CinnabarIsland_Gym_Text_DustyDefeat
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz5Complete
 	releaseall
 	end
@@ -602,7 +602,7 @@ CinnabarIsland_Gym_EventScript_Quiz6::
 
 CinnabarIsland_Gym_EventScript_Quiz6Correct::
 	call CinnabarIsland_Gym_EventScript_CorrectAnswer
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz6Complete
 	releaseall
 	end
@@ -612,7 +612,7 @@ CinnabarIsland_Gym_EventScript_Quiz6Complete::
 	waitse
 	call CinnabarIsland_Gym_EventScript_OpenDoor6
 	special DrawWholeMapView
-	setflag FLAG_CINNABAR_GYM_QUIZ_6
+	setflag FLAG_KJ_CINNABAR_GYM_QUIZ_6
 	return
 
 CinnabarIsland_Gym_EventScript_Quiz6Incorrect::
@@ -627,7 +627,7 @@ CinnabarIsland_Gym_EventScript_BattleZac::
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox CinnabarIsland_Gym_Text_ZacIntro
 	trainerbattle_no_intro TRAINER_SUPER_NERD_ZAC, CinnabarIsland_Gym_Text_ZacDefeat
-	goto_if_set FLAG_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	goto_if_set FLAG_KJ_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
 	call CinnabarIsland_Gym_EventScript_Quiz6Complete
 	releaseall
 	end
@@ -710,192 +710,205 @@ CinnabarIsland_Gym_EventScript_OpenDoor6::
 	return
 
 CinnabarIsland_Gym_Text_BlaineIntro::
-	.string "Hah!\p"
-	.string "I am BLAINE, the red-hot LEADER\n"
-	.string "of CINNABAR GYM!\p"
-	.string "My fiery POKéMON are all rough\n"
-	.string "and ready with intense heat!\p"
-	.string "They incinerate all challengers!\p"
-	.string "Hah!\n"
-	.string "You better have BURN HEAL!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "うおおーす！\p"
+	.string "わしは　もえる　おとこ！\n"
+	.string "グレンじま　ポケモンジムの　カツラ\p"
+	.string "わしの　ポケモンは　すべてを\n"
+	.string "ほのおで　やいて　こがしまくる\l"
+	.string "つわもの　ばかり　なのだー！\p"
+	.string "うおおーす！\n"
+	.string "やけどなおしの　よういは　いいか！{0xFC}{0x0B}{0x56}{0x01}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
-	.string "I have burned down to nothing!\n"
-	.string "Not even ashes remain!\p"
-	.string "You have earned the VOLCANOBADGE.$"
+	.string "わしは　もえつきた！\p"
+	.string "おまえに　こそ！\n"
+	.string "クリムゾン　バッジは　ふさわしい！$"
 
 CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
-	.string "FIRE BLAST is the ultimate fire\n"
-	.string "technique.\p"
-	.string "Don't waste it on WATER POKéMON.$"
+	.string "この　わざを　みんなは\n"
+	.string "だいもんじやき　と　よんでるが\l"
+	.string "そりゃ　まちがいだ！\p"
+	.string "ほんば　きょうと　では\n"
+	.string "だいもんじ　とか　おくりび　と\l"
+	.string "よんで　いるのだ！$"
 
 CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
-	.string "Hah!\p"
-	.string "The VOLCANOBADGE heightens the\n"
-	.string "SPECIAL stats of your POKéMON.\p"
-	.string "Here, you can have this, too!$"
+	.string "うおーす！\p"
+	.string "この　クリムゾン　バッジは\n"
+	.string "もってる　だけで\p"
+	.string "ポケモンの　とくしゅ　のうりょくを\n"
+	.string "たかめる　こうかが　ある！\p"
+	.string "それから！\n"
+	.string "この　わざマシンを　うけとれい！$"
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
-	.string "{PLAYER} received TM38\n"
-	.string "from BLAINE.$"
+	.string "{PLAYER}は　カツラから\n"
+	.string "わざマシン３８を　もらった！$"
 
 CinnabarIsland_Gym_Text_BlainePostBattle::
-	.string "TM38 contains FIRE BLAST.\n"
-	.string "Teach it to FIRE-type POKéMON.\p"
-	.string "VULPIX or CHARMELEON would be\n"
-	.string "ideal for that move.$"
+	.string "わざマシン３８は\n"
+	.string "もえる　おおわざ！　だいもんじ！\p"
+	.string "だいもんじは\n"
+	.string "ほのお　タイプの　ポケモン！\p"
+	.string "ロコンや　リザードに\n"
+	.string "おぼえさせると　よいぞ！$"
 
 CinnabarIsland_Gym_Text_MakeSpaceForThis::
-	.string "Make space for this, child!$"
+	.string "にもつが　いっぱいだ$"
 
 CinnabarIsland_Gym_Text_ErikIntro::
-	.string "Do you know how hot POKéMON fire\n"
-	.string "breath can get?$"
+	.string "ポケモンが　はく　ほのおの　おんど\n"
+	.string "どの　くらいか　しってる？$"
 
 CinnabarIsland_Gym_Text_ErikDefeat::
-	.string "Yow!\n"
-	.string "Hot, hot, hot!$"
+	.string "…　あち！　やられた$"
 
 CinnabarIsland_Gym_Text_ErikPostBattle::
-	.string "Fire, or to be more precise,\n"
-	.string "combustion…\p"
-	.string "…Oxygen in the air…\n"
-	.string "Blah, blah, blah, blah…$"
+	.string "もえる　っていう　のは\n"
+	.string "くうき　ちゅうの　さんそが…\p"
+	.string "むにゃむにゃ…　ブツブツ$"
 
 CinnabarIsland_Gym_Text_QuinnIntro::
-	.string "I was a thief, but I went straight\n"
-	.string "as a TRAINER.$"
+	.string "どろぼうと　なのって　おりやすが\n"
+	.string "あしを　あらって\l"
+	.string "ポケモンの　しゅぎょう　してまっせ$"
 
 CinnabarIsland_Gym_Text_QuinnDefeat::
-	.string "I surrender!$"
+	.string "まいりやした！$"
 
 CinnabarIsland_Gym_Text_QuinnPostBattle::
-	.string "I get this uncontrollable urge to\n"
-	.string "steal other people's POKéMON.$"
+	.string "ひとの　ポケモン　みると\n"
+	.string "つい　ぬすみたく　なっちゃうんでさ！$"
 
 CinnabarIsland_Gym_Text_AveryIntro::
-	.string "I've studied POKéMON thoroughly.\n"
-	.string "You can't win!$"
+	.string "ポケモンを　けんきゅう　しつくした\n"
+	.string "ぼくに　かてるかい！$"
 
 CinnabarIsland_Gym_Text_AveryDefeat::
-	.string "Waah!\n"
-	.string "My studies were insufficient!$"
+	.string "…！\n"
+	.string "もっと　けんきゅう　しなきゃ$"
 
 CinnabarIsland_Gym_Text_AveryPostBattle::
-	.string "My theories are too complicated\n"
-	.string "for you to understand.$"
+	.string "むずかしい　はなしは\n"
+	.string "きみに　いっても　わからないよ$"
 
 CinnabarIsland_Gym_Text_RamonIntro::
-	.string "I like using FIRE-type POKéMON.\n"
-	.string "I just do.$"
+	.string "ただ　なんとなく　すき　なんで\n"
+	.string "ほのお　ポケモン　つかってるぜ！$"
 
 CinnabarIsland_Gym_Text_RamonDefeat::
-	.string "Too hot to handle!$"
+	.string "…　もえた！$"
 
 CinnabarIsland_Gym_Text_RamonPostBattle::
-	.string "I wish there were a thief POKéMON.\n"
-	.string "I'd use that!$"
+	.string "おいらの　ゆめ…？\p"
+	.string "どろぼう　ポケモンが　いりゃ\n"
+	.string "ぜひ　つかって　みたいねー！$"
 
 CinnabarIsland_Gym_Text_DerekIntro::
-	.string "I know why BLAINE became a\n"
-	.string "TRAINER.$"
+	.string "おれは　カツラが　ポケモン\n"
+	.string "はじめた　きっかけを　しってるぜ$"
 
 CinnabarIsland_Gym_Text_DerekDefeat::
-	.string "Ow!$"
+	.string "ありゃまあ$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
-	.string "Our LEADER, BLAINE, became lost\n"
-	.string "in the mountains but good.\p"
-	.string "Night fell when a fiery bird\n"
-	.string "POKéMON appeared.\p"
-	.string "Its light allowed BLAINE to find\n"
-	.string "his way down safely.$"
+	.string "リーダーの　カツラが\n"
+	.string "やま　のぼりで　そうなん　したとき\l"
+	.string "くらい　やまみちを　てらして\l"
+	.string "ひのとり　ポケモンが　とんでった！\p"
+	.string "その　おかげで　カツラは　ぶじ\n"
+	.string "やまを　おりることが　できたのさ$"
 
 CinnabarIsland_Gym_Text_DustyIntro::
-	.string "I've been to many GYMS, but this\n"
-	.string "one best suits my style.$"
+	.string "いろんな　ジムに　いったけど\n"
+	.string "おいらには　ここが　あってるねえ$"
 
 CinnabarIsland_Gym_Text_DustyDefeat::
-	.string "Yowza!\n"
-	.string "Too hot!$"
+	.string "あー　あつかった$"
 
 CinnabarIsland_Gym_Text_DustyPostBattle::
-	.string "PONYTA, NINETALES…\n"
-	.string "Those are popular FIRE POKéMON.$"
+	.string "ギャロップ　キュウコン　あたりが\n"
+	.string "ほのお　タイプで　にんきが　あるよ$"
 
 CinnabarIsland_Gym_Text_ZacIntro::
-	.string "Fire is weak against H2O.$"
+	.string "ほのおの　じゃくてんは\n"
+	.string "エイチ　ツー　オー　と　いわれてる$"
 
 CinnabarIsland_Gym_Text_ZacDefeat::
-	.string "Oh!\n"
-	.string "Snuffed out!$"
+	.string "へろへろ…$"
 
 CinnabarIsland_Gym_Text_ZacPostBattle::
-	.string "Water beats fire, of course.\p"
-	.string "But fire melts ice, so the FIRE\n"
-	.string "type beats ICE-type POKéMON.$"
+	.string "たしかに　ほのおは　みずに　よわい！\n"
+	.string "でも　とかして　しまうから\l"
+	.string "こおり　ポケモンには　つよいよ$"
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
-	.string "Yo!\n"
-	.string "Champ in the making!\p"
-	.string "The hotheaded BLAINE is a FIRE\n"
-	.string "POKéMON pro.\p"
-	.string "Douse his spirits with water!\p"
-	.string "You'd better take some\n"
-	.string "BURN HEALS, too.$"
+	.string "おーす！\n"
+	.string "みらいの　チャンピオン！\p"
+	.string "ねっけつ　カツラは\n"
+	.string "ほのおの　プロフェッショナルだ！\p"
+	.string "それなら　こっちは\n"
+	.string "クールに　みずで　きめろ！\p"
+	.string "あと　やけどなおしを\n"
+	.string "もって　いった　ほうが　いいぜ！$"
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
-	.string "{PLAYER}!\n"
-	.string "You beat that firebrand!$"
+	.string "{PLAYER}！　かったか！\n"
+	.string "あつ　くるしい　おやじ　だったな！$"
 
 CinnabarIsland_Gym_Text_GymStatue::
-	.string "CINNABAR POKéMON GYM\n"
-	.string "LEADER: BLAINE\p"
-	.string "WINNING TRAINERS:\n"
+	.string "グレン　ポケモン　ジム\n"
+	.string "カツラ　にんてい　トレーナー！\l"
 	.string "{RIVAL}$"
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
-	.string "CINNABAR POKéMON GYM\n"
-	.string "LEADER: BLAINE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "{RIVAL}, {PLAYER}$"
+	.string "グレン　ポケモン　ジム\n"
+	.string "カツラ　にんてい　トレーナー！\l"
+	.string "{RIVAL}　{PLAYER}$"
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
-	.string "POKéMON Quiz!\p"
-	.string "Get it right, and the door opens to\n"
-	.string "the next room.\p"
-	.string "Get it wrong, and face a TRAINER!\p"
-	.string "If you want to conserve your\n"
-	.string "POKéMON for the GYM LEADER…\p"
-	.string "Then get it right!\n"
-	.string "Here we go!$"
+	.string "ポケモン　クイズ！\p"
+	.string "せいかい　すると　ドアが　あいて\n"
+	.string "つぎへ　すすめます！\p"
+	.string "まちがえたら　でしの　トレーナーと\n"
+	.string "たたかって　いただきます！\p"
+	.string "ここの　リーダーに　あう　まで\n"
+	.string "ポケモンの　たいりょくを\l"
+	.string "とって　おきたいなら！\p"
+	.string "がんばって　こたえて　ください！\n"
+	.string "では　おこたえ　ください！$"
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
-	.string "CATERPIE evolves into METAPOD?$"
+	.string "ポケモン　キャタピーが　しんかすると\n"
+	.string "トランセルに　なる？$"
 
 CinnabarIsland_Gym_Text_QuizQuestion2::
-	.string "There are nine certified POKéMON\n"
-	.string "LEAGUE BADGES?$"
+	.string "ポケモン　リーグ　にんてい\n"
+	.string "バッジは　ぜんぶで　９しゅるい？$"
 
 CinnabarIsland_Gym_Text_QuizQuestion3::
-	.string "POLIWAG evolves three times?$"
+	.string "ニョロモは　３かい　しんかする\n"
+	.string "ポケモン　である？$"
 
 CinnabarIsland_Gym_Text_QuizQuestion4::
-	.string "Are electric moves effective\n"
-	.string "against GROUND-type POKéMON?$"
+	.string "でんき　タイプの　わざを\n"
+	.string "くりだした　とき\p"
+	.string "じめん　タイプの　ポケモンには\n"
+	.string "よく　きく？$"
 
 CinnabarIsland_Gym_Text_QuizQuestion5::
-	.string "POKéMON of the same kind and level\n"
-	.string "are not identical?$"
+	.string "おなじ　レベルの　おなじ　ポケモン\n"
+	.string "でも　つかまえる　たびに\l"
+	.string "つよさは　ちがう？$"
 
 CinnabarIsland_Gym_Text_QuizQuestion6::
-	.string "TM28 contains TOMBSTONY?$"
+	.string "‘わざマシン２８’とは\n"
+	.string "‘しねしねこうせん’である？$"
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
-	.string "You're absolutely correct!\p"
-	.string "Go on through!$"
+	.string "あたり　です！\p"
+	.string "さきへ　すすんで　いいです$"
 
 CinnabarIsland_Gym_Text_SorryBadCall::
-	.string "Sorry!\n"
-	.string "Bad call!$"
+	.string "ばか　はずれです…$"
 

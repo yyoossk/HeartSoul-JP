@@ -7,12 +7,15 @@ SSAnne_B1F_Room2_EventScript_Huey::
 	end
 
 SSAnne_B1F_Room2_Text_HueyIntro::
-	.string "Even us sailors have POKéMON, too!$"
+	.string "ふなのり　だって\n"
+	.string "ポケモン　ぐらい　もってるぜ！$"
 
 SSAnne_B1F_Room2_Text_HueyDefeat::
-	.string "Okay, you're not bad.$"
+	.string "なかなか\n"
+	.string "やるじゃねーか$"
 
 SSAnne_B1F_Room2_Text_HueyPostBattle::
-	.string "We caught all our POKéMON while\n"
-	.string "we were out at sea.$"
+	.string "おれたちの　ポケモンは\n"
+	.string "うみに　でた　ときに\l"
+	.string "じぶんで　とった　もの　ばかり　だぜ$"
 

@@ -30,7 +30,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_SS_ANNE_RIVAL"
+      "flag": "FLAG_KJ_HIDE_SS_ANNE_RIVAL"
     },
     {
       "type": "object",

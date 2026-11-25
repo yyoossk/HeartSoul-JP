@@ -2,7 +2,7 @@ VictoryRoad_2F_EventScript_DoubleEdgeTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_DOUBLE_EDGE, EventScript_DoubleEdgeTaught
+	goto_if_set FLAG_KJ_TUTOR_DOUBLE_EDGE, EventScript_DoubleEdgeTaught
 .endif
 	msgbox Text_DoubleEdgeTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_DoubleEdgeDeclined
@@ -13,7 +13,7 @@ VictoryRoad_2F_EventScript_DoubleEdgeTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_DoubleEdgeDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_DOUBLE_EDGE
+	setflag FLAG_KJ_TUTOR_DOUBLE_EDGE
 .endif
 	goto EventScript_DoubleEdgeTaught
 	end
@@ -32,7 +32,7 @@ EventScript_ThunderWaveTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_THUNDER_WAVE, EventScript_ThunderWaveTaught
+	goto_if_set FLAG_KJ_TUTOR_THUNDER_WAVE, EventScript_ThunderWaveTaught
 .endif
 	msgbox Text_ThunderWaveTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_ThunderWaveDeclined
@@ -43,7 +43,7 @@ EventScript_ThunderWaveTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_ThunderWaveDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_THUNDER_WAVE
+	setflag FLAG_KJ_TUTOR_THUNDER_WAVE
 .endif
 	goto EventScript_ThunderWaveTaught
 	end
@@ -62,7 +62,7 @@ RockTunnel_B1F_EventScript_RockSlideTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_ROCK_SLIDE, EventScript_RockSlideTaught
+	goto_if_set FLAG_KJ_TUTOR_ROCK_SLIDE, EventScript_RockSlideTaught
 .endif
 	msgbox Text_RockSlideTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_RockSlideDeclined
@@ -73,7 +73,7 @@ RockTunnel_B1F_EventScript_RockSlideTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_RockSlideDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_ROCK_SLIDE
+	setflag FLAG_KJ_TUTOR_ROCK_SLIDE
 .endif
 	goto EventScript_RockSlideTaught
 	end
@@ -92,7 +92,7 @@ Route4_EventScript_MegaPunchTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_MEGA_PUNCH, EventScript_MegaPunchTaught
+	goto_if_set FLAG_KJ_TUTOR_MEGA_PUNCH, EventScript_MegaPunchTaught
 .endif
 	msgbox Text_MegaPunchTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MegaPunchDeclined
@@ -103,7 +103,7 @@ Route4_EventScript_MegaPunchTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_MegaPunchDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_MEGA_PUNCH
+	setflag FLAG_KJ_TUTOR_MEGA_PUNCH
 .endif
 	goto EventScript_MegaPunchTaught
 	end
@@ -122,7 +122,7 @@ Route4_EventScript_MegaKickTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_MEGA_KICK, EventScript_MegaKickTaught
+	goto_if_set FLAG_KJ_TUTOR_MEGA_KICK, EventScript_MegaKickTaught
 .endif
 	msgbox Text_MegaKickTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MegaKickDeclined
@@ -133,7 +133,7 @@ Route4_EventScript_MegaKickTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_MegaKickDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_MEGA_KICK
+	setflag FLAG_KJ_TUTOR_MEGA_KICK
 .endif
 	goto EventScript_MegaKickTaught
 	end
@@ -152,7 +152,7 @@ EventScript_DreamEaterTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_DREAM_EATER, EventScript_DreamEaterTaught
+	goto_if_set FLAG_KJ_TUTOR_DREAM_EATER, EventScript_DreamEaterTaught
 .endif
 	msgbox Text_DreamEaterTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_DreamEaterDeclined
@@ -163,7 +163,7 @@ EventScript_DreamEaterTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_DreamEaterDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_DREAM_EATER
+	setflag FLAG_KJ_TUTOR_DREAM_EATER
 .endif
 	goto EventScript_DreamEaterTaught
 	end
@@ -182,7 +182,7 @@ EventScript_SoftboiledTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_SOFT_BOILED, EventScript_SoftboiledTaught
+	goto_if_set FLAG_KJ_TUTOR_SOFT_BOILED, EventScript_SoftboiledTaught
 .endif
 	msgbox Text_SoftboiledTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SoftboiledDeclined
@@ -193,7 +193,7 @@ EventScript_SoftboiledTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SoftboiledDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_SOFT_BOILED
+	setflag FLAG_KJ_TUTOR_SOFT_BOILED
 .endif
 	goto EventScript_SoftboiledTaught
 	end
@@ -212,7 +212,7 @@ FuchsiaCity_EventScript_SubstituteTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_SUBSTITUTE, EventScript_SubstituteTaught
+	goto_if_set FLAG_KJ_TUTOR_SUBSTITUTE, EventScript_SubstituteTaught
 .endif
 	msgbox Text_SubstituteTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SubstituteDeclined
@@ -223,7 +223,7 @@ FuchsiaCity_EventScript_SubstituteTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SubstituteDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_SUBSTITUTE
+	setflag FLAG_KJ_TUTOR_SUBSTITUTE
 .endif
 	goto EventScript_SubstituteTaught
 	end
@@ -242,7 +242,7 @@ PewterCity_Museum_1F_EventScript_SeismicTossTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_SEISMIC_TOSS, EventScript_SeismicTossTaught
+	goto_if_set FLAG_KJ_TUTOR_SEISMIC_TOSS, EventScript_SeismicTossTaught
 .endif
 	msgbox Text_SeismicTossTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SeismicTossDeclined
@@ -253,7 +253,7 @@ PewterCity_Museum_1F_EventScript_SeismicTossTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_SeismicTossDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_SEISMIC_TOSS
+	setflag FLAG_KJ_TUTOR_SEISMIC_TOSS
 .endif
 	goto EventScript_SeismicTossTaught
 	end
@@ -272,7 +272,7 @@ EventScript_CounterTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_COUNTER, EventScript_CounterTaught
+	goto_if_set FLAG_KJ_TUTOR_COUNTER, EventScript_CounterTaught
 .endif
 	msgbox Text_CounterTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_CounterDeclined
@@ -283,7 +283,7 @@ EventScript_CounterTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_CounterDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_COUNTER
+	setflag FLAG_KJ_TUTOR_COUNTER
 .endif
 	goto EventScript_CounterTaught
 	end
@@ -302,7 +302,7 @@ EventScript_MetronomeTutor::
 	lock
 	faceplayer
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_METRONOME, EventScript_MetronomeTaught
+	goto_if_set FLAG_KJ_TUTOR_METRONOME, EventScript_MetronomeTaught
 .endif
 	msgbox Text_MetronomeTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MetronomeDeclined
@@ -313,7 +313,7 @@ EventScript_MetronomeTutor::
 	call EventScript_ChooseMoveTutorMon
 	goto_if_eq VAR_RESULT, FALSE, EventScript_MetronomeDeclined
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_METRONOME
+	setflag FLAG_KJ_TUTOR_METRONOME
 .endif
 	goto EventScript_MetronomeTaught
 	end
@@ -330,7 +330,7 @@ EventScript_MetronomeTaught::
 
 EventScript_MimicTutor::
 .if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_MIMIC, EventScript_MimicTaught
+	goto_if_set FLAG_KJ_TUTOR_MIMIC, EventScript_MimicTaught
 .endif
 	msgbox Text_MimicTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_MimicDeclined
@@ -344,7 +344,7 @@ EventScript_MimicTutor::
 	goto_if_eq VAR_RESULT, 0, EventScript_MimicDeclined
 	removeitem ITEM_POKE_DOLL
 .if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_MIMIC
+	setflag FLAG_KJ_TUTOR_MIMIC
 .endif
 	goto EventScript_MimicTaught
 	end
@@ -422,5 +422,5 @@ Movement_JumpInPlaceRight:
 	step_end
 
 Text_MoveCanOnlyBeLearnedOnce::
-	.string "This move can be learned only\n"
-	.string "once. Is that okay?$"
+	.string "この　わざを　おしえて　もらえるのは\n"
+	.string "いちど　だけですが　いいですか？$"

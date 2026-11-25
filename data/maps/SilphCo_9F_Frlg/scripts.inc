@@ -3,10 +3,10 @@ SilphCo_9F_Frlg_MapScripts::
 	.byte 0
 
 SilphCo_9F_OnLoad::
-	call_if_unset FLAG_SILPH_9F_DOOR_1, EventScript_Close9FDoor1
-	call_if_unset FLAG_SILPH_9F_DOOR_2, EventScript_Close9FDoor2
-	call_if_unset FLAG_SILPH_9F_DOOR_3, EventScript_Close9FDoor3
-	call_if_unset FLAG_SILPH_9F_DOOR_4, EventScript_Close9FDoor4
+	call_if_unset FLAG_KJ_SILPH_9F_DOOR_1, EventScript_Close9FDoor1
+	call_if_unset FLAG_KJ_SILPH_9F_DOOR_2, EventScript_Close9FDoor2
+	call_if_unset FLAG_KJ_SILPH_9F_DOOR_3, EventScript_Close9FDoor3
+	call_if_unset FLAG_KJ_SILPH_9F_DOOR_4, EventScript_Close9FDoor4
 	end
 
 SilphCo_9F_EventScript_HealWoman::
@@ -45,49 +45,53 @@ SilphCo_9F_EventScript_Grunt2::
 	end
 
 SilphCo_9F_Text_YouShouldTakeQuickNap::
-	.string "You look tired.\n"
-	.string "You should take a quick nap.$"
+	.string "つかれてる　みたいよ！\n"
+	.string "かみんしつで　やすんで　いったら？$"
 
 SilphCo_9F_Text_DontGiveUp::
-	.string "Don't give up!$"
+	.string "がんばって！$"
 
 SilphCo_9F_Text_ThankYouSoMuch::
-	.string "Thank you so much.$"
+	.string "たすかったわ　ありがと$"
 
 SilphCo_9F_Text_Grunt1Intro::
-	.string "Your POKéMON seem to adore you,\n"
-	.string "kid!$"
+	.string "こどもの　くせに　おまえの\n"
+	.string "ポケモン　ずいぶん　なついているな$"
 
 SilphCo_9F_Text_Grunt1Defeat::
-	.string "Ghaaah!$"
+	.string "ぐうーッ！$"
 
 SilphCo_9F_Text_Grunt1PostBattle::
-	.string "If I had started as a TRAINER at\n"
-	.string "your age…$"
+	.string "おまえ　くらいの　としから\n"
+	.string "ポケモン　やってれば　おれも…$"
 
 SilphCo_9F_Text_EdIntro::
-	.string "Your POKéMON have weak points!\n"
-	.string "I can nail them!$"
+	.string "きみの　ポケモン　には\n"
+	.string "…　じゃくてんが　ある！\l"
+	.string "そこを　せめれば　おれ　かてるよ！$"
 
 SilphCo_9F_Text_EdDefeat::
-	.string "You hammered me!$"
+	.string "じゃくてんを…\n"
+	.string "つくまえに　やられたあ$"
 
 SilphCo_9F_Text_EdPostBattle::
-	.string "Exploiting weak spots does work.\n"
-	.string "Think about type advantages.$"
+	.string "じゃくてんを\n"
+	.string "せめると　いいのは　じじつだ！\l"
+	.string "タイプの　あいしょう　とか…$"
 
 SilphCo_9F_Text_Grunt2Intro::
-	.string "I am one of the four ROCKET\n"
-	.string "BROTHERS!$"
+	.string "おれこそは\n"
+	.string "ロケット　４きょうだいの　ひとりだ！$"
 
 SilphCo_9F_Text_Grunt2Defeat::
-	.string "Warg!\n"
-	.string "Brothers, I lost!$"
+	.string "うー！\n"
+	.string "まけた　おとうとよ！$"
 
 SilphCo_9F_Text_Grunt2PostBattle::
-	.string "My brothers will avenge me!$"
+	.string "まあ　いい\n"
+	.string "おとうとが　かたきを　とってくれる$"
 
 SilphCo_9F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "9F$"
+	.string "シルフ　カンパニー　ほんしゃ\n"
+	.string "９かい$"
 

@@ -99,7 +99,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryRoad_2F_EventScript_ItemGuardSpec",
-      "flag": "FLAG_HIDE_VICTORY_ROAD_2F_GUARD_SPEC"
+      "flag": "FLAG_KJ_HIDE_VICTORY_ROAD_2F_GUARD_SPEC"
     },
     {
       "type": "object",
@@ -113,7 +113,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryRoad_2F_EventScript_ItemTM07",
-      "flag": "FLAG_HIDE_VICTORY_ROAD_2F_TM07"
+      "flag": "FLAG_KJ_HIDE_VICTORY_ROAD_2F_TM07"
     },
     {
       "type": "object",
@@ -127,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryRoad_2F_EventScript_ItemFullHeal",
-      "flag": "FLAG_HIDE_VICTORY_ROAD_2F_FULL_HEAL"
+      "flag": "FLAG_KJ_HIDE_VICTORY_ROAD_2F_FULL_HEAL"
     },
     {
       "type": "object",
@@ -141,7 +141,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VictoryRoad_2F_EventScript_ItemTM37",
-      "flag": "FLAG_HIDE_VICTORY_ROAD_2F_TM37"
+      "flag": "FLAG_KJ_HIDE_VICTORY_ROAD_2F_TM37"
     },
     {
       "type": "object",
@@ -185,7 +185,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_StrengthBoulder",
-      "flag": "FLAG_HIDE_VICTORY_ROAD_2F_BOULDER"
+      "flag": "FLAG_KJ_HIDE_VICTORY_ROAD_2F_BOULDER"
     },
     {
       "type": "object",

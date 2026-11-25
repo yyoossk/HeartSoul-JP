@@ -86,7 +86,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CinnabarIsland_PokemonCenter_1F_EventScript_PokemonJournalMrFuji",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     },
     {
       "type": "object",
@@ -100,7 +100,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CinnabarIsland_PokemonCenter_1F_EventScript_PokemonJournalMrFuji",
-      "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+      "flag": "FLAG_KJ_HIDE_POSTGAME_GOSSIPERS"
     },
     {
       "local_id": "LOCALID_CINNABAR_POKEMON_CENTER_BILL",
@@ -115,7 +115,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CinnabarIsland_PokemonCenter_1F_EventScript_Bill",
-      "flag": "FLAG_HIDE_CINNABAR_POKECENTER_BILL"
+      "flag": "FLAG_KJ_HIDE_CINNABAR_POKECENTER_BILL"
     }
   ],
   "warp_events": [

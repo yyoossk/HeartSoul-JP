@@ -15,9 +15,9 @@ PowerPlant_EventScript_TryRemoveStaticMon::
 
 PowerPlant_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_POWER_PLANT
-	call_if_unset FLAG_FOUGHT_ZAPDOS, PowerPlant_EventScript_ShowZapdos
-	call_if_unset FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1, PowerPlant_EventScript_ShowElectrode1
-	call_if_unset FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2, PowerPlant_EventScript_ShowElectrode2
+	call_if_unset FLAG_KJ_FOUGHT_ZAPDOS, PowerPlant_EventScript_ShowZapdos
+	call_if_unset FLAG_KJ_FOUGHT_POWER_PLANT_ELECTRODE_1, PowerPlant_EventScript_ShowElectrode1
+	call_if_unset FLAG_KJ_FOUGHT_POWER_PLANT_ELECTRODE_2, PowerPlant_EventScript_ShowElectrode2
 	end
 
 PowerPlant_EventScript_ShowZapdos::
@@ -25,11 +25,11 @@ PowerPlant_EventScript_ShowZapdos::
 	return
 
 PowerPlant_EventScript_ShowElectrode1::
-	clearflag FLAG_HIDE_POWER_PLANT_ELECTRODE_1
+	clearflag FLAG_KJ_HIDE_POWER_PLANT_ELECTRODE_1
 	return
 
 PowerPlant_EventScript_ShowElectrode2::
-	clearflag FLAG_HIDE_POWER_PLANT_ELECTRODE_2
+	clearflag FLAG_KJ_HIDE_POWER_PLANT_ELECTRODE_2
 	return
 
 PowerPlant_EventScript_Zapdos::
@@ -52,12 +52,12 @@ PowerPlant_EventScript_Zapdos::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_DefeatedZapdos
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_RanFromZapdos
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PowerPlant_EventScript_RanFromZapdos
-	setflag FLAG_FOUGHT_ZAPDOS
+	setflag FLAG_KJ_FOUGHT_ZAPDOS
 	release
 	end
 
 PowerPlant_EventScript_DefeatedZapdos::
-	setflag FLAG_FOUGHT_ZAPDOS
+	setflag FLAG_KJ_FOUGHT_ZAPDOS
 	goto EventScript_RemoveStaticMon
 	end
 
@@ -81,12 +81,12 @@ PowerPlant_EventScript_Electrode1::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode1
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode1
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PowerPlant_EventScript_FoughtElectrode1
-	setflag FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1
+	setflag FLAG_KJ_FOUGHT_POWER_PLANT_ELECTRODE_1
 	release
 	end
 
 PowerPlant_EventScript_FoughtElectrode1::
-	setflag FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1
+	setflag FLAG_KJ_FOUGHT_POWER_PLANT_ELECTRODE_1
 	goto EventScript_RemoveStaticMon
 	end
 
@@ -105,11 +105,11 @@ PowerPlant_EventScript_Electrode2::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, PowerPlant_EventScript_FoughtElectrode2
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PowerPlant_EventScript_FoughtElectrode2
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PowerPlant_EventScript_FoughtElectrode2
-	setflag FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2
+	setflag FLAG_KJ_FOUGHT_POWER_PLANT_ELECTRODE_2
 	release
 	end
 
 PowerPlant_EventScript_FoughtElectrode2::
-	setflag FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2
+	setflag FLAG_KJ_FOUGHT_POWER_PLANT_ELECTRODE_2
 	goto EventScript_RemoveStaticMon
 	end
