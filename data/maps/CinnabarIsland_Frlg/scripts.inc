@@ -1,9 +1,9 @@
 CinnabarIsland_Frlg_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, CinnabarIsland_OnTransition
+	map_script MAP_SCRIPT_ON_TRANSITION, CinnabarIsland_OnTransition_Kj
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, CinnabarIsland_OnFrame
 	.byte 0
 
-CinnabarIsland_OnTransition::
+CinnabarIsland_OnTransition_Kj::
 	setworldmapflag FLAG_WORLD_MAP_CINNABAR_ISLAND
 	call CinnabarIsland_EventScript_CheckUnlockGym
 	call_if_eq VAR_MAP_SCENE_CINNABAR_ISLAND, 1, CinnabarIsland_EventScript_ReadyObjectsSailToOneIsland
@@ -344,10 +344,10 @@ CinnabarIsland_EventScript_PokemonLabSign::
 	msgbox CinnabarIsland_Text_PokemonLab, MSGBOX_SIGN
 	end
 
-CinnabarIsland_EventScript_GymSign::
+CinnabarIsland_EventScript_GymSign_Kj::
 	lockall
 	famechecker FAMECHECKER_BLAINE, 0
-	msgbox CinnabarIsland_Text_GymSign
+	msgbox CinnabarIsland_Text_GymSign_Kj
 	releaseall
 	end
 
@@ -373,7 +373,7 @@ CinnabarIsland_Text_IslandSign::
 CinnabarIsland_Text_PokemonLab::
 	.string "POKéMON LAB$"
 
-CinnabarIsland_Text_GymSign::
+CinnabarIsland_Text_GymSign_Kj::
 	.string "グレンじま　ポケモンジム\nリーダー　カツラ\lねっけつ　クイズおやじ！$"
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::

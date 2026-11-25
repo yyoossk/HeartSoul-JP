@@ -1,7 +1,7 @@
 SeafoamIslands_1F_Frlg_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, SeafoamIslands_1F_OnTransition
+	map_script MAP_SCRIPT_ON_TRANSITION, SeafoamIslands_1F_OnTransition_Kj
 	.byte 0
 
-SeafoamIslands_1F_OnTransition::
+SeafoamIslands_1F_OnTransition_Kj::
 	setworldmapflag FLAG_WORLD_MAP_SEAFOAM_ISLANDS_1F
 	end

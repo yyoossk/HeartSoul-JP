@@ -9,7 +9,7 @@ Route13_EventScript_TrainerTips2::
 	msgbox Route13_Text_SelectToSwitchItems, MSGBOX_SIGN
 	end
 
-Route13_EventScript_RouteSign::
+Route13_EventScript_RouteSign_Kj::
 	msgbox Route13_Text_RouteSign, MSGBOX_SIGN
 	end
 

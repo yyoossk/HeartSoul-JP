@@ -38,12 +38,12 @@ CeladonCity_EventScript_FatMan::
 	release
 	end
 
-CeladonCity_EventScript_Poliwrath::
+CeladonCity_EventScript_Poliwrath_Kj::
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_POLIWRATH, CRY_MODE_NORMAL
-	msgbox CeladonCity_Text_Poliwrath
+	msgbox CeladonCity_Text_Poliwrath_Kj
 	closemessage
 	waitmoncry
 	applymovement LOCALID_CELADON_POLIWRATH, Common_Movement_FaceOriginalDirection
@@ -71,23 +71,23 @@ CeladonCity_EventScript_TrainerTips1::
 	msgbox CeladonCity_Text_ExplainXAccuracyDireHit, MSGBOX_SIGN
 	end
 
-CeladonCity_EventScript_CitySign::
+CeladonCity_EventScript_CitySign_Kj::
 	msgbox CeladonCity_Text_CitySign, MSGBOX_SIGN
 	end
 
-CeladonCity_EventScript_GymSign::
+CeladonCity_EventScript_GymSign_Kj::
 	lockall
 	famechecker FAMECHECKER_ERIKA, 0
 	msgbox CeladonCity_Text_GymSign
 	releaseall
 	end
 
-CeladonCity_EventScript_MansionSign::
-	msgbox CeladonCity_Text_MansionSign, MSGBOX_SIGN
+CeladonCity_EventScript_MansionSign_Kj::
+	msgbox CeladonCity_Text_MansionSign_Kj, MSGBOX_SIGN
 	end
 
 CeladonCity_EventScript_DeptStoreSign::
-	msgbox CeladonCity_Text_DeptStoreSign, MSGBOX_SIGN
+	msgbox CeladonCity_Text_DeptStoreSign_Kj, MSGBOX_SIGN
 	end
 
 CeladonCity_EventScript_TrainerTips2::
@@ -98,8 +98,8 @@ CeladonCity_EventScript_PrizeExchangeSign::
 	msgbox CeladonCity_Text_PrizeExchangeSign, MSGBOX_SIGN
 	end
 
-CeladonCity_EventScript_GameCornerSign::
-	msgbox CeladonCity_Text_GameCornerSign, MSGBOX_SIGN
+CeladonCity_EventScript_GameCornerSign_Kj::
+	msgbox CeladonCity_Text_GameCornerSign_Kj, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_GotMyKoffingInCinnabar::
@@ -128,7 +128,7 @@ CeladonCity_Text_MyTrustedPalPoliwrath::
 	.string "It evolved from a POLIWHIRL when\n"
 	.string "I used a WATER STONE.$"
 
-CeladonCity_Text_Poliwrath::
+CeladonCity_Text_Poliwrath_Kj::
 	.string "ニョロボン『ニョロ　ニョロ！$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
@@ -153,10 +153,10 @@ CeladonCity_Text_CitySign::
 CeladonCity_Text_GymSign::
 	.string "タマムシシティ　ポケモンジム\nリーダー　エリカ\l「しぜんを　あいする　おじょうさま」$"
 
-CeladonCity_Text_MansionSign::
+CeladonCity_Text_MansionSign_Kj::
 	.string "タマムシマンション$"
 
-CeladonCity_Text_DeptStoreSign::
+CeladonCity_Text_DeptStoreSign_Kj::
 	.string "ほしい　ものは\nタマムシデパートで！$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
@@ -171,7 +171,7 @@ CeladonCity_Text_PrizeExchangeSign::
 	.string "COINS exchanged for prizes!\n"
 	.string "PRIZE EXCHANGE$"
 
-CeladonCity_Text_GameCornerSign::
+CeladonCity_Text_GameCornerSign_Kj::
 	.string "ロケットゲームコーナー\nおとなの　あそびば！$"
 
 CeladonCity_Text_ScaldedTongueOnTea::

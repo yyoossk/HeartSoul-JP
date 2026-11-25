@@ -13,7 +13,7 @@ Route10_EventScript_SouthRockTunnelSign::
 	end
 
 Route10_EventScript_PowerPlantSign::
-	msgbox Route10_Text_PowerPlant, MSGBOX_SIGN
+	msgbox Route10_Text_PowerPlant_Kj, MSGBOX_SIGN
 	end
 
 Route10_Text_MarkIntro::
@@ -99,6 +99,6 @@ Route10_Text_RockTunnelDetourToLavender::
 Route10_Text_RockTunnel::
 	.string "ROCK TUNNEL$"
 
-Route10_Text_PowerPlant::
+Route10_Text_PowerPlant_Kj::
 	.string "はつでんしょ$"
 

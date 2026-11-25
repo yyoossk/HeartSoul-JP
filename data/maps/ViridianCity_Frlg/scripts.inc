@@ -27,12 +27,12 @@ ViridianCity_EventScript_SetOldManBlockingRoad::
 	return
 
 ViridianCity_EventScript_TryUnlockGym::
-	goto_if_unset FLAG_BADGE02_GET, Common_EventScript_NopReturn
-	goto_if_unset FLAG_BADGE03_GET, Common_EventScript_NopReturn
-	goto_if_unset FLAG_BADGE04_GET, Common_EventScript_NopReturn
-	goto_if_unset FLAG_BADGE05_GET, Common_EventScript_NopReturn
-	goto_if_unset FLAG_BADGE06_GET, Common_EventScript_NopReturn
-	goto_if_unset FLAG_BADGE07_GET, Common_EventScript_NopReturn
+	goto_if_unset FLAG_BADGE10_GET, Common_EventScript_NopReturn
+	goto_if_unset FLAG_BADGE11_GET, Common_EventScript_NopReturn
+	goto_if_unset FLAG_BADGE12_GET, Common_EventScript_NopReturn
+	goto_if_unset FLAG_BADGE13_GET, Common_EventScript_NopReturn
+	goto_if_unset FLAG_BADGE14_GET, Common_EventScript_NopReturn
+	goto_if_unset FLAG_BADGE15_GET, Common_EventScript_NopReturn
 	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_GYM_DOOR, 1
 	return
 
@@ -53,7 +53,7 @@ ViridianCity_Movement_JumpDownLedge::
 	jump_2_down
 	step_end
 
-ViridianCity_EventScript_CitySign::
+ViridianCity_EventScript_CitySign_Kj::
 	msgbox ViridianCity_Text_CitySign, MSGBOX_SIGN
 	end
 
@@ -65,8 +65,8 @@ ViridianCity_EventScript_TrainerTips2::
 	msgbox ViridianCity_Text_MovesLimitedByPP, MSGBOX_SIGN
 	end
 
-ViridianCity_EventScript_GymSign::
-	msgbox ViridianCity_Text_GymSign, MSGBOX_SIGN
+ViridianCity_EventScript_GymSign_Kj::
+	msgbox ViridianCity_Text_GymSign_Kj, MSGBOX_SIGN
 	end
 
 ViridianCity_EventScript_GymDoor::
@@ -97,7 +97,7 @@ ViridianCity_EventScript_OldManGymLeaderReturned::
 ViridianCity_EventScript_TutorialOldMan::
 	lock
 	faceplayer
-	goto_if_set FLAG_BADGE01_GET, ViridianCity_EventScript_AskIfTeachyTVHelpful
+	goto_if_set FLAG_BADGE09_GET, ViridianCity_EventScript_AskIfTeachyTVHelpful
 	goto_if_ge VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2, ViridianCity_EventScript_TutorialCompleted
 	goto_if_eq VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 1, ViridianCity_EventScript_TutorialStart
 	goto_if_eq VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 0, ViridianCity_EventScript_TutorialNotReady
@@ -145,7 +145,7 @@ ViridianCity_EventScript_TutorialNotReady::
 	release
 	end
 
-ViridianCity_EventScript_Youngster::
+ViridianCity_EventScript_Youngster_Kj::
 	lock
 	faceplayer
 	msgbox ViridianCity_Text_WantToKnowAboutCaterpillarMons, MSGBOX_YESNO
@@ -346,7 +346,7 @@ ViridianCity_Text_MovesLimitedByPP::
 	.string "To replenish PP, rest your tired\n"
 	.string "POKéMON at a POKéMON CENTER.$"
 
-ViridianCity_Text_GymSign::
+ViridianCity_Text_GymSign_Kj::
 	.string "トキワシティ　ポケモンジム$"
 
 ViridianCity_Text_GymDoorsAreLocked::

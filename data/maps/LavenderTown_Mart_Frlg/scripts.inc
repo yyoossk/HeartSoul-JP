@@ -5,7 +5,7 @@ LavenderTown_Mart_EventScript_BaldingMan::
 	msgbox LavenderTown_Mart_Text_SearchingForStatRaiseItems, MSGBOX_NPC
 	end
 
-LavenderTown_Mart_EventScript_Rocker::
+LavenderTown_Mart_EventScript_Rocker_Kj::
 	msgbox LavenderTown_Mart_Text_DidYouBuyRevives, MSGBOX_NPC
 	end
 

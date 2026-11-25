@@ -108,7 +108,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeruleanCity_EventScript_Slowbro",
+      "script": "CeruleanCity_EventScript_Slowbro_Kj",
       "flag": "0"
     },
     {
@@ -137,7 +137,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeruleanCity_EventScript_Youngster",
+      "script": "CeruleanCity_EventScript_Youngster_Kj",
       "flag": "0"
     },
     {
@@ -370,7 +370,7 @@
       "y": 21,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "CeruleanCity_EventScript_GymSign"
+      "script": "CeruleanCity_EventScript_GymSign_Kj"
     },
     {
       "type": "sign",
@@ -378,7 +378,7 @@
       "y": 28,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "CeruleanCity_EventScript_BikeShopSign"
+      "script": "CeruleanCity_EventScript_BikeShopSign_Kj"
     },
     {
       "type": "sign",

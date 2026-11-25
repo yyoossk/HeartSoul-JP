@@ -1,9 +1,9 @@
 SaffronCity_Gym_Frlg_MapScripts::
 	.byte 0
 
-SaffronCity_Gym_EventScript_Sabrina::
+SaffronCity_Gym_EventScript_Sabrina_Kj::
 	famechecker FAMECHECKER_SABRINA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_SABRINA, SaffronCity_Gym_Text_SabrinaIntro, SaffronCity_Gym_Text_SabrinaDefeat, SaffronCity_Gym_EventScript_DefeatedSabrina, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_SABRINA, SaffronCity_Gym_Text_SabrinaIntro_Kj, SaffronCity_Gym_Text_SabrinaDefeat, SaffronCity_Gym_EventScript_DefeatedSabrina, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM04_FROM_SABRINA, SaffronCity_Gym_EventScript_GiveTM04
 	msgbox SaffronCity_Gym_Text_ExplainTM04
 	release
@@ -14,7 +14,7 @@ SaffronCity_Gym_EventScript_DefeatedSabrina::
 	famechecker FAMECHECKER_SABRINA, 3
 	clearflag FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS
 	setflag FLAG_DEFEATED_SABRINA
-	setflag FLAG_BADGE06_GET
+	setflag FLAG_BADGE14_GET
 	set_gym_trainers_frlg 6
 	goto SaffronCity_Gym_EventScript_GiveTM04
 	end
@@ -25,7 +25,7 @@ SaffronCity_Gym_EventScript_GiveTM04::
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_Gym_EventScript_NoRoomForTM04
 	giveitem_msg SaffronCity_Gym_Text_ReceivedTM04FromSabrina, ITEM_TM04
 	setflag FLAG_GOT_TM04_FROM_SABRINA
-	msgbox SaffronCity_Gym_Text_SabrinaPostBattle
+	msgbox SaffronCity_Gym_Text_SabrinaPostBattle_Kj
 	release
 	end
 
@@ -70,7 +70,7 @@ SaffronCity_Gym_EventScript_Tasha::
 	msgbox SaffronCity_Gym_Text_TashaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-SaffronCity_Gym_EventScript_GymGuy::
+SaffronCity_Gym_EventScript_GymGuy_Kj::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_SABRINA, SaffronCity_Gym_EventScript_GymGuyPostVictory
@@ -83,19 +83,19 @@ SaffronCity_Gym_EventScript_GymGuyPostVictory::
 	release
 	end
 
-SaffronCity_Gym_EventScript_GymStatue::
+SaffronCity_Gym_EventScript_GymStatue_Kj::
 	lockall
-	goto_if_set FLAG_BADGE06_GET, SaffronCity_Gym_EventScript_GymStatuePostVictory
-	msgbox SaffronCity_Gym_Text_GymStatue
+	goto_if_set FLAG_BADGE14_GET, SaffronCity_Gym_EventScript_GymStatuePostVictory_Kj
+	msgbox SaffronCity_Gym_Text_GymStatue_Kj
 	releaseall
 	end
 
-SaffronCity_Gym_EventScript_GymStatuePostVictory::
-	msgbox SaffronCity_Gym_Text_GymStatuePlayerWon
+SaffronCity_Gym_EventScript_GymStatuePostVictory_Kj::
+	msgbox SaffronCity_Gym_Text_GymStatuePlayerWon_Kj
 	releaseall
 	end
 
-SaffronCity_Gym_Text_SabrinaIntro::
+SaffronCity_Gym_Text_SabrinaIntro_Kj::
 	.string "あなたが　くることは\nよちして　いたわ\pわたしは　こどもの　ころから\nちょうのうりょくが　あったの\pなにげなく　なげた　スプーンが\nまがったのが　はじまり\pたたかいは　すきじゃない　けど\nのぞむなら　ちからを　みせて　あげる！{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
@@ -106,7 +106,7 @@ SaffronCity_Gym_Text_SabrinaDefeat::
 	.string "Your victory has earned you the\n"
 	.string "MARSHBADGE.$"
 
-SaffronCity_Gym_Text_SabrinaPostBattle::
+SaffronCity_Gym_Text_SabrinaPostBattle_Kj::
 	.string "ちょうのうりょくは　ひとにぎりの\nひとだけの　ものじゃ　ないわ\pだれにでも　ちょうのうりょくは　ある\nみんな　きづいて　いない　だけ$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
@@ -234,9 +234,9 @@ SaffronCity_Gym_Text_GymGuyPostVictory::
 	.string "If I had that, I'd make a bundle\n"
 	.string "at the slots!$"
 
-SaffronCity_Gym_Text_GymStatue::
+SaffronCity_Gym_Text_GymStatue_Kj::
 	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{RIVAL}$"
 
-SaffronCity_Gym_Text_GymStatuePlayerWon::
+SaffronCity_Gym_Text_GymStatuePlayerWon_Kj::
 	.string "ヤマブキ　ポケモンジム\nリーダー　ナツメ\pかった　トレーナー\n{RIVAL}　{PLAYER}$"
 

@@ -484,6 +484,8 @@ static const u8 *ExpandPlaceholder_RivalName(void)
     if (gSaveBlock1Ptr->rivalName[0] != EOS)
         return gSaveBlock1Ptr->rivalName;
 #elif IS_HNS
+    if (!FlagGet(FLAG_KJ_JOHTO_STARTED) && gSaveBlock1Ptr->kjKantoRivalName[0] != EOS)
+        return gSaveBlock1Ptr->kjKantoRivalName;
     if (gSaveBlock2Ptr->rivalName[0] != EOS)
         return gSaveBlock2Ptr->rivalName;
 #endif

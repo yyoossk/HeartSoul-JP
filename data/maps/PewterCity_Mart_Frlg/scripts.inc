@@ -1,7 +1,7 @@
 PewterCity_Mart_Frlg_MapScripts::
 	.byte 0
 
-PewterCity_Mart_EventScript_Youngster::
+PewterCity_Mart_EventScript_Youngster_Kj::
 	msgbox PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy, MSGBOX_NPC
 	end
 

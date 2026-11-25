@@ -1,8 +1,8 @@
 RockTunnel_1F_Frlg_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, RockTunnel_1F_OnTransition
+	map_script MAP_SCRIPT_ON_TRANSITION, RockTunnel_1F_OnTransition_Kj
 	.byte 0
 
-RockTunnel_1F_OnTransition::
+RockTunnel_1F_OnTransition_Kj::
 	setworldmapflag FLAG_WORLD_MAP_ROCK_TUNNEL_1F
 	end
 

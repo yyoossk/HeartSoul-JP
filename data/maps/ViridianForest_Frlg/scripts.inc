@@ -43,7 +43,7 @@ ViridianForest_EventScript_Rick::
 	msgbox ViridianForest_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-ViridianForest_EventScript_Doug::
+ViridianForest_EventScript_Doug_Kj::
 	trainerbattle_single TRAINER_BUG_CATCHER_DOUG, ViridianForest_Text_DougIntro, ViridianForest_Text_DougDefeat
 	msgbox ViridianForest_Text_DougPostBattle, MSGBOX_AUTOCLOSE
 	end

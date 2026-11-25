@@ -54,6 +54,7 @@
 #elif IS_HNS
 
 #include "constants/flags_hns.h"
+#include "constants/flags_kj.h"
 
 #else
 
@@ -2504,7 +2505,15 @@
 #define FLAG_DISABLE_EXP_GAIN                      (ENGINE_FLAGS_START + 12)
 #define ENGINE_FLAGS_END                        (ENGINE_FLAGS_START + NUM_ENGINE_FLAGS - 1)
 
+#if IS_HNS
+// カントー＆ジョウト: トレーナー番号 KJ_TRAINER_FLAG_SPLIT 以降のトレーナーフラグ
+#define KJ_TRAINER_FLAGS_START                  (ENGINE_FLAGS_END + 1)
+#define FLAGS_COUNT (KJ_TRAINER_FLAGS_START + KJ_MAX_TRAINERS_COUNT - KJ_TRAINER_FLAG_SPLIT)
+#define TRAINER_FLAG_ID(t) ((t) < KJ_TRAINER_FLAG_SPLIT ? TRAINER_FLAGS_START + (t) : KJ_TRAINER_FLAGS_START + (t) - KJ_TRAINER_FLAG_SPLIT)
+#else
 #define FLAGS_COUNT (ENGINE_FLAGS_END + 1)
+#define TRAINER_FLAG_ID(t) (TRAINER_FLAGS_START + (t))
+#endif
 
 #if TESTING
 #define TESTING_FLAGS_START                     0x5000

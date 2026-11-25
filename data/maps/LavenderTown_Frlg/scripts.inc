@@ -30,7 +30,7 @@ LavenderTown_EventScript_Boy::
 	msgbox LavenderTown_Text_GhostsAppearedInTower, MSGBOX_NPC
 	end
 
-LavenderTown_EventScript_TownSign::
+LavenderTown_EventScript_TownSign_Kj::
 	msgbox LavenderTown_Text_TownSign, MSGBOX_SIGN
 	end
 

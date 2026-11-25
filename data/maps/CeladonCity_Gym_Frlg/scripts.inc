@@ -1,7 +1,7 @@
 CeladonCity_Gym_Frlg_MapScripts::
 	.byte 0
 
-CeladonCity_Gym_EventScript_Erika::
+CeladonCity_Gym_EventScript_Erika_Kj::
 	famechecker FAMECHECKER_ERIKA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_ERIKA, CeladonCity_Gym_Text_ErikaIntro, CeladonCity_Gym_Text_ErikaDefeat, CeladonCity_Gym_EventScript_DefeatedErika, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM19_FROM_ERIKA, CeladonCity_Gym_EventScript_GiveTM19
@@ -14,7 +14,7 @@ CeladonCity_Gym_EventScript_DefeatedErika::
 	famechecker FAMECHECKER_ERIKA, 1
 	clearflag FLAG_HIDE_FAME_CHECKER_ERIKA_JOURNALS
 	setflag FLAG_DEFEATED_ERIKA
-	setflag FLAG_BADGE04_GET
+	setflag FLAG_BADGE12_GET
 	set_gym_trainers_frlg 4
 	goto CeladonCity_Gym_EventScript_GiveTM19
 	end
@@ -71,15 +71,15 @@ CeladonCity_Gym_EventScript_Mary::
 	msgbox CeladonCity_Gym_Text_MaryPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CeladonCity_Gym_EventScript_GymStatue::
+CeladonCity_Gym_EventScript_GymStatue_Kj::
 	lockall
-	goto_if_set FLAG_BADGE04_GET, CeladonCity_Gym_EventScript_GymStatuePostVictory
-	msgbox CeladonCity_Gym_Text_GymStatue
+	goto_if_set FLAG_BADGE12_GET, CeladonCity_Gym_EventScript_GymStatuePostVictory_Kj
+	msgbox CeladonCity_Gym_Text_GymStatue_Kj
 	releaseall
 	end
 
-CeladonCity_Gym_EventScript_GymStatuePostVictory::
-	msgbox CeladonCity_Gym_Text_GymStatuePlayerWon
+CeladonCity_Gym_EventScript_GymStatuePostVictory_Kj::
+	msgbox CeladonCity_Gym_Text_GymStatuePlayerWon_Kj
 	releaseall
 	end
 
@@ -223,9 +223,9 @@ CeladonCity_Gym_Text_MaryPostBattle::
 	.string "I didn't bring my best POKéMON.\n"
 	.string "Wait until next time!$"
 
-CeladonCity_Gym_Text_GymStatue::
+CeladonCity_Gym_Text_GymStatue_Kj::
 	.string "タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\n{RIVAL}$"
 
-CeladonCity_Gym_Text_GymStatuePlayerWon::
+CeladonCity_Gym_Text_GymStatuePlayerWon_Kj::
 	.string "タマムシ　ポケモンジム\nリーダー　エリカ\pかった　トレーナー\n{RIVAL}　{PLAYER}$"
 

@@ -34,6 +34,17 @@ using json11::Json;
 #include <filesystem>
 
 string version;
+
+// カントー＆ジョウト: hns ビルドに入れる FRLG のマップ・レイアウトの許可リスト
+#include <set>
+#include <fstream>
+static std::set<string> kj_load(const char *path) {
+    std::set<string> out; std::ifstream f(path); string line;
+    while (std::getline(f, line)) { if (!line.empty() && line.back()=='\r') line.pop_back(); if (!line.empty()) out.insert(line); }
+    return out;
+}
+static bool kj_allow_map(const string &name) { static std::set<string> s = kj_load("data/maps/kj_frlg_maps.txt"); return s.count(name) > 0; }
+static bool kj_allow_layout(const string &id) { static std::set<string> s = kj_load("data/layouts/kj_frlg_layouts.txt"); return s.count(id) > 0; }
 // System directory separator
 string sep;
 
@@ -729,7 +740,7 @@ void process_groups(string groups_filepath, vector<string> &map_filepaths, strin
         if (expected_game_ver == "firered")
             expected_game_ver = "frlg";
 
-        if (game_ver != expected_game_ver) {
+        if (game_ver != expected_game_ver && !(version == "hns" && game_ver == "frlg" && kj_allow_map(map_name))) {
             invalid_maps.push_back(map_name);
         }
     }
@@ -758,6 +769,8 @@ bool layout_matches_version(const Json &layout) {
     string expected = version;
     if (expected == "firered")
         expected = "frlg";
+    if (version == "hns" && game_ver == "frlg" && kj_allow_layout(json_to_string(layout, "id")))
+        return true;
     return game_ver == expected;
 }
 

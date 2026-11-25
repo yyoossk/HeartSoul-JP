@@ -614,7 +614,7 @@ PewterCity_EventScript_FatMan::
 	release
 	end
 
-PewterCity_EventScript_BugCatcher::
+PewterCity_EventScript_BugCatcher_Kj::
 	lock
 	faceplayer
 	msgbox PewterCity_Text_DoYouKnowWhatImDoing, MSGBOX_YESNO
@@ -636,18 +636,18 @@ PewterCity_EventScript_PoliceNotice::
 	msgbox PewterCity_Text_CallPoliceIfInfoOnThieves, MSGBOX_SIGN
 	end
 
-PewterCity_EventScript_MuseumSign::
+PewterCity_EventScript_MuseumSign_Kj::
 	msgbox PewterCity_Text_MuseumOfScience, MSGBOX_SIGN
 	end
 
-PewterCity_EventScript_GymSign::
+PewterCity_EventScript_GymSign_Kj::
 	lockall
 	famechecker FAMECHECKER_BROCK, 0
-	msgbox PewterCity_Text_GymSign
+	msgbox PewterCity_Text_GymSign_Kj
 	releaseall
 	end
 
-PewterCity_EventScript_CitySign::
+PewterCity_EventScript_CitySign_Kj::
 	msgbox PewterCity_Text_CitySign, MSGBOX_SIGN
 	end
 
@@ -930,7 +930,7 @@ PewterCity_Text_CallPoliceIfInfoOnThieves::
 PewterCity_Text_MuseumOfScience::
 	.string "PEWTER MUSEUM OF SCIENCE$"
 
-PewterCity_Text_GymSign::
+PewterCity_Text_GymSign_Kj::
 	.string "ニビシティ　ポケモンジム\nリーダー　タケシ\lつよくて　かたい　いしの　おとこ！$"
 
 PewterCity_Text_CitySign::

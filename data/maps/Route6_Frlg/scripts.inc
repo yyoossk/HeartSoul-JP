@@ -2,7 +2,7 @@ Route6_Frlg_MapScripts::
 	.byte 0
 
 Route6_EventScript_UndergroundPathSign::
-	msgbox Route6_Text_UndergroundPathSign, MSGBOX_SIGN
+	msgbox Route6_Text_UndergroundPathSign_Kj, MSGBOX_SIGN
 	end
 
 Route6_Text_RickyIntro::
@@ -59,6 +59,6 @@ Route6_Text_ElijahDefeat::
 Route6_Text_ElijahPostBattle::
 	.string "ぼくの　ポケモンが　よわいのかな？\nそれとも　ぼくが　へたなのかな？\lどっちだと　おもう？$"
 
-Route6_Text_UndergroundPathSign::
+Route6_Text_UndergroundPathSign_Kj::
 	.string "ちかつうろ\nハナダシティ　ー　クチバシティ$"
 

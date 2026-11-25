@@ -28,7 +28,7 @@ FuchsiaCity_EventScript_Erik::
 	msgbox FuchsiaCity_Text_WheresSara, MSGBOX_NPC
 	end
 
-FuchsiaCity_EventScript_Youngster::
+FuchsiaCity_EventScript_Youngster_Kj::
 	msgbox FuchsiaCity_Text_ItemBallInThere, MSGBOX_NPC
 	end
 
@@ -40,7 +40,7 @@ FuchsiaCity_EventScript_Lass::
 	release
 	end
 
-FuchsiaCity_EventScript_CitySign::
+FuchsiaCity_EventScript_CitySign_Kj::
 	msgbox FuchsiaCity_Text_CitySign, MSGBOX_SIGN
 	end
 
@@ -58,13 +58,13 @@ FuchsiaCity_EventScript_WardensHomeSign::
 
 @ Unused
 FuchsiaCity_EventScript_SafariZoneOfficeSign::
-	msgbox FuchsiaCity_Text_SafariZoneOfficeSign, MSGBOX_SIGN
+	msgbox FuchsiaCity_Text_SafariZoneOfficeSign_Kj, MSGBOX_SIGN
 	end
 
-FuchsiaCity_EventScript_GymSign::
+FuchsiaCity_EventScript_GymSign_Kj::
 	lockall
 	famechecker FAMECHECKER_KOGA, 0
-	msgbox FuchsiaCity_Text_GymSign
+	msgbox FuchsiaCity_Text_GymSign_Kj
 	releaseall
 	end
 
@@ -175,12 +175,12 @@ FuchsiaCity_Text_WardensHomeSign::
 	.string "SAFARI ZONE\n"
 	.string "WARDEN'S HOME$"
 
-FuchsiaCity_Text_SafariZoneOfficeSign::
+FuchsiaCity_Text_SafariZoneOfficeSign_Kj::
 	.string "POKéMON PARADISE!\n"
 	.string "Welcome to the SAFARI ZONE!\l"
 	.string "SAFARI ZONE OFFICE$"
 
-FuchsiaCity_Text_GymSign::
+FuchsiaCity_Text_GymSign_Kj::
 	.string "セキチクシティ　ポケモンジム\nリーダー　キョウ\lどくの　にんじゃマスター$"
 
 FuchsiaCity_Text_ChanseySign::

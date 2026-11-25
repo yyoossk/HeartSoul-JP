@@ -147,7 +147,7 @@ FourIsland_Mart_EventScript_OldMan::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_LORELEI, 2
-	msgbox FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland
+	msgbox KJ_Text_Dummy
 	release
 	end
 
@@ -173,7 +173,7 @@ SevenIsland_SevaultCanyon_EventScript_BlackBelt::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_BRUNO, 5
-	msgbox SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly
+	msgbox KJ_Text_Dummy
 	release
 	end
 
@@ -199,7 +199,7 @@ SixIsland_Mart_EventScript_OldWoman::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_AGATHA, 5
-	msgbox SixIsland_Mart_Text_AgathaOldestEverEliteFourMember
+	msgbox KJ_Text_Dummy
 	release
 	end
 
@@ -284,3 +284,6 @@ SilphCo_8F_EventScript_Scientist::
 	msgbox SilphCo_8F_Text_ToRocketBossMonsAreTools
 	release
 	end
+
+KJ_Text_Dummy::
+	.string "$"

@@ -88,36 +88,6 @@ EventScript_RockSlideTaught::
 	release
 	end
 
-MtEmber_Exterior_EventScript_ExplosionTutor::
-	lock
-	faceplayer
-.if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_EXPLOSION, EventScript_ExplosionTaught
-.endif
-	msgbox Text_ExplosionTeach, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_ExplosionDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_ExplosionDeclined
-	msgbox Text_ExplosionWhichMon
-	setvar VAR_0x8005, MOVE_EXPLOSION
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_ExplosionDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_EXPLOSION
-.endif
-	goto EventScript_ExplosionTaught
-	end
-
-EventScript_ExplosionDeclined::
-	msgbox Text_ExplosionDeclined
-	release
-	end
-
-EventScript_ExplosionTaught::
-	msgbox Text_ExplosionTaught
-	release
-	end
-
 Route4_EventScript_MegaPunchTutor::
 	lock
 	faceplayer
@@ -268,36 +238,6 @@ EventScript_SubstituteTaught::
 	release
 	end
 
-SevenIsland_EventScript_SwordsDanceTutor::
-	lock
-	faceplayer
-.if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_SWORDS_DANCE, EventScript_SwordsDanceTaught
-.endif
-	msgbox Text_SwordsDanceTeach, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_SwordsDanceDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_SwordsDanceDeclined
-	msgbox Text_SwordsDanceWhichMon
-	setvar VAR_0x8005, MOVE_SWORDS_DANCE
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_SwordsDanceDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_SWORDS_DANCE
-.endif
-	goto EventScript_SwordsDanceTaught
-	end
-
-EventScript_SwordsDanceDeclined::
-	msgbox Text_SwordsDanceDeclined
-	release
-	end
-
-EventScript_SwordsDanceTaught::
-	msgbox Text_SwordsDanceTaught
-	release
-	end
-
 PewterCity_Museum_1F_EventScript_SeismicTossTutor::
 	lock
 	faceplayer
@@ -429,90 +369,6 @@ EventScript_MimicTaughtFemale::
 	msgbox Text_MimicTaughtFemale
 	return
 
-FourIsland_House1_EventScript_BodySlamTutor::
-	lock
-	faceplayer
-.if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_BODY_SLAM, EventScript_BodySlamTaught
-.endif
-	msgbox Text_BodySlamTeach, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_BodySlamDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_BodySlamDeclined
-	msgbox Text_BodySlamWhichMon
-	setvar VAR_0x8005, MOVE_BODY_SLAM
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_BodySlamDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_BODY_SLAM
-.endif
-	goto EventScript_BodySlamTaught
-	end
-
-EventScript_BodySlamDeclined::
-	msgbox Text_BodySlamDeclined
-	release
-	end
-
-EventScript_BodySlamTaught::
-	msgbox Text_BodySlamTaught
-	release
-	end
-
-TwoIsland_CapeBrink_House_EventScript_StarterTutor::
-	lock
-	faceplayer
-	goto_if_set FLAG_LEARNED_ALL_MOVES_AT_CAPE_BRINK, CapeBrinkTutor_EventScript_TaughtAllMoves
-	goto_if_set FLAG_TEMP_2, CapeBrinkTutor_EventScript_MoveJustTaught
-	bufferleadmonspeciesname STR_VAR_1
-	msgbox Text_UltimateMoveThatMon
-	specialvar VAR_RESULT, CapeBrinkGetMoveToTeachLeadPokemon
-	goto_if_eq VAR_RESULT, FALSE, CapeBrinkTutor_EventScript_NoLeadStarter
-	copyvar VAR_0x8009, VAR_0x8005
-	call_if_eq VAR_FACING, DIR_NORTH, CapeBrinkTutor_EventScript_JumpInPlaceDown
-	call_if_eq VAR_FACING, DIR_SOUTH, CapeBrinkTutor_EventScript_JumpInPlaceUp
-	call_if_eq VAR_FACING, DIR_EAST, CapeBrinkTutor_EventScript_JumpInPlaceLeft
-	call_if_eq VAR_FACING, DIR_WEST, CapeBrinkTutor_EventScript_JumpInPlaceRight
-	msgbox Text_AllowMeToTeachMonUltimateMove, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, CapeBrinkTutor_EventScript_DeclineMove
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, CapeBrinkTutor_EventScript_DeclineMove
-	msgbox Text_LetMeConferUltimateMove
-	closemessage
-	fadescreen FADE_TO_BLACK
-	goto CapeBrinkTutor_EventScript_ChooseMon
-
-CapeBrinkTutor_EventScript_MoveJustTaught::
-	msgbox Text_MakeBestUseOfMove
-	release
-	end
-
-CapeBrinkTutor_EventScript_TaughtAllMoves::
-	msgbox Text_FeelRejuvenated
-	release
-	end
-
-CapeBrinkTutor_EventScript_TaughtMove::
-	copyvar VAR_0x8005, VAR_0x8009
-	specialvar VAR_RESULT, HasLearnedAllMovesFromCapeBrinkTutor
-	goto_if_eq VAR_RESULT, TRUE, CapeBrinkTutor_EventScript_LearnedAllMoves
-	msgbox Text_TaughtMove
-	setflag FLAG_TEMP_2
-	release
-	end
-
-CapeBrinkTutor_EventScript_LearnedAllMoves::
-	msgbox Text_PassedOnEverythingIKnow
-	setflag FLAG_LEARNED_ALL_MOVES_AT_CAPE_BRINK
-	release
-	end
-
-CapeBrinkTutor_EventScript_ChooseMon::
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, CapeBrinkTutor_EventScript_DeclineMove
-	goto CapeBrinkTutor_EventScript_TaughtMove
-	end
-
 CapeBrinkTutor_EventScript_JumpInPlaceDown::
 	applymovement LOCALID_CAPE_BRINK_TUTOR, Movement_JumpInPlaceDown
 	waitmovement 0
@@ -532,16 +388,6 @@ CapeBrinkTutor_EventScript_JumpInPlaceRight::
 	applymovement LOCALID_CAPE_BRINK_TUTOR, Movement_JumpInPlaceRight
 	waitmovement 0
 	return
-
-CapeBrinkTutor_EventScript_DeclineMove::
-	msgbox Text_YouRejectIt
-	release
-	end
-
-CapeBrinkTutor_EventScript_NoLeadStarter::
-	msgbox Text_JustMistaken
-	release
-	end
 
 EventScript_ChooseMoveTutorMon::
 	special ChooseMonForMoveTutor

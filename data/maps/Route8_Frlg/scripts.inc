@@ -2,7 +2,7 @@ Route8_Frlg_MapScripts::
 	.byte 0
 
 Route8_EventScript_UndergroundPathSign::
-	msgbox Route8_Text_UndergroundPathSign, MSGBOX_SIGN
+	msgbox Route8_Text_UndergroundPathSign_Kj, MSGBOX_SIGN
 	end
 
 Route8_Text_AidanIntro::
@@ -111,7 +111,7 @@ Route8_Text_JuliaPostBattle::
 	.string "I read that in a POKéMON JOURNAL.\n"
 	.string "I wonder if it's true?$"
 
-Route8_Text_UndergroundPathSign::
+Route8_Text_UndergroundPathSign_Kj::
 	.string "UNDERGROUND PATH\n"
 	.string "CELADON CITY - LAVENDER TOWN$"
 

@@ -13,7 +13,7 @@ FuchsiaCity_Gym_EventScript_DefeatedKoga::
 	famechecker FAMECHECKER_KOGA, 1
 	clearflag FLAG_HIDE_FAME_CHECKER_KOGA_JOURNAL
 	setflag FLAG_DEFEATED_KOGA
-	setflag FLAG_BADGE05_GET
+	setflag FLAG_BADGE13_GET
 	set_gym_trainers_frlg 5
 	goto FuchsiaCity_Gym_EventScript_GiveTM06
 	end
@@ -64,7 +64,7 @@ FuchsiaCity_Gym_EventScript_Nate::
 	msgbox FuchsiaCity_Gym_Text_NatePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-FuchsiaCity_Gym_EventScript_GymGuy::
+FuchsiaCity_Gym_EventScript_GymGuy_Kj::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_KOGA, FuchsiaCity_Gym_EventScript_GymGuyPostVictory
@@ -77,15 +77,15 @@ FuchsiaCity_Gym_EventScript_GymGuyPostVictory::
 	release
 	end
 
-FuchsiaCity_Gym_EventScript_GymStatue::
+FuchsiaCity_Gym_EventScript_GymStatue_Kj::
 	lockall
-	goto_if_set FLAG_BADGE05_GET, FuchsiaCity_Gym_EventScript_GymStatuePostVictory
-	msgbox FuchsiaCity_Gym_Text_GymStatue
+	goto_if_set FLAG_BADGE13_GET, FuchsiaCity_Gym_EventScript_GymStatuePostVictory_Kj
+	msgbox FuchsiaCity_Gym_Text_GymStatue_Kj
 	releaseall
 	end
 
-FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
-	msgbox FuchsiaCity_Gym_Text_GymStatuePlayerWon
+FuchsiaCity_Gym_EventScript_GymStatuePostVictory_Kj::
+	msgbox FuchsiaCity_Gym_Text_GymStatuePlayerWon_Kj
 	releaseall
 	end
 
@@ -233,9 +233,9 @@ FuchsiaCity_Gym_Text_GymGuyPostVictory::
 	.string "It's amazing how ninja can terrify,\n"
 	.string "even now!$"
 
-FuchsiaCity_Gym_Text_GymStatue::
+FuchsiaCity_Gym_Text_GymStatue_Kj::
 	.string "セキチク　ポケモンジム\nリーダー　キョウ\pかった　トレーナー\n{RIVAL}$"
 
-FuchsiaCity_Gym_Text_GymStatuePlayerWon::
+FuchsiaCity_Gym_Text_GymStatuePlayerWon_Kj::
 	.string "セキチク　ポケモンジム\nリーダー　キョウ\pかった　トレーナー\n{RIVAL}　{PLAYER}$"
 

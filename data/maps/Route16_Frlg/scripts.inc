@@ -1,6 +1,6 @@
 Route16_Frlg_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route16_OnResume
-	map_script MAP_SCRIPT_ON_TRANSITION, Route16_OnTransition
+	map_script MAP_SCRIPT_ON_TRANSITION, Route16_OnTransition_Kj
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route16_OnWarp
 	.byte 0
 
@@ -12,7 +12,7 @@ Route16_EventScript_RemoveSnorlax::
 	removeobject VAR_LAST_TALKED
 	return
 
-Route16_OnTransition::
+Route16_OnTransition_Kj::
 	call_if_eq VAR_MAP_SCENE_ROUTE16, 1, Route16_OnTransitionCyclingRoad
 	end
 

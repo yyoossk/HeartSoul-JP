@@ -229,7 +229,7 @@ VermilionCity_EventScript_OldMan2::
 	msgbox VermilionCity_Text_BuildingOnThisLand, MSGBOX_NPC
 	end
 
-VermilionCity_EventScript_Machop::
+VermilionCity_EventScript_Machop_Kj::
 	lock
 	faceplayer
 	waitse
@@ -240,7 +240,7 @@ VermilionCity_EventScript_Machop::
 	release
 	end
 
-VermilionCity_EventScript_CitySign::
+VermilionCity_EventScript_CitySign_Kj::
 	msgbox VermilionCity_Text_CitySign, MSGBOX_SIGN
 	end
 
@@ -252,10 +252,10 @@ VermilionCity_EventScript_PokemonFanClubSign::
 	msgbox VermilionCity_Text_PokemonFanClubSign, MSGBOX_SIGN
 	end
 
-VermilionCity_EventScript_GymSign::
+VermilionCity_EventScript_GymSign_Kj::
 	lockall
 	famechecker FAMECHECKER_LTSURGE, 0
-	msgbox VermilionCity_Text_GymSign
+	msgbox VermilionCity_Text_GymSign_Kj
 	releaseall
 	end
 
@@ -310,7 +310,7 @@ VermilionCity_Text_PokemonFanClubSign::
 	.string "POKéMON FAN CLUB\n"
 	.string "All POKéMON fans welcome!$"
 
-VermilionCity_Text_GymSign::
+VermilionCity_Text_GymSign_Kj::
 	.string "クチバシティ　ポケモンジム\nリーダー　マチス\lイナズマ　アメリカン！$"
 
 VermilionCity_Text_VermilionHarbor::

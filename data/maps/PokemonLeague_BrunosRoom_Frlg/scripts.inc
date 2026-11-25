@@ -1,11 +1,11 @@
 PokemonLeague_BrunosRoom_Frlg_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_BrunosRoom_OnResume
+	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_BrunosRoom_OnResume_Kj
 	map_script MAP_SCRIPT_ON_LOAD, PokemonLeague_BrunosRoom_OnLoad
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_BrunosRoom_OnWarp
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_BrunosRoom_OnFrame
 	.byte 0
 
-PokemonLeague_BrunosRoom_OnResume::
+PokemonLeague_BrunosRoom_OnResume_Kj::
 	setvar VAR_0x8004, 1
 	call PokemonLeague_EventScript_DoLightingEffect
 	end
@@ -42,7 +42,7 @@ PokemonLeague_BrunosRoom_EventScript_EnterRoom::
 	releaseall
 	end
 
-PokemonLeague_BrunosRoom_EventScript_Bruno::
+PokemonLeague_BrunosRoom_EventScript_Bruno_Kj::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_BRUNO, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
@@ -68,11 +68,11 @@ PokemonLeague_BrunosRoom_EventScript_RematchIntro::
 	return
 
 PokemonLeague_BrunosRoom_EventScript_Battle::
-	trainerbattle_no_intro TRAINER_ELITE_FOUR_BRUNO, PokemonLeague_BrunosRoom_Text_Defeat
+	trainerbattle_no_intro TRAINER_ELITE_FOUR_BRUNO, PokemonLeague_BrunosRoom_Text_Defeat_Kj
 	return
 
 PokemonLeague_BrunosRoom_EventScript_Rematch::
-	trainerbattle_no_intro TRAINER_ELITE_FOUR_BRUNO_2, PokemonLeague_BrunosRoom_Text_Defeat
+	trainerbattle_no_intro TRAINER_ELITE_FOUR_BRUNO_2, PokemonLeague_BrunosRoom_Text_Defeat_Kj
 	return
 
 PokemonLeague_BrunosRoom_EventScript_PostBattle::
@@ -138,7 +138,7 @@ PokemonLeague_BrunosRoom_Text_RematchIntro::
 	.string "superior power!\p"
 	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
-PokemonLeague_BrunosRoom_Text_Defeat::
+PokemonLeague_BrunosRoom_Text_Defeat_Kj::
 	.string "なぜだ？\nなぜ　まけたのだ？$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle::

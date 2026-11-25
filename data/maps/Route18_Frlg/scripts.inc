@@ -1,9 +1,9 @@
 Route18_Frlg_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route18_OnTransition
+	map_script MAP_SCRIPT_ON_TRANSITION, Route18_OnTransition_Kj
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route18_OnWarp
 	.byte 0
 
-Route18_OnTransition::
+Route18_OnTransition_Kj::
 	call_if_eq VAR_MAP_SCENE_ROUTE16, 1, Route18_OnTransitionCyclingRoad
 	end
 

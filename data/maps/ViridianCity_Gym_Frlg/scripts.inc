@@ -17,7 +17,7 @@ ViridianCity_Gym_EventScript_DefeatedGiovanni::
 	famechecker FAMECHECKER_GIOVANNI, 3
 	setflag FLAG_HIDE_MISC_KANTO_ROCKETS
 	setflag FLAG_DEFEATED_LEADER_GIOVANNI
-	setflag FLAG_BADGE08_GET
+	setflag FLAG_BADGE16_GET
 	setvar VAR_MAP_SCENE_ROUTE22, 3
 	set_gym_trainers_frlg 8
 	goto ViridianCity_Gym_EventScript_GiveTM26
@@ -78,7 +78,7 @@ ViridianCity_Gym_EventScript_Warren::
 	msgbox ViridianCity_Gym_Text_WarrenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-ViridianCity_Gym_EventScript_GymGuy::
+ViridianCity_Gym_EventScript_GymGuy_Kj::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_LEADER_GIOVANNI, ViridianCity_Gym_EventScript_GymGuyPostVictory
@@ -92,15 +92,15 @@ ViridianCity_Gym_EventScript_GymGuyPostVictory::
 	release
 	end
 
-ViridianCity_Gym_EventScript_GymStatue::
+ViridianCity_Gym_EventScript_GymStatue_Kj::
 	lockall
-	goto_if_set FLAG_BADGE08_GET, ViridianCity_Gym_EventScript_GymStatuePostVictory
-	msgbox ViridianCity_Gym_Text_GymStatue
+	goto_if_set FLAG_BADGE16_GET, ViridianCity_Gym_EventScript_GymStatuePostVictory_Kj
+	msgbox ViridianCity_Gym_Text_GymStatue_Kj
 	releaseall
 	end
 
-ViridianCity_Gym_EventScript_GymStatuePostVictory::
-	msgbox ViridianCity_Gym_Text_GymStatuePlayerWon
+ViridianCity_Gym_EventScript_GymStatuePostVictory_Kj::
+	msgbox ViridianCity_Gym_Text_GymStatuePlayerWon_Kj
 	releaseall
 	end
 
@@ -203,9 +203,9 @@ ViridianCity_Gym_Text_GymGuyAdvice::
 ViridianCity_Gym_Text_GymGuyPostVictory::
 	.string "びっくり　したぜ！\nサカキが　トキワの\lジムリーダー　だったのか？$"
 
-ViridianCity_Gym_Text_GymStatue::
+ViridianCity_Gym_Text_GymStatue_Kj::
 	.string "トキワ　ポケモンジム\nリーダー　？\pにんてい　トレーナー\n{RIVAL}$"
 
-ViridianCity_Gym_Text_GymStatuePlayerWon::
+ViridianCity_Gym_Text_GymStatuePlayerWon_Kj::
 	.string "トキワ　ポケモンジム\nリーダー　サカキ\pにんてい　トレーナー\n{RIVAL}　{PLAYER}$"
 

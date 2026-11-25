@@ -1051,6 +1051,10 @@ gStdScripts_End::
 
 .endif
 
+.if IS_HNS
+	.include "data/kj_frlg_scripts.inc"
+.endif
+
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"

@@ -190,8 +190,8 @@ static void WarpToTruck(void)
 {
     if (IS_FRLG)
         SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), MAP_NUM(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), WARP_ID_NONE, 6, 6);
-    else if (IS_HNS)
-        SetWarpDestination(MAP_GROUP(MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_2F_HNS), MAP_NUM(MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_2F_HNS), 1, 0, 0);
+    else if (IS_HNS) // カントー＆ジョウト: マサラタウンから
+        SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), MAP_NUM(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), WARP_ID_NONE, 6, 6);
     else
         SetWarpDestination(MAP_GROUP(MAP_INSIDE_OF_TRUCK), MAP_NUM(MAP_INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
     WarpIntoMap();
@@ -212,6 +212,10 @@ void ResetMenuAndMonGlobals(void)
     ResetBagScrollPositions();
     ResetPokeblockScrollPositions();
 }
+
+#if IS_HNS
+static const u8 gText_KjDefaultKantoRival[] = _("シゲル");
+#endif
 
 void NewGameInitData(void)
 {
@@ -305,6 +309,7 @@ void NewGameInitData(void)
         FlagSet(FLAG_EVEN_FASTER_JOY);
 
 #if IS_HNS
+    StringCopy(gSaveBlock1Ptr->kjKantoRivalName, gText_KjDefaultKantoRival);
     StringCopy(gSaveBlock2Ptr->rivalName, gText_ExpandedPlaceholder_Silver);
     InitMomSavings();
 #endif

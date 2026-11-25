@@ -25,12 +25,12 @@ PewterCity_House1_EventScript_DoNidoranCry::
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	waitse
 	playmoncry SPECIES_NIDORAN_M, CRY_MODE_NORMAL
-	msgbox PewterCity_House1_Text_Nidoran
+	msgbox PewterCity_House1_Text_Nidoran_Kj
 	waitmoncry
 	call EventScript_RestorePrevTextColor
 	return
 
-PewterCity_House1_Text_Nidoran::
+PewterCity_House1_Text_Nidoran_Kj::
 	.string "ニドラン♂『キュウ　キュウ！$"
 
 PewterCity_House1_Text_NidoranSit::

@@ -1319,6 +1319,7 @@ struct SaveBlock1
 #endif
 #if IS_HNS
     struct MomSavingsData momSavings;
+    u8 kjKantoRivalName[PLAYER_NAME_LENGTH + 1]; // カントー＆ジョウト: カントーのライバル（シゲル）
 #endif
     // sizeof: 0x3???
 };

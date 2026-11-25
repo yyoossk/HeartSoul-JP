@@ -1,7 +1,7 @@
 CeruleanCity_Gym_Frlg_MapScripts::
 	.byte 0
 
-CeruleanCity_Gym_EventScript_Misty::
+CeruleanCity_Gym_EventScript_Misty_Kj::
 	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM03_FROM_MISTY, CeruleanCity_Gym_EventScript_GiveTM03
@@ -12,7 +12,7 @@ CeruleanCity_Gym_EventScript_Misty::
 CeruleanCity_Gym_EventScript_MistyDefeated::
 	famechecker FAMECHECKER_MISTY, 1
 	setflag FLAG_DEFEATED_MISTY
-	setflag FLAG_BADGE02_GET
+	setflag FLAG_BADGE10_GET
 	setrespawn HEAL_LOCATION_CERULEAN_CITY
 	set_gym_trainers_frlg 2
 	goto CeruleanCity_Gym_EventScript_GiveTM03
@@ -44,7 +44,7 @@ CeruleanCity_Gym_EventScript_Luis::
 	msgbox CeruleanCity_Gym_Text_LuisPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-CeruleanCity_Gym_EventScript_GymGuy::
+CeruleanCity_Gym_EventScript_GymGuy_Kj::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_MISTY, CeruleanCity_Gym_EventScript_GymGuyPostVictory
@@ -59,13 +59,13 @@ CeruleanCity_Gym_EventScript_GymGuyPostVictory::
 
 CeruleanCity_Gym_EventScript_GymStatue::
 	lockall
-	goto_if_set FLAG_BADGE02_GET, CeruleanCity_Gym_EventScript_GymStatuePostVictory
-	msgbox CeruleanCity_Gym_Text_GymStatue
+	goto_if_set FLAG_BADGE10_GET, CeruleanCity_Gym_EventScript_GymStatuePostVictory_Kj
+	msgbox CeruleanCity_Gym_Text_GymStatue_Kj
 	releaseall
 	end
 
-CeruleanCity_Gym_EventScript_GymStatuePostVictory::
-	msgbox CeruleanCity_Gym_Text_GymStatuePlayerWon
+CeruleanCity_Gym_EventScript_GymStatuePostVictory_Kj::
+	msgbox CeruleanCity_Gym_Text_GymStatuePlayerWon_Kj
 	releaseall
 	end
 
@@ -149,9 +149,9 @@ CeruleanCity_Gym_Text_WeMakePrettyGoodTeam::
 	.string "You and me, kid, we make a pretty\n"
 	.string "darn-good team!$"
 
-CeruleanCity_Gym_Text_GymStatue::
+CeruleanCity_Gym_Text_GymStatue_Kj::
 	.string "ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\n{RIVAL}$"
 
-CeruleanCity_Gym_Text_GymStatuePlayerWon::
+CeruleanCity_Gym_Text_GymStatuePlayerWon_Kj::
 	.string "ハナダ　ポケモンジム\nリーダー　カスミ\pかった　トレーナー\n{RIVAL}　{PLAYER}$"
 

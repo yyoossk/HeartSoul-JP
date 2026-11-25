@@ -52,7 +52,7 @@ Route12_EventScript_RouteSign::
 	msgbox Route12_Text_RouteSign, MSGBOX_SIGN
 	end
 
-Route12_EventScript_FishingSign::
+Route12_EventScript_FishingSign_Kj::
 	msgbox Route12_Text_SportfishingArea, MSGBOX_SIGN
 	end
 

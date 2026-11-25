@@ -84,18 +84,18 @@ SaffronCity_EventScript_Man::
 	msgbox SaffronCity_Text_SawRocketBossEscaping, MSGBOX_NPC
 	end
 
-SaffronCity_EventScript_CitySign::
+SaffronCity_EventScript_CitySign_Kj::
 	msgbox SaffronCity_Text_CitySign, MSGBOX_SIGN
 	end
 
-SaffronCity_EventScript_DojoSign::
+SaffronCity_EventScript_DojoSign_Kj::
 	msgbox SaffronCity_Text_FightingDojo, MSGBOX_SIGN
 	end
 
-SaffronCity_EventScript_GymSign::
+SaffronCity_EventScript_GymSign_Kj::
 	lockall
 	famechecker FAMECHECKER_SABRINA, 0
-	msgbox SaffronCity_Text_GymSign
+	msgbox SaffronCity_Text_GymSign_Kj
 	releaseall
 	end
 
@@ -107,8 +107,8 @@ SaffronCity_EventScript_TrainerTips2::
 	msgbox SaffronCity_Text_GreatBallImprovedCatchRate, MSGBOX_SIGN
 	end
 
-SaffronCity_EventScript_SilphCoSign::
-	msgbox SaffronCity_Text_SilphCoSign, MSGBOX_SIGN
+SaffronCity_EventScript_SilphCoSign_Kj::
+	msgbox SaffronCity_Text_SilphCoSign_Kj, MSGBOX_SIGN
 	end
 
 SaffronCity_EventScript_MrPsychicsHouseSign::
@@ -193,7 +193,7 @@ SaffronCity_Text_CitySign::
 SaffronCity_Text_FightingDojo::
 	.string "かくとう　どうじょう$"
 
-SaffronCity_Text_GymSign::
+SaffronCity_Text_GymSign_Kj::
 	.string "ヤマブキシティ　ポケモンジム\nリーダー　ナツメ\l「エスパーしょうじょ」$"
 
 SaffronCity_Text_FullHealCuresStatus::
@@ -211,7 +211,7 @@ SaffronCity_Text_GreatBallImprovedCatchRate::
 	.string "Try it on those hard-to-catch\n"
 	.string "POKéMON.$"
 
-SaffronCity_Text_SilphCoSign::
+SaffronCity_Text_SilphCoSign_Kj::
 	.string "シルフカンパニー　ほんしゃビル$"
 
 SaffronCity_Text_MrPsychicsHouse::

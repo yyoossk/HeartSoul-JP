@@ -2,7 +2,11 @@
 #define GUARD_CONSTANTS_OPPONENTS_H
 
 #include "constants/battle_partner.h"
+#if IS_HNS
+#include "constants/opponents_kj.h"
+#else
 #include "constants/opponents_frlg.h"
+#endif
 #include "constants/opponents_hns.h"
 
 #define TRAINER_NONE                          0
@@ -872,8 +876,8 @@
 #define TRAINERS_COUNT                      TRAINERS_COUNT_FRLG
 #define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_FRLG
 #elif IS_HNS
-#define TRAINERS_COUNT                      TRAINERS_COUNT_HNS
-#define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_HNS
+#define TRAINERS_COUNT                      (KJ_TRAINERS_START + KJ_TRAINERS_COUNT)
+#define MAX_TRAINERS_COUNT                  KJ_MAX_TRAINERS_COUNT
 #else
 #define TRAINERS_COUNT                      TRAINERS_COUNT_EMERALD
 #define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_EMERALD

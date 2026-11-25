@@ -1,10 +1,10 @@
 PokemonLeague_ChampionsRoom_Frlg_MapScripts::
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_ChampionsRoom_OnWarp
-	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_ChampionsRoom_OnResume
+	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_ChampionsRoom_OnResume_Kj
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_ChampionsRoom_OnFrame
 	.byte 0
 
-PokemonLeague_ChampionsRoom_OnResume::
+PokemonLeague_ChampionsRoom_OnResume_Kj::
 	setvar VAR_0x8004, 4
 	call PokemonLeague_EventScript_DoLightingEffect
 	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerSquirtle
@@ -68,12 +68,12 @@ PokemonLeague_ChampionsRoom_EventScript_EnterRoom::
 	closemessage
 	applymovement LOCALID_PLAYER, PokemonLeague_ChampionsRoom_Movement_PlayerWatchOakEnter
 	applymovement LOCALID_KANTO_CHAMPIONS_ROOM_RIVAL, PokemonLeague_ChampionsRoom_Movement_RivalWatchOakEnter
-	applymovement LOCALID_CHAMPIONS_ROOM_PROF_OAK, PokemonLeague_ChampionsRoom_Movement_OakEnter
+	applymovement LOCALID_CHAMPIONS_ROOM_PROF_OAK, PokemonLeague_ChampionsRoom_Movement_OakEnter_Kj
 	waitmovement 0
 	delay 25
 	specialvar VAR_RESULT, GetStarterPokemon
 	bufferspeciesname STR_VAR_1, VAR_RESULT
-	msgbox PokemonLeague_ChampionsRoom_Text_OakCongratulations
+	msgbox PokemonLeague_ChampionsRoom_Text_OakCongratulations_Kj
 	applymovement LOCALID_CHAMPIONS_ROOM_PROF_OAK, Common_Movement_WalkInPlaceFasterRight
 	applymovement LOCALID_KANTO_CHAMPIONS_ROOM_RIVAL, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
@@ -184,7 +184,7 @@ PokemonLeague_ChampionsRoom_Movement_PlayerWatchOakEnter::
 	walk_in_place_faster_left
 	step_end
 
-PokemonLeague_ChampionsRoom_Movement_OakEnter::
+PokemonLeague_ChampionsRoom_Movement_OakEnter_Kj::
 	delay_16
 	delay_16
 	walk_up
@@ -292,7 +292,7 @@ PokemonLeague_ChampionsRoom_Text_PostBattle::
 PokemonLeague_ChampionsRoom_Text_OakPlayer::
 	.string "OAK: {PLAYER}!$"
 
-PokemonLeague_ChampionsRoom_Text_OakCongratulations::
+PokemonLeague_ChampionsRoom_Text_OakCongratulations_Kj::
 	.string "オーキド『そうか　かったのか！\nこころから　おめでとう！\pきみが　あたらしい\nポケモンリーグ　チャンピオンだ！\p{STR_VAR_1}と　いっしょに\nずかんづくりに　でかけた　ときから\lほんとうに　せいちょう　したな\p{PLAYER}　りっぱに\nなったな！$"
 
 PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival::

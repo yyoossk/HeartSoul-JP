@@ -250,12 +250,12 @@ CeruleanCity_EventScript_BaldingMan::
 	msgbox CeruleanCity_Text_PokemonEncyclopediaAmusing, MSGBOX_NPC
 	end
 
-CeruleanCity_EventScript_Youngster::
+CeruleanCity_EventScript_Youngster_Kj::
 	msgbox CeruleanCity_Text_TrainerLifeIsToughIsntIt, MSGBOX_NPC
 	end
 
 CeruleanCity_EventScript_CeruleanCaveGuard::
-	msgbox CeruleanCity_Text_ThisIsCeruleanCave, MSGBOX_NPC
+	msgbox CeruleanCity_Text_ThisIsCeruleanCave_Kj, MSGBOX_NPC
 	end
 
 CeruleanCity_EventScript_Woman::
@@ -311,7 +311,7 @@ CeruleanCity_EventScript_SlowbroFailed3::
 	msgbox CeruleanCity_Text_HardToControlMonsObedience
 	return
 
-CeruleanCity_EventScript_Slowbro::
+CeruleanCity_EventScript_Slowbro_Kj::
 	lock
 	random 4
 	copyvar VAR_0x8008, VAR_RESULT
@@ -346,14 +346,14 @@ CeruleanCity_EventScript_TrainerTips::
 	msgbox CeruleanCity_Text_TrainerTipsHeldItems, MSGBOX_SIGN
 	end
 
-CeruleanCity_EventScript_BikeShopSign::
-	msgbox CeruleanCity_Text_BikeShopSign, MSGBOX_SIGN
+CeruleanCity_EventScript_BikeShopSign_Kj::
+	msgbox CeruleanCity_Text_BikeShopSign_Kj, MSGBOX_SIGN
 	end
 
-CeruleanCity_EventScript_GymSign::
+CeruleanCity_EventScript_GymSign_Kj::
 	lockall
 	famechecker FAMECHECKER_MISTY, 0
-	msgbox CeruleanCity_Text_GymSign
+	msgbox CeruleanCity_Text_GymSign_Kj
 	releaseall
 	end
 
@@ -438,7 +438,7 @@ CeruleanCity_Text_SlowbroIgnoredOrders::
 CeruleanCity_Text_WantBrightRedBicycle::
 	.string "まっかな　じてんしゃが\nほしいなあ\pよごれない　ように\nいえに　かざって　おくんだ$"
 
-CeruleanCity_Text_ThisIsCeruleanCave::
+CeruleanCity_Text_ThisIsCeruleanCave_Kj::
 	.string "ここは　ハナダの　どうくつ\pなかには　おそろしく　つよい\nポケモンが　すんで　いる\pとくべつな　トレーナーしか\nはいる　ことは　ゆるされない\pまず　ポケモンリーグの\nチャンピオンに　なれる　くらい\lつよく　なければ　ならない\pそして　なにか　おおきな　ことを\nなしとげて　いなければ　ならない$"
 
 CeruleanCity_Text_CitySign::
@@ -447,9 +447,9 @@ CeruleanCity_Text_CitySign::
 CeruleanCity_Text_TrainerTipsHeldItems::
 	.string "トレーナー　ワンポイント\pポケモンには　どうぐを\nもたせる　ことが　できる\pもたせた　どうぐを　ポケモンが\nバトルで　つかう　ことも　ある$"
 
-CeruleanCity_Text_BikeShopSign::
+CeruleanCity_Text_BikeShopSign_Kj::
 	.string "くさむらも　どうくつも　らくらく！\nじてんしゃや$"
 
-CeruleanCity_Text_GymSign::
+CeruleanCity_Text_GymSign_Kj::
 	.string "ハナダシティ　ポケモンジム\nリーダー　カスミ\l「おてんばな　にんぎょ」$"
 

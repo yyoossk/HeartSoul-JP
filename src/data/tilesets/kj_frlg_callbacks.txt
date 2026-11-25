@@ -1,0 +1,5 @@
+InitTilesetAnim_CeladonCity
+InitTilesetAnim_CeladonGym
+InitTilesetAnim_General_Frlg
+InitTilesetAnim_SilphCo
+InitTilesetAnim_VermilionGym

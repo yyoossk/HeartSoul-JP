@@ -1,7 +1,7 @@
 PewterCity_Gym_Frlg_MapScripts::
 	.byte 0
 
-PewterCity_Gym_EventScript_Brock::
+PewterCity_Gym_EventScript_Brock_Kj::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
@@ -12,7 +12,7 @@ PewterCity_Gym_EventScript_Brock::
 PewterCity_Gym_EventScript_DefeatedBrock::
 	famechecker FAMECHECKER_BROCK, 1
 	setflag FLAG_DEFEATED_BROCK
-	setflag FLAG_BADGE01_GET
+	setflag FLAG_BADGE09_GET
 	setvar VAR_MAP_SCENE_PEWTER_CITY, 1
 	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
 	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
@@ -40,7 +40,7 @@ PewterCity_Gym_EventScript_Liam::
 	msgbox PewterCity_Gym_Text_LiamPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PewterCity_Gym_EventScript_GymGuy::
+PewterCity_Gym_EventScript_GymGuy_Kj::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_BROCK, PewterCity_Gym_EventScript_GymGuyPostVictory
@@ -69,15 +69,15 @@ PewterCity_Gym_EventScript_GymGuyAdvice::
 	release
 	end
 
-PewterCity_Gym_EventScript_GymStatue::
+PewterCity_Gym_EventScript_GymStatue_Kj::
 	lockall
-	goto_if_set FLAG_BADGE01_GET, PewterCity_Gym_EventScript_GymStatuePostVictory
-	msgbox PewterCity_Gym_Text_GymStatue
+	goto_if_set FLAG_BADGE09_GET, PewterCity_Gym_EventScript_GymStatuePostVictory_Kj
+	msgbox PewterCity_Gym_Text_GymStatue_Kj
 	releaseall
 	end
 
-PewterCity_Gym_EventScript_GymStatuePostVictory::
-	msgbox PewterCity_Gym_Text_GymStatuePlayerWon
+PewterCity_Gym_EventScript_GymStatuePostVictory_Kj::
+	msgbox PewterCity_Gym_Text_GymStatuePlayerWon_Kj
 	releaseall
 	end
 
@@ -188,9 +188,9 @@ PewterCity_Gym_Text_YoureChampMaterial::
 	.string "Just as I thought!\n"
 	.string "You're POKéMON champ material!$"
 
-PewterCity_Gym_Text_GymStatue::
+PewterCity_Gym_Text_GymStatue_Kj::
 	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{RIVAL}$"
 
-PewterCity_Gym_Text_GymStatuePlayerWon::
+PewterCity_Gym_Text_GymStatuePlayerWon_Kj::
 	.string "ニビ　ポケモンジム\nリーダー　タケシ\pかった　トレーナー\n{RIVAL}　{PLAYER}$"
 

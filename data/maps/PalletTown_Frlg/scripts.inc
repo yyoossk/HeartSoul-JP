@@ -390,7 +390,7 @@ PalletTown_EventScript_FatMan::
 	msgbox PalletTown_Text_CanStoreItemsAndMonsInPC, MSGBOX_NPC
 	end
 
-PalletTown_EventScript_OaksLabSign::
+PalletTown_EventScript_OaksLabSign_Kj::
 	lockall
 	famechecker FAMECHECKER_OAK, 0
 	msgbox PalletTown_Text_OakPokemonResearchLab
@@ -405,7 +405,7 @@ PalletTown_EventScript_RivalsHouseSign::
 	msgbox PalletTown_Text_RivalsHouse, MSGBOX_SIGN
 	end
 
-PalletTown_EventScript_TownSign::
+PalletTown_EventScript_TownSign_Kj::
 	msgbox PalletTown_Text_TownSign, MSGBOX_SIGN
 	end
 

@@ -1,8 +1,8 @@
 Route20_Frlg_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, Route20_OnTransition
+	map_script MAP_SCRIPT_ON_TRANSITION, Route20_OnTransition_Kj
 	.byte 0
 
-Route20_OnTransition::
+Route20_OnTransition_Kj::
 	call_if_unset FLAG_STOPPED_SEAFOAM_B3F_CURRENT, Route20_EventScript_ResetSeafoamBouldersForB3F
 	call_if_unset FLAG_STOPPED_SEAFOAM_B4F_CURRENT, Route20_EventScript_ResetSeafoamBouldersForB4F
 	end
