@@ -452,6 +452,15 @@ u16 GetStarterPokemon(u16 chosenStarterId)
         return sOneTypeChallengeStarters[chosenStarterId];
     }
 
+#if IS_HNS
+    // カントー＆ジョウト: カントー編（ジョウト編の前）は オーキドから もらった カントーの 3びき
+    // （ファイアレッドの ばんごう：0 フシギダネ・1 ゼニガメ・2 ヒトカゲ）
+    if (!FlagGet(FLAG_KJ_JOHTO_STARTED))
+    {
+        static const u16 sKantoStarterMon[STARTER_MON_COUNT] = {SPECIES_BULBASAUR, SPECIES_SQUIRTLE, SPECIES_CHARMANDER};
+        return sKantoStarterMon[chosenStarterId];
+    }
+#endif
     return sStarterMon[chosenStarterId];
 }
 
