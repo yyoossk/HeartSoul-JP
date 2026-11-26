@@ -123,7 +123,8 @@ bool8 EnterHallOfFame(void)
         SetGameStat(GAME_STAT_FIRST_HOF_PLAY_TIME, (gSaveBlock2Ptr->playTimeHours << 16) | (gSaveBlock2Ptr->playTimeMinutes << 8) | gSaveBlock2Ptr->playTimeSeconds);
     }
     SetContinueGameWarpStatus();
-    if (IS_HNS)
+    // カントー＆ジョウト: カントーの殿堂入りのあとは マサラタウン（オーキドから ジョウトいきの チケットを もらう）
+    if (IS_HNS && FlagGet(FLAG_KJ_JOHTO_STARTED))
         SetContinueGameWarpToHealLocation(HEAL_LOCATION_NEW_BARK_TOWN_HNS);
     else
         SetContinueGameWarpToHealLocation(HEAL_LOCATION_PALLET_TOWN);
