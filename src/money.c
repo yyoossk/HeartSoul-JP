@@ -220,6 +220,35 @@ void ChangeAmountInMoneyBox(int amount)
     PrintMoneyAmountInMoneyBox(sMoneyBoxWindowId, amount, 0);
 }
 
+static const u8 sText_Yen[] = _("円");
+
+// HnS JP: print "<amount>円" right-aligned in the window (Japanese digits are
+// 8 px wide, so the space-padded version ran off the right edge).
+void PrintMoneyAmountRightAligned(u8 windowId, u8 y, int amount, u8 speed)
+{
+    u32 width = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8;
+    u32 strWidth;
+
+    ConvertIntToDecimalStringN(gStringVar1, amount, STR_CONV_MODE_LEFT_ALIGN, MAX_MONEY_DIGITS);
+    StringExpandPlaceholders(gStringVar4, gText_PokedollarVar1);
+    strWidth = GetStringWidth(FONT_NORMAL, gStringVar4, 0);
+    // The "×NNN" count sits at the left (about 32 px). If a big amount would
+    // run into it, write the digits with the narrow (English) digits.
+    if (strWidth + 34 > width)
+    {
+        u8 *ptr = gStringVar4;
+        *ptr++ = EXT_CTRL_CODE_BEGIN;
+        *ptr++ = EXT_CTRL_CODE_ENG;
+        ptr = ConvertIntToDecimalStringN(ptr, amount, STR_CONV_MODE_LEFT_ALIGN, MAX_MONEY_DIGITS);
+        *ptr++ = EXT_CTRL_CODE_BEGIN;
+        *ptr++ = EXT_CTRL_CODE_JPN;
+        *ptr = EOS;
+        StringAppend(gStringVar4, sText_Yen);
+        strWidth = GetStringWidth(FONT_NORMAL, gStringVar4, 0);
+    }
+    AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, (strWidth < width) ? width - strWidth : 0, y, speed, NULL);
+}
+
 u32 CalculateMoneyTextHorizontalPosition(u32 amount)
 {
     return (CountDigits(amount) > 8) ? 34 : 26;

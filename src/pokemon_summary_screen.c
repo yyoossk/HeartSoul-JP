@@ -106,7 +106,7 @@
 #define PSS_DATA_WINDOW_MOVE_PP 1
 #define PSS_DATA_WINDOW_MOVE_DESCRIPTION 2
 
-#define MOVE_SELECTOR_SPRITES_COUNT 10
+#define MOVE_SELECTOR_SPRITES_COUNT 11 // HnS JP: one more piece so the frame is wider on the left
 #define TYPE_ICON_SPRITE_COUNT (MAX_MON_MOVES + 1)
 // for the spriteIds field in PokemonSummaryScreenData
 enum
@@ -4319,6 +4319,35 @@ static void Task_PrintBattleMoves(u8 taskId)
     data[0]++;
 }
 
+// HnS JP: draw "PP cur/max" with narrow (English) digits at fixed positions,
+// so the "PP" label and the slash line up whether the numbers have 1 or 2 digits.
+static const u8 sText_PPLabelEng[] = _("{PP}");
+static const u8 sText_PPSlashEng[] = _("/");
+static void PrintPPAligned(u8 windowId, u32 cur, u32 max, u8 y, u8 colorId)
+{
+    u8 buf[16];
+    u32 slotW, slashX;
+
+    buf[0] = EXT_CTRL_CODE_BEGIN;
+    buf[1] = EXT_CTRL_CODE_ENG;
+    ConvertIntToDecimalStringN(buf + 2, 88, STR_CONV_MODE_LEFT_ALIGN, 2);
+    slotW = GetStringWidth(FONT_NORMAL, buf, 0);
+
+    // max, right-aligned to the right edge (42)
+    ConvertIntToDecimalStringN(buf + 2, max, STR_CONV_MODE_LEFT_ALIGN, 2);
+    PrintTextOnWindow(windowId, buf, 42 - GetStringWidth(FONT_NORMAL, buf, 0), y, 0, colorId);
+    // slash
+    StringCopy(buf + 2, sText_PPSlashEng);
+    slashX = 42 - slotW - GetStringWidth(FONT_NORMAL, buf, 0);
+    PrintTextOnWindow(windowId, buf, slashX, y, 0, colorId);
+    // current, right-aligned just left of the slash
+    ConvertIntToDecimalStringN(buf + 2, cur, STR_CONV_MODE_LEFT_ALIGN, 2);
+    PrintTextOnWindow(windowId, buf, slashX - GetStringWidth(FONT_NORMAL, buf, 0), y, 0, colorId);
+    // "PP" at the position it has with two digits
+    StringCopy(buf + 2, sText_PPLabelEng);
+    PrintTextOnWindow(windowId, buf, slashX - slotW - GetStringWidth(FONT_NORMAL, buf, 0), y, 0, colorId);
+}
+
 static void PrintMoveNameAndPP(u8 moveIndex)
 {
     u8 pp;
@@ -4333,15 +4362,9 @@ static void PrintMoveNameAndPP(u8 moveIndex)
     {
         pp = CalculatePPWithBonus(move, summary->ppBonuses, moveIndex);
         PrintTextOnWindowToFit(moveNameWindowId, GetMoveName(move), 0, moveIndex * 16 + 1, 0, 1);
-        ConvertIntToDecimalStringN(gStringVar1, summary->pp[moveIndex], STR_CONV_MODE_RIGHT_ALIGN, 2);
-        ConvertIntToDecimalStringN(gStringVar2, pp, STR_CONV_MODE_RIGHT_ALIGN, 2);
-        DynamicPlaceholderTextUtil_Reset();
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gStringVar2);
-        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sMovesPPLayout);
-        text = gStringVar4;
         ppState = GetCurrentPpToMaxPpState(summary->pp[moveIndex], pp) + 9;
-        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 42);
+        PrintPPAligned(ppValueWindowId, summary->pp[moveIndex], pp, moveIndex * 16 + 1, ppState);
+        return;
     }
     else
     {
@@ -4500,12 +4523,7 @@ static void PrintNewMoveDetailsOrCancelText(void)
         else
             PrintTextOnWindowToFit(windowId1, GetMoveName(move), 0, 65, 0, 5);
 
-        ConvertIntToDecimalStringN(gStringVar1, GetMovePP(move), STR_CONV_MODE_RIGHT_ALIGN, 2);
-        DynamicPlaceholderTextUtil_Reset();
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gStringVar1);
-        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sMovesPPLayout);
-        PrintTextOnWindow(windowId2, gStringVar4, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 44), 65, 0, 12);
+        PrintPPAligned(windowId2, GetMovePP(move), GetMovePP(move), 65, 12);
     }
 }
 
@@ -4925,10 +4943,12 @@ static void CreateMoveSelectorSprites(u8 idArrayStart)
 
         for (i = 0; i < MOVE_SELECTOR_SPRITES_COUNT; i++)
         {
-            spriteIds[i] = CreateSprite(&sMoveSelectorSpriteTemplate, i * 16 + 89, 40, subpriority);
+            // HnS JP: the frame starts 5 px further left (clear of the type icon) and the
+            // right piece stays at the right edge (clear of the PP numbers).
+            spriteIds[i] = CreateSprite(&sMoveSelectorSpriteTemplate, (i == MOVE_SELECTOR_SPRITES_COUNT - 1) ? 235 : i * 16 + 85, 40, subpriority);
             if (i == 0)
                 StartSpriteAnim(&gSprites[spriteIds[i]], 4); // left
-            else if (i == 9)
+            else if (i == MOVE_SELECTOR_SPRITES_COUNT - 1)
                 StartSpriteAnim(&gSprites[spriteIds[i]], 5); // right, actually the same as left, but flipped
             else
                 StartSpriteAnim(&gSprites[spriteIds[i]], 6); // middle
@@ -4979,7 +4999,7 @@ static void SetMainMoveSelectorColor(u8 which)
     {
         if (i == 0)
             StartSpriteAnim(&gSprites[spriteIds[i]], which + 4);
-        else if (i == 9)
+        else if (i == MOVE_SELECTOR_SPRITES_COUNT - 1)
             StartSpriteAnim(&gSprites[spriteIds[i]], which + 5);
         else
             StartSpriteAnim(&gSprites[spriteIds[i]], which + 6);
