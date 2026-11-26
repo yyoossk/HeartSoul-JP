@@ -2251,6 +2251,8 @@ static const u8 sText_DN_Land[]    = _("くさむら・どうくつ");
 static const u8 sText_DN_Fish[]    = _("つり");
 static const u8 sText_DN_Rock[]    = _("いわくだき");
 static const u8 sText_DN_Title[]   = _("でるポケモン");
+static const u8 sText_DN_Day[]     = _("ひる");
+static const u8 sText_DN_Night[]   = _("よる");
 static const u8 sText_DN_Switch[]  = _("{L_BUTTON}{R_BUTTON}くさむら／つり");
 
 static u8 DexNavGetCursorArea(void)
@@ -2399,7 +2401,14 @@ static void PrintSearchableSpecies(u16 species)
     PutWindowTilemap(WINDOW_REGISTERED);
     AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_NORMAL, 4, 0, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Switch);
     AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_SMALL, 4, 12, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Water);
-    AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_NORMAL, 164, 13, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Title);
+    AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_NORMAL, 162, 13, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Title);
+    // HnS JP: which list is shown (the data has day and night lists; morning uses the day list)
+    {
+        u32 headerId = GetCurrentMapWildMonHeaderId();
+        if (headerId != HEADER_NONE)
+            AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_NORMAL, 218, 13, sFontColor_White, TEXT_SKIP_DRAW,
+                (GetTimeOfDayForEncounters(headerId, WILD_AREA_LAND) == TIME_NIGHT) ? sText_DN_Night : sText_DN_Day);
+    }
     PrintMapName();
 }
 

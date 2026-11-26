@@ -329,7 +329,7 @@ static const u8 *const sChoices_TimeOfDay[] = {
 };
 static const u8 *const sDesc_TimeOfDay[] = {
     COMPOUND_STRING("とけいの　じかんに　あわせて\nあさ・ひる・よるが　かわります"),
-    COMPOUND_STRING("いつも　あさに　なります\nでる　ポケモンも　かわります"),
+    COMPOUND_STRING("いつも　あさに　なります\nでる　ポケモンは　ひると　おなじ"),
     COMPOUND_STRING("いつも　ひるに　なります\nでる　ポケモンも　かわります"),
     COMPOUND_STRING("いつも　よるに　なります\nでる　ポケモンも　かわります"),
 };
