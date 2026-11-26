@@ -428,6 +428,13 @@ static void UpdateMonDisplayInfoAfterRareCandy(u8, struct Pokemon *);
 static void ItemUseCB_RareCandyOnce(u8 taskId, TaskFunc task);
 static void Task_UseNextCandy(u8 taskId);
 static EWRAM_DATA u8 sCandyUsesLeft = 0;
+static EWRAM_DATA u8 sSelectionInitialCursor = 0; // HnS JP
+static void Task_ForgetMoveAfterSummary(u8);
+static void Task_ForgetMoveYesNo(u8);
+static void Task_HandleForgetMoveYesNoInput(u8);
+static void Task_ForgetMoveWaitFanfare(u8);
+static void Task_ReopenOthersAfterText(u8);
+static void ReopenOthersMenuAt(u8 taskId, u8 action);
 static EWRAM_DATA u8 sCandyQuantity = 0;
 static EWRAM_DATA u8 sCandyMax = 0;
 static EWRAM_DATA TaskFunc sCandyResumeTask = NULL;
@@ -2879,7 +2886,8 @@ static u8 DisplaySelectionWindow(u8 windowType)
         AddTextPrinterParameterized4(sPartyMenuInternal->windowId[0], FONT_NORMAL, cursorDimension, (i * 16) + 1, letterSpacing, 0, sFontColorTable[fontColorsId], 0, text);
     }
 
-    InitMenuInUpperLeftCorner(sPartyMenuInternal->windowId[0], sPartyMenuInternal->numActions, 0, TRUE);
+    InitMenuInUpperLeftCorner(sPartyMenuInternal->windowId[0], sPartyMenuInternal->numActions, sSelectionInitialCursor < sPartyMenuInternal->numActions ? sSelectionInitialCursor : 0, TRUE);
+    sSelectionInitialCursor = 0;
     ScheduleBgCopyTilemapToVram(2);
 
     return sPartyMenuInternal->windowId[0];
@@ -3295,18 +3303,142 @@ static void CursorCb_Others(u8 taskId)
     gTasks[taskId].func = Task_HandleSelectionMenuInput;
 }
 
-static void FieldCallback_ForgetMove(void)
+static const u8 sText_PartyForgetConfirm[] = _("{STR_VAR_1}の　{STR_VAR_2}を\nわすれさせますか？");
+static const u8 sText_PartyForgetDone[] = _("{STR_VAR_1}は　{STR_VAR_2}を\nきれいに　わすれた！{PAUSE_UNTIL_PRESS}");
+static const u8 sText_PartyForgetSurf[] = _("{STR_VAR_1}の　{STR_VAR_2}を　わすれると\nみずの　うえで　うごけなく　なります{PAUSE_UNTIL_PRESS}");
+
+// HnS JP: re-open the "そのほか" submenu with the cursor on the given action
+static void ReopenOthersMenuAt(u8 taskId, u8 action)
 {
-    gSpecialVar_0x8004 = GetCursorSelectionMonId();
-    ScriptContext_SetupScript(EventScript_PartyMenuForgetMove);
+    u32 i;
+
+    ClearStdWindowAndFrameToTransparent(WIN_MSG, FALSE);
+    ClearWindowTilemap(WIN_MSG);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    GetMonNickname(&gPlayerParty[gPartyMenu.slotId], gStringVar1);
+    SetPartyMonSelectionActions(gPlayerParty, gPartyMenu.slotId, ACTIONS_OTHERS);
+    sSelectionInitialCursor = 0;
+    for (i = 0; i < sPartyMenuInternal->numActions; i++)
+    {
+        if (sPartyMenuInternal->actions[i] == action)
+        {
+            sSelectionInitialCursor = i;
+            break;
+        }
+    }
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    DisplayPartyMenuStdMessage(PARTY_MSG_DO_WHAT_WITH_MON);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+
+static void Task_ReopenOthersAtForget(u8 taskId)
+{
+    if (!gPaletteFade.active)
+        ReopenOthersMenuAt(taskId, MENU_FORGET_MOVE);
+}
+
+static void Task_ReopenOthersAtRelearn(u8 taskId)
+{
+    if (!gPaletteFade.active)
+        ReopenOthersMenuAt(taskId, MENU_RELEARN);
+}
+
+void CB2_ReturnToPartyMenuFromRelearner(void)
+{
+    gPaletteFade.bufferTransferDisabled = TRUE;
+    gPartyMenu.slotId = gLastViewedMonIndex;
+    InitPartyMenu(gPartyMenu.menuType, KEEP_PARTY_LAYOUT, gPartyMenu.action, TRUE, PARTY_MSG_NONE, Task_ReopenOthersAtRelearn, gPartyMenu.exitCallback);
+}
+
+static void CB2_ReturnToPartyMenuFromForgetSummary(void)
+{
+    gPaletteFade.bufferTransferDisabled = TRUE;
+    InitPartyMenu(gPartyMenu.menuType, KEEP_PARTY_LAYOUT, gPartyMenu.action, TRUE, PARTY_MSG_NONE, Task_ForgetMoveAfterSummary, gPartyMenu.exitCallback);
+}
+
+static void CB2_ShowSummaryScreenForPartyForget(void)
+{
+    gSpecialVar_0x8004 = gPartyMenu.slotId;
+    gSpecialVar_0x8005 = MAX_MON_MOVES;
+    ShowPokemonSummaryScreen(SUMMARY_MODE_SELECT_MOVE, gPlayerParty, gPartyMenu.slotId, gPlayerPartyCount - 1, CB2_ReturnToPartyMenuFromForgetSummary);
+}
+
+static void Task_ForgetMoveAfterSummary(u8 taskId)
+{
+    if (gPaletteFade.active)
+        return;
+    if (gSpecialVar_0x8005 >= MAX_MON_MOVES)
+    {
+        ReopenOthersMenuAt(taskId, MENU_FORGET_MOVE);
+        return;
+    }
+    gSpecialVar_0x8004 = gPartyMenu.slotId;
+    BufferMoveDeleterNicknameAndMove();
+    StringExpandPlaceholders(gStringVar4, sText_PartyForgetConfirm);
+    DisplayPartyMenuMessage(gStringVar4, TRUE);
+    gTasks[taskId].func = Task_ForgetMoveYesNo;
+}
+
+static void Task_ForgetMoveYesNo(u8 taskId)
+{
+    if (IsPartyMenuTextPrinterActive() != TRUE)
+    {
+        PartyMenuDisplayYesNoMenu();
+        gTasks[taskId].func = Task_HandleForgetMoveYesNoInput;
+    }
+}
+
+static void Task_HandleForgetMoveYesNoInput(u8 taskId)
+{
+    switch (Menu_ProcessInputNoWrapClearOnChoose())
+    {
+    case 0:
+        if (!CheckBagHasItem(ITEM_HM_SURF, 1))
+        {
+            IsLastMonThatKnowsSurf();
+            if (gSpecialVar_Result == TRUE)
+            {
+                StringExpandPlaceholders(gStringVar4, sText_PartyForgetSurf);
+                DisplayPartyMenuMessage(gStringVar4, TRUE);
+                gTasks[taskId].func = Task_ReopenOthersAfterText;
+                break;
+            }
+        }
+        MoveDeleterForgetMove();
+        PlayFanfare(MUS_MOVE_DELETED);
+        gTasks[taskId].func = Task_ForgetMoveWaitFanfare;
+        break;
+    case MENU_B_PRESSED:
+        PlaySE(SE_SELECT);
+        // fallthrough
+    case 1:
+        ReopenOthersMenuAt(taskId, MENU_FORGET_MOVE);
+        break;
+    }
+}
+
+static void Task_ForgetMoveWaitFanfare(u8 taskId)
+{
+    if (IsFanfareTaskInactive())
+    {
+        StringExpandPlaceholders(gStringVar4, sText_PartyForgetDone);
+        DisplayPartyMenuMessage(gStringVar4, TRUE);
+        gTasks[taskId].func = Task_ReopenOthersAfterText;
+    }
+}
+
+static void Task_ReopenOthersAfterText(u8 taskId)
+{
+    if (IsPartyMenuTextPrinterActive() != TRUE)
+        ReopenOthersMenuAt(taskId, MENU_FORGET_MOVE);
 }
 
 static void CursorCb_ForgetMove(u8 taskId)
 {
     PlaySE(SE_SELECT);
-    gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
-    gPostMenuFieldCallback = FieldCallback_ForgetMove;
-    gPartyMenu.exitCallback = CB2_ReturnToField;
+    sPartyMenuInternal->exitCallback = CB2_ShowSummaryScreenForPartyForget;
     Task_ClosePartyMenu(taskId);
 }
 

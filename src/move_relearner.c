@@ -756,7 +756,7 @@ static void DoMoveRelearnerMain(void)
         if (!gPaletteFade.active)
         {
             FreeMoveRelearnerResources();
-            SetMainCallback2(CB2_ReturnToPartyMenuFromSummaryScreen);
+            SetMainCallback2(CB2_ReturnToPartyMenuFromRelearner);
         }
         break;
     case 22:
