@@ -171,6 +171,8 @@ static void RevealHiddenMon(void);
 // gui image data
 static const u32 sDexNavGuiTiles[] = INCBIN_U32("graphics/dexnav/gui_tiles.4bpp.smol");
 static const u32 sDexNavGuiTilemap[] = INCBIN_U32("graphics/dexnav/gui_tilemap.bin.smolTM");
+static const u16 sDexNavGuiTilemapFish[] = INCBIN_U16("graphics/dexnav/gui_tilemap_fish.bin"); // HnS JP: blue middle box for つり
+static const u16 sDexNavGuiTilemapLand[] = INCBIN_U16("graphics/dexnav/gui_tilemap.bin");
 static const u32 sDexNavGuiPal[] = INCBIN_U32("graphics/dexnav/gui.gbapal");
 
 static const u32 sSelectionCursorGfx[] = INCBIN_U32("graphics/dexnav/cursor.4bpp.smol");
@@ -1732,7 +1734,7 @@ static void CreateSelectionCursor(void)
     UpdateCursorPosition();
 }
 
-static u8 CreateNoDataIcon(s16 x, s16 y)
+static u8 UNUSED CreateNoDataIcon(s16 x, s16 y)
 {
     return CreateSprite(&sNoDataIconTemplate, x, y, 0);
 }
@@ -2368,6 +2370,19 @@ static void PrintCurrentSpeciesInfo(void)
     PutWindowTilemap(WINDOW_INFO);
 }
 
+// HnS JP: swap the middle box between green (くさむら) and blue (つり).
+static void DexNavSetMiddleBoxStyle(void)
+{
+    u32 x, y;
+    u16 *dst = (u16 *)sBg1TilemapBuffer;
+    const u16 *src = sDexNavUiDataPtr->page ? sDexNavGuiTilemapFish : sDexNavGuiTilemapLand;
+
+    for (y = 6; y <= 14; y++)
+        for (x = 0; x < 20; x++)
+            dst[y * 32 + x] = src[y * 32 + x];
+    ScheduleBgCopyTilemapToVram(1);
+}
+
 static void PrintBoxLabels(void)
 {
     u32 i;
@@ -2670,6 +2685,7 @@ static void Task_DexNavMain(u8 taskId)
         // HnS JP: switch the middle box between くさむら and つり.
         DestroyLandBoxIcons();
         sDexNavUiDataPtr->page ^= 1;
+        DexNavSetMiddleBoxStyle();
         DrawLandBoxIcons();
         PrintBoxLabels();
         PlaySE(SE_SELECT);
