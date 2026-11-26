@@ -20,7 +20,7 @@
 - gen_trainers.py ……使う FRLG トレーナー（439人）を hns の表のうしろに足す
                      （include/constants/opponents_kj.h・src/data/trainers_kj.party）
                      番号 864 以降のトレーナーフラグは ENGINE_FLAGS のうしろ（KJ_TRAINER_FLAGS_START、TRAINER_FLAG_ID）
-- gen_vars.py     ……FRLG の変数（42）を hns の空き変数（34）とジョウト専用の変数（8、KJ_SHARED_VARS_LIST）に割り当てる
+- gen_vars.py     ……FRLG の変数を hns の空き変数とジョウト専用の変数（KJ_SHARED_VARS_LIST）に割り当てる。DexNav などが使う空き変数は除き、前の割り当ては変えない
                      ジョウト編に入るとき KJ_SHARED_VARS_LIST を 0 に戻す（まだ）
 - gen_flags.py    ……FRLG のフラグ（496）を FLAG_KJ_* にして、拡張フラグ（KJ_FRLG_FLAGS_START〜）に置く
                      （hns の flags_hns.h では FRLG のフラグ名の多くが 0 になっていたため）
