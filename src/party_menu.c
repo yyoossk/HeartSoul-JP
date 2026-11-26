@@ -2897,6 +2897,12 @@ static void PartyMenuDisplayYesNoMenu(void)
     CreateYesNoMenu(&sPartyMenuYesNoWindowTemplate, 0x4F, 13, 0);
 }
 
+// HnS JP: the move-learning questions start on いいえ so mashing A loops.
+static void PartyMenuDisplayYesNoMenuDefaultNo(void)
+{
+    CreateYesNoMenu(&sPartyMenuYesNoWindowTemplate, 0x4F, 13, 1);
+}
+
 static u8 CreateLevelUpStatsWindow(void)
 {
     sPartyMenuInternal->windowId[0] = AddWindow(&sLevelUpStatsWindowTemplate);
@@ -5844,7 +5850,7 @@ static void Task_ReplaceMoveYesNo(u8 taskId)
 {
     if (IsPartyMenuTextPrinterActive() != TRUE)
     {
-        PartyMenuDisplayYesNoMenu();
+        PartyMenuDisplayYesNoMenuDefaultNo();
         gTasks[taskId].func = Task_HandleReplaceMoveYesNoInput;
     }
 }
@@ -5957,7 +5963,7 @@ static void Task_StopLearningMoveYesNo(u8 taskId)
 {
     if (IsPartyMenuTextPrinterActive() != TRUE)
     {
-        PartyMenuDisplayYesNoMenu();
+        PartyMenuDisplayYesNoMenuDefaultNo();
         gTasks[taskId].func = Task_HandleStopLearningMoveYesNoInput;
     }
 }
