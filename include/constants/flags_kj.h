@@ -4,4 +4,5 @@
 #define FLAG_KJ_JOHTO_STARTED      FLAG_UNUSED_36  // 3年後のジョウト編が始まった
 #define FLAG_KJ_KANTO_CHAMPION     FLAG_UNUSED_37  // カントーの殿堂入りをした
 #define FLAG_KJ_GOT_JOHTO_TICKET   FLAG_UNUSED_38  // オーキドから ジョウトいきの ふねの チケットを もらった
+#define FLAG_KJ_GOT_JOHTO_STARTER  FLAG_UNUSED_3   // ウツギから ジョウトの さいしょの ポケモンを もらった（カントーの FLAG_SYS_POKEMON_GET とは べつ）
 #endif

@@ -83,7 +83,7 @@ NewBarkTown_Lab_EventScript_Elm_AfterEggCheck:
 	goto_if_ge VAR_NEWBARKTOWN_LABSTATE, 6, NewBarkTown_Lab_EventScript_ElmState5
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 2, CopNewBarkTown_Lab_EventScript_ElmState2
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 3, CopNewBarkTown_Lab_EventScript_ElmState2
-	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_MrPokemon
+	goto_if_set FLAG_KJ_GOT_JOHTO_STARTER, NewBarkTown_Lab_EventScript_MrPokemon
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_ElmChoosePokemon
 	end
 
@@ -158,7 +158,7 @@ NewBarkTown_Lab_EventScript_ShouldntTouch::
 
 NewBarkTown_Lab_EventScript_ChikoritaBall::
 	lock
-	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_ShouldntTouch
+	goto_if_set FLAG_KJ_GOT_JOHTO_STARTER, NewBarkTown_Lab_EventScript_ShouldntTouch
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_ChikoritaBall_Choice
 	msgbox NewBarkTown_Lab_Text_ShouldntTouch, MSGBOX_DEFAULT
 	release
@@ -180,7 +180,7 @@ NewBarkTown_Lab_EventScript_ChikoritaBall_Choice::
 
 NewBarkTown_Lab_EventScript_CyndaquilBall::
 	lock
-	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_ShouldntTouch
+	goto_if_set FLAG_KJ_GOT_JOHTO_STARTER, NewBarkTown_Lab_EventScript_ShouldntTouch
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_CyndaquilBall_Choice
 	msgbox NewBarkTown_Lab_Text_ShouldntTouch, MSGBOX_DEFAULT
 	closemessage
@@ -202,7 +202,7 @@ NewBarkTown_Lab_EventScript_CyndaquilBall_Choice::
 
 NewBarkTown_Lab_EventScript_TotodileBall::
 	lock
-	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_ShouldntTouch
+	goto_if_set FLAG_KJ_GOT_JOHTO_STARTER, NewBarkTown_Lab_EventScript_ShouldntTouch
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_TotodileBall_Choice
 	msgbox NewBarkTown_Lab_Text_ShouldntTouch, MSGBOX_DEFAULT
 	release
@@ -239,6 +239,7 @@ NewBarkTown_Lab_EventScript_ChoseStarter::
 	call_if_eq VAR_STARTER_MON, 1, NewBarkTown_Lab_EventScript_GiveStarter_Cyndaquil
 	call_if_eq VAR_STARTER_MON, 2, NewBarkTown_Lab_EventScript_GiveStarter_Totodile
 	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_KJ_GOT_JOHTO_STARTER @ カントー＆ジョウト: カントーで もう FLAG_SYS_POKEMON_GET が たっている
 	playfanfare MUS_OBTAIN_ITEM
 	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	message NewBarkTown_Lab_Text_ReceivedStarter
@@ -328,7 +329,7 @@ CopNewBarkTown_Lab_EventScript_ElmState2::
 
 NewBarkTown_Lab_EventScript_HealingMachine1::
 	lock
-	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_HealingMachine2
+	goto_if_set FLAG_KJ_GOT_JOHTO_STARTER, NewBarkTown_Lab_EventScript_HealingMachine2
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine, MSGBOX_SIGN
 	closemessage
 	release
