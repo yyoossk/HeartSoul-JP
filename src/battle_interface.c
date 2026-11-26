@@ -945,17 +945,37 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
     }
     else
     {
-        u32 width = GetStringWidth(FONT_SMALL, text, 0);
+        // HnS JP: Japanese digits are 8px wide, so "Lv100" did not fit and the "Lv" was lost.
+        // The player's level may use the empty space on its left (names are at most 48px);
+        // the opponent's 3-digit level is printed with the narrow digits.
+        u8 narrow[20];
+        s32 width, x;
+
+        width = GetStringWidth(FONT_SMALL, text, 0);
 
         if (IsOnPlayerSide(battler))
         {
-            FillSpriteRectColor(spriteId, 8, 5, 24, 11, HEALTHBOX_BG_INDEX);
-            AddSpriteTextPrinterParameterized6(spriteId, FONT_SMALL, 32 - width, 3, 0, 0, sHealthBoxTextColor, 0, text);
+            x = 32 - width;
+            if (x < 0)
+                x = 0;
+            FillSpriteRectColor(spriteId, 0, 5, 32, 11, HEALTHBOX_BG_INDEX);
+            AddSpriteTextPrinterParameterized6(spriteId, FONT_SMALL, x, 3, 0, 0, sHealthBoxTextColor, 0, text);
         }
         else
         {
+            StringCopy(narrow, text);
+            if (width > 24)
+            {
+                narrow[0] = EXT_CTRL_CODE_BEGIN;
+                narrow[1] = EXT_CTRL_CODE_ENG;
+                StringCopy(narrow + 2, text);
+                width = GetStringWidth(FONT_SMALL, narrow, 0);
+            }
+            x = 24 - width;
+            if (x < 0)
+                x = 0;
             FillSpriteRectColor(spriteId, 0, 5, 24, 11, HEALTHBOX_BG_INDEX);
-            AddSpriteTextPrinterParameterized6(spriteId, FONT_SMALL, 24 - width, 3, 0, 0, sHealthBoxTextColor, 0, text);
+            AddSpriteTextPrinterParameterized6(spriteId, FONT_SMALL, x, 3, 0, 0, sHealthBoxTextColor, 0, narrow);
         }
     }
 }
@@ -1916,7 +1936,8 @@ void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
 
         if (IsOnPlayerSide(gSprites[healthboxSpriteId].data[6]))
         {
-            FillSpriteRectColor(healthboxSpriteId, 16, 5, 55, 11, HEALTHBOX_BG_INDEX);
+            // HnS JP: names are at most 48px; the space after them is used by "Lv100"
+            FillSpriteRectColor(healthboxSpriteId, 16, 5, 48, 11, HEALTHBOX_BG_INDEX);
             AddSpriteTextPrinterParameterized6(healthboxSpriteId, fontId, 16, 3, 0, 0, sHealthBoxTextColor, 0, gDisplayedStringBattle);
         }
         else

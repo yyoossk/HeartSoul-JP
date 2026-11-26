@@ -8,6 +8,7 @@
 #include "pokedex.h"
 #include "sprite.h"
 #include "type_icons.h"
+#include "battle_interface.h"
 
 static void LoadTypeSpritesAndPalettes(void);
 static void LoadTypeIconsPerBattler(enum BattlerId, u32);
@@ -25,14 +26,11 @@ static bool32 ShouldSkipSecondType(enum Type[], u32);
 static void SetTypeIconXY(s32*, s32*, u32, bool32, u32);
 
 static void CreateSpriteAndSetTypeSpriteAttributes(enum Type, u32 x, u32 y, u32, enum BattlerId, bool32);
-static bool32 ShouldFlipTypeIcon(bool32, u32, enum Type);
 
 static void SpriteCB_TypeIcon(struct Sprite*);
 static void DestroyTypeIcon(struct Sprite*);
 static void FreeAllTypeIconResources(void);
 static bool32 ShouldHideTypeIcon(enum BattlerId);
-static s32 GetTypeIconHideMovement(bool32, u32);
-static s32 GetTypeIconSlideMovement(bool32, u32, s32);
 static s32 GetTypeIconBounceMovement(s32, u32);
 
 const struct Coords16 sTypeIconPositions[][2] =
@@ -251,13 +249,7 @@ void LoadTypeIcons(enum BattlerId battler)
 
 static void LoadTypeSpritesAndPalettes(void)
 {
-    if (IndexOfSpritePaletteTag(TYPE_ICON_TAG) != UCHAR_MAX)
-        return;
-
-    LoadCompressedSpriteSheet(&sSpriteSheet_TypeIcons1);
-    LoadCompressedSpriteSheet(&sSpriteSheet_TypeIcons2);
-    LoadSpritePalette(&sTypeIconPal1);
-    LoadSpritePalette(&sTypeIconPal2);
+    // HnS JP: labels are loaded per type in CreateSpriteAndSetTypeSpriteAttributes
 }
 
 static void LoadTypeIconsPerBattler(enum BattlerId battler, u32 position)
@@ -362,6 +354,22 @@ static bool32 IsIllusionActiveAndTypeUnchanged(struct Pokemon *monIllusion, u32 
     return TRUE;
 }
 
+// HnS JP: show the type as a name label (same graphics as the summary screen),
+// placed fully outside the healthbox so it is not hidden.
+static const u32 sTypeLabelGfx[] = INCBIN_U32("graphics/types/move_types.4bpp");
+#define TYPE_LABEL_TILE_TAG(type) (0x2730 + (type))
+#define TYPE_LABEL_PAL_TAG(n)     (0x2770 + (n))
+static EWRAM_DATA struct SpriteTemplate sTypeLabelTemplates[NUMBER_OF_MON_TYPES] = {0};
+
+static const struct OamData sOamData_TypeLabel =
+{
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .shape = SPRITE_SHAPE(32x16),
+    .size = SPRITE_SIZE(32x16),
+    .priority = 1,
+};
+
 static void CreateSpriteFromType(u32 position, bool32 useDoubleBattleCoords, enum Type types[], u32 typeNum, enum BattlerId battler)
 {
     s32 x = 0, y = 0;
@@ -387,16 +395,76 @@ static bool32 ShouldSkipSecondType(enum Type types[], u32 typeNum)
 
 static void SetTypeIconXY(s32* x, s32* y, u32 position, bool32 useDoubleBattleCoords, u32 typeNum)
 {
-    *x = sTypeIconPositions[position][useDoubleBattleCoords].x;
-    *y = sTypeIconPositions[position][useDoubleBattleCoords].y + (11 * typeNum);
+    enum BattlerId battlerId = GetBattlerAtPosition(position);
+    s16 hbX, hbY;
+    s32 left, right, top;
+
+    GetBattlerHealthboxCoords(battlerId, &hbX, &hbY);
+    if (GetBattlerSide(battlerId) == B_SIDE_PLAYER)
+    {
+        left = hbX - 23;
+        top = hbY - 13;
+    }
+    else
+    {
+        left = hbX - 31;
+        top = hbY - 14;
+    }
+    right = left + 91;
+
+    if (GetBattlerCoordsIndex(battlerId) == BATTLE_COORDS_SINGLES)
+    {
+        // two labels stacked next to the healthbox
+        if (GetBattlerSide(battlerId) == B_SIDE_PLAYER)
+            *x = left - 2 - 16;
+        else
+            *x = right + 2 + 16;
+        *y = top + 7 + 14 * typeNum;
+    }
+    else
+    {
+        // doubles: one row per battler
+        if (GetBattlerSide(battlerId) == B_SIDE_PLAYER)
+            *x = left - 2 - 16 - 33 * typeNum;
+        else
+            *x = right + 2 + 16 + 33 * typeNum;
+        *y = top + 7;
+    }
 }
 
 static void CreateSpriteAndSetTypeSpriteAttributes(enum Type type, u32 x, u32 y, u32 position, enum BattlerId battler, bool32 useDoubleBattleCoords)
 {
     struct Sprite* sprite;
-    const struct SpriteTemplate* spriteTemplate = gTypesInfo[type].useSecondTypeIconPalette ? &sSpriteTemplate_TypeIcons2 : &sSpriteTemplate_TypeIcons1;
-    u32 spriteId = CreateSpriteAtEnd(spriteTemplate, x, y, UCHAR_MAX);
+    struct SpriteTemplate *template;
+    u32 spriteId, palNum;
 
+    if (type >= NUMBER_OF_MON_TYPES)
+        type = TYPE_MYSTERY;
+    palNum = gTypesInfo[type].palette - 13;
+    if (palNum > 2)
+        palNum = 2;
+
+    if (IndexOfSpriteTileTag(TYPE_LABEL_TILE_TAG(type)) == 0xFF)
+    {
+        struct SpriteSheet sheet = {(const u8 *)sTypeLabelGfx + type * 0x100, 0x100, TYPE_LABEL_TILE_TAG(type)};
+        LoadSpriteSheet(&sheet);
+    }
+    if (IndexOfSpritePaletteTag(TYPE_LABEL_PAL_TAG(palNum)) == 0xFF)
+    {
+        struct SpritePalette pal = {gMoveTypes_Pal + 16 * palNum, TYPE_LABEL_PAL_TAG(palNum)};
+        LoadSpritePalette(&pal);
+    }
+
+    template = &sTypeLabelTemplates[type];
+    template->tileTag = TYPE_LABEL_TILE_TAG(type);
+    template->paletteTag = TYPE_LABEL_PAL_TAG(palNum);
+    template->oam = &sOamData_TypeLabel;
+    template->anims = gDummySpriteAnimTable;
+    template->images = NULL;
+    template->affineAnims = gDummySpriteAffineAnimTable;
+    template->callback = SpriteCB_TypeIcon;
+
+    spriteId = CreateSpriteAtEnd(template, x, y, UCHAR_MAX);
     if (spriteId == MAX_SPRITES)
         return;
 
@@ -404,20 +472,6 @@ static void CreateSpriteAndSetTypeSpriteAttributes(enum Type type, u32 x, u32 y,
     sprite->tMonPosition = position;
     sprite->tBattlerId = battler;
     sprite->tVerticalPosition = y;
-
-    sprite->hFlip = ShouldFlipTypeIcon(useDoubleBattleCoords, position, type);
-
-    StartSpriteAnim(sprite, type);
-}
-
-static bool32 ShouldFlipTypeIcon(bool32 useDoubleBattleCoords, u32 position, enum Type typeId)
-{
-    enum BattleSide side = (useDoubleBattleCoords) ? B_SIDE_OPPONENT : B_SIDE_PLAYER;
-
-    if (GetBattlerSide(GetBattlerAtPosition(position)) != side)
-        return FALSE;
-
-    return !gTypesInfo[typeId].isSpecialCaseType;
 }
 
 static void SpriteCB_TypeIcon(struct Sprite *sprite)
@@ -426,20 +480,13 @@ static void SpriteCB_TypeIcon(struct Sprite *sprite)
     enum BattlerId battlerId = sprite->tBattlerId;
     bool32 useDoubleBattleCoords = UseDoubleBattleCoords(GetBattlerAtPosition(position));
 
-    if (sprite->tHideIconTimer == NUM_FRAMES_HIDE_TYPE_ICON)
+    (void)useDoubleBattleCoords;
+    if (ShouldHideTypeIcon(battlerId))
     {
         DestroyTypeIcon(sprite);
         return;
     }
 
-    if (ShouldHideTypeIcon(battlerId))
-    {
-        sprite->x += GetTypeIconHideMovement(useDoubleBattleCoords, position);
-        ++sprite->tHideIconTimer;
-        return;
-    }
-
-    sprite->x += GetTypeIconSlideMovement(useDoubleBattleCoords,position, sprite->x);
     sprite->y = GetTypeIconBounceMovement(sprite->tVerticalPosition,position);
 }
 
@@ -451,23 +498,14 @@ static const u32 typeIconTags[] =
 
 static void DestroyTypeIcon(struct Sprite* sprite)
 {
-    u32 spriteId, tag;
+    u32 spriteId;
 
-    DestroySpriteAndFreeResources(sprite);
+    DestroySprite(sprite);
 
     for (spriteId = 0; spriteId < MAX_SPRITES; ++spriteId)
     {
-        if (!gSprites[spriteId].inUse)
-            continue;
-
-        for (tag = 0; tag < 2; tag++)
-        {
-            if (gSprites[spriteId].template->paletteTag == typeIconTags[tag])
-                return;
-
-            if (gSprites[spriteId].template->tileTag == typeIconTags[tag])
-                return;
-        }
+        if (gSprites[spriteId].inUse && gSprites[spriteId].callback == SpriteCB_TypeIcon)
+            return;
     }
 
     FreeAllTypeIconResources();
@@ -475,13 +513,12 @@ static void DestroyTypeIcon(struct Sprite* sprite)
 
 static void FreeAllTypeIconResources(void)
 {
-    u32 tag;
+    u32 i;
 
-    for (tag = 0; tag < 2; tag++)
-    {
-        FreeSpriteTilesByTag(typeIconTags[tag]);
-        FreeSpritePaletteByTag(typeIconTags[tag]);
-    }
+    for (i = 0; i < NUMBER_OF_MON_TYPES; i++)
+        FreeSpriteTilesByTag(TYPE_LABEL_TILE_TAG(i));
+    for (i = 0; i < 3; i++)
+        FreeSpritePaletteByTag(TYPE_LABEL_PAL_TAG(i));
 }
 
 static void (*const sShowTypesControllerFuncs[])(enum BattlerId battler) =
@@ -505,56 +542,6 @@ static bool32 ShouldHideTypeIcon(enum BattlerId battlerId)
             return FALSE;
 
     return TRUE;
-}
-
-static s32 GetTypeIconHideMovement(bool32 useDoubleBattleCoords, u32 position)
-{
-    if (useDoubleBattleCoords)
-    {
-        if (position == B_POSITION_PLAYER_LEFT || position == B_POSITION_PLAYER_RIGHT)
-            return 1;
-        else
-            return -1;
-    }
-
-    if (position == B_POSITION_PLAYER_LEFT)
-        return -1;
-    else
-        return 1;
-}
-
-static s32 GetTypeIconSlideMovement(bool32 useDoubleBattleCoords, u32 position, s32 xPos)
-{
-    if (useDoubleBattleCoords)
-    {
-        switch (position)
-        {
-        case B_POSITION_PLAYER_LEFT:
-        case B_POSITION_PLAYER_RIGHT:
-            if (xPos > sTypeIconPositions[position][useDoubleBattleCoords].x - 10)
-                return -1;
-            break;
-        default:
-        case B_POSITION_OPPONENT_LEFT:
-        case B_POSITION_OPPONENT_RIGHT:
-            if (xPos < sTypeIconPositions[position][useDoubleBattleCoords].x + 10)
-                return 1;
-            break;
-        }
-        return 0;
-    }
-
-    if (position == B_POSITION_PLAYER_LEFT)
-    {
-        if (xPos < sTypeIconPositions[position][useDoubleBattleCoords].x + 10)
-            return 1;
-    }
-    else
-    {
-        if (xPos > sTypeIconPositions[position][useDoubleBattleCoords].x - 10)
-            return -1;
-    }
-    return 0;
 }
 
 static s32 GetTypeIconBounceMovement(s32 originalY, u32 position)
