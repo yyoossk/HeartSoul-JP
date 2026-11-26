@@ -390,10 +390,23 @@ void DisplayYesNoMenuWithDefault(u8 initialCursorPos)
     CreateYesNoMenu(&sYesNo_WindowTemplates, STD_WINDOW_BASE_TILE_NUM, STD_WINDOW_PALETTE_NUM, initialCursorPos);
 }
 
+// HnS JP: with more than 8 entries the menu no longer fits on screen with
+// 16 px rows, so the rows are packed to 14 px (see start_menu.c).
+u8 GetStartMenuRowHeight(u8 numActions)
+{
+    return (numActions > 8) ? 14 : 16;
+}
+
+u8 GetStartMenuTopPadding(u8 numActions)
+{
+    return (numActions > 8) ? 2 : 9;
+}
+
 u8 AddStartMenuWindow(u8 numActions)
 {
+    u8 height = (numActions > 8) ? (numActions * 14 + 2 + 7) / 8 : (numActions * 2) + 2;
     if (sStartMenuWindowId == WINDOW_NONE)
-        sStartMenuWindowId = AddWindowParameterized(0, 22, 1, 7, (numActions * 2) + 2, 15, 0x139);
+        sStartMenuWindowId = AddWindowParameterized(0, 22, 1, 7, height, 15, 0x139);
     return sStartMenuWindowId;
 }
 
