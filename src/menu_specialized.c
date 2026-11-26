@@ -1538,14 +1538,6 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bg
                                      TEXT_SKIP_DRAW,
                                      sLvlUpStatStrings[i]);
 
-        StringCopy(text, (statsDiff[i] >= 0) ? gText_Plus : gText_Dash);
-        AddTextPrinterParameterized3(windowId,
-                                     FONT_NORMAL,
-                                     56,
-                                     15 * i,
-                                     color,
-                                     TEXT_SKIP_DRAW,
-                                     text);
         if (abs(statsDiff[i]) > 999)
             numDigits = 4;
         else if (abs(statsDiff[i]) > 99)
@@ -1555,14 +1547,21 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bg
         else
             numDigits = 1;
 
-        // Right-align the number against the right edge of the window,
-        // leaving room for the +/- sign drawn at x = 56.
-        x = (numDigits >= 4) ? 0 : 6 * (4 - numDigits);
-
+        // Right-align the number against the right edge of the window
+        // (Japanese digits are 8 px wide, so measure them).
         ConvertIntToDecimalStringN(text, abs(statsDiff[i]), STR_CONV_MODE_LEFT_ALIGN, numDigits);
+        x = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8 - GetStringWidth(FONT_NORMAL, text, 0);
         AddTextPrinterParameterized3(windowId,
                                      FONT_NORMAL,
-                                     56 + x,
+                                     x,
+                                     15 * i,
+                                     color,
+                                     TEXT_SKIP_DRAW,
+                                     text);
+        StringCopy(text, (statsDiff[i] >= 0) ? gText_Plus : gText_Dash);
+        AddTextPrinterParameterized3(windowId,
+                                     FONT_NORMAL,
+                                     x - GetStringWidth(FONT_NORMAL, text, 0),
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,
@@ -1602,7 +1601,7 @@ void DrawLevelUpWindowPg2(u16 windowId, u16 *currStats, u8 bgClr, u8 fgClr, u8 s
             numDigits = 1;
 
         ConvertIntToDecimalStringN(text, stats[i], STR_CONV_MODE_LEFT_ALIGN, numDigits);
-        x = 6 * (4 - numDigits);
+        x = GetWindowAttribute(windowId, WINDOW_WIDTH) * 8 - GetStringWidth(FONT_NORMAL, text, 0);
 
         AddTextPrinterParameterized3(windowId,
                                      FONT_NORMAL,
@@ -1614,7 +1613,7 @@ void DrawLevelUpWindowPg2(u16 windowId, u16 *currStats, u8 bgClr, u8 fgClr, u8 s
 
         AddTextPrinterParameterized3(windowId,
                                      FONT_NORMAL,
-                                     56 + x,
+                                     x,
                                      15 * i,
                                      color,
                                      TEXT_SKIP_DRAW,
