@@ -2091,7 +2091,7 @@ static u32 DexNavGetEncounterDetails(u16 species, u8 area, u8 *minLv, u8 *maxLv,
 static u16 TryDrawIconInSlot(u16 species, s16 x, s16 y)
 {
     if (species == SPECIES_NONE || species > NUM_SPECIES)
-        return CreateNoDataIcon(x, y) | 0x8000;   //'X' in slot
+        return 0xFFFF;   // HnS JP: empty slots are left blank (no 'X')
     else if (!GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_SEEN))
         return CreateMonIcon(SPECIES_NONE, SpriteCB_MonIcon, x, y, 0, 0xFFFFFFFF); //question mark
     else
@@ -2123,6 +2123,8 @@ static void DestroyLandBoxIcons(void)
     for (i = 0; i < LAND_WILD_COUNT; i++)
     {
         u16 id = sDexNavUiDataPtr->landIconIds[i];
+        if (id == 0xFFFF)
+            continue;
         if (id & 0x8000)
             DestroySprite(&gSprites[id & 0xFF]);
         else
