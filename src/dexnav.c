@@ -241,7 +241,7 @@ static const struct WindowTemplate sDexNavGuiWindowTemplates[] =
     {
         .bg = 0,
         .tilemapLeft = 2,
-        .tilemapTop = 15,
+        .tilemapTop = 14,
         .width = 10,
         .height = 2,
         .paletteNum = 15,
@@ -2375,7 +2375,7 @@ static void PrintBoxLabels(void)
         FillWindowPixelBuffer(winIds[i], PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     AddTextPrinterParameterized3(WINDOW_LBL_LAND, FONT_SMALL, 2, 4, sFontColor_White, 0,
                                  sDexNavUiDataPtr->page ? sText_DN_Fish : sText_DN_Land);
-    AddTextPrinterParameterized3(WINDOW_LBL_ROCK, FONT_SMALL, 6, 0, sFontColor_White, 0, sText_DN_Rock);
+    AddTextPrinterParameterized3(WINDOW_LBL_ROCK, FONT_SMALL, 6, 5, sFontColor_White, 0, sText_DN_Rock);
     for (i = 0; i < ARRAY_COUNT(winIds); i++)
     {
         PutWindowTilemap(winIds[i]);
