@@ -2877,10 +2877,10 @@ static void PrintBattlerOnAbilityPopUp(enum BattlerId battler, u8 spriteId1, u8 
     while (gStringVar1[totalChar] != EOS)
         totalChar++;
 
+    // HnS JP: "<name>の" instead of the English "<name>'s"
     lastChar = gStringVar1[totalChar - 1];
-    StringAppend(gStringVar1, COMPOUND_STRING("'"));
-    if (lastChar != CHAR_S && lastChar != CHAR_s)
-        StringAppend(gStringVar1, COMPOUND_STRING("s"));
+    (void)lastChar;
+    StringAppend(gStringVar1, COMPOUND_STRING("の"));
 
     PrintOnAbilityPopUp(gStringVar1,
                         (void *)(OBJ_VRAM0) + TILE_OFFSET_4BPP(gSprites[spriteId1].oam.tileNum),

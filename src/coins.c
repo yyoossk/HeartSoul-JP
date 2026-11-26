@@ -10,15 +10,26 @@
 
 static EWRAM_DATA u8 sCoinsWindowId = 0;
 
+// HnS JP: "コイン" at the left and "<N>まい" at the right, with narrow digits,
+// so the 8-tile window fits (Japanese digits and spaces are 8 px wide).
+static const u8 sText_CoinsLabel[] = _("コイン");
+static const u8 sText_CoinsUnit[] = _("まい");
 void PrintCoinsString(u32 coinAmount)
 {
-    u32 xAlign;
+    u8 *ptr = gStringVar4;
 
-    ConvertIntToDecimalStringN(gStringVar1, coinAmount, STR_CONV_MODE_RIGHT_ALIGN, MAX_COIN_DIGITS);
-    StringExpandPlaceholders(gStringVar4, gText_Coins);
+    FillWindowPixelBuffer(sCoinsWindowId, PIXEL_FILL(1));
+    AddTextPrinterParameterized(sCoinsWindowId, FONT_NORMAL, sText_CoinsLabel, 0, 1, TEXT_SKIP_DRAW, NULL);
 
-    xAlign = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 0x40);
-    AddTextPrinterParameterized(sCoinsWindowId, FONT_NORMAL, gStringVar4, xAlign, 1, 0, NULL);
+    *ptr++ = EXT_CTRL_CODE_BEGIN;
+    *ptr++ = EXT_CTRL_CODE_ENG;
+    ptr = ConvertIntToDecimalStringN(ptr, coinAmount, STR_CONV_MODE_LEFT_ALIGN, MAX_COIN_DIGITS);
+    *ptr++ = EXT_CTRL_CODE_BEGIN;
+    *ptr++ = EXT_CTRL_CODE_JPN;
+    *ptr = EOS;
+    StringAppend(gStringVar4, sText_CoinsUnit);
+    AddTextPrinterParameterized(sCoinsWindowId, FONT_NORMAL, gStringVar4,
+                                64 - GetStringWidth(FONT_NORMAL, gStringVar4, 0), 1, 0, NULL);
 }
 
 void ShowCoinsWindow(u32 coinAmount, u8 x, u8 y)

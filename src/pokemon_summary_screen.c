@@ -783,8 +783,8 @@ static const u8 sText_Relearn_TM[] = _("{START_BUTTON}わざマシン");
 static const u8 sText_Relearn_Tutor[] = _("{START_BUTTON}おしえわざ");
 
 static const u8 sMemoNatureTextColor[] = _("{COLOR LIGHT_RED}{SHADOW GREEN}");
-static const u8 sMemoHiddenNatureTextColor[] = _(" ({COLOR BLUE}{SHADOW DARK_GRAY}");
-static const u8 sText_EndParentheses[] = _("{COLOR WHITE}{SHADOW DARK_GRAY})");
+static const u8 sMemoHiddenNatureTextColor[] = _("「{COLOR BLUE}{SHADOW DARK_GRAY}"); // HnS JP: the JP font has no ( )
+static const u8 sText_EndParentheses[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}」");
 static const u8 sMemoMiscTextColor[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}"); // This is also affected by palettes, apparently
 static const u8 sStatsLeftColumnLayout[] = _("{ENG}{DYNAMIC 0}/{DYNAMIC 1}\n{DYNAMIC 2}\n{DYNAMIC 3}");
 static const u8 sStatsLeftIVEVColumnLayout[] = _("{ENG}{DYNAMIC 0}\n{DYNAMIC 1}\n{DYNAMIC 2}");
