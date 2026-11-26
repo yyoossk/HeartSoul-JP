@@ -2324,11 +2324,15 @@ static void Task_HandleCancelParticipationYesNoInput(u8 taskId)
     }
 }
 
+s32 CanSpeciesLearnPLATutorMove(u16 species, u16 move);
+
 static enum CanMoveBeLearned CanTeachMove(struct Pokemon *mon, enum Move move)
 {
+    s32 pla = CanSpeciesLearnPLATutorMove(GetMonData(mon, MON_DATA_SPECIES_OR_EGG), move);
+
     if (GetMonData(mon, MON_DATA_IS_EGG))
         return CANNOT_LEARN_MOVE_IS_EGG;
-    else if (!CanLearnTeachableMove(GetMonData(mon, MON_DATA_SPECIES_OR_EGG), move))
+    else if (pla == FALSE || (pla < 0 && !CanLearnTeachableMove(GetMonData(mon, MON_DATA_SPECIES_OR_EGG), move)))
         return CANNOT_LEARN_MOVE;
     else if (MonKnowsMove(mon, move) == TRUE)
         return ALREADY_KNOWS_MOVE;

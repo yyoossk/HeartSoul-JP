@@ -48,6 +48,7 @@ GoldenrodDeptStore2_EventScript_Clerk::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
+	goto_if_set FLAG_SYS_GAME_CLEAR, GoldenrodDeptStore2_EventScript_ClerkPostGame
 	pokemart GoldenrodDeptStore2_Pokemart
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
@@ -58,6 +59,39 @@ GoldenrodDeptStore2_Pokemart:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_WATER_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_POTION
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_HYPER_POTION
+	.2byte ITEM_MAX_POTION
+	.2byte ITEM_REVIVE
+	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_BURN_HEAL
+	.2byte ITEM_ICE_HEAL
+	.2byte ITEM_AWAKENING
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_REPEL
+	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_MAX_REPEL
+	pokemartlistend
+
+@ HnS JP: after the Hall of Fame, the Master Ball is sold too
+GoldenrodDeptStore2_EventScript_ClerkPostGame::
+	pokemart GoldenrodDeptStore2_PokemartPostGame
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+GoldenrodDeptStore2_PokemartPostGame:
+	.2byte ITEM_POKE_BALL
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_MASTER_BALL
 	.2byte ITEM_FIRE_STONE
 	.2byte ITEM_WATER_STONE
 	.2byte ITEM_THUNDER_STONE
