@@ -1,7 +1,9 @@
 @ Interact with cuttable tree
 EventScript_CutTree::
 	lockall
+	goto_if_set FLAG_KJ_RECEIVED_HM_CUT, KJ_CutHmOk @ カントー＆ジョウト: サントアンヌ号の　せんちょうから　もらった
 	goto_if_unset FLAG_RECEIVED_HM_CUT, EventScript_CheckTreeCantCut
+KJ_CutHmOk:
 	goto_if_set FLAG_BADGE10_GET, KJ_FieldMoveBadgeOk_1 @ カントー＆ジョウト: カントーのバッジでも
 	goto_if_unset FLAG_BADGE02_GET, EventScript_CheckTreeCantCut
 KJ_FieldMoveBadgeOk_1:
