@@ -4319,6 +4319,35 @@ static void Task_PrintBattleMoves(u8 taskId)
     data[0]++;
 }
 
+// HnS JP: draw "PP cur/max" with narrow (English) digits at fixed positions,
+// so the "PP" label and the slash line up whether the numbers have 1 or 2 digits.
+static const u8 sText_PPLabelEng[] = _("{PP}");
+static const u8 sText_PPSlashEng[] = _("/");
+static void PrintPPAligned(u8 windowId, u32 cur, u32 max, u8 y, u8 colorId)
+{
+    u8 buf[16];
+    u32 slotW, slashX;
+
+    buf[0] = EXT_CTRL_CODE_BEGIN;
+    buf[1] = EXT_CTRL_CODE_ENG;
+    ConvertIntToDecimalStringN(buf + 2, 88, STR_CONV_MODE_LEFT_ALIGN, 2);
+    slotW = GetStringWidth(FONT_NORMAL, buf, 0);
+
+    // max, right-aligned to the right edge (42)
+    ConvertIntToDecimalStringN(buf + 2, max, STR_CONV_MODE_LEFT_ALIGN, 2);
+    PrintTextOnWindow(windowId, buf, 42 - GetStringWidth(FONT_NORMAL, buf, 0), y, 0, colorId);
+    // slash
+    StringCopy(buf + 2, sText_PPSlashEng);
+    slashX = 42 - slotW - GetStringWidth(FONT_NORMAL, buf, 0);
+    PrintTextOnWindow(windowId, buf, slashX, y, 0, colorId);
+    // current, right-aligned just left of the slash
+    ConvertIntToDecimalStringN(buf + 2, cur, STR_CONV_MODE_LEFT_ALIGN, 2);
+    PrintTextOnWindow(windowId, buf, slashX - GetStringWidth(FONT_NORMAL, buf, 0), y, 0, colorId);
+    // "PP" at the position it has with two digits
+    StringCopy(buf + 2, sText_PPLabelEng);
+    PrintTextOnWindow(windowId, buf, slashX - slotW - GetStringWidth(FONT_NORMAL, buf, 0), y, 0, colorId);
+}
+
 static void PrintMoveNameAndPP(u8 moveIndex)
 {
     u8 pp;
@@ -4333,19 +4362,9 @@ static void PrintMoveNameAndPP(u8 moveIndex)
     {
         pp = CalculatePPWithBonus(move, summary->ppBonuses, moveIndex);
         PrintTextOnWindowToFit(moveNameWindowId, GetMoveName(move), 0, moveIndex * 16 + 1, 0, 1);
-        ConvertIntToDecimalStringN(gStringVar1, summary->pp[moveIndex], STR_CONV_MODE_RIGHT_ALIGN, 2);
-        ConvertIntToDecimalStringN(gStringVar2, pp, STR_CONV_MODE_RIGHT_ALIGN, 2);
-        DynamicPlaceholderTextUtil_Reset();
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gStringVar2);
-        // HnS JP: print the numbers with the narrow (English) digits so
-        // "PP30/30" fits inside the move selector frame.
-        gStringVar3[0] = EXT_CTRL_CODE_BEGIN;
-        gStringVar3[1] = EXT_CTRL_CODE_ENG;
-        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar3 + 2, sMovesPPLayout);
-        text = gStringVar3;
         ppState = GetCurrentPpToMaxPpState(summary->pp[moveIndex], pp) + 9;
-        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 42);
+        PrintPPAligned(ppValueWindowId, summary->pp[moveIndex], pp, moveIndex * 16 + 1, ppState);
+        return;
     }
     else
     {
@@ -4504,14 +4523,7 @@ static void PrintNewMoveDetailsOrCancelText(void)
         else
             PrintTextOnWindowToFit(windowId1, GetMoveName(move), 0, 65, 0, 5);
 
-        ConvertIntToDecimalStringN(gStringVar1, GetMovePP(move), STR_CONV_MODE_RIGHT_ALIGN, 2);
-        DynamicPlaceholderTextUtil_Reset();
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gStringVar1);
-        gStringVar3[0] = EXT_CTRL_CODE_BEGIN;
-        gStringVar3[1] = EXT_CTRL_CODE_ENG;
-        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar3 + 2, sMovesPPLayout);
-        PrintTextOnWindow(windowId2, gStringVar3, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar3, 42), 65, 0, 12);
+        PrintPPAligned(windowId2, GetMovePP(move), GetMovePP(move), 65, 12);
     }
 }
 
