@@ -6011,8 +6011,10 @@ static void Cmd_yesnoboxlearnmove(void)
         HandleBattleWindow(YESNOBOX_X_Y, 0);
         BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
         gBattleScripting.learnMoveState++;
-        gBattleCommunication[CURSOR_POSITION] = 0;
-        BattleCreateYesNoCursorAt(0);
+        // HnS JP: start on いいえ so mashing A (turbo) loops between the two
+        // questions instead of replacing or giving up a move.
+        gBattleCommunication[CURSOR_POSITION] = 1;
+        BattleCreateYesNoCursorAt(1);
         break;
     case 1:
         if (JOY_NEW(DPAD_UP) && gBattleCommunication[CURSOR_POSITION] != 0)
@@ -6127,8 +6129,10 @@ static void Cmd_yesnoboxstoplearningmove(void)
         HandleBattleWindow(YESNOBOX_X_Y, 0);
         BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
         gBattleScripting.learnMoveState++;
-        gBattleCommunication[CURSOR_POSITION] = 0;
-        BattleCreateYesNoCursorAt(0);
+        // HnS JP: start on いいえ so mashing A (turbo) loops between the two
+        // questions instead of replacing or giving up a move.
+        gBattleCommunication[CURSOR_POSITION] = 1;
+        BattleCreateYesNoCursorAt(1);
         break;
     case 1:
         if (JOY_NEW(DPAD_UP) && gBattleCommunication[CURSOR_POSITION] != 0)

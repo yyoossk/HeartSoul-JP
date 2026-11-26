@@ -944,8 +944,9 @@ static void Task_EvolutionScene(u8 taskId)
                 HandleBattleWindow(YESNOBOX_X_Y, 0);
                 BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
                 gTasks[taskId].tLearnMoveState++;
-                sEvoCursorPos = 0;
-                BattleCreateYesNoCursorAt(0);
+                // HnS JP: start on いいえ (see Cmd_yesnoboxlearnmove)
+                sEvoCursorPos = 1;
+                BattleCreateYesNoCursorAt(1);
             }
             break;
         case MVSTATE_HANDLE_YES_NO:
