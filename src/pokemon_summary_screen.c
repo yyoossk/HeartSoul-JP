@@ -106,7 +106,7 @@
 #define PSS_DATA_WINDOW_MOVE_PP 1
 #define PSS_DATA_WINDOW_MOVE_DESCRIPTION 2
 
-#define MOVE_SELECTOR_SPRITES_COUNT 10
+#define MOVE_SELECTOR_SPRITES_COUNT 11 // HnS JP: one more piece so the frame is wider on the left
 #define TYPE_ICON_SPRITE_COUNT (MAX_MON_MOVES + 1)
 // for the spriteIds field in PokemonSummaryScreenData
 enum
@@ -4345,7 +4345,7 @@ static void PrintMoveNameAndPP(u8 moveIndex)
         DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar3 + 2, sMovesPPLayout);
         text = gStringVar3;
         ppState = GetCurrentPpToMaxPpState(summary->pp[moveIndex], pp) + 9;
-        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 40);
+        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 42);
     }
     else
     {
@@ -4511,7 +4511,7 @@ static void PrintNewMoveDetailsOrCancelText(void)
         gStringVar3[0] = EXT_CTRL_CODE_BEGIN;
         gStringVar3[1] = EXT_CTRL_CODE_ENG;
         DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar3 + 2, sMovesPPLayout);
-        PrintTextOnWindow(windowId2, gStringVar3, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar3, 40), 65, 0, 12);
+        PrintTextOnWindow(windowId2, gStringVar3, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar3, 42), 65, 0, 12);
     }
 }
 
@@ -4931,10 +4931,12 @@ static void CreateMoveSelectorSprites(u8 idArrayStart)
 
         for (i = 0; i < MOVE_SELECTOR_SPRITES_COUNT; i++)
         {
-            spriteIds[i] = CreateSprite(&sMoveSelectorSpriteTemplate, i * 16 + 89, 40, subpriority);
+            // HnS JP: the frame starts 5 px further left (clear of the type icon) and the
+            // right piece stays at the right edge (clear of the PP numbers).
+            spriteIds[i] = CreateSprite(&sMoveSelectorSpriteTemplate, (i == MOVE_SELECTOR_SPRITES_COUNT - 1) ? 235 : i * 16 + 85, 40, subpriority);
             if (i == 0)
                 StartSpriteAnim(&gSprites[spriteIds[i]], 4); // left
-            else if (i == 9)
+            else if (i == MOVE_SELECTOR_SPRITES_COUNT - 1)
                 StartSpriteAnim(&gSprites[spriteIds[i]], 5); // right, actually the same as left, but flipped
             else
                 StartSpriteAnim(&gSprites[spriteIds[i]], 6); // middle
@@ -4985,7 +4987,7 @@ static void SetMainMoveSelectorColor(u8 which)
     {
         if (i == 0)
             StartSpriteAnim(&gSprites[spriteIds[i]], which + 4);
-        else if (i == 9)
+        else if (i == MOVE_SELECTOR_SPRITES_COUNT - 1)
             StartSpriteAnim(&gSprites[spriteIds[i]], which + 5);
         else
             StartSpriteAnim(&gSprites[spriteIds[i]], which + 6);
