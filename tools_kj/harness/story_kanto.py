@@ -1,7 +1,9 @@
 # story_kanto.py : カントー編（ファイアレッドのカントー）の　てじゅん
 ROM = '/tmp/play/rom.gba'
-START_STATE = '/tmp/z9.ss'; START_SAV = '/tmp/z9.sav'
+START_STATE = '/tmp/play2/new.ss'; START_SAV = '/tmp/play2/new.sav'
 TEST_MOVES = [57, 89, 58, 85]  # なみのり　じしん　れいとうビーム　10まんボルト（テスト　よう）
+AVOID = ['MAP_ROUTE18_EAST_ENTRANCE_1F', 'MAP_ROUTE16_NORTH_ENTRANCE_1F']  # サイクリングロード（じてんしゃ　なし）
+ON_BOOT_VARS = [(0x40B3, 6), (0x40BE, 2)]  # オーキドの　けんきゅうじょ・ライバルの　いえ（DexNav と　かぶって　いたのを　うつした）
 BOOST = 100  # 3つめの　バッジの　あとは　テストを　はやく　する　ため　つよく　する
 PC = {'viridian': 'MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F', 'pewter': 'MAP_PEWTER_CITY_POKEMON_CENTER_1F'}
 

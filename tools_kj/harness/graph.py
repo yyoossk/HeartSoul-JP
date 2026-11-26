@@ -74,8 +74,9 @@ def blocked_objs(objs, cut, smash):
             blk.add((o['x'], o['y']))
     return blk
 
-def build(bot, cache='/tmp/play/graph9.pkl'):
-    if os.path.exists(cache) and os.path.getmtime(cache) > os.path.getmtime('/tmp/play/rom.gba'):
+def build(bot, cache=None):
+    cache = cache or os.environ.get('PLAYDIR', '/tmp/play') + '/graph9.pkl'
+    if os.path.exists(cache) and os.path.getmtime(cache) > os.path.getmtime(os.environ.get('ROMGBA') or '/tmp/play/rom.gba'):
         return pickle.load(open(cache, 'rb'))
     L = {l['id']: l for l in json.load(open(f'{SRC}/data/layouts/layouts.json'))['layouts'] if 'width' in l}
     attr = {}
@@ -140,7 +141,7 @@ def build(bot, cache='/tmp/play/graph9.pkl'):
     for surf, cut, smash in itertools.product((False, True), repeat=3):
         cc = {}
         for key, (w, h, cells, pa, sa, nprim) in grids.items():
-            blk = blocked_objs(bot.maps[key]['objs'], cut, smash) | {(wp['x'], wp['y']) for wp in bot.maps[key]['warps']}
+            blk = blocked_objs(bot.maps[key]['objs'], cut, smash) | {(wp['x'], wp['y']) for i, wp in enumerate(bot.maps[key]['warps']) if not (wp['dest_map'] == bot.maps[key]['id'] and str(wp['dest_warp_id']) == str(i))}
             doors = {(bg['x'], bg['y']) for bg in bot.maps[key]['bgs'] if 'EventScript_Door' in (bg.get('script') or '')}
             cc[key] = components(w, h, make_ok(w, h, cells, behf(pa, sa, nprim), blk, surf, bot.WATER, bot.JUMP, allow=doors), cells, (lambda c, bh=behf(pa, sa, nprim): bh(c) in bot.WATER) if surf else None)
         comps[(surf, cut, smash)] = cc

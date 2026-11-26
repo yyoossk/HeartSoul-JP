@@ -6,11 +6,12 @@ sys.path.insert(0, '/home/claude/kjtest')
 from bot import Bot
 story = importlib.import_module(sys.argv[1])
 start = int(sys.argv[2]) if len(sys.argv) > 2 else 0
-D = '/tmp/play'
+D = __import__('os').environ.get('PLAYDIR', '/tmp/play')
 boot = sys.argv[3] if len(sys.argv) > 3 else None  # .sav から　つづきから　はじめる（ROM を　つくりなおした　とき）
-st = '-' if boot else (f'{D}/step{start:03d}.ss' if start else story.START_STATE)
-shutil.copy(boot or (f'{D}/step{start:03d}.sav' if start else story.START_SAV), f'{D}/cur.sav')
-b = Bot(story.ROM, f'{D}/cur.sav', st)
+E = __import__('os').environ
+st = '-' if boot else (f'{D}/step{start:03d}.ss' if start else E.get('START_SS', story.START_STATE))
+shutil.copy(boot or (f'{D}/step{start:03d}.sav' if start else E.get('START_SAV', story.START_SAV)), f'{D}/cur.sav')
+b = Bot(__import__('os').environ.get('ROMGBA') or story.ROM, f'{D}/cur.sav', st)
 b.wait(2)
 if boot:
     for i in range(400):
@@ -18,17 +19,20 @@ if boot:
         b.press('A', 2, 20)
     b.wait(60); b.log('BOOTED', b.maps.get(b.mapkey(), {}).get('id'), b.player())
 b.fast_opts()
+for v, val in getattr(story, 'ON_BOOT_VARS', []) if boot else []: b.set_var(v, val)  # ROM を　つくりなおして　かわった　変数の　ばしょへ
 b.capture = getattr(story, 'CAPTURE', None)
+if getattr(story, 'AVOID', None): type(b).AVOID = tuple(story.AVOID)  # じてんしゃが　ない　あいだ　とおれない　ゲート　など
 for i, s in enumerate(story.STEPS):
     if i < start: continue
     b.log(f'== STEP {i}', s)
-    b.BAD.clear()  # とおれなかった　えだは　てじゅん　ごとに　わすれる
+    b.BAD.clear(); b.SEENOBJ.clear()  # とおれなかった　えだは　てじゅん　ごとに　わすれる
     if b.in_overworld() and not b.busy() and b.need_heal(): b.heal_nearest()
     if getattr(story, 'BOOST', None) and b.in_overworld() and b.party_hp() and not b.busy(): b.TEST_MOVES = getattr(story, 'TEST_MOVES', None); b.boost(story.BOOST)
     op, *a = s
     if op == 'map': ok = b.go_map(*a)
     elif op == 'talk': ok = b.talk(*a)
     elif op == 'xy':
+        if b.bfs([tuple(a)]) is None: b.clear_obstacles()  # カードキーの　ドア　など
         if b.bfs([tuple(a)]) is None: b.go_tile(b.mapkey(), *a)
         ok = b.goto([tuple(a)])
     elif op == 'at': ok = b.talk_at(*a)

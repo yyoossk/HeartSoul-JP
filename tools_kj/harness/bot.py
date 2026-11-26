@@ -8,7 +8,7 @@ OPP = {'U': 'D', 'D': 'U', 'L': 'R', 'R': 'L'}
 
 def load_syms():
     syms = {}
-    out = subprocess.run(['/home/claude/tc/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-nm', '/tmp/play/rom.elf' if os.path.exists('/tmp/play/rom.elf') else f'{SRC}/pokehns.elf'], capture_output=True, text=True).stdout
+    out = subprocess.run(['/home/claude/tc/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-nm', os.environ.get('ROMELF') or ('/tmp/play/rom.elf' if os.path.exists('/tmp/play/rom.elf') else f'{SRC}/pokehns.elf')], capture_output=True, text=True).stdout
     for l in out.splitlines():
         p = l.split()
         if len(p) == 3: syms.setdefault(p[2], int(p[0], 16))
@@ -53,7 +53,8 @@ def load_maps():
     return info, byid
 
 class Bot:
-    def __init__(self, rom, sav, state='-', outdir='/tmp/play', log='/tmp/play/log.txt'):
+    def __init__(self, rom, sav, state='-', outdir=None, log=None):
+        outdir = outdir or os.environ.get('PLAYDIR', '/tmp/play'); log = log or outdir + '/log.txt'
         os.makedirs(outdir, exist_ok=True)
         self.outdir = outdir
         self.p = subprocess.Popen(['/home/claude/harness/srv', rom, sav, state, outdir], stdin=subprocess.PIPE,
@@ -210,7 +211,10 @@ class Bot:
                 if lid not in live and (abs(pos[0] - px) > 7 or abs(pos[1] - py) > 5): blocked.add(pos)
         info = self.maps.get(self.mapkey())
         if info:  # ほかの　ワープの　マスは　ふまない
-            for w in info['warps']: blocked.add((w['x'], w['y']))
+            for i, w in enumerate(info['warps']):
+                try: self_w = w['dest_map'] == info['id'] and int(w['dest_warp_id']) == i
+                except ValueError: self_w = False
+                if not self_w: blocked.add((w['x'], w['y']))  # じぶんへの　ワープ（おちた　ときの　ついたばしょ）は　ふんで　よい
             import graph  # きれない　木・こわせない　岩（まだ　でて　いなくても）
             ab = self.abilities()
             blocked |= {t for t in graph.blocked_objs(info['objs'], ab[1], ab[2])
@@ -235,6 +239,13 @@ class Bot:
                     nx, ny = nx + dx, ny + dy
                     if (nx, ny) in prev: continue
                 k = 0
+                ice = self.MB.get('MB_ICE')
+                if b == ice:  # こおりの　ゆか：かべ（はいれない　マス）まで　おなじ　むきに　すべる
+                    while k < 80:
+                        k += 1
+                        if g['beh'](self.tile(g, nx, ny)) != ice: break
+                        if not self.can_enter(g, nx + dx, ny + dy, d, blocked - tset): break
+                        nx, ny = nx + dx, ny + dy
                 if b in self.SPIN:  # かいてんゆか：とまる　マスか　かべまで　すべる（やじるしで　むきが　かわる）
                     sd = self.SPIN[b]; stop = self.MB.get('MB_STOP_SPINNING')
                     while k < 80:
@@ -279,6 +290,28 @@ class Bot:
         f = self.r32(self.S['gObjectEvents'] + idx * 0x24)
         return bool(f & (1 << 2)) or bool(f & (1 << 1))  # heldMovementActive / singleMovementActive 付近
 
+    def yesno_active(self):
+        f = self.S.get('Task_HandleYesNoInput')
+        if not f: return False
+        d = self.rd(self.S['gTasks'], 40 * 16)
+        for i in range(16):
+            fn = int.from_bytes(d[i * 40:i * 40 + 4], 'little'); act = d[i * 40 + 4]
+            if act and (fn & ~1) == (f & ~1): return True
+        return False
+    def answer(self, answers):
+        # はい／いいえを　じゅんに　こたえる（'Y' / 'N'）
+        for a in answers:
+            for i in range(80):
+                if self.yesno_active(): break
+                self.press('A', 2, 10)
+            else: return False
+            self.wait(20)  # でた　ばかりの　まどは　キーを　うけつけない
+            if a == 'N': self.press('D', 4, 15)  # B は　キャンセルで　いいえ　には　ならない
+            self.press('A', 2, 30)
+            for i in range(20):
+                if not self.yesno_active(): break
+                self.wait(5)
+        self.handle_busy(); return True
     def busy(self):
         return (not self.in_overworld()) or self.script_running()
 
@@ -292,6 +325,8 @@ class Bot:
                 self.press('S', 2, 10); self.press('A', 2, 30); continue
             if cb == self.S.get('CB2_WallClock'):  # とけいの　せってい：はい　を　えらぶ
                 self.press('B', 4, 90); self.press('A', 4, 120); self.cmd('p U 8', 'w 40', 'p U 1', 'w 40'); self.press('A', 4, 120); continue
+            if cb == self.S.get('CB2_UpdatePartyMenu'):  # ふたりがかりの　メンバーを　えらぶ：START で　けってい　へ
+                self.press('S', 2, 20); self.press('A', 2, 40); continue
             if cb == self.S.get('CB2_WhiteOut'):
                 self.log('WHITEOUT'); self.wait(60); continue
             self.press('A', 2, 10)
@@ -306,6 +341,9 @@ class Bot:
         while self.in_battle() and t < 3000:
             t += 1
             trainer = self.r32(self.S['gBattleTypeFlags']) & 8
+            if bytes([0x01, 0x07, 0x27, 0x22]) in self.rd(self.S['gDisplayedStringBattle'], 120):
+                # 「〜を　おぼえさせるのを　あきらめますか？」（さいしょは　いいえ）：はい　を　えらぶ
+                self.press('U', 2, 10); self.press('A', 2, 30); continue
             if not trainer and not self.grinding and t < 60:  # にげられない　ときは　たたかう
                 self.cmd(f"w8 {self.S['gActionSelectionCursor']:x} 3"); self.press('A', 2, 20)
             else:
@@ -343,7 +381,7 @@ class Bot:
         while q:
             n = q.popleft()
             nm = self.maps[n[0]]['id']
-            if nm.endswith('POKEMON_CENTER_1F'):
+            if nm.endswith('POKEMON_CENTER_1F') or nm.endswith('POKEMON_CENTER_HNS'):
                 self.log('AUTOHEAL', nm)
                 ok = self.heal(nm); self.lead_pp = 99; return ok
             for m, e in graph.out_edges(Bot.G, comp, n, self.live_ledges):
@@ -393,7 +431,7 @@ class Bot:
                 self.tmp_block.add(t); Bot.TBLOCK.setdefault(self.mapkey(), set()).add(t)
             if r is not True: return r
             c = self.tile(g, *self.player()[:2])
-            if c is not None and g['beh'](c) in self.SPIN or self.spinning():  # すべりおわるまで　まつ
+            if c is not None and (g['beh'](c) in self.SPIN or g['beh'](c) == self.MB.get('MB_ICE')) or self.spinning():  # すべりおわるまで　まつ
                 last = None
                 for k in range(60):
                     self.wait(8); p = self.player()[:2]
@@ -795,6 +833,7 @@ class Bot:
         if isinstance(n, str): n = self.F[n]
         self.cmd(f'w16 {self.sb1() + 0x1B1C + (n - 0x4000) * 2:x} {v:x}')
     def var(self, n):
+        if isinstance(n, str): n = self.F[n]
         return self.r16(self.sb1() + 0x1B1C + (n - 0x4000) * 2)
     def clear_obstacles(self):
         # いあいぎり の 木・いわくだき の 岩：となりへ 行けるものを ぜんぶ こわす
@@ -813,6 +852,7 @@ class Bot:
                     self.handle_busy()
                     if not any(p['lid'] == o['lid'] for p in self.objects()):
                         done = True; self.log('CLEAR', sc, o['x'], o['y'])
+                        Bot.TBLOCK.get(self.mapkey(), set()).discard((o['x'], o['y'])); Bot.SEENOBJ.get(self.mapkey(), {}).pop(o['lid'], None)
                     else: self.log('CANT CLEAR', sc, o['x'], o['y'])
         # シルフの　ドア（カードキー）
         if self.flag('FLAG_KJ_HIDE_SILPH_CO_5F_CARD_KEY') if 'FLAG_KJ_HIDE_SILPH_CO_5F_CARD_KEY' in str(list(self.F.keys())[:0]) or True else False:
@@ -947,7 +987,7 @@ def _boulder_methods():
         prev = {k0: None}; q = collections.deque([(p0, bs0, k0)]); n = 0
         while q and n < maxstates:
             p, bs, key = q.popleft(); n += 1
-            if switch in bs:
+            if (switch(reach(p, set(bs)), bs) if callable(switch) else switch in bs):
                 moves = []; k = key
                 while prev[k]: kp, mv = prev[k]; moves.append(mv); k = kp
                 return moves[::-1]
@@ -962,6 +1002,17 @@ def _boulder_methods():
                     if nk in prev: continue
                     prev[nk] = (key, (lids[i], behind, d)); q.append(((bx, by), nb, nk))
         return None
+    def push_moves(self, mv):
+        for lid, behind, d in mv:
+            bt = self.boulder_tiles()
+            if lid not in bt: return False
+            if not self.goto([behind]): self.log('BOULDER goto fail', behind); return False
+            self.face(d); self.press('A', 2, 20); self.handle_busy()
+            for t in range(3):
+                if self.boulder_tiles().get(lid) != bt[lid]: break
+                self.cmd(f'p {d} 16', 'w 40'); self.handle_busy()
+            self.wait(30)
+        return True
     def do_boulders(self):
         # この　マップの　おされて　いない　スイッチに　いわを　のせる
         info = self.maps[self.mapkey()]; did = False
@@ -982,5 +1033,5 @@ def _boulder_methods():
                 self.wait(30)
             did = True
         return did
-    return boulder_tiles, solve_boulders, do_boulders
-Bot.boulder_tiles, Bot.solve_boulders, Bot.do_boulders = _boulder_methods()
+    return boulder_tiles, solve_boulders, do_boulders, push_moves
+Bot.boulder_tiles, Bot.solve_boulders, Bot.do_boulders, Bot.push_moves = _boulder_methods()
