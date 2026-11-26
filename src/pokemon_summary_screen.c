@@ -4338,10 +4338,14 @@ static void PrintMoveNameAndPP(u8 moveIndex)
         DynamicPlaceholderTextUtil_Reset();
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gStringVar2);
-        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sMovesPPLayout);
-        text = gStringVar4;
+        // HnS JP: print the numbers with the narrow (English) digits so
+        // "PP30/30" fits inside the move selector frame.
+        gStringVar3[0] = EXT_CTRL_CODE_BEGIN;
+        gStringVar3[1] = EXT_CTRL_CODE_ENG;
+        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar3 + 2, sMovesPPLayout);
+        text = gStringVar3;
         ppState = GetCurrentPpToMaxPpState(summary->pp[moveIndex], pp) + 9;
-        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 42);
+        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 40);
     }
     else
     {
@@ -4504,8 +4508,10 @@ static void PrintNewMoveDetailsOrCancelText(void)
         DynamicPlaceholderTextUtil_Reset();
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gStringVar1);
-        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sMovesPPLayout);
-        PrintTextOnWindow(windowId2, gStringVar4, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 44), 65, 0, 12);
+        gStringVar3[0] = EXT_CTRL_CODE_BEGIN;
+        gStringVar3[1] = EXT_CTRL_CODE_ENG;
+        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar3 + 2, sMovesPPLayout);
+        PrintTextOnWindow(windowId2, gStringVar3, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar3, 40), 65, 0, 12);
     }
 }
 
