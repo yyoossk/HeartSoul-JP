@@ -335,7 +335,7 @@ static const u8 sRegisterOptions[] = {
     ACTION_REGISTER_TAP, ACTION_REGISTER_HOLD,
 };
 
-static const u8 sText_RegisterHow[] = _("この　どうぐを　SELECTの\nおす　ながおしに\lとうろく　しますか？");
+static const u8 sText_RegisterHow[] = _("この　どうぐを\nSELECTの　どちらに\nとうろく　しますか？");
 
 static const u8 sContextMenuItems_BallsPocket[] = {
     ACTION_USE,         ACTION_GIVE,
@@ -1078,7 +1078,7 @@ static void PrintItemDescription(int itemIndex)
         str = gStringVar4;
     }
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
-    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 1, 0, 0, 0, COLORID_NORMAL);
+    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 6, 1, 0, 0, 0, COLORID_NORMAL); // HnS JP: a little away from the screen edge
 }
 
 static void BagMenu_PrintCursor(u8 listTaskId, u8 colorIndex)
@@ -2102,7 +2102,7 @@ static void AddRegisterSubMenu(void)
     gBagMenu->contextMenuNumItems = ARRAY_COUNT(sRegisterOptions);
     StringExpandPlaceholders(gStringVar4, sText_RegisterHow);
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
-    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 1, 0, 0, 0, COLORID_NORMAL);
+    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 6, 1, 0, 0, 0, COLORID_NORMAL);
     PrintContextMenuItems(BagMenu_AddWindow(ITEMWIN_1x2));
 }
 

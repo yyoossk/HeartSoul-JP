@@ -1261,7 +1261,7 @@ static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, s
     }
 
     FillWindowPixelBuffer(WIN_ITEM_DESCRIPTION, PIXEL_FILL(0));
-    BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 3, 1, 0, COLORID_NORMAL);
+    BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 6, 1, 0, COLORID_NORMAL); // HnS JP: a little away from the screen edge
 }
 
 static void BuyMenuPrintPriceInList(u8 windowId, u32 itemId, u8 y)

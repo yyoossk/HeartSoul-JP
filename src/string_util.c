@@ -794,7 +794,14 @@ s32 StringCompareWithoutExtCtrlCodes(const u8 *str1, const u8 *str2)
 
 void ConvertInternationalString(u8 *s, enum Language language)
 {
-    if (language == LANGUAGE_JAPANESE)
+    // HnS JP: this is a Japanese game, so Japanese names need no font switch.
+    // Wrapping them in {JPN}...{ENG} switched the rest of the message to the
+    // English font (e.g. the PC mailbox "<name>の メールを どうしますか？").
+    if (language == LANGUAGE_JAPANESE && IS_HNS)
+    {
+        StripExtCtrlCodes(s);
+    }
+    else if (language == LANGUAGE_JAPANESE)
     {
         u32 i;
 
