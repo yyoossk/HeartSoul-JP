@@ -13,14 +13,14 @@ enum RowGUIInfo
     ROWS_COUNT
 };
 
-#define ROW_WATER_ICON_X        30
+#define ROW_WATER_ICON_X        20
 #define ROW_WATER_ICON_Y        35
 
 #define ROW_LAND_ICON_X         20
 #define ROW_LAND_TOP_ICON_Y     72
 #define ROW_LAND_BOT_ICON_Y     (ROW_LAND_TOP_ICON_Y + 28)
 
-#define ROW_HIDDEN_ICON_X       36 // HnS JP: bottom box shows いわくだき (4 slots)
+#define ROW_HIDDEN_ICON_X       20 // HnS JP: bottom box shows いわくだき (4 slots)
 #define ROW_HIDDEN_ICON_Y       138
 
 enum EncounterType

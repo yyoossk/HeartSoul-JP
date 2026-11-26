@@ -240,7 +240,7 @@ static const struct WindowTemplate sDexNavGuiWindowTemplates[] =
     [WINDOW_LBL_ROCK] =
     {
         .bg = 0,
-        .tilemapLeft = 2,
+        .tilemapLeft = 0,
         .tilemapTop = 14,
         .width = 10,
         .height = 2,
@@ -2375,7 +2375,7 @@ static void PrintBoxLabels(void)
         FillWindowPixelBuffer(winIds[i], PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     AddTextPrinterParameterized3(WINDOW_LBL_LAND, FONT_SMALL, 2, 4, sFontColor_White, 0,
                                  sDexNavUiDataPtr->page ? sText_DN_Fish : sText_DN_Land);
-    AddTextPrinterParameterized3(WINDOW_LBL_ROCK, FONT_SMALL, 6, 5, sFontColor_White, 0, sText_DN_Rock);
+    AddTextPrinterParameterized3(WINDOW_LBL_ROCK, FONT_SMALL, 2, 5, sFontColor_White, 0, sText_DN_Rock);
     for (i = 0; i < ARRAY_COUNT(winIds); i++)
     {
         PutWindowTilemap(winIds[i]);
@@ -2398,7 +2398,7 @@ static void PrintSearchableSpecies(u16 species)
     FillWindowPixelBuffer(WINDOW_REGISTERED, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     PutWindowTilemap(WINDOW_REGISTERED);
     AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_NORMAL, 4, 0, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Switch);
-    AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_SMALL, 12, 12, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Water);
+    AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_SMALL, 4, 12, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Water);
     AddTextPrinterParameterized3(WINDOW_REGISTERED, FONT_NORMAL, 164, 13, sFontColor_White, TEXT_SKIP_DRAW, sText_DN_Title);
     PrintMapName();
 }
