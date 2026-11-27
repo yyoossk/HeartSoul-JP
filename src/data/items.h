@@ -167,7 +167,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_MASTER_BALL] =
     {
         .name = ITEM_NAME("マスターボール"),
-        .price = 0,
+        .price = 50000, // HnS JP: sold after the Hall of Fame (5 digits fit the shop list)
         .description = COMPOUND_STRING("やせいの　ポケモンを\nかならず　つかまえる\nさいこうの　ボール"),
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_PARTY_MENU,

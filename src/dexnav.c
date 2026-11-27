@@ -33,6 +33,7 @@
 #include "pokedex.h"
 #include "pokemon.h"
 #include "pokemon_icon.h"
+#include "constants/pokemon_icon.h"
 #include "pokemon_summary_screen.h"
 #include "random.h"
 #include "safari_zone.h"
@@ -2090,14 +2091,106 @@ static u32 DexNavGetEncounterDetails(u16 species, u8 area, u8 *minLv, u8 *maxLv,
 
 // HnS JP: returns the sprite id (bit 15 set for the shared 'X' sprite) so
 // the land box can be redrawn when switching between くさむら and つり.
+// HnS JP: a small Poke Ball marks the species already caught. It uses the colors
+// of mon icon palette 0 so no extra palette slot is needed.
+static const u32 sDexNavCaughtBallGfx[] = {0x00000000, 0x000FFF00, 0x00F666F0, 0x0F6FFF6F, 0x0FFF3FFF, 0x0F32F23F, 0x00F333F0, 0x000FFF00};
+#define DEXNAV_CAUGHT_BALL_TAG 0x4011
+#define DEXNAV_GRAY_PAL_TAG    0x4020
+static const struct OamData sDexNavCaughtBallOam =
+{
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .shape = SPRITE_SHAPE(8x8),
+    .size = SPRITE_SIZE(8x8),
+    .priority = 0,
+};
+static const struct SpriteTemplate sDexNavCaughtBallTemplate =
+{
+    .tileTag = DEXNAV_CAUGHT_BALL_TAG,
+    .paletteTag = POKE_ICON_BASE_PAL_TAG,
+    .oam = &sDexNavCaughtBallOam,
+    .anims = gDummySpriteAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy,
+};
+
+static void DexNavCreateCaughtBall(s16 x, s16 y)
+{
+    u8 spriteId;
+
+    if (IndexOfSpriteTileTag(DEXNAV_CAUGHT_BALL_TAG) == 0xFF)
+    {
+        struct SpriteSheet sheet = {(const u8 *)sDexNavCaughtBallGfx, sizeof(sDexNavCaughtBallGfx), DEXNAV_CAUGHT_BALL_TAG};
+        LoadSpriteSheet(&sheet);
+    }
+    spriteId = CreateSprite(&sDexNavCaughtBallTemplate, x + 10, y + 9, 0);
+    if (spriteId != MAX_SPRITES)
+        gSprites[spriteId].data[0] = y; // to find the ones in the land box
+}
+
+static void DexNavDestroyCaughtBallsInRows(s16 yMin, s16 yMax)
+{
+    u32 i;
+
+    for (i = 0; i < MAX_SPRITES; i++)
+    {
+        if (gSprites[i].inUse && gSprites[i].template == &sDexNavCaughtBallTemplate
+         && gSprites[i].data[0] >= yMin && gSprites[i].data[0] <= yMax)
+            DestroySprite(&gSprites[i]);
+    }
+}
+
+// HnS JP: species not yet seen are drawn in gray (option「でるポケモン：みせる」)
+static void DexNavMakeIconGray(u16 spriteId, u16 species)
+{
+    u32 palIndex = GetValidMonIconPalIndex(species);
+    u32 slot = IndexOfSpritePaletteTag(DEXNAV_GRAY_PAL_TAG + palIndex);
+
+    if (slot == 0xFF)
+    {
+        u16 buf[16];
+        u32 i;
+        const u16 *src = gMonIconPaletteTable[palIndex].data;
+        struct SpritePalette pal = {buf, DEXNAV_GRAY_PAL_TAG + palIndex};
+
+        for (i = 0; i < 16; i++)
+        {
+            u32 r = src[i] & 31, g = (src[i] >> 5) & 31, b = (src[i] >> 10) & 31;
+            u32 l = (r * 30 + g * 59 + b * 11) / 100;
+            l = 8 + l / 2; // lighter, low-contrast gray
+            buf[i] = RGB(l, l, l);
+        }
+        slot = LoadSpritePalette(&pal);
+    }
+    if (slot < 12)
+        gSprites[spriteId].oam.paletteNum = slot;
+}
+
+// HnS JP: the option「でるポケモン：みせる」reveals species not yet seen
+static bool32 DexNavIsRevealed(u16 species)
+{
+    return gSaveBlock3Ptr->challengeSettings.dexNavShowUnseen
+        || GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_SEEN);
+}
+
 static u16 TryDrawIconInSlot(u16 species, s16 x, s16 y)
 {
     if (species == SPECIES_NONE || species > NUM_SPECIES)
         return 0xFFFF;   // HnS JP: empty slots are left blank (no 'X')
-    else if (!GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_SEEN))
+    else if (!DexNavIsRevealed(species))
         return CreateMonIcon(SPECIES_NONE, SpriteCB_MonIcon, x, y, 0, 0xFFFFFFFF); //question mark
     else
-        return CreateMonIcon(species, SpriteCB_MonIcon, x, y, 0, 0xFFFFFFFF);
+    {
+        u16 spriteId = CreateMonIcon(species, SpriteCB_MonIcon, x, y, 0, 0xFFFFFFFF);
+        enum NationalDexOrder dexNum = SpeciesToNationalPokedexNum(species);
+
+        if (GetSetPokedexFlag(dexNum, FLAG_GET_CAUGHT))
+            DexNavCreateCaughtBall(x, y);
+        else if (!GetSetPokedexFlag(dexNum, FLAG_GET_SEEN) && spriteId < MAX_SPRITES)
+            DexNavMakeIconGray(spriteId, species);
+        return spriteId;
+    }
 }
 
 static const u16 *DexNavGetLandBoxSpecies(void)
@@ -2121,6 +2214,8 @@ static void DrawLandBoxIcons(void)
 static void DestroyLandBoxIcons(void)
 {
     u32 i;
+
+    DexNavDestroyCaughtBallsInRows(ROW_LAND_TOP_ICON_Y, ROW_LAND_TOP_ICON_Y + 28);
 
     for (i = 0; i < LAND_WILD_COUNT; i++)
     {
@@ -2275,7 +2370,7 @@ static void PrintCurrentSpeciesInfo(void)
     u16 species = DexNavGetSpecies();
     enum NationalDexOrder dexNum = SpeciesToNationalPokedexNum(species);
     enum Type type1, type2;
-    bool32 seen = (species != SPECIES_NONE && GetSetPokedexFlag(dexNum, FLAG_GET_SEEN));
+    bool32 seen = (species != SPECIES_NONE && DexNavIsRevealed(species));
     u8 area = DexNavGetCursorArea();
     u8 minLv, maxLv, rods;
     u32 chance;
@@ -2339,7 +2434,7 @@ static void PrintCurrentSpeciesInfo(void)
         // pokedex status
         if (GetSetPokedexFlag(dexNum, FLAG_GET_CAUGHT))
             AddTextPrinterParameterized3(WINDOW_INFO, FONT_SMALL, 4, INFO_TXT_Y(4), sFontColor_Black, 0, sText_DN_Caught);
-        else if (seen)
+        else if (GetSetPokedexFlag(dexNum, FLAG_GET_SEEN))
             AddTextPrinterParameterized3(WINDOW_INFO, FONT_SMALL, 4, INFO_TXT_Y(4), sFontColor_Black, 0, sText_DN_Seen);
         else
             AddTextPrinterParameterized3(WINDOW_INFO, FONT_SMALL, 4, INFO_TXT_Y(4), sFontColor_Black, 0, sText_DN_NotSeen);

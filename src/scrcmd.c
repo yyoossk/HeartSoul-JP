@@ -3148,7 +3148,10 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
         // randomized moves, etc.) can make permanent. Owning the TM/HM is enough: let the first
         // non-egg mon use it regardless of its learnset.
         enum Item itemId = GetTMHMItemIdFromMoveId(moveId);
-        if (itemId != ITEM_NONE && CheckBagHasItem(itemId, 1))
+        // HnS JP: Headbutt has no machine; once a tutor has taught it (FLAG_GET_HEADBUTT),
+        // any Pokemon may use it on trees.
+        if ((itemId != ITEM_NONE && CheckBagHasItem(itemId, 1))
+         || (moveId == MOVE_HEADBUTT && FlagGet(FLAG_GET_HEADBUTT)))
         {
             for (u32 i = 0; i < GetMaxPartySize(); i++)
             {

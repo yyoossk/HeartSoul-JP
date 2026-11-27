@@ -235,6 +235,24 @@ static u32 CanMonLearnPLAMove(struct BoxPokemon *boxmon)
     return CANNOT_LEARN_MOVE;
 }
 
+// HnS JP: for the party menu. Returns -1 if the move is not taught by the PLA tutor,
+// otherwise TRUE/FALSE whether the species can learn it there.
+s32 CanSpeciesLearnPLATutorMove(u16 species, u16 move)
+{
+    u32 i;
+    bool32 isPlaMove = FALSE;
+
+    for (i = 0; i < ARRAY_COUNT(sPLATutorLearnsets); i++)
+    {
+        if (sPLATutorLearnsets[i][1] != move)
+            continue;
+        isPlaMove = TRUE;
+        if (sPLATutorLearnsets[i][0] == species)
+            return TRUE;
+    }
+    return isPlaMove ? FALSE : -1;
+}
+
 u32 IsBoxMonExcluded(struct BoxPokemon *boxmon)
 {
     struct Pokemon mon = {0};
@@ -267,7 +285,9 @@ static void Task_ChooseBoxMon(u8 taskId)
 void ChooseBoxMon(struct ScriptContext *ctx)
 {
     sSelectionType = ScriptReadByte(ctx);
-    if (!OW_CHOOSE_FROM_PC_AND_PARTY)
+    // HnS JP: move tutors and the move relearner use the party menu, not the PC boxes
+    if (!OW_CHOOSE_FROM_PC_AND_PARTY || sSelectionType == SELECT_PC_MON_MOVE_TUTOR || sSelectionType == SELECT_PC_MON_PLA_TUTOR
+     || sSelectionType == SELECT_PC_MON_MOVE_RELEARNER)
     {
         sPcMonSelectionTypes[sSelectionType].partyMonBackup();
         return;
