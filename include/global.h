@@ -274,7 +274,8 @@ struct ChallengeSettings
     u8 bikeMusic:1;
     u8 surfMusic:1;
     u8 timeOfDayMode:2; // 0=auto 1=morning 2=day 3=night
-    bool8 autoRun;
+    u8 autoRun:1;
+    u8 dexNavShowUnseen:1; // HnS JP: でるポケモン shows species not yet seen
     // Randomizer
     u8 tx_Random_Chaos:1;
     u8 tx_Random_WildPokemon:1;

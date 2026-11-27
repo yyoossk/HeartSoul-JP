@@ -2090,11 +2090,18 @@ static u32 DexNavGetEncounterDetails(u16 species, u8 area, u8 *minLv, u8 *maxLv,
 
 // HnS JP: returns the sprite id (bit 15 set for the shared 'X' sprite) so
 // the land box can be redrawn when switching between くさむら and つり.
+// HnS JP: the option「でるポケモン：みせる」reveals species not yet seen
+static bool32 DexNavIsRevealed(u16 species)
+{
+    return gSaveBlock3Ptr->challengeSettings.dexNavShowUnseen
+        || GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_SEEN);
+}
+
 static u16 TryDrawIconInSlot(u16 species, s16 x, s16 y)
 {
     if (species == SPECIES_NONE || species > NUM_SPECIES)
         return 0xFFFF;   // HnS JP: empty slots are left blank (no 'X')
-    else if (!GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_SEEN))
+    else if (!DexNavIsRevealed(species))
         return CreateMonIcon(SPECIES_NONE, SpriteCB_MonIcon, x, y, 0, 0xFFFFFFFF); //question mark
     else
         return CreateMonIcon(species, SpriteCB_MonIcon, x, y, 0, 0xFFFFFFFF);
@@ -2275,7 +2282,7 @@ static void PrintCurrentSpeciesInfo(void)
     u16 species = DexNavGetSpecies();
     enum NationalDexOrder dexNum = SpeciesToNationalPokedexNum(species);
     enum Type type1, type2;
-    bool32 seen = (species != SPECIES_NONE && GetSetPokedexFlag(dexNum, FLAG_GET_SEEN));
+    bool32 seen = (species != SPECIES_NONE && DexNavIsRevealed(species));
     u8 area = DexNavGetCursorArea();
     u8 minLv, maxLv, rods;
     u32 chance;
@@ -2339,7 +2346,7 @@ static void PrintCurrentSpeciesInfo(void)
         // pokedex status
         if (GetSetPokedexFlag(dexNum, FLAG_GET_CAUGHT))
             AddTextPrinterParameterized3(WINDOW_INFO, FONT_SMALL, 4, INFO_TXT_Y(4), sFontColor_Black, 0, sText_DN_Caught);
-        else if (seen)
+        else if (GetSetPokedexFlag(dexNum, FLAG_GET_SEEN))
             AddTextPrinterParameterized3(WINDOW_INFO, FONT_SMALL, 4, INFO_TXT_Y(4), sFontColor_Black, 0, sText_DN_Seen);
         else
             AddTextPrinterParameterized3(WINDOW_INFO, FONT_SMALL, 4, INFO_TXT_Y(4), sFontColor_Black, 0, sText_DN_NotSeen);
