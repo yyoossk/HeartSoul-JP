@@ -177,9 +177,15 @@ void SubtractMoneyFromVar0x8005(void)
     RemoveMoney(&gSaveBlock1Ptr->money, gSpecialVar_0x8005);
 }
 
+void PrintMoneyAmountRightAligned(u8 windowId, u8 y, int amount, u8 speed);
+
+// HnS JP: the money box ("おこづかい" label + amount) is 80 px wide. Japanese digits
+// are 8 px, so the space-padded amount ran off the right edge. Clear the box and
+// print the amount right-aligned (narrow digits when it would hit the label).
 void PrintMoneyAmountInMoneyBox(u8 windowId, int amount, u8 speed)
 {
-    PrintMoneyAmount(windowId, CalculateMoneyTextHorizontalPosition(amount), 1, amount, speed);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    PrintMoneyAmountRightAligned(windowId, 1, amount, speed);
 }
 
 static u32 CalculateLeadingSpacesForMoney(u32 numDigits)
